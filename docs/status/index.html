@@ -202,7 +202,7 @@
       }});
   } catch(e){}
 })();
-</script><header><div><h1>Crawl status</h1><p class=sub>What the crawler has harvested so far</p></div><nav><a href='/'>Overview</a><a href='/lens'>Lenses</a><a href='/dashboard'>Dashboard</a><a href='/map'>Map</a><a href='/graph'>Graph</a><a href='/browse'>Browse</a><a href='/articles'>Articles</a><a href='/status'>Crawl status</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
+</script><header><div><h1>Crawl status</h1><p class=sub>What the crawler has harvested so far</p></div><nav><a href='/'>Overview</a><a href='/lens'>Lenses</a><a href='/dashboard'>Dashboard</a><a href='/browse'>Browse</a><a href='/articles'>Articles</a><a href='/activity'>Activity</a><a href='/status'>Crawl status</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
 const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
 async function load(){const d=await (await fetch('/api/status')).json();const main=document.getElementById('main');main.textContent='';
   if(!d.dbPresent){main.append(el('div',{className:'empty'},[el('p',{textContent:'No catalog database yet.'}),el('p',{className:'muted',textContent:'Expected at: '+d.dbPath}),el('p',{className:'muted',textContent:'Run the crawler to create it, then reload this page.'})]));return;}
