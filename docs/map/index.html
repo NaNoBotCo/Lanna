@@ -1,0 +1,255 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><meta name='theme-color' content='#1F4E4A'><link rel=icon type='image/svg+xml' href='/favicon.svg'><meta name='description' content='A living archive of Lanna manuscripts and the wichaa tradition — divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta property='og:type' content='website'><meta property='og:site_name' content='Lanna Manuscript Wiki'><meta property='og:title' content='Map — Lanna Manuscript Wiki'><meta property='og:description' content='A living archive of Lanna manuscripts and the wichaa tradition — divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta property='og:image' content='https://nanobotco.github.io/Lanna/og.jpg'><meta property='og:image:width' content='1200'><meta property='og:image:height' content='630'><meta property='og:image:alt' content='Circular yantra from a Lanna manuscript'><meta name='twitter:card' content='summary_large_image'><meta name='twitter:title' content='Map — Lanna Manuscript Wiki'><meta name='twitter:description' content='A living archive of Lanna manuscripts and the wichaa tradition — divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta name='twitter:image' content='https://nanobotco.github.io/Lanna/og.jpg'><title>Map — Lanna Manuscript Wiki</title><style>
+  :root{
+    --ink:#141b1a; --muted:#3a4a47; --line:#c9d6d2;
+    --teal:#1F4E4A; --teal-ink:#ffffff; --bg:#f4f7f6; --card:#ffffff;
+    --focus:#0b5cad; --gold:#8a5a00; --gold-bg:#fbf1dc; --ok:#0f6b3f;
+    --prio:#7a1f1f; --prio-bg:#fbe6e6;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:17px/1.55 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  a{color:var(--focus)}
+  header{background:linear-gradient(180deg,#245852,#1b4541);color:var(--teal-ink);padding:16px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;box-shadow:0 2px 10px #00000022}
+  header h1{margin:0;font-size:24px;font-family:var(--serif);letter-spacing:.01em}
+  .card>h2:first-child,.card>h2{font-family:var(--serif)}
+  header .sub{color:#dfeae7;margin:0}
+  header nav{margin-left:auto;display:flex;gap:10px}
+  header nav a{color:#fff;text-decoration:none;font-weight:700;border:2px solid #ffffff66;border-radius:8px;padding:8px 14px}
+  header nav a:hover{background:#ffffff22}
+  main{max-width:1080px;margin:0 auto;padding:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:0 0 16px}
+  button{font:inherit;font-weight:700;color:var(--teal-ink);background:var(--teal);border:2px solid var(--teal);border-radius:8px;padding:10px 16px;cursor:pointer;min-height:44px}
+  button.secondary{background:#fff;color:var(--teal)}
+  button:hover{background:#163b38;border-color:#163b38}
+  button.secondary:hover{background:#eef4f2}
+  input[type=text],input[type=search],select,textarea{width:100%;padding:10px 12px;font-size:16px;border:1px solid #6b7f7a;border-radius:8px;color:var(--ink);background:#fff}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+  .pill{display:inline-block;font-size:13px;font-weight:700;padding:2px 10px;border-radius:999px;border:1px solid var(--line);background:#eef2f1;color:var(--muted);margin:2px 4px 2px 0}
+  .pill.script{background:var(--gold-bg);border-color:#e5cf9a;color:var(--gold)}
+  .pill.prio{background:var(--prio-bg);border-color:#e0a3a3;color:var(--prio)}
+  .muted{color:var(--muted)}
+  .thai{font-size:1.15em}
+  .empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px;background:#fff}
+
+  .lead{color:var(--muted);margin:0 0 14px;max-width:72ch}
+  .maprow{display:grid;grid-template-columns:1fr 300px;gap:18px}
+  @media(max-width:860px){.maprow{grid-template-columns:1fr}}
+  .mapbox{background:linear-gradient(#f2f7f6,#eaf1ef);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  svg.map{display:block;width:100%;height:auto}
+  svg.map .dot{fill:var(--teal);fill-opacity:.72;stroke:#0a4f4f;stroke-width:1.5;cursor:pointer;transition:fill-opacity .1s}
+  svg.map a:hover .dot{fill-opacity:.95}
+  svg.map a:focus .dot{outline:none;stroke:var(--focus);stroke-width:3}
+  svg.map .lbl{font-size:20px;font-weight:700;fill:var(--ink);paint-order:stroke;stroke:#fff;stroke-width:4px}
+  svg.map .cnt{font-size:17px;font-weight:800;fill:#fff}
+  .plist{list-style:none;margin:0;padding:0}
+  .plist li{margin:0 0 6px}
+  .plist a{display:flex;justify-content:space-between;gap:10px;text-decoration:none;color:inherit;border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 12px;font-weight:700}
+  .plist a:hover{border-color:var(--teal)}
+  .plist .pn{background:#eef2f1;color:var(--muted);border-radius:999px;padding:1px 10px;font-size:13px}
+  .side h2{font-size:16px;margin:0 0 8px}
+  .unplaced{color:var(--muted);font-size:14px;margin-top:14px}
+</style></head><body><script>window.__LANNA_BASE__="/Lanna/";</script><script>
+(function(){
+  "use strict";
+  // ---- Lanna Wiki static shim: run the dynamic viewer on a static host ----------
+  // BASE lets the same build work at the domain root ('/') or under a project path
+  // ('/Lanna/'). All static targets are resolved through S() so they land correctly.
+  var BASE = (window.__LANNA_BASE__ || '/');
+  if (BASE.charAt(BASE.length-1) !== '/') BASE += '/';
+  function S(p){ return BASE + String(p).replace(/^\//,''); }
+  var PLACE = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="260" height="150">'+
+    '<rect width="100%" height="100%" fill="#eef2f1"/>'+
+    '<text x="50%" y="50%" fill="#3a4a47" font-family="sans-serif" font-size="13" '+
+    'text-anchor="middle" dominant-baseline="middle">raw scan — view at source</text></svg>');
+  function art(s){ return String(s==null?'':s).replace(/[^A-Za-z0-9]+/g,'_'); }
+  function jresp(o){ return new Response(JSON.stringify(o),
+    {status:200, headers:{'Content-Type':'application/json; charset=utf-8'}}); }
+  var NOARG = {
+    '/api/overview':'/api/overview.json','/api/dashboard':'/api/dashboard.json',
+    '/api/places':'/api/places.json','/api/lenses':'/api/lenses.json',
+    '/api/vocab':'/api/vocab.json','/api/market':'/api/market.json',
+    '/api/graph':'/api/graph.json','/api/articles':'/api/articles.json',
+    '/api/status':'/api/status.json','/api/manuscripts':'/api/manuscripts.json',
+    '/api/graph.jsonld':'/api/graph.jsonld','/api/graph.ttl':'/api/graph.ttl'
+  };
+  var _fetch = window.fetch ? window.fetch.bind(window) : function(u){return fetch(u);};
+
+  var _docs=null;
+  function loadDocs(){ if(_docs) return Promise.resolve(_docs);
+    return _fetch(S('/api/searchdocs.json')).then(function(r){return r.json();})
+      .then(function(d){_docs=d;return d;}).catch(function(){_docs=[];return [];}); }
+  var _thes=null;
+  function loadThes(){ if(_thes) return Promise.resolve(_thes);
+    return _fetch(S('/api/thesaurus.json')).then(function(r){return r.json();})
+      .then(function(t){_thes=t;return t;}).catch(function(){_thes={};return {};}); }
+  // mirrors wiki.py _expand_token: query token -> OR-set of cross-language equivalents
+  function expand(tok, thes){
+    tok=(tok||'').toLowerCase();
+    var members={}; members[tok]=1;
+    if(tok.length<2) return Object.keys(members);
+    for(var key in thes){
+      if(tok===key || (tok.length>=3 && (tok.indexOf(key)>=0 || key.indexOf(tok)>=0))){
+        var grp=thes[key]; for(var i=0;i<grp.length;i++) members[grp[i]]=1;
+      }
+    }
+    return Object.keys(members);
+  }
+  function staticSearch(q){
+    q=(q||'').trim(); var out={manuscripts:[],articles:[],query:q};
+    if(!q) return Promise.resolve(jresp(out));
+    return Promise.all([loadDocs(), loadThes()]).then(function(res){
+      var docs=res[0], thes=res[1];
+      var groups=q.toLowerCase().split(/\s+/).filter(Boolean)
+                  .map(function(t){return expand(t, thes);}).filter(function(g){return g.length;});
+      if(!groups.length) return jresp(out);
+      var scored=[];
+      for(var i=0;i<docs.length;i++){
+        var d=docs[i], title=(d.ntitle||'').toLowerCase(), body=(d.nbody||'').toLowerCase();
+        var ok=true, score=0, pos=null;
+        for(var j=0;j<groups.length;j++){
+          var g=groups[j], ghit=0;
+          for(var m=0;m<g.length;m++){
+            var tk=g[m]; if(!tk) continue;
+            if(title.indexOf(tk)>=0) ghit+=12;
+            var idx=body.indexOf(tk);
+            if(idx>=0){ ghit+=Math.min(body.split(tk).length-1,6); if(pos===null||idx<pos)pos=idx; }
+          }
+          if(ghit===0){ok=false;break;} score+=ghit;
+        }
+        if(ok) scored.push([score,d,pos]);
+      }
+      scored.sort(function(a,b){return b[0]-a[0];});
+      for(var k=0;k<scored.length;k++){
+        var d2=scored[k][1], pos2=scored[k][2]==null?0:scored[k][2];
+        var text=d2.nbody||d2.ntitle||'';
+        var snip=text.substr(Math.max(0,pos2-60),200).replace(/\s+/g,' ').trim();
+        if(d2.kind==='m'){ if(out.manuscripts.length<60)
+          out.manuscripts.push({id:parseInt(d2.ref,10),label:d2.label,snippet:snip}); }
+        else { if(out.articles.length<60)
+          out.articles.push({key:d2.ref,label:d2.label,snippet:snip}); }
+      }
+      return jresp(out);
+    });
+  }
+
+  var _scans=null;
+  function loadScans(){ if(_scans) return Promise.resolve(_scans);
+    return _fetch(S('/api/scans.all.json')).then(function(r){return r.json();})
+      .then(function(d){_scans=d.scans||[];return _scans;}).catch(function(){_scans=[];return [];}); }
+  function scansSlice(sp){
+    var midp=sp.get('mid'); var mid = midp?parseInt(midp,10):null;
+    var offset=parseInt(sp.get('offset')||'0',10)||0;
+    var limit=parseInt(sp.get('limit')||'120',10)||120;
+    var onlyT=(sp.get('only')==='transcribed');
+    return loadScans().then(function(all){
+      var pool=all.filter(function(s){
+        if(mid!==null && s.id!==mid) return false;
+        if(onlyT && !s.transcribed) return false;
+        return true;
+      });
+      return jresp({dbPresent:true, scans:pool.slice(offset,offset+limit),
+                    offset:offset, limit:limit, total:pool.length});
+    });
+  }
+
+  window.fetch = function(input, init){
+    init = init || {};
+    var url;
+    try { url = new URL((typeof input==='string')?input:input.url, location.origin); }
+    catch(e){ return _fetch(input, init); }
+    if(url.origin !== location.origin) return _fetch(input, init);
+    var method = (init.method || (typeof input!=='string' && input.method) || 'GET').toUpperCase();
+    var p = url.pathname, sp = url.searchParams;
+    if(method !== 'GET') return Promise.resolve(jresp({ok:false, readonly:true}));
+    if(p==='/api/search') return staticSearch(sp.get('q'));
+    if(p==='/api/gallery' && sp.get('source')==='scans') return scansSlice(sp);
+    if(NOARG[p]) return _fetch(S(NOARG[p]), {});
+    if(p==='/api/manuscript') return _fetch(S('/api/manuscript/'+encodeURIComponent(sp.get('id'))+'.json'), {});
+    if(p==='/api/article')    return _fetch(S('/api/article/'+art(sp.get('s'))+'.json'), {});
+    if(p==='/api/gallery'){
+      var src=sp.get('source');
+      if(src==='scan-index') return _fetch(S('/api/gallery.scan-index.json'), {});
+      return _fetch(S('/api/gallery.json'), {});
+    }
+    if(p==='/pimg') return _fetch(S('/pimg/'+sp.get('mid')+'/'+sp.get('n')+'.png'), {});
+    return _fetch(input, init);
+  };
+
+  // internal navigation: app links are baked as root-absolute ('/browse', '/m?id=…').
+  // Under a project subpath they must be re-rooted at BASE. A capture-phase click
+  // handler does this for every link, however it was created.
+  document.addEventListener('click', function(ev){
+    if(ev.defaultPrevented || ev.button!==0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+    var a = ev.target && ev.target.closest ? ev.target.closest('a[href]') : null;
+    if(!a) return;
+    if(a.target==='_blank') return;
+    var href=a.getAttribute('href');
+    if(!href || href.charAt(0)!=='/' || href.charAt(1)==='/') return;  // only root-absolute, not protocol-relative
+    if(BASE!=='/' && href.indexOf(BASE)===0) return;                   // already re-rooted
+    ev.preventDefault();
+    location.href = S(href);
+  }, true);
+
+  // rewrite <img> src (Object.assign in el() sets the .src property, so this catches it)
+  try {
+    var proto=HTMLImageElement.prototype;
+    var desc=Object.getOwnPropertyDescriptor(proto,'src');
+    Object.defineProperty(proto,'src',{configurable:true,enumerable:true,
+      get:function(){return desc.get.call(this);},
+      set:function(v){
+        try{
+          var u=new URL(v, location.origin);
+          if(u.origin===location.origin){
+            if(u.pathname==='/pimg'){
+              v=S('/pimg/'+u.searchParams.get('mid')+'/'+u.searchParams.get('n')+'.png');
+            } else if(u.pathname==='/img'){ v=PLACE; }
+          }
+        }catch(e){}
+        desc.set.call(this,v);
+      }});
+  } catch(e){}
+})();
+</script><header><div><h1>Map of provenance</h1><p class=sub>Where the surviving manuscripts come from</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/gallery'>Plates</a><a href='/market'>Market</a><a href='/vocab'>Vocabulary</a><a href='/articles'>Articles</a><a href='/map'>Map</a><a href='/graph'>Graph</a><a href='/activity'>Activity</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
+const SVGNS='http://www.w3.org/2000/svg';
+const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
+const svg=(t,a={},k=[])=>{const e=document.createElementNS(SVGNS,t);for(const[n,v]of Object.entries(a))e.setAttribute(n,v);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
+const B='/browse?';const enc=encodeURIComponent;
+async function load(){
+  const d=await (await fetch('/api/places')).json();
+  const main=document.getElementById('main');main.textContent='';
+  if(!d.dbPresent){main.append(el('div',{className:'empty'},[el('p',{textContent:'No catalog database yet.'})]));return;}
+  main.append(el('p',{className:'lead',textContent:'Each dot is a province, sized by how many manuscripts trace to it — the Lanna heartland of Phrae, Lampang, Chiang Mai, Nan and their neighbours. Click a dot (or a name in the list) to browse everything from that place.'}));
+  const row=el('div',{className:'maprow'});
+  // --- SVG dot-map ---
+  const bb=d.bbox;const box=el('div',{className:'mapbox'});
+  const s=svg('svg',{class:'map',viewBox:'0 0 '+bb.w+' '+bb.h,role:'img','aria-label':'Provenance map'});
+  const rmax=Math.sqrt(d.max||1);
+  // draw larger dots first so small ones stay clickable on top
+  const sorted=[...d.places].sort((a,b)=>b.n-a.n);
+  for(const p of sorted){
+    const r=14+56*(Math.sqrt(p.n)/rmax);
+    const a=svg('a',{href:B+'province='+enc(p.value)});
+    a.append(svg('title',{},p.label+': '+p.n.toLocaleString()+' manuscripts'));
+    a.append(svg('circle',{class:'dot',cx:p.x,cy:p.y,r:r}));
+    if(p.n/(d.max||1)>0.18)a.append(svg('text',{class:'cnt',x:p.x,y:p.y+6,'text-anchor':'middle'},p.n.toLocaleString()));
+    a.append(svg('text',{class:'lbl',x:p.x,y:p.y-r-6,'text-anchor':'middle'},p.label));
+    s.append(a);
+  }
+  box.append(s);row.append(box);
+  // --- side list ---
+  const side=el('div',{className:'side'});
+  side.append(el('h2',{textContent:'By province'}));
+  const ul=el('ul',{className:'plist'});
+  for(const p of d.places){ul.append(el('li',{},[el('a',{href:B+'province='+enc(p.value)},
+    [document.createTextNode(p.label),el('span',{className:'pn',textContent:p.n.toLocaleString()})])]));}
+  side.append(ul);
+  if(d.unplaced&&d.unplaced.length){
+    const total=d.unplaced.reduce((s,u)=>s+u.n,0);
+    side.append(el('p',{className:'unplaced',textContent:d.unplaced.length+' other provenance labels ('+total.toLocaleString()+' manuscripts) are district- or temple-level and not yet placed on the map.'}));
+  }
+  row.append(side);
+  const card=el('div',{className:'card'});card.append(row);main.append(card);
+}
+load();
+</script></body></html>

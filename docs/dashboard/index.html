@@ -1,0 +1,346 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><meta name='theme-color' content='#1F4E4A'><link rel=icon type='image/svg+xml' href='/favicon.svg'><meta name='description' content='A living archive of Lanna manuscripts and the wichaa tradition — divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta property='og:type' content='website'><meta property='og:site_name' content='Lanna Manuscript Wiki'><meta property='og:title' content='Dashboard — Lanna Manuscript Wiki'><meta property='og:description' content='A living archive of Lanna manuscripts and the wichaa tradition — divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta property='og:image' content='https://nanobotco.github.io/Lanna/og.jpg'><meta property='og:image:width' content='1200'><meta property='og:image:height' content='630'><meta property='og:image:alt' content='Circular yantra from a Lanna manuscript'><meta name='twitter:card' content='summary_large_image'><meta name='twitter:title' content='Dashboard — Lanna Manuscript Wiki'><meta name='twitter:description' content='A living archive of Lanna manuscripts and the wichaa tradition — divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta name='twitter:image' content='https://nanobotco.github.io/Lanna/og.jpg'><title>Dashboard — Lanna Manuscript Wiki</title><style>
+  :root{
+    --ink:#141b1a; --muted:#3a4a47; --line:#c9d6d2;
+    --teal:#1F4E4A; --teal-ink:#ffffff; --bg:#f4f7f6; --card:#ffffff;
+    --focus:#0b5cad; --gold:#8a5a00; --gold-bg:#fbf1dc; --ok:#0f6b3f;
+    --prio:#7a1f1f; --prio-bg:#fbe6e6;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:17px/1.55 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  a{color:var(--focus)}
+  header{background:linear-gradient(180deg,#245852,#1b4541);color:var(--teal-ink);padding:16px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;box-shadow:0 2px 10px #00000022}
+  header h1{margin:0;font-size:24px;font-family:var(--serif);letter-spacing:.01em}
+  .card>h2:first-child,.card>h2{font-family:var(--serif)}
+  header .sub{color:#dfeae7;margin:0}
+  header nav{margin-left:auto;display:flex;gap:10px}
+  header nav a{color:#fff;text-decoration:none;font-weight:700;border:2px solid #ffffff66;border-radius:8px;padding:8px 14px}
+  header nav a:hover{background:#ffffff22}
+  main{max-width:1080px;margin:0 auto;padding:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:0 0 16px}
+  button{font:inherit;font-weight:700;color:var(--teal-ink);background:var(--teal);border:2px solid var(--teal);border-radius:8px;padding:10px 16px;cursor:pointer;min-height:44px}
+  button.secondary{background:#fff;color:var(--teal)}
+  button:hover{background:#163b38;border-color:#163b38}
+  button.secondary:hover{background:#eef4f2}
+  input[type=text],input[type=search],select,textarea{width:100%;padding:10px 12px;font-size:16px;border:1px solid #6b7f7a;border-radius:8px;color:var(--ink);background:#fff}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+  .pill{display:inline-block;font-size:13px;font-weight:700;padding:2px 10px;border-radius:999px;border:1px solid var(--line);background:#eef2f1;color:var(--muted);margin:2px 4px 2px 0}
+  .pill.script{background:var(--gold-bg);border-color:#e5cf9a;color:var(--gold)}
+  .pill.prio{background:var(--prio-bg);border-color:#e0a3a3;color:var(--prio)}
+  .muted{color:var(--muted)}
+  .thai{font-size:1.15em}
+  .empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px;background:#fff}
+
+  .hero{display:flex;gap:16px;flex-wrap:wrap;margin:0 0 6px}
+  .hbox{display:block;background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 20px;min-width:150px;text-decoration:none;color:inherit}
+  .hbox:hover{border-color:var(--teal);box-shadow:0 1px 4px #0001}
+  .hbox b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
+  .hbox span{font-size:30px;font-weight:800;color:var(--teal)}
+  .hbox.prio span{color:var(--prio)}
+  .hbox small{color:var(--muted);font-weight:600}
+  h2.sec{margin:0 0 4px;font-size:18px}
+  .lead{color:var(--muted);margin:0 0 14px;max-width:70ch}
+  .covrow{display:grid;grid-template-columns:200px 1fr 120px;grid-template-areas:'l b n';align-items:center;gap:12px;margin:0 0 8px}
+  @media(max-width:640px){.covrow{grid-template-columns:140px 1fr;grid-template-areas:'l b' 'l n'}}
+  .covrow .cl{font-weight:700}
+  .covrow .cl a{color:var(--teal);text-decoration:none}
+  .covrow .cl a:hover{text-decoration:underline}
+  .covrow .cl .star{color:var(--prio)}
+  .cbar{position:relative;height:22px;background:#e7eeeb;border-radius:6px;overflow:hidden}
+  .cfill{position:absolute;left:0;top:0;height:100%;background:var(--teal);border-radius:6px}
+  .cnum{font-size:14px;color:var(--muted);white-space:nowrap}
+  .cnum b{color:var(--ink)}
+  .dwrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:#fff}
+  table.heat{border-collapse:collapse;font-size:14px;min-width:100%}
+  table.heat th,table.heat td{border:1px solid #eef2f1;text-align:center;padding:0}
+  table.heat thead th{background:#f4f8f7;color:var(--ink);font-weight:800;padding:8px 10px;position:sticky;top:0}
+  table.heat th.rowh{text-align:left;background:#fff;font-weight:700;padding:8px 12px;white-space:nowrap;position:sticky;left:0;z-index:1}
+  table.heat th.rowh a{color:var(--teal);text-decoration:none}
+  table.heat th.rowh a:hover{text-decoration:underline}
+  table.heat th.rowh .star{color:var(--prio)}
+  table.heat th.corner{background:#f4f8f7;position:sticky;left:0;top:0;z-index:2}
+  table.heat td.c{padding:0}
+  table.heat td.c a{display:block;padding:10px 12px;min-width:46px;text-decoration:none;color:inherit;font-weight:700}
+  table.heat td.c a:hover{outline:2px solid var(--focus);outline-offset:-2px}
+  table.heat td.c.empty{color:#c8d3d0}
+  table.heat tfoot th{background:#f9fbfa;font-weight:800;padding:8px 10px;color:var(--muted)}
+  .tot{font-weight:800;color:var(--muted)}
+  .card+.card{margin-top:18px}
+  .tl{display:flex;align-items:flex-end;gap:10px;height:180px;padding:6px 2px 0}
+  .tlcol{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;text-decoration:none;color:inherit;min-width:40px}
+  .tlbar{width:100%;max-width:64px;background:#cfe0dc;border-radius:6px 6px 0 0;position:relative;display:flex;align-items:flex-end;overflow:hidden}
+  .tlbar .pr{width:100%;background:var(--prio);position:absolute;left:0;bottom:0}
+  .tlcol:hover .tlbar{outline:2px solid var(--focus);outline-offset:2px}
+  .tln{font-weight:800;font-size:14px;margin-bottom:4px}
+  .tlx{font-size:13px;color:var(--muted);margin-top:6px;font-weight:700}
+</style></head><body><script>window.__LANNA_BASE__="/Lanna/";</script><script>
+(function(){
+  "use strict";
+  // ---- Lanna Wiki static shim: run the dynamic viewer on a static host ----------
+  // BASE lets the same build work at the domain root ('/') or under a project path
+  // ('/Lanna/'). All static targets are resolved through S() so they land correctly.
+  var BASE = (window.__LANNA_BASE__ || '/');
+  if (BASE.charAt(BASE.length-1) !== '/') BASE += '/';
+  function S(p){ return BASE + String(p).replace(/^\//,''); }
+  var PLACE = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="260" height="150">'+
+    '<rect width="100%" height="100%" fill="#eef2f1"/>'+
+    '<text x="50%" y="50%" fill="#3a4a47" font-family="sans-serif" font-size="13" '+
+    'text-anchor="middle" dominant-baseline="middle">raw scan — view at source</text></svg>');
+  function art(s){ return String(s==null?'':s).replace(/[^A-Za-z0-9]+/g,'_'); }
+  function jresp(o){ return new Response(JSON.stringify(o),
+    {status:200, headers:{'Content-Type':'application/json; charset=utf-8'}}); }
+  var NOARG = {
+    '/api/overview':'/api/overview.json','/api/dashboard':'/api/dashboard.json',
+    '/api/places':'/api/places.json','/api/lenses':'/api/lenses.json',
+    '/api/vocab':'/api/vocab.json','/api/market':'/api/market.json',
+    '/api/graph':'/api/graph.json','/api/articles':'/api/articles.json',
+    '/api/status':'/api/status.json','/api/manuscripts':'/api/manuscripts.json',
+    '/api/graph.jsonld':'/api/graph.jsonld','/api/graph.ttl':'/api/graph.ttl'
+  };
+  var _fetch = window.fetch ? window.fetch.bind(window) : function(u){return fetch(u);};
+
+  var _docs=null;
+  function loadDocs(){ if(_docs) return Promise.resolve(_docs);
+    return _fetch(S('/api/searchdocs.json')).then(function(r){return r.json();})
+      .then(function(d){_docs=d;return d;}).catch(function(){_docs=[];return [];}); }
+  var _thes=null;
+  function loadThes(){ if(_thes) return Promise.resolve(_thes);
+    return _fetch(S('/api/thesaurus.json')).then(function(r){return r.json();})
+      .then(function(t){_thes=t;return t;}).catch(function(){_thes={};return {};}); }
+  // mirrors wiki.py _expand_token: query token -> OR-set of cross-language equivalents
+  function expand(tok, thes){
+    tok=(tok||'').toLowerCase();
+    var members={}; members[tok]=1;
+    if(tok.length<2) return Object.keys(members);
+    for(var key in thes){
+      if(tok===key || (tok.length>=3 && (tok.indexOf(key)>=0 || key.indexOf(tok)>=0))){
+        var grp=thes[key]; for(var i=0;i<grp.length;i++) members[grp[i]]=1;
+      }
+    }
+    return Object.keys(members);
+  }
+  function staticSearch(q){
+    q=(q||'').trim(); var out={manuscripts:[],articles:[],query:q};
+    if(!q) return Promise.resolve(jresp(out));
+    return Promise.all([loadDocs(), loadThes()]).then(function(res){
+      var docs=res[0], thes=res[1];
+      var groups=q.toLowerCase().split(/\s+/).filter(Boolean)
+                  .map(function(t){return expand(t, thes);}).filter(function(g){return g.length;});
+      if(!groups.length) return jresp(out);
+      var scored=[];
+      for(var i=0;i<docs.length;i++){
+        var d=docs[i], title=(d.ntitle||'').toLowerCase(), body=(d.nbody||'').toLowerCase();
+        var ok=true, score=0, pos=null;
+        for(var j=0;j<groups.length;j++){
+          var g=groups[j], ghit=0;
+          for(var m=0;m<g.length;m++){
+            var tk=g[m]; if(!tk) continue;
+            if(title.indexOf(tk)>=0) ghit+=12;
+            var idx=body.indexOf(tk);
+            if(idx>=0){ ghit+=Math.min(body.split(tk).length-1,6); if(pos===null||idx<pos)pos=idx; }
+          }
+          if(ghit===0){ok=false;break;} score+=ghit;
+        }
+        if(ok) scored.push([score,d,pos]);
+      }
+      scored.sort(function(a,b){return b[0]-a[0];});
+      for(var k=0;k<scored.length;k++){
+        var d2=scored[k][1], pos2=scored[k][2]==null?0:scored[k][2];
+        var text=d2.nbody||d2.ntitle||'';
+        var snip=text.substr(Math.max(0,pos2-60),200).replace(/\s+/g,' ').trim();
+        if(d2.kind==='m'){ if(out.manuscripts.length<60)
+          out.manuscripts.push({id:parseInt(d2.ref,10),label:d2.label,snippet:snip}); }
+        else { if(out.articles.length<60)
+          out.articles.push({key:d2.ref,label:d2.label,snippet:snip}); }
+      }
+      return jresp(out);
+    });
+  }
+
+  var _scans=null;
+  function loadScans(){ if(_scans) return Promise.resolve(_scans);
+    return _fetch(S('/api/scans.all.json')).then(function(r){return r.json();})
+      .then(function(d){_scans=d.scans||[];return _scans;}).catch(function(){_scans=[];return [];}); }
+  function scansSlice(sp){
+    var midp=sp.get('mid'); var mid = midp?parseInt(midp,10):null;
+    var offset=parseInt(sp.get('offset')||'0',10)||0;
+    var limit=parseInt(sp.get('limit')||'120',10)||120;
+    var onlyT=(sp.get('only')==='transcribed');
+    return loadScans().then(function(all){
+      var pool=all.filter(function(s){
+        if(mid!==null && s.id!==mid) return false;
+        if(onlyT && !s.transcribed) return false;
+        return true;
+      });
+      return jresp({dbPresent:true, scans:pool.slice(offset,offset+limit),
+                    offset:offset, limit:limit, total:pool.length});
+    });
+  }
+
+  window.fetch = function(input, init){
+    init = init || {};
+    var url;
+    try { url = new URL((typeof input==='string')?input:input.url, location.origin); }
+    catch(e){ return _fetch(input, init); }
+    if(url.origin !== location.origin) return _fetch(input, init);
+    var method = (init.method || (typeof input!=='string' && input.method) || 'GET').toUpperCase();
+    var p = url.pathname, sp = url.searchParams;
+    if(method !== 'GET') return Promise.resolve(jresp({ok:false, readonly:true}));
+    if(p==='/api/search') return staticSearch(sp.get('q'));
+    if(p==='/api/gallery' && sp.get('source')==='scans') return scansSlice(sp);
+    if(NOARG[p]) return _fetch(S(NOARG[p]), {});
+    if(p==='/api/manuscript') return _fetch(S('/api/manuscript/'+encodeURIComponent(sp.get('id'))+'.json'), {});
+    if(p==='/api/article')    return _fetch(S('/api/article/'+art(sp.get('s'))+'.json'), {});
+    if(p==='/api/gallery'){
+      var src=sp.get('source');
+      if(src==='scan-index') return _fetch(S('/api/gallery.scan-index.json'), {});
+      return _fetch(S('/api/gallery.json'), {});
+    }
+    if(p==='/pimg') return _fetch(S('/pimg/'+sp.get('mid')+'/'+sp.get('n')+'.png'), {});
+    return _fetch(input, init);
+  };
+
+  // internal navigation: app links are baked as root-absolute ('/browse', '/m?id=…').
+  // Under a project subpath they must be re-rooted at BASE. A capture-phase click
+  // handler does this for every link, however it was created.
+  document.addEventListener('click', function(ev){
+    if(ev.defaultPrevented || ev.button!==0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+    var a = ev.target && ev.target.closest ? ev.target.closest('a[href]') : null;
+    if(!a) return;
+    if(a.target==='_blank') return;
+    var href=a.getAttribute('href');
+    if(!href || href.charAt(0)!=='/' || href.charAt(1)==='/') return;  // only root-absolute, not protocol-relative
+    if(BASE!=='/' && href.indexOf(BASE)===0) return;                   // already re-rooted
+    ev.preventDefault();
+    location.href = S(href);
+  }, true);
+
+  // rewrite <img> src (Object.assign in el() sets the .src property, so this catches it)
+  try {
+    var proto=HTMLImageElement.prototype;
+    var desc=Object.getOwnPropertyDescriptor(proto,'src');
+    Object.defineProperty(proto,'src',{configurable:true,enumerable:true,
+      get:function(){return desc.get.call(this);},
+      set:function(v){
+        try{
+          var u=new URL(v, location.origin);
+          if(u.origin===location.origin){
+            if(u.pathname==='/pimg'){
+              v=S('/pimg/'+u.searchParams.get('mid')+'/'+u.searchParams.get('n')+'.png');
+            } else if(u.pathname==='/img'){ v=PLACE; }
+          }
+        }catch(e){}
+        desc.set.call(this,v);
+      }});
+  } catch(e){}
+})();
+</script><header><div><h1>Dashboard</h1><p class=sub>The collection, cross-tabulated — coverage, place, and time</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/gallery'>Plates</a><a href='/market'>Market</a><a href='/vocab'>Vocabulary</a><a href='/articles'>Articles</a><a href='/map'>Map</a><a href='/graph'>Graph</a><a href='/activity'>Activity</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
+const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
+const B='/browse?';
+const enc=encodeURIComponent;
+function ramp(ratio){ // teal intensity; text flips to white when dark
+  const a=ratio<=0?0:0.10+0.85*ratio;
+  return {bg:'rgba(13,107,107,'+a.toFixed(3)+')', fg:ratio>0.55?'#fff':'var(--ink)'};
+}
+function card(main,title,lead){const c=el('div',{className:'card'});
+  c.append(el('h2',{className:'sec',textContent:title}));
+  if(lead)c.append(el('p',{className:'lead',textContent:lead}));
+  main.append(c);return c;}
+function coverage(main,cov,totals){
+  const c=card(main,'Digitization coverage',
+    'How much of each genre has at least one page image downloaded. The crawl is early — most witnesses are catalogued but not yet imaged, which is simply the digitization backlog. ★ marks the research-priority genres.');
+  const max=Math.max(1,...cov.map(g=>g.n));
+  for(const g of cov){
+    const row=el('div',{className:'covrow'});
+    const lbl=el('div',{className:'cl',style:'grid-area:l'});
+    if(g.priority)lbl.append(el('span',{className:'star',textContent:'★ '}));
+    lbl.append(el('a',{href:B+'genre='+enc(g.value),textContent:g.label}));
+    row.append(lbl);
+    const bar=el('div',{className:'cbar',style:'grid-area:b'});
+    bar.append(el('div',{className:'cfill',style:'width:'+Math.round(100*g.digitized/max)+'%'}));
+    // faint full-width marker of total via track already; show total as ghost width
+    bar.title=g.digitized.toLocaleString()+' of '+g.n.toLocaleString()+' digitized';
+    row.append(bar);
+    row.append(el('div',{className:'cnum',style:'grid-area:n'},
+      [el('b',{textContent:g.digitized.toLocaleString()}),document.createTextNode(' / '+g.n.toLocaleString())]));
+    c.append(row);
+  }
+}
+function timeline(main,tl){
+  if(!tl||!tl.length)return;
+  const c=card(main,'Timeline of dated copying',
+    'Surviving manuscripts by estimated century of copying. The maroon portion is the research-priority (wichaa) share — astrology, magic, divination. Click a century to browse it.');
+  const max=Math.max(1,...tl.map(t=>t.n));
+  const band=el('div',{className:'tl'});
+  for(const t of tl){
+    const col=el('a',{className:'tlcol',href:B+'century='+enc(t.value),
+      title:t.label+': '+t.n.toLocaleString()+' dated manuscripts ('+t.prio.toLocaleString()+' priority)'});
+    col.append(el('div',{className:'tln',textContent:t.n.toLocaleString()}));
+    const h=Math.max(4,Math.round(150*t.n/max));
+    const bar=el('div',{className:'tlbar',style:'height:'+h+'px'});
+    if(t.prio)bar.append(el('div',{className:'pr',style:'height:'+Math.round(100*t.prio/t.n)+'%'}));
+    col.append(bar,el('div',{className:'tlx',textContent:t.label}));
+    band.append(col);
+  }
+  c.append(band);
+}
+function heat(main,h){
+  const c=card(main,h.title,h.lead);
+  const wrap=el('div',{className:'dwrap'});
+  const tbl=el('table',{className:'heat'});
+  // head
+  const thead=el('thead');const hr=el('tr');
+  hr.append(el('th',{className:'corner',textContent:h.rowkey.charAt(0).toUpperCase()+h.rowkey.slice(1)}));
+  for(const col of h.cols)hr.append(el('th',{scope:'col'},
+    [document.createTextNode(col.label),el('div',{className:'tot',style:'font-size:12px',textContent:col.total.toLocaleString()})]));
+  thead.append(hr);tbl.append(thead);
+  // body
+  const tb=el('tbody');
+  for(const row of h.rows){
+    const tr=el('tr');
+    const rh=el('th',{className:'rowh',scope:'row'});
+    if(row.priority)rh.append(el('span',{className:'star',textContent:'★ '}));
+    rh.append(el('a',{href:B+h.rowkey+'='+enc(row.value),textContent:row.label}),
+      el('span',{className:'tot',style:'margin-left:8px;font-weight:700',textContent:row.total.toLocaleString()}));
+    tr.append(rh);
+    const cells=h.cells[row.value]||{};
+    for(const col of h.cols){
+      const n=cells[col.value]||0;
+      if(!n){tr.append(el('td',{className:'c empty'},[el('span',{style:'display:block;padding:10px 12px',textContent:'·'})]));continue;}
+      const r=ramp(n/h.max);
+      const td=el('td',{className:'c'});
+      const a=el('a',{href:B+'genre='+enc(row.value)+'&'+h.colkey+'='+enc(col.value),
+        style:'background:'+r.bg+';color:'+r.fg,
+        title:row.label+' · '+col.label+': '+n.toLocaleString()+' manuscripts — click to browse',
+        textContent:n.toLocaleString()});
+      td.append(a);tr.append(td);
+    }
+    tb.append(tr);
+  }
+  tbl.append(tb);wrap.append(tbl);c.append(wrap);
+}
+async function load(){
+  const d=await (await fetch('/api/dashboard')).json();
+  const main=document.getElementById('main');main.textContent='';
+  if(!d.dbPresent){main.append(el('div',{className:'empty'},[el('p',{textContent:'No catalog database yet.'}),el('p',{className:'muted',textContent:'Run the crawler, then reload.'})]));return;}
+  const t=d.totals||{};
+  const hero=el('div',{className:'hero'});
+  hero.append(el('a',{className:'hbox',href:'/browse'},[el('b',{textContent:'Manuscripts'}),el('span',{textContent:(t.manuscripts||0).toLocaleString()})]));
+  hero.append(el('a',{className:'hbox prio',href:B+'priority='+enc('Research priority')},[el('b',{textContent:'Research priority'}),el('span',{textContent:(t.priority||0).toLocaleString()})]));
+  hero.append(el('a',{className:'hbox',href:'/browse?sort=images'},[el('b',{textContent:'Digitized'}),el('span',{textContent:(t.digitized||0).toLocaleString()}),el('small',{textContent:'have page images'})]));
+  const htop=el('div',{className:'card'});htop.append(hero);main.append(htop);
+  coverage(main,d.coverage||[],t);
+  timeline(main,d.timeline||[]);
+  for(const h of (d.heatmaps||[]))heat(main,h);
+  // linked-data export footer
+  const ex=el('div',{className:'card'});
+  ex.append(el('h2',{className:'sec',textContent:'Linked-data export',style:'margin-top:0'}),
+    el('p',{className:'lead'},[document.createTextNode('The authored knowledge graph (entities, genres and their typed relations) travels as first-class RDF triples: '),
+      el('a',{href:'/api/graph.jsonld',textContent:'JSON-LD'}),document.createTextNode(' · '),
+      el('a',{href:'/api/graph.ttl',textContent:'Turtle'}),document.createTextNode(' · '),
+      el('a',{href:'/api/graph',textContent:'raw JSON'}),document.createTextNode('.')]));
+  main.append(ex);
+}
+load();
+</script></body></html>

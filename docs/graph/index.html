@@ -1,0 +1,358 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><meta name='theme-color' content='#1F4E4A'><link rel=icon type='image/svg+xml' href='/favicon.svg'><meta name='description' content='A living archive of Lanna manuscripts and the wichaa tradition — divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta property='og:type' content='website'><meta property='og:site_name' content='Lanna Manuscript Wiki'><meta property='og:title' content='Graph — Lanna Manuscript Wiki'><meta property='og:description' content='A living archive of Lanna manuscripts and the wichaa tradition — divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta property='og:image' content='https://nanobotco.github.io/Lanna/og.jpg'><meta property='og:image:width' content='1200'><meta property='og:image:height' content='630'><meta property='og:image:alt' content='Circular yantra from a Lanna manuscript'><meta name='twitter:card' content='summary_large_image'><meta name='twitter:title' content='Graph — Lanna Manuscript Wiki'><meta name='twitter:description' content='A living archive of Lanna manuscripts and the wichaa tradition — divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta name='twitter:image' content='https://nanobotco.github.io/Lanna/og.jpg'><title>Graph — Lanna Manuscript Wiki</title><style>
+  :root{
+    --ink:#141b1a; --muted:#3a4a47; --line:#c9d6d2;
+    --teal:#1F4E4A; --teal-ink:#ffffff; --bg:#f4f7f6; --card:#ffffff;
+    --focus:#0b5cad; --gold:#8a5a00; --gold-bg:#fbf1dc; --ok:#0f6b3f;
+    --prio:#7a1f1f; --prio-bg:#fbe6e6;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:17px/1.55 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  a{color:var(--focus)}
+  header{background:linear-gradient(180deg,#245852,#1b4541);color:var(--teal-ink);padding:16px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;box-shadow:0 2px 10px #00000022}
+  header h1{margin:0;font-size:24px;font-family:var(--serif);letter-spacing:.01em}
+  .card>h2:first-child,.card>h2{font-family:var(--serif)}
+  header .sub{color:#dfeae7;margin:0}
+  header nav{margin-left:auto;display:flex;gap:10px}
+  header nav a{color:#fff;text-decoration:none;font-weight:700;border:2px solid #ffffff66;border-radius:8px;padding:8px 14px}
+  header nav a:hover{background:#ffffff22}
+  main{max-width:1080px;margin:0 auto;padding:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:0 0 16px}
+  button{font:inherit;font-weight:700;color:var(--teal-ink);background:var(--teal);border:2px solid var(--teal);border-radius:8px;padding:10px 16px;cursor:pointer;min-height:44px}
+  button.secondary{background:#fff;color:var(--teal)}
+  button:hover{background:#163b38;border-color:#163b38}
+  button.secondary:hover{background:#eef4f2}
+  input[type=text],input[type=search],select,textarea{width:100%;padding:10px 12px;font-size:16px;border:1px solid #6b7f7a;border-radius:8px;color:var(--ink);background:#fff}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+  .pill{display:inline-block;font-size:13px;font-weight:700;padding:2px 10px;border-radius:999px;border:1px solid var(--line);background:#eef2f1;color:var(--muted);margin:2px 4px 2px 0}
+  .pill.script{background:var(--gold-bg);border-color:#e5cf9a;color:var(--gold)}
+  .pill.prio{background:var(--prio-bg);border-color:#e0a3a3;color:var(--prio)}
+  .muted{color:var(--muted)}
+  .thai{font-size:1.15em}
+  .empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px;background:#fff}
+
+  .lead{color:var(--muted);margin:0 0 14px;max-width:76ch}
+  .controls{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:0 0 12px}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;color:var(--muted);font-weight:700;font-size:14px}
+  .legend .lg{display:inline-flex;align-items:center;gap:6px}
+  .card.nopad{padding:0;overflow:hidden;border:none}
+  .graphbox{background:radial-gradient(120% 120% at 50% 38%,#123f3a 0%,#0a2422 55%,#061715 100%);position:relative}
+  svg.graph{display:block;width:100%;height:auto;touch-action:none;cursor:grab}
+  svg.graph:active{cursor:grabbing}
+  svg.graph .edge{fill:none;stroke:#6fb9ae;stroke-opacity:.30;stroke-width:1.4;stroke-linecap:round}
+  svg.graph .edge.edge-on{stroke:#8ff3e4;stroke-opacity:.95;stroke-width:2.6;filter:drop-shadow(0 0 4px rgba(120,240,220,.8))}
+  svg.graph .edge.dim{stroke-opacity:.05}
+  svg.graph .plbl{font-size:12.5px;font-weight:800;fill:#dffaf5;paint-order:stroke;stroke:#04110f;stroke-width:3px;pointer-events:none;opacity:0;transition:opacity .12s}
+  svg.graph .plbl.show{opacity:1}
+  svg.graph .node{cursor:pointer}
+  svg.graph .halo{pointer-events:none;opacity:.5;transition:opacity .12s}
+  svg.graph .dot{stroke:rgba(255,255,255,.85);stroke-width:1.5}
+  svg.graph .node:focus{outline:none}
+  svg.graph .node:focus .dot,svg.graph .node.hot .dot{stroke:#fff;stroke-width:3}
+  svg.graph .node.hot .halo,svg.graph .node.nbr .halo{opacity:1}
+  svg.graph .nlbl{font-size:15px;font-weight:700;fill:#f3fbf9;paint-order:stroke;stroke:#04110f;stroke-width:3.5px;pointer-events:none}
+  svg.graph .node.dim{opacity:.13}
+  svg.graph .node.dim .nlbl{opacity:.6}
+  svg.graph .node,svg.graph .edge{transition:opacity .12s}
+  .foot{color:var(--muted);font-size:14px;margin:12px 0 0}
+</style></head><body><script>window.__LANNA_BASE__="/Lanna/";</script><script>
+(function(){
+  "use strict";
+  // ---- Lanna Wiki static shim: run the dynamic viewer on a static host ----------
+  // BASE lets the same build work at the domain root ('/') or under a project path
+  // ('/Lanna/'). All static targets are resolved through S() so they land correctly.
+  var BASE = (window.__LANNA_BASE__ || '/');
+  if (BASE.charAt(BASE.length-1) !== '/') BASE += '/';
+  function S(p){ return BASE + String(p).replace(/^\//,''); }
+  var PLACE = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="260" height="150">'+
+    '<rect width="100%" height="100%" fill="#eef2f1"/>'+
+    '<text x="50%" y="50%" fill="#3a4a47" font-family="sans-serif" font-size="13" '+
+    'text-anchor="middle" dominant-baseline="middle">raw scan — view at source</text></svg>');
+  function art(s){ return String(s==null?'':s).replace(/[^A-Za-z0-9]+/g,'_'); }
+  function jresp(o){ return new Response(JSON.stringify(o),
+    {status:200, headers:{'Content-Type':'application/json; charset=utf-8'}}); }
+  var NOARG = {
+    '/api/overview':'/api/overview.json','/api/dashboard':'/api/dashboard.json',
+    '/api/places':'/api/places.json','/api/lenses':'/api/lenses.json',
+    '/api/vocab':'/api/vocab.json','/api/market':'/api/market.json',
+    '/api/graph':'/api/graph.json','/api/articles':'/api/articles.json',
+    '/api/status':'/api/status.json','/api/manuscripts':'/api/manuscripts.json',
+    '/api/graph.jsonld':'/api/graph.jsonld','/api/graph.ttl':'/api/graph.ttl'
+  };
+  var _fetch = window.fetch ? window.fetch.bind(window) : function(u){return fetch(u);};
+
+  var _docs=null;
+  function loadDocs(){ if(_docs) return Promise.resolve(_docs);
+    return _fetch(S('/api/searchdocs.json')).then(function(r){return r.json();})
+      .then(function(d){_docs=d;return d;}).catch(function(){_docs=[];return [];}); }
+  var _thes=null;
+  function loadThes(){ if(_thes) return Promise.resolve(_thes);
+    return _fetch(S('/api/thesaurus.json')).then(function(r){return r.json();})
+      .then(function(t){_thes=t;return t;}).catch(function(){_thes={};return {};}); }
+  // mirrors wiki.py _expand_token: query token -> OR-set of cross-language equivalents
+  function expand(tok, thes){
+    tok=(tok||'').toLowerCase();
+    var members={}; members[tok]=1;
+    if(tok.length<2) return Object.keys(members);
+    for(var key in thes){
+      if(tok===key || (tok.length>=3 && (tok.indexOf(key)>=0 || key.indexOf(tok)>=0))){
+        var grp=thes[key]; for(var i=0;i<grp.length;i++) members[grp[i]]=1;
+      }
+    }
+    return Object.keys(members);
+  }
+  function staticSearch(q){
+    q=(q||'').trim(); var out={manuscripts:[],articles:[],query:q};
+    if(!q) return Promise.resolve(jresp(out));
+    return Promise.all([loadDocs(), loadThes()]).then(function(res){
+      var docs=res[0], thes=res[1];
+      var groups=q.toLowerCase().split(/\s+/).filter(Boolean)
+                  .map(function(t){return expand(t, thes);}).filter(function(g){return g.length;});
+      if(!groups.length) return jresp(out);
+      var scored=[];
+      for(var i=0;i<docs.length;i++){
+        var d=docs[i], title=(d.ntitle||'').toLowerCase(), body=(d.nbody||'').toLowerCase();
+        var ok=true, score=0, pos=null;
+        for(var j=0;j<groups.length;j++){
+          var g=groups[j], ghit=0;
+          for(var m=0;m<g.length;m++){
+            var tk=g[m]; if(!tk) continue;
+            if(title.indexOf(tk)>=0) ghit+=12;
+            var idx=body.indexOf(tk);
+            if(idx>=0){ ghit+=Math.min(body.split(tk).length-1,6); if(pos===null||idx<pos)pos=idx; }
+          }
+          if(ghit===0){ok=false;break;} score+=ghit;
+        }
+        if(ok) scored.push([score,d,pos]);
+      }
+      scored.sort(function(a,b){return b[0]-a[0];});
+      for(var k=0;k<scored.length;k++){
+        var d2=scored[k][1], pos2=scored[k][2]==null?0:scored[k][2];
+        var text=d2.nbody||d2.ntitle||'';
+        var snip=text.substr(Math.max(0,pos2-60),200).replace(/\s+/g,' ').trim();
+        if(d2.kind==='m'){ if(out.manuscripts.length<60)
+          out.manuscripts.push({id:parseInt(d2.ref,10),label:d2.label,snippet:snip}); }
+        else { if(out.articles.length<60)
+          out.articles.push({key:d2.ref,label:d2.label,snippet:snip}); }
+      }
+      return jresp(out);
+    });
+  }
+
+  var _scans=null;
+  function loadScans(){ if(_scans) return Promise.resolve(_scans);
+    return _fetch(S('/api/scans.all.json')).then(function(r){return r.json();})
+      .then(function(d){_scans=d.scans||[];return _scans;}).catch(function(){_scans=[];return [];}); }
+  function scansSlice(sp){
+    var midp=sp.get('mid'); var mid = midp?parseInt(midp,10):null;
+    var offset=parseInt(sp.get('offset')||'0',10)||0;
+    var limit=parseInt(sp.get('limit')||'120',10)||120;
+    var onlyT=(sp.get('only')==='transcribed');
+    return loadScans().then(function(all){
+      var pool=all.filter(function(s){
+        if(mid!==null && s.id!==mid) return false;
+        if(onlyT && !s.transcribed) return false;
+        return true;
+      });
+      return jresp({dbPresent:true, scans:pool.slice(offset,offset+limit),
+                    offset:offset, limit:limit, total:pool.length});
+    });
+  }
+
+  window.fetch = function(input, init){
+    init = init || {};
+    var url;
+    try { url = new URL((typeof input==='string')?input:input.url, location.origin); }
+    catch(e){ return _fetch(input, init); }
+    if(url.origin !== location.origin) return _fetch(input, init);
+    var method = (init.method || (typeof input!=='string' && input.method) || 'GET').toUpperCase();
+    var p = url.pathname, sp = url.searchParams;
+    if(method !== 'GET') return Promise.resolve(jresp({ok:false, readonly:true}));
+    if(p==='/api/search') return staticSearch(sp.get('q'));
+    if(p==='/api/gallery' && sp.get('source')==='scans') return scansSlice(sp);
+    if(NOARG[p]) return _fetch(S(NOARG[p]), {});
+    if(p==='/api/manuscript') return _fetch(S('/api/manuscript/'+encodeURIComponent(sp.get('id'))+'.json'), {});
+    if(p==='/api/article')    return _fetch(S('/api/article/'+art(sp.get('s'))+'.json'), {});
+    if(p==='/api/gallery'){
+      var src=sp.get('source');
+      if(src==='scan-index') return _fetch(S('/api/gallery.scan-index.json'), {});
+      return _fetch(S('/api/gallery.json'), {});
+    }
+    if(p==='/pimg') return _fetch(S('/pimg/'+sp.get('mid')+'/'+sp.get('n')+'.png'), {});
+    return _fetch(input, init);
+  };
+
+  // internal navigation: app links are baked as root-absolute ('/browse', '/m?id=…').
+  // Under a project subpath they must be re-rooted at BASE. A capture-phase click
+  // handler does this for every link, however it was created.
+  document.addEventListener('click', function(ev){
+    if(ev.defaultPrevented || ev.button!==0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+    var a = ev.target && ev.target.closest ? ev.target.closest('a[href]') : null;
+    if(!a) return;
+    if(a.target==='_blank') return;
+    var href=a.getAttribute('href');
+    if(!href || href.charAt(0)!=='/' || href.charAt(1)==='/') return;  // only root-absolute, not protocol-relative
+    if(BASE!=='/' && href.indexOf(BASE)===0) return;                   // already re-rooted
+    ev.preventDefault();
+    location.href = S(href);
+  }, true);
+
+  // rewrite <img> src (Object.assign in el() sets the .src property, so this catches it)
+  try {
+    var proto=HTMLImageElement.prototype;
+    var desc=Object.getOwnPropertyDescriptor(proto,'src');
+    Object.defineProperty(proto,'src',{configurable:true,enumerable:true,
+      get:function(){return desc.get.call(this);},
+      set:function(v){
+        try{
+          var u=new URL(v, location.origin);
+          if(u.origin===location.origin){
+            if(u.pathname==='/pimg'){
+              v=S('/pimg/'+u.searchParams.get('mid')+'/'+u.searchParams.get('n')+'.png');
+            } else if(u.pathname==='/img'){ v=PLACE; }
+          }
+        }catch(e){}
+        desc.set.call(this,v);
+      }});
+  } catch(e){}
+})();
+</script><header><div><h1>Relationship graph</h1><p class=sub>The web of subjects, genres and how they connect</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/gallery'>Plates</a><a href='/market'>Market</a><a href='/vocab'>Vocabulary</a><a href='/articles'>Articles</a><a href='/map'>Map</a><a href='/graph'>Graph</a><a href='/activity'>Activity</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
+const SVGNS='http://www.w3.org/2000/svg';
+const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
+const svg=(t,a={},k=[])=>{const e=document.createElementNS(SVGNS,t);for(const[n,v]of Object.entries(a))e.setAttribute(n,v);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
+const W=1000,H=680,CX=W/2,CY=H/2;
+const COL={entity:'#3fcbb9',genre:'#e6b24d',subgenre:'#69b0ee'};
+const GRAD={entity:['#7ff0e0','#158a7d'],genre:['#ffd9a0','#a06a12'],subgenre:['#a9d8ff','#2c6aa8']};
+const TYPELBL={entity:'Subject',genre:'Genre',subgenre:'Subgenre'};
+const REP=9000,LEN=125,SPRING=0.028,GRAV=0.016,DAMP=0.9;
+let NODES=[],LINKS=[],byKey={},view={x:0,y:0,k:1};
+let alpha=1,running=false,dragNode=null,dragStart=null,moved=false;
+let panning=false,panStart=null;
+let s,vp,gEdges,gNodes;
+function shorten(t){t=t.split('(')[0].trim();return t.length>22?t.slice(0,21)+'…':t;}
+function evtVB(e){const r=s.getBoundingClientRect();return{x:(e.clientX-r.left)/r.width*W,y:(e.clientY-r.top)/r.height*H};}
+function toGraph(pt){return{x:(pt.x-view.x)/view.k,y:(pt.y-view.y)/view.k};}
+function applyView(){vp.setAttribute('transform','translate('+view.x+','+view.y+') scale('+view.k+')');}
+async function load(){
+  const d=await (await fetch('/api/graph')).json();
+  const main=document.getElementById('main');main.textContent='';
+  if(!d.nodes||!d.nodes.length){main.append(el('div',{className:'empty'},[el('p',{textContent:'The relationship graph is empty until the catalog exists and relations are authored in data/relations.json.'})]));return;}
+  main.append(el('p',{className:'lead',textContent:'Every subject, genre and subgenre in the archive, wired by the authored relations between them. Drag a node to pull the web around; hover to isolate its links; click to open its article. Scroll to zoom, drag the background to pan.'}));
+  NODES=d.nodes.map(n=>({key:n.key,label:n.label,type:n.type,x:CX+(Math.random()-.5)*440,y:CY+(Math.random()-.5)*320,vx:0,vy:0,deg:0}));
+  byKey={};NODES.forEach(n=>byKey[n.key]=n);
+  const seen=new Set();LINKS=[];
+  for(const l of d.links){const a=byKey[l.s],b=byKey[l.o];if(!a||!b)continue;const id=[l.s,l.o,l.p].join('|');if(seen.has(id))continue;seen.add(id);a.deg++;b.deg++;LINKS.push({a,b,p:l.p,fwd:((d.predicates[l.p]||{}).forward)||l.p});}
+  NODES.forEach(n=>n.r=9+3*Math.sqrt(n.deg));
+  buildControls(main);buildSvg(main);
+  main.append(el('p',{className:'foot'},[document.createTextNode('Prefer reading? Every subject\u2019s relations are also listed in plain text on its '),el('a',{href:'/articles',textContent:'article'}),document.createTextNode(' page.')]));
+  view={x:0,y:0,k:1};applyView();settle(350);render();reheat();
+}
+function buildControls(main){
+  const bar=el('div',{className:'controls'});
+  bar.append(el('button',{className:'secondary',textContent:'Reheat layout',onclick:()=>{scatter();reheat();}}));
+  const lg=el('div',{className:'legend'});
+  for(const t of ['entity','genre','subgenre']){
+    lg.append(el('span',{className:'lg'},[svg('svg',{width:16,height:16,viewBox:'0 0 16 16'},[svg('circle',{cx:8,cy:8,r:6,fill:COL[t]})]),document.createTextNode(TYPELBL[t])]));
+  }
+  bar.append(lg);main.append(bar);
+}
+function buildSvg(main){
+  s=svg('svg',{class:'graph',viewBox:'0 0 '+W+' '+H,role:'img','aria-label':'Interactive relationship graph of subjects, genres and their authored connections'});
+  const defs=svg('defs',{});
+  for(const t of ['entity','genre','subgenre']){
+    const rg=svg('radialGradient',{id:'g-'+t,cx:'35%',cy:'32%',r:'75%'});
+    rg.append(svg('stop',{offset:'0%','stop-color':GRAD[t][0]}),svg('stop',{offset:'100%','stop-color':GRAD[t][1]}));
+    defs.append(rg);
+    const hg=svg('radialGradient',{id:'h-'+t,cx:'50%',cy:'50%',r:'50%'});
+    hg.append(svg('stop',{offset:'0%','stop-color':COL[t],'stop-opacity':'.55'}),svg('stop',{offset:'55%','stop-color':COL[t],'stop-opacity':'.18'}),svg('stop',{offset:'100%','stop-color':COL[t],'stop-opacity':'0'}));
+    defs.append(hg);
+  }
+  const mk=svg('marker',{id:'arrow',viewBox:'0 0 10 10',refX:'9',refY:'5',markerWidth:'6.5',markerHeight:'6.5',orient:'auto-start-reverse'});
+  mk.append(svg('path',{d:'M0,0 L10,5 L0,10 z',fill:'#8ff3e4','fill-opacity':'.9'}));
+  defs.append(mk);
+  s.append(defs);
+  vp=svg('g',{});gEdges=svg('g',{});const gLbls=svg('g',{});gNodes=svg('g',{});vp.append(gEdges,gLbls,gNodes);s.append(vp);
+  for(const l of LINKS){
+    l.line=svg('path',{class:'edge'});
+    l.line.append(svg('title',{},l.a.label+'  \u2014'+l.fwd+'\u2192  '+l.b.label));
+    gEdges.append(l.line);
+    l.plbl=svg('text',{class:'plbl','text-anchor':'middle'},l.fwd);
+    gLbls.append(l.plbl);
+  }
+  for(const n of NODES){
+    const g=svg('g',{class:'node',tabindex:'0',role:'link','aria-label':n.label+' ('+(TYPELBL[n.type]||n.type)+'), '+n.deg+' connections'});
+    n.halo=svg('circle',{class:'halo',r:n.r*2.4,fill:'url(#h-'+n.type+')'});
+    n.circle=svg('circle',{class:'dot',r:n.r,fill:'url(#g-'+(GRAD[n.type]?n.type:'entity')+')'});
+    n.text=svg('text',{class:'nlbl','text-anchor':'middle',x:0,y:n.r+16},shorten(n.label));
+    g.append(n.halo,n.circle,n.text);n.g=g;gNodes.append(g);wireNode(g,n);
+  }
+  const box=el('div',{className:'graphbox'});box.append(s);
+  const card=el('div',{className:'card nopad'});card.append(box);main.append(card);
+  s.addEventListener('wheel',onWheel,{passive:false});
+  s.addEventListener('mousedown',onBgDown);
+  window.addEventListener('mousemove',onMove);
+  window.addEventListener('mouseup',onUp);
+}
+function wireNode(g,n){
+  g.addEventListener('mousedown',e=>{e.stopPropagation();dragNode=n;dragStart=evtVB(e);moved=false;});
+  g.addEventListener('mouseenter',()=>setHover(n.key));
+  g.addEventListener('mouseleave',()=>setHover(null));
+  g.addEventListener('focus',()=>setHover(n.key));
+  g.addEventListener('blur',()=>setHover(null));
+  g.addEventListener('click',()=>{if(!moved)go(n);});
+  g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go(n);}});
+}
+function go(n){location.href='/a?s='+encodeURIComponent(n.key);}
+function onBgDown(e){panning=true;const pt=evtVB(e);panStart={x:pt.x,y:pt.y,vx:view.x,vy:view.y};}
+function onMove(e){
+  if(dragNode){const g=toGraph(evtVB(e));dragNode.x=g.x;dragNode.y=g.y;dragNode.vx=0;dragNode.vy=0;
+    const dp=evtVB(e);if(Math.hypot(dp.x-dragStart.x,dp.y-dragStart.y)>4)moved=true;render();reheat();}
+  else if(panning){const pt=evtVB(e);view.x=panStart.vx+(pt.x-panStart.x);view.y=panStart.vy+(pt.y-panStart.y);applyView();}
+}
+function onUp(){dragNode=null;panning=false;}
+function onWheel(e){e.preventDefault();const pt=evtVB(e);const g=toGraph(pt);
+  const f=e.deltaY<0?1.12:1/1.12;view.k=Math.max(.3,Math.min(4,view.k*f));
+  view.x=pt.x-g.x*view.k;view.y=pt.y-g.y*view.k;applyView();}
+function setHover(key){
+  const nb=new Set();
+  if(key){nb.add(key);for(const l of LINKS){if(l.a.key===key)nb.add(l.b.key);if(l.b.key===key)nb.add(l.a.key);}}
+  for(const n of NODES){n.g.classList.toggle('dim',!!key&&!nb.has(n.key));n.g.classList.toggle('hot',!!key&&n.key===key);n.g.classList.toggle('nbr',!!key&&n.key!==key&&nb.has(n.key));}
+  for(const l of LINKS){const on=!!key&&(l.a.key===key||l.b.key===key);
+    l.line.classList.toggle('edge-on',on);l.line.classList.toggle('dim',!!key&&!on);
+    l.plbl.classList.toggle('show',on);}
+}
+function scatter(){for(const n of NODES){n.x=CX+(Math.random()-.5)*440;n.y=CY+(Math.random()-.5)*320;n.vx=0;n.vy=0;}alpha=1;settle(350);render();}
+function reheat(){alpha=Math.max(alpha,0.6);if(!running){running=true;requestAnimationFrame(step);}}
+function simTick(){
+  for(let i=0;i<NODES.length;i++)for(let j=i+1;j<NODES.length;j++){
+    const a=NODES[i],b=NODES[j];let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy||0.01;const d=Math.sqrt(d2);
+    const f=REP/d2,fx=dx/d*f,fy=dy/d*f;a.vx+=fx;a.vy+=fy;b.vx-=fx;b.vy-=fy;
+  }
+  for(const l of LINKS){let dx=l.b.x-l.a.x,dy=l.b.y-l.a.y;const d=Math.sqrt(dx*dx+dy*dy)||0.01;
+    const f=(d-LEN)*SPRING,fx=dx/d*f,fy=dy/d*f;l.a.vx+=fx;l.a.vy+=fy;l.b.vx-=fx;l.b.vy-=fy;}
+  for(const n of NODES){n.vx+=(CX-n.x)*GRAV;n.vy+=(CY-n.y)*GRAV;}
+  for(const n of NODES){if(n===dragNode)continue;n.vx*=DAMP;n.vy*=DAMP;n.x+=n.vx*alpha;n.y+=n.vy*alpha;}
+  alpha*=0.985;
+}
+// Warm the layout synchronously so the graph is already settled on first paint —
+// correct even where requestAnimationFrame is throttled; rAF then adds live motion.
+function settle(iters){const keep=alpha;alpha=1;for(let i=0;i<iters;i++)simTick();alpha=keep;}
+function step(){simTick();render();if(alpha>0.02||dragNode)requestAnimationFrame(step);else running=false;}
+function render(){
+  for(const l of LINKS){
+    const ax=l.a.x,ay=l.a.y,bx=l.b.x,by=l.b.y;
+    let dx=bx-ax,dy=by-ay;const d=Math.hypot(dx,dy)||0.01;const ux=dx/d,uy=dy/d;
+    const sx=ax+ux*(l.a.r+1),sy=ay+uy*(l.a.r+1);
+    const ex=bx-ux*(l.b.r+7),ey=by-uy*(l.b.r+7);
+    const mx=(sx+ex)/2,my=(sy+ey)/2;const off=Math.min(38,d*0.18);
+    const cx2=mx-uy*off,cy2=my+ux*off;
+    l.line.setAttribute('d','M'+sx+','+sy+' Q'+cx2+','+cy2+' '+ex+','+ey);
+    l.line.setAttribute('marker-end','url(#arrow)');
+    const lx=0.25*sx+0.5*cx2+0.25*ex,ly=0.25*sy+0.5*cy2+0.25*ey;
+    l.plbl.setAttribute('x',lx);l.plbl.setAttribute('y',ly-2);
+  }
+  for(const n of NODES)n.g.setAttribute('transform','translate('+n.x+','+n.y+')');
+}
+load();
+</script></body></html>
