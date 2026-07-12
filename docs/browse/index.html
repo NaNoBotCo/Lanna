@@ -247,8 +247,8 @@
       }});
   } catch(e){}
 })();
-</script><header><div><h1>Lanna Manuscript Wiki</h1><p class=sub>Browse the crawled manuscript catalog</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/market'>Market</a><a href='/articles'>Articles</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a></nav></header><main><div class=toolbar><input id=search type=search placeholder='Search title, genre, temple, province, ID…' aria-label='Search'><select id=sort aria-label=Sort><option value=priority>Sort: Priority first</option><option value=title>Sort: Title A–Z</option><option value=date>Sort: Date</option><option value=images>Sort: Most images</option></select><button class=secondary id=clear>Clear filters</button><span class=count id=count></span></div><div id=chips class=chips aria-label='Active filters'></div><div id=artmatches class=artmatches aria-label='Matching articles'></div><div class=layout><aside class='card facets' id=facets aria-label=Filters></aside><section id=results aria-live=polite></section></div></main><script>
-const FL={priority:'Research priority',genre:'Genre',script:'Script',language:'Language',material:'Material',century:'Century',province:'Province',temple:'Temple',source:'Source'};
+</script><header><div><h1>Lanna Manuscript Wiki</h1><p class=sub>Browse the crawled manuscript catalog</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/market'>Living Tradition</a><a href='/articles'>Articles</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a></nav></header><main><div class=toolbar><input id=search type=search placeholder='Search title, genre, temple, province, ID…' aria-label='Search'><select id=sort aria-label=Sort><option value=priority>Sort: Priority first</option><option value=title>Sort: Title A–Z</option><option value=date>Sort: Date</option><option value=images>Sort: Most images</option></select><button class=secondary id=clear>Clear filters</button><span class=count id=count></span></div><div id=chips class=chips aria-label='Active filters'></div><div id=artmatches class=artmatches aria-label='Matching articles'></div><div class=layout><aside class='card facets' id=facets aria-label=Filters></aside><section id=results aria-live=polite></section></div></main><script>
+const FL={priority:'Research priority',genre:'Genre',subgenre:'Subgenre',script:'Script',scriptFamily:'Script family',languages:'Language',material:'Material',century:'Century',province:'Province',temple:'Temple',source:'Source'};
 const CAP=12; // long facet lists collapse to this many until "show all"
 let ALL=[],FACETS={},LABELS={},active={},expanded={};
 let SEARCH=null,searchT=null;  // server full-text results {order,snip,articles}
@@ -286,7 +286,8 @@ function renderChips(){const box=document.getElementById('chips');box.textConten
     const x=el('button',{textContent:'×','aria-label':'Remove filter '+labelFor(key,val)});x.onclick=()=>toggle(key,val,false);
     chip.append(x);box.append(chip);}}
 function matches(it){for(const key of Object.keys(active)){const set=active[key];if(!set||!set.size)continue;
-    let field;if(key==='priority')field=[it.priority?'Research priority':''];else field=[it[key]];
+    let field;if(key==='priority')field=[it.priority?'Research priority':''];
+    else field=Array.isArray(it[key])?it[key]:[it[key]];  // multi-valued facets (e.g. languages) match on membership
     if(![...set].some(v=>field.includes(v)))return false;}return true;}
 function cmp(sort){return (a,b)=>{if(sort==='images')return b.imageCount-a.imageCount;if(sort==='date')return String(a.date).localeCompare(String(b.date));if(sort==='title')return a.title.localeCompare(b.title);return (a.priority?0:1)-(b.priority?0:1)||a.title.localeCompare(b.title);};}
 function onSearchInput(){clearTimeout(searchT);const term=document.getElementById('search').value.trim();

@@ -258,19 +258,33 @@ function render(){
   const fcell=(key,val,label)=>el('a',{href:'/browse?'+key+'='+encodeURIComponent(val),textContent:label||val});
   const drow=(dt,node)=>node?[el('dt',{textContent:dt}),el('dd',{},[node])]:null;
   const trow=(dt,txt)=>txt?[el('dt',{textContent:dt}),el('dd',{textContent:txt})]:null;
-  const genreDd=el('dd');if(M.genre){genreDd.append(fcell('genre',M.genre,M.genreLabel));if(M.genreRaw)genreDd.append(document.createTextNode('  ('+M.genreRaw+')'));}
+  const fmtDate=s=>{if(!s)return '';const d=new Date(s);return isNaN(d)?s:d.toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric'});};
+  // genre + its subgenre child, now a real clickable node (was dead "(Philology)" text)
+  const genreDd=el('dd');if(M.genre){genreDd.append(fcell('genre',M.genre,M.genreLabel));
+    if(M.subgenre){genreDd.append(document.createTextNode(' · '));genreDd.append(el('a',{href:'/browse?subgenre='+encodeURIComponent(M.subgenre),textContent:M.subgenre}));}
+    else if(M.genreRaw){genreDd.append(document.createTextNode('  ('+M.genreRaw+')'));}}
+  // script + its Dhamma-family roll-up
+  const scriptDd=el('dd');if(M.script){scriptDd.append(fcell('script',M.script,M.scriptLabel));
+    if(M.scriptFamily&&M.scriptFamily!==M.scriptLabel){scriptDd.append(document.createTextNode('  · '));scriptDd.append(el('a',{href:'/browse?scriptFamily='+encodeURIComponent(M.scriptFamily),textContent:M.scriptFamily}));}}
+  // language is a set of normalized nodes now — one clickable node each, not a compound string
+  const langDd=el('dd');(M.languages||[]).forEach((lg,i)=>{if(i)langDd.append(document.createTextNode(' · '));langDd.append(el('a',{href:'/browse?languages='+encodeURIComponent(lg),textContent:lg}));});
+  // province resolved to a canonical node; the raw provenance (temple/district) kept as a note
+  const provDd=el('dd');if(M.province)provDd.append(fcell('province',M.province));
+  if(M.provenance&&M.geoLevel!=='province')provDd.append(el('span',{className:'muted',style:'font-size:12px',textContent:(M.province?'  · ':'')+'recorded as '+M.provenance+(M.geoLevel!=='other'?' ('+M.geoLevel+')':'')}));
   const cells=[
     drow('Source',M.source?fcell('source',M.source):null),
     trow('Source ID',M.sourceIdentifier),
     M.genre?[el('dt',{textContent:'Genre'}),genreDd]:null,
-    drow('Script',M.script?fcell('script',M.script,M.scriptLabel):null),
-    drow('Language',M.language?fcell('language',M.language):null),
+    M.script?[el('dt',{textContent:'Script'}),scriptDd]:null,
+    (M.languages&&M.languages.length)?[el('dt',{textContent:'Language'}),langDd]:null,
     drow('Material',M.material?fcell('material',M.material,M.materialLabel):null),
     drow('Temple',M.temple?fcell('temple',M.temple):null),
-    drow('Province',M.province?fcell('province',M.province):null),
+    (M.province||(M.provenance&&M.geoLevel!=='province'))?[el('dt',{textContent:'Province'}),provDd]:null,
     trow('Date',(M.date||'')+(M.dateCe?'  (~'+M.dateCe+' CE)':'')),
-    trow('Extent',M.extentPages?M.extentPages+' folios/images':''),
-    trow('First seen',M.firstSeen),trow('Last seen',M.lastSeen),
+    trow('Extent',M.extentPages?M.extentPages+(M.extentPages==1?' folio':' folios'):''),
+    ...(M.firstSeen&&M.firstSeen===M.lastSeen
+        ? [trow('Catalogued',fmtDate(M.firstSeen))]
+        : [trow('First seen',fmtDate(M.firstSeen)),trow('Last seen',fmtDate(M.lastSeen))]),
   ];
   for(const c of cells)if(c)dl.append(...c);
   meta.append(dl);
@@ -283,8 +297,20 @@ function render(){
   left.append(meta);
 
   const imgs=M.images||[];const pv=el('div',{className:'card pageviewer'});
-  pv.append(el('h2',{textContent:'Images ('+imgs.length+')',style:'margin-top:0'}));
-  if(!imgs.length)pv.append(el('p',{className:'muted',textContent:'No images catalogued for this manuscript yet.'}));
+  const imgHead=imgs.length?('Images ('+imgs.length+')'):(M.iiifThumb?'Image':'Images (0)');
+  pv.append(el('h2',{textContent:imgHead,style:'margin-top:0'}));
+  if(!imgs.length){
+    if(M.iiifThumb){
+      pv.append(el('img',{src:M.iiifThumb,alt:'representative folio of '+M.title,loading:'lazy'}));
+      const cap=el('p',{className:'muted',style:'margin:8px 0 0;font-size:13px'});
+      cap.append(document.createTextNode('A representative folio, served on demand from the source library. '));
+      if(M.iiifManifestUrl)cap.append(el('a',{href:M.iiifManifestUrl,target:'_blank',rel:'noopener',textContent:'All folios via IIIF ↗'}));
+      else if(M.sourceUrl)cap.append(el('a',{href:M.sourceUrl,target:'_blank',rel:'noopener',textContent:'View at source ↗'}));
+      pv.append(cap);
+    } else {
+      pv.append(el('p',{className:'muted',textContent:'No images catalogued for this manuscript yet.'}));
+    }
+  }
   else{const pgr=el('div',{className:'pager'});
     const prev=el('button',{className:'secondary',textContent:'‹ Prev'});prev.onclick=()=>{page=Math.max(0,page-1);drawPage();};
     const next=el('button',{className:'secondary',textContent:'Next ›'});next.onclick=()=>{page=Math.min(imgs.length-1,page+1);drawPage();};
@@ -305,6 +331,9 @@ function render(){
       rc.append(ul);}
     left.append(rc);}
 
+  // OCR only works on locally-stored images. On metadata-only manuscripts (no
+  // downloaded scans) the control can do nothing, so don't show it a dead button.
+  if(imgs.some(i=>i.hasLocal)){
   const ocard=el('div',{className:'card'});
   ocard.append(el('h2',{textContent:'OCR layer',style:'margin-top:0'}));
   ocard.append(el('p',{className:'muted',textContent:'OCR the stored images and keep the text (keyed by image checksum, so it survives re-crawls). Lanna/Tham has no ready model — Thai is a starting point.'}));
@@ -312,6 +341,7 @@ function render(){
   [['tha','Thai (tha)'],['tha+eng','Thai + English'],['lao','Lao'],['eng','English']].forEach(([v,l])=>lang.append(el('option',{value:v,textContent:l})));
   const run=el('button',{textContent:'Run OCR'});run.onclick=()=>runOcr(lang.value,run);
   orow.append(lang,run);ocard.append(orow,el('pre',{id:'log'}));left.append(ocard);
+  }
 
   const right=el('div');const nc=el('div',{className:'card'});
   nc.append(el('h2',{textContent:'My notes & tags',style:'margin-top:0'}));
