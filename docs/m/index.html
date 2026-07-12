@@ -41,6 +41,13 @@
   .rellist{margin:0 0 8px;padding-left:20px}
   .rellist li{margin:3px 0}
   .pageviewer img{max-width:100%;border:1px solid var(--line);border-radius:8px;background:#faf7f0}
+  .thumbwall{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px}
+  .tw{display:block;position:relative;aspect-ratio:3/4;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:#f0efe9}
+  .tw img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .18s ease}
+  .tw:hover{border-color:var(--teal);box-shadow:0 1px 6px #0002}
+  .tw:hover img{transform:scale(1.05)}
+  .tw.dia{border-color:var(--gold);box-shadow:0 0 0 2px var(--gold-bg)}
+  .tw .pgnum{position:absolute;left:0;bottom:0;font-size:11px;font-weight:700;color:#fff;background:#000a;padding:1px 6px;border-top-right-radius:6px}
   .pageviewer .noimg{padding:40px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:8px;background:#faf7f0}
   .tabs{display:flex;gap:6px;margin:12px 0 8px;flex-wrap:wrap}
   .tab{border:1px solid var(--line);background:#eef2f1;color:var(--muted);border-radius:8px;padding:6px 12px;font-weight:700;cursor:pointer;min-height:38px}
@@ -246,6 +253,10 @@
 const ID=new URLSearchParams(location.search).get('id');
 let M=null,ANN={notes:'',tags:[]},page=0,view='image';
 const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
+// one page of a digested volume: lazy on-demand thumbnail, opens full page in a new tab
+function pageThumb(p){const a=el('a',{className:'tw'+(p.kind==='diagram'?' dia':''),href:'/pimg?mid='+M.id+'&n='+p.n+'&w=1400',target:'_blank',rel:'noopener',title:(p.desc||('Page '+p.n))});
+  a.append(el('img',{src:'/pimg?mid='+M.id+'&n='+p.n+'&w=240',alt:'page '+p.n,loading:'lazy'}));
+  a.append(el('span',{className:'pgnum',textContent:(p.kind==='diagram'?'◆ ':'')+p.n}));return a;}
 async function load(){const r=await fetch('/api/manuscript?id='+encodeURIComponent(ID));
   if(!r.ok){document.getElementById('main').textContent='Manuscript not found.';return;}
   const d=await r.json();M=d.manuscript;ANN=d.annotation||{notes:'',tags:[]};render();}

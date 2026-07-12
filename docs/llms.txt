@@ -1,0 +1,33 @@
+# Lanna Manuscript Wiki
+
+> A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa
+> (astrology, ritual, and magic) tradition around them: 6,990 manuscripts drawn from
+> 26 named archives, 0 synthesised subject articles, a curated knowledge graph,
+> and a living-market layer. Every fact is recomputed from the catalogue, not authored
+> from priors. Metadata and digitised contributed texts are CC-BY 4.0; high-resolution
+> source images remain with their holding libraries.
+
+This site is a single-page viewer over a JSON + RDF data layer. **Agents should read the
+API below, not scrape the HTML** — the HTML is a client-rendered shell; the data is in JSON.
+
+## Data — the machine entry point
+- [Corpus overview](/api/overview.json): counts and facets across the whole collection
+- [All manuscripts](/api/manuscripts.json): the full manuscript list
+- [Manuscript detail](/api/manuscript/{id}.json): one manuscript — metadata, images, IIIF links
+- [Articles index](/api/articles.json) and [one article](/api/article/{slug}.json): synthesised subject essays with sources
+- [Knowledge graph — JSON-LD](/api/graph.jsonld) · [Turtle](/api/graph.ttl): typed entity relations as RDF
+- [Living market](/api/market.json): the contemporary commerce layer (same tradition, still trading)
+- [Thesaurus](/api/thesaurus.json) and [vocabulary](/api/vocab.json): controlled bilingual terms
+- [API index](/api/index.json): every endpoint, documented and self-describing
+
+## Browse (for people)
+- [Overview](/) · [Browse](/browse) · [Articles](/articles) · [Map](/map) · [Graph](/graph) · [Market](/market) · [Diagrams](/diagrams) · [Textbooks](/textbooks)
+
+## Provenance and authority
+- Sources include DLNTM (CrossAsia) and EFEO Lanna, served via the IIIF Image API, plus digitised primary wichaa textbooks.
+- 17,928 manuscript images are addressable on demand through IIIF at their originating libraries.
+
+## License
+- Metadata, compilation, and digitised contributed texts: **CC-BY 4.0** (https://creativecommons.org/licenses/by/4.0/). Attribute "Lanna Manuscript Wiki".
+- Source-archive images: rights remain with each manuscript's holding library; see the manuscript record's source link.
+- Contact: 530kings@proton.me

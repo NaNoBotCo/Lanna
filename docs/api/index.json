@@ -1,0 +1,128 @@
+{
+  "name": "Lanna Manuscript Wiki API",
+  "description": "Self-describing index of the JSON/RDF data layer. Read this first.",
+  "baseUrl": "https://nanobotco.github.io/api",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "llms": "https://nanobotco.github.io/llms.txt",
+  "endpoints": [
+    {
+      "path": "/api/overview.json",
+      "url": "https://nanobotco.github.io/api/overview.json",
+      "description": "Corpus-wide counts and facet breakdowns.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/manuscripts.json",
+      "url": "https://nanobotco.github.io/api/manuscripts.json",
+      "description": "The full manuscript list (array of summaries).",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/manuscript/{id}.json",
+      "url": "https://nanobotco.github.io/api/manuscript/{id}.json",
+      "description": "One manuscript: metadata, images, IIIF links, OCR where present.",
+      "format": "application/json",
+      "templated": true
+    },
+    {
+      "path": "/api/articles.json",
+      "url": "https://nanobotco.github.io/api/articles.json",
+      "description": "Index of synthesised subject articles (genre/entity/subgenre).",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/article/{slug}.json",
+      "url": "https://nanobotco.github.io/api/article/{slug}.json",
+      "description": "One article: authored prose + live-computed profile + connections.",
+      "format": "application/json",
+      "templated": true
+    },
+    {
+      "path": "/api/graph.json",
+      "url": "https://nanobotco.github.io/api/graph.json",
+      "description": "Knowledge graph as nodes + typed links (app format).",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/graph.jsonld",
+      "url": "https://nanobotco.github.io/api/graph.jsonld",
+      "description": "Knowledge graph as JSON-LD (schema.org / linked data).",
+      "format": "application/ld+json",
+      "templated": false
+    },
+    {
+      "path": "/api/graph.ttl",
+      "url": "https://nanobotco.github.io/api/graph.ttl",
+      "description": "Knowledge graph as RDF Turtle.",
+      "format": "text/turtle",
+      "templated": false
+    },
+    {
+      "path": "/api/market.json",
+      "url": "https://nanobotco.github.io/api/market.json",
+      "description": "Living-market commerce layer (amulets and sacred objects trading today).",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/places.json",
+      "url": "https://nanobotco.github.io/api/places.json",
+      "description": "Provenance provinces with counts and map coordinates.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/vocab.json",
+      "url": "https://nanobotco.github.io/api/vocab.json",
+      "description": "Controlled vocabulary with corpus counts.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/thesaurus.json",
+      "url": "https://nanobotco.github.io/api/thesaurus.json",
+      "description": "Bilingual thesaurus: query-token expansion groups.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/dashboard.json",
+      "url": "https://nanobotco.github.io/api/dashboard.json",
+      "description": "Genre coverage vs digitisation.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/status.json",
+      "url": "https://nanobotco.github.io/api/status.json",
+      "description": "Crawl/source status.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/scans.all.json",
+      "url": "https://nanobotco.github.io/api/scans.all.json",
+      "description": "Every raw scan (paginated client-side); IIIF image per sha.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/img-iiif.json",
+      "url": "https://nanobotco.github.io/api/img-iiif.json",
+      "description": "Map of image sha256 → IIIF image URL (on-demand page images).",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/build-info.json",
+      "url": "https://nanobotco.github.io/api/build-info.json",
+      "description": "Generator version, build time, catalogue mtime, counts.",
+      "format": "application/json",
+      "templated": false
+    }
+  ]
+}
