@@ -254,6 +254,11 @@ function render(){
   document.getElementById('titleThai').textContent=M.titleThai||'';
   const main=document.getElementById('main');main.textContent='';
   const grid=el('div',{className:'grid'});const left=el('div');
+  // wichaa subjects named in this manuscript — doors up to the whole-subject article
+  if(M.subjects&&M.subjects.length){const ss=el('div',{style:'margin:0 0 14px;line-height:2.1'});
+    ss.append(el('span',{className:'muted',style:'font-weight:700;margin-right:8px',textContent:'Subjects:'}));
+    for(const s of M.subjects)ss.append(el('a',{href:s.href,style:'margin:0 6px 0 0;padding:4px 12px;border-radius:999px;background:var(--gold-bg);border:1px solid #e5cf9a;color:var(--gold);text-decoration:none;font-weight:700;font-size:14px',textContent:s.label}));
+    left.append(ss);}
 
   const meta=el('div',{className:'card'});
   const h=el('h2',{style:'margin-top:0'},[document.createTextNode('Details ')]);
@@ -308,7 +313,11 @@ function render(){
     det.append(el('pre',{textContent:typeof M.rawMetadata==='string'?M.rawMetadata:JSON.stringify(M.rawMetadata,null,2)}));meta.append(det);}
   left.append(meta);
 
-  const imgs=M.images||[];const pv=el('div',{className:'card pageviewer'});
+  const imgs=M.images||[];const hasPages=M.pages&&M.pages.length;
+  // The scan-images card shows for crawled scans / a IIIF folio. For a digested volume
+  // (pages but no scans) we skip it — the Pages gallery below IS the imagery.
+  if(imgs.length||M.iiifThumb||!hasPages){
+  const pv=el('div',{className:'card pageviewer'});
   const imgHead=imgs.length?('Images ('+imgs.length+')'):(M.iiifThumb?'Image':'Images (0)');
   pv.append(el('h2',{textContent:imgHead,style:'margin-top:0'}));
   if(!imgs.length){
@@ -331,6 +340,21 @@ function render(){
     [['image','Image'],['ocr','OCR text']].forEach(([v,l])=>{const b=el('button',{className:'tab',textContent:l});b.dataset.v=v;b.onclick=()=>{view=v;drawPage();};tabs.append(b);});
     pv.append(tabs,el('div',{id:'pagetext'}));}
   left.append(pv);
+  }
+  // Pages gallery — the digested volume, every page a real image rendered on demand.
+  if(hasPages){const pc=el('div',{className:'card',id:'pages'});
+    const dia=M.diagramPages||0;
+    pc.append(el('h2',{textContent:'Pages ('+M.pages.length+(dia?' · '+dia+' with diagrams':'')+')',style:'margin-top:0'}));
+    const lead=el('p',{className:'muted',style:'font-size:14px;margin:0 0 10px'});
+    lead.append(document.createTextNode('The full volume, page by page — each rendered on demand from the source scan. ◆ marks a page the vision pass flagged as carrying a diagram or figure. '));
+    if(M.readerHref)lead.append(el('a',{href:M.readerHref,textContent:'Open the bilingual reader →'}));
+    pc.append(lead);
+    const diagrams=M.pages.filter(p=>p.kind==='diagram');
+    if(diagrams.length){pc.append(el('p',{style:'font-weight:700;margin:6px 0',textContent:'Featured diagrams'}));
+      const fw=el('div',{className:'thumbwall'});for(const p of diagrams.slice(0,12))fw.append(pageThumb(p));pc.append(fw);
+      pc.append(el('p',{style:'font-weight:700;margin:16px 0 6px',textContent:'Every page'}));}
+    const wall=el('div',{className:'thumbwall'});for(const p of M.pages)wall.append(pageThumb(p));pc.append(wall);
+    left.append(pc);}
 
   const rel=M.related||[];
   if(rel.length){const rc=el('div',{className:'card'});

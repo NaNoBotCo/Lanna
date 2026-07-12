@@ -347,7 +347,11 @@ function apply(){const term=document.getElementById('search').value.trim();const
     else tags.append(el('span',{className:'pill',textContent:it.genreLabel}));
     if(it.scriptLabel)tags.append(el('span',{className:'pill script',textContent:it.scriptLabel}));
     if(it.materialLabel)tags.append(el('span',{className:'pill',textContent:it.materialLabel}));
-    tags.append(el('span',{className:'pill',textContent:(it.imageCount||0)+' images'}));
+    // imagery pill — a real count and a doorway into the pages, not a dead "0 images"
+    const nimg=it.imageCount||0, npag=it.pageCount||0;
+    if(npag>0)tags.append(el('a',{className:'pill imgpill',href:'/m?id='+it.id+'#pages',textContent:'▦ '+npag.toLocaleString()+' page image'+(npag===1?'':'s')}));
+    else if(nimg>0)tags.append(el('a',{className:'pill imgpill',href:'/m?id='+it.id,textContent:'▦ '+nimg.toLocaleString()+' image'+(nimg===1?'':'s')}));
+    else tags.append(el('span',{className:'pill',textContent:'no images yet'}));
     bd.append(tags);a.append(bd);box.append(a);}}
 document.getElementById('search').addEventListener('input',onSearchInput);
 document.getElementById('sort').addEventListener('change',apply);
