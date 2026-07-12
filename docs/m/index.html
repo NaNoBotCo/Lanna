@@ -231,6 +231,12 @@
     if(method !== 'GET') return Promise.resolve(jresp({ok:false, readonly:true}));
     if(p==='/api/search') return staticSearch(sp.get('q'));
     if(p==='/api/gallery' && sp.get('source')==='scans') return scansSlice(sp);
+    // analysis widgets: /api/w/<name> -> the dumped snapshot; geo.geojson is a real
+    // file already, everything else gains a .json extension on disk.
+    if(p.indexOf('/api/w/')===0){
+      if(p.slice(-8)==='.geojson') return _fetch(S(p), {});
+      return _fetch(S(p+'.json'), {});
+    }
     if(NOARG[p]) return _fetch(S(NOARG[p]), {});
     if(p==='/api/manuscript') return _fetch(S('/api/manuscript/'+encodeURIComponent(sp.get('id'))+'.json'), {});
     if(p==='/api/article')    return _fetch(S('/api/article/'+art(sp.get('s'))+'.json'), {});
@@ -259,6 +265,10 @@
     // path instead (read/N/index.html) — rewrite the click to match.
     var rm = href.match(/^\/read\?id=(\d+)/);
     if(rm){ ev.preventDefault(); location.href = S('read/'+rm[1]+'/'); return; }
+    // widget JSON download links point at '/api/w/<name>' (no extension); on disk
+    // that snapshot is '<name>.json' — map the download to the real file.
+    var wm = href.match(/^\/api\/w\/([a-z]+)$/);
+    if(wm){ ev.preventDefault(); location.href = S('api/w/'+wm[1]+'.json'); return; }
     ev.preventDefault();
     location.href = S(href);
   }, true);
