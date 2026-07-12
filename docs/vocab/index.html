@@ -214,6 +214,11 @@
     var href=a.getAttribute('href');
     if(!href || href.charAt(0)!=='/' || href.charAt(1)==='/') return;  // only root-absolute, not protocol-relative
     if(BASE!=='/' && href.indexOf(BASE)===0) return;                   // already re-rooted
+    // '/read?id=N' is a query-string route the live wiki serves dynamically; a
+    // static host can't route query strings, so the export ships it as a real
+    // path instead (read/N/index.html) — rewrite the click to match.
+    var rm = href.match(/^\/read\?id=(\d+)/);
+    if(rm){ ev.preventDefault(); location.href = S('read/'+rm[1]+'/'); return; }
     ev.preventDefault();
     location.href = S(href);
   }, true);

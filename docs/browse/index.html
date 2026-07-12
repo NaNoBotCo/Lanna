@@ -218,6 +218,11 @@
     var href=a.getAttribute('href');
     if(!href || href.charAt(0)!=='/' || href.charAt(1)==='/') return;  // only root-absolute, not protocol-relative
     if(BASE!=='/' && href.indexOf(BASE)===0) return;                   // already re-rooted
+    // '/read?id=N' is a query-string route the live wiki serves dynamically; a
+    // static host can't route query strings, so the export ships it as a real
+    // path instead (read/N/index.html) — rewrite the click to match.
+    var rm = href.match(/^\/read\?id=(\d+)/);
+    if(rm){ ev.preventDefault(); location.href = S('read/'+rm[1]+'/'); return; }
     ev.preventDefault();
     location.href = S(href);
   }, true);
@@ -280,11 +285,17 @@ function renderFacets(){const box=document.getElementById('facets');box.textCont
     if(vals.length>CAP){const more=el('button',{className:'more',textContent:expanded[key]?'– show fewer':'+ show all '+vals.length});
       more.onclick=()=>{expanded[key]=!expanded[key];renderFacets();};box.append(more);}}
   if(!any)box.append(el('p',{className:'muted',textContent:'No facets yet.'}));}
+const ARTICLE_AXES={genre:1,subgenre:1,script:1,scriptFamily:1,languages:1,material:1,materialFamily:1,province:1,temple:1,era:1};
 function renderChips(){const box=document.getElementById('chips');box.textContent='';
   for(const key of Object.keys(active))for(const val of active[key]){
     const chip=el('span',{className:'chip'},[document.createTextNode(FL[key]+': '+labelFor(key,val))]);
     const x=el('button',{textContent:'×','aria-label':'Remove filter '+labelFor(key,val)});x.onclick=()=>toggle(key,val,false);
-    chip.append(x);box.append(chip);}}
+    chip.append(x);box.append(chip);}
+  // exactly one node selected → offer its article: the facet and the article are one node
+  const ks=Object.keys(active);
+  if(ks.length===1&&active[ks[0]].size===1&&ARTICLE_AXES[ks[0]]){const k=ks[0],v=[...active[k]][0];
+    box.append(el('a',{className:'chip',style:'background:var(--teal);color:#fff;text-decoration:none;font-weight:700',
+      href:'/a?s='+encodeURIComponent(k+':'+v),textContent:'Read about '+labelFor(k,v)+' →'}));}}
 function matches(it){for(const key of Object.keys(active)){const set=active[key];if(!set||!set.size)continue;
     let field;if(key==='priority')field=[it.priority?'Research priority':''];
     else field=Array.isArray(it[key])?it[key]:[it[key]];  // multi-valued facets (e.g. languages) match on membership

@@ -229,6 +229,11 @@
     var href=a.getAttribute('href');
     if(!href || href.charAt(0)!=='/' || href.charAt(1)==='/') return;  // only root-absolute, not protocol-relative
     if(BASE!=='/' && href.indexOf(BASE)===0) return;                   // already re-rooted
+    // '/read?id=N' is a query-string route the live wiki serves dynamically; a
+    // static host can't route query strings, so the export ships it as a real
+    // path instead (read/N/index.html) — rewrite the click to match.
+    var rm = href.match(/^\/read\?id=(\d+)/);
+    if(rm){ ev.preventDefault(); location.href = S('read/'+rm[1]+'/'); return; }
     ev.preventDefault();
     location.href = S(href);
   }, true);
@@ -348,6 +353,15 @@ async function load(){
     const sa=el('p',{className:'seealso'});sa.append(el('strong',{textContent:'See also: '}));
     for(const k of a.authored.see_also){const parts=k.split(':');const label=(parts.length>2?parts[parts.length-1]:parts[1])||k;sa.append(el('a',{href:'/a?s='+encodeURIComponent(k),textContent:label.replace(/_/g,' ')}));}
     body.append(sa);}
+  // the node's THIRD face: findings addressed to it, computed live (facet+article+findings=one node)
+  if(a.findings&&a.findings.length){const fb=el('div',{style:'margin-top:18px;border-top:1px solid var(--line);padding-top:12px'});
+    fb.append(el('h2',{style:'font-size:18px;margin:0 0 2px',textContent:'What the bots have noticed'}));
+    fb.append(el('p',{className:'muted',style:'font-size:13px;margin:0 0 8px',textContent:'Machine-derived from the catalogue — refreshed live, each links to its finding.'}));
+    const ul=el('ul',{style:'margin:0;padding-left:18px'});
+    for(const f of a.findings){const li=el('li',{style:'margin:5px 0;line-height:1.6'});
+      li.append(el('strong',{textContent:f.title}));li.append(document.createTextNode(' — '+f.gloss+' '));
+      li.append(el('a',{href:'/findings#'+f.slug,textContent:'see the finding →'}));ul.append(li);}
+    fb.append(ul);body.append(fb);}
   if(p&&p.count&&a.browseCol)body.append(el('a',{className:'cta',href:'/browse?'+a.browseCol+'='+encodeURIComponent(a.value),textContent:'Browse all '+p.count.toLocaleString()+' →'}));
   art.append(body);
   // right: live facts

@@ -208,6 +208,11 @@
     var href=a.getAttribute('href');
     if(!href || href.charAt(0)!=='/' || href.charAt(1)==='/') return;  // only root-absolute, not protocol-relative
     if(BASE!=='/' && href.indexOf(BASE)===0) return;                   // already re-rooted
+    // '/read?id=N' is a query-string route the live wiki serves dynamically; a
+    // static host can't route query strings, so the export ships it as a real
+    // path instead (read/N/index.html) — rewrite the click to match.
+    var rm = href.match(/^\/read\?id=(\d+)/);
+    if(rm){ ev.preventDefault(); location.href = S('read/'+rm[1]+'/'); return; }
     ev.preventDefault();
     location.href = S(href);
   }, true);
@@ -297,6 +302,7 @@ function render(){
   const links=el('p',{style:'margin:12px 0 0'});
   if(M.sourceUrl)links.append(el('a',{href:M.sourceUrl,target:'_blank',rel:'noopener',textContent:'View at source ↗'}));
   if(M.iiifManifestUrl){if(M.sourceUrl)links.append(document.createTextNode('   '));links.append(el('a',{href:M.iiifManifestUrl,target:'_blank',rel:'noopener',textContent:'IIIF manifest ↗'}));}
+  if(M.hasReader){if(links.childNodes.length)links.append(document.createTextNode('   '));links.append(el('a',{href:'/read?id='+M.id,textContent:'📖 Read transcription + translation →'}));}
   if(links.childNodes.length)meta.append(links);
   if(M.rawMetadata){const det=el('details');det.append(el('summary',{textContent:'Raw source metadata',style:'cursor:pointer;font-weight:700;color:var(--muted)'}));
     det.append(el('pre',{textContent:typeof M.rawMetadata==='string'?M.rawMetadata:JSON.stringify(M.rawMetadata,null,2)}));meta.append(det);}
