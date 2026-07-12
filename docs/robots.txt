@@ -1,4 +1,5 @@
-# Lanna Manuscript Wiki — an open research corpus. AI crawlers welcome.
+# Lanna Manuscript Wiki — an open research corpus. AI crawlers, and
+# image crawlers/indexers, welcome — see the image sitemap below.
 User-agent: *
 Allow: /
 
@@ -36,6 +37,12 @@ User-agent: Bytespider
 Allow: /
 
 User-agent: cohere-ai
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
 Allow: /
 
 Sitemap: https://wichaa.net/sitemap.xml

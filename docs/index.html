@@ -66,6 +66,12 @@
   .thread{display:grid;grid-template-columns:1fr 88px 1fr;gap:0;align-items:stretch;
     margin-top:30px}
   .pane{padding:28px;border:1px solid var(--line);background:var(--bg);border-radius:14px}
+  .pane .shot{margin:-28px -28px 20px;border-radius:14px 14px 0 0;overflow:hidden;
+    aspect-ratio:16/11;background:#e9dfc4;position:relative}
+  .pane .shot img{width:100%;height:100%;object-fit:cover;display:block}
+  .pane .shot .cap{position:absolute;left:0;right:0;bottom:0;padding:8px 14px;
+    font-size:12.5px;color:#f6f1e4;background:linear-gradient(transparent,rgba(20,24,20,.72));
+    font-family:var(--sans)}
   .pane .tag{font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:700}
   .pane.arch .tag{color:var(--gold)}
   .pane.market .tag{color:var(--crimson)}
@@ -156,6 +162,8 @@
 
     <div class="thread">
       <div class="pane arch">
+        <div class="shot"><img src="/assets/landing/takrut-manuscript.jpg" alt="A yantra diagram from the charm-making manual, manuscript #6983" loading="lazy">
+          <div class="cap">Folio from #6983 — a yantra diagram, hand-drawn</div></div>
         <div class="tag">From the archive</div>
         <h3>ตำราสร้างเครื่องรางของขลัง</h3>
         <div class="th">“Making Sacred Charms &amp; Amulets”</div>
@@ -170,6 +178,8 @@
       </div>
 
       <div class="pane market">
+        <div class="shot"><img src="/assets/landing/takrut-market.jpg" alt="Finished takrut charms in glass vials, for sale today" loading="lazy">
+          <div class="cap">Listed today — the finished charm, in hand</div></div>
         <div class="tag">In today's market</div>
         <h3>ตะกรุดเรียกนาง</h3>
         <div class="th">“Lady-calling takrut,” Luang Phor Tui</div>
