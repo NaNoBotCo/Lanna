@@ -32,6 +32,41 @@
   .muted{color:var(--muted)}
   .thai{font-size:1.15em}
   .empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px;background:#fff}
+  /* Global overflow safety net: nothing should force the viewport wider than the
+     phone. Images fluid; wide blocks (code, pre) scroll inside their own box. */
+  img{max-width:100%;height:auto}
+  pre,code{overflow-x:auto;max-width:100%}
+  /* Mobile-responsive pass (dr's feedback, 2026-07-12): the header's nav had no
+     wrap and no breakpoint, so its ~9 buttons overflowed and forced a horizontal
+     scroll. Below 760px the nav drops under the title and wraps; padding, type,
+     and card chrome all tighten so a phone reads the archive with no sideways
+     scrolling. Touch targets stay >=40px tall. */
+  @media(max-width:760px){
+    header{padding:12px 16px;gap:6px 12px}
+    header h1{font-size:20px}
+    header .sub{font-size:13.5px;flex-basis:100%;order:3}
+    header nav{margin-left:0;width:100%;flex-wrap:wrap;gap:6px;order:2}
+    header nav a{padding:8px 11px;font-size:14px;border-width:1px}
+    main{padding:14px;max-width:100%}
+    body{font-size:16px}
+    .card{padding:14px 15px}
+    table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  }
+  @media(max-width:420px){
+    header h1{font-size:18px}
+    header nav a{padding:7px 9px;font-size:13px}
+    main{padding:11px}
+  }
+  /* Back-to-menu: the header nav scrolls away on long pages (it needn't persist,
+     but there must be a way back — dr's feedback). A floating pill appears once
+     you've scrolled and jumps to the top, where the nav lives. */
+  #tomenu{position:fixed;right:16px;bottom:16px;z-index:50;display:none;
+    background:var(--teal);color:#fff;border:none;border-radius:999px;
+    padding:11px 16px;font:700 14px/1 inherit;cursor:pointer;min-height:44px;
+    box-shadow:0 3px 12px #0003;text-decoration:none}
+  #tomenu.show{display:inline-flex;align-items:center;gap:6px}
+  #tomenu:hover{background:#163b38}
+  @media print{#tomenu{display:none!important}}
 
   .grid{display:grid;grid-template-columns:1fr 340px;gap:18px}
   @media(max-width:900px){.grid{grid-template-columns:1fr}}
@@ -320,8 +355,14 @@ function render(){
   for(const c of cells)if(c)dl.append(...c);
   meta.append(dl);
   const links=el('p',{style:'margin:12px 0 0'});
-  if(M.sourceUrl)links.append(el('a',{href:M.sourceUrl,target:'_blank',rel:'noopener',textContent:'View at source ↗'}));
-  if(M.iiifManifestUrl){if(M.sourceUrl)links.append(document.createTextNode('   '));links.append(el('a',{href:M.iiifManifestUrl,target:'_blank',rel:'noopener',textContent:'IIIF manifest ↗'}));}
+  // "View at source": CrossAsia changed their site and the per-manuscript viewer
+  // routes now 404 (page title "Search"); contributed volumes carry a local: path
+  // with no public source. So prefer the IIIF manifest — the holding library's
+  // canonical, always-resolving record — and only show the raw source_url when it
+  // is a genuine off-site http page (not the dead crossasia collection route).
+  const deadSource = !M.sourceUrl || M.sourceUrl.indexOf('local:')===0 || M.sourceUrl.indexOf('/s/lanna/collections/')>=0;
+  if(M.iiifManifestUrl)links.append(el('a',{href:M.iiifManifestUrl,target:'_blank',rel:'noopener',textContent:'View at source library (IIIF) ↗'}));
+  if(!deadSource){if(links.childNodes.length)links.append(document.createTextNode('   '));links.append(el('a',{href:M.sourceUrl,target:'_blank',rel:'noopener',textContent:'Source record ↗'}));}
   if(M.hasReader){if(links.childNodes.length)links.append(document.createTextNode('   '));links.append(el('a',{href:'/read?id='+M.id,textContent:'📖 Read transcription + translation →'}));}
   if(links.childNodes.length)meta.append(links);
   if(M.rawMetadata){const det=el('details');det.append(el('summary',{textContent:'Raw source metadata',style:'cursor:pointer;font-weight:700;color:var(--muted)'}));
@@ -430,4 +471,4 @@ function runOcr(lang,btn){const log=document.getElementById('log');log.style.dis
       (function pump(){return rd.read().then(({done,value})=>{if(done){btn.disabled=false;load();return;}log.textContent+=dec.decode(value);log.scrollTop=log.scrollHeight;return pump();});})();})
     .catch(e=>{log.textContent+='\n'+e.message;btn.disabled=false;});}
 load();
-</script></body></html>
+</script><button id=tomenu aria-label='Back to menu' onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650; Menu</button><script>(function(){var b=document.getElementById('tomenu');if(!b)return;var f=function(){b.classList.toggle('show',(window.scrollY||0)>320);};addEventListener('scroll',f,{passive:true});f();})();</script></body></html>
