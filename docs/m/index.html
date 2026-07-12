@@ -271,16 +271,22 @@ function render(){
   // province resolved to a canonical node; the raw provenance (temple/district) kept as a note
   const provDd=el('dd');if(M.province)provDd.append(fcell('province',M.province));
   if(M.provenance&&M.geoLevel!=='province')provDd.append(el('span',{className:'muted',style:'font-size:12px',textContent:(M.province?'  · ':'')+'recorded as '+M.provenance+(M.geoLevel!=='other'?' ('+M.geoLevel+')':'')}));
+  // material + its palm-leaf/paper family roll-up
+  const matDd=el('dd');if(M.material){matDd.append(fcell('material',M.material,M.materialLabel));
+    if(M.materialFamily&&M.materialFamily!==M.materialLabel){matDd.append(document.createTextNode('  · '));matDd.append(el('a',{href:'/browse?materialFamily='+encodeURIComponent(M.materialFamily),textContent:M.materialFamily}));}}
+  // date + the calendar era pulled out as its own node (CS antique vs BE modern)
+  const dateDd=el('dd');if(M.date||M.dateCe){dateDd.append(document.createTextNode((M.date||'')+(M.dateCe?'  (~'+M.dateCe+' CE)':'')));
+    if(M.era){dateDd.append(document.createTextNode('  · '));dateDd.append(el('a',{href:'/browse?era='+encodeURIComponent(M.era),textContent:M.era}));}}
   const cells=[
     drow('Source',M.source?fcell('source',M.source):null),
     trow('Source ID',M.sourceIdentifier),
     M.genre?[el('dt',{textContent:'Genre'}),genreDd]:null,
     M.script?[el('dt',{textContent:'Script'}),scriptDd]:null,
     (M.languages&&M.languages.length)?[el('dt',{textContent:'Language'}),langDd]:null,
-    drow('Material',M.material?fcell('material',M.material,M.materialLabel):null),
+    M.material?[el('dt',{textContent:'Material'}),matDd]:null,
     drow('Temple',M.temple?fcell('temple',M.temple):null),
     (M.province||(M.provenance&&M.geoLevel!=='province'))?[el('dt',{textContent:'Province'}),provDd]:null,
-    trow('Date',(M.date||'')+(M.dateCe?'  (~'+M.dateCe+' CE)':'')),
+    (M.date||M.dateCe)?[el('dt',{textContent:'Date'}),dateDd]:null,
     trow('Extent',M.extentPages?M.extentPages+(M.extentPages==1?' folio':' folios'):''),
     ...(M.firstSeen&&M.firstSeen===M.lastSeen
         ? [trow('Catalogued',fmtDate(M.firstSeen))]
