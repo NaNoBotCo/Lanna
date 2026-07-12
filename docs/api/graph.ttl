@@ -1,230 +1,230 @@
-@prefix lw: <https://lanna.wiki/ns#> .
+@prefix lw: <https://wichaa.net/ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://lanna.wiki/id/entity/lersi>
+<https://wichaa.net/id/entity/lersi>
     a lw:Entity ;
     rdfs:label "Lersi / Ruesi (ascetic-seers)" ;
-    lw:teacher_of <https://lanna.wiki/id/entity/yantra> ;
-    lw:teacher_of <https://lanna.wiki/id/entity/katha> ;
-    lw:teacher_of <https://lanna.wiki/id/entity/holasat> ;
-    lw:related_to <https://lanna.wiki/id/genre/tamnan_chronicle> ;
-    lw:related_to <https://lanna.wiki/id/genre/magic_ritual> ;
-    lw:related_to <https://lanna.wiki/id/entity/yantra> ;
-    lw:related_to <https://lanna.wiki/id/entity/katha> .
+    lw:teacher_of <https://wichaa.net/id/entity/yantra> ;
+    lw:teacher_of <https://wichaa.net/id/entity/katha> ;
+    lw:teacher_of <https://wichaa.net/id/entity/holasat> ;
+    lw:related_to <https://wichaa.net/id/genre/tamnan_chronicle> ;
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/entity/yantra> ;
+    lw:related_to <https://wichaa.net/id/entity/katha> .
 
-<https://lanna.wiki/id/entity/yantra>
+<https://wichaa.net/id/entity/yantra>
     a lw:Entity ;
     rdfs:label "Yantra / Yan (nyan)" ;
-    lw:invokes <https://lanna.wiki/id/entity/katha> ;
-    lw:part_of <https://lanna.wiki/id/genre/magic_ritual> ;
-    lw:related_to <https://lanna.wiki/id/genre/magic_ritual> ;
-    lw:related_to <https://lanna.wiki/id/entity/katha> ;
-    lw:related_to <https://lanna.wiki/id/genre/astrology> ;
-    lw:related_to <https://lanna.wiki/id/entity/holasat> .
+    lw:invokes <https://wichaa.net/id/entity/katha> ;
+    lw:part_of <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/entity/katha> ;
+    lw:related_to <https://wichaa.net/id/genre/astrology> ;
+    lw:related_to <https://wichaa.net/id/entity/holasat> .
 
-<https://lanna.wiki/id/entity/katha>
+<https://wichaa.net/id/entity/katha>
     a lw:Entity ;
     rdfs:label "Katha (Pali spell-formulae)" ;
-    lw:part_of <https://lanna.wiki/id/genre/magic_ritual> ;
-    lw:related_to <https://lanna.wiki/id/genre/magic_ritual> ;
-    lw:related_to <https://lanna.wiki/id/genre/buddhist_canonical> ;
-    lw:related_to <https://lanna.wiki/id/entity/holasat> ;
-    lw:related_to <https://lanna.wiki/id/entity/yantra> .
+    lw:part_of <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/genre/buddhist_canonical> ;
+    lw:related_to <https://wichaa.net/id/entity/holasat> ;
+    lw:related_to <https://wichaa.net/id/entity/yantra> .
 
-<https://lanna.wiki/id/entity/holasat>
+<https://wichaa.net/id/entity/holasat>
     a lw:Entity ;
     rdfs:label "Horā almanac (Holasat)" ;
-    lw:paired_with <https://lanna.wiki/id/entity/phrommachat> ;
-    lw:part_of <https://lanna.wiki/id/genre/astrology> ;
-    lw:related_to <https://lanna.wiki/id/genre/astrology> ;
-    lw:related_to <https://lanna.wiki/id/genre/divination_omen> ;
-    lw:related_to <https://lanna.wiki/id/entity/katha> ;
-    lw:related_to <https://lanna.wiki/id/genre/magic_ritual> .
+    lw:paired_with <https://wichaa.net/id/entity/phrommachat> ;
+    lw:part_of <https://wichaa.net/id/genre/astrology> ;
+    lw:related_to <https://wichaa.net/id/genre/astrology> ;
+    lw:related_to <https://wichaa.net/id/genre/divination_omen> ;
+    lw:related_to <https://wichaa.net/id/entity/katha> ;
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> .
 
-<https://lanna.wiki/id/genre/tamnan_chronicle>
+<https://wichaa.net/id/genre/tamnan_chronicle>
     a lw:Genre ;
     rdfs:label "Chronicle (Tamnan) · ตำนาน" ;
-    lw:related_to <https://lanna.wiki/id/genre/buddhist_canonical> ;
-    lw:related_to <https://lanna.wiki/id/genre/law_customary> .
+    lw:related_to <https://wichaa.net/id/genre/buddhist_canonical> ;
+    lw:related_to <https://wichaa.net/id/genre/law_customary> .
 
-<https://lanna.wiki/id/genre/magic_ritual>
+<https://wichaa.net/id/genre/magic_ritual>
     a lw:Genre ;
     rdfs:label "Magic & Ritual · ไสยศาสตร์" ;
-    lw:related_to <https://lanna.wiki/id/genre/astrology> ;
-    lw:related_to <https://lanna.wiki/id/genre/liturgy_chanting> .
+    lw:related_to <https://wichaa.net/id/genre/astrology> ;
+    lw:related_to <https://wichaa.net/id/genre/liturgy_chanting> .
 
-<https://lanna.wiki/id/entity/naga>
+<https://wichaa.net/id/entity/naga>
     a lw:Entity ;
     rdfs:label "Naga (sacred serpent)" ;
-    lw:depicted_in <https://lanna.wiki/id/genre/jataka> ;
-    lw:related_to <https://lanna.wiki/id/entity/yantra> ;
-    lw:related_to <https://lanna.wiki/id/genre/jataka> ;
-    lw:related_to <https://lanna.wiki/id/genre/magic_ritual> ;
-    lw:related_to <https://lanna.wiki/id/genre/buddhist_canonical> .
+    lw:depicted_in <https://wichaa.net/id/genre/jataka> ;
+    lw:related_to <https://wichaa.net/id/entity/yantra> ;
+    lw:related_to <https://wichaa.net/id/genre/jataka> ;
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/genre/buddhist_canonical> .
 
-<https://lanna.wiki/id/genre/jataka>
+<https://wichaa.net/id/genre/jataka>
     a lw:Genre ;
     rdfs:label "Jātaka · ชาดก" ;
-    lw:related_to <https://lanna.wiki/id/genre/buddhist_canonical> ;
-    lw:related_to <https://lanna.wiki/id/genre/liturgy_chanting> .
+    lw:related_to <https://wichaa.net/id/genre/buddhist_canonical> ;
+    lw:related_to <https://wichaa.net/id/genre/liturgy_chanting> .
 
-<https://lanna.wiki/id/entity/thammasat>
+<https://wichaa.net/id/entity/thammasat>
     a lw:Entity ;
     rdfs:label "Thammasat (dhammasattha)" ;
-    lw:paired_with <https://lanna.wiki/id/entity/mangraisat> ;
-    lw:part_of <https://lanna.wiki/id/genre/law_customary> ;
-    lw:related_to <https://lanna.wiki/id/genre/law_customary> ;
-    lw:related_to <https://lanna.wiki/id/entity/mangraisat> ;
-    lw:related_to <https://lanna.wiki/id/genre/buddhist_canonical> .
+    lw:paired_with <https://wichaa.net/id/entity/mangraisat> ;
+    lw:part_of <https://wichaa.net/id/genre/law_customary> ;
+    lw:related_to <https://wichaa.net/id/genre/law_customary> ;
+    lw:related_to <https://wichaa.net/id/entity/mangraisat> ;
+    lw:related_to <https://wichaa.net/id/genre/buddhist_canonical> .
 
-<https://lanna.wiki/id/entity/mangraisat>
+<https://wichaa.net/id/entity/mangraisat>
     a lw:Entity ;
     rdfs:label "Mangraisat (Mangrai code)" ;
-    lw:part_of <https://lanna.wiki/id/genre/law_customary> ;
-    lw:related_to <https://lanna.wiki/id/genre/law_customary> ;
-    lw:related_to <https://lanna.wiki/id/genre/tamnan_chronicle> ;
-    lw:related_to <https://lanna.wiki/id/entity/thammasat> ;
-    lw:related_to <https://lanna.wiki/id/subgenre/tamnan_chronicle%3ASecular%20History> .
+    lw:part_of <https://wichaa.net/id/genre/law_customary> ;
+    lw:related_to <https://wichaa.net/id/genre/law_customary> ;
+    lw:related_to <https://wichaa.net/id/genre/tamnan_chronicle> ;
+    lw:related_to <https://wichaa.net/id/entity/thammasat> ;
+    lw:related_to <https://wichaa.net/id/subgenre/tamnan_chronicle%3ASecular%20History> .
 
-<https://lanna.wiki/id/genre/law_customary>
+<https://wichaa.net/id/genre/law_customary>
     a lw:Genre ;
     rdfs:label "Customary Law · กฎหมายจารีต" ;
-    lw:related_to <https://lanna.wiki/id/genre/tamnan_chronicle> ;
-    lw:related_to <https://lanna.wiki/id/genre/didactic_moral> .
+    lw:related_to <https://wichaa.net/id/genre/tamnan_chronicle> ;
+    lw:related_to <https://wichaa.net/id/genre/didactic_moral> .
 
-<https://lanna.wiki/id/entity/phrommachat>
+<https://wichaa.net/id/entity/phrommachat>
     a lw:Entity ;
     rdfs:label "Phrommachat (12-year almanac)" ;
-    lw:part_of <https://lanna.wiki/id/genre/astrology> ;
-    lw:related_to <https://lanna.wiki/id/genre/astrology> ;
-    lw:related_to <https://lanna.wiki/id/genre/divination_omen> ;
-    lw:related_to <https://lanna.wiki/id/entity/holasat> ;
-    lw:related_to <https://lanna.wiki/id/entity/katha> .
+    lw:part_of <https://wichaa.net/id/genre/astrology> ;
+    lw:related_to <https://wichaa.net/id/genre/astrology> ;
+    lw:related_to <https://wichaa.net/id/genre/divination_omen> ;
+    lw:related_to <https://wichaa.net/id/entity/holasat> ;
+    lw:related_to <https://wichaa.net/id/entity/katha> .
 
-<https://lanna.wiki/id/genre/astrology>
+<https://wichaa.net/id/genre/astrology>
     a lw:Genre ;
     rdfs:label "Astrology · โหราศาสตร์" ;
-    lw:related_to <https://lanna.wiki/id/genre/magic_ritual> .
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> .
 
-<https://lanna.wiki/id/entity/suep_cata>
+<https://wichaa.net/id/entity/suep_cata>
     a lw:Entity ;
     rdfs:label "Suep Cata (life-extension rite)" ;
-    lw:related_to <https://lanna.wiki/id/entity/su_khwan> ;
-    lw:part_of <https://lanna.wiki/id/genre/magic_ritual> ;
-    lw:related_to <https://lanna.wiki/id/genre/magic_ritual> ;
-    lw:related_to <https://lanna.wiki/id/genre/astrology> ;
-    lw:related_to <https://lanna.wiki/id/entity/holasat> .
+    lw:related_to <https://wichaa.net/id/entity/su_khwan> ;
+    lw:part_of <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/genre/astrology> ;
+    lw:related_to <https://wichaa.net/id/entity/holasat> .
 
-<https://lanna.wiki/id/entity/su_khwan>
+<https://wichaa.net/id/entity/su_khwan>
     a lw:Entity ;
     rdfs:label "Su Khwan (soul-calling)" ;
-    lw:part_of <https://lanna.wiki/id/genre/magic_ritual> ;
-    lw:related_to <https://lanna.wiki/id/genre/magic_ritual> ;
-    lw:related_to <https://lanna.wiki/id/entity/suep_cata> ;
-    lw:related_to <https://lanna.wiki/id/genre/liturgy_chanting> ;
-    lw:related_to <https://lanna.wiki/id/entity/holasat> .
+    lw:part_of <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/entity/suep_cata> ;
+    lw:related_to <https://wichaa.net/id/genre/liturgy_chanting> ;
+    lw:related_to <https://wichaa.net/id/entity/holasat> .
 
-<https://lanna.wiki/id/entity/sut_thon>
+<https://wichaa.net/id/entity/sut_thon>
     a lw:Entity ;
     rdfs:label "Thon (protective / funerary rite)" ;
-    lw:related_to <https://lanna.wiki/id/entity/su_khwan> ;
-    lw:part_of <https://lanna.wiki/id/genre/magic_ritual> ;
-    lw:related_to <https://lanna.wiki/id/genre/magic_ritual> ;
-    lw:related_to <https://lanna.wiki/id/entity/suep_cata> ;
-    lw:related_to <https://lanna.wiki/id/genre/liturgy_chanting> .
+    lw:related_to <https://wichaa.net/id/entity/su_khwan> ;
+    lw:part_of <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/entity/suep_cata> ;
+    lw:related_to <https://wichaa.net/id/genre/liturgy_chanting> .
 
-<https://lanna.wiki/id/entity/vessantara>
+<https://wichaa.net/id/entity/vessantara>
     a lw:Entity ;
     rdfs:label "Vessantara / Mahāchat" ;
-    lw:part_of <https://lanna.wiki/id/genre/jataka> ;
-    lw:related_to <https://lanna.wiki/id/genre/jataka> ;
-    lw:related_to <https://lanna.wiki/id/genre/liturgy_chanting> ;
-    lw:related_to <https://lanna.wiki/id/genre/poetry_literary> ;
-    lw:related_to <https://lanna.wiki/id/entity/katha> .
+    lw:part_of <https://wichaa.net/id/genre/jataka> ;
+    lw:related_to <https://wichaa.net/id/genre/jataka> ;
+    lw:related_to <https://wichaa.net/id/genre/liturgy_chanting> ;
+    lw:related_to <https://wichaa.net/id/genre/poetry_literary> ;
+    lw:related_to <https://wichaa.net/id/entity/katha> .
 
-<https://lanna.wiki/id/entity/mahasamai>
+<https://wichaa.net/id/entity/mahasamai>
     a lw:Entity ;
     rdfs:label "Mahāsamaya Sutta" ;
-    lw:part_of <https://lanna.wiki/id/genre/buddhist_canonical> .
+    lw:part_of <https://wichaa.net/id/genre/buddhist_canonical> .
 
-<https://lanna.wiki/id/genre/buddhist_canonical>
+<https://wichaa.net/id/genre/buddhist_canonical>
     a lw:Genre ;
     rdfs:label "Buddhist Canonical · พระไตรปิฎก" ;
-    lw:related_to <https://lanna.wiki/id/genre/jataka> ;
-    lw:related_to <https://lanna.wiki/id/genre/liturgy_chanting> .
+    lw:related_to <https://wichaa.net/id/genre/jataka> ;
+    lw:related_to <https://wichaa.net/id/genre/liturgy_chanting> .
 
-<https://lanna.wiki/id/genre/liturgy_chanting>
+<https://wichaa.net/id/genre/liturgy_chanting>
     a lw:Genre ;
     rdfs:label "Liturgy & Chanting · บทสวด" ;
-    lw:related_to <https://lanna.wiki/id/genre/magic_ritual> ;
-    lw:related_to <https://lanna.wiki/id/genre/jataka> .
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/genre/jataka> .
 
-<https://lanna.wiki/id/genre/didactic_moral>
+<https://wichaa.net/id/genre/didactic_moral>
     a lw:Genre ;
     rdfs:label "Didactic & Moral · คำสอน" ;
-    lw:related_to <https://lanna.wiki/id/genre/law_customary> ;
-    lw:related_to <https://lanna.wiki/id/genre/poetry_literary> .
+    lw:related_to <https://wichaa.net/id/genre/law_customary> ;
+    lw:related_to <https://wichaa.net/id/genre/poetry_literary> .
 
-<https://lanna.wiki/id/genre/poetry_literary>
+<https://wichaa.net/id/genre/poetry_literary>
     a lw:Genre ;
     rdfs:label "Poetry & Literature · วรรณกรรม" ;
-    lw:related_to <https://lanna.wiki/id/genre/jataka> ;
-    lw:related_to <https://lanna.wiki/id/genre/tamnan_chronicle> .
+    lw:related_to <https://wichaa.net/id/genre/jataka> ;
+    lw:related_to <https://wichaa.net/id/genre/tamnan_chronicle> .
 
-<https://lanna.wiki/id/genre/grammar_lexicography>
+<https://wichaa.net/id/genre/grammar_lexicography>
     a lw:Genre ;
     rdfs:label "Grammar & Lexicography · ไวยากรณ์" ;
-    lw:related_to <https://lanna.wiki/id/genre/buddhist_canonical> ;
-    lw:related_to <https://lanna.wiki/id/genre/magic_ritual> .
+    lw:related_to <https://wichaa.net/id/genre/buddhist_canonical> ;
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> .
 
-<https://lanna.wiki/id/genre/other>
+<https://wichaa.net/id/genre/other>
     a lw:Genre ;
     rdfs:label "Other · อื่น ๆ" ;
-    lw:related_to <https://lanna.wiki/id/genre/astrology> ;
-    lw:related_to <https://lanna.wiki/id/genre/magic_ritual> .
+    lw:related_to <https://wichaa.net/id/genre/astrology> ;
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> .
 
-<https://lanna.wiki/id/genre/divination_omen>
+<https://wichaa.net/id/genre/divination_omen>
     a lw:Genre ;
     rdfs:label "Divination & Omens · การทำนาย" .
 
-<https://lanna.wiki/id/subgenre/tamnan_chronicle%3ASecular%20History>
+<https://wichaa.net/id/subgenre/tamnan_chronicle%3ASecular%20History>
     a lw:Subgenre ;
     rdfs:label "Chronicle (Tamnan) · ตำนาน › Secular History" ;
-    lw:related_to <https://lanna.wiki/id/genre/tamnan_chronicle> ;
-    lw:related_to <https://lanna.wiki/id/genre/law_customary> ;
-    lw:related_to <https://lanna.wiki/id/genre/poetry_literary> .
+    lw:related_to <https://wichaa.net/id/genre/tamnan_chronicle> ;
+    lw:related_to <https://wichaa.net/id/genre/law_customary> ;
+    lw:related_to <https://wichaa.net/id/genre/poetry_literary> .
 
-<https://lanna.wiki/id/subgenre/buddhist_canonical%3AAbhidhamma>
+<https://wichaa.net/id/subgenre/buddhist_canonical%3AAbhidhamma>
     a lw:Subgenre ;
     rdfs:label "Buddhist Canonical · พระไตรปิฎก › Abhidhamma" ;
-    lw:related_to <https://lanna.wiki/id/genre/buddhist_canonical> ;
-    lw:related_to <https://lanna.wiki/id/genre/grammar_lexicography> ;
-    lw:related_to <https://lanna.wiki/id/genre/liturgy_chanting> .
+    lw:related_to <https://wichaa.net/id/genre/buddhist_canonical> ;
+    lw:related_to <https://wichaa.net/id/genre/grammar_lexicography> ;
+    lw:related_to <https://wichaa.net/id/genre/liturgy_chanting> .
 
-<https://lanna.wiki/id/subgenre/buddhist_canonical%3ASutta>
+<https://wichaa.net/id/subgenre/buddhist_canonical%3ASutta>
     a lw:Subgenre ;
     rdfs:label "Buddhist Canonical · พระไตรปิฎก › Sutta" ;
-    lw:related_to <https://lanna.wiki/id/genre/buddhist_canonical> ;
-    lw:related_to <https://lanna.wiki/id/genre/grammar_lexicography> ;
-    lw:related_to <https://lanna.wiki/id/entity/katha> .
+    lw:related_to <https://wichaa.net/id/genre/buddhist_canonical> ;
+    lw:related_to <https://wichaa.net/id/genre/grammar_lexicography> ;
+    lw:related_to <https://wichaa.net/id/entity/katha> .
 
-<https://lanna.wiki/id/subgenre/buddhist_canonical%3AVinaya>
+<https://wichaa.net/id/subgenre/buddhist_canonical%3AVinaya>
     a lw:Subgenre ;
     rdfs:label "Buddhist Canonical · พระไตรปิฎก › Vinaya" ;
-    lw:related_to <https://lanna.wiki/id/genre/buddhist_canonical> ;
-    lw:related_to <https://lanna.wiki/id/genre/liturgy_chanting> ;
-    lw:related_to <https://lanna.wiki/id/genre/grammar_lexicography> .
+    lw:related_to <https://wichaa.net/id/genre/buddhist_canonical> ;
+    lw:related_to <https://wichaa.net/id/genre/liturgy_chanting> ;
+    lw:related_to <https://wichaa.net/id/genre/grammar_lexicography> .
 
-<https://lanna.wiki/id/subgenre/tamnan_chronicle%3ABuddhist%20Chronicle>
+<https://wichaa.net/id/subgenre/tamnan_chronicle%3ABuddhist%20Chronicle>
     a lw:Subgenre ;
     rdfs:label "Chronicle (Tamnan) · ตำนาน › Buddhist Chronicle" ;
-    lw:related_to <https://lanna.wiki/id/genre/tamnan_chronicle> ;
-    lw:related_to <https://lanna.wiki/id/genre/buddhist_canonical> ;
-    lw:related_to <https://lanna.wiki/id/genre/law_customary> .
+    lw:related_to <https://wichaa.net/id/genre/tamnan_chronicle> ;
+    lw:related_to <https://wichaa.net/id/genre/buddhist_canonical> ;
+    lw:related_to <https://wichaa.net/id/genre/law_customary> .
 
-<https://lanna.wiki/id/subgenre/tamnan_chronicle%3ATamnan>
+<https://wichaa.net/id/subgenre/tamnan_chronicle%3ATamnan>
     a lw:Subgenre ;
     rdfs:label "Chronicle (Tamnan) · ตำนาน › Tamnan" ;
-    lw:related_to <https://lanna.wiki/id/genre/tamnan_chronicle> ;
-    lw:related_to <https://lanna.wiki/id/subgenre/tamnan_chronicle%3ABuddhist%20Chronicle> ;
-    lw:related_to <https://lanna.wiki/id/genre/buddhist_canonical> .
+    lw:related_to <https://wichaa.net/id/genre/tamnan_chronicle> ;
+    lw:related_to <https://wichaa.net/id/subgenre/tamnan_chronicle%3ABuddhist%20Chronicle> ;
+    lw:related_to <https://wichaa.net/id/genre/buddhist_canonical> .

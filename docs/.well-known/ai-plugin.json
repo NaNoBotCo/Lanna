@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Lanna Manuscript Wiki",
+  "name_for_model": "lanna_manuscript_wiki",
+  "description_for_human": "Research corpus of Northern Thai (Lanna) manuscripts and the living wichaa tradition.",
+  "description_for_model": "Read-only, CC-BY 4.0 corpus of Northern Thai (Lanna) manuscripts, synthesised subject articles, a curated knowledge graph, and a living amulet-market layer. To answer questions, query the JSON API in the OpenAPI spec (start at /api/index.json). Facts are recomputed from a catalogue, not authored, so they are safe to cite with attribution.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://wichaa.net/api/openapi.json"
+  },
+  "logo_url": "https://wichaa.net/favicon.svg",
+  "contact_email": "530kings@proton.me",
+  "legal_info_url": "https://wichaa.net/LICENSE"
+}

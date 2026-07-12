@@ -1,0 +1,198 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Lanna Manuscript Wiki API",
+    "version": "1.0.0",
+    "description": "Read-only research corpus of Northern Thai (Lanna) manuscripts and the living wichaa tradition. All endpoints are static JSON, GET-only, no auth, CORS-open.",
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "contact": {
+      "email": "530kings@proton.me"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://wichaa.net/api"
+    }
+  ],
+  "paths": {
+    "/overview.json": {
+      "get": {
+        "summary": "Corpus overview",
+        "description": "Counts and facets across the whole collection.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/manuscripts.json": {
+      "get": {
+        "summary": "All manuscripts",
+        "description": "The full manuscript list.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/manuscript/{id}.json": {
+      "get": {
+        "summary": "Manuscript detail",
+        "description": "One manuscript: metadata, images, IIIF links, OCR where present.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            },
+            "description": "manuscript id"
+          }
+        ]
+      }
+    },
+    "/articles.json": {
+      "get": {
+        "summary": "Articles index",
+        "description": "Index of synthesised subject articles.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/article/{slug}.json": {
+      "get": {
+        "summary": "Article",
+        "description": "One article: authored prose + live-computed profile + connections.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "article slug, e.g. genre_astrology or entity_lersi"
+          }
+        ]
+      }
+    },
+    "/graph.jsonld": {
+      "get": {
+        "summary": "Knowledge graph (JSON-LD)",
+        "description": "Typed entity relations as linked data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/market.json": {
+      "get": {
+        "summary": "Living market",
+        "description": "Contemporary commerce layer.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/places.json": {
+      "get": {
+        "summary": "Places",
+        "description": "Provenance provinces with counts and coordinates.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/vocab.json": {
+      "get": {
+        "summary": "Vocabulary",
+        "description": "Controlled vocabulary with corpus counts.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/thesaurus.json": {
+      "get": {
+        "summary": "Thesaurus",
+        "description": "Bilingual query-token expansion groups.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/index.json": {
+      "get": {
+        "summary": "API index",
+        "description": "Self-describing manifest of all endpoints.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
