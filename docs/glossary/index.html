@@ -76,7 +76,10 @@ function draw(){
  if(!list.length){main.innerHTML='<p class="empty">No term matches that.</p>';return;}
  var html='', dom=null;
  list.forEach(function(e){
-   if(e.domain!==dom){dom=e.domain;html+='<h2 class="dom">'+esc(e.domainLabel)+'</h2><div class="grid">';}
+   if(e.domain!==dom){
+     if(dom!==null)html+='</div>';   // close the PREVIOUS domain's grid before opening the next
+     dom=e.domain;html+='<h2 class="dom">'+esc(e.domainLabel)+'</h2><div class="grid">';
+   }
    var links=[];
    if(e.manuscripts)links.push('<a href="/browse">▦ <b>'+e.manuscripts+'</b> manuscripts</a>');
    if(e.listings)links.push('<a href="/market">◈ <b>'+e.listings+'</b> listings</a>');
@@ -85,8 +88,8 @@ function draw(){
      '<div class="gl">'+esc(gloss(e))+'</div>'+
      '<div class="cnt">'+(links.join('')||'<span>—</span>')+'</div></div>';
  });
- // close last grid
- main.innerHTML=html+'</div>';
+ // close the final domain's grid
+ main.innerHTML=html+(list.length?'</div>':'');
 }
 var lc=document.getElementById('lang');
 LANGS.forEach(function(l){var b=document.createElement('button');b.textContent=l[1];
