@@ -193,17 +193,21 @@
   // the originating library, resized via the IIIF size parameter. The <img> src
   // setter is synchronous, so images requested before the map arrives get the
   // placeholder and are re-resolved once it loads (IIIF_Q flush).
-  var IIIF=null, IIIF_Q=[];
+  var IIIF=null, IIIF_Q=[], IIIF_LOADING=false;
   function iiifSized(u,w){ w=w||1024;
     return String(u).replace('/full/full/0/default.jpg','/full/'+w+',/0/default.jpg'); }
   function flushIIIF(){ var q=IIIF_Q; IIIF_Q=[];
     for(var i=0;i<q.length;i++){ var it=q[i], u=IIIF[it.sha];
       if(u){ try{ desc.set.call(it.el, iiifSized(u,it.w)); }catch(e){} } } }
+  // LAZY: the {sha -> IIIF url} map is ~2.6 MB and only pages that actually render
+  // scan images (browse, gallery, manuscript detail) need it. Fetch it on the FIRST
+  // /img?sha= request instead of on every page load, so image-free pages (home,
+  // articles, findings, market, textbooks) pay zero bytes for it.
   function loadIIIF(){ if(IIIF) return Promise.resolve(IIIF);
+    if(IIIF_LOADING) return Promise.resolve(null); IIIF_LOADING=true;
     return _fetch(S('/api/img-iiif.json')).then(function(r){return r.json();})
       .then(function(m){ IIIF=m||{}; flushIIIF(); return IIIF; })
       .catch(function(){ IIIF={}; flushIIIF(); return IIIF; }); }
-  loadIIIF();
   function scansSlice(sp){
     var midp=sp.get('mid'); var mid = midp?parseInt(midp,10):null;
     var offset=parseInt(sp.get('offset')||'0',10)||0;
@@ -289,7 +293,7 @@
               var sha=u.searchParams.get('sha');
               var w=parseInt(u.searchParams.get('w')||'0',10)||0;
               if(sha && IIIF && IIIF[sha]){ v=iiifSized(IIIF[sha], w); }
-              else if(sha && IIIF===null){ IIIF_Q.push({el:this, sha:sha, w:w}); v=PLACE; }
+              else if(sha && IIIF===null){ IIIF_Q.push({el:this, sha:sha, w:w}); v=PLACE; loadIIIF(); }
               else { v=PLACE; }
             }
           }
@@ -298,7 +302,7 @@
       }});
   } catch(e){}
 })();
-</script><header><div><h1 id=title>Manuscript</h1><p class=sub id=titleThai></p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener>&#9749; Ko-fi</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
+</script><header><div><h1 id=title>Manuscript</h1><p class=sub id=titleThai></p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
 const ID=new URLSearchParams(location.search).get('id');
 let M=null,ANN={notes:'',tags:[]},page=0,view='image';
 const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
@@ -375,6 +379,15 @@ function render(){
   if(!deadSource){if(links.childNodes.length)links.append(document.createTextNode('   '));links.append(el('a',{href:M.sourceUrl,target:'_blank',rel:'noopener',textContent:'Source record ↗'}));}
   if(M.hasReader){if(links.childNodes.length)links.append(document.createTextNode('   '));links.append(el('a',{href:'/read?id='+M.id,textContent:'📖 Read transcription + translation →'}));}
   if(links.childNodes.length)meta.append(links);
+  // Funding invitation (tam boon): this manuscript has page images but nothing has been
+  // transcribed yet — a machine hasn't read it. Beside the value, never a gate.
+  if(M.images && M.images.length && !M.hasReader){
+    const fund=el('p',{style:'margin:14px 0 0;padding:11px 14px;background:#f4ead6;border-radius:10px;font-size:14px;line-height:1.5'});
+    fund.append(document.createTextNode('📖 Not yet transcribed — a machine hasn’t read this one yet. '),
+      el('a',{href:'/support',style:'font-weight:700',textContent:'Sponsor it being read'}),
+      document.createTextNode(' — tam boon, ~$0.06 a page, and it becomes everyone’s.'));
+    meta.append(fund);
+  }
   if(M.rawMetadata){const det=el('details');det.append(el('summary',{textContent:'Raw source metadata',style:'cursor:pointer;font-weight:700;color:var(--muted)'}));
     det.append(el('pre',{textContent:typeof M.rawMetadata==='string'?M.rawMetadata:JSON.stringify(M.rawMetadata,null,2)}));meta.append(det);}
   left.append(meta);

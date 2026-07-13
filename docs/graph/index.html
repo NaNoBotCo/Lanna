@@ -189,17 +189,21 @@
   // the originating library, resized via the IIIF size parameter. The <img> src
   // setter is synchronous, so images requested before the map arrives get the
   // placeholder and are re-resolved once it loads (IIIF_Q flush).
-  var IIIF=null, IIIF_Q=[];
+  var IIIF=null, IIIF_Q=[], IIIF_LOADING=false;
   function iiifSized(u,w){ w=w||1024;
     return String(u).replace('/full/full/0/default.jpg','/full/'+w+',/0/default.jpg'); }
   function flushIIIF(){ var q=IIIF_Q; IIIF_Q=[];
     for(var i=0;i<q.length;i++){ var it=q[i], u=IIIF[it.sha];
       if(u){ try{ desc.set.call(it.el, iiifSized(u,it.w)); }catch(e){} } } }
+  // LAZY: the {sha -> IIIF url} map is ~2.6 MB and only pages that actually render
+  // scan images (browse, gallery, manuscript detail) need it. Fetch it on the FIRST
+  // /img?sha= request instead of on every page load, so image-free pages (home,
+  // articles, findings, market, textbooks) pay zero bytes for it.
   function loadIIIF(){ if(IIIF) return Promise.resolve(IIIF);
+    if(IIIF_LOADING) return Promise.resolve(null); IIIF_LOADING=true;
     return _fetch(S('/api/img-iiif.json')).then(function(r){return r.json();})
       .then(function(m){ IIIF=m||{}; flushIIIF(); return IIIF; })
       .catch(function(){ IIIF={}; flushIIIF(); return IIIF; }); }
-  loadIIIF();
   function scansSlice(sp){
     var midp=sp.get('mid'); var mid = midp?parseInt(midp,10):null;
     var offset=parseInt(sp.get('offset')||'0',10)||0;
@@ -285,7 +289,7 @@
               var sha=u.searchParams.get('sha');
               var w=parseInt(u.searchParams.get('w')||'0',10)||0;
               if(sha && IIIF && IIIF[sha]){ v=iiifSized(IIIF[sha], w); }
-              else if(sha && IIIF===null){ IIIF_Q.push({el:this, sha:sha, w:w}); v=PLACE; }
+              else if(sha && IIIF===null){ IIIF_Q.push({el:this, sha:sha, w:w}); v=PLACE; loadIIIF(); }
               else { v=PLACE; }
             }
           }
@@ -294,7 +298,7 @@
       }});
   } catch(e){}
 })();
-</script><header><div><h1>Relationship graph</h1><p class=sub>The web of subjects, genres and how they connect</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener>&#9749; Ko-fi</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
+</script><header><div><h1>Relationship graph</h1><p class=sub>The web of subjects, genres and how they connect</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
 const SVGNS='http://www.w3.org/2000/svg';
 const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
 const svg=(t,a={},k=[])=>{const e=document.createElementNS(SVGNS,t);for(const[n,v]of Object.entries(a))e.setAttribute(n,v);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};

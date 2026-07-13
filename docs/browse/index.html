@@ -196,17 +196,21 @@
   // the originating library, resized via the IIIF size parameter. The <img> src
   // setter is synchronous, so images requested before the map arrives get the
   // placeholder and are re-resolved once it loads (IIIF_Q flush).
-  var IIIF=null, IIIF_Q=[];
+  var IIIF=null, IIIF_Q=[], IIIF_LOADING=false;
   function iiifSized(u,w){ w=w||1024;
     return String(u).replace('/full/full/0/default.jpg','/full/'+w+',/0/default.jpg'); }
   function flushIIIF(){ var q=IIIF_Q; IIIF_Q=[];
     for(var i=0;i<q.length;i++){ var it=q[i], u=IIIF[it.sha];
       if(u){ try{ desc.set.call(it.el, iiifSized(u,it.w)); }catch(e){} } } }
+  // LAZY: the {sha -> IIIF url} map is ~2.6 MB and only pages that actually render
+  // scan images (browse, gallery, manuscript detail) need it. Fetch it on the FIRST
+  // /img?sha= request instead of on every page load, so image-free pages (home,
+  // articles, findings, market, textbooks) pay zero bytes for it.
   function loadIIIF(){ if(IIIF) return Promise.resolve(IIIF);
+    if(IIIF_LOADING) return Promise.resolve(null); IIIF_LOADING=true;
     return _fetch(S('/api/img-iiif.json')).then(function(r){return r.json();})
       .then(function(m){ IIIF=m||{}; flushIIIF(); return IIIF; })
       .catch(function(){ IIIF={}; flushIIIF(); return IIIF; }); }
-  loadIIIF();
   function scansSlice(sp){
     var midp=sp.get('mid'); var mid = midp?parseInt(midp,10):null;
     var offset=parseInt(sp.get('offset')||'0',10)||0;
@@ -292,7 +296,7 @@
               var sha=u.searchParams.get('sha');
               var w=parseInt(u.searchParams.get('w')||'0',10)||0;
               if(sha && IIIF && IIIF[sha]){ v=iiifSized(IIIF[sha], w); }
-              else if(sha && IIIF===null){ IIIF_Q.push({el:this, sha:sha, w:w}); v=PLACE; }
+              else if(sha && IIIF===null){ IIIF_Q.push({el:this, sha:sha, w:w}); v=PLACE; loadIIIF(); }
               else { v=PLACE; }
             }
           }
@@ -301,7 +305,7 @@
       }});
   } catch(e){}
 })();
-</script><header><div><h1>Lanna Manuscript Wiki</h1><p class=sub>Browse the crawled manuscript catalog</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener>&#9749; Ko-fi</a></nav></header><main><div class=toolbar><input id=search type=search placeholder='Search title, genre, temple, province, ID…' aria-label='Search'><select id=sort aria-label=Sort><option value=priority>Sort: Priority first</option><option value=title>Sort: Title A–Z</option><option value=date>Sort: Date</option><option value=images>Sort: Most images</option></select><button class=secondary id=clear>Clear filters</button><span class=count id=count></span></div><div id=chips class=chips aria-label='Active filters'></div><div id=artmatches class=artmatches aria-label='Matching articles'></div><div class=layout><aside class='card facets' id=facets aria-label=Filters></aside><section id=results aria-live=polite></section></div></main><script>
+</script><header><div><h1>Lanna Manuscript Wiki</h1><p class=sub>Browse the crawled manuscript catalog</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main><div class=toolbar><input id=search type=search placeholder='Search title, genre, temple, province, ID…' aria-label='Search'><select id=sort aria-label=Sort><option value=priority>Sort: Priority first</option><option value=title>Sort: Title A–Z</option><option value=date>Sort: Date</option><option value=images>Sort: Most images</option></select><button class=secondary id=clear>Clear filters</button><span class=count id=count></span></div><div id=chips class=chips aria-label='Active filters'></div><div id=artmatches class=artmatches aria-label='Matching articles'></div><div class=layout><aside class='card facets' id=facets aria-label=Filters></aside><section id=results aria-live=polite></section></div></main><script>
 const FL={priority:'Research priority',genre:'Genre',subgenre:'Subgenre',script:'Script',scriptFamily:'Script family',languages:'Language',material:'Material',materialFamily:'Material family',era:'Era',century:'Century',province:'Province',temple:'Temple',source:'Source'};
 const CAP=12; // long facet lists collapse to this many until "show all"
 let ALL=[],FACETS={},LABELS={},active={},expanded={};
