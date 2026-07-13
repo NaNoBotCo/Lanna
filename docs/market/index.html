@@ -333,7 +333,13 @@
 })();
 </script><header><div><h1>The Living Tradition</h1><p class=sub>The same wichaa the manuscripts describe — still worn, carried, and traded today. A window on what's circulating, not a shop.</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/articles'>Articles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/w/'>Widgets</a><a href='/activity'>Activity</a><a class=kofi href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener>&#9749; Ko-fi</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
 const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
-let ALL=[],term='',q='',LABELS={},flags={},prov='',band='';
+let ALL=[],term='',q='',LABELS={},flags={},prov='',band='',showArchived=false;
+// A listing is "archived" once its source page has been dead > 30 days (linkcheck
+// stamps items.dead_since). Archived listings are HIDDEN by default but never
+// deleted — their price/vernacular is still a record of the tradition; a toggle
+// brings them back. A recently-dead listing (< 30d) still shows, in case it's a
+// transient outage rather than a real removal.
+function isArchived(it){if(!it||!it.deadSince)return false;const t=Date.parse(it.deadSince);if(isNaN(t))return false;return (Date.now()-t)/86400000>30;}
 // Quick boolean facets, AND-combined with the term chips + text filter. Some are
 // data-backed (photo present, listing still has a live external link) and some are
 // keyword (title mentions a form/figure). Skips terms already on the term bar
@@ -363,6 +369,7 @@ function card(it){
   const src=fixImg(it.image);
   c.dataset.pic=src?'1':'0';
   c.dataset.link=it.url?'1':'0';
+  c.dataset.dead=isArchived(it)?'1':'0';
   c.dataset.loc=it.location||'';
   c.dataset.price=(it.price==null?'':String(it.price));
   if(src){const img=el('img',{className:'mimg',src,loading:'lazy',alt:it.title||''});img.addEventListener('error',()=>{const ph=el('div',{className:'mph',title:'no listing photo'});img.replaceWith(ph);});c.append(img);}
@@ -373,9 +380,11 @@ function card(it){
   const meta=el('div',{className:'mmeta'});
   if(it.location){const loc=el('span',{},['📍 '+it.location]);if(it.location_en)loc.append(el('span',{className:'en',textContent:' · '+it.location_en}));meta.append(loc);}
   if(it.sold)meta.append(el('span',{textContent:it.sold+' sold'}));
+  if(isArchived(it))meta.append(el('span',{className:'en',title:'source listing no longer reachable since '+(it.deadSince||'').slice(0,10)+' — kept as price history',textContent:'🗄 archived'}));
   b.append(meta);
   if(it.terms&&it.terms.length){const tw=el('div',{className:'mtags'});for(const t of it.terms){const g=LABELS[t];const gShort=g?g.replace(/\s*\(.*$/,''):'';const chip=el('span',{className:'mtag',title:g||t},[t]);if(gShort)chip.append(el('span',{className:'en',textContent:' · '+gShort}));tw.append(chip);}b.append(tw);}
-  if(it.url)b.append(el('a',{className:'mlink',href:it.url,target:'_blank',rel:'noopener',textContent:'View listing ›'}));
+  if(it.url&&!isArchived(it))b.append(el('a',{className:'mlink',href:it.url,target:'_blank',rel:'noopener',textContent:'View listing ›'}));
+  else if(it.url)b.append(el('span',{className:'mlink',style:'color:var(--muted);cursor:default',title:'the original listing has been removed',textContent:'source listing gone'}));
   c.append(b);return c;
 }
 function applyFilter(){let shown=0;
@@ -386,8 +395,11 @@ function applyFilter(){let shown=0;
     const okP=!prov||c.dataset.loc===prov;
     const bd=band&&BANDS.find(b=>b.k===band);
     const okB=!bd||(c.dataset.price!==''&&bd.test(Number(c.dataset.price)));
-    const ok=okT&&okQ&&okF&&okP&&okB;c.classList.toggle('hide',!ok);if(ok)shown++;});
-  document.getElementById('mcount').textContent='Showing '+shown+' of '+ALL.length+' listings';
+    const okA=showArchived||c.dataset.dead!=='1';   // hide dead-source listings by default
+    const ok=okT&&okQ&&okF&&okP&&okB&&okA;c.classList.toggle('hide',!ok);if(ok)shown++;});
+  const nArch=ALL.filter(isArchived).length;
+  document.getElementById('mcount').textContent='Showing '+shown+' of '+(ALL.length-(showArchived?0:nArch))
+    +' live listings'+(nArch?' · '+nArch+' archived'+(showArchived?' (shown)':' hidden'):'');
   document.querySelectorAll('.term[data-v]').forEach(t=>t.classList.toggle('on',t.dataset.v===term));
   document.querySelectorAll('.term[data-f]').forEach(t=>t.classList.toggle('on',!!flags[t.dataset.f]));
   document.querySelectorAll('.term[data-b]').forEach(t=>t.classList.toggle('on',t.dataset.b===band));
@@ -457,8 +469,18 @@ async function load(){const d=await (await fetch('/api/market')).json();const ma
   for(const l of (d.locations||[])){sel.append(el('option',{value:l.value,textContent:l.value+(l.en?' · '+l.en:'')+' ('+l.n+')'}));}
   sel.addEventListener('change',()=>{prov=sel.value;applyFilter();});
   const clear=el('button',{className:'secondary fclear',type:'button',textContent:'Clear all'});
-  clear.addEventListener('click',()=>{term='';q='';flags={};prov='';band='';inp.value='';sel.value='';applyFilter();});
+  clear.addEventListener('click',()=>{term='';q='';flags={};prov='';band='';showArchived=false;inp.value='';sel.value='';const ac=document.getElementById('archcb');if(ac)ac.checked=false;applyFilter();});
   tools.append(inp,sel,clear);
+  // Archived toggle: only appears when linkcheck has actually retired some listings,
+  // so the control stays invisible until it's meaningful.
+  const nArch=ALL.filter(isArchived).length;
+  if(nArch){
+    const lab=el('label',{style:'display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--muted);cursor:pointer'});
+    const cb=el('input',{type:'checkbox',id:'archcb'});
+    cb.addEventListener('change',()=>{showArchived=cb.checked;applyFilter();});
+    lab.append(cb,document.createTextNode('Show '+nArch+' archived (source gone)'));
+    tools.append(lab);
+  }
   fcard.append(tools);
 
   const bar=el('div',{className:'frow'});
