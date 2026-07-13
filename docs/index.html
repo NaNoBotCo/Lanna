@@ -123,6 +123,10 @@
   footer{border-top:1px solid var(--line);padding:40px 0 60px;text-align:center;
     color:var(--muted);font-size:15.5px}
   footer .free{font-family:var(--serif);font-size:19px;color:var(--ink)}
+  .sharefoot{margin:8px 0;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+  .sharefoot button{background:none;border:1px solid var(--line);border-radius:50%;width:34px;height:34px;
+    font-size:15px;cursor:pointer;color:var(--ink);margin:0 2px;line-height:1;vertical-align:middle}
+  .sharefoot button:hover{background:var(--gold);color:#fff;border-color:var(--gold)}
 
   @media(max-width:720px){
     .thread{grid-template-columns:1fr}
@@ -264,6 +268,12 @@
 <footer>
   <div class="wrap">
     <p class="free">Free. Open. No ads, no paywall — an offering for posterity.</p>
+    <p class="sharefoot" aria-label="Share this archive">Share&nbsp;
+      <button data-sh="x" title="Share on X">𝕏</button>
+      <button data-sh="fb" title="Share on Facebook">f</button>
+      <button data-sh="line" title="Share on LINE">L</button>
+      <button data-sh="tg" title="Share on Telegram">✈</button>
+      <button data-sh="copy" title="Copy link">🔗</button></p>
     <p><a class="kofi" href="https://ko-fi.com/defiantchiangmai" target="_blank" rel="noopener">☕ Tam boon — sponsor a page</a>
       &nbsp;·&nbsp; <a href="/support">how support works</a></p>
     <p>Scholarship &amp; metadata under <a href="/LICENSE">CC-BY 4.0</a>. High-resolution
@@ -272,5 +282,11 @@
   </div>
 </footer>
 
+<script>(function(){var f=document.querySelector('.sharefoot');if(!f)return;
+f.addEventListener('click',function(e){var b=e.target.closest('[data-sh]');if(!b)return;
+var k=b.getAttribute('data-sh'),u=encodeURIComponent(location.href),t=encodeURIComponent(document.title);
+if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){var o=b.textContent;b.textContent='✓';setTimeout(function(){b.textContent=o;},1500);});}return;}
+var m={x:'https://twitter.com/intent/tweet?url='+u+'&text='+t,fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};
+if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script>
 </body>
 </html>
