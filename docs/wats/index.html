@@ -88,6 +88,28 @@
   @media print{#sharebar{display:none!important}}
   @media(max-width:520px){#sharebar .shlabel{display:none}#sharebar{gap:4px;padding:4px 6px}}
 
+  .hero{position:relative;height:min(58vh,520px);min-height:300px;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-bottom:16px;background:#e9e7e0}
+  .hero .mapwrap{position:absolute;inset:0}
+  .herolegend{position:absolute;left:12px;bottom:12px;z-index:3;background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:10px;padding:8px 11px;font-size:12.5px;line-height:1.6;backdrop-filter:blur(3px)}
+  .herolegend b{display:block;font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+  .herolegend .lg{display:flex;align-items:center;gap:8px}
+  .herolegend .sw{flex:none;border-radius:50%}
+  .herolegend .sw.h{width:15px;height:15px;background:#d4a017;border:2px solid #fff;box-shadow:0 0 0 1px #0003}
+  .herolegend .sw.o{width:10px;height:10px;background:#c96a2e;border:1.5px solid #fff;box-shadow:0 0 0 1px #0003}
+  .herolegend .sw.s{width:12px;height:12px;background:#2f8f88;border:1.5px solid #fff;border-radius:3px;box-shadow:0 0 0 1px #0003}
+  .sbadge{display:inline-block;background:#2f8f88;color:#fff;border-radius:6px;padding:1px 7px;font-size:11px;font-weight:700;margin-right:5px}
+  .wcard.sac{border-color:#2f8f88}
+  .whead{margin:26px 0 12px;font-size:19px;font-weight:700}
+  .whead span{color:var(--muted);font-weight:400;font-size:14px;margin-left:8px}
+  .heronote{position:absolute;right:12px;top:12px;z-index:3;background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:700}
+  .maplibregl-popup-content{font:inherit;padding:0;border-radius:10px;overflow:hidden;max-width:230px}
+  .pop img{display:block;width:100%;height:110px;object-fit:cover}
+  .pop .pb{padding:8px 11px}
+  .pop .pt{font-weight:700;font-size:14px;line-height:1.3}
+  .pop .pth{color:var(--muted);font-size:13px;margin-top:1px}
+  .pop .pc{color:var(--muted);font-size:10.5px;padding:0 11px 8px;line-height:1.35}
+  .pop .pc a{color:var(--muted)}
+  .pop .pbadge{display:inline-block;background:#d4a017;color:#3a2c07;border-radius:5px;padding:1px 6px;font-size:10.5px;font-weight:700;margin-bottom:3px}
   .wintro{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:16px;color:var(--muted);font-size:14px;line-height:1.6}
   .wfilter{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;align-items:center}
   .wchip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 13px;font-weight:700;font-size:14px;cursor:pointer;text-decoration:none;color:var(--ink)}
@@ -95,7 +117,7 @@
   .wchip.on{background:var(--teal);color:#fff;border-color:var(--teal)}
   .wsearch{flex:1;min-width:190px;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font:inherit;font-size:14px}
   .wgrid{column-width:250px;column-gap:16px}
-  .wcard{break-inside:avoid;display:inline-block;width:100%;margin:0 0 16px;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .wcard{break-inside:avoid;display:inline-block;width:100%;margin:0 0 16px;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;cursor:pointer}
   .wcard:hover{border-color:var(--gold);box-shadow:0 1px 8px #0001}
   .wcard.her{border-color:var(--gold)}
   .wcard .im{display:block;background:#f0efe9;border-bottom:1px solid var(--line)}
@@ -108,6 +130,8 @@
   .wcard .cred a{color:var(--muted)}
   .wbadge{display:inline-block;background:var(--gold);color:#3a2c07;border-radius:6px;padding:1px 7px;font-size:11px;font-weight:700;margin-right:5px}
   .wlic{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 18px;margin-top:20px;color:var(--muted);font-size:13px;line-height:1.65}
+  .wdl{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 18px;margin-top:14px;font-size:13.5px;line-height:1.7}
+  .wdl a{color:var(--teal);font-weight:700}
 </style></head><body><script>window.__LANNA_BASE__="/";</script><script>
 (function(){
   "use strict";
@@ -315,38 +339,103 @@
       }});
   } catch(e){}
 })();
-</script><header><div><h1>Wats of Chiang Mai</h1><p class=sub>The tradition standing up in the landscape &mdash; 345 temples in and around the mueang, heritage-registered sites marked</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><p class=muted>Loading&hellip;</p></main><script>
+</script><header><div><h1>Wats of Chiang Mai</h1><p class=sub>The tradition standing up in the landscape &mdash; temples of the Lanna north, heritage-registered sites marked</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><p class=muted>Loading&hellip;</p></main><script>
 const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
-let ALL=[],mode='all',q='';
+const BASE=(window.__LANNA_BASE__||'/');
+let ALL=[],mode='all',q='',map=null,current=null;
+
+// MapLibre is a separate cached asset, not inlined — ~780 kB has no business
+// living inside the HTML of every page view.
+function loadMapLib(){
+  if(window.maplibregl)return Promise.resolve();
+  return new Promise((res,rej)=>{
+    const l=document.createElement('link');l.rel='stylesheet';l.href=BASE+'vendor/maplibre-gl.css';document.head.append(l);
+    const s=document.createElement('script');s.src=BASE+'vendor/maplibre-gl.js';s.onload=()=>res();s.onerror=()=>rej(new Error('map library failed to load'));document.head.append(s);
+  });
+}
 async function load(){let d;try{d=await (await fetch('/api/wats')).json();}catch(e){document.getElementById('main').textContent='Could not load the wat catalogue.';return;}
   window.__W=d;ALL=d.wats||[];
   if(!d.present||!ALL.length){document.getElementById('main').innerHTML='';document.getElementById('main').append(el('p',{className:'muted',textContent:'The wat catalogue has not been synced into this build yet.'}));return;}
-  render();}
-function chip(label,m){const a=el('a',{className:'wchip'+(mode===m?' on':'')});a.textContent=label;a.onclick=()=>{mode=m;render();};return a;}
+  render();
+  loadMapLib().then(initMap).catch(e=>{const h=document.getElementById('hero');if(h)h.innerHTML='<p class=muted style="padding:18px">Interactive map unavailable ('+e.message+'). The catalogue below still works.</p>';});
+}
+function chip(label,m){const a=el('a',{className:'wchip'+(mode===m?' on':'')});a.textContent=label;a.onclick=()=>{mode=m;render();syncMap();};return a;}
 function visible(){return ALL.filter(w=>{
   if(mode==='heritage'&&!w.heritage)return false;
   if(mode==='photos'&&!(w.photos||[]).length)return false;
   if(q){const s=((w.name||'')+' '+(w.nameRoman||'')).toLowerCase();if(!s.includes(q))return false;}
   return true;});}
+
 function render(){const d=window.__W,main=document.getElementById('main');main.textContent='';
+  const hero=el('div',{className:'hero',id:'hero'});
+  hero.append(el('div',{className:'mapwrap',id:'heromap'}));
+  hero.append(el('div',{className:'heronote',id:'heronote',textContent:d.total.toLocaleString()+' temples'}));
+  const lg=el('div',{className:'herolegend'});
+  lg.append(el('b',{textContent:'Markers'}));
+  lg.append(el('div',{className:'lg'},[el('span',{className:'sw h'}),el('span',{textContent:'Heritage-registered'})]));
+  lg.append(el('div',{className:'lg'},[el('span',{className:'sw o'}),el('span',{textContent:'Wat (compiled, unvisited)'})]));
+  if((d.sacred||[]).length)lg.append(el('div',{className:'lg'},[el('span',{className:'sw s'}),el('span',{textContent:'Sacred site (not a wat)'})]));
+  hero.append(lg);
+  main.append(hero);
+
   const intro=el('div',{className:'wintro'});
-  intro.textContent=d.total.toLocaleString()+' temples mapped in and around Chiang Mai, '+d.heritage+' registered as Thai historic sites, '+d.withPhotos+' with freely-licensed photography ('+d.photos+' images). Most records are machine-compiled and unvisited — they are leads into the landscape, not verified survey.';
+  intro.textContent=d.total.toLocaleString()+' temples mapped across the Lanna north, '+d.heritage+' registered as Thai historic sites, '+d.withPhotos+' with freely-licensed photography'+
+    ((d.sacredTotal||0)?', plus '+d.sacredTotal+' notable places of spiritual significance that are not wats — city pillars, the sunken Lanna cities, sacred caves, mosques and monumental Buddha images':'')+
+    '. Most records are machine-compiled and unvisited — they are leads into the landscape, not verified survey.';
   main.append(intro);
+
   const f=el('div',{className:'wfilter'});
   f.append(chip('All ('+ALL.length+')','all'));
   f.append(chip('Heritage ('+d.heritage+')','heritage'));
   f.append(chip('With photographs ('+d.withPhotos+')','photos'));
   const s=el('input',{className:'wsearch',type:'search',placeholder:'Search a temple name, Thai or roman…',value:q});
-  s.oninput=()=>{q=s.value.trim().toLowerCase();const g=document.getElementById('wgrid');if(g)paint(g);};
+  s.oninput=()=>{q=s.value.trim().toLowerCase();const g=document.getElementById('wgrid');if(g)paint(g);syncMap();};
   f.append(s);main.append(f);
+
   const grid=el('div',{className:'wgrid',id:'wgrid'});main.append(grid);paint(grid);
+
+  if((d.sacred||[]).length){
+    const h=el('div',{className:'whead'});h.append(document.createTextNode('Not exactly wats'));
+    h.append(el('span',{textContent:d.sacred.length+' places of spiritual significance — city pillars, sunken cities, sacred caves, mosques, churches, monumental Buddha images'}));
+    main.append(h);
+    const sg=el('div',{className:'wgrid'});
+    for(const x of d.sacred){
+      const c=el('div',{className:'wcard sac'});
+      const ph=(x.photos||[])[0];
+      if(ph)c.append(el('a',{className:'im',href:ph.source,target:'_blank',rel:'noopener'},[el('img',{src:ph.thumb,loading:'lazy',alt:x.nameRoman||x.name||''})]));
+      const b=el('div',{className:'wb'});
+      b.append(el('div',{className:'wt'},[el('span',{className:'sbadge',textContent:(x.siteType||'sacred').split(';')[0]}),document.createTextNode(x.nameRoman||x.name||'')]));
+      if(x.name&&x.name!==x.nameRoman)b.append(el('div',{className:'wth',textContent:x.name}));
+      if(x.heritage)b.append(el('div',{className:'wm',textContent:x.heritage}));
+      c.append(b);
+      if(ph){const cr=el('div',{className:'cred'});
+        cr.append(document.createTextNode(ph.author+' · '));
+        cr.append(ph.licenseUrl?el('a',{href:ph.licenseUrl,target:'_blank',rel:'noopener',textContent:ph.license+(ph.publicDomain?' (public domain)':'')}):document.createTextNode(ph.license));
+        cr.append(document.createTextNode(' · '));
+        cr.append(el('a',{href:ph.source,target:'_blank',rel:'noopener',textContent:'Commons'}));
+        c.append(cr);}
+      c.onclick=(ev)=>{if(ev.target.closest('a'))return;flyTo(x);};
+      sg.append(c);}
+    main.append(sg);}
+
+  if(d.download){const dl=el('div',{className:'wdl'});
+    dl.append(el('b',{textContent:'Take it with you. '}));
+    dl.append(document.createTextNode('An offline app version of this map — installable, works with no signal: '));
+    dl.append(el('a',{href:BASE+'wats/app/',textContent:'open the app'}));
+    dl.append(document.createTextNode(' · '));
+    dl.append(el('a',{href:BASE+'wats/app/wats-offline.html',download:'',textContent:'download the single-file map'}));
+    main.append(dl);}
+
   const lic=el('div',{className:'wlic'});const at=d.attribution||{};
   lic.append(el('b',{textContent:'Sources and licence. '}));
   lic.append(document.createTextNode('Temple locations are derived from OpenStreetMap and are therefore published under the '));
   lic.append(el('a',{href:at.dataUrl||'https://opendatacommons.org/licenses/odbl/1-0/',target:'_blank',rel:'noopener',textContent:'Open Database License (ODbL) 1.0'}));
   lic.append(document.createTextNode(' — share-alike, which is a different licence from the rest of this site. '+(at.facts||'Wikidata, CC0')+'. Photographs are hosted by Wikimedia Commons and are NOT relicensed here: each is credited to its author under its own terms beneath the image.'));
   main.append(lic);}
+
 function paint(grid){grid.textContent='';const items=visible();
+  const note=document.getElementById('heronote');
+  if(note)note.textContent=items.length.toLocaleString()+' shown';
   if(!items.length){grid.append(el('p',{className:'muted',textContent:'No temple matches.'}));return;}
   for(const w of items){
     const c=el('div',{className:'wcard'+(w.heritage?' her':'')});
@@ -365,6 +454,79 @@ function paint(grid){grid.textContent='';const items=visible();
       cr.append(document.createTextNode(' · '));
       cr.append(el('a',{href:ph.source,target:'_blank',rel:'noopener',textContent:'Commons'}));
       c.append(cr);}
+    c.onclick=(ev)=>{if(ev.target.closest('a'))return;flyTo(w);};
     grid.append(c);}}
+
+// ---- hero map ----
+function fc(list){return {type:'FeatureCollection',features:list.filter(w=>w.lat!=null&&w.lng!=null).map(w=>({
+  type:'Feature',geometry:{type:'Point',coordinates:[w.lng,w.lat]},
+  properties:{id:w.id,her:!!w.heritage,sac:!!w.siteType,kindLabel:(w.siteType||'').split(';')[0],
+    name:w.nameRoman||w.name||'',th:(w.name&&w.name!==w.nameRoman)?w.name:'',
+    heritage:w.heritage||'',thumb:(w.photos||[])[0]?w.photos[0].thumb:'',
+    author:(w.photos||[])[0]?w.photos[0].author:'',lic:(w.photos||[])[0]?w.photos[0].license:'',
+    src:(w.photos||[])[0]?w.photos[0].source:''}}))};}
+
+function initMap(){
+  const box=document.getElementById('heromap'); if(!box)return;
+  map=new maplibregl.Map({container:box,
+    style:{version:8,sources:{osm:{type:'raster',tiles:['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],tileSize:256,
+      attribution:'© OpenStreetMap contributors (ODbL) · photos via Wikimedia Commons'}},
+      layers:[{id:'bg',type:'background',paint:{'background-color':'#e9e7e0'}},{id:'osm',type:'raster',source:'osm'}]},
+    center:[99.4,18.9],zoom:6.6});
+  map.addControl(new maplibregl.NavigationControl({showCompass:false}),'top-right');
+  map.addControl(new maplibregl.FullscreenControl(),'top-right');
+  let ready=false;
+  // Adding layers is attempted, not gated on isStyleLoaded(). That flag stays
+  // false for as long as tiles are outstanding, which on a slow or filtered
+  // network is forever — and the map then never draws its markers even though
+  // the style itself parsed fine. addSource/addLayer simply throw while the
+  // style isn't ready, so we try, swallow, and let the poll retry. Each step is
+  // guarded so a partial run can finish on the next tick.
+  const build=()=>{
+    if(ready)return;
+    try{
+      if(!map.getSource('wats'))
+        map.addSource('wats',{type:'geojson',data:fc(ALL.concat((window.__W||{}).sacred||[]))});
+      if(!map.getLayer('w-s'))map.addLayer({id:'w-s',type:'circle',source:'wats',filter:['get','sac'],
+        paint:{'circle-radius':['interpolate',['linear'],['zoom'],6,3.6,10,6,14,10],
+          'circle-color':'#2f8f88','circle-stroke-color':'#fff','circle-stroke-width':1.6}});
+      if(!map.getLayer('w-n'))map.addLayer({id:'w-n',type:'circle',source:'wats',filter:['all',['!',['get','her']],['!',['get','sac']]],
+        paint:{'circle-radius':['interpolate',['linear'],['zoom'],6,2.4,10,4,14,7],
+          'circle-color':'#c96a2e','circle-stroke-color':'#fff','circle-stroke-width':1,'circle-opacity':.9}});
+      if(!map.getLayer('w-h'))map.addLayer({id:'w-h',type:'circle',source:'wats',filter:['all',['get','her'],['!',['get','sac']]],
+        paint:{'circle-radius':['interpolate',['linear'],['zoom'],6,4,10,7,14,11],
+          'circle-color':'#d4a017','circle-stroke-color':'#fff','circle-stroke-width':2}});
+    }catch(e){return;}   // style not parsed yet — the poll will come back
+    ready=true;
+    for(const id of ['w-n','w-h','w-s']){
+      map.on('click',id,e=>popup(e.features[0]));
+      map.on('mouseenter',id,()=>map.getCanvas().style.cursor='pointer');
+      map.on('mouseleave',id,()=>map.getCanvas().style.cursor='');
+    }
+    fitAll(); syncMap(); map.resize();
+  };
+  map.on('style.load',build); map.on('load',()=>{build();map.resize();});
+  // some embedded/throttled renderers never deliver those events to late
+  // handlers — poll until the style is parsed, then nudge a repaint.
+  const t=setInterval(()=>{build();if(ready){map.resize();map.panBy([1,1],{duration:0});map.panBy([-1,-1],{duration:0});clearInterval(t);}},150);
+  window.addEventListener('resize',()=>map&&map.resize());
+}
+function fitAll(){const pts=ALL.concat((window.__W||{}).sacred||[]).filter(w=>w.lat!=null);if(!pts.length||!map)return;
+  let n=-90,s=90,e=-180,w2=180;for(const p of pts){n=Math.max(n,p.lat);s=Math.min(s,p.lat);e=Math.max(e,p.lng);w2=Math.min(w2,p.lng);}
+  map.fitBounds([[w2,s],[e,n]],{padding:40,duration:0});}
+function syncMap(){if(!map||!map.getLayer('w-n'))return;
+  const ids=visible().map(w=>w.id);const set=['in',['get','id'],['literal',ids]];
+  map.setFilter('w-n',['all',['!',['get','her']],['!',['get','sac']],set]);
+  map.setFilter('w-h',['all',['get','her'],['!',['get','sac']],set]);}
+function popup(f){const p=f.properties;
+  const body='<div class="pop">'+(p.thumb?'<img src="'+p.thumb+'" alt="">':'')+
+    '<div class="pb">'+(p.sac?'<span class="pbadge" style="background:#2f8f88;color:#fff">'+esc(p.kindLabel||'sacred site')+'</span><br>':'')+(p.her?'<span class="pbadge">Heritage</span><br>':'')+
+    '<div class="pt">'+esc(p.name)+'</div>'+(p.th?'<div class="pth">'+esc(p.th)+'</div>':'')+'</div>'+
+    (p.thumb?'<div class="pc">'+esc(p.author)+' · '+esc(p.lic)+' · <a href="'+p.src+'" target="_blank" rel="noopener">Commons</a></div>':'')+'</div>';
+  new maplibregl.Popup({offset:12,maxWidth:'240px'}).setLngLat(f.geometry.coordinates).setHTML(body).addTo(map);}
+function flyTo(w){if(!map||w.lat==null)return;
+  map.flyTo({center:[w.lng,w.lat],zoom:Math.max(map.getZoom(),14),speed:1.4});
+  document.getElementById('hero').scrollIntoView({behavior:'smooth',block:'center'});}
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 load();
 </script><button id=tomenu aria-label='Back to menu' onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650; Menu</button><script>(function(){var b=document.getElementById('tomenu');if(!b)return;var f=function(){b.classList.toggle('show',(window.scrollY||0)>320);};addEventListener('scroll',f,{passive:true});f();})();</script><div id=sharebar aria-label='Share this page'><span class=shlabel>Share</span><button class=shbtn data-sh=native title='Share…' hidden>&#10148;</button><button class=shbtn data-sh=copy title='Copy link'>&#128279;</button><button class=shbtn data-sh=x title='Share on X'>&#120143;</button><button class=shbtn data-sh=fb title='Share on Facebook'>f</button><button class=shbtn data-sh=line title='Share on LINE'>L</button><button class=shbtn data-sh=tg title='Share on Telegram'>&#9992;</button></div><script>(function(){var bar=document.getElementById('sharebar');if(!bar)return;function toast(m){var t=document.createElement('div');t.className='shtoast';t.textContent=m;document.body.appendChild(t);setTimeout(function(){t.remove();},1800);}function links(u,t){return {x:'https://twitter.com/intent/tweet?url='+u+'&text='+t,fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};}function shareUrl(url,title){var u=encodeURIComponent(url),t=encodeURIComponent((title||'').replace(/\s+[—-]\s+wichaa.*$/i,''));return {u:u,t:t};}window.__share=function(url,title){url=url||location.href;title=title||document.title;if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});return;}if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){toast('Link copied');},function(){});}else toast(url);};var nat=bar.querySelector('[data-sh=native]');if(navigator.share&&nat)nat.hidden=false;bar.addEventListener('click',function(e){var el=e.target.closest('[data-sh]');if(!el)return;var k=el.getAttribute('data-sh');var s=shareUrl(location.href,document.title);if(k==='native'){window.__share();return;}if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){toast('Link copied');},function(){toast(location.href);});}else toast(location.href);return;}var m=links(s.u,s.t);if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script></body></html>
