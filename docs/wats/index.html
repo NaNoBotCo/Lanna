@@ -1,4 +1,4 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><meta name='theme-color' content='#1F4E4A'><link rel=icon type='image/svg+xml' href='/favicon.svg'><meta name='description' content='An open archive of wichaa — living traditions of sacred, practical knowledge: Lanna manuscripts, the amulet market, St. Expedite and more —divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta property='og:type' content='website'><meta property='og:site_name' content='wichaa'><meta property='og:url' content='https://wichaa.net/'><meta property='og:title' content='Wats of Chiang Mai — wichaa'><meta property='og:description' content='An open archive of wichaa — living traditions of sacred, practical knowledge: Lanna manuscripts, the amulet market, St. Expedite and more —divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta property='og:image' content='https://wichaa.net/og.jpg'><meta property='og:image:width' content='1200'><meta property='og:image:height' content='630'><meta property='og:image:alt' content='Circular yantra from a Lanna manuscript'><meta name='twitter:card' content='summary_large_image'><meta name='twitter:title' content='Wats of Chiang Mai — wichaa'><meta name='twitter:description' content='An open archive of wichaa — living traditions of sacred, practical knowledge: Lanna manuscripts, the amulet market, St. Expedite and more —divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta name='twitter:image' content='https://wichaa.net/og.jpg'><title>Wats of Chiang Mai — wichaa</title><style>
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><meta name='theme-color' content='#1F4E4A'><link rel=icon type='image/svg+xml' href='/favicon.svg'><meta name='description' content='An open map of 1,307 Buddhist temples across the Lanna north — Chiang Mai, Chiang Rai, Lamphun, Lampang and Nan — with heritage-registered sites marked, freely-licensed photography, and 28 notable places of spiritual significance that are not wats.'><meta property='og:type' content='website'><meta property='og:site_name' content='wichaa'><meta property='og:url' content='https://wichaa.net/wats/'><meta property='og:title' content='Wats of Chiang Mai — wichaa'><meta property='og:description' content='An open map of 1,307 Buddhist temples across the Lanna north — Chiang Mai, Chiang Rai, Lamphun, Lampang and Nan — with heritage-registered sites marked, freely-licensed photography, and 28 notable places of spiritual significance that are not wats.'><meta property='og:image' content='https://wichaa.net/og.jpg'><meta property='og:image:width' content='1200'><meta property='og:image:height' content='630'><meta property='og:image:alt' content='Circular yantra from a Lanna manuscript'><meta name='twitter:card' content='summary_large_image'><meta name='twitter:title' content='Wats of Chiang Mai — wichaa'><meta name='twitter:description' content='An open map of 1,307 Buddhist temples across the Lanna north — Chiang Mai, Chiang Rai, Lamphun, Lampang and Nan — with heritage-registered sites marked, freely-licensed photography, and 28 notable places of spiritual significance that are not wats.'><meta name='twitter:image' content='https://wichaa.net/og.jpg'><title>Wats of Chiang Mai — wichaa</title><style>
   :root{
     --ink:#141b1a; --muted:#3a4a47; --line:#c9d6d2;
     --teal:#1F4E4A; --teal-ink:#ffffff; --bg:#f4f7f6; --card:#ffffff;
@@ -143,6 +143,11 @@
   .modal .mx:focus-visible,.modal button:focus-visible,.modal a:focus-visible,.modal textarea:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
   .mhero img{display:block;width:100%;max-height:280px;object-fit:cover;background:#eee}
   .mcred{font-size:11.5px;color:var(--muted);padding:6px 20px 0;line-height:1.45}
+  .mcount{color:var(--ink);font-weight:700}
+  .mstrip{display:flex;gap:6px;overflow-x:auto;padding:8px 20px 0}
+  .mstrip button{flex:none;width:68px;height:52px;padding:0;border:1.5px solid var(--line);border-radius:8px;overflow:hidden;background:none;cursor:pointer}
+  .mstrip button[aria-current="true"]{border-color:var(--teal);box-shadow:0 0 0 1px var(--teal)}
+  .mstrip img{width:100%;height:100%;object-fit:cover;display:block}
   .mcred a{color:var(--muted)}
   .mbody{padding:16px 20px 20px}
   .mtitle{font-size:23px;font-weight:700;line-height:1.25}
@@ -399,7 +404,21 @@ async function load(){let d;try{d=await (await fetch('/api/wats')).json();}catch
   render();
   loadMapLib().then(initMap).catch(e=>{const h=document.getElementById('hero');if(h)h.innerHTML='<p class=muted style="padding:18px">Interactive map unavailable ('+e.message+'). The catalogue below still works.</p>';});
 }
-function chip(label,m){const a=el('a',{className:'wchip'+(mode===m?' on':'')});a.textContent=label;a.onclick=()=>{mode=m;render();syncMap();};return a;}
+// Chips repaint the LIST only. They must never call render(), which rebuilds
+// <main> — including a fresh #heromap div — while the MapLibre instance stays
+// bound to the old, now-detached element. A detached container reports 0x0, so
+// its style never finishes loading and every addSource throws "Style is not done
+// loading" forever. That is why the map went blank the moment you filtered.
+function chip(label,m){
+  const a=el('a',{className:'wchip'+(mode===m?' on':'')});
+  a.textContent=label; a.dataset.mode=m;
+  a.onclick=()=>{
+    mode=m;
+    for(const c of document.querySelectorAll('.wchip')) c.classList.toggle('on', c.dataset.mode===m);
+    paint(document.getElementById('wgrid'));
+    syncMap();
+  };
+  return a;}
 const PROVS=['Chiang Mai','Chiang Rai','Lamphun','Lampang','Nan'];
 function nphotos(w){return (w.photos||[]).length;}
 function distKm(w){if(!here||w.lat==null)return null;
@@ -565,7 +584,14 @@ function fc(list){return {type:'FeatureCollection',features:list.filter(w=>w.lat
 function initMap(){
   const box=document.getElementById('heromap'); if(!box)return;
   map=new maplibregl.Map({container:box,
-    style:{version:8,sources:{osm:{type:'raster',tiles:['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],tileSize:256,
+    style:{version:8,
+      // Glyph server so we can draw our OWN labels. The OSM raster basemap
+      // renders place names in Thai only (it uses the local `name` tag), which
+      // is correct for Thailand and unhelpful if you don't read Thai — and it
+      // is baked into the tile image, so it cannot be restyled. Drawing the
+      // romanised temple names ourselves is the reliable fix.
+      glyphs:'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
+      sources:{osm:{type:'raster',tiles:['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],tileSize:256,
       attribution:'© OpenStreetMap contributors (ODbL) · photos via Wikimedia Commons'}},
       layers:[{id:'bg',type:'background',paint:{'background-color':'#e9e7e0'}},{id:'osm',type:'raster',source:'osm'}]},
     center:[99.4,18.9],zoom:6.6});
@@ -592,7 +618,29 @@ function initMap(){
       if(!map.getLayer('w-h'))map.addLayer({id:'w-h',type:'circle',source:'wats',filter:['all',['get','her'],['!',['get','sac']]],
         paint:{'circle-radius':['interpolate',['linear'],['zoom'],6,4,10,7,14,11],
           'circle-color':'#d4a017','circle-stroke-color':'#fff','circle-stroke-width':2}});
-    }catch(e){return;}   // style not parsed yet — the poll will come back
+      // Romanised names, drawn by us. Heritage sites label earlier because they
+      // are the landmarks people navigate by; everything else joins at z13.
+      if(!map.getLayer('w-label'))map.addLayer({id:'w-label',type:'symbol',source:'wats',minzoom:10.5,
+        layout:{'text-field':['get','name'],'text-font':['Open Sans Regular'],
+          'text-size':['interpolate',['linear'],['zoom'],11,10,15,13],
+          'text-offset':[0,1.1],'text-anchor':'top','text-max-width':10,
+          'text-allow-overlap':false,'text-optional':true},
+        paint:{'text-color':'#2b2f2e','text-halo-color':'#fff','text-halo-width':1.8,
+          'text-opacity':['interpolate',['linear'],['zoom'],10.5,0,12,1]},
+        filter:['any',['get','her'],['get','sac'],['>=',['zoom'],13]]});
+    }catch(e){
+      // Retrying silently is right for the first few frames (the style really is
+      // still parsing) but wrong forever — this hid a dead map for hours. Give
+      // up loudly instead of spinning, and say so on the page.
+      if(++buildTries>60){
+        clearInterval(t);
+        const h=document.getElementById('hero');
+        if(h&&!h.dataset.failed){h.dataset.failed='1';
+          h.insertAdjacentHTML('beforeend','<div class="heronote" style="left:12px;top:12px;right:auto;background:#fff">Map could not start: '+esc(e.message)+'</div>');}
+        console.error('hero map failed to initialise:',e);
+      }
+      return;
+    }
     ready=true;
     for(const id of ['w-n','w-h','w-s']){
       map.on('click',id,e=>{const f=e.features[0];const x=byId(f.properties.id);if(x)openModal(x);else popup(f);});
@@ -602,6 +650,7 @@ function initMap(){
     fitAll(); syncMap(); map.resize();
   };
   map.on('style.load',build); map.on('load',()=>{build();map.resize();});
+  map.on('error',(e)=>console.warn('map:',e&&e.error&&e.error.message));
   // some embedded/throttled renderers never deliver those events to late
   // handlers — poll until the style is parsed, then nudge a repaint.
   const t=setInterval(()=>{build();if(ready){map.resize();map.panBy([1,1],{duration:0});map.panBy([-1,-1],{duration:0});clearInterval(t);}},150);
@@ -613,7 +662,9 @@ function fitAll(){const pts=ALL.concat((window.__W||{}).sacred||[]).filter(w=>w.
 function syncMap(){if(!map||!map.getLayer('w-n'))return;
   const ids=visible().map(w=>w.id);const set=['in',['get','id'],['literal',ids]];
   map.setFilter('w-n',['all',['!',['get','her']],['!',['get','sac']],set]);
-  map.setFilter('w-h',['all',['get','her'],['!',['get','sac']],set]);}
+  map.setFilter('w-h',['all',['get','her'],['!',['get','sac']],set]);
+  if(map.getLayer('w-s'))map.setFilter('w-s',['all',['get','sac'],set]);
+  if(map.getLayer('w-label'))map.setFilter('w-label',set);}
 function popup(f){const p=f.properties;
   const body='<div class="pop">'+(p.thumb?'<img src="'+p.thumb+'" alt="">':'')+
     '<div class="pb">'+(p.sac?'<span class="pbadge" style="background:#2f8f88;color:#fff">'+esc(p.kindLabel||'sacred site')+'</span><br>':'')+(p.her?'<span class="pbadge">Heritage</span><br>':'')+
@@ -652,9 +703,11 @@ function openModal(x){
   const H=[];
   H.push('<div class="modal" role="dialog" aria-modal="true" aria-label="'+esc(x.nameRoman||x.name||'place')+'">');
   H.push('<button class="mx" aria-label="Close">&times;</button>');
-  if(ph)H.push('<div class="mhero"><img src="'+esc(ph.thumb)+'" alt="'+esc(x.nameRoman||x.name||'')+'"></div>'+
-    '<div class="mcred">'+esc(ph.author)+' · '+(ph.licenseUrl?'<a href="'+esc(ph.licenseUrl)+'" target="_blank" rel="noopener">'+esc(ph.license)+'</a>':esc(ph.license))+
-    (ph.publicDomain?' <b>(public domain)</b>':'')+' · <a href="'+esc(ph.source)+'" target="_blank" rel="noopener">Wikimedia Commons</a></div>');
+  // Every photograph, not just the first. The card advertised "3 photos" and the
+  // modal rendered photos[0] — so the count was true and the display was a lie.
+  const pics=(x.photos||[]);
+  if(pics.length)H.push('<div class="mhero" id="mhero"></div><div class="mcred" id="mcred"></div>'+
+    (pics.length>1?'<div class="mstrip" id="mstrip"></div>':''));
   H.push('<div class="mbody">');
   H.push('<div class="mtitle">'+esc(x.nameRoman||x.name||'(unnamed)')+'</div>');
   if(x.name&&x.name!==x.nameRoman)H.push('<div class="mth">'+esc(x.name)+'</div>');
@@ -713,7 +766,14 @@ function openModal(x){
     '<a class="mbtn" href="'+esc(share)+'">Open its own page</a>'+
     '</div><div class="mfrom">The shared link is this place\'s own page, so it unfurls with its photograph and name rather than a generic site card.</div></div>');
 
+  // A temple updating its own entry is the single most valuable submission we
+  // can get — it is the only source that actually knows the hours. Give it its
+  // own affordance and a filled-in template, rather than hoping an abbot works
+  // out what to type into a blank box.
   H.push('<div class="msec mnote"><h3>Add a note or a photo</h3>'+
+    '<div class="mbtns" style="margin-bottom:9px">'+
+      '<button class="mbtn" data-temple="1">&#127982; I\'m from this temple</button>'+
+    '</div>'+
     '<textarea id="mnotetxt" placeholder="Correction, opening hours, what it is like to visit, a name spelled properly…"></textarea>'+
     '<div class="mfile"><input type="file" id="mnotefile" accept="image/*"> <span id="mfilehint"></span></div>'+
     '<div class="mbtns" style="margin-top:10px">'+
@@ -740,16 +800,46 @@ function openModal(x){
   history.replaceState(null,'','#place='+encodeURIComponent(x.id));
   renderQueue();
   const m=back.querySelector('.modal');
+  if(pics.length)showPic(pics,0);
   m.querySelector('.mx').onclick=closeModal;
   m.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText(b.dataset.copy);b.textContent='copied';setTimeout(()=>{b.textContent=b.dataset.copy===share?'Copy link':'copy'},1400);});
   const nb=m.querySelector('[data-native]'); if(nb)nb.onclick=()=>navigator.share({title:x.nameRoman||x.name,url:share}).catch(()=>{});
   m.querySelector('[data-fly]').onclick=()=>{closeModal();flyTo(x);};
+  const tb=m.querySelector('[data-temple]');
+  if(tb)tb.onclick=()=>{
+    const t=document.getElementById('mnotetxt');
+    if(!t.value.trim())t.value=
+      'I help look after this temple.\n\n'+
+      'Opening hours: \n'+
+      'Phone: \n'+
+      'Website / Facebook: \n'+
+      'Correct name (Thai): \n'+
+      'Correct name (roman): \n'+
+      'Anything visitors should know: \n';
+    t.dataset.fromTemple='1';
+    t.focus();
+    t.setSelectionRange(t.value.indexOf('Opening hours: ')+15, t.value.indexOf('Opening hours: ')+15);
+  };
   m.querySelector('[data-queue]').onclick=()=>queueNote(x);
   m.querySelector('[data-email]').onclick=()=>emailQueue();
   m.querySelector('[data-dl]').onclick=()=>downloadQueue();
   const fi=m.querySelector('#mnotefile');
   fi.onchange=()=>{const f=fi.files[0];document.getElementById('mfilehint').textContent=f?(f.name+' — will be downscaled'):'';};
   m.querySelector('.mx').focus();
+}
+function showPic(pics,i){
+  const hero=document.getElementById('mhero'), cred=document.getElementById('mcred');
+  if(!hero)return;
+  const m=pics[i];
+  hero.innerHTML='<img src="'+esc(m.thumb)+'" alt="">';
+  cred.innerHTML=esc(m.author)+' · '+(m.licenseUrl?'<a href="'+esc(m.licenseUrl)+'" target="_blank" rel="noopener">'+esc(m.license)+'</a>':esc(m.license))+
+    (m.publicDomain?' <b>(public domain)</b>':'')+' · <a href="'+esc(m.source)+'" target="_blank" rel="noopener">Wikimedia Commons</a>'+
+    (pics.length>1?' &nbsp;<span class="mcount">'+(i+1)+' of '+pics.length+'</span>':'');
+  const strip=document.getElementById('mstrip');
+  if(strip){
+    strip.innerHTML=pics.map((q,j)=>'<button type="button" data-i="'+j+'" aria-current="'+(j===i)+'" aria-label="Photograph '+(j+1)+'"><img src="'+esc(q.thumb)+'" alt=""></button>').join('');
+    for(const b of strip.querySelectorAll('button')) b.onclick=()=>showPic(pics,+b.dataset.i);
+  }
 }
 function closeModal(){const b=document.getElementById('mback');b.hidden=true;b.innerHTML='';document.body.style.overflow='';history.replaceState(null,'',location.pathname+location.search);}
 function renderQueue(){const el=document.getElementById('mqueue');if(!el)return;const n=qGet().length;
@@ -772,12 +862,13 @@ async function queueNote(x){
   if(file){ if(file.size>12*1024*1024){alert('That image is very large — please pick one under 12 MB.');return;} photo=await shrink(file); }
   const q=qGet();
   q.push({place:x.id,name:x.nameRoman||x.name,lat:x.lat,lng:x.lng,note:note,photo:photo,
-          at:new Date().toISOString(),url:placeUrl(x)});
+          fromTemple:t.dataset.fromTemple==='1',
+          at:new Date().toISOString(),url:shareUrl(x)});
   qSet(q); t.value=''; fi.value=''; document.getElementById('mfilehint').textContent='';
   renderQueue();
 }
 function digest(){const q=qGet();if(!q.length)return null;
-  return q.map((s,i)=>(i+1)+'. '+(s.name||s.place)+'  ('+s.lat+', '+s.lng+')\n'+
+  return q.map((s,i)=>(i+1)+'. '+(s.name||s.place)+(s.fromTemple?'   [FROM THE TEMPLE]':'')+'  ('+s.lat+', '+s.lng+')\n'+
     '   '+s.url+'\n   '+(s.note||'(no note)')+(s.photo?'\n   [a photo is attached in the downloaded file]':'')).join('\n\n');}
 function emailQueue(){
   const d=digest(); if(!d){alert('Nothing queued yet.');return;}
