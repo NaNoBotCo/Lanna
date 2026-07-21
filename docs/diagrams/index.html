@@ -128,7 +128,8 @@
     '/api/status':'/api/status.json','/api/manuscripts':'/api/manuscripts.json',
     '/api/graph.jsonld':'/api/graph.jsonld','/api/graph.ttl':'/api/graph.ttl',
     '/api/diagrams':'/api/diagrams.json','/api/findings':'/api/findings.json',
-    '/api/activity':'/api/activity.json'
+    '/api/activity':'/api/activity.json',
+    '/api/expedite':'/api/expedite.json','/api/wats':'/api/wats.json'
   };
   var _fetch = window.fetch ? window.fetch.bind(window) : function(u){return fetch(u);};
 
@@ -309,7 +310,7 @@
       }});
   } catch(e){}
 })();
-</script><header><div><h1>Diagrams</h1><p class=sub>The drawn tradition — yantra, sak-yant stencils, cosmological charts and talismanic figures, gathered across the whole corpus</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
+</script><header><div><h1>Diagrams</h1><p class=sub>The drawn tradition — yantra, sak-yant stencils, cosmological charts and talismanic figures, gathered across the whole corpus</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
 const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
 let ALL=[],SRC=[],active=null;
 async function load(){let d;try{d=await (await fetch('/api/diagrams')).json();}catch(e){document.getElementById('main').textContent='Could not load diagrams.';return;}

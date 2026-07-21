@@ -1,0 +1,370 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><meta name='theme-color' content='#1F4E4A'><link rel=icon type='image/svg+xml' href='/favicon.svg'><meta name='description' content='An open archive of wichaa — living traditions of sacred, practical knowledge: Lanna manuscripts, the amulet market, St. Expedite and more —divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta property='og:type' content='website'><meta property='og:site_name' content='wichaa'><meta property='og:url' content='https://wichaa.net/'><meta property='og:title' content='Wats of Chiang Mai — wichaa'><meta property='og:description' content='An open archive of wichaa — living traditions of sacred, practical knowledge: Lanna manuscripts, the amulet market, St. Expedite and more —divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta property='og:image' content='https://wichaa.net/og.jpg'><meta property='og:image:width' content='1200'><meta property='og:image:height' content='630'><meta property='og:image:alt' content='Circular yantra from a Lanna manuscript'><meta name='twitter:card' content='summary_large_image'><meta name='twitter:title' content='Wats of Chiang Mai — wichaa'><meta name='twitter:description' content='An open archive of wichaa — living traditions of sacred, practical knowledge: Lanna manuscripts, the amulet market, St. Expedite and more —divination, astrology, and sacred practice, from palm-leaf folios to present-day amulet commerce, on one continuous timeline.'><meta name='twitter:image' content='https://wichaa.net/og.jpg'><title>Wats of Chiang Mai — wichaa</title><style>
+  :root{
+    --ink:#141b1a; --muted:#3a4a47; --line:#c9d6d2;
+    --teal:#1F4E4A; --teal-ink:#ffffff; --bg:#f4f7f6; --card:#ffffff;
+    --focus:#0b5cad; --gold:#8a5a00; --gold-bg:#fbf1dc; --ok:#0f6b3f;
+    --prio:#7a1f1f; --prio-bg:#fbe6e6;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:17px/1.55 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  a{color:var(--focus)}
+  header{background:linear-gradient(180deg,#245852,#1b4541);color:var(--teal-ink);padding:16px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;box-shadow:0 2px 10px #00000022}
+  header h1{margin:0;font-size:24px;font-family:var(--serif);letter-spacing:.01em}
+  .card>h2:first-child,.card>h2{font-family:var(--serif)}
+  header .sub{color:#dfeae7;margin:0}
+  header nav{margin-left:auto;display:flex;gap:10px}
+  header nav a{color:#fff;text-decoration:none;font-weight:700;border:2px solid #ffffff66;border-radius:8px;padding:8px 14px}
+  header nav a:hover{background:#ffffff22}
+  header nav a.kofi{background:var(--gold-bg,#fbf1dc);color:var(--gold,#8a5a00);border-color:transparent}
+  header nav a.kofi:hover{filter:brightness(0.96)}
+  main{max-width:1080px;margin:0 auto;padding:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:0 0 16px}
+  button{font:inherit;font-weight:700;color:var(--teal-ink);background:var(--teal);border:2px solid var(--teal);border-radius:8px;padding:10px 16px;cursor:pointer;min-height:44px}
+  button.secondary{background:#fff;color:var(--teal)}
+  button:hover{background:#163b38;border-color:#163b38}
+  button.secondary:hover{background:#eef4f2}
+  input[type=text],input[type=search],select,textarea{width:100%;padding:10px 12px;font-size:16px;border:1px solid #6b7f7a;border-radius:8px;color:var(--ink);background:#fff}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+  .pill{display:inline-block;font-size:13px;font-weight:700;padding:2px 10px;border-radius:999px;border:1px solid var(--line);background:#eef2f1;color:var(--muted);margin:2px 4px 2px 0}
+  .pill.script{background:var(--gold-bg);border-color:#e5cf9a;color:var(--gold)}
+  .pill.prio{background:var(--prio-bg);border-color:#e0a3a3;color:var(--prio)}
+  .muted{color:var(--muted)}
+  .thai{font-size:1.15em}
+  .empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px;background:#fff}
+  /* Global overflow safety net: nothing should force the viewport wider than the
+     phone. Images fluid; wide blocks (code, pre) scroll inside their own box. */
+  img{max-width:100%;height:auto}
+  pre,code{overflow-x:auto;max-width:100%}
+  /* Mobile-responsive pass (dr's feedback, 2026-07-12): the header's nav had no
+     wrap and no breakpoint, so its ~9 buttons overflowed and forced a horizontal
+     scroll. Below 760px the nav drops under the title and wraps; padding, type,
+     and card chrome all tighten so a phone reads the archive with no sideways
+     scrolling. Touch targets stay >=40px tall. */
+  @media(max-width:760px){
+    header{padding:12px 16px;gap:6px 12px}
+    header h1{font-size:20px}
+    header .sub{font-size:13.5px;flex-basis:100%;order:3}
+    header nav{margin-left:0;width:100%;flex-wrap:wrap;gap:6px;order:2}
+    header nav a{padding:8px 11px;font-size:14px;border-width:1px}
+    main{padding:14px;max-width:100%}
+    body{font-size:16px}
+    .card{padding:14px 15px}
+    table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  }
+  @media(max-width:420px){
+    header h1{font-size:18px}
+    header nav a{padding:7px 9px;font-size:13px}
+    main{padding:11px}
+  }
+  /* Back-to-menu: the header nav scrolls away on long pages (it needn't persist,
+     but there must be a way back — dr's feedback). A floating pill appears once
+     you've scrolled and jumps to the top, where the nav lives. */
+  #tomenu{position:fixed;right:16px;bottom:16px;z-index:50;display:none;
+    background:var(--teal);color:#fff;border:none;border-radius:999px;
+    padding:11px 16px;font:700 14px/1 inherit;cursor:pointer;min-height:44px;
+    box-shadow:0 3px 12px #0003;text-decoration:none}
+  #tomenu.show{display:inline-flex;align-items:center;gap:6px}
+  #tomenu:hover{background:#163b38}
+  @media print{#tomenu{display:none!important}}
+  /* Share bar — fixed bottom-left (mirrors the back-to-menu pill on the right), on
+     every page so the whole archive is easy to pass around. */
+  #sharebar{position:fixed;left:14px;bottom:14px;z-index:50;display:flex;align-items:center;
+    gap:5px;background:var(--card,#fff);border:1px solid var(--line);border-radius:999px;
+    padding:5px 8px;box-shadow:0 3px 12px #0000002b}
+  #sharebar .shlabel{font-size:12px;font-weight:800;color:var(--muted);text-transform:uppercase;
+    letter-spacing:.04em;padding:0 3px 0 5px}
+  .shbtn{width:32px;height:32px;min-height:32px;border-radius:50%;border:1px solid var(--line);
+    background:#fff;color:var(--ink);font:700 15px/1 inherit;cursor:pointer;display:inline-flex;
+    align-items:center;justify-content:center;padding:0}
+  .shbtn:hover{background:var(--teal);color:#fff;border-color:var(--teal)}
+  .shtoast{position:fixed;left:50%;bottom:64px;transform:translateX(-50%);z-index:60;
+    background:#1b2a27;color:#fff;padding:8px 16px;border-radius:999px;font-size:14px;
+    box-shadow:0 4px 16px #0004}
+  /* card-level share affordance (per-result) */
+  .cardshare{background:none;border:none;cursor:pointer;color:var(--muted);font-size:15px;
+    padding:2px 6px;border-radius:6px;line-height:1}
+  .cardshare:hover{background:#eef2f1;color:var(--teal)}
+  @media print{#sharebar{display:none!important}}
+  @media(max-width:520px){#sharebar .shlabel{display:none}#sharebar{gap:4px;padding:4px 6px}}
+
+  .wintro{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:16px;color:var(--muted);font-size:14px;line-height:1.6}
+  .wfilter{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;align-items:center}
+  .wchip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 13px;font-weight:700;font-size:14px;cursor:pointer;text-decoration:none;color:var(--ink)}
+  .wchip:hover{border-color:var(--teal)}
+  .wchip.on{background:var(--teal);color:#fff;border-color:var(--teal)}
+  .wsearch{flex:1;min-width:190px;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font:inherit;font-size:14px}
+  .wgrid{column-width:250px;column-gap:16px}
+  .wcard{break-inside:avoid;display:inline-block;width:100%;margin:0 0 16px;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .wcard:hover{border-color:var(--gold);box-shadow:0 1px 8px #0001}
+  .wcard.her{border-color:var(--gold)}
+  .wcard .im{display:block;background:#f0efe9;border-bottom:1px solid var(--line)}
+  .wcard .im img{width:100%;display:block}
+  .wcard .wb{padding:10px 13px}
+  .wcard .wt{font-weight:700;font-size:14px;color:var(--ink)}
+  .wcard .wth{color:var(--muted);font-size:13px;margin-top:2px}
+  .wcard .wm{color:var(--muted);font-size:12px;margin-top:6px;line-height:1.5}
+  .wcard .cred{color:var(--muted);font-size:11px;padding:5px 13px 0;line-height:1.4}
+  .wcard .cred a{color:var(--muted)}
+  .wbadge{display:inline-block;background:var(--gold);color:#3a2c07;border-radius:6px;padding:1px 7px;font-size:11px;font-weight:700;margin-right:5px}
+  .wlic{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 18px;margin-top:20px;color:var(--muted);font-size:13px;line-height:1.65}
+</style></head><body><script>window.__LANNA_BASE__="/";</script><script>
+(function(){
+  "use strict";
+  // ---- Lanna Wiki static shim: run the dynamic viewer on a static host ----------
+  // BASE lets the same build work at the domain root ('/') or under a project path
+  // ('/Lanna/'). All static targets are resolved through S() so they land correctly.
+  var BASE = (window.__LANNA_BASE__ || '/');
+  if (BASE.charAt(BASE.length-1) !== '/') BASE += '/';
+  function S(p){ return BASE + String(p).replace(/^\//,''); }
+  var PLACE = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="260" height="150">'+
+    '<rect width="100%" height="100%" fill="#eef2f1"/>'+
+    '<text x="50%" y="50%" fill="#3a4a47" font-family="sans-serif" font-size="13" '+
+    'text-anchor="middle" dominant-baseline="middle">raw scan — view at source</text></svg>');
+  function art(s){ return String(s==null?'':s).replace(/[^A-Za-z0-9]+/g,'_'); }
+  function jresp(o){ return new Response(JSON.stringify(o),
+    {status:200, headers:{'Content-Type':'application/json; charset=utf-8'}}); }
+  var NOARG = {
+    '/api/overview':'/api/overview.json','/api/dashboard':'/api/dashboard.json',
+    '/api/places':'/api/places.json','/api/lenses':'/api/lenses.json',
+    '/api/vocab':'/api/vocab.json','/api/market':'/api/market.json',
+    '/api/graph':'/api/graph.json','/api/articles':'/api/articles.json',
+    '/api/status':'/api/status.json','/api/manuscripts':'/api/manuscripts.json',
+    '/api/graph.jsonld':'/api/graph.jsonld','/api/graph.ttl':'/api/graph.ttl',
+    '/api/diagrams':'/api/diagrams.json','/api/findings':'/api/findings.json',
+    '/api/activity':'/api/activity.json',
+    '/api/expedite':'/api/expedite.json','/api/wats':'/api/wats.json'
+  };
+  var _fetch = window.fetch ? window.fetch.bind(window) : function(u){return fetch(u);};
+
+  var _docs=null;
+  function loadDocs(){ if(_docs) return Promise.resolve(_docs);
+    return _fetch(S('/api/searchdocs.json')).then(function(r){return r.json();})
+      .then(function(d){_docs=d;return d;}).catch(function(){_docs=[];return [];}); }
+  var _thes=null;
+  function loadThes(){ if(_thes) return Promise.resolve(_thes);
+    return _fetch(S('/api/thesaurus.json')).then(function(r){return r.json();})
+      .then(function(t){_thes=t;return t;}).catch(function(){_thes={};return {};}); }
+  // mirrors wiki.py _expand_token: query token -> OR-set of cross-language equivalents
+  function expand(tok, thes){
+    tok=(tok||'').toLowerCase();
+    var members={}; members[tok]=1;
+    if(tok.length<2) return Object.keys(members);
+    for(var key in thes){
+      if(tok===key || (tok.length>=3 && (tok.indexOf(key)>=0 || key.indexOf(tok)>=0))){
+        var grp=thes[key]; for(var i=0;i<grp.length;i++) members[grp[i]]=1;
+      }
+    }
+    return Object.keys(members);
+  }
+  function staticSearch(q){
+    q=(q||'').trim(); var out={manuscripts:[],articles:[],query:q};
+    if(!q) return Promise.resolve(jresp(out));
+    return Promise.all([loadDocs(), loadThes()]).then(function(res){
+      var docs=res[0], thes=res[1];
+      var groups=q.toLowerCase().split(/\s+/).filter(Boolean)
+                  .map(function(t){return expand(t, thes);}).filter(function(g){return g.length;});
+      if(!groups.length) return jresp(out);
+      var scored=[];
+      for(var i=0;i<docs.length;i++){
+        var d=docs[i], title=(d.ntitle||'').toLowerCase(), body=(d.nbody||'').toLowerCase();
+        var ok=true, score=0, pos=null;
+        for(var j=0;j<groups.length;j++){
+          var g=groups[j], ghit=0;
+          for(var m=0;m<g.length;m++){
+            var tk=g[m]; if(!tk) continue;
+            if(title.indexOf(tk)>=0) ghit+=12;
+            var idx=body.indexOf(tk);
+            if(idx>=0){ ghit+=Math.min(body.split(tk).length-1,6); if(pos===null||idx<pos)pos=idx; }
+          }
+          if(ghit===0){ok=false;break;} score+=ghit;
+        }
+        if(ok) scored.push([score,d,pos]);
+      }
+      scored.sort(function(a,b){return b[0]-a[0];});
+      for(var k=0;k<scored.length;k++){
+        var d2=scored[k][1], pos2=scored[k][2]==null?0:scored[k][2];
+        var text=d2.nbody||d2.ntitle||'';
+        var snip=text.substr(Math.max(0,pos2-60),200).replace(/\s+/g,' ').trim();
+        if(d2.kind==='m'){ if(out.manuscripts.length<60)
+          out.manuscripts.push({id:parseInt(d2.ref,10),label:d2.label,snippet:snip}); }
+        else { if(out.articles.length<60)
+          out.articles.push({key:d2.ref,label:d2.label,snippet:snip}); }
+      }
+      return jresp(out);
+    });
+  }
+
+  var _scans=null;
+  function loadScans(){ if(_scans) return Promise.resolve(_scans);
+    return _fetch(S('/api/scans.all.json')).then(function(r){return r.json();})
+      .then(function(d){_scans=d.scans||[];return _scans;}).catch(function(){_scans=[];return [];}); }
+
+  // ---- IIIF on-demand images: /img?sha=&w= -> sized library IIIF URL ------------
+  // We ship no scan bytes; a {sha -> IIIF url} map lets every page image load from
+  // the originating library, resized via the IIIF size parameter. The <img> src
+  // setter is synchronous, so images requested before the map arrives get the
+  // placeholder and are re-resolved once it loads (IIIF_Q flush).
+  var IIIF=null, IIIF_Q=[], IIIF_LOADING=false;
+  function iiifSized(u,w){ w=w||1024;
+    return String(u).replace('/full/full/0/default.jpg','/full/'+w+',/0/default.jpg'); }
+  function flushIIIF(){ var q=IIIF_Q; IIIF_Q=[];
+    for(var i=0;i<q.length;i++){ var it=q[i], u=IIIF[it.sha];
+      if(u){ try{ desc.set.call(it.el, iiifSized(u,it.w)); }catch(e){} } } }
+  // LAZY: the {sha -> IIIF url} map is ~2.6 MB and only pages that actually render
+  // scan images (browse, gallery, manuscript detail) need it. Fetch it on the FIRST
+  // /img?sha= request instead of on every page load, so image-free pages (home,
+  // articles, findings, market, textbooks) pay zero bytes for it.
+  function loadIIIF(){ if(IIIF) return Promise.resolve(IIIF);
+    if(IIIF_LOADING) return Promise.resolve(null); IIIF_LOADING=true;
+    return _fetch(S('/api/img-iiif.json')).then(function(r){return r.json();})
+      .then(function(m){ IIIF=m||{}; flushIIIF(); return IIIF; })
+      .catch(function(){ IIIF={}; flushIIIF(); return IIIF; }); }
+  function scansSlice(sp){
+    var midp=sp.get('mid'); var mid = midp?parseInt(midp,10):null;
+    var offset=parseInt(sp.get('offset')||'0',10)||0;
+    var limit=parseInt(sp.get('limit')||'120',10)||120;
+    var onlyT=(sp.get('only')==='transcribed');
+    return loadScans().then(function(all){
+      var pool=all.filter(function(s){
+        if(mid!==null && s.id!==mid) return false;
+        if(onlyT && !s.transcribed) return false;
+        return true;
+      });
+      return jresp({dbPresent:true, scans:pool.slice(offset,offset+limit),
+                    offset:offset, limit:limit, total:pool.length});
+    });
+  }
+
+  window.fetch = function(input, init){
+    init = init || {};
+    var url;
+    try { url = new URL((typeof input==='string')?input:input.url, location.origin); }
+    catch(e){ return _fetch(input, init); }
+    if(url.origin !== location.origin) return _fetch(input, init);
+    var method = (init.method || (typeof input!=='string' && input.method) || 'GET').toUpperCase();
+    var p = url.pathname, sp = url.searchParams;
+    if(method !== 'GET') return Promise.resolve(jresp({ok:false, readonly:true}));
+    if(p==='/api/search') return staticSearch(sp.get('q'));
+    if(p==='/api/gallery' && sp.get('source')==='scans') return scansSlice(sp);
+    // analysis widgets: /api/w/<name> -> the dumped snapshot; geo.geojson is a real
+    // file already, everything else gains a .json extension on disk.
+    if(p.indexOf('/api/w/')===0){
+      if(p.slice(-8)==='.geojson') return _fetch(S(p), {});
+      return _fetch(S(p+'.json'), {});
+    }
+    if(NOARG[p]) return _fetch(S(NOARG[p]), {});
+    if(p==='/api/manuscript') return _fetch(S('/api/manuscript/'+encodeURIComponent(sp.get('id'))+'.json'), {});
+    if(p==='/api/article')    return _fetch(S('/api/article/'+art(sp.get('s'))+'.json'), {});
+    if(p==='/api/gallery'){
+      var src=sp.get('source');
+      if(src==='scan-index') return _fetch(S('/api/gallery.scan-index.json'), {});
+      return _fetch(S('/api/gallery.json'), {});
+    }
+    if(p==='/pimg') return _fetch(S('/pimg/'+sp.get('mid')+'/'+sp.get('n')+'.png'), {});
+    return _fetch(input, init);
+  };
+
+  // internal navigation: app links are baked as root-absolute ('/browse', '/m?id=…').
+  // Under a project subpath they must be re-rooted at BASE. A capture-phase click
+  // handler does this for every link, however it was created.
+  document.addEventListener('click', function(ev){
+    if(ev.defaultPrevented || ev.button!==0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+    var a = ev.target && ev.target.closest ? ev.target.closest('a[href]') : null;
+    if(!a) return;
+    if(a.target==='_blank') return;
+    var href=a.getAttribute('href');
+    if(!href || href.charAt(0)!=='/' || href.charAt(1)==='/') return;  // only root-absolute, not protocol-relative
+    if(BASE!=='/' && href.indexOf(BASE)===0) return;                   // already re-rooted
+    // '/read?id=N' is a query-string route the live wiki serves dynamically; a
+    // static host can't route query strings, so the export ships it as a real
+    // path instead (read/N/index.html) — rewrite the click to match.
+    var rm = href.match(/^\/read\?id=(\d+)/);
+    if(rm){ ev.preventDefault(); location.href = S('read/'+rm[1]+'/'); return; }
+    // widget JSON download links point at '/api/w/<name>' (no extension); on disk
+    // that snapshot is '<name>.json' — map the download to the real file.
+    var wm = href.match(/^\/api\/w\/([a-z]+)$/);
+    if(wm){ ev.preventDefault(); location.href = S('api/w/'+wm[1]+'.json'); return; }
+    ev.preventDefault();
+    location.href = S(href);
+  }, true);
+
+  // rewrite <img> src (Object.assign in el() sets the .src property, so this catches it)
+  try {
+    var proto=HTMLImageElement.prototype;
+    var desc=Object.getOwnPropertyDescriptor(proto,'src');
+    Object.defineProperty(proto,'src',{configurable:true,enumerable:true,
+      get:function(){return desc.get.call(this);},
+      set:function(v){
+        try{
+          var u=new URL(v, location.origin);
+          if(u.origin===location.origin){
+            if(u.pathname==='/pimg'){
+              v=S('/pimg/'+u.searchParams.get('mid')+'/'+u.searchParams.get('n')+'.png');
+            } else if(u.pathname==='/img'){
+              var sha=u.searchParams.get('sha');
+              var w=parseInt(u.searchParams.get('w')||'0',10)||0;
+              if(sha && IIIF && IIIF[sha]){ v=iiifSized(IIIF[sha], w); }
+              else if(sha && IIIF===null){ IIIF_Q.push({el:this, sha:sha, w:w}); v=PLACE; loadIIIF(); }
+              else { v=PLACE; }
+            }
+          }
+        }catch(e){}
+        desc.set.call(this,v);
+      }});
+  } catch(e){}
+})();
+</script><header><div><h1>Wats of Chiang Mai</h1><p class=sub>The tradition standing up in the landscape &mdash; 345 temples in and around the mueang, heritage-registered sites marked</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><p class=muted>Loading&hellip;</p></main><script>
+const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
+let ALL=[],mode='all',q='';
+async function load(){let d;try{d=await (await fetch('/api/wats')).json();}catch(e){document.getElementById('main').textContent='Could not load the wat catalogue.';return;}
+  window.__W=d;ALL=d.wats||[];
+  if(!d.present||!ALL.length){document.getElementById('main').innerHTML='';document.getElementById('main').append(el('p',{className:'muted',textContent:'The wat catalogue has not been synced into this build yet.'}));return;}
+  render();}
+function chip(label,m){const a=el('a',{className:'wchip'+(mode===m?' on':'')});a.textContent=label;a.onclick=()=>{mode=m;render();};return a;}
+function visible(){return ALL.filter(w=>{
+  if(mode==='heritage'&&!w.heritage)return false;
+  if(mode==='photos'&&!(w.photos||[]).length)return false;
+  if(q){const s=((w.name||'')+' '+(w.nameRoman||'')).toLowerCase();if(!s.includes(q))return false;}
+  return true;});}
+function render(){const d=window.__W,main=document.getElementById('main');main.textContent='';
+  const intro=el('div',{className:'wintro'});
+  intro.textContent=d.total.toLocaleString()+' temples mapped in and around Chiang Mai, '+d.heritage+' registered as Thai historic sites, '+d.withPhotos+' with freely-licensed photography ('+d.photos+' images). Most records are machine-compiled and unvisited — they are leads into the landscape, not verified survey.';
+  main.append(intro);
+  const f=el('div',{className:'wfilter'});
+  f.append(chip('All ('+ALL.length+')','all'));
+  f.append(chip('Heritage ('+d.heritage+')','heritage'));
+  f.append(chip('With photographs ('+d.withPhotos+')','photos'));
+  const s=el('input',{className:'wsearch',type:'search',placeholder:'Search a temple name, Thai or roman…',value:q});
+  s.oninput=()=>{q=s.value.trim().toLowerCase();const g=document.getElementById('wgrid');if(g)paint(g);};
+  f.append(s);main.append(f);
+  const grid=el('div',{className:'wgrid',id:'wgrid'});main.append(grid);paint(grid);
+  const lic=el('div',{className:'wlic'});const at=d.attribution||{};
+  lic.append(el('b',{textContent:'Sources and licence. '}));
+  lic.append(document.createTextNode('Temple locations are derived from OpenStreetMap and are therefore published under the '));
+  lic.append(el('a',{href:at.dataUrl||'https://opendatacommons.org/licenses/odbl/1-0/',target:'_blank',rel:'noopener',textContent:'Open Database License (ODbL) 1.0'}));
+  lic.append(document.createTextNode(' — share-alike, which is a different licence from the rest of this site. '+(at.facts||'Wikidata, CC0')+'. Photographs are hosted by Wikimedia Commons and are NOT relicensed here: each is credited to its author under its own terms beneath the image.'));
+  main.append(lic);}
+function paint(grid){grid.textContent='';const items=visible();
+  if(!items.length){grid.append(el('p',{className:'muted',textContent:'No temple matches.'}));return;}
+  for(const w of items){
+    const c=el('div',{className:'wcard'+(w.heritage?' her':'')});
+    const ph=(w.photos||[])[0];
+    if(ph){c.append(el('a',{className:'im',href:ph.source,target:'_blank',rel:'noopener'},[el('img',{src:ph.thumb,loading:'lazy',alt:w.nameRoman||w.name||'temple'})]));}
+    const b=el('div',{className:'wb'});
+    b.append(el('div',{className:'wt'},[w.heritage?el('span',{className:'wbadge',textContent:'Heritage'}):null,document.createTextNode(w.nameRoman||w.name||'(unnamed)')]));
+    if(w.name&&w.name!==w.nameRoman)b.append(el('div',{className:'wth',textContent:w.name}));
+    const bits=[];if(w.founded)bits.push('founded '+w.founded);
+    bits.push(w.confidence==='verified'?'field-verified':'compiled, unvisited');
+    b.append(el('div',{className:'wm',textContent:bits.join(' · ')}));
+    c.append(b);
+    if(ph){const cr=el('div',{className:'cred'});
+      cr.append(document.createTextNode(ph.author+' · '));
+      cr.append(ph.licenseUrl?el('a',{href:ph.licenseUrl,target:'_blank',rel:'noopener',textContent:ph.license}):document.createTextNode(ph.license));
+      cr.append(document.createTextNode(' · '));
+      cr.append(el('a',{href:ph.source,target:'_blank',rel:'noopener',textContent:'Commons'}));
+      c.append(cr);}
+    grid.append(c);}}
+load();
+</script><button id=tomenu aria-label='Back to menu' onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650; Menu</button><script>(function(){var b=document.getElementById('tomenu');if(!b)return;var f=function(){b.classList.toggle('show',(window.scrollY||0)>320);};addEventListener('scroll',f,{passive:true});f();})();</script><div id=sharebar aria-label='Share this page'><span class=shlabel>Share</span><button class=shbtn data-sh=native title='Share…' hidden>&#10148;</button><button class=shbtn data-sh=copy title='Copy link'>&#128279;</button><button class=shbtn data-sh=x title='Share on X'>&#120143;</button><button class=shbtn data-sh=fb title='Share on Facebook'>f</button><button class=shbtn data-sh=line title='Share on LINE'>L</button><button class=shbtn data-sh=tg title='Share on Telegram'>&#9992;</button></div><script>(function(){var bar=document.getElementById('sharebar');if(!bar)return;function toast(m){var t=document.createElement('div');t.className='shtoast';t.textContent=m;document.body.appendChild(t);setTimeout(function(){t.remove();},1800);}function links(u,t){return {x:'https://twitter.com/intent/tweet?url='+u+'&text='+t,fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};}function shareUrl(url,title){var u=encodeURIComponent(url),t=encodeURIComponent((title||'').replace(/\s+[—-]\s+wichaa.*$/i,''));return {u:u,t:t};}window.__share=function(url,title){url=url||location.href;title=title||document.title;if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});return;}if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){toast('Link copied');},function(){});}else toast(url);};var nat=bar.querySelector('[data-sh=native]');if(navigator.share&&nat)nat.hidden=false;bar.addEventListener('click',function(e){var el=e.target.closest('[data-sh]');if(!el)return;var k=el.getAttribute('data-sh');var s=shareUrl(location.href,document.title);if(k==='native'){window.__share();return;}if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){toast('Link copied');},function(){toast(location.href);});}else toast(location.href);return;}var m=links(s.u,s.t);if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script></body></html>

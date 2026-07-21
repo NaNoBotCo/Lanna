@@ -135,7 +135,8 @@
     '/api/status':'/api/status.json','/api/manuscripts':'/api/manuscripts.json',
     '/api/graph.jsonld':'/api/graph.jsonld','/api/graph.ttl':'/api/graph.ttl',
     '/api/diagrams':'/api/diagrams.json','/api/findings':'/api/findings.json',
-    '/api/activity':'/api/activity.json'
+    '/api/activity':'/api/activity.json',
+    '/api/expedite':'/api/expedite.json','/api/wats':'/api/wats.json'
   };
   var _fetch = window.fetch ? window.fetch.bind(window) : function(u){return fetch(u);};
 
@@ -316,7 +317,7 @@
       }});
   } catch(e){}
 })();
-</script><header><div><h1>Profiles</h1><p class=sub>Auto-computed subject profiles — live catalogue facts, counts, and cross-links drawn straight from the collection. Longer authored essays are added over time.</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
+</script><header><div><h1>Profiles</h1><p class=sub>Auto-computed subject profiles — live catalogue facts, counts, and cross-links drawn straight from the collection. Longer authored essays are added over time.</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
 const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
 function monogram(label){const m=(label||'?').replace(/^[^\p{L}\p{N}]+/u,'');return (m[0]||'?').toUpperCase();}
 function card(a){

@@ -122,7 +122,8 @@
     '/api/status':'/api/status.json','/api/manuscripts':'/api/manuscripts.json',
     '/api/graph.jsonld':'/api/graph.jsonld','/api/graph.ttl':'/api/graph.ttl',
     '/api/diagrams':'/api/diagrams.json','/api/findings':'/api/findings.json',
-    '/api/activity':'/api/activity.json'
+    '/api/activity':'/api/activity.json',
+    '/api/expedite':'/api/expedite.json','/api/wats':'/api/wats.json'
   };
   var _fetch = window.fetch ? window.fetch.bind(window) : function(u){return fetch(u);};
 
@@ -303,7 +304,7 @@
       }});
   } catch(e){}
 })();
-</script><header><div><h1>Crawl status</h1><p class=sub>What the crawler has harvested so far</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
+</script><header><div><h1>Crawl status</h1><p class=sub>What the crawler has harvested so far</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><p class=muted>Loading…</p></main><script>
 const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
 async function load(){const d=await (await fetch('/api/status')).json();const main=document.getElementById('main');main.textContent='';
   if(!d.dbPresent){main.append(el('div',{className:'empty'},[el('p',{textContent:'No catalog database yet.'}),el('p',{className:'muted',textContent:'Expected at: '+d.dbPath}),el('p',{className:'muted',textContent:'Run the crawler to create it, then reload this page.'})]));return;}
