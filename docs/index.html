@@ -289,7 +289,6 @@
   <div class="wrap">
     <p class="free">Free. Open. No ads, no paywall — an offering for posterity.</p>
     <p class="sharefoot" aria-label="Share this archive">Share&nbsp;
-      <button data-sh="x" title="Share on X">𝕏</button>
       <button data-sh="fb" title="Share on Facebook">f</button>
       <button data-sh="line" title="Share on LINE">L</button>
       <button data-sh="tg" title="Share on Telegram">✈</button>
@@ -306,7 +305,7 @@
 f.addEventListener('click',function(e){var b=e.target.closest('[data-sh]');if(!b)return;
 var k=b.getAttribute('data-sh'),u=encodeURIComponent(location.href),t=encodeURIComponent(document.title);
 if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){var o=b.textContent;b.textContent='✓';setTimeout(function(){b.textContent=o;},1500);});}return;}
-var m={x:'https://twitter.com/intent/tweet?url='+u+'&text='+t,fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};
+var m={fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};
 if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script>
 </body>
 </html>
