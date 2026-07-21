@@ -172,7 +172,7 @@
   #kofloat{position:fixed;right:16px;bottom:16px;z-index:40;background:#fbf1dc;color:#8a5a00;border:1px solid #e6d3a8;border-radius:999px;padding:11px 16px;font-weight:700;font-size:14.5px;text-decoration:none;box-shadow:0 6px 18px #0002}
   #kofloat:hover{filter:brightness(.97)}
   @media (max-width:560px){#kofloat{bottom:70px}}
-</style></head><body><script>window.__LANNA_BASE__="/";</script><script>
+</style><!-- site_meta:begin --><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "wichaa", "description": "A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa tradition — astrology, ritual, and magic — with a curated knowledge graph and a living-market layer.", "url": "https://wichaa.net/", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@type": "Organization", "name": "NaNoBotCo", "email": "530kings@proton.me"}, "keywords": ["Lanna manuscripts", "Northern Thai", "Tai Tham script", "wichaa", "Thai astrology", "hora", "yantra", "sak yant", "katha", "Buddhist manuscripts", "palm-leaf manuscripts", "Southeast Asian manuscripts", "digital humanities"], "inLanguage": ["th", "en", "pi"], "isAccessibleForFree": true, "size": "6990 manuscripts", "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://wichaa.net/api/manuscripts.json", "name": "All manuscripts (JSON)"}, {"@type": "DataDownload", "encodingFormat": "application/ld+json", "contentUrl": "https://wichaa.net/api/graph.jsonld", "name": "Knowledge graph (JSON-LD)"}, {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://wichaa.net/api/graph.ttl", "name": "Knowledge graph (Turtle)"}]}</script><link rel="alternate" type="application/ld+json" href="https://wichaa.net/api/graph.jsonld" title="Knowledge graph (JSON-LD)"><link rel="alternate" type="text/turtle" href="https://wichaa.net/api/graph.ttl" title="Knowledge graph (Turtle)"><meta name="keywords" content="Lanna manuscripts, Northern Thai, Tai Tham script, wichaa, Thai astrology, hora, yantra, sak yant, katha, Buddhist manuscripts, palm-leaf manuscripts, Southeast Asian manuscripts, digital humanities"><!-- site_meta:end --></head><body><script>window.__LANNA_BASE__="/";</script><script>
 (function(){
   "use strict";
   // ---- Lanna Wiki static shim: run the dynamic viewer on a static host ----------
@@ -636,13 +636,18 @@ const qGet=()=>{try{return JSON.parse(localStorage.getItem(QKEY)||'[]')}catch(e)
 const qSet=(v)=>{try{localStorage.setItem(QKEY,JSON.stringify(v))}catch(e){alert('Local storage is full — send or download your queued notes first.')}};
 
 function placeUrl(x){const u=new URL(location.href);u.hash='place='+encodeURIComponent(x.id);return u.toString();}
+// Sharing uses the place's OWN page, not the map's #fragment. A fragment is
+// never sent to a server, so an unfurler (Facebook, X, LINE) would only ever see
+// the generic site card — no temple name, no photograph. /place/<id>/ is a real
+// URL with its own og: tags, so the preview shows the place.
+function shareUrl(x){return location.origin+BASE+'place/'+encodeURIComponent(x.id)+'/';}
 function openModal(x){
   const isSac=!!x.siteType;
   const ph=(x.photos||[])[0];
   const sum=x.summary||null, desc=x.description||'';
   const back=document.getElementById('mback');
   const lat=x.lat,lng=x.lng,ll=lat+','+lng;
-  const share=placeUrl(x), st=encodeURIComponent((x.nameRoman||x.name||'')+' — wichaa');
+  const share=shareUrl(x), st=encodeURIComponent((x.nameRoman||x.name||'')+' — wichaa');
   const su=encodeURIComponent(share);
   const H=[];
   H.push('<div class="modal" role="dialog" aria-modal="true" aria-label="'+esc(x.nameRoman||x.name||'place')+'">');
@@ -706,7 +711,8 @@ function openModal(x){
     '<a class="mbtn" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u='+su+'">Facebook</a>'+
     '<a class="mbtn" target="_blank" rel="noopener" href="https://social-plugins.line.me/lineit/share?url='+su+'">LINE</a>'+
     '<a class="mbtn" target="_blank" rel="noopener" href="https://t.me/share/url?url='+su+'&text='+st+'">Telegram</a>'+
-    '</div><div class="mfrom">The link opens this place directly.</div></div>');
+    '<a class="mbtn" href="'+esc(share)+'">Open its own page</a>'+
+    '</div><div class="mfrom">The shared link is this place\'s own page, so it unfurls with its photograph and name rather than a generic site card.</div></div>');
 
   H.push('<div class="msec mnote"><h3>Add a note or a photo</h3>'+
     '<textarea id="mnotetxt" placeholder="Correction, opening hours, what it is like to visit, a name spelled properly…"></textarea>'+
