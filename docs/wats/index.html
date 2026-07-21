@@ -426,7 +426,10 @@ function chip(label,m){
   };
   return a;}
 const PROVS=['Chiang Mai','Chiang Rai','Lamphun','Lampang','Nan'];
-function nphotos(w){return (w.photos||[]).length;}
+// The map payload inlines at most two photographs; photoCount is the real total,
+// and the rest arrive with the place JSON when a modal opens. Counting the
+// inlined array would under-report every temple that has more than two.
+function nphotos(w){return (w.photoCount!=null)?w.photoCount:(w.photos||[]).length;}
 function distKm(w){if(!here||w.lat==null)return null;
   const R=6371,t=x=>x*Math.PI/180;
   const dLa=t(w.lat-here.lat),dLo=t(w.lng-here.lng);
@@ -712,8 +715,10 @@ function openModal(x){
   // Every photograph, not just the first. The card advertised "3 photos" and the
   // modal rendered photos[0] — so the count was true and the display was a lie.
   const pics=(x.photos||[]);
+  // The strip container is emitted whenever more photographs EXIST, even if the
+  // payload only inlined two — the deep fetch fills it in a moment later.
   if(pics.length)H.push('<div class="mhero" id="mhero"></div><div class="mcred" id="mcred"></div>'+
-    (pics.length>1?'<div class="mstrip" id="mstrip"></div>':''));
+    ((pics.length>1||nphotos(x)>1)?'<div class="mstrip" id="mstrip"></div>':''));
   H.push('<div class="mbody">');
   H.push('<div class="mtitle">'+esc(x.nameRoman||x.name||'(unnamed)')+'</div>');
   if(x.name&&x.name!==x.nameRoman)H.push('<div class="mth">'+esc(x.name)+'</div>');
@@ -838,7 +843,7 @@ function openModal(x){
 // The full article can run to 14,000 characters across a dozen sections. That
 // has no business in the map payload, which has to load 1,300 points fast — so
 // it lives in the place's own JSON and is fetched only when a modal opens.
-const _deepCache={};
+const _deepCache={},_photoCache={};
 function loadDeep(x){
   const slot=document.getElementById('mdeep'); if(!slot)return;
   const render=(art)=>{
@@ -863,10 +868,19 @@ function loadDeep(x){
     if(!h)return;
     slot.innerHTML='<h3>In depth</h3>'+h; slot.hidden=false;
   };
-  if(_deepCache[x.id]!==undefined){render(_deepCache[x.id]);return;}
+  const upgradePhotos=(full)=>{
+    if(!full||full.length<=(x.photos||[]).length)return;
+    x.photos=full;                       // keep it for next time this modal opens
+    const slot=document.getElementById('mhero');
+    if(slot)showPic(full,0);             // redraw the gallery with the full strip
+  };
+  if(_deepCache[x.id]!==undefined){render(_deepCache[x.id]);upgradePhotos(_photoCache[x.id]);return;}
   fetch(BASE+'api/place/'+encodeURIComponent(x.id)+'.json')
     .then(r=>r.ok?r.json():null)
-    .then(j=>{const a=(j&&j.article)||null;_deepCache[x.id]=a;render(a);})
+    .then(j=>{
+      const a=(j&&j.article)||null; _deepCache[x.id]=a; render(a);
+      const full=(j&&j.photos)||null; _photoCache[x.id]=full; upgradePhotos(full);
+    })
     .catch(()=>{_deepCache[x.id]=null;});
 }
 function showPic(pics,i){
