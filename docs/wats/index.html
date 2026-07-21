@@ -159,6 +159,12 @@
   .msec{margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
   .msec h3{margin:0 0 7px;font-size:12px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted)}
   .mprose{font-size:15px;line-height:1.65}
+  .mdeepblk{border-top:1px solid var(--line);padding-top:8px;margin-top:8px}
+  .mdeepblk summary{cursor:pointer;font-weight:700;font-size:14px;padding:4px 0}
+  .mdeepblk h4{font-size:14.5px;margin:12px 0 3px}
+  .mdeepblk p{font-size:14.5px;line-height:1.62;margin:0 0 8px}
+  .msecn{color:var(--muted);font-weight:400;font-size:12.5px}
+  .mkind{background:#eef3f2;color:var(--teal);border-radius:5px;padding:1px 7px;font-size:11px;font-weight:700}
   .mfrom{font-size:11.5px;color:var(--muted);margin-top:6px}
   .mrow{display:grid;grid-template-columns:104px 1fr;gap:6px 12px;font-size:14.5px}
   .mrow dt{color:var(--muted)}
@@ -716,6 +722,7 @@ function openModal(x){
   if(x.heritage)H.push('<span class="mtag gold">★ '+esc(x.heritage)+'</span>');
   H.push('<span class="mtag">'+(x.confidence==='verified'?'field-verified':'compiled · unvisited')+'</span></div>');
 
+  H.push('<div class="msec" id="mdeep" hidden></div>');
   if(sum&&sum.text){H.push('<div class="msec"><h3>About</h3><div class="mprose">'+esc(sum.text)+'</div>'+
     '<div class="mfrom">From <a href="'+esc(sum.url)+'" target="_blank" rel="noopener">'+esc(sum.title)+'</a> on Wikipedia · '+
     '<a href="'+esc(sum.licenseUrl)+'" target="_blank" rel="noopener">'+esc(sum.license)+'</a> — reused here under that licence.</div></div>');}
@@ -800,6 +807,7 @@ function openModal(x){
   history.replaceState(null,'','#place='+encodeURIComponent(x.id));
   renderQueue();
   const m=back.querySelector('.modal');
+  loadDeep(x);
   if(pics.length)showPic(pics,0);
   m.querySelector('.mx').onclick=closeModal;
   m.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText(b.dataset.copy);b.textContent='copied';setTimeout(()=>{b.textContent=b.dataset.copy===share?'Copy link':'copy'},1400);});
@@ -826,6 +834,40 @@ function openModal(x){
   const fi=m.querySelector('#mnotefile');
   fi.onchange=()=>{const f=fi.files[0];document.getElementById('mfilehint').textContent=f?(f.name+' — will be downscaled'):'';};
   m.querySelector('.mx').focus();
+}
+// The full article can run to 14,000 characters across a dozen sections. That
+// has no business in the map payload, which has to load 1,300 points fast — so
+// it lives in the place's own JSON and is fetched only when a modal opens.
+const _deepCache={};
+function loadDeep(x){
+  const slot=document.getElementById('mdeep'); if(!slot)return;
+  const render=(art)=>{
+    if(!art||!Object.keys(art).length)return;
+    const KIND={architecture:'Architecture',history:'History',interest:'Of interest',heritage:'Heritage listing'};
+    const LANG={th:'ภาษาไทย (Thai)',en:'English'};
+    let h='';
+    for(const lang of ['th','en']){
+      const a=art[lang]; if(!a||!(a.sections||[]).length)continue;
+      h+='<details class="mdeepblk"'+(lang==='th'?' open':'')+'><summary>In depth · '+esc(LANG[lang])+
+         ' <span class="msecn">'+a.sections.length+' sections</span></summary>';
+      for(const sec of a.sections){
+        const kl=KIND[sec.kind]||sec.kind||'';
+        const dupe=kl&&String(sec.heading||'').toLowerCase().includes(kl.toLowerCase());
+        h+='<h4>'+esc(sec.heading||'')+((kl&&!dupe)?' <span class="mkind">'+esc(kl)+'</span>':'')+'</h4>';
+        for(const para of String(sec.text||'').split('\n')) if(para.trim()) h+='<p>'+esc(para)+'</p>';
+      }
+      h+='<div class="mfrom">From <a href="'+esc(a.url)+'" target="_blank" rel="noopener">'+esc(a.title)+
+         '</a> on Wikipedia · <a href="'+esc(a.licenseUrl)+'" target="_blank" rel="noopener">'+esc(a.license)+
+         '</a> — reused here under that licence.</div></details>';
+    }
+    if(!h)return;
+    slot.innerHTML='<h3>In depth</h3>'+h; slot.hidden=false;
+  };
+  if(_deepCache[x.id]!==undefined){render(_deepCache[x.id]);return;}
+  fetch(BASE+'api/place/'+encodeURIComponent(x.id)+'.json')
+    .then(r=>r.ok?r.json():null)
+    .then(j=>{const a=(j&&j.article)||null;_deepCache[x.id]=a;render(a);})
+    .catch(()=>{_deepCache[x.id]=null;});
 }
 function showPic(pics,i){
   const hero=document.getElementById('mhero'), cred=document.getElementById('mcred');
