@@ -800,6 +800,11 @@ function openModal(x){
     '</div>'+
     '<textarea id="mnotetxt" placeholder="Correction, opening hours, what it is like to visit, a name spelled properly…"></textarea>'+
     '<div class="mfile"><input type="file" id="mnotefile" accept="image/*"> <span id="mfilehint"></span></div>'+
+    // CC BY-SA is an attribution licence, so a photograph without a credit is one
+    // the archive cannot lawfully publish. Asked for here rather than discovered
+    // at moderation, when the contributor is long gone.
+    '<input id="mnoteby" type="text" autocomplete="name" placeholder="Your name — the credit on your photograph" '+
+      'style="width:100%;margin-top:8px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;background:var(--bg);color:var(--ink)">'+
     '<div class="mbtns" style="margin-top:10px">'+
       '<button class="mbtn primary" data-queue="1">Add to my submissions</button>'+
       '<button class="mbtn primary" data-send="1">Send to the archive</button>'+
@@ -807,7 +812,7 @@ function openModal(x){
       '<button class="mbtn" data-dl="1">Download submission file</button>'+
     '</div>'+
     '<div class="mqueue" id="mqueue"></div>'+
-    '<div class="mfrom">Nothing is sent automatically. Notes stay on this device until you press a button. <b>Send to the archive</b> posts them to a moderation queue, where a person reads every one before anything is published — nothing you send reaches the map on its own, and the queue is never public. Photographs are too large for that route and stay on this device; use <b>Download submission file</b> and attach it. No account, no sign-in, and nothing about you is collected beyond what you type. Only submit photographs you took yourself and are willing to release under CC BY-SA 4.0.</div></div>');
+    '<div class="mfrom">Nothing is sent automatically. Notes stay on this device until you press a button. <b>Send to the archive</b> posts them to a moderation queue, where a person reads every one before anything is published — nothing you send reaches the map on its own, and the queue is never public. Photographs travel too, credited to the name you give. No account, no sign-in, and nothing about you is collected beyond what you type — your photograph is not visible to anyone but the archivist until it is approved. Only submit photographs you took yourself and are willing to release under CC BY-SA 4.0.</div></div>');
 
   H.push('<div class="msec"><h3>Licence</h3><div class="mlic">'+
     '<b>Location data</b> — derived from OpenStreetMap, published under the <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noopener">Open Database Licence 1.0</a> (share-alike): reuse it, but a derived database must stay ODbL and credit © OpenStreetMap contributors.<br>'+
@@ -926,13 +931,17 @@ function shrink(file){return new Promise(res=>{
   r.onerror=()=>res(null); r.readAsDataURL(file);});}
 async function queueNote(x){
   const t=document.getElementById('mnotetxt'), fi=document.getElementById('mnotefile');
+  const by=document.getElementById('mnoteby');
   const note=(t.value||'').trim(); const file=fi.files[0];
   if(!note&&!file){alert('Write a note or attach a photo first.');return;}
+  // A photograph with no credit cannot be published under CC BY-SA, so the name
+  // is collected while the person is still here rather than chased later.
+  if(file&&!(by&&by.value.trim())){alert('Please add your name — it becomes the credit on your photograph.');if(by)by.focus();return;}
   let photo=null;
   if(file){ if(file.size>12*1024*1024){alert('That image is very large — please pick one under 12 MB.');return;} photo=await shrink(file); }
   const q=qGet();
   q.push({place:x.id,name:x.nameRoman||x.name,lat:x.lat,lng:x.lng,note:note,photo:photo,
-          sac:!!x.siteType,
+          sac:!!x.siteType, by:(by&&by.value.trim())||'',
           fromTemple:t.dataset.fromTemple==='1',
           at:new Date().toISOString(),url:shareUrl(x)});
   qSet(q); t.value=''; fi.value=''; document.getElementById('mfilehint').textContent='';
@@ -943,30 +952,39 @@ function digest(){const q=qGet();if(!q.length)return null;
     '   '+s.url+'\n   '+(s.note||'(no note)')+(s.photo?'\n   [a photo is attached in the downloaded file]':'')).join('\n\n');}
 // Post the queued notes to the moderation queue, one suggestion each.
 //
-// PHOTOGRAPHS DELIBERATELY DO NOT TRAVEL THIS ROUTE. The worker caps a request
-// body at 200 KB and keeps images out of KV entirely, so a downscaled phone
-// photo would be refused. Rather than silently drop the picture and report
-// success, an entry carrying one is LEFT IN THE QUEUE and the reader is told to
-// use the download-and-attach path for it. A contribution that vanishes while
-// the interface says "sent" is worse than one that was never offered.
+// A photograph goes up FIRST, on its own endpoint, and the note then carries a
+// reference to it — so the picture and the claim about the place arrive as one
+// reviewable unit. If the image fails to upload the note is NOT sent either:
+// half a contribution silently becoming a whole one is the kind of quiet lie
+// this archive exists to avoid.
 //
-// Failures are kept too: only entries the server actually accepted are cleared,
-// so a flaky connection can never eat somebody notes.
+// Only entries the server actually accepted are cleared. Failures stay queued
+// with the reason shown, so a flaky connection can never eat somebody notes.
 async function sendQueue(btn){
   const q=qGet(); if(!q.length){alert('Nothing queued yet.');return;}
   const el=document.getElementById('mqueue');
   if(btn){btn.disabled=true;btn.textContent='Sending...';}
   const today=new Date().toISOString().slice(0,10);
-  const keep=[]; let sent=0, withPhoto=0, why='';
+  const keep=[]; let sent=0, pics=0, why='';
   for(const s of q){
-    if(s.photo){ withPhoto++; keep.push(s); continue; }
-    const point={id:s.place, lens:[s.sac?'sacred':'wat'], name:s.name||s.place,
-      lat:s.lat, lng:s.lng, geoPrecision:'block',
-      attrs:{note:s.note||'', fromTemple:!!s.fromTemple, page:s.url||''},
-      media:[],
-      sources:[{type:'field', by:(s.fromTemple?'temple':'visitor')+' via wichaa.net', date:today}],
-      confidence:'reported', updatedAt:today};
+    const media=[];
     try{
+      if(s.photo){
+        const pr=await fetch(WORKER+'/photo',{method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body:JSON.stringify({place:s.place, dataUrl:s.photo, by:s.by||'anonymous contributor',
+                               licence:'CC BY-SA 4.0', note:s.note||''})});
+        let pj={}; try{ pj=await pr.json(); }catch(e){}
+        if(!(pr.ok&&pj.ok)){ keep.push(s); why=pj.error||('photograph rejected, HTTP '+pr.status); continue; }
+        media.push({type:'photo', key:pj.key, by:s.by||'anonymous contributor', licence:'CC BY-SA 4.0'});
+        pics++;
+      }
+      const point={id:s.place, lens:[s.sac?'sacred':'wat'], name:s.name||s.place,
+        lat:s.lat, lng:s.lng, geoPrecision:'block',
+        attrs:{note:s.note||'', fromTemple:!!s.fromTemple, page:s.url||''},
+        media:media,
+        sources:[{type:'field', by:(s.by||(s.fromTemple?'temple':'visitor'))+' via wichaa.net', date:today}],
+        confidence:'reported', updatedAt:today};
       const r=await fetch(WORKER+'/suggest',{method:'POST',
         headers:{'Content-Type':'application/json'},
         body:JSON.stringify({kind:'correction', point:point})});
@@ -977,9 +995,8 @@ async function sendQueue(btn){
   qSet(keep); renderQueue();
   if(btn){btn.disabled=false;btn.textContent='Send to the archive';}
   const bits=[];
-  if(sent) bits.push(sent+' note'+(sent===1?'':'s')+' sent for review. Thank you.');
-  if(withPhoto) bits.push(withPhoto+' with a photograph stayed here - use Download submission file and email it, photographs cannot travel this way.');
-  if(keep.length>withPhoto) bits.push('Some could not be sent ('+why+'); they are still queued, nothing was lost.');
+  if(sent) bits.push(sent+' submission'+(sent===1?'':'s')+' sent for review'+(pics?(', including '+pics+' photograph'+(pics===1?'':'s')):'')+'. Thank you.');
+  if(keep.length) bits.push(keep.length+' could not be sent ('+why+') and are still queued here, so nothing was lost.');
   if(el&&bits.length) el.textContent=bits.join(' ');
   else if(bits.length) alert(bits.join('\n'));
 }
