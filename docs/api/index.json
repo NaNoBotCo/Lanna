@@ -214,7 +214,7 @@
       "description": "One article: authored prose + live-computed profile + connections.",
       "format": "application/json",
       "templated": true,
-      "count": 33
+      "count": 30
     },
     {
       "path": "/api/manuscript/{id}.json",
@@ -222,7 +222,7 @@
       "description": "One manuscript: metadata, images, IIIF links, OCR where present.",
       "format": "application/json",
       "templated": true,
-      "count": 6990
+      "count": 4159
     },
     {
       "path": "/api/place/{id}.json",
