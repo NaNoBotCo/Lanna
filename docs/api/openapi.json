@@ -193,6 +193,494 @@
           }
         }
       }
+    },
+    "/api/activity.json": {
+      "get": {
+        "summary": "Snapshot of recent pipeline activity as of build time.",
+        "description": "Snapshot of recent pipeline activity as of build time.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/articles.json": {
+      "get": {
+        "summary": "Index of synthesised subject articles (genre/entity/subgenre).",
+        "description": "Index of synthesised subject articles (genre/entity/subgenre).",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/build-info.json": {
+      "get": {
+        "summary": "Generator version, build time, catalogue mtime, counts.",
+        "description": "Generator version, build time, catalogue mtime, counts.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/dashboard.json": {
+      "get": {
+        "summary": "Genre coverage vs digitisation.",
+        "description": "Genre coverage vs digitisation.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/diagrams.json": {
+      "get": {
+        "summary": "Diagram and figure pages across the corpus (yantra, stencils, charts).",
+        "description": "Diagram and figure pages across the corpus (yantra, stencils, charts).",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/expedite.json": {
+      "get": {
+        "summary": "St. Expedite: shrines and churches of a global saint-cult.",
+        "description": "St. Expedite: shrines and churches of a global saint-cult.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/findings.json": {
+      "get": {
+        "summary": "Discoveries — machine-surfaced findings from the corpus.",
+        "description": "Discoveries — machine-surfaced findings from the corpus.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/gallery.json": {
+      "get": {
+        "summary": "Gallery data.",
+        "description": "Gallery data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/gallery.scan-index.json": {
+      "get": {
+        "summary": "Index of raw folio scans for the gallery.",
+        "description": "Index of raw folio scans for the gallery.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/glossary.json": {
+      "get": {
+        "summary": "Multilingual glossary of discovered terms (Thai / English / 中文).",
+        "description": "Multilingual glossary of discovered terms (Thai / English / 中文).",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/graph.json": {
+      "get": {
+        "summary": "Knowledge graph as nodes + typed links (app format).",
+        "description": "Knowledge graph as nodes + typed links (app format).",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/graph.jsonld": {
+      "get": {
+        "summary": "Knowledge graph as JSON-LD (schema.org / linked data).",
+        "description": "Knowledge graph as JSON-LD (schema.org / linked data).",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/ld+json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/graph.ttl": {
+      "get": {
+        "summary": "Knowledge graph as RDF Turtle.",
+        "description": "Knowledge graph as RDF Turtle.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/turtle": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/img-iiif.json": {
+      "get": {
+        "summary": "Map of image sha256 → IIIF image URL (on-demand page images).",
+        "description": "Map of image sha256 → IIIF image URL (on-demand page images).",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/index.json": {
+      "get": {
+        "summary": "This document.",
+        "description": "This document.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/lenses.json": {
+      "get": {
+        "summary": "Lens registry — the facet/marker definitions the atlas renders by.",
+        "description": "Lens registry — the facet/marker definitions the atlas renders by.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/manuscripts.json": {
+      "get": {
+        "summary": "The full manuscript list (array of summaries).",
+        "description": "The full manuscript list (array of summaries).",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/market.json": {
+      "get": {
+        "summary": "Living-market commerce layer (amulets and sacred objects trading today).",
+        "description": "Living-market commerce layer (amulets and sacred objects trading today).",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/na-compendium.json": {
+      "get": {
+        "summary": "The 108 Na: sacred glyphs paired with the page each was drawn on.",
+        "description": "The 108 Na: sacred glyphs paired with the page each was drawn on.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/overview.json": {
+      "get": {
+        "summary": "Corpus-wide counts and facet breakdowns.",
+        "description": "Corpus-wide counts and facet breakdowns.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/pages.json": {
+      "get": {
+        "summary": "Manifest of every page this build emitted (route, label, kind).",
+        "description": "Manifest of every page this build emitted (route, label, kind).",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/places.json": {
+      "get": {
+        "summary": "Provenance provinces with counts and map coordinates.",
+        "description": "Provenance provinces with counts and map coordinates.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/scans.all.json": {
+      "get": {
+        "summary": "Every raw scan (paginated client-side); IIIF image per sha.",
+        "description": "Every raw scan (paginated client-side); IIIF image per sha.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/searchdocs.json": {
+      "get": {
+        "summary": "Full client-side search index (large).",
+        "description": "Full client-side search index (large).",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/status.json": {
+      "get": {
+        "summary": "Crawl/source status.",
+        "description": "Crawl/source status.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/thesaurus.json": {
+      "get": {
+        "summary": "Bilingual thesaurus: query-token expansion groups.",
+        "description": "Bilingual thesaurus: query-token expansion groups.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/vocab.json": {
+      "get": {
+        "summary": "Controlled vocabulary with corpus counts.",
+        "description": "Controlled vocabulary with corpus counts.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/wats.json": {
+      "get": {
+        "summary": "Every mapped temple of the Lanna north plus non-wat sacred sites: coordinates, province, h",
+        "description": "Every mapped temple of the Lanna north plus non-wat sacred sites: coordinates, province, heritage registration, photographs (first two inline), and a lead description. The map's own data source.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/article/{slug}.json": {
+      "get": {
+        "summary": "One article: authored prose + live-computed profile + connections.",
+        "description": "One article: authored prose + live-computed profile + connections.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/api/manuscript/{id}.json": {
+      "get": {
+        "summary": "One manuscript: metadata, images, IIIF links, OCR where present.",
+        "description": "One manuscript: metadata, images, IIIF links, OCR where present.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/api/place/{id}.json": {
+      "get": {
+        "summary": "One place in full: all photographs with per-image author and licence, the complete section",
+        "description": "One place in full: all photographs with per-image author and licence, the complete sectioned Wikipedia article in Thai and English, contact and hours where recorded, and a `facets` block.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/api/w/{name}.json": {
+      "get": {
+        "summary": "W data.",
+        "description": "W data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
     }
   }
 }

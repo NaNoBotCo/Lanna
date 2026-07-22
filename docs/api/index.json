@@ -6,25 +6,11 @@
   "llms": "https://wichaa.net/llms.txt",
   "endpoints": [
     {
-      "path": "/api/overview.json",
-      "url": "https://wichaa.net/api/overview.json",
-      "description": "Corpus-wide counts and facet breakdowns.",
+      "path": "/api/activity.json",
+      "url": "https://wichaa.net/api/activity.json",
+      "description": "Snapshot of recent pipeline activity as of build time.",
       "format": "application/json",
       "templated": false
-    },
-    {
-      "path": "/api/manuscripts.json",
-      "url": "https://wichaa.net/api/manuscripts.json",
-      "description": "The full manuscript list (array of summaries).",
-      "format": "application/json",
-      "templated": false
-    },
-    {
-      "path": "/api/manuscript/{id}.json",
-      "url": "https://wichaa.net/api/manuscript/{id}.json",
-      "description": "One manuscript: metadata, images, IIIF links, OCR where present.",
-      "format": "application/json",
-      "templated": true
     },
     {
       "path": "/api/articles.json",
@@ -34,11 +20,60 @@
       "templated": false
     },
     {
-      "path": "/api/article/{slug}.json",
-      "url": "https://wichaa.net/api/article/{slug}.json",
-      "description": "One article: authored prose + live-computed profile + connections.",
+      "path": "/api/build-info.json",
+      "url": "https://wichaa.net/api/build-info.json",
+      "description": "Generator version, build time, catalogue mtime, counts.",
       "format": "application/json",
-      "templated": true
+      "templated": false
+    },
+    {
+      "path": "/api/dashboard.json",
+      "url": "https://wichaa.net/api/dashboard.json",
+      "description": "Genre coverage vs digitisation.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/diagrams.json",
+      "url": "https://wichaa.net/api/diagrams.json",
+      "description": "Diagram and figure pages across the corpus (yantra, stencils, charts).",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/expedite.json",
+      "url": "https://wichaa.net/api/expedite.json",
+      "description": "St. Expedite: shrines and churches of a global saint-cult.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/findings.json",
+      "url": "https://wichaa.net/api/findings.json",
+      "description": "Discoveries — machine-surfaced findings from the corpus.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/gallery.json",
+      "url": "https://wichaa.net/api/gallery.json",
+      "description": "Gallery data.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/gallery.scan-index.json",
+      "url": "https://wichaa.net/api/gallery.scan-index.json",
+      "description": "Index of raw folio scans for the gallery.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/glossary.json",
+      "url": "https://wichaa.net/api/glossary.json",
+      "description": "Multilingual glossary of discovered terms (Thai / English / 中文).",
+      "format": "application/json",
+      "templated": false
     },
     {
       "path": "/api/graph.json",
@@ -62,9 +97,51 @@
       "templated": false
     },
     {
+      "path": "/api/img-iiif.json",
+      "url": "https://wichaa.net/api/img-iiif.json",
+      "description": "Map of image sha256 → IIIF image URL (on-demand page images).",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/lenses.json",
+      "url": "https://wichaa.net/api/lenses.json",
+      "description": "Lens registry — the facet/marker definitions the atlas renders by.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/manuscripts.json",
+      "url": "https://wichaa.net/api/manuscripts.json",
+      "description": "The full manuscript list (array of summaries).",
+      "format": "application/json",
+      "templated": false
+    },
+    {
       "path": "/api/market.json",
       "url": "https://wichaa.net/api/market.json",
       "description": "Living-market commerce layer (amulets and sacred objects trading today).",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/na-compendium.json",
+      "url": "https://wichaa.net/api/na-compendium.json",
+      "description": "The 108 Na: sacred glyphs paired with the page each was drawn on.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/overview.json",
+      "url": "https://wichaa.net/api/overview.json",
+      "description": "Corpus-wide counts and facet breakdowns.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/pages.json",
+      "url": "https://wichaa.net/api/pages.json",
+      "description": "Manifest of every page this build emitted (route, label, kind).",
       "format": "application/json",
       "templated": false
     },
@@ -76,23 +153,16 @@
       "templated": false
     },
     {
-      "path": "/api/vocab.json",
-      "url": "https://wichaa.net/api/vocab.json",
-      "description": "Controlled vocabulary with corpus counts.",
+      "path": "/api/scans.all.json",
+      "url": "https://wichaa.net/api/scans.all.json",
+      "description": "Every raw scan (paginated client-side); IIIF image per sha.",
       "format": "application/json",
       "templated": false
     },
     {
-      "path": "/api/thesaurus.json",
-      "url": "https://wichaa.net/api/thesaurus.json",
-      "description": "Bilingual thesaurus: query-token expansion groups.",
-      "format": "application/json",
-      "templated": false
-    },
-    {
-      "path": "/api/dashboard.json",
-      "url": "https://wichaa.net/api/dashboard.json",
-      "description": "Genre coverage vs digitisation.",
+      "path": "/api/searchdocs.json",
+      "url": "https://wichaa.net/api/searchdocs.json",
+      "description": "Full client-side search index (large).",
       "format": "application/json",
       "templated": false
     },
@@ -104,25 +174,57 @@
       "templated": false
     },
     {
-      "path": "/api/scans.all.json",
-      "url": "https://wichaa.net/api/scans.all.json",
-      "description": "Every raw scan (paginated client-side); IIIF image per sha.",
+      "path": "/api/thesaurus.json",
+      "url": "https://wichaa.net/api/thesaurus.json",
+      "description": "Bilingual thesaurus: query-token expansion groups.",
       "format": "application/json",
       "templated": false
     },
     {
-      "path": "/api/img-iiif.json",
-      "url": "https://wichaa.net/api/img-iiif.json",
-      "description": "Map of image sha256 → IIIF image URL (on-demand page images).",
+      "path": "/api/vocab.json",
+      "url": "https://wichaa.net/api/vocab.json",
+      "description": "Controlled vocabulary with corpus counts.",
       "format": "application/json",
       "templated": false
     },
     {
-      "path": "/api/build-info.json",
-      "url": "https://wichaa.net/api/build-info.json",
-      "description": "Generator version, build time, catalogue mtime, counts.",
+      "path": "/api/wats.json",
+      "url": "https://wichaa.net/api/wats.json",
+      "description": "Every mapped temple of the Lanna north plus non-wat sacred sites: coordinates, province, heritage registration, photographs (first two inline), and a lead description. The map's own data source.",
       "format": "application/json",
       "templated": false
+    },
+    {
+      "path": "/api/article/{slug}.json",
+      "url": "https://wichaa.net/api/article/{slug}.json",
+      "description": "One article: authored prose + live-computed profile + connections.",
+      "format": "application/json",
+      "templated": true,
+      "count": 33
+    },
+    {
+      "path": "/api/manuscript/{id}.json",
+      "url": "https://wichaa.net/api/manuscript/{id}.json",
+      "description": "One manuscript: metadata, images, IIIF links, OCR where present.",
+      "format": "application/json",
+      "templated": true,
+      "count": 6990
+    },
+    {
+      "path": "/api/place/{id}.json",
+      "url": "https://wichaa.net/api/place/{id}.json",
+      "description": "One place in full: all photographs with per-image author and licence, the complete sectioned Wikipedia article in Thai and English, contact and hours where recorded, and a `facets` block.",
+      "format": "application/json",
+      "templated": true,
+      "count": 1437
+    },
+    {
+      "path": "/api/w/{name}.json",
+      "url": "https://wichaa.net/api/w/{name}.json",
+      "description": "W data.",
+      "format": "application/json",
+      "templated": true,
+      "count": 6
     }
   ]
 }

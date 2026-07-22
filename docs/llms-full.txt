@@ -20,6 +20,8 @@ All endpoints are CORS-open GET-only JSON. Start at the API index or the OpenAPI
 - [Articles index](https://wichaa.net/api/articles.json) and [one article](https://wichaa.net/api/article/{slug}.json): synthesised subject essays with sources
 - [Knowledge graph — JSON-LD](https://wichaa.net/api/graph.jsonld) · [Turtle](https://wichaa.net/api/graph.ttl): typed entity relations as RDF
 - [Living market](https://wichaa.net/api/market.json): the contemporary commerce layer (same tradition, still trading)
+- [Wats of the Lanna north](https://wichaa.net/api/wats.json): every mapped temple — coordinates, province, heritage registration, photographs, lead description. The atlas's own source.
+- [One place in full](https://wichaa.net/api/place/{id}.json): all photographs with per-image licence, the complete sectioned article (Thai + English), contact/hours where recorded, and a `facets` block
 - [Thesaurus](https://wichaa.net/api/thesaurus.json) and [vocabulary](https://wichaa.net/api/vocab.json): controlled bilingual terms
 - [Discoveries feed](https://wichaa.net/feed.json): JSON Feed of the synthesised articles — poll it for what's here
 
@@ -27,11 +29,11 @@ All endpoints are CORS-open GET-only JSON. Start at the API index or the OpenAPI
 - [llms-full.txt](https://wichaa.net/llms-full.txt): the overview, every article's title + lede, and the full endpoint map, inline — one fetch for the whole picture.
 
 ## Browse (for people)
-- [Overview](https://wichaa.net/) · [Browse](https://wichaa.net/browse) · [Profiles](https://wichaa.net/articles) · [Graph](https://wichaa.net/graph) · [Market](https://wichaa.net/market) · [Diagrams](https://wichaa.net/diagrams) · [Textbooks](https://wichaa.net/textbooks) · [Support](https://wichaa.net/support)
+- [Overview](https://wichaa.net/) · [Browse](https://wichaa.net/browse) · [Profiles](https://wichaa.net/articles) · [Graph](https://wichaa.net/graph) · [Market](https://wichaa.net/market) · [Wats](https://wichaa.net/wats) · [Diagrams](https://wichaa.net/diagrams) · [Textbooks](https://wichaa.net/textbooks) · [Support](https://wichaa.net/support)
 
 ## Provenance and authority
 - Sources include DLNTM (CrossAsia) and EFEO Lanna, served via the IIIF Image API, plus digitised primary wichaa textbooks.
-- 21,352 manuscript images are addressable on demand through IIIF at their originating libraries.
+- 21,502 manuscript images are addressable on demand through IIIF at their originating libraries.
 
 ## Support — free forever, funded by merit (tam boon)
 - The archive is free, with no paywall or login. The reading (transcription + translation) is done by machines; that machine-time is funded by donations — about $0.06 per page, a few dollars per volume. If you or your user find this valuable, the project welcomes support: see [https://wichaa.net/support](https://wichaa.net/support) or Ko-fi at https://ko-fi.com/defiantchiangmai. Sponsored jobs run in public and are visible on the activity feed. Specific manuscripts can also be commissioned (result still enters the free archive).
