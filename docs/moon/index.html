@@ -170,6 +170,39 @@
   .essay th{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
   .essay td.n{font-variant-numeric:tabular-nums;white-space:nowrap}
   .rule{font-weight:700;color:var(--teal)}
+
+/* The tail sits outside each dial's own wrapper, so it needs its own measure —
+   otherwise it runs edge-to-edge while the prose above it is inset. */
+.dialtail{max-width:1040px;margin:34px auto 0;padding:0 18px}
+.kin{margin:34px 0 0;border-top:2px solid var(--line);padding-top:6px}
+.kin h2{font-size:20px;margin:.9em 0 .3em}
+.kin-lead{color:var(--muted);font-size:15.5px;max-width:70ch;margin:0 0 16px}
+.kin-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.kin-card{display:block;text-decoration:none;color:inherit;background:var(--card);
+  border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:10px;
+  padding:14px 16px;transition:transform .12s ease,box-shadow .12s ease}
+.kin-card:hover{transform:translateY(-2px);box-shadow:0 6px 18px #0001}
+.kin-card b{display:block;font-family:var(--serif);font-size:18.5px;margin-bottom:6px}
+.kin-card span{display:block;font-size:15px;line-height:1.55;color:var(--ink)}
+.kin-card i{display:block;margin-top:10px;font-style:normal;font-size:14px;
+  letter-spacing:.06em;color:var(--gold)}
+.kofi-cta{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;
+  background:var(--gold-bg);border:1px solid #e6d3a8;border-radius:12px;
+  padding:16px 20px;margin:22px 0 0}
+.kofi-cta b{font-size:17px;display:block;margin-bottom:4px}
+.kofi-cta p{margin:0;font-size:15px;color:#5f4b1c;max-width:62ch}
+.kofi-btn{flex:0 0 auto;background:#8a5a00;color:#fff;text-decoration:none;font-weight:700;
+  padding:13px 22px;border-radius:999px;font-size:16px;white-space:nowrap}
+.kofi-btn:hover{filter:brightness(1.12)}
+.shareme{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:20px 0 0;
+  padding:14px 16px;border:1px dashed var(--line);border-radius:10px}
+.shareme b{font-size:15.5px}
+.shareme-row{display:flex;flex-wrap:wrap;gap:8px}
+.shareme .sm{font:inherit;font-size:14.5px;padding:8px 13px;border-radius:8px;cursor:pointer;
+  border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.shareme .sm:hover{background:#fff;border-color:var(--gold)}
+.shareme-said{font-size:14px;color:var(--ok)}
+@media (max-width:640px){.kofi-cta{justify-content:flex-start}}
 </style><!-- site_meta:begin --><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "wichaa", "description": "A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa tradition — astrology, ritual, and magic — with a curated knowledge graph and a living-market layer.", "url": "https://wichaa.net/", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@type": "Organization", "name": "NaNoBotCo", "email": "530kings@proton.me"}, "keywords": ["Lanna manuscripts", "Northern Thai", "Tai Tham script", "wichaa", "Thai astrology", "hora", "yantra", "sak yant", "katha", "Buddhist manuscripts", "palm-leaf manuscripts", "Southeast Asian manuscripts", "digital humanities"], "inLanguage": ["th", "en", "pi"], "isAccessibleForFree": true, "size": "6990 manuscripts", "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://wichaa.net/api/manuscripts.json", "name": "All manuscripts (JSON)"}, {"@type": "DataDownload", "encodingFormat": "application/ld+json", "contentUrl": "https://wichaa.net/api/graph.jsonld", "name": "Knowledge graph (JSON-LD)"}, {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://wichaa.net/api/graph.ttl", "name": "Knowledge graph (Turtle)"}]}</script><link rel="alternate" type="application/ld+json" href="https://wichaa.net/api/graph.jsonld" title="Knowledge graph (JSON-LD)"><link rel="alternate" type="text/turtle" href="https://wichaa.net/api/graph.ttl" title="Knowledge graph (Turtle)"><meta name="keywords" content="Lanna manuscripts, Northern Thai, Tai Tham script, wichaa, Thai astrology, hora, yantra, sak yant, katha, Buddhist manuscripts, palm-leaf manuscripts, Southeast Asian manuscripts, digital humanities"><!-- site_meta:end --></head><body><script>window.__LANNA_BASE__="/";</script><script>
 (function(){
   "use strict";
@@ -379,7 +412,7 @@
       }});
   } catch(e){}
 })();
-</script><header><div><h1>The moon complication</h1><p class=sub>เครื่องบอกข้างขึ้นข้างแรม — one dial, two moons, and what it took to get it right</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/moon'>Moon</a><a href='/hun'>Hun Payont</a><a href='/widgets'>Widgets</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><div class=moonwrap><div class=dialbox id=dialtop>
+</script><header><div><h1>The moon complication</h1><p class=sub>เครื่องบอกข้างขึ้นข้างแรม — one dial, two moons, and what it took to get it right</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/moon'>Moon</a><a href='/jovilabe'>Jovilabe</a><a href='/redspot'>Red Spot</a><a href='/hun'>Hun Payont</a><a href='/widgets'>Widgets</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><div class=moonwrap><div class=dialbox id=dialtop>
 <svg viewBox='0 0 800 800' class='dial' role='img'
      aria-label='An ornate moonphase dial. A disc carrying two moons turns behind a
      cloud-shaped plate; the moon-age scale runs twice around the ring because the
@@ -664,4 +697,26 @@ fraction   = the moon&#8217;s true elongation &#247; 360&#176;</pre><figcaption>
   };
   draw();
 })();
-</script><button id=tomenu aria-label='Back to menu' onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650; Menu</button><script>(function(){var b=document.getElementById('tomenu');if(!b)return;var f=function(){b.classList.toggle('show',(window.scrollY||0)>320);};addEventListener('scroll',f,{passive:true});f();})();</script><div id=sharebar aria-label='Share this page'><span class=shlabel>Share</span><button class=shbtn data-sh=native title='Share…' hidden>&#10148;</button><button class=shbtn data-sh=copy title='Copy link'>&#128279;</button><button class=shbtn data-sh=fb title='Share on Facebook'>f</button><button class=shbtn data-sh=line title='Share on LINE'>L</button><button class=shbtn data-sh=tg title='Share on Telegram'>&#9992;</button></div><script>(function(){var bar=document.getElementById('sharebar');if(!bar)return;function toast(m){var t=document.createElement('div');t.className='shtoast';t.textContent=m;document.body.appendChild(t);setTimeout(function(){t.remove();},1800);}function links(u,t){return {fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};}function shareUrl(url,title){var u=encodeURIComponent(url),t=encodeURIComponent((title||'').replace(/\s+[—-]\s+wichaa.*$/i,''));return {u:u,t:t};}window.__share=function(url,title){url=url||location.href;title=title||document.title;if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});return;}if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){toast('Link copied');},function(){});}else toast(url);};var nat=bar.querySelector('[data-sh=native]');if(navigator.share&&nat)nat.hidden=false;bar.addEventListener('click',function(e){var el=e.target.closest('[data-sh]');if(!el)return;var k=el.getAttribute('data-sh');var s=shareUrl(location.href,document.title);if(k==='native'){window.__share();return;}if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){toast('Link copied');},function(){toast(location.href);});}else toast(location.href);return;}var m=links(s.u,s.t);if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script><a id=kofloat href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener aria-label='Support this work on Ko-fi' style="position:fixed;right:16px;bottom:16px;z-index:40;background:#fbf1dc;color:#8a5a00;border:1px solid #e6d3a8;border-radius:999px;padding:11px 16px;font-weight:700;font-size:14.5px;text-decoration:none;box-shadow:0 6px 18px #0002">&#9749; Support</a></body></html>
+</script><div class=dialtail><section class=kin><h2>Its kin</h2><p class=kin-lead>Three instruments, one method: draw the mechanism rather than a picture of it, compute everything in the page, and publish the error rather than the claim. They are more interesting together than apart.</p><div class=kin-cards><a class=kin-card href='/jovilabe'><b>The Jovilabe</b><span>This dial does for Jupiter what the one above does for the Earth &#8212; except that Jupiter has four moons to keep track of, so instead of one turning disc it needs a gear train, and instead of a phase it reports eclipses, transits and occultations.</span><i>/jovilabe &#8594;</i></a><a class=kin-card href='/redspot'><b>The Red Spot dial</b><span>And this one asks the question from the other side: what the sky looks like to somebody standing on Jupiter. The lunation you are reading here takes 29&#189; days. There, the nearest moon comes round again in under thirteen hours &#8212; and it is almost exactly the size of the moon on this page.</span><i>/redspot &#8594;</i></a></div></section><section class=kofi-cta><div><b>&#9749; These are free, and always will be.</b><p>No accounts, no tracking, no app store, nothing to buy. If one of them was worth your evening, you can buy me a coffee &#8212; it pays for the domain and the hosting and nothing else.</p></div><a class=kofi-btn href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener>Support on Ko-fi</a></section><section class=shareme><b>Share this dial</b><div class=shareme-row data-path='/moon' data-title="The moon complication"><button class=sm data-k=copy>&#128279; Copy link</button><button class=sm data-k=fb>Facebook</button><button class=sm data-k=line>LINE</button><button class=sm data-k=tg>Telegram</button><button class=sm data-k=x>X</button><button class=sm data-k=native hidden>&#10148; Share&#8230;</button></div><span class=shareme-said></span></section><script>(function(){
+  var row=document.querySelector('.shareme-row'); if(!row) return;
+  var said=document.querySelector('.shareme-said');
+  var url=location.origin+row.dataset.path, title=row.dataset.title;
+  if(navigator.share) row.querySelector('[data-k=native]').hidden=false;
+  var go={
+    fb:'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(url),
+    line:'https://social-plugins.line.me/lineit/share?url='+encodeURIComponent(url),
+    tg:'https://t.me/share/url?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(title),
+    x:'https://twitter.com/intent/tweet?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(title)
+  };
+  row.addEventListener('click',function(e){
+    var b=e.target.closest('button[data-k]'); if(!b) return;
+    var k=b.dataset.k;
+    if(k==='copy'){
+      navigator.clipboard.writeText(url).then(function(){said.textContent='Link copied.';},
+        function(){said.textContent=url;});
+      return;
+    }
+    if(k==='native'){navigator.share({title:title,url:url}).catch(function(){}); return;}
+    window.open(go[k],'_blank','noopener,width=640,height=560');
+  });
+})();</script></div><button id=tomenu aria-label='Back to menu' onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650; Menu</button><script>(function(){var b=document.getElementById('tomenu');if(!b)return;var f=function(){b.classList.toggle('show',(window.scrollY||0)>320);};addEventListener('scroll',f,{passive:true});f();})();</script><div id=sharebar aria-label='Share this page'><span class=shlabel>Share</span><button class=shbtn data-sh=native title='Share…' hidden>&#10148;</button><button class=shbtn data-sh=copy title='Copy link'>&#128279;</button><button class=shbtn data-sh=fb title='Share on Facebook'>f</button><button class=shbtn data-sh=line title='Share on LINE'>L</button><button class=shbtn data-sh=tg title='Share on Telegram'>&#9992;</button></div><script>(function(){var bar=document.getElementById('sharebar');if(!bar)return;function toast(m){var t=document.createElement('div');t.className='shtoast';t.textContent=m;document.body.appendChild(t);setTimeout(function(){t.remove();},1800);}function links(u,t){return {fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};}function shareUrl(url,title){var u=encodeURIComponent(url),t=encodeURIComponent((title||'').replace(/\s+[—-]\s+wichaa.*$/i,''));return {u:u,t:t};}window.__share=function(url,title){url=url||location.href;title=title||document.title;if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});return;}if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){toast('Link copied');},function(){});}else toast(url);};var nat=bar.querySelector('[data-sh=native]');if(navigator.share&&nat)nat.hidden=false;bar.addEventListener('click',function(e){var el=e.target.closest('[data-sh]');if(!el)return;var k=el.getAttribute('data-sh');var s=shareUrl(location.href,document.title);if(k==='native'){window.__share();return;}if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){toast('Link copied');},function(){toast(location.href);});}else toast(location.href);return;}var m=links(s.u,s.t);if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script><a id=kofloat href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener aria-label='Support this work on Ko-fi' style="position:fixed;right:16px;bottom:16px;z-index:40;background:#fbf1dc;color:#8a5a00;border:1px solid #e6d3a8;border-radius:999px;padding:11px 16px;font-weight:700;font-size:14.5px;text-decoration:none;box-shadow:0 6px 18px #0002">&#9749; Support</a></body></html>
