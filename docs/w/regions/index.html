@@ -13,7 +13,11 @@
   header h1{margin:0;font-size:24px;font-family:var(--serif);letter-spacing:.01em}
   .card>h2:first-child,.card>h2{font-family:var(--serif)}
   header .sub{color:#dfeae7;margin:0}
-  header nav{margin-left:auto;display:flex;gap:10px}
+  /* flex-wrap is on the BASE rule, not just the <=760px block: the nav's 11 items
+     are ~1217px wide, so without it every viewport under ~1250px (laptops included,
+     not only phones) got a horizontal scrollbar. Wrapped rows stay right-aligned
+     under the title so the header reads the same as it did on wide screens. */
+  header nav{margin-left:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px}
   header nav a{color:#fff;text-decoration:none;font-weight:700;border:2px solid #ffffff66;border-radius:8px;padding:8px 14px}
   header nav a:hover{background:#ffffff22}
   header nav a.kofi{background:var(--gold-bg,#fbf1dc);color:var(--gold,#8a5a00);border-color:transparent}
@@ -45,7 +49,9 @@
     header{padding:12px 16px;gap:6px 12px}
     header h1{font-size:20px}
     header .sub{font-size:13.5px;flex-basis:100%;order:3}
-    header nav{margin-left:0;width:100%;flex-wrap:wrap;gap:6px;order:2}
+    /* full-width under the title here, so undo the base rule's right-alignment —
+       left-aligned rows sit flush with the h1 instead of going ragged-left. */
+    header nav{margin-left:0;width:100%;flex-wrap:wrap;justify-content:flex-start;gap:6px;order:2}
     header nav a{padding:8px 11px;font-size:14px;border-width:1px}
     main{padding:14px;max-width:100%}
     body{font-size:16px}
@@ -295,7 +301,7 @@
       }});
   } catch(e){}
 })();
-</script><header><div><h1>Regional interests</h1><p class=sub>What each Thai province&#x27;s amulet market actually trades — volume, price level, and the charms it favours.</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><div class=sharebar><button onclick="navigator.clipboard.writeText(location.href.split('?')[0]).then(()=>this.textContent='✓ copied')">🔗 Copy link</button><button onclick="navigator.clipboard.writeText('<iframe src=&quot;'+location.origin+'/w/regions?embed=1&quot; width=&quot;100%&quot; height=&quot;620&quot; frameborder=&quot;0&quot;></iframe>').then(()=>this.textContent='✓ copied')">📋 Copy embed code</button><a href='/api/w/regions' download='regions.json'>⬇ JSON</a></div><p class=muted>Loading…</p></main><script>const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};fetch('/api/w/regions').then(r=>r.json()).then(D=>{const main=document.getElementById('main');main.querySelector('p.muted')?.remove();
+</script><header><div><h1>Regional interests</h1><p class=sub>What each Thai province&#x27;s amulet market actually trades — volume, price level, and the charms it favours.</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/moon'>Moon</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><div class=sharebar><button onclick="navigator.clipboard.writeText(location.href.split('?')[0]).then(()=>this.textContent='✓ copied')">🔗 Copy link</button><button onclick="navigator.clipboard.writeText('<iframe src=&quot;'+location.origin+'/w/regions?embed=1&quot; width=&quot;100%&quot; height=&quot;620&quot; frameborder=&quot;0&quot;></iframe>').then(()=>this.textContent='✓ copied')">📋 Copy embed code</button><a href='/api/w/regions' download='regions.json'>⬇ JSON</a></div><p class=muted>Loading…</p></main><script>const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};fetch('/api/w/regions').then(r=>r.json()).then(D=>{const main=document.getElementById('main');main.querySelector('p.muted')?.remove();
 const bar=(label,n,mx,extra)=>{const row=el('div');row.style.cssText='display:grid;grid-template-columns:170px 1fr 90px;gap:8px;align-items:center;font-size:13px;padding:2px 0';
 row.append(el('span',{textContent:label,style:'white-space:nowrap;overflow:hidden;text-overflow:ellipsis'}),
 el('div',{style:`height:14px;border-radius:4px;background:#1F4E4A;width:${Math.max(2,100*n/mx)}%`}),
