@@ -1,0 +1,1026 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><meta name='theme-color' content='#1F4E4A'><link rel=icon type='image/svg+xml' href='/favicon.svg'><meta name='description' content='An open map of 1,307 Buddhist temples across the Lanna north — Chiang Mai, Chiang Rai, Lamphun, Lampang and Nan — with heritage-registered sites marked, freely-licensed photography, and 28 notable places of spiritual significance that are not wats.'><meta property='og:type' content='website'><meta property='og:site_name' content='wichaa'><meta property='og:url' content='https://wichaa.net/wats/'><meta property='og:title' content='Wats of Chiang Mai — wichaa'><meta property='og:description' content='An open map of 1,307 Buddhist temples across the Lanna north — Chiang Mai, Chiang Rai, Lamphun, Lampang and Nan — with heritage-registered sites marked, freely-licensed photography, and 28 notable places of spiritual significance that are not wats.'><meta property='og:image' content='https://wichaa.net/og.jpg'><meta property='og:image:width' content='1200'><meta property='og:image:height' content='630'><meta property='og:image:alt' content='Circular yantra from a Lanna manuscript'><meta name='twitter:card' content='summary_large_image'><meta name='twitter:title' content='Wats of Chiang Mai — wichaa'><meta name='twitter:description' content='An open map of 1,307 Buddhist temples across the Lanna north — Chiang Mai, Chiang Rai, Lamphun, Lampang and Nan — with heritage-registered sites marked, freely-licensed photography, and 28 notable places of spiritual significance that are not wats.'><meta name='twitter:image' content='https://wichaa.net/og.jpg'><title>Wats of Chiang Mai — wichaa</title><style>
+  :root{
+    --ink:#141b1a; --muted:#3a4a47; --line:#c9d6d2;
+    --teal:#1F4E4A; --teal-ink:#ffffff; --bg:#f4f7f6; --card:#ffffff;
+    --focus:#0b5cad; --gold:#8a5a00; --gold-bg:#fbf1dc; --ok:#0f6b3f;
+    --prio:#7a1f1f; --prio-bg:#fbe6e6;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:17px/1.55 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  a{color:var(--focus)}
+  header{background:linear-gradient(180deg,#245852,#1b4541);color:var(--teal-ink);padding:16px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;box-shadow:0 2px 10px #00000022}
+  header h1{margin:0;font-size:24px;font-family:var(--serif);letter-spacing:.01em}
+  .card>h2:first-child,.card>h2{font-family:var(--serif)}
+  header .sub{color:#dfeae7;margin:0}
+  /* flex-wrap is on the BASE rule, not just the <=760px block: the nav's 11 items
+     are ~1217px wide, so without it every viewport under ~1250px (laptops included,
+     not only phones) got a horizontal scrollbar. Wrapped rows stay right-aligned
+     under the title so the header reads the same as it did on wide screens. */
+  header nav{margin-left:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px}
+  header nav a{color:#fff;text-decoration:none;font-weight:700;border:2px solid #ffffff66;border-radius:8px;padding:8px 14px}
+  header nav a:hover{background:#ffffff22}
+  header nav a.kofi{background:var(--gold-bg,#fbf1dc);color:var(--gold,#8a5a00);border-color:transparent}
+  header nav a.kofi:hover{filter:brightness(0.96)}
+  main{max-width:1080px;margin:0 auto;padding:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:0 0 16px}
+  button{font:inherit;font-weight:700;color:var(--teal-ink);background:var(--teal);border:2px solid var(--teal);border-radius:8px;padding:10px 16px;cursor:pointer;min-height:44px}
+  button.secondary{background:#fff;color:var(--teal)}
+  button:hover{background:#163b38;border-color:#163b38}
+  button.secondary:hover{background:#eef4f2}
+  input[type=text],input[type=search],select,textarea{width:100%;padding:10px 12px;font-size:16px;border:1px solid #6b7f7a;border-radius:8px;color:var(--ink);background:#fff}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+  .pill{display:inline-block;font-size:13px;font-weight:700;padding:2px 10px;border-radius:999px;border:1px solid var(--line);background:#eef2f1;color:var(--muted);margin:2px 4px 2px 0}
+  .pill.script{background:var(--gold-bg);border-color:#e5cf9a;color:var(--gold)}
+  .pill.prio{background:var(--prio-bg);border-color:#e0a3a3;color:var(--prio)}
+  .muted{color:var(--muted)}
+  .thai{font-size:1.15em}
+  .empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px;background:#fff}
+  /* Global overflow safety net: nothing should force the viewport wider than the
+     phone. Images fluid; wide blocks (code, pre) scroll inside their own box. */
+  img{max-width:100%;height:auto}
+  pre,code{overflow-x:auto;max-width:100%}
+  /* Mobile-responsive pass (dr's feedback, 2026-07-12): the header's nav had no
+     wrap and no breakpoint, so its ~9 buttons overflowed and forced a horizontal
+     scroll. Below 760px the nav drops under the title and wraps; padding, type,
+     and card chrome all tighten so a phone reads the archive with no sideways
+     scrolling. Touch targets stay >=40px tall. */
+  @media(max-width:760px){
+    header{padding:12px 16px;gap:6px 12px}
+    header h1{font-size:20px}
+    header .sub{font-size:13.5px;flex-basis:100%;order:3}
+    /* full-width under the title here, so undo the base rule's right-alignment —
+       left-aligned rows sit flush with the h1 instead of going ragged-left. */
+    header nav{margin-left:0;width:100%;flex-wrap:wrap;justify-content:flex-start;gap:6px;order:2}
+    header nav a{padding:8px 11px;font-size:14px;border-width:1px}
+    main{padding:14px;max-width:100%}
+    body{font-size:16px}
+    .card{padding:14px 15px}
+    table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  }
+  @media(max-width:420px){
+    header h1{font-size:18px}
+    header nav a{padding:7px 9px;font-size:13px}
+    main{padding:11px}
+  }
+  /* Back-to-menu: the header nav scrolls away on long pages (it needn't persist,
+     but there must be a way back — dr's feedback). A floating pill appears once
+     you've scrolled and jumps to the top, where the nav lives. */
+  #tomenu{position:fixed;right:16px;bottom:16px;z-index:50;display:none;
+    background:var(--teal);color:#fff;border:none;border-radius:999px;
+    padding:11px 16px;font:700 14px/1 inherit;cursor:pointer;min-height:44px;
+    box-shadow:0 3px 12px #0003;text-decoration:none}
+  #tomenu.show{display:inline-flex;align-items:center;gap:6px}
+  #tomenu:hover{background:#163b38}
+  @media print{#tomenu{display:none!important}}
+  /* Share bar — fixed bottom-left (mirrors the back-to-menu pill on the right), on
+     every page so the whole archive is easy to pass around. */
+  #sharebar{position:fixed;left:14px;bottom:14px;z-index:50;display:flex;align-items:center;
+    gap:5px;background:var(--card,#fff);border:1px solid var(--line);border-radius:999px;
+    padding:5px 8px;box-shadow:0 3px 12px #0000002b}
+  #sharebar .shlabel{font-size:12px;font-weight:800;color:var(--muted);text-transform:uppercase;
+    letter-spacing:.04em;padding:0 3px 0 5px}
+  .shbtn{width:32px;height:32px;min-height:32px;border-radius:50%;border:1px solid var(--line);
+    background:#fff;color:var(--ink);font:700 15px/1 inherit;cursor:pointer;display:inline-flex;
+    align-items:center;justify-content:center;padding:0}
+  .shbtn:hover{background:var(--teal);color:#fff;border-color:var(--teal)}
+  .shtoast{position:fixed;left:50%;bottom:64px;transform:translateX(-50%);z-index:60;
+    background:#1b2a27;color:#fff;padding:8px 16px;border-radius:999px;font-size:14px;
+    box-shadow:0 4px 16px #0004}
+  /* card-level share affordance (per-result) */
+  .cardshare{background:none;border:none;cursor:pointer;color:var(--muted);font-size:15px;
+    padding:2px 6px;border-radius:6px;line-height:1}
+  .cardshare:hover{background:#eef2f1;color:var(--teal)}
+  @media print{#sharebar{display:none!important}}
+  @media(max-width:520px){#sharebar .shlabel{display:none}#sharebar{gap:4px;padding:4px 6px}}
+
+  .hero{position:relative;height:min(58vh,520px);min-height:300px;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-bottom:16px;background:#e9e7e0}
+  .hero .mapwrap{position:absolute;inset:0}
+  .herolegend{position:absolute;left:12px;bottom:12px;z-index:3;background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:10px;padding:8px 11px;font-size:12.5px;line-height:1.6;backdrop-filter:blur(3px)}
+  .herolegend b{display:block;font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+  .herolegend .lg{display:flex;align-items:center;gap:8px}
+  .herolegend .sw{flex:none;border-radius:50%}
+  .herolegend .sw.h{width:15px;height:15px;background:#d4a017;border:2px solid #fff;box-shadow:0 0 0 1px #0003}
+  .herolegend .sw.o{width:10px;height:10px;background:#c96a2e;border:1.5px solid #fff;box-shadow:0 0 0 1px #0003}
+  .herolegend .sw.s{width:12px;height:12px;background:#2f8f88;border:1.5px solid #fff;border-radius:3px;box-shadow:0 0 0 1px #0003}
+  .sbadge{display:inline-block;background:#2f8f88;color:#fff;border-radius:6px;padding:1px 7px;font-size:11px;font-weight:700;margin-right:5px}
+  .wcard.sac{border-color:#2f8f88}
+  .whead{margin:26px 0 12px;font-size:19px;font-weight:700}
+  .whead span{color:var(--muted);font-weight:400;font-size:14px;margin-left:8px}
+  .heronote{position:absolute;right:12px;top:12px;z-index:3;background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:700}
+  .maplibregl-popup-content{font:inherit;padding:0;border-radius:10px;overflow:hidden;max-width:230px}
+  .pop img{display:block;width:100%;height:110px;object-fit:cover}
+  .pop .pb{padding:8px 11px}
+  .pop .pt{font-weight:700;font-size:14px;line-height:1.3}
+  .pop .pth{color:var(--muted);font-size:13px;margin-top:1px}
+  .pop .pc{color:var(--muted);font-size:10.5px;padding:0 11px 8px;line-height:1.35}
+  .pop .pc a{color:var(--muted)}
+  .pop .pbadge{display:inline-block;background:#d4a017;color:#3a2c07;border-radius:5px;padding:1px 6px;font-size:10.5px;font-weight:700;margin-bottom:3px}
+  .wintro{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:16px;color:var(--muted);font-size:14px;line-height:1.6}
+  .wfilter{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;align-items:center}
+  .wchip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 13px;font-weight:700;font-size:14px;cursor:pointer;text-decoration:none;color:var(--ink)}
+  .wchip:hover{border-color:var(--teal)}
+  .wchip.on{background:var(--teal);color:#fff;border-color:var(--teal)}
+  .wsort{border:1px solid var(--line);border-radius:999px;padding:7px 12px;font:inherit;font-size:14px;background:#fff;min-height:40px}
+  .sortlab{font-size:13px;color:var(--muted);font-weight:700;letter-spacing:.4px;text-transform:uppercase}
+  .sortnote{font-size:12.5px;color:var(--muted)}
+  .wsearch{flex:1;min-width:190px;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font:inherit;font-size:14px}
+  .wgrid{column-width:250px;column-gap:16px}
+  .wcard{break-inside:avoid;display:inline-block;width:100%;margin:0 0 16px;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;cursor:pointer}
+  .wcard:hover{border-color:var(--gold);box-shadow:0 1px 8px #0001}
+  .wcard.her{border-color:var(--gold)}
+  .wcard .im{display:block;background:#f0efe9;border-bottom:1px solid var(--line)}
+  .wcard .im img{width:100%;display:block}
+  .wcard .wb{padding:10px 13px}
+  .wcard .wt{font-weight:700;font-size:14px;color:var(--ink)}
+  .wcard .wth{color:var(--muted);font-size:13px;margin-top:2px}
+  .wcard .wm{color:var(--muted);font-size:12px;margin-top:6px;line-height:1.5}
+  .wcard .cred{color:var(--muted);font-size:11px;padding:5px 13px 0;line-height:1.4}
+  .wcard .cred a{color:var(--muted)}
+  .wbadge{display:inline-block;background:var(--gold);color:#3a2c07;border-radius:6px;padding:1px 7px;font-size:11px;font-weight:700;margin-right:5px}
+  .wlic{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 18px;margin-top:20px;color:var(--muted);font-size:13px;line-height:1.65}
+  .wdl{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 18px;margin-top:14px;font-size:13.5px;line-height:1.7}
+  .wdl a{color:var(--teal);font-weight:700}
+  /* ---- place modal ---- */
+  .mback{position:fixed;inset:0;background:#0f1a19cc;z-index:60;display:flex;align-items:flex-start;justify-content:center;padding:24px 16px;overflow-y:auto;backdrop-filter:blur(2px)}
+  .mback[hidden]{display:none}
+  .modal{background:#fff;border-radius:16px;max-width:620px;width:100%;overflow:hidden;box-shadow:0 30px 80px #0006;position:relative}
+  .modal .mx{position:absolute;top:12px;right:12px;width:38px;height:38px;border-radius:10px;border:1px solid var(--line);background:#fff;font-size:22px;line-height:1;cursor:pointer;z-index:2}
+  .modal .mx:focus-visible,.modal button:focus-visible,.modal a:focus-visible,.modal textarea:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+  .mhero img{display:block;width:100%;max-height:280px;object-fit:cover;background:#eee}
+  .mcred{font-size:11.5px;color:var(--muted);padding:6px 20px 0;line-height:1.45}
+  .mcount{color:var(--ink);font-weight:700}
+  .mstrip{display:flex;gap:6px;overflow-x:auto;padding:8px 20px 0}
+  .mstrip button{flex:none;width:68px;height:52px;padding:0;border:1.5px solid var(--line);border-radius:8px;overflow:hidden;background:none;cursor:pointer}
+  .mstrip button[aria-current="true"]{border-color:var(--teal);box-shadow:0 0 0 1px var(--teal)}
+  .mstrip img{width:100%;height:100%;object-fit:cover;display:block}
+  .mcred a{color:var(--muted)}
+  .mbody{padding:16px 20px 20px}
+  .mtitle{font-size:23px;font-weight:700;line-height:1.25}
+  .mth{color:var(--muted);font-size:17px;margin-top:2px}
+  .mtags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .mtag{font-size:12px;font-weight:700;border-radius:7px;padding:3px 9px;border:1px solid var(--line);color:var(--muted)}
+  .mtag.gold{background:var(--gold);color:#3a2c07;border-color:var(--gold)}
+  .mtag.teal{background:#2f8f88;color:#fff;border-color:#2f8f88}
+  .msec{margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
+  .msec h3{margin:0 0 7px;font-size:12px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted)}
+  .mprose{font-size:15px;line-height:1.65}
+  .mdeepblk{border-top:1px solid var(--line);padding-top:8px;margin-top:8px}
+  .mdeepblk summary{cursor:pointer;font-weight:700;font-size:14px;padding:4px 0}
+  .mdeepblk h4{font-size:14.5px;margin:12px 0 3px}
+  .mdeepblk p{font-size:14.5px;line-height:1.62;margin:0 0 8px}
+  .msecn{color:var(--muted);font-weight:400;font-size:12.5px}
+  .mkind{background:#eef3f2;color:var(--teal);border-radius:5px;padding:1px 7px;font-size:11px;font-weight:700}
+  .mfrom{font-size:11.5px;color:var(--muted);margin-top:6px}
+  .mrow{display:grid;grid-template-columns:104px 1fr;gap:6px 12px;font-size:14.5px}
+  .mrow dt{color:var(--muted)}
+  .mrow dd{margin:0}
+  .mbtns{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+  .mbtn{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 14px;font:inherit;font-size:13.5px;font-weight:700;cursor:pointer;color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;gap:6px;min-height:40px}
+  .mbtn:hover{border-color:var(--teal)}
+  .mbtn.primary{background:var(--teal);color:#fff;border-color:var(--teal)}
+  .mbtn.kofi{background:#fbf1dc;color:#8a5a00;border-color:transparent}
+  .mnote textarea{width:100%;min-height:84px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font:inherit;font-size:14.5px;resize:vertical}
+  .mfile{font-size:13px;color:var(--muted);margin-top:8px}
+  .mqueue{font-size:12.5px;color:var(--muted);margin-top:8px}
+  .mlic{font-size:12px;color:var(--muted);line-height:1.6;background:#faf9f5;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+  .mlic a{color:var(--muted)}
+  /* floating support button, present on every page */
+  #kofloat{position:fixed;right:16px;bottom:16px;z-index:40;background:#fbf1dc;color:#8a5a00;border:1px solid #e6d3a8;border-radius:999px;padding:11px 16px;font-weight:700;font-size:14.5px;text-decoration:none;box-shadow:0 6px 18px #0002}
+  #kofloat:hover{filter:brightness(.97)}
+  @media (max-width:560px){#kofloat{bottom:70px}}
+</style><!-- site_meta:begin --><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "wichaa", "description": "A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa tradition — astrology, ritual, and magic — with a curated knowledge graph and a living-market layer.", "url": "https://wichaa.net/", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@type": "Organization", "name": "NaNoBotCo", "email": "530kings@proton.me"}, "keywords": ["Lanna manuscripts", "Northern Thai", "Tai Tham script", "wichaa", "Thai astrology", "hora", "yantra", "sak yant", "katha", "Buddhist manuscripts", "palm-leaf manuscripts", "Southeast Asian manuscripts", "digital humanities"], "inLanguage": ["th", "en", "pi"], "isAccessibleForFree": true, "size": "6990 manuscripts", "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://wichaa.net/api/manuscripts.json", "name": "All manuscripts (JSON)"}, {"@type": "DataDownload", "encodingFormat": "application/ld+json", "contentUrl": "https://wichaa.net/api/graph.jsonld", "name": "Knowledge graph (JSON-LD)"}, {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://wichaa.net/api/graph.ttl", "name": "Knowledge graph (Turtle)"}]}</script><link rel="alternate" type="application/ld+json" href="https://wichaa.net/api/graph.jsonld" title="Knowledge graph (JSON-LD)"><link rel="alternate" type="text/turtle" href="https://wichaa.net/api/graph.ttl" title="Knowledge graph (Turtle)"><meta name="keywords" content="Lanna manuscripts, Northern Thai, Tai Tham script, wichaa, Thai astrology, hora, yantra, sak yant, katha, Buddhist manuscripts, palm-leaf manuscripts, Southeast Asian manuscripts, digital humanities"><!-- site_meta:end --></head><body><script>window.__LANNA_BASE__="/";</script><script>
+(function(){
+  "use strict";
+  // ---- Lanna Wiki static shim: run the dynamic viewer on a static host ----------
+  // BASE lets the same build work at the domain root ('/') or under a project path
+  // ('/Lanna/'). All static targets are resolved through S() so they land correctly.
+  var BASE = (window.__LANNA_BASE__ || '/');
+  if (BASE.charAt(BASE.length-1) !== '/') BASE += '/';
+  function S(p){ return BASE + String(p).replace(/^\//,''); }
+  var PLACE = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="260" height="150">'+
+    '<rect width="100%" height="100%" fill="#eef2f1"/>'+
+    '<text x="50%" y="50%" fill="#3a4a47" font-family="sans-serif" font-size="13" '+
+    'text-anchor="middle" dominant-baseline="middle">raw scan — view at source</text></svg>');
+  function art(s){ return String(s==null?'':s).replace(/[^A-Za-z0-9]+/g,'_'); }
+  function jresp(o){ return new Response(JSON.stringify(o),
+    {status:200, headers:{'Content-Type':'application/json; charset=utf-8'}}); }
+  var NOARG = {
+    '/api/overview':'/api/overview.json','/api/dashboard':'/api/dashboard.json',
+    '/api/places':'/api/places.json','/api/lenses':'/api/lenses.json',
+    '/api/vocab':'/api/vocab.json','/api/market':'/api/market.json',
+    '/api/graph':'/api/graph.json','/api/articles':'/api/articles.json',
+    '/api/status':'/api/status.json','/api/manuscripts':'/api/manuscripts.json',
+    '/api/graph.jsonld':'/api/graph.jsonld','/api/graph.ttl':'/api/graph.ttl',
+    '/api/diagrams':'/api/diagrams.json','/api/findings':'/api/findings.json',
+    '/api/activity':'/api/activity.json',
+    '/api/expedite':'/api/expedite.json','/api/wats':'/api/wats.json',
+    '/api/coverage':'/api/coverage.json','/api/place-types':'/api/place-types.json'
+  };
+  var _fetch = window.fetch ? window.fetch.bind(window) : function(u){return fetch(u);};
+
+  var _docs=null;
+  function loadDocs(){ if(_docs) return Promise.resolve(_docs);
+    return _fetch(S('/api/searchdocs.json')).then(function(r){return r.json();})
+      .then(function(d){_docs=d;return d;}).catch(function(){_docs=[];return [];}); }
+  var _thes=null;
+  function loadThes(){ if(_thes) return Promise.resolve(_thes);
+    return _fetch(S('/api/thesaurus.json')).then(function(r){return r.json();})
+      .then(function(t){_thes=t;return t;}).catch(function(){_thes={};return {};}); }
+  // mirrors wiki.py _expand_token: query token -> OR-set of cross-language equivalents
+  function expand(tok, thes){
+    tok=(tok||'').toLowerCase();
+    var members={}; members[tok]=1;
+    if(tok.length<2) return Object.keys(members);
+    for(var key in thes){
+      if(tok===key || (tok.length>=3 && (tok.indexOf(key)>=0 || key.indexOf(tok)>=0))){
+        var grp=thes[key]; for(var i=0;i<grp.length;i++) members[grp[i]]=1;
+      }
+    }
+    return Object.keys(members);
+  }
+  function staticSearch(q){
+    q=(q||'').trim(); var out={manuscripts:[],articles:[],query:q};
+    if(!q) return Promise.resolve(jresp(out));
+    return Promise.all([loadDocs(), loadThes()]).then(function(res){
+      var docs=res[0], thes=res[1];
+      var groups=q.toLowerCase().split(/\s+/).filter(Boolean)
+                  .map(function(t){return expand(t, thes);}).filter(function(g){return g.length;});
+      if(!groups.length) return jresp(out);
+      var scored=[];
+      for(var i=0;i<docs.length;i++){
+        var d=docs[i], title=(d.ntitle||'').toLowerCase(), body=(d.nbody||'').toLowerCase();
+        var ok=true, score=0, pos=null;
+        for(var j=0;j<groups.length;j++){
+          var g=groups[j], ghit=0;
+          for(var m=0;m<g.length;m++){
+            var tk=g[m]; if(!tk) continue;
+            if(title.indexOf(tk)>=0) ghit+=12;
+            var idx=body.indexOf(tk);
+            if(idx>=0){ ghit+=Math.min(body.split(tk).length-1,6); if(pos===null||idx<pos)pos=idx; }
+          }
+          if(ghit===0){ok=false;break;} score+=ghit;
+        }
+        if(ok) scored.push([score,d,pos]);
+      }
+      scored.sort(function(a,b){return b[0]-a[0];});
+      for(var k=0;k<scored.length;k++){
+        var d2=scored[k][1], pos2=scored[k][2]==null?0:scored[k][2];
+        var text=d2.nbody||d2.ntitle||'';
+        var snip=text.substr(Math.max(0,pos2-60),200).replace(/\s+/g,' ').trim();
+        if(d2.kind==='m'){ if(out.manuscripts.length<60)
+          out.manuscripts.push({id:parseInt(d2.ref,10),label:d2.label,snippet:snip}); }
+        else { if(out.articles.length<60)
+          out.articles.push({key:d2.ref,label:d2.label,snippet:snip}); }
+      }
+      return jresp(out);
+    });
+  }
+
+  var _scans=null;
+  function loadScans(){ if(_scans) return Promise.resolve(_scans);
+    return _fetch(S('/api/scans.all.json')).then(function(r){return r.json();})
+      .then(function(d){_scans=d.scans||[];return _scans;}).catch(function(){_scans=[];return [];}); }
+
+  // ---- IIIF on-demand images: /img?sha=&w= -> sized library IIIF URL ------------
+  // We ship no scan bytes; a {sha -> IIIF url} map lets every page image load from
+  // the originating library, resized via the IIIF size parameter. The <img> src
+  // setter is synchronous, so images requested before the map arrives get the
+  // placeholder and are re-resolved once it loads (IIIF_Q flush).
+  var IIIF=null, IIIF_Q=[], IIIF_LOADING=false;
+  function iiifSized(u,w){ w=w||1024;
+    return String(u).replace('/full/full/0/default.jpg','/full/'+w+',/0/default.jpg'); }
+  function flushIIIF(){ var q=IIIF_Q; IIIF_Q=[];
+    for(var i=0;i<q.length;i++){ var it=q[i], u=IIIF[it.sha];
+      if(u){ try{ desc.set.call(it.el, iiifSized(u,it.w)); }catch(e){} } } }
+  // LAZY: the {sha -> IIIF url} map is ~2.6 MB and only pages that actually render
+  // scan images (browse, gallery, manuscript detail) need it. Fetch it on the FIRST
+  // /img?sha= request instead of on every page load, so image-free pages (home,
+  // articles, findings, market, textbooks) pay zero bytes for it.
+  function loadIIIF(){ if(IIIF) return Promise.resolve(IIIF);
+    if(IIIF_LOADING) return Promise.resolve(null); IIIF_LOADING=true;
+    return _fetch(S('/api/img-iiif.json')).then(function(r){return r.json();})
+      .then(function(m){ IIIF=m||{}; flushIIIF(); return IIIF; })
+      .catch(function(){ IIIF={}; flushIIIF(); return IIIF; }); }
+  function scansSlice(sp){
+    var midp=sp.get('mid'); var mid = midp?parseInt(midp,10):null;
+    var offset=parseInt(sp.get('offset')||'0',10)||0;
+    var limit=parseInt(sp.get('limit')||'120',10)||120;
+    var onlyT=(sp.get('only')==='transcribed');
+    return loadScans().then(function(all){
+      var pool=all.filter(function(s){
+        if(mid!==null && s.id!==mid) return false;
+        if(onlyT && !s.transcribed) return false;
+        return true;
+      });
+      return jresp({dbPresent:true, scans:pool.slice(offset,offset+limit),
+                    offset:offset, limit:limit, total:pool.length});
+    });
+  }
+
+  window.fetch = function(input, init){
+    init = init || {};
+    var url;
+    try { url = new URL((typeof input==='string')?input:input.url, location.origin); }
+    catch(e){ return _fetch(input, init); }
+    if(url.origin !== location.origin) return _fetch(input, init);
+    var method = (init.method || (typeof input!=='string' && input.method) || 'GET').toUpperCase();
+    var p = url.pathname, sp = url.searchParams;
+    if(method !== 'GET') return Promise.resolve(jresp({ok:false, readonly:true}));
+    if(p==='/api/search') return staticSearch(sp.get('q'));
+    if(p==='/api/gallery' && sp.get('source')==='scans') return scansSlice(sp);
+    // analysis widgets: /api/w/<name> -> the dumped snapshot; geo.geojson is a real
+    // file already, everything else gains a .json extension on disk.
+    if(p.indexOf('/api/w/')===0){
+      if(p.slice(-8)==='.geojson') return _fetch(S(p), {});
+      return _fetch(S(p+'.json'), {});
+    }
+    if(NOARG[p]) return _fetch(S(NOARG[p]), {});
+    if(p==='/api/manuscript') return _fetch(S('/api/manuscript/'+encodeURIComponent(sp.get('id'))+'.json'), {});
+    if(p==='/api/article')    return _fetch(S('/api/article/'+art(sp.get('s'))+'.json'), {});
+    if(p==='/api/gallery'){
+      var src=sp.get('source');
+      if(src==='scan-index') return _fetch(S('/api/gallery.scan-index.json'), {});
+      return _fetch(S('/api/gallery.json'), {});
+    }
+    if(p==='/pimg') return _fetch(S('/pimg/'+sp.get('mid')+'/'+sp.get('n')+'.png'), {});
+    return _fetch(input, init);
+  };
+
+  // internal navigation: app links are baked as root-absolute ('/browse', '/m?id=…').
+  // Under a project subpath they must be re-rooted at BASE. A capture-phase click
+  // handler does this for every link, however it was created.
+  document.addEventListener('click', function(ev){
+    if(ev.defaultPrevented || ev.button!==0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+    var a = ev.target && ev.target.closest ? ev.target.closest('a[href]') : null;
+    if(!a) return;
+    if(a.target==='_blank') return;
+    var href=a.getAttribute('href');
+    if(!href || href.charAt(0)!=='/' || href.charAt(1)==='/') return;  // only root-absolute, not protocol-relative
+    if(BASE!=='/' && href.indexOf(BASE)===0) return;                   // already re-rooted
+    // '/read?id=N' is a query-string route the live wiki serves dynamically; a
+    // static host can't route query strings, so the export ships it as a real
+    // path instead (read/N/index.html) — rewrite the click to match.
+    var rm = href.match(/^\/read\?id=(\d+)/);
+    if(rm){ ev.preventDefault(); location.href = S('read/'+rm[1]+'/'); return; }
+    // widget JSON download links point at '/api/w/<name>' (no extension); on disk
+    // that snapshot is '<name>.json' — map the download to the real file.
+    var wm = href.match(/^\/api\/w\/([a-z]+)$/);
+    if(wm){ ev.preventDefault(); location.href = S('api/w/'+wm[1]+'.json'); return; }
+    ev.preventDefault();
+    location.href = S(href);
+  }, true);
+
+  // rewrite <img> src (Object.assign in el() sets the .src property, so this catches it)
+  try {
+    var proto=HTMLImageElement.prototype;
+    var desc=Object.getOwnPropertyDescriptor(proto,'src');
+    Object.defineProperty(proto,'src',{configurable:true,enumerable:true,
+      get:function(){return desc.get.call(this);},
+      set:function(v){
+        try{
+          var u=new URL(v, location.origin);
+          if(u.origin===location.origin){
+            if(u.pathname==='/pimg'){
+              v=S('/pimg/'+u.searchParams.get('mid')+'/'+u.searchParams.get('n')+'.png');
+            } else if(u.pathname==='/img'){
+              var sha=u.searchParams.get('sha');
+              var w=parseInt(u.searchParams.get('w')||'0',10)||0;
+              if(sha && IIIF && IIIF[sha]){ v=iiifSized(IIIF[sha], w); }
+              else if(sha && IIIF===null){ IIIF_Q.push({el:this, sha:sha, w:w}); v=PLACE; loadIIIF(); }
+              else { v=PLACE; }
+            }
+          }
+        }catch(e){}
+        desc.set.call(this,v);
+      }});
+  } catch(e){}
+})();
+</script><header><div><h1>Wats of Chiang Mai</h1><p class=sub>The tradition standing up in the landscape &mdash; temples of the Lanna north, heritage-registered sites marked</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/moon'>Moon</a><a href='/widgets'>Widgets</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><p class=muted>Loading&hellip;</p></main><div class=mback id=mback hidden></div><a id=kofloat href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener>&#9749; Support</a><script>
+const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
+const BASE=(window.__LANNA_BASE__||'/');
+let ALL=[],mode='all',q='',map=null,current=null,sortBy='photos',here=null;
+
+// MapLibre is a separate cached asset, not inlined — ~780 kB has no business
+// living inside the HTML of every page view.
+function loadMapLib(){
+  if(window.maplibregl)return Promise.resolve();
+  return new Promise((res,rej)=>{
+    const l=document.createElement('link');l.rel='stylesheet';l.href=BASE+'vendor/maplibre-gl.css';document.head.append(l);
+    const s=document.createElement('script');s.src=BASE+'vendor/maplibre-gl.js';s.onload=()=>res();s.onerror=()=>rej(new Error('map library failed to load'));document.head.append(s);
+  });
+}
+async function load(){let d;try{d=await (await fetch('/api/wats')).json();}catch(e){document.getElementById('main').textContent='Could not load the wat catalogue.';return;}
+  window.__W=d;ALL=d.wats||[];
+  if(!d.present||!ALL.length){document.getElementById('main').innerHTML='';document.getElementById('main').append(el('p',{className:'muted',textContent:'The wat catalogue has not been synced into this build yet.'}));return;}
+  render();
+  loadMapLib().then(initMap).catch(e=>{const h=document.getElementById('hero');if(h)h.innerHTML='<p class=muted style="padding:18px">Interactive map unavailable ('+e.message+'). The catalogue below still works.</p>';});
+}
+// Chips repaint the LIST only. They must never call render(), which rebuilds
+// <main> — including a fresh #heromap div — while the MapLibre instance stays
+// bound to the old, now-detached element. A detached container reports 0x0, so
+// its style never finishes loading and every addSource throws "Style is not done
+// loading" forever. That is why the map went blank the moment you filtered.
+function chip(label,m){
+  const a=el('a',{className:'wchip'+(mode===m?' on':'')});
+  a.textContent=label; a.dataset.mode=m;
+  a.onclick=()=>{
+    mode=m;
+    for(const c of document.querySelectorAll('.wchip')) c.classList.toggle('on', c.dataset.mode===m);
+    paint(document.getElementById('wgrid'));
+    syncMap();
+  };
+  return a;}
+const PROVS=['Chiang Mai','Chiang Rai','Lamphun','Lampang','Nan'];
+// The map payload inlines at most two photographs; photoCount is the real total,
+// and the rest arrive with the place JSON when a modal opens. Counting the
+// inlined array would under-report every temple that has more than two.
+function nphotos(w){return (w.photoCount!=null)?w.photoCount:(w.photos||[]).length;}
+function distKm(w){if(!here||w.lat==null)return null;
+  const R=6371,t=x=>x*Math.PI/180;
+  const dLa=t(w.lat-here.lat),dLo=t(w.lng-here.lng);
+  const a=Math.sin(dLa/2)**2+Math.cos(t(here.lat))*Math.cos(t(w.lat))*Math.sin(dLo/2)**2;
+  return 2*R*Math.asin(Math.sqrt(a));}
+function passes(w){
+  if(mode==='heritage'&&!w.heritage)return false;
+  if(mode==='photos'&&!nphotos(w))return false;
+  if(mode==='hours'&&!w.openingHours)return false;
+  if(mode==='contact'&&!(w.phone||w.website||w.email))return false;
+  if(PROVS.includes(mode)&&w.province!==mode)return false;
+  if(q){const s=((w.name||'')+' '+(w.nameRoman||'')+' '+(w.province||'')+' '+(w.district||'')).toLowerCase();
+        if(!s.includes(q))return false;}
+  return true;}
+function visible(){
+  const out=ALL.filter(passes);
+  const byName=(a,b)=>(a.nameRoman||a.name||'').localeCompare(b.nameRoman||b.name||'');
+  if(sortBy==='photos')out.sort((a,b)=>nphotos(b)-nphotos(a)||byName(a,b));
+  else if(sortBy==='near'&&here)out.sort((a,b)=>(distKm(a)??1e9)-(distKm(b)??1e9));
+  else if(sortBy==='age')out.sort((a,b)=>{
+    const A=parseInt(a.founded,10),B=parseInt(b.founded,10);
+    if(isNaN(A)&&isNaN(B))return byName(a,b); if(isNaN(A))return 1; if(isNaN(B))return -1;
+    return A-B;});
+  else if(sortBy==='heritage')out.sort((a,b)=>(b.heritage?1:0)-(a.heritage?1:0)||byName(a,b));
+  else out.sort(byName);
+  return out;}
+
+function render(){const d=window.__W,main=document.getElementById('main');main.textContent='';
+  const hero=el('div',{className:'hero',id:'hero'});
+  hero.append(el('div',{className:'mapwrap',id:'heromap'}));
+  hero.append(el('div',{className:'heronote',id:'heronote',textContent:d.total.toLocaleString()+' temples'}));
+  const lg=el('div',{className:'herolegend'});
+  lg.append(el('b',{textContent:'Markers'}));
+  lg.append(el('div',{className:'lg'},[el('span',{className:'sw h'}),el('span',{textContent:'Heritage-registered'})]));
+  lg.append(el('div',{className:'lg'},[el('span',{className:'sw o'}),el('span',{textContent:'Wat (compiled, unvisited)'})]));
+  if((d.sacred||[]).length)lg.append(el('div',{className:'lg'},[el('span',{className:'sw s'}),el('span',{textContent:'Sacred site (not a wat)'})]));
+  hero.append(lg);
+  main.append(hero);
+
+  const intro=el('div',{className:'wintro'});
+  intro.textContent=d.total.toLocaleString()+' temples mapped across the Lanna north, '+d.heritage+' registered as Thai historic sites, '+d.withPhotos+' with freely-licensed photography'+
+    ((d.sacredTotal||0)?', plus '+d.sacredTotal+' notable places of spiritual significance that are not wats — city pillars, the sunken Lanna cities, sacred caves, mosques and monumental Buddha images':'')+
+    '. Most records are machine-compiled and unvisited — they are leads into the landscape, not verified survey.';
+  main.append(intro);
+
+  const nHours=ALL.filter(w=>w.openingHours).length, nContact=ALL.filter(w=>w.phone||w.website||w.email).length;
+  const f=el('div',{className:'wfilter'});
+  f.append(chip('All ('+ALL.length+')','all'));
+  f.append(chip('Heritage ('+d.heritage+')','heritage'));
+  f.append(chip('Photographs ('+d.withPhotos+')','photos'));
+  for(const pv of PROVS){const n=ALL.filter(w=>w.province===pv).length; if(n)f.append(chip(pv+' ('+n+')',pv));}
+  if(nHours)f.append(chip('Published hours ('+nHours+')','hours'));
+  if(nContact)f.append(chip('Has contact ('+nContact+')','contact'));
+  const s=el('input',{className:'wsearch',type:'search',placeholder:'Search name, province or district…',value:q});
+  s.oninput=()=>{q=s.value.trim().toLowerCase();const g=document.getElementById('wgrid');if(g)paint(g);syncMap();};
+  f.append(s);main.append(f);
+
+  // sort row — kept separate from the filter chips so it reads as a different act
+  const sr=el('div',{className:'wfilter'});
+  sr.append(el('span',{className:'sortlab',textContent:'Sort'}));
+  const sel=el('select',{className:'wsort'});
+  for(const [v,label] of [['photos','Most photographs'],['name','Name (A–Z)'],
+      ['heritage','Heritage first'],['age','Oldest known first'],['near','Nearest to me']]){
+    const o=el('option',{value:v,textContent:label}); if(v===sortBy)o.selected=true; sel.append(o);}
+  sel.onchange=()=>{
+    if(sel.value==='near'&&!here){
+      if(!navigator.geolocation){alert('This browser cannot share a location.');sel.value=sortBy;return;}
+      sel.disabled=true;
+      navigator.geolocation.getCurrentPosition(pos=>{
+        here={lat:pos.coords.latitude,lng:pos.coords.longitude};
+        sortBy='near';sel.disabled=false;paint(document.getElementById('wgrid'));
+      },()=>{alert('Could not get your location — it stays on your device either way.');sel.value=sortBy;sel.disabled=false;});
+      return;}
+    sortBy=sel.value;paint(document.getElementById('wgrid'));};
+  sr.append(sel);
+  sr.append(el('span',{className:'sortnote',id:'sortnote'}));
+  main.append(sr);
+
+  const grid=el('div',{className:'wgrid',id:'wgrid'});main.append(grid);paint(grid);
+
+  if((d.sacred||[]).length){
+    const h=el('div',{className:'whead'});h.append(document.createTextNode('Not exactly wats'));
+    h.append(el('span',{textContent:d.sacred.length+' places of spiritual significance — city pillars, sunken cities, sacred caves, mosques, churches, monumental Buddha images'}));
+    main.append(h);
+    const sg=el('div',{className:'wgrid'});
+    for(const x of d.sacred){
+      const c=el('div',{className:'wcard sac'});
+      const ph=(x.photos||[])[0];
+      if(ph)c.append(el('a',{className:'im',href:ph.source,target:'_blank',rel:'noopener'},[el('img',{src:ph.thumb,loading:'lazy',alt:x.nameRoman||x.name||''})]));
+      const b=el('div',{className:'wb'});
+      b.append(el('div',{className:'wt'},[el('span',{className:'sbadge',textContent:(x.siteType||'sacred').split(';')[0]}),document.createTextNode(x.nameRoman||x.name||'')]));
+      if(x.name&&x.name!==x.nameRoman)b.append(el('div',{className:'wth',textContent:x.name}));
+      if(x.heritage)b.append(el('div',{className:'wm',textContent:x.heritage}));
+      c.append(b);
+      if(ph){const cr=el('div',{className:'cred'});
+        cr.append(document.createTextNode(ph.author+' · '));
+        cr.append(ph.licenseUrl?el('a',{href:ph.licenseUrl,target:'_blank',rel:'noopener',textContent:ph.license+(ph.publicDomain?' (public domain)':'')}):document.createTextNode(ph.license));
+        cr.append(document.createTextNode(' · '));
+        cr.append(el('a',{href:ph.source,target:'_blank',rel:'noopener',textContent:'Commons'}));
+        c.append(cr);}
+      c.onclick=(ev)=>{if(ev.target.closest('a'))return;openModal(x);};
+      sg.append(c);}
+    main.append(sg);}
+
+  if(d.download){const dl=el('div',{className:'wdl'});
+    dl.append(el('b',{textContent:'Take it with you. '}));
+    dl.append(document.createTextNode('An offline app version of this map — installable, works with no signal: '));
+    dl.append(el('a',{href:BASE+'wats/app/',textContent:'open the app'}));
+    dl.append(document.createTextNode(' · '));
+    dl.append(el('a',{href:BASE+'wats/app/wats-offline.html',download:'',textContent:'download the single-file map'}));
+    main.append(dl);}
+
+  const lic=el('div',{className:'wlic'});const at=d.attribution||{};
+  lic.append(el('b',{textContent:'Sources and licence. '}));
+  lic.append(document.createTextNode('Temple locations are derived from OpenStreetMap and are therefore published under the '));
+  lic.append(el('a',{href:at.dataUrl||'https://opendatacommons.org/licenses/odbl/1-0/',target:'_blank',rel:'noopener',textContent:'Open Database License (ODbL) 1.0'}));
+  lic.append(document.createTextNode(' — share-alike, which is a different licence from the rest of this site. '+(at.facts||'Wikidata, CC0')+'. Photographs are hosted by Wikimedia Commons and are NOT relicensed here: each is credited to its author under its own terms beneath the image.'));
+  main.append(lic);
+  openFromHash();}
+
+const SORTNOTE={
+  age:'Only 8 temples have a recorded founding date — the rest sort after them, undated.',
+  near:'Distances are computed on your device; your location is never sent anywhere.',
+  photos:'Temples with the most freely-licensed photographs first.'};
+function paint(grid){grid.textContent='';const items=visible();
+  const note=document.getElementById('heronote');
+  if(note)note.textContent=items.length.toLocaleString()+' shown';
+  const sn=document.getElementById('sortnote'); if(sn)sn.textContent=SORTNOTE[sortBy]||'';
+  if(!items.length){grid.append(el('p',{className:'muted',textContent:'No temple matches.'}));return;}
+  for(const w of items){
+    const c=el('div',{className:'wcard'+(w.heritage?' her':'')});
+    const ph=(w.photos||[])[0];
+    if(ph){c.append(el('a',{className:'im',href:ph.source,target:'_blank',rel:'noopener'},[el('img',{src:ph.thumb,loading:'lazy',alt:w.nameRoman||w.name||'temple'})]));}
+    const b=el('div',{className:'wb'});
+    b.append(el('div',{className:'wt'},[w.heritage?el('span',{className:'wbadge',textContent:'Heritage'}):null,document.createTextNode(w.nameRoman||w.name||'(unnamed)')]));
+    if(w.name&&w.name!==w.nameRoman)b.append(el('div',{className:'wth',textContent:w.name}));
+    const bits=[];if(w.province)bits.push(w.province);
+    const dk=distKm(w); if(dk!=null)bits.push(dk<1?Math.round(dk*1000)+' m away':dk.toFixed(dk<10?1:0)+' km away');
+    if(w.founded)bits.push('founded '+w.founded);
+    if(nphotos(w))bits.push(nphotos(w)+' photo'+(nphotos(w)===1?'':'s'));
+    b.append(el('div',{className:'wm',textContent:bits.join(' · ')}));
+    c.append(b);
+    if(ph){const cr=el('div',{className:'cred'});
+      cr.append(document.createTextNode(ph.author+' · '));
+      cr.append(ph.licenseUrl?el('a',{href:ph.licenseUrl,target:'_blank',rel:'noopener',textContent:ph.license}):document.createTextNode(ph.license));
+      cr.append(document.createTextNode(' · '));
+      cr.append(el('a',{href:ph.source,target:'_blank',rel:'noopener',textContent:'Commons'}));
+      c.append(cr);}
+    c.onclick=(ev)=>{if(ev.target.closest('a'))return;openModal(w);};
+    grid.append(c);}}
+
+// ---- hero map ----
+function fc(list){return {type:'FeatureCollection',features:list.filter(w=>w.lat!=null&&w.lng!=null).map(w=>({
+  type:'Feature',geometry:{type:'Point',coordinates:[w.lng,w.lat]},
+  properties:{id:w.id,her:!!w.heritage,sac:!!w.siteType,kindLabel:(w.siteType||'').split(';')[0],
+    name:w.nameRoman||w.name||'',th:(w.name&&w.name!==w.nameRoman)?w.name:'',
+    heritage:w.heritage||'',thumb:(w.photos||[])[0]?w.photos[0].thumb:'',
+    author:(w.photos||[])[0]?w.photos[0].author:'',lic:(w.photos||[])[0]?w.photos[0].license:'',
+    src:(w.photos||[])[0]?w.photos[0].source:''}}))};}
+
+function initMap(){
+  const box=document.getElementById('heromap'); if(!box)return;
+  map=new maplibregl.Map({container:box,
+    style:{version:8,
+      // Glyph server so we can draw our OWN labels. The OSM raster basemap
+      // renders place names in Thai only (it uses the local `name` tag), which
+      // is correct for Thailand and unhelpful if you don't read Thai — and it
+      // is baked into the tile image, so it cannot be restyled. Drawing the
+      // romanised temple names ourselves is the reliable fix.
+      glyphs:'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
+      sources:{osm:{type:'raster',tiles:['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],tileSize:256,
+      attribution:'© OpenStreetMap contributors (ODbL) · photos via Wikimedia Commons'}},
+      layers:[{id:'bg',type:'background',paint:{'background-color':'#e9e7e0'}},{id:'osm',type:'raster',source:'osm'}]},
+    center:[99.4,18.9],zoom:6.6});
+  map.addControl(new maplibregl.NavigationControl({showCompass:false}),'top-right');
+  map.addControl(new maplibregl.FullscreenControl(),'top-right');
+  let ready=false;
+  // Adding layers is attempted, not gated on isStyleLoaded(). That flag stays
+  // false for as long as tiles are outstanding, which on a slow or filtered
+  // network is forever — and the map then never draws its markers even though
+  // the style itself parsed fine. addSource/addLayer simply throw while the
+  // style isn't ready, so we try, swallow, and let the poll retry. Each step is
+  // guarded so a partial run can finish on the next tick.
+  const build=()=>{
+    if(ready)return;
+    try{
+      if(!map.getSource('wats'))
+        map.addSource('wats',{type:'geojson',data:fc(ALL.concat((window.__W||{}).sacred||[]))});
+      if(!map.getLayer('w-s'))map.addLayer({id:'w-s',type:'circle',source:'wats',filter:['get','sac'],
+        paint:{'circle-radius':['interpolate',['linear'],['zoom'],6,3.6,10,6,14,10],
+          'circle-color':'#2f8f88','circle-stroke-color':'#fff','circle-stroke-width':1.6}});
+      if(!map.getLayer('w-n'))map.addLayer({id:'w-n',type:'circle',source:'wats',filter:['all',['!',['get','her']],['!',['get','sac']]],
+        paint:{'circle-radius':['interpolate',['linear'],['zoom'],6,2.4,10,4,14,7],
+          'circle-color':'#c96a2e','circle-stroke-color':'#fff','circle-stroke-width':1,'circle-opacity':.9}});
+      if(!map.getLayer('w-h'))map.addLayer({id:'w-h',type:'circle',source:'wats',filter:['all',['get','her'],['!',['get','sac']]],
+        paint:{'circle-radius':['interpolate',['linear'],['zoom'],6,4,10,7,14,11],
+          'circle-color':'#d4a017','circle-stroke-color':'#fff','circle-stroke-width':2}});
+      // Romanised names, drawn by us. Heritage sites label earlier because they
+      // are the landmarks people navigate by; everything else joins at z13.
+      if(!map.getLayer('w-label'))map.addLayer({id:'w-label',type:'symbol',source:'wats',minzoom:10.5,
+        layout:{'text-field':['get','name'],'text-font':['Open Sans Regular'],
+          'text-size':['interpolate',['linear'],['zoom'],11,10,15,13],
+          'text-offset':[0,1.1],'text-anchor':'top','text-max-width':10,
+          'text-allow-overlap':false,'text-optional':true},
+        paint:{'text-color':'#2b2f2e','text-halo-color':'#fff','text-halo-width':1.8,
+          'text-opacity':['interpolate',['linear'],['zoom'],10.5,0,12,1]},
+        filter:['any',['get','her'],['get','sac'],['>=',['zoom'],13]]});
+    }catch(e){
+      // Retrying silently is right for the first few frames (the style really is
+      // still parsing) but wrong forever — this hid a dead map for hours. Give
+      // up loudly instead of spinning, and say so on the page.
+      if(++buildTries>60){
+        clearInterval(t);
+        const h=document.getElementById('hero');
+        if(h&&!h.dataset.failed){h.dataset.failed='1';
+          h.insertAdjacentHTML('beforeend','<div class="heronote" style="left:12px;top:12px;right:auto;background:#fff">Map could not start: '+esc(e.message)+'</div>');}
+        console.error('hero map failed to initialise:',e);
+      }
+      return;
+    }
+    ready=true;
+    for(const id of ['w-n','w-h','w-s']){
+      map.on('click',id,e=>{const f=e.features[0];const x=byId(f.properties.id);if(x)openModal(x);else popup(f);});
+      map.on('mouseenter',id,()=>map.getCanvas().style.cursor='pointer');
+      map.on('mouseleave',id,()=>map.getCanvas().style.cursor='');
+    }
+    fitAll(); syncMap(); map.resize();
+  };
+  map.on('style.load',build); map.on('load',()=>{build();map.resize();});
+  map.on('error',(e)=>console.warn('map:',e&&e.error&&e.error.message));
+  // some embedded/throttled renderers never deliver those events to late
+  // handlers — poll until the style is parsed, then nudge a repaint.
+  const t=setInterval(()=>{build();if(ready){map.resize();map.panBy([1,1],{duration:0});map.panBy([-1,-1],{duration:0});clearInterval(t);}},150);
+  window.addEventListener('resize',()=>map&&map.resize());
+}
+function fitAll(){const pts=ALL.concat((window.__W||{}).sacred||[]).filter(w=>w.lat!=null);if(!pts.length||!map)return;
+  let n=-90,s=90,e=-180,w2=180;for(const p of pts){n=Math.max(n,p.lat);s=Math.min(s,p.lat);e=Math.max(e,p.lng);w2=Math.min(w2,p.lng);}
+  map.fitBounds([[w2,s],[e,n]],{padding:40,duration:0});}
+function syncMap(){if(!map||!map.getLayer('w-n'))return;
+  const ids=visible().map(w=>w.id);const set=['in',['get','id'],['literal',ids]];
+  map.setFilter('w-n',['all',['!',['get','her']],['!',['get','sac']],set]);
+  map.setFilter('w-h',['all',['get','her'],['!',['get','sac']],set]);
+  if(map.getLayer('w-s'))map.setFilter('w-s',['all',['get','sac'],set]);
+  if(map.getLayer('w-label'))map.setFilter('w-label',set);}
+function popup(f){const p=f.properties;
+  const body='<div class="pop">'+(p.thumb?'<img src="'+p.thumb+'" alt="">':'')+
+    '<div class="pb">'+(p.sac?'<span class="pbadge" style="background:#2f8f88;color:#fff">'+esc(p.kindLabel||'sacred site')+'</span><br>':'')+(p.her?'<span class="pbadge">Heritage</span><br>':'')+
+    '<div class="pt">'+esc(p.name)+'</div>'+(p.th?'<div class="pth">'+esc(p.th)+'</div>':'')+'</div>'+
+    (p.thumb?'<div class="pc">'+esc(p.author)+' · '+esc(p.lic)+' · <a href="'+p.src+'" target="_blank" rel="noopener">Commons</a></div>':'')+'</div>';
+  new maplibregl.Popup({offset:12,maxWidth:'240px'}).setLngLat(f.geometry.coordinates).setHTML(body).addTo(map);}
+function flyTo(w){if(!map||w.lat==null)return;
+  map.flyTo({center:[w.lng,w.lat],zoom:Math.max(map.getZoom(),14),speed:1.4});
+  document.getElementById('hero').scrollIntoView({behavior:'smooth',block:'center'});}
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+
+// ---------------- place modal ----------------
+// Admin address is assembled at runtime rather than sitting in the HTML as a
+// literal mailto:, which keeps it out of the reach of the dumbest harvesters.
+// It is not a real secret — it is already printed in the repo README — but there
+// is no reason to gift-wrap it.
+const ADMIN=['530kings','proton.me'].join('@');
+// The contribution endpoint. A note reaches a moderation queue and NEVER the
+// live map: /suggest is public and rate-limited, and only a holder of an admin
+// capability token can approve anything out of that queue. Sending stays a
+// deliberate button press — see sendQueue() for what does and does not travel.
+const WORKER='https://mueang-map-sync.wichaa.workers.dev';
+const QKEY='wichaa_wat_submissions';
+const qGet=()=>{try{return JSON.parse(localStorage.getItem(QKEY)||'[]')}catch(e){return[]}};
+const qSet=(v)=>{try{localStorage.setItem(QKEY,JSON.stringify(v))}catch(e){alert('Local storage is full — send or download your queued notes first.')}};
+
+function placeUrl(x){const u=new URL(location.href);u.hash='place='+encodeURIComponent(x.id);return u.toString();}
+// Sharing uses the place's OWN page, not the map's #fragment. A fragment is
+// never sent to a server, so an unfurler (Facebook, X, LINE) would only ever see
+// the generic site card — no temple name, no photograph. /place/<id>/ is a real
+// URL with its own og: tags, so the preview shows the place.
+function shareUrl(x){return location.origin+BASE+'place/'+encodeURIComponent(x.id)+'/';}
+function openModal(x){
+  const isSac=!!x.siteType;
+  const ph=(x.photos||[])[0];
+  const sum=x.summary||null, desc=x.description||'';
+  const back=document.getElementById('mback');
+  const lat=x.lat,lng=x.lng,ll=lat+','+lng;
+  const share=shareUrl(x), st=encodeURIComponent((x.nameRoman||x.name||'')+' — wichaa');
+  const su=encodeURIComponent(share);
+  const H=[];
+  H.push('<div class="modal" role="dialog" aria-modal="true" aria-label="'+esc(x.nameRoman||x.name||'place')+'">');
+  H.push('<button class="mx" aria-label="Close">&times;</button>');
+  // Every photograph, not just the first. The card advertised "3 photos" and the
+  // modal rendered photos[0] — so the count was true and the display was a lie.
+  const pics=(x.photos||[]);
+  // The strip container is emitted whenever more photographs EXIST, even if the
+  // payload only inlined two — the deep fetch fills it in a moment later.
+  if(pics.length)H.push('<div class="mhero" id="mhero"></div><div class="mcred" id="mcred"></div>'+
+    ((pics.length>1||nphotos(x)>1)?'<div class="mstrip" id="mstrip"></div>':''));
+  H.push('<div class="mbody">');
+  H.push('<div class="mtitle">'+esc(x.nameRoman||x.name||'(unnamed)')+'</div>');
+  if(x.name&&x.name!==x.nameRoman)H.push('<div class="mth">'+esc(x.name)+'</div>');
+  H.push('<div class="mtags">');
+  if(isSac)H.push('<span class="mtag teal">'+esc((x.siteType||'').split(';')[0])+'</span>');
+  if(x.heritage)H.push('<span class="mtag gold">★ '+esc(x.heritage)+'</span>');
+  H.push('<span class="mtag">'+(x.confidence==='verified'?'field-verified':'compiled · unvisited')+'</span></div>');
+
+  H.push('<div class="msec" id="mdeep" hidden></div>');
+  if(sum&&sum.text){H.push('<div class="msec"><h3>About</h3><div class="mprose">'+esc(sum.text)+'</div>'+
+    '<div class="mfrom">From <a href="'+esc(sum.url)+'" target="_blank" rel="noopener">'+esc(sum.title)+'</a> on Wikipedia · '+
+    '<a href="'+esc(sum.licenseUrl)+'" target="_blank" rel="noopener">'+esc(sum.license)+'</a> — reused here under that licence.</div></div>');}
+  else if(desc){H.push('<div class="msec"><h3>About</h3><div class="mprose">'+esc(desc)+'</div>'+
+    '<div class="mfrom">Wikidata description · CC0 (public domain dedication)</div></div>');}
+
+  H.push('<div class="msec"><h3>Details</h3><dl class="mrow">');
+  if(x.founded)H.push('<dt>Founded</dt><dd>'+esc(x.founded)+'</dd>');
+  if(x.province)H.push('<dt>Province</dt><dd>'+esc(x.province)+(x.district?' · '+esc(x.district):'')+'</dd>');
+  if(x.street)H.push('<dt>Address</dt><dd>'+esc(x.street)+'</dd>');
+  if(isSac&&x.siteType)H.push('<dt>Type</dt><dd>'+esc(x.siteType)+'</dd>');
+  if(x.heritage)H.push('<dt>Heritage</dt><dd>'+esc(x.heritage)+'</dd>');
+  H.push('<dt>Coordinates</dt><dd>'+lat.toFixed(5)+', '+lng.toFixed(5)+' <button class="mbtn" style="padding:2px 9px;min-height:0" data-copy="'+ll+'">copy</button></dd>');
+  const srcs=(x.sources||[]).map(function(sc){
+    if(sc.type==='osm'&&sc.ref)return '<a href="https://www.openstreetmap.org/'+esc(sc.ref)+'" target="_blank" rel="noopener">OpenStreetMap</a>';
+    if(sc.type==='wikidata'&&sc.ref)return '<a href="https://www.wikidata.org/wiki/'+esc(sc.ref)+'" target="_blank" rel="noopener">Wikidata</a>';
+    return esc(sc.type);});
+  H.push('<dt>Sources</dt><dd>'+[...new Set(srcs)].join(' · ')+'</dd></dl></div>');
+
+  // Contact + hours only appear when the temple actually has them. Thai wats are
+  // generally open dawn to dusk and don't publish hours — 14 of 1,307 record any
+  // — so an absent block means "not recorded", never "closed", and we say so
+  // rather than letting a blank imply something false.
+  if(x.phone||x.website||x.email||x.facebook||x.openingHours){
+    H.push('<div class="msec"><h3>Contact &amp; hours</h3><dl class="mrow">');
+    if(x.openingHours)H.push('<dt>Hours</dt><dd>'+esc(x.openingHours)+'</dd>');
+    if(x.phone)H.push('<dt>Phone</dt><dd><a href="tel:'+esc(String(x.phone).replace(/[^+0-9]/g,''))+'">'+esc(x.phone)+'</a></dd>');
+    if(x.email)H.push('<dt>Email</dt><dd><a href="mailto:'+esc(x.email)+'">'+esc(x.email)+'</a></dd>');
+    if(x.website)H.push('<dt>Website</dt><dd><a href="'+esc(x.website)+'" target="_blank" rel="noopener">'+esc(String(x.website).replace(/^https?:\/\//,'').slice(0,44))+'</a></dd>');
+    if(x.facebook)H.push('<dt>Facebook</dt><dd><a href="'+esc(x.facebook)+'" target="_blank" rel="noopener">page</a></dd>');
+    H.push('</dl></div>');
+  } else {
+    H.push('<div class="msec"><h3>Contact &amp; hours</h3><div class="mfrom">Not recorded for this temple. Most wats in the north keep no published hours — they are generally open from dawn until dusk. This is an absence of data, not a statement that it is closed.</div></div>');
+  }
+
+  H.push('<div class="msec"><h3>Get there</h3><div class="mbtns">'+
+    '<a class="mbtn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination='+ll+'">Google Maps</a>'+
+    '<a class="mbtn" target="_blank" rel="noopener" href="https://maps.apple.com/?daddr='+ll+'">Apple Maps</a>'+
+    '<a class="mbtn" target="_blank" rel="noopener" href="https://www.openstreetmap.org/directions?to='+ll+'">OpenStreetMap</a>'+
+    '<button class="mbtn" data-fly="1">Show on the map</button></div></div>');
+
+  H.push('<div class="msec"><h3>Share this place</h3><div class="mbtns">'+
+    '<button class="mbtn primary" data-copy="'+esc(share)+'">Copy link</button>'+
+    (navigator.share?'<button class="mbtn" data-native="1">Share…</button>':'')+
+    '<a class="mbtn" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u='+su+'">Facebook</a>'+
+    '<a class="mbtn" target="_blank" rel="noopener" href="https://social-plugins.line.me/lineit/share?url='+su+'">LINE</a>'+
+    '<a class="mbtn" target="_blank" rel="noopener" href="https://t.me/share/url?url='+su+'&text='+st+'">Telegram</a>'+
+    '<a class="mbtn" href="'+esc(share)+'">Open its own page</a>'+
+    '</div><div class="mfrom">The shared link is this place\'s own page, so it unfurls with its photograph and name rather than a generic site card.</div></div>');
+
+  // A temple updating its own entry is the single most valuable submission we
+  // can get — it is the only source that actually knows the hours. Give it its
+  // own affordance and a filled-in template, rather than hoping an abbot works
+  // out what to type into a blank box.
+  H.push('<div class="msec mnote"><h3>Add a note or a photo</h3>'+
+    '<div class="mbtns" style="margin-bottom:9px">'+
+      '<button class="mbtn" data-temple="1">&#127982; I\'m from this temple</button>'+
+    '</div>'+
+    '<textarea id="mnotetxt" placeholder="Correction, opening hours, what it is like to visit, a name spelled properly…"></textarea>'+
+    '<div class="mfile"><input type="file" id="mnotefile" accept="image/*"> <span id="mfilehint"></span></div>'+
+    // CC BY-SA is an attribution licence, so a photograph without a credit is one
+    // the archive cannot lawfully publish. Asked for here rather than discovered
+    // at moderation, when the contributor is long gone.
+    '<input id="mnoteby" type="text" autocomplete="name" placeholder="Your name — the credit on your photograph" '+
+      'style="width:100%;margin-top:8px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;background:var(--bg);color:var(--ink)">'+
+    '<div class="mbtns" style="margin-top:10px">'+
+      '<button class="mbtn primary" data-queue="1">Add to my submissions</button>'+
+      '<button class="mbtn primary" data-send="1">Send to the archive</button>'+
+      '<button class="mbtn" data-email="1">Email them to the archivist</button>'+
+      '<button class="mbtn" data-dl="1">Download submission file</button>'+
+    '</div>'+
+    '<div class="mqueue" id="mqueue"></div>'+
+    '<div class="mfrom">Nothing is sent automatically. Notes stay on this device until you press a button. <b>Send to the archive</b> posts them to a moderation queue, where a person reads every one before anything is published — nothing you send reaches the map on its own, and the queue is never public. Photographs travel too, credited to the name you give. No account, no sign-in, and nothing about you is collected beyond what you type — your photograph is not visible to anyone but the archivist until it is approved. Only submit photographs you took yourself and are willing to release under CC BY-SA 4.0.</div></div>');
+
+  H.push('<div class="msec"><h3>Licence</h3><div class="mlic">'+
+    '<b>Location data</b> — derived from OpenStreetMap, published under the <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noopener">Open Database Licence 1.0</a> (share-alike): reuse it, but a derived database must stay ODbL and credit © OpenStreetMap contributors.<br>'+
+    '<b>Facts</b> (founding dates, heritage status, short descriptions) — from Wikidata, <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0</a>: public domain, no conditions.<br>'+
+    (sum&&sum.text?'<b>The description above</b> — from Wikipedia, <a href="'+esc(sum.licenseUrl)+'" target="_blank" rel="noopener">'+esc(sum.license)+'</a>: reusable with attribution, share-alike.<br>':'')+
+    (ph?'<b>The photograph above</b> — '+esc(ph.author)+', '+esc(ph.license)+(ph.publicDomain?' (public domain — no conditions)':' — reusable with attribution to the photographer')+', via Wikimedia Commons. It is <i>not</i> relicensed by this site.<br>':'')+
+    '<b>Nothing here is all-rights-reserved.</b> Every item is public domain or a Creative Commons / open-data licence, named above.'+
+    '</div></div>');
+
+  H.push('<div class="msec"><div class="mbtns"><a class="mbtn kofi" target="_blank" rel="noopener" href="https://ko-fi.com/defiantchiangmai">&#9749; Support this work</a></div></div>');
+  H.push('</div></div>');
+  back.innerHTML=H.join('');
+  back.hidden=false;
+  document.body.style.overflow='hidden';
+  history.replaceState(null,'','#place='+encodeURIComponent(x.id));
+  renderQueue();
+  const m=back.querySelector('.modal');
+  loadDeep(x);
+  if(pics.length)showPic(pics,0);
+  m.querySelector('.mx').onclick=closeModal;
+  m.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText(b.dataset.copy);b.textContent='copied';setTimeout(()=>{b.textContent=b.dataset.copy===share?'Copy link':'copy'},1400);});
+  const nb=m.querySelector('[data-native]'); if(nb)nb.onclick=()=>navigator.share({title:x.nameRoman||x.name,url:share}).catch(()=>{});
+  m.querySelector('[data-fly]').onclick=()=>{closeModal();flyTo(x);};
+  const tb=m.querySelector('[data-temple]');
+  if(tb)tb.onclick=()=>{
+    const t=document.getElementById('mnotetxt');
+    if(!t.value.trim())t.value=
+      'I help look after this temple.\n\n'+
+      'Opening hours: \n'+
+      'Phone: \n'+
+      'Website / Facebook: \n'+
+      'Correct name (Thai): \n'+
+      'Correct name (roman): \n'+
+      'Anything visitors should know: \n';
+    t.dataset.fromTemple='1';
+    t.focus();
+    t.setSelectionRange(t.value.indexOf('Opening hours: ')+15, t.value.indexOf('Opening hours: ')+15);
+  };
+  m.querySelector('[data-queue]').onclick=()=>queueNote(x);
+  m.querySelector('[data-send]').onclick=(e)=>sendQueue(e.target);
+  m.querySelector('[data-email]').onclick=()=>emailQueue();
+  m.querySelector('[data-dl]').onclick=()=>downloadQueue();
+  const fi=m.querySelector('#mnotefile');
+  fi.onchange=()=>{const f=fi.files[0];document.getElementById('mfilehint').textContent=f?(f.name+' — will be downscaled'):'';};
+  m.querySelector('.mx').focus();
+}
+// The full article can run to 14,000 characters across a dozen sections. That
+// has no business in the map payload, which has to load 1,300 points fast — so
+// it lives in the place's own JSON and is fetched only when a modal opens.
+const _deepCache={},_photoCache={};
+function loadDeep(x){
+  const slot=document.getElementById('mdeep'); if(!slot)return;
+  const render=(art)=>{
+    if(!art||!Object.keys(art).length)return;
+    const KIND={architecture:'Architecture',history:'History',interest:'Of interest',heritage:'Heritage listing'};
+    const LANG={th:'ภาษาไทย (Thai)',en:'English'};
+    let h='';
+    for(const lang of ['th','en']){
+      const a=art[lang]; if(!a||!(a.sections||[]).length)continue;
+      h+='<details class="mdeepblk"'+(lang==='th'?' open':'')+'><summary>In depth · '+esc(LANG[lang])+
+         ' <span class="msecn">'+a.sections.length+' sections</span></summary>';
+      for(const sec of a.sections){
+        const kl=KIND[sec.kind]||sec.kind||'';
+        const dupe=kl&&String(sec.heading||'').toLowerCase().includes(kl.toLowerCase());
+        h+='<h4>'+esc(sec.heading||'')+((kl&&!dupe)?' <span class="mkind">'+esc(kl)+'</span>':'')+'</h4>';
+        for(const para of String(sec.text||'').split('\n')) if(para.trim()) h+='<p>'+esc(para)+'</p>';
+      }
+      h+='<div class="mfrom">From <a href="'+esc(a.url)+'" target="_blank" rel="noopener">'+esc(a.title)+
+         '</a> on Wikipedia · <a href="'+esc(a.licenseUrl)+'" target="_blank" rel="noopener">'+esc(a.license)+
+         '</a> — reused here under that licence.</div></details>';
+    }
+    if(!h)return;
+    slot.innerHTML='<h3>In depth</h3>'+h; slot.hidden=false;
+  };
+  const upgradePhotos=(full)=>{
+    if(!full||full.length<=(x.photos||[]).length)return;
+    x.photos=full;                       // keep it for next time this modal opens
+    const slot=document.getElementById('mhero');
+    if(slot)showPic(full,0);             // redraw the gallery with the full strip
+  };
+  if(_deepCache[x.id]!==undefined){render(_deepCache[x.id]);upgradePhotos(_photoCache[x.id]);return;}
+  fetch(BASE+'api/place/'+encodeURIComponent(x.id)+'.json')
+    .then(r=>r.ok?r.json():null)
+    .then(j=>{
+      const a=(j&&j.article)||null; _deepCache[x.id]=a; render(a);
+      const full=(j&&j.photos)||null; _photoCache[x.id]=full; upgradePhotos(full);
+    })
+    .catch(()=>{_deepCache[x.id]=null;});
+}
+function showPic(pics,i){
+  const hero=document.getElementById('mhero'), cred=document.getElementById('mcred');
+  if(!hero)return;
+  const m=pics[i];
+  hero.innerHTML='<img src="'+esc(m.thumb)+'" alt="">';
+  cred.innerHTML=esc(m.author)+' · '+(m.licenseUrl?'<a href="'+esc(m.licenseUrl)+'" target="_blank" rel="noopener">'+esc(m.license)+'</a>':esc(m.license))+
+    (m.publicDomain?' <b>(public domain)</b>':'')+' · <a href="'+esc(m.source)+'" target="_blank" rel="noopener">Wikimedia Commons</a>'+
+    (pics.length>1?' &nbsp;<span class="mcount">'+(i+1)+' of '+pics.length+'</span>':'');
+  const strip=document.getElementById('mstrip');
+  if(strip){
+    strip.innerHTML=pics.map((q,j)=>'<button type="button" data-i="'+j+'" aria-current="'+(j===i)+'" aria-label="Photograph '+(j+1)+'"><img src="'+esc(q.thumb)+'" alt=""></button>').join('');
+    for(const b of strip.querySelectorAll('button')) b.onclick=()=>showPic(pics,+b.dataset.i);
+  }
+}
+function closeModal(){const b=document.getElementById('mback');b.hidden=true;b.innerHTML='';document.body.style.overflow='';history.replaceState(null,'',location.pathname+location.search);}
+function renderQueue(){const el=document.getElementById('mqueue');if(!el)return;const n=qGet().length;
+  el.textContent=n?(n+' submission'+(n===1?'':'s')+' waiting on this device.'):'No submissions queued yet.';}
+// Downscale before storing: a phone photo is several megabytes and localStorage
+// gives us about five in total, so a raw dataURL would fill the queue instantly.
+function shrink(file){return new Promise(res=>{
+  const r=new FileReader();
+  r.onload=()=>{const img=new Image();img.onload=()=>{
+    const M=1200,sc=Math.min(1,M/Math.max(img.width,img.height));
+    const c=document.createElement('canvas');c.width=Math.round(img.width*sc);c.height=Math.round(img.height*sc);
+    c.getContext('2d').drawImage(img,0,0,c.width,c.height);
+    res(c.toDataURL('image/jpeg',0.8));};img.onerror=()=>res(null);img.src=r.result;};
+  r.onerror=()=>res(null); r.readAsDataURL(file);});}
+async function queueNote(x){
+  const t=document.getElementById('mnotetxt'), fi=document.getElementById('mnotefile');
+  const by=document.getElementById('mnoteby');
+  const note=(t.value||'').trim(); const file=fi.files[0];
+  if(!note&&!file){alert('Write a note or attach a photo first.');return;}
+  // A photograph with no credit cannot be published under CC BY-SA, so the name
+  // is collected while the person is still here rather than chased later.
+  if(file&&!(by&&by.value.trim())){alert('Please add your name — it becomes the credit on your photograph.');if(by)by.focus();return;}
+  let photo=null;
+  if(file){ if(file.size>12*1024*1024){alert('That image is very large — please pick one under 12 MB.');return;} photo=await shrink(file); }
+  const q=qGet();
+  q.push({place:x.id,name:x.nameRoman||x.name,lat:x.lat,lng:x.lng,note:note,photo:photo,
+          sac:!!x.siteType, by:(by&&by.value.trim())||'',
+          fromTemple:t.dataset.fromTemple==='1',
+          at:new Date().toISOString(),url:shareUrl(x)});
+  qSet(q); t.value=''; fi.value=''; document.getElementById('mfilehint').textContent='';
+  renderQueue();
+}
+function digest(){const q=qGet();if(!q.length)return null;
+  return q.map((s,i)=>(i+1)+'. '+(s.name||s.place)+(s.fromTemple?'   [FROM THE TEMPLE]':'')+'  ('+s.lat+', '+s.lng+')\n'+
+    '   '+s.url+'\n   '+(s.note||'(no note)')+(s.photo?'\n   [a photo is attached in the downloaded file]':'')).join('\n\n');}
+// Post the queued notes to the moderation queue, one suggestion each.
+//
+// A photograph goes up FIRST, on its own endpoint, and the note then carries a
+// reference to it — so the picture and the claim about the place arrive as one
+// reviewable unit. If the image fails to upload the note is NOT sent either:
+// half a contribution silently becoming a whole one is the kind of quiet lie
+// this archive exists to avoid.
+//
+// Only entries the server actually accepted are cleared. Failures stay queued
+// with the reason shown, so a flaky connection can never eat somebody notes.
+async function sendQueue(btn){
+  const q=qGet(); if(!q.length){alert('Nothing queued yet.');return;}
+  const el=document.getElementById('mqueue');
+  if(btn){btn.disabled=true;btn.textContent='Sending...';}
+  const today=new Date().toISOString().slice(0,10);
+  const keep=[]; let sent=0, pics=0, why='';
+  for(const s of q){
+    const media=[];
+    try{
+      if(s.photo){
+        const pr=await fetch(WORKER+'/photo',{method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body:JSON.stringify({place:s.place, dataUrl:s.photo, by:s.by||'anonymous contributor',
+                               licence:'CC BY-SA 4.0', note:s.note||''})});
+        let pj={}; try{ pj=await pr.json(); }catch(e){}
+        if(!(pr.ok&&pj.ok)){ keep.push(s); why=pj.error||('photograph rejected, HTTP '+pr.status); continue; }
+        media.push({type:'photo', key:pj.key, by:s.by||'anonymous contributor', licence:'CC BY-SA 4.0'});
+        pics++;
+      }
+      const point={id:s.place, lens:[s.sac?'sacred':'wat'], name:s.name||s.place,
+        lat:s.lat, lng:s.lng, geoPrecision:'block',
+        attrs:{note:s.note||'', fromTemple:!!s.fromTemple, page:s.url||''},
+        media:media,
+        sources:[{type:'field', by:(s.by||(s.fromTemple?'temple':'visitor'))+' via wichaa.net', date:today}],
+        confidence:'reported', updatedAt:today};
+      const r=await fetch(WORKER+'/suggest',{method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({kind:'correction', point:point})});
+      let j={}; try{ j=await r.json(); }catch(e){}
+      if(r.ok&&j.ok){ sent++; } else { keep.push(s); why=j.error||('HTTP '+r.status); }
+    }catch(e){ keep.push(s); why='could not reach the archive'; }
+  }
+  qSet(keep); renderQueue();
+  if(btn){btn.disabled=false;btn.textContent='Send to the archive';}
+  const bits=[];
+  if(sent) bits.push(sent+' submission'+(sent===1?'':'s')+' sent for review'+(pics?(', including '+pics+' photograph'+(pics===1?'':'s')):'')+'. Thank you.');
+  if(keep.length) bits.push(keep.length+' could not be sent ('+why+') and are still queued here, so nothing was lost.');
+  if(el&&bits.length) el.textContent=bits.join(' ');
+  else if(bits.length) alert(bits.join('\n'));
+}
+function emailQueue(){
+  const d=digest(); if(!d){alert('Nothing queued yet.');return;}
+  const q=qGet(), anyPhoto=q.some(s=>s.photo);
+  const body=encodeURIComponent('Notes on places in the wichaa wat map:\n\n'+d+
+    (anyPhoto?'\n\n(Photos cannot travel by mailto — use "Download submission file" and attach it.)':'')+
+    '\n\nSubmitted from '+location.origin+location.pathname+'\n');
+  location.href='mailto:'+ADMIN+'?subject='+encodeURIComponent('wichaa — wat map notes ('+q.length+')')+'&body='+body;
+}
+function downloadQueue(){
+  const q=qGet(); if(!q.length){alert('Nothing queued yet.');return;}
+  const blob=new Blob([JSON.stringify({type:'wichaa-wat-submissions',version:1,
+    exported:new Date().toISOString(),count:q.length,entries:q},null,2)],{type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download='wichaa-submissions-'+new Date().toISOString().slice(0,10)+'.json';
+  document.body.appendChild(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href),4000);
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){const b=document.getElementById('mback');if(b&&!b.hidden)closeModal();}});
+function byId(id){return (ALL||[]).concat((window.__W||{}).sacred||[]).find(z=>z.id===id);}
+function openFromHash(){const m=/^#place=(.+)$/.exec(location.hash||'');if(!m)return;
+  const x=byId(decodeURIComponent(m[1]));if(x)openModal(x);}
+window.addEventListener('hashchange',openFromHash);
+load();
+</script><button id=tomenu aria-label='Back to menu' onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650; Menu</button><script>(function(){var b=document.getElementById('tomenu');if(!b)return;var f=function(){b.classList.toggle('show',(window.scrollY||0)>320);};addEventListener('scroll',f,{passive:true});f();})();</script><div id=sharebar aria-label='Share this page'><span class=shlabel>Share</span><button class=shbtn data-sh=native title='Share…' hidden>&#10148;</button><button class=shbtn data-sh=copy title='Copy link'>&#128279;</button><button class=shbtn data-sh=fb title='Share on Facebook'>f</button><button class=shbtn data-sh=line title='Share on LINE'>L</button><button class=shbtn data-sh=tg title='Share on Telegram'>&#9992;</button></div><script>(function(){var bar=document.getElementById('sharebar');if(!bar)return;function toast(m){var t=document.createElement('div');t.className='shtoast';t.textContent=m;document.body.appendChild(t);setTimeout(function(){t.remove();},1800);}function links(u,t){return {fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};}function shareUrl(url,title){var u=encodeURIComponent(url),t=encodeURIComponent((title||'').replace(/\s+[—-]\s+wichaa.*$/i,''));return {u:u,t:t};}window.__share=function(url,title){url=url||location.href;title=title||document.title;if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});return;}if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){toast('Link copied');},function(){});}else toast(url);};var nat=bar.querySelector('[data-sh=native]');if(navigator.share&&nat)nat.hidden=false;bar.addEventListener('click',function(e){var el=e.target.closest('[data-sh]');if(!el)return;var k=el.getAttribute('data-sh');var s=shareUrl(location.href,document.title);if(k==='native'){window.__share();return;}if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){toast('Link copied');},function(){toast(location.href);});}else toast(location.href);return;}var m=links(s.u,s.t);if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script><a id=kofloat href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener aria-label='Support this work on Ko-fi' style="position:fixed;right:16px;bottom:16px;z-index:40;background:#fbf1dc;color:#8a5a00;border:1px solid #e6d3a8;border-radius:999px;padding:11px 16px;font-weight:700;font-size:14.5px;text-decoration:none;box-shadow:0 6px 18px #0002">&#9749; Support</a></body></html>
