@@ -236,6 +236,20 @@
         }
       }
     },
+    "/api/coverage.json": {
+      "get": {
+        "summary": "What has been looked for, where, by what method — so an absence can be read. Distinguishes",
+        "description": "What has been looked for, where, by what method — so an absence can be read. Distinguishes out-of-scope from not-in-the-source from simply unwritten, which need three different responses.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/dashboard.json": {
       "get": {
         "summary": "Genre coverage vs digitisation.",
@@ -478,6 +492,20 @@
       "get": {
         "summary": "Manifest of every page this build emitted (route, label, kind).",
         "description": "Manifest of every page this build emitted (route, label, kind).",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/place-types.json": {
+      "get": {
+        "summary": "The emic vocabulary. ศาลพระภูมิ (guardian of the land) and ศาลเจ้าที่ (spirit of the place",
+        "description": "The emic vocabulary. ศาลพระภูมิ (guardian of the land) and ศาลเจ้าที่ (spirit of the place) are different things that stand a metre apart; the English gloss is a convenience and carries no authority. Each term declares its own confidence.",
         "responses": {
           "200": {
             "description": "OK",

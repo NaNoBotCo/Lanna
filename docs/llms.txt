@@ -20,6 +20,8 @@ All endpoints are CORS-open GET-only JSON. Start at the API index or the OpenAPI
 - [Articles index](https://wichaa.net/api/articles.json) and [one article](https://wichaa.net/api/article/{slug}.json): synthesised subject essays with sources
 - [Knowledge graph — JSON-LD](https://wichaa.net/api/graph.jsonld) · [Turtle](https://wichaa.net/api/graph.ttl): typed entity relations as RDF
 - [Living market](https://wichaa.net/api/market.json): the contemporary commerce layer (same tradition, still trading)
+- [Coverage](https://wichaa.net/api/coverage.json): what has been looked for and where — read this before concluding something is absent
+- [Place types](https://wichaa.net/api/place-types.json): the emic vocabulary, each term with its own confidence
 - [Wats of the Lanna north](https://wichaa.net/api/wats.json): every mapped temple — coordinates, province, heritage registration, photographs, lead description. The atlas's own source.
 - [One place in full](https://wichaa.net/api/place/{id}.json): all photographs with per-image licence, the complete sectioned article (Thai + English), contact/hours where recorded, and a `facets` block
 - [Thesaurus](https://wichaa.net/api/thesaurus.json) and [vocabulary](https://wichaa.net/api/vocab.json): controlled bilingual terms
