@@ -306,6 +306,20 @@
         }
       }
     },
+    "/api/functions.json": {
+      "get": {
+        "summary": "Functions data.",
+        "description": "Functions data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/gallery.json": {
       "get": {
         "summary": "Gallery data.",

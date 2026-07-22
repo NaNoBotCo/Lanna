@@ -62,6 +62,13 @@
       "templated": false
     },
     {
+      "path": "/api/functions.json",
+      "url": "https://wichaa.net/api/functions.json",
+      "description": "Functions data.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
       "path": "/api/gallery.json",
       "url": "https://wichaa.net/api/gallery.json",
       "description": "Gallery data.",
