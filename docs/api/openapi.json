@@ -222,10 +222,38 @@
         }
       }
     },
+    "/api/atlas.json": {
+      "get": {
+        "summary": "Atlas data.",
+        "description": "Atlas data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/build-info.json": {
       "get": {
         "summary": "Generator version, build time, catalogue mtime, counts.",
         "description": "Generator version, build time, catalogue mtime, counts.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/constellation.json": {
+      "get": {
+        "summary": "Constellation data.",
+        "description": "Constellation data.",
         "responses": {
           "200": {
             "description": "OK",
@@ -586,10 +614,38 @@
         }
       }
     },
+    "/api/term-echo.json": {
+      "get": {
+        "summary": "Term echo data.",
+        "description": "Term echo data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/thesaurus.json": {
       "get": {
         "summary": "Bilingual thesaurus: query-token expansion groups.",
         "description": "Bilingual thesaurus: query-token expansion groups.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/trails.json": {
+      "get": {
+        "summary": "Trails data.",
+        "description": "Trails data.",
         "responses": {
           "200": {
             "description": "OK",
@@ -614,10 +670,80 @@
         }
       }
     },
+    "/api/wander.json": {
+      "get": {
+        "summary": "Wander data.",
+        "description": "Wander data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/wats.json": {
       "get": {
         "summary": "Every mapped temple of the Lanna north plus non-wat sacred sites: coordinates, province, h",
         "description": "Every mapped temple of the Lanna north plus non-wat sacred sites: coordinates, province, heritage registration, photographs (first two inline), and a lead description. The map's own data source.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/graph/audit.json": {
+      "get": {
+        "summary": "The graph cross-examined: isolates, dead-end shares, orphan and unreachable routes, woven-",
+        "description": "The graph cross-examined: isolates, dead-end shares, orphan and unreachable routes, woven-layer components.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/graph/edges.jsonl": {
+      "get": {
+        "summary": "Edge per line: {src, dst, type, prov, w, ev}. `prov` is the relationship's provenance — au",
+        "description": "Edge per line: {src, dst, type, prov, w, ev}. `prov` is the relationship's provenance — authored (a human wrote it), adjudicated (a resolver ruled), computed (structure), derived (a bot noticed, with its receipt in `ev`). Weights are counts, never inferences.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/x-ndjson": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/graph/nodes.jsonl": {
+      "get": {
+        "summary": "The corpus-scale knowledge graph, node per line: every manuscript, market item, place, ter",
+        "description": "The corpus-scale knowledge graph, node per line: every manuscript, market item, place, term, finding, page and subject, with a stable id and class.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/x-ndjson": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/graph/summary.json": {
+      "get": {
+        "summary": "Graph shape at a glance: node counts by class, edge counts by type and provenance, display",
+        "description": "Graph shape at a glance: node counts by class, edge counts by type and provenance, display strings for every edge type.",
         "responses": {
           "200": {
             "description": "OK",

@@ -20,9 +20,23 @@
       "templated": false
     },
     {
+      "path": "/api/atlas.json",
+      "url": "https://wichaa.net/api/atlas.json",
+      "description": "Atlas data.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
       "path": "/api/build-info.json",
       "url": "https://wichaa.net/api/build-info.json",
       "description": "Generator version, build time, catalogue mtime, counts.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/constellation.json",
+      "url": "https://wichaa.net/api/constellation.json",
+      "description": "Constellation data.",
       "format": "application/json",
       "templated": false
     },
@@ -195,9 +209,23 @@
       "templated": false
     },
     {
+      "path": "/api/term-echo.json",
+      "url": "https://wichaa.net/api/term-echo.json",
+      "description": "Term echo data.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
       "path": "/api/thesaurus.json",
       "url": "https://wichaa.net/api/thesaurus.json",
       "description": "Bilingual thesaurus: query-token expansion groups.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/trails.json",
+      "url": "https://wichaa.net/api/trails.json",
+      "description": "Trails data.",
       "format": "application/json",
       "templated": false
     },
@@ -209,9 +237,44 @@
       "templated": false
     },
     {
+      "path": "/api/wander.json",
+      "url": "https://wichaa.net/api/wander.json",
+      "description": "Wander data.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
       "path": "/api/wats.json",
       "url": "https://wichaa.net/api/wats.json",
       "description": "Every mapped temple of the Lanna north plus non-wat sacred sites: coordinates, province, heritage registration, photographs (first two inline), and a lead description. The map's own data source.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/graph/audit.json",
+      "url": "https://wichaa.net/api/graph/audit.json",
+      "description": "The graph cross-examined: isolates, dead-end shares, orphan and unreachable routes, woven-layer components.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/graph/edges.jsonl",
+      "url": "https://wichaa.net/api/graph/edges.jsonl",
+      "description": "Edge per line: {src, dst, type, prov, w, ev}. `prov` is the relationship's provenance — authored (a human wrote it), adjudicated (a resolver ruled), computed (structure), derived (a bot noticed, with its receipt in `ev`). Weights are counts, never inferences.",
+      "format": "application/x-ndjson",
+      "templated": false
+    },
+    {
+      "path": "/api/graph/nodes.jsonl",
+      "url": "https://wichaa.net/api/graph/nodes.jsonl",
+      "description": "The corpus-scale knowledge graph, node per line: every manuscript, market item, place, term, finding, page and subject, with a stable id and class.",
+      "format": "application/x-ndjson",
+      "templated": false
+    },
+    {
+      "path": "/api/graph/summary.json",
+      "url": "https://wichaa.net/api/graph/summary.json",
+      "description": "Graph shape at a glance: node counts by class, edge counts by type and provenance, display strings for every edge type.",
       "format": "application/json",
       "templated": false
     },

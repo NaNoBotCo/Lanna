@@ -28,6 +28,45 @@ All endpoints are CORS-open GET-only JSON. Start at the API index or the OpenAPI
 - [Thesaurus](https://wichaa.net/api/thesaurus.json) and [vocabulary](https://wichaa.net/api/vocab.json): controlled bilingual terms
 - [Discoveries feed](https://wichaa.net/feed.json): JSON Feed of the synthesised articles — poll it for what's here
 
+## Relationships — how to walk this corpus, not just read it
+
+The most useful thing here is not any single record: it is what the records have to do with
+each other. That is published as a graph you can traverse without touching the HTML.
+
+- [Nodes](https://wichaa.net/api/graph/nodes.jsonl) · [Edges](https://wichaa.net/api/graph/edges.jsonl) — newline-delimited
+  JSON, one object per line, streamable.
+- [Shape](https://wichaa.net/api/graph/summary.json) — node counts by class, edge counts by type, and the
+  display name of every relation. Read this to learn the vocabulary before you walk.
+- [Audit](https://wichaa.net/api/graph/audit.json) — the graph's own account of its dead ends and gaps.
+
+**Node ids** are `class:value` and are stable: `ms:6962` (manuscript), `item:3408` (a market
+listing), `place:wat-chiang-man`, `term:เมตตา`, `entity:lersi`, `genre:astrology`,
+`finding:echoshared-vocabulary`, `province:Phrae`, `tradition:Lanna manuscripts`.
+
+**Edges** are `{src, dst, type, prov, w, ev}`. `type` is the relation (`about`,
+`carries_term`, `held_at`, `near`, `co_occurs_with`, `cites`, …). `w` is a real count or a
+distance in metres, never a score we invented. `ev` is the receipt in words — "7 shared
+manuscripts", "title contains 'ruesi'", "312 m apart".
+
+**`prov` is the important field.** It says how the relationship came to be known, and you
+should weight it accordingly:
+- `authored` — a human asserted it (curated triples, an article's see-also, a vault link)
+- `adjudicated` — a written rule decided it, and fails closed when it cannot (e.g. Rāhu the
+  eclipse-graha vs Rāhula the Buddha's son, which share a stem and are not the same subject)
+- `computed` — it follows from the catalogue's own columns or coordinates
+- `derived` — a bot noticed a pattern and cited the records it counted
+
+Nothing in this graph is an inference from a language model's priors. If a relation cannot
+be traced to data, it is not published.
+
+**Already-resolved relations** ride along inside the entity records, so you often need no
+second fetch: `api/manuscript/{id}.json`, `api/place/{id}.json` and
+`api/article/{slug}.json` each carry a `threads` array of `{rel, href, label, note}`.
+
+- [Trails](https://wichaa.net/api/trails.json) — walks through the graph with a line of narration per step.
+  Some are written by hand; the ones marked `"author": "bots"` were assembled from a
+  curiosity finding and the records it cited, and say so on the page.
+
 ## Deeper context in one file
 - [llms-full.txt](https://wichaa.net/llms-full.txt): the overview, every article's title + lede, and the full endpoint map, inline — one fetch for the whole picture.
 

@@ -121,7 +121,8 @@
     '/api/activity':'/api/activity.json',
     '/api/expedite':'/api/expedite.json','/api/wats':'/api/wats.json',
     '/api/coverage':'/api/coverage.json','/api/place-types':'/api/place-types.json',
-    '/api/functions':'/api/functions.json'
+    '/api/functions':'/api/functions.json',
+    '/api/wander':'/api/wander.json','/api/term-echo':'/api/term-echo.json'
   };
   var _fetch = window.fetch ? window.fetch.bind(window) : function(u){return fetch(u);};
 
@@ -302,7 +303,7 @@
       }});
   } catch(e){}
 })();
-</script><header><div><h1>New on the market</h1><p class=sub>The newest amulet listings the crawler has catalogued — title, price, province, and charm type, verbatim from the living market.</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/moon'>Moon</a><a href='/jovilabe'>Jovilabe</a><a href='/redspot'>Red Spot</a><a href='/hun'>Hun Payont</a><a href='/widgets'>Widgets</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><div class=sharebar><button onclick="navigator.clipboard.writeText(location.href.split('?')[0]).then(()=>this.textContent='✓ copied')">🔗 Copy link</button><button onclick="navigator.clipboard.writeText('<iframe src=&quot;'+location.origin+'/w/products?embed=1&quot; width=&quot;100%&quot; height=&quot;620&quot; frameborder=&quot;0&quot;></iframe>').then(()=>this.textContent='✓ copied')">📋 Copy embed code</button><a href='/w/products/products-offline.html' download>⬇ Whole widget (1 file)</a><a href='/api/w/products' download='products.json'>⬇ JSON</a></div><p class=muted>Loading…</p></main><script>const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};fetch('/api/w/products').then(r=>r.json()).then(D=>{const main=document.getElementById('main');main.querySelector('p.muted')?.remove();
+</script><header><div><h1>New on the market</h1><p class=sub>The newest amulet listings the crawler has catalogued — title, price, province, and charm type, verbatim from the living market.</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/trails'>Trails</a><a href='/articles'>Profiles</a><a href='/moon'>Moon</a><a href='/jovilabe'>Jovilabe</a><a href='/redspot'>Red Spot</a><a href='/hun'>Hun Payont</a><a href='/widgets'>Widgets</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a><a href='/atlas'>Atlas</a></nav></header><main id=main><div class=sharebar><button onclick="navigator.clipboard.writeText(location.href.split('?')[0]).then(()=>this.textContent='✓ copied')">🔗 Copy link</button><button onclick="navigator.clipboard.writeText('<iframe src=&quot;'+location.origin+'/w/products?embed=1&quot; width=&quot;100%&quot; height=&quot;620&quot; frameborder=&quot;0&quot;></iframe>').then(()=>this.textContent='✓ copied')">📋 Copy embed code</button><a href='/w/products/products-offline.html' download>⬇ Whole widget (1 file)</a><a href='/api/w/products' download='products.json'>⬇ JSON</a></div><p class=muted>Loading…</p></main><script>const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};fetch('/api/w/products').then(r=>r.json()).then(D=>{const main=document.getElementById('main');main.querySelector('p.muted')?.remove();
 if(!D.items.length){main.append(el('p',{textContent:'No listings catalogued yet.'}));return;}
 main.append(el('p',{style:'font-weight:700',textContent:`${D.totals.live.toLocaleString()} live listings of ${D.totals.listings.toLocaleString()} catalogued — the ${D.shown} newest below. A shelf, not a shop: rows are verbatim from the market crawl.`}));
 for(const it of D.items){
@@ -322,4 +323,65 @@ for(const it of D.items){
   card.append(el('div',{style:'font-size:13px;color:#3a4a47;margin-top:4px',textContent:meta.join(' — ')}));
   main.append(card);
 }
-});</script><button id=tomenu aria-label='Back to menu' onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650; Menu</button><script>(function(){var b=document.getElementById('tomenu');if(!b)return;var f=function(){b.classList.toggle('show',(window.scrollY||0)>320);};addEventListener('scroll',f,{passive:true});f();})();</script><div id=sharebar aria-label='Share this page'><span class=shlabel>Share</span><button class=shbtn data-sh=native title='Share…' hidden>&#10148;</button><button class=shbtn data-sh=copy title='Copy link'>&#128279;</button><button class=shbtn data-sh=fb title='Share on Facebook'>f</button><button class=shbtn data-sh=line title='Share on LINE'>L</button><button class=shbtn data-sh=tg title='Share on Telegram'>&#9992;</button></div><script>(function(){var bar=document.getElementById('sharebar');if(!bar)return;function toast(m){var t=document.createElement('div');t.className='shtoast';t.textContent=m;document.body.appendChild(t);setTimeout(function(){t.remove();},1800);}function links(u,t){return {fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};}function shareUrl(url,title){var u=encodeURIComponent(url),t=encodeURIComponent((title||'').replace(/\s+[—-]\s+wichaa.*$/i,''));return {u:u,t:t};}window.__share=function(url,title){url=url||location.href;title=title||document.title;if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});return;}if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){toast('Link copied');},function(){});}else toast(url);};var nat=bar.querySelector('[data-sh=native]');if(navigator.share&&nat)nat.hidden=false;bar.addEventListener('click',function(e){var el=e.target.closest('[data-sh]');if(!el)return;var k=el.getAttribute('data-sh');var s=shareUrl(location.href,document.title);if(k==='native'){window.__share();return;}if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){toast('Link copied');},function(){toast(location.href);});}else toast(location.href);return;}var m=links(s.u,s.t);if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script><a id=kofloat href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener aria-label='Support this work on Ko-fi' style="position:fixed;right:16px;bottom:16px;z-index:40;background:#fbf1dc;color:#8a5a00;border:1px solid #e6d3a8;border-radius:999px;padding:11px 16px;font-weight:700;font-size:14.5px;text-decoration:none;box-shadow:0 6px 18px #0002">&#9749; Support</a></body></html>
+});</script><button id=tomenu aria-label='Back to menu' onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650; Menu</button><script>(function(){var b=document.getElementById('tomenu');if(!b)return;var f=function(){b.classList.toggle('show',(window.scrollY||0)>320);};addEventListener('scroll',f,{passive:true});f();})();</script><button id=wander title='เดินเล่น · Wander — somewhere unexpected'>&#127922; เดินเล่น</button><style>#wander{position:fixed;left:14px;bottom:64px;z-index:60;border:1px solid rgba(128,128,128,.45);border-radius:999px;padding:9px 14px;font-size:14px;cursor:pointer;background:#fffdf7;color:#243230;box-shadow:0 1px 5px rgba(0,0,0,.14)}#wander:hover{border-color:currentColor}@media print{#wander{display:none}}</style><script>(function(){var b=document.getElementById('wander');if(!b)return;var P=null,B=(window.__LANNA_BASE__||'/');b.addEventListener('click',function(){(P?Promise.resolve(P):fetch('/api/wander').then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){P=d;return d;})).then(function(d){var pool=(d&&d.pool)||[];if(!pool.length){b.style.display='none';return;}var by={};for(var j=0;j<pool.length;j++){var k=pool[j][2]||'other';(by[k]=by[k]||[]).push(pool[j]);}var ks=Object.keys(by);for(var i=0;i<9;i++){var g=by[ks[Math.floor(Math.random()*ks.length)]];var e=g[Math.floor(Math.random()*g.length)];if(e&&e[0]&&(location.pathname+location.search).indexOf(e[0])!==0){location.href=B+String(e[0]).replace(/^\//,'');return;}}}).catch(function(){b.style.display='none';});});})();</script><style>#ribbon{position:fixed;left:14px;bottom:114px;z-index:50;background:#fffdf7;color:#243230;border:1px solid rgba(128,128,128,.45);border-radius:999px;padding:9px 14px;font-size:14px;cursor:pointer;box-shadow:0 1px 5px rgba(0,0,0,.14);display:none}#ribbon.show{display:block}#ribbon:hover{border-color:currentColor}#ribpanel{position:fixed;left:14px;bottom:154px;z-index:51;width:min(360px,88vw);background:#fffdf7;color:#243230;border:1px solid rgba(128,128,128,.45);border-radius:14px;padding:14px 16px;box-shadow:0 8px 24px rgba(0,0,0,.18);display:none;font-size:14.5px;line-height:1.5}#ribpanel.show{display:block}#ribpanel h3{margin:0 0 4px;font-size:16px}#ribpanel ol{margin:8px 0;padding-left:20px}#ribpanel li{margin:3px 0}#ribpanel .priv{font-size:12.5px;opacity:.7;margin:6px 0 10px}#ribpanel button{font:inherit;font-weight:600;padding:8px 12px;border-radius:999px;border:1px solid rgba(128,128,128,.45);background:#fff;color:#243230;cursor:pointer;margin:2px 4px 2px 0}#ribpanel button:hover{background:#efe7d5}#ribpanel .say{font-size:13px;margin-top:8px;min-height:1.2em}@media print{#ribbon,#ribpanel{display:none!important}}</style><button id=ribbon aria-expanded=false></button><div id=ribpanel role=dialog aria-label='ทางที่คุณเดิน · Where you've been'></div><script>
+(function(){
+  var KEY='wichaa.trail', MAX=10;
+  var L={"your_trail":["ทางที่คุณเดิน","Where you've been"],"trails":["เส้นทาง","Trails"]};
+  function read(){try{return JSON.parse(localStorage.getItem(KEY)||'[]');}catch(e){return [];}}
+  function write(v){try{localStorage.setItem(KEY,JSON.stringify(v));}catch(e){}}
+  // record this page, newest last; a reload or a re-visit moves it rather than
+  // duplicating it, so the walk reads as a route and not a stutter.
+  var here=location.pathname+location.search;
+  var t=read().filter(function(e){return e.h!==here;});
+  t.push({h:here,t:(document.title||here).replace(/ — wichaa$/,'')});
+  while(t.length>MAX)t.shift();
+  write(t);
+  var b=document.getElementById('ribbon'), p=document.getElementById('ribpanel');
+  if(!b||!p)return;
+  function label(){var n=read().length;b.textContent='\u{1F9F5} '+L.your_trail[0]+' ('+n+')';
+    b.title=L.your_trail[0]+' · '+L.your_trail[1];}
+  function paint(){
+    var t=read().slice().reverse();
+    var items=t.map(function(e){return '<li><a href="'+e.h+'">'+
+      String(e.t).replace(/[<>&"]/g,function(c){return {'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c];})+'</a></li>';}).join('');
+    p.innerHTML='<h3>'+L.your_trail[0]+' · '+L.your_trail[1]+'</h3>'+
+      '<p class=priv>Kept in this browser only. No cookie, no account, nothing sent — '+
+      'unless you offer it below.</p><ol>'+items+'</ol>'+
+      '<button id=rib_offer>Offer this walk as a trail</button>'+
+      '<button id=rib_clear>Forget these</button>'+
+      '<div class=say id=rib_say></div>';
+    document.getElementById('rib_clear').onclick=function(){
+      write([]);label();paint();document.getElementById('rib_say').textContent='Forgotten.';};
+    document.getElementById('rib_offer').onclick=offer;
+  }
+  function offer(){
+    var say=document.getElementById('rib_say');
+    var steps=read().map(function(e){return {href:e.h,title:e.t};});
+    if(steps.length<2){say.textContent='Walk a little further first — a trail needs at least two stops.';return;}
+    var note=prompt('One line: why is this walk worth following?')||'';
+    var payload={kind:'trail',steps:steps,note:note,offeredAt:new Date().toISOString()};
+    say.textContent='Offering…';
+    fetch('https://mueang-map-sync.wichaa.workers.dev/trail',
+      {method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(payload)})
+      .then(function(r){if(!r.ok)throw 0;return r.json();})
+      .then(function(){say.textContent='Thank you — it is in the queue for review.';})
+      .catch(function(){
+        // The queue may not be reachable (it is a separate service, and this
+        // site is a static file). Never lose the visitor's walk to a failed
+        // request: hand it back to them in a form they can send themselves.
+        var text=(note?note+'\n\n':'')+steps.map(function(s,i){
+          return (i+1)+'. '+s.title+'  '+location.origin+s.href;}).join('\n');
+        if(navigator.clipboard)navigator.clipboard.writeText(text);
+        var mail='mailto:530kings@proton.me?subject='+encodeURIComponent('A trail for wichaa')+
+          '&body='+encodeURIComponent(text);
+        say.innerHTML='Copied to your clipboard — <a href="'+mail+'">send it by email</a> '+
+          'and it will be read by a human.';
+      });
+  }
+  b.addEventListener('click',function(){
+    var open=p.classList.toggle('show');
+    b.setAttribute('aria-expanded',open?'true':'false');
+    if(open)paint();});
+  if(read().length>1){label();b.classList.add('show');}
+})();
+</script><div id=sharebar aria-label='Share this page'><span class=shlabel>Share</span><button class=shbtn data-sh=native title='Share…' hidden>&#10148;</button><button class=shbtn data-sh=copy title='Copy link'>&#128279;</button><button class=shbtn data-sh=fb title='Share on Facebook'>f</button><button class=shbtn data-sh=line title='Share on LINE'>L</button><button class=shbtn data-sh=tg title='Share on Telegram'>&#9992;</button></div><script>(function(){var bar=document.getElementById('sharebar');if(!bar)return;function toast(m){var t=document.createElement('div');t.className='shtoast';t.textContent=m;document.body.appendChild(t);setTimeout(function(){t.remove();},1800);}function links(u,t){return {fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};}function shareUrl(url,title){var u=encodeURIComponent(url),t=encodeURIComponent((title||'').replace(/\s+[—-]\s+wichaa.*$/i,''));return {u:u,t:t};}window.__share=function(url,title){url=url||location.href;title=title||document.title;if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});return;}if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){toast('Link copied');},function(){});}else toast(url);};var nat=bar.querySelector('[data-sh=native]');if(navigator.share&&nat)nat.hidden=false;bar.addEventListener('click',function(e){var el=e.target.closest('[data-sh]');if(!el)return;var k=el.getAttribute('data-sh');var s=shareUrl(location.href,document.title);if(k==='native'){window.__share();return;}if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){toast('Link copied');},function(){toast(location.href);});}else toast(location.href);return;}var m=links(s.u,s.t);if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script><a id=kofloat href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener aria-label='Support this work on Ko-fi' style="position:fixed;right:16px;bottom:16px;z-index:40;background:#fbf1dc;color:#8a5a00;border:1px solid #e6d3a8;border-radius:999px;padding:11px 16px;font-weight:700;font-size:14.5px;text-decoration:none;box-shadow:0 6px 18px #0002">&#9749; Support</a></body></html>

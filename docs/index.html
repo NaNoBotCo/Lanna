@@ -145,6 +145,55 @@
     font-size:14px;color:#5d5750}
   .geokey span{display:flex;align-items:center;gap:7px}
   .geokey i{width:14px;height:14px;border-radius:3px;display:inline-block}
+
+  /* ---- the map room (Phase C, WAYFINDING_PLAN.md) ------------------------ */
+  /* Today's stroll: eight doors, date-seeded, the same for everyone. */
+  .daysay{font-family:var(--serif);font-size:19px;color:#3c463f;margin:14px 0 4px}
+  .stroll{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+  .door{display:inline-block;padding:11px 16px;background:var(--panel);
+    border:1px solid var(--line);border-radius:10px;font-size:16px;color:var(--ink);
+    line-height:1.35;max-width:100%}
+  .door:hover{border-color:var(--gold);text-decoration:none;background:#fffdf6}
+  .strollnote{font-size:15.5px;color:var(--muted);margin-top:14px}
+  .linkish{background:none;border:0;padding:0;font:inherit;color:var(--crimson);
+    cursor:pointer;text-decoration:underline}
+  /* The bots' work — dark section, reusing the .testimony palette. */
+  .botlede{max-width:44rem;font-size:18px;color:#e9e1cf}
+  .meter{height:14px;border-radius:999px;background:#33433c;overflow:hidden;
+    max-width:640px;margin:20px 0 12px;border:1px solid #3b4a43}
+  .meter span{display:block;height:100%;background:var(--gold);border-radius:999px}
+  .botmeta{font-size:16px;color:#cfc6b1;max-width:44rem}
+  .testimony .botmeta b,.testimony .botlede b{color:var(--gold-soft)}
+  /* The gap ledger — coverage as an object you can act on. */
+  .gaps{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+    gap:16px;margin-top:22px}
+  .gap{background:var(--panel);border:1px solid var(--line);border-radius:14px;
+    padding:18px 20px}
+  .gaptop{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+  .gaptop b{font-family:var(--serif);font-size:18px}
+  .gapn{font-size:14px;color:var(--gold);font-weight:700;white-space:nowrap}
+  .gap p{font-size:15.5px;color:#43473f;margin:8px 0 12px;line-height:1.55}
+  .gap a{font-weight:600;font-size:15px}
+  /* One neighbourhood of the graph, drawn. */
+  .constel{margin:26px 0 0;padding:0}
+  .egograph{width:100%;height:auto;display:block;max-width:760px;margin:0 auto}
+  .egoline{stroke:var(--gold-soft);stroke-width:1.2;opacity:.65}
+  /* paint-order gives every label a halo of the page colour, so a line passing
+     behind the words never muddies them — cheaper and cleaner than backing rects */
+  .egograph text{paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round}
+  .hubt{font-family:var(--serif);font-size:21px;fill:var(--ink);font-weight:600}
+  .spoket{font-family:var(--sans);font-size:15px;fill:#3c463f}
+  .egograph a:hover text{fill:var(--crimson);text-decoration:underline}
+  .relt{font-family:var(--sans);font-size:12px;fill:var(--muted)}
+  .constel figcaption{text-align:center;font-size:15.5px;color:var(--muted);
+    margin-top:10px}
+  /* เดินเล่น — the landing's own copy of the wander pill. */
+  #wander{position:fixed;left:14px;bottom:18px;z-index:60;background:var(--panel);
+    border:1.5px solid var(--gold);border-radius:999px;padding:10px 16px;
+    font-size:16px;font-family:var(--sans);color:var(--ink);cursor:pointer;
+    box-shadow:0 1px 6px rgba(0,0,0,.12)}
+  #wander:hover{background:var(--gold);color:#fff}
+  @media print{#wander{display:none}}
 </style>
 <!-- site_meta:begin --><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "wichaa", "description": "A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa tradition — astrology, ritual, and magic — with a curated knowledge graph and a living-market layer.", "url": "https://wichaa.net/", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@type": "Organization", "name": "NaNoBotCo", "email": "530kings@proton.me"}, "keywords": ["Lanna manuscripts", "Northern Thai", "Tai Tham script", "wichaa", "Thai astrology", "hora", "yantra", "sak yant", "katha", "Buddhist manuscripts", "palm-leaf manuscripts", "Southeast Asian manuscripts", "digital humanities"], "inLanguage": ["th", "en", "pi"], "isAccessibleForFree": true, "size": "6990 manuscripts", "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://wichaa.net/api/manuscripts.json", "name": "All manuscripts (JSON)"}, {"@type": "DataDownload", "encodingFormat": "application/ld+json", "contentUrl": "https://wichaa.net/api/graph.jsonld", "name": "Knowledge graph (JSON-LD)"}, {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://wichaa.net/api/graph.ttl", "name": "Knowledge graph (Turtle)"}]}</script><link rel="alternate" type="application/ld+json" href="https://wichaa.net/api/graph.jsonld" title="Knowledge graph (JSON-LD)"><link rel="alternate" type="text/turtle" href="https://wichaa.net/api/graph.ttl" title="Knowledge graph (Turtle)"><!-- site_meta:end --></head>
 <body>
@@ -165,7 +214,7 @@
     archive, carried from palm-leaf to phone screen.</p>
   <div class="cta">
     <a class="btn primary" href="/browse">Enter the archive →</a>
-    <a class="btn ghost" href="#thread">See a single thread</a>
+    <a class="btn ghost" href="#today">What's here today</a>
     <a class="btn ghost" href="/support">☕ Tam boon</a>
   </div>
   <hr class="rule">
@@ -182,6 +231,23 @@
   </div>
 </div>
 
+<section id="today">
+  <div class="wrap">
+    <p style="max-width:46rem;font-size:19.5px;margin:0 0 4px">A vast store of obscure
+      knowledge, deliberately kept and repurposed for posterity — where the relationships
+      between things are the point, and both people and machines are meant to wander in
+      and find something they weren't looking for.</p>
+    
+    <div class="eyebrow">เดินเล่น · Wander</div>
+    <h2>Today at wichaa</h2>
+    <p id="daysay" class="daysay"></p>
+    <div class="stroll" id="stroll"></div>
+    <p class="strollnote">Eight doors, chosen by today's date — the same eight for
+      everyone, until midnight. <button id="reroll" class="linkish" type="button">Or
+      roll the dice &#127922;</button></p>
+  </div>
+</section>
+
 <section>
   <div class="wrap">
     <div class="eyebrow">The corpus</div>
@@ -191,10 +257,12 @@
       an antique palm-leaf manual, an amulet for sale today, and a saint petitioned in New Orleans
       are all the same human craft of turning knowledge to effect.</p>
     <div class="ways">
-      <a class="way" href="/browse"><b>Browse</b><span>all {{MANUSCRIPTS}} manuscripts, by place, script, genre</span></a>
-      <a class="way" href="/articles"><b>Articles</b><span>the tradition explained, subject by subject</span></a>
+      <a class="way" href="/browse"><b>Browse</b><span>all 6,990 manuscripts, by place, script, genre</span></a>
+      <a class="way" href="/atlas"><b>แผนที่ · The Atlas</b><span>the whole archive as one picture — every concept, joined by what they share</span></a>
+      <a class="way" href="/trails"><b>เส้นทาง · Trails</b><span>walks through the archive — a few records in an order, and why</span></a>
       <a class="way" href="/graph"><b>Graph</b><span>lersi, yantra, katha — how they connect</span></a>
       <a class="way" href="/textbooks"><b>Textbooks</b><span>31 manuals of working magic, page by page</span></a>
+      <a class="way" href="/articles"><b>Articles</b><span>the tradition explained, subject by subject</span></a>
       <a class="way" href="/glossary/"><b>Glossary</b><span>the tradition's words, in Thai · English · 中文</span></a>
       <a class="way" href="/na/"><b>The 108 Na</b><span>142 sacred glyphs, each paired with its page</span></a>
       <a class="way" href="/moon"><b>The moon complication</b><span>a working dial — two moons on one turning disc</span></a>
@@ -203,14 +271,61 @@
       <a class="way" href="/hun"><b>หุ่นพยนต์ · Hun Payont</b><span>an effigy you forge and carry — it reads the day and goes to market for you</span></a>
       <a class="way" href="/market"><b>Market</b><span>the same tradition, still trading today</span></a>
       <a class="way" href="/expedite"><b>St. Expedite</b><span>a global saint-cult of urgent causes — 192 shrines</span></a>
-      <a class="way" href="/wats"><b>Wats of the Lanna north</b><span>{{WATS}} temples mapped, {{WATS_HERITAGE}} heritage-registered</span></a>
+      <a class="way" href="/wats"><b>Wats of the Lanna north</b><span>1,466 temples mapped, 159 heritage-registered</span></a>
       <a class="way" href="/diagrams"><b>Diagrams</b><span>yantra plates and sak-yant stencils</span></a>
       <a class="way" href="/widgets"><b>Widgets &amp; shit</b><span>small free tools that do one thing — no accounts, no app store</span></a>
       <a class="way" href="/explore"><b>The full overview</b><span>counts, facets, and search</span></a>
     </div>
     <p class="machines">Built to be read by people <em>and</em> by machines — faithfully.
-      An AI or agent can start at <code>/llms.txt</code> or the <a href="/api/index.json">API index</a>;
+      An AI or agent can start at <code>/llms.txt</code>, the <a href="/api/index.json">API index</a>,
+      or walk the relationships themselves at <code>/api/graph/edges.jsonl</code>;
       the whole corpus is open under CC-BY.</p>
+  </div>
+</section>
+
+<section class="geosec">
+  <div class="wrap">
+    
+    <div class="eyebrow">The graph</div>
+    <h2>Everything is tied to something</h2>
+    <p style="max-width:44rem;opacity:.85">24 neighbourhoods of the archive's
+      knowledge graph, one shown each day. Every line is a relation the data can
+      account for — a shared word, a named subject, a wat down the road.</p>
+    <figure class="constel"><div id="constel-svg"></div>
+      <figcaption id="constel-cap"></figcaption></figure>
+  </div>
+</section>
+
+<section class="testimony">
+  <div class="wrap">
+    
+    <div class="eyebrow">Today's work</div>
+    <h2>What the bots have read</h2>
+    <p class="botlede">Every page the archive holds — <b>4,529</b> of them — has been
+      read by the machines and described. Turning that into something a person can
+      actually <i>read</i> is slower: <b>296</b> pages are transcribed and
+      translated so far, 6.5% of the whole.</p>
+    <div class="meter" role="img" aria-label="296 of 4,529 pages transcribed"><span style="width:6.54%"></span></div>
+    <p class="botmeta"><b>4,233</b> pages still waiting · about
+      <b>$253</b> to finish at the going rate of $0.06 a page ·
+      <b>14</b> discoveries noticed by the curiosity bots so far</p>
+    <div class="tamboon-cta">
+      <a class="btn primary" href="https://ko-fi.com/defiantchiangmai" target="_blank" rel="noopener">&#9749; Tam boon — sponsor a page</a>
+      <a class="btn ghost" href="/support">How sponsorship works</a>
+      <a class="btn ghost" href="/activity">Watch the bots work &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    
+    <div class="eyebrow">Coverage</div>
+    <h2>What the archive knows it doesn't know</h2>
+    <p style="max-width:44rem;opacity:.85">An absence you can read is worth more than a
+      silence. Every gap here is measured at build time, names how it could be closed,
+      and vanishes from this list when it is.</p>
+    <div class="gaps"><div class="gap"><div class="gaptop"><b>อ่านไม่ครบ · Unread pages</b><span class="gapn">4,233 of 4,529</span></div><p>Transcribed and translated, page by page. The bots have described every page; turning that into readable text is the backlog a sponsor shortens.</p><a href="/support">Sponsor a page &rarr;</a></div><div class="gap"><div class="gaptop"><b>เก็บภาพเอง · Images not held here</b><span class="gapn">6,990 manuscripts</span></div><p>Most manuscripts are metadata plus a live link to the library's own image server. They display, but nothing is preserved here — and a link is not a copy. No plates were bundled in this build.</p><a href="/status">See the crawl status &rarr;</a></div><div class="gap"><div class="gaptop"><b>ยังไม่มีคำอธิบาย · Subjects with no prose</b><span class="gapn">33 written</span></div><p>The graph holds 23,577 things worth explaining. Articles are written by hand, and most subjects are still waiting for their first paragraph.</p><a href="/articles">Read what exists &rarr;</a></div><div class="gap"><div class="gaptop"><b>Chiang Mai is a bbox around city + inner suburbs, NOT the whole changwat</b><span class="gapn">known limit</span></div><p>Temples in outer CM districts are OUT OF SCOPE, not missing</p><a href="/api/coverage.json">The coverage record &rarr;</a></div></div>
   </div>
 </section>
 
@@ -236,5 +351,138 @@ var k=b.getAttribute('data-sh'),u=encodeURIComponent(location.href),t=encodeURIC
 if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){var o=b.textContent;b.textContent='✓';setTimeout(function(){b.textContent=o;},1500);});}return;}
 var m={fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};
 if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script>
+<script>window.__WICHAA_DAYS__={"phra":{"2026-01-03":"w15","2026-01-11":"n8","2026-01-18":"n15","2026-01-26":"w8","2026-02-02":"w15","2026-02-10":"n8","2026-02-16":"n14","2026-02-24":"w8","2026-03-03":"w15","2026-03-11":"n8","2026-03-18":"n15","2026-03-26":"w8","2026-04-02":"w15","2026-04-10":"n8","2026-04-16":"n14","2026-04-24":"w8","2026-05-01":"w15","2026-05-09":"n8","2026-05-16":"n15","2026-05-24":"w8","2026-05-31":"w15","2026-06-08":"n8","2026-06-14":"n14","2026-06-22":"w8","2026-06-29":"w15","2026-07-07":"n8","2026-07-14":"n15","2026-07-22":"w8","2026-07-29":"w15","2026-08-06":"n8","2026-08-13":"n15","2026-08-21":"w8","2026-08-28":"w15","2026-09-05":"n8","2026-09-11":"n14","2026-09-19":"w8","2026-09-26":"w15","2026-10-04":"n8","2026-10-11":"n15","2026-10-19":"w8","2026-10-26":"w15","2026-11-03":"n8","2026-11-09":"n14","2026-11-17":"w8","2026-11-24":"w15","2026-12-02":"n8","2026-12-09":"n15","2026-12-17":"w8","2026-12-24":"w15"},"great":{"2026-03-03":"วันมาฆบูชา · Makha Bucha","2026-05-31":"วันวิสาขบูชา · Visakha Bucha","2026-06-08":"วันอัฏฐมีบูชา · Atthami Bucha","2026-07-29":"วันอาสาฬหบูชา · Asalha Bucha","2026-07-30":"วันเข้าพรรษา · the start of the rains retreat","2026-10-26":"วันออกพรรษา · the end of the rains retreat","2026-11-24":"วันลอยกระทง · Loi Krathong"},"northern":{"2026-11-24":"ยี่เป็ง · Yi Peng — the lantern festival"},"kinds":{"w15":["ขึ้น ๑๕ ค่ำ · full moon","the full moon — the great wan phra"],"w14":["ขึ้น ๑๔ ค่ำ · waxing","a holy day"],"w8":["ขึ้น ๘ ค่ำ · half moon","a holy day — the waxing quarter"],"n15":["แรม ๑๕ ค่ำ · dark moon","the dark moon — a holy day"],"n14":["แรม ๑๔ ค่ำ · dark moon","the dark moon — a holy day"],"n8":["แรม ๘ ค่ำ · half moon","a holy day — the waning quarter"]}};</script>
+<script>window.__WICHAA_REL__={"threads":"สายใย · Threads","wander":"เดินเล่น · Wander","trails":"เส้นทาง · Trails","your_trail":"ทางที่คุณเดิน · Where you've been","places":"สถานที่ · Places","manuscripts":"ใบลาน · Manuscripts","near":"ใกล้กัน · near","nearest":"ใกล้ที่สุด · nearest","same_walk":"เดินถึงกันได้ · same walking cluster","same_temple":"เก็บที่วัดเดียวกัน · held at the same wat","held_at":"เก็บรักษาที่ · held at","about":"ว่าด้วย · about","term":"มีคำว่า · carries the term","in_market":"คำเดียวกันในตลาดวันนี้ · the same word in today's market","paired":"คู่กัน · paired with","includes":"รวมถึง · includes","see_also":"ดูเพิ่ม · see also","install_app":"ติดตั้งแอปออฟไลน์ · install the offline app"};</script><script>
+(function(){
+  "use strict";
+  var D=window.__WICHAA_DAYS__||{phra:{},great:{},northern:{},kinds:{}};
+  function iso(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+  var today=new Date(), key=iso(today);
+  // ---- the day -------------------------------------------------------------
+  // The table is the authority; when the day is not in it we say nothing rather
+  // than guess (the table covers 2026 and reports its own reach by running out).
+  var say=document.getElementById('daysay');
+  if(say){
+    var bits=[], kind=D.phra[key];
+    if(D.great[key])bits.push('<b>'+D.great[key]+'</b>');
+    if(D.northern[key])bits.push('<b>'+D.northern[key]+'</b>');
+    if(kind&&D.kinds[kind])bits.push('วันพระ · a holy day — '+D.kinds[kind][0]);
+    if(!bits.length){
+      // when is the next one? a reason to come back
+      var ks=Object.keys(D.phra).sort(), nxt=null;
+      for(var i=0;i<ks.length;i++){if(ks[i]>key){nxt=ks[i];break;}}
+      if(nxt){
+        var days=Math.round((Date.parse(nxt)-Date.parse(key))/86400000);
+        var nm=D.great[nxt]?(' — '+D.great[nxt]):'';
+        bits.push('The next วันพระ (holy day) is in '+days+' day'+(days===1?'':'s')+nm+'.');
+      }
+    }
+    if(bits.length)say.innerHTML=bits.join(' &middot; ');
+    else say.remove();
+  }
+  // ---- deterministic pick --------------------------------------------------
+  function seedFrom(s){var h=2166136261;for(var i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return h>>>0;}
+  function rng(seed){return function(){seed|=0;seed=seed+0x6D2B79F5|0;var t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+  function pick(pool,n,seed){var r=rng(seed),a=pool.slice(),out=[];
+    while(a.length&&out.length<n){out.push(a.splice(Math.floor(r()*a.length),1)[0]);}return out;}
+  // ---- today's stroll ------------------------------------------------------
+  var box=document.getElementById('stroll');
+  if(box){
+    fetch('/api/wander.json').then(function(r){return r.json();}).then(function(d){
+      var pool=(d&&d.pool)||[]; if(!pool.length){box.remove();return;}
+      // Round-robin across CLASSES so a stroll is a cross-section of the
+      // archive, not eight temple names — places outnumber articles 45:1, and
+      // a flat draw shows you the majority every single day.
+      var by={},order=[];
+      pool.forEach(function(e){var k=e[2]||'other';
+        if(!by[k]){by[k]=[];order.push(k);} by[k].push(e);});
+      order.sort();
+      function strollPick(s,n){
+        var out=[],pools=order.map(function(k){return pick(by[k],by[k].length,s+k.length);}),i=0;
+        while(out.length<n&&pools.some(function(p){return p.length;})){
+          var p=pools[i%pools.length]; if(p.length)out.push(p.shift()); i++;}
+        return out;}
+      var seed=seedFrom(key);
+      function draw(s){box.textContent='';
+        strollPick(s,8).forEach(function(e){
+          var a=document.createElement('a');a.className='door';a.href=e[0];a.textContent=e[1]||e[0];box.appendChild(a);});}
+      draw(seed);
+      var rr=document.getElementById('reroll');
+      if(rr)rr.addEventListener('click',function(){draw(seedFrom(key+Math.random()));});
+    }).catch(function(){box.remove();});
+  }
+  // ---- the constellation ---------------------------------------------------
+  // Two layouts, because one does not fit both: a radial fan on a wide screen,
+  // a plain vertical spine on a phone (where a fan collapses into overlapping
+  // 8px text). Labels anchor by which side of the hub they sit on, and every
+  // label carries a halo so a line passing behind it never muddies the words.
+  var svgBox=document.getElementById('constel-svg');
+  if(svgBox){
+    fetch('/api/constellation.json').then(function(r){return r.json();}).then(function(d){
+      var cs=(d&&d.constellations)||[]; if(!cs.length){throw 0;}
+      var c=pick(cs,1,seedFrom(key+'c'))[0], sp=c.spokes.slice(0,7);
+      var ns='http://www.w3.org/2000/svg', narrow=(window.innerWidth||1024)<620;
+      function clip(s,n){return s.length>n?s.slice(0,n-1)+'…':s;}
+      function text(x,y,label,cls,anchor){
+        var t=document.createElementNS(ns,'text');
+        t.setAttribute('x',x);t.setAttribute('y',y);
+        t.setAttribute('text-anchor',anchor||'middle');t.setAttribute('class',cls);
+        t.textContent=label;return t;}
+      function link(href,el){
+        var a=document.createElementNS(ns,'a');a.setAttribute('href',href||'#');
+        a.appendChild(el);return a;}
+      function line(x1,y1,x2,y2){
+        var l=document.createElementNS(ns,'line');
+        l.setAttribute('x1',x1);l.setAttribute('y1',y1);
+        l.setAttribute('x2',x2);l.setAttribute('y2',y2);
+        l.setAttribute('class','egoline');return l;}
+      function relOf(s){return (window.__WICHAA_REL__&&window.__WICHAA_REL__[s.rel])||s.rel;}
+      var svg=document.createElementNS(ns,'svg');
+      svg.setAttribute('class','egograph');svg.setAttribute('role','img');
+      svg.setAttribute('aria-label','Graph neighbourhood of '+c.hub.label);
+      if(narrow){
+        var W=340,rowH=64,H=86+sp.length*rowH,cx=44;
+        svg.setAttribute('viewBox','0 0 '+W+' '+H);
+        svg.appendChild(link(c.hub.href,text(16,30,clip(c.hub.label,30),'hubt','start')));
+        svg.appendChild(line(cx,42,cx,H-30));
+        sp.forEach(function(s,i){
+          var y=82+i*rowH;
+          svg.appendChild(line(cx,y-6,cx+26,y-6));
+          svg.appendChild(text(cx+34,y-14,clip(relOf(s),34),'relt','start'));
+          svg.appendChild(link(s.href,text(cx+34,y+6,clip(s.label,26),'spoket','start')));});
+      }else{
+        var W2=860,H2=340,mx=W2/2,my=H2/2,fit=[];
+        svg.setAttribute('viewBox','0 0 '+W2+' '+H2);
+        sp.forEach(function(s,i){
+          var a=(-Math.PI/2)+(i+0.5)*(2*Math.PI/sp.length);
+          var x=mx+Math.cos(a)*220, y=my+Math.sin(a)*128;
+          var anchor=Math.cos(a)>0.15?'start':(Math.cos(a)<-0.15?'end':'middle');
+          svg.appendChild(line(mx,my,x,y));
+          var rx=mx+(x-mx)*0.62, ry=my+(y-my)*0.62;
+          var rt=text(rx,ry-7,clip(relOf(s),30),'relt',anchor);
+          var lt=text(x,y+5,clip(s.label,26),'spoket',anchor);
+          svg.appendChild(rt);svg.appendChild(link(s.href,lt));
+          // how much room this label actually has before the edge
+          var room=anchor==='start'?(W2-x-8):(anchor==='end'?(x-8):Math.min(x,W2-x)*2-8);
+          fit.push([rt,room],[lt,room]);});
+        svg.appendChild(link(c.hub.href,text(mx,my+6,clip(c.hub.label,28),'hubt','middle')));
+        fit.push([svg.querySelector('.hubt'),W2-24]);
+        svgBox.appendChild(svg);
+        // MEASURE, don't guess. A character budget is wrong for Thai (wider
+        // glyphs, no spaces to break on) and wrong again for a long Latin name,
+        // so trim each label against its real rendered width until it fits.
+        fit.forEach(function(p){
+          var t=p[0],room=p[1],guard=40;
+          while(t.getComputedTextLength()>room&&t.textContent.length>6&&guard--){
+            t.textContent=t.textContent.replace(/…$/,'').slice(0,-1)+'…';}});
+      }
+      if(!svg.parentNode)svgBox.appendChild(svg);
+      var cap=document.getElementById('constel-cap');
+      if(cap)cap.innerHTML='<a href="'+c.hub.href+'">'+c.hub.label+'</a> and what it is tied to — one of '+cs.length+', changing daily.';
+    }).catch(function(){var f=document.querySelector('.constel');if(f)f.remove();});
+  }
+})();
+</script>
+<button id=wander title='เดินเล่น · Wander — somewhere unexpected'>&#127922; เดินเล่น</button><script>(function(){var b=document.getElementById('wander');if(!b)return;var P=null;b.addEventListener('click',function(){(P?Promise.resolve(P):fetch('/api/wander.json').then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){P=d;return d;})).then(function(d){var pool=(d&&d.pool)||[];if(!pool.length){b.style.display='none';return;}var by={};for(var j=0;j<pool.length;j++){var k=pool[j][2]||'other';(by[k]=by[k]||[]).push(pool[j]);}var ks=Object.keys(by);for(var i=0;i<9;i++){var g=by[ks[Math.floor(Math.random()*ks.length)]];var e=g[Math.floor(Math.random()*g.length)];if(e&&e[0]&&e[0]!=='/'){location.href=e[0];return;}}}).catch(function(){b.style.display='none';});});})();</script>
 </body>
 </html>

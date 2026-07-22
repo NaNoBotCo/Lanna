@@ -1,0 +1,613 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><meta name='theme-color' content='#1F4E4A'><link rel=icon type='image/svg+xml' href='/favicon.svg'><meta name='description' content='The whole archive as one picture: every concept it uses, joined by how many records they share.'><meta property='og:type' content='website'><meta property='og:site_name' content='wichaa'><meta property='og:url' content='https://wichaa.net/atlas'><meta property='og:title' content='The Atlas — wichaa'><meta property='og:description' content='The whole archive as one picture: every concept it uses, joined by how many records they share.'><meta property='og:image' content='https://wichaa.net/atlas/card.png'><meta name='twitter:card' content='summary_large_image'><meta name='twitter:title' content='The Atlas — wichaa'><meta name='twitter:description' content='The whole archive as one picture: every concept it uses, joined by how many records they share.'><meta name='twitter:image' content='https://wichaa.net/atlas/card.png'><title>The Atlas — wichaa</title><style>
+  :root{
+    --ink:#141b1a; --muted:#3a4a47; --line:#c9d6d2;
+    --teal:#1F4E4A; --teal-ink:#ffffff; --bg:#f4f7f6; --card:#ffffff;
+    --focus:#0b5cad; --gold:#8a5a00; --gold-bg:#fbf1dc; --ok:#0f6b3f;
+    --prio:#7a1f1f; --prio-bg:#fbe6e6;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:17px/1.55 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  a{color:var(--focus)}
+  header{background:linear-gradient(180deg,#245852,#1b4541);color:var(--teal-ink);padding:16px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;box-shadow:0 2px 10px #00000022}
+  header h1{margin:0;font-size:24px;font-family:var(--serif);letter-spacing:.01em}
+  .card>h2:first-child,.card>h2{font-family:var(--serif)}
+  header .sub{color:#dfeae7;margin:0}
+  /* flex-wrap is on the BASE rule, not just the <=760px block: the nav's 11 items
+     are ~1217px wide, so without it every viewport under ~1250px (laptops included,
+     not only phones) got a horizontal scrollbar. Wrapped rows stay right-aligned
+     under the title so the header reads the same as it did on wide screens. */
+  header nav{margin-left:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px}
+  header nav a{color:#fff;text-decoration:none;font-weight:700;border:2px solid #ffffff66;border-radius:8px;padding:8px 14px}
+  header nav a:hover{background:#ffffff22}
+  header nav a.kofi{background:var(--gold-bg,#fbf1dc);color:var(--gold,#8a5a00);border-color:transparent}
+  header nav a.kofi:hover{filter:brightness(0.96)}
+  main{max-width:1080px;margin:0 auto;padding:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:0 0 16px}
+  button{font:inherit;font-weight:700;color:var(--teal-ink);background:var(--teal);border:2px solid var(--teal);border-radius:8px;padding:10px 16px;cursor:pointer;min-height:44px}
+  button.secondary{background:#fff;color:var(--teal)}
+  button:hover{background:#163b38;border-color:#163b38}
+  button.secondary:hover{background:#eef4f2}
+  input[type=text],input[type=search],select,textarea{width:100%;padding:10px 12px;font-size:16px;border:1px solid #6b7f7a;border-radius:8px;color:var(--ink);background:#fff}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+  .pill{display:inline-block;font-size:13px;font-weight:700;padding:2px 10px;border-radius:999px;border:1px solid var(--line);background:#eef2f1;color:var(--muted);margin:2px 4px 2px 0}
+  .pill.script{background:var(--gold-bg);border-color:#e5cf9a;color:var(--gold)}
+  .pill.prio{background:var(--prio-bg);border-color:#e0a3a3;color:var(--prio)}
+  .muted{color:var(--muted)}
+  .thai{font-size:1.15em}
+  .empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px;background:#fff}
+  /* Global overflow safety net: nothing should force the viewport wider than the
+     phone. Images fluid; wide blocks (code, pre) scroll inside their own box. */
+  img{max-width:100%;height:auto}
+  pre,code{overflow-x:auto;max-width:100%}
+  /* Mobile-responsive pass (dr's feedback, 2026-07-12): the header's nav had no
+     wrap and no breakpoint, so its ~9 buttons overflowed and forced a horizontal
+     scroll. Below 760px the nav drops under the title and wraps; padding, type,
+     and card chrome all tighten so a phone reads the archive with no sideways
+     scrolling. Touch targets stay >=40px tall. */
+  @media(max-width:760px){
+    header{padding:12px 16px;gap:6px 12px}
+    header h1{font-size:20px}
+    header .sub{font-size:13.5px;flex-basis:100%;order:3}
+    /* full-width under the title here, so undo the base rule's right-alignment —
+       left-aligned rows sit flush with the h1 instead of going ragged-left. */
+    header nav{margin-left:0;width:100%;flex-wrap:wrap;justify-content:flex-start;gap:6px;order:2}
+    header nav a{padding:8px 11px;font-size:14px;border-width:1px}
+    main{padding:14px;max-width:100%}
+    body{font-size:16px}
+    .card{padding:14px 15px}
+    table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  }
+  @media(max-width:420px){
+    header h1{font-size:18px}
+    header nav a{padding:7px 9px;font-size:13px}
+    main{padding:11px}
+  }
+  /* Back-to-menu: the header nav scrolls away on long pages (it needn't persist,
+     but there must be a way back — dr's feedback). A floating pill appears once
+     you've scrolled and jumps to the top, where the nav lives. */
+  #tomenu{position:fixed;right:16px;bottom:16px;z-index:50;display:none;
+    background:var(--teal);color:#fff;border:none;border-radius:999px;
+    padding:11px 16px;font:700 14px/1 inherit;cursor:pointer;min-height:44px;
+    box-shadow:0 3px 12px #0003;text-decoration:none}
+  #tomenu.show{display:inline-flex;align-items:center;gap:6px}
+  #tomenu:hover{background:#163b38}
+  @media print{#tomenu{display:none!important}}
+  /* Share bar — fixed bottom-left (mirrors the back-to-menu pill on the right), on
+     every page so the whole archive is easy to pass around. */
+  #sharebar{position:fixed;left:14px;bottom:14px;z-index:50;display:flex;align-items:center;
+    gap:5px;background:var(--card,#fff);border:1px solid var(--line);border-radius:999px;
+    padding:5px 8px;box-shadow:0 3px 12px #0000002b}
+  #sharebar .shlabel{font-size:12px;font-weight:800;color:var(--muted);text-transform:uppercase;
+    letter-spacing:.04em;padding:0 3px 0 5px}
+  .shbtn{width:32px;height:32px;min-height:32px;border-radius:50%;border:1px solid var(--line);
+    background:#fff;color:var(--ink);font:700 15px/1 inherit;cursor:pointer;display:inline-flex;
+    align-items:center;justify-content:center;padding:0}
+  .shbtn:hover{background:var(--teal);color:#fff;border-color:var(--teal)}
+  .shtoast{position:fixed;left:50%;bottom:64px;transform:translateX(-50%);z-index:60;
+    background:#1b2a27;color:#fff;padding:8px 16px;border-radius:999px;font-size:14px;
+    box-shadow:0 4px 16px #0004}
+  /* card-level share affordance (per-result) */
+  .cardshare{background:none;border:none;cursor:pointer;color:var(--muted);font-size:15px;
+    padding:2px 6px;border-radius:6px;line-height:1}
+  .cardshare:hover{background:#eef2f1;color:var(--teal)}
+  @media print{#sharebar{display:none!important}}
+  @media(max-width:520px){#sharebar .shlabel{display:none}#sharebar{gap:4px;padding:4px 6px}}
+
+.atwrap{position:relative;margin:0 -8px}
+#atlas{width:100%;height:min(74vh,760px);display:block;border-radius:14px;
+  background:radial-gradient(circle at 50% 45%,#14322e 0%,#0e2523 70%,#0b1e1c 100%);
+  cursor:grab;touch-action:none}
+#atlas.drag{cursor:grabbing}
+.atbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:12px 0}
+.atbar input{flex:1 1 240px;min-width:180px;padding:10px 14px;font-size:16px;
+  border:1px solid rgba(128,128,128,.4);border-radius:999px}
+/* the site's global rule paints button text white for its teal buttons, so any
+   pale-backed button here must say its own colour or it disappears */
+.atbar button{font:inherit;padding:9px 14px;border-radius:999px;cursor:pointer;
+  border:1px solid rgba(128,128,128,.4);background:var(--card,#fff);color:var(--ink,#26302a)}
+.atbar button:hover{background:#efe7d5;border-color:var(--gold,#a8791e)}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px}
+.legend button{display:flex;align-items:center;gap:7px;font:inherit;font-size:13.5px;
+  font-weight:500;padding:6px 12px;border-radius:999px;border:1px solid rgba(128,128,128,.32);
+  background:var(--card,#fff);color:var(--ink,#26302a);cursor:pointer}
+.legend button:hover{background:#efe7d5;border-color:var(--gold,#a8791e)}
+.legend button[aria-pressed=false]{opacity:.38}
+.legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+#atinfo{position:absolute;left:12px;top:12px;max-width:min(330px,62%);
+  background:rgba(253,251,245,.96);border-radius:12px;padding:12px 14px;
+  font-size:14.5px;line-height:1.5;pointer-events:none;opacity:0;transition:opacity .12s;
+  box-shadow:0 4px 16px rgba(0,0,0,.22)}
+#atinfo.show{opacity:1}
+#atinfo b{font-size:16px;display:block}
+#atinfo .cls{font-size:12.5px;opacity:.7}
+#atinfo ul{margin:6px 0 0;padding-left:18px}#atinfo li{margin:2px 0}
+.athint{font-size:14px;opacity:.72;margin:6px 0 0}
+.atlist{margin:26px 0 0}
+.atlist summary{cursor:pointer;font-size:16px;font-weight:600;padding:8px 0}
+.atlist ul{columns:2;column-gap:26px;list-style:none;padding:0;margin:10px 0}
+@media(max-width:720px){.atlist ul{columns:1}}
+.atlist li{break-inside:avoid;margin:5px 0;font-size:15px}
+.atlist .n{opacity:.62;font-size:13px}
+</style><!-- site_meta:begin --><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "wichaa", "description": "A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa tradition — astrology, ritual, and magic — with a curated knowledge graph and a living-market layer.", "url": "https://wichaa.net/", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@type": "Organization", "name": "NaNoBotCo", "email": "530kings@proton.me"}, "keywords": ["Lanna manuscripts", "Northern Thai", "Tai Tham script", "wichaa", "Thai astrology", "hora", "yantra", "sak yant", "katha", "Buddhist manuscripts", "palm-leaf manuscripts", "Southeast Asian manuscripts", "digital humanities"], "inLanguage": ["th", "en", "pi"], "isAccessibleForFree": true, "size": "6990 manuscripts", "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://wichaa.net/api/manuscripts.json", "name": "All manuscripts (JSON)"}, {"@type": "DataDownload", "encodingFormat": "application/ld+json", "contentUrl": "https://wichaa.net/api/graph.jsonld", "name": "Knowledge graph (JSON-LD)"}, {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://wichaa.net/api/graph.ttl", "name": "Knowledge graph (Turtle)"}]}</script><link rel="alternate" type="application/ld+json" href="https://wichaa.net/api/graph.jsonld" title="Knowledge graph (JSON-LD)"><link rel="alternate" type="text/turtle" href="https://wichaa.net/api/graph.ttl" title="Knowledge graph (Turtle)"><meta name="keywords" content="Lanna manuscripts, Northern Thai, Tai Tham script, wichaa, Thai astrology, hora, yantra, sak yant, katha, Buddhist manuscripts, palm-leaf manuscripts, Southeast Asian manuscripts, digital humanities"><!-- site_meta:end --></head><body><script>window.__LANNA_BASE__="/";</script><script>
+(function(){
+  "use strict";
+  // ---- Lanna Wiki static shim: run the dynamic viewer on a static host ----------
+  // BASE lets the same build work at the domain root ('/') or under a project path
+  // ('/Lanna/'). All static targets are resolved through S() so they land correctly.
+  var BASE = (window.__LANNA_BASE__ || '/');
+  if (BASE.charAt(BASE.length-1) !== '/') BASE += '/';
+  function S(p){ return BASE + String(p).replace(/^\//,''); }
+  var PLACE = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="260" height="150">'+
+    '<rect width="100%" height="100%" fill="#eef2f1"/>'+
+    '<text x="50%" y="50%" fill="#3a4a47" font-family="sans-serif" font-size="13" '+
+    'text-anchor="middle" dominant-baseline="middle">raw scan — view at source</text></svg>');
+  function art(s){ return String(s==null?'':s).replace(/[^A-Za-z0-9]+/g,'_'); }
+  function jresp(o){ return new Response(JSON.stringify(o),
+    {status:200, headers:{'Content-Type':'application/json; charset=utf-8'}}); }
+  var NOARG = {
+    '/api/overview':'/api/overview.json','/api/dashboard':'/api/dashboard.json',
+    '/api/places':'/api/places.json','/api/lenses':'/api/lenses.json',
+    '/api/vocab':'/api/vocab.json','/api/market':'/api/market.json',
+    '/api/graph':'/api/graph.json','/api/articles':'/api/articles.json',
+    '/api/status':'/api/status.json','/api/manuscripts':'/api/manuscripts.json',
+    '/api/graph.jsonld':'/api/graph.jsonld','/api/graph.ttl':'/api/graph.ttl',
+    '/api/diagrams':'/api/diagrams.json','/api/findings':'/api/findings.json',
+    '/api/activity':'/api/activity.json',
+    '/api/expedite':'/api/expedite.json','/api/wats':'/api/wats.json',
+    '/api/coverage':'/api/coverage.json','/api/place-types':'/api/place-types.json',
+    '/api/functions':'/api/functions.json',
+    '/api/wander':'/api/wander.json','/api/term-echo':'/api/term-echo.json'
+  };
+  var _fetch = window.fetch ? window.fetch.bind(window) : function(u){return fetch(u);};
+
+  var _docs=null;
+  function loadDocs(){ if(_docs) return Promise.resolve(_docs);
+    return _fetch(S('/api/searchdocs.json')).then(function(r){return r.json();})
+      .then(function(d){_docs=d;return d;}).catch(function(){_docs=[];return [];}); }
+  var _thes=null;
+  function loadThes(){ if(_thes) return Promise.resolve(_thes);
+    return _fetch(S('/api/thesaurus.json')).then(function(r){return r.json();})
+      .then(function(t){_thes=t;return t;}).catch(function(){_thes={};return {};}); }
+  // mirrors wiki.py _expand_token: query token -> OR-set of cross-language equivalents
+  function expand(tok, thes){
+    tok=(tok||'').toLowerCase();
+    var members={}; members[tok]=1;
+    if(tok.length<2) return Object.keys(members);
+    for(var key in thes){
+      if(tok===key || (tok.length>=3 && (tok.indexOf(key)>=0 || key.indexOf(tok)>=0))){
+        var grp=thes[key]; for(var i=0;i<grp.length;i++) members[grp[i]]=1;
+      }
+    }
+    return Object.keys(members);
+  }
+  function staticSearch(q){
+    q=(q||'').trim(); var out={manuscripts:[],articles:[],query:q};
+    if(!q) return Promise.resolve(jresp(out));
+    return Promise.all([loadDocs(), loadThes()]).then(function(res){
+      var docs=res[0], thes=res[1];
+      var groups=q.toLowerCase().split(/\s+/).filter(Boolean)
+                  .map(function(t){return expand(t, thes);}).filter(function(g){return g.length;});
+      if(!groups.length) return jresp(out);
+      var scored=[];
+      for(var i=0;i<docs.length;i++){
+        var d=docs[i], title=(d.ntitle||'').toLowerCase(), body=(d.nbody||'').toLowerCase();
+        var ok=true, score=0, pos=null;
+        for(var j=0;j<groups.length;j++){
+          var g=groups[j], ghit=0;
+          for(var m=0;m<g.length;m++){
+            var tk=g[m]; if(!tk) continue;
+            if(title.indexOf(tk)>=0) ghit+=12;
+            var idx=body.indexOf(tk);
+            if(idx>=0){ ghit+=Math.min(body.split(tk).length-1,6); if(pos===null||idx<pos)pos=idx; }
+          }
+          if(ghit===0){ok=false;break;} score+=ghit;
+        }
+        if(ok) scored.push([score,d,pos]);
+      }
+      scored.sort(function(a,b){return b[0]-a[0];});
+      for(var k=0;k<scored.length;k++){
+        var d2=scored[k][1], pos2=scored[k][2]==null?0:scored[k][2];
+        var text=d2.nbody||d2.ntitle||'';
+        var snip=text.substr(Math.max(0,pos2-60),200).replace(/\s+/g,' ').trim();
+        if(d2.kind==='m'){ if(out.manuscripts.length<60)
+          out.manuscripts.push({id:parseInt(d2.ref,10),label:d2.label,snippet:snip}); }
+        else { if(out.articles.length<60)
+          out.articles.push({key:d2.ref,label:d2.label,snippet:snip}); }
+      }
+      return jresp(out);
+    });
+  }
+
+  var _scans=null;
+  function loadScans(){ if(_scans) return Promise.resolve(_scans);
+    return _fetch(S('/api/scans.all.json')).then(function(r){return r.json();})
+      .then(function(d){_scans=d.scans||[];return _scans;}).catch(function(){_scans=[];return [];}); }
+
+  // ---- IIIF on-demand images: /img?sha=&w= -> sized library IIIF URL ------------
+  // We ship no scan bytes; a {sha -> IIIF url} map lets every page image load from
+  // the originating library, resized via the IIIF size parameter. The <img> src
+  // setter is synchronous, so images requested before the map arrives get the
+  // placeholder and are re-resolved once it loads (IIIF_Q flush).
+  var IIIF=null, IIIF_Q=[], IIIF_LOADING=false;
+  function iiifSized(u,w){ w=w||1024;
+    return String(u).replace('/full/full/0/default.jpg','/full/'+w+',/0/default.jpg'); }
+  function flushIIIF(){ var q=IIIF_Q; IIIF_Q=[];
+    for(var i=0;i<q.length;i++){ var it=q[i], u=IIIF[it.sha];
+      if(u){ try{ desc.set.call(it.el, iiifSized(u,it.w)); }catch(e){} } } }
+  // LAZY: the {sha -> IIIF url} map is ~2.6 MB and only pages that actually render
+  // scan images (browse, gallery, manuscript detail) need it. Fetch it on the FIRST
+  // /img?sha= request instead of on every page load, so image-free pages (home,
+  // articles, findings, market, textbooks) pay zero bytes for it.
+  function loadIIIF(){ if(IIIF) return Promise.resolve(IIIF);
+    if(IIIF_LOADING) return Promise.resolve(null); IIIF_LOADING=true;
+    return _fetch(S('/api/img-iiif.json')).then(function(r){return r.json();})
+      .then(function(m){ IIIF=m||{}; flushIIIF(); return IIIF; })
+      .catch(function(){ IIIF={}; flushIIIF(); return IIIF; }); }
+  function scansSlice(sp){
+    var midp=sp.get('mid'); var mid = midp?parseInt(midp,10):null;
+    var offset=parseInt(sp.get('offset')||'0',10)||0;
+    var limit=parseInt(sp.get('limit')||'120',10)||120;
+    var onlyT=(sp.get('only')==='transcribed');
+    return loadScans().then(function(all){
+      var pool=all.filter(function(s){
+        if(mid!==null && s.id!==mid) return false;
+        if(onlyT && !s.transcribed) return false;
+        return true;
+      });
+      return jresp({dbPresent:true, scans:pool.slice(offset,offset+limit),
+                    offset:offset, limit:limit, total:pool.length});
+    });
+  }
+
+  window.fetch = function(input, init){
+    init = init || {};
+    var url;
+    try { url = new URL((typeof input==='string')?input:input.url, location.origin); }
+    catch(e){ return _fetch(input, init); }
+    if(url.origin !== location.origin) return _fetch(input, init);
+    var method = (init.method || (typeof input!=='string' && input.method) || 'GET').toUpperCase();
+    var p = url.pathname, sp = url.searchParams;
+    if(method !== 'GET') return Promise.resolve(jresp({ok:false, readonly:true}));
+    if(p==='/api/search') return staticSearch(sp.get('q'));
+    if(p==='/api/gallery' && sp.get('source')==='scans') return scansSlice(sp);
+    // analysis widgets: /api/w/<name> -> the dumped snapshot; geo.geojson is a real
+    // file already, everything else gains a .json extension on disk.
+    if(p.indexOf('/api/w/')===0){
+      if(p.slice(-8)==='.geojson') return _fetch(S(p), {});
+      return _fetch(S(p+'.json'), {});
+    }
+    if(NOARG[p]) return _fetch(S(NOARG[p]), {});
+    if(p==='/api/manuscript') return _fetch(S('/api/manuscript/'+encodeURIComponent(sp.get('id'))+'.json'), {});
+    if(p==='/api/article')    return _fetch(S('/api/article/'+art(sp.get('s'))+'.json'), {});
+    if(p==='/api/gallery'){
+      var src=sp.get('source');
+      if(src==='scan-index') return _fetch(S('/api/gallery.scan-index.json'), {});
+      return _fetch(S('/api/gallery.json'), {});
+    }
+    if(p==='/pimg') return _fetch(S('/pimg/'+sp.get('mid')+'/'+sp.get('n')+'.png'), {});
+    return _fetch(input, init);
+  };
+
+  // internal navigation: app links are baked as root-absolute ('/browse', '/m?id=…').
+  // Under a project subpath they must be re-rooted at BASE. A capture-phase click
+  // handler does this for every link, however it was created.
+  document.addEventListener('click', function(ev){
+    if(ev.defaultPrevented || ev.button!==0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+    var a = ev.target && ev.target.closest ? ev.target.closest('a[href]') : null;
+    if(!a) return;
+    if(a.target==='_blank') return;
+    var href=a.getAttribute('href');
+    if(!href || href.charAt(0)!=='/' || href.charAt(1)==='/') return;  // only root-absolute, not protocol-relative
+    if(BASE!=='/' && href.indexOf(BASE)===0) return;                   // already re-rooted
+    // '/read?id=N' is a query-string route the live wiki serves dynamically; a
+    // static host can't route query strings, so the export ships it as a real
+    // path instead (read/N/index.html) — rewrite the click to match.
+    var rm = href.match(/^\/read\?id=(\d+)/);
+    if(rm){ ev.preventDefault(); location.href = S('read/'+rm[1]+'/'); return; }
+    // widget JSON download links point at '/api/w/<name>' (no extension); on disk
+    // that snapshot is '<name>.json' — map the download to the real file.
+    var wm = href.match(/^\/api\/w\/([a-z]+)$/);
+    if(wm){ ev.preventDefault(); location.href = S('api/w/'+wm[1]+'.json'); return; }
+    ev.preventDefault();
+    location.href = S(href);
+  }, true);
+
+  // rewrite <img> src (Object.assign in el() sets the .src property, so this catches it)
+  try {
+    var proto=HTMLImageElement.prototype;
+    var desc=Object.getOwnPropertyDescriptor(proto,'src');
+    Object.defineProperty(proto,'src',{configurable:true,enumerable:true,
+      get:function(){return desc.get.call(this);},
+      set:function(v){
+        try{
+          var u=new URL(v, location.origin);
+          if(u.origin===location.origin){
+            if(u.pathname==='/pimg'){
+              v=S('/pimg/'+u.searchParams.get('mid')+'/'+u.searchParams.get('n')+'.png');
+            } else if(u.pathname==='/img'){
+              var sha=u.searchParams.get('sha');
+              var w=parseInt(u.searchParams.get('w')||'0',10)||0;
+              if(sha && IIIF && IIIF[sha]){ v=iiifSized(IIIF[sha], w); }
+              else if(sha && IIIF===null){ IIIF_Q.push({el:this, sha:sha, w:w}); v=PLACE; loadIIIF(); }
+              else { v=PLACE; }
+            }
+          }
+        }catch(e){}
+        desc.set.call(this,v);
+      }});
+  } catch(e){}
+})();
+</script><header><div><h1>The Atlas</h1><p class=sub>แผนที่ความรู้ · the whole archive, as one picture</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/trails'>Trails</a><a href='/articles'>Profiles</a><a href='/moon'>Moon</a><a href='/jovilabe'>Jovilabe</a><a href='/redspot'>Red Spot</a><a href='/hun'>Hun Payont</a><a href='/widgets'>Widgets</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a><a href='/atlas'>Atlas</a></nav></header><main><p style='max-width:46rem'>Every dot is a concept the archive actually uses — a script, a language, a genre, a province, a word people search for. Two are joined when records belong to both, and the line is heavier the more records they share. Nothing here is modelled or guessed: each line is a count you can go and check.</p><div class=atbar><input id=atq type=search placeholder='Find a concept — ยันต์, Pali, Phrae…' aria-label='Find a concept'><button id=atreset>Reset view</button></div><div class=legend id=atlegend><button data-cls="tradition" aria-pressed="true"><i style="background:#e9c46a"></i>สาย · tradition</button><button data-cls="genre" aria-pressed="true"><i style="background:#7fb3a8"></i>หมวด · genre</button><button data-cls="subgenre" aria-pressed="true"><i style="background:#5f9a8e"></i>หมวดย่อย · sub-genre</button><button data-cls="language" aria-pressed="true"><i style="background:#c98b5e"></i>ภาษา · language</button><button data-cls="script" aria-pressed="true"><i style="background:#b5726a"></i>อักษร · script</button><button data-cls="province" aria-pressed="true"><i style="background:#8aa9c9"></i>จังหวัด · province</button><button data-cls="material" aria-pressed="true"><i style="background:#9d8ec2"></i>วัสดุ · material</button><button data-cls="era" aria-pressed="true"><i style="background:#c2a15a"></i>ยุค · era</button><button data-cls="entity" aria-pressed="true"><i style="background:#e0a458"></i>เรื่อง · subject</button><button data-cls="term" aria-pressed="true"><i style="background:#6fa287"></i>คำ · word</button><button data-cls="kind" aria-pressed="true"><i style="background:#a8a29a"></i>ชนิด · kind</button><button data-cls="ptype" aria-pressed="true"><i style="background:#8fa39b"></i>ประเภท · place type</button><button data-cls="temple" aria-pressed="true"><i style="background:#6b8f89"></i>วัด · temple</button></div><div class=atwrap><canvas id=atlas></canvas><div id=atinfo></div></div><p class=athint>Drag to move · scroll or pinch to zoom · hover a dot to see what it is tied to · click to open it. The picture is drawn the same way every time, so a place on it stays that place.</p><details class=atlist id=atlist><summary>Read the atlas as a list (every concept, with its record count)</summary><div id=atlistbody><p class=muted>Loading…</p></div></details></main><script>
+(function(){
+  "use strict";
+  var BASE=(window.__LANNA_BASE__||'/');
+  var COL={"tradition": "#e9c46a", "genre": "#7fb3a8", "subgenre": "#5f9a8e", "language": "#c98b5e", "script": "#b5726a", "province": "#8aa9c9", "material": "#9d8ec2", "era": "#c2a15a", "entity": "#e0a458", "term": "#6fa287", "kind": "#a8a29a", "ptype": "#8fa39b", "temple": "#6b8f89"}, CLS={"tradition": "สาย · tradition", "genre": "หมวด · genre", "subgenre": "หมวดย่อย · sub-genre", "language": "ภาษา · language", "script": "อักษร · script", "province": "จังหวัด · province", "material": "วัสดุ · material", "era": "ยุค · era", "entity": "เรื่อง · subject", "term": "คำ · word", "kind": "ชนิด · kind", "ptype": "ประเภท · place type", "temple": "วัด · temple"};
+  var cv=document.getElementById('atlas'), info=document.getElementById('atinfo');
+  if(!cv) return;
+  var ctx=cv.getContext('2d'), DATA=null, LAY=[], off={x:0,y:0}, scale=1, hot=-1;
+  var cx0=0, cy0=0;   // the layout's own centre, in layout coords
+  var hidden={}, dpr=Math.max(1,Math.min(2,window.devicePixelRatio||1));
+
+  function size(){
+    var r=cv.getBoundingClientRect();
+    cv.width=r.width*dpr; cv.height=r.height*dpr;
+    return r;
+  }
+  // ---- deterministic layout: sectors by class, depth by weight --------------
+  // No physics and no randomness — the same data must always draw the same map,
+  // otherwise "the thing at the top left" stops meaning anything between builds.
+  function layout(){
+    var r=size(), W=r.width, H=r.height, cx=W/2, cy=H/2;
+    var R=Math.min(W,H)*0.46, Rin=R*0.16;
+    var byCls={}, order=[];
+    DATA.nodes.forEach(function(n,i){ if(!byCls[n.c]){byCls[n.c]=[];order.push(n.c);} byCls[n.c].push(i); });
+    order.sort();
+    var tot=order.reduce(function(s,c){return s+Math.sqrt(byCls[c].length);},0), a0=-Math.PI/2;
+    var maxN=Math.max.apply(null,DATA.nodes.map(function(n){return n.n;}))||1;
+    LAY=new Array(DATA.nodes.length);
+    order.forEach(function(c){
+      var idxs=byCls[c].slice().sort(function(a,b){return DATA.nodes[b].n-DATA.nodes[a].n;});
+      var span=Math.PI*2*Math.sqrt(idxs.length)/tot;
+      idxs.forEach(function(ni,k){
+        var n=DATA.nodes[ni];
+        var frac=idxs.length>1?(k+0.5)/idxs.length:0.5;
+        var ang=a0+span*frac;
+        // heavy concepts sink toward the middle; log so one giant doesn't flatten the rest
+        var depth=Math.log(1+n.n)/Math.log(1+maxN);
+        var rad=Rin+(R-Rin)*(1-depth);
+        LAY[ni]={x:cx+Math.cos(ang)*rad, y:cy+Math.sin(ang)*rad,
+                 r:3+7*Math.pow(depth,1.3), a:ang};
+        cx0=cx; cy0=cy;
+      });
+      a0+=span;
+    });
+  }
+  function T(p){ return {x:(p.x+off.x)*scale+ (1-scale)*cv.width/(2*dpr),
+                         y:(p.y+off.y)*scale+ (1-scale)*cv.height/(2*dpr)}; }
+  function vis(i){ return !hidden[DATA.nodes[i].c]; }
+
+  function draw(){
+    if(!DATA) return;
+    var W=cv.width/dpr, H=cv.height/dpr;
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    ctx.clearRect(0,0,W,H);
+    var maxW=DATA.edges.length?DATA.edges[0][2]:1;
+    // edges first, bowed toward the centre so the bundle reads as a weave
+    for(var e=0;e<DATA.edges.length;e++){
+      var a=DATA.edges[e][0], b=DATA.edges[e][1], w=DATA.edges[e][2];
+      if(!vis(a)||!vis(b)) continue;
+      var lit=(hot===a||hot===b);
+      if(hot>=0 && !lit) continue;
+      var p=T(LAY[a]), q=T(LAY[b]);
+      var t=Math.log(1+w)/Math.log(1+maxW);
+      ctx.strokeStyle=lit?'rgba(233,196,106,.85)':'rgba(150,200,190,'+(0.05+0.30*t)+')';
+      ctx.lineWidth=(lit?1.6:0.4+2.2*t)*Math.min(scale,2);
+      // bundle each chord toward the centre of the VIEW (not a fixed offset —
+      // that skewed the whole weave off to one side)
+      var mx2=(p.x+q.x)/2, my2=(p.y+q.y)/2, C=T({x:cx0,y:cy0});
+      ctx.beginPath(); ctx.moveTo(p.x,p.y);
+      ctx.quadraticCurveTo(mx2+(C.x-mx2)*0.45, my2+(C.y-my2)*0.45, q.x, q.y);
+      ctx.stroke();
+    }
+    // nodes, then labels for the heavy ones (or everything, once zoomed in)
+    for(var i=0;i<DATA.nodes.length;i++){
+      if(!vis(i)) continue;
+      var n=DATA.nodes[i], P=T(LAY[i]), rad=LAY[i].r*Math.min(scale,2.2);
+      ctx.beginPath(); ctx.arc(P.x,P.y,rad,0,Math.PI*2);
+      ctx.fillStyle=COL[n.c]||'#9aa'; ctx.globalAlpha=(hot<0||hot===i)?1:0.35;
+      ctx.fill(); ctx.globalAlpha=1;
+      if(hot===i){ ctx.strokeStyle='#fff'; ctx.lineWidth=2; ctx.stroke(); }
+    }
+    // Labels, heaviest first, and NEVER on top of each other: the middle of this
+    // map is where the corpus is densest, which is exactly where overlapping
+    // text turns a legible picture into a smear. A claimed-box test drops the
+    // ones that would collide; zooming in gives them room and they return.
+    ctx.font='13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif';
+    ctx.textAlign='center'; ctx.textBaseline='middle';
+    var taken=[], ORDER=DATA.__order||(DATA.__order=DATA.nodes
+      .map(function(n,i){return i;})
+      .sort(function(a,b){return DATA.nodes[b].n-DATA.nodes[a].n;}));
+    for(var oi=0;oi<ORDER.length;oi++){
+      var j=ORDER[oi];
+      if(!vis(j)) continue;
+      var nn=DATA.nodes[j];
+      var show=(hot===j)||(scale>1.7)||(LAY[j].r>7.2);
+      if(!show) continue;
+      var PP=T(LAY[j]);
+      if(PP.x<-40||PP.y<-20||PP.x>W+40||PP.y>H+20) continue;
+      var tx=nn.l.length>26?nn.l.slice(0,25)+'…':nn.l;
+      var w=ctx.measureText(tx).width, ly=PP.y-LAY[j].r*Math.min(scale,2.2)-9;
+      var box=[PP.x-w/2-3,ly-9,PP.x+w/2+3,ly+9], clash=false;
+      if(hot!==j){
+        for(var b2=0;b2<taken.length;b2++){var t2=taken[b2];
+          if(box[0]<t2[2]&&t2[0]<box[2]&&box[1]<t2[3]&&t2[1]<box[3]){clash=true;break;}}
+      }
+      if(clash) continue;
+      taken.push(box);
+      ctx.lineWidth=3.5; ctx.strokeStyle='rgba(11,30,28,.92)';
+      ctx.strokeText(tx,PP.x,ly);
+      ctx.fillStyle=(hot===j)?'#fff':'rgba(238,244,240,.92)';
+      ctx.fillText(tx,PP.x,ly);
+    }
+  }
+  function nearest(mx,my){
+    var best=-1,bd=22*22;
+    for(var i=0;i<DATA.nodes.length;i++){
+      if(!vis(i)) continue;
+      var P=T(LAY[i]), dx=P.x-mx, dy=P.y-my, d=dx*dx+dy*dy;
+      if(d<bd){bd=d;best=i;}
+    }
+    return best;
+  }
+  function neighbours(i){
+    var out=[];
+    for(var e=0;e<DATA.edges.length;e++){
+      var E=DATA.edges[e];
+      if(E[0]===i&&vis(E[1]))out.push([E[1],E[2]]);
+      else if(E[1]===i&&vis(E[0]))out.push([E[0],E[2]]);
+    }
+    out.sort(function(a,b){return b[1]-a[1];});
+    return out.slice(0,6);
+  }
+  function esc(s){return String(s).replace(/[<>&]/g,function(c){return {'<':'&lt;','>':'&gt;','&':'&amp;'}[c];});}
+  function showInfo(i){
+    if(i<0){info.classList.remove('show');return;}
+    var n=DATA.nodes[i], nb=neighbours(i);
+    info.innerHTML='<b>'+esc(n.l)+'</b><span class=cls>'+esc(CLS[n.c]||n.c)+' · '+
+      n.n.toLocaleString()+' records</span>'+
+      (nb.length?'<ul>'+nb.map(function(p){
+        return '<li>'+esc(DATA.nodes[p[0]].l)+' <span style="opacity:.65">'+
+          p[1].toLocaleString()+' shared</span></li>';}).join('')+'</ul>':'')+
+      (n.h?'<div style="margin-top:6px;opacity:.75">click to open</div>':'');
+    info.classList.add('show');
+  }
+  // ---- interaction ---------------------------------------------------------
+  var drag=null;
+  cv.addEventListener('pointerdown',function(ev){
+    drag={x:ev.clientX,y:ev.clientY,ox:off.x,oy:off.y,moved:false};
+    cv.classList.add('drag'); cv.setPointerCapture(ev.pointerId);});
+  cv.addEventListener('pointermove',function(ev){
+    var r=cv.getBoundingClientRect(), mx=ev.clientX-r.left, my=ev.clientY-r.top;
+    if(drag){
+      var dx=ev.clientX-drag.x, dy=ev.clientY-drag.y;
+      if(Math.abs(dx)+Math.abs(dy)>3)drag.moved=true;
+      off.x=drag.ox+dx/scale; off.y=drag.oy+dy/scale; draw(); return;
+    }
+    var h=nearest(mx,my);
+    if(h!==hot){hot=h; showInfo(h); draw(); cv.style.cursor=h>=0?'pointer':'grab';}
+  });
+  function endDrag(ev){ if(drag){cv.classList.remove('drag'); if(!drag.moved){
+      var r=cv.getBoundingClientRect(), h=nearest(ev.clientX-r.left,ev.clientY-r.top);
+      if(h>=0&&DATA.nodes[h].h) location.href=BASE+DATA.nodes[h].h.replace(/^\//,'');
+    } drag=null;} }
+  cv.addEventListener('pointerup',endDrag);
+  cv.addEventListener('pointercancel',function(){drag=null;cv.classList.remove('drag');});
+  cv.addEventListener('wheel',function(ev){
+    ev.preventDefault();
+    var f=Math.exp(-ev.deltaY*0.0016);
+    scale=Math.max(0.55,Math.min(6,scale*f)); draw();
+  },{passive:false});
+  document.getElementById('atreset').addEventListener('click',function(){
+    scale=1; off={x:0,y:0}; hot=-1; showInfo(-1); draw();});
+  document.getElementById('atlegend').addEventListener('click',function(ev){
+    var b=ev.target.closest('button[data-cls]'); if(!b)return;
+    var c=b.getAttribute('data-cls'); hidden[c]=!hidden[c];
+    b.setAttribute('aria-pressed',hidden[c]?'false':'true'); draw();});
+  document.getElementById('atq').addEventListener('input',function(ev){
+    var q=ev.target.value.trim().toLowerCase();
+    if(!q){hot=-1;showInfo(-1);draw();return;}
+    for(var i=0;i<DATA.nodes.length;i++){
+      if(DATA.nodes[i].l.toLowerCase().indexOf(q)>=0&&vis(i)){
+        hot=i; showInfo(i);
+        // centre it, so finding a thing also takes you to it
+        off.x=cv.width/(2*dpr)-LAY[i].x; off.y=cv.height/(2*dpr)-LAY[i].y;
+        draw(); return;}
+    }
+    hot=-1; showInfo(-1); draw();});
+  addEventListener('resize',function(){ if(DATA){layout();draw();} });
+
+  // ---- the same data, as a list — always present, never a fallback ---------
+  function list(){
+    var by={};
+    DATA.nodes.forEach(function(n){ (by[n.c]=by[n.c]||[]).push(n); });
+    var html='';
+    Object.keys(by).sort().forEach(function(c){
+      html+='<h3 style="margin:16px 0 4px;font-size:15px">'+esc(CLS[c]||c)+'</h3><ul>';
+      by[c].sort(function(a,b){return b.n-a.n;}).forEach(function(n){
+        html+='<li>'+(n.h?'<a href="'+esc(n.h)+'">'+esc(n.l)+'</a>':esc(n.l))+
+          ' <span class=n>'+n.n.toLocaleString()+'</span></li>';});
+      html+='</ul>';
+    });
+    document.getElementById('atlistbody').innerHTML=html;
+  }
+  fetch(BASE+'api/atlas.json').then(function(r){return r.json();}).then(function(d){
+    DATA=d; layout(); draw(); list();
+  }).catch(function(){
+    document.querySelector('.atwrap').innerHTML=
+      '<p class=muted>The atlas data could not be loaded.</p>';
+  });
+})();
+</script><button id=tomenu aria-label='Back to menu' onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650; Menu</button><script>(function(){var b=document.getElementById('tomenu');if(!b)return;var f=function(){b.classList.toggle('show',(window.scrollY||0)>320);};addEventListener('scroll',f,{passive:true});f();})();</script><button id=wander title='เดินเล่น · Wander — somewhere unexpected'>&#127922; เดินเล่น</button><style>#wander{position:fixed;left:14px;bottom:64px;z-index:60;border:1px solid rgba(128,128,128,.45);border-radius:999px;padding:9px 14px;font-size:14px;cursor:pointer;background:#fffdf7;color:#243230;box-shadow:0 1px 5px rgba(0,0,0,.14)}#wander:hover{border-color:currentColor}@media print{#wander{display:none}}</style><script>(function(){var b=document.getElementById('wander');if(!b)return;var P=null,B=(window.__LANNA_BASE__||'/');b.addEventListener('click',function(){(P?Promise.resolve(P):fetch('/api/wander').then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){P=d;return d;})).then(function(d){var pool=(d&&d.pool)||[];if(!pool.length){b.style.display='none';return;}var by={};for(var j=0;j<pool.length;j++){var k=pool[j][2]||'other';(by[k]=by[k]||[]).push(pool[j]);}var ks=Object.keys(by);for(var i=0;i<9;i++){var g=by[ks[Math.floor(Math.random()*ks.length)]];var e=g[Math.floor(Math.random()*g.length)];if(e&&e[0]&&(location.pathname+location.search).indexOf(e[0])!==0){location.href=B+String(e[0]).replace(/^\//,'');return;}}}).catch(function(){b.style.display='none';});});})();</script><style>#ribbon{position:fixed;left:14px;bottom:114px;z-index:50;background:#fffdf7;color:#243230;border:1px solid rgba(128,128,128,.45);border-radius:999px;padding:9px 14px;font-size:14px;cursor:pointer;box-shadow:0 1px 5px rgba(0,0,0,.14);display:none}#ribbon.show{display:block}#ribbon:hover{border-color:currentColor}#ribpanel{position:fixed;left:14px;bottom:154px;z-index:51;width:min(360px,88vw);background:#fffdf7;color:#243230;border:1px solid rgba(128,128,128,.45);border-radius:14px;padding:14px 16px;box-shadow:0 8px 24px rgba(0,0,0,.18);display:none;font-size:14.5px;line-height:1.5}#ribpanel.show{display:block}#ribpanel h3{margin:0 0 4px;font-size:16px}#ribpanel ol{margin:8px 0;padding-left:20px}#ribpanel li{margin:3px 0}#ribpanel .priv{font-size:12.5px;opacity:.7;margin:6px 0 10px}#ribpanel button{font:inherit;font-weight:600;padding:8px 12px;border-radius:999px;border:1px solid rgba(128,128,128,.45);background:#fff;color:#243230;cursor:pointer;margin:2px 4px 2px 0}#ribpanel button:hover{background:#efe7d5}#ribpanel .say{font-size:13px;margin-top:8px;min-height:1.2em}@media print{#ribbon,#ribpanel{display:none!important}}</style><button id=ribbon aria-expanded=false></button><div id=ribpanel role=dialog aria-label='ทางที่คุณเดิน · Where you've been'></div><script>
+(function(){
+  var KEY='wichaa.trail', MAX=10;
+  var L={"your_trail":["ทางที่คุณเดิน","Where you've been"],"trails":["เส้นทาง","Trails"]};
+  function read(){try{return JSON.parse(localStorage.getItem(KEY)||'[]');}catch(e){return [];}}
+  function write(v){try{localStorage.setItem(KEY,JSON.stringify(v));}catch(e){}}
+  // record this page, newest last; a reload or a re-visit moves it rather than
+  // duplicating it, so the walk reads as a route and not a stutter.
+  var here=location.pathname+location.search;
+  var t=read().filter(function(e){return e.h!==here;});
+  t.push({h:here,t:(document.title||here).replace(/ — wichaa$/,'')});
+  while(t.length>MAX)t.shift();
+  write(t);
+  var b=document.getElementById('ribbon'), p=document.getElementById('ribpanel');
+  if(!b||!p)return;
+  function label(){var n=read().length;b.textContent='\u{1F9F5} '+L.your_trail[0]+' ('+n+')';
+    b.title=L.your_trail[0]+' · '+L.your_trail[1];}
+  function paint(){
+    var t=read().slice().reverse();
+    var items=t.map(function(e){return '<li><a href="'+e.h+'">'+
+      String(e.t).replace(/[<>&"]/g,function(c){return {'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c];})+'</a></li>';}).join('');
+    p.innerHTML='<h3>'+L.your_trail[0]+' · '+L.your_trail[1]+'</h3>'+
+      '<p class=priv>Kept in this browser only. No cookie, no account, nothing sent — '+
+      'unless you offer it below.</p><ol>'+items+'</ol>'+
+      '<button id=rib_offer>Offer this walk as a trail</button>'+
+      '<button id=rib_clear>Forget these</button>'+
+      '<div class=say id=rib_say></div>';
+    document.getElementById('rib_clear').onclick=function(){
+      write([]);label();paint();document.getElementById('rib_say').textContent='Forgotten.';};
+    document.getElementById('rib_offer').onclick=offer;
+  }
+  function offer(){
+    var say=document.getElementById('rib_say');
+    var steps=read().map(function(e){return {href:e.h,title:e.t};});
+    if(steps.length<2){say.textContent='Walk a little further first — a trail needs at least two stops.';return;}
+    var note=prompt('One line: why is this walk worth following?')||'';
+    var payload={kind:'trail',steps:steps,note:note,offeredAt:new Date().toISOString()};
+    say.textContent='Offering…';
+    fetch('https://mueang-map-sync.wichaa.workers.dev/trail',
+      {method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(payload)})
+      .then(function(r){if(!r.ok)throw 0;return r.json();})
+      .then(function(){say.textContent='Thank you — it is in the queue for review.';})
+      .catch(function(){
+        // The queue may not be reachable (it is a separate service, and this
+        // site is a static file). Never lose the visitor's walk to a failed
+        // request: hand it back to them in a form they can send themselves.
+        var text=(note?note+'\n\n':'')+steps.map(function(s,i){
+          return (i+1)+'. '+s.title+'  '+location.origin+s.href;}).join('\n');
+        if(navigator.clipboard)navigator.clipboard.writeText(text);
+        var mail='mailto:530kings@proton.me?subject='+encodeURIComponent('A trail for wichaa')+
+          '&body='+encodeURIComponent(text);
+        say.innerHTML='Copied to your clipboard — <a href="'+mail+'">send it by email</a> '+
+          'and it will be read by a human.';
+      });
+  }
+  b.addEventListener('click',function(){
+    var open=p.classList.toggle('show');
+    b.setAttribute('aria-expanded',open?'true':'false');
+    if(open)paint();});
+  if(read().length>1){label();b.classList.add('show');}
+})();
+</script><div id=sharebar aria-label='Share this page'><span class=shlabel>Share</span><button class=shbtn data-sh=native title='Share…' hidden>&#10148;</button><button class=shbtn data-sh=copy title='Copy link'>&#128279;</button><button class=shbtn data-sh=fb title='Share on Facebook'>f</button><button class=shbtn data-sh=line title='Share on LINE'>L</button><button class=shbtn data-sh=tg title='Share on Telegram'>&#9992;</button></div><script>(function(){var bar=document.getElementById('sharebar');if(!bar)return;function toast(m){var t=document.createElement('div');t.className='shtoast';t.textContent=m;document.body.appendChild(t);setTimeout(function(){t.remove();},1800);}function links(u,t){return {fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};}function shareUrl(url,title){var u=encodeURIComponent(url),t=encodeURIComponent((title||'').replace(/\s+[—-]\s+wichaa.*$/i,''));return {u:u,t:t};}window.__share=function(url,title){url=url||location.href;title=title||document.title;if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});return;}if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){toast('Link copied');},function(){});}else toast(url);};var nat=bar.querySelector('[data-sh=native]');if(navigator.share&&nat)nat.hidden=false;bar.addEventListener('click',function(e){var el=e.target.closest('[data-sh]');if(!el)return;var k=el.getAttribute('data-sh');var s=shareUrl(location.href,document.title);if(k==='native'){window.__share();return;}if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){toast('Link copied');},function(){toast(location.href);});}else toast(location.href);return;}var m=links(s.u,s.t);if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script><a id=kofloat href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener aria-label='Support this work on Ko-fi' style="position:fixed;right:16px;bottom:16px;z-index:40;background:#fbf1dc;color:#8a5a00;border:1px solid #e6d3a8;border-radius:999px;padding:11px 16px;font-weight:700;font-size:14.5px;text-decoration:none;box-shadow:0 6px 18px #0002">&#9749; Support</a></body></html>

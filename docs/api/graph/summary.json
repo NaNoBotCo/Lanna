@@ -1,0 +1,215 @@
+{
+ "schema": "wichaa-graph/1",
+ "howto": {
+  "node_id": "class:value — e.g. ms:6962, place:wat-chiang-man, term:เมตตา",
+  "edge": "{src, dst, type, prov, w, ev}",
+  "w": "a real count, or a distance in metres; never an invented score",
+  "ev": "the receipt, in words — '7 shared manuscripts', '312 m apart'",
+  "provenance": {
+   "authored": "a human asserted it",
+   "adjudicated": "a written rule decided it, and fails closed when it cannot",
+   "computed": "it follows from the catalogue's columns or coordinates",
+   "derived": "a bot noticed a pattern and cited the records it counted"
+  },
+  "note": "Nothing here is inferred from a language model's priors. Resolved relations also ride inside api/manuscript/{id}.json, api/place/{id}.json and api/article/{slug}.json as `threads`."
+ },
+ "nodes": {
+  "total": 23577,
+  "by_class": {
+   "chronology": 1,
+   "echo": 3,
+   "entity": 13,
+   "era": 3,
+   "finding": 14,
+   "genre": 13,
+   "geography": 1,
+   "item": 14653,
+   "kind": 8,
+   "language": 9,
+   "legibility": 1,
+   "market": 1,
+   "material": 3,
+   "ms": 6990,
+   "page": 30,
+   "place": 1494,
+   "provenance": 2,
+   "province": 10,
+   "ptype": 8,
+   "rarity": 2,
+   "scale": 1,
+   "script": 8,
+   "subgenre": 19,
+   "temple": 158,
+   "term": 127,
+   "tradition": 4,
+   "visual": 1
+  }
+ },
+ "edges": {
+  "total": 118649,
+  "by_provenance": {
+   "authored": 104,
+   "computed": 117320,
+   "derived": 1225
+  },
+  "by_type_provenance": {
+   "about·computed": 617,
+   "carries_term·computed": 18518,
+   "cites·derived": 289,
+   "co_occurs_with·derived": 922,
+   "concerns·derived": 14,
+   "depicted_in·authored": 1,
+   "from_province·computed": 7957,
+   "held_at·computed": 6549,
+   "in_era·computed": 4352,
+   "in_genre·computed": 6990,
+   "in_language·computed": 13020,
+   "in_script·computed": 6982,
+   "in_subgenre·computed": 6565,
+   "in_tradition·computed": 21643,
+   "invokes·authored": 1,
+   "near·computed": 1236,
+   "of_type·computed": 16147,
+   "on_material·computed": 6744,
+   "paired_with·authored": 2,
+   "part_of·authored": 11,
+   "related_to·authored": 86,
+   "teacher_of·authored": 3
+  }
+ },
+ "types": {
+  "in_tradition": {
+   "forward": "in the tradition of",
+   "reverse": "tradition of"
+  },
+  "in_genre": {
+   "forward": "in the genre",
+   "reverse": "genre of"
+  },
+  "in_subgenre": {
+   "forward": "in the sub-genre",
+   "reverse": "sub-genre of"
+  },
+  "in_language": {
+   "forward": "written in",
+   "reverse": "language of"
+  },
+  "in_script": {
+   "forward": "written in script",
+   "reverse": "script of"
+  },
+  "from_province": {
+   "forward": "from",
+   "reverse": "provenance of"
+  },
+  "held_at": {
+   "forward": "held at",
+   "reverse": "holds"
+  },
+  "on_material": {
+   "forward": "written on",
+   "reverse": "material of"
+  },
+  "in_era": {
+   "forward": "dated in era",
+   "reverse": "era of"
+  },
+  "about": {
+   "forward": "about",
+   "reverse": "appears in"
+  },
+  "carries_term": {
+   "forward": "carries the term",
+   "reverse": "carried by"
+  },
+  "near": {
+   "forward": "near",
+   "reverse": "near"
+  },
+  "of_type": {
+   "forward": "of type",
+   "reverse": "type of"
+  },
+  "same_walk_cluster": {
+   "forward": "same walking cluster",
+   "reverse": "same walking cluster"
+  },
+  "concerns": {
+   "forward": "concerns",
+   "reverse": "noticed in a finding"
+  },
+  "cites": {
+   "forward": "cites",
+   "reverse": "cited by a finding"
+  },
+  "teacher_of": {
+   "inverse": "student_of",
+   "forward": "teacher of",
+   "reverse": "in the lineage of"
+  },
+  "invokes": {
+   "inverse": "invoked_by",
+   "forward": "invokes",
+   "reverse": "invoked by"
+  },
+  "part_of": {
+   "inverse": "has_part",
+   "forward": "part of",
+   "reverse": "includes"
+  },
+  "depicted_in": {
+   "inverse": "depicts",
+   "forward": "depicted in",
+   "reverse": "depicts"
+  },
+  "derived_from": {
+   "inverse": "source_of",
+   "forward": "derived from",
+   "reverse": "source of"
+  },
+  "protects_against": {
+   "inverse": "warded_by",
+   "forward": "protects against",
+   "reverse": "warded by"
+  },
+  "paired_with": {
+   "inverse": "paired_with",
+   "forward": "paired with",
+   "reverse": "paired with"
+  },
+  "same_as": {
+   "inverse": "same_as",
+   "forward": "also known as",
+   "reverse": "also known as"
+  },
+  "related_to": {
+   "inverse": "related_to",
+   "forward": "related to",
+   "reverse": "related to"
+  },
+  "co_occurs_with": {
+   "inverse": "co_occurs_with",
+   "forward": "co-occurs with",
+   "reverse": "co-occurs with"
+  }
+ },
+ "sources": {
+  "authored_triples": 108,
+  "manuscripts": 6990,
+  "items": 14653,
+  "tag_edges": 18700,
+  "places": 1494,
+  "vault": {
+   "notes": 1494,
+   "clusters": 0,
+   "wikilinks": 0
+  },
+  "findings": 14,
+  "proposed": {
+   "co_occurs_with_manuscripts": 759,
+   "co_occurs_with_market": 195,
+   "corpus_market_echo": 18
+  },
+  "pages": 30
+ }
+}

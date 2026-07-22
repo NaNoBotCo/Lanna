@@ -1,0 +1,331 @@
+{
+ "isolates_by_class": {
+  "page": 30
+ },
+ "dead_ends": {
+  "ms": {
+   "total": 6990,
+   "with_lateral_edges": 670,
+   "dead_end_share": 0.9041
+  },
+  "item": {
+   "total": 14653,
+   "with_lateral_edges": 14461,
+   "dead_end_share": 0.0131
+  },
+  "place": {
+   "total": 1494,
+   "with_lateral_edges": 980,
+   "dead_end_share": 0.344
+  }
+ },
+ "woven_layer_components": {
+  "count": 12,
+  "largest": [
+   {
+    "size": 88,
+    "sample": [
+     "finding:geographyprovince-treasuries",
+     "finding:languagepolyglot",
+     "finding:raritymaterialkhoi",
+     "finding:rarityscript-islands",
+     "geography:province-treasuries"
+    ]
+   },
+   {
+    "size": 81,
+    "sample": [
+     "term:amulet",
+     "term:buddha amulet",
+     "term:lucky charm",
+     "term:talisman",
+     "term:thai amulet"
+    ]
+   },
+   {
+    "size": 60,
+    "sample": [
+     "echo:archive-silence",
+     "echo:shared-vocabulary",
+     "finding:echoarchive-silence",
+     "finding:echoshared-vocabulary",
+     "finding:legibilitymachine-readable"
+    ]
+   },
+   {
+    "size": 31,
+    "sample": [
+     "entity:holasat",
+     "entity:katha",
+     "entity:lersi",
+     "entity:mahasamai",
+     "entity:mangraisat"
+    ]
+   },
+   {
+    "size": 26,
+    "sample": [
+     "echo:living-vernacular",
+     "finding:echoliving-vernacular",
+     "item:2114",
+     "item:2115",
+     "item:2116"
+    ]
+   }
+  ]
+ },
+ "hubs": [
+  {
+   "id": "tradition:Thai amulet market",
+   "label": "Thai amulet market · living commerce",
+   "degree": 13020
+  },
+  {
+   "id": "kind:amulet",
+   "label": "amulet",
+   "degree": 13020
+  },
+  {
+   "id": "tradition:Lanna manuscripts",
+   "label": "Lanna manuscripts · palm-leaf wichaa",
+   "degree": 6990
+  },
+  {
+   "id": "language:Pali",
+   "label": "Pali",
+   "degree": 6906
+  },
+  {
+   "id": "script:tham_lanna",
+   "label": "Tham Lanna · อักษรธรรมล้านนา",
+   "degree": 6266
+  },
+  {
+   "id": "material:palm_leaf",
+   "label": "Palm-leaf · ใบลาน",
+   "degree": 5800
+  },
+  {
+   "id": "language:Lan Na",
+   "label": "Lan Na · Kham Mueang",
+   "degree": 5601
+  },
+  {
+   "id": "era:CS",
+   "label": "Cunlasakkarat (CS) · antique Lanna",
+   "degree": 3772
+  },
+  {
+   "id": "genre:buddhist_canonical",
+   "label": "Buddhist Canonical · พระไตรปิฎก",
+   "degree": 2364
+  },
+  {
+   "id": "province:Phrae",
+   "label": "Phrae",
+   "degree": 2180
+  },
+  {
+   "id": "temple:Wat Sung Men",
+   "label": "Wat Sung Men",
+   "degree": 1780
+  },
+  {
+   "id": "genre:jataka",
+   "label": "Jātaka · ชาดก",
+   "degree": 1642
+  },
+  {
+   "id": "subgenre:jataka:Jataka",
+   "label": "Jātaka · ชาดก › Jataka",
+   "degree": 1549
+  },
+  {
+   "id": "province:Lampang",
+   "label": "Lampang",
+   "degree": 1495
+  },
+  {
+   "id": "ptype:wat",
+   "label": "Buddhist temple (monastery)",
+   "degree": 1466
+  }
+ ],
+ "reachability": {
+  "routes": [
+   {
+    "route": "/a",
+    "inbound": 4
+   },
+   {
+    "route": "/activity",
+    "inbound": 56
+   },
+   {
+    "route": "/articles",
+    "inbound": 56
+   },
+   {
+    "route": "/atlas",
+    "inbound": 56
+   },
+   {
+    "route": "/browse",
+    "inbound": 57
+   },
+   {
+    "route": "/diagrams",
+    "inbound": 56
+   },
+   {
+    "route": "/expedite",
+    "inbound": 56
+   },
+   {
+    "route": "/explore",
+    "inbound": 1
+   },
+   {
+    "route": "/findings",
+    "inbound": 55
+   },
+   {
+    "route": "/gallery",
+    "inbound": 0,
+    "hidden_reason": "superseded by /diagrams and /na, kept so old links resolve"
+   },
+   {
+    "route": "/glossary",
+    "inbound": 1
+   },
+   {
+    "route": "/graph",
+    "inbound": 1
+   },
+   {
+    "route": "/graph-audit",
+    "inbound": 0,
+    "hidden_reason": "Phase A cartography diagnostics (WAYFINDING_PLAN.md) — edge-store counts, orphan/dead-end/reachability audit; maintainer-facing until the wayfinding chrome ships"
+   },
+   {
+    "route": "/hun",
+    "inbound": 55
+   },
+   {
+    "route": "/hun/embed",
+    "inbound": 0,
+    "hidden_reason": "chromeless iframe shell — reached via embed snippets on other sites, never linked as a page"
+   },
+   {
+    "route": "/jovilabe",
+    "inbound": 56
+   },
+   {
+    "route": "/lens",
+    "inbound": 0,
+    "hidden_reason": "an experiment; reachable from article pages that use it"
+   },
+   {
+    "route": "/m",
+    "inbound": 12
+   },
+   {
+    "route": "/market",
+    "inbound": 57
+   },
+   {
+    "route": "/moon",
+    "inbound": 56
+   },
+   {
+    "route": "/na",
+    "inbound": 1
+   },
+   {
+    "route": "/redspot",
+    "inbound": 56
+   },
+   {
+    "route": "/status",
+    "inbound": 1,
+    "hidden_reason": "build/coverage diagnostics — useful to maintainers, noise to readers"
+   },
+   {
+    "route": "/support",
+    "inbound": 56
+   },
+   {
+    "route": "/textbooks",
+    "inbound": 56
+   },
+   {
+    "route": "/trails",
+    "inbound": 56
+   },
+   {
+    "route": "/vocab",
+    "inbound": 0,
+    "hidden_reason": "machine-facing controlled vocabulary; /glossary is the human door"
+   },
+   {
+    "route": "/w",
+    "inbound": 1
+   },
+   {
+    "route": "/w/answers",
+    "inbound": 2
+   },
+   {
+    "route": "/w/geo",
+    "inbound": 3
+   },
+   {
+    "route": "/w/prices",
+    "inbound": 3
+   },
+   {
+    "route": "/w/products",
+    "inbound": 2
+   },
+   {
+    "route": "/w/regions",
+    "inbound": 3
+   },
+   {
+    "route": "/w/trends",
+    "inbound": 3
+   },
+   {
+    "route": "/wats",
+    "inbound": 56
+   },
+   {
+    "route": "/wats/app",
+    "inbound": 1
+   },
+   {
+    "route": "/widgets",
+    "inbound": 56
+   }
+  ],
+  "orphans": [],
+  "unreachable": [],
+  "bulk_namespaces": {
+   "/place/": {
+    "members": 1494,
+    "static_inbound_to_root": 0,
+    "note": "members are client-rendered destinations (reached via data, not static hrefs) — the Phase B lateral-link gap, reported not failed"
+   },
+   "/read/": {
+    "members": 3,
+    "static_inbound_to_root": 1,
+    "note": "members are client-rendered destinations (reached via data, not static hrefs) — the Phase B lateral-link gap, reported not failed"
+   },
+   "/trail/": {
+    "members": 13,
+    "static_inbound_to_root": 0,
+    "note": "members are client-rendered destinations (reached via data, not static hrefs) — the Phase B lateral-link gap, reported not failed"
+   }
+  }
+ }
+}
