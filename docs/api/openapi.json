@@ -222,20 +222,6 @@
         }
       }
     },
-    "/api/build-info.json": {
-      "get": {
-        "summary": "Generator version, build time, catalogue mtime, counts.",
-        "description": "Generator version, build time, catalogue mtime, counts.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {}
-            }
-          }
-        }
-      }
-    },
     "/api/coverage.json": {
       "get": {
         "summary": "What has been looked for, where, by what method — so an absence can be read. Distinguishes",
@@ -324,20 +310,6 @@
       "get": {
         "summary": "Index of raw folio scans for the gallery.",
         "description": "Index of raw folio scans for the gallery.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {}
-            }
-          }
-        }
-      }
-    },
-    "/api/glossary.json": {
-      "get": {
-        "summary": "Multilingual glossary of discovered terms (Thai / English / 中文).",
-        "description": "Multilingual glossary of discovered terms (Thai / English / 中文).",
         "responses": {
           "200": {
             "description": "OK",
@@ -460,20 +432,6 @@
         }
       }
     },
-    "/api/na-compendium.json": {
-      "get": {
-        "summary": "The 108 Na: sacred glyphs paired with the page each was drawn on.",
-        "description": "The 108 Na: sacred glyphs paired with the page each was drawn on.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {}
-            }
-          }
-        }
-      }
-    },
     "/api/overview.json": {
       "get": {
         "summary": "Corpus-wide counts and facet breakdowns.",
@@ -530,52 +488,10 @@
         }
       }
     },
-    "/api/scans.all.json": {
-      "get": {
-        "summary": "Every raw scan (paginated client-side); IIIF image per sha.",
-        "description": "Every raw scan (paginated client-side); IIIF image per sha.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {}
-            }
-          }
-        }
-      }
-    },
-    "/api/searchdocs.json": {
-      "get": {
-        "summary": "Full client-side search index (large).",
-        "description": "Full client-side search index (large).",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {}
-            }
-          }
-        }
-      }
-    },
     "/api/status.json": {
       "get": {
         "summary": "Crawl/source status.",
         "description": "Crawl/source status.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {}
-            }
-          }
-        }
-      }
-    },
-    "/api/thesaurus.json": {
-      "get": {
-        "summary": "Bilingual thesaurus: query-token expansion groups.",
-        "description": "Bilingual thesaurus: query-token expansion groups.",
         "responses": {
           "200": {
             "description": "OK",
@@ -612,30 +528,6 @@
             }
           }
         }
-      }
-    },
-    "/api/article/{slug}.json": {
-      "get": {
-        "summary": "One article: authored prose + live-computed profile + connections.",
-        "description": "One article: authored prose + live-computed profile + connections.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {}
-            }
-          }
-        },
-        "parameters": [
-          {
-            "name": "slug",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ]
       }
     },
     "/api/manuscript/{id}.json": {

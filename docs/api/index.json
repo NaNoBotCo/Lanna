@@ -20,13 +20,6 @@
       "templated": false
     },
     {
-      "path": "/api/build-info.json",
-      "url": "https://wichaa.net/api/build-info.json",
-      "description": "Generator version, build time, catalogue mtime, counts.",
-      "format": "application/json",
-      "templated": false
-    },
-    {
       "path": "/api/coverage.json",
       "url": "https://wichaa.net/api/coverage.json",
       "description": "What has been looked for, where, by what method — so an absence can be read. Distinguishes out-of-scope from not-in-the-source from simply unwritten, which need three different responses.",
@@ -72,13 +65,6 @@
       "path": "/api/gallery.scan-index.json",
       "url": "https://wichaa.net/api/gallery.scan-index.json",
       "description": "Index of raw folio scans for the gallery.",
-      "format": "application/json",
-      "templated": false
-    },
-    {
-      "path": "/api/glossary.json",
-      "url": "https://wichaa.net/api/glossary.json",
-      "description": "Multilingual glossary of discovered terms (Thai / English / 中文).",
       "format": "application/json",
       "templated": false
     },
@@ -132,13 +118,6 @@
       "templated": false
     },
     {
-      "path": "/api/na-compendium.json",
-      "url": "https://wichaa.net/api/na-compendium.json",
-      "description": "The 108 Na: sacred glyphs paired with the page each was drawn on.",
-      "format": "application/json",
-      "templated": false
-    },
-    {
       "path": "/api/overview.json",
       "url": "https://wichaa.net/api/overview.json",
       "description": "Corpus-wide counts and facet breakdowns.",
@@ -167,30 +146,9 @@
       "templated": false
     },
     {
-      "path": "/api/scans.all.json",
-      "url": "https://wichaa.net/api/scans.all.json",
-      "description": "Every raw scan (paginated client-side); IIIF image per sha.",
-      "format": "application/json",
-      "templated": false
-    },
-    {
-      "path": "/api/searchdocs.json",
-      "url": "https://wichaa.net/api/searchdocs.json",
-      "description": "Full client-side search index (large).",
-      "format": "application/json",
-      "templated": false
-    },
-    {
       "path": "/api/status.json",
       "url": "https://wichaa.net/api/status.json",
       "description": "Crawl/source status.",
-      "format": "application/json",
-      "templated": false
-    },
-    {
-      "path": "/api/thesaurus.json",
-      "url": "https://wichaa.net/api/thesaurus.json",
-      "description": "Bilingual thesaurus: query-token expansion groups.",
       "format": "application/json",
       "templated": false
     },
@@ -209,20 +167,12 @@
       "templated": false
     },
     {
-      "path": "/api/article/{slug}.json",
-      "url": "https://wichaa.net/api/article/{slug}.json",
-      "description": "One article: authored prose + live-computed profile + connections.",
-      "format": "application/json",
-      "templated": true,
-      "count": 33
-    },
-    {
       "path": "/api/manuscript/{id}.json",
       "url": "https://wichaa.net/api/manuscript/{id}.json",
       "description": "One manuscript: metadata, images, IIIF links, OCR where present.",
       "format": "application/json",
       "templated": true,
-      "count": 6990
+      "count": 332
     },
     {
       "path": "/api/place/{id}.json",
