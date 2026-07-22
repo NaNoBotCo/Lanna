@@ -93,7 +93,7 @@
   .cardshare:hover{background:#eef2f1;color:var(--teal)}
   @media print{#sharebar{display:none!important}}
   @media(max-width:520px){#sharebar .shlabel{display:none}#sharebar{gap:4px;padding:4px 6px}}
-.sharebar{display:flex;gap:10px;margin:0 0 14px;flex-wrap:wrap}.sharebar button,.sharebar a{font-size:13px;padding:6px 12px;cursor:pointer;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);text-decoration:none}.frozen{background:#fbf1dc;border:2px solid #e5cf9a;color:#6b4a00;border-radius:10px;padding:12px 16px;margin:0 0 14px;font-size:15px}.frozen a{color:#6b4a00}</style></head><body><script>window.__LANNA_BASE__="/";</script><script>
+.geolegend{display:flex;gap:18px;flex-wrap:wrap;justify-content:center;margin:12px 0 4px;font-size:14px;color:var(--muted)}.geolegend span{display:flex;align-items:center;gap:7px}.geolegend .sw{width:15px;height:15px;border-radius:3px;display:inline-block}.geolegend .geosrc{opacity:.75;font-size:13px}.sharebar{display:flex;gap:10px;margin:0 0 14px;flex-wrap:wrap}.sharebar button,.sharebar a{font-size:13px;padding:6px 12px;cursor:pointer;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);text-decoration:none}.frozen{background:#fbf1dc;border:2px solid #e5cf9a;color:#6b4a00;border-radius:10px;padding:12px 16px;margin:0 0 14px;font-size:15px}.frozen a{color:#6b4a00}</style></head><body><script>window.__LANNA_BASE__="/";</script><script>
 (function(){
   "use strict";
   // ---- Lanna Wiki static shim: run the dynamic viewer on a static host ----------
@@ -302,26 +302,78 @@
   } catch(e){}
 })();
 </script><header><div><h1>Where the tradition lives</h1><p class=sub>Manuscript provenance vs today&#x27;s amulet market, per Thai province — the antique and living layers of the wichaa tradition on one map.</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/moon'>Moon</a><a href='/widgets'>Widgets</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main><div class=sharebar><button onclick="navigator.clipboard.writeText(location.href.split('?')[0]).then(()=>this.textContent='✓ copied')">🔗 Copy link</button><button onclick="navigator.clipboard.writeText('<iframe src=&quot;'+location.origin+'/w/geo?embed=1&quot; width=&quot;100%&quot; height=&quot;620&quot; frameborder=&quot;0&quot;></iframe>').then(()=>this.textContent='✓ copied')">📋 Copy embed code</button><a href='/w/geo/geo-offline.html' download>⬇ Whole widget (1 file)</a><a href='/api/w/geo' download='geo.json'>⬇ JSON</a><a href='/api/w/geo.geojson' download='lanna-provinces.geojson'>⬇ GeoJSON</a></div><p class=muted>Loading…</p></main><script>const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};fetch('/api/w/geo').then(r=>r.json()).then(D=>{const main=document.getElementById('main');main.querySelector('p.muted')?.remove();
-const W=920,H=760,pad=40;
+const W=920,H=980,pad=26;
 const pts=D.provinces; if(!pts.length){main.append(el('p',{textContent:'No geographic data yet.'}));return;}
-const lats=pts.map(p=>p.lat),lons=pts.map(p=>p.lon);
-const la0=Math.min(...lats)-.6,la1=Math.max(...lats)+.6,lo0=Math.min(...lons)-.6,lo1=Math.max(...lons)+.6;
-const X=lo=>pad+(lo-lo0)/(lo1-lo0)*(W-2*pad), Y=la=>pad+(la1-la)/(la1-la0)*(H-2*pad);
+const OUT=D.outlines||{};
+// Bounds come from the OUTLINES when we have them, so the country sits in frame
+// whether or not every province has data.
+let lats=[],lons=[];
+for(const rings of Object.values(OUT))for(const r of rings)for(const c of r){lons.push(c[0]);lats.push(c[1]);}
+if(!lats.length){lats=pts.map(p=>p.lat);lons=pts.map(p=>p.lon);}
+const la0=Math.min(...lats),la1=Math.max(...lats),lo0=Math.min(...lons),lo1=Math.max(...lons);
+// Equirectangular with a cos(lat) correction: without it Thailand comes out
+// noticeably fat, because a degree of longitude is ~0.95 of a degree of
+// latitude at this latitude.
+const K=Math.cos((la0+la1)/2*Math.PI/180);
+const wDeg=(lo1-lo0)*K, hDeg=(la1-la0);
+const sc=Math.min((W-2*pad)/wDeg,(H-2*pad)/hDeg);
+const ox=(W-wDeg*sc)/2, oy=(H-hDeg*sc)/2;
+const X=lo=>ox+(lo-lo0)*K*sc, Y=la=>oy+(la1-la)*sc;
 const svg=(t,a={},k)=>{const e=document.createElementNS('http://www.w3.org/2000/svg',t);for(const[k2,v]of Object.entries(a))e.setAttribute(k2,v);if(k!=null)e.textContent=k;return e;};
-const s=svg('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Province map'});
-s.style.cssText='width:100%;height:auto;background:linear-gradient(#f2f7f6,#eaf1ef);border-radius:12px';
-const mMax=Math.sqrt(Math.max(...pts.map(p=>p.mss),1)), kMax=Math.sqrt(Math.max(...pts.map(p=>p.market),1));
-for(const p of pts){
-  const g=svg('g'); g.append(svg('title',{},`${p.nameEn} · ${p.nameTh}\n${p.mss} manuscripts · ${p.market} listings`));
-  if(p.mss) g.append(svg('circle',{cx:X(p.lon),cy:Y(p.lat),r:4+26*Math.sqrt(p.mss)/mMax,fill:'#1F4E4A',opacity:.55}));
-  if(p.market) g.append(svg('circle',{cx:X(p.lon),cy:Y(p.lat),r:3+22*Math.sqrt(p.market)/kMax,fill:'#b8892f',opacity:.65}));
-  s.append(g);
+const s=svg('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Thailand by province: manuscript provenance and amulet-market listings'});
+s.style.cssText='width:100%;max-width:620px;height:auto;background:#eef4f3;border-radius:12px;display:block;margin:0 auto';
+
+// --- the land itself, shaded by manuscript count ---------------------------
+const byName={}; for(const p of pts) byName[p.nameEn]=p;
+const mMax=Math.max(...pts.map(p=>p.mss),1), kMax=Math.max(...pts.map(p=>p.market),1);
+const land=svg('g');
+for(const [nm,rings] of Object.entries(OUT)){
+  const rec=byName[nm], n=rec?rec.mss:0;
+  // sqrt so the many small counts stay visible against the few huge ones
+  const t=n?Math.sqrt(n)/Math.sqrt(mMax):0;
+  const fill=n?`rgba(31,78,74,${(0.10+0.72*t).toFixed(3)})`:'#dde7e4';
+  for(const r of rings){
+    const d='M'+r.map(c=>`${X(c[0]).toFixed(1)},${Y(c[1]).toFixed(1)}`).join('L')+'Z';
+    const path=svg('path',{d:d,fill:fill,stroke:'#ffffff','stroke-width':.7,'stroke-linejoin':'round'});
+    path.append(svg('title',{},`${nm}${rec?`\n${rec.mss} manuscripts · ${rec.market} listings`:'\nno records'}`));
+    land.append(path);
+  }
 }
+s.append(land);
+
+// --- market listings on top, as gold circles -------------------------------
+const mk=svg('g');
+for(const p of pts){
+  if(!p.market) continue;
+  const r=2.5+15*Math.sqrt(p.market)/Math.sqrt(kMax);
+  const c=svg('circle',{cx:X(p.lon).toFixed(1),cy:Y(p.lat).toFixed(1),r:r.toFixed(1),
+                        fill:'#b8892f',opacity:.8,stroke:'#fff','stroke-width':1});
+  c.append(svg('title',{},`${p.nameEn} · ${p.nameTh}\n${p.mss} manuscripts · ${p.market} listings`));
+  mk.append(c);
+}
+s.append(mk);
 main.append(s);
-const lg=el('p',{className:'muted'});
-lg.append(el('span',{style:'color:#1F4E4A;font-weight:800',textContent:'● manuscripts came from'}),
-  document.createTextNode('   '),
-  el('span',{style:'color:#b8892f;font-weight:800',textContent:'● amulets sell from'}),
-  document.createTextNode(`   — ${D.totals.mss.toLocaleString()} placed manuscripts · ${D.totals.market.toLocaleString()} located listings`));
+
+// --- legend, in words as well as colour ------------------------------------
+const lg=el('div',{className:'geolegend'});
+lg.innerHTML="<span><i class='sw' style='background:rgba(31,78,74,.72)'></i>"
+ +"darker = more manuscripts from there</span>"
+ +"<span><i class='sw' style='background:#dde7e4'></i>no manuscripts recorded</span>"
+ +"<span><i class='sw' style='background:#b8892f;border-radius:50%'></i>"
+ +"amulets sold from there today</span>"
+ +"<span class=geosrc>Outlines: Natural Earth (public domain)</span>";
 main.append(lg);
+
+const nMss=pts.filter(p=>p.mss).length, nMkt=pts.filter(p=>p.market).length;
+const tot=el('p',{className:'muted'});
+tot.textContent=`${D.totals.mss.toLocaleString()} manuscripts and ${D.totals.market.toLocaleString()} market listings across ${pts.length} provinces.`;
+main.append(tot);
+const say=el('p',{className:'muted'});
+say.textContent=`The two layers do not overlap much: manuscripts survive in ${nMss} provinces, almost all of them the Lanna north, while amulets sell from ${nMkt}. The tradition was written in one place and is traded across the country.`;
+main.append(say);
+if(D.unplaced&&D.unplaced.length){
+  const u=el('p',{className:'muted'});
+  u.textContent=`${D.unplaced.length} province${D.unplaced.length===1?'':'s'} could not be placed on the map.`;
+  main.append(u);
+}
 });</script><button id=tomenu aria-label='Back to menu' onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650; Menu</button><script>(function(){var b=document.getElementById('tomenu');if(!b)return;var f=function(){b.classList.toggle('show',(window.scrollY||0)>320);};addEventListener('scroll',f,{passive:true});f();})();</script><div id=sharebar aria-label='Share this page'><span class=shlabel>Share</span><button class=shbtn data-sh=native title='Share…' hidden>&#10148;</button><button class=shbtn data-sh=copy title='Copy link'>&#128279;</button><button class=shbtn data-sh=fb title='Share on Facebook'>f</button><button class=shbtn data-sh=line title='Share on LINE'>L</button><button class=shbtn data-sh=tg title='Share on Telegram'>&#9992;</button></div><script>(function(){var bar=document.getElementById('sharebar');if(!bar)return;function toast(m){var t=document.createElement('div');t.className='shtoast';t.textContent=m;document.body.appendChild(t);setTimeout(function(){t.remove();},1800);}function links(u,t){return {fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};}function shareUrl(url,title){var u=encodeURIComponent(url),t=encodeURIComponent((title||'').replace(/\s+[—-]\s+wichaa.*$/i,''));return {u:u,t:t};}window.__share=function(url,title){url=url||location.href;title=title||document.title;if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});return;}if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){toast('Link copied');},function(){});}else toast(url);};var nat=bar.querySelector('[data-sh=native]');if(navigator.share&&nat)nat.hidden=false;bar.addEventListener('click',function(e){var el=e.target.closest('[data-sh]');if(!el)return;var k=el.getAttribute('data-sh');var s=shareUrl(location.href,document.title);if(k==='native'){window.__share();return;}if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){toast('Link copied');},function(){toast(location.href);});}else toast(location.href);return;}var m=links(s.u,s.t);if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script><a id=kofloat href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener aria-label='Support this work on Ko-fi' style="position:fixed;right:16px;bottom:16px;z-index:40;background:#fbf1dc;color:#8a5a00;border:1px solid #e6d3a8;border-radius:999px;padding:11px 16px;font-weight:700;font-size:14.5px;text-decoration:none;box-shadow:0 6px 18px #0002">&#9749; Support</a></body></html>
