@@ -1,4 +1,4 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><meta name='theme-color' content='#1F4E4A'><link rel=icon type='image/svg+xml' href='/favicon.svg'><meta name='description' content='A working moonphase dial — two moons on a turning disc behind a cloud plate — and an honest account of the six wrong versions that came before it.'><meta property='og:type' content='website'><meta property='og:site_name' content='wichaa'><meta property='og:url' content='https://wichaa.net/'><meta property='og:title' content='The moon complication — wichaa'><meta property='og:description' content='A working moonphase dial — two moons on a turning disc behind a cloud plate — and an honest account of the six wrong versions that came before it.'><meta property='og:image' content='https://wichaa.net/og.jpg'><meta property='og:image:width' content='1200'><meta property='og:image:height' content='630'><meta property='og:image:alt' content='Circular yantra from a Lanna manuscript'><meta name='twitter:card' content='summary_large_image'><meta name='twitter:title' content='The moon complication — wichaa'><meta name='twitter:description' content='A working moonphase dial — two moons on a turning disc behind a cloud plate — and an honest account of the six wrong versions that came before it.'><meta name='twitter:image' content='https://wichaa.net/og.jpg'><title>The moon complication — wichaa</title><style>
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><meta name='theme-color' content='#1F4E4A'><link rel=icon type='image/svg+xml' href='/favicon.svg'><meta name='description' content='A working moonphase dial — two moons on a turning disc behind a cloud plate — and an honest account of the six wrong versions that came before it.'><meta property='og:type' content='website'><meta property='og:site_name' content='wichaa'><meta property='og:url' content='https://wichaa.net/moon/'><meta property='og:title' content='The moon complication — wichaa'><meta property='og:description' content='A working moonphase dial — two moons on a turning disc behind a cloud plate — and an honest account of the six wrong versions that came before it.'><meta property='og:image' content='https://wichaa.net/moon/card.png'><meta name='twitter:card' content='summary_large_image'><meta name='twitter:title' content='The moon complication — wichaa'><meta name='twitter:description' content='A working moonphase dial — two moons on a turning disc behind a cloud plate — and an honest account of the six wrong versions that came before it.'><meta name='twitter:image' content='https://wichaa.net/moon/card.png'><title>The moon complication — wichaa</title><style>
   :root{
     --ink:#141b1a; --muted:#3a4a47; --line:#c9d6d2;
     --teal:#1F4E4A; --teal-ink:#ffffff; --bg:#f4f7f6; --card:#ffffff;
@@ -391,7 +391,7 @@
     <!-- The disc turns about its OWN centre, which sits DISC_CY below the aperture's.
          Moon I starts at the top of the disc, so a rotation of (disc_angle - 90) puts
          it at exactly the bearing moon_position() gives it, and moon II opposite. -->
-    <g id='disc' transform='translate(400.0 415.43)'>
+    <g id='disc' transform='translate(400.0 415.43) rotate(-36)'>
       <circle r='202.51' fill='none' stroke='#20365c' stroke-width='1.2' opacity='.8'/>
       <circle r='120.03' fill='none' stroke='#20365c' stroke-width='1'
               stroke-dasharray='3 7' opacity='.65'/>
@@ -412,7 +412,7 @@
   <!-- TWO travelling indices, 180 deg apart, turning with the disc — one per moon.
        Whichever index is in the upper half is the moon currently in the window, and
        it stands on that moon's own age. Filled bead = moon I, open bead = moon II. -->
-  <g id='index'>
+  <g id='index' transform='rotate(-36 400.0 400.0)'>
     <path d='M400 125l7 12h-14Z' fill='#1b2b28'/>
     <circle cx='400' cy='115' r='6.5' fill='#9a7b32'/>
     <path d='M400 675l7 -12h-14Z' fill='#1b2b28'/>
