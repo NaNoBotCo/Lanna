@@ -474,6 +474,20 @@
         }
       }
     },
+    "/api/openapi.json": {
+      "get": {
+        "summary": "OpenAPI 3.1 description of the same endpoints.",
+        "description": "OpenAPI 3.1 description of the same endpoints.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/overview.json": {
       "get": {
         "summary": "Corpus-wide counts and facet breakdowns.",

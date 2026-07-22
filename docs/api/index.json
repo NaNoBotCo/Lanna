@@ -111,6 +111,13 @@
       "templated": false
     },
     {
+      "path": "/api/index.json",
+      "url": "https://wichaa.net/api/index.json",
+      "description": "This document.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
       "path": "/api/lenses.json",
       "url": "https://wichaa.net/api/lenses.json",
       "description": "Lens registry — the facet/marker definitions the atlas renders by.",
@@ -135,6 +142,13 @@
       "path": "/api/na-compendium.json",
       "url": "https://wichaa.net/api/na-compendium.json",
       "description": "The 108 Na: sacred glyphs paired with the page each was drawn on.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
+      "path": "/api/openapi.json",
+      "url": "https://wichaa.net/api/openapi.json",
+      "description": "OpenAPI 3.1 description of the same endpoints.",
       "format": "application/json",
       "templated": false
     },
@@ -214,7 +228,7 @@
       "description": "One article: authored prose + live-computed profile + connections.",
       "format": "application/json",
       "templated": true,
-      "count": 30
+      "count": 33
     },
     {
       "path": "/api/manuscript/{id}.json",
@@ -222,7 +236,7 @@
       "description": "One manuscript: metadata, images, IIIF links, OCR where present.",
       "format": "application/json",
       "templated": true,
-      "count": 4159
+      "count": 6990
     },
     {
       "path": "/api/place/{id}.json",
