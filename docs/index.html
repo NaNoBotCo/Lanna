@@ -124,8 +124,8 @@
     color:var(--muted);font-size:15.5px}
   footer .free{font-family:var(--serif);font-size:19px;color:var(--ink)}
   .sharefoot{margin:8px 0;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
-  .sharefoot button{background:none;border:1px solid var(--line);border-radius:50%;width:34px;height:34px;
-    font-size:15px;cursor:pointer;color:var(--ink);margin:0 2px;line-height:1;vertical-align:middle}
+  .sharefoot button{background:none;border:1px solid var(--line);border-radius:50%;width:40px;height:40px;
+    font-size:15px;cursor:pointer;color:var(--ink);margin:0 3px;line-height:1;vertical-align:middle}
   .sharefoot button:hover{background:var(--gold);color:#fff;border-color:var(--gold)}
 
   @media(max-width:720px){
@@ -193,6 +193,10 @@
     font-size:16px;font-family:var(--sans);color:var(--ink);cursor:pointer;
     box-shadow:0 1px 6px rgba(0,0,0,.12)}
   #wander:hover{background:var(--gold);color:#fff}
+  /* On a phone the floating pill lands on top of the hero buttons, and "Today at
+     wichaa" already gives the same one-tap serendipity right there on the page —
+     so drop the redundant float on mobile. */
+  @media(max-width:760px){#wander{display:none}}
   @media print{#wander{display:none}}
 </style>
 <!-- site_meta:begin --><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "wichaa", "description": "A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa tradition — astrology, ritual, and magic — with a curated knowledge graph and a living-market layer.", "url": "https://wichaa.net/", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@type": "Organization", "name": "NaNoBotCo", "email": "530kings@proton.me"}, "keywords": ["Lanna manuscripts", "Northern Thai", "Tai Tham script", "wichaa", "Thai astrology", "hora", "yantra", "sak yant", "katha", "Buddhist manuscripts", "palm-leaf manuscripts", "Southeast Asian manuscripts", "digital humanities"], "inLanguage": ["th", "en", "pi"], "isAccessibleForFree": true, "size": "6990 manuscripts", "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://wichaa.net/api/manuscripts.json", "name": "All manuscripts (JSON)"}, {"@type": "DataDownload", "encodingFormat": "application/ld+json", "contentUrl": "https://wichaa.net/api/graph.jsonld", "name": "Knowledge graph (JSON-LD)"}, {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://wichaa.net/api/graph.ttl", "name": "Knowledge graph (Turtle)"}]}</script><link rel="alternate" type="application/ld+json" href="https://wichaa.net/api/graph.jsonld" title="Knowledge graph (JSON-LD)"><link rel="alternate" type="text/turtle" href="https://wichaa.net/api/graph.ttl" title="Knowledge graph (Turtle)"><!-- site_meta:end --></head>
