@@ -507,7 +507,7 @@ function render(){
       head.append(document.createTextNode((g.facet==='genre'?('More '+g.label):('More from '+g.label))+'  '),
                   el('a',{href:'/browse?'+g.facet+'='+encodeURIComponent(g.value),className:'muted',textContent:'see all ›'}));
       rc.append(head);const ul=el('ul',{className:'rellist'});
-      for(const it of g.items)ul.append(el('li',{},[el('a',{href:'/m?id='+it.id,textContent:it.title})]));
+      for(const it of g.items)ul.append(el('li',{},[el('a',{href:'/m/'+it.id+'/',textContent:it.title})]));
       rc.append(ul);}
     left.append(rc);}
 

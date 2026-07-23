@@ -155,7 +155,8 @@
   "routes": [
    {
     "route": "/a",
-    "inbound": 4
+    "inbound": 6994,
+    "hidden_reason": "query-param template — reached via ?id=/?s= from client-rendered pages the static walk can't trace"
    },
    {
     "route": "/activity",
@@ -167,11 +168,11 @@
    },
    {
     "route": "/atlas",
-    "inbound": 56
+    "inbound": 7046
    },
    {
     "route": "/browse",
-    "inbound": 57
+    "inbound": 7047
    },
    {
     "route": "/diagrams",
@@ -227,11 +228,12 @@
    },
    {
     "route": "/m",
-    "inbound": 12
+    "inbound": 0,
+    "hidden_reason": "query-param template — reached via ?id=/?s= from client-rendered pages the static walk can't trace"
    },
    {
     "route": "/market",
-    "inbound": 57
+    "inbound": 69
    },
    {
     "route": "/moon",
@@ -252,7 +254,7 @@
    },
    {
     "route": "/support",
-    "inbound": 56
+    "inbound": 7046
    },
    {
     "route": "/textbooks",
@@ -260,7 +262,7 @@
    },
    {
     "route": "/trails",
-    "inbound": 56
+    "inbound": 7046
    },
    {
     "route": "/vocab",
@@ -324,6 +326,11 @@
    "/trail/": {
     "members": 13,
     "static_inbound_to_root": 0,
+    "note": "members are client-rendered destinations (reached via data, not static hrefs) — the Phase B lateral-link gap, reported not failed"
+   },
+   "/m/": {
+    "members": 6990,
+    "static_inbound_to_root": 6990,
     "note": "members are client-rendered destinations (reached via data, not static hrefs) — the Phase B lateral-link gap, reported not failed"
    }
   }

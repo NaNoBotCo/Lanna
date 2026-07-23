@@ -432,7 +432,7 @@ function apply(){const term=document.getElementById('search').value.trim();const
   document.getElementById('count').textContent=out.length+' of '+ALL.length+' manuscripts'+(fts?' · full-text':'');
   const box=document.getElementById('results');box.textContent='';
   if(!out.length){box.append(el('div',{className:'empty',textContent:'No manuscripts match these filters.'}));return;}
-  for(const it of out){const a=el('a',{className:'result'+(it.priority?' prio':''),href:'/m?id='+it.id});
+  for(const it of out){const a=el('a',{className:'result'+(it.priority?' prio':''),href:'/m/'+it.id+'/'});
     const th=el('div',{className:'rthumb'});
     if(it.thumb){const img=el('img',{src:it.thumb.src,alt:'',loading:'lazy'});
       img.addEventListener('error',()=>{const mo=el('div',{className:'rmono',textContent:monogram(it.title)});img.replaceWith(mo);th.classList.add('mono');});
@@ -457,7 +457,7 @@ function apply(){const term=document.getElementById('search').value.trim();const
     else tags.append(el('span',{className:'pill',textContent:'no images yet'}));
     // per-card share (the whole card is a link, so stop it navigating on the button)
     const sh=el('button',{className:'cardshare',title:'Share this manuscript','aria-label':'Share',textContent:'⤴'});
-    sh.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();window.__share(location.origin+'/m?id='+it.id,it.title);});
+    sh.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();window.__share(location.origin+'/m/'+it.id+'/',it.title);});
     tags.append(sh);
     bd.append(tags);a.append(bd);box.append(a);}}
 document.getElementById('search').addEventListener('input',onSearchInput);

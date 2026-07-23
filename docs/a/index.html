@@ -434,7 +434,7 @@ async function load(){
   document.getElementById('sub').textContent=a.noun.charAt(0).toUpperCase()+a.noun.slice(1)+(a.note?' · '+a.note:'');
   main.append(el('p',{className:'crumb'},[el('a',{href:'/articles',textContent:'Articles'}),document.createTextNode(' / '+a.label)]));
   if(a.image){
-    const href=a.image.mid!=null?('/m?id='+a.image.mid):'#';
+    const href=a.image.mid!=null?('/m/'+a.image.mid+'/'):'#';
     const hero=el('a',{className:'arthero',href:href,title:'Open the source manuscript'});
     hero.append(el('img',{src:a.image.src,alt:a.image.caption||(a.label+' — representative folio'),loading:'eager'}));
     const capkids=[el('b',{textContent:a.image.kind==='page'?'Representative folio · rendered page':'Representative folio · scanned leaf'})];

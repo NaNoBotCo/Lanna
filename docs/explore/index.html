@@ -384,13 +384,13 @@ async function folioWall(main){
   const list=f.folios;
   // one hero (first folio big), the rest as a thumbnail wall
   const h=list[0];
-  const hero=el('a',{className:'foliohero',href:'/m?id='+h.id,title:h.title});
+  const hero=el('a',{className:'foliohero',href:'/m/'+h.id+'/',title:h.title});
   hero.append(el('img',{src:'/img?sha='+h.sha+'&w=1200',alt:h.title,loading:'eager'}));
   hero.append(el('div',{className:'cap'},[el('small',{textContent:'From the library · manuscript #'+h.id+(h.seq!=null?' · folio '+h.seq:'')}),document.createTextNode(h.title)]));
   main.prepend(hero);
   const wall=el('div',{className:'thumbwall'});
   for(const it of list.slice(1)){
-    const a=el('a',{className:'tw',href:'/m?id='+it.id,title:it.title+' — folio '+(it.seq!=null?it.seq:'')});
+    const a=el('a',{className:'tw',href:'/m/'+it.id+'/',title:it.title+' — folio '+(it.seq!=null?it.seq:'')});
     a.append(el('img',{src:'/img?sha='+it.sha+'&w=240',alt:it.title,loading:'lazy'}));
     wall.append(a);}
   const card=el('div',{className:'card'});
