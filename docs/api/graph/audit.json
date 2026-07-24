@@ -1,6 +1,6 @@
 {
  "isolates_by_class": {
-  "page": 30
+  "page": 31
  },
  "dead_ends": {
   "ms": {
@@ -160,27 +160,31 @@
    },
    {
     "route": "/activity",
-    "inbound": 56
+    "inbound": 57
    },
    {
     "route": "/articles",
-    "inbound": 56
+    "inbound": 57
    },
    {
     "route": "/atlas",
-    "inbound": 7046
-   },
-   {
-    "route": "/browse",
     "inbound": 7047
    },
    {
+    "route": "/browse",
+    "inbound": 7048
+   },
+   {
     "route": "/diagrams",
-    "inbound": 56
+    "inbound": 57
+   },
+   {
+    "route": "/divination",
+    "inbound": 57
    },
    {
     "route": "/expedite",
-    "inbound": 56
+    "inbound": 57
    },
    {
     "route": "/explore",
@@ -188,7 +192,7 @@
    },
    {
     "route": "/findings",
-    "inbound": 55
+    "inbound": 56
    },
    {
     "route": "/gallery",
@@ -197,7 +201,7 @@
    },
    {
     "route": "/glossary",
-    "inbound": 1
+    "inbound": 2
    },
    {
     "route": "/graph",
@@ -210,7 +214,7 @@
    },
    {
     "route": "/hun",
-    "inbound": 55
+    "inbound": 56
    },
    {
     "route": "/hun/embed",
@@ -219,7 +223,7 @@
    },
    {
     "route": "/jovilabe",
-    "inbound": 56
+    "inbound": 57
    },
    {
     "route": "/lens",
@@ -233,11 +237,11 @@
    },
    {
     "route": "/market",
-    "inbound": 72
+    "inbound": 73
    },
    {
     "route": "/moon",
-    "inbound": 56
+    "inbound": 57
    },
    {
     "route": "/na",
@@ -245,7 +249,7 @@
    },
    {
     "route": "/redspot",
-    "inbound": 56
+    "inbound": 57
    },
    {
     "route": "/status",
@@ -254,15 +258,15 @@
    },
    {
     "route": "/support",
-    "inbound": 7046
+    "inbound": 7047
    },
    {
     "route": "/textbooks",
-    "inbound": 56
+    "inbound": 57
    },
    {
     "route": "/trails",
-    "inbound": 7046
+    "inbound": 7047
    },
    {
     "route": "/vocab",
@@ -299,7 +303,7 @@
    },
    {
     "route": "/wats",
-    "inbound": 56
+    "inbound": 57
    },
    {
     "route": "/wats/app",
@@ -307,7 +311,7 @@
    },
    {
     "route": "/widgets",
-    "inbound": 56
+    "inbound": 57
    }
   ],
   "orphans": [],
