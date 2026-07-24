@@ -23466,7 +23466,7 @@
 {"id": "term:กันผี", "cls": "term", "label": "กันผี", "topic": "fn:kan_phi", "echo_ms": 8, "echo_mk": 8}
 {"id": "term:กำบัง", "cls": "term", "label": "กำบัง", "topic": "fn:kambang", "echo_ms": 2, "echo_mk": 4}
 {"id": "term:กุมาร", "cls": "term", "label": "กุมาร", "topic": "beings / objects"}
-{"id": "term:กุมารทอง", "cls": "term", "label": "กุมารทอง"}
+{"id": "term:กุมารทอง", "cls": "term", "label": "กุมารทอง", "topic": "cls:kuman", "echo_ms": 14, "echo_mk": 565}
 {"id": "term:ของขลัง", "cls": "term", "label": "ของขลัง", "topic": "magic_ritual", "echo_ms": 1, "echo_mk": 3}
 {"id": "term:ขอม", "cls": "term", "label": "ขอม", "topic": "practice"}
 {"id": "term:คงกระพัน", "cls": "term", "label": "คงกระพัน", "topic": "fn:khong_kraphan", "echo_ms": 12, "echo_mk": 76}
@@ -23506,9 +23506,9 @@
 {"id": "term:พระนารายณ์", "cls": "term", "label": "พระนารายณ์", "topic": "magic_ritual"}
 {"id": "term:พระพิมพ์", "cls": "term", "label": "พระพิมพ์"}
 {"id": "term:พระสมเด็จ", "cls": "term", "label": "พระสมเด็จ"}
-{"id": "term:พระเครื่อง", "cls": "term", "label": "พระเครื่อง"}
+{"id": "term:พระเครื่อง", "cls": "term", "label": "พระเครื่อง", "topic": "cls:phra_khrueang", "echo_ms": 25, "echo_mk": 1198}
 {"id": "term:พระเวทย์", "cls": "term", "label": "พระเวทย์", "topic": "magic_ritual"}
-{"id": "term:พราย", "cls": "term", "label": "พราย", "topic": "beings / objects"}
+{"id": "term:พราย", "cls": "term", "label": "พราย", "topic": "cls:prai", "echo_ms": 16, "echo_mk": 333}
 {"id": "term:พลังจิต", "cls": "term", "label": "พลังจิต"}
 {"id": "term:พิธีกรรม", "cls": "term", "label": "พิธีกรรม"}
 {"id": "term:พิธีการ", "cls": "term", "label": "พิธีการ"}
@@ -23531,6 +23531,7 @@
 {"id": "term:ล่องหน", "cls": "term", "label": "ล่องหน", "topic": "fn:long_hon"}
 {"id": "term:ล้านนา", "cls": "term", "label": "ล้านนา", "topic": "magic_ritual"}
 {"id": "term:วัตถุมงคล", "cls": "term", "label": "วัตถุมงคล"}
+{"id": "term:วัตถุมงคล (ยันต์)", "cls": "term", "label": "วัตถุมงคล (ยันต์)", "topic": "cls:yantra_wattu", "echo_ms": 16, "echo_mk": 1571}
 {"id": "term:ว่าน", "cls": "term", "label": "ว่าน", "topic": "beings / objects"}
 {"id": "term:ศาสตร์จีน", "cls": "term", "label": "ศาสตร์จีน"}
 {"id": "term:สมาธิ", "cls": "term", "label": "สมาธิ", "topic": "practice"}
@@ -23545,7 +23546,7 @@
 {"id": "term:หลวงปู่ทวด", "cls": "term", "label": "หลวงปู่ทวด"}
 {"id": "term:หลวงปู่ศุข", "cls": "term", "label": "หลวงปู่ศุข"}
 {"id": "term:หลวงพ่อทบ", "cls": "term", "label": "หลวงพ่อทบ"}
-{"id": "term:หุ่นพยนต์", "cls": "term", "label": "หุ่นพยนต์"}
+{"id": "term:หุ่นพยนต์", "cls": "term", "label": "หุ่นพยนต์", "topic": "cls:hun_phayon", "echo_ms": 5, "echo_mk": 404}
 {"id": "term:อาคม", "cls": "term", "label": "อาคม", "topic": "magic_ritual"}
 {"id": "term:อาจารย์", "cls": "term", "label": "อาจารย์", "topic": "practice"}
 {"id": "term:อำนาจจิต", "cls": "term", "label": "อำนาจจิต"}
@@ -23553,7 +23554,9 @@
 {"id": "term:เขาอ้อ", "cls": "term", "label": "เขาอ้อ"}
 {"id": "term:เขี้ยวเสือ", "cls": "term", "label": "เขี้ยวเสือ"}
 {"id": "term:เครื่องราง", "cls": "term", "label": "เครื่องราง", "topic": "magic_ritual", "echo_ms": 1, "echo_mk": 381}
+{"id": "term:เครื่องรางธรรมชาติ", "cls": "term", "label": "เครื่องรางธรรมชาติ", "topic": "cls:khong_thammachat", "echo_ms": 28, "echo_mk": 519}
 {"id": "term:เทพ", "cls": "term", "label": "เทพ", "topic": "beings / objects"}
+{"id": "term:เทพ / เทวดา", "cls": "term", "label": "เทพ / เทวดา", "topic": "cls:thep_thewada", "echo_ms": 28, "echo_mk": 1481}
 {"id": "term:เบี้ยแก้", "cls": "term", "label": "เบี้ยแก้"}
 {"id": "term:เมตตา", "cls": "term", "label": "เมตตา", "topic": "effect / merit", "echo_ms": 21, "echo_mk": 400}
 {"id": "term:เมตตามหานิยม", "cls": "term", "label": "เมตตามหานิยม", "topic": "fn:metta_maha_niyom", "echo_ms": 12, "echo_mk": 465}

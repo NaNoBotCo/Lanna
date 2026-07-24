@@ -33,7 +33,7 @@
     ]
    },
    {
-    "size": 81,
+    "size": 86,
     "sample": [
      "term:amulet",
      "term:buddha amulet",
@@ -43,7 +43,7 @@
     ]
    },
    {
-    "size": 60,
+    "size": 61,
     "sample": [
      "echo:archive-silence",
      "echo:shared-vocabulary",
@@ -131,24 +131,24 @@
    "degree": 1780
   },
   {
+   "id": "term:วัตถุมงคล (ยันต์)",
+   "label": "วัตถุมงคล (ยันต์)",
+   "degree": 1661
+  },
+  {
    "id": "genre:jataka",
    "label": "Jātaka · ชาดก",
    "degree": 1642
   },
   {
+   "id": "term:เทพ / เทวดา",
+   "label": "เทพ / เทวดา",
+   "degree": 1586
+  },
+  {
    "id": "subgenre:jataka:Jataka",
    "label": "Jātaka · ชาดก › Jataka",
    "degree": 1549
-  },
-  {
-   "id": "province:Lampang",
-   "label": "Lampang",
-   "degree": 1495
-  },
-  {
-   "id": "ptype:wat",
-   "label": "Buddhist temple (monastery)",
-   "degree": 1466
   }
  ],
  "reachability": {
@@ -233,7 +233,7 @@
    },
    {
     "route": "/market",
-    "inbound": 69
+    "inbound": 72
    },
    {
     "route": "/moon",

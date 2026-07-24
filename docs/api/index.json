@@ -34,6 +34,13 @@
       "templated": false
     },
     {
+      "path": "/api/classes.json",
+      "url": "https://wichaa.net/api/classes.json",
+      "description": "Classes data.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
       "path": "/api/constellation.json",
       "url": "https://wichaa.net/api/constellation.json",
       "description": "Constellation data.",

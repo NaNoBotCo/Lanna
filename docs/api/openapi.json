@@ -250,6 +250,20 @@
         }
       }
     },
+    "/api/classes.json": {
+      "get": {
+        "summary": "Classes data.",
+        "description": "Classes data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/constellation.json": {
       "get": {
         "summary": "Constellation data.",

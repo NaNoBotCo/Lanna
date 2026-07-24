@@ -14,7 +14,7 @@
   "note": "Nothing here is inferred from a language model's priors. Resolved relations also ride inside api/manuscript/{id}.json, api/place/{id}.json and api/article/{slug}.json as `threads`."
  },
  "nodes": {
-  "total": 23577,
+  "total": 23580,
   "by_class": {
    "chronology": 1,
    "echo": 3,
@@ -40,23 +40,23 @@
    "script": 8,
    "subgenre": 19,
    "temple": 158,
-   "term": 127,
+   "term": 130,
    "tradition": 4,
    "visual": 1
   }
  },
  "edges": {
-  "total": 118652,
+  "total": 123988,
   "by_provenance": {
    "authored": 104,
-   "computed": 117321,
-   "derived": 1227
+   "computed": 122314,
+   "derived": 1570
   },
   "by_type_provenance": {
    "about·computed": 617,
-   "carries_term·computed": 18519,
+   "carries_term·computed": 23512,
    "cites·derived": 291,
-   "co_occurs_with·derived": 922,
+   "co_occurs_with·derived": 1265,
    "concerns·derived": 14,
    "depicted_in·authored": 1,
    "from_province·computed": 7957,
@@ -197,7 +197,7 @@
   "authored_triples": 108,
   "manuscripts": 6990,
   "items": 14653,
-  "tag_edges": 18701,
+  "tag_edges": 24353,
   "places": 1494,
   "vault": {
    "notes": 1494,
@@ -206,9 +206,9 @@
   },
   "findings": 14,
   "proposed": {
-   "co_occurs_with_manuscripts": 759,
-   "co_occurs_with_market": 195,
-   "corpus_market_echo": 18
+   "co_occurs_with_manuscripts": 1026,
+   "co_occurs_with_market": 338,
+   "corpus_market_echo": 25
   },
   "pages": 30
  }
