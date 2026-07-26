@@ -1,6 +1,6 @@
 {
  "isolates_by_class": {
-  "page": 31
+  "page": 32
  },
  "dead_ends": {
   "ms": {
@@ -160,31 +160,31 @@
    },
    {
     "route": "/activity",
-    "inbound": 57
+    "inbound": 58
    },
    {
     "route": "/articles",
-    "inbound": 57
+    "inbound": 58
    },
    {
     "route": "/atlas",
-    "inbound": 7047
-   },
-   {
-    "route": "/browse",
     "inbound": 7048
    },
    {
+    "route": "/browse",
+    "inbound": 7049
+   },
+   {
     "route": "/diagrams",
-    "inbound": 57
+    "inbound": 58
    },
    {
     "route": "/divination",
-    "inbound": 57
+    "inbound": 58
    },
    {
     "route": "/expedite",
-    "inbound": 57
+    "inbound": 58
    },
    {
     "route": "/explore",
@@ -192,7 +192,7 @@
    },
    {
     "route": "/findings",
-    "inbound": 56
+    "inbound": 57
    },
    {
     "route": "/gallery",
@@ -214,7 +214,7 @@
    },
    {
     "route": "/hun",
-    "inbound": 56
+    "inbound": 57
    },
    {
     "route": "/hun/embed",
@@ -223,7 +223,7 @@
    },
    {
     "route": "/jovilabe",
-    "inbound": 57
+    "inbound": 58
    },
    {
     "route": "/lens",
@@ -237,19 +237,23 @@
    },
    {
     "route": "/market",
-    "inbound": 73
+    "inbound": 74
    },
    {
     "route": "/moon",
-    "inbound": 57
+    "inbound": 58
    },
    {
     "route": "/na",
     "inbound": 1
    },
    {
+    "route": "/need",
+    "inbound": 58
+   },
+   {
     "route": "/redspot",
-    "inbound": 57
+    "inbound": 58
    },
    {
     "route": "/status",
@@ -258,15 +262,15 @@
    },
    {
     "route": "/support",
-    "inbound": 7047
+    "inbound": 7048
    },
    {
     "route": "/textbooks",
-    "inbound": 57
+    "inbound": 58
    },
    {
     "route": "/trails",
-    "inbound": 7047
+    "inbound": 7048
    },
    {
     "route": "/vocab",
@@ -303,7 +307,7 @@
    },
    {
     "route": "/wats",
-    "inbound": 57
+    "inbound": 58
    },
    {
     "route": "/wats/app",
@@ -311,7 +315,7 @@
    },
    {
     "route": "/widgets",
-    "inbound": 57
+    "inbound": 58
    }
   ],
   "orphans": [],

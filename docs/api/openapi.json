@@ -530,6 +530,20 @@
         }
       }
     },
+    "/api/needs.json": {
+      "get": {
+        "summary": "The function and class axes joined per need: the tagged manuscripts and tagged listings th",
+        "description": "The function and class axes joined per need: the tagged manuscripts and tagged listings themselves, each listing carrying its class tags (kind, resident, upkeep). The data behind /need.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/overview.json": {
       "get": {
         "summary": "Corpus-wide counts and facet breakdowns.",

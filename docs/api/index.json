@@ -167,6 +167,13 @@
       "templated": false
     },
     {
+      "path": "/api/needs.json",
+      "url": "https://wichaa.net/api/needs.json",
+      "description": "The function and class axes joined per need: the tagged manuscripts and tagged listings themselves, each listing carrying its class tags (kind, resident, upkeep). The data behind /need.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
       "path": "/api/overview.json",
       "url": "https://wichaa.net/api/overview.json",
       "description": "Corpus-wide counts and facet breakdowns.",
