@@ -160,6 +160,13 @@
       "templated": false
     },
     {
+      "path": "/api/materials.json",
+      "url": "https://wichaa.net/api/materials.json",
+      "description": "The material axis — เนื้อ, what a sacred object is made of. Each material carries what its surface can tell a reader (datingSignal), how much close looking the category asks, and the manuscripts and listings that name it verbatim. Records which materials occur in BOTH corpora. The data behind /nuea.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
       "path": "/api/na-compendium.json",
       "url": "https://wichaa.net/api/na-compendium.json",
       "description": "The 108 Na: sacred glyphs paired with the page each was drawn on.",

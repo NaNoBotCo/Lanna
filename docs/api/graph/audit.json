@@ -1,6 +1,6 @@
 {
  "isolates_by_class": {
-  "page": 32
+  "page": 33
  },
  "dead_ends": {
   "ms": {
@@ -160,31 +160,31 @@
    },
    {
     "route": "/activity",
-    "inbound": 58
+    "inbound": 59
    },
    {
     "route": "/articles",
-    "inbound": 58
+    "inbound": 59
    },
    {
     "route": "/atlas",
-    "inbound": 7048
-   },
-   {
-    "route": "/browse",
     "inbound": 7049
    },
    {
+    "route": "/browse",
+    "inbound": 7050
+   },
+   {
     "route": "/diagrams",
-    "inbound": 58
+    "inbound": 59
    },
    {
     "route": "/divination",
-    "inbound": 58
+    "inbound": 59
    },
    {
     "route": "/expedite",
-    "inbound": 58
+    "inbound": 59
    },
    {
     "route": "/explore",
@@ -192,7 +192,7 @@
    },
    {
     "route": "/findings",
-    "inbound": 57
+    "inbound": 58
    },
    {
     "route": "/gallery",
@@ -214,7 +214,7 @@
    },
    {
     "route": "/hun",
-    "inbound": 57
+    "inbound": 58
    },
    {
     "route": "/hun/embed",
@@ -223,7 +223,7 @@
    },
    {
     "route": "/jovilabe",
-    "inbound": 58
+    "inbound": 59
    },
    {
     "route": "/lens",
@@ -237,11 +237,11 @@
    },
    {
     "route": "/market",
-    "inbound": 74
+    "inbound": 75
    },
    {
     "route": "/moon",
-    "inbound": 58
+    "inbound": 59
    },
    {
     "route": "/na",
@@ -249,11 +249,15 @@
    },
    {
     "route": "/need",
-    "inbound": 58
+    "inbound": 59
+   },
+   {
+    "route": "/nuea",
+    "inbound": 59
    },
    {
     "route": "/redspot",
-    "inbound": 58
+    "inbound": 59
    },
    {
     "route": "/status",
@@ -262,15 +266,15 @@
    },
    {
     "route": "/support",
-    "inbound": 7048
+    "inbound": 7049
    },
    {
     "route": "/textbooks",
-    "inbound": 58
+    "inbound": 59
    },
    {
     "route": "/trails",
-    "inbound": 7048
+    "inbound": 7049
    },
    {
     "route": "/vocab",
@@ -307,7 +311,7 @@
    },
    {
     "route": "/wats",
-    "inbound": 58
+    "inbound": 59
    },
    {
     "route": "/wats/app",
@@ -315,7 +319,7 @@
    },
    {
     "route": "/widgets",
-    "inbound": 58
+    "inbound": 59
    }
   ],
   "orphans": [],
