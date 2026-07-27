@@ -23,6 +23,16 @@
   "count": 12,
   "largest": [
    {
+    "size": 105,
+    "sample": [
+     "term:amulet",
+     "term:buddha amulet",
+     "term:lucky charm",
+     "term:talisman",
+     "term:thai amulet"
+    ]
+   },
+   {
     "size": 88,
     "sample": [
      "finding:geographyprovince-treasuries",
@@ -33,17 +43,7 @@
     ]
    },
    {
-    "size": 86,
-    "sample": [
-     "term:amulet",
-     "term:buddha amulet",
-     "term:lucky charm",
-     "term:talisman",
-     "term:thai amulet"
-    ]
-   },
-   {
-    "size": 61,
+    "size": 60,
     "sample": [
      "echo:archive-silence",
      "echo:shared-vocabulary",
@@ -133,7 +133,7 @@
   {
    "id": "term:วัตถุมงคล (ยันต์)",
    "label": "วัตถุมงคล (ยันต์)",
-   "degree": 1661
+   "degree": 1677
   },
   {
    "id": "genre:jataka",
@@ -143,7 +143,7 @@
   {
    "id": "term:เทพ / เทวดา",
    "label": "เทพ / เทวดา",
-   "degree": 1586
+   "degree": 1604
   },
   {
    "id": "subgenre:jataka:Jataka",

@@ -23464,6 +23464,7 @@
 {"id": "term:thai amulet", "cls": "term", "label": "thai amulet"}
 {"id": "term:กรรมฐาน", "cls": "term", "label": "กรรมฐาน", "topic": "magic_ritual"}
 {"id": "term:กระแสจิต", "cls": "term", "label": "กระแสจิต", "topic": "magic_ritual"}
+{"id": "term:กะลา", "cls": "term", "label": "กะลา", "topic": "mat:kala", "echo_ms": 7, "echo_mk": 281}
 {"id": "term:กะลาตาเดียว", "cls": "term", "label": "กะลาตาเดียว"}
 {"id": "term:กันผี", "cls": "term", "label": "กันผี", "topic": "fn:kan_phi", "echo_ms": 8, "echo_mk": 8}
 {"id": "term:กำบัง", "cls": "term", "label": "กำบัง", "topic": "fn:kambang", "echo_ms": 2, "echo_mk": 4}
@@ -23477,17 +23478,23 @@
 {"id": "term:คาถา", "cls": "term", "label": "คาถา", "topic": "practice"}
 {"id": "term:คุ้มครอง", "cls": "term", "label": "คุ้มครอง", "topic": "fn:khum_khrong", "echo_ms": 9, "echo_mk": 96}
 {"id": "term:ค้าขาย", "cls": "term", "label": "ค้าขาย", "topic": "fn:kha_khai", "echo_ms": 8, "echo_mk": 412}
+{"id": "term:งาช้าง", "cls": "term", "label": "งาช้าง", "topic": "mat:nga", "echo_ms": 4, "echo_mk": 18}
 {"id": "term:จตุคาม", "cls": "term", "label": "จตุคาม"}
 {"id": "term:จังงัง", "cls": "term", "label": "จังงัง", "topic": "fn:chang_ngang", "echo_ms": 8, "echo_mk": 2}
+{"id": "term:จีวร", "cls": "term", "label": "จีวร", "topic": "mat:chiwon", "echo_ms": 7, "echo_mk": 46}
 {"id": "term:ชาตรี", "cls": "term", "label": "ชาตรี", "topic": "magic_ritual"}
 {"id": "term:ชานหมาก", "cls": "term", "label": "ชานหมาก"}
 {"id": "term:ตะกรุด", "cls": "term", "label": "ตะกรุด", "topic": "beings / objects", "echo_ms": 7, "echo_mk": 367}
 {"id": "term:ตะกรุดโทน", "cls": "term", "label": "ตะกรุดโทน"}
+{"id": "term:ตะกั่ว", "cls": "term", "label": "ตะกั่ว", "topic": "mat:takua", "echo_ms": 5, "echo_mk": 106}
 {"id": "term:ตำรายา", "cls": "term", "label": "ตำรายา"}
 {"id": "term:ตำราโบราณ", "cls": "term", "label": "ตำราโบราณ", "topic": "magic_ritual"}
 {"id": "term:ถ้อยความ", "cls": "term", "label": "ถ้อยความ", "topic": "fn:thoi_khwam"}
+{"id": "term:ทองเหลือง", "cls": "term", "label": "ทองเหลือง", "topic": "mat:thonglueang", "echo_ms": 4, "echo_mk": 414}
+{"id": "term:ทองแดง", "cls": "term", "label": "ทองแดง", "topic": "mat:thongdaeng", "echo_ms": 8, "echo_mk": 133}
 {"id": "term:ทำนาย", "cls": "term", "label": "ทำนาย", "topic": "divination_omen"}
 {"id": "term:ท้าวเวสสุวรรณ", "cls": "term", "label": "ท้าวเวสสุวรรณ"}
+{"id": "term:นวโลหะ", "cls": "term", "label": "นวโลหะ", "topic": "mat:nawaloha", "echo_ms": 1, "echo_mk": 26}
 {"id": "term:นะวิเศษ", "cls": "term", "label": "นะวิเศษ", "topic": "magic_ritual"}
 {"id": "term:นาค", "cls": "term", "label": "นาค", "topic": "beings / objects"}
 {"id": "term:นางกวัก", "cls": "term", "label": "นางกวัก"}
@@ -23499,10 +23506,11 @@
 {"id": "term:ปลัดขิก", "cls": "term", "label": "ปลัดขิก"}
 {"id": "term:ปลุกเสก", "cls": "term", "label": "ปลุกเสก", "topic": "practice"}
 {"id": "term:ผงพราย", "cls": "term", "label": "ผงพราย"}
-{"id": "term:ผงพุทธคุณ", "cls": "term", "label": "ผงพุทธคุณ"}
+{"id": "term:ผงพุทธคุณ", "cls": "term", "label": "ผงพุทธคุณ", "topic": "mat:phong_phuttakhun", "echo_ms": 3, "echo_mk": 472}
+{"id": "term:ผงใบลาน", "cls": "term", "label": "ผงใบลาน", "topic": "mat:phong_bai_lan", "echo_ms": 6, "echo_mk": 25}
 {"id": "term:ผี", "cls": "term", "label": "ผี", "topic": "beings / objects"}
 {"id": "term:ผ้าประเจียด", "cls": "term", "label": "ผ้าประเจียด", "topic": "magic_ritual"}
-{"id": "term:ผ้ายันต์", "cls": "term", "label": "ผ้ายันต์", "topic": "beings / objects", "echo_ms": 1, "echo_mk": 402}
+{"id": "term:ผ้ายันต์", "cls": "term", "label": "ผ้ายันต์", "topic": "mat:pha_yan", "echo_ms": 5, "echo_mk": 489}
 {"id": "term:พญาเต่าเรือน", "cls": "term", "label": "พญาเต่าเรือน"}
 {"id": "term:พระ", "cls": "term", "label": "พระ", "topic": "beings / objects"}
 {"id": "term:พระนารายณ์", "cls": "term", "label": "พระนารายณ์", "topic": "magic_ritual"}
@@ -23536,11 +23544,13 @@
 {"id": "term:วัตถุมงคล (ยันต์)", "cls": "term", "label": "วัตถุมงคล (ยันต์)", "topic": "cls:yantra_wattu", "echo_ms": 16, "echo_mk": 1571}
 {"id": "term:ว่าน", "cls": "term", "label": "ว่าน", "topic": "beings / objects"}
 {"id": "term:ศาสตร์จีน", "cls": "term", "label": "ศาสตร์จีน"}
+{"id": "term:สนิมแดง", "cls": "term", "label": "สนิมแดง", "topic": "mat:sanim_daeng"}
 {"id": "term:สมาธิ", "cls": "term", "label": "สมาธิ", "topic": "practice"}
 {"id": "term:สมุนไพร", "cls": "term", "label": "สมุนไพร"}
 {"id": "term:สะกด", "cls": "term", "label": "สะกด", "topic": "fn:sakot", "echo_ms": 11, "echo_mk": 10}
 {"id": "term:สัก", "cls": "term", "label": "สัก", "topic": "practice"}
 {"id": "term:สักยันต์", "cls": "term", "label": "สักยันต์", "topic": "magic_ritual"}
+{"id": "term:สัมฤทธิ์", "cls": "term", "label": "สัมฤทธิ์", "topic": "mat:samrit", "echo_ms": 7, "echo_mk": 25}
 {"id": "term:สาลิกาลิ้นทอง", "cls": "term", "label": "สาลิกาลิ้นทอง"}
 {"id": "term:สีผึ้งมหาเสน่ห์", "cls": "term", "label": "สีผึ้งมหาเสน่ห์"}
 {"id": "term:สีผึ้งเสน่ห์", "cls": "term", "label": "สีผึ้งเสน่ห์"}
@@ -23553,13 +23563,24 @@
 {"id": "term:อาจารย์", "cls": "term", "label": "อาจารย์", "topic": "practice"}
 {"id": "term:อำนาจจิต", "cls": "term", "label": "อำนาจจิต"}
 {"id": "term:อิทธิฤทธิ์", "cls": "term", "label": "อิทธิฤทธิ์", "topic": "magic_ritual"}
+{"id": "term:เกศา", "cls": "term", "label": "เกศา", "topic": "mat:kesa", "echo_ms": 5, "echo_mk": 20}
+{"id": "term:เขาสัตว์", "cls": "term", "label": "เขาสัตว์", "topic": "mat:khao", "echo_ms": 2, "echo_mk": 8}
 {"id": "term:เขาอ้อ", "cls": "term", "label": "เขาอ้อ"}
 {"id": "term:เขี้ยวเสือ", "cls": "term", "label": "เขี้ยวเสือ"}
 {"id": "term:เครื่องราง", "cls": "term", "label": "เครื่องราง", "topic": "magic_ritual", "echo_ms": 1, "echo_mk": 381}
 {"id": "term:เครื่องรางธรรมชาติ", "cls": "term", "label": "เครื่องรางธรรมชาติ", "topic": "cls:khong_thammachat", "echo_ms": 28, "echo_mk": 519}
 {"id": "term:เทพ", "cls": "term", "label": "เทพ", "topic": "beings / objects"}
 {"id": "term:เทพ / เทวดา", "cls": "term", "label": "เทพ / เทวดา", "topic": "cls:thep_thewada", "echo_ms": 28, "echo_mk": 1481}
+{"id": "term:เนื้อชิน", "cls": "term", "label": "เนื้อชิน", "topic": "mat:nuea_chin"}
+{"id": "term:เนื้อดิน", "cls": "term", "label": "เนื้อดิน", "topic": "mat:nuea_din"}
+{"id": "term:เนื้อทองคำ", "cls": "term", "label": "เนื้อทองคำ", "topic": "mat:thongkham", "echo_ms": 1, "echo_mk": 93}
+{"id": "term:เนื้อนาค", "cls": "term", "label": "เนื้อนาค", "topic": "mat:naak"}
+{"id": "term:เนื้อผง", "cls": "term", "label": "เนื้อผง", "topic": "mat:nuea_phong", "echo_ms": 2, "echo_mk": 379}
+{"id": "term:เนื้อว่าน", "cls": "term", "label": "เนื้อว่าน", "topic": "mat:nuea_waan", "echo_ms": 26, "echo_mk": 298}
+{"id": "term:เนื้อเงิน", "cls": "term", "label": "เนื้อเงิน", "topic": "mat:ngoen"}
+{"id": "term:เนื้อโลหะ", "cls": "term", "label": "เนื้อโลหะ", "topic": "mat:nuea_loha"}
 {"id": "term:เบี้ยแก้", "cls": "term", "label": "เบี้ยแก้"}
+{"id": "term:เมฆพัด", "cls": "term", "label": "เมฆพัด", "topic": "mat:mekphat"}
 {"id": "term:เมตตา", "cls": "term", "label": "เมตตา", "topic": "effect / merit", "echo_ms": 21, "echo_mk": 400}
 {"id": "term:เมตตามหานิยม", "cls": "term", "label": "เมตตามหานิยม", "topic": "fn:metta_maha_niyom", "echo_ms": 12, "echo_mk": 465}
 {"id": "term:เรียกทรัพย์", "cls": "term", "label": "เรียกทรัพย์"}
