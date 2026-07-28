@@ -195,6 +195,13 @@
       "templated": false
     },
     {
+      "path": "/api/trails.json",
+      "url": "https://wichaa.net/api/trails.json",
+      "description": "Trails data.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
       "path": "/api/vocab.json",
       "url": "https://wichaa.net/api/vocab.json",
       "description": "Controlled vocabulary with corpus counts.",
@@ -215,6 +222,14 @@
       "format": "application/json",
       "templated": true,
       "count": 33
+    },
+    {
+      "path": "/api/graph/{id}.json",
+      "url": "https://wichaa.net/api/graph/{id}.json",
+      "description": "Graph data.",
+      "format": "application/json",
+      "templated": true,
+      "count": 2
     },
     {
       "path": "/api/manuscript/{id}.json",

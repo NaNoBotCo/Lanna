@@ -586,6 +586,20 @@
         }
       }
     },
+    "/api/trails.json": {
+      "get": {
+        "summary": "Trails data.",
+        "description": "Trails data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/vocab.json": {
       "get": {
         "summary": "Controlled vocabulary with corpus counts.",
@@ -629,6 +643,30 @@
         "parameters": [
           {
             "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/api/graph/{id}.json": {
+      "get": {
+        "summary": "Graph data.",
+        "description": "Graph data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
             "in": "path",
             "required": true,
             "schema": {
