@@ -1316,11 +1316,14 @@ var READ = (function(){
     var d = dt.toISOString().slice(0,10);
     return HUN.hash(d + '|' + names.join(',') + '|sukhwan') % SUKHWAN.length;
   }
-  function skPickName(dt, names){
-    if(names.length < 2) return names[0] || '';
-    var d = dt.toISOString().slice(0,10);
-    var idx = HUN.hash(d + '|' + names.join(',') + '|sukhwan-whose') % names.length;
-    return names[idx];
+  // Every name typed in is named in the chant — not one rotating pick. Two
+  // names read "A and B"; three or more read "A, B and C" / the Thai
+  // equivalent joined with และ.
+  function skJoinNames(names){
+    if(names.length===1) return names[0];
+    var and = (LANG==='th') ? 'และ' : 'and';
+    if(names.length===2) return names[0] + ' ' + and + ' ' + names[1];
+    return names.slice(0,-1).join(', ') + ' ' + and + ' ' + names[names.length-1];
   }
   function skRender(){
     var box = $('#sk-reading');
@@ -1332,7 +1335,7 @@ var READ = (function(){
     }
     var dt = new Date();
     var entry = SUKHWAN[skPickIndex(dt, names)];
-    var who = esc(skPickName(dt, names));
+    var who = esc(skJoinNames(names));
     var line     = (LANG==='th' ? entry.th : entry.en).split('{name}').join(who);
     var translit = (entry.translit || '').split('{name}').join(who);
     var gloss    = (entry.gloss || '').split('{name}').join(who);
