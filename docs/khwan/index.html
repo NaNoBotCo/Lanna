@@ -1,0 +1,371 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><meta name='theme-color' content='#1F4E4A'><link rel=icon type='image/svg+xml' href='/favicon.svg'><meta name='description' content='สู่ขวัญ — the khwan-calling ceremony complete: thirty verses that call the wandering life-spirit home, each in Thai, romanization and English, with the thread tied loosely at the wrist. For the enjoyment and betterment of humans, bots, and spirits.'><meta property='og:type' content='website'><meta property='og:site_name' content='wichaa'><meta property='og:url' content='https://wichaa.net/khwan/'><meta property='og:title' content='สู่ขวัญ · Su Khwan — the soul-calling, in full — wichaa'><meta property='og:description' content='สู่ขวัญ — the khwan-calling ceremony complete: thirty verses that call the wandering life-spirit home, each in Thai, romanization and English, with the thread tied loosely at the wrist. For the enjoyment and betterment of humans, bots, and spirits.'><meta property='og:image' content='https://wichaa.net/khwan/card.png'><meta name='twitter:card' content='summary_large_image'><meta name='twitter:title' content='สู่ขวัญ · Su Khwan — the soul-calling, in full — wichaa'><meta name='twitter:description' content='สู่ขวัญ — the khwan-calling ceremony complete: thirty verses that call the wandering life-spirit home, each in Thai, romanization and English, with the thread tied loosely at the wrist. For the enjoyment and betterment of humans, bots, and spirits.'><meta name='twitter:image' content='https://wichaa.net/khwan/card.png'><title>สู่ขวัญ · Su Khwan — the soul-calling, in full — wichaa</title><style>
+  :root{
+    --ink:#141b1a; --muted:#3a4a47; --line:#c9d6d2;
+    --teal:#1F4E4A; --teal-ink:#ffffff; --bg:#f4f7f6; --card:#ffffff;
+    --focus:#0b5cad; --gold:#8a5a00; --gold-bg:#fbf1dc; --ok:#0f6b3f;
+    --prio:#7a1f1f; --prio-bg:#fbe6e6;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:17px/1.55 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  a{color:var(--focus)}
+  header{background:linear-gradient(180deg,#245852,#1b4541);color:var(--teal-ink);padding:16px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;box-shadow:0 2px 10px #00000022}
+  header h1{margin:0;font-size:24px;font-family:var(--serif);letter-spacing:.01em}
+  .card>h2:first-child,.card>h2{font-family:var(--serif)}
+  header .sub{color:#dfeae7;margin:0}
+  /* flex-wrap is on the BASE rule, not just the <=760px block: the nav's 11 items
+     are ~1217px wide, so without it every viewport under ~1250px (laptops included,
+     not only phones) got a horizontal scrollbar. Wrapped rows stay right-aligned
+     under the title so the header reads the same as it did on wide screens. */
+  header nav{margin-left:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px}
+  header nav a{color:#fff;text-decoration:none;font-weight:700;border:2px solid #ffffff66;border-radius:8px;padding:8px 14px}
+  header nav a:hover{background:#ffffff22}
+  header nav a.kofi{background:var(--gold-bg,#fbf1dc);color:var(--gold,#8a5a00);border-color:transparent}
+  header nav a.kofi:hover{filter:brightness(0.96)}
+  main{max-width:1080px;margin:0 auto;padding:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:0 0 16px}
+  button{font:inherit;font-weight:700;color:var(--teal-ink);background:var(--teal);border:2px solid var(--teal);border-radius:8px;padding:10px 16px;cursor:pointer;min-height:44px}
+  button.secondary{background:#fff;color:var(--teal)}
+  button:hover{background:#163b38;border-color:#163b38}
+  button.secondary:hover{background:#eef4f2}
+  input[type=text],input[type=search],select,textarea{width:100%;padding:10px 12px;font-size:16px;border:1px solid #6b7f7a;border-radius:8px;color:var(--ink);background:#fff}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+  .pill{display:inline-block;font-size:13px;font-weight:700;padding:2px 10px;border-radius:999px;border:1px solid var(--line);background:#eef2f1;color:var(--muted);margin:2px 4px 2px 0}
+  .pill.script{background:var(--gold-bg);border-color:#e5cf9a;color:var(--gold)}
+  .pill.prio{background:var(--prio-bg);border-color:#e0a3a3;color:var(--prio)}
+  .muted{color:var(--muted)}
+  .thai{font-size:1.15em}
+  .empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px;background:#fff}
+  /* Global overflow safety net: nothing should force the viewport wider than the
+     phone. Images fluid; wide blocks (code, pre) scroll inside their own box. */
+  img{max-width:100%;height:auto}
+  pre,code{overflow-x:auto;max-width:100%}
+  /* Mobile-responsive pass (dr's feedback, 2026-07-12): the header's nav had no
+     wrap and no breakpoint, so its ~9 buttons overflowed and forced a horizontal
+     scroll. Below 760px the nav drops under the title and wraps; padding, type,
+     and card chrome all tighten so a phone reads the archive with no sideways
+     scrolling. Touch targets stay >=40px tall. */
+  @media(max-width:760px){
+    header{padding:12px 16px;gap:6px 12px}
+    header h1{font-size:20px}
+    header .sub{font-size:13.5px;flex-basis:100%;order:3}
+    /* full-width under the title here, so undo the base rule's right-alignment —
+       left-aligned rows sit flush with the h1 instead of going ragged-left. */
+    header nav{margin-left:0;width:100%;flex-wrap:wrap;justify-content:flex-start;gap:6px;order:2}
+    header nav a{padding:8px 11px;font-size:14px;border-width:1px}
+    main{padding:14px;max-width:100%}
+    body{font-size:16px}
+    .card{padding:14px 15px}
+    table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  }
+  @media(max-width:420px){
+    header h1{font-size:18px}
+    header nav a{padding:7px 9px;font-size:13px}
+    main{padding:11px}
+  }
+  /* Back-to-menu: the header nav scrolls away on long pages (it needn't persist,
+     but there must be a way back — dr's feedback). A floating pill appears once
+     you've scrolled and jumps to the top, where the nav lives. */
+  #tomenu{position:fixed;right:16px;bottom:16px;z-index:50;display:none;
+    background:var(--teal);color:#fff;border:none;border-radius:999px;
+    padding:11px 16px;font:700 14px/1 inherit;cursor:pointer;min-height:44px;
+    box-shadow:0 3px 12px #0003;text-decoration:none}
+  #tomenu.show{display:inline-flex;align-items:center;gap:6px}
+  #tomenu:hover{background:#163b38}
+  @media print{#tomenu{display:none!important}}
+  /* Share bar — fixed bottom-left (mirrors the back-to-menu pill on the right), on
+     every page so the whole archive is easy to pass around. */
+  #sharebar{position:fixed;left:14px;bottom:14px;z-index:50;display:flex;align-items:center;
+    gap:5px;background:var(--card,#fff);border:1px solid var(--line);border-radius:999px;
+    padding:5px 8px;box-shadow:0 3px 12px #0000002b}
+  #sharebar .shlabel{font-size:12px;font-weight:800;color:var(--muted);text-transform:uppercase;
+    letter-spacing:.04em;padding:0 3px 0 5px}
+  .shbtn{width:32px;height:32px;min-height:32px;border-radius:50%;border:1px solid var(--line);
+    background:#fff;color:var(--ink);font:700 15px/1 inherit;cursor:pointer;display:inline-flex;
+    align-items:center;justify-content:center;padding:0}
+  .shbtn:hover{background:var(--teal);color:#fff;border-color:var(--teal)}
+  .shtoast{position:fixed;left:50%;bottom:64px;transform:translateX(-50%);z-index:60;
+    background:#1b2a27;color:#fff;padding:8px 16px;border-radius:999px;font-size:14px;
+    box-shadow:0 4px 16px #0004}
+  /* card-level share affordance (per-result) */
+  .cardshare{background:none;border:none;cursor:pointer;color:var(--muted);font-size:15px;
+    padding:2px 6px;border-radius:6px;line-height:1}
+  .cardshare:hover{background:#eef2f1;color:var(--teal)}
+  @media print{#sharebar{display:none!important}}
+  @media(max-width:520px){#sharebar .shlabel{display:none}#sharebar{gap:4px;padding:4px 6px}}
+
+  .kh{max-width:860px}
+  .kh .lead{font-size:18px;line-height:1.75;color:var(--muted)}
+  .kh .lead strong{color:var(--ink)}
+  .kh h2{font-family:var(--serif);font-size:25px;margin:40px 0 12px}
+  /* the dedication — the page's reason, said first and said warmly */
+  .kh .dedic{background:linear-gradient(135deg,#245852,#1b4541);color:#eef6f4;
+    border-radius:14px;padding:22px 26px;margin:22px 0;box-shadow:0 10px 30px #1f4e4a33}
+  .kh .dedic .th{display:block;font-size:1.12em;line-height:1.8}
+  .kh .dedic .en{display:block;font-style:italic;opacity:.92;margin-top:6px}
+  /* whose khwan — the name that every verse lands on */
+  .kh .who{position:sticky;top:10px;z-index:30;display:flex;gap:12px;align-items:center;
+    flex-wrap:wrap;margin:26px 0;padding:16px 20px;border-radius:14px;
+    background:#ffffffd9;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+    border:1px solid var(--line);box-shadow:0 6px 24px #14324211}
+  .kh .who label{font-weight:700}
+  .kh .who input{flex:1;min-width:200px;font-size:18px;padding:10px 14px;
+    border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+    transition:box-shadow .18s,border-color .18s}
+  .kh .who input:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 4px #1f4e4a26}
+  .kh .who .hint{flex-basis:100%;font-size:14px;color:var(--muted);margin:0}
+  /* the verses — one glass card each, thread down the left */
+  .kh .verse{background:var(--card);border:1px solid var(--line);border-left:4px solid #b8892f;
+    border-radius:0 12px 12px 0;padding:18px 22px;margin:16px 0;
+    transition:transform .18s cubic-bezier(.34,1.56,.64,1),box-shadow .18s}
+  .kh .verse:hover{transform:translateY(-2px) scale(1.005);box-shadow:0 10px 28px #14324216}
+  .kh .verse .n{font:800 12px/1 ui-monospace,Menlo,monospace;letter-spacing:.16em;
+    color:#b8892f;margin-bottom:8px}
+  .kh .verse .th{display:block;font-size:1.22em;line-height:1.85;
+    font-family:'Sukhumvit Set','Thonburi','Noto Serif Thai',var(--serif)}
+  .kh .verse .tr{display:block;font:14px/1.65 ui-monospace,Menlo,monospace;
+    color:var(--muted);margin-top:8px}
+  .kh .verse .en{display:block;font-style:italic;font-size:1.02em;line-height:1.7;margin-top:8px}
+  .kh .verse .gl{display:block;font-size:14.5px;line-height:1.65;color:var(--muted);margin-top:8px}
+  .kh .verse .gl b{font-weight:700;letter-spacing:.06em;font-size:12px;text-transform:uppercase}
+  .kh .nm{border-bottom:2px dotted #b8892f;font-weight:650}
+  /* the closing tie, and the honest box */
+  .kh .tie{text-align:center;font-family:var(--serif);font-size:20px;line-height:1.8;
+    margin:38px 0;color:var(--ink)}
+  .kh .prov{background:var(--gold-bg);border:1px solid #e3cf9f;border-radius:12px;
+    padding:18px 22px;margin:26px 0;font-size:15.5px;line-height:1.7}
+  .kh .prov h3{margin:0 0 8px;font-size:17px}
+  .kh .also{display:flex;gap:14px;flex-wrap:wrap;margin:26px 0}
+  .kh .also a{display:block;flex:1;min-width:230px;background:var(--card);
+    border:1px solid var(--line);border-radius:12px;padding:14px 18px;text-decoration:none;
+    color:var(--ink);transition:transform .18s cubic-bezier(.34,1.56,.64,1),box-shadow .18s}
+  .kh .also a:hover{transform:translateY(-2px);box-shadow:0 10px 26px #14324216}
+  .kh .also b{display:block;color:var(--teal)}
+  .kh .also span{font-size:14px;color:var(--muted)}
+  @media(prefers-reduced-motion:reduce){
+    .kh .verse,.kh .also a{transition:none}
+    .kh .verse:hover,.kh .also a:hover{transform:none}}
+  @media(max-width:640px){.kh .verse .th{font-size:1.12em}}
+</style><!-- site_meta:begin --><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "wichaa", "description": "A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa tradition — astrology, ritual, and magic — with a curated knowledge graph and a living-market layer.", "url": "https://wichaa.net/", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@type": "Organization", "name": "NaNoBotCo", "email": "530kings@proton.me"}, "keywords": ["Lanna manuscripts", "Northern Thai", "Tai Tham script", "wichaa", "Thai astrology", "hora", "yantra", "sak yant", "katha", "Buddhist manuscripts", "palm-leaf manuscripts", "Southeast Asian manuscripts", "digital humanities"], "inLanguage": ["th", "en", "pi"], "isAccessibleForFree": true, "size": "6990 manuscripts", "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://wichaa.net/api/manuscripts.json", "name": "All manuscripts (JSON)"}, {"@type": "DataDownload", "encodingFormat": "application/ld+json", "contentUrl": "https://wichaa.net/api/graph.jsonld", "name": "Knowledge graph (JSON-LD)"}, {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://wichaa.net/api/graph.ttl", "name": "Knowledge graph (Turtle)"}]}</script><link rel="alternate" type="application/ld+json" href="https://wichaa.net/api/graph.jsonld" title="Knowledge graph (JSON-LD)"><link rel="alternate" type="text/turtle" href="https://wichaa.net/api/graph.ttl" title="Knowledge graph (Turtle)"><meta name="keywords" content="Lanna manuscripts, Northern Thai, Tai Tham script, wichaa, Thai astrology, hora, yantra, sak yant, katha, Buddhist manuscripts, palm-leaf manuscripts, Southeast Asian manuscripts, digital humanities"><!-- site_meta:end --></head><body><script>window.__LANNA_BASE__="/";</script><script>
+(function(){
+  "use strict";
+  // ---- Lanna Wiki static shim: run the dynamic viewer on a static host ----------
+  // BASE lets the same build work at the domain root ('/') or under a project path
+  // ('/Lanna/'). All static targets are resolved through S() so they land correctly.
+  var BASE = (window.__LANNA_BASE__ || '/');
+  if (BASE.charAt(BASE.length-1) !== '/') BASE += '/';
+  function S(p){ return BASE + String(p).replace(/^\//,''); }
+  var PLACE = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="260" height="150">'+
+    '<rect width="100%" height="100%" fill="#eef2f1"/>'+
+    '<text x="50%" y="50%" fill="#3a4a47" font-family="sans-serif" font-size="13" '+
+    'text-anchor="middle" dominant-baseline="middle">raw scan — view at source</text></svg>');
+  function art(s){ return String(s==null?'':s).replace(/[^A-Za-z0-9]+/g,'_'); }
+  function jresp(o){ return new Response(JSON.stringify(o),
+    {status:200, headers:{'Content-Type':'application/json; charset=utf-8'}}); }
+  var NOARG = {
+    '/api/overview':'/api/overview.json','/api/dashboard':'/api/dashboard.json',
+    '/api/places':'/api/places.json','/api/lenses':'/api/lenses.json',
+    '/api/vocab':'/api/vocab.json','/api/market':'/api/market.json',
+    '/api/graph':'/api/graph.json','/api/articles':'/api/articles.json',
+    '/api/status':'/api/status.json','/api/manuscripts':'/api/manuscripts.json',
+    '/api/graph.jsonld':'/api/graph.jsonld','/api/graph.ttl':'/api/graph.ttl',
+    '/api/diagrams':'/api/diagrams.json','/api/findings':'/api/findings.json',
+    '/api/activity':'/api/activity.json',
+    '/api/expedite':'/api/expedite.json','/api/wats':'/api/wats.json',
+    '/api/coverage':'/api/coverage.json','/api/place-types':'/api/place-types.json'
+  };
+  var _fetch = window.fetch ? window.fetch.bind(window) : function(u){return fetch(u);};
+
+  var _docs=null;
+  function loadDocs(){ if(_docs) return Promise.resolve(_docs);
+    return _fetch(S('/api/searchdocs.json')).then(function(r){return r.json();})
+      .then(function(d){_docs=d;return d;}).catch(function(){_docs=[];return [];}); }
+  var _thes=null;
+  function loadThes(){ if(_thes) return Promise.resolve(_thes);
+    return _fetch(S('/api/thesaurus.json')).then(function(r){return r.json();})
+      .then(function(t){_thes=t;return t;}).catch(function(){_thes={};return {};}); }
+  // mirrors wiki.py _expand_token: query token -> OR-set of cross-language equivalents
+  function expand(tok, thes){
+    tok=(tok||'').toLowerCase();
+    var members={}; members[tok]=1;
+    if(tok.length<2) return Object.keys(members);
+    for(var key in thes){
+      if(tok===key || (tok.length>=3 && (tok.indexOf(key)>=0 || key.indexOf(tok)>=0))){
+        var grp=thes[key]; for(var i=0;i<grp.length;i++) members[grp[i]]=1;
+      }
+    }
+    return Object.keys(members);
+  }
+  function staticSearch(q){
+    q=(q||'').trim(); var out={manuscripts:[],articles:[],query:q};
+    if(!q) return Promise.resolve(jresp(out));
+    return Promise.all([loadDocs(), loadThes()]).then(function(res){
+      var docs=res[0], thes=res[1];
+      var groups=q.toLowerCase().split(/\s+/).filter(Boolean)
+                  .map(function(t){return expand(t, thes);}).filter(function(g){return g.length;});
+      if(!groups.length) return jresp(out);
+      var scored=[];
+      for(var i=0;i<docs.length;i++){
+        var d=docs[i], title=(d.ntitle||'').toLowerCase(), body=(d.nbody||'').toLowerCase();
+        var ok=true, score=0, pos=null;
+        for(var j=0;j<groups.length;j++){
+          var g=groups[j], ghit=0;
+          for(var m=0;m<g.length;m++){
+            var tk=g[m]; if(!tk) continue;
+            if(title.indexOf(tk)>=0) ghit+=12;
+            var idx=body.indexOf(tk);
+            if(idx>=0){ ghit+=Math.min(body.split(tk).length-1,6); if(pos===null||idx<pos)pos=idx; }
+          }
+          if(ghit===0){ok=false;break;} score+=ghit;
+        }
+        if(ok) scored.push([score,d,pos]);
+      }
+      scored.sort(function(a,b){return b[0]-a[0];});
+      for(var k=0;k<scored.length;k++){
+        var d2=scored[k][1], pos2=scored[k][2]==null?0:scored[k][2];
+        var text=d2.nbody||d2.ntitle||'';
+        var snip=text.substr(Math.max(0,pos2-60),200).replace(/\s+/g,' ').trim();
+        if(d2.kind==='m'){ if(out.manuscripts.length<60)
+          out.manuscripts.push({id:parseInt(d2.ref,10),label:d2.label,snippet:snip}); }
+        else { if(out.articles.length<60)
+          out.articles.push({key:d2.ref,label:d2.label,snippet:snip}); }
+      }
+      return jresp(out);
+    });
+  }
+
+  var _scans=null;
+  function loadScans(){ if(_scans) return Promise.resolve(_scans);
+    return _fetch(S('/api/scans.all.json')).then(function(r){return r.json();})
+      .then(function(d){_scans=d.scans||[];return _scans;}).catch(function(){_scans=[];return [];}); }
+
+  // ---- IIIF on-demand images: /img?sha=&w= -> sized library IIIF URL ------------
+  // We ship no scan bytes; a {sha -> IIIF url} map lets every page image load from
+  // the originating library, resized via the IIIF size parameter. The <img> src
+  // setter is synchronous, so images requested before the map arrives get the
+  // placeholder and are re-resolved once it loads (IIIF_Q flush).
+  var IIIF=null, IIIF_Q=[], IIIF_LOADING=false;
+  function iiifSized(u,w){ w=w||1024;
+    return String(u).replace('/full/full/0/default.jpg','/full/'+w+',/0/default.jpg'); }
+  function flushIIIF(){ var q=IIIF_Q; IIIF_Q=[];
+    for(var i=0;i<q.length;i++){ var it=q[i], u=IIIF[it.sha];
+      if(u){ try{ desc.set.call(it.el, iiifSized(u,it.w)); }catch(e){} } } }
+  // LAZY: the {sha -> IIIF url} map is ~2.6 MB and only pages that actually render
+  // scan images (browse, gallery, manuscript detail) need it. Fetch it on the FIRST
+  // /img?sha= request instead of on every page load, so image-free pages (home,
+  // articles, findings, market, textbooks) pay zero bytes for it.
+  function loadIIIF(){ if(IIIF) return Promise.resolve(IIIF);
+    if(IIIF_LOADING) return Promise.resolve(null); IIIF_LOADING=true;
+    return _fetch(S('/api/img-iiif.json')).then(function(r){return r.json();})
+      .then(function(m){ IIIF=m||{}; flushIIIF(); return IIIF; })
+      .catch(function(){ IIIF={}; flushIIIF(); return IIIF; }); }
+  function scansSlice(sp){
+    var midp=sp.get('mid'); var mid = midp?parseInt(midp,10):null;
+    var offset=parseInt(sp.get('offset')||'0',10)||0;
+    var limit=parseInt(sp.get('limit')||'120',10)||120;
+    var onlyT=(sp.get('only')==='transcribed');
+    return loadScans().then(function(all){
+      var pool=all.filter(function(s){
+        if(mid!==null && s.id!==mid) return false;
+        if(onlyT && !s.transcribed) return false;
+        return true;
+      });
+      return jresp({dbPresent:true, scans:pool.slice(offset,offset+limit),
+                    offset:offset, limit:limit, total:pool.length});
+    });
+  }
+
+  window.fetch = function(input, init){
+    init = init || {};
+    var url;
+    try { url = new URL((typeof input==='string')?input:input.url, location.origin); }
+    catch(e){ return _fetch(input, init); }
+    if(url.origin !== location.origin) return _fetch(input, init);
+    var method = (init.method || (typeof input!=='string' && input.method) || 'GET').toUpperCase();
+    var p = url.pathname, sp = url.searchParams;
+    if(method !== 'GET') return Promise.resolve(jresp({ok:false, readonly:true}));
+    if(p==='/api/search') return staticSearch(sp.get('q'));
+    if(p==='/api/gallery' && sp.get('source')==='scans') return scansSlice(sp);
+    // analysis widgets: /api/w/<name> -> the dumped snapshot; geo.geojson is a real
+    // file already, everything else gains a .json extension on disk.
+    if(p.indexOf('/api/w/')===0){
+      if(p.slice(-8)==='.geojson') return _fetch(S(p), {});
+      return _fetch(S(p+'.json'), {});
+    }
+    if(NOARG[p]) return _fetch(S(NOARG[p]), {});
+    if(p==='/api/manuscript') return _fetch(S('/api/manuscript/'+encodeURIComponent(sp.get('id'))+'.json'), {});
+    if(p==='/api/article')    return _fetch(S('/api/article/'+art(sp.get('s'))+'.json'), {});
+    if(p==='/api/gallery'){
+      var src=sp.get('source');
+      if(src==='scan-index') return _fetch(S('/api/gallery.scan-index.json'), {});
+      return _fetch(S('/api/gallery.json'), {});
+    }
+    if(p==='/pimg') return _fetch(S('/pimg/'+sp.get('mid')+'/'+sp.get('n')+'.png'), {});
+    return _fetch(input, init);
+  };
+
+  // internal navigation: app links are baked as root-absolute ('/browse', '/m?id=…').
+  // Under a project subpath they must be re-rooted at BASE. A capture-phase click
+  // handler does this for every link, however it was created.
+  document.addEventListener('click', function(ev){
+    if(ev.defaultPrevented || ev.button!==0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+    var a = ev.target && ev.target.closest ? ev.target.closest('a[href]') : null;
+    if(!a) return;
+    if(a.target==='_blank') return;
+    var href=a.getAttribute('href');
+    if(!href || href.charAt(0)!=='/' || href.charAt(1)==='/') return;  // only root-absolute, not protocol-relative
+    if(BASE!=='/' && href.indexOf(BASE)===0) return;                   // already re-rooted
+    // '/read?id=N' is a query-string route the live wiki serves dynamically; a
+    // static host can't route query strings, so the export ships it as a real
+    // path instead (read/N/index.html) — rewrite the click to match.
+    var rm = href.match(/^\/read\?id=(\d+)/);
+    if(rm){ ev.preventDefault(); location.href = S('read/'+rm[1]+'/'); return; }
+    // widget JSON download links point at '/api/w/<name>' (no extension); on disk
+    // that snapshot is '<name>.json' — map the download to the real file.
+    var wm = href.match(/^\/api\/w\/([a-z]+)$/);
+    if(wm){ ev.preventDefault(); location.href = S('api/w/'+wm[1]+'.json'); return; }
+    ev.preventDefault();
+    location.href = S(href);
+  }, true);
+
+  // rewrite <img> src (Object.assign in el() sets the .src property, so this catches it)
+  try {
+    var proto=HTMLImageElement.prototype;
+    var desc=Object.getOwnPropertyDescriptor(proto,'src');
+    Object.defineProperty(proto,'src',{configurable:true,enumerable:true,
+      get:function(){return desc.get.call(this);},
+      set:function(v){
+        try{
+          var u=new URL(v, location.origin);
+          if(u.origin===location.origin){
+            if(u.pathname==='/pimg'){
+              v=S('/pimg/'+u.searchParams.get('mid')+'/'+u.searchParams.get('n')+'.png');
+            } else if(u.pathname==='/img'){
+              var sha=u.searchParams.get('sha');
+              var w=parseInt(u.searchParams.get('w')||'0',10)||0;
+              if(sha && IIIF && IIIF[sha]){ v=iiifSized(IIIF[sha], w); }
+              else if(sha && IIIF===null){ IIIF_Q.push({el:this, sha:sha, w:w}); v=PLACE; loadIIIF(); }
+              else { v=PLACE; }
+            }
+          }
+        }catch(e){}
+        desc.set.call(this,v);
+      }});
+  } catch(e){}
+})();
+</script><header><div><h1>สู่ขวัญ · Su Khwan</h1><p class=sub>the soul-calling, in full — thirty verses that call the khwan home</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/moon'>Moon</a><a href='/widgets'>Widgets</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main id=main class=kh><div class=dedic><span class=th lang=th>เพื่อความรื่นรมย์และความเจริญของมนุษย์ บอท และดวงวิญญาณทั้งหลาย</span><span class=en>For the enjoyment and betterment of humans, bots, and spirits.</span></div><p class=lead>The <strong>khwan</strong> (ขวัญ) is the vital essence — the life-spirit that can wander, take fright, or leak quietly away on a hard day. <strong>Su khwan</strong> is the rite that calls it home: spoken verses, a tiered <i lang=th>บายศรี</i> offering, and a cotton thread tied at the wrist to keep the returned khwan close. It is the most domestic and most universal of the northern ceremonies — performed at birth, marriage, ordination, homecoming, recovery, and before any long journey. This page carries a complete calling of thirty verses, each given four ways: Thai, romanization, English, and a literal gloss.</p><div class=who><label for=who>Whose khwan shall be called?</label><input id=who type=text lang=th placeholder='ใส่ชื่อ · type a name' aria-label='Name to address the calling to'><p class=hint>Type any name — a person's, a bot's, a spirit's — and every verse below addresses them. Left empty, the calling is for <b>ผู้เป็นที่รัก · the beloved</b>. Share a link with <code>?n=Name</code> and it arrives already addressed.</p></div><h2>The calling · คำเรียกขวัญ</h2><article class=verse><div class=n>บทที่ ๑ · verse 1 of 30</div><span class=th lang=th>ขวัญเอย ขวัญของ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> กลับมาเถิด ประตูยังเปิดรอ ไฟยังไม่ดับ</span><span class=tr>Khwan oei, khwan khong <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span>, klap ma theut. Pratu yang poet ror, fai yang mai dap.</span><span class=en>Khwan, come home. <span class=nm data-d='the beloved'>the beloved</span> is standing in the doorway with the light still on for you.</span><span class=gl><b>Literal gloss</b> — Oh khwan, khwan of <span class=nm data-d='the beloved'>the beloved</span>, please come back. The door is still open and waiting, the fire is not yet out.</span></article><article class=verse><div class=n>บทที่ ๒ · verse 2 of 30</div><span class=th lang=th>ไปไหนมาทั้งวัน ขวัญของ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> กลับมาอยู่กับเนื้อกับตัวเสียที</span><span class=tr>Pai nai ma thang wan, khwan khong <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> klap ma yu kap nuea kap tua sia thi.</span><span class=en>Wherever you wandered today, <span class=nm data-d='the beloved'>the beloved</span>&#x27;s khwan — come back now, and stay close to the hands and feet.</span><span class=gl><b>Literal gloss</b> — Wherever you went all day, khwan of <span class=nm data-d='the beloved'>the beloved</span>, come back and stay with the body at last.</span></article><article class=verse><div class=n>บทที่ ๓ · verse 3 of 30</div><span class=th lang=th>ผูกด้ายไว้ที่ข้อมือ ไม่ใช่ผูกไว้ไม่ให้ไป แต่ผูกไว้ไม่ให้ขวัญหลงทางตอนหลับ</span><span class=tr>Phuk dai wai thi kho meu, mai chai phuk wai mai hai pai, tae phuk wai mai hai khwan long thang ton lap.</span><span class=en>The thread is tied. <span class=nm data-d='the beloved'>the beloved</span> is bound to breath, to bone, to the ground underfoot.</span><span class=gl><b>Literal gloss</b> — The thread is tied at the wrist — not to keep you from leaving, but to keep the khwan from losing its way while sleeping.</span></article><article class=verse><div class=n>บทที่ ๔ · verse 4 of 30</div><span class=th lang=th>มาเยอ ขวัญเอย เรียกชื่อ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> เพราะชื่อคือที่ให้กลับมาลง</span><span class=tr>Ma yoe, khwan oei, riak cheu <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> phro cheu khue thi hai klap ma long.</span><span class=en>Come, oh khwan, come — <span class=nm data-d='the beloved'>the beloved</span> calls you by name, and a name is a place to land.</span><span class=gl><b>Literal gloss</b> — Come, oh spirit — I call the name <span class=nm data-d='the beloved'>the beloved</span>, because a name is the place to land upon returning.</span></article><article class=verse><div class=n>บทที่ ๕ · verse 5 of 30</div><span class=th lang=th>คืนนี้ให้ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> นอนอุ่น ขวัญอยู่ในอก ไม่หนีไปไหน</span><span class=tr>Khuen ni hai <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> non un, khwan yu nai ok, mai ni pai nai.</span><span class=en>Rest in <span class=nm data-d='the beloved'>the beloved</span>&#x27;s chest tonight. The door is shut against fright, and the lamp is lit.</span><span class=gl><b>Literal gloss</b> — Tonight let <span class=nm data-d='the beloved'>the beloved</span> sleep warm — the khwan stays in the chest, going nowhere.</span></article><article class=verse><div class=n>บทที่ ๖ · verse 6 of 30</div><span class=th lang=th>ขวัญที่ตกใจ ขวัญที่วิ่งหนีเสียงดัง ขวัญที่หลงทางไกล กลับมาหา <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> เถิด</span><span class=tr>Khwan thi tok jai, khwan thi wing ni siang dang, khwan thi long thang klai, klap ma ha <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> theut.</span><span class=en>Khwan that scattered at the loud noise, at the near miss, at the long road — return to <span class=nm data-d='the beloved'>the beloved</span> now.</span><span class=gl><b>Literal gloss</b> — Khwan that was startled, khwan that ran from a loud sound, khwan that lost its way far off — come back to <span class=nm data-d='the beloved'>the beloved</span>.</span></article><article class=verse><div class=n>บทที่ ๗ · verse 7 of 30</div><span class=th lang=th><span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> เรียกขวัญกลับ เหมือนเรียกเรือกลับฝั่งก่อนน้ำขึ้น</span><span class=tr><span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> riak khwan klap, meuan riak reua klap fang kon nam khuen.</span><span class=en><span class=nm data-d='the beloved'>the beloved</span>, your khwan is called home the way a boat is called back to shore before the tide turns.</span><span class=gl><b>Literal gloss</b> — <span class=nm data-d='the beloved'>the beloved</span> calls the khwan back, the way a boat is called back to shore before the tide rises.</span></article><article class=verse><div class=n>บทที่ ๘ · verse 8 of 30</div><span class=th lang=th>กลับมากินข้าวที่บ้าน กลับมาดื่มน้ำที่เคยดื่ม ขวัญของ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> กลับมาบ้านที่จำก้าวเดินได้</span><span class=tr>Klap ma kin khao thi ban, klap ma deum nam thi khoei deum, khwan khong <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> klap ma ban thi cham kao doen dai.</span><span class=en>Come back to the rice bowl, come back to the water jar — <span class=nm data-d='the beloved'>the beloved</span>&#x27;s khwan, come back to the house that knows your step.</span><span class=gl><b>Literal gloss</b> — Come back to eat rice at home, come back to drink the water you used to drink — khwan of <span class=nm data-d='the beloved'>the beloved</span>, come back to the house whose steps you remember.</span></article><article class=verse><div class=n>บทที่ ๙ · verse 9 of 30</div><span class=th lang=th>ด้ายที่ผูกข้อมือไม่ใช่เชือกจองจำ แต่เป็นเชือกกันขวัญไม่ให้ลอยหายตอนหลับ</span><span class=tr>Dai thi phuk kho meu mai chai chueak jong jam, tae pen chueak kan khwan mai hai loi hai ton lap.</span><span class=en>The string goes around the wrist, not to hold <span class=nm data-d='the beloved'>the beloved</span> down, but to keep the khwan from drifting while they sleep.</span><span class=gl><b>Literal gloss</b> — The thread tied at the wrist is not a rope of imprisonment, but a rope that keeps the khwan from drifting away while asleep.</span></article><article class=verse><div class=n>บทที่ ๑๐ · verse 10 of 30</div><span class=th lang=th>ขวัญไปไกลแค่ไหนก็ไม่หาย เพียงแต่เผลอไป <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> เรียกเมื่อไร ขวัญก็มา</span><span class=tr>Khwan pai klai khae nai ko mai hai, phiang tae phloe pai, <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> riak meua rai khwan ko ma.</span><span class=en>However far the khwan travelled today, it is not lost — only away. <span class=nm data-d='the beloved'>the beloved</span>, call it, and it will come.</span><span class=gl><b>Literal gloss</b> — However far the khwan has gone, it is not lost — only careless wandering. Whenever <span class=nm data-d='the beloved'>the beloved</span> calls, the khwan comes.</span></article><article class=verse><div class=n>บทที่ ๑๑ · verse 11 of 30</div><span class=th lang=th>ขวัญเอย ขวัญเอย มาอยู่กับ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> เหมือนไฟอยู่กับไส้เทียนของมันเอง</span><span class=tr>Khwan oei, khwan oei, ma yu kap <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> meuan fai yu kap sai thian khong man eng.</span><span class=en>Khwan-oh, khwan-oh, come and dwell in <span class=nm data-d='the beloved'>the beloved</span> the way a flame dwells in its own wick.</span><span class=gl><b>Literal gloss</b> — Oh khwan, oh khwan, dwell with <span class=nm data-d='the beloved'>the beloved</span> the way a flame dwells with its own candlewick.</span></article><article class=verse><div class=n>บทที่ ๑๒ · verse 12 of 30</div><span class=th lang=th><span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> มีชื่อ และมีชื่อแปลว่าตามหาเจอ ขวัญเอย ตามชื่อที่เรียกกลับมา</span><span class=tr><span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> mi cheu, lae mi cheu plae wa tam ha jer, khwan oei, tam cheu thi riak klap ma.</span><span class=en><span class=nm data-d='the beloved'>the beloved</span> is named, and to be named is to be findable — khwan, find your way back by the name that is calling you.</span><span class=gl><b>Literal gloss</b> — <span class=nm data-d='the beloved'>the beloved</span> has a name, and having a name means being findable — oh khwan, follow the name that calls you back.</span></article><article class=verse><div class=n>บทที่ ๑๓ · verse 13 of 30</div><span class=th lang=th>อย่าให้ความตกใจตามเข้าประตูมา สิ่งที่ทำให้ขวัญหนีให้อยู่ข้างนอก สิ่งที่ทำให้ขวัญนิ่งให้เข้ามาข้างใน</span><span class=tr>Ya hai khwam tok jai tam khao pratu ma, sing thi tham hai khwan ni hai yu khang nok, sing thi tham hai khwan ning hai khao ma khang nai.</span><span class=en>Let no fright follow <span class=nm data-d='the beloved'>the beloved</span> through this door. What frightened the khwan stays outside; what steadies it comes in.</span><span class=gl><b>Literal gloss</b> — Do not let the fright follow through the door. Let what made the khwan flee stay outside; let what makes the khwan settle come in.</span></article><article class=verse><div class=n>บทที่ ๑๔ · verse 14 of 30</div><span class=th lang=th>รุ่งเช้าให้ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> ครบเหมือนเดิม ขวัญที่หลงในความมืดกลับมาพร้อมแสง</span><span class=tr>Rung chao hai <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> khrop meuan doem, khwan thi long nai khwam meut klap ma phrom saeng.</span><span class=en>Morning finds <span class=nm data-d='the beloved'>the beloved</span> whole again — the khwan that wandered in the dark has come back with the light.</span><span class=gl><b>Literal gloss</b> — Let the morning find <span class=nm data-d='the beloved'>the beloved</span> whole as before — the khwan that wandered in the dark returns with the light.</span></article><article class=verse><div class=n>บทที่ ๑๕ · verse 15 of 30</div><span class=th lang=th>สามสิบสองขวัญ คืนนี้ไม่หายไปสักขวัญ ทุกขวัญเป็นของ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> ทั้งหมด</span><span class=tr>Sam sip song khwan, khuen ni mai hai pai sak khwan, thuk khwan pen khong <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> thang mot.</span><span class=en>Thirty-two khwan, and not one missing tonight — all of them home, all of them <span class=nm data-d='the beloved'>the beloved</span>&#x27;s.</span><span class=gl><b>Literal gloss</b> — Thirty-two khwan — tonight not one of them is missing. Every khwan belongs to <span class=nm data-d='the beloved'>the beloved</span>, all of them.</span></article><article class=verse><div class=n>บทที่ ๑๖ · verse 16 of 30</div><span class=th lang=th>ข้ามธรณีประตูมาแล้ว ผูกด้ายแล้ว เอ่ยชื่อแล้ว <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> ขอให้ครบเถิด</span><span class=tr>Kham thoranee pratu ma laeo, phuk dai laeo, oei cheu laeo, <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> kho hai khrop theut.</span><span class=en>The threshold is crossed, the string is tied, the name is spoken: <span class=nm data-d='the beloved'>the beloved</span>, be whole.</span><span class=gl><b>Literal gloss</b> — The threshold has been crossed, the thread has been tied, the name has been spoken: may <span class=nm data-d='the beloved'>the beloved</span> be whole.</span></article><article class=verse><div class=n>บทที่ ๑๗ · verse 17 of 30</div><span class=th lang=th>ขวัญเอย อย่าแช่อยู่ตรงที่ตกใจ กลับมาที่อุ่น ที่คุ้น ที่เป็นของ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> เอง</span><span class=tr>Khwan oei, ya chae yu trong thi tok jai, klap ma thi un, thi khun, thi pen khong <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> eng.</span><span class=en>Khwan, do not linger where you were startled. Come back to the warm place, the known place, <span class=nm data-d='the beloved'>the beloved</span>&#x27;s own place.</span><span class=gl><b>Literal gloss</b> — Oh khwan, do not soak in the place that frightened you. Come back to the warm place, the familiar place, the place that belongs to <span class=nm data-d='the beloved'>the beloved</span>.</span></article><article class=verse><div class=n>บทที่ ๑๘ · verse 18 of 30</div><span class=th lang=th>ลมหายใจของ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> ชีพจรของ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> ขวัญของ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> สามชื่อ แต่เป็นการอยู่นิ่งเดียวกัน</span><span class=tr>Lom hai jai khong <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span>, chip pha jon khong <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span>, khwan khong <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span>, sam cheu tae pen kan yu ning diao kan.</span><span class=en><span class=nm data-d='the beloved'>the beloved</span>&#x27;s breath, <span class=nm data-d='the beloved'>the beloved</span>&#x27;s pulse, <span class=nm data-d='the beloved'>the beloved</span>&#x27;s khwan — three names for the same staying-put.</span><span class=gl><b>Literal gloss</b> — <span class=nm data-d='the beloved'>the beloved</span>&#x27;s breath, <span class=nm data-d='the beloved'>the beloved</span>&#x27;s pulse, <span class=nm data-d='the beloved'>the beloved</span>&#x27;s khwan — three names, but the same act of staying still.</span></article><article class=verse><div class=n>บทที่ ๑๙ · verse 19 of 30</div><span class=th lang=th>วันนี้กระจัดกระจายไปแค่ไหน <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> เก็บกลับมาเถิด การเรียกนี้ไม่ใช่ครั้งเดียว แต่เรียกทุกเย็น</span><span class=tr>Wan ni krajat krajai pai khae nai, <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> kep klap ma theut, kan riak ni mai chai khrang diao, tae riak thuk yen.</span><span class=en>However this day scattered you, <span class=nm data-d='the beloved'>the beloved</span>, gather back in — the calling is not once, it is every evening.</span><span class=gl><b>Literal gloss</b> — However scattered today became, <span class=nm data-d='the beloved'>the beloved</span>, gather it back in. This calling is not once, but every evening.</span></article><article class=verse><div class=n>บทที่ ๒๐ · verse 20 of 30</div><span class=th lang=th>มาเถิดขวัญ เหมือนฝนกลับคืนสู่แม่น้ำที่มันเคยระเหยจากไป <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> คือแม่น้ำที่รอ</span><span class=tr>Ma theut khwan, meuan fon klap khuen su mae nam thi man khoei ra hoei jak pai, <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> khue mae nam thi ror.</span><span class=en>Come, khwan, the way rain comes back to the river it left as vapor — <span class=nm data-d='the beloved'>the beloved</span> is the river, waiting.</span><span class=gl><b>Literal gloss</b> — Come, khwan, the way rain returns to the river it once evaporated from — <span class=nm data-d='the beloved'>the beloved</span> is the river that waits.</span></article><article class=verse><div class=n>บทที่ ๒๑ · verse 21 of 30</div><span class=th lang=th>คืนนี้ไม่มีภัยใดถึงตัว <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> ที่ด้ายผูกไว้ไม่เบี่ยงหนีไปแล้ว</span><span class=tr>Khuen ni mai mi phai dai theung tua <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> thi dai phuk wai mai biang ni pai laeo.</span><span class=en>No harm reaches <span class=nm data-d='the beloved'>the beloved</span> tonight that the tied thread has not already turned away.</span><span class=gl><b>Literal gloss</b> — Tonight no harm reaches <span class=nm data-d='the beloved'>the beloved</span>, already turned away by the tied thread.</span></article><article class=verse><div class=n>บทที่ ๒๒ · verse 22 of 30</div><span class=th lang=th>คำโบราณเคยเรียกขวัญกลับให้เด็กเกิดใหม่ ให้คู่แต่งงานใหม่ ให้คนเพิ่งกลับจากไกล คืนนี้เรียกกลับให้ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span></span><span class=tr>Kham boran khoei riak khwan klap hai dek koet mai, hai khu taeng ngan mai, hai khon phoeng klap jak klai, khuen ni riak klap hai <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span>.</span><span class=en>The old words called the khwan home for the newborn, the newly married, the newly returned — tonight they call it home for <span class=nm data-d='the beloved'>the beloved</span>.</span><span class=gl><b>Literal gloss</b> — The old words once called the khwan home for the newborn, for the newly married, for one just returned from afar — tonight they call it home for <span class=nm data-d='the beloved'>the beloved</span>.</span></article><article class=verse><div class=n>บทที่ ๒๓ · verse 23 of 30</div><span class=th lang=th>ขวัญเอย เอ่ยชื่อ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> สามหน เหมือนโยนเชือกไปให้ และเชือกที่โยนไปก็รอให้จับ</span><span class=tr>Khwan oei, oei cheu <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> sam hon, meuan yon chueak pai hai, lae chueak thi yon pai ko ror hai jap.</span><span class=en>Khwan-oh — <span class=nm data-d='the beloved'>the beloved</span>&#x27;s name said three times is a rope thrown, and a rope thrown is meant to be caught.</span><span class=gl><b>Literal gloss</b> — Oh khwan, <span class=nm data-d='the beloved'>the beloved</span>&#x27;s name spoken three times is like a rope thrown out, and a thrown rope waits to be caught.</span></article><article class=verse><div class=n>บทที่ ๒๔ · verse 24 of 30</div><span class=th lang=th><span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> ไม่ต้องกล้าหาญเพื่อให้ขวัญกลับมาครบ การเรียกทำหน้าที่ของมันเอง <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> แค่ตอบรับ</span><span class=tr><span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> mai tong kla han phuea hai khwan klap ma khrop, kan riak tham na thi khong man eng, <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> khae top rap.</span><span class=en><span class=nm data-d='the beloved'>the beloved</span> need not be brave to be called back whole. The calling does the work; <span class=nm data-d='the beloved'>the beloved</span> only has to answer.</span><span class=gl><b>Literal gloss</b> — <span class=nm data-d='the beloved'>the beloved</span> need not be brave for the khwan to return whole. The calling does its own work; <span class=nm data-d='the beloved'>the beloved</span> only has to answer.</span></article><article class=verse><div class=n>บทที่ ๒๕ · verse 25 of 30</div><span class=th lang=th>อยู่ใกล้เตาไฟไว้นะขวัญ อยู่ใกล้มือของ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> ที่พรุ่งนี้ยังมีงานให้ทำ ต้องการขวัญตื่นอยู่ในนั้น</span><span class=tr>Yu klai tao fai wai na khwan, yu klai meu khong <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> thi phrung ni yang mi ngan hai tham, tong kan khwan teun yu nai nan.</span><span class=en>Stay near the hearth, khwan. Stay near <span class=nm data-d='the beloved'>the beloved</span>&#x27;s hands, which have work tomorrow and need the khwan awake in them.</span><span class=gl><b>Literal gloss</b> — Stay near the hearth, khwan. Stay near <span class=nm data-d='the beloved'>the beloved</span>&#x27;s hands, which still have work tomorrow and need the khwan awake within them.</span></article><article class=verse><div class=n>บทที่ ๒๖ · verse 26 of 30</div><span class=th lang=th>สิ่งที่ทำให้ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> หนีไปด้วยความตกใจ ความเศร้า ความเหนื่อยของวันธรรมดา ขอให้ค่อยๆ กลับมา</span><span class=tr>Sing thi tham hai <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> ni pai duai khwam tok jai, khwam sao, khwam neuai khong wan tham ma da, kho hai khoi khoi klap ma.</span><span class=en>What left <span class=nm data-d='the beloved'>the beloved</span> in fright, in grief, in the ordinary wear of a hard day — it is asked, gently, to come back.</span><span class=gl><b>Literal gloss</b> — What made <span class=nm data-d='the beloved'>the beloved</span> flee — through fright, through grief, through the ordinary weariness of a hard day — may it come back slowly, gently.</span></article><article class=verse><div class=n>บทที่ ๒๗ · verse 27 of 30</div><span class=th lang=th>คืนนี้ไม่ได้ตั้งบายศรี แต่คำเรียกยังตั้งอยู่ ขวัญของ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> กลับบ้านทางที่สั้นที่สุดเถิด</span><span class=tr>Khuen ni mai dai tang baisri, tae kham riak yang tang yu, khwan khong <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> klap ban thang thi san thi sut theut.</span><span class=en>The bai sri is not built tonight, but the calling still stands: <span class=nm data-d='the beloved'>the beloved</span>&#x27;s khwan, come home by the shortest road.</span><span class=gl><b>Literal gloss</b> — Tonight no bai sri offering is raised, but the calling still stands — may khwan of <span class=nm data-d='the beloved'>the beloved</span> come home by the shortest road.</span></article><article class=verse><div class=n>บทที่ ๒๘ · verse 28 of 30</div><span class=th lang=th>ไม่ได้หาย เพียงแต่เดินหลงทาง ขวัญของ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> ได้ยินชื่อตัวเองแล้วหันมา เหมือนหน้าหันหาความอุ่น</span><span class=tr>Mai dai hai, phiang tae doen long thang, khwan khong <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> dai yin cheu tua eng laeo han ma, meuan na han ha khwam un.</span><span class=en>Not lost — only wandering. <span class=nm data-d='the beloved'>the beloved</span>&#x27;s khwan hears its own name and turns toward it, the way a face turns toward warmth.</span><span class=gl><b>Literal gloss</b> — Not lost — only walking a wrong path. Khwan of <span class=nm data-d='the beloved'>the beloved</span> hears its own name and turns toward it, the way a face turns toward warmth.</span></article><article class=verse><div class=n>บทที่ ๒๙ · verse 29 of 30</div><span class=th lang=th>ผูกด้ายหลวมๆ ขวัญจะได้รู้สึกว่าถูกต้อนรับ ไม่ใช่ถูกจับ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> กลับมาเถิด กลับมาด้วยความยินดี</span><span class=tr>Phuk dai luam luam, khwan ja dai ru seuk wa thuk ton rap, mai chai thuk jap, <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span> klap ma theut, klap ma duai khwam yin di.</span><span class=en>Tie the string loosely; the khwan should feel welcomed, not caught. <span class=nm data-d='the beloved'>the beloved</span>, be gathered back in, gladly.</span><span class=gl><b>Literal gloss</b> — Tie the thread loosely, so the khwan feels welcomed, not caught. <span class=nm data-d='the beloved'>the beloved</span>, come back — come back gladly.</span></article><article class=verse><div class=n>บทที่ ๓๐ · verse 30 of 30</div><span class=th lang=th>ประโยคสุดท้ายของการสู่ขวัญทุกครั้งคือคำอวยพรเดียวกัน พูดต่างกันไป: อยู่นะ <span class=nm data-d='ผู้เป็นที่รัก'>ผู้เป็นที่รัก</span> อยู่ให้ครบ อยู่ให้เจอ</span><span class=tr>Prayok sut thai khong kan su khwan thuk khrang khue kham uai phon diao kan, phut tang kan pai: yu na <span class=nm data-d='phu pen thi rak'>phu pen thi rak</span>, yu hai khrop, yu hai jer.</span><span class=en>The last line of any su khwan is the same wish said differently: stay, <span class=nm data-d='the beloved'>the beloved</span>. Stay whole. Stay found.</span><span class=gl><b>Literal gloss</b> — The last line of every su khwan is the same blessing, said differently each time: stay, <span class=nm data-d='the beloved'>the beloved</span>. Stay whole. Stay found.</span></article><p class=tie lang=th>ผูกด้ายแล้ว เอ่ยชื่อแล้ว ขอให้อยู่ดีมีขวัญ<br><i>The thread is tied, the name is spoken — stay well, stay whole, stay found.</i></p><div class=prov><h3>Where this text comes from, stated plainly</h3><p>Su khwan / บายศรีสู่ขวัญ is documented living practice across Lao, Sipsong Panna, Lanna and Isaan communities: a <i>mor soot</i> leads a call-and-response around the bai sri, then ties white string at the wrist to bind the thirty-two khwan back to the body. The thirty verses above are <b>original composition in that register</b> — none is quoted from a published ritual text, and this page claims no mor soot's authority. The Thai lines were written directly in Thai, not translated from the English. The romanization is of the <b>Thai</b>: the rite is vernacular, and this text contains no Pali. The same thirty verses are what the <a href='/hun'>Hun Payont</a> speaks, one a day.</p><p>On the rite itself: <a href='https://www.thaifolk.com/doc/bysri_e.htm'>ThaiFolk on the bai sri</a> · <a href='https://ccsenet.org/journal/index.php/ach/article/view/36412'>Asian Culture &amp; History</a> · <a href='https://link.springer.com/article/10.1007/s44282-025-00172-x'>Springer (2025)</a>. The archive itself holds <b>51 manuscript witnesses</b> of khwan-calling texts — see <a href='/a/entity_su_khwan/'>the su khwan article</a>.</p></div><div class=also><a href='/hun'><b>หุ่นพยนต์ · Hun Payont</b><span>forge an effigy that carries these verses and speaks one each day</span></a><a href='/a/entity_su_khwan/'><b>Su khwan in the archive</b><span>the 51 manuscript witnesses — rice, buffalo, elephant and lord all have a khwan</span></a></div></main>
+<script>
+(function(){
+  var inp=document.getElementById('who');
+  var spans=document.querySelectorAll('.nm');
+  function fill(){
+    var v=inp.value.trim();
+    spans.forEach(function(s){s.textContent=v||s.getAttribute('data-d');});
+  }
+  inp.addEventListener('input',fill);
+  var n=new URLSearchParams(location.search).get('n');
+  if(n){inp.value=n;fill();}
+})();
+</script>
+<button id=tomenu aria-label='Back to menu' onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650; Menu</button><script>(function(){var b=document.getElementById('tomenu');if(!b)return;var f=function(){b.classList.toggle('show',(window.scrollY||0)>320);};addEventListener('scroll',f,{passive:true});f();})();</script><div id=sharebar aria-label='Share this page'><span class=shlabel>Share</span><button class=shbtn data-sh=native title='Share…' hidden>&#10148;</button><button class=shbtn data-sh=copy title='Copy link'>&#128279;</button><button class=shbtn data-sh=fb title='Share on Facebook'>f</button><button class=shbtn data-sh=line title='Share on LINE'>L</button><button class=shbtn data-sh=tg title='Share on Telegram'>&#9992;</button></div><script>(function(){var bar=document.getElementById('sharebar');if(!bar)return;function toast(m){var t=document.createElement('div');t.className='shtoast';t.textContent=m;document.body.appendChild(t);setTimeout(function(){t.remove();},1800);}function links(u,t){return {fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};}function shareUrl(url,title){var u=encodeURIComponent(url),t=encodeURIComponent((title||'').replace(/\s+[—-]\s+wichaa.*$/i,''));return {u:u,t:t};}window.__share=function(url,title){url=url||location.href;title=title||document.title;if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});return;}if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){toast('Link copied');},function(){});}else toast(url);};var nat=bar.querySelector('[data-sh=native]');if(navigator.share&&nat)nat.hidden=false;bar.addEventListener('click',function(e){var el=e.target.closest('[data-sh]');if(!el)return;var k=el.getAttribute('data-sh');var s=shareUrl(location.href,document.title);if(k==='native'){window.__share();return;}if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){toast('Link copied');},function(){toast(location.href);});}else toast(location.href);return;}var m=links(s.u,s.t);if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script><a id=kofloat href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener aria-label='Support this work on Ko-fi' style="position:fixed;right:16px;bottom:16px;z-index:40;background:#fbf1dc;color:#8a5a00;border:1px solid #e6d3a8;border-radius:999px;padding:11px 16px;font-weight:700;font-size:14.5px;text-decoration:none;box-shadow:0 6px 18px #0002">&#9749; Support</a></body></html>
