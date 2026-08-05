@@ -271,7 +271,15 @@
       if(src==='scan-index') return _fetch(S('/api/gallery.scan-index.json'), {});
       return _fetch(S('/api/gallery.json'), {});
     }
-    if(p==='/pimg') return _fetch(S('/pimg/'+sp.get('mid')+'/'+sp.get('n')+'.png'), {});
+    // baked pimg files are EITHER .png (stored plate) or .jpg (on-demand render) —
+    // the shim has no way to know which without a filesystem stat, so try .png
+    // first and fall back to .jpg on a miss.
+    if(p==='/pimg'){
+      var pmid=sp.get('mid'), pn=sp.get('n');
+      return _fetch(S('/pimg/'+pmid+'/'+pn+'.png'), {}).then(function(r){
+        return r.ok ? r : _fetch(S('/pimg/'+pmid+'/'+pn+'.jpg'), {});
+      });
+    }
     return _fetch(input, init);
   };
 
@@ -310,7 +318,13 @@
           var u=new URL(v, location.origin);
           if(u.origin===location.origin){
             if(u.pathname==='/pimg'){
-              v=S('/pimg/'+u.searchParams.get('mid')+'/'+u.searchParams.get('n')+'.png');
+              // same png-vs-jpg ambiguity as the fetch shim above; try .png and
+              // fall back to .jpg on load error (onerror fires at most once).
+              var pmid=u.searchParams.get('mid'), pn=u.searchParams.get('n');
+              var jpgFallback=S('/pimg/'+pmid+'/'+pn+'.jpg');
+              var imgEl=this;
+              imgEl.onerror=function(){ imgEl.onerror=null; imgEl.src=jpgFallback; };
+              v=S('/pimg/'+pmid+'/'+pn+'.png');
             } else if(u.pathname==='/img'){
               var sha=u.searchParams.get('sha');
               var w=parseInt(u.searchParams.get('w')||'0',10)||0;
