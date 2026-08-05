@@ -390,6 +390,20 @@
         }
       }
     },
+    "/api/hotrai.json": {
+      "get": {
+        "summary": "Hotrai data.",
+        "description": "Hotrai data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/img-iiif.json": {
       "get": {
         "summary": "Map of image sha256 → IIIF image URL (on-demand page images).",

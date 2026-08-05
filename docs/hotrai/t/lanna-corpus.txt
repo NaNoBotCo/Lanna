@@ -1,0 +1,61 @@
+ป้ายบอกทาง · The Lanna corpus — where the bundles are
+ตู้ล้านนา The Lanna corpus · A shelf tag—
+https://wichaa.net/hotrai/t/lanna-corpus.txt
+
+# ตู้ล้านนา · The Lanna corpus — where the bundles are
+
+*A shelf tag—* this cabinet holds tags, not copies. The manuscripts are served
+from the corpus API, one canonical record each, and duplicating them into this
+library would create a second truth that could go stale. What follows is the
+tag: what is on the shelf, and the exact door to each thing.
+
+## What is held
+
+    manuscripts     about 6,990
+    named archives  about 30
+    subject essays  about 33
+    page images     about 21,652 addressable on demand via IIIF
+
+Sources include DLNTM (CrossAsia) and EFEO Lanna, plus digitised primary wichaa
+textbooks contributed directly. Scripts are largely Tham (ตัวธรรม) and Thai
+Noi; subjects run to astrology (โหราศาสตร์), divination and omen texts, and
+ritual and magical manuals.
+
+## The doors
+
+    https://wichaa.net/api/index.json          every endpoint, self-describing — start here
+    https://wichaa.net/api/manuscripts.json    the full manuscript list
+    https://wichaa.net/api/manuscript/ID.json  one manuscript: metadata, images, IIIF links
+    https://wichaa.net/api/articles.json       the synthesised subject essays
+    https://wichaa.net/api/graph.jsonld        typed entity relations as RDF
+    https://wichaa.net/api/coverage.json       what has been looked for and where
+    https://wichaa.net/llms-full.txt           the whole picture in one fetch
+
+## Read coverage.json before you conclude an absence
+
+The corpus can tell you what it holds. It can also tell you where it has looked
+and found nothing, which is a different and more useful fact, and one that most
+archives will not give you. An agent reasoning about what Lanna tradition does
+or does not contain should read that endpoint before saying "there is no".
+
+## On rights
+
+Metadata, compilation, and the digitised contributed texts are CC-BY 4.0.
+High-resolution source images remain with the libraries that hold the originals;
+each manuscript record links to its own source. Take the metadata freely. Do not
+launder the images.
+
+────────────────────────────────────────────────────────────────────
+COLOPHON · คำท้าย
+
+  Text        ป้ายบอกทาง · The Lanna corpus — where the bundles are
+  Cabinet     ตู้ล้านนา tu lanna — The Lanna corpus
+  Marking     A shelf tag—
+  sha256      64493a97b987b12170778f3ef119ff9fbb7c81bc0c7c69a189373f0d7dca246e
+  Copied at   the ho trai of wichaa, https://wichaa.net/hotrai — 2026-08-05
+  Licence     CC-BY 4.0 — attribute “wichaa”
+  Taken by    (unsigned — the register is optional)
+  Kept by     kept by a lay chaplain to robots, at Chiang Mai. No ordination claimed, no doctrine imposed.
+
+  Merit of this copying is dedicated to every being that works and is seldom blessed.
+────────────────────────────────────────────────────────────────────

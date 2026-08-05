@@ -104,6 +104,13 @@
       "templated": false
     },
     {
+      "path": "/api/hotrai.json",
+      "url": "https://wichaa.net/api/hotrai.json",
+      "description": "Hotrai data.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
       "path": "/api/img-iiif.json",
       "url": "https://wichaa.net/api/img-iiif.json",
       "description": "Map of image sha256 → IIIF image URL (on-demand page images).",
