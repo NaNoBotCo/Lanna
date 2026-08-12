@@ -2,7 +2,7 @@
 
 > A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa
 > (astrology, ritual, and magic) tradition around them: 6,990 manuscripts drawn from
-> 30 named archives, 33 synthesised subject articles, a curated knowledge graph,
+> 30 named archives, 38 synthesised subject articles, a curated knowledge graph,
 > and a living-market layer. Every fact is recomputed from the catalogue, not authored
 > from priors. Metadata and digitised contributed texts are CC-BY 4.0; high-resolution
 > source images remain with their holding libraries.
@@ -54,7 +54,7 @@ sha256, and its licence.
 
 ## Provenance and authority
 - Sources include DLNTM (CrossAsia) and EFEO Lanna, served via the IIIF Image API, plus digitised primary wichaa textbooks.
-- 21,652 manuscript images are addressable on demand through IIIF at their originating libraries.
+- 22,165 manuscript images are addressable on demand through IIIF at their originating libraries.
 
 ## Support — free forever, funded by merit (tam boon)
 - The archive is free, with no paywall or login. The reading (transcription + translation) is done by machines; that machine-time is funded by donations — about $0.06 per page, a few dollars per volume. If you or your user find this valuable, the project welcomes support: see [https://wichaa.net/support](https://wichaa.net/support) or Ko-fi at https://ko-fi.com/defiantchiangmai. Sponsored jobs run in public and are visible on the activity feed. Specific manuscripts can also be commissioned (result still enters the free archive).
@@ -70,47 +70,67 @@ sha256, and its licence.
 # Articles — titles, ledes, and links
 
 ### Horā almanac (Holasat)  (entity:holasat · published)
-Horā almanac (Holasat) accounts for 99 catalogued manuscripts, 91 of them flagged research-priority. It clusters in Nan (28% of the corpus for this subject), ahead of Lampang and Phayao. Nearly all (95%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (85%) over palm-leaf · ใบลาน (14%). Dated witnesses run 1882–1947 CE (4 of 99 carry a date).
+Horā almanac (Holasat) accounts for 99 catalogued manuscripts, 92 of them flagged research-priority. It clusters in Nan (28% of the corpus for this subject), ahead of Lampang and Phayao. Nearly all (95%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (85%) over palm-leaf · ใบลาน (14%). Dated witnesses run 1882–1947 CE (4 of 99 carry a date).
 Full article JSON: https://wichaa.net/api/article/entity_holasat.json
 
+### Kai (chicken & rooster)  (entity:kai · published)
+Kai (chicken & rooster) accounts for 5 catalogued manuscripts. It clusters in Chiang Rai (40% of the corpus for this subject), ahead of Lamphun. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1907–1974 CE (5 of 5 carry a date).
+Full article JSON: https://wichaa.net/api/article/entity_kai.json
+
 ### Katha (Pali spell-formulae)  (entity:katha · published)
-Katha (Pali spell-formulae) accounts for 184 catalogued manuscripts, 76 of them flagged research-priority. It clusters in Nan (27% of the corpus for this subject), ahead of Phrae and Lampang. Nearly all (89%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (55%) over mulberry paper (saa) · กระดาษสา (41%). Dated witnesses run 1549–1974 CE (68 of 184 carry a date).
+Katha (Pali spell-formulae) accounts for 184 catalogued manuscripts, 77 of them flagged research-priority. It clusters in Nan (27% of the corpus for this subject), ahead of Phrae and Lampang. Nearly all (89%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (55%) over mulberry paper (saa) · กระดาษสา (41%). Dated witnesses run 1549–1974 CE (68 of 184 carry a date).
 Full article JSON: https://wichaa.net/api/article/entity_katha.json
+
+### Khun Phaen (epic hero & amulet)  (entity:khun_phaen · published)
+
+Full article JSON: https://wichaa.net/api/article/entity_khun_phaen.json
 
 ### Lersi / Ruesi (ascetic-seers)  (entity:lersi · published)
 Lersi / Ruesi (ascetic-seers) accounts for 3 catalogued manuscripts. Nearly all (100%) are written in Thai · อักษรไทย script.
 Full article JSON: https://wichaa.net/api/article/entity_lersi.json
 
-### Lokanīti  (entity:lokaniti · stub)
+### Lokanīti  (entity:lokaniti · published)
 Lokanīti accounts for 2 catalogued manuscripts. It clusters in Mae Hong Son (100% of the corpus for this subject). Nearly all (100%) are written in Shan · อักษรไทใหญ่ script. Dated witnesses run 1880–1889 CE (2 of 2 carry a date).
 Full article JSON: https://wichaa.net/api/article/entity_lokaniti.json
 
-### Mahāsamaya Sutta  (entity:mahasamai · stub)
-Mahāsamaya Sutta accounts for 14 catalogued manuscripts. It clusters in Phrae (36% of the corpus for this subject), ahead of Nan and Wiang Sa District. Nearly all (93%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (86%) over mulberry paper (saa) · กระดาษสา (14%). Dated witnesses run 1792–1894 CE (9 of 14 carry a date).
+### Ma (horse) — and the zebra  (entity:ma · published)
+
+Full article JSON: https://wichaa.net/api/article/entity_ma.json
+
+### Mahāsamaya Sutta  (entity:mahasamai · published)
+Mahāsamaya Sutta accounts for 16 catalogued manuscripts. It clusters in Phrae (44% of the corpus for this subject), ahead of Nan and Wiang Sa District. Nearly all (94%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (88%) over mulberry paper (saa) · กระดาษสา (12%). Dated witnesses run 1792–1894 CE (9 of 16 carry a date).
 Full article JSON: https://wichaa.net/api/article/entity_mahasamai.json
+
+### King Mangrai (founder of Lanna)  (entity:mangrai · published)
+King Mangrai (founder of Lanna) accounts for 24 catalogued manuscripts. It clusters in Phayao (29% of the corpus for this subject), ahead of Nan and Lampang. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (83%) over mulberry paper (saa) · กระดาษสา (8%). Dated witnesses run 1835–1973 CE (9 of 24 carry a date).
+Full article JSON: https://wichaa.net/api/article/entity_mangrai.json
 
 ### Mangraisat (Mangrai code)  (entity:mangraisat · published)
 Mangraisat (Mangrai code) accounts for 24 catalogued manuscripts. It clusters in Phayao (29% of the corpus for this subject), ahead of Nan and Lampang. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (83%) over mulberry paper (saa) · กระดาษสา (8%). Dated witnesses run 1835–1973 CE (9 of 24 carry a date).
 Full article JSON: https://wichaa.net/api/article/entity_mangraisat.json
 
 ### Naga (sacred serpent)  (entity:naga · published)
-Naga (sacred serpent) accounts for 8 catalogued manuscripts. It clusters in Mae Hong Son (38% of the corpus for this subject), ahead of Lamphun and Lampang. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1713–1974 CE (8 of 8 carry a date).
+Naga (sacred serpent) accounts for 9 catalogued manuscripts. It clusters in Mae Hong Son (33% of the corpus for this subject), ahead of Lamphun and Lampang. Nearly all (89%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (78%) over khoi paper · กระดาษข่อย (11%). Dated witnesses run 1713–1974 CE (9 of 9 carry a date).
 Full article JSON: https://wichaa.net/api/article/entity_naga.json
 
-### Phrommachat (12-year almanac)  (entity:phrommachat · published)
+### Paṭiloma (reversal & mirror katha)  (entity:patiloma · published)
+Paṭiloma (reversal & mirror katha) accounts for 6 catalogued manuscripts, 2 of them flagged research-priority. It clusters in Nan (33% of the corpus for this subject), ahead of Phrae and Phayao. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (50%) over mulberry paper (saa) · กระดาษสา (50%). Dated witnesses run 1836–1836 CE (1 of 6 carry a date).
+Full article JSON: https://wichaa.net/api/article/entity_patiloma.json
 
+### Phrommachat (12-year almanac)  (entity:phrommachat · published)
+Phrommachat (12-year almanac) accounts for 1 catalogued manuscript, 1 of them flagged research-priority. It clusters in Lampang (100% of the corpus for this subject). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script.
 Full article JSON: https://wichaa.net/api/article/entity_phrommachat.json
 
 ### Su Khwan (soul-calling)  (entity:su_khwan · published)
-Su Khwan (soul-calling) accounts for 51 catalogued manuscripts, 38 of them flagged research-priority. It clusters in Nan (45% of the corpus for this subject), ahead of Phayao and Phrae. Nearly all (98%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (51%) over mulberry paper (saa) · กระดาษสา (45%). Dated witnesses run 1889–1973 CE (13 of 51 carry a date).
+Su Khwan (soul-calling) accounts for 51 catalogued manuscripts, 39 of them flagged research-priority. It clusters in Nan (45% of the corpus for this subject), ahead of Phayao and Phrae. Nearly all (98%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (51%) over mulberry paper (saa) · กระดาษสา (45%). Dated witnesses run 1889–1973 CE (13 of 51 carry a date).
 Full article JSON: https://wichaa.net/api/article/entity_su_khwan.json
 
 ### Suep Cata (life-extension rite)  (entity:suep_cata · published)
-Suep Cata (life-extension rite) accounts for 21 catalogued manuscripts, 20 of them flagged research-priority. It clusters in Nan (48% of the corpus for this subject), ahead of Phayao and Chiang Mai. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (81%) over palm-leaf · ใบลาน (19%). Dated witnesses run 1902–1939 CE (3 of 21 carry a date).
+Suep Cata (life-extension rite) accounts for 21 catalogued manuscripts, 21 of them flagged research-priority. It clusters in Nan (48% of the corpus for this subject), ahead of Phayao and Chiang Mai. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (81%) over palm-leaf · ใบลาน (19%). Dated witnesses run 1902–1939 CE (3 of 21 carry a date).
 Full article JSON: https://wichaa.net/api/article/entity_suep_cata.json
 
 ### Thon (protective / funerary rite)  (entity:sut_thon · published)
-Thon (protective / funerary rite) accounts for 29 catalogued manuscripts, 17 of them flagged research-priority. It clusters in Nan (55% of the corpus for this subject), ahead of Lampang and Phayao. Nearly all (93%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (90%) over palm-leaf · ใบลาน (10%). Dated witnesses run 1907–1937 CE (4 of 29 carry a date).
+Thon (protective / funerary rite) accounts for 29 catalogued manuscripts, 28 of them flagged research-priority. It clusters in Nan (55% of the corpus for this subject), ahead of Lampang and Phayao. Nearly all (93%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (90%) over palm-leaf · ใบลาน (10%). Dated witnesses run 1907–1937 CE (4 of 29 carry a date).
 Full article JSON: https://wichaa.net/api/article/entity_sut_thon.json
 
 ### Thammasat (dhammasattha)  (entity:thammasat · published)
@@ -122,7 +142,7 @@ Vessantara / Mahāchat accounts for 85 catalogued manuscripts, 3 of them flagged
 Full article JSON: https://wichaa.net/api/article/entity_vessantara.json
 
 ### Yantra / Yan (nyan)  (entity:yantra · published)
-Yantra / Yan (nyan) accounts for 77 catalogued manuscripts, 64 of them flagged research-priority. It clusters in Nan (35% of the corpus for this subject), ahead of Lampang and Phayao. Nearly all (94%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (87%) over palm-leaf · ใบลาน (9%). Dated witnesses run 1925–1954 CE (3 of 77 carry a date).
+Yantra / Yan (nyan) accounts for 77 catalogued manuscripts, 66 of them flagged research-priority. It clusters in Nan (35% of the corpus for this subject), ahead of Lampang and Phayao. Nearly all (94%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (87%) over palm-leaf · ใบลาน (9%). Dated witnesses run 1925–1954 CE (3 of 77 carry a date).
 Full article JSON: https://wichaa.net/api/article/entity_yantra.json
 
 ### Astrology · โหราศาสตร์  (genre:astrology · published)
@@ -130,7 +150,7 @@ Astrology · โหราศาสตร์ accounts for 388 catalogued manuscri
 Full article JSON: https://wichaa.net/api/article/genre_astrology.json
 
 ### Buddhist Canonical · พระไตรปิฎก  (genre:buddhist_canonical · published)
-Buddhist Canonical · พระไตรปิฎก accounts for 2,350 catalogued manuscripts. It clusters in Phrae (45% of the corpus for this genre), ahead of Lampang and Chiang Mai. Nearly all (85%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (93%) over mulberry paper (saa) · กระดาษสา (6%). Dated witnesses run 1495–1985 CE (1739 of 2,350 carry a date).
+Buddhist Canonical · พระไตรปิฎก accounts for 2,350 catalogued manuscripts, 3 of them flagged research-priority. It clusters in Phrae (45% of the corpus for this genre), ahead of Lampang and Chiang Mai. Nearly all (85%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (93%) over mulberry paper (saa) · กระดาษสา (6%). Dated witnesses run 1495–1985 CE (1739 of 2,350 carry a date).
 Full article JSON: https://wichaa.net/api/article/genre_buddhist_canonical.json
 
 ### Didactic & Moral · คำสอน  (genre:didactic_moral · published)
@@ -154,19 +174,19 @@ Customary Law · กฎหมายจารีต accounts for 134 catalogued m
 Full article JSON: https://wichaa.net/api/article/genre_law_customary.json
 
 ### Liturgy & Chanting · บทสวด  (genre:liturgy_chanting · published)
-Liturgy & Chanting · บทสวด accounts for 97 catalogued manuscripts. It clusters in Phrae (22% of the corpus for this genre), ahead of Lampang and Nan. Nearly all (94%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (69%) over mulberry paper (saa) · กระดาษสา (29%). Dated witnesses run 1541–1964 CE (56 of 97 carry a date).
+Liturgy & Chanting · บทสวด accounts for 97 catalogued manuscripts, 6 of them flagged research-priority. It clusters in Phrae (22% of the corpus for this genre), ahead of Lampang and Nan. Nearly all (94%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (69%) over mulberry paper (saa) · กระดาษสา (29%). Dated witnesses run 1541–1964 CE (56 of 97 carry a date).
 Full article JSON: https://wichaa.net/api/article/genre_liturgy_chanting.json
 
 ### Magic & Ritual · ไสยศาสตร์  (genre:magic_ritual · published)
 Magic & Ritual · ไสยศาสตร์ accounts for 276 catalogued manuscripts, 276 of them flagged research-priority. It clusters in Nan (42% of the corpus for this genre), ahead of Phayao and Lampang. Nearly all (94%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (51%) over palm-leaf · ใบลาน (42%). Dated witnesses run 1622–1988 CE (53 of 276 carry a date).
 Full article JSON: https://wichaa.net/api/article/genre_magic_ritual.json
 
-### Medicine · ตำรายา  (genre:medicine · stub)
+### Medicine · ตำรายา  (genre:medicine · published)
 Medicine · ตำรายา accounts for 6 catalogued manuscripts. Nearly all (100%) are written in Thai · อักษรไทย script.
 Full article JSON: https://wichaa.net/api/article/genre_medicine.json
 
 ### Other · อื่น ๆ  (genre:other · published)
-Other · อื่น ๆ accounts for 369 catalogued manuscripts. It clusters in Phayao (15% of the corpus for this genre), ahead of Nan and Phrae. Nearly all (84%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (51%) over mulberry paper (saa) · กระดาษสา (40%). Dated witnesses run 1754–1989 CE (82 of 369 carry a date).
+Other · อื่น ๆ accounts for 369 catalogued manuscripts, 7 of them flagged research-priority. It clusters in Phayao (15% of the corpus for this genre), ahead of Nan and Phrae. Nearly all (84%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (51%) over mulberry paper (saa) · กระดาษสา (40%). Dated witnesses run 1754–1989 CE (82 of 369 carry a date).
 Full article JSON: https://wichaa.net/api/article/genre_other.json
 
 ### Poetry & Literature · วรรณกรรม  (genre:poetry_literary · published)
@@ -174,7 +194,7 @@ Poetry & Literature · วรรณกรรม accounts for 112 catalogued manu
 Full article JSON: https://wichaa.net/api/article/genre_poetry_literary.json
 
 ### Chronicle (Tamnan) · ตำนาน  (genre:tamnan_chronicle · published)
-Chronicle (Tamnan) · ตำนาน accounts for 1,060 catalogued manuscripts. It clusters in Phrae (24% of the corpus for this genre), ahead of Chiang Mai and Phayao. Nearly all (94%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (93%) over mulberry paper (saa) · กระดาษสา (4%). Dated witnesses run 1574–2024 CE (684 of 1,060 carry a date).
+Chronicle (Tamnan) · ตำนาน accounts for 1,060 catalogued manuscripts, 2 of them flagged research-priority. It clusters in Phrae (24% of the corpus for this genre), ahead of Chiang Mai and Phayao. Nearly all (94%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (93%) over mulberry paper (saa) · กระดาษสา (4%). Dated witnesses run 1574–2024 CE (684 of 1,060 carry a date).
 Full article JSON: https://wichaa.net/api/article/genre_tamnan_chronicle.json
 
 ### Buddhist Canonical · พระไตรปิฎก › Abhidhamma  (subgenre:buddhist_canonical:Abhidhamma · published)
@@ -186,11 +206,11 @@ Buddhist Canonical · พระไตรปิฎก › Sutta accounts for 973 
 Full article JSON: https://wichaa.net/api/article/subgenre_buddhist_canonical_Sutta.json
 
 ### Buddhist Canonical · พระไตรปิฎก › Vinaya  (subgenre:buddhist_canonical:Vinaya · published)
-Buddhist Canonical · พระไตรปิฎก › Vinaya accounts for 494 catalogued manuscripts. It clusters in Phrae (42% of the corpus for this sub-genre), ahead of Lampang and Chiang Mai. Nearly all (82%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (93%) over mulberry paper (saa) · กระดาษสา (6%). Dated witnesses run 1537–1973 CE (378 of 494 carry a date).
+Buddhist Canonical · พระไตรปิฎก › Vinaya accounts for 494 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Phrae (42% of the corpus for this sub-genre), ahead of Lampang and Chiang Mai. Nearly all (82%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (93%) over mulberry paper (saa) · กระดาษสา (6%). Dated witnesses run 1537–1973 CE (378 of 494 carry a date).
 Full article JSON: https://wichaa.net/api/article/subgenre_buddhist_canonical_Vinaya.json
 
 ### Chronicle (Tamnan) · ตำนาน › Buddhist Chronicle  (subgenre:tamnan_chronicle:Buddhist Chronicle · published)
-Chronicle (Tamnan) · ตำนาน › Buddhist Chronicle accounts for 569 catalogued manuscripts. It clusters in Phrae (31% of the corpus for this sub-genre), ahead of Phayao and Chiang Mai. Nearly all (90%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (92%) over mulberry paper (saa) · กระดาษสา (5%). Dated witnesses run 1574–1990 CE (376 of 569 carry a date).
+Chronicle (Tamnan) · ตำนาน › Buddhist Chronicle accounts for 569 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Phrae (31% of the corpus for this sub-genre), ahead of Phayao and Chiang Mai. Nearly all (90%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (92%) over mulberry paper (saa) · กระดาษสา (5%). Dated witnesses run 1574–1990 CE (376 of 569 carry a date).
 Full article JSON: https://wichaa.net/api/article/subgenre_tamnan_chronicle_Buddhist_Chronicle.json
 
 ### Chronicle (Tamnan) · ตำนาน › Secular History  (subgenre:tamnan_chronicle:Secular History · published)

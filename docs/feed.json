@@ -130,13 +130,45 @@
       "content_text": "Esoteric subject — title-matched across genres.",
       "tags": [
         "entity",
-        "8"
+        "9"
       ],
       "_lanna": {
         "key": "entity:naga",
-        "count": 8,
+        "count": 9,
         "status": "published",
         "api": "https://wichaa.net/api/article/entity_naga.json"
+      }
+    },
+    {
+      "id": "https://wichaa.net/a?s=entity:patiloma",
+      "url": "https://wichaa.net/a?s=entity:patiloma",
+      "title": "Paṭiloma (reversal & mirror katha)",
+      "content_text": "Esoteric subject — title-matched across genres.",
+      "tags": [
+        "entity",
+        "6"
+      ],
+      "_lanna": {
+        "key": "entity:patiloma",
+        "count": 6,
+        "status": "published",
+        "api": "https://wichaa.net/api/article/entity_patiloma.json"
+      }
+    },
+    {
+      "id": "https://wichaa.net/a?s=entity:kai",
+      "url": "https://wichaa.net/a?s=entity:kai",
+      "title": "Kai (chicken & rooster)",
+      "content_text": "Esoteric subject — title-matched across genres.",
+      "tags": [
+        "entity",
+        "5"
+      ],
+      "_lanna": {
+        "key": "entity:kai",
+        "count": 5,
+        "status": "published",
+        "api": "https://wichaa.net/api/article/entity_kai.json"
       }
     },
     {
@@ -161,13 +193,29 @@
       "title": "Phrommachat (12-year almanac)",
       "content_text": "Esoteric subject — title-matched across genres.",
       "tags": [
-        "entity"
+        "entity",
+        "1"
       ],
       "_lanna": {
         "key": "entity:phrommachat",
-        "count": 0,
+        "count": 1,
         "status": "published",
         "api": "https://wichaa.net/api/article/entity_phrommachat.json"
+      }
+    },
+    {
+      "id": "https://wichaa.net/a?s=entity:khun_phaen",
+      "url": "https://wichaa.net/a?s=entity:khun_phaen",
+      "title": "Khun Phaen (epic hero & amulet)",
+      "content_text": "Esoteric subject — title-matched across genres.",
+      "tags": [
+        "entity"
+      ],
+      "_lanna": {
+        "key": "entity:khun_phaen",
+        "count": 0,
+        "status": "published",
+        "api": "https://wichaa.net/api/article/entity_khun_phaen.json"
       }
     },
     {
@@ -459,6 +507,22 @@
       }
     },
     {
+      "id": "https://wichaa.net/a?s=entity:mangrai",
+      "url": "https://wichaa.net/a?s=entity:mangrai",
+      "title": "King Mangrai (founder of Lanna)",
+      "content_text": "Esoteric subject — title-matched across genres.",
+      "tags": [
+        "entity",
+        "24"
+      ],
+      "_lanna": {
+        "key": "entity:mangrai",
+        "count": 24,
+        "status": "published",
+        "api": "https://wichaa.net/api/article/entity_mangrai.json"
+      }
+    },
+    {
       "id": "https://wichaa.net/a?s=entity:mangraisat",
       "url": "https://wichaa.net/a?s=entity:mangraisat",
       "title": "Mangraisat (Mangrai code)",
@@ -497,12 +561,12 @@
       "content_text": "Esoteric subject — title-matched across genres.",
       "tags": [
         "entity",
-        "14"
+        "16"
       ],
       "_lanna": {
         "key": "entity:mahasamai",
-        "count": 14,
-        "status": "stub",
+        "count": 16,
+        "status": "published",
         "api": "https://wichaa.net/api/article/entity_mahasamai.json"
       }
     },
@@ -518,7 +582,7 @@
       "_lanna": {
         "key": "genre:medicine",
         "count": 6,
-        "status": "stub",
+        "status": "published",
         "api": "https://wichaa.net/api/article/genre_medicine.json"
       }
     },
@@ -534,8 +598,23 @@
       "_lanna": {
         "key": "entity:lokaniti",
         "count": 2,
-        "status": "stub",
+        "status": "published",
         "api": "https://wichaa.net/api/article/entity_lokaniti.json"
+      }
+    },
+    {
+      "id": "https://wichaa.net/a?s=entity:ma",
+      "url": "https://wichaa.net/a?s=entity:ma",
+      "title": "Ma (horse) — and the zebra",
+      "content_text": "Esoteric subject — title-matched across genres.",
+      "tags": [
+        "entity"
+      ],
+      "_lanna": {
+        "key": "entity:ma",
+        "count": 0,
+        "status": "published",
+        "api": "https://wichaa.net/api/article/entity_ma.json"
       }
     }
   ]
