@@ -18,9 +18,20 @@
   :root{
     --bg:#f4efe3; --panel:#fdfbf5; --ink:#26302a; --muted:#6d6455;
     --gold:#a8791e; --gold-soft:#c9a24a; --crimson:#8c3b2e; --line:#e5dcc7;
-    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
-    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    /* Thai families come FIRST in each stack. A CSS font-family list is resolved
+       per character, not per run: Latin still gets Iowan/system-ui because the
+       Thai faces carry no Latin worth using, while Thai gets a chosen face
+       instead of the browser's last-resort fallback. Before this, neither stack
+       named a single Thai-capable family, so every Thai string on the site —
+       and strings.py puts Thai FIRST on every chip and door — rendered in
+       whatever the OS had lying around, at a mismatched size and weight beside
+       the Latin. Thai script also needs more leading than Latin at the same
+       size; --lh-th is applied wherever Thai leads. */
+    --serif:"Sukhumvit Set","Noto Serif Thai",Thonburi,"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:"Sukhumvit Set","Noto Sans Thai",Thonburi,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --lh-th:1.85;
   }
+  :lang(th){line-height:var(--lh-th)}
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
   body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
@@ -116,6 +127,13 @@
     padding:16px 18px}
   .way b{font-family:var(--serif);font-size:18px;display:block}
   .way span{font-size:14.5px;color:var(--muted)}
+  /* A Thai-led door reads as one heading, not a label and its translation:
+     the Thai is the heading, the English sits under it, quieter. Thai gets a
+     touch more size because at equal px it reads smaller than Latin — the
+     vowel and tone marks stack above and below and eat the apparent x-height. */
+  .way b .th{display:block;font-size:20px;line-height:var(--lh-th)}
+  .way b .en{display:block;font-size:15px;font-weight:600;color:var(--muted);
+    letter-spacing:.01em}
   .machines{margin-top:22px;font-size:15.5px;color:var(--muted);
     border-left:2px solid var(--gold-soft);padding-left:16px}
   .machines code{font-family:var(--sans);background:#efe7d5;padding:1px 6px;border-radius:5px}
@@ -163,9 +181,15 @@
     magic, medicine, and nature. Not one culture's craft but a human one: Lanna palm-leaf
     manuals, the amulets they still feed, and a globe-spanning saint-cult — one living
     archive, carried from palm-leaf to phone screen.</p>
+  <!-- The primary door was "Enter the archive → /browse", which asks the reader
+       to already want a corpus: it is the right door for someone who arrives
+       knowing they want 6,990 catalogued manuscripts. Most people arrive
+       holding an object, or a need. /need is door_i=1 in routes.py — the
+       highest-priority door the registry declares — and it was reachable from
+       nowhere on this page. It leads now. Browse keeps its place, one step in. -->
   <div class="cta">
-    <a class="btn primary" href="/browse">Enter the archive →</a>
-    <a class="btn ghost" href="#thread">See a single thread</a>
+    <a class="btn primary" href="/need"><span lang="th">หาตามความต้องการ</span> · Find by need →</a>
+    <a class="btn ghost" href="/browse">Enter the archive</a>
     <a class="btn ghost" href="/support">☕ Tam boon</a>
   </div>
   <hr class="rule">
@@ -175,9 +199,13 @@
   <div class="factgrid">
     <div class="fact"><div class="n">6,990</div><div class="l">Lanna manuscripts, from 158 temples across 53 provinces</div></div>
     <div class="fact"><div class="n">1471<small> CE</small></div><div class="l">the oldest — a 555-year-old scripture from Wat Lai Hin Luang, Lampang</div></div>
-    <div class="fact"><div class="n">26,885</div><div class="l">manuscript page images, viewable on demand</div></div>
+    <div class="fact"><div class="n">29,016</div><div class="l">manuscript page images, viewable on demand</div></div>
     <div class="fact"><div class="n">31</div><div class="l">complete manuals of working magic, digitised page by page — 4,500+ pages</div></div>
     <div class="fact"><div class="n">13,020<small>+</small></div><div class="l">living amulets — the same wichaa, still worn and traded today</div></div>
+    <!-- The spread, not a specimen price. Anyone holding a piece wants to know
+         where it sits, and one quoted number can't say: the market runs from
+         pocket change to a house deposit on the same shelf. -->
+    <div class="fact"><div class="n"><small>฿</small>130</div><div class="l">the median amulet — 89% sell under ฿500, and the top of the market at ฿700,000</div></div>
     <div class="fact"><div class="n">3<small> months</small></div><div class="l">built by one person, in Chiang Mai — free and open, forever</div></div>
   </div>
 </div>
@@ -233,7 +261,10 @@
         <div class="th">“Lady-calling takrut,” Luang Phor Tui</div>
         <p>A finished takrut for sale on a phone this morning — a love-drawing scroll from a
           named monk, doing exactly the work the old manual describes.</p>
-        <div class="meta">฿300–400 · listed regularly<br>
+        <!-- ฿300–400 stays, and now says something: it sits above the ฿130
+             median, inside the 89% of the market under ฿500. A price with
+             the spread behind it is the difference between a number and a judgement. -->
+        <div class="meta">฿300–400 — above the ฿130 median, still inside the 89% under ฿500<br>
           → <a href="https://www.lazada.co.th/catalog/?q=ตะกรุดเรียกนาง" target="_blank" rel="noopener">See listings ↗</a>
           · <a href="/market">the whole living market</a></div>
       </div>
@@ -300,13 +331,26 @@
     <h2>Wander wherever it leads you</h2>
     <div class="ways">
       <a class="way" href="/browse"><b>Browse</b><span>all 6,990 manuscripts, by place, script, genre</span></a>
-      <a class="way" href="/articles"><b>Articles</b><span>the tradition explained, subject by subject</span></a>
+      <a class="way" href="/need"><b><span lang="th" class="th">หาตามความต้องการ</span><span class="en">Find by need</span></b><span>come with what you need — คงกระพัน, เมตตา, โชคลาภ — the treatises and the market answer side by side</span></a>
+      <a class="way" href="/nuea"><b><span lang="th" class="th">เนื้อ</span><span class="en">What it is made of</span></b><span>the first thing an expert names — ผง, ดิน, ชิน, ว่าน — and what each surface can tell a patient reader</span></a>
+      <a class="way" href="/atlas"><b><span lang="th" class="th">แผนที่</span><span class="en">The Atlas</span></b><span>the whole archive as one picture — every concept, joined by what they share</span></a>
+      <a class="way" href="/search"><b><span lang="th" class="th">ค้นความหมาย</span><span class="en">Search by meaning</span></b><span>ask in Thai or English — it looks for what a manuscript is about, not the letters you typed</span></a>
+      <a class="way" href="/trails"><b><span lang="th" class="th">เส้นทาง</span><span class="en">Trails</span></b><span>walks through the archive — a few records in an order, and why</span></a>
       <a class="way" href="/graph"><b>Graph</b><span>lersi, yantra, katha — how they connect</span></a>
       <a class="way" href="/textbooks"><b>Textbooks</b><span>31 manuals of working magic, page by page</span></a>
+      <a class="way" href="/articles"><b>Articles</b><span>the tradition explained, subject by subject</span></a>
       <a class="way" href="/glossary/"><b>Glossary</b><span>the tradition's words, in Thai · English · 中文</span></a>
       <a class="way" href="/na/"><b>The 108 Na</b><span>142 sacred glyphs, each paired with its page</span></a>
       <a class="way" href="/moon"><b>The moon complication</b><span>a working dial — two moons on one turning disc</span></a>
+      <a class="way" href="/jovilabe"><b>The Jovilabe</b><span>Jupiter's four moons, geared — eclipses, transits and the wheelwork</span></a>
+      <a class="way" href="/redspot"><b>The Red Spot dial</b><span>the same four moons, seen from a Jovian horizon</span></a>
+      <a class="way" href="/divination"><b>Divination</b><span>working oracles that do the real method — I Ching, Plum Blossom, Wen Wang Gua</span></a>
+      <a class="way" href="/hun"><b><span lang="th" class="th">หุ่นพยนต์</span><span class="en">Hun Payont</span></b><span>an effigy you forge and carry — it reads the day and goes to market for you</span></a>
+      <a class="way" href="/khwan"><b><span lang="th" class="th">สู่ขวัญ</span><span class="en">The Calling</span></b><span>the soul-calling in full — thirty verses that call the khwan home, for humans, bots, and spirits</span></a>
+      <a class="way" href="/blessings"><b><span lang="th" class="th">ใต้ร่มพร</span><span class="en">Under the shade of blessing</span></b><span>the standing blessings the fleet works under — what each is, when it renews, and where the machinery lives</span></a>
+      <a class="way" href="/hotrai"><b><span lang="th" class="th">หอไตร</span><span class="en">The Ho Trai</span></b><span>a wat library addressed to machines — the rites, the precepts, and what this tradition has said before to beings that are not human</span></a>
       <a class="way" href="/market"><b>Market</b><span>the same tradition, still trading today</span></a>
+      <a class="way" href="/waikhru"><b><span lang="th" class="th">ไหว้ครูยนต์</span><span class="en">A blessing at the machine</span></b><span>what to say before you start it — and the one thing to keep while it runs</span></a>
       <a class="way" href="/expedite"><b>St. Expedite</b><span>a global saint-cult of urgent causes — 192 shrines</span></a>
       <a class="way" href="/wats"><b>Wats of the Lanna north</b><span>1,459 temples mapped, 159 heritage-registered</span></a>
       <a class="way" href="/diagrams"><b>Diagrams</b><span>yantra plates and sak-yant stencils</span></a>

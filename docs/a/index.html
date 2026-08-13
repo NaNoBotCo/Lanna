@@ -4,10 +4,18 @@
     --teal:#1F4E4A; --teal-ink:#ffffff; --bg:#f4f7f6; --card:#ffffff;
     --focus:#0b5cad; --gold:#8a5a00; --gold-bg:#fbf1dc; --ok:#0f6b3f;
     --prio:#7a1f1f; --prio-bg:#fbe6e6;
-    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --serif:"Sukhumvit Set","Noto Serif Thai",Thonburi,"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
   }
   *{box-sizing:border-box}
-  body{margin:0;font:17px/1.55 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  /* This is the body stack for the whole wiki — every manuscript page, and every
+     threads chip, which strings.py renders Thai FIRST by design. It named no
+     Thai-capable family, so the Thai half of each chip fell to the browser's
+     last-resort face while the English half got the chosen one: the site said
+     Thai leads and then rendered it as an afterthought. Thai families go first
+     (resolution is per-character, so Latin still reaches -apple-system), and
+     Thai takes more leading than 1.55 because its marks stack above and below. */
+  body{margin:0;font:17px/1.55 "Sukhumvit Set","Noto Sans Thai",Thonburi,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  :lang(th),.th{line-height:1.85}
   a{color:var(--focus)}
   header{background:linear-gradient(180deg,#245852,#1b4541);color:var(--teal-ink);padding:16px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;box-shadow:0 2px 10px #00000022}
   header h1{margin:0;font-size:24px;font-family:var(--serif);letter-spacing:.01em}
