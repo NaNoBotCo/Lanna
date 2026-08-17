@@ -359,7 +359,7 @@
       }});
   } catch(e){}
 })();
-</script><header><div><h1>Browse the catalogue</h1><p class=sub>The Lanna manuscript corpus — one tradition of wichaa; filter by tradition, script, genre and more</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/moon'>Moon</a><a href='/widgets'>Widgets</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main><div class=toolbar><input id=search type=search placeholder='Search title, genre, temple, province, ID…' aria-label='Search'><select id=sort aria-label=Sort><option value=priority>Sort: Priority first</option><option value=title>Sort: Title A–Z</option><option value=date>Sort: Date</option><option value=images>Sort: Most images</option></select><button class=secondary id=clear>Clear filters</button><span class=count id=count></span></div><div id=chips class=chips aria-label='Active filters'></div><div id=artmatches class=artmatches aria-label='Matching articles'></div><div class=layout><aside class='card facets' id=facets aria-label=Filters></aside><section id=results aria-live=polite></section></div></main><script>
+</script><header><div><h1>Browse the catalogue</h1><p class=sub>The Lanna manuscript corpus — one tradition of wichaa; filter by tradition, script, genre and more</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/moon'>Moon</a><a href='/widgets'>Widgets</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main><div class=toolbar><input id=search type=search placeholder='Search title, genre, temple, province, ID…' aria-label='Search'><select id=sort aria-label=Sort><option value=priority>Sort: Priority first</option><option value=title>Sort: Title A–Z</option><option value=date>Sort: Most ancient first</option><option value=images>Sort: Most images</option></select><button class=secondary id=clear>Clear filters</button><span class=count id=count></span></div><div id=chips class=chips aria-label='Active filters'></div><div id=artmatches class=artmatches aria-label='Matching articles'></div><div class=layout><aside class='card facets' id=facets aria-label=Filters></aside><section id=results aria-live=polite></section></div></main><script>
 const FL={tradition:'Tradition',priority:'Research priority',genre:'Genre',subgenre:'Subgenre',script:'Script',scriptFamily:'Script family',languages:'Language',material:'Material',materialFamily:'Material family',era:'Era',century:'Century',province:'Province',temple:'Temple',source:'Source'};
 const CAP=12; // long facet lists collapse to this many until "show all"
 let ALL=[],FACETS={},LABELS={},active={},expanded={};
@@ -407,7 +407,13 @@ function matches(it){for(const key of Object.keys(active)){const set=active[key]
     let field;if(key==='priority')field=[it.priority?'Research priority':''];
     else field=Array.isArray(it[key])?it[key]:[it[key]];  // multi-valued facets (e.g. languages) match on membership
     if(![...set].some(v=>field.includes(v)))return false;}return true;}
-function cmp(sort){return (a,b)=>{if(sort==='images')return b.imageCount-a.imageCount;if(sort==='date')return String(a.date).localeCompare(String(b.date));if(sort==='title')return a.title.localeCompare(b.title);return (a.priority?0:1)-(b.priority?0:1)||a.title.localeCompare(b.title);};}
+function cmp(sort){return (a,b)=>{if(sort==='images')return b.imageCount-a.imageCount;if(sort==='date'){/* real chronology: CS and BE both converted to CE at build
+  time (taxonomy.date_sort_ce). Undated records keep their place at the END in
+  title order rather than being given a year they do not have. */
+  const x=a.dateSort,y=b.dateSort;
+  if(x==null&&y==null)return a.title.localeCompare(b.title);
+  if(x==null)return 1; if(y==null)return -1;
+  return x-y||a.title.localeCompare(b.title);}if(sort==='title')return a.title.localeCompare(b.title);return (a.priority?0:1)-(b.priority?0:1)||a.title.localeCompare(b.title);};}
 function onSearchInput(){clearTimeout(searchT);const term=document.getElementById('search').value.trim();
   if(term.length<2){SEARCH=null;apply();return;}
   searchT=setTimeout(runSearch,180);}

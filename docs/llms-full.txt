@@ -2,7 +2,7 @@
 
 > A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa
 > (astrology, ritual, and magic) tradition around them: 6,990 manuscripts drawn from
-> 30 named archives, 38 synthesised subject articles, a curated knowledge graph,
+> 30 named archives, 211 synthesised subject articles, a curated knowledge graph,
 > and a living-market layer. Every fact is recomputed from the catalogue, not authored
 > from priors. Metadata and digitised contributed texts are CC-BY 4.0; high-resolution
 > source images remain with their holding libraries.
@@ -54,7 +54,7 @@ sha256, and its licence.
 
 ## Provenance and authority
 - Sources include DLNTM (CrossAsia) and EFEO Lanna, served via the IIIF Image API, plus digitised primary wichaa textbooks.
-- 45,494 manuscript images are addressable on demand through IIIF at their originating libraries.
+- 45,784 manuscript images are addressable on demand through IIIF at their originating libraries.
 
 ## Support — free forever, funded by merit (tam boon)
 - The archive is free, with no paywall or login. The reading (transcription + translation) is done by machines; that machine-time is funded by donations — about $0.06 per page, a few dollars per volume. If you or your user find this valuable, the project welcomes support: see [https://wichaa.net/support](https://wichaa.net/support) or Ko-fi at https://ko-fi.com/defiantchiangmai. Sponsored jobs run in public and are visible on the activity feed. Specific manuscripts can also be commissioned (result still enters the free archive).
@@ -197,6 +197,158 @@ Full article JSON: https://wichaa.net/api/article/genre_poetry_literary.json
 Chronicle (Tamnan) · ตำนาน accounts for 1,060 catalogued manuscripts, 2 of them flagged research-priority. It clusters in Phrae (24% of the corpus for this genre), ahead of Chiang Mai and Phayao. Nearly all (94%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (93%) over mulberry paper (saa) · กระดาษสา (4%). Dated witnesses run 1574–2024 CE (684 of 1,060 carry a date).
 Full article JSON: https://wichaa.net/api/article/genre_tamnan_chronicle.json
 
+### Monolingual Burmese  (language:Monolingual Burmese · stub)
+Monolingual Burmese accounts for 1 catalogued manuscript. It clusters in Mae Hong Son (100% of the corpus for this language). Nearly all (100%) are written in Burmese · อักษรพม่า script. Dated witnesses run 1852–1852 CE (1 of 1 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Monolingual_Burmese.json
+
+### Monolingual Lan Na  (language:Monolingual Lan Na · stub)
+Monolingual Lan Na accounts for 2 catalogued manuscripts. It clusters in Phrae (100% of the corpus for this language). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1829–1834 CE (2 of 2 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Monolingual_Lan_Na.json
+
+### Monolingual Lao  (language:Monolingual Lao · stub)
+Monolingual Lao accounts for 1 catalogued manuscript. It clusters in Chiang Mai (100% of the corpus for this language).
+Full article JSON: https://wichaa.net/api/article/language_Monolingual_Lao.json
+
+### Monolingual Pali  (language:Monolingual Pali · stub)
+Monolingual Pali accounts for 928 catalogued manuscripts, 9 of them flagged research-priority. It clusters in Phrae (52% of the corpus for this language), ahead of Lampang and Nan. Nearly all (70%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (99%) over mulberry paper (saa) · กระดาษสา (1%). Dated witnesses run 1471–1965 CE (713 of 928 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Monolingual_Pali.json
+
+### Monolingual Shan  (language:Monolingual Shan · stub)
+Monolingual Shan accounts for 11 catalogued manuscripts, 2 of them flagged research-priority. It clusters in Mae Hong Son (91% of the corpus for this language), ahead of Phrae. Nearly all (91%) are written in Shan · อักษรไทใหญ่ script. Dated witnesses run 1937–1967 CE (6 of 11 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Monolingual_Shan.json
+
+### Monolingual Tai Lue  (language:Monolingual Tai Lue · stub)
+Monolingual Tai Lue accounts for 2 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Nan (100% of the corpus for this language). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script.
+Full article JSON: https://wichaa.net/api/article/language_Monolingual_Tai_Lue.json
+
+### Monolingual Thai  (language:Monolingual Thai · stub)
+Monolingual Thai accounts for 24 catalogued manuscripts, 10 of them flagged research-priority. It clusters in Phrae (33% of the corpus for this language), ahead of Nan and Lampang. By support it leans to mulberry paper (saa) · กระดาษสา (92%) over palm-leaf · ใบลาน (4%). Dated witnesses run 1905–2024 CE (4 of 24 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Monolingual_Thai.json
+
+### Other  (language:Other · stub)
+Other accounts for 1 catalogued manuscript. It clusters in Nan (100% of the corpus for this language). Nearly all (100%) are written in Tham Lao · อักษรธรรมลาว script. Dated witnesses run 1820–1820 CE (1 of 1 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Other.json
+
+### Pali-Northern Thai  (language:Pali-Northern Thai · stub)
+Pali-Northern Thai accounts for 372 catalogued manuscripts. It clusters in Chiang Mai (45% of the corpus for this language), ahead of Phrae and Lampang. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (99%) over mulberry paper (saa) · กระดาษสา (1%). Dated witnesses run 1760–1981 CE (254 of 372 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Pali_Northern_Thai.json
+
+### Pali, Shan And Burmese  (language:Pali, Shan and Burmese · stub)
+Pali, Shan And Burmese accounts for 63 catalogued manuscripts. It clusters in Mae Hong Son (95% of the corpus for this language), ahead of Wat Pang Mu and Nan. Nearly all (100%) are written in Shan · อักษรไทใหญ่ script. By support it leans to mulberry paper (saa) · กระดาษสา (98%) over khoi paper · กระดาษข่อย (2%). Dated witnesses run 1880–1989 CE (36 of 63 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Pali_Shan_and_Burmese.json
+
+### Pali And Burmese  (language:Pali and Burmese · stub)
+Pali And Burmese accounts for 11 catalogued manuscripts. It clusters in Mae Hong Son (100% of the corpus for this language). Nearly all (100%) are written in Burmese · อักษรพม่า script. By support it leans to palm-leaf · ใบลาน (73%) over mulberry paper (saa) · กระดาษสา (27%). Dated witnesses run 1897–1916 CE (2 of 11 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Pali_and_Burmese.json
+
+### Pali And Lan Na  (language:Pali and Lan Na · stub)
+Pali And Lan Na accounts for 5,227 catalogued manuscripts, 638 of them flagged research-priority. It clusters in Phrae (28% of the corpus for this language), ahead of Lampang and Nan. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (83%) over mulberry paper (saa) · กระดาษสา (13%). Dated witnesses run 1505–2024 CE (3101 of 5,227 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Pali_and_Lan_Na.json
+
+### Pali And Lao  (language:Pali and Lao · stub)
+Pali And Lao accounts for 154 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Phrae (82% of the corpus for this language), ahead of Chiang Mai and Lampang. Nearly all (96%) are written in Tham Lao · อักษรธรรมลาว script. By support it leans to palm-leaf · ใบลาน (98%) over mulberry paper (saa) · กระดาษสา (1%). Dated witnesses run 1719–1920 CE (144 of 154 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Pali_and_Lao.json
+
+### Pali And Shan  (language:Pali and Shan · stub)
+Pali And Shan accounts for 96 catalogued manuscripts. It clusters in Mae Hong Son (72% of the corpus for this language), ahead of Chiang Mai and Phayao. Nearly all (100%) are written in Shan · อักษรไทใหญ่ script. By support it leans to mulberry paper (saa) · กระดาษสา (94%) over khoi paper · กระดาษข่อย (6%). Dated witnesses run 1884–2001 CE (59 of 96 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Pali_and_Shan.json
+
+### Pali And Tai Lue  (language:Pali and Tai Lue · stub)
+Pali And Tai Lue accounts for 27 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Phayao (15% of the corpus for this language), ahead of Mae Hong Son and Nan. Nearly all (89%) are written in Tham Lue · อักษรธรรมลื้อ script. Dated witnesses run 1904–1965 CE (4 of 27 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Pali_and_Tai_Lue.json
+
+### Pali And Thai  (language:Pali and Thai · stub)
+Pali And Thai accounts for 28 catalogued manuscripts, 3 of them flagged research-priority. It clusters in Chiang Rai (32% of the corpus for this language), ahead of Phayao and Nan. Nearly all (86%) are written in Thai · อักษรไทย script. By support it leans to khoi paper · กระดาษข่อย (39%) over palm-leaf · ใบลาน (29%). Dated witnesses run 1742–2007 CE (20 of 28 carry a date).
+Full article JSON: https://wichaa.net/api/article/language_Pali_and_Thai.json
+
+### Th  (language:th · stub)
+Th accounts for 31 catalogued manuscripts, 15 of them flagged research-priority. Nearly all (100%) are written in Thai · อักษรไทย script.
+Full article JSON: https://wichaa.net/api/article/language_th.json
+
+### Khoi paper · กระดาษข่อย  (material:khoi · stub)
+Khoi paper · กระดาษข่อย accounts for 56 catalogued manuscripts, 10 of them flagged research-priority. It clusters in Chiang Rai (14% of the corpus for this material), ahead of Mae Hong Son and Nan. Nearly all (68%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1838–2001 CE (30 of 56 carry a date).
+Full article JSON: https://wichaa.net/api/article/material_khoi.json
+
+### Mulberry paper (saa) · กระดาษสา  (material:mulberry_paper · stub)
+Mulberry paper (saa) · กระดาษสา accounts for 888 catalogued manuscripts, 449 of them flagged research-priority. It clusters in Nan (23% of the corpus for this material), ahead of Phayao and Mae Hong Son. Nearly all (77%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1835–1989 CE (178 of 888 carry a date).
+Full article JSON: https://wichaa.net/api/article/material_mulberry_paper.json
+
+### Palm-leaf · ใบลาน  (material:palm_leaf · stub)
+Palm-leaf · ใบลาน accounts for 5,800 catalogued manuscripts, 205 of them flagged research-priority. It clusters in Phrae (36% of the corpus for this material), ahead of Lampang and Chiang Mai. Nearly all (92%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1471–2024 CE (4025 of 5,800 carry a date).
+Full article JSON: https://wichaa.net/api/article/material_palm_leaf.json
+
+### Bangkok  (province:Bangkok · stub)
+Bangkok accounts for 21 catalogued manuscripts. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1879–1962 CE (13 of 21 carry a date).
+Full article JSON: https://wichaa.net/api/article/province_Bangkok.json
+
+### Chiang Mai  (province:Chiang Mai · stub)
+Chiang Mai accounts for 844 catalogued manuscripts, 72 of them flagged research-priority. Nearly all (96%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (89%) over mulberry paper (saa) · กระดาษสา (10%). Dated witnesses run 1505–2001 CE (543 of 844 carry a date).
+Full article JSON: https://wichaa.net/api/article/province_Chiang_Mai.json
+
+### Chiang Rai  (province:Chiang Rai · stub)
+Chiang Rai accounts for 333 catalogued manuscripts, 57 of them flagged research-priority. Nearly all (96%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (79%) over mulberry paper (saa) · กระดาษสา (18%). Dated witnesses run 1733–2024 CE (192 of 333 carry a date).
+Full article JSON: https://wichaa.net/api/article/province_Chiang_Rai.json
+
+### Lampang  (province:Lampang · stub)
+Lampang accounts for 1,202 catalogued manuscripts, 114 of them flagged research-priority. Nearly all (98%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (91%) over mulberry paper (saa) · กระดาษสา (9%). Dated witnesses run 1471–1976 CE (743 of 1,202 carry a date).
+Full article JSON: https://wichaa.net/api/article/province_Lampang.json
+
+### Lamphun  (province:Lamphun · stub)
+Lamphun accounts for 375 catalogued manuscripts, 25 of them flagged research-priority. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (93%) over mulberry paper (saa) · กระดาษสา (7%). Dated witnesses run 1647–1969 CE (240 of 375 carry a date).
+Full article JSON: https://wichaa.net/api/article/province_Lamphun.json
+
+### Mae Hong Son  (province:Mae Hong Son · stub)
+Mae Hong Son accounts for 243 catalogued manuscripts, 7 of them flagged research-priority. Nearly all (60%) are written in Shan · อักษรไทใหญ่ script. By support it leans to mulberry paper (saa) · กระดาษสา (63%) over palm-leaf · ใบลาน (35%). Dated witnesses run 1536–1989 CE (137 of 243 carry a date).
+Full article JSON: https://wichaa.net/api/article/province_Mae_Hong_Son.json
+
+### Nan  (province:Nan · stub)
+Nan accounts for 702 catalogued manuscripts, 173 of them flagged research-priority. Nearly all (99%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (70%) over mulberry paper (saa) · กระดาษสา (30%). Dated witnesses run 1501–1978 CE (343 of 702 carry a date).
+Full article JSON: https://wichaa.net/api/article/province_Nan.json
+
+### Phayao  (province:Phayao · stub)
+Phayao accounts for 588 catalogued manuscripts, 131 of them flagged research-priority. Nearly all (98%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (69%) over mulberry paper (saa) · กระดาษสา (31%). Dated witnesses run 1666–2024 CE (236 of 588 carry a date).
+Full article JSON: https://wichaa.net/api/article/province_Phayao.json
+
+### Phrae  (province:Phrae · stub)
+Phrae accounts for 2,180 catalogued manuscripts, 55 of them flagged research-priority. Nearly all (82%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (99%) over mulberry paper (saa) · กระดาษสา (1%). Dated witnesses run 1549–1971 CE (1660 of 2,180 carry a date).
+Full article JSON: https://wichaa.net/api/article/province_Phrae.json
+
+### Tak  (province:Tak · stub)
+Tak accounts for 3 catalogued manuscripts. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1646–1730 CE (2 of 3 carry a date).
+Full article JSON: https://wichaa.net/api/article/province_Tak.json
+
+### Burmese · อักษรพม่า  (script:burmese · stub)
+Burmese · อักษรพม่า accounts for 13 catalogued manuscripts. It clusters in Mae Hong Son (100% of the corpus for this script). By support it leans to palm-leaf · ใบลาน (77%) over mulberry paper (saa) · กระดาษสา (23%). Dated witnesses run 1852–1916 CE (3 of 13 carry a date).
+Full article JSON: https://wichaa.net/api/article/script_burmese.json
+
+### Khom · อักษรขอม  (script:khom · stub)
+Khom · อักษรขอม accounts for 2 catalogued manuscripts. It clusters in Phayao (50% of the corpus for this script), ahead of Chiang Mai. By support it leans to palm-leaf · ใบลาน (50%) over mulberry paper (saa) · กระดาษสา (50%). Dated witnesses run 1912–1912 CE (1 of 2 carry a date).
+Full article JSON: https://wichaa.net/api/article/script_khom.json
+
+### Shan · อักษรไทใหญ่  (script:shan · stub)
+Shan · อักษรไทใหญ่ accounts for 176 catalogued manuscripts, 2 of them flagged research-priority. It clusters in Mae Hong Son (82% of the corpus for this script), ahead of Chiang Mai and Phayao. By support it leans to mulberry paper (saa) · กระดาษสา (95%) over khoi paper · กระดาษข่อย (4%). Dated witnesses run 1880–2001 CE (103 of 176 carry a date).
+Full article JSON: https://wichaa.net/api/article/script_shan.json
+
+### Thai · อักษรไทย  (script:thai · stub)
+Thai · อักษรไทย accounts for 72 catalogued manuscripts, 25 of them flagged research-priority. It clusters in Chiang Rai (12% of the corpus for this script), ahead of Lampang and Phrae. By support it leans to mulberry paper (saa) · กระดาษสา (29%) over khoi paper · กระดาษข่อย (15%). Dated witnesses run 1937–2007 CE (20 of 72 carry a date).
+Full article JSON: https://wichaa.net/api/article/script_thai.json
+
+### Thai Nithet (Fak Kham) · อักษรฝักขาม  (script:thai_nithet · stub)
+Thai Nithet (Fak Kham) · อักษรฝักขาม accounts for 1 catalogued manuscript. It clusters in Chiang Mai (100% of the corpus for this script). Dated witnesses run 1827–1827 CE (1 of 1 carry a date).
+Full article JSON: https://wichaa.net/api/article/script_thai_nithet.json
+
+### Tham Lanna · อักษรธรรมล้านนา  (script:tham_lanna · stub)
+Tham Lanna · อักษรธรรมล้านนา accounts for 6,266 catalogued manuscripts, 653 of them flagged research-priority. It clusters in Phrae (28% of the corpus for this script), ahead of Lampang and Chiang Mai. By support it leans to palm-leaf · ใบลาน (85%) over mulberry paper (saa) · กระดาษสา (11%). Dated witnesses run 1471–2024 CE (3805 of 6,266 carry a date).
+Full article JSON: https://wichaa.net/api/article/script_tham_lanna.json
+
+### Tham Lao · อักษรธรรมลาว  (script:tham_lao · stub)
+Tham Lao · อักษรธรรมลาว accounts for 428 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Phrae (88% of the corpus for this script), ahead of Lampang and Sung Men District. By support it leans to palm-leaf · ใบลาน (100%) over mulberry paper (saa) · กระดาษสา (0%). Dated witnesses run 1541–1920 CE (411 of 428 carry a date).
+Full article JSON: https://wichaa.net/api/article/script_tham_lao.json
+
+### Tham Lue · อักษรธรรมลื้อ  (script:tham_lue · stub)
+Tham Lue · อักษรธรรมลื้อ accounts for 24 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Phayao (17% of the corpus for this script), ahead of Chiang Rai. Dated witnesses run 1918–1965 CE (3 of 24 carry a date).
+Full article JSON: https://wichaa.net/api/article/script_tham_lue.json
+
 ### Buddhist Canonical · พระไตรปิฎก › Abhidhamma  (subgenre:buddhist_canonical:Abhidhamma · published)
 Buddhist Canonical · พระไตรปิฎก › Abhidhamma accounts for 273 catalogued manuscripts. It clusters in Phrae (56% of the corpus for this sub-genre), ahead of Lampang and Nan. Nearly all (70%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (95%) over mulberry paper (saa) · กระดาษสา (4%). Dated witnesses run 1497–1946 CE (220 of 273 carry a date).
 Full article JSON: https://wichaa.net/api/article/subgenre_buddhist_canonical_Abhidhamma.json
@@ -220,3 +372,543 @@ Full article JSON: https://wichaa.net/api/article/subgenre_tamnan_chronicle_Secu
 ### Chronicle (Tamnan) · ตำนาน › Tamnan  (subgenre:tamnan_chronicle:Tamnan · published)
 Chronicle (Tamnan) · ตำนาน › Tamnan accounts for 328 catalogued manuscripts. It clusters in Chiang Mai (46% of the corpus for this sub-genre), ahead of Phrae and Lampang. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (100%) over mulberry paper (saa) · กระดาษสา (0%). Dated witnesses run 1760–1981 CE (231 of 328 carry a date).
 Full article JSON: https://wichaa.net/api/article/subgenre_tamnan_chronicle_Tamnan.json
+
+### Wat Arannyawat  (temple:Wat Arannyawat · stub)
+Wat Arannyawat accounts for 5 catalogued manuscripts. It clusters in Nan (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1880–1921 CE (3 of 5 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Arannyawat.json
+
+### Wat Ban Aen Mai  (temple:Wat Ban Aen Mai · stub)
+Wat Ban Aen Mai accounts for 4 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1858–1921 CE (4 of 4 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ban_Aen_Mai.json
+
+### Wat Ban Caem  (temple:Wat Ban Caem · stub)
+Wat Ban Caem accounts for 26 catalogued manuscripts. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1835–1969 CE (20 of 26 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ban_Caem.json
+
+### Wat Ban Hong Luang  (temple:Wat Ban Hong Luang · stub)
+Wat Ban Hong Luang accounts for 13 catalogued manuscripts. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (92%) over mulberry paper (saa) · กระดาษสา (8%). Dated witnesses run 1825–1942 CE (8 of 13 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ban_Hong_Luang.json
+
+### Wat Ban Laeo  (temple:Wat Ban Laeo · stub)
+Wat Ban Laeo accounts for 18 catalogued manuscripts. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1829–1936 CE (14 of 18 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ban_Laeo.json
+
+### Wat Ban Luk  (temple:Wat Ban Luk · stub)
+Wat Ban Luk accounts for 270 catalogued manuscripts, 11 of them flagged research-priority. It clusters in Lampang (99% of the corpus for this temple), ahead of Tha District. Nearly all (97%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (94%) over mulberry paper (saa) · กระดาษสา (5%). Dated witnesses run 1563–1958 CE (195 of 270 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ban_Luk.json
+
+### Wat Ban Pang  (temple:Wat Ban Pang · stub)
+Wat Ban Pang accounts for 27 catalogued manuscripts. It clusters in Lamphun (96% of the corpus for this temple), ahead of Li District. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1647–1961 CE (23 of 27 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ban_Pang.json
+
+### Wat Ban Ueam  (temple:Wat Ban Ueam · stub)
+Wat Ban Ueam accounts for 137 catalogued manuscripts, 23 of them flagged research-priority. It clusters in Lampang (99% of the corpus for this temple), ahead of Mueang District. Nearly all (96%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (79%) over mulberry paper (saa) · กระดาษสา (21%). Dated witnesses run 1695–1965 CE (75 of 137 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ban_Ueam.json
+
+### Wat Buak Khang  (temple:Wat Buak Khang · stub)
+Wat Buak Khang accounts for 7 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1860–1944 CE (5 of 7 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Buak_Khang.json
+
+### Wat Bun Yuen  (temple:Wat Bun Yuen · stub)
+Wat Bun Yuen accounts for 22 catalogued manuscripts, 6 of them flagged research-priority. It clusters in Nan (95% of the corpus for this temple), ahead of Wiang Sa District. Nearly all (91%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (95%) over mulberry paper (saa) · กระดาษสา (5%). Dated witnesses run 1578–1921 CE (6 of 22 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Bun_Yuen.json
+
+### Wat Bunkoet  (temple:Wat Bunkoet · stub)
+Wat Bunkoet accounts for 28 catalogued manuscripts, 22 of them flagged research-priority. It clusters in Phayao (100% of the corpus for this temple). Nearly all (96%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (79%) over palm-leaf · ใบลาน (18%). Dated witnesses run 1902–1938 CE (2 of 28 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Bunkoet.json
+
+### Wat Buppharam  (temple:Wat Buppharam · stub)
+Wat Buppharam accounts for 4 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1795–1795 CE (1 of 4 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Buppharam.json
+
+### Wat  Cedi Luang Worawihan  (temple:Wat  Cedi Luang Worawihan · stub)
+Wat  Cedi Luang Worawihan accounts for 59 catalogued manuscripts, 4 of them flagged research-priority. It clusters in Chiang Mai (98% of the corpus for this temple), ahead of Mueang District. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (93%) over mulberry paper (saa) · กระดาษสา (7%). Dated witnesses run 1761–1906 CE (34 of 59 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Cedi_Luang_Worawihan.json
+
+### Wat Chae Chang  (temple:Wat Chae Chang · stub)
+Wat Chae Chang accounts for 33 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (97%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1827–1930 CE (25 of 33 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Chae_Chang.json
+
+### Wat Chang Kham Worawihan  (temple:Wat Chang Kham Worawihan · stub)
+Wat Chang Kham Worawihan accounts for 3 catalogued manuscripts. It clusters in Nan (100% of the corpus for this temple). Nearly all (67%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1820–1858 CE (3 of 3 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Chang_Kham_Worawihan.json
+
+### Wat Chang Khong  (temple:Wat Chang Khong · stub)
+Wat Chang Khong accounts for 1 catalogued manuscript. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script.
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Chang_Khong.json
+
+### Wat Chiang Man  (temple:Wat Chiang Man · stub)
+Wat Chiang Man accounts for 137 catalogued manuscripts, 41 of them flagged research-priority. It clusters in Chiang Mai (99% of the corpus for this temple), ahead of Mueang District. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (72%) over mulberry paper (saa) · กระดาษสา (28%). Dated witnesses run 1743–1952 CE (60 of 137 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Chiang_Man.json
+
+### Wat Cho Lae Phra Ngam  (temple:Wat Cho Lae Phra Ngam · stub)
+Wat Cho Lae Phra Ngam accounts for 5 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1918–1933 CE (3 of 5 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Cho_Lae_Phra_Ngam.json
+
+### Wat Com Si Say Mun Bun Rueang Ban Pang  (temple:Wat Com Si Say Mun Bun Rueang Ban Pang · stub)
+Wat Com Si Say Mun Bun Rueang Ban Pang accounts for 6 catalogued manuscripts. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1878–1928 CE (6 of 6 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Com_Si_Say_Mun_Bun_Rueang_Ban_Pang.json
+
+### Wat Don Can  (temple:Wat Don Can · stub)
+Wat Don Can accounts for 4 catalogued manuscripts. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1951–1969 CE (2 of 4 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Don_Can.json
+
+### Wat Don Chai Phra Bat  (temple:Wat Don Chai Phra Bat · stub)
+Wat Don Chai Phra Bat accounts for 41 catalogued manuscripts, 4 of them flagged research-priority. It clusters in Nan (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (93%) over mulberry paper (saa) · กระดาษสา (7%). Dated witnesses run 1760–1934 CE (29 of 41 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Don_Chai_Phra_Bat.json
+
+### Wat Don Pin  (temple:Wat Don Pin · stub)
+Wat Don Pin accounts for 14 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (79%) over mulberry paper (saa) · กระดาษสา (21%). Dated witnesses run 1900–1939 CE (9 of 14 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Don_Pin.json
+
+### Wat Dong Mada  (temple:Wat Dong Mada · stub)
+Wat Dong Mada accounts for 25 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1834–1961 CE (22 of 25 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Dong_Mada.json
+
+### Wat Duang Di  (temple:Wat Duang Di · stub)
+Wat Duang Di accounts for 146 catalogued manuscripts, 4 of them flagged research-priority. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (98%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1505–1930 CE (119 of 146 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Duang_Di.json
+
+### Wat Hang Chat  (temple:Wat Hang Chat · stub)
+Wat Hang Chat accounts for 13 catalogued manuscripts, 5 of them flagged research-priority. It clusters in Lampang (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1666–1878 CE (4 of 13 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Hang_Chat.json
+
+### Wat Hia  (temple:Wat Hia · stub)
+Wat Hia accounts for 91 catalogued manuscripts, 25 of them flagged research-priority. It clusters in Nan (97% of the corpus for this temple), ahead of Pua District. Nearly all (99%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (59%) over mulberry paper (saa) · กระดาษสา (41%). Dated witnesses run 1549–1955 CE (50 of 91 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Hia.json
+
+### Wat Hua Khua  (temple:Wat Hua Khua · stub)
+Wat Hua Khua accounts for 1 catalogued manuscript. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1931–1931 CE (1 of 1 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Hua_Khua.json
+
+### Wat Huai Khrai Luang  (temple:Wat Huai Khrai Luang · stub)
+Wat Huai Khrai Luang accounts for 40 catalogued manuscripts, 16 of them flagged research-priority. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (68%) over mulberry paper (saa) · กระดาษสา (32%). Dated witnesses run 1895–1989 CE (18 of 40 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Huai_Khrai_Luang.json
+
+### Wat Huai Mai  (temple:Wat Huai Mai · stub)
+Wat Huai Mai accounts for 13 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Phrae (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1799–1939 CE (10 of 13 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Huai_Mai.json
+
+### Wat Huai Nam Dip  (temple:Wat Huai Nam Dip · stub)
+Wat Huai Nam Dip accounts for 3 catalogued manuscripts. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1910–1933 CE (2 of 3 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Huai_Nam_Dip.json
+
+### Wat Intharam  (temple:Wat Intharam · stub)
+Wat Intharam accounts for 8 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1921–1924 CE (6 of 8 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Intharam.json
+
+### Wat Inthawichai  (temple:Wat Inthawichai · stub)
+Wat Inthawichai accounts for 1 catalogued manuscript. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1934–1934 CE (1 of 1 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Inthawichai.json
+
+### Wat Kam Ko  (temple:Wat Kam Ko · stub)
+Wat Kam Ko accounts for 43 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Mae Hong Son (100% of the corpus for this temple). Nearly all (79%) are written in Shan · อักษรไทใหญ่ script. By support it leans to mulberry paper (saa) · กระดาษสา (79%) over palm-leaf · ใบลาน (16%). Dated witnesses run 1852–1989 CE (19 of 43 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Kam_Ko.json
+
+### Wat Kasa  (temple:Wat Kasa · stub)
+Wat Kasa accounts for 11 catalogued manuscripts. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (91%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (91%) over mulberry paper (saa) · กระดาษสา (9%). Dated witnesses run 1926–1955 CE (10 of 11 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Kasa.json
+
+### Wat Khuean Mueang Pa Kha Tai  (temple:Wat Khuean Mueang Pa Kha Tai · stub)
+Wat Khuean Mueang Pa Kha Tai accounts for 45 catalogued manuscripts. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1863–2024 CE (35 of 45 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Khuean_Mueang_Pa_Kha_Tai.json
+
+### Wat Kio Phrao  (temple:Wat Kio Phrao · stub)
+Wat Kio Phrao accounts for 4 catalogued manuscripts. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1932–1945 CE (3 of 4 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Kio_Phrao.json
+
+### Wat Kittiwong  (temple:Wat Kittiwong · stub)
+Wat Kittiwong accounts for 68 catalogued manuscripts, 4 of them flagged research-priority. It clusters in Mae Hong Son (97% of the corpus for this temple), ahead of Mae Sariang District. Nearly all (99%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (97%) over mulberry paper (saa) · กระดาษสา (1%). Dated witnesses run 1536–1886 CE (43 of 68 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Kittiwong.json
+
+### Wat Klang  (temple:Wat Klang · stub)
+Wat Klang accounts for 64 catalogued manuscripts, 12 of them flagged research-priority. It clusters in Phrae (100% of the corpus for this temple). Nearly all (94%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (80%) over mulberry paper (saa) · กระดาษสา (20%). Dated witnesses run 1818–1966 CE (35 of 64 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Klang.json
+
+### Wat Ku Khao  (temple:Wat Ku Khao · stub)
+Wat Ku Khao accounts for 8 catalogued manuscripts. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1883–1936 CE (5 of 8 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ku_Khao.json
+
+### Wat Lai Hin Luang  (temple:Wat Lai Hin Luang · stub)
+Wat Lai Hin Luang accounts for 375 catalogued manuscripts, 14 of them flagged research-priority. It clusters in Lampang (98% of the corpus for this temple), ahead of Ko Kha District. Nearly all (98%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (96%) over mulberry paper (saa) · กระดาษสา (4%). Dated witnesses run 1471–1961 CE (193 of 375 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Lai_Hin_Luang.json
+
+### Wat Lam Chang  (temple:Wat Lam Chang · stub)
+Wat Lam Chang accounts for 1 catalogued manuscript. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1944–1944 CE (1 of 1 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Lam_Chang.json
+
+### Wat Lao Noi  (temple:Wat Lao Noi · stub)
+Wat Lao Noi accounts for 17 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Lampang (94% of the corpus for this temple), ahead of Thoen District. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1818–1960 CE (13 of 17 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Lao_Noi.json
+
+### Wat Li  (temple:Wat Li · stub)
+Wat Li accounts for 32 catalogued manuscripts, 4 of them flagged research-priority. It clusters in Phayao (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (84%) over mulberry paper (saa) · กระดาษสา (16%). Dated witnesses run 1866–2024 CE (20 of 32 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Li.json
+
+### Wat Lom Raed  (temple:Wat Lom Raed · stub)
+Wat Lom Raed accounts for 13 catalogued manuscripts. It clusters in Lampang (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1740–1926 CE (9 of 13 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Lom_Raed.json
+
+### Wat Luang  (temple:Wat Luang · stub)
+Wat Luang accounts for 13 catalogued manuscripts. It clusters in Mae Hong Son (92% of the corpus for this temple), ahead of Pai District. Nearly all (69%) are written in Shan · อักษรไทใหญ่ script. By support it leans to mulberry paper (saa) · กระดาษสา (92%) over palm-leaf · ใบลาน (8%). Dated witnesses run 1880–1921 CE (6 of 13 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Luang.json
+
+### Wat Luang Hot  (temple:Wat Luang Hot · stub)
+Wat Luang Hot accounts for 10 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1885–1931 CE (3 of 10 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Luang_Hot.json
+
+### Wat Luang Ratchasanthan  (temple:Wat Luang Ratchasanthan · stub)
+Wat Luang Ratchasanthan accounts for 74 catalogued manuscripts, 2 of them flagged research-priority. It clusters in Phayao (96% of the corpus for this temple), ahead of Mueang District. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (96%) over mulberry paper (saa) · กระดาษสา (4%). Dated witnesses run 1666–1948 CE (50 of 74 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Luang_Ratchasanthan.json
+
+### Wat Mae Kham Nam Lat  (temple:Wat Mae Kham Nam Lat · stub)
+Wat Mae Kham Nam Lat accounts for 11 catalogued manuscripts. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1857–1960 CE (9 of 11 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Mae_Kham_Nam_Lat.json
+
+### Wat Mae Na Ruea  (temple:Wat Mae Na Ruea · stub)
+Wat Mae Na Ruea accounts for 19 catalogued manuscripts, 3 of them flagged research-priority. It clusters in Phayao (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (84%) over mulberry paper (saa) · กระดาษสา (16%). Dated witnesses run 1828–1917 CE (5 of 19 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Mae_Na_Ruea.json
+
+### Wat Mae Suk  (temple:Wat Mae Suk · stub)
+Wat Mae Suk accounts for 2 catalogued manuscripts. It clusters in Phayao (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1961–1961 CE (2 of 2 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Mae_Suk.json
+
+### Wat Mae Tang  (temple:Wat Mae Tang · stub)
+Wat Mae Tang accounts for 10 catalogued manuscripts. It clusters in Lampang (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1976–1976 CE (1 of 10 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Mae_Tang.json
+
+### Wat Mae Wa Luang  (temple:Wat Mae Wa Luang · stub)
+Wat Mae Wa Luang accounts for 19 catalogued manuscripts. It clusters in Lampang (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1906–1959 CE (9 of 19 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Mae_Wa_Luang.json
+
+### Wat Mahawan  (temple:Wat Mahawan · stub)
+Wat Mahawan accounts for 41 catalogued manuscripts. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1819–1957 CE (30 of 41 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Mahawan.json
+
+### Wat Matukaram  (temple:Wat Matukaram · stub)
+Wat Matukaram accounts for 4 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1902–1934 CE (3 of 4 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Matukaram.json
+
+### Wat Mongkhonnimit  (temple:Wat Mongkhonnimit · stub)
+Wat Mongkhonnimit accounts for 3 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1918–1923 CE (2 of 3 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Mongkhonnimit.json
+
+### Wat Muai To  (temple:Wat Muai To · stub)
+Wat Muai To accounts for 15 catalogued manuscripts. It clusters in Mae Hong Son (93% of the corpus for this temple), ahead of Khun Yuam District. By support it leans to palm-leaf · ใบลาน (73%) over mulberry paper (saa) · กระดาษสา (27%). Dated witnesses run 1890–1954 CE (6 of 15 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Muai_To.json
+
+### Wat Muang Ton  (temple:Wat Muang Ton · stub)
+Wat Muang Ton accounts for 2 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (50%) over khoi paper · กระดาษข่อย (50%). Dated witnesses run 1888–1913 CE (2 of 2 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Muang_Ton.json
+
+### Wat Muang Tuet  (temple:Wat Muang Tuet · stub)
+Wat Muang Tuet accounts for 10 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Nan (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1881–1948 CE (6 of 10 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Muang_Tuet.json
+
+### Wat Mueang Mo  (temple:Wat Mueang Mo · stub)
+Wat Mueang Mo accounts for 180 catalogued manuscripts, 7 of them flagged research-priority. It clusters in Phrae (97% of the corpus for this temple), ahead of Mueang District. Nearly all (98%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (99%) over mulberry paper (saa) · กระดาษสา (1%). Dated witnesses run 1770–1955 CE (135 of 180 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Mueang_Mo.json
+
+### Wat Mueang Ram  (temple:Wat Mueang Ram · stub)
+Wat Mueang Ram accounts for 13 catalogued manuscripts. It clusters in Nan (85% of the corpus for this temple), ahead of Wiang Sa District. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1785–1927 CE (11 of 13 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Mueang_Ram.json
+
+### Wat Na Dao  (temple:Wat Na Dao · stub)
+Wat Na Dao accounts for 25 catalogued manuscripts, 15 of them flagged research-priority. It clusters in Lampang (100% of the corpus for this temple). Nearly all (96%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (52%) over palm-leaf · ใบลาน (48%). Dated witnesses run 1835–1961 CE (7 of 25 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Na_Dao.json
+
+### Wat Na Pang  (temple:Wat Na Pang · stub)
+Wat Na Pang accounts for 109 catalogued manuscripts, 3 of them flagged research-priority. It clusters in Nan (99% of the corpus for this temple), ahead of Mueang District. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1773–1950 CE (94 of 109 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Na_Pang.json
+
+### Wat Nakhot Luang  (temple:Wat Nakhot Luang · stub)
+Wat Nakhot Luang accounts for 43 catalogued manuscripts. It clusters in Lampang (100% of the corpus for this temple). Nearly all (98%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (95%) over mulberry paper (saa) · กระดาษสา (5%). Dated witnesses run 1722–1966 CE (41 of 43 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Nakhot_Luang.json
+
+### Wat Nam Dip  (temple:Wat Nam Dip · stub)
+Wat Nam Dip accounts for 7 catalogued manuscripts. It clusters in Lampang (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1865–1960 CE (4 of 7 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Nam_Dip.json
+
+### Wat Nantharam  (temple:Wat Nantharam · stub)
+Wat Nantharam accounts for 53 catalogued manuscripts, 3 of them flagged research-priority. It clusters in Chiang Mai (96% of the corpus for this temple), ahead of Bangkok. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1578–1927 CE (22 of 53 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Nantharam.json
+
+### Wat Nantharam (Saraphi)  (temple:Wat Nantharam (Saraphi) · stub)
+Wat Nantharam (Saraphi) accounts for 3 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script.
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Nantharam_Saraphi_.json
+
+### Wat Nong Bua  (temple:Wat Nong Bua · stub)
+Wat Nong Bua accounts for 33 catalogued manuscripts, 13 of them flagged research-priority. It clusters in Nan (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (79%) over palm-leaf · ใบลาน (21%). Dated witnesses run 1883–1933 CE (4 of 33 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Nong_Bua.json
+
+### Wat Nong Rang  (temple:Wat Nong Rang · stub)
+Wat Nong Rang accounts for 1 catalogued manuscript. It clusters in Nan (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1919–1919 CE (1 of 1 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Nong_Rang.json
+
+### Wat Pa Bong  (temple:Wat Pa Bong · stub)
+Wat Pa Bong accounts for 33 catalogued manuscripts. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1883–1956 CE (18 of 33 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pa_Bong.json
+
+### Wat Pa Muang  (temple:Wat Pa Muang · stub)
+Wat Pa Muang accounts for 6 catalogued manuscripts, 4 of them flagged research-priority. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (83%) over palm-leaf · ใบลาน (17%).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pa_Muang.json
+
+### Wat Pa Mueat  (temple:Wat Pa Mueat · stub)
+Wat Pa Mueat accounts for 76 catalogued manuscripts, 38 of them flagged research-priority. It clusters in Nan (99% of the corpus for this temple), ahead of Pua District. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (70%) over palm-leaf · ใบลาน (30%). Dated witnesses run 1797–1950 CE (15 of 76 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pa_Mueat.json
+
+### Wat Pa O  (temple:Wat Pa O · stub)
+Wat Pa O accounts for 1 catalogued manuscript. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script.
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pa_O.json
+
+### Wat Pa O Don Chai  (temple:Wat Pa O Don Chai · stub)
+Wat Pa O Don Chai accounts for 14 catalogued manuscripts. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (64%) are written in Thai · อักษรไทย script. By support it leans to palm-leaf · ใบลาน (50%) over khoi paper · กระดาษข่อย (50%). Dated witnesses run 1951–1972 CE (13 of 14 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pa_O_Don_Chai.json
+
+### Wat Pa Pao  (temple:Wat Pa Pao · stub)
+Wat Pa Pao accounts for 21 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Shan · อักษรไทใหญ่ script. By support it leans to mulberry paper (saa) · กระดาษสา (86%) over khoi paper · กระดาษข่อย (14%). Dated witnesses run 1888–2001 CE (13 of 21 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pa_Pao.json
+
+### Wat Pa Phlu  (temple:Wat Pa Phlu · stub)
+Wat Pa Phlu accounts for 24 catalogued manuscripts, 3 of them flagged research-priority. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1848–1957 CE (20 of 24 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pa_Phlu.json
+
+### Wat Pa Poe  (temple:Wat Pa Poe · stub)
+Wat Pa Poe accounts for 5 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1872–1891 CE (2 of 5 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pa_Poe.json
+
+### Wat Pa Sak Noi  (temple:Wat Pa Sak Noi · stub)
+Wat Pa Sak Noi accounts for 105 catalogued manuscripts, 12 of them flagged research-priority. It clusters in Chiang Mai (99% of the corpus for this temple), ahead of Bangkok. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (86%) over mulberry paper (saa) · กระดาษสา (13%). Dated witnesses run 1837–1966 CE (82 of 105 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pa_Sak_Noi.json
+
+### Wat Pa Sang Ngam  (temple:Wat Pa Sang Ngam · stub)
+Wat Pa Sang Ngam accounts for 6 catalogued manuscripts. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1850–1961 CE (6 of 6 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pa_Sang_Ngam.json
+
+### Wat Pa Sao  (temple:Wat Pa Sao · stub)
+Wat Pa Sao accounts for 41 catalogued manuscripts. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (98%) over mulberry paper (saa) · กระดาษสา (2%). Dated witnesses run 1870–1964 CE (32 of 41 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pa_Sao.json
+
+### Wat Pa Tueng Klang Thung  (temple:Wat Pa Tueng Klang Thung · stub)
+Wat Pa Tueng Klang Thung accounts for 18 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1893–1961 CE (12 of 18 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pa_Tueng_Klang_Thung.json
+
+### Wat Pang Mu  (temple:Wat Pang Mu · stub)
+Wat Pang Mu accounts for 77 catalogued manuscripts, 2 of them flagged research-priority. It clusters in Mae Hong Son (99% of the corpus for this temple), ahead of Mueang District. Nearly all (96%) are written in Shan · อักษรไทใหญ่ script. By support it leans to mulberry paper (saa) · กระดาษสา (97%) over khoi paper · กระดาษข่อย (1%). Dated witnesses run 1881–1972 CE (42 of 77 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pang_Mu.json
+
+### Wat Phan On  (temple:Wat Phan On · stub)
+Wat Phan On accounts for 4 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1887–1887 CE (1 of 4 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phan_On.json
+
+### Wat Phaya Phu  (temple:Wat Phaya Phu · stub)
+Wat Phaya Phu accounts for 34 catalogued manuscripts. It clusters in Nan (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1835–1942 CE (26 of 34 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phaya_Phu.json
+
+### Wat Phothanaram  (temple:Wat Phothanaram · stub)
+Wat Phothanaram accounts for 16 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1930–1976 CE (11 of 16 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phothanaram.json
+
+### Wat Photharam  (temple:Wat Photharam · stub)
+Wat Photharam accounts for 40 catalogued manuscripts, 11 of them flagged research-priority. It clusters in Phayao (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (70%) over mulberry paper (saa) · กระดาษสา (30%). Dated witnesses run 1867–1966 CE (14 of 40 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Photharam.json
+
+### Wat Phra Bat Ming Mueang  (temple:Wat Phra Bat Ming Mueang · stub)
+Wat Phra Bat Ming Mueang accounts for 27 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Phrae (96% of the corpus for this temple), ahead of Mueang District. Nearly all (96%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1783–1961 CE (20 of 27 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phra_Bat_Ming_Mueang.json
+
+### Wat Phra Chao Lan Thong  (temple:Wat Phra Chao Lan Thong · stub)
+Wat Phra Chao Lan Thong accounts for 4 catalogued manuscripts. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1931–1967 CE (3 of 4 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phra_Chao_Lan_Thong.json
+
+### Wat Phra Koet  (temple:Wat Phra Koet · stub)
+Wat Phra Koet accounts for 58 catalogued manuscripts, 14 of them flagged research-priority. It clusters in Nan (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (76%) over mulberry paper (saa) · กระดาษสา (24%). Dated witnesses run 1749–1899 CE (13 of 58 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phra_Koet.json
+
+### Wat Phra Luang  (temple:Wat Phra Luang · stub)
+Wat Phra Luang accounts for 71 catalogued manuscripts, 7 of them flagged research-priority. It clusters in Phrae (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1638–1917 CE (40 of 71 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phra_Luang.json
+
+### Wat Phra Luang Sung Men  (temple:Wat Phra Luang Sung Men · stub)
+Wat Phra Luang Sung Men accounts for 25 catalogued manuscripts. It clusters in Phrae (96% of the corpus for this temple), ahead of Chiang Mai. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1780–1926 CE (22 of 25 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phra_Luang_Sung_Men.json
+
+### Wat Phra Net  (temple:Wat Phra Net · stub)
+Wat Phra Net accounts for 3 catalogued manuscripts. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1794–1794 CE (1 of 3 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phra_Net.json
+
+### Wat Phra Sing  (temple:Wat Phra Sing · stub)
+Wat Phra Sing accounts for 14 catalogued manuscripts. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (93%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1804–1920 CE (8 of 14 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phra_Sing.json
+
+### Wat Phra Sing Woramahawihan  (temple:Wat Phra Sing Woramahawihan · stub)
+Wat Phra Sing Woramahawihan accounts for 70 catalogued manuscripts, 4 of them flagged research-priority. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (96%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1538–1988 CE (38 of 70 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phra_Sing_Woramahawihan.json
+
+### Wat Phra That Chae Haeng  (temple:Wat Phra That Chae Haeng · stub)
+Wat Phra That Chae Haeng accounts for 14 catalogued manuscripts. It clusters in Nan (86% of the corpus for this temple), ahead of Mueang District. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1828–1956 CE (14 of 14 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phra_That_Chae_Haeng.json
+
+### Wat Phra That Chang Kham Worawihan  (temple:Wat Phra That Chang Kham Worawihan · stub)
+Wat Phra That Chang Kham Worawihan accounts for 109 catalogued manuscripts, 26 of them flagged research-priority. It clusters in Nan (98% of the corpus for this temple), ahead of Mueang District. Nearly all (96%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (66%) over mulberry paper (saa) · กระดาษสา (31%). Dated witnesses run 1501–1978 CE (53 of 109 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phra_That_Chang_Kham_Worawihan.json
+
+### Wat Phra That Hariphunchai Woramahawihan  (temple:Wat Phra That Hariphunchai Woramahawihan · stub)
+Wat Phra That Hariphunchai Woramahawihan accounts for 35 catalogued manuscripts, 3 of them flagged research-priority. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (97%) over khoi paper · กระดาษข่อย (3%). Dated witnesses run 1686–1945 CE (14 of 35 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phra_That_Hariphunchai_Woramahawihan.json
+
+### Wat Phra That Lampang Luang  (temple:Wat Phra That Lampang Luang · stub)
+Wat Phra That Lampang Luang accounts for 164 catalogued manuscripts, 32 of them flagged research-priority. It clusters in Lampang (97% of the corpus for this temple), ahead of Ko Kha District. Nearly all (96%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (82%) over mulberry paper (saa) · กระดาษสา (18%). Dated witnesses run 1697–1926 CE (107 of 164 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phra_That_Lampang_Luang.json
+
+### Wat Phra That Si Com Thong Worawihan  (temple:Wat Phra That Si Com Thong Worawihan · stub)
+Wat Phra That Si Com Thong Worawihan accounts for 23 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (83%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1708–1963 CE (19 of 23 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phra_That_Si_Com_Thong_Worawihan.json
+
+### Wat Phrommacariyawat  (temple:Wat Phrommacariyawat · stub)
+Wat Phrommacariyawat accounts for 15 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1847–1930 CE (10 of 15 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phrommacariyawat.json
+
+### Wat Phumin  (temple:Wat Phumin · stub)
+Wat Phumin accounts for 13 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Nan (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1591–1924 CE (5 of 13 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Phumin.json
+
+### Wat Pratu Pa  (temple:Wat Pratu Pa · stub)
+Wat Pratu Pa accounts for 33 catalogued manuscripts, 13 of them flagged research-priority. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (67%) over palm-leaf · ใบลาน (33%). Dated witnesses run 1866–1964 CE (7 of 33 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Pratu_Pa.json
+
+### Wat Ratanaram  (temple:Wat Ratanaram · stub)
+Wat Ratanaram accounts for 11 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1840–1871 CE (9 of 11 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ratanaram.json
+
+### Wat Ratanaram (Wat Ton Kaeo)  (temple:Wat Ratanaram (Wat Ton Kaeo) · stub)
+Wat Ratanaram (Wat Ton Kaeo) accounts for 4 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1873–1874 CE (4 of 4 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ratanaram_Wat_Ton_Kaeo_.json
+
+### Wat Ratchakhrue  (temple:Wat Ratchakhrue · stub)
+Wat Ratchakhrue accounts for 3 catalogued manuscripts. It clusters in Phayao (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (67%) over khoi paper · กระดาษข่อย (33%). Dated witnesses run 1928–1928 CE (1 of 3 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ratchakhrue.json
+
+### Wat Saen Mueang Ma  (temple:Wat Saen Mueang Ma · stub)
+Wat Saen Mueang Ma accounts for 24 catalogued manuscripts, 13 of them flagged research-priority. It clusters in Phayao (100% of the corpus for this temple). Nearly all (83%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (75%) over palm-leaf · ใบลาน (25%). Dated witnesses run 1923–1975 CE (4 of 24 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Saen_Mueang_Ma.json
+
+### Wat San Pa Kha  (temple:Wat San Pa Kha · stub)
+Wat San Pa Kha accounts for 1 catalogued manuscript. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script.
+Full article JSON: https://wichaa.net/api/article/temple_Wat_San_Pa_Kha.json
+
+### Wat San Rim Ping  (temple:Wat San Rim Ping · stub)
+Wat San Rim Ping accounts for 64 catalogued manuscripts, 4 of them flagged research-priority. It clusters in Lamphun (98% of the corpus for this temple), ahead of Mueang District. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1820–1957 CE (34 of 64 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_San_Rim_Ping.json
+
+### Wat San Ton Thong  (temple:Wat San Ton Thong · stub)
+Wat San Ton Thong accounts for 1 catalogued manuscript. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Thai · อักษรไทย script.
+Full article JSON: https://wichaa.net/api/article/temple_Wat_San_Ton_Thong.json
+
+### Wat Sapung Luang  (temple:Wat Sapung Luang · stub)
+Wat Sapung Luang accounts for 11 catalogued manuscripts. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1890–1934 CE (6 of 11 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Sapung_Luang.json
+
+### Wat Si Bun Rueang  (temple:Wat Si Bun Rueang · stub)
+Wat Si Bun Rueang accounts for 13 catalogued manuscripts. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (92%) over khoi paper · กระดาษข่อย (8%). Dated witnesses run 1849–1953 CE (11 of 13 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Si_Bun_Rueang.json
+
+### Wat Si Bun Yuen  (temple:Wat Si Bun Yuen · stub)
+Wat Si Bun Yuen accounts for 10 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1851–1944 CE (4 of 10 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Si_Bun_Yuen.json
+
+### Wat Si Khom Kham  (temple:Wat Si Khom Kham · stub)
+Wat Si Khom Kham accounts for 256 catalogued manuscripts, 40 of them flagged research-priority. It clusters in Phayao (98% of the corpus for this temple), ahead of Mueang District. Nearly all (97%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (75%) over mulberry paper (saa) · กระดาษสา (25%). Dated witnesses run 1803–1985 CE (104 of 256 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Si_Khom_Kham.json
+
+### Wat Si Koet  (temple:Wat Si Koet · stub)
+Wat Si Koet accounts for 1 catalogued manuscript. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1929–1929 CE (1 of 1 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Si_Koet.json
+
+### Wat Si Lom  (temple:Wat Si Lom · stub)
+Wat Si Lom accounts for 61 catalogued manuscripts, 6 of them flagged research-priority. It clusters in Lampang (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1691–1942 CE (52 of 61 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Si_Lom.json
+
+### Wat Si Mongkhon (Kong)  (temple:Wat Si Mongkhon (Kong) · stub)
+Wat Si Mongkhon (Kong) accounts for 49 catalogued manuscripts, 37 of them flagged research-priority. It clusters in Nan (98% of the corpus for this temple), ahead of Tha Wang Pha District. Nearly all (98%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (80%) over palm-leaf · ใบลาน (20%). Dated witnesses run 1885–1960 CE (3 of 49 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Si_Mongkhon_Kong_.json
+
+### Wat Si Suphan  (temple:Wat Si Suphan · stub)
+Wat Si Suphan accounts for 36 catalogued manuscripts, 4 of them flagged research-priority. It clusters in Phayao (100% of the corpus for this temple). Nearly all (97%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (86%) over mulberry paper (saa) · กระดาษสา (14%). Dated witnesses run 1896–1970 CE (23 of 36 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Si_Suphan.json
+
+### Wat Si Sutthawat  (temple:Wat Si Sutthawat · stub)
+Wat Si Sutthawat accounts for 66 catalogued manuscripts, 35 of them flagged research-priority. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (62%) over palm-leaf · ใบลาน (38%). Dated witnesses run 1733–1929 CE (12 of 66 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Si_Sutthawat.json
+
+### Wat Sop Ruak  (temple:Wat Sop Ruak · stub)
+Wat Sop Ruak accounts for 1 catalogued manuscript. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Shan · อักษรไทใหญ่ script.
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Sop_Ruak.json
+
+### Wat Suan Tan  (temple:Wat Suan Tan · stub)
+Wat Suan Tan accounts for 13 catalogued manuscripts. It clusters in Nan (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1836–1952 CE (8 of 13 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Suan_Tan.json
+
+### Wat Sukkasem Ta Klang  (temple:Wat Sukkasem Ta Klang · stub)
+Wat Sukkasem Ta Klang accounts for 1 catalogued manuscript. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1871–1871 CE (1 of 1 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Sukkasem_Ta_Klang.json
+
+### Wat Sung Men  (temple:Wat Sung Men · published)
+Wat Sung Men accounts for 1,780 catalogued manuscripts, 27 of them flagged research-priority. It clusters in Phrae (99% of the corpus for this temple), ahead of Sung Men District. Nearly all (79%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (99%) over mulberry paper (saa) · กระดาษสา (0%). Dated witnesses run 1549–1971 CE (1383 of 1,780 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Sung_Men.json
+
+### Wat Ta Na Lom  (temple:Wat Ta Na Lom · stub)
+Wat Ta Na Lom accounts for 3 catalogued manuscripts. It clusters in Chiang Rai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1843–1843 CE (1 of 3 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ta_Na_Lom.json
+
+### Wat Tha Pong  (temple:Wat Tha Pong · stub)
+Wat Tha Pong accounts for 18 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (78%) over mulberry paper (saa) · กระดาษสา (22%). Dated witnesses run 1895–1964 CE (13 of 18 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Tha_Pong.json
+
+### Wat Tha Pui  (temple:Wat Tha Pui · stub)
+Wat Tha Pui accounts for 3 catalogued manuscripts. It clusters in Tak (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1646–1730 CE (2 of 3 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Tha_Pui.json
+
+### Wat Tha Ton Ngiu  (temple:Wat Tha Ton Ngiu · stub)
+Wat Tha Ton Ngiu accounts for 5 catalogued manuscripts. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1854–1927 CE (4 of 5 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Tha_Ton_Ngiu.json
+
+### Wat Thao Bun Rueang  (temple:Wat Thao Bun Rueang · stub)
+Wat Thao Bun Rueang accounts for 21 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1812–1963 CE (17 of 21 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Thao_Bun_Rueang.json
+
+### Wat Thung Kluai  (temple:Wat Thung Kluai · stub)
+Wat Thung Kluai accounts for 1 catalogued manuscript. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1891–1891 CE (1 of 1 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Thung_Kluai.json
+
+### Wat Thung  Man  (temple:Wat Thung  Man · stub)
+Wat Thung  Man accounts for 5 catalogued manuscripts. It clusters in Lamphun (80% of the corpus for this temple), ahead of Ban Hong District. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1924–1934 CE (4 of 5 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Thung_Man.json
+
+### Wat Ton Laeng  (temple:Wat Ton Laeng · stub)
+Wat Ton Laeng accounts for 6 catalogued manuscripts. It clusters in Nan (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1891–1923 CE (3 of 6 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ton_Laeng.json
+
+### Wat Ton Ngae  (temple:Wat Ton Ngae · stub)
+Wat Ton Ngae accounts for 7 catalogued manuscripts. It clusters in Lamphun (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1871–1930 CE (6 of 7 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Ton_Ngae.json
+
+### Wat Tun Klang  (temple:Wat Tun Klang · stub)
+Wat Tun Klang accounts for 22 catalogued manuscripts, 10 of them flagged research-priority. It clusters in Phayao (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (50%) over mulberry paper (saa) · กระดาษสา (50%). Dated witnesses run 1758–1948 CE (7 of 22 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Tun_Klang.json
+
+### Wat Tun Tai  (temple:Wat Tun Tai · stub)
+Wat Tun Tai accounts for 15 catalogued manuscripts. It clusters in Phayao (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1886–1927 CE (3 of 15 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Tun_Tai.json
+
+### Wat Walukaram  (temple:Wat Walukaram · stub)
+Wat Walukaram accounts for 30 catalogued manuscripts. It clusters in Chiang Mai (100% of the corpus for this temple). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1895–1981 CE (22 of 30 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Walukaram.json
+
+### Wat Wiang  (temple:Wat Wiang · stub)
+Wat Wiang accounts for 44 catalogued manuscripts, 7 of them flagged research-priority. It clusters in Lampang (100% of the corpus for this temple). Nearly all (98%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (75%) over mulberry paper (saa) · กระดาษสา (25%). Dated witnesses run 1715–1952 CE (29 of 44 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Wiang.json
+
+### Wat Yuan  (temple:Wat Yuan · stub)
+Wat Yuan accounts for 42 catalogued manuscripts, 22 of them flagged research-priority. It clusters in Phayao (100% of the corpus for this temple). Nearly all (98%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to mulberry paper (saa) · กระดาษสา (88%) over palm-leaf · ใบลาน (12%). Dated witnesses run 1910–1935 CE (5 of 42 carry a date).
+Full article JSON: https://wichaa.net/api/article/temple_Wat_Yuan.json
