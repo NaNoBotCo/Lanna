@@ -2,7 +2,7 @@
 
 > A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa
 > (astrology, ritual, and magic) tradition around them: 6,990 manuscripts drawn from
-> 30 named archives, 211 synthesised subject articles, a curated knowledge graph,
+> 30 named archives, 194 synthesised subject articles, a curated knowledge graph,
 > and a living-market layer. Every fact is recomputed from the catalogue, not authored
 > from priors. Metadata and digitised contributed texts are CC-BY 4.0; high-resolution
 > source images remain with their holding libraries.
@@ -54,7 +54,7 @@ sha256, and its licence.
 
 ## Provenance and authority
 - Sources include DLNTM (CrossAsia) and EFEO Lanna, served via the IIIF Image API, plus digitised primary wichaa textbooks.
-- 45,784 manuscript images are addressable on demand through IIIF at their originating libraries.
+- 46,084 manuscript images are addressable on demand through IIIF at their originating libraries.
 
 ## Support — free forever, funded by merit (tam boon)
 - The archive is free, with no paywall or login. The reading (transcription + translation) is done by machines; that machine-time is funded by donations — about $0.06 per page, a few dollars per volume. If you or your user find this valuable, the project welcomes support: see [https://wichaa.net/support](https://wichaa.net/support) or Ko-fi at https://ko-fi.com/defiantchiangmai. Sponsored jobs run in public and are visible on the activity feed. Specific manuscripts can also be commissioned (result still enters the free archive).
@@ -196,74 +196,6 @@ Full article JSON: https://wichaa.net/api/article/genre_poetry_literary.json
 ### Chronicle (Tamnan) · ตำนาน  (genre:tamnan_chronicle · published)
 Chronicle (Tamnan) · ตำนาน accounts for 1,060 catalogued manuscripts, 2 of them flagged research-priority. It clusters in Phrae (24% of the corpus for this genre), ahead of Chiang Mai and Phayao. Nearly all (94%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (93%) over mulberry paper (saa) · กระดาษสา (4%). Dated witnesses run 1574–2024 CE (684 of 1,060 carry a date).
 Full article JSON: https://wichaa.net/api/article/genre_tamnan_chronicle.json
-
-### Monolingual Burmese  (language:Monolingual Burmese · stub)
-Monolingual Burmese accounts for 1 catalogued manuscript. It clusters in Mae Hong Son (100% of the corpus for this language). Nearly all (100%) are written in Burmese · อักษรพม่า script. Dated witnesses run 1852–1852 CE (1 of 1 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Monolingual_Burmese.json
-
-### Monolingual Lan Na  (language:Monolingual Lan Na · stub)
-Monolingual Lan Na accounts for 2 catalogued manuscripts. It clusters in Phrae (100% of the corpus for this language). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1829–1834 CE (2 of 2 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Monolingual_Lan_Na.json
-
-### Monolingual Lao  (language:Monolingual Lao · stub)
-Monolingual Lao accounts for 1 catalogued manuscript. It clusters in Chiang Mai (100% of the corpus for this language).
-Full article JSON: https://wichaa.net/api/article/language_Monolingual_Lao.json
-
-### Monolingual Pali  (language:Monolingual Pali · stub)
-Monolingual Pali accounts for 928 catalogued manuscripts, 9 of them flagged research-priority. It clusters in Phrae (52% of the corpus for this language), ahead of Lampang and Nan. Nearly all (70%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (99%) over mulberry paper (saa) · กระดาษสา (1%). Dated witnesses run 1471–1965 CE (713 of 928 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Monolingual_Pali.json
-
-### Monolingual Shan  (language:Monolingual Shan · stub)
-Monolingual Shan accounts for 11 catalogued manuscripts, 2 of them flagged research-priority. It clusters in Mae Hong Son (91% of the corpus for this language), ahead of Phrae. Nearly all (91%) are written in Shan · อักษรไทใหญ่ script. Dated witnesses run 1937–1967 CE (6 of 11 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Monolingual_Shan.json
-
-### Monolingual Tai Lue  (language:Monolingual Tai Lue · stub)
-Monolingual Tai Lue accounts for 2 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Nan (100% of the corpus for this language). Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script.
-Full article JSON: https://wichaa.net/api/article/language_Monolingual_Tai_Lue.json
-
-### Monolingual Thai  (language:Monolingual Thai · stub)
-Monolingual Thai accounts for 24 catalogued manuscripts, 10 of them flagged research-priority. It clusters in Phrae (33% of the corpus for this language), ahead of Nan and Lampang. By support it leans to mulberry paper (saa) · กระดาษสา (92%) over palm-leaf · ใบลาน (4%). Dated witnesses run 1905–2024 CE (4 of 24 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Monolingual_Thai.json
-
-### Other  (language:Other · stub)
-Other accounts for 1 catalogued manuscript. It clusters in Nan (100% of the corpus for this language). Nearly all (100%) are written in Tham Lao · อักษรธรรมลาว script. Dated witnesses run 1820–1820 CE (1 of 1 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Other.json
-
-### Pali-Northern Thai  (language:Pali-Northern Thai · stub)
-Pali-Northern Thai accounts for 372 catalogued manuscripts. It clusters in Chiang Mai (45% of the corpus for this language), ahead of Phrae and Lampang. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (99%) over mulberry paper (saa) · กระดาษสา (1%). Dated witnesses run 1760–1981 CE (254 of 372 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Pali_Northern_Thai.json
-
-### Pali, Shan And Burmese  (language:Pali, Shan and Burmese · stub)
-Pali, Shan And Burmese accounts for 63 catalogued manuscripts. It clusters in Mae Hong Son (95% of the corpus for this language), ahead of Wat Pang Mu and Nan. Nearly all (100%) are written in Shan · อักษรไทใหญ่ script. By support it leans to mulberry paper (saa) · กระดาษสา (98%) over khoi paper · กระดาษข่อย (2%). Dated witnesses run 1880–1989 CE (36 of 63 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Pali_Shan_and_Burmese.json
-
-### Pali And Burmese  (language:Pali and Burmese · stub)
-Pali And Burmese accounts for 11 catalogued manuscripts. It clusters in Mae Hong Son (100% of the corpus for this language). Nearly all (100%) are written in Burmese · อักษรพม่า script. By support it leans to palm-leaf · ใบลาน (73%) over mulberry paper (saa) · กระดาษสา (27%). Dated witnesses run 1897–1916 CE (2 of 11 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Pali_and_Burmese.json
-
-### Pali And Lan Na  (language:Pali and Lan Na · stub)
-Pali And Lan Na accounts for 5,227 catalogued manuscripts, 638 of them flagged research-priority. It clusters in Phrae (28% of the corpus for this language), ahead of Lampang and Nan. Nearly all (100%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (83%) over mulberry paper (saa) · กระดาษสา (13%). Dated witnesses run 1505–2024 CE (3101 of 5,227 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Pali_and_Lan_Na.json
-
-### Pali And Lao  (language:Pali and Lao · stub)
-Pali And Lao accounts for 154 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Phrae (82% of the corpus for this language), ahead of Chiang Mai and Lampang. Nearly all (96%) are written in Tham Lao · อักษรธรรมลาว script. By support it leans to palm-leaf · ใบลาน (98%) over mulberry paper (saa) · กระดาษสา (1%). Dated witnesses run 1719–1920 CE (144 of 154 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Pali_and_Lao.json
-
-### Pali And Shan  (language:Pali and Shan · stub)
-Pali And Shan accounts for 96 catalogued manuscripts. It clusters in Mae Hong Son (72% of the corpus for this language), ahead of Chiang Mai and Phayao. Nearly all (100%) are written in Shan · อักษรไทใหญ่ script. By support it leans to mulberry paper (saa) · กระดาษสา (94%) over khoi paper · กระดาษข่อย (6%). Dated witnesses run 1884–2001 CE (59 of 96 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Pali_and_Shan.json
-
-### Pali And Tai Lue  (language:Pali and Tai Lue · stub)
-Pali And Tai Lue accounts for 27 catalogued manuscripts, 1 of them flagged research-priority. It clusters in Phayao (15% of the corpus for this language), ahead of Mae Hong Son and Nan. Nearly all (89%) are written in Tham Lue · อักษรธรรมลื้อ script. Dated witnesses run 1904–1965 CE (4 of 27 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Pali_and_Tai_Lue.json
-
-### Pali And Thai  (language:Pali and Thai · stub)
-Pali And Thai accounts for 28 catalogued manuscripts, 3 of them flagged research-priority. It clusters in Chiang Rai (32% of the corpus for this language), ahead of Phayao and Nan. Nearly all (86%) are written in Thai · อักษรไทย script. By support it leans to khoi paper · กระดาษข่อย (39%) over palm-leaf · ใบลาน (29%). Dated witnesses run 1742–2007 CE (20 of 28 carry a date).
-Full article JSON: https://wichaa.net/api/article/language_Pali_and_Thai.json
-
-### Th  (language:th · stub)
-Th accounts for 31 catalogued manuscripts, 15 of them flagged research-priority. Nearly all (100%) are written in Thai · อักษรไทย script.
-Full article JSON: https://wichaa.net/api/article/language_th.json
 
 ### Khoi paper · กระดาษข่อย  (material:khoi · stub)
 Khoi paper · กระดาษข่อย accounts for 56 catalogued manuscripts, 10 of them flagged research-priority. It clusters in Chiang Rai (14% of the corpus for this material), ahead of Mae Hong Son and Nan. Nearly all (68%) are written in Tham Lanna · อักษรธรรมล้านนา script. Dated witnesses run 1838–2001 CE (30 of 56 carry a date).
