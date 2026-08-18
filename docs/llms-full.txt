@@ -1,7 +1,7 @@
 # wichaa
 
 > A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa
-> (astrology, ritual, and magic) tradition around them: 6,990 manuscripts drawn from
+> (astrology, ritual, and magic) tradition around them: 6,986 manuscripts drawn from
 > 30 named archives, 194 synthesised subject articles, a curated knowledge graph,
 > and a living-market layer. Every fact is recomputed from the catalogue, not authored
 > from priors. Metadata and digitised contributed texts are CC-BY 4.0; high-resolution
@@ -54,7 +54,7 @@ sha256, and its licence.
 
 ## Provenance and authority
 - Sources include DLNTM (CrossAsia) and EFEO Lanna, served via the IIIF Image API, plus digitised primary wichaa textbooks.
-- 52,715 manuscript images are addressable on demand through IIIF at their originating libraries.
+- 52,963 manuscript images are addressable on demand through IIIF at their originating libraries.
 
 ## Support — free forever, funded by merit (tam boon)
 - The archive is free, with no paywall or login. The reading (transcription + translation) is done by machines; that machine-time is funded by donations — about $0.06 per page, a few dollars per volume. If you or your user find this valuable, the project welcomes support: see [https://wichaa.net/support](https://wichaa.net/support) or Ko-fi at https://ko-fi.com/defiantchiangmai. Sponsored jobs run in public and are visible on the activity feed. Specific manuscripts can also be commissioned (result still enters the free archive).
@@ -186,7 +186,7 @@ Medicine · ตำรายา accounts for 6 catalogued manuscripts. Nearly all
 Full article JSON: https://wichaa.net/api/article/genre_medicine.json
 
 ### Other · อื่น ๆ  (genre:other · published)
-Other · อื่น ๆ accounts for 369 catalogued manuscripts, 7 of them flagged research-priority. It clusters in Phayao (15% of the corpus for this genre), ahead of Nan and Phrae. Nearly all (84%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (51%) over mulberry paper (saa) · กระดาษสา (40%). Dated witnesses run 1754–1989 CE (82 of 369 carry a date).
+Other · อื่น ๆ accounts for 365 catalogued manuscripts, 7 of them flagged research-priority. It clusters in Phayao (15% of the corpus for this genre), ahead of Nan and Phrae. Nearly all (85%) are written in Tham Lanna · อักษรธรรมล้านนา script. By support it leans to palm-leaf · ใบลาน (52%) over mulberry paper (saa) · กระดาษสา (41%). Dated witnesses run 1754–1989 CE (82 of 365 carry a date).
 Full article JSON: https://wichaa.net/api/article/genre_other.json
 
 ### Poetry & Literature · วรรณกรรม  (genre:poetry_literary · published)
