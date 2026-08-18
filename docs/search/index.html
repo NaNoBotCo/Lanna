@@ -455,7 +455,25 @@ function run(){
       if(!d.results||!d.results.length){ out.innerHTML='<div class="sempty">Nothing in the corpus '
         +'answers to that yet — try a broader word, or browse the '
         +'<a href="/browse">directory</a>.</div>'; return; }
-      out.innerHTML=d.results.map(card).join('');
+      // Say what these results REST ON. A semantic search always returns
+      // something, so silence reads as "here is your answer" even when the
+      // catalogue holds nothing of the kind — `knitting patterns` scores higher
+      // here than half the genuine hits do. Nothing in the numbers separates
+      // those two cases (see cloudflare-mirror/src/index.js), but one honest
+      // thing IS knowable: whether the reader's own words are in the catalogue
+      // at all. When they are not, these are neighbours by sense, and the reader
+      // is told so and left to judge — which is also how the corpus's real gaps
+      // become visible rather than papered over.
+      var u=d.understood||{}, lead='';
+      if(u.basis==='meaning'){
+        lead='<div class="snote">ใกล้เคียงตามความหมาย — คำที่พิมพ์ยังไม่ปรากฏในสารบัญ'
+           +' · closest by meaning — your words themselves are not in the catalogue yet</div>';
+      }
+      if(u.notes&&u.notes.indexOf('segmented')>=0&&u.terms&&u.terms.length>1){
+        lead+='<div class="snote">แยกคำเป็น '+u.terms.join(' + ')
+           +' · read as '+u.terms.join(' + ')+'</div>';
+      }
+      out.innerHTML=lead+d.results.map(card).join('');
     })
     .catch(function(e){
       if(e && e.name==='AbortError') return;
