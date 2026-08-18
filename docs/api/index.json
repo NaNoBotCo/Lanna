@@ -223,6 +223,13 @@
       "templated": false
     },
     {
+      "path": "/api/yant-designs.json",
+      "url": "https://wichaa.net/api/yant-designs.json",
+      "description": "Yant designs data.",
+      "format": "application/json",
+      "templated": false
+    },
+    {
       "path": "/api/article/{slug}.json",
       "url": "https://wichaa.net/api/article/{slug}.json",
       "description": "One article: authored prose + live-computed profile + connections.",

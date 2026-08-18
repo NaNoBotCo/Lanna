@@ -180,6 +180,20 @@
         }
       }
     },
+    "/segdict.txt": {
+      "get": {
+        "summary": "Segmentation dictionary",
+        "description": "Corpus words a Thai query may be split on.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/index.json": {
       "get": {
         "summary": "API index",
@@ -632,6 +646,20 @@
       "get": {
         "summary": "Every mapped temple of the Lanna north plus non-wat sacred sites: coordinates, province, h",
         "description": "Every mapped temple of the Lanna north plus non-wat sacred sites: coordinates, province, heritage registration, photographs (first two inline), and a lead description. The map's own data source.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/yant-designs.json": {
+      "get": {
+        "summary": "Yant designs data.",
+        "description": "Yant designs data.",
         "responses": {
           "200": {
             "description": "OK",
