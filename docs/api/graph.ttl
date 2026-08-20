@@ -214,7 +214,8 @@
     lw:related_to <https://wichaa.net/id/genre/liturgy_chanting> ;
     lw:related_to <https://wichaa.net/id/entity/holasat> ;
     lw:related_to <https://wichaa.net/id/entity/katha> ;
-    lw:related_to <https://wichaa.net/id/entity/vessantara> .
+    lw:related_to <https://wichaa.net/id/entity/vessantara> ;
+    lw:related_to <https://wichaa.net/id/entity/chang> .
 
 <https://wichaa.net/id/entity/sut_thon>
     a lw:Entity ;
@@ -241,7 +242,8 @@
     lw:related_to <https://wichaa.net/id/entity/sut_thon> ;
     lw:related_to <https://wichaa.net/id/entity/suep_cata> ;
     lw:related_to <https://wichaa.net/id/genre/magic_ritual> ;
-    lw:related_to <https://wichaa.net/id/entity/yantra> .
+    lw:related_to <https://wichaa.net/id/entity/yantra> ;
+    lw:related_to <https://wichaa.net/id/entity/chang> .
 
 <https://wichaa.net/id/entity/mahasamai>
     a lw:Entity ;
@@ -334,7 +336,8 @@
     lw:related_to <https://wichaa.net/id/genre/didactic_moral> ;
     lw:related_to <https://wichaa.net/id/entity/thammasat> ;
     lw:related_to <https://wichaa.net/id/entity/suep_cata> ;
-    lw:related_to <https://wichaa.net/id/genre/magic_ritual> .
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/entity/chang> .
 
 <https://wichaa.net/id/genre/other>
     a lw:Genre ;
@@ -364,7 +367,8 @@
     lw:related_to <https://wichaa.net/id/entity/lersi> ;
     lw:related_to <https://wichaa.net/id/entity/khun_phaen> ;
     lw:related_to <https://wichaa.net/id/entity/phrommachat> ;
-    lw:related_to <https://wichaa.net/id/entity/patiloma> .
+    lw:related_to <https://wichaa.net/id/entity/patiloma> ;
+    lw:related_to <https://wichaa.net/id/entity/chang> .
 
 <https://wichaa.net/id/entity/patiloma>
     a lw:Entity ;
@@ -436,6 +440,26 @@
     a lw:Genre ;
     rdfs:label "Divination & Omens · การทำนาย" .
 
+<https://wichaa.net/id/entity/chang>
+    a lw:Entity ;
+    rdfs:label "Chang (elephant)" ;
+    lw:related_to <https://wichaa.net/id/entity/ma> ;
+    lw:related_to <https://wichaa.net/id/entity/kai> ;
+    lw:related_to <https://wichaa.net/id/entity/vessantara> ;
+    lw:related_to <https://wichaa.net/id/entity/su_khwan> ;
+    lw:related_to <https://wichaa.net/id/entity/yantra> ;
+    lw:related_to <https://wichaa.net/id/entity/katha> ;
+    lw:related_to <https://wichaa.net/id/entity/naga> ;
+    lw:related_to <https://wichaa.net/id/entity/mangrai> ;
+    lw:related_to <https://wichaa.net/id/entity/phrommachat> ;
+    lw:related_to <https://wichaa.net/id/entity/lersi> ;
+    lw:related_to <https://wichaa.net/id/genre/jataka> ;
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/genre/liturgy_chanting> ;
+    lw:related_to <https://wichaa.net/id/genre/tamnan_chronicle> ;
+    lw:related_to <https://wichaa.net/id/genre/medicine> ;
+    lw:related_to <https://wichaa.net/id/genre/astrology> .
+
 <https://wichaa.net/id/entity/ma>
     a lw:Entity ;
     rdfs:label "Ma (horse) — and the zebra" ;
@@ -448,7 +472,8 @@
     lw:related_to <https://wichaa.net/id/entity/katha> ;
     lw:related_to <https://wichaa.net/id/genre/magic_ritual> ;
     lw:related_to <https://wichaa.net/id/genre/jataka> ;
-    lw:related_to <https://wichaa.net/id/genre/tamnan_chronicle> .
+    lw:related_to <https://wichaa.net/id/genre/tamnan_chronicle> ;
+    lw:related_to <https://wichaa.net/id/entity/chang> .
 
 <https://wichaa.net/id/subgenre/buddhist_canonical%3AAbhidhamma>
     a lw:Subgenre ;
