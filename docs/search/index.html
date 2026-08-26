@@ -598,6 +598,13 @@ document.getElementById('sform').addEventListener('submit',function(e){ e.preven
 q.addEventListener('keydown',function(e){
   if((e.key==='Enter'||e.keyCode===13) && !e.isComposing){ e.preventDefault(); run(); }
 });
+// Third path for the same key: some Android soft keyboards commit Enter as an
+// editor action whose key event reads 'Unidentified'/keyCode 229 — invisible to
+// the handler above. WebKit/Blink fire the 'search' event on type=search inputs
+// from the native action itself, whatever the key event claimed to be. (It also
+// fires with an empty value when the ✕ clear control is tapped; run('') just
+// clears the results, which is what clearing should do.)
+q.addEventListener('search',function(){ run(); });
 
 var pre=new URLSearchParams(location.search).get('q');
 if(pre){ q.value=pre; run(); } else { q.focus(); }

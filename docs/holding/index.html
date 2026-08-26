@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ถืออยู่ในมือ · I'm holding an amulet · wichaa</title>
+<meta name="description" content="Holding an amulet you cannot name? Answer the questions a sian would ask — เนื้อ (what it is made of), then what the eye sees — and meet 36 candidate kinds, each led by its class: whether anything lives in it, what a keeper owes it, and how much its history matters.">
+<link rel="canonical" href="https://wichaa.net/holding">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="wichaa">
+<meta property="og:title" content="ถืออยู่ในมือ · I'm holding an amulet · wichaa">
+<meta property="og:description" content="Holding an amulet you cannot name? Answer the questions a sian would ask — เนื้อ (what it is made of), then what the eye sees — and meet 36 candidate kinds, each led by its class: whether anything lives in it, what a keeper owes it, and how much its history matters.">
+<meta property="og:url" content="https://wichaa.net/holding">
+<meta property="og:image" content="https://wichaa.net/holding/card.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ถืออยู่ในมือ · I'm holding an amulet · wichaa">
+<meta name="twitter:image" content="https://wichaa.net/holding/card.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "I'm holding an amulet", "url": "https://wichaa.net/holding", "description": "Holding an amulet you cannot name? Answer the questions a sian would ask — เนื้อ (what it is made of), then what the eye sees — and meet 36 candidate kinds, each led by its class: whether anything lives in it, what a keeper owes it, and how much its history matters.", "mainEntity": {"@type": "ItemList", "numberOfItems": 36}}</script>
+<style>
+ :root{--bg:#f4efe3;--panel:#fdfbf5;--ink:#26302a;--muted:#6d6455;--gold:#a8791e;
+  --gold-soft:#c9a24a;--crimson:#8c3b2e;--line:#e5dcc7;--sage:#3f5b3a;
+  --serif:"Sukhumvit Set","Noto Serif Thai",Thonburi,"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --sans:"Sukhumvit Set","Noto Sans Thai",Thonburi,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+ *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--sans);font-size:18px;line-height:1.65}
+ a{color:var(--crimson);text-decoration:none}a:hover{text-decoration:underline}
+ .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+ header.top{text-align:center;padding:48px 24px 8px}
+ .mark{font-family:var(--serif);letter-spacing:.4em;color:var(--gold);font-size:13px}
+ .mark a{color:var(--gold)}
+ h1{font-family:var(--serif);font-size:clamp(30px,5vw,46px);margin:14px 0 6px}
+ .sub{color:#3c463f;font-family:var(--serif);font-style:italic;font-size:19px;
+  max-width:740px;margin:0 auto}
+ .src{margin-top:12px;font-size:14.5px;color:var(--muted);max-width:740px;
+  margin-left:auto;margin-right:auto}
+
+ .ethic{margin:26px auto 0;max-width:860px;padding:18px 22px;border:1px solid var(--line);
+  border-radius:16px;background:linear-gradient(150deg,#fdfbf5,#f6efdf);font-size:15.5px}
+ .ethic b{font-family:var(--serif)}
+
+ .step{margin:26px 0 0;padding:22px 24px;border:1px solid var(--line);border-radius:18px;
+  background:linear-gradient(160deg,#fdfbf5f0,#f7f1e2cc);backdrop-filter:blur(6px);
+  box-shadow:0 1px 0 #fff inset,0 8px 26px -20px #6d645599}
+ .step h2{font-family:var(--serif);font-size:22px;margin:0 0 2px}
+ .step .lead{margin:0 0 14px;font-size:15px;color:var(--muted)}
+ .picks{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+ .pick{position:relative;text-align:left;font:inherit;cursor:pointer;min-height:56px;
+  padding:13px 15px 13px 52px;border:1.5px solid var(--line);border-radius:14px;
+  background:var(--panel);color:var(--ink);
+  transition:transform .14s cubic-bezier(.34,1.56,.64,1),border-color .16s,box-shadow .16s,background .16s}
+ .pick:hover{transform:translateY(-2px);border-color:var(--gold-soft);
+  box-shadow:0 10px 22px -14px #8c3b2e66}
+ .pick:active{transform:scale(.965)}
+ .pick:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+ .pick[aria-pressed="true"]{background:var(--crimson);border-color:var(--crimson);color:#fdfbf5}
+ .pick[aria-pressed="true"] .pen,.pick[aria-pressed="true"] .phint{color:#fdfbf5cc}
+ .pick[aria-pressed="true"] .pn{background:#fdfbf5;color:var(--crimson)}
+ .pn{position:absolute;left:13px;top:14px;width:28px;height:28px;border-radius:999px;
+  background:#f0e8d4;color:var(--crimson);font-weight:700;font-size:15px;
+  display:flex;align-items:center;justify-content:center}
+ .pth{display:block;font-family:var(--serif);font-size:19px;line-height:1.3}
+ .pen{display:block;font-size:14px;color:var(--muted)}
+ .phint{display:block;font-size:13px;color:var(--muted);margin-top:4px;line-height:1.45}
+
+ .state{position:sticky;top:0;z-index:6;background:#f4efe3ee;backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);margin-top:22px;padding:10px 0}
+ .state .wrap{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+ #verdict{font-size:15.5px}
+ #verdict b{font-family:var(--serif)}
+ #reset{font:inherit;font-size:14.5px;color:var(--crimson);cursor:pointer;border:0;
+  background:none;text-decoration:underline;padding:6px 4px;min-height:44px}
+
+ .clsgrp{margin:30px 0 0}
+ .clshead h2{font-family:var(--serif);font-size:24px;margin:0}
+ .clsro{font-size:15px;color:var(--gold);font-style:italic;font-weight:400;margin-left:8px}
+ .clsstrip{margin:4px 0 14px;font-size:15px;color:#4a4335;border-left:3px solid var(--gold-soft);
+  background:#f7f1e2;padding:9px 13px;border-radius:0 10px 10px 0}
+ .uchip{display:inline-block;margin-left:8px;padding:2px 11px;border-radius:999px;
+  background:#efe6d0;color:#6b4a2e;font-size:13.5px;white-space:nowrap}
+ .kgrid{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(330px,1fr))}
+ .kind{background:var(--panel);border:1px solid var(--line);border-radius:16px;
+  padding:18px 20px;display:flex;flex-direction:column;
+  transition:transform .18s cubic-bezier(.34,1.4,.64,1),border-color .18s,box-shadow .18s}
+ .kind:hover{transform:translateY(-3px);border-color:var(--gold-soft);
+  box-shadow:0 16px 30px -22px #26302abb}
+ .kth{font-family:var(--serif);font-size:26px;margin:0;line-height:1.25}
+ .ktr{color:var(--gold);font-size:14.5px;font-style:italic;margin:3px 0 0}
+ .kwhat{font-size:14.5px;color:#3c473f;margin:10px 0 0}
+ .fuzzy{font-size:13.5px;color:#6b4a2e;background:#f7f1e2;border-radius:10px;
+  padding:9px 12px;margin:10px 0 0}
+ .kmarket{font-size:14px;margin:12px 0 0;color:var(--sage)}
+ .kcorpus{font-size:14px;margin:3px 0 0;color:var(--muted)}
+ .klinks{margin:12px 0 0;padding-top:11px;border-top:1px dotted var(--line);
+  font-size:13.5px;color:var(--muted)}
+ .klinks a{padding:6px 2px}
+ .ksrc{float:right;font-size:12px;color:var(--muted);opacity:.85}
+ .kind.dim{display:none}
+ .clsgrp.dim{display:none}
+
+ footer{border-top:1px solid var(--line);margin-top:56px;padding:26px 0 60px;
+  text-align:center;font-size:14.5px;color:var(--muted)}
+ @media (max-width:640px){body{font-size:17px}.picks{grid-template-columns:1fr 1fr}
+  .phint{display:none}.pick{padding:12px 13px 12px 50px;min-height:52px}}
+ @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<!-- site_meta:begin --><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "wichaa", "description": "A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa tradition — astrology, ritual, and magic — with a curated knowledge graph and a living-market layer.", "url": "https://wichaa.net/", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@type": "Organization", "name": "NaNoBotCo", "email": "530kings@proton.me"}, "keywords": ["Lanna manuscripts", "Northern Thai", "Tai Tham script", "wichaa", "Thai astrology", "hora", "yantra", "sak yant", "katha", "Buddhist manuscripts", "palm-leaf manuscripts", "Southeast Asian manuscripts", "digital humanities"], "inLanguage": ["th", "en", "pi"], "isAccessibleForFree": true, "size": "6986 manuscripts", "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://wichaa.net/api/manuscripts.json", "name": "All manuscripts (JSON)"}, {"@type": "DataDownload", "encodingFormat": "application/ld+json", "contentUrl": "https://wichaa.net/api/graph.jsonld", "name": "Knowledge graph (JSON-LD)"}, {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://wichaa.net/api/graph.ttl", "name": "Knowledge graph (Turtle)"}]}</script><link rel="alternate" type="application/ld+json" href="https://wichaa.net/api/graph.jsonld" title="Knowledge graph (JSON-LD)"><link rel="alternate" type="text/turtle" href="https://wichaa.net/api/graph.ttl" title="Knowledge graph (Turtle)"><meta name="citation_title" content="ถืออยู่ในมือ · I&#x27;m holding an amulet · wichaa"><meta name="citation_author" content="Peacock, Nan"><meta name="citation_publication_date" content="2026/08/26"><meta name="citation_online_date" content="2026/08/26"><meta name="citation_publisher" content="wichaa"><meta name="citation_public_url" content="https://wichaa.net/holding/"><meta name="citation_language" content="en"><meta name="DC.title" content="ถืออยู่ในมือ · I&#x27;m holding an amulet · wichaa"><meta name="DC.creator" content="Peacock, Nan"><meta name="DC.publisher" content="Lanna Manuscript Wiki"><meta name="DC.date" content="2026-08-26"><meta name="DC.identifier" content="https://wichaa.net/holding/"><meta name="DC.rights" content="CC BY 4.0"><meta property="article:published_time" content="2026-08-26T00:00:00Z"><meta property="article:modified_time" content="2026-08-26T00:00:00Z"><link rel="license" href="https://creativecommons.org/licenses/by/4.0/"><meta name="keywords" content="Lanna manuscripts, Northern Thai, Tai Tham script, wichaa, Thai astrology, hora, yantra, sak yant, katha, Buddhist manuscripts, palm-leaf manuscripts, Southeast Asian manuscripts, digital humanities"><!-- site_meta:end --></head><body>
+
+<header class="top">
+  <div class="mark"><a href="/">WICHAA</a></div>
+  <h1>ถืออยู่ในมือ · I'm holding an amulet</h1>
+  <p class="sub">You have the thing; you don't have its name. Answer the questions a
+     sian would ask — in the sian's order — and meet the kinds it could be.</p>
+  <p class="src">36 kinds · 7,378 listing-echoes in the living market ·
+     class and keeping read from the vault vocabulary · the ways in:
+     <a href="/nuea">by material</a> · <a href="/need">by need</a> ·
+     <a href="/market">the market</a></p>
+</header>
+
+<div class="wrap">
+  <div class="ethic"><b>Why class comes first.</b> A sale listing flattens every kind on
+    this page to “amulet.” The one thing it almost never states is the first thing the
+    tradition asks: <b>is anyone home?</b> A พระสมเด็จ and a กุมารทอง trade on the same
+    page, in the same price band — and one is impersonal blessing you may adopt blind,
+    while the other is a raised spirit whose history should travel with it. Class facts
+    and keeping below come from the vault vocabulary (<i>Tradition</i>); counts and
+    prices from the catalogue (<i>Catalogue</i>); the material-and-figure mapping that
+    drives the picker is this page's own curation (<i>Inference</i>), and each card
+    signs which it is.</div>
+
+  <section class="step" id="step-m">
+    <h2>๑ · เนื้อ — what is it made of?</h2>
+    <p class="lead">The sian's first question, because material gates age and workshop.
+       Surfaces and what they can tell a patient reader have their own page:
+       <a href="/nuea">เนื้อ · by material</a>.</p>
+    <div class="picks"><button type="button" class="pick" data-kind="m" data-key="phong" aria-pressed="false"><span class="pn">1</span><span class="pth">ผง</span><span class="pen">pressed powder</span><span class="phint">pale, chalky, light in the hand — pressed sacred powder, sometimes flecked with herb or ash</span></button><button type="button" class="pick" data-kind="m" data-key="din" aria-pressed="false"><span class="pn">2</span><span class="pth">ดิน</span><span class="pen">fired earth</span><span class="phint">terracotta tones, earthen weight — clay pressed and fired, the classic cache-find body</span></button><button type="button" class="pick" data-kind="m" data-key="chin" aria-pressed="false"><span class="pn">3</span><span class="pth">ชิน</span><span class="pen">lead-tin alloy</span><span class="phint">soft dark grey, heavy for its size, sometimes bloomed with red or mercury-bright patina</span></button><button type="button" class="pick" data-kind="m" data-key="loha" aria-pressed="false"><span class="pn">4</span><span class="pth">โลหะ</span><span class="pen">cast metal</span><span class="phint">brass, bronze, copper, silver — cast or struck, with a coin's shine or a statue's weight</span></button><button type="button" class="pick" data-kind="m" data-key="organic" aria-pressed="false"><span class="pn">5</span><span class="pth">ไม้ · ว่าน · เขา</span><span class="pen">wood, tuber, bone, shell</span><span class="phint">something that grew — carved wood, a dried tuber, horn, fang, ivory, a shell</span></button><button type="button" class="pick" data-kind="m" data-key="relic" aria-pressed="false"><span class="pn">6</span><span class="pth">ผ้า · ของครูบา</span><span class="pen">cloth or a master's things</span><span class="phint">inscribed cloth, robe fragment, hair, or something a master's own body touched</span></button><button type="button" class="pick" data-kind="m" data-key="unsure" aria-pressed="false"><span class="pn">7</span><span class="pth">บอกไม่ได้</span><span class="pen">can't tell</span><span class="phint">no shame in it — เนื้อ takes a trained eye; skip and the net stays wide</span></button></div>
+  </section>
+
+  <section class="step" id="step-f">
+    <h2>๒ · what does the eye see?</h2>
+    <p class="lead">The figure or form — tap the nearest. “Can't tell” keeps every door open.</p>
+    <div class="picks"><button type="button" class="pick" data-kind="f" data-key="buddha" aria-pressed="false"><span class="pn">1</span><span class="pth">องค์พระ</span><span class="pen">a Buddha image</span><span class="phint">seated or standing, in a frame or arch — the classic phra khrueang face</span></button><button type="button" class="pick" data-kind="f" data-key="monk" aria-pressed="false"><span class="pn">2</span><span class="pth">พระเกจิ</span><span class="pen">a monk's likeness</span><span class="phint">a portrait medallion, a cast figure in robes, a photograph in a locket</span></button><button type="button" class="pick" data-kind="f" data-key="deity" aria-pressed="false"><span class="pn">3</span><span class="pth">เทพ · ยักษ์ · ครุฑ</span><span class="pen">a deity or guardian</span><span class="phint">a crowned or armed figure, a guardian giant, a garuda, an eclipse-swallower, a beckoning lady</span></button><button type="button" class="pick" data-kind="f" data-key="human" aria-pressed="false"><span class="pn">4</span><span class="pth">รูปคน · เด็ก · ฤๅษี</span><span class="pen">a human, child, or hermit</span><span class="phint">a child figure, a tiger-skinned hermit, an old beggar, a cloth-or-wood person shape</span></button><button type="button" class="pick" data-kind="f" data-key="animal" aria-pressed="false"><span class="pn">5</span><span class="pth">สัตว์</span><span class="pen">an animal</span><span class="phint">tiger, turtle, bird, gecko, elephant — whole or a single part</span></button><button type="button" class="pick" data-kind="f" data-key="phallic" aria-pressed="false"><span class="pn">6</span><span class="pth">รูปเพศชาย</span><span class="pen">a phallic rod</span><span class="phint">carved wood or cast metal, often with its own small figure riding it</span></button><button type="button" class="pick" data-kind="f" data-key="tube" aria-pressed="false"><span class="pn">7</span><span class="pth">หลอด · ม้วน</span><span class="pen">a tube or rolled scroll</span><span class="phint">rolled metal on a cord, capped or waxed — worn at the waist or neck</span></button><button type="button" class="pick" data-kind="f" data-key="cloth" aria-pressed="false"><span class="pn">8</span><span class="pth">ผ้าเขียนอักขระ</span><span class="pen">cloth with a drawn grid</span><span class="phint">a square or banner of cloth, inked with script and figures</span></button><button type="button" class="pick" data-kind="f" data-key="blade" aria-pressed="false"><span class="pn">9</span><span class="pth">มีด · เครื่องมือ</span><span class="pen">a blade or tool</span><span class="phint">a knife with an inscribed blade or handle — a working tool, not a weapon for show</span></button><button type="button" class="pick" data-kind="f" data-key="natural" aria-pressed="false"><span class="pn">10</span><span class="pth">ของธรรมชาติ</span><span class="pen">a natural object</span><span class="phint">a shell, stone, seed, coconut eye, fang, or metal that looks grown rather than cast</span></button><button type="button" class="pick" data-kind="f" data-key="pot" aria-pressed="false"><span class="pn">11</span><span class="pth">ขวด · ตลับ</span><span class="pen">a bottle, pot, or wax</span><span class="phint">oil in a vial, wax or paste in a small tin, a stoppered charm bottle</span></button><button type="button" class="pick" data-kind="f" data-key="unsure" aria-pressed="false"><span class="pn">12</span><span class="pth">บอกไม่ได้</span><span class="pen">can't tell / something else</span><span class="phint">skip this question and every kind stays on the table</span></button></div>
+  </section>
+</div>
+
+<div class="state"><div class="wrap">
+  <span id="verdict">Every kind is on the table — answer either question to narrow.</span>
+  <button id="reset" hidden>แสดงทั้งหมด · show all</button>
+</div></div>
+
+<div class="wrap" id="results">
+<section class="clsgrp" data-cls="phra_khrueang">
+  <header class="clshead">
+    <h2>พระเครื่อง <span class="clsro">phra khrueang · Buddhist amulet</span></h2>
+    <p class="clsstrip">No resident · nobody home — nothing owed, adopt freely · history is a price question, not a safety one <span class="uchip">ไม่มีผู้อยู่ · ไม่ต้องเลี้ยง</span></p>
+  </header>
+  <div class="kgrid"><article class="kind" data-f="buddha" data-m="phong" id="k-phra-somdet">
+  <h3 class="kth">พระสมเด็จ</h3>
+  <p class="ktr">phra somdet · the classic pressed-powder Buddha tablet</p>
+  <p class="kwhat">A rectangular pressed tablet of sacred powder bearing a seated Buddha in an arch — the most copied, most collected amulet form there is. Power is the maker's barami and the consecration; nobody is home.</p>
+  
+  <p class="kmarket">383 listings in the living market · ฿49–฿399 typical · median ฿136</p>
+  <p class="kcorpus">2 manuscript titles · named on 122 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=สมเด็จ">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="buddha" data-m="loha" id="k-phra-kring">
+  <h3 class="kth">พระกริ่ง</h3>
+  <p class="ktr">phra kring · the rattling cast-metal Buddha</p>
+  <p class="kwhat">A small cast Buddha with a pellet sealed inside — shake it and it chimes. Cast in bronze or nawaloha in the Chinese-Tibetan medicine-Buddha line.</p>
+  
+  <p class="kmarket">28 listings in the living market · ฿39–฿509 typical · median ฿94</p>
+  
+  <p class="klinks"><a href="/browse?q=พระกริ่ง">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="buddha human" data-m="phong loha organic" id="k-phra-pidta">
+  <h3 class="kth">พระปิดตา</h3>
+  <p class="ktr">phra pidta · the eyes-covered Buddha</p>
+  <p class="kwhat">A figure with hands over its eyes — the shut-away senses. Pressed powder or cast metal; worked for warding and for wealth that slips past notice.</p>
+  
+  <p class="kmarket">157 listings in the living market · ฿59–฿558 typical · median ฿100</p>
+  <p class="kcorpus">named on 27 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=ปิดตา">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="monk" data-m="loha" id="k-rian-phra-kechi">
+  <h3 class="kth">เหรียญพระเกจิ</h3>
+  <p class="ktr">rian phra kechi · a monk's portrait medallion</p>
+  <p class="kwhat">A struck coin-form medallion carrying a revered monk's portrait, name and temple, usually dated to the batch (รุ่น). The most datable of all forms — the coin itself says when.</p>
+  
+  <p class="kmarket">145 listings in the living market · ฿49–฿259 typical · median ฿97</p>
+  
+  <p class="klinks"><a href="/browse?q=เหรียญหลวง">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="monk" data-m="loha" id="k-rup-lo">
+  <h3 class="kth">รูปหล่อ</h3>
+  <p class="ktr">rup lo · a cast monk figure</p>
+  <p class="kwhat">A small cast statue of a monk seated in meditation — the medallion's three-dimensional cousin, from pendant size up to the altar.</p>
+  
+  <p class="kmarket">82 listings in the living market · ฿42–฿541 typical · median ฿99</p>
+  <p class="kcorpus">named on 4 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=รูปหล่อ">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article><article class="kind" data-f="buddha" data-m="din chin phong" id="k-phra-kru">
+  <h3 class="kth">พระกรุ</h3>
+  <p class="ktr">phra kru · a cache-find amulet</p>
+  <p class="kwhat">An amulet recovered from a sealed temple cache (กรุ) — fired earth or chin alloy more often than powder, with the crust and mineral bloom of centuries in the chamber. Age is the whole question; the surface is the testimony.</p>
+  
+  <p class="kmarket">34 listings in the living market · ฿69–฿258 typical · median ฿134</p>
+  <p class="kcorpus">named on 14 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=พระกรุ">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article><article class="kind" data-f="buddha" data-m="phong din" id="k-khun-phaen">
+  <h3 class="kth">ขุนแผน</h3>
+  <p class="ktr">khun phaen · the Khun Phaen tablet</p>
+  <p class="kwhat">A pressed tablet in the classic arch — named for the epic's charm-master, and the one amulet whose material story matters as much as its form. Some are pure powder; some are worked with necromantic material, and the difference does not show on the surface.</p>
+  <p class="fuzzy">✳ The sharpest seam in the whole register, measured not decreed: Buddha-amulet FORM, but many makings carry prai-kuman MATERIAL. Its upkeep is an amulet's; its provenance question is a spirit-object's. Ask what went into the batch.</p>
+  <p class="kmarket">317 listings in the living market · ฿59–฿450 typical · median ฿169</p>
+  <p class="kcorpus">named on 25 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=ขุนแผน">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="buddha" data-m="phong" id="k-phra-phong-bai-lan">
+  <h3 class="kth">พระผงใบลาน</h3>
+  <p class="ktr">phra phong bai lan · burnt-manuscript-ash amulet</p>
+  <p class="kwhat">Pressed from the ash of burnt palm-leaf manuscripts — the same leaves this archive catalogues, at a later moment of their life. A treatise here gives the recipe outright: inscribe five leaves with katha, burn, mix with lacquer, roll.</p>
+  
+  <p class="kmarket">20 listings in the living market · ฿61–฿599 typical · median ฿299</p>
+  
+  <p class="klinks"><a href="/browse?q=ผงใบลาน">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article><article class="kind" data-f="monk" data-m="loha phong" id="k-phra-siwali">
+  <h3 class="kth">พระสีวลี</h3>
+  <p class="ktr">phra siwali · the never-hungry monk</p>
+  <p class="kwhat">The arahant who never lacked — staff over shoulder, umbrella and kettle — carried for provision that arrives on time. Statue and pendant, venerated as an ordinary amulet.</p>
+  
+  <p class="kmarket">36 listings in the living market · ฿11–฿474 typical · median ฿89</p>
+  <p class="kcorpus">named on 8 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=สีวลี">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article><article class="kind" data-f="natural pot" data-m="relic" id="k-chan-mak">
+  <h3 class="kth">ฉันหมาก</h3>
+  <p class="ktr">chan mak · the master's chewed betel</p>
+  <p class="kwhat">A quid of betel a revered monk himself chewed, dried and kept — a bodily relic in the most literal sense, priced accordingly in the living market. Power is the master's barami; keeping is plain respect.</p>
+  
+  <p class="kmarket">kept in the tradition; not seen in this market crawl</p>
+  <p class="kcorpus">named on 1 treatise page</p>
+  <p class="klinks"><a href="/browse?q=ฉันหมาก">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article></div>
+</section><section class="clsgrp" data-cls="yantra_wattu">
+  <header class="clshead">
+    <h2>วัตถุมงคล (ยันต์) <span class="clsro">wattu mongkhon · blessed/inscribed object</span></h2>
+    <p class="clsstrip">No resident · nobody home — nothing owed, adopt freely · history is a price question, not a safety one <span class="uchip">ไม่มีผู้อยู่ · ไม่ต้องเลี้ยง</span></p>
+  </header>
+  <div class="kgrid"><article class="kind" data-f="monk" data-m="relic phong" id="k-locket">
+  <h3 class="kth">ล็อกเก็ต</h3>
+  <p class="ktr">locket · a photograph locket</p>
+  <p class="kwhat">A monk's photograph sealed under glass or resin, often with powder, hair, or robe-cloth packed behind the image — a portable reliquary in costume jewellery's clothes.</p>
+  
+  <p class="kmarket">116 listings in the living market · ฿47–฿492 typical · median ฿149</p>
+  
+  <p class="klinks"><a href="/browse?q=ล็อกเก">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="tube" data-m="loha chin organic" id="k-takrut">
+  <h3 class="kth">ตะกรุด</h3>
+  <p class="ktr">takrut · an inscribed scroll-tube</p>
+  <p class="kwhat">A sheet of metal — or palm-leaf, or skin — inscribed with a yantra and rolled tight, worn on a cord at the waist or neck. Power lives in the inscription and the rite that closed it. The treatises this site keeps are full of what gets written inside.</p>
+  
+  <p class="kmarket">700 listings in the living market · ฿59–฿450 typical · median ฿159</p>
+  <p class="kcorpus">named on 199 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=ตะกรุด">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="cloth" data-m="relic" id="k-pha-yan">
+  <h3 class="kth">ผ้ายันต์</h3>
+  <p class="ktr">pha yan · an inscribed yantra cloth</p>
+  <p class="kwhat">A cloth square or banner drawn with grids, figures and script — hung over a door, folded into a pocket, or worn. The drawn designs have their own index here: /yant.</p>
+  
+  <p class="kmarket">382 listings in the living market · ฿19–฿235 typical · median ฿98</p>
+  <p class="kcorpus">named on 11 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=ผ้ายันต์">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="natural" data-m="organic" id="k-bia-kae">
+  <h3 class="kth">เบี้ยแก้</h3>
+  <p class="ktr">bia kae · the warding cowrie</p>
+  <p class="kwhat">A cowrie shell loaded with sealed mercury and bound in cord or foil — the classic 'undoer' that turns aside harm and bad medicine. The formulary in this corpus carries a making ascribed to Luang Pu Bun of Wat Klang Bang Kaew.</p>
+  
+  <p class="kmarket">274 listings in the living market · ฿39–฿494 typical · median ฿119</p>
+  <p class="kcorpus">named on 3 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=เบี้ยแก้">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article><article class="kind" data-f="blade" data-m="loha organic" id="k-mit-mo">
+  <h3 class="kth">มีดหมอ</h3>
+  <p class="ktr">mit mo · the ritual knife</p>
+  <p class="kwhat">A knife forged and inscribed as an instrument of the doctor-of-spirits — for cutting what binds, not what bleeds. Manuscript 6983 in this corpus records a ten-iron forge recipe from Wat Pradu Song Tham.</p>
+  
+  <p class="kmarket">167 listings in the living market · ฿76–฿1,150 typical · median ฿299</p>
+  <p class="kcorpus">named on 5 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=มีดหมอ">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article><article class="kind" data-f="animal" data-m="loha din" id="k-phaya-tao-ruean">
+  <h3 class="kth">พญาเต่าเรือน</h3>
+  <p class="ktr">phaya tao ruean · the turtle of steady wealth</p>
+  <p class="kwhat">The house-turtle amulet in the line of Luang Pu Liu — slow money that stays, long life, a household that holds. Blessed object, no resident.</p>
+  
+  <p class="kmarket">353 listings in the living market · ฿72–฿350 typical · median ฿135</p>
+  <p class="kcorpus">named on 8 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=เต่าเรือน">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article><article class="kind" data-f="animal" data-m="loha organic" id="k-salika">
+  <h3 class="kth">สาลิกา</h3>
+  <p class="ktr">salika · the golden-tongued myna</p>
+  <p class="kwhat">The paired myna birds of sweet speech — carried by sellers, suitors and anyone who must be believed. Usually a small couple of birds in metal or wood, or the yantra of them; the yant index here draws the design.</p>
+  
+  <p class="kmarket">125 listings in the living market · ฿39–฿490 typical · median ฿190</p>
+  <p class="kcorpus">named on 13 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=สาลิกา">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article></div>
+</section><section class="clsgrp" data-cls="khong_thammachat">
+  <header class="clshead">
+    <h2>เครื่องรางธรรมชาติ <span class="clsro">khrueang rang thammachat · natural talisman</span></h2>
+    <p class="clsstrip">No resident · nobody home — nothing owed, adopt freely · history is a price question, not a safety one <span class="uchip">ไม่มีผู้อยู่ · ไม่ต้องเลี้ยง</span></p>
+  </header>
+  <div class="kgrid"><article class="kind" data-f="natural pot" data-m="organic" id="k-waan">
+  <h3 class="kth">ว่าน</h3>
+  <p class="ktr">waan · the charged living tuber</p>
+  <p class="kwhat">A plant of power — a rhizome or tuber grown, dried, carved or potted, its virtue in the species and the keeping. The one kind on this page that can still be alive; some keepers water theirs.</p>
+  
+  <p class="kmarket">330 listings in the living market · ฿59–฿400 typical · median ฿149</p>
+  <p class="kcorpus">1 manuscript title · named on 219 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=ว่าน">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article><article class="kind" data-f="animal natural" data-m="organic" id="k-khiao-suea">
+  <h3 class="kth">เขี้ยวเสือ</h3>
+  <p class="ktr">khiao suea · the tiger fang</p>
+  <p class="kwhat">A fang — tiger classically — carved or capped in metal, its power in the animal's own authority. Natural talisman: nothing conferred, nothing to feed. Modern pieces are mostly carved substitutes, which the honest seller says.</p>
+  
+  <p class="kmarket">173 listings in the living market · ฿69–฿3,860 typical · median ฿300</p>
+  <p class="kcorpus">named on 48 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=เขี้ยวเสือ">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="natural" data-m="loha organic" id="k-lek-lai">
+  <h3 class="kth">เหล็กไหล</h3>
+  <p class="ktr">lek lai · the living metal</p>
+  <p class="kwhat">A dark lustrous metal the tradition holds to be alive — drawn from caves by rite, said to drink honey and turn aside blades. Power inherent in the thing itself; the category every faker loves, which is its own caution.</p>
+  
+  <p class="kmarket">32 listings in the living market · ฿62–฿264 typical · median ฿94</p>
+  <p class="kcorpus">named on 5 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=เหล็กไหล">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="natural" data-m="organic" id="k-kala-ta-diao">
+  <h3 class="kth">กะลาตาเดียว</h3>
+  <p class="ktr">kala ta diao · the one-eyed coconut</p>
+  <p class="kwhat">A coconut shell with a single eye where every normal shell has three — a natural anomaly, not a crafted thing, carved (often into Rahu) or kept whole. The rarity IS the charm.</p>
+  
+  <p class="kmarket">267 listings in the living market · ฿69–฿582 typical · median ฿199</p>
+  
+  <p class="klinks"><a href="/browse?q=กะลาตาเดียว">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="natural" data-m="organic" id="k-khot-kala">
+  <h3 class="kth">คดกะลา</h3>
+  <p class="ktr">khot kala · the coconut-shell concretion</p>
+  <p class="kwhat">A stone-hard concretion found grown inside a coconut — one of the คด family of impossible stones found in living things. Kept whole as found; power inherent, none to feed.</p>
+  
+  <p class="kmarket">10 listings in the living market · ฿95–฿199 typical · median ฿169</p>
+  
+  <p class="klinks"><a href="/browse?q=คดกะลา">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article></div>
+</section><section class="clsgrp" data-cls="thep_thewada">
+  <header class="clshead">
+    <h2>เทพ / เทวดา <span class="clsro">thep / thewada · deva-tier resident</span></h2>
+    <p class="clsstrip">A deva venerated through it · kept with respect: offerings and regard, not meals · worth asking who kept it <span class="uchip">ถวายความเคารพ</span></p>
+  </header>
+  <div class="kgrid"><article class="kind" data-f="deity" data-m="loha din" id="k-thao-wetsuwan">
+  <h3 class="kth">ท้าวเวสสุวรรณ</h3>
+  <p class="ktr">thao wetsuwan · the guardian-king</p>
+  <p class="kwhat">The northern guardian-king of the yaksha, club in hand — statue, pendant and gate-plaque. A deva venerated through the object: offerings and respect, not meals.</p>
+  
+  <p class="kmarket">468 listings in the living market · ฿27–฿360 typical · median ฿89</p>
+  <p class="kcorpus">named on 8 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=เวสสุวรรณ">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="deity animal" data-m="loha" id="k-phaya-khrut">
+  <h3 class="kth">พญาครุฑ</h3>
+  <p class="ktr">phaya khrut · the garuda</p>
+  <p class="kwhat">The king of birds, wings spread — authority, safe passage, and debt that dares not follow. Cast in metal from pendant to standard.</p>
+  
+  <p class="kmarket">165 listings in the living market · ฿29–฿299 typical · median ฿100</p>
+  <p class="kcorpus">named on 13 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=ครุฑ">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="deity natural" data-m="organic loha" id="k-phra-rahu">
+  <h3 class="kth">พระราหู</h3>
+  <p class="ktr">phra rahu · the eclipse-swallower</p>
+  <p class="kwhat">Rahu swallowing the moon, classically carved into a one-eyed coconut shell — the astrological remedy worn by those in a Rahu period. This site's almanac pages keep the sky half of the story.</p>
+  
+  <p class="kmarket">347 listings in the living market · ฿49–฿450 typical · median ฿139</p>
+  <p class="kcorpus">1 manuscript title · named on 20 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=ราหู">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="deity human" data-m="loha din organic" id="k-nang-kwak">
+  <h3 class="kth">นางกวัก</h3>
+  <p class="ktr">nang kwak · the beckoning lady</p>
+  <p class="kwhat">The shop-keeper's lady, hand raised in the customer-calling gesture — shelf statue and pendant both. Venerated with respect and small offerings; every market in the country works under her hand.</p>
+  
+  <p class="kmarket">420 listings in the living market · ฿73–฿1,444 typical · median ฿290</p>
+  <p class="kcorpus">named on 16 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=นางกวัก">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article></div>
+</section><section class="clsgrp" data-cls="hun_phayon">
+  <header class="clshead">
+    <h2>หุ่นพยนต์ <span class="clsro">hun phayon · animated effigy / servant-golem</span></h2>
+    <p class="clsstrip">An animation compelled to serve · kept with respect: offerings and regard, not meals · worth asking who kept it <span class="uchip">ถวายความเคารพ</span></p>
+  </header>
+  <div class="kgrid"><article class="kind" data-f="human cloth" data-m="organic relic" id="k-hun-phayon">
+  <h3 class="kth">หุ่นพยนต์</h3>
+  <p class="ktr">hun phayon · the animated effigy</p>
+  <p class="kwhat">A figure of cloth, wax, wood or metal, animated by yantra and spell to serve and guard — a compelled animation rather than a named ghost. Manuscript 6983 gives two makings, and this site keeps a working companion at /hun.</p>
+  
+  <p class="kmarket">345 listings in the living market · ฿89–฿669 typical · median ฿299</p>
+  <p class="kcorpus">named on 9 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=หุ่นพยนต์">in the corpus</a> · <a href="/market">the living market</a> · <a href="/hun">forge one at /hun</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article></div>
+</section><section class="clsgrp" data-cls="kuman">
+  <header class="clshead">
+    <h2>กุมารทอง <span class="clsro">kuman thong · raised child-spirit</span></h2>
+    <p class="clsstrip">A raised child-spirit lives in it · kept as family: fed, named, spoken to · ask its whole story before it comes home <span class="uchip">เลี้ยงดูอย่างคนในบ้าน</span></p>
+  </header>
+  <div class="kgrid"><article class="kind" data-f="human" data-m="loha din organic" id="k-kuman-thong">
+  <h3 class="kth">กุมารทอง</h3>
+  <p class="ktr">kuman thong · the raised child-spirit</p>
+  <p class="kwhat">A child figure that is not a depiction but a home: a bound child-spirit, raised as family — fed sweet red drink and rice, named, spoken to, asked for help. The corpus holds the historical making in full, framed as ethnography, at manuscript 6983.</p>
+  
+  <p class="kmarket">429 listings in the living market · ฿59–฿490 typical · median ฿159</p>
+  <p class="kcorpus">54 manuscript titles · named on 62 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=กุมารทอง">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article></div>
+</section><section class="clsgrp" data-cls="prai">
+  <header class="clshead">
+    <h2>พราย <span class="clsro">prai · necromantic ghost-object</span></h2>
+    <p class="clsstrip">A ghost of untimely death, bound by rite · a knower's keeping: fed, and closed properly when set down · ask its whole story before it comes home <span class="uchip">เลี้ยง และปิดให้ถูกเมื่อวางมือ</span></p>
+  </header>
+  <div class="kgrid"><article class="kind" data-f="human natural" data-m="organic" id="k-luk-krok">
+  <h3 class="kth">ลูกกรอก</h3>
+  <p class="ktr">luk krok · the preserved-foetus spirit</p>
+  <p class="kwhat">A small preserved or effigy foetus-form, kept in oil or cloth — kuman-adjacent in the raising, prai-adjacent in the origin. Of all the kinds on this page, the one whose history most deserves asking in full.</p>
+  <p class="fuzzy">✳ Raised like a kuman, made from untimely death like a prai — the vocabulary places it with prai as the more careful reading, and marks the line splittable by a knower.</p>
+  <p class="kmarket">8 listings in the living market · ฿47–฿269 typical · median ฿163</p>
+  <p class="kcorpus">named on 4 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=ลูกกรอก">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="pot" data-m="organic" id="k-nam-man-phrai">
+  <h3 class="kth">น้ำมันพราย</h3>
+  <p class="ktr">nam man phrai · prai oil</p>
+  <p class="kwhat">An oil rendered by rite from a ghost of violent or untimely death, sold in vials and worked mostly for compulsion in love and trade. The tier the tradition itself cautions hardest about: fed, and closed properly when set down.</p>
+  
+  <p class="kmarket">43 listings in the living market · ฿138–฿1,073 typical · median ฿249</p>
+  <p class="kcorpus">named on 3 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=น้ำมันพราย">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="human" data-m="organic loha" id="k-nang-phrai">
+  <h3 class="kth">นางพราย</h3>
+  <p class="ktr">nang phrai · the lady-ghost vessel</p>
+  <p class="kwhat">A female ghost of untimely death housed in a figure or locket — the classic แม่นางพราย of the caution-tales. Keeping is a knower's work in the vocabulary's plain words: feeding, and correct closing.</p>
+  
+  <p class="kmarket">5 listings in the living market · ฿129–฿4,100 typical · median ฿200</p>
+  <p class="kcorpus">named on 1 treatise page</p>
+  <p class="klinks"><a href="/browse?q=นางพราย">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article></div>
+</section><section class="clsgrp" data-cls="unplaced">
+  <header class="clshead">
+    <h2>ยังไม่ชี้ขาด <span class="clsro">the vocabulary leaves these to a knower</span></h2>
+    <p class="clsstrip">Real ambiguities, recorded rather than resolved: each of these kinds is genuinely filed two ways by the tradition itself. The uncertainty is the accurate answer. </p>
+  </header>
+  <div class="kgrid"><article class="kind" data-f="phallic" data-m="organic loha" id="k-palat-khik">
+  <h3 class="kth">ปลัดขิก</h3>
+  <p class="ktr">palat khik · the phallic charm</p>
+  <p class="kwhat">A carved or cast phallic rod, pocket-carried for luck, trade and protection — one of the oldest charm forms in the region, and one the tradition itself files two different ways.</p>
+  <p class="fuzzy">✳ The vault vocabulary deliberately does not assign this a class: an impersonal luck-and-commerce charm to some keepers, a guardian-spirit vessel to others. It needs a knower, and the page says so rather than deciding.</p>
+  <p class="kmarket">267 listings in the living market · ฿59–฿300 typical · median ฿99</p>
+  <p class="kcorpus">named on 5 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=ปลัดขิก">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Tradition · vault vocabulary</span></p>
+</article><article class="kind" data-f="pot" data-m="organic" id="k-si-phueng">
+  <h3 class="kth">สีผึ้ง</h3>
+  <p class="ktr">si phueng · charm wax</p>
+  <p class="kwhat">A wax or balm in a small tin, touched to lips or brow before speaking, selling, courting. The corpus's formulary holds attraction-wax recipes; what a given pot is depends on whose hands made it.</p>
+  <p class="fuzzy">✳ Class depends entirely on the making — some waxes are herbal and impersonal, some are prai-worked. The pot does not say; the maker's lineage does.</p>
+  <p class="kmarket">236 listings in the living market · ฿25–฿399 typical · median ฿149</p>
+  <p class="kcorpus">named on 38 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=สีผึ้ง">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article><article class="kind" data-f="human" data-m="din loha organic" id="k-rup-phra-ruesi">
+  <h3 class="kth">รูปพระฤๅษี</h3>
+  <p class="ktr">rup phra ruesi · the hermit-teacher figure</p>
+  <p class="kwhat">The tiger-skinned hermit sage — the tradition's own teacher-figure, honoured at every wai khru. A treatise in this corpus gives a moulding recipe: termite-mound earth and seven named leaves, shaped into the Great Lersi.</p>
+  <p class="fuzzy">✳ The class vocabulary does not yet carry the lersi as a member term; most keepers treat the figure as a teacher venerated on wai-khru days rather than a resident to feed. Carried here ahead of its vocabulary entry.</p>
+  <p class="kmarket">99 listings in the living market · ฿69–฿890 typical · median ฿129</p>
+  <p class="kcorpus">3 manuscript titles · named on 163 treatise pages</p>
+  <p class="klinks"><a href="/browse?q=ฤๅษี">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article><article class="kind" data-f="human" data-m="loha din" id="k-ai-khai">
+  <h3 class="kth">ไอ้ไข่</h3>
+  <p class="ktr">ai khai · the temple boy of Wat Chedi</p>
+  <p class="kwhat">The boy-spirit of Wat Chedi in Sichon, the biggest devotional wave since Jatukham — asked for lottery luck and repaid in firecrackers and toy soldiers. The amulet carries the devotion; the vow-keeping is the keeping.</p>
+  <p class="fuzzy">✳ The largest new devotion of the era and not yet in the class vocabulary. Kept mostly as a votive relationship — ask, promise, and deliver what you promised — rather than as a fed dependent; a knower may file it more precisely.</p>
+  <p class="kmarket">407 listings in the living market · ฿29–฿259 typical · median ฿78</p>
+  
+  <p class="klinks"><a href="/browse?q=ไอ้ไข่">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article><article class="kind" data-f="human" data-m="loha organic" id="k-chuchok">
+  <h3 class="kth">ชูชก</h3>
+  <p class="ktr">chuchok · the beggar who never left empty-handed</p>
+  <p class="kwhat">The jataka's tireless beggar, carried by sellers and askers on the logic that no one ever refused him. A statue-and-pendant devotion of the marketplace.</p>
+  <p class="fuzzy">✳ Not in the class vocabulary; kept by traders as an asking-figure — venerated, not fed — and filed here ahead of a knower's ruling.</p>
+  <p class="kmarket">8 listings in the living market · ฿44–฿5,995 typical · median ฿104</p>
+  <p class="kcorpus">56 manuscript titles</p>
+  <p class="klinks"><a href="/browse?q=ชูชก">in the corpus</a> · <a href="/market">the living market</a> <span class="ksrc">Inference · this page's curation</span></p>
+</article></div>
+</section>
+</div>
+
+<footer><div class="wrap">
+  Nothing here authenticates an object or names a price — this page tells you what a
+  thing of this kind <i>is</i>, and what the tradition says a keeper owes it.
+  · <a href="/nuea">เนื้อ by material</a>
+  · <a href="/need">หาตามความต้องการ by need</a>
+  · <a href="/yant">the yant designs</a>
+  · <a href="/browse">the whole corpus</a>
+</div></footer>
+
+<script>
+var DATA = {"materials": ["phong", "din", "chin", "loha", "organic", "relic", "unsure"], "figures": ["buddha", "monk", "deity", "human", "animal", "phallic", "tube", "cloth", "blade", "natural", "pot", "unsure"]};
+var state = {m: null, f: null};
+var picks = [].slice.call(document.querySelectorAll('.pick'));
+var kinds = [].slice.call(document.querySelectorAll('.kind'));
+var groups = [].slice.call(document.querySelectorAll('.clsgrp'));
+var verdict = document.getElementById('verdict');
+var reset = document.getElementById('reset');
+
+function apply(){
+  var shown = 0;
+  kinds.forEach(function(k){
+    var fs = k.getAttribute('data-f').split(' ');
+    var ms = k.getAttribute('data-m').split(' ');
+    var ok = (!state.f || fs.indexOf(state.f) >= 0) &&
+             (!state.m || ms.indexOf(state.m) >= 0);
+    k.classList.toggle('dim', !ok);
+    if (ok) shown++;
+  });
+  groups.forEach(function(g){
+    var any = [].slice.call(g.querySelectorAll('.kind')).some(function(k){
+      return !k.classList.contains('dim'); });
+    g.classList.toggle('dim', !any);
+  });
+  picks.forEach(function(b){
+    var on = state[b.getAttribute('data-kind')] === b.getAttribute('data-key');
+    b.setAttribute('aria-pressed', on ? 'true' : 'false');
+  });
+  var filtered = state.m || state.f;
+  verdict.innerHTML = filtered
+    ? (shown === 1 ? '<b>1</b> kind answers to that'
+                   : '<b>' + shown + '</b> kinds answer to that')
+      + ' — grouped by what each asks of a keeper.'
+    : 'Every kind is on the table — answer either question to narrow.';
+  reset.hidden = !filtered;
+  var h = [];
+  if (state.m) h.push('m=' + state.m);
+  if (state.f) h.push('f=' + state.f);
+  history.replaceState(null, '', location.pathname + (h.length ? '#' + h.join('&') : ''));
+}
+
+picks.forEach(function(b){
+  b.addEventListener('click', function(){
+    var kind = b.getAttribute('data-kind'), key = b.getAttribute('data-key');
+    if (key === 'unsure') key = null;
+    state[kind] = (state[kind] === key) ? null : key;
+    apply();
+    if (state.m || state.f)
+      document.getElementById('results').scrollIntoView({behavior: 'smooth', block: 'start'});
+  });
+});
+reset.addEventListener('click', function(){ state.m = state.f = null; apply();
+  window.scrollTo({top: 0, behavior: 'smooth'}); });
+
+(function fromHash(){
+  var m = location.hash.match(/m=([a-z_]+)/), f = location.hash.match(/f=([a-z_]+)/);
+  if (m && DATA.materials.indexOf(m[1]) >= 0) state.m = m[1];
+  if (f && DATA.figures.indexOf(f[1]) >= 0) state.f = f[1];
+  if (state.m || state.f) apply();
+})();
+</script>
+</body></html>

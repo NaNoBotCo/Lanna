@@ -250,6 +250,20 @@
         }
       }
     },
+    "/api/classes.json": {
+      "get": {
+        "summary": "The class vocabulary: what kind of made thing a charm IS (ตะกรุด, ผ้ายันต์, พระเครื่อง …),",
+        "description": "The class vocabulary: what kind of made thing a charm IS (ตะกรุด, ผ้ายันต์, พระเครื่อง …), with corpus counts (/need).",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/coverage.json": {
       "get": {
         "summary": "What has been looked for, where, by what method — so an absence can be read. Distinguishes",
@@ -310,6 +324,20 @@
       "get": {
         "summary": "Discoveries — machine-surfaced findings from the corpus.",
         "description": "Discoveries — machine-surfaced findings from the corpus.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/functions.json": {
+      "get": {
+        "summary": "The function vocabulary: emic terms for what a charm DOES, each with Thai, gloss and corpu",
+        "description": "The function vocabulary: emic terms for what a charm DOES, each with Thai, gloss and corpus counts. One of the three axes (/need).",
         "responses": {
           "200": {
             "description": "OK",
@@ -404,6 +432,20 @@
         }
       }
     },
+    "/api/holding.json": {
+      "get": {
+        "summary": "The /holding identification key: candidate amulet kinds with class (resident / upkeep / pr",
+        "description": "The /holding identification key: candidate amulet kinds with class (resident / upkeep / provenance-sensitivity, from the vault vocabulary), figure-and-material mapping, and live market counts and price spreads.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/hotrai.json": {
       "get": {
         "summary": "Hotrai data.",
@@ -488,10 +530,38 @@
         }
       }
     },
+    "/api/materials.json": {
+      "get": {
+        "summary": "The material axis (/nuea): เนื้อ — what a sacred object is made of, the first thing an exp",
+        "description": "The material axis (/nuea): เนื้อ — what a sacred object is made of, the first thing an expert names. Each material with its dating signal, counterfeit pressure and corpus counts.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/na-compendium.json": {
       "get": {
         "summary": "The 108 Na: sacred glyphs paired with the page each was drawn on.",
         "description": "The 108 Na: sacred glyphs paired with the page each was drawn on.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/needs.json": {
+      "get": {
+        "summary": "The need axis (/need): every purpose the tradition names for a charm — คงกระพัน, เมตตา, โช",
+        "description": "The need axis (/need): every purpose the tradition names for a charm — คงกระพัน, เมตตา, โชคลาภ — with the treatises that teach it and the market listings that carry it, counted side by side.",
         "responses": {
           "200": {
             "description": "OK",
@@ -600,6 +670,20 @@
         }
       }
     },
+    "/api/term-echo.json": {
+      "get": {
+        "summary": "Term echo: for a handful of emic terms, how often the treatises and the living market each",
+        "description": "Term echo: for a handful of emic terms, how often the treatises and the living market each use them — the same word counted across both corpora.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/api/thesaurus.json": {
       "get": {
         "summary": "Bilingual thesaurus: query-token expansion groups.",
@@ -632,6 +716,20 @@
       "get": {
         "summary": "Controlled vocabulary with corpus counts.",
         "description": "Controlled vocabulary with corpus counts.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/api/wander.json": {
+      "get": {
+        "summary": "The เดินเล่น pool: records the landing page's wander button draws from, date-seeded so eve",
+        "description": "The เดินเล่น pool: records the landing page's wander button draws from, date-seeded so everyone gets the same stroll.",
         "responses": {
           "200": {
             "description": "OK",
