@@ -112,6 +112,8 @@
   @keyframes pb{0%{box-shadow:0 0 0 0 #3fae5466}70%{box-shadow:0 0 0 9px #3fae5400}100%{box-shadow:0 0 0 0 #3fae5400}}
   .astrip .big{font-size:22px;font-weight:800;color:var(--teal)}
   .astrip .muted{margin-left:auto;font-size:13px}
+  .stalledband{background:#b3261e;color:#fff;border-radius:12px;padding:12px 18px;margin-bottom:16px;font-weight:600;line-height:1.45}
+  .stalledband small{display:block;font-weight:400;opacity:.92;margin-top:2px}
   .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-bottom:18px}
   .tile{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
   .tile b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
@@ -588,6 +590,27 @@ function render(d){
     el('span',{className:'muted'},[(enabledN?(enabledN+' bots scheduled · '):'')+'ledger: '+(d.ledger||'—')+' · refreshed '+new Date().toLocaleTimeString()])
   ]);
   m.append(strip);
+  // The stalled band. Computed in the READER's browser against the newest
+  // timestamp in the snapshot, deliberately: when publishing itself is what
+  // died (2026-08-23→26), this page keeps serving its last snapshot — a build-
+  // time banner would have frozen green along with everything else, while this
+  // one turns red simply because the data stopped moving under a clock that
+  // didn't. Same 24 h rule as watchdog.py, which mails the operator.
+  {
+    let newest=null;
+    const consider=t=>{const s=t?Date.parse(t):NaN; if(!isNaN(s)&&(newest==null||s>newest)) newest=s;};
+    // NOT d.now: build time is fresh whenever a publish ran, and the hourly
+    // refresher kept publishing right through the 8/23 stall — the crawl's own
+    // timestamps are the only ones that cannot lie about the crawl.
+    if(p) consider(p.updatedAt);
+    for(const e of events) consider(e.ts);
+    const quietH=newest==null?null:(Date.now()-newest)/3600000;
+    if(quietH!=null&&quietH>24){
+      m.append(el('div',{className:'stalledband'},[
+        'STALLED — the pipeline has recorded nothing for '+(quietH>48?Math.round(quietH/24)+' days':Math.round(quietH)+' hours')+'.',
+        el('small',{textContent:'Every count and event below is as of that last record. The machines usually publish many times a day; this page going quiet is itself the signal that something is wedged.'})]));
+    }
+  }
   if(runningNow===0 && enabledN>0){
     const nxt=sched.filter(j=>j.enabled&&j.nextDueSeconds!=null).sort((a,b)=>a.nextDueSeconds-b.nextDueSeconds)[0];
     m.append(el('div',{className:'idlebanner'},
