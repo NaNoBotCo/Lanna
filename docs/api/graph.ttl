@@ -475,6 +475,16 @@
     lw:related_to <https://wichaa.net/id/genre/tamnan_chronicle> ;
     lw:related_to <https://wichaa.net/id/entity/chang> .
 
+<https://wichaa.net/id/entity/jaeng>
+    a lw:Entity ;
+    rdfs:label "Jaeng (the four moat corners)" ;
+    lw:related_to <https://wichaa.net/id/entity/mangrai> ;
+    lw:related_to <https://wichaa.net/id/entity/suep_cata> ;
+    lw:related_to <https://wichaa.net/id/entity/su_khwan> ;
+    lw:related_to <https://wichaa.net/id/genre/tamnan_chronicle> ;
+    lw:related_to <https://wichaa.net/id/genre/astrology> ;
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> .
+
 <https://wichaa.net/id/subgenre/buddhist_canonical%3AAbhidhamma>
     a lw:Subgenre ;
     rdfs:label "Buddhist Canonical · พระไตรปิฎก › Abhidhamma" ;
