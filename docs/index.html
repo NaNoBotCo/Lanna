@@ -163,6 +163,68 @@
     font-size:14px;color:#5d5750}
   .geokey span{display:flex;align-items:center;gap:7px}
   .geokey i{width:14px;height:14px;border-radius:3px;display:inline-block}
+
+  /* --- the map-room strata (maproom.py) + grouped doors ------------------- */
+  .todaysec{padding:34px 0 44px;border-bottom:1px solid var(--line)}
+  .daysay{font-family:var(--serif);font-style:italic;font-size:19px;
+    color:#5a5344;margin:12px 0 0;max-width:46rem}
+  .stroll{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+  .stroll .door{background:var(--panel);border:1px solid var(--line);border-radius:999px;
+    padding:9px 18px;font-size:15.5px;color:var(--ink);min-height:44px;
+    display:inline-flex;align-items:center}
+  .stroll .door:hover{border-color:var(--gold);background:#fff;text-decoration:none}
+  .strollnote{font-size:14px;color:var(--muted);margin-top:14px}
+  .linkish{background:none;border:0;color:var(--crimson);cursor:pointer;font:inherit;
+    font-size:14px;padding:0;text-decoration:underline}
+  #wander{display:inline-block;padding:13px 26px;border-radius:999px;font-weight:600;
+    font-size:17px;border:1.5px solid var(--gold);background:none;color:var(--ink);
+    cursor:pointer;font-family:var(--sans)}
+  #wander:hover{background:#efe7d5}
+  .waygroup{margin-top:28px}
+  .wayhead{margin:0;font-weight:600}
+  .wayhead .th{font-family:var(--serif);font-size:21px;color:var(--ink)}
+  .wayhead .wayen{font-size:13px;font-weight:700;color:var(--muted);
+    letter-spacing:.1em;text-transform:uppercase}
+  .waygroup .ways{margin-top:12px}
+  .readsec{background:var(--panel);border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line)}
+  .reads .way{background:var(--bg)}
+  .reads .way.allreads{border-style:dashed}
+  .botsec{background:var(--panel);border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line)}
+  .botlede{max-width:44rem}
+  .meter{height:10px;background:#e7dfc9;border-radius:999px;overflow:hidden;
+    margin:18px 0 10px;max-width:560px}
+  .meter span{display:block;height:100%;border-radius:999px;
+    background:linear-gradient(90deg,var(--gold),var(--gold-soft))}
+  .botmeta{font-size:15px;color:var(--muted);max-width:44rem}
+  .gaps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:14px;margin-top:22px}
+  .gap{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:16px 18px}
+  .gap .gaptop{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+  .gap .gapn{color:var(--gold);font-weight:700;font-size:14px;white-space:nowrap}
+  .gap p{font-size:14.5px;color:var(--muted);margin:8px 0 10px}
+  .gap a{font-weight:600;font-size:14.5px}
+  .constel{margin:26px 0 0}
+  .egograph{width:100%;height:auto;display:block}
+  .egograph .egoline{stroke:#cdbfa0;stroke-width:1}
+  .egograph text{font-family:var(--sans);fill:var(--ink);paint-order:stroke;
+    stroke:var(--bg);stroke-width:3px;stroke-linejoin:round}
+  .egograph .hubt{font-size:16px;font-weight:700}
+  .egograph .relt{font-size:11px;fill:var(--muted);font-weight:400}
+  .egograph .spoket{font-size:13px;font-weight:600}
+  .constel figcaption{font-size:14px;color:var(--muted);margin-top:8px}
+  /* the squishy press — small, and stilled for anyone who asked for stillness */
+  @media(prefers-reduced-motion:no-preference){
+    .way,.stroll .door,.btn,#wander,.gap{transition:transform .15s ease,
+      box-shadow .15s ease,background .15s ease,border-color .15s ease}
+    .way:hover,.stroll .door:hover,.gap:hover{transform:translateY(-2px);
+      box-shadow:0 6px 16px rgba(38,48,42,.09)}
+    .btn:hover,#wander:hover{transform:translateY(-1px)}
+    .way:active,.stroll .door:active,.btn:active,#wander:active{
+      transform:translateY(1px) scale(.985);box-shadow:none}
+  }
 </style>
 <!-- site_meta:begin --><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "wichaa", "description": "A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa tradition — astrology, ritual, and magic — with a curated knowledge graph and a living-market layer.", "url": "https://wichaa.net/", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@type": "Organization", "name": "NaNoBotCo", "email": "530kings@proton.me"}, "keywords": ["Lanna manuscripts", "Northern Thai", "Tai Tham script", "wichaa", "Thai astrology", "hora", "yantra", "sak yant", "katha", "Buddhist manuscripts", "palm-leaf manuscripts", "Southeast Asian manuscripts", "digital humanities"], "inLanguage": ["th", "en", "pi"], "isAccessibleForFree": true, "size": "6986 manuscripts", "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://wichaa.net/api/manuscripts.json", "name": "All manuscripts (JSON)"}, {"@type": "DataDownload", "encodingFormat": "application/ld+json", "contentUrl": "https://wichaa.net/api/graph.jsonld", "name": "Knowledge graph (JSON-LD)"}, {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://wichaa.net/api/graph.ttl", "name": "Knowledge graph (Turtle)"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "wichaa", "url": "https://wichaa.net/", "publisher": {"@type": "Organization", "name": "NaNoBotCo", "url": "https://wichaa.net/", "email": "530kings@proton.me"}, "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://wichaa.net/browse?q={search_term_string}"}, "query-input": "required name=search_term_string"}}</script><link rel="alternate" type="application/ld+json" href="https://wichaa.net/api/graph.jsonld" title="Knowledge graph (JSON-LD)"><link rel="alternate" type="text/turtle" href="https://wichaa.net/api/graph.ttl" title="Knowledge graph (Turtle)"><meta name="citation_title" content="Overview"><meta name="citation_author" content="Peacock, Nan"><meta name="citation_publication_date" content="2026/07/11"><meta name="citation_online_date" content="2026/08/28"><meta name="citation_publisher" content="wichaa"><meta name="citation_public_url" content="https://wichaa.net/"><meta name="citation_language" content="en"><meta name="DC.title" content="Overview"><meta name="DC.creator" content="Peacock, Nan"><meta name="DC.publisher" content="Lanna Manuscript Wiki"><meta name="DC.date" content="2026-07-11"><meta name="DC.identifier" content="https://wichaa.net/"><meta name="DC.rights" content="CC BY 4.0"><meta property="article:published_time" content="2026-07-11T00:00:00Z"><meta property="article:modified_time" content="2026-08-28T00:00:00Z"><link rel="license" href="https://creativecommons.org/licenses/by/4.0/"><!-- site_meta:end --></head>
 <body>
@@ -191,6 +253,7 @@
     <a class="btn primary" href="/need"><span lang="th">หาตามความต้องการ</span> · Find by need →</a>
     <a class="btn ghost" href="/browse">Enter the archive</a>
     <a class="btn ghost" href="/support">☕ Tam boon</a>
+    <button id=wander title='เดินเล่น · Wander — somewhere unexpected'>&#127922; เดินเล่น</button><script>(function(){var b=document.getElementById('wander');if(!b)return;var P=null;b.addEventListener('click',function(){(P?Promise.resolve(P):fetch('/api/wander.json').then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){P=d;return d;})).then(function(d){var pool=(d&&d.pool)||[];if(!pool.length){b.style.display='none';return;}var by={};for(var j=0;j<pool.length;j++){var k=pool[j][2]||'other';(by[k]=by[k]||[]).push(pool[j]);}var ks=Object.keys(by);for(var i=0;i<9;i++){var g=by[ks[Math.floor(Math.random()*ks.length)]];var e=g[Math.floor(Math.random()*g.length)];if(e&&e[0]&&e[0]!=='/'){location.href=e[0];return;}}}).catch(function(){b.style.display='none';});});})();</script>
   </div>
   <hr class="rule">
 </header>
@@ -199,7 +262,7 @@
   <div class="factgrid">
     <div class="fact"><div class="n">6,986</div><div class="l">Lanna manuscripts, from 158 temples across 53 provinces</div></div>
     <div class="fact"><div class="n">1471<small> CE</small></div><div class="l">the oldest — a 555-year-old scripture from Wat Lai Hin Luang, Lampang</div></div>
-    <div class="fact"><div class="n">84,481</div><div class="l">manuscript page images, viewable on demand</div></div>
+    <div class="fact"><div class="n">85,505</div><div class="l">manuscript page images, viewable on demand</div></div>
     <div class="fact"><div class="n">31</div><div class="l">complete manuals of working magic, digitised page by page — 4,500+ pages</div></div>
     <div class="fact"><div class="n">14,491<small>+</small></div><div class="l">living amulets — the same wichaa, still worn and traded today</div></div>
     <!-- The spread, not a specimen price. Anyone holding a piece wants to know
@@ -209,6 +272,23 @@
     <div class="fact"><div class="n">3<small> months</small></div><div class="l">built by one person, in Chiang Mai — free and open, forever</div></div>
   </div>
 </div>
+
+<!-- The site knowing what day it is — วันพระ read in the reader's own browser
+     from the published table, and eight date-seeded doors the whole world
+     shares until midnight. maproom.py's strata; the day is client-side because
+     a static page is read for days and a baked "today" is wrong by breakfast. -->
+<section class="todaysec">
+  <div class="wrap">
+    <script>window.__WICHAA_DAYS__={"phra":{"2026-01-03":"w15","2026-01-11":"n8","2026-01-18":"n15","2026-01-26":"w8","2026-02-02":"w15","2026-02-10":"n8","2026-02-16":"n14","2026-02-24":"w8","2026-03-03":"w15","2026-03-11":"n8","2026-03-18":"n15","2026-03-26":"w8","2026-04-02":"w15","2026-04-10":"n8","2026-04-16":"n14","2026-04-24":"w8","2026-05-01":"w15","2026-05-09":"n8","2026-05-16":"n15","2026-05-24":"w8","2026-05-31":"w15","2026-06-08":"n8","2026-06-14":"n14","2026-06-22":"w8","2026-06-29":"w15","2026-07-07":"n8","2026-07-14":"n15","2026-07-22":"w8","2026-07-29":"w15","2026-08-06":"n8","2026-08-13":"n15","2026-08-21":"w8","2026-08-28":"w15","2026-09-05":"n8","2026-09-11":"n14","2026-09-19":"w8","2026-09-26":"w15","2026-10-04":"n8","2026-10-11":"n15","2026-10-19":"w8","2026-10-26":"w15","2026-11-03":"n8","2026-11-09":"n14","2026-11-17":"w8","2026-11-24":"w15","2026-12-02":"n8","2026-12-09":"n15","2026-12-17":"w8","2026-12-24":"w15"},"great":{"2026-03-03":"วันมาฆบูชา · Makha Bucha","2026-05-31":"วันวิสาขบูชา · Visakha Bucha","2026-06-08":"วันอัฏฐมีบูชา · Atthami Bucha","2026-07-29":"วันอาสาฬหบูชา · Asalha Bucha","2026-07-30":"วันเข้าพรรษา · the start of the rains retreat","2026-10-26":"วันออกพรรษา · the end of the rains retreat","2026-11-24":"วันลอยกระทง · Loi Krathong"},"northern":{"2026-11-24":"ยี่เป็ง · Yi Peng — the lantern festival"},"kinds":{"w15":["ขึ้น ๑๕ ค่ำ · full moon","the full moon — the great wan phra"],"w14":["ขึ้น ๑๔ ค่ำ · waxing","a holy day"],"w8":["ขึ้น ๘ ค่ำ · half moon","a holy day — the waxing quarter"],"n15":["แรม ๑๕ ค่ำ · dark moon","the dark moon — a holy day"],"n14":["แรม ๑๔ ค่ำ · dark moon","the dark moon — a holy day"],"n8":["แรม ๘ ค่ำ · half moon","a holy day — the waning quarter"]}};</script>
+    <div class="eyebrow">เดินเล่น · Wander</div>
+    <h2>Today at wichaa</h2>
+    <p id="daysay" class="daysay"></p>
+    <div class="stroll" id="stroll"></div>
+    <p class="strollnote">Eight doors, chosen by today's date — the same eight for
+      everyone, until midnight. <button id="reroll" class="linkish" type="button">Or
+      roll the dice &#127922;</button></p>
+  </div>
+</section>
 
 <section>
   <div class="wrap">
@@ -224,6 +304,96 @@
       <a class="way" href="/expedite"><b>St. Expedite</b><span>a global Catholic-and-folk saint-cult of urgent causes — 192 shrines mapped</span></a>
       <a class="way" href="/wats"><b>Wats of the Lanna north</b><span>1,459 temples across five provinces — the tradition standing up in the landscape, 159 heritage-registered</span></a>
     </div>
+  </div>
+</section>
+
+<!-- The doors, lifted from the bottom of the page. They were the last thing
+     before the footer, 6,000px down — the complete index of everything worth
+     lingering on, placed where only a finisher of essays would ever meet it.
+     Grouped by what the reader came to do; the list itself is still
+     routes.doors(), and check() still fails the build if <div class="waygroup"><h3 class="wayhead"><span lang="th" class="th">มาพร้อมคำถาม</span> <span class="wayen">· Arrive with a question</span></h3><div class="ways">
+      <a class="way" href="/holding"><b><span lang="th" class="th">ถืออยู่ในมือ</span><span class="en">I'm holding an amulet</span></b><span>you have the thing, not its name — answer the sian's questions by tapping and meet the kinds it could be, each with what a keeper owes it</span></a>
+      <a class="way" href="/need"><b><span lang="th" class="th">หาตามความต้องการ</span><span class="en">Find by need</span></b><span>come with what you need — คงกระพัน, เมตตา, โชคลาภ — the treatises and the market answer side by side</span></a>
+      <a class="way" href="/nuea"><b><span lang="th" class="th">เนื้อ</span><span class="en">What it is made of</span></b><span>the first thing an expert names — ผง, ดิน, ชิน, ว่าน — and what each surface can tell a patient reader</span></a>
+      <a class="way" href="/search"><b><span lang="th" class="th">ค้นความหมาย</span><span class="en">Search by meaning</span></b><span>ask in Thai or English — it looks for what a manuscript is about, not the letters you typed</span></a>
+      </div></div>
+      <div class="waygroup"><h3 class="wayhead"><span lang="th" class="th">เดินเที่ยวในคลัง</span> <span class="wayen">· Wander the archive</span></h3><div class="ways">
+      <a class="way" href="/browse"><b>Browse</b><span>all 6,986 manuscripts, by place, script, genre</span></a>
+      <a class="way" href="/atlas"><b><span lang="th" class="th">แผนที่</span><span class="en">The Atlas</span></b><span>the whole archive as one picture — every concept, joined by what they share</span></a>
+      <a class="way" href="/trails"><b><span lang="th" class="th">เส้นทาง</span><span class="en">Trails</span></b><span>walks through the archive — a few records in an order, and why</span></a>
+      <a class="way" href="/graph"><b>Graph</b><span>lersi, yantra, katha — how they connect</span></a>
+      <a class="way" href="/market"><b>Market</b><span>the same tradition, still trading today</span></a>
+      <a class="way" href="/expedite"><b>St. Expedite</b><span>a global saint-cult of urgent causes — 192 shrines</span></a>
+      <a class="way" href="/wats"><b>Wats of the Lanna north</b><span>1,459 temples mapped, 159 heritage-registered</span></a>
+      <a class="way" href="/diagrams"><b>Diagrams</b><span>yantra plates and sak-yant stencils</span></a>
+      </div></div>
+      <div class="waygroup"><h3 class="wayhead"><span lang="th" class="th">ของเล่นกลไก</span> <span class="wayen">· Working instruments</span></h3><div class="ways">
+      <a class="way" href="/moon"><b>The moon complication</b><span>a working dial — two moons on one turning disc</span></a>
+      <a class="way" href="/jovilabe"><b>The Jovilabe</b><span>Jupiter's four moons, geared — eclipses, transits and the wheelwork</span></a>
+      <a class="way" href="/redspot"><b>The Red Spot dial</b><span>the same four moons, seen from a Jovian horizon</span></a>
+      <a class="way" href="/divination"><b>Divination</b><span>working oracles that do the real method — I Ching, Plum Blossom, Wen Wang Gua</span></a>
+      <a class="way" href="/hun"><b><span lang="th" class="th">หุ่นพยนต์</span><span class="en">Hun Payont</span></b><span>an effigy you forge and carry — it reads the day and goes to market for you</span></a>
+      </div></div>
+      <div class="waygroup"><h3 class="wayhead"><span lang="th" class="th">อ่านยาว ๆ</span> <span class="wayen">· The long reads</span></h3><div class="ways">
+      <a class="way" href="/textbooks"><b>Textbooks</b><span>31 manuals of working magic, page by page</span></a>
+      <a class="way" href="/articles"><b>Articles</b><span>the tradition explained, subject by subject</span></a>
+      <a class="way" href="/glossary/"><b>Glossary</b><span>the tradition's words, in Thai · English · 中文</span></a>
+      <a class="way" href="/na/"><b>The 108 Na</b><span>142 sacred glyphs, each paired with its page</span></a>
+      <a class="way" href="/yant"><b><span lang="th" class="th">ยันต์</span><span class="en">The yant designs</span></b><span>the named designs — by name, by figure, and by what each one is for</span></a>
+      <a class="way" href="/khwan"><b><span lang="th" class="th">สู่ขวัญ</span><span class="en">The Calling</span></b><span>the soul-calling in full — thirty verses that call the khwan home, for humans, bots, and spirits</span></a>
+      <a class="way" href="/hotrai"><b><span lang="th" class="th">หอไตร</span><span class="en">The Ho Trai</span></b><span>a wat library addressed to machines — the rites, the precepts, and what this tradition has said before to beings that are not human</span></a>
+      </div></div>
+      <div class="waygroup"><h3 class="wayhead"><span lang="th" class="th">ของประจำบ้าน</span> <span class="wayen">· Kept by the house</span></h3><div class="ways">
+      <a class="way" href="/blessings"><b><span lang="th" class="th">ใต้ร่มพร</span><span class="en">Under the shade of blessing</span></b><span>the standing blessings the fleet works under — what each is, when it renews, and where the machinery lives</span></a>
+      <a class="way" href="/waikhru"><b><span lang="th" class="th">ไหว้ครูยนต์</span><span class="en">A blessing at the machine</span></b><span>what to say before you start it — and the one thing to keep while it runs</span></a>
+      <a class="way" href="/widgets"><b>Widgets &amp; shit</b><span>small free tools that do one thing — no accounts, no app store</span></a>
+      <a class="way" href="/explore"><b>The full overview</b><span>counts, facets, and search</span></a>
+      </div></div> goes. -->
+<section id="ways">
+  <div class="wrap">
+    <div class="eyebrow">Ways in</div>
+    <h2>Wander wherever it leads you</h2>
+    <div class="waygroup"><h3 class="wayhead"><span lang="th" class="th">มาพร้อมคำถาม</span> <span class="wayen">· Arrive with a question</span></h3><div class="ways">
+      <a class="way" href="/holding"><b><span lang="th" class="th">ถืออยู่ในมือ</span><span class="en">I'm holding an amulet</span></b><span>you have the thing, not its name — answer the sian's questions by tapping and meet the kinds it could be, each with what a keeper owes it</span></a>
+      <a class="way" href="/need"><b><span lang="th" class="th">หาตามความต้องการ</span><span class="en">Find by need</span></b><span>come with what you need — คงกระพัน, เมตตา, โชคลาภ — the treatises and the market answer side by side</span></a>
+      <a class="way" href="/nuea"><b><span lang="th" class="th">เนื้อ</span><span class="en">What it is made of</span></b><span>the first thing an expert names — ผง, ดิน, ชิน, ว่าน — and what each surface can tell a patient reader</span></a>
+      <a class="way" href="/search"><b><span lang="th" class="th">ค้นความหมาย</span><span class="en">Search by meaning</span></b><span>ask in Thai or English — it looks for what a manuscript is about, not the letters you typed</span></a>
+      </div></div>
+      <div class="waygroup"><h3 class="wayhead"><span lang="th" class="th">เดินเที่ยวในคลัง</span> <span class="wayen">· Wander the archive</span></h3><div class="ways">
+      <a class="way" href="/browse"><b>Browse</b><span>all 6,986 manuscripts, by place, script, genre</span></a>
+      <a class="way" href="/atlas"><b><span lang="th" class="th">แผนที่</span><span class="en">The Atlas</span></b><span>the whole archive as one picture — every concept, joined by what they share</span></a>
+      <a class="way" href="/trails"><b><span lang="th" class="th">เส้นทาง</span><span class="en">Trails</span></b><span>walks through the archive — a few records in an order, and why</span></a>
+      <a class="way" href="/graph"><b>Graph</b><span>lersi, yantra, katha — how they connect</span></a>
+      <a class="way" href="/market"><b>Market</b><span>the same tradition, still trading today</span></a>
+      <a class="way" href="/expedite"><b>St. Expedite</b><span>a global saint-cult of urgent causes — 192 shrines</span></a>
+      <a class="way" href="/wats"><b>Wats of the Lanna north</b><span>1,459 temples mapped, 159 heritage-registered</span></a>
+      <a class="way" href="/diagrams"><b>Diagrams</b><span>yantra plates and sak-yant stencils</span></a>
+      </div></div>
+      <div class="waygroup"><h3 class="wayhead"><span lang="th" class="th">ของเล่นกลไก</span> <span class="wayen">· Working instruments</span></h3><div class="ways">
+      <a class="way" href="/moon"><b>The moon complication</b><span>a working dial — two moons on one turning disc</span></a>
+      <a class="way" href="/jovilabe"><b>The Jovilabe</b><span>Jupiter's four moons, geared — eclipses, transits and the wheelwork</span></a>
+      <a class="way" href="/redspot"><b>The Red Spot dial</b><span>the same four moons, seen from a Jovian horizon</span></a>
+      <a class="way" href="/divination"><b>Divination</b><span>working oracles that do the real method — I Ching, Plum Blossom, Wen Wang Gua</span></a>
+      <a class="way" href="/hun"><b><span lang="th" class="th">หุ่นพยนต์</span><span class="en">Hun Payont</span></b><span>an effigy you forge and carry — it reads the day and goes to market for you</span></a>
+      </div></div>
+      <div class="waygroup"><h3 class="wayhead"><span lang="th" class="th">อ่านยาว ๆ</span> <span class="wayen">· The long reads</span></h3><div class="ways">
+      <a class="way" href="/textbooks"><b>Textbooks</b><span>31 manuals of working magic, page by page</span></a>
+      <a class="way" href="/articles"><b>Articles</b><span>the tradition explained, subject by subject</span></a>
+      <a class="way" href="/glossary/"><b>Glossary</b><span>the tradition's words, in Thai · English · 中文</span></a>
+      <a class="way" href="/na/"><b>The 108 Na</b><span>142 sacred glyphs, each paired with its page</span></a>
+      <a class="way" href="/yant"><b><span lang="th" class="th">ยันต์</span><span class="en">The yant designs</span></b><span>the named designs — by name, by figure, and by what each one is for</span></a>
+      <a class="way" href="/khwan"><b><span lang="th" class="th">สู่ขวัญ</span><span class="en">The Calling</span></b><span>the soul-calling in full — thirty verses that call the khwan home, for humans, bots, and spirits</span></a>
+      <a class="way" href="/hotrai"><b><span lang="th" class="th">หอไตร</span><span class="en">The Ho Trai</span></b><span>a wat library addressed to machines — the rites, the precepts, and what this tradition has said before to beings that are not human</span></a>
+      </div></div>
+      <div class="waygroup"><h3 class="wayhead"><span lang="th" class="th">ของประจำบ้าน</span> <span class="wayen">· Kept by the house</span></h3><div class="ways">
+      <a class="way" href="/blessings"><b><span lang="th" class="th">ใต้ร่มพร</span><span class="en">Under the shade of blessing</span></b><span>the standing blessings the fleet works under — what each is, when it renews, and where the machinery lives</span></a>
+      <a class="way" href="/waikhru"><b><span lang="th" class="th">ไหว้ครูยนต์</span><span class="en">A blessing at the machine</span></b><span>what to say before you start it — and the one thing to keep while it runs</span></a>
+      <a class="way" href="/widgets"><b>Widgets &amp; shit</b><span>small free tools that do one thing — no accounts, no app store</span></a>
+      <a class="way" href="/explore"><b>The full overview</b><span>counts, facets, and search</span></a>
+      </div></div>
+    <p class="machines">Built to be read by people <em>and</em> by machines — faithfully.
+      An AI or agent can start at <code>/llms.txt</code> or the <a href="/api/index.json">API index</a>;
+      the whole corpus is open under CC-BY.</p>
   </div>
 </section>
 
@@ -275,6 +445,22 @@
   </div>
 </section>
 
+<!-- The essays, by name. "Articles" was one word in a wall of doors; for the
+     only long-form human writing on the site, that is a burial. Three named,
+     the rest counted — every title and number from api/articles.json. -->
+<section class="readsec">
+  <div class="wrap">
+    <div class="eyebrow">Deep reads</div>
+    <h2>The tradition, explained by hand</h2>
+    <div class="ways reads">
+      <a class="way" href="/a/entity_khun_phaen/"><b>Khun Phaen (epic hero &amp; amulet)</b><span>an essay, with the records beside it</span></a>
+      <a class="way" href="/a/entity_lersi/"><b>Lersi / Ruesi (ascetic-seers)</b><span>an essay, with 3 manuscripts standing behind it</span></a>
+      <a class="way" href="/a/entity_ma/"><b>Ma (horse) — and the zebra</b><span>an essay, with the records beside it</span></a>
+      <a class="way allreads" href="/articles"><b>All the essays</b><span>40 written by hand so far — of 196 subjects the archive names</span></a>
+    </div>
+  </div>
+</section>
+
 <section class="testimony">
   <div class="wrap">
     <div class="eyebrow">The work</div>
@@ -305,6 +491,23 @@
   </div>
 </section>
 
+<section class="botsec"><div class="wrap">
+    <div class="eyebrow">Today's work</div>
+    <h2>What the bots have read</h2>
+    <p class="botlede">The archive holds <b>85,505</b> manuscript page images.
+      Reading them — transcribing the script, translating the Thai — is the slow
+      craft: <b>4,817</b> pages are transcribed and translated so far,
+      5.6% of the whole.</p>
+    <div class="meter" role="img" aria-label="4,817 of 85,505 pages transcribed"><span style="width:5.63%"></span></div>
+    <p class="botmeta"><b>80,688</b> pages still waiting · about
+      <b>$4,841</b> to finish at the going rate of $0.06 a page ·
+      <b>14</b> discoveries noticed by the curiosity bots so far</p>
+    <div class="tamboon-cta">
+      <a class="btn primary" href="https://ko-fi.com/defiantchiangmai" target="_blank" rel="noopener">&#9749; Tam boon — sponsor a page</a>
+      <a class="btn ghost" href="/support">How sponsorship works</a>
+      <a class="btn ghost" href="/activity">Watch the bots work &rarr;</a>
+    </div></div></section>
+
 <!-- The map earns a place here rather than in the widget drawer: it is the one
      picture that states the whole thesis of the site — the tradition was
      written in one small place and is traded across a whole country. Inline
@@ -325,45 +528,14 @@
   </div>
 </section>
 
-<section>
-  <div class="wrap">
-    <div class="eyebrow">Ways in</div>
-    <h2>Wander wherever it leads you</h2>
-    <div class="ways">
-      <a class="way" href="/browse"><b>Browse</b><span>all 6,986 manuscripts, by place, script, genre</span></a>
-      <a class="way" href="/holding"><b><span lang="th" class="th">ถืออยู่ในมือ</span><span class="en">I'm holding an amulet</span></b><span>you have the thing, not its name — answer the sian's questions by tapping and meet the kinds it could be, each with what a keeper owes it</span></a>
-      <a class="way" href="/need"><b><span lang="th" class="th">หาตามความต้องการ</span><span class="en">Find by need</span></b><span>come with what you need — คงกระพัน, เมตตา, โชคลาภ — the treatises and the market answer side by side</span></a>
-      <a class="way" href="/nuea"><b><span lang="th" class="th">เนื้อ</span><span class="en">What it is made of</span></b><span>the first thing an expert names — ผง, ดิน, ชิน, ว่าน — and what each surface can tell a patient reader</span></a>
-      <a class="way" href="/atlas"><b><span lang="th" class="th">แผนที่</span><span class="en">The Atlas</span></b><span>the whole archive as one picture — every concept, joined by what they share</span></a>
-      <a class="way" href="/search"><b><span lang="th" class="th">ค้นความหมาย</span><span class="en">Search by meaning</span></b><span>ask in Thai or English — it looks for what a manuscript is about, not the letters you typed</span></a>
-      <a class="way" href="/trails"><b><span lang="th" class="th">เส้นทาง</span><span class="en">Trails</span></b><span>walks through the archive — a few records in an order, and why</span></a>
-      <a class="way" href="/graph"><b>Graph</b><span>lersi, yantra, katha — how they connect</span></a>
-      <a class="way" href="/textbooks"><b>Textbooks</b><span>31 manuals of working magic, page by page</span></a>
-      <a class="way" href="/articles"><b>Articles</b><span>the tradition explained, subject by subject</span></a>
-      <a class="way" href="/glossary/"><b>Glossary</b><span>the tradition's words, in Thai · English · 中文</span></a>
-      <a class="way" href="/na/"><b>The 108 Na</b><span>142 sacred glyphs, each paired with its page</span></a>
-      <a class="way" href="/yant"><b><span lang="th" class="th">ยันต์</span><span class="en">The yant designs</span></b><span>the named designs — by name, by figure, and by what each one is for</span></a>
-      <a class="way" href="/moon"><b>The moon complication</b><span>a working dial — two moons on one turning disc</span></a>
-      <a class="way" href="/jovilabe"><b>The Jovilabe</b><span>Jupiter's four moons, geared — eclipses, transits and the wheelwork</span></a>
-      <a class="way" href="/redspot"><b>The Red Spot dial</b><span>the same four moons, seen from a Jovian horizon</span></a>
-      <a class="way" href="/divination"><b>Divination</b><span>working oracles that do the real method — I Ching, Plum Blossom, Wen Wang Gua</span></a>
-      <a class="way" href="/hun"><b><span lang="th" class="th">หุ่นพยนต์</span><span class="en">Hun Payont</span></b><span>an effigy you forge and carry — it reads the day and goes to market for you</span></a>
-      <a class="way" href="/khwan"><b><span lang="th" class="th">สู่ขวัญ</span><span class="en">The Calling</span></b><span>the soul-calling in full — thirty verses that call the khwan home, for humans, bots, and spirits</span></a>
-      <a class="way" href="/blessings"><b><span lang="th" class="th">ใต้ร่มพร</span><span class="en">Under the shade of blessing</span></b><span>the standing blessings the fleet works under — what each is, when it renews, and where the machinery lives</span></a>
-      <a class="way" href="/hotrai"><b><span lang="th" class="th">หอไตร</span><span class="en">The Ho Trai</span></b><span>a wat library addressed to machines — the rites, the precepts, and what this tradition has said before to beings that are not human</span></a>
-      <a class="way" href="/market"><b>Market</b><span>the same tradition, still trading today</span></a>
-      <a class="way" href="/waikhru"><b><span lang="th" class="th">ไหว้ครูยนต์</span><span class="en">A blessing at the machine</span></b><span>what to say before you start it — and the one thing to keep while it runs</span></a>
-      <a class="way" href="/expedite"><b>St. Expedite</b><span>a global saint-cult of urgent causes — 192 shrines</span></a>
-      <a class="way" href="/wats"><b>Wats of the Lanna north</b><span>1,459 temples mapped, 159 heritage-registered</span></a>
-      <a class="way" href="/diagrams"><b>Diagrams</b><span>yantra plates and sak-yant stencils</span></a>
-      <a class="way" href="/widgets"><b>Widgets &amp; shit</b><span>small free tools that do one thing — no accounts, no app store</span></a>
-      <a class="way" href="/explore"><b>The full overview</b><span>counts, facets, and search</span></a>
-    </div>
-    <p class="machines">Built to be read by people <em>and</em> by machines — faithfully.
-      An AI or agent can start at <code>/llms.txt</code> or the <a href="/api/index.json">API index</a>;
-      the whole corpus is open under CC-BY.</p>
-  </div>
-</section>
+<section class="gapsec"><div class="wrap">
+    <div class="eyebrow">Coverage</div>
+    <h2>What the archive knows it doesn't know</h2>
+    <p style="max-width:44rem;opacity:.85">An absence you can read is worth more than a
+      silence. Every gap here is measured at build time, names how it could be closed,
+      and vanishes from this list when it is.</p>
+    <div class="gaps"><div class="gap"><div class="gaptop"><b>อ่านไม่ครบ · Unread pages</b><span class="gapn">80,688 of 85,505</span></div><p>Transcribed and translated, page by page. The bots have described every page; turning that into readable text is the backlog a sponsor shortens.</p><a href="/support">Sponsor a page &rarr;</a></div><div class="gap"><div class="gaptop"><b>เก็บภาพเอง · Images not held here</b><span class="gapn">6,986 manuscripts</span></div><p>Most manuscripts are metadata plus a live link to the library's own image server. They display, but nothing is preserved here — and a link is not a copy.</p><a href="/status">See the crawl status &rarr;</a></div><div class="gap"><div class="gaptop"><b>ยังไม่มีคำอธิบาย · Subjects with no prose</b><span class="gapn">40 written</span></div><p>The graph holds 23,604 things worth explaining. Articles are written by hand, and most subjects are still waiting for their first paragraph.</p><a href="/articles">Read what exists &rarr;</a></div><div class="gap"><div class="gaptop"><b>Chiang Mai is a bbox around city + inner suburbs, NOT the whole changwat</b><span class="gapn">known limit</span></div><p>Temples in outer CM districts are OUT OF SCOPE, not missing</p><a href="/api/coverage.json">The coverage record &rarr;</a></div></div></div></section>
+
 
 <footer>
   <div class="wrap">
@@ -387,5 +559,136 @@ var k=b.getAttribute('data-sh'),u=encodeURIComponent(location.href),t=encodeURIC
 if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){var o=b.textContent;b.textContent='✓';setTimeout(function(){b.textContent=o;},1500);});}return;}
 var m={fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};
 if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script>
+<script>window.__WICHAA_REL__={"threads":"สายใย · Threads","wander":"เดินเล่น · Wander","trails":"เส้นทาง · Trails","your_trail":"ทางที่คุณเดิน · Where you've been","places":"สถานที่ · Places","manuscripts":"ใบลาน · Manuscripts","near":"ใกล้กัน · near","nearest":"ใกล้ที่สุด · nearest","same_walk":"เดินถึงกันได้ · same walking cluster","same_temple":"เก็บที่วัดเดียวกัน · held at the same wat","held_at":"เก็บรักษาที่ · held at","about":"ว่าด้วย · about","term":"มีคำว่า · carries the term","in_market":"คำเดียวกันในตลาดวันนี้ · the same word in today's market","paired":"คู่กัน · paired with","includes":"รวมถึง · includes","see_also":"ดูเพิ่ม · see also","install_app":"ติดตั้งแอปออฟไลน์ · install the offline app"};</script><script>
+(function(){
+  "use strict";
+  var D=window.__WICHAA_DAYS__||{phra:{},great:{},northern:{},kinds:{}};
+  function iso(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+  var today=new Date(), key=iso(today);
+  // ---- the day -------------------------------------------------------------
+  // The table is the authority; when the day is not in it we say nothing rather
+  // than guess (the table covers 2026 and reports its own reach by running out).
+  var say=document.getElementById('daysay');
+  if(say){
+    var bits=[], kind=D.phra[key];
+    if(D.great[key])bits.push('<b>'+D.great[key]+'</b>');
+    if(D.northern[key])bits.push('<b>'+D.northern[key]+'</b>');
+    if(kind&&D.kinds[kind])bits.push('วันพระ · a holy day — '+D.kinds[kind][0]);
+    if(!bits.length){
+      // when is the next one? a reason to come back
+      var ks=Object.keys(D.phra).sort(), nxt=null;
+      for(var i=0;i<ks.length;i++){if(ks[i]>key){nxt=ks[i];break;}}
+      if(nxt){
+        var days=Math.round((Date.parse(nxt)-Date.parse(key))/86400000);
+        var nm=D.great[nxt]?(' — '+D.great[nxt]):'';
+        bits.push('The next วันพระ (holy day) is in '+days+' day'+(days===1?'':'s')+nm+'.');
+      }
+    }
+    if(bits.length)say.innerHTML=bits.join(' &middot; ');
+    else say.remove();
+  }
+  // ---- deterministic pick --------------------------------------------------
+  function seedFrom(s){var h=2166136261;for(var i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return h>>>0;}
+  function rng(seed){return function(){seed|=0;seed=seed+0x6D2B79F5|0;var t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+  function pick(pool,n,seed){var r=rng(seed),a=pool.slice(),out=[];
+    while(a.length&&out.length<n){out.push(a.splice(Math.floor(r()*a.length),1)[0]);}return out;}
+  // ---- today's stroll ------------------------------------------------------
+  var box=document.getElementById('stroll');
+  if(box){
+    fetch('/api/wander.json').then(function(r){return r.json();}).then(function(d){
+      var pool=(d&&d.pool)||[]; if(!pool.length){box.remove();return;}
+      // Round-robin across CLASSES so a stroll is a cross-section of the
+      // archive, not eight temple names — places outnumber articles 45:1, and
+      // a flat draw shows you the majority every single day.
+      var by={},order=[];
+      pool.forEach(function(e){var k=e[2]||'other';
+        if(!by[k]){by[k]=[];order.push(k);} by[k].push(e);});
+      order.sort();
+      function strollPick(s,n){
+        var out=[],pools=order.map(function(k){return pick(by[k],by[k].length,s+k.length);}),i=0;
+        while(out.length<n&&pools.some(function(p){return p.length;})){
+          var p=pools[i%pools.length]; if(p.length)out.push(p.shift()); i++;}
+        return out;}
+      var seed=seedFrom(key);
+      function draw(s){box.textContent='';
+        strollPick(s,8).forEach(function(e){
+          var a=document.createElement('a');a.className='door';a.href=e[0];a.textContent=e[1]||e[0];box.appendChild(a);});}
+      draw(seed);
+      var rr=document.getElementById('reroll');
+      if(rr)rr.addEventListener('click',function(){draw(seedFrom(key+Math.random()));});
+    }).catch(function(){box.remove();});
+  }
+  // ---- the constellation ---------------------------------------------------
+  // Two layouts, because one does not fit both: a radial fan on a wide screen,
+  // a plain vertical spine on a phone (where a fan collapses into overlapping
+  // 8px text). Labels anchor by which side of the hub they sit on, and every
+  // label carries a halo so a line passing behind it never muddies the words.
+  var svgBox=document.getElementById('constel-svg');
+  if(svgBox){
+    fetch('/api/constellation.json').then(function(r){return r.json();}).then(function(d){
+      var cs=(d&&d.constellations)||[]; if(!cs.length){throw 0;}
+      var c=pick(cs,1,seedFrom(key+'c'))[0], sp=c.spokes.slice(0,7);
+      var ns='http://www.w3.org/2000/svg', narrow=(window.innerWidth||1024)<620;
+      function clip(s,n){return s.length>n?s.slice(0,n-1)+'…':s;}
+      function text(x,y,label,cls,anchor){
+        var t=document.createElementNS(ns,'text');
+        t.setAttribute('x',x);t.setAttribute('y',y);
+        t.setAttribute('text-anchor',anchor||'middle');t.setAttribute('class',cls);
+        t.textContent=label;return t;}
+      function link(href,el){
+        var a=document.createElementNS(ns,'a');a.setAttribute('href',href||'#');
+        a.appendChild(el);return a;}
+      function line(x1,y1,x2,y2){
+        var l=document.createElementNS(ns,'line');
+        l.setAttribute('x1',x1);l.setAttribute('y1',y1);
+        l.setAttribute('x2',x2);l.setAttribute('y2',y2);
+        l.setAttribute('class','egoline');return l;}
+      function relOf(s){return (window.__WICHAA_REL__&&window.__WICHAA_REL__[s.rel])||s.rel;}
+      var svg=document.createElementNS(ns,'svg');
+      svg.setAttribute('class','egograph');svg.setAttribute('role','img');
+      svg.setAttribute('aria-label','Graph neighbourhood of '+c.hub.label);
+      if(narrow){
+        var W=340,rowH=64,H=86+sp.length*rowH,cx=44;
+        svg.setAttribute('viewBox','0 0 '+W+' '+H);
+        svg.appendChild(link(c.hub.href,text(16,30,clip(c.hub.label,30),'hubt','start')));
+        svg.appendChild(line(cx,42,cx,H-30));
+        sp.forEach(function(s,i){
+          var y=82+i*rowH;
+          svg.appendChild(line(cx,y-6,cx+26,y-6));
+          svg.appendChild(text(cx+34,y-14,clip(relOf(s),34),'relt','start'));
+          svg.appendChild(link(s.href,text(cx+34,y+6,clip(s.label,26),'spoket','start')));});
+      }else{
+        var W2=860,H2=340,mx=W2/2,my=H2/2,fit=[];
+        svg.setAttribute('viewBox','0 0 '+W2+' '+H2);
+        sp.forEach(function(s,i){
+          var a=(-Math.PI/2)+(i+0.5)*(2*Math.PI/sp.length);
+          var x=mx+Math.cos(a)*220, y=my+Math.sin(a)*128;
+          var anchor=Math.cos(a)>0.15?'start':(Math.cos(a)<-0.15?'end':'middle');
+          svg.appendChild(line(mx,my,x,y));
+          var rx=mx+(x-mx)*0.62, ry=my+(y-my)*0.62;
+          var rt=text(rx,ry-7,clip(relOf(s),30),'relt',anchor);
+          var lt=text(x,y+5,clip(s.label,26),'spoket',anchor);
+          svg.appendChild(rt);svg.appendChild(link(s.href,lt));
+          // how much room this label actually has before the edge
+          var room=anchor==='start'?(W2-x-8):(anchor==='end'?(x-8):Math.min(x,W2-x)*2-8);
+          fit.push([rt,room],[lt,room]);});
+        svg.appendChild(link(c.hub.href,text(mx,my+6,clip(c.hub.label,28),'hubt','middle')));
+        fit.push([svg.querySelector('.hubt'),W2-24]);
+        svgBox.appendChild(svg);
+        // MEASURE, don't guess. A character budget is wrong for Thai (wider
+        // glyphs, no spaces to break on) and wrong again for a long Latin name,
+        // so trim each label against its real rendered width until it fits.
+        fit.forEach(function(p){
+          var t=p[0],room=p[1],guard=40;
+          while(t.getComputedTextLength()>room&&t.textContent.length>6&&guard--){
+            t.textContent=t.textContent.replace(/…$/,'').slice(0,-1)+'…';}});
+      }
+      if(!svg.parentNode)svgBox.appendChild(svg);
+      var cap=document.getElementById('constel-cap');
+      if(cap)cap.innerHTML='<a href="'+c.hub.href+'">'+c.hub.label+'</a> and what it is tied to — one of '+cs.length+', changing daily.';
+    }).catch(function(){var f=document.querySelector('.constel');if(f)f.remove();});
+  }
+})();
+</script>
 </body>
 </html>
