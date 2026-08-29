@@ -3,7 +3,7 @@
 // Tiles: cache-first with network fill — every tile you view is kept, so a
 // region browsed once stays available with no signal. Tiles are capped so the
 // cache cannot grow without bound on a phone.
-const SHELL = 'wats-shell-v1609740390';
+const SHELL = 'wats-shell-v6232382942';
 const TILES = 'wats-tiles-v1';
 const MAX_TILES = 1200;
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
