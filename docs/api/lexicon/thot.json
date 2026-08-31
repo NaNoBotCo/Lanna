@@ -1,7 +1,7 @@
 {
  "id": "w:thot",
  "th": "โทษ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "thot",
  "paiboon": "tôot",
  "ipa": "/tʰoːt̚˥˩/",
@@ -13,11 +13,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "badness",
+     "fault"
     ],
     "th": "ความไม่ดี, ความชั่ว",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -78,9 +80,16 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "บอก + ความผิด"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Badness narrowed to a fault committed.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -101,7 +110,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And the fault names what follows it: the penalty.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -122,7 +135,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "And any harmful effect.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -143,7 +160,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "To lay the fault on someone: to blame.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -155,6 +176,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 0 manuscript titles, 4 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -184,7 +206,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "สูงสุด + ความไม่ดี",
+   "frame": "quality"
   },
   {
    "th": "อภัยโทษ",
@@ -209,7 +235,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ความไม่มีภัย + ความไม่ดี",
+   "frame": "entity"
   },
   {
    "th": "ขอประทานโทษ",
@@ -234,7 +264,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ขอ + ความไม่ดี",
+   "frame": "entity"
   },
   {
    "th": "การคาดโทษ",
@@ -254,13 +288,17 @@
     "การคาด",
     "โทษ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ คาด + ความไม่ดี",
+   "frame": "entity"
   },
   {
    "th": "เอกโทษ",
@@ -285,7 +323,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "เอก"
+   ],
+   "lit": "one + badness",
+   "lit_th": "หนึ่ง + ความไม่ดี"
   },
   {
    "th": "ครุโทษ",
@@ -310,7 +354,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ภาชนะสานชนิดหนึ่ง รูปกลม ๆ เหมือนก + ความไม่ดี",
+   "frame": "entity"
   },
   {
    "th": "นักโทษ",
@@ -337,7 +385,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ใช้ประกอบหน้าคำอื่นหมายความว่า ผู้ + ความไม่ดี",
+   "frame": "entity"
   },
   {
    "th": "การโทษ",
@@ -357,13 +409,17 @@
     "การ",
     "โทษ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ความไม่ดี",
+   "frame": "entity"
   },
   {
    "th": "โทโทษ",
@@ -388,7 +444,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "โท"
+   ],
+   "lit": "two + badness",
+   "lit_th": "สอง + ความไม่ดี"
   },
   {
    "th": "การกล่าวโทษ",
@@ -408,13 +470,17 @@
     "การกล่าว",
     "โทษ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กล่าว + ความไม่ดี",
+   "frame": "entity"
   },
   {
    "th": "แก้โทษ",
@@ -439,7 +505,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แก้"
+   ],
+   "lit": "cowrie shell used to burnish cloth + badness",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ความไม่ดี",
+   "frame": "entity"
   },
   {
    "th": "ลหุโทษ",
@@ -464,7 +538,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "เบา + ความไม่ดี",
+   "frame": "quality"
   },
   {
    "th": "คาดโทษ",
@@ -489,7 +567,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "gird + badness",
+   "lit_th": "พันโดยรอบแล้วทำอย่างใดอย่างหนึ่งเช + ความไม่ดี"
   },
   {
    "th": "ขอโทษ",
@@ -515,7 +597,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ขอ"
+   ],
+   "lit": "ask + badness",
+   "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + ความไม่ดี",
+   "frame": "entity"
   },
   {
    "th": "การลงโทษ",
@@ -538,13 +628,21 @@
     "การลง",
     "โทษ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "การลง"
+   ],
+   "lit": "nominalisation of ลง + badness",
+   "lit_th": "คำอาการนามของ ลง + ความไม่ดี",
+   "frame": "entity"
   },
   {
    "th": "ลงโทษ",
@@ -572,7 +670,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ลง"
+   ],
+   "lit": "drop + badness",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ความไม่ดี"
   }
  ],
  "etymology": {

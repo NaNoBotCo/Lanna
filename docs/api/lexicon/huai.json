@@ -1,7 +1,7 @@
 {
  "id": "w:huai",
  "th": "ห้วย",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "huai",
  "paiboon": "hûai",
  "ipa": "/hua̯j˥˩/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "stream pool",
+     "mountain stream"
     ],
     "th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขามาขังอยู่ตลอดปี หรือแห้งบ้างเป็นบางคราว",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -57,7 +59,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The pool widened to the stream that feeds it.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -127,7 +133,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทราย"
+     ],
+     "lit": "huai as an element in place names + sand",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+     "frame": "entity"
     },
     {
      "th": "ห้วยบง",
@@ -153,7 +167,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไผ่ชนิด Bambusa natans Wall. e",
+     "frame": "entity"
     },
     {
      "th": "ฟากห้วย",
@@ -179,7 +197,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ลำไม้ไผ่เป็นต้นที่ผ่าแล้วสับให้แตก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ห้วยแก",
@@ -205,7 +227,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แก"
+     ],
+     "lit": "huai as an element in place names + house crow",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อนกชนิด Corvus splendens ในวงศ์",
+     "frame": "entity"
     },
     {
      "th": "ห้วยชมภู",
@@ -231,7 +261,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภอสารภี จังหวัดเ"
     },
     {
      "th": "ห้วยโพธิ์",
@@ -257,7 +290,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "huai as an element in place names + enlightenment",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ความตรัสรู้",
+     "frame": "entity"
     },
     {
      "th": "ห้วยโป่ง",
@@ -283,7 +324,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "huai as an element in place names + swollen",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส",
+     "frame": "entity"
     },
     {
      "th": "ห้วยผึ้ง",
@@ -309,7 +358,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "huai as an element in place names + bee",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อแมลงหลายชนิดในวงศ์ Apidae มีปี",
+     "frame": "entity"
     },
     {
      "th": "ห้วยสัก",
@@ -335,7 +389,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สัก"
+     ],
+     "lit": "huai as an element in place names + teak",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Tectona grandis L.f",
+     "frame": "entity"
     },
     {
      "th": "ห้วยเม็ก",
@@ -361,7 +423,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Syzygium gratum",
+     "frame": "entity"
     },
     {
      "th": "ห้วยยอด",
@@ -387,7 +453,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนสูงสุด",
+     "frame": "entity"
     },
     {
      "th": "ห้วยน้ำขาว",
@@ -413,7 +483,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + น้ำเมาชนิดหนึ่งทำด้วยข้าวเหนียวนึ่",
+     "frame": "entity"
     },
     {
      "th": "ห้วยแก้ว",
@@ -439,7 +513,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แก้ว"
+     ],
+     "lit": "huai as an element in place names + glass",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "frame": "entity"
     },
     {
      "th": "ห้วยเตย",
@@ -465,7 +547,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มหรือไม้ต้นหลายชนิดในสกุ",
+     "frame": "entity"
     },
     {
      "th": "ห้วยคต",
@@ -491,7 +577,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ถึงแล้ว"
     },
     {
      "th": "ห้วยซ้อ",
@@ -517,7 +606,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Gmelina arborea",
+     "frame": "entity"
     },
     {
      "th": "ห้วยแคน",
@@ -543,7 +636,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องเป่าชนิดหนึ่ง เสียงคล้ายออร",
+     "frame": "entity"
     },
     {
      "th": "ห้วยกะปิ",
@@ -569,7 +666,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ของเค็มทำด้วยเคยกับเกลือโขลกและหมั",
+     "frame": "entity"
     },
     {
      "th": "ห้วยราช",
@@ -595,7 +696,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ราช"
+     ],
+     "lit": "huai as an element in place names + king",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พระเจ้าแผ่นดิน",
+     "frame": "entity"
     },
     {
      "th": "ห้วยไผ่",
@@ -621,7 +730,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไผ่"
+     ],
+     "lit": "huai as an element in place names + bamboo",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "ห้วยยาง",
@@ -647,7 +764,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยาง"
+     ],
+     "lit": "huai as an element in place names + rubber",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
     },
     {
      "th": "ห้วยเขย่ง",
@@ -673,7 +798,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ยืนด้วยปลายเท้า"
     },
     {
      "th": "ห้วยยั้ง",
@@ -699,7 +827,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หยุด"
     },
     {
      "th": "ห้วยยูง",
@@ -725,7 +856,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
     },
     {
      "th": "ห้วยผา",
@@ -751,7 +885,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หินที่เขา",
+     "frame": "entity"
     },
     {
      "th": "ห้วยม่วง",
@@ -777,7 +915,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ม่วง"
+     ],
+     "lit": "huai as an element in place names + purple",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สีน้ำเงินปนแดง",
+     "frame": "quality"
     },
     {
      "th": "ห้วยแถลง",
@@ -803,7 +949,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บอก เล่า หรือแจ้งให้ทราบเป็นทางการ"
     },
     {
      "th": "ห้วยใหญ่",
@@ -829,7 +978,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "huai as an element in place names + huge",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + โต",
+     "frame": "quality"
     },
     {
      "th": "ห้วยกระเจา",
@@ -855,7 +1012,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกหลายชนิดในสกุล Corcho",
+     "frame": "entity"
     },
     {
      "th": "ห้วยขวาง",
@@ -881,7 +1042,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ขวาง"
+     ],
+     "lit": "huai as an element in place names + across",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กีดกั้น"
     }
    ],
    "extends": 1,

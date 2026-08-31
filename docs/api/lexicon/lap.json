@@ -1,7 +1,7 @@
 {
  "id": "w:lap",
  "th": "ลับ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "lap",
  "paiboon": "láp",
  "ipa": "/lap̚˦˥/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "to whet",
+     "to sharpen"
     ],
     "th": "ถูให้คม",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -29,7 +31,10 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ลับ 'to whet'.",
+    "Declared root: ลับ 'to whet'.",
+    "Declared root: ลับ 'to whet'."
    ]
   },
   {
@@ -51,6 +56,11 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ลับ 'out of sight' — separate.",
+    "Declared root: ลับ 'out of sight' — separate.",
+    "Declared root: ลับ 'out of sight' — separate."
    ]
   },
   {
@@ -72,7 +82,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Out of sight becomes meant to be kept out of sight: secret.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -93,7 +107,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "With something standing in the way of seeing it.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -105,6 +123,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 3 manuscript titles, 148 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -130,13 +149,17 @@
     "ความลึก",
     "ลับ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "depth + to whet",
+   "lit_th": "คำอาการนามของ ลึก + ถูให้คม"
   },
   {
    "th": "การลับ",
@@ -156,13 +179,16 @@
     "การ",
     "ลับ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ถูให้คม"
   },
   {
    "th": "การกลับ",
@@ -182,13 +208,19 @@
     "การก",
     "ลับ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กลับ"
+   ],
+   "lit_th": "ผู้กระทำ + ถูให้คม"
   },
   {
    "th": "เร้นลับ",
@@ -213,7 +245,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "หลบให้ลับตาคน + ถูให้คม"
   },
   {
    "th": "ล่วงลับ",
@@ -238,7 +273,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "ผ่านจากจุดหนึ่งไปยังอีกจุดหนึ่ง + ถูให้คม"
   },
   {
    "th": "ลาลับ",
@@ -263,7 +301,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "ass + to whet",
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus + ถูให้คม"
   },
   {
    "th": "ลึกลับ",
@@ -289,7 +331,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit": "deep + to whet",
+   "lit_th": "ต่ำลงไปจากขอบมากกว่าปรกติ + ถูให้คม",
+   "frame": "quality"
   },
   {
    "th": "ลับตา",
@@ -314,7 +361,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตา"
+   ],
+   "lit": "to whet + eye",
+   "lit_th": "ถูให้คม + พ่อของแม่"
   },
   {
    "th": "การล่วงลับ",
@@ -334,13 +388,16 @@
     "การล่วง",
     "ลับ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ล่วง + ถูให้คม"
   },
   {
    "th": "ลับล่อ",
@@ -360,13 +417,16 @@
     "ลับ",
     "ล่อ"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ถูให้คม + สัตว์พันทางที่เกิดจากการผสมระหว่าง"
   },
   {
    "th": "สายลับ",
@@ -392,7 +452,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "สาย"
+   ],
+   "lit": "late + to whet",
+   "lit_th": "เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0 + ถูให้คม"
   },
   {
    "th": "ของลับ",
@@ -417,7 +484,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ของ"
+   ],
+   "lit": "by + to whet",
+   "lit_th": "สิ่งต่าง ๆ + ถูให้คม"
   },
   {
    "th": "ลับหลัง",
@@ -442,7 +516,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "หลัง"
+   ],
+   "lit": "to whet + back",
+   "lit_th": "ถูให้คม + ซีกของกายที่ตรงข้ามกับหน้าอก"
   },
   {
    "th": "ลับแล",
@@ -462,13 +543,16 @@
     "ลับ",
     "แล"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "ถูให้คม + ดู"
   },
   {
    "th": "พระลับ",
@@ -488,13 +572,20 @@
     "พระ",
     "ลับ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "พระ"
+   ],
+   "lit": "the honorific prefix phra + to whet",
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ถูให้คม"
   },
   {
    "th": "ความลับ",
@@ -515,13 +606,17 @@
     "ความ",
     "ลับ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "-ness + to whet",
+   "lit_th": "เรื่อง + ถูให้คม"
   },
   {
    "th": "กระลับ",
@@ -545,7 +640,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1
   }
  ],
  "etymology": {

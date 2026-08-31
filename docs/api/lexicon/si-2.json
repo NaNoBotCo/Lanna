@@ -1,7 +1,7 @@
 {
  "id": "w:si-2",
  "th": "ศรี",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "si",
  "paiboon": "sǐi",
  "ipa": "/siː˩˩˦/",
@@ -12,11 +12,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "splendour",
+     "auspiciousness",
+     "glory"
     ],
     "th": "มิ่ง, สิริมงคล, ความรุ่งเรือง, ความสว่างสุกใส, ความงาม, ความเจริญ",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -57,7 +60,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The splendour placed before a name to honour it.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -81,7 +88,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The betel leaf as the auspicious thing — Skt. śrī applied to what is offered.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -105,7 +116,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "พระศรี, betel and areca in royal language.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -129,7 +144,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Splendour and beauty personified: a woman.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -153,7 +172,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 5,
+   "via": "generalisation",
+   "via_note": "And used of persons generally.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -223,7 +246,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ยศหรือบรรดาศักดิ์อย่างสูงของเจ้านา",
+     "frame": "entity"
     },
     {
      "th": "ศรีธาตุ",
@@ -249,7 +276,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "si as an element in place names + element",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่ถือว่าเป็นส่วนสำคัญที่คุมกั",
+     "frame": "entity"
     },
     {
      "th": "ศรีสุขสำราญ",
@@ -275,7 +307,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่ออำเภอหนึ่งในจังหวัดระนอง"
     },
     {
      "th": "ศรีถ้อย",
@@ -301,7 +336,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำพูด",
+     "frame": "entity"
     },
     {
      "th": "ศรีภิรมย์",
@@ -327,7 +366,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + รื่นเริงยิ่ง"
     },
     {
      "th": "ศรีสุนทร",
@@ -353,7 +395,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + งาม",
+     "frame": "quality"
     },
     {
      "th": "ศรีเมืองชุม",
@@ -379,7 +425,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภอเวียงชัย จังหว"
     },
     {
      "th": "ศรีเทพ",
@@ -405,7 +454,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เทพ"
+     ],
+     "lit": "si as an element in place names + god",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เทวดา",
+     "frame": "entity"
     },
     {
      "th": "ศรีมงคล",
@@ -431,7 +488,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เหตุที่นำมาซึ่งความเจริญ",
+     "frame": "entity"
     },
     {
      "th": "หนองกุงศรี",
@@ -457,7 +518,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาฬสินธุ์ + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "ศรีรัตนะ",
@@ -483,7 +547,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แก้วที่ถือว่ามีค่ายิ่ง",
+     "frame": "entity"
     },
     {
      "th": "ศรีสวัสดิ์",
@@ -509,7 +577,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + รูปแบบอื่นของ สวัสดี",
+     "frame": "entity"
     },
     {
      "th": "ศรีเชียงใหม่",
@@ -535,7 +607,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit": "si as an element in place names + Chiang Mai"
     },
     {
      "th": "ศรีสำโรง",
@@ -561,7 +636,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Sterculia foetida L",
+     "frame": "entity"
     },
     {
      "th": "ศรีเมืองใหม่",
@@ -587,7 +666,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภอราชสาส์น จังหว"
     },
     {
      "th": "ศรีนครินทร์",
@@ -613,7 +695,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เจ้าเมือง",
+     "frame": "entity"
     },
     {
      "th": "ศรีบรรพต",
@@ -639,7 +725,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภูเขา",
+     "frame": "entity"
     },
     {
      "th": "ศรีภูมิ",
@@ -665,7 +755,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ภูมิ"
+     ],
+     "lit": "si as an element in place names + land",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แผ่นดิน",
+     "frame": "entity"
     },
     {
      "th": "ศรีบุญเรือง",
@@ -691,7 +789,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภอเชียงของ จังหว"
     },
     {
      "th": "ศรีราชา",
@@ -717,7 +818,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "si as an element in place names + king",
+     "frame": "entity"
     },
     {
      "th": "ศรีสุข",
@@ -743,7 +848,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สุข"
+     ],
+     "lit": "si as an element in place names + happiness",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ความสบายกายสบายใจ",
+     "frame": "entity"
     },
     {
      "th": "ศรีณรงค์",
@@ -769,7 +882,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + การรบ",
+     "frame": "entity"
     },
     {
      "th": "ศรีสงคราม",
@@ -795,7 +912,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "si as an element in place names + war",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + การรบใหญ่ที่มีคนจำนวนมากต่อสู้ฆ่าฟ",
+     "frame": "entity"
     },
     {
      "th": "ศรีค้ำ",
@@ -821,7 +943,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "si as an element in place names + bear",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เอาไม้ง่ามเป็นต้นยันไว้เพื่อไม่ให้"
     },
     {
      "th": "ศรีนคร",
@@ -847,7 +973,16 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นคร"
+     ],
+     "lit": "si as an element in place names + city",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เมืองใหญ่",
+     "flips_with": "นครศรี",
+     "frame": "entity"
     },
     {
      "th": "ศรีคีรีมาศ",
@@ -873,7 +1008,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่ออำเภอหนึ่งในจังหวัดสุโขทัย"
     },
     {
      "th": "ศรีพราน",
@@ -899,7 +1037,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -946,7 +1087,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "อำนาจ + มิ่ง",
+   "frame": "entity"
   },
   {
    "th": "สุพรรณศรี",
@@ -971,7 +1116,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ทอง + มิ่ง",
+   "frame": "entity"
   },
   {
    "th": "ศรีลังกา",
@@ -992,12 +1141,16 @@
     "ศรี",
     "ลังกา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+PROP",
+   "head": 0,
+   "lit_th": "มิ่ง + ชื่อเกาะอันเป็นที่ตั้งของประเทศศรี",
+   "use": "false-split"
   },
   {
    "th": "บายศรี",
@@ -1022,7 +1175,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ข้าว + มิ่ง",
+   "frame": "entity"
   },
   {
    "th": "ไกรศรี",
@@ -1047,7 +1204,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ในสกุล Ficus วงศ + มิ่ง",
+   "frame": "entity"
   },
   {
    "th": "ราศรี",
@@ -1072,7 +1233,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "รา"
+   ],
+   "lit": "joist + splendour",
+   "lit_th": "ไม้ที่กระหนาบอยู่ใต้ท้องพรึงรับพื้ + มิ่ง",
+   "frame": "entity"
   },
   {
    "th": "นครศรี",
@@ -1097,7 +1266,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "นคร"
+   ],
+   "lit": "city + splendour",
+   "lit_th": "เมืองใหญ่ + มิ่ง",
+   "flips_with": "ศรีนคร",
+   "frame": "entity"
   }
  ],
  "etymology": {

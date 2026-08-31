@@ -1,7 +1,7 @@
 {
  "id": "w:tham-2",
  "th": "ทำ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "tham",
  "paiboon": "tam",
  "ipa": "/tʰam˧/",
@@ -12,11 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "do",
-     "commit"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "กระทำ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -62,7 +61,9 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 1
     }
    ]
   },
@@ -70,11 +71,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "do",
-     "commit"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ประกอบขึ้น, ผลิตขึ้น, สร้างขึ้น, ก่อขึ้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -90,17 +90,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Doing that brings a thing into being: to make, build.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "do",
-     "commit"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ประกอบการงาน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -116,17 +119,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Doing as occupation: to work at.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "do",
-     "commit"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ดำเนินการ, ปฏิบัติงาน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -171,19 +177,29 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "งาน"
+     ],
+     "lit": "do + job",
+     "lit_th": "ดำเนินการ + สิ่งหรือกิจกรรมที่ทำ"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "Carrying an undertaking forward: to conduct.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "do",
-     "commit"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "แต่งให้งาม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -199,17 +215,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Making a thing beautiful: to dress, to do up.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "do",
-     "commit"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "คิดและปฏิบัติไปตามกฎเกณฑ์ที่กำหนดไว้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -225,17 +244,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Doing by a set rule.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "do",
-     "commit"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ประกอบพิธีกรรมเกี่ยวกับการนั้น ๆ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -251,17 +273,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "And the rule being a rite: to perform it.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
    "gloss": {
     "en": [
-     "do",
-     "commit"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "แสดง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -303,19 +328,29 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "เป็น"
+     ],
+     "lit": "do + are",
+     "lit_th": "แสดง + คำกริยาสำหรับแสดงความสัมพันธ์ระหว่"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Putting on a manner: to act, to feign.",
+   "via_conf": "probable"
   },
   {
    "n": 9,
    "gloss": {
     "en": [
-     "do",
-     "commit"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "ศึกษาในระดับปริญญา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -331,7 +366,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "ทำปริญญา — to read for a degree.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -345,6 +384,8 @@
   "Attested in this corpus: 43 manuscript titles, 290 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['สร้าง', 'ทำ'].",
@@ -372,7 +413,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "ตี + กระทำ"
   },
   {
    "th": "ทำนอง",
@@ -398,7 +442,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กระทำ + ค้าง เจิ่ง หรือขังอยู่บนพื้น ใช้แก"
   },
   {
    "th": "ทำนบ",
@@ -423,7 +470,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กระทำ + ไหว้"
   },
   {
    "th": "ทำครัว",
@@ -448,7 +498,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "do + kitchen",
+   "lit_th": "กระทำ + โรง เรือน หรือห้องสำหรับทำกับข้าวข"
   },
   {
    "th": "ทำการบ้าน",
@@ -473,7 +527,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "do + homework",
+   "lit_th": "กระทำ + งานที่ครูกำหนดให้นักเรียนไปทำที่บ้"
   },
   {
    "th": "ทำขวัญ",
@@ -498,7 +556,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ขวัญ"
+   ],
+   "lit": "do + khwan",
+   "lit_th": "กระทำ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
   },
   {
    "th": "การทำ",
@@ -520,13 +585,16 @@
     "การ",
     "ทำ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + กระทำ"
   },
   {
    "th": "ทำแท้ง",
@@ -551,7 +619,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กระทำ + สิ้นสุดการตั้งครรภ์ก่อนกำหนดคลอด โ"
   },
   {
    "th": "ทำที",
@@ -576,7 +647,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ที"
+   ],
+   "lit": "do + time",
+   "lit_th": "กระทำ + ครั้ง"
   },
   {
    "th": "ทำร้าย",
@@ -604,7 +682,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "ร้าย"
+   ],
+   "lit": "do + bad",
+   "lit_th": "กระทำ + ดุ",
+   "frame": "quality"
   },
   {
    "th": "ทำเนียน",
@@ -629,7 +715,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "กระทำ + กาบหมากที่เจียนให้มนขนาดเล็กกว่าฝ่"
   },
   {
    "th": "ทำท่า",
@@ -654,7 +743,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ท่า"
+   ],
+   "lit": "do + landing",
+   "lit_th": "กระทำ + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
   },
   {
    "th": "ทำบุญ",
@@ -679,7 +775,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "บุญ"
+   ],
+   "lit": "do + merit",
+   "lit_th": "กระทำ + ความสุข"
   },
   {
    "th": "ทำพิษ",
@@ -704,7 +807,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "พิษ"
+   ],
+   "lit": "do + harm",
+   "lit_th": "กระทำ + สิ่งที่ร้ายเป็นอันตรายแก่ร่างกายหร"
   },
   {
    "th": "ทำตัว",
@@ -729,7 +839,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "do + form",
+   "lit_th": "กระทำ + รูป"
   },
   {
    "th": "ทำความสะอาด",
@@ -756,7 +873,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "กระทำ + คำอาการนามของ สะอาด"
   },
   {
    "th": "ทำคลอด",
@@ -781,7 +901,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "do + deliver",
+   "lit_th": "กระทำ + ออกลูก"
   },
   {
    "th": "ทำลาย",
@@ -809,7 +933,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ลาย"
+   ],
+   "lit": "do + design",
+   "lit_th": "กระทำ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก"
   },
   {
    "th": "ทำให้",
@@ -835,7 +966,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "do + bestow",
+   "lit_th": "กระทำ + มอบ"
   },
   {
    "th": "ทำนาย",
@@ -863,7 +998,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "นาย"
+   ],
+   "lit": "do + baboo",
+   "lit_th": "กระทำ + คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15"
   }
  ],
  "etymology": {
@@ -885,5 +1027,9 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "do",
+  "commit"
  ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "w:chon",
  "th": "ชน",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "chon",
  "paiboon": "chon",
  "ipa": "/t͡ɕʰon˧/",
@@ -13,13 +13,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "hit",
-     "bump",
-     "knock",
-     "collide"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "โดนแรง ๆ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -37,20 +34,24 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ชน 'to collide, to butt'.",
+    "Declared root: ชน 'to collide, to butt'.",
+    "Declared root: ชน 'to collide, to butt'.",
+    "Declared root: ชน 'to collide, to butt'.",
+    "Declared root: ชน 'to collide, to butt'.",
+    "Declared root: ชน 'to collide, to butt'.",
+    "Declared root: ชน 'to collide, to butt'."
    ]
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "hit",
-     "bump",
-     "knock",
-     "collide"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ชิดจนติด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -66,19 +67,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Colliding and staying there: right up against.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "hit",
-     "bump",
-     "knock",
-     "collide"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "บรรจบ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -94,19 +96,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Two things brought together: to meet, to join.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "hit",
-     "bump",
-     "knock",
-     "collide"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ให้ต่อสู้กัน (ใช้กับสัตว์บางชนิด)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -122,19 +125,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Setting animals to collide: to fight them.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "hit",
-     "bump",
-     "knock",
-     "collide"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "เรียกไก่อูชนิดหนึ่งที่เลี้ยงไว้ชนกันว่า ไก่ชน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -175,21 +179,29 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ไก่"
+     ],
+     "lit": "chicken + hit",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + เรียกไก่อูชนิดหนึ่งที่เลี้ยงไว้ชนก"
     }
-   ]
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "ไก่ชน, the cock kept for it.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "hit",
-     "bump",
-     "knock",
-     "collide"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "คน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -205,19 +217,25 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ชน 'people' — Pali jana, unrelated.",
+    "Declared root: ชน 'people' — Pali jana, unrelated.",
+    "Declared root: ชน 'people' — Pali jana, unrelated.",
+    "Declared root: ชน 'people' — Pali jana, unrelated.",
+    "Declared root: ชน 'people' — Pali jana, unrelated.",
+    "Declared root: ชน 'people' — Pali jana, unrelated.",
+    "Declared root: ชน 'people' — Pali jana, unrelated."
    ]
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "hit",
-     "bump",
-     "knock",
-     "collide"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "อักษรย่อของ ชัยนาท",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -233,6 +251,15 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: an abbreviation of ชัยนาท — not a sense.",
+    "Declared root: an abbreviation of ชัยนาท — not a sense.",
+    "Declared root: an abbreviation of ชัยนาท — not a sense.",
+    "Declared root: an abbreviation of ชัยนาท — not a sense.",
+    "Declared root: an abbreviation of ชัยนาท — not a sense.",
+    "Declared root: an abbreviation of ชัยนาท — not a sense.",
+    "Declared root: an abbreviation of ชัยนาท — not a sense."
    ]
   }
  ],
@@ -247,6 +274,8 @@
   "Attested in this corpus: 81 manuscript titles, 186 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits ['ไก่', 'สัตว์', 'นก'].",
@@ -269,12 +298,15 @@
     "มหา",
     "ชน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ใหญ่ + โดนแรง ๆ",
+   "use": "false-split"
   },
   {
    "th": "ชนวน",
@@ -294,12 +326,20 @@
     "ชน",
     "วน"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "วน"
+   ],
+   "lit": "hit + to circle",
+   "lit_th": "โดนแรง ๆ + เวียนไปโดยรอบ",
+   "use": "false-split"
   },
   {
    "th": "วีระชน",
@@ -324,7 +364,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ วีร + โดนแรง ๆ",
+   "frame": "quality"
   },
   {
    "th": "ปัญญาชน",
@@ -349,7 +393,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "wit + hit",
+   "lit_th": "ความรอบรู้ + โดนแรง ๆ"
   },
   {
    "th": "มวลชน",
@@ -374,7 +422,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit": "mass + hit",
+   "lit_th": "ทั้งหมด + โดนแรง ๆ",
+   "frame": "quality"
   },
   {
    "th": "การชน",
@@ -396,13 +449,16 @@
     "การ",
     "ชน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + โดนแรง ๆ"
   },
   {
    "th": "ทรชน",
@@ -427,7 +483,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "ชั่ว + โดนแรง ๆ",
+   "frame": "quality"
   },
   {
    "th": "ชนบท",
@@ -449,12 +509,20 @@
     "ชน",
     "บท"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "บท"
+   ],
+   "lit": "hit + unit",
+   "lit_th": "โดนแรง ๆ + ข้อความเรื่องหนึ่ง ๆ หรือตอนหนึ่ง",
+   "use": "false-split"
   },
   {
    "th": "สาธารณชน",
@@ -479,7 +547,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ สาธารณะ + โดนแรง ๆ",
+   "frame": "quality"
   },
   {
    "th": "ชุมนุมชน",
@@ -504,7 +576,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "meet + hit",
+   "lit_th": "กอง + โดนแรง ๆ"
   },
   {
    "th": "อติชน",
@@ -530,7 +606,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "พิเศษ + โดนแรง ๆ",
+   "frame": "quality"
   },
   {
    "th": "เอกชน",
@@ -555,7 +635,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "เอก"
+   ],
+   "lit": "one + hit",
+   "lit_th": "หนึ่ง + โดนแรง ๆ"
   },
   {
    "th": "วิญญูชน",
@@ -580,7 +666,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ผู้รู้แจ้ง + โดนแรง ๆ"
   },
   {
    "th": "วีรชน",
@@ -605,7 +694,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "กล้าหาญ + โดนแรง ๆ",
+   "frame": "quality"
   },
   {
    "th": "ชนช้าง",
@@ -630,7 +723,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ช้าง"
+   ],
+   "lit": "hit + elephant",
+   "lit_th": "โดนแรง ๆ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์"
   },
   {
    "th": "ชุมชน",
@@ -657,7 +757,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "ชุม"
+   ],
+   "lit": "abound + hit",
+   "lit_th": "มารวมกัน + โดนแรง ๆ"
   },
   {
    "th": "ประชาชน",
@@ -683,7 +790,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "หมู่คน + โดนแรง ๆ"
   },
   {
    "th": "สามัญชน",
@@ -709,7 +819,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit": "usual + hit",
+   "lit_th": "ปรกติ + โดนแรง ๆ",
+   "frame": "quality"
   },
   {
    "th": "กันชน",
@@ -736,7 +851,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PRON+V",
+   "head": 1,
+   "lit_th": "สรรพนามบุรุษที่ 1 ใช้แทนตัวผู้พูดเ + โดนแรง ๆ"
   },
   {
    "th": "ชนแดน",
@@ -756,13 +874,16 @@
     "ชน",
     "แดน"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "โดนแรง ๆ + ที่ที่กำหนดไว้โดยตรงหรือโดยหมายรู้"
   },
   {
    "th": "สาธุชน",
@@ -787,7 +908,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit": "amen + hit",
+   "lit_th": "ดีแล้ว + โดนแรง ๆ",
+   "frame": "quality"
   },
   {
    "th": "อภิชน",
@@ -813,7 +939,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "ยิ่ง + โดนแรง ๆ",
+   "frame": "quality"
   },
   {
    "th": "จารชน",
@@ -833,13 +963,16 @@
     "จาร",
     "ชน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "ใช้เหล็กปลายแหลมเขียนตัวหนังสือ ลว + โดนแรง ๆ"
   }
  ],
  "etymology": {
@@ -870,5 +1003,11 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "hit",
+  "bump",
+  "knock",
+  "collide"
  ]
 }

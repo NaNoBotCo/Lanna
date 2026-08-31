@@ -1,7 +1,7 @@
 {
  "id": "w:rat",
  "th": "ราช",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "rat",
  "paiboon": "râat",
  "ipa": "/raːt̚˥˩/",
@@ -13,11 +13,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "king"
     ],
     "th": "พระเจ้าแผ่นดิน, ถ้าคำเดียวมักใช้ว่า ราชา",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -58,7 +59,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The king of a kind of animal — พญา.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -82,7 +87,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "An ecclesiastical grade named from the king who grants it.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -106,7 +115,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Prefixed to mean of the king, royal.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -176,7 +189,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เทวดา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ทัพราช",
@@ -202,7 +219,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทัพ"
+     ],
+     "lit": "army + rat as an element in place names",
+     "lit_th": "กองทหาร + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "จักราช",
@@ -228,7 +253,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ทำให้เป็นแฉก ๆ หรือหยัก ๆ คล้ายฟัน + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "ห้วยราช",
@@ -254,7 +282,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ห้วย"
+     ],
+     "lit": "stream pool + rat as an element in place names",
+     "lit_th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เทพราช",
@@ -280,7 +316,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เทพ"
+     ],
+     "lit": "god + rat as an element in place names",
+     "lit_th": "เทวดา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -298,6 +342,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 210 manuscript titles, 394 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -327,7 +372,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ยิ่ง + พระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "ราชวงค์",
@@ -352,7 +401,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + รูปสะกดผิดของ วงศ์",
+   "frame": "entity"
   },
   {
    "th": "ราชสมบัติ",
@@ -377,7 +430,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "king + riches",
+   "lit_th": "พระเจ้าแผ่นดิน + ความถึงพร้อม หมายถึง ทรัพย์สิน เงิ",
+   "frame": "entity"
   },
   {
    "th": "ราชยาน",
@@ -401,7 +459,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + ที่หย่อน ห้อย ย้อย หรือคล้อยลงกว่า",
+   "frame": "quality"
   },
   {
    "th": "ราชอำนาจ",
@@ -426,7 +488,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "king + power",
+   "lit_th": "พระเจ้าแผ่นดิน + สิทธิ",
+   "frame": "entity"
   },
   {
    "th": "มหาราช",
@@ -451,7 +518,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ใหญ่ + พระเจ้าแผ่นดิน"
   },
   {
    "th": "ราชบัลลังก์",
@@ -477,7 +546,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "king + throne",
+   "lit_th": "พระเจ้าแผ่นดิน + พระแท่นที่ประทับของพระมหากษัตริย์ภ",
+   "frame": "entity"
   },
   {
    "th": "ราชธานี",
@@ -502,7 +576,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + เมือง",
+   "frame": "entity"
   },
   {
    "th": "ราชโองการ",
@@ -527,7 +605,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + คำศักดิ์สิทธิ์",
+   "frame": "entity"
   },
   {
    "th": "ราชกิจ",
@@ -552,7 +634,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "กิจ"
+   ],
+   "lit": "king + business",
+   "lit_th": "พระเจ้าแผ่นดิน + ธุระ",
+   "frame": "entity"
   },
   {
    "th": "ยมราช",
@@ -577,7 +667,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ร้องไห้ + พระเจ้าแผ่นดิน"
   },
   {
    "th": "ราชการ",
@@ -602,7 +695,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + งาน",
+   "frame": "entity"
   },
   {
    "th": "ราชสกุล",
@@ -627,7 +724,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + ตระกูล",
+   "frame": "entity"
   },
   {
    "th": "คชราช",
@@ -652,7 +753,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ช้าง + พระเจ้าแผ่นดิน",
+   "frame": "entity"
   },
   {
    "th": "ประเทศราช",
@@ -677,7 +782,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "country + king",
+   "lit_th": "บ้านเมือง + พระเจ้าแผ่นดิน",
+   "frame": "entity"
   },
   {
    "th": "ราชประเพณี",
@@ -702,7 +812,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "king + tradition",
+   "lit_th": "พระเจ้าแผ่นดิน + สิ่งที่นิยมถือประพฤติปฏิบัติสืบ ๆ",
+   "frame": "entity"
   },
   {
    "th": "ราชสำนัก",
@@ -727,7 +842,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "king + school",
+   "lit_th": "พระเจ้าแผ่นดิน + ที่อยู่อาศัย",
+   "frame": "entity"
   },
   {
    "th": "ทรราช",
@@ -753,7 +873,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ชั่ว + พระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "โคราช",
@@ -773,13 +897,21 @@
     "โค",
     "ราช"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "โค"
+   ],
+   "lit": "cow + king",
+   "lit_th": "วัว + พระเจ้าแผ่นดิน",
+   "frame": "entity"
   },
   {
    "th": "มัจจุราช",
@@ -799,12 +931,17 @@
     "มัจจุ",
     "ราช"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ความตาย + พระเจ้าแผ่นดิน",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ราชกาล",
@@ -829,7 +966,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + เวลา",
+   "frame": "entity"
   },
   {
    "th": "ราชพิธี",
@@ -854,7 +995,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + งานที่จัดขึ้นตามลัทธิหรือความเชื่อ",
+   "frame": "entity"
   },
   {
    "th": "เอกราช",
@@ -880,7 +1025,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "เอก"
+   ],
+   "lit": "one + king",
+   "lit_th": "หนึ่ง + พระเจ้าแผ่นดิน"
   },
   {
    "th": "ราชบุรี",
@@ -905,7 +1056,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "บุรี"
+   ],
+   "lit": "king + town",
+   "lit_th": "พระเจ้าแผ่นดิน + เมือง",
+   "frame": "entity"
   },
   {
    "th": "ราชสวัสดิ์",
@@ -930,7 +1089,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + รูปแบบอื่นของ สวัสดี",
+   "frame": "entity"
   },
   {
    "th": "นรราช",
@@ -950,12 +1113,17 @@
     "นร",
     "ราช"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คน + พระเจ้าแผ่นดิน",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "มฤตยูราช",
@@ -975,12 +1143,17 @@
     "มฤตยู",
     "ราช"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ความตาย + พระเจ้าแผ่นดิน",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ราชวงศ์",
@@ -1001,12 +1174,17 @@
     "ราช",
     "วงศ์"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + เชื้อสาย",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ราชกุมาร",
@@ -1026,12 +1204,17 @@
     "ราช",
     "กุมาร"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + เด็กชาย",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ราชอาณาจักร",
@@ -1057,7 +1240,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "king + kingdom",
+   "lit_th": "พระเจ้าแผ่นดิน + เขตแดนที่อยู่ในอำนาจปกครองของประเท",
+   "frame": "entity"
   },
   {
    "th": "สังฆราช",
@@ -1077,12 +1265,17 @@
     "สังฆ",
     "ราช"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ สงฆ์ + พระเจ้าแผ่นดิน",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ราชอาสน์",
@@ -1107,7 +1300,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + รูปแบบอื่นของ อาสนะ",
+   "frame": "entity"
   },
   {
    "th": "ราชบัณฑิต",
@@ -1132,7 +1329,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "king + sage",
+   "lit_th": "พระเจ้าแผ่นดิน + ผู้ทรงความรู้",
+   "frame": "entity"
   }
  ],
  "etymology": {

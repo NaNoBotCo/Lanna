@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "royal",
+     "of the crown"
     ],
     "th": "ที่เป็นของพระเจ้าแผ่นดิน",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -58,7 +60,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "นาย"
+     ],
+     "lit": "baboo + royal",
+     "lit_th": "คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15 + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
     },
     {
      "th": "พระเจ้าหลวง",
@@ -84,7 +94,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "God + royal",
+     "lit_th": "พระพุทธเจ้า + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
     },
     {
      "th": "วัดหลวง",
@@ -110,7 +125,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "วัด"
+     ],
+     "lit": "temple + royal",
+     "lit_th": "สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
     }
    ]
   },
@@ -218,7 +241,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ทาง"
+     ],
+     "lit": "way + royal",
+     "lit_th": "ที่สำหรับเดินไปมา + สาธารณะ",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -302,7 +333,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit": "royal + father",
+     "lit_th": "คำเรียกพระภิกษุโดยความเคารพ + ชายผู้ให้กำเนิดหรือเลี้ยงดูลูก",
+     "frame": "quality"
     },
     {
      "th": "หลวงพี่",
@@ -327,7 +363,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit_th": "คำเรียกพระภิกษุโดยความเคารพ + ผู้ร่วมบิดาหรือมารดาเดียวกันและเกิ",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -410,7 +450,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "wife + royal",
+     "lit_th": "ภรรยา + คำพ้องความของ เมียหลวง",
+     "frame": "quality"
     }
    ],
    "extends": 2,
@@ -486,7 +531,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "canal + luang as an element in place names",
+     "lit_th": "ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "มะขามหลวง",
@@ -512,7 +565,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "tamarind + luang as an element in place names",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Tamarindus + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "บ่อหลวง",
@@ -538,7 +596,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "บ่อ"
+     ],
+     "lit": "well + luang as an element in place names",
+     "lit_th": "ช่องลึกลงไปในดินหรือในหินใช้เป็นที + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ดอยหลวง",
@@ -564,7 +630,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ภูเขา + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ตลาดหลวง",
@@ -590,7 +660,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ตลาด"
+     ],
+     "lit": "market + luang as an element in place names",
+     "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "หนองหลวง",
@@ -616,7 +694,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + luang as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ทุ่งหลวง",
@@ -642,7 +728,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "open field + luang as an element in place names",
+     "lit_th": "ที่ราบโล่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ท่าหลวง",
@@ -668,7 +762,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + luang as an element in place names",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "แจ่มหลวง",
@@ -694,7 +796,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "ADJ+ADJ",
+     "head": 1,
+     "lit_th": "กระจ่าง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ดงหลวง",
@@ -720,7 +826,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ดง"
+     ],
+     "lit": "deep forest + luang as an element in place names",
+     "lit_th": "ป่าที่มีต้นไม้ใหญ่ขึ้นหนาแน่น + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "เจดีย์หลวง",
@@ -746,7 +860,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "pagoda + luang as an element in place names",
+     "lit_th": "สิ่งซึ่งก่อเป็นรูปคล้ายลอมฟาง มียอ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ภูหลวง",
@@ -772,7 +891,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ภู"
+     ],
+     "lit": "earth + luang as an element in place names",
+     "lit_th": "ดิน + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "สวนหลวง",
@@ -798,7 +925,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "สวน"
+     ],
+     "lit": "garden + luang as an element in place names",
+     "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "บ้านหลวง",
@@ -824,7 +959,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + luang as an element in place names",
+     "lit_th": "ที่อยู่อาศัย + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "บางหลวง",
@@ -850,7 +993,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + luang as an element in place names",
+     "lit_th": "ทางน้ำเล็ก ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "สันทรายหลวง",
@@ -876,7 +1027,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -894,6 +1049,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 74 manuscript titles, 3257 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -923,7 +1079,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "เรือน"
+   ],
+   "lit": "house + royal",
+   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "บัวหลวง",
@@ -948,7 +1112,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "บัว"
+   ],
+   "lit": "lotus + royal",
+   "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "ภรรยาหลวง",
@@ -968,13 +1140,18 @@
     "ภรรยา",
     "หลวง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "wife + royal",
+   "lit_th": "ภริยา + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "บาทหลวง",
@@ -1001,7 +1178,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "baht + royal",
+   "lit_th": "ตีน + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "หลวงเจ๊",
@@ -1026,7 +1208,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "ที่เป็นของพระเจ้าแผ่นดิน + คำเรียกพี่สาวในหมู่ชาวจีนหรือซึ่งม",
+   "frame": "quality"
   },
   {
    "th": "ในหลวง",
@@ -1051,7 +1237,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PREP+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ใน"
+   ],
+   "lit": "in + royal",
+   "lit_th": "ตรงกันข้ามกับ นอก + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "หม่อมหลวง",
@@ -1076,7 +1270,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ภรรยาที่เป็นสามัญชนของกรมพระราชวัง + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "เมืองหลวง",
@@ -1103,7 +1301,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "เมือง"
+   ],
+   "lit": "town + royal",
+   "lit_th": "แดน + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "นครหลวง",
@@ -1128,7 +1334,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "นคร"
+   ],
+   "lit": "city + royal",
+   "lit_th": "เมืองใหญ่ + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "เกวียนหลวง",
@@ -1153,7 +1367,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "cart + royal",
+   "lit_th": "ยานชนิดหนึ่ง มีล้อ 2 ล้อ ใช้ควายหร + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "ของหลวง",
@@ -1178,7 +1397,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ของ"
+   ],
+   "lit": "by + royal",
+   "lit_th": "สิ่งต่าง ๆ + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "ไทหลวง",
@@ -1203,7 +1430,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ชนเชื้อชาติไท มีหลายสาขาด้วยกัน เช + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "ภริยาหลวง",
@@ -1223,13 +1454,17 @@
     "ภริยา",
     "หลวง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ภรรยา + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   }
  ],
  "etymology": {

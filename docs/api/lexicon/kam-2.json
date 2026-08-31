@@ -1,7 +1,7 @@
 {
  "id": "w:kam-2",
  "th": "กำ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "kam",
  "paiboon": "gam",
  "ipa": "/kam˧/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "to close the hand",
+     "to make a fist"
     ],
     "th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +34,16 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: กำ 'to close the hand'.",
+    "Declared root: กำ 'to close the hand'.",
+    "Declared root: กำ 'to close the hand'.",
+    "Declared root: กำ 'to close the hand'.",
+    "Declared root: กำ 'to close the hand'.",
+    "Declared root: กำ 'to close the hand'.",
+    "Declared root: กำ 'to close the hand'.",
+    "Declared root: กำ 'to close the hand'.",
+    "Declared root: กำ 'to close the hand'."
    ]
   },
   {
@@ -57,7 +68,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The four fingers become all five, closing round a thing.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -107,7 +122,10 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "มือที่กำเข้า + เอาสิ่งอ่อน ๆ เช่นขี้ผึ้ง ดินเหนีย"
     },
     {
      "th": "กำกัด",
@@ -133,7 +151,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "to close the hand + bite",
+     "lit_th": "มือที่กำเข้า + เอาฟันกดไว้โดยแรง เพื่อไม่ให้สิ่งท"
     },
     {
      "th": "กำหมัด",
@@ -159,9 +181,16 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "มือที่กำเข้า + ชื่อแมลงอันดับ Siphonaptera ตัวยาว"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "The closing names the closed fist.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -210,9 +239,20 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "to close the hand + hand",
+     "lit_th": "ปริมาณของเต็มมือที่กำเข้า + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "And the fist names what it holds: a handful.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -236,7 +276,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "A measure of girth taken in hands.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -260,7 +304,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "A bundle of greens tied to the size of a grip.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -284,7 +332,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "The spokes a hub grips, holding the rim round.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -308,6 +360,17 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: กำ as a spelling of กรรม — not a sense of the hand word.",
+    "Declared root: กำ as a spelling of กรรม — not a sense of the hand word.",
+    "Declared root: กำ as a spelling of กรรม — not a sense of the hand word.",
+    "Declared root: กำ as a spelling of กรรม — not a sense of the hand word.",
+    "Declared root: กำ as a spelling of กรรม — not a sense of the hand word.",
+    "Declared root: กำ as a spelling of กรรม — not a sense of the hand word.",
+    "Declared root: กำ as a spelling of กรรม — not a sense of the hand word.",
+    "Declared root: กำ as a spelling of กรรม — not a sense of the hand word.",
+    "Declared root: กำ as a spelling of กรรม — not a sense of the hand word."
    ]
   }
  ],
@@ -320,6 +383,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 9 manuscript titles, 218 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -350,7 +414,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + ชื่อสัตว์ขาปล้องหลายชนิดหลายสกุล ใ"
   },
   {
    "th": "กำปั่น",
@@ -375,7 +442,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to close the hand + bike",
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + ทำให้หมุน"
   },
   {
    "th": "การกำ",
@@ -395,13 +466,16 @@
     "การ",
     "กำ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ"
   },
   {
    "th": "กำพง",
@@ -421,12 +495,16 @@
     "กำ",
     "พง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + ดงหญ้าหรือดงไม้ที่เป็นหมู่ ๆ หรือท",
+   "use": "false-split"
   },
   {
    "th": "กำโชก",
@@ -451,7 +529,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + มากจนไหลอาบไปทั่ว"
   },
   {
    "th": "กำเกียง",
@@ -476,7 +556,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + เกี่ยง"
   },
   {
    "th": "ระกำ",
@@ -501,7 +584,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "กระทบเรียดไป + งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ"
   },
   {
    "th": "กำแหง",
@@ -521,12 +607,15 @@
     "กำ",
     "แหง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + อาการของหน้าที่แสดงความเก้อหรือจนป",
+   "use": "false-split"
   },
   {
    "th": "กำปัง",
@@ -546,13 +635,16 @@
     "กำ",
     "ปัง"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "V+INTJ",
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + เสียงดังเช่นนั้นอย่างเสียงยิงปืน"
   },
   {
    "th": "กำจร",
@@ -577,7 +669,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "จร"
+   ],
+   "lit": "to close the hand + to go",
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + ไม่ใช่ประจำ",
+   "frame": "quality"
   },
   {
    "th": "กำแพง",
@@ -598,12 +698,17 @@
     "กำ",
     "แพง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + มีราคาสูง",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "กำจัด",
@@ -629,7 +734,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "จัด"
+   ],
+   "lit": "to close the hand + arrange",
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + ยิ่ง"
   },
   {
    "th": "กำบิด",
@@ -649,12 +760,17 @@
     "กำ",
     "บิด"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to close the hand + force",
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + หมุนให้เป็นเกลียวอย่างบิดผ้า",
+   "use": "false-split"
   },
   {
    "th": "กำกับ",
@@ -680,7 +796,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to close the hand + and",
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + เครื่องดักสัตว์ชนิดหนึ่ง มีลิ้นหรื"
   },
   {
    "th": "กำด้น",
@@ -705,7 +825,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + เย็บเป็นฝีเข็มขึ้นทีลงที"
   },
   {
    "th": "กำบัง",
@@ -725,12 +848,20 @@
     "กำ",
     "บัง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "บัง"
+   ],
+   "lit": "to close the hand + to screen",
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ",
+   "use": "false-split"
   },
   {
    "th": "กำสรวล",
@@ -755,7 +886,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + หัวเราะ"
   },
   {
    "th": "กำยาน",
@@ -781,7 +915,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + ที่หย่อน ห้อย ย้อย หรือคล้อยลงกว่า",
+   "frame": "quality"
   },
   {
    "th": "กำยำ",
@@ -806,7 +944,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + เคล้าคละ"
   },
   {
    "th": "กำราบ",
@@ -831,7 +972,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit": "to close the hand + flat",
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + เรียบเสมอพื้นไม่มีลุ่ม ๆ ดอน ๆ",
+   "frame": "quality"
   },
   {
    "th": "กำดัด",
@@ -856,7 +1002,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + ทำให้คดหรือตรงตามประสงค์"
   },
   {
    "th": "กำเดา",
@@ -881,7 +1030,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to close the hand + guess",
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + คิดคาดเอาเองโดยไม่มีหลักหรือเหตุผล"
   },
   {
    "th": "กำพืด",
@@ -901,12 +1054,16 @@
     "กำ",
     "พืด"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + แผ่นหรือแนวแห่งสิ่งที่ติดเนื่องกัน",
+   "use": "false-split"
   },
   {
    "th": "กำลัง",
@@ -927,12 +1084,16 @@
     "กำ",
     "ลัง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + ภาชนะต่อด้วยไม้หรือสานเป็นรูปสี่เห",
+   "use": "false-split"
   },
   {
    "th": "กำกวม",
@@ -959,7 +1120,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + ครอบงำ"
   },
   {
    "th": "กำพร้า",
@@ -984,7 +1148,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to close the hand + knife",
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + มีดขนาดใหญ่"
   }
  ],
  "etymology": {

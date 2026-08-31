@@ -1,7 +1,7 @@
 {
  "id": "w:tai-2",
  "th": "ใต้",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "tai",
  "paiboon": "dtâai",
  "ipa": "/taːj˥˩/",
@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "under"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ทิศที่อยู่ทางขวามือเมื่อหันหน้าไปทางทิศตะวันออก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -34,16 +34,20 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
-   ]
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "The lower country is the south — downriver, as เหนือ is upriver.",
+   "via_conf": "probable"
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "under"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ที่อยู่ในที่หรือฐานะต่ำกว่าสิ่งอื่นเมื่อมีการเปรียบเทียบกัน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -59,16 +63,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "Below in rank rather than in space.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "under"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ไม่อยู่เหนือ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -84,16 +92,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "Not above.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "under"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ต่ำกว่าพื้นผิวระดับหรือเกณฑ์",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -134,18 +146,30 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ดิน"
+     ],
+     "lit": "under + soil",
+     "lit_th": "ต่ำกว่าพื้นผิวระดับหรือเกณฑ์ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "Below a surface, a level, a standard.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "under"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ที่ตั้งอยู่ มาจาก หรือไปทางทิศใต้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -161,16 +185,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Of the south, or coming from it.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "under"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ข้างล่าง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -186,6 +214,9 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ใต้ 'below' — taken as the origin, with 'south' derived from it, as เหนือ 'above' gives 'north'. Downriver is south in this kingdom."
    ]
   },
   {
@@ -256,7 +287,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอแม่จัน จังหวัด + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "คลองท่อมใต้",
@@ -282,7 +316,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดกระบี่ + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "ครบุรีใต้",
@@ -308,7 +345,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "เสม็ดใต้",
@@ -334,7 +374,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองชลบุรี จั + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "สะเมิงใต้",
@@ -360,7 +403,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่ + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "สำราญใต้",
@@ -386,7 +432,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "enjoy + tai as an element in place names",
+     "lit_th": "สุขสบาย + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "เวียงใต้",
@@ -412,7 +462,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เมืองที่มีกำแพงล้อม + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ริมใต้",
@@ -438,7 +492,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "border + tai as an element in place names",
+     "lit_th": "ชาย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ทรายกองดินใต้",
@@ -464,7 +523,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อแขวงหนึ่งในเขตคลองสามวา กรุงเท + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "อ่าวลึกใต้",
@@ -490,7 +552,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดกระบี่ + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "บ้านใต้",
@@ -516,7 +581,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + tai as an element in place names",
+     "lit_th": "ที่อยู่อาศัย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -536,7 +609,8 @@
   "Attested in this corpus: 1 manuscript titles, 45 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
-  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['ผิว', 'มือ', 'อก'].",
  "compounds_unassigned": [
@@ -563,7 +637,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit_th": "ทวีปทางตอนกลางของโลก อยู่ทางตะวันต + ทิศที่อยู่ทางขวามือเมื่อหันหน้าไปท"
   },
   {
    "th": "แสงใต้",
@@ -588,7 +665,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แสง"
+   ],
+   "lit": "light + under",
+   "lit_th": "ความสว่าง + ทิศที่อยู่ทางขวามือเมื่อหันหน้าไปท",
+   "frame": "entity"
   },
   {
    "th": "ขั้วโลกใต้",
@@ -613,7 +698,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "บริเวณปลายสุดของแกนโลกเหนือและใต้ท + ทิศที่อยู่ทางขวามือเมื่อหันหน้าไปท",
+   "frame": "entity"
   },
   {
    "th": "เอเชียใต้",
@@ -639,7 +728,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PROP+N",
+   "head": 1
   },
   {
    "th": "มหาสมุทรใต้",
@@ -664,7 +755,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "ocean + under",
+   "lit_th": "ทะเลใหญ่ + ทิศที่อยู่ทางขวามือเมื่อหันหน้าไปท",
+   "frame": "entity"
   },
   {
    "th": "ใต้ถุน",
@@ -689,7 +785,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ทิศที่อยู่ทางขวามือเมื่อหันหน้าไปท + กินหรือเสพพอแก้ขัด"
   },
   {
    "th": "เกาหลีใต้",
@@ -715,7 +814,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit": "Korean + under",
+   "lit_th": "ชื่อประเทศและชนชาติหนึ่ง อยู่ในคาบ + ทิศที่อยู่ทางขวามือเมื่อหันหน้าไปท"
   }
  ],
  "etymology": {
@@ -737,5 +840,8 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "under"
  ]
 }

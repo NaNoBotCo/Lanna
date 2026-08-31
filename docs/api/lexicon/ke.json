@@ -1,7 +1,7 @@
 {
  "id": "w:ke",
  "th": "เก",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "ke",
  "paiboon": "gee",
  "ipa": "/keː˧/",
@@ -12,11 +12,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "out of line",
+     "crooked",
+     "askew"
     ],
     "th": "ไม่ตรงตามแนว, ไม่เป็นระเบียบ ใช้แก่ของที่เป็นซี่เป็นลำ",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -29,7 +32,10 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: เก 'out of line'.",
+    "Declared root: เก 'out of line'.",
+    "Declared root: เก 'out of line'."
    ]
   },
   {
@@ -51,7 +57,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Out of line with the rules: not falling in.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -98,9 +108,17 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit_th": "เกะกะ + โน้ตตัวที่สองในสเกลซีเมเจอร์ มีสัญ",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "And so unruly, delinquent.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -121,6 +139,11 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: เก, to raise a wager — separate.",
+    "Declared root: เก, to raise a wager — separate.",
+    "Declared root: เก, to raise a wager — separate."
    ]
   }
  ],
@@ -133,6 +156,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 64 manuscript titles, 1230 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -157,12 +181,17 @@
     "เก",
     "รน"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "lit_th": "ไม่ตรงตามแนว + นิ่งอยู่ไม่ได้",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "เกล้า",
@@ -187,7 +216,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 0,
+   "lit_th": "ไม่ตรงตามแนว + หย่อนแรงหรือกำลัง",
+   "frame": "quality"
   },
   {
    "th": "จังเก",
@@ -207,12 +240,15 @@
     "จัง",
     "เก"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ยิ่งนัก + ไม่ตรงตามแนว",
+   "use": "false-split"
   },
   {
    "th": "เกสี",
@@ -237,7 +273,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "cross_listed": [
+    "สี"
+   ],
+   "lit": "out of line + color",
+   "lit_th": "ไม่ตรงตามแนว + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "quality"
   },
   {
    "th": "เกทับ",
@@ -262,7 +306,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "cross_listed": [
+    "ทับ"
+   ],
+   "lit": "out of line + hut",
+   "lit_th": "ไม่ตรงตามแนว + กระท่อมหรือสิ่งปลูกสร้างที่ทำอยู่ช",
+   "frame": "quality"
   },
   {
    "th": "ลิเก",
@@ -287,7 +339,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "แตกบิ่นไปเล็กน้อย + ไม่ตรงตามแนว",
+   "frame": "quality"
   },
   {
    "th": "เกลื้อ",
@@ -312,7 +368,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+PROP",
+   "head": 0,
+   "frame": "quality"
   },
   {
    "th": "เกวัฏ",
@@ -332,12 +391,17 @@
     "เก",
     "วัฏ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "ไม่ตรงตามแนว + วงกลม",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "เกศวะ",
@@ -357,12 +421,17 @@
     "เก",
     "ศวะ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "ไม่ตรงตามแนว + ซากผี",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "เกศี",
@@ -387,7 +456,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "ไม่ตรงตามแนว + รูปเลิกใช้ของ สี",
+   "frame": "quality"
   },
   {
    "th": "เกลือ",
@@ -415,7 +488,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "lit_th": "ไม่ตรงตามแนว + พูดกันทั่วไป แต่ยังไม่มีอะไรยืนยัน",
+   "frame": "quality"
   },
   {
    "th": "เกรด",
@@ -435,12 +512,17 @@
     "เก",
     "รด"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "lit_th": "ไม่ตรงตามแนว + เท ราด สาด ฉีด หรือโปรยน้ำหรือของเ",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "สาเก",
@@ -465,7 +547,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "หมา + ไม่ตรงตามแนว",
+   "flips_with": "เกสา",
+   "frame": "quality"
   },
   {
    "th": "เกชา",
@@ -485,12 +572,21 @@
     "เก",
     "ชา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "cross_listed": [
+    "ชา"
+   ],
+   "lit": "out of line + tea",
+   "lit_th": "ไม่ตรงตามแนว + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "เกศพ",
@@ -510,12 +606,18 @@
     "เก",
     "ศพ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit": "out of line + body",
+   "lit_th": "ไม่ตรงตามแนว + ซากผี",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "การเก",
@@ -535,13 +637,17 @@
     "การ",
     "เก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "งาน + ไม่ตรงตามแนว",
+   "frame": "quality"
   },
   {
    "th": "ยี่เก",
@@ -566,7 +672,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "สอง ในคำว่า ยี่สิบ + ไม่ตรงตามแนว"
   },
   {
    "th": "เกลา",
@@ -591,7 +699,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit": "out of line + ass",
+   "lit_th": "ไม่ตรงตามแนว + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus",
+   "frame": "quality"
   },
   {
    "th": "เกสา",
@@ -616,7 +729,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "ไม่ตรงตามแนว + หมา",
+   "flips_with": "สาเก",
+   "frame": "quality"
   },
   {
    "th": "เกริน",
@@ -641,7 +759,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "lit_th": "ไม่ตรงตามแนว + เทให้ไหลออกเรื่อย ๆ ทีละน้อย",
+   "frame": "quality"
   },
   {
    "th": "ความเก",
@@ -661,13 +783,18 @@
     "ความ",
     "เก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + out of line",
+   "lit_th": "เรื่อง + ไม่ตรงตามแนว",
+   "frame": "quality"
   },
   {
    "th": "เกสร",
@@ -687,12 +814,17 @@
     "เก",
     "สร"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "ไม่ตรงตามแนว + ศร",
+   "frame": "quality",
+   "use": "false-split"
   }
  ]
 }

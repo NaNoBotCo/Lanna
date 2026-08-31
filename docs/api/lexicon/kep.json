@@ -1,7 +1,7 @@
 {
  "id": "w:kep",
  "th": "เก็บ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "kep",
  "paiboon": "gèp",
  "ipa": "/kep̚˨˩/",
@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "keep",
-     "collect",
-     "fold",
-     "store"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "เอาไปหรือเอามาจากที่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -43,13 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "keep",
-     "collect",
-     "fold",
-     "store"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "เอาเข้าที่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -65,19 +59,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Taking a thing to where it belongs: to put away.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "keep",
-     "collect",
-     "fold",
-     "store"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "เอาสิ่งของที่ตกหล่นอยู่ขึ้นมา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -93,19 +88,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Taking up what has fallen.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "keep",
-     "collect",
-     "fold",
-     "store"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "รวบรวมไว้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -121,19 +117,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "Taking up many: to gather.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "keep",
-     "collect",
-     "fold",
-     "store"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "เรียกเอา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -149,19 +146,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "Gathering what is owed: to collect a fee.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "keep",
-     "collect",
-     "fold",
-     "store"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "รักษาไว้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -203,7 +201,10 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "รักษาไว้ + ปิด"
     },
     {
      "th": "เก็บสี",
@@ -229,7 +230,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "สี"
+     ],
+     "lit": "keep + color",
+     "lit_th": "รักษาไว้ + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ"
     },
     {
      "th": "เก็บไร",
@@ -255,21 +263,25 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "รักษาไว้ + ชื่อสัตว์ขาปล้องหลายชนิดหลายสกุล ใ"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Put away and left there: kept, preserved.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "keep",
-     "collect",
-     "fold",
-     "store"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ฆ่า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -285,19 +297,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "euphemism",
+   "via_note": "Put away in the other sense — to kill.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
    "gloss": {
     "en": [
-     "keep",
-     "collect",
-     "fold",
-     "store"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "ที่เก็บไว้ (ประกอบหลังคำนาม)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -338,9 +351,17 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "wife + keep",
+     "lit_th": "ภรรยา + ที่เก็บไว้"
     }
-   ]
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "Suffixed to a noun: the kept one, the stored one.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -354,6 +375,8 @@
   "Attested in this corpus: 0 manuscript titles, 90 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['ตก', 'เข้า', 'ขึ้น', 'ไป'].",
@@ -381,7 +404,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "keep + hair",
+   "lit_th": "เอาไปหรือเอามาจากที่ + ขนที่ขึ้นอยู่บนศีรษะ โดยปกติเป็นเส"
   },
   {
    "th": "หมากเก็บ",
@@ -406,7 +433,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "หมาก"
+   ],
+   "lit": "areca palm + keep",
+   "lit_th": "ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง + เอาไปหรือเอามาจากที่"
   },
   {
    "th": "ทางเก็บ",
@@ -431,7 +465,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ทาง"
+   ],
+   "lit": "way + keep",
+   "lit_th": "ที่สำหรับเดินไปมา + เอาไปหรือเอามาจากที่"
   },
   {
    "th": "เก็บเล่ม",
@@ -456,7 +497,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+CLF",
+   "head": 0,
+   "lit_th": "เอาไปหรือเอามาจากที่ + เรียกสิ่งของที่มีลักษณะยาวเรียวอย่"
   },
   {
    "th": "เก็บกวาด",
@@ -481,7 +525,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "keep + sweep",
+   "lit_th": "เอาไปหรือเอามาจากที่ + ทำให้เตียนหรือหมดฝุ่นละอองด้วยไม้ก"
   },
   {
    "th": "เก็บตก",
@@ -506,7 +554,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "ตก"
+   ],
+   "lit": "keep + decrease",
+   "lit_th": "เอาไปหรือเอามาจากที่ + พลัดลง"
   },
   {
    "th": "เก็บดอกไม้",
@@ -531,7 +586,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "keep + blossom",
+   "lit_th": "เอาไปหรือเอามาจากที่ + ส่วนหนึ่งของพรรณไม้ที่ผลิออกจากต้น"
   },
   {
    "th": "เก็บข้าว",
@@ -556,7 +615,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ข้าว"
+   ],
+   "lit": "keep + rice",
+   "lit_th": "เอาไปหรือเอามาจากที่ + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ"
   },
   {
    "th": "เก็บเกี่ยว",
@@ -582,7 +648,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เอาไปหรือเอามาจากที่ + อาการที่สิ่งงอเป็นขอเกาะติดหรือเหน"
   },
   {
    "th": "เก็บอาการ",
@@ -607,7 +676,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เอาไปหรือเอามาจากที่ + ความเป็นอยู่"
   },
   {
    "th": "การเก็บ",
@@ -627,13 +699,16 @@
     "การ",
     "เก็บ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + เอาไปหรือเอามาจากที่"
   },
   {
    "th": "เก็บกิน",
@@ -658,7 +733,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "กิน"
+   ],
+   "lit": "keep + eat",
+   "lit_th": "เอาไปหรือเอามาจากที่ + เคี้ยว"
   },
   {
    "th": "เก็บเล็ม",
@@ -683,7 +765,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "keep + dress",
+   "lit_th": "เอาไปหรือเอามาจากที่ + เย็บริมชายผ้า"
   },
   {
    "th": "เก็บตัว",
@@ -708,7 +794,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "keep + form",
+   "lit_th": "เอาไปหรือเอามาจากที่ + รูป"
   },
   {
    "th": "เก็บความ",
@@ -733,7 +826,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "keep + -ness",
+   "lit_th": "เอาไปหรือเอามาจากที่ + เรื่อง"
   }
  ],
  "etymology": {
@@ -751,5 +848,11 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "keep",
+  "collect",
+  "fold",
+  "store"
+ ]
 }

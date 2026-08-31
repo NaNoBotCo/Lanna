@@ -1,7 +1,7 @@
 {
  "id": "w:bueng",
  "th": "บึง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "bueng",
  "paiboon": "bʉng",
  "ipa": "/bɯŋ˧/",
@@ -12,12 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "marsh",
-     "lagoon",
-     "mere"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "แหล่งน้ำขนาดใหญ่ มีน้ำขังตลอดปี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -42,12 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "marsh",
-     "lagoon",
-     "mere"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวัดชลบุรี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -88,7 +84,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั + กึกก้อง",
+     "frame": "quality"
     },
     {
      "th": "บึงอ้อ",
@@ -113,7 +113,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั + ชื่อหญ้าชนิด Arundo donax L. ในวงศ",
+     "frame": "entity"
     },
     {
      "th": "บึงสามัคคี",
@@ -138,7 +142,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั + ความพร้อมเพรียงกัน",
+     "frame": "entity"
     },
     {
      "th": "บึงพระ",
@@ -163,7 +171,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "marsh + the honorific prefix phra",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั + คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ",
+     "frame": "entity"
     },
     {
      "th": "ไพรบึง",
@@ -188,7 +204,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ป่า + ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั",
+     "frame": "entity"
     },
     {
      "th": "บึงกอก",
@@ -213,7 +233,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั + ดูดเลือด หนอง หรือลมออกจากร่างกาย"
     },
     {
      "th": "บึงกาฬ",
@@ -239,7 +262,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั + รอยดำหรือแดงที่ผุดตามร่างกายคนเมื่",
+     "frame": "entity"
     },
     {
      "th": "บึงทองหลาง",
@@ -264,7 +291,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั + ชื่อไม้ต้นหลายชนิดในสกุล Erythrina",
+     "frame": "entity"
     },
     {
      "th": "บึงบา",
@@ -289,7 +320,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั + ครู",
+     "frame": "entity"
     },
     {
      "th": "บึงบอน",
@@ -314,7 +349,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั + ชื่อไม้ล้มลุกหลายชนิดในวงศ์ Aracea",
+     "frame": "entity"
     },
     {
      "th": "บึงสำโรง",
@@ -339,7 +378,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั + ชื่อไม้ต้นชนิด Sterculia foetida L",
+     "frame": "entity"
     },
     {
      "th": "บึงเนียม",
@@ -364,7 +407,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั + ชื่อไม้พุ่มขนาดเล็กชนิด Chloranthu",
+     "frame": "entity"
     },
     {
      "th": "บึงกุ่ม",
@@ -389,7 +436,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั + ชื่อไม้ต้นในสกุล Crateva วงศ์ Capp",
+     "frame": "entity"
     },
     {
      "th": "บ้านบึง",
@@ -414,7 +465,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + marsh",
+     "lit_th": "ที่อยู่อาศัย + ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั",
+     "frame": "entity"
     },
     {
      "th": "บึงวิชัย",
@@ -439,7 +498,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั + ความชนะ",
+     "frame": "entity"
     },
     {
      "th": "จอมบึง",
@@ -464,9 +527,17 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ยอดที่สูงสุดของสิ่งที่มีฐานใหญ่ปลา + ชื่อตำบลหนึ่งในอำเภอศรีราชา จังหวั",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A tambon named from its marsh.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -478,7 +549,8 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 0 manuscript titles, 7 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['toponym formative'].",
  "compounds_unassigned": [
@@ -505,7 +577,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "บาง"
+   ],
+   "lit": "marsh + thin",
+   "lit_th": "แหล่งน้ำขนาดใหญ่ มีน้ำขังตลอดปี + ทางน้ำเล็ก ๆ",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -514,5 +594,10 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "marsh",
+  "lagoon",
+  "mere"
+ ]
 }

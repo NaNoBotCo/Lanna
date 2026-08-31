@@ -1,7 +1,7 @@
 {
  "id": "w:tai",
  "th": "ตาย",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "tai",
  "paiboon": "dtaai",
  "ipa": "/taːj˧/",
@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "demise",
-     "die",
-     "decease",
-     "fall"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "สิ้นใจ, สิ้นชีวิต, ไม่เป็นอยู่ต่อไป, สิ้นสภาพของการมีชีวิต",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -43,13 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "demise",
-     "die",
-     "decease",
-     "fall"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "เคลื่อนไหวไม่ได้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -65,19 +59,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Dead in the sense of not moving.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "demise",
-     "die",
-     "decease",
-     "fall"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ไม่เดินเพราะเครื่องเสียหรือหยุดเป็นต้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -93,19 +88,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "A machine that has stopped.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "demise",
-     "die",
-     "decease",
-     "fall"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ยืนแต้มอยู่อย่างเดียว",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -147,21 +143,29 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "demise + form",
+     "lit_th": "ยืนแต้มอยู่อย่างเดียว + รูป"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Stuck on one number and not shifting.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "demise",
-     "die",
-     "decease",
-     "fall"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ลักษณะที่ประตูในการเล่นการพนันบางประเภท เช่น โป ถั่ว ไม่ออกเลย หรือนาน ๆ จึงจะออกสักครั้งหนึ่ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -177,19 +181,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "A gate in โป or ถั่ว that never comes up.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "demise",
-     "die",
-     "decease",
-     "fall"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ผิดตามที่กติกากำหนดไว้ในการเล่นกีฬาหรือการละเล่นบางชนิด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -205,19 +210,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "And a move that breaks the rules: dead, out.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "demise",
-     "die",
-     "decease",
-     "fall"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "คำประกอบท้ายประโยคหรือหน้าประโยค หมายความว่า แย่, เต็มที, ยิ่งนัก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -233,19 +239,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Bleached to an intensifier — awfully, terribly.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
    "gloss": {
     "en": [
-     "demise",
-     "die",
-     "decease",
-     "fall"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "คำเปล่งเสียงแสดงความตกใจหรือประหลาดใจเป็นต้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -287,9 +294,16 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "INTJ+V",
+     "head": 1,
+     "lit_th": "ใช้แสดงความโกรธ ไม่พอใจ หรือไม่เห็ + คำเปล่งเสียงแสดงความตกใจหรือประหลา"
     }
-   ]
+   ],
+   "extends": 7,
+   "via": "metonymy",
+   "via_note": "And standing alone as a cry of shock: ตาย!",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -303,6 +317,8 @@
   "Attested in this corpus: 23 manuscript titles, 29 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 22; domain seeded by keyword hits ['เดิน', 'เคลื่อน', 'ตก', 'ออก'].",
@@ -325,13 +341,20 @@
     "ใบ",
     "ตาย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ใบ"
+   ],
+   "lit": "leaf + demise",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + สิ้นใจ"
   },
   {
    "th": "เงื่อนตาย",
@@ -356,7 +379,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "knot + demise",
+   "lit_th": "เชือกหรือเส้นด้ายเป็นต้นที่ผูกกันเ + สิ้นใจ"
   },
   {
    "th": "ความตาย",
@@ -379,13 +406,17 @@
     "ความ",
     "ตาย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "-ness + demise",
+   "lit_th": "เรื่อง + สิ้นใจ"
   },
   {
    "th": "ตายด้าน",
@@ -410,7 +441,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "สิ้นใจ + ฝ่าย"
   },
   {
    "th": "ไพ่ตาย",
@@ -435,7 +469,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "เครื่องเล่นการพนันอย่างหนึ่ง ทำด้ว + สิ้นใจ"
   },
   {
    "th": "ตายรัง",
@@ -460,7 +497,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "รัง"
+   ],
+   "lit": "demise + nest",
+   "lit_th": "สิ้นใจ + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam"
   },
   {
    "th": "จะตาย",
@@ -485,7 +529,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "จะ"
+   ],
+   "lit": "will + demise",
+   "lit_th": "คำกร่อนของคำหน้าซึ่งซ้ำกับคำหลังใน + สิ้นใจ"
   },
   {
    "th": "ไม้ตาย",
@@ -510,7 +560,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ไม้"
+   ],
+   "lit": "wood + demise",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + สิ้นใจ"
   },
   {
    "th": "ยืนต้นตาย",
@@ -535,7 +592,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "เรียกต้นไม้ใหญ่ที่มีผลและมีอายุยืน + สิ้นใจ"
   },
   {
    "th": "เพื่อนตาย",
@@ -560,7 +620,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PRON+V",
+   "head": 1,
+   "lit": "friend + demise",
+   "lit_th": "คำใช้แทนคำว่า เขา + สิ้นใจ"
   },
   {
    "th": "เส้นตาย",
@@ -586,7 +650,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "เส้น"
+   ],
+   "lit": "mark + demise",
+   "lit_th": "สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่ + สิ้นใจ"
   },
   {
    "th": "ปิดตาย",
@@ -611,7 +682,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "shut + demise",
+   "lit_th": "กันหรือกั้นไว้ไม่ให้เผยออก + สิ้นใจ"
   },
   {
    "th": "หน้าตาย",
@@ -636,7 +711,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "before + demise",
+   "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + สิ้นใจ"
   },
   {
    "th": "จับตาย",
@@ -661,7 +743,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "จับ"
+   ],
+   "lit": "grab + demise",
+   "lit_th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ + สิ้นใจ"
   },
   {
    "th": "ของตาย",
@@ -686,7 +775,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ของ"
+   ],
+   "lit": "by + demise",
+   "lit_th": "สิ่งต่าง ๆ + สิ้นใจ"
   },
   {
    "th": "สู้ตาย",
@@ -711,7 +807,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "combat + demise",
+   "lit_th": "เอาชนะกันด้วยกำลังกาย อาวุธ หรือสต + สิ้นใจ"
   },
   {
    "th": "การตาย",
@@ -731,13 +831,16 @@
     "การ",
     "ตาย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + สิ้นใจ"
   },
   {
    "th": "ตายใจ",
@@ -762,7 +865,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "demise + heart",
+   "lit_th": "สิ้นใจ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
   },
   {
    "th": "คำตาย",
@@ -787,7 +897,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "คำ"
+   ],
+   "lit": "word + demise",
+   "lit_th": "เสียงพูด + สิ้นใจ"
   },
   {
    "th": "เกี่ยงตาย",
@@ -812,7 +929,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "อาการที่ต่างฝ่ายต่างไม่ยอมทำเพราะก + สิ้นใจ"
   }
  ],
  "etymology": {
@@ -843,5 +963,11 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "demise",
+  "die",
+  "decease",
+  "fall"
  ]
 }

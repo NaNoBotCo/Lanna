@@ -1,7 +1,7 @@
 {
  "id": "w:hin",
  "th": "หิน",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "hin",
  "paiboon": "hǐn",
  "ipa": "/hin˩˩˦/",
@@ -13,10 +13,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "rock"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหรือหลายชนิดรวมตัวกันอยู่ตามธรรมชาติ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -34,7 +34,15 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: หิน 'stone', with the hardness senses that come off it.",
+    "Declared root: หิน 'stone', with the hardness senses that come off it.",
+    "Declared root: หิน 'stone', with the hardness senses that come off it.",
+    "Declared root: หิน 'stone', with the hardness senses that come off it.",
+    "Declared root: หิน 'stone', with the hardness senses that come off it.",
+    "Declared root: หิน 'stone', with the hardness senses that come off it.",
+    "Declared root: หิน 'stone', with the hardness senses that come off it.",
+    "Declared root: หิน 'stone', with the hardness senses that come off it."
    ],
    "compounds": [
     {
@@ -62,7 +70,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ไม้ที่เผาแล้วจนสุกมีสีดำ โดยมากสำห + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+     "frame": "entity"
     },
     {
      "th": "หินดาน",
@@ -88,7 +100,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + แข็ง",
+     "frame": "quality"
     }
    ]
   },
@@ -96,10 +112,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "rock"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ยากมาก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -115,16 +131,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Hard as stone: very difficult.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "rock"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "เข้มงวดมาก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -140,16 +160,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Hard in dealing: very strict.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "rock"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "เหี้ยมมาก, แข็งมาก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -191,18 +215,30 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "heart + rock",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + เหี้ยมมาก",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "And very harsh, very severe.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "rock"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "เปลี่ยนจากทิศทางเดิมไปเล็กน้อย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -218,16 +254,26 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: หิน 'to veer slightly off course' — separate.",
+    "Declared root: หิน 'to veer slightly off course' — separate.",
+    "Declared root: หิน 'to veer slightly off course' — separate.",
+    "Declared root: หิน 'to veer slightly off course' — separate.",
+    "Declared root: หิน 'to veer slightly off course' — separate.",
+    "Declared root: หิน 'to veer slightly off course' — separate.",
+    "Declared root: หิน 'to veer slightly off course' — separate.",
+    "Declared root: หิน 'to veer slightly off course' — separate."
    ]
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "rock"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "เลว, ทราม, ต่ำช้า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -243,6 +289,16 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: หิน 'base, vile' — Pali hīna, unrelated to the stone.",
+    "Declared root: หิน 'base, vile' — Pali hīna, unrelated to the stone.",
+    "Declared root: หิน 'base, vile' — Pali hīna, unrelated to the stone.",
+    "Declared root: หิน 'base, vile' — Pali hīna, unrelated to the stone.",
+    "Declared root: หิน 'base, vile' — Pali hīna, unrelated to the stone.",
+    "Declared root: หิน 'base, vile' — Pali hīna, unrelated to the stone.",
+    "Declared root: หิน 'base, vile' — Pali hīna, unrelated to the stone.",
+    "Declared root: หิน 'base, vile' — Pali hīna, unrelated to the stone."
    ]
   },
   {
@@ -313,7 +369,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อสัตว์เลื้อยคลานขนาดใหญ่ในวงศ์จ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "หินตั้ง",
@@ -339,7 +399,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ตั้ง"
+     ],
+     "lit": "hin as an element in place names + introduce",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชูตัว"
     },
     {
      "th": "หินลาด",
@@ -365,7 +432,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลาด"
+     ],
+     "lit": "hin as an element in place names + decline",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ปูแผ่ออกไป"
     },
     {
      "th": "หัวหิน",
@@ -391,7 +465,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + hin as an element in place names",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "คลองหิน",
@@ -417,7 +499,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "canal + hin as an element in place names",
+     "lit_th": "ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เสาหิน",
@@ -444,7 +534,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "pillar + hin as an element in place names",
+     "lit_th": "ท่อนไม้สำหรับใช้เป็นหลักหรือเป็นเค + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "หินดาด",
@@ -470,7 +565,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เอาวัตถุเช่นผ้าเป็นต้นขึงหรือปิดบั"
     },
     {
      "th": "หนองหิน",
@@ -496,7 +594,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + hin as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ขมหิน",
@@ -522,7 +628,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "bitter + hin as an element in place names",
+     "lit_th": "รสอย่างหนึ่งอย่างรสสะเดาหรือบอระเพ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "วังหิน",
@@ -548,7 +659,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + hin as an element in place names",
+     "lit_th": "ที่อยู่ของเจ้านาย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "นาวังหิน",
@@ -574,7 +693,13 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดหนองบัวลำภู + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "หินโคน",
@@ -600,7 +725,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนข้างต้นของสิ่งที่ยาวกลม",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -620,6 +749,8 @@
   "Attested in this corpus: 13 manuscript titles, 121 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 29; domain seeded by keyword hits ['น้อย', 'มาก'].",
@@ -647,7 +778,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + ส่วนหนึ่งของเพชรที่คัดออก",
+   "frame": "entity"
   },
   {
    "th": "หินหนืด",
@@ -672,7 +807,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + อาการของสิ่งของที่เหนียวจนดึงไม่ใค",
+   "frame": "quality"
   },
   {
    "th": "หินงอก",
@@ -697,7 +836,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + การเจริญจากเมล็ดออกมาเป็นต้นอ่อน"
   },
   {
    "th": "หินอ่อน",
@@ -723,7 +865,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "อ่อน"
+   ],
+   "lit": "rock + young",
+   "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "ขวานหิน",
@@ -748,7 +898,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "axe + rock",
+   "lit_th": "เครื่องมือสำหรับตัด ฟัน ผ่า ถากไม้ + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+   "frame": "entity"
   },
   {
    "th": "หินปูน",
@@ -774,7 +929,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + หินปูนหรือเปลือกหอยเมื่อถูกเผาจนสล",
+   "frame": "entity"
   },
   {
    "th": "ยุคหิน",
@@ -799,7 +958,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "generation + rock",
+   "lit_th": "แอก + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+   "frame": "entity"
   },
   {
    "th": "แก้วหิน",
@@ -824,7 +988,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "glass + rock",
+   "lit_th": "วัตถุแข็ง ใส ทำจากทรายหลอม + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+   "frame": "entity"
   },
   {
    "th": "เกลือหิน",
@@ -849,7 +1018,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เกลือ"
+   ],
+   "lit": "light + rock",
+   "lit_th": "วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็ + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+   "frame": "entity"
   },
   {
    "th": "หินดินดาน",
@@ -873,7 +1050,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + ดินที่จับตัวแข็งเป็นชั้น โดยมากเป็",
+   "frame": "entity"
   },
   {
    "th": "ใยหิน",
@@ -898,7 +1079,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สิ่งที่เป็นเส้นเล็ก ๆ บาง ๆ + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+   "frame": "entity"
   },
   {
    "th": "พกหิน",
@@ -923,7 +1108,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ริมผ้านุ่งที่ดึงรวบขึ้นมาไขว้ไว้ที + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+   "frame": "entity"
   },
   {
    "th": "หินย้อย",
@@ -948,7 +1137,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "rock + drop",
+   "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + ห้อยเป็นทางลงมา"
   },
   {
    "th": "ความหิน",
@@ -968,13 +1161,18 @@
     "ความ",
     "หิน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + rock",
+   "lit_th": "เรื่อง + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -992,5 +1190,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "rock"
+ ]
 }

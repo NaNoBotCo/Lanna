@@ -1,7 +1,7 @@
 {
  "id": "w:mun",
  "th": "มูล",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "mun",
  "paiboon": "muun",
  "ipa": "/muːn˧/",
@@ -13,11 +13,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "base",
+     "root",
+     "foot"
     ],
     "th": "โคน",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -33,7 +36,12 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: มูล < Pali mūla 'root, base'.",
+    "Declared root: มูล < Pali mūla 'root, base'.",
+    "Declared root: มูล < Pali mūla 'root, base'.",
+    "Declared root: มูล < Pali mūla 'root, base'.",
+    "Declared root: มูล < Pali mūla 'root, base'."
    ]
   },
   {
@@ -58,7 +66,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The base widened to the root, the stock.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -82,7 +94,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "The root of a matter: its trace, its origin.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -106,7 +122,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "The beginning, the first of a thing.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -130,7 +150,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The base taken as the whole of it: the total, the sum.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -180,8 +204,18 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เอาออกจากที่หนึ่งไปใส่อีกที่หนึ่ง + อุจจาระสัตว์"
     }
+   ],
+   "needs_check": [
+    "Declared root: มูล 'dung' — a separate word.",
+    "Declared root: มูล 'dung' — a separate word.",
+    "Declared root: มูล 'dung' — a separate word.",
+    "Declared root: มูล 'dung' — a separate word.",
+    "Declared root: มูล 'dung' — a separate word."
    ]
   },
   {
@@ -234,9 +268,21 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ค่า"
+     ],
+     "lit": "base + value",
+     "lit_th": "ขี้หรือเศษของสิ่งต่าง ๆ + มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 6,
+   "via": "generalisation",
+   "via_note": "Dung widened to the residue or dross of anything.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -260,6 +306,13 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ดาวมูล, the nineteenth lunar mansion.",
+    "Declared root: ดาวมูล, the nineteenth lunar mansion.",
+    "Declared root: ดาวมูล, the nineteenth lunar mansion.",
+    "Declared root: ดาวมูล, the nineteenth lunar mansion.",
+    "Declared root: ดาวมูล, the nineteenth lunar mansion."
    ]
   },
   {
@@ -309,7 +362,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทราย"
+     ],
+     "lit": "sand + base",
+     "lit_th": "วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ + ชื่อแม่น้ำในภาคตะวันออกเฉียงเหนือข",
+     "frame": "entity"
     },
     {
      "th": "ลำมูล",
@@ -334,7 +395,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ตัวของคน สัตว์ หรือสิ่งต่าง ๆ ไม่น + ชื่อแม่น้ำในภาคตะวันออกเฉียงเหนือข",
+     "frame": "entity"
     },
     {
      "th": "ดงมูล",
@@ -359,8 +424,23 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดง"
+     ],
+     "lit": "deep forest + base",
+     "lit_th": "ป่าที่มีต้นไม้ใหญ่ขึ้นหนาแน่น + ชื่อแม่น้ำในภาคตะวันออกเฉียงเหนือข",
+     "frame": "entity"
     }
+   ],
+   "needs_check": [
+    "Declared root: แม่น้ำมูล, the Mun river.",
+    "Declared root: แม่น้ำมูล, the Mun river.",
+    "Declared root: แม่น้ำมูล, the Mun river.",
+    "Declared root: แม่น้ำมูล, the Mun river.",
+    "Declared root: แม่น้ำมูล, the Mun river."
    ]
   }
  ],
@@ -373,6 +453,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 80 manuscript titles, 15 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -401,7 +482,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "โค"
+   ],
+   "lit": "base + cow",
+   "lit_th": "โคน + วัว",
+   "frame": "entity"
   },
   {
    "th": "ประมูล",
@@ -426,7 +515,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + โคน"
   },
   {
    "th": "มูลฐาน",
@@ -452,7 +543,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ฐาน"
+   ],
+   "lit": "base + bottom",
+   "lit_th": "โคน + ที่ตั้ง",
+   "frame": "entity"
   },
   {
    "th": "มูลกระบือ",
@@ -476,7 +575,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "โคน + ควาย",
+   "frame": "entity"
   },
   {
    "th": "มูลดิน",
@@ -500,7 +603,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ดิน"
+   ],
+   "lit": "base + soil",
+   "lit_th": "โคน + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ข้อมูล",
@@ -527,7 +638,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร + โคน",
+   "frame": "entity"
   },
   {
    "th": "การถ่ายมูล",
@@ -547,13 +662,17 @@
     "การถ่าย",
     "มูล"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ถ่าย + โคน",
+   "frame": "entity"
   },
   {
    "th": "คำมูล",
@@ -578,7 +697,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "คำ"
+   ],
+   "lit": "word + base",
+   "lit_th": "เสียงพูด + โคน",
+   "frame": "entity"
   },
   {
    "th": "ความพร้อมมูล",
@@ -598,13 +725,17 @@
     "ความพร้อม",
     "มูล"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ พร้อม + โคน",
+   "frame": "entity"
   },
   {
    "th": "การประมูล",
@@ -626,13 +757,17 @@
     "การประ",
     "มูล"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ประ + โคน",
+   "frame": "entity"
   },
   {
    "th": "พร้อมมูล",
@@ -657,7 +792,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit": "fit + base",
+   "lit_th": "คำแสดงกิริยาร่วมกัน + โคน"
   }
  ],
  "etymology": {

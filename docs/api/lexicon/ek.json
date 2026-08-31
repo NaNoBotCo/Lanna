@@ -1,7 +1,7 @@
 {
  "id": "w:ek",
  "th": "เอก",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "ek",
  "paiboon": "èek",
  "ipa": "/ʔeːk̚˨˩/",
@@ -13,11 +13,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "one",
+     "first"
     ],
     "th": "หนึ่ง",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -60,7 +62,13 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "cross_listed": [
+      "ชน"
+     ],
+     "lit": "one + hit",
+     "lit_th": "หนึ่ง + โดนแรง ๆ"
     }
    ]
   },
@@ -112,7 +120,9 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "lit_th": "หัวหน้า + ชั้นที่ 1"
     },
     {
      "th": "ร้อยเอก",
@@ -137,9 +147,16 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "lit": "hundred + one",
+     "lit_th": "จำนวน 100 คือ 10 สิบหนรวมกัน + ชั้นที่ 1"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "One as first in a series of ranks or grades.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -163,7 +180,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "ไม้เอก, the first of the tone marks.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -187,7 +208,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "First in quality: excellent.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -237,9 +262,19 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "form + one",
+     "lit_th": "รูป + สำคัญ"
     }
-   ]
+   ],
+   "extends": 4,
+   "via": "generalisation",
+   "via_note": "And so, important.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -263,7 +298,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "ระนาดเอก, the lead xylophone against the ระนาดทุ้ม.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -287,7 +326,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "ลูกเอก, the seventh daughter — the counting behind the name is not explained by the source.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -299,6 +342,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 31 manuscript titles, 12 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -329,7 +373,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit": "one + matter",
+   "lit_th": "หนึ่ง + แก่น"
   },
   {
    "th": "สิบเอก",
@@ -354,7 +401,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "สิบ"
+   ],
+   "lit": "ten + one",
+   "lit_th": "จำนวนเก้าบวกหนึ่ง + หนึ่ง"
   },
   {
    "th": "เอกพจน์",
@@ -374,12 +427,16 @@
     "เอก",
     "พจน์"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit": "one + number",
+   "lit_th": "หนึ่ง + คำพูด",
+   "use": "false-split"
   },
   {
    "th": "พระเอก",
@@ -405,7 +462,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "พระ"
+   ],
+   "lit": "the honorific prefix phra + one",
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + หนึ่ง"
   },
   {
    "th": "นางเอก",
@@ -431,7 +494,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "นาง"
+   ],
+   "lit": "Mrs + one",
+   "lit_th": "ผู้หญิง + หนึ่ง"
   },
   {
    "th": "เอกภาพ",
@@ -456,7 +525,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit": "one + image",
+   "lit_th": "หนึ่ง + ความมี"
   },
   {
    "th": "พลเอก",
@@ -481,7 +553,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "พล"
+   ],
+   "lit": "strength + one",
+   "lit_th": "กำลัง + หนึ่ง"
   },
   {
    "th": "ชิ้นเอก",
@@ -506,7 +584,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit": "piece + one",
+   "lit_th": "ก้อนหรือแผ่นเล็กที่ตัด แล่ แบ่ง แย + หนึ่ง"
   },
   {
    "th": "เอกวจนะ",
@@ -526,12 +607,15 @@
     "เอก",
     "วจนะ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "หนึ่ง + คำพูด",
+   "use": "false-split"
   },
   {
    "th": "เอกภรรยา",
@@ -551,13 +635,16 @@
     "เอก",
     "ภรรยา"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "head": 0,
+   "lit": "one + wife",
+   "lit_th": "หนึ่ง + ภริยา"
   },
   {
    "th": "เอกโทษ",
@@ -582,7 +669,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "โทษ"
+   ],
+   "lit": "one + badness",
+   "lit_th": "หนึ่ง + ความไม่ดี"
   },
   {
    "th": "เอกภพ",
@@ -608,7 +701,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "หนึ่ง + โลก"
   },
   {
    "th": "เมียเอก",
@@ -628,13 +723,16 @@
     "เมีย",
     "เอก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "head": 1,
+   "lit": "wife + one",
+   "lit_th": "ภรรยา + หนึ่ง"
   },
   {
    "th": "เอกสิทธิ์",
@@ -661,7 +759,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "สิทธิ์"
+   ],
+   "lit": "one + right",
+   "lit_th": "หนึ่ง + อำนาจอันชอบธรรม"
   },
   {
    "th": "ศิษย์เอก",
@@ -685,7 +789,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ผู้ศึกษาวิชาความรู้จากครูหรืออาจาร + หนึ่ง"
   },
   {
    "th": "เอกราช",
@@ -711,7 +817,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "ราช"
+   ],
+   "lit": "one + king",
+   "lit_th": "หนึ่ง + พระเจ้าแผ่นดิน"
   },
   {
    "th": "ทองเอก",
@@ -736,7 +848,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "ทอง"
+   ],
+   "lit": "gold + one",
+   "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + หนึ่ง"
   },
   {
    "th": "เอกฉันท์",
@@ -761,7 +879,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "หนึ่ง + ชื่อคำประพันธ์ประเภทหนึ่งที่วางคำ"
   },
   {
    "th": "เสียงเอก",
@@ -786,7 +906,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "เสียง"
+   ],
+   "lit": "voice + one",
+   "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + หนึ่ง"
   },
   {
    "th": "พลตำรวจเอก",
@@ -811,7 +937,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ยศตำรวจชั้นต่ำสุด ต่ำกว่าสิบตำรวจต + หนึ่ง"
   },
   {
    "th": "เอกศก",
@@ -836,7 +964,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "ศก"
+   ],
+   "lit": "one + hair",
+   "lit_th": "หนึ่ง + ผม"
   },
   {
    "th": "เอกลักษณ์",
@@ -862,7 +996,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "หนึ่ง + สมบัติเฉพาะตัว"
   },
   {
    "th": "วิชาเอก",
@@ -886,7 +1022,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit": "course + one",
+   "lit_th": "ความรู้ + หนึ่ง"
   },
   {
    "th": "นาวาเอก",
@@ -911,7 +1050,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "เรือ + หนึ่ง"
   },
   {
    "th": "เรือเอก",
@@ -936,7 +1077,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "เรือ"
+   ],
+   "lit": "boat + one",
+   "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + หนึ่ง"
   },
   {
    "th": "เอกภริยา",
@@ -956,13 +1103,15 @@
     "เอก",
     "ภริยา"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "head": 0,
+   "lit_th": "หนึ่ง + ภรรยา"
   },
   {
    "th": "พันเอก",
@@ -988,7 +1137,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "พัน"
+   ],
+   "lit": "k + one",
+   "lit_th": "เรียกจำนวน 10 ร้อย + หนึ่ง"
   }
  ],
  "etymology": {

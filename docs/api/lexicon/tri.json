@@ -1,7 +1,7 @@
 {
  "id": "w:tri",
  "th": "ตรี",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "tri",
  "paiboon": "dtrii",
  "ipa": "/triː˧/",
@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "fish"
     ],
     "th": "ปลา",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +33,9 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ตรี 'fish' — the Khmer word.",
+    "Declared root: ตรี 'fish' — the Khmer word."
    ]
   },
   {
@@ -57,7 +60,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "ตรีศูล, the three-pronged trident, named from the three.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -81,6 +88,10 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ตรี 'three' < Skt tri.",
+    "Declared root: ตรี 'three' < Skt tri."
    ]
   },
   {
@@ -131,7 +142,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ยศตำรวจชั้นต่ำสุด ต่ำกว่าสิบตำรวจต + ชั้นที่สาม",
+     "frame": "entity"
     },
     {
      "th": "นาวาตรี",
@@ -157,7 +172,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เรือ + ชั้นที่สาม",
+     "frame": "entity"
     },
     {
      "th": "พลตรี",
@@ -184,7 +203,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "พล"
+     ],
+     "lit": "strength + fish",
+     "lit_th": "กำลัง + ชั้นที่สาม",
+     "frame": "entity"
     },
     {
      "th": "เรือตรี",
@@ -210,7 +237,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เรือ"
+     ],
+     "lit": "boat + fish",
+     "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + ชั้นที่สาม",
+     "frame": "entity"
     },
     {
      "th": "สิบตรี",
@@ -236,7 +271,13 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "cross_listed": [
+      "สิบ"
+     ],
+     "lit": "ten + fish",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + ชั้นที่สาม"
     },
     {
      "th": "จ่าตรี",
@@ -262,7 +303,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "หัวหน้า + ชั้นที่สาม",
+     "frame": "entity"
     },
     {
      "th": "ร้อยตรี",
@@ -287,9 +332,16 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "lit": "hundred + fish",
+     "lit_th": "จำนวน 100 คือ 10 สิบหนรวมกัน + ชั้นที่สาม"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Three as the third grade — ตรี under โท under เอก.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -313,7 +365,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "ไม้ตรี, the third of the tone marks.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -325,6 +381,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 3 manuscript titles, 87 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -349,12 +406,22 @@
     "รา",
     "ตรี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "รา",
+    "รี"
+   ],
+   "lit": "joist + fish",
+   "lit_th": "ไม้ที่กระหนาบอยู่ใต้ท้องพรึงรับพื้ + ปลา",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "อิสตรี",
@@ -379,7 +446,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "หมี + ปลา",
+   "frame": "entity"
   },
   {
    "th": "ตรีศก",
@@ -404,7 +475,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ศก"
+   ],
+   "lit": "fish + hair",
+   "lit_th": "ปลา + ผม",
+   "frame": "entity"
   },
   {
    "th": "เสียงตรี",
@@ -429,7 +508,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เสียง"
+   ],
+   "lit": "voice + fish",
+   "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + ปลา",
+   "frame": "entity"
   },
   {
    "th": "ตรีเอกภาพ",
@@ -454,7 +541,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ปลา + ความเป็นอันหนึ่งอันเดียวกัน",
+   "frame": "entity"
   },
   {
    "th": "ตรีคูณ",
@@ -474,12 +565,17 @@
     "ตรี",
     "คูณ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "fish + times",
+   "lit_th": "ปลา + เพิ่มจำนวนเท่าตัวตามหน่วยที่ต้องกา",
+   "use": "false-split"
   },
   {
    "th": "บุตรี",
@@ -499,12 +595,16 @@
     "บุ",
     "ตรี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ตีให้เข้ารูป + ปลา",
+   "use": "false-split"
   },
   {
    "th": "ตรีโกณ",
@@ -529,7 +629,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ปลา + มุม",
+   "frame": "entity"
   },
   {
    "th": "มนตรี",
@@ -549,12 +653,16 @@
     "มน",
     "ตรี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "อยู่กับที่ + ปลา",
+   "use": "false-split"
   },
   {
    "th": "พันตรี",
@@ -579,7 +687,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "พัน"
+   ],
+   "lit": "k + fish",
+   "lit_th": "เรียกจำนวน 10 ร้อย + ปลา"
   },
   {
    "th": "ตรีณรงค์",
@@ -599,13 +713,17 @@
     "ตรี",
     "ณรงค์"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ปลา + การรบ",
+   "frame": "entity"
   },
   {
    "th": "ตรีจีวร",
@@ -625,12 +743,17 @@
     "ตรี",
     "จีวร"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ปลา + เครื่องนุ่งห่มของภิกษุสามเณร",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ตรีปิฎก",
@@ -650,12 +773,17 @@
     "ตรี",
     "ปิฎก"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ปลา + ตะกร้า",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ตรีกฏุก",
@@ -680,7 +808,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ปลา + เผ็ด",
+   "frame": "quality"
   }
  ],
  "etymology": {

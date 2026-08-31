@@ -1,7 +1,7 @@
 {
  "id": "w:muang",
  "th": "ม่วง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "muang",
  "paiboon": "mûuang",
  "ipa": "/mua̯ŋ˥˩/",
@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "purple"
     ],
     "th": "สีน้ำเงินปนแดง, ถ้าออกครามเรียก สีม่วงคราม, ถ้าออกแดงเรียก สีม่วงชาด, ถ้าเจือขาวเรียก สีม่วงอ่อน",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +33,10 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ม่วง 'purple'.",
+    "Declared root: ม่วง 'purple'.",
+    "Declared root: ม่วง 'purple'."
    ]
   },
   {
@@ -83,8 +87,21 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หมาก"
+     ],
+     "lit": "areca palm + purple",
+     "lit_th": "ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง + มะม่วง",
+     "frame": "quality"
     }
+   ],
+   "needs_check": [
+    "Declared root: ม่วง 'mango' (มะม่วง).",
+    "Declared root: ม่วง 'mango' (มะม่วง).",
+    "Declared root: ม่วง 'mango' (มะม่วง)."
    ]
   },
   {
@@ -109,7 +126,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "ผ้าม่วง, the man's silk cloth, named from its colour.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -158,7 +179,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หวาน"
+     ],
+     "lit": "purple + sweet",
+     "lit_th": "ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก + มีรสอย่างรสน้ำตาล",
+     "frame": "quality"
     },
     {
      "th": "ม่วงคำ",
@@ -183,7 +212,16 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "purple + word",
+     "lit_th": "ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก + เสียงพูด",
+     "flips_with": "คำม่วง",
+     "frame": "quality"
     },
     {
      "th": "ยางม่วง",
@@ -208,7 +246,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ยาง"
+     ],
+     "lit": "rubber + purple",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก",
+     "frame": "quality"
     },
     {
      "th": "บ้านม่วง",
@@ -233,7 +279,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + purple",
+     "lit_th": "ที่อยู่อาศัย + ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก",
+     "frame": "quality"
     },
     {
      "th": "คำม่วง",
@@ -258,7 +312,16 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "word + purple",
+     "lit_th": "เสียงพูด + ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก",
+     "flips_with": "ม่วงคำ",
+     "frame": "quality"
     },
     {
      "th": "ม่วงยาย",
@@ -283,7 +346,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit": "purple + gram",
+     "lit_th": "ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก + แม่ของแม่",
+     "frame": "quality"
     },
     {
      "th": "ม่วงชุม",
@@ -308,7 +376,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "cross_listed": [
+      "ชุม"
+     ],
+     "lit": "purple + abound",
+     "lit_th": "ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก + มารวมกัน",
+     "frame": "quality"
     },
     {
      "th": "ม่วงเตี้ย",
@@ -333,7 +409,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "lit": "purple + short",
+     "lit_th": "ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก + มีรูปร่างต่ำกว่าปรกติ",
+     "frame": "quality"
     },
     {
      "th": "วังม่วง",
@@ -358,7 +439,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + purple",
+     "lit_th": "ที่อยู่ของเจ้านาย + ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก",
+     "frame": "quality"
     },
     {
      "th": "ม่วงนา",
@@ -383,7 +472,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "purple + farm",
+     "lit_th": "ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "frame": "quality"
     },
     {
      "th": "ม่วงสามสิบ",
@@ -408,7 +505,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "lit": "purple + thirty",
+     "lit_th": "ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก + จำนวน 30 คือ 10 สามหนรวมกัน"
     },
     {
      "th": "ท่าม่วง",
@@ -433,7 +533,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + purple",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก",
+     "frame": "quality"
     },
     {
      "th": "คลองม่วง",
@@ -458,7 +566,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "canal + purple",
+     "lit_th": "ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข + ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก",
+     "frame": "quality"
     },
     {
      "th": "หนองม่วง",
@@ -483,7 +599,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + purple",
+     "lit_th": "แอ่งน้ำ + ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก",
+     "frame": "quality"
     },
     {
      "th": "ห้วยม่วง",
@@ -508,7 +632,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ห้วย"
+     ],
+     "lit": "stream pool + purple",
+     "lit_th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขา + ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก",
+     "frame": "quality"
     },
     {
      "th": "คุยม่วง",
@@ -533,8 +665,18 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit": "talk + purple",
+     "lit_th": "พูดจาสนทนากัน + ชื่อเรือขุดรูปคล้ายเรือมาด แต่ยาวก",
+     "frame": "quality"
     }
+   ],
+   "needs_check": [
+    "Declared root: เรือม่วง, a boat type.",
+    "Declared root: เรือม่วง, a boat type.",
+    "Declared root: เรือม่วง, a boat type."
    ]
   }
  ],
@@ -547,6 +689,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 7 manuscript titles, 30 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -571,13 +714,18 @@
     "ความ",
     "ม่วง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + purple",
+   "lit_th": "เรื่อง + สีน้ำเงินปนแดง",
+   "frame": "quality"
   }
  ],
  "etymology": {

@@ -1,7 +1,7 @@
 {
  "id": "w:khai-3",
  "th": "ไข",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "khai",
  "paiboon": "kǎi",
  "ipa": "/kʰaj˩˩˦/",
@@ -12,11 +12,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "fat",
+     "wax",
+     "tallow"
     ],
     "th": "มันข้น, น้ำมันที่ได้จากสัตว์ พืช หรือแร่ ที่แข็งตัวในอุณหภูมิปรกติ",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +35,9 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ไข 'fat, wax'.",
+    "Declared root: ไข 'fat, wax'."
    ]
   },
   {
@@ -57,7 +62,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Fat that is solid because it is cold.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -81,6 +90,10 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ไข 'to turn, to wind' — separate.",
+    "Declared root: ไข 'to turn, to wind' — separate."
    ]
   },
   {
@@ -130,9 +143,21 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลาน"
+     ],
+     "lit": "fat + open ground",
+     "lit_th": "หมุน + บริเวณที่ว่าง",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "Turning widened from the screw to anything turned.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -182,7 +207,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร + บอก",
+     "flips_with": "ไขข้อ",
+     "frame": "entity"
     },
     {
      "th": "สนองไข",
@@ -208,9 +238,17 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "meet + fat",
+     "lit_th": "ทำตามที่ได้รับคำสั่งหรือคำขอร้อง + บอก"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Turning a thing open: to explain, to disclose.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -222,6 +260,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 7 manuscript titles, 475 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -251,7 +290,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "มันข้น + ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร",
+   "flips_with": "ข้อไข",
+   "frame": "entity"
   },
   {
    "th": "ไขมัน",
@@ -277,7 +321,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "มัน"
+   ],
+   "lit": "fat + it",
+   "lit_th": "มันข้น + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+   "frame": "entity"
   },
   {
    "th": "ไขควง",
@@ -302,7 +354,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "มันข้น + แกว่งหรือทำให้หมุนไปโดยรอบ"
   },
   {
    "th": "การแก้ไข",
@@ -323,13 +378,17 @@
     "การแก้",
     "ไข"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แก้ + มันข้น",
+   "frame": "entity"
   },
   {
    "th": "เงื่อนไข",
@@ -355,7 +414,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "knot + fat",
+   "lit_th": "เชือกหรือเส้นด้ายเป็นต้นที่ผูกกันเ + มันข้น",
+   "frame": "entity"
   },
   {
    "th": "ไขสือ",
@@ -380,7 +444,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "มันข้น + ตัวอักษร",
+   "frame": "entity"
   },
   {
    "th": "ไขสันหลัง",
@@ -405,7 +473,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "มันข้น + ส่วนของร่างกายด้านหลัง ซึ่งมีกระดู",
+   "frame": "entity"
   },
   {
    "th": "การสนองไข",
@@ -425,13 +497,17 @@
     "การสนอง",
     "ไข"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สนอง + มันข้น",
+   "frame": "entity"
   },
   {
    "th": "แก้ไข",
@@ -459,7 +535,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แก้"
+   ],
+   "lit": "cowrie shell used to burnish cloth + fat",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + มันข้น",
+   "frame": "entity"
   },
   {
    "th": "กระดาษไข",
@@ -484,7 +568,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "paper + fat",
+   "lit_th": "วัตถุเป็นแผ่นบาง ๆ โดยมากทำจากใยเป + มันข้น",
+   "frame": "entity"
   },
   {
    "th": "ไขกระดูก",
@@ -509,7 +598,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "fat + bone",
+   "lit_th": "มันข้น + โครงร่างกายที่มีลักษณะแข็ง",
+   "frame": "entity"
   },
   {
    "th": "การไข",
@@ -529,13 +623,17 @@
     "การ",
     "ไข"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + มันข้น",
+   "frame": "entity"
   },
   {
    "th": "ไขก๊อก",
@@ -560,7 +658,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "มันข้น + เครื่องเปิดปิดน้ำจากท่อหรือภาชนะ",
+   "frame": "entity"
   }
  ],
  "etymology": {

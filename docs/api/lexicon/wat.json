@@ -1,7 +1,7 @@
 {
  "id": "w:wat",
  "th": "วัด",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "wat",
  "paiboon": "wát",
  "ipa": "/wat̚˦˥/",
@@ -12,12 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "temple",
-     "wat",
-     "abbey"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิหาร และที่อยู่ของสงฆ์หรือนักบวชเป็นต้น, ในไทยมักหมายถึงวัดของศาสนาพุทธ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -35,7 +33,9 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: วัด, the temple.",
+    "Declared root: วัด, the temple."
    ],
    "compounds": [
     {
@@ -62,7 +62,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "temple + guest",
+     "lit_th": "สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ + ผู้มาหา",
+     "frame": "entity"
     },
     {
      "th": "ของวัด",
@@ -88,7 +93,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "by + temple",
+     "lit_th": "สิ่งต่าง ๆ + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+     "frame": "entity"
     }
    ]
   },
@@ -96,12 +109,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "temple",
-     "wat",
-     "abbey"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ตวัดขึ้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -117,18 +128,20 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: วัด 'to swing, to sweep'.",
+    "Declared root: วัด 'to swing, to sweep'."
    ]
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "temple",
-     "wat",
-     "abbey"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "เหวี่ยงแขนหรือขาไปโดยแรง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -144,18 +157,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Swinging an arm or a leg out hard.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "temple",
-     "wat",
-     "abbey"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "สอบขนาดหรือปริมาณของสิ่งต่าง ๆ เช่นวัดส่วนยาว ส่วนกว้าง ส่วนสูง หรือความรู้เป็นต้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -171,6 +186,10 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: วัด 'to measure' — its link to the swinging word is not established here.",
+    "Declared root: วัด 'to measure' — its link to the swinging word is not established here."
    ]
   },
   {
@@ -241,7 +260,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหม่"
+     ],
+     "lit": "wat as an element in place names + again",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เพิ่งมี",
+     "frame": "quality"
     },
     {
      "th": "วัดเกาะ",
@@ -267,7 +294,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เกาะ"
+     ],
+     "lit": "wat as an element in place names + island",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนของแผ่นดินที่มีน้ำล้อมรอบ",
+     "frame": "entity"
     },
     {
      "th": "วัดท่าพระ",
@@ -293,7 +328,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภอเมืองขอนแก่น จ"
     },
     {
      "th": "วัดเพลง",
@@ -319,7 +357,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "wat as an element in place names + song",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สำเนียงขับร้อง",
+     "frame": "entity"
     },
     {
      "th": "ท่าวัด",
@@ -345,7 +388,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + wat as an element in place names",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "วัดพริก",
@@ -371,7 +422,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "wat as an element in place names + pepper",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกในสกุล Capsicum วงศ์",
+     "frame": "entity"
     },
     {
      "th": "วัดสุวรรณ",
@@ -397,7 +453,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทอง",
+     "frame": "entity"
     },
     {
      "th": "วัดจันทร์",
@@ -423,7 +483,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "วัดโบสถ์",
@@ -449,7 +511,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "wat as an element in place names + temple",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สถานที่สำหรับพระสงฆ์ใช้ประชุมทำสัง",
+     "frame": "entity"
     },
     {
      "th": "วัดอรุณ",
@@ -475,7 +542,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เวลาใกล้พระอาทิตย์จะขึ้น มี 2 ระยะ",
+     "frame": "entity"
     },
     {
      "th": "วัดสิงห์",
@@ -501,7 +572,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิงโต",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -521,6 +596,8 @@
   "Attested in this corpus: 47 manuscript titles, 3273 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits ['บวช', 'สงฆ์', 'ศาสนา', 'พุทธ'].",
@@ -548,7 +625,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "canine + temple",
+   "lit_th": "สัตว์เลี้ยงลูกด้วยน้ำนมหลายชนิดหลา + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+   "frame": "entity"
   },
   {
    "th": "เด็กวัด",
@@ -573,7 +655,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "child + temple",
+   "lit_th": "คนที่มีอายุยังน้อย + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+   "frame": "entity"
   },
   {
    "th": "การวัด",
@@ -595,13 +682,17 @@
     "การ",
     "วัด"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+   "frame": "entity"
   },
   {
    "th": "ศาลาวัด",
@@ -626,7 +717,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "อาคารทรงไทย ปล่อยโถง ไม่กั้นฝา ใช้ + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+   "frame": "entity"
   },
   {
    "th": "ความแก่วัด",
@@ -646,13 +741,17 @@
     "ความแก่",
     "วัด"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แก่ + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+   "frame": "entity"
   },
   {
    "th": "การกวัด",
@@ -672,13 +771,17 @@
     "การก",
     "วัด"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้กระทำ + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+   "frame": "entity"
   },
   {
    "th": "วัดหลวง",
@@ -703,7 +806,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "หลวง"
+   ],
+   "lit": "temple + royal",
+   "lit_th": "สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "วัดราษฎร์",
@@ -728,7 +839,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ + พลเมืองของประเทศ",
+   "frame": "entity"
   },
   {
    "th": "กระวัด",
@@ -753,7 +868,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
   },
   {
    "th": "แก่วัด",
@@ -778,7 +896,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit": "old + temple",
+   "lit_th": "มีอายุมาก + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+   "frame": "quality"
   },
   {
    "th": "จำวัด",
@@ -802,7 +925,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "remember + temple",
+   "lit_th": "กำหนดไว้ในใจ + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ"
   }
  ],
  "etymology": {
@@ -820,5 +947,10 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "temple",
+  "wat",
+  "abbey"
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "w:bua",
  "th": "บัว",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "bua",
  "paiboon": "buua",
  "ipa": "/bua̯˧/",
@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "lotus"
     ],
     "th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในวงศ์ Nymphaeaceae คือ สกุล Nelumbo ใบ เป็นแผ่นกลม ขอบเรียบ ก้านใบและก้านดอกแข็ง มีตุ่มหนาม ชูใบและดอกขึ้นพ้นผิวน้ำ",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -58,7 +59,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลาย"
+     ],
+     "lit": "lotus + design",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+     "frame": "entity"
     },
     {
      "th": "กาบบัว",
@@ -82,7 +91,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เปลือกหุ้มชั้นนอกของผลไม้ หรือดอกข + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+     "frame": "entity"
     },
     {
      "th": "วังบัว",
@@ -107,7 +120,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + lotus",
+     "lit_th": "ที่อยู่ของเจ้านาย + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+     "frame": "entity"
     },
     {
      "th": "บัวเงิน",
@@ -132,7 +153,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เงิน"
+     ],
+     "lit": "lotus + bread",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+     "frame": "entity"
     },
     {
      "th": "บัวขาว",
@@ -157,7 +186,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขาว"
+     ],
+     "lit": "lotus + white",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
     },
     {
      "th": "นาบัว",
@@ -182,7 +219,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + lotus",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+     "frame": "entity"
     },
     {
      "th": "บัวบาน",
@@ -207,7 +252,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + น้ำสำหรับดื่ม",
+     "frame": "entity"
     },
     {
      "th": "บัวใหญ่",
@@ -232,7 +281,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "lotus + huge",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + โต",
+     "frame": "quality"
     }
    ]
   },
@@ -284,9 +341,18 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "lotus + a",
+     "lit_th": "ส่วนประกอบ ทางสถาปัตยกรรมที่ทำเป็น + คน สัตว์ หรือสิ่งต่าง ๆ ที่รวมกันเ",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The lotus-petal moulding on a base or capital.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -336,7 +402,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + lotus",
+     "lit_th": "แอ่งน้ำ + ลวดบัว",
+     "frame": "entity"
     },
     {
      "th": "บัวอกไก่",
@@ -362,7 +436,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ลวดบัว + อกของไก่",
+     "frame": "entity"
     },
     {
      "th": "ก้านบัว",
@@ -387,7 +465,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่ต่อดอก หรือใบ หรือผล กับกิ่ + ลวดบัว",
+     "frame": "entity"
     },
     {
      "th": "บัวแดง",
@@ -413,9 +495,21 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "lotus + red",
+     "lit_th": "ลวดบัว + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And ลวดบัว, the moulding itself.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -454,7 +548,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "หลวง"
+   ],
+   "lit": "lotus + royal",
+   "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "กบบัว",
@@ -479,7 +581,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กบ"
+   ],
+   "lit": "frog + lotus",
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+   "frame": "entity"
   },
   {
    "th": "ดอกบัว",
@@ -505,7 +615,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "flower + lotus",
+   "lit_th": "ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+   "frame": "entity"
   },
   {
    "th": "ฝักบัว",
@@ -530,7 +645,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ซอง + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+   "frame": "entity"
   },
   {
    "th": "บัวลอย",
@@ -555,7 +674,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ลอย"
+   ],
+   "lit": "lotus + float",
+   "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + ทรงตัวอยู่ในอากาศ"
   }
  ],
  "etymology": {

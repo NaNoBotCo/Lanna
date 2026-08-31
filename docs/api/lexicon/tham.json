@@ -13,11 +13,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "dharma",
-     "fair"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "คุณความดี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -62,7 +61,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "cross_listed": [
+      "คุณ"
+     ],
+     "lit": "you + dharma",
+     "lit_th": "คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค + คุณความดี",
+     "flips_with": "ธรรมคุณ"
     }
    ],
    "extends": 2,
@@ -74,11 +80,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "dharma",
-     "fair"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "คำสั่งสอนในศาสนา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -100,11 +105,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "dharma",
-     "fair"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "หลักประพฤติปฏิบัติในศาสนา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -130,11 +134,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "dharma",
-     "fair"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ความจริง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -177,7 +180,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความจริง + ความจริง",
+     "frame": "entity"
     }
    ],
    "extends": 2,
@@ -189,11 +196,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "dharma",
-     "fair"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ความยุติธรรม, ความถูกต้อง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -237,7 +243,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "finish + dharma",
+     "lit_th": "ชอบ + ความยุติธรรม"
     },
     {
      "th": "เป็นธรรม",
@@ -263,7 +273,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เป็น"
+     ],
+     "lit": "are + dharma",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ความยุติธรรม"
     },
     {
      "th": "ชอบธรรม",
@@ -290,7 +307,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "like + dharma",
+     "lit_th": "พอใจและทำบ่อย ๆ + ความยุติธรรม"
     }
    ],
    "extends": 1,
@@ -302,11 +323,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "dharma",
-     "fair"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "กฎ, กฎเกณฑ์",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -332,11 +352,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "dharma",
-     "fair"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "กฎหมาย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -362,11 +381,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "dharma",
-     "fair"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "สิ่งทั้งหลาย, สิ่งของ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -392,11 +410,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "dharma",
-     "fair"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "คำประกอบท้ายคำที่เป็นนามธรรม เมื่อประกอบแล้วมีความหมายไม่ต่างไปจากคำศัพท์เดิม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -438,7 +455,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความเจริญ + คำประกอบท้ายคำที่เป็นนามธรรม เมื่อ",
+     "frame": "entity"
     },
     {
      "th": "อารยธรรม",
@@ -463,7 +484,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "เจริญ + คำประกอบท้ายคำที่เป็นนามธรรม เมื่อ",
+     "frame": "quality"
     },
     {
      "th": "นามธรรม",
@@ -489,7 +514,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นาม"
+     ],
+     "lit": "name + dharma",
+     "lit_th": "ชื่อ + คำประกอบท้ายคำที่เป็นนามธรรม เมื่อ",
+     "frame": "entity"
     }
    ],
    "extends": 8,
@@ -501,11 +534,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "dharma",
-     "fair"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "สมณศักดิ์พระราชาคณะ สูงกว่าชั้นเทพ ต่ำกว่าชั้นหิรัญบัฏ เรียกว่า ชั้นธรรม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -539,6 +571,8 @@
   "Attested in this corpus: 35 manuscript titles, 284 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 40; domain seeded by keyword hits ['override'].",
@@ -566,7 +600,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คุณความดี + ถ้อยคำ",
+   "frame": "entity"
   },
   {
    "th": "ทรงธรรม",
@@ -591,7 +629,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ทรง"
+   ],
+   "lit": "form + dharma",
+   "lit_th": "รูปร่าง + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "ธรรมเนียม",
@@ -617,7 +663,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คุณความดี + ชื่อไม้พุ่มขนาดเล็กชนิด Chloranthu",
+   "frame": "entity"
   },
   {
    "th": "ธรรมนิยม",
@@ -642,7 +692,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "นิยม"
+   ],
+   "lit": "dharma + like",
+   "lit_th": "คุณความดี + การกำหนด",
+   "frame": "entity"
   },
   {
    "th": "ความเป็นธรรม",
@@ -662,13 +720,17 @@
     "ความเป็น",
     "ธรรม"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เป็น + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "กัลยาณธรรม",
@@ -688,12 +750,17 @@
     "กัลยาณ",
     "ธรรม"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ดี + คุณความดี",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "นักธรรม",
@@ -718,7 +785,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ใช้ประกอบหน้าคำอื่นหมายความว่า ผู้ + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "ขันติธรรม",
@@ -743,7 +814,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ความอดกลั้นต่อสิ่งที่ไม่พอใจ + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "ความชอบธรรม",
@@ -763,13 +838,18 @@
     "ความชอบ",
     "ธรรม"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "come out of the closet + dharma",
+   "lit_th": "คำอาการนามของ ชอบ + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "ความเที่ยงธรรม",
@@ -789,13 +869,18 @@
     "ความเที่ยง",
     "ธรรม"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "precision + dharma",
+   "lit_th": "คำอาการนามของ เที่ยง + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "รูปธรรม",
@@ -820,7 +905,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "รูป"
+   ],
+   "lit": "image + dharma",
+   "lit_th": "สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1 + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "ธรรมจักร",
@@ -840,12 +933,21 @@
     "ธรรม",
     "จักร"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "จักร"
+   ],
+   "lit": "dharma + chakra",
+   "lit_th": "คุณความดี + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "เบญจธรรม",
@@ -865,12 +967,15 @@
     "เบญจ",
     "ธรรม"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ห้า + คุณความดี",
+   "use": "false-split"
   },
   {
    "th": "ธรรมบท",
@@ -895,7 +1000,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "บท"
+   ],
+   "lit": "dharma + unit",
+   "lit_th": "คุณความดี + ข้อความเรื่องหนึ่ง ๆ หรือตอนหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "ธรรมบดี",
@@ -915,12 +1028,17 @@
     "ธรรม",
     "บดี"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คุณความดี + เจ้า",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ภูมิธรรม",
@@ -945,7 +1063,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ภูมิ"
+   ],
+   "lit": "land + dharma",
+   "lit_th": "แผ่นดิน + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "ธรรมคุณ",
@@ -970,7 +1096,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "คุณ"
+   ],
+   "lit": "dharma + you",
+   "lit_th": "คุณความดี + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค",
+   "flips_with": "คุณธรรม"
   },
   {
    "th": "การทรงธรรม",
@@ -990,13 +1123,17 @@
     "การทรง",
     "ธรรม"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ทรง + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "ศีลธรรม",
@@ -1023,7 +1160,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ข้อบัญญัติทางพระพุทธศาสนาที่กำหนดก + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "บุญธรรม",
@@ -1048,7 +1189,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "บุญ"
+   ],
+   "lit": "merit + dharma",
+   "lit_th": "ความสุข + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "มนุษยธรรม",
@@ -1073,7 +1222,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สัตว์ที่รู้จักใช้เหตุผล + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "ธรรมศาสตร์",
@@ -1093,12 +1246,18 @@
     "ธรรม",
     "ศาสตร์"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "dharma + discipline",
+   "lit_th": "คุณความดี + ระบบวิชาความรู้",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "คติธรรม",
@@ -1123,7 +1282,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "การไป + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "คริสต์ธรรม",
@@ -1147,7 +1310,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit_th": "ชื่อหนึ่งของพระเยซู + คุณความดี"
   },
   {
    "th": "ธรรมกาย",
@@ -1167,12 +1333,21 @@
     "ธรรม",
     "กาย"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "กาย"
+   ],
+   "lit": "dharma + body",
+   "lit_th": "คุณความดี + ตัว",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "จริยธรรม",
@@ -1197,7 +1372,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ความประพฤติ + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "นิติธรรม",
@@ -1222,7 +1401,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "กฎหมาย + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "ไทยธรรม",
@@ -1247,7 +1430,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "cross_listed": [
+    "ไทย"
+   ],
+   "lit": "Thai + dharma",
+   "lit_th": "ประเทศ ใน เอเชียตะวันออกเฉียงใต้ + คุณความดี"
   },
   {
    "th": "ธรรมชาติ",
@@ -1273,7 +1463,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ชาติ"
+   ],
+   "lit": "dharma + birth",
+   "lit_th": "คุณความดี + การเกิด",
+   "frame": "entity"
   },
   {
    "th": "เปรียญธรรม",
@@ -1297,7 +1495,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้สอบความรู้พระปริยัติธรรมสายบาลี + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "เที่ยงธรรม",
@@ -1323,7 +1525,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ตรง + คุณความดี",
+   "frame": "quality"
   },
   {
    "th": "มโนธรรม",
@@ -1349,7 +1555,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ใจ + คุณความดี",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -1380,5 +1590,9 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "dharma",
+  "fair"
  ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "w:khat-2",
  "th": "ขัด",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "khat",
  "paiboon": "kàt",
  "ipa": "/kʰat̚˨˩/",
@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "abrade",
-     "burnish",
-     "against",
-     "polish"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ให้ติดขวางไว้ไม่ให้หลุดออก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -36,7 +33,12 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ขัด 'to catch, to obstruct'.",
+    "Declared root: ขัด 'to catch, to obstruct'.",
+    "Declared root: ขัด 'to catch, to obstruct'.",
+    "Declared root: ขัด 'to catch, to obstruct'.",
+    "Declared root: ขัด 'to catch, to obstruct'."
    ],
    "compounds": [
     {
@@ -66,7 +68,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "ขวาง"
+     ],
+     "lit": "abrade + across",
+     "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + กีดกั้น"
     },
     {
      "th": "ขัดกลอน",
@@ -90,7 +99,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "abrade + poem",
+     "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + ไม้ขัดประตูหน้าต่าง"
     }
    ]
   },
@@ -98,13 +111,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "abrade",
-     "burnish",
-     "against",
-     "polish"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "เหน็บ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -120,19 +130,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Caught in place by tucking.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "abrade",
-     "burnish",
-     "against",
-     "polish"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ไม่ทำตาม, ฝ่าฝืน, ขืนไว้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -174,21 +185,25 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ไม่ทำตาม + ยั้งไว้หรือบังคับไว้ไม่ให้เป็นไปตา"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Setting oneself across: to refuse, to resist.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "abrade",
-     "burnish",
-     "against",
-     "polish"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "แย้งกัน, ไม่ลงรอยกัน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -232,21 +247,25 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "แย้งกัน + ไม่ตรงหรือลงรอยเดียวกัน"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "Two things across each other: to conflict.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "abrade",
-     "burnish",
-     "against",
-     "polish"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ถูให้เกลี้ยง, ถูให้ผ่องใส, ถูให้ขึ้นเงา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -289,21 +308,28 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ถูให้เกลี้ยง + ทำสิ่งที่ยังขรุขระอยู่ให้เกลี้ยงหร"
     }
+   ],
+   "needs_check": [
+    "Declared root: ขัด 'to rub smooth, to polish' — probably separate.",
+    "Declared root: ขัด 'to rub smooth, to polish' — probably separate.",
+    "Declared root: ขัด 'to rub smooth, to polish' — probably separate.",
+    "Declared root: ขัด 'to rub smooth, to polish' — probably separate.",
+    "Declared root: ขัด 'to rub smooth, to polish' — probably separate."
    ]
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "abrade",
-     "burnish",
-     "against",
-     "polish"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ไม่ใคร่จะมี, ฝืดเคือง, ไม่คล่อง, ไม่เป็นปรกติ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -345,21 +371,25 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ไม่ใคร่จะมี + ชื่อไม้ต้นหลายชนิดหลายสกุลในหลายวง"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Caught short: straitened, not running freely.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "abrade",
-     "burnish",
-     "against",
-     "polish"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "คาด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -375,7 +405,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Tucked round the waist: to gird.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -389,6 +423,8 @@
   "Attested in this corpus: 0 manuscript titles, 25 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['เงา', 'ใส'].",
@@ -415,7 +451,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + ส่วนกลางของล้อเกวียนหรือล้อรถที่มี"
   },
   {
    "th": "แก้ขัด",
@@ -440,7 +479,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "แก้"
+   ],
+   "lit": "cowrie shell used to burnish cloth + abrade",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ให้ติดขวางไว้ไม่ให้หลุดออก"
   },
   {
    "th": "การแก้ขัด",
@@ -460,13 +506,16 @@
     "การแก้",
     "ขัด"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แก้ + ให้ติดขวางไว้ไม่ให้หลุดออก"
   },
   {
    "th": "ขัดสมาธิ",
@@ -491,7 +540,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + ความตั้งมั่นแห่งจิต"
   },
   {
    "th": "การขัด",
@@ -514,13 +566,16 @@
     "การ",
     "ขัด"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ให้ติดขวางไว้ไม่ให้หลุดออก"
   },
   {
    "th": "ขัดข้อง",
@@ -545,7 +600,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + เครื่องจักสานสำหรับใส่ปลา ปู เป็นต"
   },
   {
    "th": "การติดขัด",
@@ -565,13 +623,17 @@
     "การติด",
     "ขัด"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "addiction + abrade",
+   "lit_th": "คำอาการนามของ ติด + ให้ติดขวางไว้ไม่ให้หลุดออก"
   },
   {
    "th": "ติดขัด",
@@ -596,7 +658,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "ติด"
+   ],
+   "lit": "fit + abrade",
+   "lit_th": "อาการที่ข้องอยู่ + ให้ติดขวางไว้ไม่ให้หลุดออก"
   },
   {
    "th": "ขัดใจ",
@@ -621,7 +690,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "abrade + heart",
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
   },
   {
    "th": "ยาขัด",
@@ -646,7 +722,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ยา"
+   ],
+   "lit": "medicine + abrade",
+   "lit_th": "สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ + ให้ติดขวางไว้ไม่ให้หลุดออก"
   },
   {
    "th": "ขัดจรวด",
@@ -671,7 +754,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "abrade + rocket",
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + ชื่อดอกไม้ไฟชนิดหนึ่ง ใช้ไม้อ้อบรร"
   },
   {
    "th": "ขัดเคือง",
@@ -696,7 +783,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + ไม่พอใจและเริ่มรู้สึกโกรธ"
   },
   {
    "th": "เข็มขัด",
@@ -722,7 +812,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "needle + abrade",
+   "lit_th": "เหล็กแหลมใช้เย็บผ้าเป็นต้นหรือกลัด + ให้ติดขวางไว้ไม่ให้หลุดออก"
   },
   {
    "th": "ขัดตา",
@@ -747,7 +841,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตา"
+   ],
+   "lit": "abrade + eye",
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + พ่อของแม่"
   }
  ],
  "etymology": {
@@ -778,5 +879,11 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "abrade",
+  "burnish",
+  "against",
+  "polish"
  ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "w:sa-than",
  "th": "สถาน",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "sa-than",
  "paiboon": "sà-tǎan",
  "ipa": "/sa˨˩.tʰaːn˩˩˦/",
@@ -13,11 +13,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "place",
+     "site"
     ],
     "th": "ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง ที่, แหล่ง",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -59,7 +61,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "ancient + place",
+     "lit_th": "มีมาแล้วช้านาน + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+     "frame": "quality"
     },
     {
      "th": "สถานที่",
@@ -87,7 +94,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "place + at",
+     "lit_th": "ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง + แหล่ง",
+     "frame": "entity"
     }
    ]
   },
@@ -139,7 +151,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ประการ + ผู้นำข้อความไปแจ้งทั้ง 2 ฝ่าย",
+     "frame": "entity"
     },
     {
      "th": "ศุลกสถาน",
@@ -165,9 +181,17 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "เนื่องด้วยการเก็บอากรจากสินค้าขาเข + ประการ",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A place becomes a respect, a particular — ในสถานใด.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -191,7 +215,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "And a state, a condition.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -240,9 +268,17 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "ดีกว่า + ชื่อตำบลหนึ่งในอำเภอเชียงของ จังหว",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A tambon named from a place.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -254,6 +290,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 0 manuscript titles, 9 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -283,7 +320,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "place + learn",
+   "lit_th": "ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง + การเล่าเรียน การฝึกฝน และการอบรม",
+   "frame": "entity"
   },
   {
    "th": "รณสถาน",
@@ -308,7 +350,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เสียง + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+   "frame": "entity"
   },
   {
    "th": "ฮินดูสถาน",
@@ -328,13 +374,16 @@
     "ฮินดู",
     "สถาน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit_th": "ชื่อศาสนาหนึ่งที่เกิดในอินเดีย มีว + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง"
   },
   {
    "th": "พุทธสถาน",
@@ -359,7 +408,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "พุทธ"
+   ],
+   "lit": "the awakened one + place",
+   "lit_th": "ผู้ตรัสรู้ + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+   "frame": "entity"
   },
   {
    "th": "ทัณฑสถาน",
@@ -384,7 +441,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ ทัณฑ์ + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+   "frame": "entity"
   },
   {
    "th": "สาธารณสถาน",
@@ -409,7 +470,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ สาธารณะ + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+   "frame": "quality"
   },
   {
    "th": "สถานภาพ",
@@ -436,7 +501,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "place + image",
+   "lit_th": "ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง + ความมี",
+   "frame": "entity"
   },
   {
    "th": "สถานการณ์",
@@ -464,7 +534,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง + เค้า",
+   "frame": "entity"
   },
   {
    "th": "เทวสถาน",
@@ -490,7 +564,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เทวดา + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+   "frame": "entity"
   },
   {
    "th": "ฌาปนสถาน",
@@ -515,7 +593,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "การเผาศพ + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+   "frame": "entity"
   }
  ],
  "etymology": {

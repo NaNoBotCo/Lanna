@@ -1,7 +1,7 @@
 {
  "id": "w:man-2",
  "th": "มั่น",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "man",
  "paiboon": "mân",
  "ipa": "/man˥˩/",
@@ -30,17 +30,24 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Firm in place becomes firm in the mind: certain.",
+   "via_conf": "probable"
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 2]"
+     "firm",
+     "fixed",
+     "immovable"
     ],
     "th": "แน่น, ไม่เคลื่อนจากที่",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -51,6 +58,12 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: มั่น 'firm, immovable' — the physical sense, taken as the origin of the certainty one.",
+    "Declared root: มั่น 'firm, immovable' — the physical sense, taken as the origin of the certainty one.",
+    "Declared root: มั่น 'firm, immovable' — the physical sense, taken as the origin of the certainty one.",
+    "Declared root: มั่น 'firm, immovable' — the physical sense, taken as the origin of the certainty one."
    ]
   },
   {
@@ -100,9 +113,21 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "firm + heart",
+     "lit_th": "มั่นใจในตนเอง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "And certainty about oneself: confidence.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -114,6 +139,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 0 manuscript titles, 34 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -143,7 +169,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit": "firm + sign",
+   "lit_th": "แน่ + หนังสือราชการที่ใช้เกณฑ์ เกาะกุม ห",
+   "flips_with": "หมายมั่น",
+   "frame": "quality"
   },
   {
    "th": "ยึดมั่น",
@@ -168,7 +200,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "ถือเอาไว้ + แน่",
+   "frame": "quality"
   },
   {
    "th": "หมายมั่น",
@@ -193,7 +229,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "sign + firm",
+   "lit_th": "หนังสือราชการที่ใช้เกณฑ์ เกาะกุม ห + แน่",
+   "flips_with": "มั่นหมาย",
+   "frame": "quality"
   },
   {
    "th": "ที่มั่น",
@@ -218,7 +260,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "at + firm",
+   "lit_th": "แหล่ง + แน่",
+   "frame": "quality"
   },
   {
    "th": "มั่นคง",
@@ -246,7 +293,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "lit": "firm + probably",
+   "lit_th": "แน่ + ยังมียังเป็นอยู่อย่างเดิม",
+   "frame": "quality"
   },
   {
    "th": "การมั่น",
@@ -266,13 +318,17 @@
     "การ",
     "มั่น"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "งาน + แน่",
+   "frame": "quality"
   },
   {
    "th": "ความหมายมั่น",
@@ -292,13 +348,18 @@
     "ความหมาย",
     "มั่น"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "meaning + firm",
+   "lit_th": "สิ่งที่ตีความไว้ + แน่",
+   "frame": "quality"
   },
   {
    "th": "ความมั่น",
@@ -318,13 +379,18 @@
     "ความ",
     "มั่น"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + firm",
+   "lit_th": "เรื่อง + แน่",
+   "frame": "quality"
   },
   {
    "th": "การเชื่อมั่น",
@@ -344,13 +410,17 @@
     "การเชื่อ",
     "มั่น"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เชื่อ + แน่",
+   "frame": "quality"
   },
   {
    "th": "เชื่อมั่น",
@@ -376,7 +446,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit": "believe + firm",
+   "lit_th": "เห็นตามด้วย + แน่",
+   "frame": "quality"
   },
   {
    "th": "การมุ่งมั่น",
@@ -396,13 +471,17 @@
     "การมุ่ง",
     "มั่น"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ มุ่ง + แน่",
+   "frame": "quality"
   },
   {
    "th": "ตั้งมั่น",
@@ -427,7 +506,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ตั้ง"
+   ],
+   "lit": "introduce + firm",
+   "lit_th": "ชูตัว + แน่",
+   "frame": "quality"
   },
   {
    "th": "คำมั่น",
@@ -452,7 +539,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "คำ"
+   ],
+   "lit": "word + firm",
+   "lit_th": "เสียงพูด + แน่",
+   "frame": "quality"
   },
   {
    "th": "การหมายมั่น",
@@ -472,13 +567,17 @@
     "การหมาย",
     "มั่น"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หมาย + แน่",
+   "frame": "quality"
   },
   {
    "th": "การยึดมั่น",
@@ -498,13 +597,17 @@
     "การยึด",
     "มั่น"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ยึด + แน่",
+   "frame": "quality"
   },
   {
    "th": "มุ่งมั่น",
@@ -529,7 +632,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "ตั้งใจ + แน่",
+   "frame": "quality"
   },
   {
    "th": "ความเชื่อมั่น",
@@ -549,13 +656,18 @@
     "ความเชื่อ",
     "มั่น"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "idea + firm",
+   "lit_th": "คำอาการนามของ เชื่อ + แน่",
+   "frame": "quality"
   }
  ],
  "etymology": {

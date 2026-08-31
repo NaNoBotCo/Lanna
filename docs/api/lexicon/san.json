@@ -1,7 +1,7 @@
 {
  "id": "w:san",
  "th": "สัน",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "san",
  "paiboon": "sǎn",
  "ipa": "/san˩˩˦/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "ridge",
+     "crest"
     ],
     "th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยาว",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -59,7 +61,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เขา"
+     ],
+     "lit": "ridge + mountain",
+     "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+     "frame": "entity"
     }
    ]
   },
@@ -111,9 +121,18 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ridge + knife",
+     "lit_th": "ส่วนหนาของมีดหรือขวานซึ่งอยู่ตรงข้ + อาวุธชนิดหนึ่ง มีขนาดยาวและมีคมที่",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The ridge of a blade: its thick back, against the edge.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -183,7 +202,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทราย"
+     ],
+     "lit": "san as an element in place names + sand",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+     "frame": "entity"
     },
     {
      "th": "สันมะค่า",
@@ -209,7 +236,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Afzelia xyl",
+     "frame": "entity"
     },
     {
      "th": "สันมหาพน",
@@ -235,7 +266,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อกัณฑ์ที่ 7 ของมหาชาติ ว่าด้วยเ"
     },
     {
      "th": "สันกำแพง",
@@ -261,7 +295,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "san as an element in place names + wall",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องกั้น เครื่องล้อม ที่ก่อด้วย",
+     "frame": "entity"
     },
     {
      "th": "สันผีเสื้อ",
@@ -287,7 +326,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "san as an element in place names + butterfly",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อแมลงจำพวกหนึ่ง มีปีกเป็นแผ่นบา",
+     "frame": "entity"
     },
     {
      "th": "สันป่าตอง",
@@ -313,7 +357,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภอกะทู้ จังหวัดภ"
     },
     {
      "th": "สันกลาง",
@@ -339,7 +386,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "san as an element in place names + middle",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
     },
     {
      "th": "สันโป่ง",
@@ -365,7 +420,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "san as an element in place names + swollen",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -383,6 +446,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 126 manuscript titles, 24 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -408,12 +472,17 @@
     "สัน",
     "ดาน"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + แข็ง",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "กระสัน",
@@ -438,7 +507,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
   },
   {
    "th": "ล่ำสัน",
@@ -463,7 +535,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "มีเนื้อแน่นแข็ง + สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา",
+   "frame": "quality"
   },
   {
    "th": "สันดาล",
@@ -488,7 +564,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + กลอนประตูที่ทำด้วยไม้สำหรับขัดบานป",
+   "frame": "entity"
   },
   {
    "th": "สันขวาน",
@@ -513,7 +593,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "ridge + axe",
+   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + เครื่องมือสำหรับตัด ฟัน ผ่า ถากไม้",
+   "frame": "entity"
   },
   {
    "th": "สันลึก",
@@ -533,12 +618,18 @@
     "สัน",
     "ลึก"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "ridge + deep",
+   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + ต่ำลงไปจากขอบมากกว่าปรกติ",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "สันหลัง",
@@ -563,7 +654,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "หลัง"
+   ],
+   "lit": "ridge + back",
+   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + ซีกของกายที่ตรงข้ามกับหน้าอก",
+   "frame": "entity"
   },
   {
    "th": "ความล่ำสัน",
@@ -583,13 +682,17 @@
     "ความล่ำ",
     "สัน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ล่ำ + สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา",
+   "frame": "entity"
   },
   {
    "th": "สันเดก",
@@ -614,7 +717,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + กระเดก"
   },
   {
    "th": "สันดอน",
@@ -639,7 +745,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ดอน"
+   ],
+   "lit": "ridge + hill",
+   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + พื้นที่ที่น้ำท่วมไม่ถึง",
+   "frame": "entity"
   },
   {
    "th": "สีสัน",
@@ -664,7 +778,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "สี"
+   ],
+   "lit": "color + ridge",
+   "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา",
+   "frame": "entity"
   },
   {
    "th": "สันติ",
@@ -684,12 +806,20 @@
     "สัน",
     "ติ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ติ"
+   ],
+   "lit": "ridge + accuse",
+   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + ชี้ข้อบกพร่อง",
+   "use": "false-split"
   },
   {
    "th": "สันทัด",
@@ -714,7 +844,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "frame": "entity"
   }
  ],
  "etymology": {

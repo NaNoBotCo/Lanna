@@ -1,7 +1,7 @@
 {
  "id": "w:sok",
  "th": "ศก",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "sok",
  "paiboon": "sòk",
  "ipa": "/sok̚˨˩/",
@@ -13,11 +13,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "hair"
     ],
     "th": "ผม",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -33,7 +34,9 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ศก 'hair'.",
+    "Declared root: ศก 'hair'."
    ],
    "compounds": [
     {
@@ -60,7 +63,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เฉือนหรือควั่นให้เป็นรอยคอด + ผม"
     }
    ]
   },
@@ -111,8 +117,20 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "พุทธ"
+     ],
+     "lit": "the awakened one + hair",
+     "lit_th": "ผู้ตรัสรู้ + ระบบการคำนวณนับเวลาเรียงลำดับกันเป",
+     "frame": "entity"
     }
+   ],
+   "needs_check": [
+    "Declared root: ศก, the era and its years.",
+    "Declared root: ศก, the era and its years."
    ]
   },
   {
@@ -162,7 +180,13 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "cross_listed": [
+      "โท"
+     ],
+     "lit": "two + hair",
+     "lit_th": "สอง + คำเรียกปีหนึ่ง ๆ ของจุลศักราช เพื่"
     },
     {
      "th": "เอกศก",
@@ -187,9 +211,19 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "one + hair",
+     "lit_th": "หนึ่ง + คำเรียกปีหนึ่ง ๆ ของจุลศักราช เพื่"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "A named year within the จุลศักราช cycle.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -213,7 +247,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And loosely, a year.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -237,6 +275,10 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: an abbreviation of ศรีสะเกษ.",
+    "Declared root: an abbreviation of ศรีสะเกษ."
    ]
   }
  ],
@@ -276,7 +318,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อปีที่ 6 ของรอบปีนักษัตร มีงูเล + ผม",
+   "frame": "entity"
   },
   {
    "th": "เถลิงศก",
@@ -301,7 +347,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ขึ้น + ผม"
   },
   {
    "th": "ตรีศก",
@@ -326,7 +375,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ตรี"
+   ],
+   "lit": "fish + hair",
+   "lit_th": "ปลา + ผม",
+   "frame": "entity"
   },
   {
    "th": "จัตวาศก",
@@ -351,7 +408,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "สี่ + ผม"
   },
   {
    "th": "นพศก",
@@ -376,7 +435,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ นว + ผม"
   },
   {
    "th": "จอศก",
@@ -401,7 +462,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อปีที่ 11 ของรอบปีนักษัตร มีหมา + ผม",
+   "frame": "entity"
   },
   {
    "th": "เถาะศก",
@@ -426,7 +491,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "rabbit + hair",
+   "lit_th": "ชื่อปีที่ 4 ของรอบปีนักษัตร มีกระต + ผม",
+   "frame": "entity"
   },
   {
    "th": "ชวดศก",
@@ -451,7 +521,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อปีที่ 1 ของรอบปีนักษัตร มีหนูเ + ผม",
+   "frame": "entity"
   },
   {
    "th": "มะแมศก",
@@ -476,7 +550,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อปีที่ 8 ของรอบปีนักษัตร มีแพะเ + ผม",
+   "frame": "entity"
   },
   {
    "th": "ขาลศก",
@@ -501,7 +579,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อปีที่ 3 ของรอบปีนักษัตร มีเสือ + ผม",
+   "frame": "entity"
   },
   {
    "th": "มะโรงศก",
@@ -526,7 +608,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อปีที่ 5 ของรอบปีนักษัตร มีงูให + ผม",
+   "frame": "entity"
   },
   {
    "th": "ศกละ",
@@ -546,12 +632,20 @@
     "ศก",
     "ละ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ละ"
+   ],
+   "lit": "hair + to leave",
+   "lit_th": "ผม + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง",
+   "use": "false-split"
   },
   {
    "th": "เบญจศก",
@@ -576,7 +670,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ห้า + ผม"
   },
   {
    "th": "กุนศก",
@@ -601,7 +697,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อปีที่ 12 ของรอบปีนักษัตร มีหมู + ผม",
+   "frame": "entity"
   },
   {
    "th": "ศกกันต์",
@@ -625,7 +725,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ผม + ตัด"
   },
   {
    "th": "ฉลูศก",
@@ -650,7 +753,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อปีที่ 2 ของรอบปีนักษัตร มีวัวเ + ผม",
+   "frame": "entity"
   },
   {
    "th": "ระกาศก",
@@ -675,7 +782,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อปีที่ 10 ของรอบปีนักษัตร มีไก่ + ผม",
+   "frame": "entity"
   },
   {
    "th": "วอกศก",
@@ -700,7 +811,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อปีที่ 9 ของรอบปีนักษัตร มีลิงเ + ผม",
+   "frame": "entity"
   },
   {
    "th": "มะเมียศก",
@@ -725,7 +840,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อปีที่ 7 ของรอบปีนักษัตร มีม้าเ + ผม",
+   "frame": "entity"
   }
  ],
  "etymology": {

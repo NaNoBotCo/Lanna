@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "gold"
     ],
     "th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหลืองสุกปลั่ง เป็นโลหะมีค่า, เรียกเต็มว่า ทองคำ",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -58,7 +59,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "gold + word",
+     "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + เสียงพูด",
+     "frame": "entity"
     }
    ]
   },
@@ -110,7 +119,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -298,7 +310,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โนน"
+     ],
+     "lit": "mound + thong as an element in place names",
+     "lit_th": "เนิน + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ท่าทอง",
@@ -324,7 +344,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + thong as an element in place names",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "หนองทอง",
@@ -350,7 +378,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + thong as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "อู่ทอง",
@@ -376,7 +412,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เปลเด็ก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ขุนทอง",
@@ -402,7 +442,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ผู้เป็นใหญ่ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ดินทอง",
@@ -428,7 +472,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดิน"
+     ],
+     "lit": "soil + thong as an element in place names",
+     "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ดอนทอง",
@@ -454,7 +506,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดอน"
+     ],
+     "lit": "hill + thong as an element in place names",
+     "lit_th": "พื้นที่ที่น้ำท่วมไม่ถึง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ธารทอง",
@@ -480,7 +540,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สายนํ้า + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "กกทอง",
@@ -506,7 +570,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กก"
+     ],
+     "lit": "the -k final spelling class + thong as an element in place names",
+     "lit_th": "เรียกคำหรือพยางค์ที่มีตัว ก ข ค ฆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ไทรทอง",
@@ -532,7 +604,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นในสกุล Ficus วงศ์ Morace + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "พานทอง",
@@ -558,7 +634,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ภาชนะมีเชิงประเภทหนึ่ง มีหลายชนิด + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "สิงโตทอง",
@@ -584,7 +664,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "lion + thong as an element in place names",
+     "lit_th": "ชื่อสัตว์ในจินตนาการของจีน ถือว่าม + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งทอง",
@@ -610,7 +695,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "open field + thong as an element in place names",
+     "lit_th": "ที่ราบโล่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "สายทอง",
@@ -636,7 +729,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สาย"
+     ],
+     "lit": "late + thong as an element in place names",
+     "lit_th": "เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0 + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ช้างทอง",
@@ -662,7 +763,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "elephant + thong as an element in place names",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "จอมทอง",
@@ -688,7 +797,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ยอดที่สูงสุดของสิ่งที่มีฐานใหญ่ปลา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ฟักทอง",
@@ -714,7 +827,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อไม้เถาชนิดหนึ่ง ผลใหญ่ กลมรี เ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ค้อนทอง",
@@ -740,7 +857,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "hammer + thong as an element in place names",
+     "lit_th": "ชื่อเครื่องมือที่มีหัวและด้าม สำหร + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "วังทอง",
@@ -766,7 +888,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + thong as an element in place names",
+     "lit_th": "ที่อยู่ของเจ้านาย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "โพธิ์ทอง",
@@ -792,7 +922,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "enlightenment + thong as an element in place names",
+     "lit_th": "ความตรัสรู้ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เต่าทอง",
@@ -818,7 +956,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อสัตว์เลื้อยคลานหลายวงศ์ ในอันด + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ทรายทอง",
@@ -844,7 +986,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทราย"
+     ],
+     "lit": "sand + thong as an element in place names",
+     "lit_th": "วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "โพนทอง",
@@ -870,7 +1020,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอคำม่วง จังหวัด + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "แหลมทอง",
@@ -896,7 +1049,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "tongue + thong as an element in place names",
+     "lit_th": "มีปลายเสี้ยมคม + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "หว้าทอง",
@@ -922,7 +1080,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "jambul + thong as an element in place names",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Syzygium Cu + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ทองแท้",
@@ -948,7 +1111,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "thong as an element in place names + real",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ล้วน ๆ",
+     "frame": "quality"
     },
     {
      "th": "บ่อทอง",
@@ -974,7 +1142,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ่อ"
+     ],
+     "lit": "well + thong as an element in place names",
+     "lit_th": "ช่องลึกลงไปในดินหรือในหินใช้เป็นที + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เขาทอง",
@@ -1000,7 +1176,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เขา"
+     ],
+     "lit": "mountain + thong as an element in place names",
+     "lit_th": "เนินที่นูนสูงขึ้นไปเป็นจอมเด่น + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "พลวงทอง",
@@ -1026,7 +1210,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ธาตุลำดับที่ 51 สัญลักษณ์ Sb เป็นโ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -1044,6 +1232,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 15 manuscript titles, 2509 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -1068,13 +1257,18 @@
     "การขุด",
     "ทอง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "mining + gold",
+   "lit_th": "คำอาการนามของ ขุด + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
   },
   {
    "th": "ตกทอง",
@@ -1099,7 +1293,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ตก"
+   ],
+   "lit": "decrease + gold",
+   "lit_th": "พลัดลง + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล"
   },
   {
    "th": "ขุดทอง",
@@ -1124,7 +1325,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "mine + gold",
+   "lit_th": "กิริยาที่สับ เจาะ แทง หรือ คุ้ยเอา + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล"
   },
   {
    "th": "ทองใบ",
@@ -1149,7 +1354,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ใบ"
+   ],
+   "lit": "gold + leaf",
+   "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต",
+   "frame": "entity"
   },
   {
    "th": "คานทอง",
@@ -1174,7 +1387,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เครื่องเรือนที่ยึดเสาและรองตง ทำด้ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
   },
   {
    "th": "กรองทอง",
@@ -1199,7 +1416,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "filter + gold",
+   "lit_th": "ร้อย + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล"
   },
   {
    "th": "อ่างทอง",
@@ -1224,7 +1445,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ภาชนะสำหรับใส่น้ำ เป็นต้น มักมีลัก + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
   },
   {
    "th": "ธาตุทอง",
@@ -1244,13 +1469,18 @@
     "ธาตุ",
     "ทอง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "element + gold",
+   "lit_th": "สิ่งที่ถือว่าเป็นส่วนสำคัญที่คุมกั + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
   },
   {
    "th": "ดอกทอง",
@@ -1275,7 +1505,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "flower + gold",
+   "lit_th": "ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
   },
   {
    "th": "จำลองทอง",
@@ -1299,7 +1534,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ถ่ายแบบ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล"
   },
   {
    "th": "ทองเอก",
@@ -1324,7 +1562,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "เอก"
+   ],
+   "lit": "gold + one",
+   "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + หนึ่ง"
   },
   {
    "th": "ตะเคียนทอง",
@@ -1344,13 +1588,17 @@
     "ตะเคียน",
     "ทอง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Hopea odora + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
   },
   {
    "th": "ทองข้อพระบาท",
@@ -1374,7 +1622,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + ข้อเท้า",
+   "frame": "entity"
   },
   {
    "th": "ทองข้อพระกร",
@@ -1399,7 +1651,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + ข้อมือ",
+   "frame": "entity"
   },
   {
    "th": "ทองเค",
@@ -1424,7 +1680,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + ชื่อตัวอักษรในอักษรละติน K/k",
+   "frame": "entity"
   },
   {
    "th": "ขวานทอง",
@@ -1449,7 +1709,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "axe + gold",
+   "lit_th": "เครื่องมือสำหรับตัด ฟัน ผ่า ถากไม้ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
   },
   {
    "th": "การตกทอง",
@@ -1469,13 +1734,18 @@
     "การตก",
     "ทอง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "drop + gold",
+   "lit_th": "คำอาการนามของ ตก + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
   },
   {
    "th": "เหรียญทอง",
@@ -1500,7 +1770,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "coin + gold",
+   "lit_th": "โลหะที่มีลักษณะกลมแบนหรือรูปเหลี่ย + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
   },
   {
    "th": "กระทงทอง",
@@ -1525,7 +1800,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ภาชนะเย็บด้วยใบตองหรือใบไม้เป็นต้น + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
   },
   {
    "th": "ฝนทอง",
@@ -1550,7 +1829,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "rain + gold",
+   "lit_th": "น้ำที่ตกลงมาจากเมฆเป็นเม็ด ๆ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
   },
   {
    "th": "ทองแดง",
@@ -1576,7 +1860,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "แดง"
+   ],
+   "lit": "gold + red",
+   "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "หมอนทอง",
@@ -1601,7 +1893,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "pillow + gold",
+   "lit_th": "เครื่องสำหรับหนุนศีรษะหรือหนุนสิ่ง + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
   }
  ],
  "etymology": {

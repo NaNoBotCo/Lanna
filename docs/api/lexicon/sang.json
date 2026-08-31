@@ -60,7 +60,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "build + make",
+     "lit_th": "เอาต้นไม้หรือเมล็ด หน่อ หัว เป็นต้ + ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา"
     },
     {
      "th": "สร้างสถานการณ์",
@@ -86,7 +90,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "make + case",
+     "lit_th": "ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา + เหตุการณ์ที่กำลังเป็นไป"
     },
     {
      "th": "สร้างสรรค์",
@@ -113,7 +121,254 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา + สร้างให้มีให้เป็นขึ้น"
+    },
+    {
+     "th": "ก่อสร้าง",
+     "rtgs": "ko-sang",
+     "ipa": "/kɔː˨˩.saːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "build"
+      ],
+      "th": "ก่อและสร้างโดยใช้อิฐและปูนเป็นส่วนใหญ่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ก่อ",
+      "สร้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "build + make",
+     "lit_th": "ทำให้เกิดขึ้น มีขึ้น หรือเป็นรูปขึ + ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา"
+    },
+    {
+     "th": "สร้างภาพ",
+     "rtgs": "sang-phap",
+     "ipa": "/saːŋ˥˩.pʰaːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้ดูเหมือนมีภาพลักษณ์ที่ดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สร้าง",
+      "ภาพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "make + image",
+     "lit_th": "ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา + ความมี"
+    },
+    {
+     "th": "สร้างฐานะ",
+     "rtgs": "sang-tha-na",
+     "ipa": "/saːŋ˥˩.tʰaː˩˩˦.naʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประกอบอาชีพจนมีทรัพย์สินเป็นหลักฐานมั่นคง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สร้าง",
+      "ฐานะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา + รูปแบบอื่นของ ฐาน"
+    },
+    {
+     "th": "ก่นสร้าง",
+     "rtgs": "kon-sang",
+     "ipa": "/kon˨˩.saːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขุดโค่นต้นไม้ตอไม้และแผ้วถางเพื่อปลูกสร้าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก่น",
+      "สร้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "ตั้งหน้า + ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา"
+    },
+    {
+     "th": "สร้างเรื่อง",
+     "rtgs": "sang-rueang",
+     "ipa": "/saːŋ˥˩.rɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แต่งเรื่องโกหกหลอกลวง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สร้าง",
+      "เรื่อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "make + animal",
+     "lit_th": "ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา + ภาวะหรือเนื้อหาของสิ่งซึ่งเนื่องกั"
+    },
+    {
+     "th": "โครงสร้าง",
+     "rtgs": "khrong-sang",
+     "ipa": "/kʰroːŋ˧.saːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "structure",
+       "machinery"
+      ],
+      "th": "ส่วนประกอบสำคัญ ๆ ซึ่งนำมาคุมเข้าด้วยกันให้เป็นรูปร่างเดียวกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "โครง",
+      "สร้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "fabric + make",
+     "lit_th": "ร่างของสิ่งต่าง ๆ ที่คุมกันอยู่เป็ + ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา"
+    },
+    {
+     "th": "สร้างชาติ",
+     "rtgs": "sang-chat",
+     "ipa": "/saːŋ˥˩.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้ชาติมีความเป็นปึกแผ่นมั่นคง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สร้าง",
+      "ชาติ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ชาติ"
+     ],
+     "lit": "make + birth",
+     "lit_th": "ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา + การเกิด"
+    },
+    {
+     "th": "คดสร้าง",
+     "translit_auto": "khdsrang",
+     "ipa": "[kʰót̚ sâːŋ]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คดซ่าง, โรงขนาดเล็กมียกพื้นข้างใน สำหรับพระสงฆ์นั่งสวดพระอภิธรรมอยู่ 4 มุมเมรุ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คด",
+      "สร้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit_th": "ลักษณะที่ไม่ตรงตลอด + ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา",
+     "frame": "quality"
     }
    ]
   }
@@ -129,36 +384,11 @@
   "Attested in this corpus: 12 manuscript titles, 239 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits —.",
  "compounds_unassigned": [
-  {
-   "th": "ก่อสร้าง",
-   "rtgs": "ko-sang",
-   "ipa": "/kɔː˨˩.saːŋ˥˩/",
-   "gloss": {
-    "en": [
-     "build"
-    ],
-    "th": "ก่อและสร้างโดยใช้อิฐและปูนเป็นส่วนใหญ่",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ก่อ",
-    "สร้าง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
   {
    "th": "การปลูกสร้าง",
    "rtgs": "kan-pluk-sang",
@@ -177,13 +407,16 @@
     "การปลูก",
     "สร้าง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ปลูก + ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา"
   },
   {
    "th": "การสร้าง",
@@ -206,88 +439,16 @@
     "การ",
     "สร้าง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "สร้างภาพ",
-   "rtgs": "sang-phap",
-   "ipa": "/saːŋ˥˩.pʰaːp̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำให้ดูเหมือนมีภาพลักษณ์ที่ดี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สร้าง",
-    "ภาพ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สร้างฐานะ",
-   "rtgs": "sang-tha-na",
-   "ipa": "/saːŋ˥˩.tʰaː˩˩˦.naʔ˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ประกอบอาชีพจนมีทรัพย์สินเป็นหลักฐานมั่นคง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สร้าง",
-    "ฐานะ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ก่นสร้าง",
-   "rtgs": "kon-sang",
-   "ipa": "/kon˨˩.saːŋ˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขุดโค่นต้นไม้ตอไม้และแผ้วถางเพื่อปลูกสร้าง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ก่น",
-    "สร้าง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา"
   },
   {
    "th": "การก่อสร้าง",
@@ -310,38 +471,16 @@
     "การก่อ",
     "สร้าง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "สร้างเรื่อง",
-   "rtgs": "sang-rueang",
-   "ipa": "/saːŋ˥˩.rɯa̯ŋ˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แต่งเรื่องโกหกหลอกลวง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สร้าง",
-    "เรื่อง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ก่อ + ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา"
   },
   {
    "th": "บ้านสร้าง",
@@ -361,90 +500,20 @@
     "บ้าน",
     "สร้าง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
-  },
-  {
-   "th": "โครงสร้าง",
-   "rtgs": "khrong-sang",
-   "ipa": "/kʰroːŋ˧.saːŋ˥˩/",
-   "gloss": {
-    "en": [
-     "structure",
-     "machinery"
-    ],
-    "th": "ส่วนประกอบสำคัญ ๆ ซึ่งนำมาคุมเข้าด้วยกันให้เป็นรูปร่างเดียวกัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "โครง",
-    "สร้าง"
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "บ้าน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สร้างชาติ",
-   "rtgs": "sang-chat",
-   "ipa": "/saːŋ˥˩.t͡ɕʰaːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำให้ชาติมีความเป็นปึกแผ่นมั่นคง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สร้าง",
-    "ชาติ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คดสร้าง",
-   "translit_auto": "khdsrang",
-   "ipa": "[kʰót̚ sâːŋ]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คดซ่าง, โรงขนาดเล็กมียกพื้นข้างใน สำหรับพระสงฆ์นั่งสวดพระอภิธรรมอยู่ 4 มุมเมรุ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คด",
-    "สร้าง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "lit": "home + make",
+   "lit_th": "ที่อยู่อาศัย + ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา"
   }
  ],
  "etymology": {

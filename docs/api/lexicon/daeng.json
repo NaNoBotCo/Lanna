@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "red"
     ],
     "th": "สีอย่างสีเลือดหรือสีชาด",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -58,7 +59,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ผ้า"
+     ],
+     "lit": "cloth + red",
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
     }
    ]
   },
@@ -137,7 +146,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ลูกเล็ก ๆ ที่ยังไม่หย่านม + สตางค์",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -325,7 +338,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "คอ"
+     ],
+     "lit": "neck + daeng as an element in place names",
+     "lit_th": "ส่วนของร่างกายที่ต่อศีรษะกับตัว + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "วิหารแดง",
@@ -351,7 +372,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "temple + daeng as an element in place names",
+     "lit_th": "วัด + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "หนองบัวแดง",
@@ -377,7 +403,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit_th": "รูปตัดทอนของ หนองบัวลำภู + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "โนนแดง",
@@ -403,7 +436,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "โนน"
+     ],
+     "lit": "mound + daeng as an element in place names",
+     "lit_th": "เนิน + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "แดงใหญ่",
@@ -429,7 +470,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "daeng as an element in place names + huge",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + โต",
+     "frame": "quality"
     },
     {
      "th": "โป่งแดง",
@@ -455,7 +504,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "swollen + daeng as an element in place names",
+     "lit_th": "ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ปอแดง",
@@ -481,7 +538,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "เส้นใยที่ทำจากเปลือกไม้บางชนิด + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "หนองบอนแดง",
@@ -507,7 +568,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองสระแก้ว จ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ปลวกแดง",
@@ -533,7 +598,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อแมลงหลายชนิดหลายวงศ์ ในอันดับ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ศาลาแดง",
@@ -559,7 +628,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "อาคารทรงไทย ปล่อยโถง ไม่กั้นฝา ใช้ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "กกแดง",
@@ -585,7 +658,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "กก"
+     ],
+     "lit": "the -k final spelling class + daeng as an element in place names",
+     "lit_th": "เรียกคำหรือพยางค์ที่มีตัว ก ข ค ฆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ดินแดง",
@@ -611,7 +692,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ดิน"
+     ],
+     "lit": "soil + daeng as an element in place names",
+     "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "หนามแดง",
@@ -637,7 +726,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ส่วนแหลม ๆ ที่งอกออกจากต้นหรือกิ่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "หนองแดง",
@@ -663,7 +756,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + daeng as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "วังทองแดง",
@@ -689,7 +790,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดพิษณุโลก + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -707,6 +815,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 5 manuscript titles, 432 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -731,13 +840,18 @@
     "ความ",
     "แดง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + red",
+   "lit_th": "เรื่อง + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "หน้าแดง",
@@ -762,7 +876,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "before + red",
+   "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "ใบแดง",
@@ -787,7 +909,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ใบ"
+   ],
+   "lit": "leaf + red",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "ลงแดง",
@@ -812,7 +942,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ลง"
+   ],
+   "lit": "drop + red",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "ป่าแดง",
@@ -837,7 +975,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ป่า"
+   ],
+   "lit": "forest + red",
+   "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "สำแดง",
@@ -863,7 +1009,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "สำ"
+   ],
+   "lit": "jumbled + red",
+   "lit_th": "ซับซ้อนกัน + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "ข้าวแดง",
@@ -888,7 +1042,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ข้าว"
+   ],
+   "lit": "rice + red",
+   "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "เหรียญทองแดง",
@@ -914,7 +1076,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "เหรียญรางวัลที่ให้สำหรับผู้ชนะเลิศ + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "ยาแดง",
@@ -939,7 +1105,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ยา"
+   ],
+   "lit": "medicine + red",
+   "lit_th": "สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "แก้มแดง",
@@ -963,7 +1137,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "cheek + red",
+   "lit_th": "บริเวณหน้าทั้ง 2 ข้างถัดตาลงมา + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "ไฟแดง",
@@ -988,7 +1167,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ไฟ"
+   ],
+   "lit": "fire + red",
+   "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "คดีแดง",
@@ -1013,7 +1200,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "case + red",
+   "lit_th": "ทาง + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "การลงแดง",
@@ -1033,13 +1225,21 @@
     "การลง",
     "แดง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "การลง"
+   ],
+   "lit": "nominalisation of ลง + red",
+   "lit_th": "คำอาการนามของ ลง + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "ไข่แดง",
@@ -1065,7 +1265,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ไข่"
+   ],
+   "lit": "egg + red",
+   "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "เด็กแดง",
@@ -1090,7 +1298,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "child + red",
+   "lit_th": "คนที่มีอายุยังน้อย + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "กระเจี๊ยบแดง",
@@ -1115,7 +1328,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ชื่อไม้ล้มลุกชนิด Abelmoschus escu + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "ปูนแดง",
@@ -1140,7 +1357,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "หินปูนหรือเปลือกหอยเมื่อถูกเผาจนสล + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "ทองแดง",
@@ -1166,7 +1387,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ทอง"
+   ],
+   "lit": "gold + red",
+   "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "บัวแดง",
@@ -1191,7 +1420,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "บัว"
+   ],
+   "lit": "lotus + red",
+   "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   }
  ],
  "etymology": {

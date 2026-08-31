@@ -1,7 +1,7 @@
 {
  "id": "w:ri",
  "th": "รี",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "ri",
  "paiboon": "rii",
  "ipa": "/riː˧/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "oval",
+     "tapering"
     ],
     "th": "เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียกว่า กลมรี ถ้ายาวเรียวและมีหัวท้ายอย่างเมล็ดข้าวสารเรียกว่า ยาวรี",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -29,7 +31,10 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: รี 'oval, tapering'.",
+    "Declared root: รี 'oval, tapering'.",
+    "Declared root: รี 'oval, tapering'."
    ]
   },
   {
@@ -76,9 +81,18 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "zone + oval",
+     "lit_th": "รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม + ไม่กลม",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Tapering, and so not round.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -99,7 +113,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "And drawn out: long.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -120,6 +138,11 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: รี 'to retweet' — from English re-, modern.",
+    "Declared root: รี 'to retweet' — from English re-, modern.",
+    "Declared root: รี 'to retweet' — from English re-, modern."
    ]
   }
  ],
@@ -132,6 +155,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 95 manuscript titles, 2375 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -156,13 +180,17 @@
     "นนท",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "biological"
+   "use": "biological",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ นนท์ + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality"
   },
   {
    "th": "สตรี",
@@ -183,12 +211,15 @@
     "สต",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ร้อย + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "use": "false-split"
   },
   {
    "th": "ราตรี",
@@ -208,12 +239,21 @@
     "ราต",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ตรี",
+    "รา"
+   ],
+   "lit_th": "ให้มาแล้ว + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "กินรี",
@@ -233,12 +273,21 @@
     "กิน",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "กิน"
+   ],
+   "lit": "eat + oval",
+   "lit_th": "เคี้ยว + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "อารี",
@@ -263,7 +312,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "อา"
+   ],
+   "lit": "father's younger sibling + oval",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality"
   },
   {
    "th": "รีเทิร์น",
@@ -283,12 +340,17 @@
     "รี",
     "เทิร์น"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "lit_th": "เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก + ขายของเก่าเพื่อลดราคาซื้อของใหม่",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "บุรี",
@@ -308,12 +370,17 @@
     "บุ",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "ตีให้เข้ารูป + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "จามรี",
@@ -333,13 +400,18 @@
     "จาม",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "biological"
+   "use": "biological",
+   "pattern": "PROP+ADJ",
+   "head": 1,
+   "lit": "sneeze + oval",
+   "lit_th": "ชื่อชนชาติหนึ่ง ปัจจุบันส่วนใหญ่มี + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality"
   },
   {
    "th": "ดำรี",
@@ -359,12 +431,21 @@
     "ดำ",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ดำ"
+   ],
+   "lit": "black + oval",
+   "lit_th": "มุดลง ในคำว่า ดำน้ำ + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "เกสรี",
@@ -384,12 +465,17 @@
     "เกส",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ผม + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "หนองรี",
@@ -409,13 +495,21 @@
     "หนอง",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "หนอง"
+   ],
+   "lit": "abscess + oval",
+   "lit_th": "แอ่งน้ำ + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality"
   },
   {
    "th": "ด้านรี",
@@ -440,7 +534,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ฝ่าย + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality"
   },
   {
    "th": "บ้านรี",
@@ -460,13 +558,21 @@
     "บ้าน",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "บ้าน"
+   ],
+   "lit": "home + oval",
+   "lit_th": "ที่อยู่อาศัย + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality"
   },
   {
    "th": "เสรี",
@@ -486,12 +592,21 @@
     "เส",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "เส"
+   ],
+   "lit": "to swerve + oval",
+   "lit_th": "เฉ + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "จุรี",
@@ -511,12 +626,18 @@
     "จุ",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit": "contain + oval",
+   "lit_th": "มีขนาด ปริมาณ หรือจำนวนบรรจุ + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "วารี",
@@ -536,12 +657,21 @@
     "วา",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "วา"
+   ],
+   "lit": "to spread the arms + oval",
+   "lit_th": "มาตราวัดตามวิธีประเพณี คือระยะที่ก + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "พญารี",
@@ -561,12 +691,17 @@
     "พญา",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "เจ้าแผ่นดิน + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "จักรี",
@@ -586,12 +721,17 @@
     "จัก",
     "รี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "ทำให้เป็นแฉก ๆ หรือหยัก ๆ คล้ายฟัน + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality",
+   "use": "false-split"
   }
  ],
  "etymology": {

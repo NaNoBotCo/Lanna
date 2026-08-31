@@ -1,7 +1,7 @@
 {
  "id": "w:phi",
  "th": "ผี",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "phi",
  "paiboon": "pǐi",
  "ipa": "/pʰiː˩˩˦/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "spirit",
+     "ghost"
     ],
     "th": "สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลับ มองไม่เห็นตัว แต่อาจจะปรากฏเหมือนมีตัวตนได้ อาจให้คุณหรือโทษได้ มีทั้งดีและร้าย",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -58,7 +60,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือน"
+     ],
+     "lit": "spirit + house",
+     "lit_th": "สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
     },
     {
      "th": "ผีห่า",
@@ -83,7 +93,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั + ชื่อผีจำพวกหนึ่ง ถือกันว่าทำให้เกิ",
+     "frame": "entity"
     }
    ]
   },
@@ -135,7 +149,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทะเล"
+     ],
+     "lit": "spirit + sea",
+     "lit_th": "เรียกคนที่ตายไปแล้ว + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+     "frame": "entity"
     },
     {
      "th": "เลี้ยงผี",
@@ -161,9 +183,20 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เลี้ยง"
+     ],
+     "lit": "grow + spirit",
+     "lit_th": "ดูแล + เรียกคนที่ตายไปแล้ว"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The spirit stands for the person who has become one.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -187,7 +220,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And for the body left behind.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -211,7 +248,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Widened upward to deities — though the two are not one thing.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -235,7 +276,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "ผีการพนันเข้าสิง — possessed by a habit.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -259,7 +304,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "And loosely, bad, poor, worthless.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -283,7 +332,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "ตั๋วผี — sold on outside the proper channel.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -307,7 +360,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "And what has no real existence at all.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -319,6 +376,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 23 manuscript titles, 95 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -348,7 +406,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "plate + spirit",
+   "lit_th": "ภาชนะรูปแบน ๆ สำหรับใส่สิ่งของต่าง + สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั",
+   "frame": "entity"
   },
   {
    "th": "หมอผี",
@@ -373,7 +436,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "หมอ"
+   ],
+   "lit": "one who knows + spirit",
+   "lit_th": "ผู้รู้ + สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั",
+   "frame": "entity"
   },
   {
    "th": "ผีน้อย",
@@ -398,7 +469,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "น้อย"
+   ],
+   "lit": "spirit + little",
+   "lit_th": "สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "เสียผี",
@@ -423,7 +502,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "เสีย"
+   ],
+   "lit": "bad + spirit",
+   "lit_th": "เสื่อมลงไป + สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั"
   },
   {
    "th": "ผีเสื้อ",
@@ -444,13 +530,18 @@
     "ผี",
     "เสื้อ"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "biological"
+   "use": "biological",
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "spirit + shirt",
+   "lit_th": "สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั + เครื่องสวมกายท่อนบนทำด้วยผ้าเป็นต้",
+   "frame": "entity"
   },
   {
    "th": "ผิดผี",
@@ -475,7 +566,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "cross_listed": [
+    "ผิด"
+   ],
+   "lit": "false + spirit",
+   "lit_th": "ไม่ตรงกับความจริงหรือที่กำหนดนิยมไ + สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั",
+   "frame": "quality"
   },
   {
    "th": "ปล่อยผี",
@@ -499,7 +598,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "let + spirit",
+   "lit_th": "ทำให้ออกจากสิ่งที่ติดอยู่ ผูกอยู่ + สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั"
   },
   {
    "th": "ฝากผี",
@@ -524,7 +627,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "มอบให้ไว้เป็นต้นว่าเพื่อให้ช่วยดูแ + สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั"
   },
   {
    "th": "ตีนผี",
@@ -549,7 +655,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ตีน"
+   ],
+   "lit": "foot + spirit",
+   "lit_th": "อวัยวะส่วนล่างสุดของคนหรือสัตว์ นั + สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั",
+   "frame": "entity"
   },
   {
    "th": "กุญแจผี",
@@ -574,7 +688,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "key + spirit",
+   "lit_th": "เครื่องสำหรับใส่ประตูหน้าต่างเป็นต + สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั",
+   "frame": "entity"
   },
   {
    "th": "ขื่อผี",
@@ -599,7 +718,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อไม้เครื่องบนสำหรับยึดหัวเสาด้า + สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั",
+   "frame": "entity"
   },
   {
    "th": "ผีดิบ",
@@ -625,7 +748,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "spirit + animal",
+   "lit_th": "สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั + ยังไม่สุก",
+   "frame": "quality"
   }
  ],
  "etymology": {

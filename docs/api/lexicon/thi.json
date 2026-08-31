@@ -1,7 +1,7 @@
 {
  "id": "w:thi",
  "th": "ที",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "thi",
  "paiboon": "tii",
  "ipa": "/tʰiː˧/",
@@ -12,11 +12,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "time",
+     "occasion",
+     "turn"
     ],
     "th": "ครั้ง, คราว, หน",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +35,9 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ที 'a time, an occasion'.",
+    "Declared root: ที 'a time, an occasion'."
    ]
   },
   {
@@ -57,7 +62,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The occasion becomes the count of occasions.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -107,7 +116,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "bide + time",
+     "lit_th": "มุ่งรออยู่ + ท่าทาง"
     },
     {
      "th": "เข้าที",
@@ -133,9 +146,20 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เข้า"
+     ],
+     "lit": "enter + time",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ท่าทาง"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "One's turn becomes one's manner, one's opening — ได้ที, เสียที.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -159,6 +183,10 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: the Latin letter T.",
+    "Declared root: the Latin letter T."
    ]
   },
   {
@@ -183,6 +211,10 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: the note ti.",
+    "Declared root: the note ti."
    ]
   }
  ],
@@ -195,6 +227,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 136 manuscript titles, 672 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -224,7 +257,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "หลัง"
+   ],
+   "lit": "time + back",
+   "lit_th": "ครั้ง + ซีกของกายที่ตรงข้ามกับหน้าอก",
+   "frame": "entity"
   },
   {
    "th": "ท่าที",
@@ -249,7 +290,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ท่า"
+   ],
+   "lit": "landing + time",
+   "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ครั้ง",
+   "flips_with": "ทีท่า",
+   "frame": "entity"
   },
   {
    "th": "โอที",
@@ -269,12 +319,20 @@
     "โอ",
     "ที"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "โอ"
+   ],
+   "lit": "pomelo + time",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ทีวี",
@@ -294,12 +352,20 @@
     "ที",
     "วี"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "วี"
+   ],
+   "lit": "time + to fan",
+   "lit_th": "ครั้ง + พัด",
+   "use": "false-split"
   },
   {
    "th": "การแก้ที",
@@ -319,13 +385,17 @@
     "การแก้",
     "ที"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แก้ + ครั้ง",
+   "frame": "entity"
   },
   {
    "th": "ทำที",
@@ -350,7 +420,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ทำ"
+   ],
+   "lit": "do + time",
+   "lit_th": "กระทำ + ครั้ง"
   },
   {
    "th": "ทันที",
@@ -378,7 +455,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "เป็นไปตามเวลาที่กำหนด + ครั้ง"
   },
   {
    "th": "การทำที",
@@ -398,13 +477,21 @@
     "การทำ",
     "ที"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "การทำ"
+   ],
+   "lit": "doing + time",
+   "lit_th": "คำอาการนามของ ทำ + ครั้ง",
+   "frame": "entity"
   },
   {
    "th": "คนที",
@@ -424,12 +511,21 @@
     "คน",
     "ที"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "คน"
+   ],
+   "lit": "stir + time",
+   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ครั้ง",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "แก้ที",
@@ -454,7 +550,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แก้"
+   ],
+   "lit": "cowrie shell used to burnish cloth + time",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ครั้ง",
+   "frame": "entity"
   },
   {
    "th": "ไอที",
@@ -474,13 +578,18 @@
     "ไอ",
     "ที"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "false-split",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "cough + time",
+   "lit_th": "สิ่งที่มีลักษณะอย่างควัน ลอยออกมาจ + ครั้ง",
+   "frame": "entity"
   },
   {
    "th": "เดิมที",
@@ -506,7 +615,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "แรก + ครั้ง",
+   "frame": "quality"
   },
   {
    "th": "ขันที",
@@ -531,7 +644,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ขัน"
+   ],
+   "lit": "bowl + time",
+   "lit_th": "ภาชนะสำหรับตักหรือใส่น้ำ มีหลายชนิ + ครั้ง",
+   "frame": "entity"
   },
   {
    "th": "บางที",
@@ -559,7 +680,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "บาง"
+   ],
+   "lit": "thin + time",
+   "lit_th": "ทางน้ำเล็ก ๆ + ครั้ง",
+   "frame": "entity"
   },
   {
    "th": "ขอที",
@@ -584,7 +713,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ขอ"
+   ],
+   "lit": "ask + time",
+   "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + ครั้ง",
+   "frame": "entity"
   },
   {
    "th": "ทีเดียว",
@@ -610,7 +747,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "time + single",
+   "lit_th": "ครั้ง + หนึ่งเท่านั้นไม่มีอื่นอีก",
+   "frame": "quality"
   },
   {
    "th": "ทีท่า",
@@ -635,7 +777,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ท่า"
+   ],
+   "lit": "time + landing",
+   "lit_th": "ครั้ง + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ",
+   "flips_with": "ท่าที",
+   "frame": "entity"
   },
   {
    "th": "ได้ที",
@@ -660,7 +811,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ได้"
+   ],
+   "lit": "have + time",
+   "lit_th": "รับมาหรือตกมาเป็นของตัว + ครั้ง"
   },
   {
    "th": "เต็มที",
@@ -685,7 +843,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit": "full + time",
+   "lit_th": "มีสิ่งใดสิ่งหนึ่งบรรจุอยู่จนไม่มีท + ครั้ง",
+   "frame": "quality"
   },
   {
    "th": "นาที",
@@ -706,12 +869,21 @@
     "นา",
     "ที"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "นา"
+   ],
+   "lit": "farm + time",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ครั้ง",
+   "frame": "entity",
+   "use": "false-split"
   }
  ],
  "etymology": {

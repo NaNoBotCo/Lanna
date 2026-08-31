@@ -1,7 +1,7 @@
 {
  "id": "w:rom",
  "th": "รม",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "rom",
  "paiboon": "rom",
  "ipa": "/rom˧/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "to smoke",
+     "to fumigate"
     ],
     "th": "อบด้วยควันหรือไอไฟ",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -51,7 +53,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Smoking narrowed to making the smoke settle and stay.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -63,6 +69,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 167 manuscript titles, 848 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -93,7 +100,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "สรรเสริญ + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "อาชญากรรม",
@@ -119,7 +129,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กรรม"
+   ],
+   "lit_th": "ผู้ก่ออาชญากรรม + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "การอบรม",
@@ -139,13 +155,16 @@
     "การอบ",
     "รม"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ อบ + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "การรม",
@@ -165,13 +184,16 @@
     "การ",
     "รม"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "รมช.",
@@ -196,7 +218,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "อบด้วยควันหรือไอไฟ + อักษรย่อของ ชาย"
   },
   {
    "th": "รมว.",
@@ -221,7 +246,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "อบด้วยควันหรือไอไฟ + อักษรย่อของ วา"
   },
   {
    "th": "นิติกรรม",
@@ -246,7 +274,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กรรม"
+   ],
+   "lit": "attorney + to smoke",
+   "lit_th": "ชื่อตำแหน่งผู้มีหน้าที่ปฏิบัติงานเ + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "โทรม",
@@ -266,12 +301,19 @@
     "โท",
     "รม"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "โท"
+   ],
+   "lit": "two + to smoke",
+   "lit_th": "สอง + อบด้วยควันหรือไอไฟ",
+   "use": "false-split"
   },
   {
    "th": "ศิลปกรรม",
@@ -297,7 +339,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กรรม"
+   ],
+   "lit_th": "นายช่างฝีมือ + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "กรรม",
@@ -318,12 +366,16 @@
     "กร",
     "รม"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ผู้ทำ + อบด้วยควันหรือไอไฟ",
+   "use": "false-split"
   },
   {
    "th": "วิศวกรรม",
@@ -343,12 +395,20 @@
     "วิศวกร",
     "รม"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กรรม"
+   ],
+   "lit": "engineer + to smoke",
+   "lit_th": "ผู้ประกอบงานวิศวกรรม + อบด้วยควันหรือไอไฟ",
+   "use": "false-split"
   },
   {
    "th": "นางรม",
@@ -373,7 +433,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "นาง"
+   ],
+   "lit": "Mrs + to smoke",
+   "lit_th": "ผู้หญิง + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "ฆาตกรรม",
@@ -400,7 +467,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กรรม"
+   ],
+   "lit": "murder + to smoke",
+   "lit_th": "ผู้ร้ายฆ่าคน + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "รมต.",
@@ -425,7 +499,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "อบด้วยควันหรือไอไฟ + อักษรย่อของ ใต้"
   },
   {
    "th": "เกษตรกรรม",
@@ -451,7 +528,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กรรม"
+   ],
+   "lit": "husbandman + to smoke",
+   "lit_th": "ผู้ทำเกษตรกรรม + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "คารม",
@@ -476,7 +560,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "คา"
+   ],
+   "lit": "cangue + to smoke",
+   "lit_th": "เครื่องจำคอนักโทษ ทำด้วยไม้ + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "เภสัชกรรม",
@@ -501,7 +592,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กรรม"
+   ],
+   "lit": "pharmacist + to smoke",
+   "lit_th": "แพทย์ปรุงยา + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "กสิกรรม",
@@ -521,12 +619,16 @@
     "กสิกร",
     "รม"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ผู้ทำไร่ไถนา + อบด้วยควันหรือไอไฟ",
+   "use": "false-split"
   },
   {
    "th": "พิธีกรรม",
@@ -553,7 +655,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กรรม"
+   ],
+   "lit": "host + to smoke",
+   "lit_th": "ผู้ดำเนินการในพิธี + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "จรรม",
@@ -573,12 +682,21 @@
     "จร",
     "รม"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "cross_listed": [
+    "จร"
+   ],
+   "lit": "to go + to smoke",
+   "lit_th": "ไม่ใช่ประจำ + อบด้วยควันหรือไอไฟ",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "บริกรรม",
@@ -603,7 +721,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ผู้ให้บริการ + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "อบรม",
@@ -629,7 +750,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "bake + to smoke",
+   "lit_th": "ปรุงกลิ่นด้วยควันหรือรมด้วยกลิ่นใน + อบด้วยควันหรือไอไฟ"
   }
  ],
  "etymology": {

@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "Mrs"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ผู้หญิง, คำประกอบเพื่อแสดงว่าเป็นเพศหญิง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -34,6 +34,15 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
     "Declared root: นาง 'woman'.",
     "Declared root: นาง 'woman'."
    ],
@@ -61,7 +70,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผู้หญิง + ปรนนิบัติให้เป็นที่ชอบใจ"
     },
     {
      "th": "นางฟ้า",
@@ -86,7 +98,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "Mrs + sky",
+     "frame": "entity"
     }
    ]
   },
@@ -94,10 +113,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "Mrs"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "คำนำหน้าชื่อหญิงซึ่งจดทะเบียนสมรส แต่หญิงซึ่งจดทะเบียนสมรสแล้วจะใช้คำนำหน้าชื่อว่า นางสาว ต่อไปก็ได้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -140,7 +159,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สาว"
+     ],
+     "lit": "Mrs + maid",
+     "lit_th": "คำนำหน้าชื่อหญิงซึ่งจดทะเบียนสมรส + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -152,10 +179,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "Mrs"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "คำนำหน้าชื่อภรรยาที่เรียกตามราชทินนามของสามีที่มีบรรดาศักดิ์ต่ำกว่าพระยาลงมา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -181,10 +208,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "Mrs"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "คำเรียกหรือคำนำหน้าชื่อหญิงที่มีพฤติกรรมไม่ดีหรือน่ารังเกียจเป็นต้น (หรือใช้คำว่า นัง)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -210,10 +237,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "Mrs"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "คำเรียกสัตว์ตัวเมียโดยสุภาพ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -239,10 +266,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "Mrs"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ใช้แทนคำว่า อี ที่เป็นพยางค์ต้นของบางคำเพื่อความสุภาพ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -268,10 +295,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "Mrs"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง เห็นเป็นรูปผู้หญิงท้อง, ดาวปลาตะเพียน ก็เรียก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -312,7 +339,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ขา"
+     ],
+     "lit": "leg + Mrs",
+     "lit_th": "อวัยวะของมนุษย์หรือสัตว์ที่ยื่นจาก + ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง",
+     "frame": "entity"
     },
     {
      "th": "นางแล",
@@ -337,7 +372,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง + ดู"
     },
     {
      "th": "บางนาง",
@@ -362,7 +400,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + Mrs",
+     "lit_th": "ทางน้ำเล็ก ๆ + ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง",
+     "frame": "entity"
     },
     {
      "th": "อ่าวนาง",
@@ -387,7 +433,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "bay + Mrs",
+     "lit_th": "ส่วนของมหาสมุทร ทะเล หรือทะเลสาบ ท + ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง",
+     "frame": "entity"
     },
     {
      "th": "นางรอง",
@@ -412,7 +463,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "รอง"
+     ],
+     "lit": "Mrs + deputy",
+     "lit_th": "ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
     },
     {
      "th": "หมอนนาง",
@@ -437,7 +495,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "pillow + Mrs",
+     "lit_th": "เครื่องสำหรับหนุนศีรษะหรือหนุนสิ่ง + ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง",
+     "frame": "entity"
     },
     {
      "th": "นางแอ่น",
@@ -462,7 +525,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง + ทำให้โค้งหรือนูนจากแนวหรือระดับ"
     },
     {
      "th": "นางเกล็ด",
@@ -487,7 +553,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง + ส่วนที่เป็นแผ่น ๆ ซ้อนเหลื่อมกันห่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -499,10 +569,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "Mrs"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "ใช้กับผู้หญิง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -528,10 +598,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "Mrs"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "คำแทนผู้หญิง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -557,10 +627,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "Mrs"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "คำใช้แทนคนทุกเพศทุกวัย บางทีก็ใช้แทนสัตว์ด้วย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -586,10 +656,10 @@
    "n": 11,
    "gloss": {
     "en": [
-     "Mrs"
+     "[RID sense 11 — no English yet]"
     ],
     "th": "คำนำหน้าชื่อเพลงไทยบางพวก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -615,10 +685,10 @@
    "n": 12,
    "gloss": {
     "en": [
-     "Mrs"
+     "[RID sense 12 — no English yet]"
     ],
     "th": "(ปลา~) แดง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -637,6 +707,15 @@
    ],
    "needs_check": [
     "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
     "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here."
    ]
   }
@@ -652,6 +731,8 @@
   "Attested in this corpus: 57 manuscript titles, 662 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 25; domain seeded by keyword hits ['สามี', 'ภรรยา', 'เมีย', 'ตา'].",
@@ -680,7 +761,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "เอก"
+   ],
+   "lit": "Mrs + one",
+   "lit_th": "ผู้หญิง + หนึ่ง"
   },
   {
    "th": "นางรำ",
@@ -706,7 +793,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "Mrs + dance",
+   "lit_th": "ผู้หญิง + ผงเยื่อหรือละอองเมล็ดข้าวสาร",
+   "frame": "entity"
   },
   {
    "th": "ขมิ้นนาง",
@@ -731,7 +823,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "turmeric + Mrs",
+   "lit_th": "ชื่อไม้ล้มลุกชนิด Curcuma longa ใน + ผู้หญิง",
+   "frame": "entity"
   },
   {
    "th": "กบนาง",
@@ -756,7 +853,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กบ"
+   ],
+   "lit": "frog + Mrs",
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + ผู้หญิง",
+   "frame": "entity"
   },
   {
    "th": "นางใน",
@@ -781,7 +886,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+PREP",
+   "head": 0,
+   "cross_listed": [
+    "ใน"
+   ],
+   "lit": "Mrs + in",
+   "lit_th": "ผู้หญิง + ตรงกันข้ามกับ นอก"
   },
   {
    "th": "ย่านาง",
@@ -806,7 +918,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "gram + Mrs",
+   "lit_th": "แม่ของพ่อ + ผู้หญิง",
+   "frame": "entity"
   },
   {
    "th": "นางแบบ",
@@ -833,7 +950,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "แบบ"
+   ],
+   "lit": "Mrs + model",
+   "lit_th": "ผู้หญิง + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+   "frame": "entity"
   },
   {
    "th": "นมนาง",
@@ -853,13 +978,21 @@
     "นม",
     "นาง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "นม"
+   ],
+   "lit": "milk + Mrs",
+   "lit_th": "ส่วนของร่างกาย อยู่บริเวณหน้าอก มี + ผู้หญิง",
+   "frame": "entity"
   },
   {
    "th": "นางรม",
@@ -884,7 +1017,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "รม"
+   ],
+   "lit": "Mrs + to smoke",
+   "lit_th": "ผู้หญิง + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "ขุนนาง",
@@ -911,7 +1051,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้เป็นใหญ่ + ผู้หญิง",
+   "frame": "entity"
   },
   {
    "th": "นางเลิ้ง",
@@ -935,7 +1079,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ผู้หญิง + ใหญ่",
+   "frame": "quality"
   },
   {
    "th": "นิ้วนาง",
@@ -960,7 +1108,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "finger + Mrs",
+   "lit_th": "ส่วนสุดของมือหรือเท้า แยกออกเป็น 5 + ผู้หญิง",
+   "frame": "entity"
   },
   {
    "th": "นางงาม",
@@ -985,7 +1138,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "งาม"
+   ],
+   "lit": "Mrs + aesthetic",
+   "lit_th": "ผู้หญิง + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+   "frame": "quality"
   },
   {
    "th": "นางเก้ง",
@@ -1010,7 +1171,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ผู้หญิง + ชื่อสัตว์เคี้ยวเอื้องในวงศ์กวาง",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -1028,5 +1193,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "Mrs"
+ ]
 }

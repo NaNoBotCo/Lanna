@@ -864,6 +864,30 @@
         ]
       }
     },
+    "/api/phasa/{id}.json": {
+      "get": {
+        "summary": "Phasa data.",
+        "description": "Phasa data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
     "/api/place/{id}.json": {
       "get": {
         "summary": "One place in full: all photographs with per-image author and licence, the complete section",

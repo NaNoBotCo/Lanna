@@ -1,7 +1,7 @@
 {
  "id": "w:tra",
  "th": "ตรา",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "tra",
  "paiboon": "dtraa",
  "ipa": "/traː˧/",
@@ -12,11 +12,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "seal",
+     "emblem",
+     "stamp"
     ],
     "th": "เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลายประดับ สำหรับประทับเป็นสัญลักษณ์แทนบุคคลหรือองค์กรเป็นต้น หรือสำหรับเป็นเครื่องประดับในจำพวกราชอิสริยาภรณ์ หรือสำหรับเป็นเครื่องหมายการค้า",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -51,7 +54,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The seal names the stamping of it.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -72,7 +79,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Stamping a thing on the mind: to note, to fix.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -93,7 +104,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "And stamping it into force: to lay down, to enact.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -105,6 +120,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 1 manuscript titles, 257 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -129,13 +145,17 @@
     "การตรวจ",
     "ตรา"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตรวจ + เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา",
+   "frame": "entity"
   },
   {
    "th": "ตราชู",
@@ -160,7 +180,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา + ยกขึ้นสูงกว่าระดับเดิม"
   },
   {
    "th": "พักตรา",
@@ -180,12 +203,17 @@
     "พัก",
     "ตรา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "rest + seal",
+   "lit_th": "หยุดชั่วคราว + เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา",
+   "use": "false-split"
   },
   {
    "th": "ตราตรึง",
@@ -210,7 +238,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา + ทำให้อยู่กับที่",
+   "flips_with": "ตรึงตรา"
   },
   {
    "th": "การตรา",
@@ -230,13 +262,17 @@
     "การ",
     "ตรา"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา",
+   "frame": "entity"
   },
   {
    "th": "ตราบาป",
@@ -261,7 +297,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา + การกระทำผิดหลักคำสอนหรือข้อห้ามในศ",
+   "frame": "entity"
   },
   {
    "th": "ตรึงตรา",
@@ -286,7 +326,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ทำให้อยู่กับที่ + เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา",
+   "flips_with": "ตราตรึง"
   },
   {
    "th": "การตรึงตรา",
@@ -306,13 +350,17 @@
     "การตรึง",
     "ตรา"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตรึง + เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา",
+   "frame": "entity"
   },
   {
    "th": "ยาตรา",
@@ -337,7 +385,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ยา"
+   ],
+   "lit": "medicine + seal",
+   "lit_th": "สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ + เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา",
+   "frame": "entity"
   },
   {
    "th": "ตราหน้า",
@@ -362,7 +418,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "seal + before",
+   "lit_th": "เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "มาตรา",
@@ -382,12 +446,20 @@
     "มา",
     "ตรา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "มา"
+   ],
+   "lit": "come + seal",
+   "lit_th": "เคลื่อนออกจากที่เข้าหาตัวผู้พูด + เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา",
+   "use": "false-split"
   },
   {
    "th": "ตราสาร",
@@ -413,7 +485,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "seal + matter",
+   "lit_th": "เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา + แก่น",
+   "frame": "entity"
   },
   {
    "th": "เงินตรา",
@@ -438,7 +515,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เงิน"
+   ],
+   "lit": "bread + seal",
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา",
+   "frame": "entity"
   },
   {
    "th": "ส้มตรา",
@@ -458,13 +543,18 @@
     "ส้ม",
     "ตรา"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "orange + seal",
+   "lit_th": "ชื่อไม้พุ่มหรือไม้ต้นขนาดเล็กหลายช + เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา",
+   "frame": "entity"
   },
   {
    "th": "ตรวจตรา",
@@ -489,7 +579,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "explore + seal",
+   "lit_th": "พิจารณาดูความเรียบร้อย เช่น ตรวจพล + เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา"
   }
  ],
  "etymology": {

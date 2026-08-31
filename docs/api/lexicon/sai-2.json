@@ -1,7 +1,7 @@
 {
  "id": "w:sai-2",
  "th": "ทราย",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "sai",
  "paiboon": "saai",
  "ipa": "/saːj˧/",
@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "sand"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณะซุยร่วนไม่เกาะกัน มีหลายชนิด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -40,10 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "sand"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ใช้เรียกสิ่งอื่นที่มีลักษณะอย่างทราย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -84,7 +84,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "sugar + sand",
+     "lit_th": "สารประกอบคาร์โบไฮเดรตประเภทโมโนแซ็ + ใช้เรียกสิ่งอื่นที่มีลักษณะอย่างทร",
+     "frame": "entity"
     },
     {
      "th": "กระดาษทราย",
@@ -110,18 +115,27 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "paper + sand",
+     "lit_th": "วัตถุเป็นแผ่นบาง ๆ โดยมากทำจากใยเป + ใช้เรียกสิ่งอื่นที่มีลักษณะอย่างทร",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Anything with sand's grain.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "sand"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแตกต่างกันไป ที่เป็นหอยน้ำจืด เช่น ชนิด Corbicula javanica (Mousson) ในวงศ์ Corbiculidae ที่เป็นหอยทะเล เช่น ชนิด Asaphis violascens (Forsskål) ในวงศ์ Psammobiidae",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -162,7 +176,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มูล"
+     ],
+     "lit": "sand + base",
+     "lit_th": "ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแ + โคน",
+     "frame": "entity"
     },
     {
      "th": "ห้วยทราย",
@@ -187,7 +209,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ห้วย"
+     ],
+     "lit": "stream pool + sand",
+     "lit_th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขา + ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแ",
+     "frame": "entity"
     },
     {
      "th": "สันทราย",
@@ -212,7 +242,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สัน"
+     ],
+     "lit": "ridge + sand",
+     "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแ",
+     "frame": "entity"
     },
     {
      "th": "ละหานทราย",
@@ -237,7 +275,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ห้วงน้ำ + ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแ",
+     "frame": "entity"
     },
     {
      "th": "แมวทราย",
@@ -262,7 +304,13 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "cat + sand",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Felis + ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแ",
+     "flips_with": "ทรายแมว",
+     "frame": "entity"
     },
     {
      "th": "บางทราย",
@@ -287,7 +335,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + sand",
+     "lit_th": "ทางน้ำเล็ก ๆ + ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแ",
+     "frame": "entity"
     },
     {
      "th": "ดอนทราย",
@@ -312,7 +368,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดอน"
+     ],
+     "lit": "hill + sand",
+     "lit_th": "พื้นที่ที่น้ำท่วมไม่ถึง + ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแ",
+     "frame": "entity"
     },
     {
      "th": "ทรายขาว",
@@ -337,7 +401,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขาว"
+     ],
+     "lit": "sand + white",
+     "lit_th": "ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแ + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
     },
     {
      "th": "หันทราย",
@@ -362,7 +434,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ผันร่างไปทางใดทางหนึ่ง + ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแ"
     },
     {
      "th": "โพนทราย",
@@ -387,7 +462,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอคำม่วง จังหวัด + ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแ"
     },
     {
      "th": "ทรายทอง",
@@ -412,7 +490,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "sand + gold",
+     "lit_th": "ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งทราย",
@@ -437,18 +523,30 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "open field + sand",
+     "lit_th": "ที่ราบโล่ง + ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแ",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "หอยทราย, the clam of the sand.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "sand"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ปลารากกล้วย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -464,16 +562,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "ปลาทราย, the sand goby.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "sand"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "เนื้อทราย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -514,7 +616,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เนื้อ"
+     ],
+     "lit": "flesh + sand",
+     "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + เนื้อทราย",
+     "frame": "entity"
     },
     {
      "th": "กวางทราย",
@@ -540,9 +650,18 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "deer + sand",
+     "lit_th": "ชื่อสัตว์เคี้ยวเอื้องชนิดหนึ่ง + เนื้อทราย",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "เนื้อทราย, the hog deer, its coat flecked like sand.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -554,7 +673,8 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 8 manuscript titles, 20 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 25; domain seeded by keyword hits ['ทราย', 'หิน', 'วัตถุ', 'เนื้อ'].",
  "compounds_unassigned": [
@@ -581,7 +701,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "sand + flour",
+   "lit_th": "วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ + สิ่งที่เป็นผงละเอียดได้จากเมล็ดพืช",
+   "frame": "entity"
   },
   {
    "th": "ทรายแมว",
@@ -606,7 +731,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "sand + cat",
+   "lit_th": "วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Felis",
+   "flips_with": "แมวทราย",
+   "frame": "entity"
   },
   {
    "th": "ทะเลทราย",
@@ -632,7 +763,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ทะเล"
+   ],
+   "lit": "sea + sand",
+   "lit_th": "ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+   "frame": "entity"
   },
   {
    "th": "ทรายถม",
@@ -657,7 +796,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "sand + fill",
+   "lit_th": "วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ + เอาใส่ลงไปในหลุมให้เต็ม"
   },
   {
    "th": "แกนทราย",
@@ -682,7 +825,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "axis + sand",
+   "lit_th": "วัตถุแข็งที่อยู่ตรงกลางของสิ่งอื่น + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+   "frame": "entity"
   },
   {
    "th": "ทรายแก้ว",
@@ -707,7 +855,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "sand + glass",
+   "lit_th": "วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ + วัตถุแข็ง ใส ทำจากทรายหลอม",
+   "frame": "entity"
   },
   {
    "th": "กระสอบทราย",
@@ -732,7 +885,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "sack + sand",
+   "lit_th": "เครื่องสานหรือทอด้วยต้นกระจูดหรือป + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+   "frame": "entity"
   },
   {
    "th": "ขนมทราย",
@@ -756,7 +914,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "snack + sand",
+   "lit_th": "ของกินที่ไม่ใช่กับข้าว มักปรุงด้วย + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+   "frame": "entity"
   },
   {
    "th": "นาฬิกาทราย",
@@ -782,7 +945,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "clock + sand",
+   "lit_th": "เครื่องบอกเวลา + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -835,5 +1003,8 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "sand"
  ]
 }

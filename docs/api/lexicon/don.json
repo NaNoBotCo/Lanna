@@ -1,7 +1,7 @@
 {
  "id": "w:don",
  "th": "ดอน",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "don",
  "paiboon": "dɔɔn",
  "ipa": "/dɔːn˧/",
@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "hill"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "พื้นที่ที่น้ำท่วมไม่ถึง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -33,17 +33,20 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ดอน, ground above the flood.",
+    "Declared root: ดอน, ground above the flood.",
+    "Declared root: ดอน, ground above the flood."
    ]
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "hill"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "หาดที่มีลักษณะราบซึ่งจะปรากฏให้เห็นเมื่อน้ำลด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -59,16 +62,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "A flat bar that shows when the water drops.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "hill"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหวัดนครราชสีมา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -109,7 +116,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ไม้หว้า",
+     "frame": "entity"
     },
     {
      "th": "ดอนชะเอม",
@@ -134,7 +145,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อไม้เถาชนิด Myriopteron extensu",
+     "frame": "entity"
     },
     {
      "th": "ดอนศิลา",
@@ -159,7 +174,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + หิน",
+     "frame": "entity"
     },
     {
      "th": "ดอนทอง",
@@ -184,7 +203,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "hill + gold",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
     },
     {
      "th": "ดอนขมิ้น",
@@ -209,7 +236,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "hill + turmeric",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อไม้ล้มลุกชนิด Curcuma longa ใน",
+     "frame": "entity"
     },
     {
      "th": "ดอนมัน",
@@ -234,7 +266,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มัน"
+     ],
+     "lit": "hill + it",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+     "frame": "entity"
     },
     {
      "th": "ดอนใหญ่",
@@ -259,7 +299,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "hill + huge",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + โต",
+     "frame": "quality"
     },
     {
      "th": "ดอนฉิมพลี",
@@ -284,7 +332,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ไม้งิ้ว",
+     "frame": "entity"
     },
     {
      "th": "ดอนสัก",
@@ -309,7 +361,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สัก"
+     ],
+     "lit": "hill + teak",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อไม้ต้นชนิด Tectona grandis L.f",
+     "frame": "entity"
     },
     {
      "th": "ดอนตาล",
@@ -334,7 +394,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อพืชชนิด Borassus flabellifer L",
+     "frame": "entity"
     },
     {
      "th": "ดอนทราย",
@@ -359,7 +423,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทราย"
+     ],
+     "lit": "hill + sand",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+     "frame": "entity"
     },
     {
      "th": "ดอนสมบูรณ์",
@@ -384,7 +456,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "hill + absolute",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + บริบูรณ์"
     },
     {
      "th": "ดอนแก้ว",
@@ -409,7 +485,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แก้ว"
+     ],
+     "lit": "hill + glass",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "frame": "entity"
     },
     {
      "th": "ดอนเจดีย์",
@@ -434,7 +518,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "hill + pagoda",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + สิ่งซึ่งก่อเป็นรูปคล้ายลอมฟาง มียอ",
+     "frame": "entity"
     },
     {
      "th": "ดอนช้าง",
@@ -459,7 +548,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "hill + elephant",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "ดอนดั่ง",
@@ -484,7 +581,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PREP",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + เช่น"
     },
     {
      "th": "ดอนหัน",
@@ -509,7 +609,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ผันร่างไปทางใดทางหนึ่ง"
     },
     {
      "th": "ดอนหวาย",
@@ -534,7 +637,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อเรียกปาล์มหลายชนิดหลายสกุล ในว",
+     "frame": "entity"
     },
     {
      "th": "ดอนเปา",
@@ -559,7 +666,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ซาลาเปา",
+     "frame": "entity"
     },
     {
      "th": "ดอนเมือง",
@@ -584,7 +695,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "hill + town",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + แดน",
+     "frame": "entity"
     },
     {
      "th": "ดอนจาน",
@@ -609,7 +728,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "hill + plate",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ภาชนะรูปแบน ๆ สำหรับใส่สิ่งของต่าง",
+     "frame": "entity"
     },
     {
      "th": "ดอนตูม",
@@ -634,7 +758,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + มะตูม",
+     "frame": "entity"
     },
     {
      "th": "ดอนแตง",
@@ -659,18 +787,26 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อไม้เถาล้มลุกหลายชนิดหลายสกุล ใ",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A tambon named from its high ground.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "hill"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "หัวหน้าใหญ่ของแก๊งค์เจ้าพ่อ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -686,6 +822,11 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ดอน as a gang boss — the English/Italian don, modern.",
+    "Declared root: ดอน as a gang boss — the English/Italian don, modern.",
+    "Declared root: ดอน as a gang boss — the English/Italian don, modern."
    ]
   }
  ],
@@ -698,7 +839,8 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 19 manuscript titles, 20 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 26; domain seeded by keyword hits ['toponym formative'].",
  "compounds_unassigned": [
@@ -722,12 +864,17 @@
     "ลอน",
     "ดอน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ส่วนที่มีลักษณะสูง ๆ ต่ำ ๆ อย่างลู + พื้นที่ที่น้ำท่วมไม่ถึง",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "กระดอน",
@@ -752,7 +899,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
   },
   {
    "th": "สันดอน",
@@ -777,7 +927,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "สัน"
+   ],
+   "lit": "ridge + hill",
+   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + พื้นที่ที่น้ำท่วมไม่ถึง",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -786,5 +944,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "hill"
+ ]
 }

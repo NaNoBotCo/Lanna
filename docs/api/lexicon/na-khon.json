@@ -59,7 +59,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "รัฐ"
+     ],
+     "lit": "city + sovereign state",
+     "lit_th": "เมืองใหญ่ + แคว้น",
+     "frame": "entity"
     },
     {
      "th": "เทศบาลนคร",
@@ -85,7 +93,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "องค์กรปกครองส่วนท้องถิ่นรูปแบบหนึ่ + เมืองใหญ่",
+     "frame": "entity"
     },
     {
      "th": "พระนคร",
@@ -111,7 +123,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "the honorific prefix phra + city",
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เมืองใหญ่",
+     "frame": "entity"
     },
     {
      "th": "นครหลวง",
@@ -137,7 +157,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "city + royal",
+     "lit_th": "เมืองใหญ่ + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
     }
    ]
   },
@@ -209,7 +237,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ชุม"
+     ],
+     "lit": "na-khon as an element in place names + abound",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มารวมกัน"
     },
     {
      "th": "นครไทย",
@@ -235,7 +270,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "cross_listed": [
+      "ไทย"
+     ],
+     "lit": "na-khon as an element in place names + Thai",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ประเทศ ใน เอเชียตะวันออกเฉียงใต้"
     },
     {
      "th": "โกสัมพีนคร",
@@ -261,7 +303,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอโกสัมพีนคร จัง + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "สิงหนคร",
@@ -287,7 +332,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สิงโต + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ศรีนคร",
@@ -313,7 +362,16 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ศรี"
+     ],
+     "lit": "splendour + na-khon as an element in place names",
+     "lit_th": "มิ่ง + ใช้ประกอบชื่อสถานที่",
+     "flips_with": "นครศรี",
+     "frame": "entity"
     },
     {
      "th": "เทพนคร",
@@ -339,7 +397,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เทพ"
+     ],
+     "lit": "god + na-khon as an element in place names",
+     "lit_th": "เทวดา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "วัฒนานคร",
@@ -365,7 +431,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความเจริญ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เรณูนคร",
@@ -391,7 +461,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ละออง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -438,7 +512,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "เมืองใหญ่ + ผู้นำ",
+   "frame": "entity"
   },
   {
    "th": "นครพนม",
@@ -463,7 +541,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "เมืองใหญ่ + ภูเขา",
+   "frame": "entity"
   },
   {
    "th": "นครสวรรค์",
@@ -488,7 +570,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "city + heaven",
+   "lit_th": "เมืองใหญ่ + โลกของเทวดา",
+   "frame": "entity"
   },
   {
    "th": "นครบาล",
@@ -512,7 +599,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "บาล"
+   ],
+   "lit": "city + to guard",
+   "lit_th": "เมืองใหญ่ + เลี้ยง"
   },
   {
    "th": "นครปฐม",
@@ -537,7 +631,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "เมืองใหญ่ + ประถม",
+   "frame": "quality"
   },
   {
    "th": "นครศรี",
@@ -562,7 +660,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ศรี"
+   ],
+   "lit": "city + splendour",
+   "lit_th": "เมืองใหญ่ + มิ่ง",
+   "flips_with": "ศรีนคร",
+   "frame": "entity"
   }
  ],
  "etymology": {

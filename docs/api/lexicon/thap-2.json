@@ -1,7 +1,7 @@
 {
  "id": "w:thap-2",
  "th": "ทัพ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "thap",
  "paiboon": "táp",
  "ipa": "/tʰap̚˦˥/",
@@ -13,11 +13,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "army",
+     "troops"
     ],
     "th": "กองทหาร",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -30,7 +32,11 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ทัพ 'army'.",
+    "Declared root: ทัพ 'army'.",
+    "Declared root: ทัพ 'army'.",
+    "Declared root: ทัพ 'army'."
    ],
    "compounds": [
     {
@@ -57,7 +63,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "อากาศ"
+     ],
+     "lit": "army + air",
+     "lit_th": "กองทหาร + แก๊สผสมที่ประกอบด้วยไนโตรเจนและออก",
+     "frame": "entity"
     },
     {
      "th": "กรีธาทัพ",
@@ -83,7 +97,10 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เคลื่อน + กองทหาร"
     },
     {
      "th": "ทัพฟ้า",
@@ -109,7 +126,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "army + sky",
+     "frame": "entity"
     },
     {
      "th": "ทัพบก",
@@ -135,7 +159,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "กองทหาร + ส่วนของผิวพื้นโลกที่ไม่ใช่ทะเลหรือ",
+     "frame": "entity"
     },
     {
      "th": "ทัพเรือ",
@@ -161,7 +189,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือ"
+     ],
+     "lit": "army + boat",
+     "lit_th": "กองทหาร + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+     "frame": "entity"
     }
    ]
   },
@@ -184,6 +220,12 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ทัพ 'goods, property' — separate.",
+    "Declared root: ทัพ 'goods, property' — separate.",
+    "Declared root: ทัพ 'goods, property' — separate.",
+    "Declared root: ทัพ 'goods, property' — separate."
    ]
   },
   {
@@ -254,7 +296,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เป็นไปตามเวลาที่กำหนด"
     },
     {
      "th": "ทัพรั้ง",
@@ -280,7 +324,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หน่วงเหนี่ยวไว้"
     },
     {
      "th": "ทัพราช",
@@ -306,7 +353,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ราช"
+     ],
+     "lit": "thap as an element in place names + king",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พระเจ้าแผ่นดิน",
+     "frame": "entity"
     },
     {
      "th": "ทัพไทย",
@@ -332,7 +387,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "cross_listed": [
+      "ไทย"
+     ],
+     "lit": "thap as an element in place names + Thai",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ประเทศ ใน เอเชียตะวันออกเฉียงใต้"
     },
     {
      "th": "ทัพเสด็จ",
@@ -358,7 +420,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำเรียกเจ้านายชั้นพระองค์เจ้าที่เป",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -376,6 +442,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 3 manuscript titles, 11 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -405,7 +472,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ดูไม่ถูกตา + กองทหาร"
   },
   {
    "th": "ฐานทัพ",
@@ -431,7 +501,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ฐาน"
+   ],
+   "lit": "bottom + army",
+   "lit_th": "ที่ตั้ง + กองทหาร",
+   "frame": "entity"
   },
   {
    "th": "การยกทัพ",
@@ -451,13 +529,18 @@
     "การยก",
     "ทัพ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "lift + army",
+   "lit_th": "คำอาการนามของ ยก + กองทหาร",
+   "frame": "entity"
   },
   {
    "th": "แม่ทัพ",
@@ -483,7 +566,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แม่"
+   ],
+   "lit": "mother + army",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + กองทหาร",
+   "frame": "entity"
   },
   {
    "th": "ยกทัพ",
@@ -508,7 +599,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ยก"
+   ],
+   "lit": "to lift + army",
+   "lit_th": "เอาขึ้นให้สูงจากที่เดิมทั้งโดยตรงแ + กองทหาร"
   },
   {
    "th": "กองทัพ",
@@ -536,7 +634,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "กอง"
+   ],
+   "lit": "desk + army",
+   "lit_th": "ทำให้รวมสุมกันไว้ + กองทหาร"
   },
   {
    "th": "ทัพพี",
@@ -557,12 +662,17 @@
     "ทัพ",
     "พี"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "กองทหาร + อ้วน",
+   "frame": "quality",
+   "use": "false-split"
   }
  ],
  "etymology": {

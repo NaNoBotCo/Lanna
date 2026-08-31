@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "thou"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ผู้เป็นใหญ่, ผู้เป็นหัวหน้า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -40,10 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "thou"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "เชื้อสายของพระมหากษัตริย์นับตั้งแต่ชั้นหม่อมเจ้าขึ้นไป และผู้ได้รับสถาปนาอิสริยยศขึ้นเป็นเจ้า, บางแห่งหมายถึงกษัตริย์ก็มี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -84,7 +84,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ภรรยาที่เป็นสามัญชนของกรมพระราชวัง + เชื้อสายของพระมหากษัตริย์นับตั้งแต",
+     "frame": "entity"
     },
     {
      "th": "เจ้าฟ้า",
@@ -110,7 +114,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "thou + sky",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -122,10 +133,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "thou"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "คำนำหน้าชื่อเพื่อแสดงว่าเป็นเชื้อสายเจ้านายฝ่ายเหนือ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -168,7 +179,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นาย"
+     ],
+     "lit": "thou + baboo",
+     "lit_th": "คำนำหน้าชื่อเพื่อแสดงว่าเป็นเชื้อส + คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15",
+     "frame": "entity"
     }
    ],
    "extends": 2,
@@ -180,10 +199,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "thou"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "คำนำหน้าพระนามของพระอนุวงศ์ชั้นหม่อมเจ้า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -209,10 +228,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "thou"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ผู้เป็นเจ้าของ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -253,7 +272,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผู้เป็นเจ้าของ + เงินที่ผู้หนึ่งติดค้างอยู่จะต้องใช",
+     "frame": "entity"
     },
     {
      "th": "เจ้าภาพ",
@@ -279,7 +302,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "thou + image",
+     "lit_th": "ผู้เป็นเจ้าของ + ความมี",
+     "frame": "entity"
     },
     {
      "th": "เจ้าของ",
@@ -305,7 +333,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "thou + by",
+     "lit_th": "ผู้เป็นเจ้าของ + สิ่งต่าง ๆ",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -317,10 +353,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "thou"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ผู้ชำนาญ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -346,10 +382,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "thou"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "มักใช้เติมท้ายคำเรียกผู้ที่นับถือ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -390,7 +426,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "คำพ้องความของ พุทธ + มักใช้เติมท้ายคำเรียกผู้ที่นับถือ"
     },
     {
      "th": "เทพเจ้า",
@@ -416,7 +455,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เทพ"
+     ],
+     "lit": "god + thou",
+     "lit_th": "เทวดา + มักใช้เติมท้ายคำเรียกผู้ที่นับถือ",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -428,10 +475,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "thou"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "เทพารักษ์",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -473,7 +520,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "thou + father",
+     "lit_th": "เทพารักษ์ + ชายผู้ให้กำเนิดหรือเลี้ยงดูลูก",
+     "frame": "entity"
     },
     {
      "th": "เจ้าแม่",
@@ -499,7 +551,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "thou + mother",
+     "lit_th": "เทพารักษ์ + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -511,10 +571,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "thou"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "คำใช้แทนผู้ที่เราพูดด้วย สำหรับผู้ใหญ่พูดกับผู้น้อยอย่างสุภาพหรือเอ็นดู, เป็นสรรพนามบุรุษที่ 2",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -540,10 +600,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "thou"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "คำใช้แทนผู้ที่เราพูดถึง, เป็นสรรพนามบุรุษที่ 3, มักใช้เข้าคู่กับคำ นั่น เป็น เจ้านั่น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -569,10 +629,10 @@
    "n": 11,
    "gloss": {
     "en": [
-     "thou"
+     "[RID sense 11 — no English yet]"
     ],
     "th": "คำนำหน้าที่ผู้ใหญ่เรียกเด็กหรือผู้น้อย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -598,10 +658,10 @@
    "n": 12,
    "gloss": {
     "en": [
-     "thou"
+     "[RID sense 12 — no English yet]"
     ],
     "th": "ผู้ค้าขายสิ่งของต่าง ๆ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -627,10 +687,10 @@
    "n": 13,
    "gloss": {
     "en": [
-     "thou"
+     "[RID sense 13 — no English yet]"
     ],
     "th": "ลักษณนามหมายความว่า ราย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -664,6 +724,8 @@
   "Attested in this corpus: 231 manuscript titles, 274 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 45; domain seeded by keyword hits ['override'].",
@@ -692,7 +754,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "thou + emotion",
+   "lit_th": "ผู้เป็นใหญ่ + สิ่งที่ยึดหน่วงจิตโดยผ่านทางตา หู",
+   "frame": "entity"
   },
   {
    "th": "เจ้าบ้าน",
@@ -718,7 +785,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "บ้าน"
+   ],
+   "lit": "thou + home",
+   "lit_th": "ผู้เป็นใหญ่ + ที่อยู่อาศัย",
+   "frame": "entity"
   },
   {
    "th": "การทรงเจ้า",
@@ -738,13 +813,17 @@
     "การทรง",
     "เจ้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ทรง + ผู้เป็นใหญ่",
+   "frame": "entity"
   },
   {
    "th": "เจ้าจำนวน",
@@ -769,7 +848,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "thou + number",
+   "lit_th": "ผู้เป็นใหญ่ + ยอดรวมที่กำหนดนับไว้เป็นส่วน ๆ",
+   "frame": "entity"
   },
   {
    "th": "เจ้าโลก",
@@ -794,7 +878,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "โลก"
+   ],
+   "lit": "thou + world",
+   "lit_th": "ผู้เป็นใหญ่ + แผ่นดิน",
+   "frame": "entity"
   },
   {
    "th": "พระเจ้า",
@@ -821,7 +913,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "พระ"
+   ],
+   "lit": "the honorific prefix phra + thou",
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ผู้เป็นใหญ่",
+   "frame": "entity"
   },
   {
    "th": "เจ้าหัว",
@@ -846,7 +946,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "หัว"
+   ],
+   "lit": "thou + head",
+   "lit_th": "ผู้เป็นใหญ่ + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
   },
   {
    "th": "เจ้าสาว",
@@ -872,7 +980,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "สาว"
+   ],
+   "lit": "thou + maid",
+   "lit_th": "ผู้เป็นใหญ่ + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+   "frame": "entity"
   },
   {
    "th": "เจ้าจอม",
@@ -897,7 +1013,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ผู้เป็นใหญ่ + ยอดที่สูงสุดของสิ่งที่มีฐานใหญ่ปลา",
+   "frame": "entity"
   },
   {
    "th": "เจ้าท่า",
@@ -917,13 +1037,21 @@
     "เจ้า",
     "ท่า"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ท่า"
+   ],
+   "lit": "thou + landing",
+   "lit_th": "ผู้เป็นใหญ่ + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ",
+   "frame": "entity"
   },
   {
    "th": "เจ้าบ่าว",
@@ -948,7 +1076,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ผู้เป็นใหญ่ + คนใช้",
+   "frame": "entity"
   },
   {
    "th": "ปู่เจ้า",
@@ -973,7 +1105,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "abuelo + thou",
+   "lit_th": "พ่อของพ่อ + ผู้เป็นใหญ่",
+   "frame": "entity"
   },
   {
    "th": "เจ้ายศ",
@@ -998,7 +1135,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ผู้เป็นใหญ่ + ความยกย่องนับถือเกียรติของตน",
+   "frame": "entity"
   },
   {
    "th": "เจ้าหน้าที่",
@@ -1025,7 +1166,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "thou + job",
+   "lit_th": "ผู้เป็นใหญ่ + กิจที่จะต้องทำด้วยความรับผิดชอบ",
+   "frame": "entity"
   },
   {
    "th": "เจ้าเหนือหัว",
@@ -1050,7 +1196,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ผู้เป็นใหญ่ + พระเจ้าแผ่นดิน",
+   "frame": "entity"
   },
   {
    "th": "เจ้าคารม",
@@ -1075,7 +1225,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ผู้เป็นใหญ่ + ถ้อยคำที่คมคาย",
+   "frame": "entity"
   },
   {
    "th": "เจ้ามือ",
@@ -1100,7 +1254,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "มือ"
+   ],
+   "lit": "thou + hand",
+   "lit_th": "ผู้เป็นใหญ่ + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา",
+   "frame": "entity"
   },
   {
    "th": "ออเจ้า",
@@ -1125,7 +1287,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "รวมกันเป็นกลุ่ม + ผู้เป็นใหญ่"
   },
   {
    "th": "เจ้าชีวิต",
@@ -1150,7 +1315,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ชีวิต"
+   ],
+   "lit": "thou + life",
+   "lit_th": "ผู้เป็นใหญ่ + ความเป็นอยู่",
+   "frame": "entity"
   },
   {
    "th": "เจ้ากระทรวง",
@@ -1175,7 +1348,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "thou + ministry",
+   "lit_th": "ผู้เป็นใหญ่ + หมู่",
+   "frame": "entity"
   },
   {
    "th": "เจ้าพนักงาน",
@@ -1200,7 +1378,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "thou + employee",
+   "lit_th": "ผู้เป็นใหญ่ + หน้าที่",
+   "frame": "entity"
   },
   {
    "th": "เจ้าตัว",
@@ -1225,7 +1408,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "thou + form",
+   "lit_th": "ผู้เป็นใหญ่ + รูป",
+   "frame": "entity"
   },
   {
    "th": "เจ้าชู้",
@@ -1251,7 +1442,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ผู้เป็นใหญ่ + ผู้ล่วงประเวณี",
+   "frame": "entity"
   },
   {
    "th": "เจ้าแผ่นดิน",
@@ -1276,7 +1471,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "thou + land",
+   "lit_th": "ผู้เป็นใหญ่ + พื้นดินของโลก",
+   "frame": "entity"
   },
   {
    "th": "เจ้าชาย",
@@ -1302,7 +1502,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ชาย"
+   ],
+   "lit": "thou + male",
+   "lit_th": "ผู้เป็นใหญ่ + คนที่ไม่มีมดลูก",
+   "frame": "entity"
   },
   {
    "th": "วังเจ้า",
@@ -1322,13 +1530,21 @@
     "วัง",
     "เจ้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "วัง"
+   ],
+   "lit": "palace + thou",
+   "lit_th": "ที่อยู่ของเจ้านาย + ผู้เป็นใหญ่",
+   "frame": "entity"
   },
   {
    "th": "เจ้าขรัว",
@@ -1353,7 +1569,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ผู้เป็นใหญ่ + คำเรียกภิกษุที่มีอายุมาก หรือที่บว",
+   "frame": "entity"
   },
   {
    "th": "ข้าวเจ้า",
@@ -1378,7 +1598,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ข้าว"
+   ],
+   "lit": "rice + thou",
+   "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ผู้เป็นใหญ่",
+   "frame": "entity"
   },
   {
    "th": "เจ้าพระยา",
@@ -1404,7 +1632,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ผู้เป็นใหญ่ + บรรดาศักดิ์ข้าราชการผู้ใหญ่สูงกว่า",
+   "frame": "entity"
   },
   {
    "th": "เจ้าคณะ",
@@ -1429,7 +1661,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "thou + group",
+   "lit_th": "ผู้เป็นใหญ่ + หมู่",
+   "frame": "entity"
   },
   {
    "th": "น่านเจ้า",
@@ -1454,7 +1691,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ย่าน + ผู้เป็นใหญ่",
+   "frame": "entity"
   },
   {
    "th": "เจ้าเมือง",
@@ -1479,7 +1720,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เมือง"
+   ],
+   "lit": "thou + town",
+   "lit_th": "ผู้เป็นใหญ่ + แดน",
+   "frame": "entity"
   },
   {
    "th": "ทรงเจ้า",
@@ -1504,7 +1753,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ทรง"
+   ],
+   "lit": "form + thou",
+   "lit_th": "รูปร่าง + ผู้เป็นใหญ่",
+   "frame": "entity"
   },
   {
    "th": "เจ้าหญิง",
@@ -1530,7 +1787,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ผู้เป็นใหญ่ + มนุษย์เพศเมียซึ่งโดยกำเนิดมีโยนีเป",
+   "frame": "entity"
   },
   {
    "th": "พระองค์เจ้า",
@@ -1555,7 +1816,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ตัว + ผู้เป็นใหญ่",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -1573,5 +1838,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "thou"
+ ]
 }

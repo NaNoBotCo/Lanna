@@ -1,7 +1,7 @@
 {
  "id": "w:ok",
  "th": "อก",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "ok",
  "paiboon": "òk",
  "ipa": "/ʔok̚˨˩/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "chest",
+     "breast"
     ],
     "th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างคอกับท้อง",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +34,13 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: อก 'chest'.",
+    "Declared root: อก 'chest'.",
+    "Declared root: อก 'chest'.",
+    "Declared root: อก 'chest'.",
+    "Declared root: อก 'chest'.",
+    "Declared root: อก 'chest'."
    ]
   },
   {
@@ -82,9 +90,16 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใจ + ระทม"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The chest stands for what is felt in it: the heart.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -108,7 +123,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A body of people held together, as the chest holds.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -132,6 +151,14 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: อก 'six' — from the old counting series that also gives ลูกอก.",
+    "Declared root: อก 'six' — from the old counting series that also gives ลูกอก.",
+    "Declared root: อก 'six' — from the old counting series that also gives ลูกอก.",
+    "Declared root: อก 'six' — from the old counting series that also gives ลูกอก.",
+    "Declared root: อก 'six' — from the old counting series that also gives ลูกอก.",
+    "Declared root: อก 'six' — from the old counting series that also gives ลูกอก."
    ]
   },
   {
@@ -180,9 +207,21 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + chest",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + เรียกลูกสาวคนที่ 6 ว่า ลูกอก",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "ลูกอก, the sixth daughter, counted off the numeral.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -194,6 +233,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 133 manuscript titles, 1324 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -223,7 +263,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ทาง + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "frame": "entity"
   },
   {
    "th": "อกตั้ง",
@@ -248,7 +292,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ตั้ง"
+   ],
+   "lit": "chest + introduce",
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + ชูตัว"
   },
   {
    "th": "อกเลา",
@@ -272,7 +323,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + ชื่อไม้ล้มลุกชนิด Saccharum sponta",
+   "frame": "entity"
   },
   {
    "th": "ขยอก",
@@ -297,7 +352,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ความสิ้นไป + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "frame": "entity"
   },
   {
    "th": "หงอก",
@@ -322,7 +381,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "มีสีแดงเจือสีขาวทำให้สีแดงนั้นอ่อน + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค"
   },
   {
    "th": "เกาะอก",
@@ -347,7 +409,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เกาะ"
+   ],
+   "lit": "island + chest",
+   "lit_th": "ส่วนของแผ่นดินที่มีน้ำล้อมรอบ + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "frame": "entity"
   },
   {
    "th": "คลอก",
@@ -372,7 +442,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คอ + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "frame": "entity"
   },
   {
    "th": "โล่งอก",
@@ -397,7 +471,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit": "empty + chest",
+   "lit_th": "มีลักษณะว่าง เตียน ไม่มีอะไรกีดกั้ + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค"
   },
   {
    "th": "อกเต่า",
@@ -422,7 +500,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + ชื่อสัตว์เลื้อยคลานหลายวงศ์ ในอันด",
+   "frame": "entity"
   },
   {
    "th": "เลื่อยอก",
@@ -446,7 +528,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "saw + chest",
+   "lit_th": "เครื่องมือสำหรับตัด มีหลายชนิด ใบเ + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "flips_with": "อกเลื่อย",
+   "frame": "entity"
   },
   {
    "th": "กลอก",
@@ -471,7 +559,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กล"
+   ],
+   "lit": "trick + chest",
+   "lit_th": "การลวงหรือล่อลวงให้หลง + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "frame": "entity"
   },
   {
    "th": "แสอก",
@@ -491,12 +587,16 @@
     "แส",
     "อก"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "แฉ + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "use": "false-split"
   },
   {
    "th": "อกแตก",
@@ -521,7 +621,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "แตก"
+   ],
+   "lit": "chest + fracture",
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + แยกออกจากส่วนรวม"
   },
   {
    "th": "หยอก",
@@ -546,7 +653,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ม้า + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "frame": "entity"
   },
   {
    "th": "กระโจมอก",
@@ -571,7 +682,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สิ่งที่ตามปรกติมียอดเป็นลอมอย่างซุ + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "frame": "entity"
   },
   {
    "th": "กรอก",
@@ -598,7 +713,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้ทำ + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "frame": "entity"
   },
   {
    "th": "อกหัก",
@@ -623,7 +742,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "chest + tear",
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + พับงอ"
   },
   {
    "th": "อกโรย",
@@ -648,7 +771,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + อาการที่ดอกไม้ค่อย ๆ เหี่ยวแห้งและ"
   },
   {
    "th": "ตรอก",
@@ -674,7 +800,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit_th": "อักษรย่อของ ตราด + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค"
   },
   {
    "th": "อกว่าว",
@@ -698,7 +827,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "chest + kite",
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + เครื่องเล่นอย่างหนึ่ง มีไม้ไผ่เป็น",
+   "frame": "entity"
   },
   {
    "th": "อกทะเล",
@@ -723,7 +857,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ทะเล"
+   ],
+   "lit": "chest + sea",
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "entity"
   },
   {
    "th": "อกคราก",
@@ -748,7 +890,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + ยืดขยายออกแล้วไม่คืนตัว"
   },
   {
    "th": "อกเลื่อย",
@@ -772,7 +917,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "chest + saw",
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + เครื่องมือสำหรับตัด มีหลายชนิด ใบเ",
+   "flips_with": "เลื่อยอก",
+   "frame": "entity"
   },
   {
    "th": "อกไก่",
@@ -797,7 +948,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ไก่"
+   ],
+   "lit": "chest + chicken",
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ",
+   "frame": "entity"
   },
   {
    "th": "หน้าอก",
@@ -825,7 +984,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "before + chest",
+   "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "frame": "entity"
   },
   {
    "th": "หัวอก",
@@ -850,7 +1017,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "หัว"
+   ],
+   "lit": "head + chest",
+   "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "frame": "entity"
   },
   {
    "th": "อกเมือง",
@@ -874,7 +1049,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เมือง"
+   ],
+   "lit": "chest + town",
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + แดน",
+   "frame": "entity"
   },
   {
    "th": "อกรวบ",
@@ -899,7 +1082,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + อาการที่เอาสิ่งต่าง ๆ เข้ามาไว้ด้ว"
   },
   {
    "th": "การกอก",
@@ -919,13 +1105,17 @@
     "การก",
     "อก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้กระทำ + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "frame": "entity"
   }
  ],
  "etymology": {

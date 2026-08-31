@@ -1,7 +1,7 @@
 {
  "id": "w:wang",
  "th": "วัง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "wang",
  "paiboon": "wang",
  "ipa": "/waŋ˧/",
@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "palace"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ที่อยู่ของเจ้านาย, ถ้าเป็นที่อยู่ของพระมหากษัตริย์เรียก พระราชวัง หรือ พระบรมมหาราชวัง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -33,17 +33,26 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'."
    ]
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "palace"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "กรมวัง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -84,18 +93,25 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ระทม + กรมวัง"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "กรมวัง, the department named from the palace it runs.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "palace"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ล้อม, ห้อมล้อม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -111,16 +127,27 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it."
    ]
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "palace"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ห้วงน้ำลึก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -136,16 +163,27 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river."
    ]
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "palace"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ชื่อแม่น้ำในภาคเหนือของไทย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -186,7 +224,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้ต้นในสกุล Ficus วงศ์ Morace",
+     "frame": "entity"
     },
     {
      "th": "วังจันทร์",
@@ -211,7 +253,9 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "วังวน",
@@ -236,7 +280,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "วน"
+     ],
+     "lit": "palace + to circle",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + เวียนไปโดยรอบ"
     },
     {
      "th": "วังชัย",
@@ -261,7 +312,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ชัย"
+     ],
+     "lit": "palace + victory",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + การชนะ",
+     "frame": "entity"
     },
     {
      "th": "วังควง",
@@ -286,7 +345,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + แกว่งหรือทำให้หมุนไปโดยรอบ"
     },
     {
      "th": "วังเพิ่ม",
@@ -311,7 +373,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "palace + aggrandize",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ทำให้มากขึ้น"
     },
     {
      "th": "วังขนาย",
@@ -336,7 +402,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + งาช้างพัง",
+     "frame": "entity"
     },
     {
      "th": "วังศาลา",
@@ -361,7 +431,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + อาคารทรงไทย ปล่อยโถง ไม่กั้นฝา ใช้",
+     "frame": "entity"
     },
     {
      "th": "วังแขม",
@@ -386,7 +460,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้ล้มลุกชนิด Saccharum arundi",
+     "frame": "entity"
     },
     {
      "th": "วังบัว",
@@ -411,7 +489,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บัว"
+     ],
+     "lit": "palace + lotus",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+     "frame": "entity"
     },
     {
      "th": "วังชะพลู",
@@ -436,7 +522,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้ล้มลุกเกาะเลื้อยชนิด Piper",
+     "frame": "entity"
     },
     {
      "th": "วังม่วง",
@@ -461,7 +551,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ม่วง"
+     ],
+     "lit": "palace + purple",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + สีน้ำเงินปนแดง",
+     "frame": "quality"
     },
     {
      "th": "วังไผ่",
@@ -486,7 +584,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไผ่"
+     ],
+     "lit": "palace + bamboo",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "วังโพธิ์",
@@ -511,7 +617,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "palace + enlightenment",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ความตรัสรู้",
+     "frame": "entity"
     },
     {
      "th": "วังแสง",
@@ -536,7 +650,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แสง"
+     ],
+     "lit": "palace + light",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ความสว่าง",
+     "frame": "entity"
     },
     {
      "th": "วังยาง",
@@ -561,7 +683,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยาง"
+     ],
+     "lit": "palace + rubber",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
     },
     {
      "th": "วังเย็น",
@@ -586,7 +716,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "เย็น"
+     ],
+     "lit": "palace + cold",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
     },
     {
      "th": "วังพิกุล",
@@ -611,7 +749,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ไม้ต้นชนิด Mimusops elengi L. ในวง",
+     "frame": "entity"
     },
     {
      "th": "วังใหม่",
@@ -636,7 +778,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหม่"
+     ],
+     "lit": "palace + again",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + เพิ่งมี",
+     "frame": "quality"
     },
     {
      "th": "วังน้อย",
@@ -661,7 +811,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "น้อย"
+     ],
+     "lit": "palace + little",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ไม่มาก",
+     "frame": "quality"
     },
     {
      "th": "วังชิ้น",
@@ -686,7 +844,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "palace + piece",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ก้อนหรือแผ่นเล็กที่ตัด แล่ แบ่ง แย",
+     "frame": "entity"
     },
     {
      "th": "วังโป่ง",
@@ -711,7 +874,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "palace + swollen",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส",
+     "frame": "entity"
     },
     {
      "th": "ค้อวัง",
@@ -736,7 +907,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปาล์มชนิด Livistona speciosa K + ชื่อแม่น้ำในภาคเหนือของไทย",
+     "frame": "entity"
     },
     {
      "th": "วังหิน",
@@ -761,7 +936,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หิน"
+     ],
+     "lit": "palace + rock",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+     "frame": "entity"
     },
     {
      "th": "วังตะเคียน",
@@ -786,7 +969,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้ต้นขนาดใหญ่ชนิด Hopea odora",
+     "frame": "entity"
     },
     {
      "th": "วังหินลาด",
@@ -811,7 +998,13 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PROP",
+     "head": 0,
+     "cross_listed": [
+      "ลาด"
+     ],
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อตำบลหนึ่งในอำเภอวัดโบสถ์ จังหว"
     },
     {
      "th": "วังหมี",
@@ -836,7 +1029,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "palace + bear",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อสัตว์เลี้ยงลูกด้วยนมในวงศ์ Urs",
+     "frame": "entity"
     },
     {
      "th": "บ้านวัง",
@@ -861,7 +1059,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + palace",
+     "lit_th": "ที่อยู่อาศัย + ชื่อแม่น้ำในภาคเหนือของไทย",
+     "frame": "entity"
     },
     {
      "th": "วังเจ้า",
@@ -886,7 +1092,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "palace + thou",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ผู้เป็นใหญ่",
+     "frame": "entity"
     },
     {
      "th": "วังน้ำขาว",
@@ -911,7 +1125,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + น้ำเมาชนิดหนึ่งทำด้วยข้าวเหนียวนึ่",
+     "frame": "entity"
     },
     {
      "th": "วังโพรง",
@@ -936,7 +1154,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "palace + hole",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ช่องที่กลวงเข้าไป",
+     "frame": "entity"
     },
     {
      "th": "วังวิเศษ",
@@ -961,7 +1184,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "palace + fine",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ยอดเยี่ยม",
+     "frame": "quality"
     },
     {
      "th": "วังโตนด",
@@ -986,7 +1214,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
     },
     {
      "th": "วังใหญ่",
@@ -1011,7 +1242,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "palace + huge",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + โต",
+     "frame": "quality"
     },
     {
      "th": "วังทอง",
@@ -1036,7 +1275,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "palace + gold",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
     },
     {
      "th": "วังเหนือ",
@@ -1061,7 +1308,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เหนือ"
+     ],
+     "lit": "palace + above",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อทิศตรงข้ามกับทิศใต้",
+     "frame": "entity"
     },
     {
      "th": "นาวัง",
@@ -1086,7 +1341,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + palace",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ชื่อแม่น้ำในภาคเหนือของไทย",
+     "frame": "entity"
     },
     {
      "th": "วังสมบูรณ์",
@@ -1111,7 +1374,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "palace + absolute",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + บริบูรณ์"
     },
     {
      "th": "วังทองหลาง",
@@ -1136,7 +1403,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้ต้นหลายชนิดในสกุล Erythrina",
+     "frame": "entity"
     },
     {
      "th": "วังทองแดง",
@@ -1161,7 +1432,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "palace + copper",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ธาตุลำดับที่ 29 สัญลักษณ์ Cu เป็นโ",
+     "frame": "entity"
     },
     {
      "th": "วังลึก",
@@ -1186,7 +1465,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "palace + deep",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ต่ำลงไปจากขอบมากกว่าปรกติ",
+     "frame": "quality"
     },
     {
      "th": "วังกระแจะ",
@@ -1211,9 +1495,17 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ผงเครื่องหอมต่าง ๆ ที่ประสมกันสำหร",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "The Wang river of the north, named from its deep pools.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -1227,6 +1519,8 @@
   "Attested in this corpus: 25 manuscript titles, 98 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 48; domain seeded by keyword hits ['toponym formative'].",
@@ -1253,7 +1547,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ประตู + ที่อยู่ของเจ้านาย",
+   "frame": "entity"
   },
   {
    "th": "การระวัง",
@@ -1273,13 +1571,21 @@
     "การระ",
     "วัง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "การระ"
+   ],
+   "lit": "nominalisation of ระ + palace",
+   "lit_th": "คำอาการนามของ ระ + ที่อยู่ของเจ้านาย",
+   "frame": "entity"
   },
   {
    "th": "ชาววัง",
@@ -1304,7 +1610,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "กลุ่มชนที่มีเชื้อชาติเดียวกัน หรือ + ที่อยู่ของเจ้านาย",
+   "frame": "entity"
   },
   {
    "th": "ระวัง",
@@ -1331,7 +1641,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "กระทบเรียดไป + ที่อยู่ของเจ้านาย"
   },
   {
    "th": "แยกวัง",
@@ -1356,7 +1669,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "separate + palace",
+   "lit_th": "ทำให้สิ่งที่รวมกันอยู่หรือประกอบกั + ที่อยู่ของเจ้านาย"
   }
  ],
  "etymology": {
@@ -1387,5 +1704,8 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "palace"
  ]
 }

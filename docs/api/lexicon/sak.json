@@ -1,7 +1,7 @@
 {
  "id": "w:sak",
  "th": "สัก",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "sak",
  "paiboon": "sàk",
  "ipa": "/sak̚˨˩/",
@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "teak"
     ],
     "th": "ชื่อไม้ต้นชนิด Tectona grandis L.f. ในวงศ์ Labiatae เนื้อไม้แข็งและคงทน เหมาะแก่การสร้างบ้านและทำเครื่องเรือน ใบและเนื้อไม้ใช้ทำยาได้",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +33,8 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: สัก, the teak."
    ],
    "compounds": [
     {
@@ -58,7 +60,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ที่มีโคลนลึก + ชื่อไม้ต้นชนิด Tectona grandis L.f",
+     "frame": "entity"
     },
     {
      "th": "แหลมสัก",
@@ -83,7 +89,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "tongue + teak",
+     "lit_th": "มีปลายเสี้ยมคม + ชื่อไม้ต้นชนิด Tectona grandis L.f",
+     "frame": "quality"
     },
     {
      "th": "ห้วยสัก",
@@ -108,7 +119,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ห้วย"
+     ],
+     "lit": "stream pool + teak",
+     "lit_th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขา + ชื่อไม้ต้นชนิด Tectona grandis L.f",
+     "frame": "entity"
     },
     {
      "th": "ดอนสัก",
@@ -133,7 +152,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดอน"
+     ],
+     "lit": "hill + teak",
+     "lit_th": "พื้นที่ที่น้ำท่วมไม่ถึง + ชื่อไม้ต้นชนิด Tectona grandis L.f",
+     "frame": "entity"
     },
     {
      "th": "สักงาม",
@@ -158,7 +185,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "งาม"
+     ],
+     "lit": "teak + aesthetic",
+     "lit_th": "ชื่อไม้ต้นชนิด Tectona grandis L.f + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+     "frame": "quality"
     },
     {
      "th": "ลานสัก",
@@ -183,7 +218,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลาน"
+     ],
+     "lit": "open ground + teak",
+     "lit_th": "บริเวณที่ว่าง + ชื่อไม้ต้นชนิด Tectona grandis L.f",
+     "frame": "entity"
     },
     {
      "th": "กาสัก",
@@ -208,7 +251,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กา"
+     ],
+     "lit": "crow + teak",
+     "frame": "entity"
     },
     {
      "th": "ป่าสัก",
@@ -233,7 +283,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "forest + teak",
+     "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + ชื่อไม้ต้นชนิด Tectona grandis L.f",
+     "frame": "entity"
     }
    ]
   },
@@ -259,6 +317,9 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สัก 'to tighten'."
    ]
   },
   {
@@ -283,6 +344,9 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สัก 'to pierce with a point' — the tattooing word; see the sak yant material."
    ]
   },
   {
@@ -307,7 +371,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Piercing with ink: to tattoo.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -331,7 +399,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "And tattooing as a mark of record.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -355,6 +427,9 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สัก 'only, about, just' — a particle, separate."
    ]
   }
  ],
@@ -367,6 +442,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 97 manuscript titles, 31 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -396,7 +472,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ว่า"
+   ],
+   "lit": "teak + to say",
+   "lit_th": "ชื่อไม้ต้นชนิด Tectona grandis L.f + พูด"
   },
   {
    "th": "สักวา",
@@ -421,7 +504,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "วา"
+   ],
+   "lit": "teak + to spread the arms",
+   "lit_th": "ชื่อไม้ต้นชนิด Tectona grandis L.f + มาตราวัดตามวิธีประเพณี คือระยะที่ก",
+   "frame": "entity"
   },
   {
    "th": "สักแต่ว่า",
@@ -446,7 +537,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+CONJ",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นชนิด Tectona grandis L.f + เชื่อมความให้กลับกัน ให้ยิ่งหย่อนก"
   },
   {
    "th": "สักการ",
@@ -466,12 +560,18 @@
     "สัก",
     "การ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นชนิด Tectona grandis L.f + งาน",
+   "flips_with": "การสัก",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "การสัก",
@@ -492,13 +592,18 @@
     "การ",
     "สัก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ชื่อไม้ต้นชนิด Tectona grandis L.f",
+   "flips_with": "สักการ",
+   "frame": "entity"
   },
   {
    "th": "สักกะ",
@@ -518,12 +623,17 @@
     "สัก",
     "กะ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นชนิด Tectona grandis L.f + เครื่องหมายบอกทำนองสวด",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ประสัก",
@@ -548,7 +658,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + ชื่อไม้ต้นชนิด Tectona grandis L.f"
   }
  ],
  "etymology": {

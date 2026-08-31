@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "mouth"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว์ อยู่ที่บริเวณใบหน้า ใช้สำหรับกินอาหาร และออกเสียง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -40,10 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "mouth"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "โดยปริยายหมายถึงส่วนต่าง ๆ ที่อยู่ในบริเวณปาก เช่น ปากเปื่อย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -69,10 +69,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "mouth"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ขอบช่องแห่งสิ่งต่าง ๆ เช่น ปากหม้อ ปากไห",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -98,10 +98,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "mouth"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ต้นทางสำหรับเข้าออก เช่น ปากช่อง ปากตรอก, ถ้าเป็นทางทะเล เรียกว่า ปากน้ำ, ปากแม่น้ำ เช่น ปากพูน ปากเซ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -142,7 +142,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "mouth + water",
+     "lit_th": "ต้นทางสำหรับเข้าออก เช่น ปากช่อง ป + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
     }
    ],
    "extends": 3,
@@ -154,10 +162,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "mouth"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "กลีบดอกกล้วยไม้คล้ายรูปกรวยหรือหลอดที่อยู่ตรงกลางเป็นที่อยู่ของเกสร, กระเป๋า ก็เรียก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -183,10 +191,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "mouth"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "เรียกสิ่งบางอย่างเช่นแหอวนหรือพยานบุคคล เช่น แหปากหนึ่ง อวน 2 ปาก พยาน 3 ปาก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -212,10 +220,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "mouth"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "พูด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -305,7 +313,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "pak as an element in place names + tube",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งสำหรับให้สิ่งอื่นมีน้ำเป็นต้นผ",
+     "frame": "entity"
     },
     {
      "th": "ปากชม",
@@ -331,7 +344,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สรรเสริญ"
     },
     {
      "th": "ปากพะยูน",
@@ -357,7 +373,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "pak as an element in place names + dugong",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Dugon",
+     "frame": "entity"
     },
     {
      "th": "ปากพลี",
@@ -383,7 +404,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "pak as an element in place names + sacrifice",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + การบวงสรวง",
+     "frame": "entity"
     },
     {
      "th": "ปากเกร็ด",
@@ -409,7 +435,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลำน้ำเล็กที่เป็นทางลัดเชื่อมลำน้ำใ",
+     "frame": "entity"
     },
     {
      "th": "ปลาปาก",
@@ -435,7 +465,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "fish + pak as an element in place names",
+     "lit_th": "ชื่อสัตว์น้ำเย็นมีกระดูกสันหลัง ร่ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ปากพนัง",
@@ -461,7 +496,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทำนบกั้นน้ำอย่างใหญ่",
+     "frame": "entity"
     },
     {
      "th": "ปากแคว",
@@ -487,7 +526,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลำน้ำที่ไหลมารวมกับลำน้ำอีกสายหนึ่",
+     "frame": "entity"
     },
     {
      "th": "ปากช่อง",
@@ -513,7 +556,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช่อง"
+     ],
+     "lit": "pak as an element in place names + hole",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ว่างซึ่งเป็นทางเข้าออกได้",
+     "frame": "entity"
     },
     {
      "th": "ปากพระ",
@@ -539,7 +590,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "pak as an element in place names + the honorific prefix phra",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -559,6 +618,8 @@
   "Attested in this corpus: 1 manuscript titles, 136 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 44; domain seeded by keyword hits ['override'].",
@@ -587,7 +648,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "shut + mouth",
+   "lit_th": "กันหรือกั้นไว้ไม่ให้เผยออก + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
   },
   {
    "th": "ถูกปาก",
@@ -612,7 +677,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "be + mouth",
+   "lit_th": "โดน + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
   },
   {
    "th": "ปากกา",
@@ -638,7 +707,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "กา"
+   ],
+   "lit": "mouth + crow",
+   "frame": "entity"
   },
   {
    "th": "การพลั้งปาก",
@@ -658,13 +734,17 @@
     "การพลั้ง",
     "ปาก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ พลั้ง + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
   },
   {
    "th": "ปากหวาน",
@@ -689,7 +769,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "หวาน"
+   ],
+   "lit": "mouth + sweet",
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + มีรสอย่างรสน้ำตาล"
   },
   {
    "th": "ลาภปาก",
@@ -714,7 +801,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สิ่งที่มักจะได้มาโดยไม่คาดคิด + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
   },
   {
    "th": "บุ้ยปาก",
@@ -739,7 +830,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ทำปากยื่นบอกใบ้ให้รู้ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
   },
   {
    "th": "ผิวปาก",
@@ -765,7 +859,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ส่วนที่มีลักษณะบาง ๆ เป็นพื้นหุ้มอ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
   },
   {
    "th": "รับปาก",
@@ -790,7 +888,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "รับ"
+   ],
+   "lit": "accept + mouth",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
   },
   {
    "th": "ปากจัด",
@@ -815,7 +920,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "จัด"
+   ],
+   "lit": "mouth + arrange",
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + ยิ่ง"
   },
   {
    "th": "ปากหมา",
@@ -840,7 +951,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "mouth + canine",
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + สัตว์เลี้ยงลูกด้วยน้ำนมหลายชนิดหลา",
+   "frame": "entity"
   },
   {
    "th": "ฝีปาก",
@@ -865,7 +981,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "abscess + mouth",
+   "lit_th": "โรคจำพวกหนึ่ง เป็นต่อมบวมขึ้นกลัดห + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
   },
   {
    "th": "ปากโป้ง",
@@ -890,7 +1011,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + ใหญ่"
   },
   {
    "th": "การเย็บปาก",
@@ -910,13 +1034,17 @@
     "การเย็บ",
     "ปาก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เย็บ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
   },
   {
    "th": "หุบปาก",
@@ -943,7 +1071,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "fold + mouth",
+   "lit_th": "อาการรวมเข้าของสิ่งที่ขยายออก + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
   },
   {
    "th": "ปากไก่",
@@ -968,7 +1100,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ไก่"
+   ],
+   "lit": "mouth + chicken",
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ",
+   "frame": "entity"
   },
   {
    "th": "จูบปาก",
@@ -993,7 +1133,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "osculate + mouth",
+   "lit_th": "เอาจมูกสัมผัสสูดแสดงความรักหรือควา + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
   },
   {
    "th": "กระเดาะปาก",
@@ -1017,7 +1161,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ทำให้กระเด็นขึ้นมาเบา ๆ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
   },
   {
    "th": "หลุดปาก",
@@ -1042,7 +1189,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "escape + mouth",
+   "lit_th": "ออกจากที่ที่ติดอยู่ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
   },
   {
    "th": "น้ำท่วมปาก",
@@ -1066,7 +1217,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "flood + mouth",
+   "lit_th": "ภัยธรรมชาติอย่างหนึ่งเกิดจากฝนตกใน + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
   },
   {
    "th": "ปากปลาร้า",
@@ -1090,7 +1246,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + การถนอมปลาของชาวอีสาน หมักกับเกลือ",
+   "frame": "entity"
   },
   {
    "th": "ปากเหว",
@@ -1115,7 +1275,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + ช่องลึกลงไปในภูเขา",
+   "frame": "entity"
   },
   {
    "th": "เย็บปาก",
@@ -1140,7 +1304,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "sew + mouth",
+   "lit_th": "ทำให้ติดกันโดยใช้เข็มร้อยด้ายหรือเ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
   },
   {
    "th": "การจูบปาก",
@@ -1160,13 +1328,18 @@
     "การจูบ",
     "ปาก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "kiss + mouth",
+   "lit_th": "คำอาการนามของ จูบ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
   },
   {
    "th": "การหลุดปาก",
@@ -1186,13 +1359,17 @@
     "การหลุด",
     "ปาก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หลุด + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
   },
   {
    "th": "พลั้งปาก",
@@ -1217,7 +1394,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "พลาดโดยไม่ตั้งใจหรือไม่ทันคิด + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
   },
   {
    "th": "เป่าปาก",
@@ -1242,7 +1422,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "play + mouth",
+   "lit_th": "พ่นลมออกมาทางปาก + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
   },
   {
    "th": "ปากคำ",
@@ -1267,7 +1451,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "คำ"
+   ],
+   "lit": "mouth + word",
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + เสียงพูด",
+   "frame": "entity"
   },
   {
    "th": "การปิดปาก",
@@ -1287,13 +1479,17 @@
     "การปิด",
     "ปาก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ปิด + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
   },
   {
    "th": "การหุบปาก",
@@ -1313,13 +1509,17 @@
     "การหุบ",
     "ปาก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หุบ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
   },
   {
    "th": "ปากเปียก",
@@ -1343,7 +1543,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "mouth + wet",
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + มีน้ำชุ่มปนผสมอยู่หรือติดอยู่"
   },
   {
    "th": "ภาษาปาก",
@@ -1368,7 +1572,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ภาษา"
+   ],
+   "lit": "language + mouth",
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
   },
   {
    "th": "ปากเสีย",
@@ -1393,7 +1605,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "เสีย"
+   ],
+   "lit": "mouth + bad",
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + เสื่อมลงไป"
   }
  ],
  "etymology": {
@@ -1411,5 +1630,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "mouth"
+ ]
 }

@@ -13,13 +13,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "พลัดลง, หล่นลง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -42,6 +39,15 @@
     "Declared root: ตก 'to fall'.",
     "Declared root: ตก 'to fall'.",
     "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
     "Declared root: ตก 'to fall'."
    ]
   },
@@ -49,13 +55,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ไหลลง, หยดลงมา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -81,13 +84,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ลดลง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -113,13 +113,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ล่วงเข้าเวลา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -145,13 +142,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "เรียกสีที่ละลายออกหรือจางไปในเวลาซักหรือถูกแดดเป็นต้น ว่า สีตก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -193,7 +187,10 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เรียกสีที่ละลายออกหรือจางไปในเวลาซ + ลำไม้ไผ่เป็นต้นที่ผ่าแล้วสับให้แตก"
     }
    ],
    "extends": 2,
@@ -205,13 +202,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "อยู่ในภาวะที่ไม่น่าพอใจ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -252,7 +246,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "decrease + bad",
+     "lit_th": "อยู่ในภาวะที่ไม่น่าพอใจ + ความลำบาก"
     }
    ],
    "extends": 1,
@@ -264,13 +262,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "มาถึง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -296,13 +291,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "ออก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -343,7 +335,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "decrease + child",
+     "lit_th": "ออก + ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย"
     }
    ],
    "extends": 1,
@@ -355,13 +354,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "ขาดหายไป",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -387,13 +383,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "ไม่ได้ขึ้นยานพาหนะเพราะไปไม่ทันหรือไม่มีค่าโดยสาร",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -419,13 +412,10 @@
    "n": 11,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 11 — no English yet]"
     ],
     "th": "ลดลงต่ำ เป็นอาการแสดงว่ากลัว ยอมแพ้ หรือหมดกำลัง เป็นต้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -451,13 +441,10 @@
    "n": 12,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 12 — no English yet]"
     ],
     "th": "สำเร็จ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -498,7 +485,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "เอาลง + สำเร็จ"
     },
     {
      "th": "แก้ตก",
@@ -522,7 +512,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "แก้"
+     ],
+     "lit": "cowrie shell used to burnish cloth + decrease",
+     "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + สำเร็จ"
     }
    ],
    "extends": 1,
@@ -534,13 +531,10 @@
    "n": 13,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 13 — no English yet]"
     ],
     "th": "เอาเบ็ดเกี่ยวเหยื่อหย่อนลงไปให้ปลาหรือกุ้งกินแล้ววัดหรือสาวขึ้นมา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -566,13 +560,10 @@
    "n": 14,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 14 — no English yet]"
     ],
     "th": "หลอกล่อให้ติดหรือไม่ให้หนี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -598,13 +589,10 @@
    "n": 15,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 15 — no English yet]"
     ],
     "th": "เอาเงินหรือสิ่งของให้ไปก่อน แล้วคิดเอาเป็นพืชผลภายหลังตามแต่จะตกลงกัน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -648,7 +636,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "ลง"
+     ],
+     "lit": "decrease + drop",
+     "lit_th": "เอาเงินหรือสิ่งของให้ไปก่อน แล้วคิ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
     }
    ],
    "extends": 13,
@@ -660,13 +655,10 @@
    "n": 16,
    "gloss": {
     "en": [
-     "decrease",
-     "drop",
-     "fail",
-     "fall"
+     "[RID sense 16 — no English yet]"
     ],
     "th": "อักษรย่อของ ตาก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -688,6 +680,15 @@
     "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
     "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
     "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
     "Declared root: an abbreviation of the province name ตาก — not a sense at all."
    ]
   }
@@ -703,6 +704,8 @@
   "Attested in this corpus: 131 manuscript titles, 186 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 36; domain seeded by keyword hits ['หนี', 'ตก', 'เข้า', 'ขึ้น'].",
@@ -730,7 +733,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "พลัดลง + ตกลงมาหรือขึ้นไปติดอยู่กับสิ่งใดสิ"
   },
   {
    "th": "ตกทอง",
@@ -755,7 +761,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ทอง"
+   ],
+   "lit": "decrease + gold",
+   "lit_th": "พลัดลง + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล"
   },
   {
    "th": "ตกมัน",
@@ -780,7 +793,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "มัน"
+   ],
+   "lit": "decrease + it",
+   "lit_th": "พลัดลง + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห"
   },
   {
    "th": "จิตตก",
@@ -805,7 +825,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "mind + decrease",
+   "lit_th": "ใจ + พลัดลง"
   },
   {
    "th": "ตกใจ",
@@ -831,7 +855,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "decrease + heart",
+   "lit_th": "พลัดลง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
   },
   {
    "th": "ตกหลุม",
@@ -856,7 +887,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "decrease + lacuna",
+   "lit_th": "พลัดลง + ที่ซึ่งมีลักษณะเป็นบ่อ มักมีขนาดเล"
   },
   {
    "th": "เก็บตก",
@@ -881,7 +916,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "เก็บ"
+   ],
+   "lit": "keep + decrease",
+   "lit_th": "เอาไปหรือเอามาจากที่ + พลัดลง"
   },
   {
    "th": "การตก",
@@ -903,13 +945,16 @@
     "การ",
     "ตก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + พลัดลง"
   },
   {
    "th": "ตกกระ",
@@ -934,7 +979,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0
   },
   {
    "th": "ลานดอกไม้ตก",
@@ -954,13 +1001,16 @@
     "ลานดอกไม้",
     "ตก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "PROP+V",
+   "head": 1,
+   "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองกำแพงเพชร + พลัดลง"
   },
   {
    "th": "ตะวันตก",
@@ -985,7 +1035,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ดวงอาทิตย์ + พลัดลง"
   },
   {
    "th": "วิตก",
@@ -1005,12 +1058,16 @@
     "วิ",
     "ตก"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "รูปตัดทอนของ วินาที + พลัดลง",
+   "use": "false-split"
   },
   {
    "th": "ตกงาน",
@@ -1035,7 +1092,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "งาน"
+   ],
+   "lit": "decrease + job",
+   "lit_th": "พลัดลง + สิ่งหรือกิจกรรมที่ทำ"
   },
   {
    "th": "ตกรางวัล",
@@ -1061,7 +1125,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "decrease + accolade",
+   "lit_th": "พลัดลง + สิ่งของหรือเงินที่ได้มาเพราะความดี"
   },
   {
    "th": "สอบตก",
@@ -1085,7 +1153,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "ตรวจ ทดลอง เปรียบเทียบ หรือไล่เลีย + พลัดลง"
   },
   {
    "th": "ตกกะปิ",
@@ -1110,7 +1181,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "พลัดลง + ของเค็มทำด้วยเคยกับเกลือโขลกและหมั"
   },
   {
    "th": "ตกตะกอน",
@@ -1135,7 +1209,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "พลัดลง + สิ่งที่ละลายปนอยู่ในน้ำหรือของเหลว"
   },
   {
    "th": "การปลงตก",
@@ -1155,13 +1232,16 @@
     "การปลง",
     "ตก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ปลง + พลัดลง"
   },
   {
    "th": "การเก็บตก",
@@ -1181,13 +1261,16 @@
     "การเก็บ",
     "ตก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เก็บ + พลัดลง"
   },
   {
    "th": "ตกทอด",
@@ -1212,7 +1295,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "decrease + fry",
+   "lit_th": "พลัดลง + ทำให้สุกด้วยน้ำมันที่เดือด"
   },
   {
    "th": "ตกแต่ง",
@@ -1239,7 +1326,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "decrease + dress",
+   "lit_th": "พลัดลง + จัดให้งาม"
   },
   {
    "th": "ตกพรม",
@@ -1259,13 +1350,17 @@
     "ตก",
     "พรม"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "decrease + carpet",
+   "lit_th": "พลัดลง + เครื่องลาดทำด้วยขนสัตว์"
   },
   {
    "th": "ดาวตก",
@@ -1290,7 +1385,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ดาว"
+   ],
+   "lit": "star + decrease",
+   "lit_th": "สิ่งที่เห็นเป็นดวงมีแสงระยิบระยับใ + พลัดลง"
   },
   {
    "th": "น้ำตก",
@@ -1316,7 +1418,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "water + decrease",
+   "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + พลัดลง"
   },
   {
    "th": "เก็บข้าวตก",
@@ -1341,7 +1450,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "เอาข้าวมาจากลูกหนี้แทนเงินที่ยืมไป + พลัดลง"
   },
   {
    "th": "ตกเบ็ด",
@@ -1366,7 +1478,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "พลัดลง + เครื่องมือสำหรับตกปลา หรือ กุ้ง รู"
   },
   {
    "th": "ตกหลุมพราง",
@@ -1391,7 +1506,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "พลัดลง + หลุมที่ทำลวงไว้"
   },
   {
    "th": "ตกผลึก",
@@ -1417,7 +1535,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "พลัดลง + ชื่อแก้วอย่างหนึ่งมีสีใสขาว เรียกว"
   },
   {
    "th": "ตกเบิก",
@@ -1442,7 +1563,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "พลัดลง + เปิด"
   },
   {
    "th": "ตกกล้า",
@@ -1467,7 +1591,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "พลัดลง + ต้นข้าวอ่อนที่เพาะจากข้าวเปลือกสำห"
   }
  ],
  "etymology": {
@@ -1485,5 +1612,11 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "decrease",
+  "drop",
+  "fail",
+  "fall"
+ ]
 }

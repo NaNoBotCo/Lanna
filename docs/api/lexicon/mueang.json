@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "town"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "แดน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -40,10 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "town"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ประเทศ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -87,7 +87,16 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "พล"
+     ],
+     "lit": "strength + town",
+     "lit_th": "กำลัง + ประเทศ",
+     "flips_with": "เมืองพล",
+     "frame": "entity"
     },
     {
      "th": "บ้านเมือง",
@@ -113,33 +122,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
-    },
-    {
-     "th": "คำเมือง",
-     "rtgs": "kham-mueang",
-     "ipa": "/kʰam˧.mɯa̯ŋ˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "ภาษาไทยถิ่นเหนือ, ภาษาที่ใช้ทางภาคเหนือตอนบนของประเทศไทย",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "คำ",
-      "เมือง"
      ],
-     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.11, next 0.01",
-     "conf": "probable",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ]
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + town",
+     "lit_th": "ที่อยู่อาศัย + ประเทศ",
+     "frame": "entity"
     },
     {
      "th": "เมืองน้ำหอม",
@@ -165,7 +156,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "town + perfume",
+     "lit_th": "ประเทศ + น้ำที่กลั่นจากเครื่องหอม",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -177,10 +173,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "town"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "จังหวัด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -221,7 +217,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit": "town + Chiang Mai"
     }
    ],
    "extends": 2,
@@ -233,10 +232,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "town"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "เขตซึ่งเคยเป็นเมืองสำคัญในระดับจังหวัด ต่อมาถูกลดฐานะเป็นอำเภอ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -262,10 +261,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "town"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "เขตซึ่งเป็นที่ชุมนุมและเป็นที่ตั้งศาลากลางจังหวัด ซึ่งในครั้งก่อน ถ้าเป็นเมืองใหญ่ หมายถึงเขตภายในกำแพงเมือง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -308,7 +307,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "form + town",
+     "lit_th": "รูป + เขตซึ่งเป็นที่ชุมนุมและเป็นที่ตั้ง",
+     "frame": "entity"
     }
    ],
    "extends": 4,
@@ -384,7 +391,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองพิษณุโลก",
@@ -410,7 +419,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองสุโขทัย",
@@ -436,7 +447,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองนนทบุรี",
@@ -462,7 +475,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit": "mueang as an element in place names + Nonthaburi"
     },
     {
      "th": "เมืองพัทลุง",
@@ -488,7 +504,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองปัก",
@@ -514,7 +532,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mueang as an element in place names + pin",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ตั้งฝังลง"
     },
     {
      "th": "เมืองสกลนคร",
@@ -540,7 +562,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองระนอง",
@@ -566,7 +590,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองสระแก้ว",
@@ -592,7 +618,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองสุรินทร์",
@@ -618,7 +646,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองลำพูน",
@@ -644,7 +674,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองเล็น",
@@ -670,7 +702,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อแมลงหรือสัตว์ขนาดเล็กมาก ที่กั",
+     "frame": "entity"
     },
     {
      "th": "เมืองเก่า",
@@ -696,7 +732,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "mueang as an element in place names + old",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ก่อน",
+     "frame": "quality"
     },
     {
      "th": "เมืองนาท",
@@ -722,7 +763,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ความบันลือ",
+     "frame": "entity"
     },
     {
      "th": "เมืองสวรรคโลก",
@@ -748,7 +793,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่ออำเภอหนึ่งในจังหวัดสุโขทัย"
     },
     {
      "th": "เมืองสงขลา",
@@ -774,7 +822,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองพังงา",
@@ -800,7 +850,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พะงา",
+     "frame": "entity"
     },
     {
      "th": "เมืองจันทร์",
@@ -826,7 +880,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองสุราษฎร์ธานี",
@@ -852,7 +908,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "คูเมือง",
@@ -878,7 +936,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ร่องน้ำที่ขุดขึ้นเพื่อชักน้ำหรือเก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เมืองราชบุรี",
@@ -904,7 +966,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองพิจิตร",
@@ -930,7 +994,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองเกษตร",
@@ -956,7 +1022,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ดิน",
+     "frame": "entity"
     },
     {
      "th": "เมืองสมุทรสาคร",
@@ -982,7 +1052,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "คลองเมือง",
@@ -1008,7 +1080,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "canal + mueang as an element in place names",
+     "lit_th": "ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เมืองกำแพงเพชร",
@@ -1034,7 +1114,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองใหม่",
@@ -1060,7 +1142,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหม่"
+     ],
+     "lit": "mueang as an element in place names + again",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เพิ่งมี",
+     "frame": "quality"
     },
     {
      "th": "เมืองประจวบคีรีขันธ์",
@@ -1086,7 +1176,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองสมุทรสงคราม",
@@ -1112,7 +1204,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองนะ",
@@ -1138,7 +1232,13 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "cross_listed": [
+      "นะ"
+     ],
+     "lit": "mueang as an element in place names + the sentence particle na",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง"
     },
     {
      "th": "เมืองระยอง",
@@ -1164,7 +1264,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองคง",
@@ -1190,7 +1292,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mueang as an element in place names + probably",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ยังมียังเป็นอยู่อย่างเดิม"
     },
     {
      "th": "เมืองหนองคาย",
@@ -1216,7 +1322,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองไผ่",
@@ -1242,7 +1350,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไผ่"
+     ],
+     "lit": "mueang as an element in place names + bamboo",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "เมืองลพบุรี",
@@ -1268,7 +1384,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองตาก",
@@ -1294,7 +1412,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ผึ่งให้แห้ง"
     },
     {
      "th": "เมืองกาญจนบุรี",
@@ -1320,7 +1441,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองฉะเชิงเทรา",
@@ -1346,7 +1469,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองหนองบัวลำภู",
@@ -1372,7 +1497,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองภูเก็ต",
@@ -1398,7 +1525,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองยะลา",
@@ -1424,7 +1553,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองนครราชสีมา",
@@ -1450,7 +1581,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองสระบุรี",
@@ -1476,7 +1609,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองอุตรดิตถ์",
@@ -1502,7 +1637,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองร้อยเอ็ด",
@@ -1528,7 +1665,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ร้อยกับหนึ่ง"
     },
     {
      "th": "เมืองกระบี่",
@@ -1554,7 +1693,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mueang as an element in place names + sabre",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลิง",
+     "frame": "entity"
     },
     {
      "th": "เมืองเพชรบูรณ์",
@@ -1580,7 +1724,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองพะเยา",
@@ -1606,7 +1752,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองงาย",
@@ -1632,7 +1780,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เวลาเช้า",
+     "frame": "entity"
     },
     {
      "th": "เมืองปทุมธานี",
@@ -1658,7 +1810,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองสตูล",
@@ -1684,7 +1838,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองเลย",
@@ -1710,7 +1866,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พ้นหรือเกินจุดที่กำหนด"
     },
     {
      "th": "เมืองมุกดาหาร",
@@ -1736,7 +1895,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไข่มุก",
+     "frame": "entity"
     },
     {
      "th": "เมืองปอน",
@@ -1762,7 +1925,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ซอมซ่อ",
+     "frame": "quality"
     },
     {
      "th": "โนนเมือง",
@@ -1788,7 +1955,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โนน"
+     ],
+     "lit": "mound + mueang as an element in place names",
+     "lit_th": "เนิน + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เมืองอ่างทอง",
@@ -1814,7 +1989,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองพาน",
@@ -1840,7 +2017,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะมีเชิงประเภทหนึ่ง มีหลายชนิด",
+     "frame": "entity"
     },
     {
      "th": "เมืองอุทัยธานี",
@@ -1866,7 +2047,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองยโสธร",
@@ -1892,7 +2075,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองสมุทรปราการ",
@@ -1918,7 +2103,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองพล",
@@ -1944,7 +2131,16 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พล"
+     ],
+     "lit": "mueang as an element in place names + strength",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กำลัง",
+     "flips_with": "พลเมือง",
+     "frame": "entity"
     },
     {
      "th": "เมืองปัตตานี",
@@ -1970,7 +2166,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองน่าน",
@@ -1996,7 +2194,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ย่าน",
+     "frame": "entity"
     },
     {
      "th": "เมืองอุบลราชธานี",
@@ -2022,7 +2224,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เจริญเมือง",
@@ -2048,7 +2252,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "develop + mueang as an element in place names",
+     "lit_th": "เติบโต + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "เมืองเพชรบุรี",
@@ -2074,7 +2282,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองกาฬสินธุ์",
@@ -2100,7 +2310,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองอุดรธานี",
@@ -2126,7 +2338,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองขอนแก่น",
@@ -2152,7 +2366,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองพลับพลา",
@@ -2178,7 +2394,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่พักชั่วคราว",
+     "frame": "entity"
     },
     {
      "th": "เมืองศรีสะเกษ",
@@ -2204,7 +2424,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองชลบุรี",
@@ -2230,7 +2452,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "ในเมือง",
@@ -2257,7 +2481,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PREP+N",
+     "head": 1,
+     "cross_listed": [
+      "ใน"
+     ],
+     "lit": "in + mueang as an element in place names",
+     "lit_th": "ตรงกันข้ามกับ นอก + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "เมืองจันทบุรี",
@@ -2283,7 +2514,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองยาง",
@@ -2309,7 +2542,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยาง"
+     ],
+     "lit": "mueang as an element in place names + rubber",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
     },
     {
      "th": "ดอนเมือง",
@@ -2335,7 +2576,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดอน"
+     ],
+     "lit": "hill + mueang as an element in place names",
+     "lit_th": "พื้นที่ที่น้ำท่วมไม่ถึง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เมืองมหาสารคาม",
@@ -2361,7 +2610,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองลำปาง",
@@ -2387,7 +2638,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองปราสาท",
@@ -2413,7 +2666,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mueang as an element in place names + castle",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เรือนยอดซ้อนกันเป็นชั้น ๆ สำหรับเป",
+     "frame": "entity"
     },
     {
      "th": "เมืองแม่ฮ่องสอน",
@@ -2439,7 +2697,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "สามเมือง",
@@ -2465,7 +2725,13 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 1,
+     "cross_listed": [
+      "สาม"
+     ],
+     "lit": "three + mueang as an element in place names",
+     "lit_th": "จำนวนสองบวกหนึ่ง + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "เมืองสุพรรณบุรี",
@@ -2491,7 +2757,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองโดน",
@@ -2517,7 +2785,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กระทบกระทั่ง"
     },
     {
      "th": "เมืองปาน",
@@ -2543,7 +2814,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mueang as an element in place names + mark",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + รอยสีแดงหรือสีดำเป็นต้นที่เกิดเป็น",
+     "frame": "entity"
     },
     {
      "th": "เมืองสิงห์บุรี",
@@ -2569,7 +2845,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองสรวง",
@@ -2595,7 +2873,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ฟ้า",
+     "frame": "entity"
     },
     {
      "th": "เมืองแพร่",
@@ -2621,7 +2903,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กระจายออกไป"
     },
     {
      "th": "เมืองอำนาจเจริญ",
@@ -2647,7 +2932,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "หน้าเมือง",
@@ -2673,7 +2960,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "before + mueang as an element in place names",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เมืองเชียงราย",
@@ -2699,7 +2994,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "เมืองชุม",
@@ -2725,7 +3022,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ชุม"
+     ],
+     "lit": "mueang as an element in place names + abound",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มารวมกัน"
     },
     {
      "th": "เมืองแหง",
@@ -2751,7 +3055,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อาการของหน้าที่แสดงความเก้อหรือจนป"
     }
    ],
    "extends": 1,
@@ -2771,7 +3077,8 @@
   "Attested in this corpus: 166 manuscript titles, 127 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
-  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 119; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
@@ -2798,7 +3105,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "father + town",
+   "lit_th": "ชายผู้ให้กำเนิดหรือเลี้ยงดูลูก + แดน",
+   "frame": "entity"
   },
   {
    "th": "เมืองฟ้า",
@@ -2823,7 +3135,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ฟ้า"
+   ],
+   "lit": "town + sky",
+   "frame": "entity"
   },
   {
    "th": "เลียบเมือง",
@@ -2847,7 +3166,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ไปตามริม + แดน"
   },
   {
    "th": "กวนเมือง",
@@ -2872,7 +3194,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "scramble + town",
+   "lit_th": "รบกวนทำให้เกิดความรำคาญ + แดน"
   },
   {
    "th": "แขกเมือง",
@@ -2897,7 +3223,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "guest + town",
+   "lit_th": "ผู้มาหา + แดน",
+   "frame": "entity"
   },
   {
    "th": "กินเมือง",
@@ -2922,7 +3253,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "กิน"
+   ],
+   "lit": "eat + town",
+   "lit_th": "เคี้ยว + แดน"
   },
   {
    "th": "เมืองนอก",
@@ -2947,7 +3285,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+PREP",
+   "head": 0,
+   "cross_listed": [
+    "นอก"
+   ],
+   "lit": "town + outside",
+   "lit_th": "แดน + ตรงข้ามกับใน"
   },
   {
    "th": "ไส้เมือง",
@@ -2972,7 +3317,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ไส้"
+   ],
+   "lit": "intestine + town",
+   "lit_th": "ส่วนของทางเดินอาหารต่อจากกระเพาะอา + แดน",
+   "frame": "entity"
   },
   {
    "th": "หัวเมือง",
@@ -2997,7 +3350,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "หัว"
+   ],
+   "lit": "head + town",
+   "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + แดน",
+   "frame": "entity"
   },
   {
    "th": "นั่งเมือง",
@@ -3022,7 +3383,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "sit + town",
+   "lit_th": "อาการที่หย่อนก้นให้ติดกับพื้นหรือท + แดน"
   },
   {
    "th": "ฝุ่นเมือง",
@@ -3047,7 +3412,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "dust + town",
+   "frame": "entity"
   },
   {
    "th": "เมืองขึ้น",
@@ -3072,7 +3441,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ขึ้น"
+   ],
+   "lit": "town + rise",
+   "lit_th": "แดน + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
   },
   {
    "th": "ชานเมือง",
@@ -3097,7 +3473,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "กากอ้อยหรือกากหมากที่เคี้ยวแล้วเป็ + แดน",
+   "frame": "entity"
   },
   {
    "th": "หลักเมือง",
@@ -3122,7 +3502,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "หลัก"
+   ],
+   "lit": "key + town",
+   "lit_th": "เสาที่ปักไว้ + แดน",
+   "frame": "entity"
   },
   {
    "th": "เมืองหลวง",
@@ -3149,7 +3537,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "หลวง"
+   ],
+   "lit": "town + royal",
+   "lit_th": "แดน + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "นักการเมือง",
@@ -3175,7 +3571,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "พนักงานชั้นผู้น้อยต่ำกว่าเสมียน ทำ + แดน",
+   "frame": "entity"
   },
   {
    "th": "เจ้าเมือง",
@@ -3200,7 +3600,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เจ้า"
+   ],
+   "lit": "thou + town",
+   "lit_th": "ผู้เป็นใหญ่ + แดน",
+   "frame": "entity"
   },
   {
    "th": "พื้นเมือง",
@@ -3226,7 +3634,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "floor + town",
+   "lit_th": "ส่วนราบด้านหน้าของสิ่งที่เป็นผืนเป + แดน",
+   "frame": "entity"
   },
   {
    "th": "การเมือง",
@@ -3252,7 +3665,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + แดน",
+   "frame": "entity"
   },
   {
    "th": "ขวัญเมือง",
@@ -3277,7 +3694,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ขวัญ"
+   ],
+   "lit": "khwan + town",
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + แดน",
+   "frame": "entity"
   },
   {
    "th": "อกเมือง",
@@ -3301,7 +3726,50 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "อก"
+   ],
+   "lit": "chest + town",
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + แดน",
+   "frame": "entity"
+  },
+  {
+   "th": "คำเมือง",
+   "rtgs": "kham-mueang",
+   "ipa": "/kʰam˧.mɯa̯ŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภาษาไทยถิ่นเหนือ, ภาษาที่ใช้ทางภาคเหนือตอนบนของประเทศไทย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "เมือง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.11, next 0.01 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "คำ"
+   ],
+   "lit": "word + town",
+   "lit_th": "เสียงพูด + ประเทศ",
+   "frame": "entity",
+   "use": "false-split"
   }
  ],
  "etymology": {
@@ -3319,5 +3787,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "town"
+ ]
 }

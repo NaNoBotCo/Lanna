@@ -1,7 +1,7 @@
 {
  "id": "w:noi",
  "th": "น้อย",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "noi",
  "paiboon": "nɔ́ɔi",
  "ipa": "/nɔːj˦˥/",
@@ -12,11 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "little",
-     "few"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ไม่มาก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -41,11 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "little",
-     "few"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ไม่ใหญ่, เล็ก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -61,17 +59,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Not much becomes not big.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "little",
-     "few"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "โดยปริยายหมายถึงลักษณะที่ด้อยความสำคัญหรือเป็นรอง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -112,19 +113,26 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "คำใช้แทนคำว่า คนหรือสิ่งที่ถือเสมื + โดยปริยายหมายถึงลักษณะที่ด้อยความส",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Small in standing: secondary, of lesser weight.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "little",
-     "few"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "แสดงความรู้สึกว่าน่ารักน่าเอ็นดู",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -165,19 +173,30 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "สาว"
+     ],
+     "lit": "maid + little",
+     "lit_th": "หญิงที่มีอายุพ้นวัยเด็ก นับตามความ + แสดงความรู้สึกว่าน่ารักน่าเอ็นดู",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Small and so dear — the affectionate use.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "little",
-     "few"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "คำพ้องความของ เมียน้อย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -218,9 +237,18 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "wife + little",
+     "lit_th": "ภรรยา + คำพ้องความของ เมียน้อย",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "เมียน้อย, the minor wife.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -290,7 +318,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "ADJ+ADJ",
+     "head": 1,
+     "lit_th": "ยาว + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "เกาะลันตาน้อย",
@@ -316,7 +348,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดกระบี่ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "นาน้อย",
@@ -342,7 +378,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + noi as an element in place names",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "หนองบัวน้อย",
@@ -368,7 +412,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "รูปตัดทอนของ หนองบัวลำภู + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "บางกอกน้อย",
@@ -394,7 +442,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "กรุงเทพมหานคร + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "เขาน้อย",
@@ -420,7 +472,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "เขา"
+     ],
+     "lit": "mountain + noi as an element in place names",
+     "lit_th": "เนินที่นูนสูงขึ้นไปเป็นจอมเด่น + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "บางสะพานน้อย",
@@ -446,7 +506,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดประจวบคีรีข + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "อ่าวลึกน้อย",
@@ -472,7 +536,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดกระบี่ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "วังน้อย",
@@ -498,7 +566,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + noi as an element in place names",
+     "lit_th": "ที่อยู่ของเจ้านาย + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ดงน้อย",
@@ -524,7 +600,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ดง"
+     ],
+     "lit": "deep forest + noi as an element in place names",
+     "lit_th": "ป่าที่มีต้นไม้ใหญ่ขึ้นหนาแน่น + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "แม่ยวมน้อย",
@@ -550,7 +634,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอแม่สะเรียง จัง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "กระบี่น้อย",
@@ -576,7 +664,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "sabre + noi as an element in place names",
+     "lit_th": "ลิง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ปงน้อย",
@@ -602,7 +695,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดพะเยา + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "สันทรายน้อย",
@@ -628,7 +725,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ไทรน้อย",
@@ -654,7 +755,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นในสกุล Ficus วงศ์ Morace + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "กุดน้อย",
@@ -680,7 +785,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "กุด"
+     ],
+     "lit": "to cut short + noi as an element in place names",
+     "lit_th": "ตัด + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -700,6 +813,8 @@
   "Attested in this corpus: 34 manuscript titles, 157 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 37; domain seeded by keyword hits ['ความรู้สึก', 'รัก'].",
@@ -727,7 +842,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ตา"
+   ],
+   "lit": "eye + little",
+   "lit_th": "พ่อของแม่ + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "น้อยใจ",
@@ -752,7 +875,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "little + heart",
+   "lit_th": "ไม่มาก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "flips_with": "ใจน้อย",
+   "frame": "quality"
   },
   {
    "th": "ช้างน้อย",
@@ -777,7 +909,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ช้าง"
+   ],
+   "lit": "elephant + little",
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "ท้องน้อย",
@@ -803,7 +943,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ท้อง"
+   ],
+   "lit": "carry + little",
+   "lit_th": "ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "ปู่น้อย",
@@ -828,7 +976,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "abuelo + little",
+   "lit_th": "พ่อของพ่อ + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "ยายน้อย",
@@ -853,7 +1006,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "gram + little",
+   "lit_th": "แม่ของแม่ + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "ย่าน้อย",
@@ -878,7 +1036,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "gram + little",
+   "lit_th": "แม่ของพ่อ + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "ผีน้อย",
@@ -903,7 +1066,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ผี"
+   ],
+   "lit": "spirit + little",
+   "lit_th": "สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "ความเล็กน้อย",
@@ -923,13 +1094,17 @@
     "ความเล็ก",
     "น้อย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เล็ก + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "ความน้อย",
@@ -949,13 +1124,18 @@
     "ความ",
     "น้อย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + little",
+   "lit_th": "เรื่อง + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "ไปยาลน้อย",
@@ -980,7 +1160,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "เครื่องหมายละคำ รูปดังนี้ ฯ เรียกว + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "ใจน้อย",
@@ -1005,7 +1189,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "heart + little",
+   "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ไม่มาก",
+   "flips_with": "น้อยใจ",
+   "frame": "quality"
   },
   {
    "th": "เล็กน้อย",
@@ -1033,7 +1226,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 1,
+   "lit": "small + little",
+   "lit_th": "มีขนาดย่อมกว่าเมื่อเทียบกัน + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "เปยยาลน้อย",
@@ -1058,7 +1256,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ไปยาล + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "ภรรยาน้อย",
@@ -1078,13 +1280,18 @@
     "ภรรยา",
     "น้อย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "wife + little",
+   "lit_th": "ภริยา + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "แน่งน้อย",
@@ -1109,7 +1316,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "นาง + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "ภริยาน้อย",
@@ -1129,13 +1340,17 @@
     "ภริยา",
     "น้อย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ภรรยา + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "หนอนน้อย",
@@ -1160,7 +1375,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "worm + little",
+   "lit_th": "ชื่อของตัวอ่อนของแมลงหลายชนิดที่ฟั + ไม่มาก",
+   "frame": "quality"
   }
  ],
  "etymology": {
@@ -1178,5 +1398,9 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "little",
+  "few"
+ ]
 }

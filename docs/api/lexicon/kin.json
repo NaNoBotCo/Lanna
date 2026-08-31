@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "eat",
-     "consume",
-     "have",
-     "take"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "เคี้ยว (แล้วคายทิ้ง)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -44,13 +41,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "eat",
-     "consume",
-     "have",
-     "take"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "เคี้ยวกลืน, ทำให้ล่วงลำคอลงไปสู่กระเพาะ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -67,6 +61,15 @@
    "needs_check": [
     "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
     "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
     "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first."
    ]
   },
@@ -74,13 +77,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "eat",
-     "consume",
-     "have",
-     "take"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ดื่ม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -117,7 +117,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "eat + water",
+     "lit_th": "ดื่ม + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ"
     }
    ],
    "extends": 2,
@@ -129,13 +136,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "eat",
-     "consume",
-     "have",
-     "take"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "เปลือง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -173,7 +177,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "eat + time",
+     "lit_th": "เปลือง + ชั่วขณะความยาวนานที่มีอยู่หรือเป็น"
     }
    ],
    "extends": 2,
@@ -185,13 +193,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "eat",
-     "consume",
-     "have",
-     "take"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ทำให้หมดเปลือง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -214,13 +219,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "eat",
-     "consume",
-     "have",
-     "take"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "รับเอา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -243,13 +245,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "eat",
-     "consume",
-     "have",
-     "take"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "หารายได้โดยไม่สุจริต",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -272,13 +271,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "eat",
-     "consume",
-     "have",
-     "take"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "ชนะในการพนันบางอย่าง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -317,7 +313,10 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+PRON",
+     "head": 0,
+     "lit_th": "ชนะในการพนันบางอย่าง + สรรพนามบุรุษที่ 1 ใช้แทนตัวผู้พูดเ"
     }
    ],
    "extends": 6,
@@ -337,6 +336,8 @@
   "Attested in this corpus: 14 manuscript titles, 60 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 45; domain seeded by keyword hits —.",
@@ -363,7 +364,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตา"
+   ],
+   "lit": "eat + tear",
+   "lit_th": "เคี้ยว + น้ำที่ไหลออกจากนัยน์ตา"
   },
   {
    "th": "กินเลี้ยง",
@@ -388,7 +396,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "เลี้ยง"
+   ],
+   "lit": "eat + grow",
+   "lit_th": "เคี้ยว + ดูแล"
   },
   {
    "th": "กินถั่วดำ",
@@ -413,7 +428,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เคี้ยว + เมล็ดแก่ของถั่วฝักยาวชนิดที่เมล็ดส"
   },
   {
    "th": "กินยุง",
@@ -433,13 +451,16 @@
     "กิน",
     "ยุง"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "biological"
+   "use": "biological",
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เคี้ยว + วงศ์ Culicidae โดยทั่วไปลำตัวยาว 3"
   },
   {
    "th": "กินบุญ",
@@ -464,7 +485,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "บุญ"
+   ],
+   "lit": "eat + merit",
+   "lit_th": "เคี้ยว + ความสุข"
   },
   {
    "th": "หวัดกิน",
@@ -489,7 +517,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "cold + eat",
+   "lit_th": "อาการที่เยื่อของอวัยวะที่เป็นเครื่ + เคี้ยว"
   },
   {
    "th": "กินตับ",
@@ -514,7 +546,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "eat + liver",
+   "lit_th": "เคี้ยว + อวัยวะประเภทต่อมของระบบทางเดินอาหา"
   },
   {
    "th": "การตีกิน",
@@ -534,13 +570,17 @@
     "การตี",
     "กิน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "drive + eat",
+   "lit_th": "คำอาการนามของ ตี + เคี้ยว"
   },
   {
    "th": "กินรี",
@@ -560,12 +600,21 @@
     "กิน",
     "รี"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "รี"
+   ],
+   "lit": "eat + oval",
+   "lit_th": "เคี้ยว + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "กินข้าวแดง",
@@ -590,7 +639,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เคี้ยว + เมล็ดข้าวที่มีปลอกรำสีแดงหุ้มอยู่ร"
   },
   {
    "th": "กินดอง",
@@ -615,7 +667,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เคี้ยว + แช่หรือหมักผัก ผลไม้ หรือสิ่งต่าง"
   },
   {
    "th": "เกาะกิน",
@@ -640,7 +695,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "เกาะ"
+   ],
+   "lit": "island + eat",
+   "lit_th": "ส่วนของแผ่นดินที่มีน้ำล้อมรอบ + เคี้ยว"
   },
   {
    "th": "กินเมือง",
@@ -665,7 +727,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "เมือง"
+   ],
+   "lit": "eat + town",
+   "lit_th": "เคี้ยว + แดน"
   },
   {
    "th": "กินนอน",
@@ -689,7 +758,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "eat + dormant",
+   "lit_th": "เคี้ยว + เอนตัวลงกับพื้นหรือที่ใด ๆ"
   },
   {
    "th": "การกิน",
@@ -709,13 +782,16 @@
     "การ",
     "กิน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + เคี้ยว"
   },
   {
    "th": "เกินกิน",
@@ -740,7 +816,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "cross_listed": [
+    "เกิน"
+   ],
+   "lit": "to exceed + eat",
+   "lit_th": "พ้น + เคี้ยว",
+   "frame": "quality"
   },
   {
    "th": "การหากิน",
@@ -760,13 +844,16 @@
     "การหา",
     "กิน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หา + เคี้ยว"
   },
   {
    "th": "กินแบ่ง",
@@ -791,7 +878,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "eat + divide",
+   "lit_th": "เคี้ยว + แยกออกเป็นส่วน ๆ"
   },
   {
    "th": "กินเด็ก",
@@ -816,7 +907,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "eat + child",
+   "lit_th": "เคี้ยว + คนที่มีอายุยังน้อย"
   },
   {
    "th": "กินที่",
@@ -841,7 +936,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "eat + at",
+   "lit_th": "เคี้ยว + แหล่ง"
   },
   {
    "th": "กินไข่แดง",
@@ -866,7 +965,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "eat + egg yolk",
+   "lit_th": "เคี้ยว + ส่วนของไข่สัตว์ เช่น ไข่ของนก ไข่ข"
   },
   {
    "th": "การอยู่กิน",
@@ -886,13 +989,16 @@
     "การอยู่",
     "กิน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ อยู่ + เคี้ยว"
   },
   {
    "th": "กินเส้น",
@@ -917,7 +1023,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "เส้น"
+   ],
+   "lit": "eat + mark",
+   "lit_th": "เคี้ยว + สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่"
   },
   {
    "th": "กินตัว",
@@ -942,7 +1055,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "eat + form",
+   "lit_th": "เคี้ยว + รูป"
   },
   {
    "th": "กินสำรับ",
@@ -966,7 +1086,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เคี้ยว + ภาชนะเช่นถาดเป็นต้นใส่ถ้วยชามพร้อม"
   },
   {
    "th": "กินแขก",
@@ -991,7 +1114,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "eat + guest",
+   "lit_th": "เคี้ยว + ผู้มาหา"
   },
   {
    "th": "กินลูกปืน",
@@ -1016,7 +1143,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เคี้ยว + ลูกตะกั่วหรือเหล็กเป็นต้นที่ยัดใส่"
   },
   {
    "th": "กินริน",
@@ -1040,7 +1170,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เคี้ยว + เทให้ไหลออกเรื่อย ๆ ทีละน้อย"
   },
   {
    "th": "กินแหนง",
@@ -1065,7 +1198,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เคี้ยว + หมาง"
   },
   {
    "th": "กินนร",
@@ -1085,12 +1221,16 @@
     "กิน",
     "นร"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เคี้ยว + คน",
+   "use": "false-split"
   },
   {
    "th": "กินรวบ",
@@ -1115,7 +1255,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เคี้ยว + อาการที่เอาสิ่งต่าง ๆ เข้ามาไว้ด้ว"
   },
   {
    "th": "ตีกิน",
@@ -1140,7 +1283,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "ตี"
+   ],
+   "lit": "hit + eat",
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + เคี้ยว"
   },
   {
    "th": "หากิน",
@@ -1165,7 +1315,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "หา"
+   ],
+   "lit": "find + eat",
+   "lit_th": "มุ่งพบ + เคี้ยว"
   },
   {
    "th": "กินแรง",
@@ -1190,7 +1347,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "แรง"
+   ],
+   "lit": "eat + bright",
+   "lit_th": "เคี้ยว + กำลัง"
   },
   {
    "th": "กินลม",
@@ -1215,7 +1379,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ลม"
+   ],
+   "lit": "eat + wind",
+   "lit_th": "เคี้ยว + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
   },
   {
    "th": "เก็บกิน",
@@ -1240,7 +1411,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "เก็บ"
+   ],
+   "lit": "keep + eat",
+   "lit_th": "เอาไปหรือเอามาจากที่ + เคี้ยว"
   },
   {
    "th": "การเก็บกิน",
@@ -1260,13 +1438,16 @@
     "การเก็บ",
     "กิน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เก็บ + เคี้ยว"
   },
   {
    "th": "อยู่กิน",
@@ -1291,7 +1472,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "dwell + eat",
+   "lit_th": "พัก + เคี้ยว"
   },
   {
    "th": "ใบ้กิน",
@@ -1316,7 +1501,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "พิการแต่กำเนิด ไม่สามารถพูดเป็นถ้อ + เคี้ยว",
+   "frame": "quality"
   },
   {
    "th": "กินกริบ",
@@ -1341,7 +1530,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เคี้ยว + ตัดให้ขาดด้วยกรรไกร"
   },
   {
    "th": "ของกิน",
@@ -1366,7 +1558,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ของ"
+   ],
+   "lit": "by + eat",
+   "lit_th": "สิ่งต่าง ๆ + เคี้ยว"
   },
   {
    "th": "กินใจ",
@@ -1391,7 +1590,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "eat + heart",
+   "lit_th": "เคี้ยว + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
   }
  ],
  "etymology": {
@@ -1409,5 +1615,11 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "eat",
+  "consume",
+  "have",
+  "take"
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "w:raeng",
  "th": "แรง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "raeng",
  "paiboon": "rɛɛng",
  "ipa": "/rɛːŋ˧/",
@@ -12,11 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "bright",
-     "force"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "กำลัง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -60,7 +59,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ออก"
+     ],
+     "lit": "tear + bright",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + กำลัง",
+     "frame": "entity"
     }
    ]
   },
@@ -68,11 +75,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "bright",
-     "force"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "อำนาจ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -88,17 +94,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Strength as power over others: authority.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "bright",
-     "force"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "อิทธิพลภายนอกใด ๆ ที่เปลี่ยนแปลงหรือพยายามทำให้เกิดการเปลี่ยนแปลงสถานะอยู่นิ่งหรือสถานะการเคลื่อนที่ของเทหวัตถุ ด้วยอัตราเร็วสม่ำเสมอในแนวเส้นตรง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -114,17 +123,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Force in the physicist's sense.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "bright",
-     "force"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "อัตราการทำงาน กำหนดเป็นกำลังคนต่อช่วงเวลาหนึ่ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -166,7 +178,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + bright",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + อัตราการทำงาน กำหนดเป็นกำลังคนต่อช",
+     "frame": "entity"
     },
     {
      "th": "แรงงาน",
@@ -193,19 +213,30 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "งาน"
+     ],
+     "lit": "bright + job",
+     "lit_th": "อัตราการทำงาน กำหนดเป็นกำลังคนต่อช + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Strength counted as a rate of work: manpower.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "bright",
-     "force"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ฉุน, จัด, กล้า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -221,17 +252,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Strong to the senses: pungent, sharp, intense.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "bright",
-     "force"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "แข็ง, มีกำลัง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -247,17 +281,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Simply strong, hard.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "bright",
-     "force"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ศักดิ์สิทธิ์",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -273,17 +310,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Power that is not ordinary: sacred, potent.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
    "gloss": {
     "en": [
-     "bright",
-     "force"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "ใช้กำลังกระทำถึงขีด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -299,17 +339,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "To bring strength to bear.",
+   "via_conf": "probable"
   },
   {
    "n": 9,
    "gloss": {
     "en": [
-     "bright",
-     "force"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "ออกแรง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -351,7 +394,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ลง"
+     ],
+     "lit": "drop + bright",
+     "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ออกแรง"
     },
     {
      "th": "ร้ายแรง",
@@ -379,19 +429,30 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "ร้าย"
+     ],
+     "lit": "bad + bright",
+     "lit_th": "ดุ + ออกแรง",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "And to exert oneself.",
+   "via_conf": "probable"
   },
   {
    "n": 10,
    "gloss": {
     "en": [
-     "bright",
-     "force"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "หมกมุ่น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -407,7 +468,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "Intensity turned inward: absorbed, obsessed.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -421,6 +486,8 @@
   "Attested in this corpus: 0 manuscript titles, 121 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['เคลื่อน', 'ลง', 'ออก'].",
@@ -444,13 +511,21 @@
     "การลง",
     "แรง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "การลง"
+   ],
+   "lit": "nominalisation of ลง + bright",
+   "lit_th": "คำอาการนามของ ลง + กำลัง",
+   "frame": "entity"
   },
   {
    "th": "แม่แรง",
@@ -475,7 +550,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แม่"
+   ],
+   "lit": "mother + bright",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + กำลัง",
+   "frame": "entity"
   },
   {
    "th": "ความร้ายแรง",
@@ -495,13 +578,17 @@
     "ความร้าย",
     "แรง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ร้าย + กำลัง",
+   "frame": "entity"
   },
   {
    "th": "แข็งแรง",
@@ -529,7 +616,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "cross_listed": [
+    "แข็ง"
+   ],
+   "lit": "hard + bright",
+   "lit_th": "กระด้าง + กำลัง",
+   "frame": "quality"
   },
   {
    "th": "แรงจูงใจ",
@@ -555,7 +650,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "กำลัง + ชักนำหรือเกลี้ยกล่อมเพื่อให้เห็นคล"
   },
   {
    "th": "เรี่ยวแรง",
@@ -581,7 +679,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "แรง + กำลัง",
+   "frame": "entity"
   },
   {
    "th": "ความแข็งแรง",
@@ -602,13 +704,17 @@
     "ความแข็ง",
     "แรง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แข็ง + กำลัง",
+   "frame": "entity"
   },
   {
    "th": "รุนแรง",
@@ -636,7 +742,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ดุนสิ่งใดสิ่งหนึ่งให้เคลื่อนที่ไปข + กำลัง"
   },
   {
    "th": "การกินแรง",
@@ -656,13 +765,17 @@
     "การกิน",
     "แรง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กิน + กำลัง",
+   "frame": "entity"
   },
   {
    "th": "กินแรง",
@@ -687,7 +800,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "กิน"
+   ],
+   "lit": "eat + bright",
+   "lit_th": "เคี้ยว + กำลัง"
   },
   {
    "th": "แรงกระตุ้น",
@@ -714,7 +834,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "bright + drive",
+   "lit_th": "กำลัง + ใช้มือหรือสิ่งใด ๆ กระแทกเบา ๆ ให้"
   },
   {
    "th": "อย่างแรง",
@@ -739,7 +863,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "วิธี + กำลัง",
+   "frame": "entity"
   },
   {
    "th": "ความแรง",
@@ -759,13 +887,18 @@
     "ความ",
     "แรง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + bright",
+   "lit_th": "เรื่อง + กำลัง",
+   "frame": "entity"
   },
   {
    "th": "การออกแรง",
@@ -785,13 +918,17 @@
     "การออก",
     "แรง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ออก + กำลัง",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -809,5 +946,9 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "bright",
+  "force"
+ ]
 }

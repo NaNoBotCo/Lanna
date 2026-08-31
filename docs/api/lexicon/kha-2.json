@@ -1,7 +1,7 @@
 {
  "id": "w:kha-2",
  "th": "คา",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "kha",
  "paiboon": "kaa",
  "ipa": "/kʰaː˧/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "cangue",
+     "wooden neck-yoke"
     ],
     "th": "เครื่องจำคอนักโทษ ทำด้วยไม้",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +34,9 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: คา, the wooden cangue.",
+    "Declared root: คา, the wooden cangue."
    ]
   },
   {
@@ -57,6 +61,10 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: คา 'stuck, lodged' — separate.",
+    "Declared root: คา 'stuck, lodged' — separate."
    ]
   },
   {
@@ -107,9 +115,16 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ตกลงมาหรือขึ้นไปติดอยู่กับสิ่งใดสิ + ยังไม่พ้นไปจากที่นั้น ๆ"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Still lodged, not yet past the place.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -159,8 +174,19 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หลัง"
+     ],
+     "lit": "back + cangue",
+     "frame": "entity"
     }
+   ],
+   "needs_check": [
+    "Declared root: หญ้าคา, cogon grass.",
+    "Declared root: หญ้าคา, cogon grass."
    ]
   },
   {
@@ -231,7 +257,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ผันร่างไปทางใดทางหนึ่ง + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "บางคา",
@@ -257,7 +286,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + kha as an element in place names",
+     "lit_th": "ทางน้ำเล็ก ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เกาะคา",
@@ -283,7 +320,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เกาะ"
+     ],
+     "lit": "island + kha as an element in place names",
+     "lit_th": "ส่วนของแผ่นดินที่มีน้ำล้อมรอบ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "บ้านคา",
@@ -309,7 +354,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + kha as an element in place names",
+     "lit_th": "ที่อยู่อาศัย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -327,6 +380,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 220 manuscript titles, 930 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -351,13 +405,17 @@
     "การ",
     "คา"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + เครื่องจำคอนักโทษ ทำด้วยไม้",
+   "frame": "entity"
   },
   {
    "th": "คาใจ",
@@ -382,7 +440,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "cangue + heart",
+   "lit_th": "เครื่องจำคอนักโทษ ทำด้วยไม้ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
   },
   {
    "th": "คาคบ",
@@ -407,7 +473,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "เครื่องจำคอนักโทษ ทำด้วยไม้ + ง่ามต้นไม้ที่กิ่งใหญ่กับลำต้นแยกกั",
+   "frame": "entity"
   },
   {
    "th": "คายก",
@@ -427,12 +497,20 @@
     "คา",
     "ยก"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ยก"
+   ],
+   "lit": "cangue + to lift",
+   "lit_th": "เครื่องจำคอนักโทษ ทำด้วยไม้ + เอาขึ้นให้สูงจากที่เดิมทั้งโดยตรงแ",
+   "use": "false-split"
   },
   {
    "th": "คาน้า",
@@ -457,7 +535,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "เครื่องจำคอนักโทษ ทำด้วยไม้ + น้องชายหรือน้องสาวของแม่",
+   "frame": "entity"
   },
   {
    "th": "การค้างคา",
@@ -477,13 +559,17 @@
     "การค้าง",
     "คา"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ค้าง + เครื่องจำคอนักโทษ ทำด้วยไม้",
+   "frame": "entity"
   },
   {
    "th": "ราคา",
@@ -511,7 +597,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "รา"
+   ],
+   "lit": "joist + cangue",
+   "lit_th": "ไม้ที่กระหนาบอยู่ใต้ท้องพรึงรับพื้ + เครื่องจำคอนักโทษ ทำด้วยไม้",
+   "frame": "entity"
   },
   {
    "th": "คงคา",
@@ -531,12 +625,17 @@
     "คง",
     "คา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "probably + cangue",
+   "lit_th": "ยังมียังเป็นอยู่อย่างเดิม + เครื่องจำคอนักโทษ ทำด้วยไม้",
+   "use": "false-split"
   },
   {
    "th": "คาถา",
@@ -557,12 +656,16 @@
     "คา",
     "ถา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "เครื่องจำคอนักโทษ ทำด้วยไม้ + ถลา",
+   "use": "false-split"
   },
   {
    "th": "คารม",
@@ -587,7 +690,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "รม"
+   ],
+   "lit": "cangue + to smoke",
+   "lit_th": "เครื่องจำคอนักโทษ ทำด้วยไม้ + อบด้วยควันหรือไอไฟ"
   },
   {
    "th": "ชายคา",
@@ -612,7 +722,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ชาย"
+   ],
+   "lit": "male + cangue",
+   "lit_th": "คนที่ไม่มีมดลูก + เครื่องจำคอนักโทษ ทำด้วยไม้",
+   "frame": "entity"
   },
   {
    "th": "คาวี",
@@ -632,12 +750,20 @@
     "คา",
     "วี"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "วี"
+   ],
+   "lit": "cangue + to fan",
+   "lit_th": "เครื่องจำคอนักโทษ ทำด้วยไม้ + พัด",
+   "use": "false-split"
   }
  ],
  "etymology": {

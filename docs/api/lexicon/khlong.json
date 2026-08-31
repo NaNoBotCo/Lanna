@@ -1,7 +1,7 @@
 {
  "id": "w:khlong",
  "th": "คลอง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "khlong",
  "paiboon": "klɔɔng",
  "ipa": "/kʰlɔːŋ˧/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "canal",
+     "waterway"
     ],
     "th": "ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือขุดเชื่อมกับแม่น้ำหรือทะเล",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -57,7 +59,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The canal becomes the way, the line, the course.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -81,7 +87,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "euphemism",
+   "via_note": "A veiled term for the female genitals.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -151,7 +161,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คอดมาก",
+     "frame": "quality"
     },
     {
      "th": "คลองหนึ่ง",
@@ -177,7 +191,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit": "khlong as an element in place names + a",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ตัวเลขตัวแรกของจำนวนนับ"
     },
     {
      "th": "คลองหลวง",
@@ -203,7 +220,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "khlong as an element in place names + royal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
     },
     {
      "th": "คลองนา",
@@ -229,7 +254,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "khlong as an element in place names + farm",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "frame": "entity"
     },
     {
      "th": "คลองสี่",
@@ -255,7 +288,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit": "khlong as an element in place names + four",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + จำนวนสามบวกหนึ่ง"
     },
     {
      "th": "คลองขนาน",
@@ -281,7 +317,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หมู่",
+     "frame": "entity"
     },
     {
      "th": "คลองห้า",
@@ -307,7 +347,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit": "khlong as an element in place names + five",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + จำนวนสี่บวกหนึ่ง"
     },
     {
      "th": "เหนือคลอง",
@@ -333,7 +376,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เหนือ"
+     ],
+     "lit": "above + khlong as an element in place names",
+     "lit_th": "ชื่อทิศตรงข้ามกับทิศใต้ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "บ้านคลอง",
@@ -359,7 +410,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + khlong as an element in place names",
+     "lit_th": "ที่อยู่อาศัย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "คลองยา",
@@ -385,7 +444,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยา"
+     ],
+     "lit": "khlong as an element in place names + medicine",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ",
+     "frame": "entity"
     },
     {
      "th": "คลองไก่เถื่อน",
@@ -411,7 +478,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำพ้องความของ ไก่ป่า",
+     "frame": "entity"
     },
     {
      "th": "คลองน้ำเค็ม",
@@ -437,7 +508,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + น้ำทะเล",
+     "frame": "entity"
     },
     {
      "th": "คลองหิน",
@@ -463,7 +538,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หิน"
+     ],
+     "lit": "khlong as an element in place names + rock",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+     "frame": "entity"
     },
     {
      "th": "คลองสอง",
@@ -489,7 +572,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit": "khlong as an element in place names + two",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + จำนวนหนึ่งบวกหนึ่ง",
+     "flips_with": "สองคลอง"
     },
     {
      "th": "คลองกระจง",
@@ -515,7 +602,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนม ในวงศ์ Tr",
+     "frame": "entity"
     },
     {
      "th": "คลองเมือง",
@@ -541,7 +632,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "khlong as an element in place names + town",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แดน",
+     "frame": "entity"
     },
     {
      "th": "คลองวัว",
@@ -567,7 +666,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Bos t",
+     "frame": "entity"
     },
     {
      "th": "คลองพน",
@@ -593,7 +696,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ป่า",
+     "frame": "entity"
     },
     {
      "th": "คลองลาน",
@@ -619,7 +726,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลาน"
+     ],
+     "lit": "khlong as an element in place names + open ground",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บริเวณที่ว่าง",
+     "frame": "entity"
     },
     {
      "th": "สองคลอง",
@@ -645,7 +760,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 1,
+     "lit": "two + khlong as an element in place names",
+     "lit_th": "จำนวนหนึ่งบวกหนึ่ง + ใช้ประกอบชื่อสถานที่",
+     "flips_with": "คลองสอง"
     },
     {
      "th": "คลองควาย",
@@ -671,7 +790,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "khlong as an element in place names + water buffalo",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Bubal",
+     "frame": "entity"
     },
     {
      "th": "คลองยาง",
@@ -697,7 +821,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยาง"
+     ],
+     "lit": "khlong as an element in place names + rubber",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
     },
     {
      "th": "คลองไผ่",
@@ -723,7 +855,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไผ่"
+     ],
+     "lit": "khlong as an element in place names + bamboo",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "คลองขนาก",
@@ -749,7 +889,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกชนิด Cyperus serotinu",
+     "frame": "entity"
     },
     {
      "th": "คลองประเวศ",
@@ -775,7 +919,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + การเข้ามา",
+     "frame": "entity"
     },
     {
      "th": "คลองบ้านโพธิ์",
@@ -801,7 +949,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่ออำเภอหนึ่งในจังหวัดฉะเชิงเทรา"
     },
     {
      "th": "คลองสมบูรณ์",
@@ -827,7 +978,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "khlong as an element in place names + absolute",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บริบูรณ์"
     },
     {
      "th": "คลองม่วง",
@@ -853,7 +1008,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ม่วง"
+     ],
+     "lit": "khlong as an element in place names + purple",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สีน้ำเงินปนแดง",
+     "frame": "quality"
     },
     {
      "th": "คลองสาม",
@@ -879,7 +1042,13 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "cross_listed": [
+      "สาม"
+     ],
+     "lit": "khlong as an element in place names + three",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + จำนวนสองบวกหนึ่ง"
     },
     {
      "th": "คลองสาน",
@@ -905,7 +1074,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อาการที่ใช้เส้นตอกทำด้วยไม้ไผ่ หวา"
     },
     {
      "th": "คลองนารายณ์",
@@ -931,7 +1103,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "ทุ่งคลอง",
@@ -957,7 +1131,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "open field + khlong as an element in place names",
+     "lit_th": "ที่ราบโล่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "คลองจั่น",
@@ -983,7 +1165,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ช่อดอกหมากหรือช่อดอกมะพร้าวเมื่อยั",
+     "frame": "entity"
     },
     {
      "th": "คลองขลุง",
@@ -1009,7 +1195,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่ออำเภอหนึ่งในจังหวัดจันทบุรี"
     },
     {
      "th": "คลองเตย",
@@ -1035,7 +1224,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มหรือไม้ต้นหลายชนิดในสกุ",
+     "frame": "entity"
     },
     {
      "th": "คลองประสงค์",
@@ -1061,7 +1254,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "khlong as an element in place names + wishful",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ต้องการ"
     },
     {
      "th": "คลองใหญ่",
@@ -1087,7 +1284,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "khlong as an element in place names + huge",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + โต",
+     "frame": "quality"
     },
     {
      "th": "คลองขาม",
@@ -1113,7 +1318,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คร้าม"
     },
     {
      "th": "คลองขุด",
@@ -1139,7 +1347,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "khlong as an element in place names + mine",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กิริยาที่สับ เจาะ แทง หรือ คุ้ยเอา"
     },
     {
      "th": "คลองเขื่อน",
@@ -1165,7 +1377,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "khlong as an element in place names + dam",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องป้องกันไม่ให้ดินริมน้ำพัง",
+     "frame": "entity"
     },
     {
      "th": "คลองตาล",
@@ -1191,7 +1408,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อพืชชนิด Borassus flabellifer L",
+     "frame": "entity"
     },
     {
      "th": "คลองเจ็ด",
@@ -1217,7 +1438,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit": "khlong as an element in place names + seven",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + จำนวนหกบวกหนึ่ง"
     },
     {
      "th": "คลองหก",
@@ -1243,7 +1467,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit": "khlong as an element in place names + six",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + จำนวนห้าบวกหนึ่ง"
     },
     {
      "th": "คลองหาด",
@@ -1269,7 +1496,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "khlong as an element in place names + beach",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เนินที่ลาดลงไปในน้ำหรือบริเวณที่ตื",
+     "frame": "entity"
     },
     {
      "th": "คลองหินปูน",
@@ -1295,7 +1527,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "khlong as an element in place names + limestone",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หินที่มีเนื้อสารเป็นแคลเซียมคาร์บอ",
+     "frame": "entity"
     },
     {
      "th": "คลองตัน",
@@ -1321,7 +1558,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม่กลวง",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -1339,6 +1580,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 12 manuscript titles, 56 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -1363,13 +1605,17 @@
     "ลำ",
     "คลอง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ตัวของคน สัตว์ หรือสิ่งต่าง ๆ ไม่น + ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข",
+   "frame": "entity"
   },
   {
    "th": "คลองด่วน",
@@ -1394,7 +1640,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit": "canal + dire",
+   "lit_th": "ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข + รีบเร่ง"
   }
  ],
  "etymology": {

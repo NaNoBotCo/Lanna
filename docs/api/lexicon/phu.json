@@ -1,7 +1,7 @@
 {
  "id": "w:phu",
  "th": "ภู",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "phu",
  "paiboon": "puu",
  "ipa": "/pʰuː˧/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "earth",
+     "land"
     ],
     "th": "ดิน, แผ่นดิน, โลก",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -52,86 +54,11 @@
     "RID",
     "WIKT"
    ],
-   "compounds": [
-    {
-     "th": "ภูนายก",
-     "rtgs": "phu-na-yok",
-     "ipa": "/pʰuː˧.naː˧.jok̚˦˥/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "พระเจ้าแผ่นดิน",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "ภู",
-      "นายก"
-     ],
-     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.66, next 0.38",
-     "conf": "probable",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ]
-    },
-    {
-     "th": "ภูบดี",
-     "rtgs": "phu-bo-di",
-     "ipa": "/pʰuː˧.bɔː˧.diː˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "พระเจ้าแผ่นดิน",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "ภู",
-      "บดี"
-     ],
-     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.66, next 0.38",
-     "conf": "probable",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ]
-    },
-    {
-     "th": "ภูบาล",
-     "rtgs": "phu-ban",
-     "ipa": "/pʰuː˧.baːn˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "พระเจ้าแผ่นดิน",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "ภู",
-      "บาล"
-     ],
-     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.66, next 0.38",
-     "conf": "probable",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ]
-    }
-   ]
+   "compounds": [],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The earth stands for the one who holds it: the king — ภูบาล, ภูมินทร์.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -179,9 +106,21 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เขา"
+     ],
+     "lit": "earth + mountain",
+     "lit_th": "เนินที่สูงขึ้นเป็นจอม + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Ground raised into a peak.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -228,9 +167,16 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PRON",
+     "head": 0,
+     "lit_th": "เขา + รูปเลิกใช้ของ เขา"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "And so, a mountain.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -300,7 +246,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "phu as an element in place names + goose",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อนกจำพวกเป็ดขนาดใหญ่หลายชนิด วง",
+     "frame": "entity"
     },
     {
      "th": "ภูเหล็ก",
@@ -326,7 +277,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "phu as an element in place names + iron",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ธาตุลำดับที่ 26 สัญลักษณ์ Fe เป็นโ",
+     "frame": "entity"
     },
     {
      "th": "ภูซาง",
@@ -352,7 +308,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไผ่หลายชนิดในสกุล Dendrocalamu",
+     "frame": "entity"
     },
     {
      "th": "ชมภู",
@@ -378,7 +338,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "สรรเสริญ + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "ภูเวียง",
@@ -404,7 +367,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เมืองที่มีกำแพงล้อม",
+     "frame": "entity"
     },
     {
      "th": "ภูกระดึง",
@@ -430,7 +397,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องโลหะหรือเครื่องไม้มักมีรูปค",
+     "frame": "entity"
     },
     {
      "th": "ภูเรือ",
@@ -456,7 +427,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือ"
+     ],
+     "lit": "phu as an element in place names + boat",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+     "frame": "entity"
     },
     {
      "th": "ภูปอ",
@@ -482,7 +461,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เส้นใยที่ทำจากเปลือกไม้บางชนิด",
+     "frame": "entity"
     },
     {
      "th": "ภูพาน",
@@ -508,7 +491,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะมีเชิงประเภทหนึ่ง มีหลายชนิด",
+     "frame": "entity"
     },
     {
      "th": "ภูเพียง",
@@ -534,7 +521,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit": "phu as an element in place names + just",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เท่า"
     },
     {
      "th": "ภูหลวง",
@@ -560,7 +550,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "phu as an element in place names + royal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
     },
     {
      "th": "ภูสิงห์",
@@ -586,7 +584,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิงโต",
+     "frame": "entity"
     },
     {
      "th": "ภูดิน",
@@ -612,7 +614,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ดิน"
+     ],
+     "lit": "phu as an element in place names + soil",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
     },
     {
      "th": "ภูเขียว",
@@ -638,7 +648,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มีสีอย่างสีใบไม้สด",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -680,12 +694,20 @@
     "ภู",
     "วน"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "วน"
+   ],
+   "lit": "earth + to circle",
+   "lit_th": "ดิน + เวียนไปโดยรอบ",
+   "use": "false-split"
   },
   {
    "th": "ภูมิ",
@@ -705,12 +727,15 @@
     "ภู",
     "มิ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "ดิน + ไม่",
+   "use": "false-split"
   },
   {
    "th": "ภูเก็ต",
@@ -735,7 +760,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ดิน + เข้าใจ"
   },
   {
    "th": "ภูติ",
@@ -755,12 +783,20 @@
     "ภู",
     "ติ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ติ"
+   ],
+   "lit": "earth + accuse",
+   "lit_th": "ดิน + ชี้ข้อบกพร่อง",
+   "use": "false-split"
   },
   {
    "th": "รณภู",
@@ -785,7 +821,107 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เสียง + ดิน",
+   "frame": "entity"
+  },
+  {
+   "th": "ภูนายก",
+   "rtgs": "phu-na-yok",
+   "ipa": "/pʰuː˧.naː˧.jok̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พระเจ้าแผ่นดิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภู",
+    "นายก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.66, next 0.38 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + ผู้นำ",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ภูบดี",
+   "rtgs": "phu-bo-di",
+   "ipa": "/pʰuː˧.bɔː˧.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พระเจ้าแผ่นดิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภู",
+    "บดี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.66, next 0.38 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + เจ้า",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ภูบาล",
+   "rtgs": "phu-ban",
+   "ipa": "/pʰuː˧.baːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พระเจ้าแผ่นดิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภู",
+    "บาล"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.66, next 0.38 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "บาล"
+   ],
+   "lit": "earth + to guard",
+   "lit_th": "พระเจ้าแผ่นดิน + เลี้ยง",
+   "use": "false-split"
   }
  ],
  "etymology": {

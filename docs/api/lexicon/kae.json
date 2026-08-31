@@ -1,7 +1,7 @@
 {
  "id": "w:kae",
  "th": "แก้",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "kae",
  "paiboon": "gɛ̂ɛ",
  "ipa": "/kɛː˥˩/",
@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "cowrie shell used to burnish cloth"
     ],
     "th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งให้ผิวเป็นมัน",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +33,15 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name."
    ]
   },
   {
@@ -57,6 +66,16 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'."
    ]
   },
   {
@@ -81,7 +100,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Undoing widened to freeing, getting clear of.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -133,9 +156,21 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไข"
+     ],
+     "lit": "cowrie shell used to burnish cloth + fat",
+     "lit_th": "ทำให้ดีขึ้น + มันข้น",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Undoing what is wrong in a thing: to mend, to correct.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -185,9 +220,17 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ทำให้หาย + เครื่องประดับลักษณะเป็นวงคล้ายพวงม",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Mending a body: to cure.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -211,7 +254,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Undoing a difficulty in words: to explain, to solve.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -235,7 +282,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "Answering verse for verse — เพลงแก้, ลำตัดแก้.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -259,7 +310,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "Putting right a loss: to win back.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -271,6 +326,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 80 manuscript titles, 722 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -299,7 +355,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เชิง"
+   ],
+   "lit": "cowrie shell used to burnish cloth + foot",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง",
+   "frame": "entity"
   },
   {
    "th": "แก้บน",
@@ -324,7 +388,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "cowrie shell used to burnish cloth + above",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + เบื้องสูง",
+   "frame": "quality"
   },
   {
    "th": "แก้ขัด",
@@ -349,7 +418,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ขัด"
+   ],
+   "lit": "cowrie shell used to burnish cloth + abrade",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ให้ติดขวางไว้ไม่ให้หลุดออก"
   },
   {
    "th": "แก้เผ็ด",
@@ -374,7 +450,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "cowrie shell used to burnish cloth + hot",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + มีรสอย่างรสพริก",
+   "frame": "quality"
   },
   {
    "th": "แก้ต่าง",
@@ -400,7 +481,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "cowrie shell used to burnish cloth + other",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ภาชนะสำหรับบรรทุกสิ่งของมีคานพาดไว",
+   "frame": "entity"
   },
   {
    "th": "แก้หน้า",
@@ -425,7 +511,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "cowrie shell used to burnish cloth + before",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "แก้ผ้า",
@@ -450,7 +544,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ผ้า"
+   ],
+   "lit": "cowrie shell used to burnish cloth + cloth",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม",
+   "frame": "entity"
   },
   {
    "th": "การแก้",
@@ -470,13 +572,17 @@
     "การ",
     "แก้"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ",
+   "frame": "entity"
   },
   {
    "th": "แก้ขวย",
@@ -501,7 +607,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + กระดาก"
   },
   {
    "th": "แก้มือ",
@@ -526,7 +635,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "มือ"
+   ],
+   "lit": "cowrie shell used to burnish cloth + hand",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา",
+   "frame": "entity"
   },
   {
    "th": "แก้ลำ",
@@ -551,7 +668,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ตัวของคน สัตว์ หรือสิ่งต่าง ๆ ไม่น",
+   "frame": "entity"
   },
   {
    "th": "แก้ตก",
@@ -575,7 +696,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ตก"
+   ],
+   "lit": "cowrie shell used to burnish cloth + decrease",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + พลัดลง"
   },
   {
    "th": "แก้แค้น",
@@ -600,7 +728,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + โกรธเจ็บใจอยู่ไม่หาย"
   },
   {
    "th": "แก้เขิน",
@@ -625,7 +756,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "cowrie shell used to burnish cloth + abashed",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ชื่อคนไทใหญ่เผ่าหนึ่ง ส่วนมากอยู่ใ",
+   "frame": "entity"
   },
   {
    "th": "แก้โทษ",
@@ -650,7 +786,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "โทษ"
+   ],
+   "lit": "cowrie shell used to burnish cloth + badness",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ความไม่ดี",
+   "frame": "entity"
   },
   {
    "th": "แก้ที",
@@ -675,7 +819,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ที"
+   ],
+   "lit": "cowrie shell used to burnish cloth + time",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ครั้ง",
+   "frame": "entity"
   },
   {
    "th": "แก้บาป",
@@ -699,7 +851,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + การกระทำผิดหลักคำสอนหรือข้อห้ามในศ",
+   "frame": "entity"
   },
   {
    "th": "แก้ฟ้อง",
@@ -724,7 +880,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + กล่าวหาหรือกล่าวโทษต่อผู้ใหญ่หรือต"
   },
   {
    "th": "แก้หมาก",
@@ -749,7 +908,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "หมาก"
+   ],
+   "lit": "cowrie shell used to burnish cloth + areca palm",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง",
+   "frame": "entity"
   },
   {
    "th": "แก้เคล็ด",
@@ -774,7 +941,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "cowrie shell used to burnish cloth + technique",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + วิธีการที่ฉลาด พลิกแพลง ใช้ในการอย",
+   "frame": "entity"
   },
   {
    "th": "แก้ฝัน",
@@ -799,7 +971,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "cowrie shell used to burnish cloth + dream",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + การเห็นเป็นเรื่องราวเมื่อหลับ",
+   "frame": "entity"
   },
   {
    "th": "แก้ตัว",
@@ -826,7 +1003,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "cowrie shell used to burnish cloth + form",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + รูป",
+   "frame": "entity"
   }
  ],
  "etymology": {

@@ -12,12 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "mother",
-     "mom",
-     "mum"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก, คำที่ลูกเรียกหญิงผู้ให้กำเนิดหรือเลี้ยงดูตน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -42,12 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "mother",
-     "mom",
-     "mum"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "คำที่ผู้ใหญ่เรียกผู้หญิงที่มีอายุน้อยกว่าด้วยความสนิทสนมหรือรักใคร่เป็นต้นว่า แม่นั่น แม่นี่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -73,12 +69,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "mother",
-     "mom",
-     "mum"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "คำใช้นำหน้านามเพศหญิง แปลว่า ผู้เป็นหัวหน้า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -104,12 +98,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "mother",
-     "mom",
-     "mum"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ผู้หญิงที่กระทำกิจการหรืองานอย่างใดอย่างหนึ่ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -150,7 +142,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mother + kitchen",
+     "lit_th": "ผู้หญิงที่กระทำกิจการหรืองานอย่างใ + โรง เรือน หรือห้องสำหรับทำกับข้าวข",
+     "frame": "entity"
     },
     {
      "th": "แม่ค้า",
@@ -175,7 +172,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผู้หญิงที่กระทำกิจการหรืองานอย่างใ + ซื้อขายสินค้าหรือบริการ"
     }
    ],
    "extends": 3,
@@ -187,12 +187,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "mother",
-     "mom",
-     "mum"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "เรียกสัตว์ตัวเมียที่มีลูก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -218,12 +216,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "mother",
-     "mom",
-     "mum"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "เรียกคนผู้เป็นหัวหน้าหรือเป็นนายโดยไม่จำกัดว่าเป็นชายหรือหญิง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -265,7 +261,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทัพ"
+     ],
+     "lit": "mother + army",
+     "lit_th": "เรียกคนผู้เป็นหัวหน้าหรือเป็นนายโด + กองทหาร",
+     "frame": "entity"
     }
    ],
    "extends": 3,
@@ -277,12 +281,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "mother",
-     "mom",
-     "mum"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "คำยกย่องเทวดาผู้หญิงบางพวก, บางทีก็ใช้ว่า เจ้าแม่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -323,7 +325,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "thou + mother",
+     "lit_th": "ผู้เป็นใหญ่ + คำยกย่องเทวดาผู้หญิงบางพวก",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -335,12 +345,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "mother",
-     "mom",
-     "mum"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง ๆ ในพวกเดียวกัน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -383,7 +391,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พิมพ์"
+     ],
+     "lit": "mother + print",
+     "lit_th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง + รูป",
+     "frame": "entity"
     },
     {
      "th": "แม่แคร่",
@@ -408,7 +424,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง + ที่สำหรับนั่งหรือนอนโดยมากมีรูปสี่",
+     "frame": "entity"
     },
     {
      "th": "แม่แบบ",
@@ -435,7 +455,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แบบ"
+     ],
+     "lit": "mother + model",
+     "lit_th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+     "frame": "entity"
     }
    ],
    "extends": 3,
@@ -447,12 +475,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "mother",
-     "mom",
-     "mum"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "เรียกชิ้นใหญ่กว่าในจำพวกสิ่งที่สำหรับกัน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -478,12 +504,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "mother",
-     "mom",
-     "mum"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "แม่น้ำ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -526,7 +550,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "mother + water",
+     "lit_th": "แม่น้ำ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
     }
    ],
    "extends": 8,
@@ -538,12 +570,10 @@
    "n": 11,
    "gloss": {
     "en": [
-     "mother",
-     "mom",
-     "mum"
+     "[RID sense 11 — no English yet]"
     ],
     "th": "มาตราตัวสะกดในหลักภาษาไทย มี 9 แม่ ได้แก่ แม่ ก กา แม่กก แม่กง แม่กด แม่กน แม่กบ แม่กม แม่เกย และแม่เกอว",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -633,7 +663,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + shadow",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนที่มืดเพราะมีวัตถุบังแสงทำให้แ",
+     "frame": "entity"
     },
     {
      "th": "แม่ระกา",
@@ -659,7 +694,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อปีที่ 10 ของรอบปีนักษัตร มีไก่",
+     "frame": "entity"
     },
     {
      "th": "แม่เย็น",
@@ -685,7 +724,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "เย็น"
+     ],
+     "lit": "mae as an element in place names + cold",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
     },
     {
      "th": "แม่ไร่",
@@ -711,7 +758,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + garden",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ปลูกพืชและต้นไม้บนไหล่เขาหรือใน",
+     "frame": "entity"
     },
     {
      "th": "แม่วงก์",
@@ -737,7 +789,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เบ็ด",
+     "frame": "entity"
     },
     {
      "th": "แม่สวด",
@@ -763,7 +819,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ว่าเป็นทำนองอย่างพระสวดมนต์"
     },
     {
      "th": "แม่วาง",
@@ -789,7 +848,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "วาง"
+     ],
+     "lit": "mae as an element in place names + put",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ"
     },
     {
      "th": "แม่กระบุง",
@@ -815,7 +881,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + basket",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะสานทึบรูปกลมสูง พื้นก้นเป็นสี",
+     "frame": "entity"
     },
     {
      "th": "แม่ระมาด",
@@ -841,7 +912,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แรด",
+     "frame": "entity"
     },
     {
      "th": "แม่อาย",
@@ -867,7 +942,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + รู้สึกกระดาก"
     },
     {
      "th": "แม่นะ",
@@ -893,7 +971,13 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "cross_listed": [
+      "นะ"
+     ],
+     "lit": "mae as an element in place names + the sentence particle na",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง"
     },
     {
      "th": "แม่สอย",
@@ -919,7 +1003,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เอาไม้มีขอหรือมีง่ามหรือไม้จำปาเกี"
     },
     {
      "th": "แม่ศึก",
@@ -945,7 +1032,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + fight",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + การใช้กำลังเข้าประหัตประหารกันอย่า",
+     "frame": "entity"
     },
     {
      "th": "แม่แตง",
@@ -971,7 +1063,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้เถาล้มลุกหลายชนิดหลายสกุล ใ",
+     "frame": "entity"
     },
     {
      "th": "แม่อ้อ",
@@ -997,7 +1093,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อหญ้าชนิด Arundo donax L. ในวงศ",
+     "frame": "entity"
     },
     {
      "th": "แม่สิน",
@@ -1023,7 +1123,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สิน"
+     ],
+     "lit": "mae as an element in place names + wealth",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เงิน",
+     "frame": "entity"
     },
     {
      "th": "แม่พริก",
@@ -1049,7 +1157,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + pepper",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกในสกุล Capsicum วงศ์",
+     "frame": "entity"
     },
     {
      "th": "แม่เหาะ",
@@ -1075,7 +1188,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เคลื่อนที่ไปในอากาศด้วยฤทธิ์"
     },
     {
      "th": "แม่สา",
@@ -1101,7 +1217,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หมา",
+     "frame": "entity"
     },
     {
      "th": "แม่เงิน",
@@ -1127,7 +1247,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เงิน"
+     ],
+     "lit": "mae as an element in place names + bread",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+     "frame": "entity"
     },
     {
      "th": "แม่ลาว",
@@ -1153,7 +1281,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit": "mae as an element in place names + Lao",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ประเทศ ใน เอเชียตะวันออกเฉียงใต้"
     },
     {
      "th": "แม่จัน",
@@ -1179,7 +1311,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดกลางถึงขนาดใหญ่ชนิด",
+     "frame": "entity"
     },
     {
      "th": "แม่เปา",
@@ -1205,7 +1341,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ซาลาเปา",
+     "frame": "entity"
     },
     {
      "th": "แม่คง",
@@ -1231,7 +1371,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mae as an element in place names + probably",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ยังมียังเป็นอยู่อย่างเดิม"
     },
     {
      "th": "แม่โป่ง",
@@ -1257,7 +1401,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "mae as an element in place names + swollen",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส",
+     "frame": "entity"
     },
     {
      "th": "แม่แวน",
@@ -1283,7 +1435,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
     },
     {
      "th": "แม่คำ",
@@ -1309,7 +1464,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "mae as an element in place names + word",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เสียงพูด",
+     "frame": "entity"
     },
     {
      "th": "แม่กลอง",
@@ -1335,7 +1498,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + drum",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องตี ขึงด้วยหนัง มีหลายชนิด",
+     "frame": "entity"
     },
     {
      "th": "แม่ทา",
@@ -1361,7 +1529,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mae as an element in place names + coat",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำรวมหมายถึงกิริยาอาการที่เอาของเป"
     },
     {
      "th": "แม่ใจ",
@@ -1387,7 +1559,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "mae as an element in place names + heart",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
     },
     {
      "th": "แม่สำ",
@@ -1413,7 +1593,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "สำ"
+     ],
+     "lit": "mae as an element in place names + jumbled",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ซับซ้อนกัน"
     },
     {
      "th": "แม่ยาว",
@@ -1439,7 +1626,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ยาว"
+     ],
+     "lit": "mae as an element in place names + long",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+     "frame": "quality"
     },
     {
      "th": "แม่ลาน",
@@ -1465,7 +1660,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลาน"
+     ],
+     "lit": "mae as an element in place names + open ground",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บริเวณที่ว่าง",
+     "frame": "entity"
     },
     {
      "th": "แม่เจดีย์",
@@ -1491,7 +1694,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + pagoda",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งซึ่งก่อเป็นรูปคล้ายลอมฟาง มียอ",
+     "frame": "entity"
     },
     {
      "th": "แม่สาว",
@@ -1517,7 +1725,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สาว"
+     ],
+     "lit": "mae as an element in place names + maid",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+     "frame": "entity"
     },
     {
      "th": "แม่ริม",
@@ -1543,7 +1759,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + border",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชาย",
+     "frame": "entity"
     },
     {
      "th": "แม่แจ่ม",
@@ -1569,7 +1790,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กระจ่าง",
+     "frame": "quality"
     },
     {
      "th": "แม่ลอย",
@@ -1595,7 +1820,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลอย"
+     ],
+     "lit": "mae as an element in place names + float",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทรงตัวอยู่ในอากาศ"
     },
     {
      "th": "แม่คะ",
@@ -1621,7 +1853,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำลงท้ายที่ผู้หญิงใช้ในการถาม หรือ"
     },
     {
      "th": "แม่ข้าวต้ม",
@@ -1647,7 +1881,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + porridge",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ข้าวที่ต้มให้สุก",
+     "frame": "entity"
     },
     {
      "th": "แม่แดด",
@@ -1673,7 +1912,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แสงที่พุ่งจากดวงอาทิตย์ตรงมายังโลก",
+     "frame": "entity"
     },
     {
      "th": "แม่งอน",
@@ -1699,7 +1942,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนปลายแห่งของบางอย่างที่เป็นรูปย",
+     "frame": "entity"
     },
     {
      "th": "แม่โถ",
@@ -1725,7 +1972,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะโดยมากทำด้วยดินเผาหรือกระเบื้",
+     "frame": "entity"
     },
     {
      "th": "แม่ตื่น",
@@ -1751,7 +2002,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mae as an element in place names + wake",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ฟื้นจากหลับ"
     },
     {
      "th": "แม่สอด",
@@ -1777,7 +2032,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เสือกหรือใส่เข้าไปในช่องหรือในระหว"
     },
     {
      "th": "แม่แฝก",
@@ -1803,7 +2061,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อหญ้าชนิด Vetiveria zizanioides",
+     "frame": "entity"
     },
     {
      "th": "แม่สาบ",
@@ -1829,7 +2091,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กลิ่นเหม็นชนิดหนึ่ง เช่นกลิ่นเสื้อ",
+     "frame": "entity"
     },
     {
      "th": "แม่สาย",
@@ -1855,7 +2121,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สาย"
+     ],
+     "lit": "mae as an element in place names + late",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0",
+     "frame": "entity"
     },
     {
      "th": "แม่แรม",
@@ -1881,7 +2155,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนของเดือนจันทรคติที่พระจันทร์เร",
+     "frame": "entity"
     },
     {
      "th": "แม่ลาด",
@@ -1907,7 +2185,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลาด"
+     ],
+     "lit": "mae as an element in place names + decline",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ปูแผ่ออกไป"
     },
     {
      "th": "แม่คือ",
@@ -1933,7 +2218,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mae as an element in place names + are",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เป็น"
     },
     {
      "th": "แม่ข่า",
@@ -1959,7 +2248,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + galangal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกชนิด Alpinia galanga",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -1979,7 +2273,8 @@
   "Attested in this corpus: 33 manuscript titles, 260 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
-  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 80; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
@@ -2006,7 +2301,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "งาน"
+   ],
+   "lit": "mother + job",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สิ่งหรือกิจกรรมที่ทำ",
+   "frame": "entity"
   },
   {
    "th": "แม่สี",
@@ -2031,7 +2334,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "สี"
+   ],
+   "lit": "mother + color",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity"
   },
   {
    "th": "แม่แรง",
@@ -2056,7 +2367,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "แรง"
+   ],
+   "lit": "mother + bright",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + กำลัง",
+   "frame": "entity"
   },
   {
    "th": "แม่ย่า",
@@ -2081,7 +2400,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "mother + gram",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + แม่ของพ่อ",
+   "frame": "entity"
   },
   {
    "th": "พ่อแม่",
@@ -2106,7 +2430,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "father + mother",
+   "lit_th": "ชายผู้ให้กำเนิดหรือเลี้ยงดูลูก + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
+   "frame": "entity"
   },
   {
    "th": "แม่เรือน",
@@ -2131,7 +2460,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เรือน"
+   ],
+   "lit": "mother + house",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+   "frame": "entity"
   },
   {
    "th": "แม่พระ",
@@ -2156,7 +2493,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "พระ"
+   ],
+   "lit": "mother + the honorific prefix phra",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ",
+   "frame": "entity"
   },
   {
    "th": "แม่ยาย",
@@ -2181,7 +2526,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "mother + gram",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + แม่ของแม่",
+   "frame": "entity"
   },
   {
    "th": "แม่เหล็ก",
@@ -2207,7 +2557,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "mother + iron",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ธาตุลำดับที่ 26 สัญลักษณ์ Fe เป็นโ",
+   "frame": "entity"
   },
   {
    "th": "แม่บท",
@@ -2232,7 +2587,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "บท"
+   ],
+   "lit": "mother + unit",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ข้อความเรื่องหนึ่ง ๆ หรือตอนหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "แม่เลี้ยง",
@@ -2258,7 +2621,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "เลี้ยง"
+   ],
+   "lit": "mother + grow",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ดูแล"
   },
   {
    "th": "เพศแม่",
@@ -2283,7 +2653,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "sex + mother",
+   "lit_th": "รูปที่แสดงให้รู้ว่าหญิงหรือชาย + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
+   "frame": "entity"
   },
   {
    "th": "แม่ทูนหัว",
@@ -2308,7 +2683,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + คำพูดแสดงความรักใคร่หรือยกย่อง",
+   "frame": "entity"
   },
   {
    "th": "แม่นม",
@@ -2334,7 +2713,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "นม"
+   ],
+   "lit": "mother + milk",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
+   "frame": "entity"
   },
   {
    "th": "แม่กุญแจ",
@@ -2359,7 +2746,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "mother + key",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + เครื่องสำหรับใส่ประตูหน้าต่างเป็นต",
+   "frame": "entity"
   },
   {
    "th": "แม่สื่อ",
@@ -2385,7 +2777,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ผู้หรือสิ่งที่ติดต่อให้ถึงกันหรือช",
+   "frame": "entity"
   },
   {
    "th": "แม่เล้า",
@@ -2410,7 +2806,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + คอกสำหรับให้สัตว์เช่นเป็ดและหมูอยู",
+   "frame": "entity"
   },
   {
    "th": "แม่เบี้ย",
@@ -2435,7 +2835,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "frame": "entity"
   },
   {
    "th": "ภาษาแม่",
@@ -2460,7 +2863,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ภาษา"
+   ],
+   "lit": "language + mother",
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
+   "frame": "entity"
   },
   {
    "th": "แม่กระชังหน้าใหญ่",
@@ -2484,7 +2895,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + จัดจ้าน",
+   "frame": "quality"
   }
  ],
  "etymology": {
@@ -2502,5 +2917,10 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "mother",
+  "mom",
+  "mum"
+ ]
 }

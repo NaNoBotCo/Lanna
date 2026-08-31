@@ -1,7 +1,7 @@
 {
  "id": "w:rang",
  "th": "รัง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "rang",
  "paiboon": "rang",
  "ipa": "/raŋ˧/",
@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "nest"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siamensis Miq. ในวงศ์ Dipterocarpaceae เนื้อไม้แข็ง ใช้ในการก่อสร้าง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -33,7 +33,10 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: รัง, the Shorea tree.",
+    "Declared root: รัง, the Shorea tree.",
+    "Declared root: รัง, the Shorea tree."
    ],
    "compounds": [
     {
@@ -59,7 +62,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กุด"
+     ],
+     "lit": "to cut short + nest",
+     "lit_th": "ตัด + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam"
     },
     {
      "th": "โนนรัง",
@@ -84,7 +94,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โนน"
+     ],
+     "lit": "mound + nest",
+     "lit_th": "เนิน + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam",
+     "frame": "entity"
     },
     {
      "th": "หลุมรัง",
@@ -109,7 +127,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "lacuna + nest",
+     "lit_th": "ที่ซึ่งมีลักษณะเป็นบ่อ มักมีขนาดเล + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam",
+     "frame": "entity"
     }
    ]
   },
@@ -117,10 +140,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "nest"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "สิ่งซึ่งสัตว์พวกนก หนู และแมลงเป็นต้นทำขึ้นเพื่อเป็นที่อยู่อาศัยกำบังและฟักไข่เลี้ยงลูก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -162,18 +185,31 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไข่"
+     ],
+     "lit": "nest + egg",
+     "lit_th": "สิ่งซึ่งสัตว์พวกนก หนู และแมลงเป็น + ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ",
+     "frame": "entity"
     }
+   ],
+   "needs_check": [
+    "Declared root: รัง 'nest'.",
+    "Declared root: รัง 'nest'.",
+    "Declared root: รัง 'nest'."
    ]
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "nest"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "โดยปริยายเรียกสิ่งที่มีลักษณะคล้ายคลึงเช่นนั้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -215,7 +251,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "nest + bee",
+     "lit_th": "โดยปริยายเรียกสิ่งที่มีลักษณะคล้าย + ชื่อแมลงหลายชนิดในวงศ์ Apidae มีปี",
+     "frame": "entity"
     },
     {
      "th": "รังแค",
@@ -241,7 +282,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "โดยปริยายเรียกสิ่งที่มีลักษณะคล้าย + ชื่อไม้ต้นชนิด Sesbania grandiflor",
+     "frame": "entity"
     },
     {
      "th": "รังนก",
@@ -268,18 +313,30 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นก"
+     ],
+     "lit": "nest + bird",
+     "lit_th": "โดยปริยายเรียกสิ่งที่มีลักษณะคล้าย + ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Anything shaped or used like a nest.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "nest"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "แต่ง, สร้าง, ตั้ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -321,7 +378,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "แต่ง + การทำ",
+     "frame": "entity"
     },
     {
      "th": "รังสรรค์",
@@ -348,8 +409,16 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "แต่ง + สร้างให้มีให้เป็นขึ้น"
     }
+   ],
+   "needs_check": [
+    "Declared root: รัง 'to build, to set up'.",
+    "Declared root: รัง 'to build, to set up'.",
+    "Declared root: รัง 'to build, to set up'."
    ]
   }
  ],
@@ -362,7 +431,8 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 11 manuscript titles, 64 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['แมลง', 'สัตว์', 'นก'].",
  "compounds_unassigned": [
@@ -384,12 +454,17 @@
     "กะ",
     "รัง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เครื่องหมายบอกทำนองสวด + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "รังเกลียด",
@@ -414,7 +489,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + ชัง"
   },
   {
    "th": "รังเกียจ",
@@ -441,7 +519,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + คด"
   },
   {
    "th": "รังควาน",
@@ -466,7 +547,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + กิริยาที่เอามือหรือสิ่งอื่นค้นหาสิ"
   },
   {
    "th": "รังสิ",
@@ -486,12 +570,15 @@
     "รัง",
     "สิ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + คำประกอบท้ายคำอื่นเพื่อเสริมข้อควา",
+   "use": "false-split"
   },
   {
    "th": "ตายรัง",
@@ -516,7 +603,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ตาย"
+   ],
+   "lit": "demise + nest",
+   "lit_th": "สิ้นใจ + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam"
   },
   {
    "th": "รังสี",
@@ -538,12 +632,21 @@
     "รัง",
     "สี"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "สี"
+   ],
+   "lit": "nest + color",
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "เรื้อรัง",
@@ -568,7 +671,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ขาดการฝึกฝนเสียนาน + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam"
   },
   {
    "th": "รังดุม",
@@ -593,7 +699,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + ส่วนกลางของล้อเกวียนหรือล้อรถที่มี",
+   "frame": "entity"
   },
   {
    "th": "กาหลงรัง",
@@ -618,7 +728,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อไม้พุ่มชนิด Bauhinia acuminata + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam",
+   "frame": "entity"
   },
   {
    "th": "รังแก",
@@ -644,7 +758,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "แก"
+   ],
+   "lit": "nest + house crow",
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + ชื่อนกชนิด Corvus splendens ในวงศ์",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -662,5 +784,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "nest"
+ ]
 }

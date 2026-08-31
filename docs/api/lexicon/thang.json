@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "way",
-     "by",
-     "trail",
-     "trace"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ที่สำหรับเดินไปมา, แนวหรือพื้นที่สำหรับใช้สัญจร",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -63,7 +60,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "way + foot",
+     "lit_th": "ที่สำหรับเดินไปมา + ตีน",
+     "frame": "entity"
     },
     {
      "th": "ทางสาธารณะ",
@@ -89,7 +91,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "way + public",
+     "lit_th": "ที่สำหรับเดินไปมา + เพื่อประชาชนทั่วไป",
+     "frame": "quality"
     },
     {
      "th": "ทางม้าลาย",
@@ -117,7 +124,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "way + zebra",
+     "lit_th": "ที่สำหรับเดินไปมา + สัตว์เลี้ยงลูกด้วยน้ำนมชนิดหนึ่งใน",
+     "frame": "entity"
     }
    ]
   },
@@ -125,13 +137,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "way",
-     "by",
-     "trail",
-     "trace"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ช่อง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -157,13 +166,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "way",
-     "by",
-     "trail",
-     "trace"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "โอกาส",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -189,13 +195,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "way",
-     "by",
-     "trail",
-     "trace"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "แนว",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -221,13 +224,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "way",
-     "by",
-     "trail",
-     "trace"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "วิธีการ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -253,13 +253,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "way",
-     "by",
-     "trail",
-     "trace"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "แถว, แถบ, ถิ่น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -285,13 +282,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "way",
-     "by",
-     "trail",
-     "trace"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ฝ่าย, ข้าง, ส่วน, (ในลักษณะที่แยกแนวกัน)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -317,13 +311,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "way",
-     "by",
-     "trail",
-     "trace"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "แนวทางหรือแบบอย่างทางดนตรีเฉพาะของอาจารย์แต่ละคน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -367,7 +358,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แนว"
+     ],
+     "lit": "row + way",
+     "lit_th": "สิ่งที่มีลักษณะเป็นแถว + แนวทางหรือแบบอย่างทางดนตรีเฉพาะของ",
+     "frame": "entity"
     }
    ],
    "extends": 5,
@@ -379,13 +378,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "way",
-     "by",
-     "trail",
-     "trace"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "เรียกใบของต้นไม้บางชนิดเช่น หมาก มะพร้าว กล้วย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -425,7 +421,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "way + coconut",
+     "lit_th": "เรียกใบของต้นไม้บางชนิดเช่น หมาก ม + ชื่อไม้ต้นชนิด Cocos nucifera L. ใ",
+     "frame": "entity"
     }
    ],
    "extends": 4,
@@ -437,13 +438,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "way",
-     "by",
-     "trail",
-     "trace"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "ลักษณนามเรียกใบหมาก ใบมะพร้าว ใบกล้วย เป็นต้น ว่า ทาง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -477,6 +475,8 @@
   "Attested in this corpus: 3 manuscript titles, 162 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 35; domain seeded by keyword hits ['ต้นไม้', 'ใบ', 'ดิน', 'ไม้'].",
@@ -503,7 +503,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "way + walk",
+   "lit_th": "ที่สำหรับเดินไปมา + ยกเท้าก้าวไป",
+   "flips_with": "เดินทาง"
   },
   {
    "th": "การนำทาง",
@@ -523,13 +528,17 @@
     "การนำ",
     "ทาง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ นำ + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "ทางการ",
@@ -554,7 +563,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ที่สำหรับเดินไปมา + งาน",
+   "frame": "entity"
   },
   {
    "th": "ทางเก็บ",
@@ -579,7 +592,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "เก็บ"
+   ],
+   "lit": "way + keep",
+   "lit_th": "ที่สำหรับเดินไปมา + เอาไปหรือเอามาจากที่"
   },
   {
    "th": "ทางขวาง",
@@ -599,13 +619,20 @@
     "ทาง",
     "ขวาง"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ขวาง"
+   ],
+   "lit": "way + across",
+   "lit_th": "ที่สำหรับเดินไปมา + กีดกั้น"
   },
   {
    "th": "ทางพระ",
@@ -625,13 +652,21 @@
     "ทาง",
     "พระ"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "พระ"
+   ],
+   "lit": "way + the honorific prefix phra",
+   "lit_th": "ที่สำหรับเดินไปมา + คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ",
+   "frame": "entity"
   },
   {
    "th": "เข้าทาง",
@@ -656,7 +691,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "เข้า"
+   ],
+   "lit": "enter + way",
+   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ที่สำหรับเดินไปมา"
   },
   {
    "th": "ถีบทาง",
@@ -681,7 +723,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "งอเข่าแล้วใช้ฝ่าเท้ากระแทกออกไป + ที่สำหรับเดินไปมา"
   },
   {
    "th": "พันทาง",
@@ -706,7 +751,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "พัน"
+   ],
+   "lit": "k + way",
+   "lit_th": "เรียกจำนวน 10 ร้อย + ที่สำหรับเดินไปมา"
   },
   {
    "th": "ลู่ทาง",
@@ -731,7 +782,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "track + way",
+   "lit_th": "ทาง + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "ช่องทาง",
@@ -757,7 +813,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ช่อง"
+   ],
+   "lit": "hole + way",
+   "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "ให้ทาง",
@@ -782,7 +846,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "bestow + way",
+   "lit_th": "มอบ + ที่สำหรับเดินไปมา"
   },
   {
    "th": "เดินทาง",
@@ -810,7 +878,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "walk + way",
+   "lit_th": "ยกเท้าก้าวไป + ที่สำหรับเดินไปมา",
+   "flips_with": "ทางเดิน"
   },
   {
    "th": "ทางออก",
@@ -836,7 +909,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ออก"
+   ],
+   "lit": "way + tear",
+   "lit_th": "ที่สำหรับเดินไปมา + คำนำหน้าบรรดาศักดิ์",
+   "frame": "entity"
   },
   {
    "th": "ทิศทาง",
@@ -862,7 +943,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ด้าน + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "ท่าทาง",
@@ -890,7 +975,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ท่า"
+   ],
+   "lit": "landing + way",
+   "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "การให้ทาง",
@@ -910,13 +1003,17 @@
     "การให้",
     "ทาง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ให้ + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "ต้นทาง",
@@ -941,7 +1038,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ต้น"
+   ],
+   "lit": "trunk + way",
+   "lit_th": "ลำของต้นไม้ + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "นำทาง",
@@ -969,7 +1074,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "นำ"
+   ],
+   "lit": "lead + way",
+   "lit_th": "ไปข้างหน้า + ที่สำหรับเดินไปมา"
   },
   {
    "th": "ทางหลวง",
@@ -995,7 +1107,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "หลวง"
+   ],
+   "lit": "way + royal",
+   "lit_th": "ที่สำหรับเดินไปมา + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "ทางด่วน",
@@ -1021,7 +1141,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit": "way + dire",
+   "lit_th": "ที่สำหรับเดินไปมา + รีบเร่ง"
   },
   {
    "th": "การเดินทาง",
@@ -1044,13 +1167,18 @@
     "การเดิน",
     "ทาง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "walking + way",
+   "lit_th": "คำอาการนามของ เดิน + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "กรุยทาง",
@@ -1075,7 +1203,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "หลักที่ปักรายไว้เป็นเครื่องหมาย + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "ทางลัด",
@@ -1100,7 +1232,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ที่สำหรับเดินไปมา + ตัดตรงไปเพื่อย่นทางย่นเวลา"
   },
   {
    "th": "ระยะทาง",
@@ -1126,7 +1261,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ช่วง + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "หนทาง",
@@ -1152,7 +1291,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ทาง + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "ทางตัน",
@@ -1177,7 +1320,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ที่สำหรับเดินไปมา + ไม่กลวง",
+   "frame": "quality"
   },
   {
    "th": "เส้นทาง",
@@ -1204,7 +1351,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เส้น"
+   ],
+   "lit": "mark + way",
+   "lit_th": "สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่ + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "ทางเลือก",
@@ -1232,7 +1387,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "way + choose",
+   "lit_th": "ที่สำหรับเดินไปมา + คัดสิ่งที่มีจำนวนมากกว่าหนึ่งขึ้นไ"
   },
   {
    "th": "ทางช้างเผือก",
@@ -1257,7 +1416,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ที่สำหรับเดินไปมา + ช้างที่มีลักษณะต่างจากช้างธรรมดาทั",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -1275,5 +1438,11 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "way",
+  "by",
+  "trail",
+  "trace"
+ ]
 }

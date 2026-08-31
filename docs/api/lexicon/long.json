@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถือว่าตรงข้ามกับขึ้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -40,10 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ไปสู่พื้นดินและพื้นอื่น ๆ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -69,10 +69,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "เอาเครื่องมือจับสัตว์น้ำวางขึง หรือปัก เพื่อจับสัตว์น้ำ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -98,10 +98,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "จด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -127,10 +127,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ทำพิธีจารึกมนตร์หรือสิ่งศักดิ์สิทธิ์",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -156,10 +156,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ยอม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -185,10 +185,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ตีพิมพ์ออกเผยแพร่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -231,7 +231,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ข่าว"
+     ],
+     "lit": "drop + news",
+     "lit_th": "ตีพิมพ์ออกเผยแพร่ + คำบอกเล่าเรื่องราวซึ่งโดยปรกติมักเ"
     }
    ],
    "extends": 4,
@@ -243,10 +250,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "ตกลงปลงใจแล้วก็ปักใจถือเอาเป็นแน่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -290,7 +297,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "ตก"
+     ],
+     "lit": "decrease + drop",
+     "lit_th": "พลัดลง + ตกลงปลงใจแล้วก็ปักใจถือเอาเป็นแน่"
     }
    ],
    "extends": 6,
@@ -302,10 +316,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "ปลูก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -331,10 +345,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "ลด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -360,10 +374,10 @@
    "n": 11,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 11 — no English yet]"
     ],
     "th": "ตก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -389,10 +403,10 @@
    "n": 12,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 12 — no English yet]"
     ],
     "th": "เฆี่ยน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -418,10 +432,10 @@
    "n": 13,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 13 — no English yet]"
     ],
     "th": "ท้องเดิน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -463,7 +477,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "drop + red",
+     "lit_th": "ท้องเดิน + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
     },
     {
      "th": "ลงราก",
@@ -489,7 +511,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "drop + root",
+     "lit_th": "ท้องเดิน + ส่วนของต้นไม้ ตามปรกติอยู่ในดิน มี"
     }
    ],
    "extends": 11,
@@ -501,10 +527,10 @@
    "n": 14,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 14 — no English yet]"
     ],
     "th": "ติดตั้ง (โปรแกรม)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -547,7 +573,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "drop + hand",
+     "lit_th": "ติดตั้ง + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา"
     }
    ],
    "extends": 2,
@@ -559,10 +592,10 @@
    "n": 15,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 15 — no English yet]"
     ],
     "th": "อาการที่ไปสู่เบื้องต่ำ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -604,7 +637,10 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นชนิด Sesbania grandiflor + อาการที่ไปสู่เบื้องต่ำ"
     }
    ],
    "extends": 1,
@@ -616,10 +652,10 @@
    "n": 16,
    "gloss": {
     "en": [
-     "drop"
+     "[RID sense 16 — no English yet]"
     ],
     "th": "มากกว่าเดิม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -653,6 +689,8 @@
   "Attested in this corpus: 31 manuscript titles, 522 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 43; domain seeded by keyword hits ['เดิน', 'ตก', 'ขึ้น', 'ลง'].",
@@ -680,7 +718,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "drop + knife",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + อาวุธชนิดหนึ่ง มีขนาดยาวและมีคมที่"
   },
   {
    "th": "ลงเอย",
@@ -705,7 +747,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + คำกล่าวประกอบหลังคำจำแนกรายละเอียด"
   },
   {
    "th": "ลงทุน",
@@ -731,7 +775,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "drop + fund",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ของเดิมหรือเงินเดิมที่มีไว้ ลงไว้"
   },
   {
    "th": "ลงทัณฑ์",
@@ -756,7 +804,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + โทษที่เนื่องด้วยความผิด"
   },
   {
    "th": "แพลง",
@@ -781,7 +832,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "raft + drop",
+   "lit_th": "ไม้ไผ่หรือซุงเป็นต้นที่ผูกมัดเรียง + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
   },
   {
    "th": "การแถลง",
@@ -801,13 +856,16 @@
     "การแถ",
     "ลง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แถ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
   },
   {
    "th": "กันลง",
@@ -827,12 +885,16 @@
     "กัน",
     "ลง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PRON+V",
+   "head": 1,
+   "lit_th": "สรรพนามบุรุษที่ 1 ใช้แทนตัวผู้พูดเ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "use": "false-split"
   },
   {
    "th": "ลงกา",
@@ -852,13 +914,19 @@
     "ลง",
     "กา"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "false-split",
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "กา"
+   ],
+   "lit": "drop + crow"
   },
   {
    "th": "ลงมติ",
@@ -883,7 +951,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ความเห็น"
   },
   {
    "th": "ลงขัน",
@@ -908,7 +979,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ขัน"
+   ],
+   "lit": "drop + bowl",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ภาชนะสำหรับตักหรือใส่น้ำ มีหลายชนิ"
   },
   {
    "th": "ลงพระราชอาญา",
@@ -932,7 +1010,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + โทษ"
   },
   {
    "th": "ขาลง",
@@ -957,7 +1038,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ขา"
+   ],
+   "lit": "leg + drop",
+   "lit_th": "อวัยวะของมนุษย์หรือสัตว์ที่ยื่นจาก + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
   },
   {
    "th": "แกลง",
@@ -977,13 +1065,20 @@
     "แก",
     "ลง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "false-split",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "แก"
+   ],
+   "lit": "house crow + drop",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
   },
   {
    "th": "ลงยา",
@@ -1008,7 +1103,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ยา"
+   ],
+   "lit": "drop + medicine",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ"
   },
   {
    "th": "ลงแขก",
@@ -1033,7 +1135,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "drop + guest",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ผู้มาหา"
   },
   {
    "th": "การบรรจุลง",
@@ -1053,13 +1159,16 @@
     "การบรรจุ",
     "ลง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ บรรจุ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
   },
   {
    "th": "ลงตัว",
@@ -1084,7 +1193,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "drop + form",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + รูป"
   },
   {
    "th": "ลงท้าย",
@@ -1109,7 +1225,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ส่วนที่อยู่สุดด้านหนึ่ง"
   },
   {
    "th": "บรรจุลง",
@@ -1134,7 +1253,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "carry + drop",
+   "lit_th": "ใส่ลงในขวด หีบ หรือถุง เป็นต้น + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
   },
   {
    "th": "ลงรอย",
@@ -1159,7 +1282,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "drop + mark",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ลักษณะที่เป็นเส้น เป็นริ้ว หรือลวด"
   },
   {
    "th": "ลงคะแนน",
@@ -1185,7 +1312,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "drop + mark",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + เครื่องหมายในการนับ"
   },
   {
    "th": "ลงแรง",
@@ -1210,7 +1341,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "แรง"
+   ],
+   "lit": "drop + bright",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + กำลัง"
   },
   {
    "th": "การลง",
@@ -1230,13 +1368,16 @@
     "การ",
     "ลง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
   },
   {
    "th": "แสลง",
@@ -1256,12 +1397,16 @@
     "แส",
     "ลง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "แฉ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "use": "false-split"
   },
   {
    "th": "ทัวร์ลง",
@@ -1286,7 +1431,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "ท่องเที่ยว + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
   },
   {
    "th": "ลงรัก",
@@ -1311,7 +1459,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "drop + love",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ชื่อไม้พุ่มชนิด Calotropis gigante"
   },
   {
    "th": "แถลง",
@@ -1331,12 +1483,16 @@
     "แถ",
     "ลง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "อาการที่นกเป็นต้นเอียงปีกร่อนลง + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "use": "false-split"
   },
   {
    "th": "โขลง",
@@ -1356,12 +1512,17 @@
     "โข",
     "ลง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "มาก + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "โคลง",
@@ -1388,7 +1549,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "โค"
+   ],
+   "lit": "cow + drop",
+   "lit_th": "วัว + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
   },
   {
    "th": "ลงชื่อ",
@@ -1413,7 +1581,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ชื่อ"
+   ],
+   "lit": "drop + name",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส"
   },
   {
    "th": "ลงสี",
@@ -1438,7 +1613,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "สี"
+   ],
+   "lit": "drop + color",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ"
   },
   {
    "th": "ลงนาม",
@@ -1463,7 +1645,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "นาม"
+   ],
+   "lit": "drop + name",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ชื่อ"
   },
   {
    "th": "เพลง",
@@ -1485,12 +1674,16 @@
     "เพ",
     "ลง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "พังทลาย + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "use": "false-split"
   },
   {
    "th": "การตกลง",
@@ -1513,13 +1706,17 @@
     "การตก",
     "ลง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "drop + drop",
+   "lit_th": "คำอาการนามของ ตก + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
   },
   {
    "th": "ลงโทษ",
@@ -1547,7 +1744,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "โทษ"
+   ],
+   "lit": "drop + badness",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ความไม่ดี"
   },
   {
    "th": "ลงทะเบียน",
@@ -1575,7 +1779,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "drop + register",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + บัญชีจดลักษณะจำนวนคน จำนวนสัตว์ หร"
   },
   {
    "th": "แปลง",
@@ -1600,7 +1808,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ส่วนหนึ่งของโครงสร้างหลังคา วางอยู + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
   }
  ],
  "etymology": {
@@ -1618,5 +1829,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "drop"
+ ]
 }

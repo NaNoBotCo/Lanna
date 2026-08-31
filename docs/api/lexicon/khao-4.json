@@ -1,7 +1,7 @@
 {
  "id": "w:khao-4",
  "th": "ขาว",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "khao",
  "paiboon": "kǎao",
  "ipa": "/kʰaːw˩˩˦/",
@@ -12,11 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "white",
-     "fair"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "สีชนิดหนึ่งเหมือนสำลี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -61,7 +60,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + white",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
     }
    ]
   },
@@ -69,11 +76,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "white",
-     "fair"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "มีสีอย่างสำลี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -89,17 +95,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The colour names what has it.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "white",
-     "fair"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "แจ่มแจ้ง, สะอาดบริสุทธิ์, ปราศจากมลทิน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -115,17 +124,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "White as clean, pure, without stain.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "white",
-     "fair"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "เทียนขาว, ชื่อเครื่องยาสมุนไพร",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -167,9 +179,17 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่มีลักษณะบาง ๆ เป็นพื้นหุ้มอ + เทียนขาว",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "เทียนขาว, the herb named for its colour.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -239,7 +259,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + khao as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ขมิ้นขาว",
@@ -265,7 +293,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "turmeric + khao as an element in place names",
+     "lit_th": "ชื่อไม้ล้มลุกชนิด Curcuma longa ใน + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ไม้ขาว",
@@ -291,7 +324,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไม้"
+     ],
+     "lit": "wood + khao as an element in place names",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ผาขาว",
@@ -317,7 +358,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "หินที่เขา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ท่าลาดขาว",
@@ -343,7 +388,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอชุมพวง จังหวัด + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "หมีขาว",
@@ -370,7 +418,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "bear + khao as an element in place names",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมในวงศ์ Urs + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "บัวขาว",
@@ -396,7 +449,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บัว"
+     ],
+     "lit": "lotus + khao as an element in place names",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ทรายขาว",
@@ -422,7 +483,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทราย"
+     ],
+     "lit": "sand + khao as an element in place names",
+     "lit_th": "วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "หนองหญ้าขาว",
@@ -448,7 +517,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาญจนบุรี + ใช้ประกอบชื่อสถานที่"
     }
    ],
    "extends": 1,
@@ -468,6 +540,8 @@
   "Attested in this corpus: 11 manuscript titles, 191 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['สมุนไพร', 'ยา'].",
@@ -495,7 +569,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ดำ"
+   ],
+   "lit": "white + black",
+   "lit_th": "สีชนิดหนึ่งเหมือนสำลี + มุดลง ในคำว่า ดำน้ำ"
   },
   {
    "th": "ความขาว",
@@ -515,13 +596,18 @@
     "ความ",
     "ขาว"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + white",
+   "lit_th": "เรื่อง + สีชนิดหนึ่งเหมือนสำลี",
+   "frame": "entity"
   },
   {
    "th": "ซองขาว",
@@ -546,7 +632,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "envelope + white",
+   "lit_th": "ซอกหรือช่องแคบ + สีชนิดหนึ่งเหมือนสำลี",
+   "frame": "entity"
   },
   {
    "th": "ทำเนียบขาว",
@@ -571,7 +662,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ที่พักทางราชการของผู้มีตำแหน่งสูง + สีชนิดหนึ่งเหมือนสำลี",
+   "frame": "entity"
   },
   {
    "th": "ผงขาว",
@@ -596,7 +691,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "powder + white",
+   "lit_th": "สิ่งละเอียด + สีชนิดหนึ่งเหมือนสำลี",
+   "frame": "entity"
   },
   {
    "th": "ไข่ขาว",
@@ -621,7 +721,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ไข่"
+   ],
+   "lit": "egg + white",
+   "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + สีชนิดหนึ่งเหมือนสำลี",
+   "frame": "entity"
   },
   {
    "th": "ขาวม้า",
@@ -646,7 +754,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "white + horse",
+   "lit_th": "สีชนิดหนึ่งเหมือนสำลี + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus",
+   "frame": "entity"
   },
   {
    "th": "ปูนขาว",
@@ -671,7 +784,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "หินปูนหรือเปลือกหอยเมื่อถูกเผาจนสล + สีชนิดหนึ่งเหมือนสำลี",
+   "frame": "entity"
   },
   {
    "th": "ตาขาว",
@@ -696,7 +813,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ตา"
+   ],
+   "lit": "eye + white",
+   "lit_th": "พ่อของแม่ + สีชนิดหนึ่งเหมือนสำลี",
+   "frame": "entity"
   },
   {
    "th": "กระดานขาว",
@@ -721,7 +846,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "board + white",
+   "lit_th": "ไม้ซุงที่เลื่อยออกมาเป็นแผ่น ๆ + สีชนิดหนึ่งเหมือนสำลี",
+   "frame": "entity"
   },
   {
    "th": "ตัวขาว",
@@ -746,7 +876,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "form + white",
+   "lit_th": "รูป + สีชนิดหนึ่งเหมือนสำลี",
+   "frame": "entity"
   },
   {
    "th": "กระเจี๊ยบขาว",
@@ -771,7 +909,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อไม้ล้มลุกชนิด Abelmoschus escu + สีชนิดหนึ่งเหมือนสำลี",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -835,5 +977,9 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "white",
+  "fair"
  ]
 }

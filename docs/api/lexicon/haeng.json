@@ -1,7 +1,7 @@
 {
  "id": "w:haeng",
  "th": "แห้ง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "haeng",
  "paiboon": "hɛ̂ɛng",
  "ipa": "/hɛːŋ˥˩/",
@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "dry"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ไม่มีน้ำ, หมดน้ำ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -37,10 +37,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "dry"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ไม่เปียก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -53,16 +53,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Without water is not wet.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "dry"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ที่ไม่ใส่น้ำ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -75,16 +79,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Served without broth — บะหมี่แห้ง.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "dry"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ไม่สด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -97,16 +105,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Without its juices: not fresh.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "dry"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ที่อาจเก็บไว้บริโภคได้นาน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -144,18 +156,30 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "by + dry",
+     "lit_th": "สิ่งต่าง ๆ + ที่อาจเก็บไว้บริโภคได้นาน",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "And so keepable a long while.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "dry"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ไม่แจ่มใส",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -168,16 +192,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Without brightness: dull, wan.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "dry"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ขาดความชุ่มชื้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -216,7 +244,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit": "dry + arid",
+     "lit_th": "ขาดความชุ่มชื้น + หน้าน้ำแห้ง",
+     "frame": "quality"
     },
     {
      "th": "แห้งผาก",
@@ -243,18 +276,26 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "lit_th": "ขาดความชุ่มชื้น + แห้งอย่างไม่มีความชื้นปนอยู่",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Without moisture: parched.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
    "gloss": {
     "en": [
-     "dry"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "ฝืดเคือง, อดอยาก, ในคำว่า ไส้แห้ง กระเป๋าแห้ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -292,7 +333,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "purse + dry",
+     "lit_th": "เครื่องใช้รูปคล้ายถุงหรือกระเพาะ ท + ฝืดเคือง",
+     "frame": "quality"
     },
     {
      "th": "ไส้แห้ง",
@@ -317,9 +363,21 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ไส้"
+     ],
+     "lit": "intestine + dry",
+     "lit_th": "ส่วนของทางเดินอาหารต่อจากกระเพาะอา + ฝืดเคือง",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 7,
+   "via": "metaphor",
+   "via_note": "ไส้แห้ง, กระเป๋าแห้ง — dried out of money.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -333,6 +391,8 @@
   "Attested in this corpus: 5 manuscript titles, 28 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits —.",
@@ -355,13 +415,17 @@
     "การซัก",
     "แห้ง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ซัก + ไม่มีน้ำ",
+   "frame": "quality"
   },
   {
    "th": "น้ำแข็งแห้ง",
@@ -386,7 +450,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "ice + dry",
+   "lit_th": "น้ำที่ถูกความเย็นจัดจนแข็งตัวเป็นก + ไม่มีน้ำ",
+   "frame": "quality"
   },
   {
    "th": "ซักแห้ง",
@@ -411,7 +480,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "ทำให้สะอาดด้วยน้ำ + ไม่มีน้ำ",
+   "frame": "quality"
   },
   {
    "th": "เกยแห้ง",
@@ -436,7 +509,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ชื่อมาตราหรือแม่ ซึ่งเรียกคำหรือพย + ไม่มีน้ำ",
+   "frame": "quality"
   },
   {
    "th": "กุ้งแห้ง",
@@ -461,7 +538,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "shrimp + dry",
+   "lit_th": "สัตว์น้ำไม่มีกระดูกสันหลัง มีก้าม + ไม่มีน้ำ",
+   "frame": "quality"
   },
   {
    "th": "ความแห้ง",
@@ -481,13 +563,18 @@
     "ความ",
     "แห้ง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + dry",
+   "lit_th": "เรื่อง + ไม่มีน้ำ",
+   "frame": "quality"
   },
   {
    "th": "ความเหี่ยวแห้ง",
@@ -507,13 +594,17 @@
     "ความเหี่ยว",
     "แห้ง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เหี่ยว + ไม่มีน้ำ",
+   "frame": "quality"
   },
   {
    "th": "เหี่ยวแห้ง",
@@ -539,7 +630,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 1,
+   "lit": "wither + dry",
+   "lit_th": "ไม่สดชื่นเพราะขาดน้ำ + ไม่มีน้ำ",
+   "flips_with": "แห้งเหี่ยว",
+   "frame": "quality"
   },
   {
    "th": "เงินแห้ง",
@@ -559,13 +656,21 @@
     "เงิน",
     "แห้ง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "เงิน"
+   ],
+   "lit": "bread + dry",
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + ไม่มีน้ำ",
+   "frame": "quality"
   },
   {
    "th": "แห้งเหี่ยว",
@@ -590,7 +695,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 0,
+   "lit": "dry + wither",
+   "lit_th": "ไม่มีน้ำ + ไม่สดชื่นเพราะขาดน้ำ",
+   "flips_with": "เหี่ยวแห้ง",
+   "frame": "quality"
   }
  ],
  "etymology": {
@@ -608,5 +719,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "dry"
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "w:o",
  "th": "โอ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "o",
  "paiboon": "oo",
  "ipa": "/ʔoː˧/",
@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "pomelo"
     ],
     "th": "(ส้ม~) ส้มชนิด Citrus maxima (Burm.) Merr",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +33,8 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ส้มโอ, the pomelo."
    ]
   },
   {
@@ -57,6 +59,9 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: โอ, a จัน fruit."
    ]
   },
   {
@@ -81,6 +86,9 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ปลาโอ, the tuna."
    ]
   },
   {
@@ -105,6 +113,9 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: โอ, the lacquered vessel."
    ]
   },
   {
@@ -129,6 +140,9 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: โอ!, the exclamation."
    ]
   },
   {
@@ -153,6 +167,9 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: the Latin letter O."
    ]
   },
   {
@@ -178,34 +195,9 @@
     "RID",
     "WIKT"
    ],
-   "compounds": [
-    {
-     "th": "โอเค",
-     "rtgs": "o-khe",
-     "ipa": "/ʔoː˧.kʰeː˧/",
-     "gloss": {
-      "en": [
-       "🆗"
-      ],
-      "th": "อยู่ในเกณฑ์ดี",
-      "conf": "verified",
-      "src": [
-       "RID",
-       "WIKT"
-      ]
-     },
-     "parts": [
-      "โอ",
-      "เค"
-     ],
-     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.42, next 0.02",
-     "conf": "probable",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ]
-    }
+   "compounds": [],
+   "needs_check": [
+    "Declared root: โอ 'fine, all right' — from English OK, modern."
    ]
   },
   {
@@ -230,7 +222,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 7,
+   "via": "generalisation",
+   "via_note": "From all right to agreeing: okay, done.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -264,12 +260,16 @@
     "โอ",
     "รส"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "โอที",
@@ -289,12 +289,20 @@
     "โอ",
     "ที"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ที"
+   ],
+   "lit": "pomelo + time",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "โอมาน",
@@ -319,7 +327,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "frame": "entity"
   },
   {
    "th": "ไม้โอ",
@@ -344,7 +355,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ไม้"
+   ],
+   "lit": "wood + pomelo",
+   "frame": "entity"
   },
   {
    "th": "โอวาท",
@@ -364,12 +382,16 @@
     "โอ",
     "วาท"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "โอเลี้ยง",
@@ -389,12 +411,19 @@
     "โอ",
     "เลี้ยง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "เลี้ยง"
+   ],
+   "lit": "pomelo + grow",
+   "use": "false-split"
   },
   {
    "th": "โอยัวะ",
@@ -414,12 +443,15 @@
     "โอ",
     "ยัวะ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "use": "false-split"
   },
   {
    "th": "โอชะ",
@@ -439,12 +471,19 @@
     "โอ",
     "ชะ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ชะ"
+   ],
+   "lit": "pomelo + to rinse",
+   "use": "false-split"
   },
   {
    "th": "โอชา",
@@ -464,12 +503,20 @@
     "โอ",
     "ชา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ชา"
+   ],
+   "lit": "pomelo + tea",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "โอเมกา",
@@ -489,12 +536,15 @@
     "โอ",
     "เมกา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+PROP",
+   "head": 0,
+   "use": "false-split"
   },
   {
    "th": "โอทน",
@@ -514,12 +564,16 @@
     "โอ",
     "ทน"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "pomelo + abide",
+   "use": "false-split"
   },
   {
    "th": "ไอโอ",
@@ -539,12 +593,17 @@
     "ไอ",
     "โอ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "cough + pomelo",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "โอภาส",
@@ -564,12 +623,16 @@
     "โอ",
     "ภาส"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "โอภาษ",
@@ -594,7 +657,41 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0
+  },
+  {
+   "th": "โอเค",
+   "rtgs": "o-khe",
+   "ipa": "/ʔoː˧.kʰeː˧/",
+   "gloss": {
+    "en": [
+     "🆗"
+    ],
+    "th": "อยู่ในเกณฑ์ดี",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "โอ",
+    "เค"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.42, next 0.02 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "อยู่ในเกณฑ์ดี + ชื่อตัวอักษรในอักษรละติน K/k",
+   "frame": "entity",
+   "use": "false-split"
   }
  ],
  "etymology": {

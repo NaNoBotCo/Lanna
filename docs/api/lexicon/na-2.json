@@ -12,11 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "farm",
-     "paddy field"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง ๆ สำหรับปลูกข้าวเป็นต้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -39,63 +38,18 @@
     "Declared root: นา 'paddy field'.",
     "Declared root: นา 'paddy field'.",
     "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
     "Declared root: นา 'paddy field'."
    ],
    "compounds": [
-    {
-     "th": "วรรณนา",
-     "rtgs": "wan-na-na",
-     "ipa": "/wan˧.na˦˥.naː˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "กล่าวเป็นเรื่องเป็นราวอย่างละเอียดให้ผู้ฟังนึกเห็นเป็นภาพ",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "วรรณ",
-      "นา"
-     ],
-     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12, next 0.01",
-     "conf": "probable",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ]
-    },
-    {
-     "th": "พรรณนา",
-     "rtgs": "phan-na-na",
-     "ipa": "/pʰan˧.na˦˥.naː˧/",
-     "gloss": {
-      "en": [
-       "depict",
-       "describe"
-      ],
-      "th": "กล่าวเป็นเรื่องเป็นราวอย่างละเอียดให้ผู้ฟังนึกเห็นเป็นภาพ",
-      "conf": "verified",
-      "src": [
-       "RID",
-       "WIKT"
-      ]
-     },
-     "parts": [
-      "พรรณ",
-      "นา"
-     ],
-     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12, next 0.01",
-     "conf": "probable",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ]
-    },
     {
      "th": "ทุ่งนา",
      "rtgs": "thung-na",
@@ -120,7 +74,16 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "open field + farm",
+     "lit_th": "ที่ราบโล่ง + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "flips_with": "นาทุ่ง",
+     "frame": "entity"
     }
    ]
   },
@@ -128,11 +91,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "farm",
-     "paddy field"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "พื้นที่มีลักษณะคล้ายนาสำหรับทำประโยชน์อื่น ๆ เรียกตามสิ่งที่ทำ เช่น นาเกลือ นากุ้ง นาผักกระเฉด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -173,7 +135,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เกลือ"
+     ],
+     "lit": "farm + light",
+     "lit_th": "พื้นที่มีลักษณะคล้ายนาสำหรับทำประโ + วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -185,11 +155,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "farm",
-     "paddy field"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ใช้ประกอบกับคำอื่นที่เกิดหรือเกี่ยวข้องกับนา เช่น เต่านา ปูนา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -215,11 +184,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "farm",
-     "paddy field"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ตำแหน่งเจ้ากระทรวงปกครองครั้งโบราณ มีหน้าที่ดูแลรักษานาหลวงจัดหาและรักษาเสบียงอาหารสำหรับพระนคร ดูแลทุกข์สุขของชาวไร่ชาวนา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -263,7 +231,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "กลุ่มชนที่มีเชื้อชาติเดียวกัน หรือ + ตำแหน่งเจ้ากระทรวงปกครองครั้งโบราณ",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -275,11 +247,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "farm",
-     "paddy field"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "อวัยวะเพศหญิง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -305,11 +276,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "farm",
-     "paddy field"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "มักใช้ประกอบท้ายคำบทร้อยกรองให้มีความกระชับหรือสละสลวยขึ้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -327,6 +297,15 @@
     "WIKT"
    ],
    "needs_check": [
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
     "Declared root: the line-final particle นา of verse — a different morpheme.",
     "Declared root: the line-final particle นา of verse — a different morpheme.",
     "Declared root: the line-final particle นา of verse — a different morpheme.",
@@ -402,7 +381,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ห้วงน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "นาดี",
@@ -428,7 +411,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ดี"
+     ],
+     "lit": "na as an element in place names + good",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+     "frame": "quality"
     },
     {
      "th": "คลองนา",
@@ -454,7 +445,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "canal + na as an element in place names",
+     "lit_th": "ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "นาแก",
@@ -480,7 +479,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แก"
+     ],
+     "lit": "na as an element in place names + house crow",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อนกชนิด Corvus splendens ในวงศ์",
+     "frame": "entity"
     },
     {
      "th": "นาขาม",
@@ -506,7 +513,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คร้าม"
     },
     {
      "th": "นาชุมแสง",
@@ -532,7 +542,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่ออำเภอหนึ่งในจังหวัดนครสวรรค์"
     },
     {
      "th": "นาทวี",
@@ -558,7 +571,13 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "วี"
+     ],
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เพิ่มขึ้น"
     },
     {
      "th": "นาน้อย",
@@ -584,7 +603,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "น้อย"
+     ],
+     "lit": "na as an element in place names + little",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม่มาก",
+     "frame": "quality"
     },
     {
      "th": "นาคู",
@@ -610,7 +637,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ร่องน้ำที่ขุดขึ้นเพื่อชักน้ำหรือเก",
+     "frame": "entity"
     },
     {
      "th": "นาเกียน",
@@ -636,7 +667,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อ่าว",
+     "frame": "entity"
     },
     {
      "th": "นามะตูม",
@@ -662,7 +697,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "na as an element in place names + wood apple",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Aegle marmelos",
+     "frame": "entity"
     },
     {
      "th": "นาด้วง",
@@ -688,7 +728,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อแมลงในอันดับ Coleoptera มีปีก",
+     "frame": "entity"
     },
     {
      "th": "นาแห้ว",
@@ -714,7 +758,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกมีหัวในวงศ์ Cyperacea",
+     "frame": "entity"
     },
     {
      "th": "นาโพธิ์",
@@ -740,7 +788,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "na as an element in place names + enlightenment",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ความตรัสรู้",
+     "frame": "entity"
     },
     {
      "th": "นามะเขือ",
@@ -766,7 +822,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มหลายชนิดในสกุล Solanum",
+     "frame": "entity"
     },
     {
      "th": "นาตาล",
@@ -792,7 +852,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อพืชชนิด Borassus flabellifer L",
+     "frame": "entity"
     },
     {
      "th": "นาหว้า",
@@ -818,7 +882,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "na as an element in place names + jambul",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Syzygium Cu",
+     "frame": "entity"
     },
     {
      "th": "บางนา",
@@ -844,7 +913,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + na as an element in place names",
+     "lit_th": "ทางน้ำเล็ก ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "นาป่า",
@@ -870,7 +947,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "na as an element in place names + forest",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+     "frame": "entity"
     },
     {
      "th": "นาเพียง",
@@ -896,7 +981,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit": "na as an element in place names + just",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เท่า"
     },
     {
      "th": "นาจาน",
@@ -922,7 +1010,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "na as an element in place names + plate",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะรูปแบน ๆ สำหรับใส่สิ่งของต่าง",
+     "frame": "entity"
     },
     {
      "th": "ม่วงนา",
@@ -948,7 +1041,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "ม่วง"
+     ],
+     "lit": "purple + na as an element in place names",
+     "lit_th": "สีน้ำเงินปนแดง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "นาบัว",
@@ -974,7 +1075,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บัว"
+     ],
+     "lit": "na as an element in place names + lotus",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+     "frame": "entity"
     },
     {
      "th": "นายูง",
@@ -1000,7 +1109,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
     },
     {
      "th": "นาหมื่น",
@@ -1026,7 +1138,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit": "na as an element in place names + ten thousand",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + จำนวนนับเท่ากับ 10 พัน"
     },
     {
      "th": "นาคำ",
@@ -1052,7 +1167,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "na as an element in place names + word",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เสียงพูด",
+     "frame": "entity"
     },
     {
      "th": "นากลาง",
@@ -1078,7 +1201,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "na as an element in place names + middle",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
     },
     {
      "th": "นามน",
@@ -1104,7 +1235,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อยู่กับที่"
     },
     {
      "th": "นางิ้ว",
@@ -1130,7 +1264,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Bombax ceib",
+     "frame": "entity"
     },
     {
      "th": "นาเหนือ",
@@ -1156,7 +1294,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เหนือ"
+     ],
+     "lit": "na as an element in place names + above",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อทิศตรงข้ามกับทิศใต้",
+     "frame": "entity"
     },
     {
      "th": "นาข่า",
@@ -1182,7 +1328,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "na as an element in place names + galangal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกชนิด Alpinia galanga",
+     "frame": "entity"
     },
     {
      "th": "นาทัน",
@@ -1208,7 +1359,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เป็นไปตามเวลาที่กำหนด"
     },
     {
      "th": "นาฝาย",
@@ -1234,7 +1387,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่กั้นน้ำเพื่อการชลประทาน",
+     "frame": "entity"
     },
     {
      "th": "นาวังหิน",
@@ -1260,7 +1417,13 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "cross_listed": [
+      "หิน"
+     ],
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่ออำเภอหนึ่งในจังหวัดศรีสะเกษ"
     },
     {
      "th": "นาทม",
@@ -1286,7 +1449,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อักษรย่อของ ทบวงมหาวิทยาลัย"
     },
     {
      "th": "นาบอน",
@@ -1312,7 +1478,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกหลายชนิดในวงศ์ Aracea",
+     "frame": "entity"
     },
     {
      "th": "นาหม่อม",
@@ -1338,7 +1508,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภรรยาที่เป็นสามัญชนของกรมพระราชวัง",
+     "frame": "entity"
     },
     {
      "th": "นางาม",
@@ -1364,7 +1538,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "งาม"
+     ],
+     "lit": "na as an element in place names + aesthetic",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+     "frame": "quality"
     },
     {
      "th": "นาแพง",
@@ -1390,7 +1572,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มีราคาสูง",
+     "frame": "quality"
     },
     {
      "th": "นาโยง",
@@ -1416,7 +1602,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ผูกให้ต่อเนื่องกัน"
     },
     {
      "th": "นาทุ่ง",
@@ -1442,7 +1631,16 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "na as an element in place names + open field",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ราบโล่ง",
+     "flips_with": "ทุ่งนา",
+     "frame": "entity"
     },
     {
      "th": "นาวัง",
@@ -1468,7 +1666,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "na as an element in place names + palace",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่อยู่ของเจ้านาย",
+     "frame": "entity"
     },
     {
      "th": "นาเชือก",
@@ -1494,7 +1700,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "na as an element in place names + lead",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่ทำด้วยด้ายหรือป่านปอเป็นต้น",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -1514,7 +1725,8 @@
   "Attested in this corpus: 1130 manuscript titles, 2370 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
-  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 78; domain seeded by keyword hits ['toponym formative'].",
  "compounds_unassigned": [
@@ -1536,12 +1748,17 @@
     "นา",
     "สา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + หมา",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "เวทนา",
@@ -1561,12 +1778,16 @@
     "เวท",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "พจนา",
@@ -1591,7 +1812,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit_th": "อักษรย่อของ พิจิตร + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง"
   },
   {
    "th": "นามกร",
@@ -1616,7 +1840,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "นาม"
+   ],
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + มังกร",
+   "frame": "entity"
   },
   {
    "th": "นายก",
@@ -1636,12 +1867,20 @@
     "นา",
     "ยก"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ยก"
+   ],
+   "lit": "farm + to lift",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + เอาขึ้นให้สูงจากที่เดิมทั้งโดยตรงแ",
+   "use": "false-split"
   },
   {
    "th": "มานา",
@@ -1666,7 +1905,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "มา"
+   ],
+   "lit": "come + farm",
+   "lit_th": "เคลื่อนออกจากที่เข้าหาตัวผู้พูด + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง"
   },
   {
    "th": "เสนา",
@@ -1686,12 +1932,20 @@
     "เส",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "เส"
+   ],
+   "lit": "to swerve + farm",
+   "lit_th": "เฉ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "use": "false-split"
   },
   {
    "th": "คณนา",
@@ -1711,12 +1965,17 @@
     "คณ",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ คณะ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "นาวา",
@@ -1736,12 +1995,21 @@
     "นา",
     "วา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "วา"
+   ],
+   "lit": "farm + to spread the arms",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + มาตราวัดตามวิธีประเพณี คือระยะที่ก",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "นาวี",
@@ -1766,7 +2034,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "วี"
+   ],
+   "lit": "farm + to fan",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + พัด"
   },
   {
    "th": "บ้านนา",
@@ -1791,7 +2066,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "บ้าน"
+   ],
+   "lit": "home + farm",
+   "lit_th": "ที่อยู่อาศัย + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity"
   },
   {
    "th": "ภาวนา",
@@ -1811,12 +2094,17 @@
     "ภาว",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ความมี + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "นาสวน",
@@ -1841,7 +2129,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "สวน"
+   ],
+   "lit": "farm + garden",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
+   "frame": "entity"
   },
   {
    "th": "กานา",
@@ -1862,12 +2158,20 @@
     "กา",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กา"
+   ],
+   "lit": "crow + farm",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "นยนา",
@@ -1892,7 +2196,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เค้าความที่ส่อให้เข้าใจเอาเอง + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity"
   },
   {
    "th": "เวียนนา",
@@ -1917,7 +2225,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "อาการที่ของสิ่งหนึ่งเคลื่อนไหวไปรอ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง"
   },
   {
    "th": "นานา",
@@ -1937,12 +2248,18 @@
     "นา",
     "นา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "farm + farm",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "นานา",
@@ -1962,12 +2279,18 @@
     "นา",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "farm + farm",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "นัยนา",
@@ -1992,7 +2315,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "key + farm",
+   "lit_th": "ข้อสำคัญ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity"
   },
   {
    "th": "นาซี",
@@ -2012,12 +2340,15 @@
     "นา",
     "ซี"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + คำประกอบท้ายคำอื่นเพื่อเสริมข้อควา",
+   "use": "false-split"
   },
   {
    "th": "นาลี",
@@ -2037,12 +2368,20 @@
     "นา",
     "ลี"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ลี"
+   ],
+   "lit": "farm + to go",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ไป",
+   "use": "false-split"
   },
   {
    "th": "โภชนา",
@@ -2062,12 +2401,17 @@
     "โภช",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ของควรบริโภค + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ล้านนา",
@@ -2092,7 +2436,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit": "million + farm",
+   "lit_th": "จำนวน 10 แสน + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง"
   },
   {
    "th": "นานาเนก",
@@ -2117,7 +2464,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + รูปตัดทอนของ นานาเนก",
+   "frame": "quality"
   },
   {
    "th": "กบนา",
@@ -2142,7 +2493,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กบ"
+   ],
+   "lit": "frog + farm",
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity"
   },
   {
    "th": "เทศนา",
@@ -2162,12 +2521,17 @@
     "เทศ",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ต่างประเทศ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "ศักดินา",
@@ -2193,7 +2557,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ ศักดิ์ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity"
   },
   {
    "th": "ไก่นา",
@@ -2218,7 +2586,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ไก่"
+   ],
+   "lit": "chicken + farm",
+   "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity"
   },
   {
    "th": "นาที",
@@ -2239,12 +2615,21 @@
     "นา",
     "ที"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ที"
+   ],
+   "lit": "farm + time",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ครั้ง",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "มีนา",
@@ -2269,7 +2654,79 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "cross_listed": [
+    "มี"
+   ],
+   "lit": "have + farm",
+   "lit_th": "รวย + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "quality"
+  },
+  {
+   "th": "วรรณนา",
+   "rtgs": "wan-na-na",
+   "ipa": "/wan˧.na˦˥.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กล่าวเป็นเรื่องเป็นราวอย่างละเอียดให้ผู้ฟังนึกเห็นเป็นภาพ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วรรณ",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12, next 0.01 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สี + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "พรรณนา",
+   "rtgs": "phan-na-na",
+   "ipa": "/pʰan˧.na˦˥.naː˧/",
+   "gloss": {
+    "en": [
+     "depict",
+     "describe"
+    ],
+    "th": "กล่าวเป็นเรื่องเป็นราวอย่างละเอียดให้ผู้ฟังนึกเห็นเป็นภาพ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "พรรณ",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12, next 0.01 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำพ้องความของ ชนิด + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
   }
  ],
  "etymology": {
@@ -2311,5 +2768,9 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "farm",
+  "paddy field"
  ]
 }

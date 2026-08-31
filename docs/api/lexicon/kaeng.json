@@ -1,7 +1,7 @@
 {
  "id": "w:kaeng",
  "th": "แกง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "kaeng",
  "paiboon": "gɛɛng",
  "ipa": "/kɛːŋ˧/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "curry",
+     "a soup-like dish"
     ],
     "th": "กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง ๆ ตามวิธีปรุงและเครื่องปรุง",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +34,10 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: แกง, the curry.",
+    "Declared root: แกง, the curry.",
+    "Declared root: แกง, the curry."
    ],
    "compounds": [
     {
@@ -59,7 +64,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "curry + orange",
+     "lit_th": "กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง + ชื่อไม้พุ่มหรือไม้ต้นขนาดเล็กหลายช",
+     "frame": "entity"
     }
    ]
   },
@@ -85,7 +95,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The curry names the making of it.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -109,6 +123,11 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: แกง 'to bait someone into anger' — colloquial and separate.",
+    "Declared root: แกง 'to bait someone into anger' — colloquial and separate.",
+    "Declared root: แกง 'to bait someone into anger' — colloquial and separate."
    ]
   },
   {
@@ -133,7 +152,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "And baiting someone widens to deceiving them.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -145,6 +168,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 0 manuscript titles, 1 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -174,7 +198,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "ร้อน"
+   ],
+   "lit": "curry + hot",
+   "lit_th": "กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
   },
   {
    "th": "แกงจืด",
@@ -199,7 +231,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "curry + fresh",
+   "lit_th": "กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง + มีรสไม่เค็มไม่เปรี้ยวเป็นต้น",
+   "frame": "quality"
   },
   {
    "th": "แกงคั่ว",
@@ -224,7 +261,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง + เอาสิ่งของใส่กระเบื้องหรือกระทะตั้"
   },
   {
    "th": "การแกง",
@@ -244,13 +284,17 @@
     "การ",
     "แกง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง",
+   "frame": "entity"
   },
   {
    "th": "ยอดแกง",
@@ -270,13 +314,17 @@
     "ยอด",
     "แกง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ส่วนสูงสุด + กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง",
+   "frame": "entity"
   },
   {
    "th": "ฆ่าแกง",
@@ -301,7 +349,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "kill + curry",
+   "lit_th": "ทำให้ตาย + กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง"
   },
   {
    "th": "แกงขม",
@@ -326,7 +378,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "curry + bitter",
+   "lit_th": "กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง + รสอย่างหนึ่งอย่างรสสะเดาหรือบอระเพ",
+   "frame": "quality"
   },
   {
    "th": "เครื่องแกง",
@@ -351,7 +408,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เครื่อง"
+   ],
+   "lit": "device + curry",
+   "lit_th": "สิ่ง + กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง",
+   "frame": "entity"
   },
   {
    "th": "แกงป่า",
@@ -376,7 +441,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ป่า"
+   ],
+   "lit": "curry + forest",
+   "lit_th": "กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+   "frame": "entity"
   },
   {
    "th": "แกงบวด",
@@ -401,7 +474,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง + รูปเลิกใช้ของ บวช"
   },
   {
    "th": "เกลือแกง",
@@ -426,7 +502,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เกลือ"
+   ],
+   "lit": "light + curry",
+   "lit_th": "วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็ + กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง",
+   "frame": "entity"
   },
   {
    "th": "แกงกะหรี่",
@@ -451,7 +535,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง + แกงชนิดหนึ่ง สีเหลือง ปรุงด้วยเครื",
+   "frame": "entity"
   },
   {
    "th": "แกงได",
@@ -471,12 +559,17 @@
     "แกง",
     "ได"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง + มือ",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "การฆ่าแกง",
@@ -496,13 +589,18 @@
     "การฆ่า",
     "แกง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "kill + curry",
+   "lit_th": "คำอาการนามของ ฆ่า + กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง",
+   "frame": "entity"
   },
   {
    "th": "แกงเผ็ด",
@@ -527,7 +625,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "curry + hot",
+   "lit_th": "กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง + มีรสอย่างรสพริก",
+   "frame": "quality"
   }
  ],
  "etymology": {

@@ -1,7 +1,7 @@
 {
  "id": "w:chong",
  "th": "ช่อง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "chong",
  "paiboon": "chɔ̂ng",
  "ipa": "/t͡ɕʰɔŋ˥˩/",
@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "hole"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ที่ว่างซึ่งเป็นทางเข้าออกได้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -59,7 +59,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เขา"
+     ],
+     "lit": "hole + mountain",
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+     "frame": "entity"
     },
     {
      "th": "ช่องลม",
@@ -84,7 +92,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลม"
+     ],
+     "lit": "hole + wind",
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
+     "frame": "entity"
     }
    ]
   },
@@ -92,10 +108,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "hole"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ที่ว่างซึ่งเป็นที่กำหนดเฉพาะ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -140,18 +156,27 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "hole + empty",
+     "lit_th": "ที่ว่างซึ่งเป็นที่กำหนดเฉพาะ + เปล่า",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "An opening set aside for a purpose: a slot, a lane.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "hole"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ย่านความถี่ที่ใช้สัญญาณภาพและเสียงที่กำหนดไว้ต่าง ๆ กันตามมาตรฐานการส่งกระจายเสียงวิทยุโทรทัศน์",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -167,16 +192,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "A band of frequency held open for a signal.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "hole"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "คำเรียกสถานีโทรทัศน์แต่ละสถานี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -192,16 +221,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "And the station that broadcasts on it.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "hole"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "โอกาส, ช่องทาง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -243,7 +276,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทาง"
+     ],
+     "lit": "hole + way",
+     "lit_th": "โอกาส + ที่สำหรับเดินไปมา",
+     "frame": "entity"
     },
     {
      "th": "ได้ช่อง",
@@ -269,9 +310,20 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ได้"
+     ],
+     "lit": "have + hole",
+     "lit_th": "รับมาหรือตกมาเป็นของตัว + โอกาส"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "An opening in circumstances: an opportunity.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -341,7 +393,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นในสกุล Crateva วงศ์ Capp",
+     "frame": "entity"
     },
     {
      "th": "ช่องแมว",
@@ -367,7 +423,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "chong as an element in place names + cat",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Felis",
+     "frame": "entity"
     },
     {
      "th": "ช่องด่าน",
@@ -393,7 +454,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่สำหรับกัก ตรวจ คอยระวังเหตุ และ",
+     "frame": "entity"
     },
     {
      "th": "ช่องสะเดา",
@@ -419,7 +484,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Azadirachta indica",
+     "frame": "entity"
     },
     {
      "th": "ปากช่อง",
@@ -445,7 +514,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ปาก"
+     ],
+     "lit": "mouth + chong as an element in place names",
+     "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -465,6 +542,8 @@
   "Attested in this corpus: 0 manuscript titles, 11 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['เข้า', 'ออก', 'มา'].",
@@ -487,13 +566,17 @@
     "การชี้",
     "ช่อง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ชี้ + ที่ว่างซึ่งเป็นทางเข้าออกได้",
+   "frame": "entity"
   },
   {
    "th": "ช่องท้อง",
@@ -519,7 +602,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ท้อง"
+   ],
+   "lit": "hole + carry",
+   "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น",
+   "frame": "entity"
   },
   {
    "th": "ลอดช่อง",
@@ -544,7 +635,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "escape + hole",
+   "lit_th": "ผ่านเข้าไปในช่อง หรือใต้สิ่งที่มีพ + ที่ว่างซึ่งเป็นทางเข้าออกได้"
   },
   {
    "th": "ช่องไฟ",
@@ -569,7 +664,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ไฟ"
+   ],
+   "lit": "hole + fire",
+   "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ชี้ช่อง",
@@ -594,7 +697,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "เหยียดนิ้วชี้เป็นต้นตรงไปที่ใดที่ห + ที่ว่างซึ่งเป็นทางเข้าออกได้"
   },
   {
    "th": "ช่องโหว่",
@@ -619,7 +725,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + เป็นช่องกลวงเข้าไป",
+   "frame": "quality"
   },
   {
    "th": "ช่องคอ",
@@ -645,7 +755,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "คอ"
+   ],
+   "lit": "hole + neck",
+   "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ส่วนของร่างกายที่ต่อศีรษะกับตัว",
+   "frame": "entity"
   },
   {
    "th": "ช่องคลอด",
@@ -671,7 +789,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "hole + deliver",
+   "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ออกลูก"
   },
   {
    "th": "การ์ตูนช่อง",
@@ -696,7 +818,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "cartoon + hole",
+   "lit_th": "ภาพล้อ + ที่ว่างซึ่งเป็นทางเข้าออกได้",
+   "frame": "entity"
   },
   {
    "th": "ช่องแคบ",
@@ -722,7 +849,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "hole + narrow",
+   "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + มีส่วนกว้างน้อย",
+   "frame": "quality"
   }
  ],
  "etymology": {
@@ -740,5 +872,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "hole"
+ ]
 }

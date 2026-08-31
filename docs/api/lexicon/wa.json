@@ -1,7 +1,7 @@
 {
  "id": "w:wa",
  "th": "ว่า",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "wa",
  "paiboon": "wâa",
  "ipa": "/waː˥˩/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "to say",
+     "to tell"
     ],
     "th": "พูด, บอก",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -57,7 +59,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Saying against someone: to reprove.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -106,9 +112,16 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ดุด่าว่ากล่าว + บอก"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "And harder: to scold.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -158,9 +171,20 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ต่อ"
+     ],
+     "lit": "a + to say",
+     "lit_th": "ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ + ร้อง"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Saying in a raised voice: to call, to sing out.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -184,7 +208,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Saying to someone to do a thing, for pay: to hire.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -208,7 +236,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Standing in for other verbs of doing.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -258,9 +290,17 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "mean + to say",
+     "lit_th": "มุ่งจะกล่าวถึง + คำเชื่อมประโยค"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Bleached to the complementiser: that.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -272,6 +312,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 22 manuscript titles, 463 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -296,13 +337,17 @@
     "การ",
     "ว่า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + พูด",
+   "flips_with": "ว่าการ"
   },
   {
    "th": "หากว่า",
@@ -328,7 +373,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "หา"
+   ],
+   "lit_th": "คำกริยาช่วยหมายความว่า พึง + พูด"
   },
   {
    "th": "ว่าด้วย",
@@ -353,7 +404,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit": "to say + at",
+   "lit_th": "พูด + คำแสดงกริยารวมหรือเพิ่ม"
   },
   {
    "th": "สักว่า",
@@ -378,7 +432,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "สัก"
+   ],
+   "lit": "teak + to say",
+   "lit_th": "ชื่อไม้ต้นชนิด Tectona grandis L.f + พูด"
   },
   {
    "th": "ว่าที่",
@@ -403,7 +464,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to say + at",
+   "lit_th": "พูด + แหล่ง"
   },
   {
    "th": "ว่าการ",
@@ -428,7 +493,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "พูด + งาน",
+   "flips_with": "การว่า"
   },
   {
    "th": "นัยว่า",
@@ -453,7 +522,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "key + to say",
+   "lit_th": "ข้อสำคัญ + พูด"
   },
   {
    "th": "ผิว่า",
@@ -478,7 +551,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "CONJ+V",
+   "head": 1,
+   "lit_th": "ถ้า + พูด"
   },
   {
    "th": "แต่ว่า",
@@ -503,7 +579,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit": "but + to say",
+   "lit_th": "เฉพาะ + พูด"
   },
   {
    "th": "ชื่อว่า",
@@ -528,7 +607,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ชื่อ"
+   ],
+   "lit": "name + to say",
+   "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + พูด"
   },
   {
    "th": "การถือว่า",
@@ -548,13 +634,16 @@
     "การถือ",
     "ว่า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ถือ + พูด"
   },
   {
    "th": "ว่าราชการ",
@@ -579,7 +668,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "พูด + การงานของรัฐบาลหรือของพระเจ้าแผ่นด"
   },
   {
    "th": "แม้ว่า",
@@ -607,7 +699,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "CONJ+V",
+   "head": 1,
+   "lit_th": "ถึง + พูด"
   },
   {
    "th": "การต่อว่า",
@@ -627,13 +722,17 @@
     "การต่อ",
     "ว่า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "engagement + to say",
+   "lit_th": "คำอาการนามของ ต่อ + พูด"
   },
   {
    "th": "ว่ายาก",
@@ -658,7 +757,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to say + bad",
+   "lit_th": "พูด + ความลำบาก"
   },
   {
    "th": "ถือว่า",
@@ -683,7 +786,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "ถือ"
+   ],
+   "lit": "hold + to say",
+   "lit_th": "เอาไว้ในมือ + พูด"
   },
   {
    "th": "ว่าความ",
@@ -708,7 +818,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to say + -ness",
+   "lit_th": "พูด + เรื่อง"
   }
  ],
  "etymology": {

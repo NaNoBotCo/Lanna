@@ -1,7 +1,7 @@
 {
  "id": "w:pong",
  "th": "โป่ง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "pong",
  "paiboon": "bpòong",
  "ipa": "/poːŋ˨˩/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "swollen",
+     "puffed with air"
     ],
     "th": "ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +34,8 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: โป่ง 'swollen with air'."
    ],
    "compounds": [
     {
@@ -59,7 +62,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + swollen",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส",
+     "frame": "entity"
     }
    ]
   },
@@ -85,6 +96,9 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: โป่ง, the salt lick — separate, and the source of the place names."
    ]
   },
   {
@@ -109,7 +123,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "The forest that holds a salt lick.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -133,7 +151,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "And the spirit believed to keep it.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -157,7 +179,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "And the hide built over it to wait for game.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -181,7 +207,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Ground where water wells up as salt does.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -205,7 +235,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "And the water itself.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -229,7 +263,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The swelling names the swelling up.",
+   "via_conf": "probable"
   },
   {
    "n": 9,
@@ -278,7 +316,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + swollen",
+     "lit_th": "ที่อยู่อาศัย + ชื่อตำบลหนึ่งในอำเภอบางละมุง จังหว",
+     "frame": "entity"
     },
     {
      "th": "โป่งงาม",
@@ -303,7 +349,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "งาม"
+     ],
+     "lit": "swollen + aesthetic",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอบางละมุง จังหว + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+     "frame": "quality"
     },
     {
      "th": "ห้วยโป่ง",
@@ -328,7 +382,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ห้วย"
+     ],
+     "lit": "stream pool + swollen",
+     "lit_th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขา + ชื่อตำบลหนึ่งในอำเภอบางละมุง จังหว",
+     "frame": "entity"
     },
     {
      "th": "โป่งแพร่",
@@ -353,7 +415,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอบางละมุง จังหว + กระจายออกไป"
     },
     {
      "th": "โป่งแดง",
@@ -378,7 +443,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "swollen + red",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอบางละมุง จังหว + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
     },
     {
      "th": "วังโป่ง",
@@ -403,7 +476,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + swollen",
+     "lit_th": "ที่อยู่ของเจ้านาย + ชื่อตำบลหนึ่งในอำเภอบางละมุง จังหว",
+     "frame": "entity"
     },
     {
      "th": "โป่งแยง",
@@ -428,7 +509,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอบางละมุง จังหว + แหย่เข้าไปในช่องหรือในรู"
     },
     {
      "th": "แม่โป่ง",
@@ -453,7 +537,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + swollen",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ชื่อตำบลหนึ่งในอำเภอบางละมุง จังหว",
+     "frame": "entity"
     },
     {
      "th": "มาบโป่ง",
@@ -478,7 +570,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "บริเวณที่ลุ่มกว้างใหญ่ซึ่งอาจมีน้ำ + ชื่อตำบลหนึ่งในอำเภอบางละมุง จังหว",
+     "frame": "entity"
     },
     {
      "th": "โป่งสา",
@@ -503,7 +599,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอบางละมุง จังหว + หมา",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งโป่ง",
@@ -528,7 +628,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "open field + swollen",
+     "lit_th": "ที่ราบโล่ง + ชื่อตำบลหนึ่งในอำเภอบางละมุง จังหว",
+     "frame": "entity"
     },
     {
      "th": "โป่งผา",
@@ -553,7 +661,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอบางละมุง จังหว + หินที่เขา",
+     "frame": "entity"
     },
     {
      "th": "สันโป่ง",
@@ -578,9 +690,21 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สัน"
+     ],
+     "lit": "ridge + swollen",
+     "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + ชื่อตำบลหนึ่งในอำเภอบางละมุง จังหว",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "A tambon named from its lick.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -592,6 +716,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 0 manuscript titles, 5 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -616,13 +741,18 @@
     "ความ",
     "โป่ง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + swollen",
+   "lit_th": "เรื่อง + ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส",
+   "frame": "entity"
   }
  ]
 }

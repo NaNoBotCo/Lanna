@@ -1,7 +1,7 @@
 {
  "id": "w:lak",
  "th": "หลัก",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "lak",
  "paiboon": "làk",
  "ipa": "/lak̚˨˩/",
@@ -12,12 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "key",
-     "principle",
-     "pillar"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "เสาที่ปักไว้, ที่ผูก, ที่มั่น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -42,12 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "key",
-     "principle",
-     "pillar"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "เครื่องหมาย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -63,18 +59,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A post driven in marks a thing: a sign.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "key",
-     "principle",
-     "pillar"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "เครื่องยึดเหนี่ยว",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -90,18 +88,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Something to take hold of and steady oneself by.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "key",
-     "principle",
-     "pillar"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "เครื่องจับยึด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -117,18 +117,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A device that grips, as a post holds.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "key",
-     "principle",
-     "pillar"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "สาระที่มั่นคง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -144,18 +146,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "What one holds to in thought: a principle.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "key",
-     "principle",
-     "pillar"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ตำแหน่งของตัวเลขซึ่งแสดงจำนวน คือ ถ้าเป็นเลขตัวเดียว เรียกว่า จำนวนหน่วย เลข 2 ตัวเรียงกัน เรียกว่า จำนวนสิบ เลข 3 ตัวเรียงกัน เรียกว่า จำนวนร้อย เลข 4 ตัวเรียงกัน เรียกว่า จำนวนพัน เลข 5 ตัวเรียงกัน เรียกว่า จำนวนหมื่น เลข 6 ตัวเรียงกัน เรียกว่า จำนวนแสน เลข 7 ตัวเรียงกัน เรียกว่า จำนวนล้าน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -171,18 +175,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A place in a numeral, each digit standing at its post.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "key",
-     "principle",
-     "pillar"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "จำนวนแสน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -198,7 +204,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "หลักแสน — reckoning by the hundred-thousand place.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -268,7 +278,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + lak as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "หลักแก้ว",
@@ -294,7 +312,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "lak as an element in place names + glass",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "frame": "entity"
     },
     {
      "th": "หลักหก",
@@ -320,7 +343,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit": "lak as an element in place names + six",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + จำนวนห้าบวกหนึ่ง"
     },
     {
      "th": "หลักเหลี่ยม",
@@ -346,7 +372,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ด้านที่เป็นสัน",
+     "frame": "entity"
     },
     {
      "th": "หลักฟ้า",
@@ -372,7 +402,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "lak as an element in place names + sky",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -392,6 +429,8 @@
   "Attested in this corpus: 1 manuscript titles, 66 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['หนี', 'มา'].",
@@ -414,13 +453,15 @@
     "การเสีย",
     "หลัก"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสีย + เสาที่ปักไว้"
   },
   {
    "th": "เสียหลัก",
@@ -445,7 +486,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "เสีย"
+   ],
+   "lit": "bad + key",
+   "lit_th": "เสื่อมลงไป + เสาที่ปักไว้"
   },
   {
    "th": "หลักลอย",
@@ -470,7 +518,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ลอย"
+   ],
+   "lit": "key + float",
+   "lit_th": "เสาที่ปักไว้ + ทรงตัวอยู่ในอากาศ"
   },
   {
    "th": "หลักสี่",
@@ -495,7 +550,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit": "key + four",
+   "lit_th": "เสาที่ปักไว้ + จำนวนสามบวกหนึ่ง"
   },
   {
    "th": "หลักแหล่ง",
@@ -520,7 +578,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "เสาที่ปักไว้ + ถิ่น",
+   "frame": "entity"
   },
   {
    "th": "หลักทรัพย์",
@@ -546,7 +608,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "เสาที่ปักไว้ + เงินตรา",
+   "frame": "entity"
   },
   {
    "th": "หลักการ",
@@ -571,7 +637,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "เสาที่ปักไว้ + งาน",
+   "frame": "entity"
   },
   {
    "th": "ประโยคหลัก",
@@ -596,7 +666,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "sentence + key",
+   "lit_th": "คำพูดหรือข้อความที่ได้ความบริบูรณ์ + เสาที่ปักไว้",
+   "frame": "entity"
   },
   {
    "th": "หลักฐาน",
@@ -624,7 +699,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ฐาน"
+   ],
+   "lit": "key + bottom",
+   "lit_th": "เสาที่ปักไว้ + ที่ตั้ง",
+   "frame": "entity"
   },
   {
    "th": "หลักสาม",
@@ -649,7 +732,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "สาม"
+   ],
+   "lit": "key + three",
+   "lit_th": "เสาที่ปักไว้ + จำนวนสองบวกหนึ่ง"
   },
   {
    "th": "หลักเมือง",
@@ -674,7 +763,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เมือง"
+   ],
+   "lit": "key + town",
+   "lit_th": "เสาที่ปักไว้ + แดน",
+   "frame": "entity"
   },
   {
    "th": "หลักสูตร",
@@ -700,7 +797,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "key + formula",
+   "lit_th": "เสาที่ปักไว้ + กฎสำหรับจดจำ",
+   "frame": "entity"
   },
   {
    "th": "หลักเกณฑ์",
@@ -725,7 +827,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "key + mark",
+   "lit_th": "เสาที่ปักไว้ + หลักที่กำหนดไว้",
+   "frame": "entity"
   },
   {
    "th": "หลักแหลม",
@@ -751,7 +858,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "key + tongue",
+   "lit_th": "เสาที่ปักไว้ + มีปลายเสี้ยมคม",
+   "frame": "quality"
   }
  ],
  "etymology": {
@@ -769,5 +881,10 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "key",
+  "principle",
+  "pillar"
+ ]
 }

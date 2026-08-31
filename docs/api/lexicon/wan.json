@@ -1,7 +1,7 @@
 {
  "id": "w:wan",
  "th": "วาร",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "wan",
  "paiboon": "waan",
  "ipa": "/waːn˧/",
@@ -13,11 +13,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "day",
+     "day of the week"
     ],
     "th": "วันหนึ่ง ๆ ในสัปดาห์",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -57,32 +59,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
-    },
-    {
-     "th": "อาทิตยวาร",
-     "rtgs": "a-thit-ta-ya-wan",
-     "ipa": "/ʔaː˧.tʰit̚˦˥.ta˨˩.ja˦˥.waːn˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "วันอาทิตย์",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "อาทิตย",
-      "วาร"
      ],
-     "note": "head-final; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
-     "conf": "verified",
-     "src": [
-      "RID",
-      "WIKT"
-     ]
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ ชนม์ + วันหนึ่ง ๆ ในสัปดาห์",
+     "frame": "entity"
     }
    ]
   },
@@ -130,9 +111,18 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "day + matter",
+     "lit_th": "ครั้ง + แก่น",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "A day of the week loosened to a time, an occasion.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -166,12 +156,15 @@
     "พุธ",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "use": "false-split"
   },
   {
    "th": "มงคลวาร",
@@ -191,12 +184,17 @@
     "มงคล",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เหตุที่นำมาซึ่งความเจริญ + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ครุวาร",
@@ -216,12 +214,17 @@
     "ครุ",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ภาชนะสานชนิดหนึ่ง รูปกลม ๆ เหมือนก + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ปัญญาสมวาร",
@@ -246,7 +249,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ที่ 50 + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "quality"
   },
   {
    "th": "รวิวาร",
@@ -266,12 +273,17 @@
     "รวิ",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ดวงอาทิตย์ + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "สัตมวาร",
@@ -296,7 +308,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ที่ 7 + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "quality"
   },
   {
    "th": "วงวาร",
@@ -321,7 +337,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "zone + day",
+   "lit_th": "รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "entity"
   },
   {
    "th": "ปาวาร",
@@ -341,12 +362,16 @@
     "ปา",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ซัดไปด้วยอาการยกแขนขึ้นสูงแล้วเอี้ + วันหนึ่ง ๆ ในสัปดาห์",
+   "use": "false-split"
   },
   {
    "th": "โสมวาร",
@@ -366,12 +391,16 @@
     "โสม",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ปัณรสมวาร",
@@ -396,7 +425,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ที่ 15 + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "quality"
   },
   {
    "th": "จันทรวาร",
@@ -416,12 +449,17 @@
     "จันทร",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำพ้องความของ จันทร์ + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "จันทวาร",
@@ -441,12 +479,17 @@
     "จันท",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ จันท์ + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "คุรุวาร",
@@ -466,12 +509,17 @@
     "คุรุ",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้สั่งสอน + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ภุมวาร",
@@ -491,12 +539,15 @@
     "ภุม",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ไม่ + วันหนึ่ง ๆ ในสัปดาห์",
+   "use": "false-split"
   },
   {
    "th": "ชีววาร",
@@ -516,12 +567,17 @@
     "ชีว",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชีวิต + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ศุกรวาร",
@@ -541,12 +597,17 @@
     "ศุกร",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "สว่าง + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "ศนิวาร",
@@ -566,12 +627,17 @@
     "ศนิ",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ดาวพระเสาร์ + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "มาวาร",
@@ -591,12 +657,20 @@
     "มา",
     "วาร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "มา"
+   ],
+   "lit": "come + day",
+   "lit_th": "เคลื่อนออกจากที่เข้าหาตัวผู้พูด + วันหนึ่ง ๆ ในสัปดาห์",
+   "use": "false-split"
   },
   {
    "th": "อธิกวาร",
@@ -621,7 +695,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ยิ่ง + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "quality"
   },
   {
    "th": "วารวาริ",
@@ -641,12 +719,47 @@
     "วาร",
     "วาริ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "วันหนึ่ง ๆ ในสัปดาห์ + น้ำ",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "อาทิตยวาร",
+   "rtgs": "a-thit-ta-ya-wan",
+   "ipa": "/ʔaː˧.tʰit̚˦˥.ta˨˩.ja˦˥.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วันอาทิตย์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อาทิตย",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ อาทิตย์ + วันหนึ่ง ๆ ในสัปดาห์",
+   "frame": "entity",
+   "use": "false-split"
   }
  ],
  "etymology": {

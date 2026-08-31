@@ -1,7 +1,7 @@
 {
  "id": "w:na-3",
  "th": "นะ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "na",
  "paiboon": "ná",
  "ipa": "/naʔ˦˥/",
@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "the sentence particle na"
     ],
     "th": "คำประกอบท้ายคำอื่น บอกความเป็นเชิงอ้อนวอน บังคับตกลงหรือเน้นให้หนักแน่น เป็นต้น",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +33,11 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: นะ, the sentence particle.",
+    "Declared root: นะ, the sentence particle.",
+    "Declared root: นะ, the sentence particle.",
+    "Declared root: นะ, the sentence particle."
    ]
   },
   {
@@ -82,7 +87,13 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "cross_listed": [
+      "จะ"
+     ],
+     "lit": "will + the sentence particle na",
+     "lit_th": "คำกร่อนของคำหน้าซึ่งซ้ำกับคำหลังใน + ชื่อตัวตั้งธาตุน้ำของเวทมนตร์คาถาท"
     },
     {
      "th": "แม่นะ",
@@ -107,7 +118,13 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + the sentence particle na",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ชื่อตัวตั้งธาตุน้ำของเวทมนตร์คาถาท"
     },
     {
      "th": "เมืองนะ",
@@ -132,8 +149,20 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "town + the sentence particle na",
+     "lit_th": "แดน + ชื่อตัวตั้งธาตุน้ำของเวทมนตร์คาถาท"
     }
+   ],
+   "needs_check": [
+    "Declared root: นะ, the sacred seed-syllable — see /na, the 108 Na.",
+    "Declared root: นะ, the sacred seed-syllable — see /na, the 108 Na.",
+    "Declared root: นะ, the sacred seed-syllable — see /na, the 108 Na.",
+    "Declared root: นะ, the sacred seed-syllable — see /na, the 108 Na."
    ]
   }
  ],
@@ -168,12 +197,15 @@
     "โภช",
     "นะ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ของควรบริโภค + คำประกอบท้ายคำอื่น บอกความเป็นเชิง",
+   "use": "false-split"
   },
   {
    "th": "กระแหนะ",
@@ -197,7 +229,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ปลาตะเพียนขนาดกลางชนิด Barbonymus + คำประกอบท้ายคำอื่น บอกความเป็นเชิง"
   },
   {
    "th": "ชำนะ",
@@ -222,7 +256,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ชื่อร้านหรือเรือขายของแห้งต่าง ๆ ท + คำประกอบท้ายคำอื่น บอกความเป็นเชิง"
   },
   {
    "th": "พันธนะ",
@@ -242,12 +278,15 @@
     "พันธ",
     "นะ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ พันธะ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง",
+   "use": "false-split"
   },
   {
    "th": "อานะ",
@@ -272,7 +311,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "อา"
+   ],
+   "lit": "father's younger sibling + the sentence particle na",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง"
   },
   {
    "th": "ยกนะ",
@@ -292,12 +337,19 @@
     "ยก",
     "นะ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "ยก"
+   ],
+   "lit": "to lift + the sentence particle na",
+   "lit_th": "เอาขึ้นให้สูงจากที่เดิมทั้งโดยตรงแ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง",
+   "use": "false-split"
   },
   {
    "th": "เลขนะ",
@@ -317,12 +369,15 @@
     "เลข",
     "นะ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit": "number + the sentence particle na",
+   "use": "false-split"
   },
   {
    "th": "นยนะ",
@@ -346,7 +401,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "เค้าความที่ส่อให้เข้าใจเอาเอง + คำประกอบท้ายคำอื่น บอกความเป็นเชิง"
   },
   {
    "th": "ไชนะ",
@@ -366,12 +423,15 @@
     "ไช",
     "นะ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "เจาะเข้าไป + คำประกอบท้ายคำอื่น บอกความเป็นเชิง",
+   "use": "false-split"
   },
   {
    "th": "เสนะ",
@@ -391,12 +451,19 @@
     "เส",
     "นะ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "เส"
+   ],
+   "lit": "to swerve + the sentence particle na",
+   "lit_th": "เฉ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง",
+   "use": "false-split"
   },
   {
    "th": "มานะ",
@@ -416,12 +483,19 @@
     "มา",
     "นะ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "มา"
+   ],
+   "lit": "come + the sentence particle na",
+   "lit_th": "เคลื่อนออกจากที่เข้าหาตัวผู้พูด + คำประกอบท้ายคำอื่น บอกความเป็นเชิง",
+   "use": "false-split"
   },
   {
    "th": "คณนะ",
@@ -441,12 +515,15 @@
     "คณ",
     "นะ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ คณะ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง",
+   "use": "false-split"
   },
   {
    "th": "แกนะ",
@@ -471,7 +548,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "แก"
+   ],
+   "lit": "house crow + the sentence particle na",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง"
   },
   {
    "th": "หายนะ",
@@ -492,12 +575,19 @@
     "หาย",
     "นะ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "หาย"
+   ],
+   "lit": "all + the sentence particle na",
+   "lit_th": "สูญ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง",
+   "use": "false-split"
   },
   {
    "th": "อาชานะ",
@@ -517,12 +607,15 @@
     "อาชา",
     "นะ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ม้า + คำประกอบท้ายคำอื่น บอกความเป็นเชิง",
+   "use": "false-split"
   },
   {
    "th": "โกญจนะ",
@@ -547,7 +640,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ โกญจา + คำประกอบท้ายคำอื่น บอกความเป็นเชิง"
   }
  ],
  "etymology": {

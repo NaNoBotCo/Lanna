@@ -1,7 +1,7 @@
 {
  "id": "w:lat",
  "th": "ลาด",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "lat",
  "paiboon": "lâat",
  "ipa": "/laːt̚˥˩/",
@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "decline"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ปูแผ่ออกไป",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -33,17 +33,19 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ลาด 'to spread out'.",
+    "Declared root: ลาด 'to spread out'."
    ]
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "decline"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "สิ่งที่มีอาการคล้ายคลึงเช่นนั้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -59,16 +61,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Anything spread out that way.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "decline"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "เทต่ำหรือเอียงขึ้นน้อย ๆ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -84,16 +90,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Spread on a slant: sloping, shelving.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "decline"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "คำพ้องความของ เสือตอ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -109,6 +119,10 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ปลาลาด as เสือตอ — a fish name.",
+    "Declared root: ปลาลาด as เสือตอ — a fish name."
    ]
   },
   {
@@ -179,7 +193,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ยาว"
+     ],
+     "lit": "lat as an element in place names + long",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+     "frame": "quality"
     },
     {
      "th": "ลาดกระทิง",
@@ -205,7 +227,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "lat as an element in place names + bison",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อวัวป่า"
     },
     {
      "th": "หินลาด",
@@ -231,7 +257,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "หิน"
+     ],
+     "lit": "rock + lat as an element in place names",
+     "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "บ้านลาด",
@@ -257,7 +290,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + lat as an element in place names",
+     "lit_th": "ที่อยู่อาศัย + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "ลาดขวาง",
@@ -283,7 +323,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "ขวาง"
+     ],
+     "lit": "lat as an element in place names + across",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กีดกั้น"
     },
     {
      "th": "ลาดหญ้า",
@@ -309,7 +356,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "lat as an element in place names + grass",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อเรียกไม้ล้มลุกหลายชนิดหลายสกุล"
     },
     {
      "th": "ลาดพร้าว",
@@ -335,7 +386,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มะพร้าว"
     },
     {
      "th": "ศิลาลาด",
@@ -361,7 +415,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "หิน + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "ลาดบัวหลวง",
@@ -387,7 +444,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บัวชนิด Nelumbo nucifera Gaertn. ด"
     },
     {
      "th": "วังหินลาด",
@@ -413,7 +473,13 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+V",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดศรีสะเกษ + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "ลาดบัวขาว",
@@ -439,7 +505,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภอกุฉินารายณ์ จั"
     },
     {
      "th": "ท่าลาด",
@@ -465,7 +534,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + lat as an element in place names",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "แม่ลาด",
@@ -491,7 +567,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + lat as an element in place names",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ใช้ประกอบชื่อสถานที่"
     }
    ],
    "extends": 1,
@@ -511,6 +594,8 @@
   "Attested in this corpus: 4 manuscript titles, 328 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['ขึ้น', 'ออก', 'ไป'].",
@@ -533,13 +618,16 @@
     "การ",
     "ลาด"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ปูแผ่ออกไป"
   },
   {
    "th": "ลาดเลา",
@@ -564,7 +652,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ปูแผ่ออกไป + ชื่อไม้ล้มลุกชนิด Saccharum sponta"
   },
   {
    "th": "ความลาด",
@@ -585,13 +676,17 @@
     "ความ",
     "ลาด"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "-ness + decline",
+   "lit_th": "เรื่อง + ปูแผ่ออกไป"
   },
   {
    "th": "เพสลาด",
@@ -616,7 +711,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ยี่สิบ + ปูแผ่ออกไป"
   },
   {
    "th": "ลาดตระเวน",
@@ -641,7 +738,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "ปูแผ่ออกไป + ไปทั่ว ๆ รอบบริเวณ"
   },
   {
    "th": "ลาดตระเวณ",
@@ -666,7 +766,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "ปูแผ่ออกไป + รูปสะกดผิดของ ตระเวน"
   },
   {
    "th": "ลาดพระที่",
@@ -690,7 +793,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ปูแผ่ออกไป + ที่นอน"
   }
  ],
  "etymology": {
@@ -708,5 +814,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "decline"
+ ]
 }

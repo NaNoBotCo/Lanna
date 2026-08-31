@@ -1,7 +1,7 @@
 {
  "id": "w:phai",
  "th": "ไผ่",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "phai",
  "paiboon": "pài",
  "ipa": "/pʰaj˨˩/",
@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "bamboo"
     ],
     "th": "ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวงศ์ Gramineae ขึ้นเป็นกอ ลำต้นเป็นปล้อง ๆ เช่น ไผ่จีน (Arundinaria suberecta Munro) ไผ่ป่า (Bambusa arundinacea Retz.) ไผ่สีสุก (B. flexuosa Munro และ B. blumeana Schult.) ไผ่ไร่ (Gigantochloa albociliata Munro) ไผ่ดำ (Phyllostachys nigra Munro)",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -58,7 +59,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + bamboo",
+     "lit_th": "ที่อยู่อาศัย + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "บางไผ่",
@@ -83,7 +92,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + bamboo",
+     "lit_th": "ทางน้ำเล็ก ๆ + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "วังไผ่",
@@ -108,7 +125,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + bamboo",
+     "lit_th": "ที่อยู่ของเจ้านาย + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "เมืองไผ่",
@@ -133,7 +158,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "town + bamboo",
+     "lit_th": "แดน + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "คลองไผ่",
@@ -158,7 +191,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "canal + bamboo",
+     "lit_th": "ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "ไผ่ล้อม",
@@ -183,7 +224,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "bamboo + gird",
+     "lit_th": "ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง + โอบเป็นวงโดยรอบ"
     },
     {
      "th": "ไผ่สีสุก",
@@ -207,7 +252,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง + ชื่อตำบลหนึ่งในอำเภอแก้งสนามนาง จั"
     },
     {
      "th": "ไผ่วง",
@@ -232,7 +280,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "bamboo + zone",
+     "lit_th": "ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง + รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม",
+     "frame": "entity"
     },
     {
      "th": "หนองไผ่",
@@ -257,7 +310,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + bamboo",
+     "lit_th": "แอ่งน้ำ + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "ห้วยไผ่",
@@ -282,7 +343,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ห้วย"
+     ],
+     "lit": "stream pool + bamboo",
+     "lit_th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขา + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "โค้งไผ่",
@@ -307,7 +376,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "bend + bamboo",
+     "lit_th": "น้อมลง + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง"
     },
     {
      "th": "มาบไผ่",
@@ -332,7 +405,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "บริเวณที่ลุ่มกว้างใหญ่ซึ่งอาจมีน้ำ + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "ป่าไผ่",
@@ -357,7 +434,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "forest + bamboo",
+     "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "หัวไผ่",
@@ -382,7 +467,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + bamboo",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     }
    ]
   },
@@ -408,7 +501,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A tambon named from its bamboo.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",

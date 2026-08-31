@@ -1,7 +1,7 @@
 {
  "id": "w:thue",
  "th": "ถือ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "thue",
  "paiboon": "tʉ̌ʉ",
  "ipa": "/tʰɯː˩˩˦/",
@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "hold"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "เอาไว้ในมือ, จับยึดไว้ เช่น ถือมีด ถือปืน ถือหนังสือ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -40,10 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "hold"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ทรงไว้, ดำรงไว้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -59,16 +59,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Holding a thing up: to maintain, to keep.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "hold"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "เอาไว้ในใจ เช่น ถือศีล ถือศักดินา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -109,18 +113,25 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เอาไว้ในใจ เช่น ถือศีล ถือศักดินา + ข้อบัญญัติทางพระพุทธศาสนาที่กำหนดก"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Holding in the mind rather than the hand — ถือศีล.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "hold"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ยึดเอาว่า, นับเอาว่า เช่น ถือเป็นญาติกัน ถือเราถือเขา ถือพวก ถือโทษ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -136,16 +147,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Holding a thing to be so: to reckon, to regard.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "hold"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "เชื่อมั่นว่าเป็นมงคลหรืออัปมงคล เช่น ถือไม่ให้ใครจับหัว ถือไม่ลอดใต้ถุน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -161,16 +176,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Holding a thing lucky or forbidden: the observances.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "hold"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "นับถือ เช่น ถือศาสนา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -213,7 +232,10 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "ถือเอาไว้ + นับถือ เช่น ถือศาสนา"
     },
     {
      "th": "นับถือ",
@@ -239,7 +261,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "count + hold",
+     "lit_th": "ตรวจหรือบอกให้รู้จำนวน + นับถือ เช่น ถือศาสนา"
     },
     {
      "th": "เชื่อถือ",
@@ -266,18 +292,26 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "believe + hold",
+     "lit_th": "เห็นตามด้วย + นับถือ เช่น ถือศาสนา"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Holding to a teaching: to profess a religion.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "hold"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "เช่า ในคำว่า ถือสวน, เช่าถือสวน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -293,7 +327,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Holding land on lease — ถือสวน.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -307,6 +345,8 @@
   "Attested in this corpus: 2 manuscript titles, 100 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['สวน', 'ดิน', 'นา'].",
@@ -334,7 +374,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "hold + bear",
+   "lit_th": "เอาไว้ในมือ + การเกิด"
   },
   {
    "th": "การนับถือ",
@@ -354,13 +398,17 @@
     "การนับ",
     "ถือ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "count + hold",
+   "lit_th": "คำอาการนามของ นับ + เอาไว้ในมือ"
   },
   {
    "th": "การถือ",
@@ -380,13 +428,16 @@
     "การ",
     "ถือ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + เอาไว้ในมือ"
   },
   {
    "th": "การยึดถือ",
@@ -406,13 +457,16 @@
     "การยึด",
     "ถือ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ยึด + เอาไว้ในมือ"
   },
   {
    "th": "การเชื่อถือ",
@@ -432,13 +486,16 @@
     "การเชื่อ",
     "ถือ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เชื่อ + เอาไว้ในมือ"
   },
   {
    "th": "ถือตัว",
@@ -465,7 +522,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "hold + form",
+   "lit_th": "เอาไว้ในมือ + รูป"
   },
   {
    "th": "ถือหาง",
@@ -490,7 +554,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "hold + tail",
+   "lit_th": "เอาไว้ในมือ + ส่วนที่ยื่นออกจากส่วนท้ายแห่งลำตัว"
   },
   {
    "th": "ความเชื่อถือ",
@@ -510,13 +578,17 @@
     "ความเชื่อ",
     "ถือ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "idea + hold",
+   "lit_th": "คำอาการนามของ เชื่อ + เอาไว้ในมือ"
   },
   {
    "th": "มือถือ",
@@ -541,7 +613,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "มือ"
+   ],
+   "lit": "hand + hold",
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา + เอาไว้ในมือ"
   },
   {
    "th": "ถือปูน",
@@ -566,7 +645,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เอาไว้ในมือ + หินปูนหรือเปลือกหอยเมื่อถูกเผาจนสล"
   },
   {
    "th": "ถือดี",
@@ -591,7 +673,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "ดี"
+   ],
+   "lit": "hold + good",
+   "lit_th": "เอาไว้ในมือ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ถือว่า",
@@ -616,7 +706,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "ว่า"
+   ],
+   "lit": "hold + to say",
+   "lit_th": "เอาไว้ในมือ + พูด"
   },
   {
    "th": "ถือสา",
@@ -641,7 +738,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เอาไว้ในมือ + หมา"
   }
  ],
  "etymology": {
@@ -659,5 +759,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "hold"
+ ]
 }

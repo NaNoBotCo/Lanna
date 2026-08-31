@@ -1,7 +1,7 @@
 {
  "id": "w:bun",
  "th": "บุญ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "bun",
  "paiboon": "bun",
  "ipa": "/bun˧/",
@@ -34,7 +34,11 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
-   ]
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "Merit stands for the happiness it brings.",
+   "via_conf": "probable"
   },
   {
    "n": 2,
@@ -58,17 +62,23 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Goodness done by the teaching's rule: making merit.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 3]"
+     "merit",
+     "goodness"
     ],
     "th": "ความดี, คุณงามความดี",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -82,6 +92,10 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: บุญ < Pali puñña — goodness itself, from which the happiness and the fruit both follow.",
+    "Declared root: บุญ < Pali puñña — goodness itself, from which the happiness and the fruit both follow."
    ]
   },
   {
@@ -106,7 +120,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "And the fruit carried over from former lives.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -156,7 +174,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ใบ"
+     ],
+     "lit": "leaf + merit",
+     "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + ช่วยเหลือเกื้อกูลผู้อื่น ในคำว่า ใ",
+     "frame": "entity"
     },
     {
      "th": "ใจบุญ",
@@ -181,9 +207,21 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "heart + merit",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ช่วยเหลือเกื้อกูลผู้อื่น ในคำว่า ใ",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "ใจบุญ — a disposition of merit: kind, giving.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -195,6 +233,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 2 manuscript titles, 129 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -219,13 +258,17 @@
     "การบอก",
     "บุญ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ บอก + ความสุข",
+   "frame": "entity"
   },
   {
    "th": "เดชะบุญ",
@@ -250,7 +293,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "อำนาจ + ความสุข",
+   "frame": "entity"
   },
   {
    "th": "กินบุญ",
@@ -275,7 +322,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "กิน"
+   ],
+   "lit": "eat + merit",
+   "lit_th": "เคี้ยว + ความสุข"
   },
   {
    "th": "คู่บุญ",
@@ -300,7 +354,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "คู่"
+   ],
+   "lit": "even + merit",
+   "lit_th": "จำนวนที่หารด้วย 2 ลงตัว + ความสุข",
+   "frame": "entity"
   },
   {
    "th": "หมดบุญ",
@@ -325,7 +387,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "all + merit",
+   "lit_th": "สิ้น + ความสุข"
   },
   {
    "th": "การกินบุญ",
@@ -345,13 +411,17 @@
     "การกิน",
     "บุญ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กิน + ความสุข",
+   "frame": "entity"
   },
   {
    "th": "บอกบุญ",
@@ -376,7 +446,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "tell + merit",
+   "lit_th": "ปล้องไม้ไผ่มีข้อขังข้างก้นสำหรับใส + ความสุข",
+   "frame": "entity"
   },
   {
    "th": "บุญเรือง",
@@ -396,13 +471,17 @@
     "บุญ",
     "เรือง"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ความสุข + มีแสงน้อย ๆ อย่างแมงคาเรืองหรือหิ่",
+   "frame": "quality"
   },
   {
    "th": "สิ้นบุญ",
@@ -427,7 +506,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "สิ้น"
+   ],
+   "lit": "to be exhausted + merit",
+   "lit_th": "หมด + ความสุข"
   },
   {
    "th": "นักบุญ",
@@ -452,7 +538,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ใช้ประกอบหน้าคำอื่นหมายความว่า ผู้ + ความสุข",
+   "frame": "entity"
   },
   {
    "th": "บุญมี",
@@ -472,13 +562,21 @@
     "บุญ",
     "มี"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "personal-name"
+   "use": "personal-name",
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "มี"
+   ],
+   "lit": "merit + have",
+   "lit_th": "ความสุข + รวย",
+   "frame": "quality"
   },
   {
    "th": "การทำบุญ",
@@ -498,13 +596,21 @@
     "การทำ",
     "บุญ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "การทำ"
+   ],
+   "lit": "doing + merit",
+   "lit_th": "คำอาการนามของ ทำ + ความสุข",
+   "frame": "entity"
   },
   {
    "th": "ทำบุญ",
@@ -529,7 +635,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ทำ"
+   ],
+   "lit": "do + merit",
+   "lit_th": "กระทำ + ความสุข"
   },
   {
    "th": "บุญธรรม",
@@ -554,7 +667,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ธรรม"
+   ],
+   "lit": "merit + dharma",
+   "lit_th": "ความสุข + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "บุญคุณ",
@@ -579,7 +700,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "คุณ"
+   ],
+   "lit": "merit + you",
+   "lit_th": "ความสุข + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค"
   },
   {
    "th": "อุ้มบุญ",
@@ -604,7 +731,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "โอบยกขึ้น + ความสุข"
   }
  ],
  "etymology": {

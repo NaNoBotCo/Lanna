@@ -1,7 +1,7 @@
 {
  "id": "w:ngoen",
  "th": "เงิน",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "ngoen",
  "paiboon": "ngən",
  "ipa": "/ŋɤn˧/",
@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "bread",
-     "money",
-     "bean",
-     "silver"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโลหะสีขาว เนื้อค่อนข้างอ่อน หลอมละลายที่ 960.8 องศาเซลเซียส",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -62,7 +59,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + เนื้อในของขนุนที่หุ้มเมล็ด เรียกว่",
+     "frame": "entity"
     }
    ]
   },
@@ -70,13 +71,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "bread",
-     "money",
-     "bean",
-     "silver"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "วัตถุที่ใช้วัดราคาในการซื้อขายแลกเปลี่ยนกัน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -92,19 +90,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The metal that prices were reckoned in becomes the reckoning itself.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "bread",
-     "money",
-     "bean",
-     "silver"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "วัตถุที่มีตราของรัฐ ใช้ชำระหนี้ได้ตามกฎหมาย ได้แก่ เหรียญกระษาปณ์และธนบัตร",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -146,21 +145,30 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตรา"
+     ],
+     "lit": "bread + seal",
+     "lit_th": "วัตถุที่มีตราของรัฐ ใช้ชำระหนี้ได้ + เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "What the state stamps and the law will accept.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "bread",
-     "money",
-     "bean",
-     "silver"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในการแลกเปลี่ยนหรือชำระหนี้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -203,7 +211,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "bread + month",
+     "frame": "entity"
     },
     {
      "th": "วงเงิน",
@@ -229,9 +241,18 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "zone + bread",
+     "lit_th": "รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม + วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "And any agreed medium of exchange.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -301,7 +322,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บัว"
+     ],
+     "lit": "lotus + ngoen as an element in place names",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "บ่อเงิน",
@@ -327,7 +356,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ่อ"
+     ],
+     "lit": "well + ngoen as an element in place names",
+     "lit_th": "ช่องลึกลงไปในดินหรือในหินใช้เป็นที + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "แม่เงิน",
@@ -353,7 +390,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + ngoen as an element in place names",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -373,6 +418,8 @@
   "Attested in this corpus: 4 manuscript titles, 947 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 34; domain seeded by keyword hits ['override'].",
@@ -395,13 +442,17 @@
     "การฟอก",
     "เงิน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ฟอก + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
   },
   {
    "th": "แตกเงิน",
@@ -426,7 +477,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "แตก"
+   ],
+   "lit": "fracture + bread",
+   "lit_th": "แยกออกจากส่วนรวม + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ"
   },
   {
    "th": "หมุนเงิน",
@@ -450,7 +508,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "follow + bread",
+   "lit_th": "หันเวียนไปในแนวโค้ง + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ"
   },
   {
    "th": "การเงิน",
@@ -477,7 +539,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
   },
   {
    "th": "จอเงิน",
@@ -502,7 +568,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อปีที่ 11 ของรอบปีนักษัตร มีหมา + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
   },
   {
    "th": "เงินดาวน์",
@@ -527,7 +597,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + จ่ายเงินจำนวนหนึ่งเพื่อให้ได้ทรัพย"
   },
   {
    "th": "เงินเฟ้อ",
@@ -553,7 +626,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + ฟุ้ง"
   },
   {
    "th": "การแตกเงิน",
@@ -573,13 +649,18 @@
     "การแตก",
     "เงิน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "fracture + bread",
+   "lit_th": "คำอาการนามของ แตก + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
   },
   {
    "th": "นายเงิน",
@@ -604,7 +685,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "นาย"
+   ],
+   "lit": "baboo + bread",
+   "lit_th": "คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15 + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
   },
   {
    "th": "เงินก้นถุง",
@@ -629,7 +718,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + เงินจำนวนหนึ่งที่ผู้ใหญ่มอบให้ในงา",
+   "frame": "entity"
   },
   {
    "th": "เงินทอน",
@@ -654,7 +747,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + ตัดหรือหั่นให้เป็นท่อน"
   },
   {
    "th": "เกลือเงิน",
@@ -679,7 +775,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เกลือ"
+   ],
+   "lit": "light + bread",
+   "lit_th": "วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็ + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
   },
   {
    "th": "เงินปลีก",
@@ -704,7 +808,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + แยกหรือหลีกออกจากหมู่จากพวกไป"
   },
   {
    "th": "เงินผ่อน",
@@ -729,7 +836,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + ทำให้หย่อนหรือคลายความตึง"
   },
   {
    "th": "เงินสด",
@@ -755,7 +865,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "bread + fresh",
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + ใหม่ ใช้แก่ลักษณะของสิ่งต่าง ๆ ที่",
+   "frame": "quality"
   },
   {
    "th": "เหรียญเงิน",
@@ -780,7 +895,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "coin + bread",
+   "lit_th": "โลหะที่มีลักษณะกลมแบนหรือรูปเหลี่ย + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
   },
   {
    "th": "เงินแห้ง",
@@ -800,13 +920,21 @@
     "เงิน",
     "แห้ง"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "แห้ง"
+   ],
+   "lit": "bread + dry",
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + ไม่มีน้ำ",
+   "frame": "quality"
   },
   {
    "th": "เงินเปลว",
@@ -831,7 +959,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + เรียกไฟที่ลุกแลบออกมาหรือพวยพุ่งขึ",
+   "frame": "entity"
   },
   {
    "th": "เครื่องเงิน",
@@ -856,7 +988,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เครื่อง"
+   ],
+   "lit": "device + bread",
+   "lit_th": "สิ่ง + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
   },
   {
    "th": "เงินเชื่อ",
@@ -881,7 +1021,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "bread + believe",
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + เห็นตามด้วย"
   },
   {
    "th": "เงินฝืด",
@@ -906,7 +1050,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + เคลื่อนไหวไม่สะดวกไม่คล่องเพราะแรง",
+   "frame": "quality"
   },
   {
    "th": "เงินแป",
@@ -930,7 +1078,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + ส่วนหนึ่งของโครงสร้างหลังคา วางอยู",
+   "frame": "entity"
   },
   {
    "th": "ฟอกเงิน",
@@ -955,7 +1107,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "bleach + bread",
+   "lit_th": "ทำให้สะอาดหมดจด + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ"
   },
   {
    "th": "ตลาดเงิน",
@@ -980,7 +1136,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ตลาด"
+   ],
+   "lit": "market + bread",
+   "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
   },
   {
    "th": "เงินกู้",
@@ -1006,7 +1170,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "bread + restore",
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + ยืมเงินโดยให้ดอกเบี้ย"
   },
   {
    "th": "หน้าเงิน",
@@ -1031,7 +1199,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "before + bread",
+   "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
   },
   {
    "th": "น้ำเงิน",
@@ -1056,7 +1232,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "water + bread",
+   "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -1074,5 +1258,11 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "bread",
+  "money",
+  "bean",
+  "silver"
+ ]
 }

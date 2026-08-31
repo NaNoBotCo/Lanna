@@ -1,7 +1,7 @@
 {
  "id": "w:ot",
  "th": "อด",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "ot",
  "paiboon": "òt",
  "ipa": "/ʔot̚˨˩/",
@@ -13,11 +13,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "to restrain",
+     "to hold back"
     ],
     "th": "กลั้น",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -30,7 +32,8 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: อด 'to restrain, to hold back'."
    ]
   },
   {
@@ -78,9 +81,17 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "to restrain + aid",
+     "lit_th": "งดเว้น + ของกิน"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Restraint narrowed to going without.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -101,7 +112,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Held back from what one wanted: to miss out.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -148,9 +163,17 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "to restrain + would",
+     "lit_th": "ไม่มีอะไรกิน + ปรารถนา"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Going without food.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -171,7 +194,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "And holding out under it: to endure.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -192,6 +219,9 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: an abbreviation of อุดรธานี."
    ]
   }
  ],
@@ -204,6 +234,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 40 manuscript titles, 916 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -233,7 +264,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+PRON",
+   "head": 0,
+   "lit_th": "กลั้น + พวกคุณ"
   },
   {
    "th": "พรอด",
@@ -258,7 +292,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำแสดงความปรารถนาให้ประสบสิ่งที่เป + กลั้น"
   },
   {
    "th": "กรอด",
@@ -283,7 +320,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ผู้ทำ + กลั้น"
   },
   {
    "th": "ออมอด",
@@ -308,7 +348,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "เก็บหอมรอมริบ + กลั้น",
+   "flips_with": "อดออม"
   },
   {
    "th": "ศีลอด",
@@ -333,7 +377,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ข้อบัญญัติทางพระพุทธศาสนาที่กำหนดก + กลั้น"
   },
   {
    "th": "การกอด",
@@ -353,13 +400,16 @@
     "การก",
     "อด"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ผู้กระทำ + กลั้น"
   },
   {
    "th": "หยอด",
@@ -384,7 +434,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ม้า + กลั้น"
   },
   {
    "th": "การออมอด",
@@ -404,13 +457,16 @@
     "การออม",
     "อด"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ออม + กลั้น"
   },
   {
    "th": "อดทน",
@@ -438,7 +494,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to restrain + abide",
+   "lit_th": "กลั้น + อดกลั้นได้"
   },
   {
    "th": "อดออม",
@@ -463,7 +523,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กลั้น + เก็บหอมรอมริบ",
+   "flips_with": "ออมอด"
   },
   {
    "th": "อดกลั้น",
@@ -491,7 +555,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กลั้น + บังคับความรู้สึกหรือสิ่งที่อยู่ภาย"
   },
   {
    "th": "คลอด",
@@ -517,7 +584,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คอ + กลั้น"
   },
   {
    "th": "การอด",
@@ -537,13 +607,19 @@
     "การ",
     "อด"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กา"
+   ],
+   "lit_th": "งาน + กลั้น"
   },
   {
    "th": "เทอด",
@@ -568,7 +644,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "pour + to restrain",
+   "lit_th": "ตะแคงหรือเอียงภาชนะเพื่อให้สิ่งที่ + กลั้น"
   },
   {
    "th": "พลอด",
@@ -593,7 +673,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "พล"
+   ],
+   "lit": "strength + to restrain",
+   "lit_th": "กำลัง + กลั้น"
   }
  ],
  "etymology": {

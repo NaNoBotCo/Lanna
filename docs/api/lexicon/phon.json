@@ -1,7 +1,7 @@
 {
  "id": "w:phon",
  "th": "พล",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "phon",
  "paiboon": "pon",
  "ipa": "/pʰon˧/",
@@ -13,11 +13,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "strength",
+     "force"
     ],
     "th": "กำลัง, มักใช้ประกอบคำอื่น",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -33,7 +35,13 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: พล < Pali/Skt bala 'strength'.",
+    "Declared root: พล < Pali/Skt bala 'strength'.",
+    "Declared root: พล < Pali/Skt bala 'strength'.",
+    "Declared root: พล < Pali/Skt bala 'strength'.",
+    "Declared root: พล < Pali/Skt bala 'strength'.",
+    "Declared root: พล < Pali/Skt bala 'strength'."
    ],
    "compounds": [
     {
@@ -60,7 +68,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "strength + learn",
+     "lit_th": "กำลัง + การเล่าเรียน การฝึกฝน และการอบรม",
+     "frame": "entity"
     }
    ]
   },
@@ -112,7 +125,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "พลเมือง + ทหาร",
+     "frame": "entity"
     },
     {
      "th": "พลเรือน",
@@ -138,7 +155,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือน"
+     ],
+     "lit": "strength + house",
+     "lit_th": "ทหาร + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
     },
     {
      "th": "กองพล",
@@ -162,9 +187,20 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กอง"
+     ],
+     "lit": "desk + strength",
+     "lit_th": "ทำให้รวมสุมกันไว้ + ทหาร"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Strength stands for the men who carry it: troops.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -188,7 +224,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "The rank and file, and so, ordinary, common.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -238,7 +278,13 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "strength + one",
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + หนึ่ง"
     },
     {
      "th": "พลเรือเอก",
@@ -265,7 +311,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + ยศทหารชั้นสัญญาบัตรของกองทัพเรือ ส",
+     "frame": "entity"
     },
     {
      "th": "พลตรี",
@@ -292,7 +342,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตรี"
+     ],
+     "lit": "strength + fish",
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + ปลา",
+     "frame": "entity"
     },
     {
      "th": "พลเรือโท",
@@ -318,7 +376,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + ยศทหารชั้นสัญญาบัตรของกองทัพเรือ ส",
+     "frame": "entity"
     },
     {
      "th": "พลโท",
@@ -344,7 +406,13 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "cross_listed": [
+      "โท"
+     ],
+     "lit": "strength + two",
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + สอง"
     },
     {
      "th": "จอมพล",
@@ -369,7 +437,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ยอดที่สูงสุดของสิ่งที่มีฐานใหญ่ปลา + ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล",
+     "frame": "entity"
     },
     {
      "th": "พลจัตวา",
@@ -395,7 +467,9 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + สี่"
     },
     {
      "th": "พลเรือตรี",
@@ -421,9 +495,17 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + ยศทหารชั้นสัญญาบัตรของกองทัพเรือ ส",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "The general officers — พลเอก, พลโท, พลตรี.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -472,7 +554,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดขอนแก่น + แห้ง"
     },
     {
      "th": "พลสงคราม",
@@ -497,7 +582,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "strength + war",
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดขอนแก่น + การรบใหญ่ที่มีคนจำนวนมากต่อสู้ฆ่าฟ",
+     "frame": "entity"
     },
     {
      "th": "เมืองพล",
@@ -522,8 +612,25 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "town + strength",
+     "lit_th": "แดน + ชื่ออำเภอหนึ่งในจังหวัดขอนแก่น",
+     "flips_with": "พลเมือง",
+     "frame": "entity"
     }
+   ],
+   "needs_check": [
+    "Declared root: อำเภอพล in Khon Kaen — a place name.",
+    "Declared root: อำเภอพล in Khon Kaen — a place name.",
+    "Declared root: อำเภอพล in Khon Kaen — a place name.",
+    "Declared root: อำเภอพล in Khon Kaen — a place name.",
+    "Declared root: อำเภอพล in Khon Kaen — a place name.",
+    "Declared root: อำเภอพล in Khon Kaen — a place name."
    ]
   },
   {
@@ -548,6 +655,14 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: an abbreviation of พิษณุโลก — not a sense.",
+    "Declared root: an abbreviation of พิษณุโลก — not a sense.",
+    "Declared root: an abbreviation of พิษณุโลก — not a sense.",
+    "Declared root: an abbreviation of พิษณุโลก — not a sense.",
+    "Declared root: an abbreviation of พิษณุโลก — not a sense.",
+    "Declared root: an abbreviation of พิษณุโลก — not a sense."
    ]
   }
  ],
@@ -560,6 +675,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 83 manuscript titles, 392 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -584,13 +700,17 @@
     "การชุม",
     "พล"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ชุม + กำลัง",
+   "frame": "entity"
   },
   {
    "th": "ทุรพล",
@@ -610,12 +730,17 @@
     "ทุร",
     "พล"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ชั่ว + กำลัง",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "อิทธิพล",
@@ -641,7 +766,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ฤทธิ์ + กำลัง",
+   "frame": "entity"
   },
   {
    "th": "พลวง",
@@ -666,7 +795,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "strength + zone",
+   "lit_th": "กำลัง + รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม",
+   "frame": "entity"
   },
   {
    "th": "พลอย",
@@ -691,7 +825,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "กำลัง + เหล็ก",
+   "frame": "entity"
   },
   {
    "th": "พลการ",
@@ -716,7 +854,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "กำลัง + งาน",
+   "frame": "entity"
   },
   {
    "th": "พลเมือง",
@@ -743,7 +885,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เมือง"
+   ],
+   "lit": "strength + town",
+   "lit_th": "กำลัง + แดน",
+   "flips_with": "เมืองพล",
+   "frame": "entity"
   },
   {
    "th": "พลตำรวจ",
@@ -768,7 +919,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "strength + copper",
+   "lit_th": "กำลัง + เจ้าหน้าที่ของรัฐ ซึ่งมีหน้าที่ตรว",
+   "frame": "entity"
   },
   {
    "th": "พลทหาร",
@@ -793,7 +949,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "strength + soldier",
+   "lit_th": "กำลัง + ผู้มีหน้าที่ในเรื่องรบ",
+   "frame": "entity"
   },
   {
    "th": "ชุมพล",
@@ -818,7 +979,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ชุม"
+   ],
+   "lit": "abound + strength",
+   "lit_th": "มารวมกัน + กำลัง"
   },
   {
    "th": "พลอด",
@@ -843,7 +1011,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "อด"
+   ],
+   "lit": "strength + to restrain",
+   "lit_th": "กำลัง + กลั้น"
   },
   {
    "th": "ขุนพล",
@@ -868,7 +1043,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้เป็นใหญ่ + กำลัง",
+   "frame": "entity"
   }
  ],
  "etymology": {

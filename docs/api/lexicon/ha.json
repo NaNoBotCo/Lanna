@@ -1,7 +1,7 @@
 {
  "id": "w:ha",
  "th": "หา",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "ha",
  "paiboon": "hǎa",
  "ipa": "/haː˩˩˦/",
@@ -12,11 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "find",
-     "look"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "มุ่งพบ, พบ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -34,18 +33,25 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: หา 'to seek, to go to meet'.",
+    "Declared root: หา 'to seek, to go to meet'.",
+    "Declared root: หา 'to seek, to go to meet'.",
+    "Declared root: หา 'to seek, to go to meet'.",
+    "Declared root: หา 'to seek, to go to meet'.",
+    "Declared root: หา 'to seek, to go to meet'.",
+    "Declared root: หา 'to seek, to go to meet'.",
+    "Declared root: หา 'to seek, to go to meet'."
    ]
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "find",
-     "look"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "เยี่ยม, เยี่ยมเยียน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -61,17 +67,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Going to meet someone: to visit.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "find",
-     "look"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ฟ้อง, กล่าวโทษ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -113,7 +122,10 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "ถูก + ฟ้อง"
     },
     {
      "th": "กล่าวหา",
@@ -140,7 +152,10 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "บอก + ฟ้อง"
     },
     {
      "th": "หาความ",
@@ -166,7 +181,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "find + -ness",
+     "lit_th": "ฟ้อง + เรื่อง"
     },
     {
      "th": "ข้อหา",
@@ -193,19 +212,25 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร + ฟ้อง"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Seeking someone out to charge them: to accuse.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "find",
-     "look"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "พึ่ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -221,17 +246,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Going to someone for help: to resort to.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "find",
-     "look"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "บางทีก็ใช้ควบกับคำอื่น มีความหมายว่า ขวนขวายเพื่อให้ได้มาโดยวิธีต่าง ๆ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -273,7 +301,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "เที่ยวหา + บางทีก็ใช้ควบกับคำอื่น มีความหมายว"
     },
     {
      "th": "หาเสียง",
@@ -299,7 +330,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "เสียง"
+     ],
+     "lit": "find + voice",
+     "lit_th": "บางทีก็ใช้ควบกับคำอื่น มีความหมายว + สิ่งที่รับรู้ได้ด้วยหู"
     },
     {
      "th": "ค้นหา",
@@ -327,19 +365,26 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "look + find",
+     "lit_th": "พยายามหาให้พบโดยวิธีสืบ เสาะ แสวง + บางทีก็ใช้ควบกับคำอื่น มีความหมายว"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Paired with other verbs: to strive after, to get by some means.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "find",
-     "look"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ที่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -355,17 +400,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Bleached toward a preposition: at, to.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "find",
-     "look"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "สู่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -381,17 +429,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 6,
+   "via": "generalisation",
+   "via_note": "And toward.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
    "gloss": {
     "en": [
-     "find",
-     "look"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "เสียงซักหรือเตือนให้ตอบ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -407,6 +458,16 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: หา as a questioning or prompting particle — a different morpheme.",
+    "Declared root: หา as a questioning or prompting particle — a different morpheme.",
+    "Declared root: หา as a questioning or prompting particle — a different morpheme.",
+    "Declared root: หา as a questioning or prompting particle — a different morpheme.",
+    "Declared root: หา as a questioning or prompting particle — a different morpheme.",
+    "Declared root: หา as a questioning or prompting particle — a different morpheme.",
+    "Declared root: หา as a questioning or prompting particle — a different morpheme.",
+    "Declared root: หา as a questioning or prompting particle — a different morpheme."
    ]
   }
  ],
@@ -421,6 +482,8 @@
   "Attested in this corpus: 1135 manuscript titles, 1925 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 27; domain seeded by keyword hits ['ตอบ', 'เสียง', 'คำ'].",
@@ -449,7 +512,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "เนื้อ"
+   ],
+   "lit": "flesh + find",
+   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + มุ่งพบ"
   },
   {
    "th": "หากว่า",
@@ -475,7 +545,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "ว่า"
+   ],
+   "lit_th": "มุ่งพบ + เกิน",
+   "frame": "quality"
   },
   {
    "th": "การกล่าวหา",
@@ -495,13 +572,16 @@
     "การกล่าว",
     "หา"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กล่าว + มุ่งพบ"
   },
   {
    "th": "คบหา",
@@ -527,7 +607,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ง่ามต้นไม้ที่กิ่งใหญ่กับลำต้นแยกกั + มุ่งพบ"
   },
   {
    "th": "การคบหา",
@@ -547,13 +630,16 @@
     "การคบ",
     "หา"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ คบ + มุ่งพบ"
   },
   {
    "th": "การจัดหา",
@@ -573,13 +659,16 @@
     "การจัด",
     "หา"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ จัด + มุ่งพบ"
   },
   {
    "th": "หาสก",
@@ -599,12 +688,17 @@
     "หา",
     "สก"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit_th": "มุ่งพบ + ของตน",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "การแสวงหา",
@@ -624,13 +718,16 @@
     "การแสวง",
     "หา"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แสวง + มุ่งพบ"
   },
   {
    "th": "คูหา",
@@ -650,12 +747,16 @@
     "คู",
     "หา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ร่องน้ำที่ขุดขึ้นเพื่อชักน้ำหรือเก + มุ่งพบ",
+   "use": "false-split"
   },
   {
    "th": "หาเรื่อง",
@@ -680,7 +781,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "find + animal",
+   "lit_th": "มุ่งพบ + ภาวะหรือเนื้อหาของสิ่งซึ่งเนื่องกั"
   },
   {
    "th": "หามิได้",
@@ -704,7 +809,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "มุ่งพบ + เปล่า"
   },
   {
    "th": "พาหา",
@@ -724,12 +831,16 @@
     "พา",
     "หา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "นำไปหรือนำมา + มุ่งพบ",
+   "use": "false-split"
   },
   {
    "th": "การค้นหา",
@@ -750,13 +861,16 @@
     "การค้น",
     "หา"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ค้น + มุ่งพบ"
   },
   {
    "th": "การหา",
@@ -776,13 +890,16 @@
     "การ",
     "หา"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + มุ่งพบ"
   },
   {
    "th": "หาฤๅ",
@@ -807,7 +924,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "มุ่งพบ + รูปสระในภาษาสันสกฤต ซึ่งเป็นเสียงย"
   },
   {
    "th": "สรรหา",
@@ -832,7 +951,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "seed + find",
+   "lit_th": "เลือก + มุ่งพบ"
   },
   {
    "th": "หากิน",
@@ -857,7 +980,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "กิน"
+   ],
+   "lit": "find + eat",
+   "lit_th": "มุ่งพบ + เคี้ยว"
   },
   {
    "th": "จัดหา",
@@ -882,7 +1012,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "จัด"
+   ],
+   "lit": "arrange + find",
+   "lit_th": "ยิ่ง + มุ่งพบ"
   },
   {
    "th": "สิงหา",
@@ -907,7 +1043,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "อยู่ + มุ่งพบ"
   },
   {
    "th": "หาไม่",
@@ -932,7 +1071,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit": "find + no",
+   "lit_th": "มุ่งพบ + มิ"
   }
  ],
  "etymology": {
@@ -950,5 +1092,9 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "find",
+  "look"
+ ]
 }

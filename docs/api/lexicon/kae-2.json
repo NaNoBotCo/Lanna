@@ -1,7 +1,7 @@
 {
  "id": "w:kae-2",
  "th": "แก",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "kae",
  "paiboon": "gɛɛ",
  "ipa": "/kɛː˧/",
@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "house crow"
     ],
     "th": "ชื่อนกชนิด Corvus splendens ในวงศ์ Corvidae รูปร่างคล้ายกา แต่ตัวและปากเล็กกว่า ด้านหลังท้ายทอยสีเทา",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +33,11 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: แก, the house crow.",
+    "Declared root: แก, the house crow.",
+    "Declared root: แก, the house crow.",
+    "Declared root: แก, the house crow."
    ],
    "compounds": [
     {
@@ -58,7 +63,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + house crow",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ชื่อนกชนิด Corvus splendens ในวงศ์",
+     "frame": "entity"
     },
     {
      "th": "แกแล",
@@ -83,7 +96,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + ดู"
     },
     {
      "th": "ห้วยแก",
@@ -108,7 +124,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ห้วย"
+     ],
+     "lit": "stream pool + house crow",
+     "lit_th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขา + ชื่อนกชนิด Corvus splendens ในวงศ์",
+     "frame": "entity"
     },
     {
      "th": "แกดำ",
@@ -133,32 +157,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
-    },
-    {
-     "th": "แกลง",
-     "rtgs": "klaeng",
-     "ipa": "/klɛːŋ˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "ชื่ออำเภอหนึ่งในจังหวัดระยอง",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "แก",
-      "ลง"
      ],
-     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
-     "conf": "verified",
-     "src": [
-      "RID",
-      "WIKT"
-     ]
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ดำ"
+     ],
+     "lit": "house crow + black",
+     "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + มุดลง ในคำว่า ดำน้ำ"
     }
    ]
   },
@@ -184,6 +190,12 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: แก, the familiar pronoun.",
+    "Declared root: แก, the familiar pronoun.",
+    "Declared root: แก, the familiar pronoun.",
+    "Declared root: แก, the familiar pronoun."
    ]
   },
   {
@@ -208,7 +220,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "The familiar second person loosened to a third.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -247,7 +263,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + อังไฟเพื่อให้ร้อนแต่ผิว ๆ หรือให้อ"
   },
   {
    "th": "แกรด",
@@ -272,7 +291,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + เท ราด สาด ฉีด หรือโปรยน้ำหรือของเ"
   },
   {
    "th": "แกลบ",
@@ -298,7 +320,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "house crow + remove",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + ทำให้หายไปด้วยอาการเช็ดหรือถู"
   },
   {
    "th": "แกล้ม",
@@ -323,7 +349,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "house crow + fall",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + กิริยาที่ตั้งอยู่แล้วเอนลงหรือทอดล"
   },
   {
    "th": "แกละ",
@@ -348,7 +378,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ละ"
+   ],
+   "lit": "house crow + to leave",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง"
   },
   {
    "th": "แกนะ",
@@ -373,7 +410,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "นะ"
+   ],
+   "lit": "house crow + the sentence particle na",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง"
   },
   {
    "th": "แกรก",
@@ -398,7 +441,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + ที่กระจัดกระจายอยู่เกลื่อนกลาดไม่เ",
+   "frame": "quality"
   },
   {
    "th": "รังแก",
@@ -424,7 +471,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "รัง"
+   ],
+   "lit": "nest + house crow",
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + ชื่อนกชนิด Corvus splendens ในวงศ์",
+   "frame": "entity"
   },
   {
    "th": "แกระ",
@@ -449,7 +504,43 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + กระทบเรียดไป"
+  },
+  {
+   "th": "แกลง",
+   "rtgs": "klaeng",
+   "ipa": "/klɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดระยอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก",
+    "ลง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ลง"
+   ],
+   "lit": "house crow + drop",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "use": "false-split"
   }
  ],
  "edges": [

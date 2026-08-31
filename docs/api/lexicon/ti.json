@@ -1,7 +1,7 @@
 {
  "id": "w:ti",
  "th": "ตี",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "ti",
  "paiboon": "dtii",
  "ipa": "/tiː˧/",
@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "hit",
-     "bean",
-     "beat",
-     "smack"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไป",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -43,13 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "hit",
-     "bean",
-     "beat",
-     "smack"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ตบเบา ๆ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -65,19 +59,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Striking lightly: to pat.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "hit",
-     "bean",
-     "beat",
-     "smack"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "บุให้เข้ารูป",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -93,19 +88,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Striking to shape: to beat metal.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "hit",
-     "bean",
-     "beat",
-     "smack"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "แผ่ให้แบน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -121,19 +117,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "And to beat flat.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "hit",
-     "bean",
-     "beat",
-     "smack"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ทำให้เกิดเสียง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -149,19 +146,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Striking names the sound it makes.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "hit",
-     "bean",
-     "beat",
-     "smack"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "กด, ประทับ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -203,21 +201,29 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "พิมพ์"
+     ],
+     "lit": "hit + print",
+     "lit_th": "กด + รูป"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Bringing down to press: to stamp.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "hit",
-     "bean",
-     "beat",
-     "smack"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ทำให้เข้ากัน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -233,19 +239,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Beating things together until they combine.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
    "gloss": {
     "en": [
-     "hit",
-     "bean",
-     "beat",
-     "smack"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "กำหนด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -261,19 +268,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Setting a figure down hard — ตีราคา, to price.",
+   "via_conf": "probable"
   },
   {
    "n": 9,
    "gloss": {
     "en": [
-     "hit",
-     "bean",
-     "beat",
-     "smack"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "ทิ้งให้เห็น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -289,19 +297,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Putting a thing out to be seen.",
+   "via_conf": "probable"
   },
   {
    "n": 10,
    "gloss": {
     "en": [
-     "hit",
-     "bean",
-     "beat",
-     "smack"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "ชักว่าวให้ไปในทิศทางที่ตนต้องการ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -317,19 +326,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Working a kite across the wind.",
+   "via_conf": "probable"
   },
   {
    "n": 11,
    "gloss": {
     "en": [
-     "hit",
-     "bean",
-     "beat",
-     "smack"
+     "[RID sense 11 — no English yet]"
     ],
     "th": "วิธีนับเวลาในเวลากลางคืน หลังเที่ยงคืน ตั้งแต่ 1 นาฬิกา ถึง 6 นาฬิกา เรียกว่า ตี 1 ถึง ตี 6, แต่ตี 6 นิยมเรียกว่า ย่ำรุ่ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -345,7 +355,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 5,
+   "via": "metonymy",
+   "via_note": "The small hours counted by the strokes that mark them — ตีหนึ่ง, ตีสอง.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -359,6 +373,8 @@
   "Attested in this corpus: 58 manuscript titles, 66 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['กลางคืน', 'เวลา'].",
@@ -384,13 +400,16 @@
     "การโจม",
     "ตี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ โจม + เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ"
   },
   {
    "th": "ตีหน้า",
@@ -415,7 +434,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "hit + before",
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
   },
   {
    "th": "ตีความ",
@@ -441,7 +467,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "hit + -ness",
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + เรื่อง"
   },
   {
    "th": "ตีวง",
@@ -466,7 +496,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "hit + zone",
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม"
   },
   {
    "th": "มาลาตี",
@@ -486,12 +520,17 @@
     "มาลา",
     "ตี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "mood + hit",
+   "lit_th": "ดอกไม้ + เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ",
+   "use": "false-split"
   },
   {
    "th": "ตีเกลียว",
@@ -516,7 +555,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + สิ่งที่มีลักษณะเป็นรอยพันหรือบิดโด"
   },
   {
    "th": "โจมตี",
@@ -544,7 +586,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "สิ่งที่ตามปรกติมียอดเป็นลอมอย่างซุ + เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ"
   },
   {
    "th": "ขันตี",
@@ -564,12 +609,20 @@
     "ขัน",
     "ตี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ขัน"
+   ],
+   "lit": "bowl + hit",
+   "lit_th": "ภาชนะสำหรับตักหรือใส่น้ำ มีหลายชนิ + เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ",
+   "use": "false-split"
   },
   {
    "th": "ตีกรรเชียง",
@@ -594,7 +647,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + เครื่องพุ้ยน้ำให้เรือเคลื่อนไป รูป"
   },
   {
    "th": "ตีสนิท",
@@ -620,7 +676,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + อย่างใกล้ชิด",
+   "frame": "quality"
   },
   {
    "th": "ตีกิน",
@@ -645,7 +705,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "กิน"
+   ],
+   "lit": "hit + eat",
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + เคี้ยว"
   },
   {
    "th": "การตี",
@@ -668,13 +735,16 @@
     "การ",
     "ตี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ"
   },
   {
    "th": "ตีโต้",
@@ -699,7 +769,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + ชื่อมีดชนิดหนึ่ง สันหนา หัวโต"
   },
   {
    "th": "ตีแผ่",
@@ -724,7 +797,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "hit + suffuse",
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + คลี่ขยายกระจายออกไปให้มีลักษณะแบนร"
   },
   {
    "th": "ตีขนาบ",
@@ -749,7 +826,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + ประกบเข้าให้แน่น"
   },
   {
    "th": "ตีลังกา",
@@ -774,7 +854,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+PROP",
+   "head": 0,
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + ชื่อเกาะอันเป็นที่ตั้งของประเทศศรี"
   },
   {
    "th": "ตีกลับ",
@@ -799,7 +882,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "กลับ"
+   ],
+   "lit": "hit + back",
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ"
   },
   {
    "th": "ตีรวน",
@@ -824,7 +914,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + เอาเนื้อสดหรือปลาสดเป็นต้นที่หั่นเ"
   },
   {
    "th": "ทุบตี",
@@ -849,7 +942,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "hammer + hit",
+   "lit_th": "ใช้ของแข็งเช่นค้อนหรือสิ่งที่มีลัก + เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ"
   }
  ],
  "etymology": {
@@ -880,5 +977,11 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "hit",
+  "bean",
+  "beat",
+  "smack"
  ]
 }

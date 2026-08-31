@@ -1,7 +1,7 @@
 {
  "id": "w:ruean",
  "th": "เรือน",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "ruean",
  "paiboon": "rʉʉan",
  "ipa": "/rɯa̯n˧/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "house",
+     "dwelling"
     ],
     "th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มีหลังคาคลุม สำหรับเป็นที่อยู่, ที่อยู่",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -59,7 +61,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "house + hall",
+     "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + เรือนหรืออาคารซึ่งใช้เฉพาะกิจการอย",
+     "frame": "entity"
     }
    ]
   },
@@ -85,7 +92,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The house as a figure: the shape a thing carries.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -109,7 +120,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The setting that houses a gem.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -159,9 +174,16 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "An order of magnitude — เรือนแสน, เรือนล้าน.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -210,9 +232,19 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "cross_listed": [
+      "สาม"
+     ],
+     "lit": "three + house",
+     "lit_th": "จำนวนสองบวกหนึ่ง + ชื่อหนึ่งของดาวฤกษ์อาศเลษา มี 5 ดว"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "ดาวเรือน, the lunar mansion seen as a house.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -236,7 +268,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "And the classifier for clocks, each in its case.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -248,6 +284,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 6 manuscript titles, 459 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -277,7 +314,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "หลวง"
+   ],
+   "lit": "house + royal",
+   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "เรือนแพ",
@@ -303,7 +348,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "house + raft",
+   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ไม้ไผ่หรือซุงเป็นต้นที่ผูกมัดเรียง",
+   "frame": "entity"
   },
   {
    "th": "แม่เรือน",
@@ -328,7 +378,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แม่"
+   ],
+   "lit": "mother + house",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+   "frame": "entity"
   },
   {
    "th": "ครัวเรือน",
@@ -353,7 +411,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "kitchen + house",
+   "lit_th": "โรง เรือน หรือห้องสำหรับทำกับข้าวข + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+   "frame": "entity"
   },
   {
    "th": "เครื่องเรือน",
@@ -379,7 +442,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เครื่อง"
+   ],
+   "lit": "device + house",
+   "lit_th": "สิ่ง + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+   "frame": "entity"
   },
   {
    "th": "ผีเรือน",
@@ -404,7 +475,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ผี"
+   ],
+   "lit": "spirit + house",
+   "lit_th": "สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+   "frame": "entity"
   },
   {
    "th": "เรือนไฟ",
@@ -429,7 +508,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ไฟ"
+   ],
+   "lit": "house + fire",
+   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "บ้านเรือน",
@@ -454,7 +541,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "บ้าน"
+   ],
+   "lit": "home + house",
+   "lit_th": "ที่อยู่อาศัย + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+   "frame": "entity"
   },
   {
    "th": "การเรือน",
@@ -479,7 +574,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+   "frame": "entity"
   },
   {
    "th": "พลเรือน",
@@ -504,7 +603,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "พล"
+   ],
+   "lit": "strength + house",
+   "lit_th": "กำลัง + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+   "frame": "entity"
   },
   {
    "th": "เรือนตะเกียง",
@@ -529,7 +636,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "house + lamp",
+   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + เครื่องใช้สำหรับตามไฟ มีไส้ซึ่งหล่",
+   "frame": "entity"
   },
   {
    "th": "เรือนจำ",
@@ -555,7 +667,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "house + remember",
+   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + กำหนดไว้ในใจ"
   },
   {
    "th": "เรือนลูกอ่อน",
@@ -579,7 +695,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ลูกเล็ก ๆ ที่ยังไม่หย่านม",
+   "frame": "entity"
   },
   {
    "th": "เรือนฝากระดาน",
@@ -599,13 +719,17 @@
     "เรือน",
     "ฝากระดาน"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + เรียกเรือนไทยแบบเก่าที่สร้างด้วยไม",
+   "frame": "entity"
   }
  ],
  "etymology": {

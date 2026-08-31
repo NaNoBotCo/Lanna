@@ -1,7 +1,7 @@
 {
  "id": "w:cha-2",
  "th": "ชะ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "cha",
  "paiboon": "chá",
  "ipa": "/t͡ɕʰaʔ˦˥/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "to rinse",
+     "to wash off"
     ],
     "th": "ล้างหรือทำให้สิ่งที่ติดอยู่หลุดออกไปด้วยน้ำ ในลักษณะและอาการอย่างชะแผล",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +34,8 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ชะ 'to rinse'."
    ]
   },
   {
@@ -57,7 +60,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Rinsing widened to washing by water or rain.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -107,7 +114,10 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "INTJ+V",
+     "head": 1,
+     "lit_th": "คำที่เปล่งออกมาเมื่อรู้สึกโกรธหรือ + คำที่เปล่งออกมาเมื่อโกรธหรือ ไม่พอ"
     },
     {
      "th": "ชะช้า",
@@ -132,8 +142,17 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "cross_listed": [
+      "ช้า"
+     ],
+     "lit": "to rinse + slow",
+     "lit_th": "คำที่เปล่งออกมาเมื่อโกรธหรือ ไม่พอ + ค่อย ๆ เคลื่อนไป"
     }
+   ],
+   "needs_check": [
+    "Declared root: ชะ, the exclamation (ชะช้า)."
    ]
   },
   {
@@ -191,7 +210,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "cha as an element in place names + ant",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อแมลงหลายชนิดในวงศ์ Formicidae"
     },
     {
      "th": "ชะไว",
@@ -217,7 +240,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit": "cha as an element in place names + fast",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะที่เคลื่อนไหว หรือสามารถคิด"
     },
     {
      "th": "ชะแล",
@@ -243,7 +269,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ดู"
     },
     {
      "th": "ชะอำ",
@@ -269,7 +298,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ปิดบัง"
     },
     {
      "th": "ชะอวด",
@@ -295,7 +327,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สำแดงให้รู้เห็น"
     },
     {
      "th": "ชะโด",
@@ -321,33 +356,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
-    },
-    {
-     "th": "ชะเอม",
-     "rtgs": "cha-em",
-     "ipa": "/t͡ɕʰa˦˥.ʔeːm˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "ชื่อไม้เถาชนิด Myriopteron extensum (Wight) K. Schum. ในวงศ์ Asclepiadaceae เถามีรสหวาน ใช้ทำยา ผลมีครีบโดยรอบ กินได้",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "ชะ",
-      "เอม"
-     ],
-     "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a biological; filed under the head's name-use sense",
-     "conf": "verified",
-     "src": [
-      "RID",
-      "WIKT"
-     ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชะโด"
     }
    ],
    "extends": 1,
@@ -365,6 +377,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 8 manuscript titles, 81 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -394,7 +407,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit_th": "ล้างหรือทำให้สิ่งที่ติดอยู่หลุดออก + เล็ก",
+   "frame": "quality"
   },
   {
    "th": "ชะตา",
@@ -414,12 +431,20 @@
     "ชะ",
     "ตา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตา"
+   ],
+   "lit": "to rinse + eye",
+   "lit_th": "ล้างหรือทำให้สิ่งที่ติดอยู่หลุดออก + พ่อของแม่",
+   "use": "false-split"
   },
   {
    "th": "ชะงัด",
@@ -444,7 +469,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to rinse + force",
+   "lit_th": "ล้างหรือทำให้สิ่งที่ติดอยู่หลุดออก + ทำให้เผยอหรือเคลื่อนที่โดยใช้วัตถุ"
   },
   {
    "th": "ชะลอม",
@@ -469,7 +498,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "ล้างหรือทำให้สิ่งที่ติดอยู่หลุดออก + รวมตะล่อมกันขึ้นไปให้เป็นจอม"
   },
   {
    "th": "โอชะ",
@@ -489,12 +521,19 @@
     "โอ",
     "ชะ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "โอ"
+   ],
+   "lit": "pomelo + to rinse",
+   "use": "false-split"
   },
   {
    "th": "เดชะ",
@@ -514,12 +553,15 @@
     "เด",
     "ชะ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "มาก ๆ + ล้างหรือทำให้สิ่งที่ติดอยู่หลุดออก",
+   "use": "false-split"
   },
   {
    "th": "ชะมัด",
@@ -544,7 +586,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to rinse + parcel",
+   "lit_th": "ล้างหรือทำให้สิ่งที่ติดอยู่หลุดออก + ผูกรัดเข้าด้วยกัน"
   },
   {
    "th": "ชะรอย",
@@ -569,7 +615,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to rinse + mark",
+   "lit_th": "ล้างหรือทำให้สิ่งที่ติดอยู่หลุดออก + ลักษณะที่เป็นเส้น เป็นริ้ว หรือลวด"
   },
   {
    "th": "การชะ",
@@ -589,13 +639,16 @@
     "การ",
     "ชะ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ล้างหรือทำให้สิ่งที่ติดอยู่หลุดออก"
   },
   {
    "th": "ชะวา",
@@ -620,7 +673,44 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "วา"
+   ],
+   "lit": "to rinse + to spread the arms",
+   "lit_th": "ล้างหรือทำให้สิ่งที่ติดอยู่หลุดออก + มาตราวัดตามวิธีประเพณี คือระยะที่ก"
+  },
+  {
+   "th": "ชะเอม",
+   "rtgs": "cha-em",
+   "ipa": "/t͡ɕʰa˦˥.ʔeːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อไม้เถาชนิด Myriopteron extensum (Wight) K. Schum. ในวงศ์ Asclepiadaceae เถามีรสหวาน ใช้ทำยา ผลมีครีบโดยรอบ กินได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชะ",
+    "เอม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a biological; filed under the head's name-use sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit_th": "ใช้ประกอบชื่อสถานที่ + หวาน",
+   "frame": "quality"
   }
  ],
  "etymology": {

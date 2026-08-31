@@ -12,12 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "fire",
-     "light",
-     "juice"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ ดิน น้ำ ไฟ ลม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -36,6 +34,15 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
     "Declared root: ไฟ 'fire'."
    ],
    "compounds": [
@@ -61,7 +68,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "tiger + fire",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยน้ำนมในวงศ์ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
     }
    ]
   },
@@ -69,12 +81,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "fire",
-     "light",
-     "juice"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดความร้อน แสงสว่าง และเปลว คือ กลุ่มแก๊สที่กำลังลุกไหม้ ทำให้ไหม้สิ่งต่าง ๆ ได้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -116,7 +126,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว + เงา",
+     "frame": "entity"
     },
     {
      "th": "ไฟแก๊ส",
@@ -142,7 +156,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "fire + gas",
+     "lit_th": "ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว + สถานะหนึ่งของสสาร รูปร่างและปริมาต",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -154,12 +173,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "fire",
-     "light",
-     "juice"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ไฟฟ้า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -202,7 +219,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สาย"
+     ],
+     "lit": "late + fire",
+     "lit_th": "เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0 + ไฟฟ้า",
+     "frame": "entity"
     },
     {
      "th": "หลอดไฟ",
@@ -228,7 +253,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "straw + fire",
+     "lit_th": "ของกลมยาวขนาดเล็กที่มีรูตลอด + ไฟฟ้า",
+     "frame": "entity"
     },
     {
      "th": "ไฟฟ้า",
@@ -254,7 +284,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "fire + sky",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -266,12 +303,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "fire",
-     "light",
-     "juice"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ความเดือดร้อน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -297,12 +332,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "fire",
-     "light",
-     "juice"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ผ่านการอยู่ไฟมาแล้ว",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -343,7 +376,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "dwell + fire",
+     "lit_th": "พัก + ผ่านการอยู่ไฟมาแล้ว"
     },
     {
      "th": "กระดานไฟ",
@@ -369,7 +406,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "board + fire",
+     "lit_th": "ไม้ซุงที่เลื่อยออกมาเป็นแผ่น ๆ + ผ่านการอยู่ไฟมาแล้ว",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -381,12 +423,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "fire",
-     "light",
-     "juice"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "อักษรกรีก Φ/φ, ฟี หรือ ฟาย ก็เรียก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -404,6 +444,15 @@
     "WIKT"
    ],
    "needs_check": [
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
     "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire."
    ]
   }
@@ -419,6 +468,8 @@
   "Attested in this corpus: 14 manuscript titles, 69 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 44; domain seeded by keyword hits ['override'].",
@@ -446,7 +497,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
   },
   {
    "th": "การอยู่ไฟ",
@@ -466,13 +520,17 @@
     "การอยู่",
     "ไฟ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ อยู่ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "รถไฟ",
@@ -498,7 +556,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "รถ"
+   ],
+   "lit": "auto + fire",
+   "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "หม้อไฟ",
@@ -523,7 +589,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "pot + fire",
+   "lit_th": "ภาชนะประเภทหนึ่ง มีรูปทรงต่าง ๆ สำ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ตามไฟ",
@@ -548,7 +619,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "along + fire",
+   "lit_th": "ไปหรือมาข้างหลังหรือภายหลังโดยลำดั + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ"
   },
   {
    "th": "ใส่ไฟ",
@@ -573,7 +648,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "carry + fire",
+   "lit_th": "สวม + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ"
   },
   {
    "th": "การติดไฟ",
@@ -595,13 +674,18 @@
     "การติด",
     "ไฟ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "addiction + fire",
+   "lit_th": "คำอาการนามของ ติด + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ไฮไฟ",
@@ -621,12 +705,17 @@
     "ไฮ",
     "ไฟ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ไทร + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "สะพานไฟ",
@@ -651,7 +740,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สิ่งปลูกสร้างที่ทำสำหรับข้ามแม่น้ำ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ช่องไฟ",
@@ -676,7 +769,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ช่อง"
+   ],
+   "lit": "hole + fire",
+   "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "สัญญาณไฟ",
@@ -701,7 +802,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "signal + fire",
+   "lit_th": "เครื่องหมายหรือเครื่องแสดงไว้ให้เห + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ไซไฟ",
@@ -721,13 +827,17 @@
     "ไซ",
     "ไฟ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "false-split",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เครื่องสานสำหรับดักปลา มีหลายชนิด + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ไฟกัลป์",
@@ -751,7 +861,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + เวลาอันยาวนานมาก",
+   "frame": "entity"
   },
   {
    "th": "กลไฟ",
@@ -776,7 +890,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กล"
+   ],
+   "lit": "trick + fire",
+   "lit_th": "การลวงหรือล่อลวงให้หลง + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "แก่ไฟ",
@@ -801,7 +923,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit": "old + fire",
+   "lit_th": "มีอายุมาก + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "quality"
   },
   {
    "th": "ดอกไม้ไฟ",
@@ -829,7 +956,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "blossom + fire",
+   "lit_th": "ส่วนหนึ่งของพรรณไม้ที่ผลิออกจากต้น + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "เรือนไฟ",
@@ -854,7 +986,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เรือน"
+   ],
+   "lit": "house + fire",
+   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ไฟเย็น",
@@ -879,7 +1019,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "เย็น"
+   ],
+   "lit": "fire + cold",
+   "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+   "frame": "quality"
   },
   {
    "th": "ไฟท้าย",
@@ -904,7 +1052,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + ส่วนที่อยู่สุดด้านหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "เชื้อไฟ",
@@ -929,7 +1081,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "seed + fire",
+   "lit_th": "สิ่งที่เป็นต้นเหตุทำให้เกิดสิ่งอื่ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ไฟไหม้",
@@ -954,7 +1111,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "fire + burn",
+   "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + ติดเชื้อไฟ"
   },
   {
    "th": "ไฟแดง",
@@ -979,7 +1140,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "แดง"
+   ],
+   "lit": "fire + red",
+   "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "ไม้ขีดไฟ",
@@ -1004,7 +1173,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "match + fire",
+   "lit_th": "ไม้ขีดไฟ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ไฟเหลือง",
@@ -1029,7 +1203,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "frame": "quality"
   },
   {
    "th": "ไฟเขียว",
@@ -1054,7 +1231,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + มีสีอย่างสีใบไม้สด",
+   "frame": "quality"
   },
   {
    "th": "ช่างไฟ",
@@ -1079,7 +1260,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้ชำนาญในการฝีมือหรือศิลปกรรมอย่า + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ไฟป่า",
@@ -1105,7 +1290,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ป่า"
+   ],
+   "lit": "fire + forest",
+   "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+   "frame": "entity"
   },
   {
    "th": "เตาไฟ",
@@ -1132,7 +1325,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ที่สำหรับก่อไฟหุงต้มหรือเผาสิ่งต่า + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "คบไฟ",
@@ -1159,7 +1356,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ง่ามต้นไม้ที่กิ่งใหญ่กับลำต้นแยกกั + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "กระโจมไฟ",
@@ -1185,7 +1386,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สิ่งที่ตามปรกติมียอดเป็นลอมอย่างซุ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ไฟจราจร",
@@ -1210,7 +1415,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + การที่ยวดยานพาหนะ คน หรือสัตว์พาหน",
+   "frame": "entity"
   },
   {
    "th": "ภูเขาไฟ",
@@ -1236,7 +1445,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "mount + fire",
+   "lit_th": "พื้นที่ที่มีระดับสูงขึ้นจากบริเวณร + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ไฟหน้า",
@@ -1261,7 +1475,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "fire + before",
+   "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การตามไฟ",
@@ -1281,13 +1503,17 @@
     "การตาม",
     "ไฟ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตาม + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "หมากไฟ",
@@ -1312,7 +1538,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "หมาก"
+   ],
+   "lit": "areca palm + fire",
+   "lit_th": "ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
   },
   {
    "th": "ติดไฟ",
@@ -1340,7 +1574,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ติด"
+   ],
+   "lit": "fit + fire",
+   "lit_th": "อาการที่ข้องอยู่ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ"
   }
  ],
  "etymology": {
@@ -1358,5 +1599,10 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "fire",
+  "light",
+  "juice"
+ ]
 }

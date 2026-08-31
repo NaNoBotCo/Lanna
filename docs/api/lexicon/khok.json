@@ -1,7 +1,7 @@
 {
  "id": "w:khok",
  "th": "โคก",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "khok",
  "paiboon": "kôok",
  "ipa": "/kʰoːk̚˥˩/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "mound",
+     "low rise"
     ],
     "th": "ที่ดินที่นูนสูงขึ้นคล้ายเนิน แต่เตี้ยกว่า",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +34,11 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: โคก, the low mound.",
+    "Declared root: โคก, the low mound.",
+    "Declared root: โคก, the low mound.",
+    "Declared root: โคก, the low mound."
    ]
   },
   {
@@ -57,7 +63,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The mound loosened to anything raised.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -106,7 +116,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "mound + enlightenment",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ความตรัสรู้",
+     "frame": "entity"
     },
     {
      "th": "โคกตะบอง",
@@ -131,7 +149,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mound + club",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ไม้สำหรับถือ ใช้ตี โดยมากมีรูปกลม",
+     "frame": "entity"
     },
     {
      "th": "โคกเจริญ",
@@ -156,7 +179,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mound + develop",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + เติบโต"
     },
     {
      "th": "โคกสำโรง",
@@ -181,7 +208,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ชื่อไม้ต้นชนิด Sterculia foetida L",
+     "frame": "entity"
     },
     {
      "th": "โคกสมบูรณ์",
@@ -206,7 +237,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mound + absolute",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + บริบูรณ์"
     },
     {
      "th": "โคกสะอาด",
@@ -231,7 +266,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "mound + clean",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ไม่สกปรก",
+     "frame": "quality"
     },
     {
      "th": "โคกสี",
@@ -256,7 +296,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สี"
+     ],
+     "lit": "mound + color",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+     "frame": "entity"
     },
     {
      "th": "โคกไทย",
@@ -281,7 +329,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PROP",
+     "head": 0,
+     "cross_listed": [
+      "ไทย"
+     ],
+     "lit": "mound + Thai",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ประเทศ ใน เอเชียตะวันออกเฉียงใต้"
     },
     {
      "th": "บ้านโคก",
@@ -306,7 +361,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + mound",
+     "lit_th": "ที่อยู่อาศัย + ชื่อปลาทะเลทุกชนิดในสกุล Anodontos",
+     "frame": "entity"
     },
     {
      "th": "โคกสง่า",
@@ -331,7 +394,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + มีลักษณะผึ่งผายเป็นที่น่ายำเกรงหรื",
+     "frame": "quality"
     },
     {
      "th": "โคกพุทรา",
@@ -356,7 +423,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ชื่อไม้ต้นชนิด Ziziphus mauritiana",
+     "frame": "entity"
     },
     {
      "th": "โคกโพธิ์ไชย",
@@ -381,7 +452,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ชื่อตำบลหนึ่งในอำเภอโคกโพธิ์ไชย จั"
     },
     {
      "th": "โคกหาร",
@@ -406,7 +480,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mound + divide",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + แบ่งส่วนเท่า ๆ กัน"
     },
     {
      "th": "โคกสำราญ",
@@ -431,7 +509,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mound + enjoy",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + สุขสบาย"
     },
     {
      "th": "โคกยาง",
@@ -456,7 +538,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยาง"
+     ],
+     "lit": "mound + rubber",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
     },
     {
      "th": "โคกเครือ",
@@ -481,7 +571,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + เถาไม้",
+     "frame": "entity"
     },
     {
      "th": "โคกสูง",
@@ -506,7 +600,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "สูง"
+     ],
+     "lit": "mound + tall",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
     },
     {
      "th": "โคกกลาง",
@@ -531,7 +633,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "mound + middle",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
     },
     {
      "th": "สามโคก",
@@ -556,7 +666,13 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "cross_listed": [
+      "สาม"
+     ],
+     "lit": "three + mound",
+     "lit_th": "จำนวนสองบวกหนึ่ง + ชื่อปลาทะเลทุกชนิดในสกุล Anodontos"
     },
     {
      "th": "โคกกระชาย",
@@ -581,7 +697,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mound + fingerroot",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ชื่อไม้ล้มลุกชนิด Boesenbergia rot",
+     "frame": "entity"
     },
     {
      "th": "โคกกรวด",
@@ -606,7 +727,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ก้อนหินเล็ก ๆ เขื่องกว่าเม็ดทราย",
+     "frame": "entity"
     },
     {
      "th": "โคกกระเบื้อง",
@@ -631,7 +756,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + เครื่องมุงหลังคาหรือปูพื้นเป็นต้น",
+     "frame": "entity"
     },
     {
      "th": "โคกงาม",
@@ -656,8 +785,22 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "งาม"
+     ],
+     "lit": "mound + aesthetic",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+     "frame": "quality"
     }
+   ],
+   "needs_check": [
+    "Declared root: ปลาโคก, the gizzard shad — a fish name.",
+    "Declared root: ปลาโคก, the gizzard shad — a fish name.",
+    "Declared root: ปลาโคก, the gizzard shad — a fish name.",
+    "Declared root: ปลาโคก, the gizzard shad — a fish name."
    ]
   }
  ],

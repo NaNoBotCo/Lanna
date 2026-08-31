@@ -1,7 +1,7 @@
 {
  "id": "w:nok-2",
  "th": "นอก",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "nok",
  "paiboon": "nɔ̂ɔk",
  "ipa": "/nɔːk̚˥˩/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "outside",
+     "outer"
     ],
     "th": "ตรงข้ามกับใน, ไม่ใช่ใน",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -61,7 +63,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit": "board + outside",
+     "lit_th": "เบื้อง + ตรงข้ามกับใน"
     }
    ]
   },
@@ -87,7 +93,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Outside narrowed to beyond, past the bounds of.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -136,9 +146,20 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "by + outside",
+     "lit_th": "สิ่งต่าง ๆ + ต่างประเทศ"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Outside the country: abroad.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -187,9 +208,20 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + outside",
+     "lit_th": "ที่อยู่อาศัย + เรียกเขตที่พ้นจากเมืองหลวงออกไปว่า"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "บ้านนอก, outside the capital: the provinces.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -238,9 +270,20 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "town + outside",
+     "lit_th": "แดน + เรียกประเทศในทวีปยุโรปและอเมริกาว่"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "เมืองนอก, and Europe and America in particular.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -264,7 +307,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "And fruit brought in from outside the city.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -334,7 +381,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่ในสกุล Ficus วงศ + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "ด่านนอก",
@@ -360,7 +410,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit_th": "ที่สำหรับกัก ตรวจ คอยระวังเหตุ และ + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "กระเบื้องนอก",
@@ -386,7 +439,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit_th": "เครื่องมุงหลังคาหรือปูพื้นเป็นต้น + ใช้ประกอบชื่อสถานที่"
     }
    ],
    "extends": 1,
@@ -433,7 +489,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+PREP",
+   "head": 1,
+   "lit": "patient + outside",
+   "lit_th": "ผู้ป่วย + ตรงข้ามกับใน"
   },
   {
    "th": "นอกเรื่อง",
@@ -458,7 +518,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PREP+N",
+   "head": 0,
+   "lit": "outside + animal",
+   "lit_th": "ตรงข้ามกับใน + ภาวะหรือเนื้อหาของสิ่งซึ่งเนื่องกั"
   },
   {
    "th": "นักเรียนนอก",
@@ -483,7 +547,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+PREP",
+   "head": 1,
+   "lit": "student + outside",
+   "lit_th": "ผู้ศึกษาเล่าเรียน + ตรงข้ามกับใน"
   },
   {
    "th": "นอกใจ",
@@ -509,7 +577,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PREP+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "outside + heart",
+   "lit_th": "ตรงข้ามกับใน + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
   },
   {
    "th": "ภายนอก",
@@ -535,7 +610,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+PREP",
+   "head": 1,
+   "lit_th": "บริเวณ + ตรงข้ามกับใน"
   },
   {
    "th": "นอกชาน",
@@ -560,7 +638,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PREP+N",
+   "head": 0,
+   "lit_th": "ตรงข้ามกับใน + กากอ้อยหรือกากหมากที่เคี้ยวแล้วเป็"
   },
   {
    "th": "นอกจาก",
@@ -588,7 +669,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PREP+N",
+   "head": 0,
+   "lit": "outside + leave",
+   "lit_th": "ตรงข้ามกับใน + ชื่อปาล์มชนิด Nypa fruticans Wurmb"
   },
   {
    "th": "คนนอก",
@@ -613,7 +698,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+PREP",
+   "head": 1,
+   "cross_listed": [
+    "คน"
+   ],
+   "lit": "stir + outside",
+   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ตรงข้ามกับใน"
   }
  ],
  "etymology": {

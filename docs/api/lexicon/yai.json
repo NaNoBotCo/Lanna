@@ -1,7 +1,7 @@
 {
  "id": "w:yai",
  "th": "ใหญ่",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "yai",
  "paiboon": "yài",
  "ipa": "/jaj˨˩/",
@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "huge",
-     "large",
-     "big",
-     "great"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "โต, มีขนาดไม่เล็ก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -40,13 +37,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "huge",
-     "large",
-     "big",
-     "great"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "คนโต",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -59,19 +53,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The big one of a set of children: the eldest.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "huge",
-     "large",
-     "big",
-     "great"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ขนาดโตกว่า หรือสำคัญกว่าเมื่อเปรียบเทียบกัน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -84,19 +79,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Bigger, or more important, set against something else.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "huge",
-     "large",
-     "big",
-     "great"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "รุนแรงมาก, อุตลุต",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -135,9 +131,17 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "หมู่ + รุนแรงมาก",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Big in force: severe, violent.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -194,7 +198,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "beach + yai as an element in place names",
+     "lit_th": "เนินที่ลาดลงไปในน้ำหรือบริเวณที่ตื + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ตลาดใหญ่",
@@ -220,7 +229,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ตลาด"
+     ],
+     "lit": "market + yai as an element in place names",
+     "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ดงใหญ่",
@@ -246,7 +263,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ดง"
+     ],
+     "lit": "deep forest + yai as an element in place names",
+     "lit_th": "ป่าที่มีต้นไม้ใหญ่ขึ้นหนาแน่น + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "หนองใหญ่",
@@ -272,7 +297,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + yai as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ทุ่งใหญ่",
@@ -298,7 +331,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "open field + yai as an element in place names",
+     "lit_th": "ที่ราบโล่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "เหล่าใหญ่",
@@ -324,7 +365,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "group + yai as an element in place names",
+     "lit_th": "พวก + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ปรุใหญ่",
@@ -350,7 +396,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit": "hole + yai as an element in place names",
+     "lit_th": "ทำให้เป็นรู ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "เสมาใหญ่",
@@ -376,7 +427,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "frame": "quality"
     },
     {
      "th": "ดอนใหญ่",
@@ -402,7 +456,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ดอน"
+     ],
+     "lit": "hill + yai as an element in place names",
+     "lit_th": "พื้นที่ที่น้ำท่วมไม่ถึง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "แดงใหญ่",
@@ -428,7 +490,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "ADJ+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "red + yai as an element in place names",
+     "lit_th": "สีอย่างสีเลือดหรือสีชาด + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "กระเบื้องใหญ่",
@@ -454,7 +524,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "เครื่องมุงหลังคาหรือปูพื้นเป็นต้น + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "หนองกุงใหญ่",
@@ -480,7 +554,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาฬสินธุ์ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "บางกอกใหญ่",
@@ -506,7 +584,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "กรุงเทพมหานคร + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "หว้านใหญ่",
@@ -532,7 +614,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "รูปเลิกใช้ของ ว่าน + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "เขาใหญ่",
@@ -558,7 +644,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "เขา"
+     ],
+     "lit": "mountain + yai as an element in place names",
+     "lit_th": "เนินที่นูนสูงขึ้นไปเป็นจอมเด่น + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "กระบี่ใหญ่",
@@ -584,7 +678,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "sabre + yai as an element in place names",
+     "lit_th": "ลิง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "แวงใหญ่",
@@ -610,7 +709,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "ADJ+ADJ",
+     "head": 1,
+     "lit_th": "ยาว + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "บางใหญ่",
@@ -636,7 +739,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + yai as an element in place names",
+     "lit_th": "ทางน้ำเล็ก ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "เกาะลันตาใหญ่",
@@ -662,7 +773,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดกระบี่ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "วังใหญ่",
@@ -688,7 +803,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + yai as an element in place names",
+     "lit_th": "ที่อยู่ของเจ้านาย + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "คลองใหญ่",
@@ -714,7 +837,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "canal + yai as an element in place names",
+     "lit_th": "ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "คำใหญ่",
@@ -740,7 +871,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "word + yai as an element in place names",
+     "lit_th": "เสียงพูด + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ห้วยใหญ่",
@@ -766,7 +905,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ห้วย"
+     ],
+     "lit": "stream pool + yai as an element in place names",
+     "lit_th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขา + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "บัวใหญ่",
@@ -792,7 +939,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "บัว"
+     ],
+     "lit": "lotus + yai as an element in place names",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ซับใหญ่",
@@ -818,7 +973,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit_th": "เอาของเช่นผ้าหรือกระดาษทาบลงที่น้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -838,6 +997,8 @@
   "Attested in this corpus: 1 manuscript titles, 359 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 45; domain seeded by keyword hits —.",
@@ -866,7 +1027,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำใช้แทนคำว่า คนหรือสิ่งที่ถือเสมื + โต",
+   "frame": "quality"
   },
   {
    "th": "ลำไส้ใหญ่",
@@ -891,7 +1056,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "intestine + huge",
+   "lit_th": "ส่วนของระบบทางเดินอาหาร ซึ่งอยู่ระ + โต",
+   "frame": "quality"
   },
   {
    "th": "ปืนใหญ่",
@@ -918,7 +1088,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "gun + huge",
+   "lit_th": "อาวุธสำหรับยิงให้ลูกออกจากลำกล้องด + โต",
+   "frame": "quality"
   },
   {
    "th": "ความใหญ่",
@@ -938,13 +1113,18 @@
     "ความ",
     "ใหญ่"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + huge",
+   "lit_th": "เรื่อง + โต",
+   "frame": "quality"
   },
   {
    "th": "ยิ่งใหญ่",
@@ -972,7 +1152,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ถ้าอยู่ข้างหลัง หมายความว่า เป็นยอ + โต"
   },
   {
    "th": "ครูใหญ่",
@@ -997,7 +1179,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "teacher + huge",
+   "lit_th": "ผู้สั่งสอนศิษย์ + โต",
+   "frame": "quality"
   },
   {
    "th": "หุ่นใหญ่",
@@ -1022,7 +1209,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "body + huge",
+   "lit_th": "รูป + โต",
+   "frame": "quality"
   },
   {
    "th": "ไทยใหญ่",
@@ -1047,7 +1239,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PROP+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ไทย"
+   ],
+   "lit": "Thai + huge",
+   "lit_th": "ประเทศ ใน เอเชียตะวันออกเฉียงใต้ + โต",
+   "frame": "quality"
   },
   {
    "th": "ไปยาลใหญ่",
@@ -1072,7 +1272,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "เครื่องหมายละคำ รูปดังนี้ ฯ เรียกว + โต",
+   "frame": "quality"
   },
   {
    "th": "เปยยาลใหญ่",
@@ -1097,7 +1301,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ไปยาล + โต",
+   "frame": "quality"
   },
   {
    "th": "ไทใหญ่",
@@ -1122,7 +1330,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ชนเชื้อชาติไท มีหลายสาขาด้วยกัน เช + โต",
+   "frame": "quality"
   },
   {
    "th": "หอมใหญ่",
@@ -1148,7 +1360,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ชื่อไม้ล้มลุกมีหัวหลายชนิดในสกุล A + โต",
+   "frame": "quality"
   },
   {
    "th": "ขาใหญ่",
@@ -1173,7 +1389,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ขา"
+   ],
+   "lit": "leg + huge",
+   "lit_th": "อวัยวะของมนุษย์หรือสัตว์ที่ยื่นจาก + โต",
+   "frame": "quality"
   },
   {
    "th": "หนังใหญ่",
@@ -1198,7 +1422,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "film + huge",
+   "lit_th": "ส่วนของร่างกายที่หุ้มเนื้ออยู่ + โต",
+   "frame": "quality"
   },
   {
    "th": "ความกว้างใหญ่",
@@ -1218,13 +1447,18 @@
     "ความกว้าง",
     "ใหญ่"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "width + huge",
+   "lit_th": "คำอาการนามของ กว้าง + โต",
+   "frame": "quality"
   },
   {
    "th": "กว้างใหญ่",
@@ -1250,7 +1484,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "wide + huge",
+   "lit_th": "ด้านสั้นที่คู่กับด้านยาว + โต",
+   "frame": "quality"
   },
   {
    "th": "ใหญ่โต",
@@ -1278,7 +1517,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "โต + สิงโต",
+   "frame": "quality"
   },
   {
    "th": "ทรงเครื่องใหญ่",
@@ -1302,7 +1545,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "แต่งตัวมีเครื่องประดับ + โต",
+   "frame": "quality"
   },
   {
    "th": "อาจารย์ใหญ่",
@@ -1327,7 +1574,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ผู้สั่งสอนวิชาความรู้ + โต",
+   "frame": "quality"
   }
  ],
  "etymology": {
@@ -1345,5 +1596,11 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "huge",
+  "large",
+  "big",
+  "great"
+ ]
 }

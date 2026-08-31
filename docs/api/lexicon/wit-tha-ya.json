@@ -1,7 +1,7 @@
 {
  "id": "w:wit-tha-ya",
  "th": "วิทยา",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "wit-tha-ya",
  "paiboon": "wít-tá-yaa",
  "ipa": "/wit̚˦˥.tʰa˦˥.jaː˧/",
@@ -13,11 +13,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "knowledge",
+     "science"
     ],
     "th": "ความรู้",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -57,7 +59,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ความรู้ + งาน",
+     "frame": "entity"
     },
     {
      "th": "ญาณวิทยา",
@@ -83,7 +89,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ปรีชาหยั่งรู้หรือกำหนดรู้ที่เกิดจา + ความรู้",
+     "frame": "entity"
     },
     {
      "th": "ธรณีวิทยา",
@@ -109,7 +119,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "แผ่นดิน + ความรู้",
+     "frame": "entity"
     },
     {
      "th": "วิทยากร",
@@ -135,7 +149,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ความรู้ + ผู้ทำ",
+     "frame": "entity"
     }
    ]
   },
@@ -158,7 +176,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Knowledge used as a personal name.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -197,7 +219,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ ศิลป์ + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "เทววิทยา",
@@ -222,7 +248,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เทวดา + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "กีฏวิทยา",
@@ -247,7 +277,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "แมลง + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "พยาธิวิทยา",
@@ -272,7 +306,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "disease + knowledge",
+   "lit_th": "ความเจ็บไข้ + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "วิทยาเขต",
@@ -298,7 +337,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "knowledge + land",
+   "lit_th": "ความรู้ + แดนที่กำหนดขีดคั่นไว้",
+   "frame": "entity"
   },
   {
    "th": "วิทยาศาสตร์",
@@ -324,7 +368,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "knowledge + discipline",
+   "lit_th": "ความรู้ + ระบบวิชาความรู้",
+   "frame": "entity"
   },
   {
    "th": "วิทยาการคอมพิวเตอร์",
@@ -349,7 +398,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ความรู้ + การศึกษาและการใช้คอมพิวเตอร์ ระบบค",
+   "frame": "entity"
   },
   {
    "th": "คูถวิทยา",
@@ -374,7 +427,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ขี้ + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "วิทยานิพนธ์",
@@ -400,7 +457,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ความรู้ + เรื่องที่แต่งขึ้น",
+   "frame": "entity"
   },
   {
    "th": "มีนวิทยา",
@@ -426,7 +487,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ปลา + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "สัทวิทยา",
@@ -451,7 +516,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เสียง + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "ชีววิทยา",
@@ -477,7 +546,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชีวิต + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "นักษัตรวิทยา",
@@ -502,7 +575,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ดาว + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "ภูมิวิทยา",
@@ -527,7 +604,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ภูมิ"
+   ],
+   "lit": "land + knowledge",
+   "lit_th": "แผ่นดิน + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "คัพภวิทยา",
@@ -552,7 +637,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ คัพภ์ + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "พิษวิทยา",
@@ -577,7 +666,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "พิษ"
+   ],
+   "lit": "harm + knowledge",
+   "lit_th": "สิ่งที่ร้ายเป็นอันตรายแก่ร่างกายหร + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "จิตวิทยา",
@@ -602,7 +699,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "mind + knowledge",
+   "lit_th": "ใจ + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "สัตววิทยา",
@@ -628,7 +730,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ สัตว์ + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "อุทกวิทยา",
@@ -653,7 +759,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "น้ำ + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "ภววิทยา",
@@ -678,7 +788,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "โลก + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "จักษุวิทยา",
@@ -703,7 +817,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ตา + ความรู้",
+   "frame": "entity"
   }
  ],
  "etymology": {

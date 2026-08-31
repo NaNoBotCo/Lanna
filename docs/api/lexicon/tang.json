@@ -12,11 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "introduce",
-     "set"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ชูตัว, ชูตัวหรือทำให้ทรงตัวในลักษณะที่ไม่ใช่นอนหรือล้ม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -41,11 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "introduce",
-     "set"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ทรง, ดำรง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -71,11 +69,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "introduce",
-     "set"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ทำให้มีขึ้น, สร้างให้มีขึ้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -101,11 +98,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "introduce",
-     "set"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ยกฐานะให้สูงขึ้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -131,11 +127,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "introduce",
-     "set"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "กำหนด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -177,7 +172,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "introduce + flag",
+     "lit_th": "กำหนด + ผืนผ้ารูปสี่เหลี่ยมหรือสามเหลี่ยม"
     }
    ],
    "extends": 3,
@@ -189,11 +188,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "introduce",
-     "set"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "วาง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -219,11 +217,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "introduce",
-     "set"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "วางซ้อนกันมาก ๆ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -249,11 +246,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "introduce",
-     "set"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "เริ่ม, เริ่มมี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -296,7 +292,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เริ่ม + ห้อง"
     },
     {
      "th": "ตั้งท้อง",
@@ -322,7 +321,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ท้อง"
+     ],
+     "lit": "introduce + carry",
+     "lit_th": "เริ่ม + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น"
     }
    ],
    "extends": 3,
@@ -334,11 +340,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "introduce",
-     "set"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "คำแสดงความหมายว่า มาก หรือ นาน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -380,7 +385,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "word + introduce",
+     "lit_th": "เสียงพูด + คำแสดงความหมายว่า มาก หรือ นาน"
     }
    ],
    "extends": 1,
@@ -392,11 +404,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "introduce",
-     "set"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "เรียกของที่วางซ้อนกันมาก ๆ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -422,11 +433,10 @@
    "n": 11,
    "gloss": {
     "en": [
-     "introduce",
-     "set"
+     "[RID sense 11 — no English yet]"
     ],
     "th": "ครั้ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -460,6 +470,8 @@
   "Attested in this corpus: 8 manuscript titles, 93 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 33; domain seeded by keyword hits ['สร้าง', 'ทำ'].",
@@ -490,7 +502,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "จัด"
+   ],
+   "lit": "arrange + introduce",
+   "lit_th": "ยิ่ง + ชูตัว"
   },
   {
    "th": "อกตั้ง",
@@ -515,7 +533,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "อก"
+   ],
+   "lit": "chest + introduce",
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + ชูตัว"
   },
   {
    "th": "การก่อตั้ง",
@@ -537,13 +562,16 @@
     "การก่อ",
     "ตั้ง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ก่อ + ชูตัว"
   },
   {
    "th": "แต่งตั้ง",
@@ -571,7 +599,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "dress + introduce",
+   "lit_th": "จัดให้งาม + ชูตัว"
   },
   {
    "th": "ตั้งตัว",
@@ -596,7 +628,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "introduce + form",
+   "lit_th": "ชูตัว + รูป",
+   "flips_with": "ตัวตั้ง"
   },
   {
    "th": "หินตั้ง",
@@ -616,13 +656,20 @@
     "หิน",
     "ตั้ง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "หิน"
+   ],
+   "lit": "rock + introduce",
+   "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + ชูตัว"
   },
   {
    "th": "ตั้งไข่",
@@ -647,7 +694,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ไข่"
+   ],
+   "lit": "introduce + egg",
+   "lit_th": "ชูตัว + ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ"
   },
   {
    "th": "ตั้งแง่",
@@ -672,7 +726,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "introduce + aspect",
+   "lit_th": "ชูตัว + ส่วนที่เป็นเหลี่ยมเป็นสันเป็นมุมหร"
   },
   {
    "th": "ตั้งแต่",
@@ -698,7 +756,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit": "introduce + but",
+   "lit_th": "ชูตัว + เฉพาะ"
   },
   {
    "th": "ตั้งท่า",
@@ -723,7 +784,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ท่า"
+   ],
+   "lit": "introduce + landing",
+   "lit_th": "ชูตัว + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
   },
   {
    "th": "การเลือกตั้ง",
@@ -744,13 +812,17 @@
     "การเลือก",
     "ตั้ง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "choice + introduce",
+   "lit_th": "คำอาการนามของ เลือก + ชูตัว"
   },
   {
    "th": "การจัดตั้ง",
@@ -772,13 +844,16 @@
     "การจัด",
     "ตั้ง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ จัด + ชูตัว"
   },
   {
    "th": "หน้าตั้ง",
@@ -803,7 +878,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "before + introduce",
+   "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ชูตัว",
+   "flips_with": "ตั้งหน้า"
   },
   {
    "th": "ตั้งเป้า",
@@ -829,7 +912,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "introduce + target",
+   "lit_th": "ชูตัว + สิ่งที่กำหนดไว้เป็นจุดหมาย"
   },
   {
    "th": "ข้อตั้ง",
@@ -854,7 +941,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร + ชูตัว"
   },
   {
    "th": "ตั้งใจ",
@@ -882,7 +972,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "introduce + heart",
+   "lit_th": "ชูตัว + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
   },
   {
    "th": "ตั้งเวลา",
@@ -907,7 +1004,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "introduce + time",
+   "lit_th": "ชูตัว + ชั่วขณะความยาวนานที่มีอยู่หรือเป็น"
   },
   {
    "th": "ตั้งนาฬิกา",
@@ -932,7 +1033,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "introduce + clock",
+   "lit_th": "ชูตัว + เครื่องบอกเวลา"
   },
   {
    "th": "ตั้งวง",
@@ -957,7 +1062,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "introduce + zone",
+   "lit_th": "ชูตัว + รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม"
   },
   {
    "th": "แนวตั้ง",
@@ -983,7 +1092,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "แนว"
+   ],
+   "lit": "row + introduce",
+   "lit_th": "สิ่งที่มีลักษณะเป็นแถว + ชูตัว"
   },
   {
    "th": "ตั้งหน้า",
@@ -1008,7 +1124,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "introduce + before",
+   "lit_th": "ชูตัว + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "flips_with": "หน้าตั้ง"
   },
   {
    "th": "การตั้ง",
@@ -1028,13 +1152,16 @@
     "การ",
     "ตั้ง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ชูตัว"
   },
   {
    "th": "ตั้งมั่น",
@@ -1059,7 +1186,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "มั่น"
+   ],
+   "lit": "introduce + firm",
+   "lit_th": "ชูตัว + แน่",
+   "frame": "quality"
   },
   {
    "th": "การแต่งตั้ง",
@@ -1079,13 +1214,16 @@
     "การแต่ง",
     "ตั้ง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แต่ง + ชูตัว"
   },
   {
    "th": "ก่อตั้ง",
@@ -1113,7 +1251,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "build + introduce",
+   "lit_th": "ทำให้เกิดขึ้น มีขึ้น หรือเป็นรูปขึ + ชูตัว"
   },
   {
    "th": "ตัวตั้ง",
@@ -1138,7 +1280,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "form + introduce",
+   "lit_th": "รูป + ชูตัว",
+   "flips_with": "ตั้งตัว"
   },
   {
    "th": "เลือกตั้ง",
@@ -1163,7 +1313,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "choose + introduce",
+   "lit_th": "คัดสิ่งที่มีจำนวนมากกว่าหนึ่งขึ้นไ + ชูตัว"
   },
   {
    "th": "ตั้งเครื่อง",
@@ -1188,7 +1342,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "เครื่อง"
+   ],
+   "lit": "introduce + device",
+   "lit_th": "ชูตัว + สิ่ง"
   },
   {
    "th": "ตั้งต้น",
@@ -1214,7 +1375,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ต้น"
+   ],
+   "lit": "introduce + trunk",
+   "lit_th": "ชูตัว + ลำของต้นไม้"
   }
  ],
  "etymology": {
@@ -1232,5 +1400,9 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "introduce",
+  "set"
+ ]
 }

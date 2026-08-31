@@ -1,7 +1,7 @@
 {
  "id": "w:kam-3",
  "th": "กาม",
- "status": "listed",
+ "status": "mapped",
  "rtgs": "kam",
  "paiboon": "gaam",
  "ipa": "/kaːm˧/",
@@ -13,11 +13,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "desire",
+     "sensual desire"
     ],
     "th": "ความใคร่",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -52,7 +54,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Desire narrowed to sexual desire.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -90,7 +96,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "กิจ"
+   ],
+   "lit": "desire + business",
+   "lit_th": "ความใคร่ + ธุระ",
+   "frame": "entity"
   },
   {
    "th": "กามภพ",
@@ -115,7 +129,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ความใคร่ + โลก",
+   "frame": "entity"
   },
   {
    "th": "กามคุณ",
@@ -135,12 +153,19 @@
     "กาม",
     "คุณ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "คุณ"
+   ],
+   "lit": "desire + you",
+   "lit_th": "ความใคร่ + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค",
+   "use": "false-split"
   },
   {
    "th": "พุกาม",
@@ -165,7 +190,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "อาการที่น้ำหรือแก๊สเป็นต้นผุดขึ้นม + ความใคร่"
   },
   {
    "th": "พูกาม",
@@ -190,7 +218,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เรียกสิ่งที่มีลักษณะนูนออกมา + ความใคร่",
+   "frame": "entity"
   },
   {
    "th": "อัตกาม",
@@ -216,7 +248,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ตน + ความใคร่",
+   "frame": "entity"
   },
   {
    "th": "กามราค",
@@ -240,7 +276,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ความใคร่ + ความกำหนัดยินดีในกามารมณ์",
+   "frame": "entity"
   },
   {
    "th": "กามโรค",
@@ -265,7 +305,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ความใคร่ + ภาวะที่ร่างกายทำงานได้ไม่เป็นปรกติ",
+   "frame": "entity"
   },
   {
    "th": "น้ำกาม",
@@ -290,7 +334,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "water + desire",
+   "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ความใคร่",
+   "frame": "entity"
   },
   {
    "th": "กามฉันท์",
@@ -310,12 +362,17 @@
     "กาม",
     "ฉันท์"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ความใคร่ + ชื่อคำประพันธ์ประเภทหนึ่งที่วางคำ",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "กามเทพ",
@@ -340,7 +397,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เทพ"
+   ],
+   "lit": "desire + god",
+   "lit_th": "ความใคร่ + เทวดา",
+   "frame": "entity"
   },
   {
    "th": "กามตัณหา",
@@ -365,7 +430,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "desire + lust",
+   "lit_th": "ความใคร่ + ความใคร่ในกาม",
+   "frame": "entity"
   },
   {
    "th": "กามวิตถาร",
@@ -390,7 +460,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ความใคร่ + กว้างขวาง",
+   "frame": "quality"
   },
   {
    "th": "ฟองกาม",
@@ -415,7 +489,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "bubble + desire",
+   "lit_th": "ไข่ + ความใคร่",
+   "frame": "entity"
   },
   {
    "th": "โอษฐกาม",
@@ -440,7 +519,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ริมฝีปาก + ความใคร่",
+   "frame": "entity"
   }
  ],
  "etymology": {

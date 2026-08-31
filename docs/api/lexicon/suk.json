@@ -1,7 +1,7 @@
 {
  "id": "w:suk",
  "th": "สุข",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "suk",
  "paiboon": "sùk",
  "ipa": "/suk̚˨˩/",
@@ -13,11 +13,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "happiness",
+     "ease",
+     "wellbeing"
     ],
     "th": "ความสบายกายสบายใจ, มักใช้เข้าคู่กับคำ เป็น เป็น เป็นสุข, ความสุข ก็ว่า",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -61,7 +64,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นิยม"
+     ],
+     "lit": "happiness + like",
+     "lit_th": "ความสบายกายสบายใจ + การกำหนด",
+     "frame": "entity"
     },
     {
      "th": "เป็นสุข",
@@ -86,7 +97,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เป็น"
+     ],
+     "lit": "are + happiness",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ความสบายกายสบายใจ"
     }
    ]
   },
@@ -138,7 +156,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความสงบ + สบายกายสบายใจ",
+     "frame": "entity"
     },
     {
      "th": "ผาสุข",
@@ -164,9 +186,17 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "หินที่เขา + สบายกายสบายใจ",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The happiness names the state of being in it.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -236,7 +266,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ความสุขสบาย",
+     "frame": "entity"
     },
     {
      "th": "ประสุข",
@@ -262,7 +296,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 1,
+     "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "แสนสุข",
@@ -288,7 +324,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 1,
+     "lit": "hundred thousand + suk as an element in place names",
+     "lit_th": "จำนวนนับเท่ากับ 10 หมื่น + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "ศรีสุข",
@@ -314,7 +353,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ศรี"
+     ],
+     "lit": "splendour + suk as an element in place names",
+     "lit_th": "มิ่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "สุขสำราญ",
@@ -340,7 +387,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "suk as an element in place names + enjoy",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สุขสบาย"
     },
     {
      "th": "สุขไพบูลย์",
@@ -366,7 +417,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ความเต็มเปี่ยม",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -384,6 +439,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 0 manuscript titles, 127 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -413,7 +469,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "happiness + learn",
+   "lit_th": "ความสบายกายสบายใจ + การเล่าเรียน การฝึกฝน และการอบรม",
+   "frame": "entity"
   },
   {
    "th": "สุขนิสัย",
@@ -438,7 +499,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "happiness + nature",
+   "lit_th": "ความสบายกายสบายใจ + ความประพฤติที่เคยชิน",
+   "frame": "entity"
   },
   {
    "th": "สันติสุข",
@@ -463,7 +529,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ความสงบ + ความสบายกายสบายใจ",
+   "frame": "entity"
   },
   {
    "th": "ความสุข",
@@ -484,13 +554,18 @@
     "ความ",
     "สุข"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + happiness",
+   "lit_th": "เรื่อง + ความสบายกายสบายใจ",
+   "frame": "entity"
   },
   {
    "th": "สุขทุกข์",
@@ -515,7 +590,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ทุกข์"
+   ],
+   "lit": "happiness + suffering",
+   "lit_th": "ความสบายกายสบายใจ + ความยากลำบาก",
+   "flips_with": "ทุกข์สุข",
+   "frame": "entity"
   },
   {
    "th": "สุขภาพ",
@@ -541,7 +625,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "happiness + image",
+   "lit_th": "ความสบายกายสบายใจ + ความมี",
+   "frame": "entity"
   },
   {
    "th": "ทุกข์สุข",
@@ -566,7 +655,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ทุกข์"
+   ],
+   "lit": "suffering + happiness",
+   "lit_th": "ความยากลำบาก + ความสบายกายสบายใจ",
+   "flips_with": "สุขทุกข์",
+   "frame": "entity"
   },
   {
    "th": "สุขนาฏกรรม",
@@ -591,7 +689,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "happiness + dance",
+   "lit_th": "ความสบายกายสบายใจ + การละครหรือการฟ้อนรำ",
+   "frame": "entity"
   },
   {
    "th": "สาธารณสุข",
@@ -617,7 +720,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ สาธารณะ + ความสบายกายสบายใจ",
+   "frame": "quality"
   },
   {
    "th": "สุขภัณฑ์",
@@ -642,7 +749,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ภัณฑ์"
+   ],
+   "lit": "happiness + goods",
+   "lit_th": "ความสบายกายสบายใจ + สิ่งของ",
+   "frame": "entity"
   }
  ],
  "etymology": {

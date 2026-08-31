@@ -1,7 +1,7 @@
 {
  "id": "w:sa",
  "th": "สระ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "sa",
  "paiboon": "sà",
  "ipa": "/saʔ˨˩/",
@@ -13,10 +13,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "vowel"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนขุด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -34,17 +34,22 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: สระ 'pond'.",
+    "Declared root: สระ 'pond'.",
+    "Declared root: สระ 'pond'.",
+    "Declared root: สระ 'pond'.",
+    "Declared root: สระ 'pond'."
    ]
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "vowel"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "เสียงพูดที่เปล่งออกมาโดยอาศัยการเคลื่อนไหวของลิ้นและริมฝีปากเป็นสำคัญ แต่ไม่มีการสกัดกั้นจากอวัยวะส่วนใดส่วนหนึ่งในปาก เช่น เสียง อะ อา โดยทั่วไปจะออกเสียงสระร่วมกับเสียงพยัญชนะหรือออกเสียงเฉพาะเสียงสระอย่างเดียวก็ได้, เสียงสระ ก็เรียก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -60,16 +65,23 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สระ 'vowel' < Skt svara.",
+    "Declared root: สระ 'vowel' < Skt svara.",
+    "Declared root: สระ 'vowel' < Skt svara.",
+    "Declared root: สระ 'vowel' < Skt svara.",
+    "Declared root: สระ 'vowel' < Skt svara."
    ]
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "vowel"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ตัวอักษรที่ใช้แทนเสียงสระ เช่นะ า, รูปสระ ก็เรียก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -110,18 +122,30 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "รูป"
+     ],
+     "lit": "image + vowel",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1 + ตัวอักษรที่ใช้แทนเสียงสระ เช่นะ า",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "The vowel sound names the letter that writes it.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "vowel"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "เสียง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -137,16 +161,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "And loosened to sound generally.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "vowel"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ฟอกให้สะอาดหมดจด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -162,16 +190,23 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สระ 'to wash, to cleanse'.",
+    "Declared root: สระ 'to wash, to cleanse'.",
+    "Declared root: สระ 'to wash, to cleanse'.",
+    "Declared root: สระ 'to wash, to cleanse'.",
+    "Declared root: สระ 'to wash, to cleanse'."
    ]
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "vowel"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ชำระล้างให้สะอาด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -187,7 +222,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 5,
+   "via": "generalisation",
+   "via_note": "Washing widened to cleansing of any kind.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -257,7 +296,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + รูปเลิกใช้ของ จระเข้",
+     "frame": "entity"
     },
     {
      "th": "สระพระ",
@@ -283,7 +326,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "sa as an element in place names + the honorific prefix phra",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ",
+     "frame": "entity"
     },
     {
      "th": "สระสี่เหลี่ยม",
@@ -309,7 +360,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
     },
     {
      "th": "เวียงสระ",
@@ -335,7 +389,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เมืองที่มีกำแพงล้อม + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "สระโบสถ์",
@@ -361,7 +419,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "sa as an element in place names + temple",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สถานที่สำหรับพระสงฆ์ใช้ประชุมทำสัง",
+     "frame": "entity"
     },
     {
      "th": "สระขวัญ",
@@ -387,7 +450,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "sa as an element in place names + khwan",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
     },
     {
      "th": "สระใคร",
@@ -413,7 +484,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PRON",
+     "head": 0,
+     "lit": "sa as an element in place names + who",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คนไหน"
     },
     {
      "th": "สระตะเคียน",
@@ -439,7 +514,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Hopea odora",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -459,6 +538,8 @@
   "Attested in this corpus: 0 manuscript titles, 23 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['ลิ้น', 'อวัยวะ', 'ปาก', 'ขน'].",
@@ -481,13 +562,16 @@
     "สระ",
     "อู"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "frame": "entity"
   },
   {
    "th": "สระบุรี",
@@ -512,7 +596,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "บุรี"
+   ],
+   "lit": "vowel + town",
+   "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + เมือง",
+   "frame": "entity"
   },
   {
    "th": "สระยาว",
@@ -537,7 +629,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "ยาว"
+   ],
+   "lit": "vowel + long",
+   "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+   "frame": "quality"
   },
   {
    "th": "ทีฆสระ",
@@ -562,7 +662,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ยาว + แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข",
+   "frame": "quality"
   },
   {
    "th": "สระแก้ว",
@@ -587,7 +691,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "vowel + glass",
+   "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + วัตถุแข็ง ใส ทำจากทรายหลอม",
+   "frame": "entity"
   },
   {
    "th": "สระสั้น",
@@ -612,7 +721,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "vowel + short",
+   "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + ลักษณะส่วนหนึ่งของสิ่งใด ๆ มีกำหนด",
+   "frame": "quality"
   },
   {
    "th": "สระอา",
@@ -632,13 +746,21 @@
     "สระ",
     "อา"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "อา"
+   ],
+   "lit": "vowel + father's younger sibling",
+   "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + น้องชายหรือน้องสาวของพ่อ",
+   "frame": "entity"
   },
   {
    "th": "สระลอย",
@@ -663,7 +785,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ลอย"
+   ],
+   "lit": "vowel + float",
+   "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + ทรงตัวอยู่ในอากาศ"
   },
   {
    "th": "รัสสระ",
@@ -688,7 +817,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "สั้น + แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข",
+   "frame": "quality"
   },
   {
    "th": "การสระ",
@@ -708,13 +841,17 @@
     "การ",
     "สระ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข",
+   "frame": "entity"
   },
   {
    "th": "สระจม",
@@ -739,7 +876,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "vowel + drop",
+   "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + หายลงไปหรืออยู่ใต้ผิวพื้น"
   }
  ],
  "etymology": {
@@ -748,5 +889,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "vowel"
+ ]
 }

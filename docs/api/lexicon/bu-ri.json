@@ -13,11 +13,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "town",
+     "city"
     ],
     "th": "เมือง",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -57,7 +59,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ จันท์ + เมือง",
+     "frame": "entity"
     },
     {
      "th": "สุพรรณบุรี",
@@ -83,7 +89,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ทอง + เมือง",
+     "frame": "entity"
     },
     {
      "th": "สระบุรี",
@@ -109,7 +119,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สระ"
+     ],
+     "lit": "vowel + town",
+     "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + เมือง",
+     "frame": "entity"
     },
     {
      "th": "สิงห์บุรี",
@@ -135,7 +153,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สิงโต + เมือง",
+     "frame": "entity"
     },
     {
      "th": "ลพบุรี",
@@ -161,7 +183,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "การตัด + เมือง",
+     "frame": "entity"
     },
     {
      "th": "ชลบุรี",
@@ -187,7 +213,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "น้ำ + เมือง",
+     "frame": "entity"
     },
     {
      "th": "ราชบุรี",
@@ -213,7 +243,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ราช"
+     ],
+     "lit": "king + town",
+     "lit_th": "พระเจ้าแผ่นดิน + เมือง",
+     "frame": "entity"
     },
     {
      "th": "ปราจีนบุรี",
@@ -239,7 +277,10 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "รูปตัดทอนของ ปราจีนบุรี + เมือง"
     },
     {
      "th": "เพชรบุรี",
@@ -265,7 +306,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "diamond + town",
+     "lit_th": "ชื่อแก้วที่แข็งที่สุดและมีน้ำแวววา + เมือง",
+     "frame": "entity"
     },
     {
      "th": "กาญจนบุรี",
@@ -291,7 +337,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ กาญจน์ + เมือง",
+     "frame": "entity"
     }
    ]
   },
@@ -363,7 +413,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "รุ่งเรือง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "กบินทร์บุรี",
@@ -389,7 +443,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "พญาลิง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "พรหมบุรี",
@@ -415,7 +473,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อพระเป็นเจ้าผู้สร้างโลก + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "รัตนบุรี",
@@ -441,7 +502,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ รัตนะ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ชุมพลบุรี",
@@ -467,7 +532,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "รวบรวมกำลังไพร่พล + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "อินทร์บุรี",
@@ -493,7 +561,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อเทวราชผู้เป็นใหญ่ในสวรรค์ชั้นด + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "วิเชียรบุรี",
@@ -519,7 +590,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "วชิระ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "โนนบุรี",
@@ -545,7 +620,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โนน"
+     ],
+     "lit": "mound + bu-ri as an element in place names",
+     "lit_th": "เนิน + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ชัยบุรี",
@@ -571,7 +654,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ชัย"
+     ],
+     "lit": "victory + bu-ri as an element in place names",
+     "lit_th": "การชนะ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "กระบุรี",
@@ -597,7 +688,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "frame": "entity"
     },
     {
      "th": "ปราณบุรี",
@@ -623,7 +717,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ลมหายใจ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ธนบุรี",
@@ -649,7 +747,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ทรัพย์สิน + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "มีนบุรี",
@@ -675,7 +777,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ปลา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "สายบุรี",
@@ -701,7 +807,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สาย"
+     ],
+     "lit": "late + bu-ri as an element in place names",
+     "lit_th": "เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0 + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -749,7 +863,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ นนท์ + เมือง",
+   "frame": "entity"
   }
  ],
  "etymology": {

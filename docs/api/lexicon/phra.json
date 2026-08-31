@@ -86,7 +86,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "รูป"
+     ],
+     "lit": "the honorific prefix phra + image",
+     "lit_th": "พระพุทธรูป + สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1",
+     "frame": "entity"
     }
    ],
    "extends": 8,
@@ -169,7 +177,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + คิ้ว",
+     "frame": "entity"
     },
     {
      "th": "โกรกพระ",
@@ -194,7 +206,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เทให้ไหลเรื่อยไปยังที่หมาย + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท"
     },
     {
      "th": "พระบุ",
@@ -219,7 +234,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + ตีให้เข้ารูป"
     },
     {
      "th": "ทางพระ",
@@ -244,7 +262,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทาง"
+     ],
+     "lit": "way + the honorific prefix phra",
+     "lit_th": "ที่สำหรับเดินไปมา + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
     },
     {
      "th": "ขนงพระ",
@@ -269,7 +295,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "คิ้ว + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
     },
     {
      "th": "สระพระ",
@@ -294,7 +324,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สระ"
+     ],
+     "lit": "vowel + the honorific prefix phra",
+     "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
     },
     {
      "th": "บึงพระ",
@@ -319,7 +357,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บึง"
+     ],
+     "lit": "marsh + the honorific prefix phra",
+     "lit_th": "แหล่งน้ำขนาดใหญ่ มีน้ำขังตลอดปี + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
     },
     {
      "th": "พระแสง",
@@ -344,7 +390,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แสง"
+     ],
+     "lit": "the honorific prefix phra + light",
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + ความสว่าง",
+     "frame": "entity"
     },
     {
      "th": "พระสิงห์",
@@ -369,7 +423,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + สิงโต",
+     "frame": "entity"
     },
     {
      "th": "จอมพระ",
@@ -394,7 +452,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ยอดที่สูงสุดของสิ่งที่มีฐานใหญ่ปลา + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
     },
     {
      "th": "พระพรหม",
@@ -419,7 +481,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + ชื่อพระเป็นเจ้าผู้สร้างโลก"
     },
     {
      "th": "ท่าพระ",
@@ -444,7 +509,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + the honorific prefix phra",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
     },
     {
      "th": "พระลับ",
@@ -469,7 +542,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลับ"
+     ],
+     "lit": "the honorific prefix phra + to whet",
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + ถูให้คม"
     },
     {
      "th": "บางพระ",
@@ -494,7 +574,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + the honorific prefix phra",
+     "lit_th": "ทางน้ำเล็ก ๆ + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
     },
     {
      "th": "พระทองคำ",
@@ -519,7 +607,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + ธาตุลำดับที่ 79 สัญลักษณ์ Au เป็นโ",
+     "frame": "entity"
     },
     {
      "th": "พบพระ",
@@ -544,7 +636,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "discover + the honorific prefix phra",
+     "lit_th": "เห็น + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท"
     },
     {
      "th": "พระยืน",
@@ -569,7 +665,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "the honorific prefix phra + stand",
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + ตั้งอยู่"
     },
     {
      "th": "หนองพระ",
@@ -594,7 +694,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + the honorific prefix phra",
+     "lit_th": "แอ่งน้ำ + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
     },
     {
      "th": "ปากพระ",
@@ -619,7 +727,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ปาก"
+     ],
+     "lit": "mouth + the honorific prefix phra",
+     "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
     }
    ],
    "extends": 3,
@@ -674,7 +790,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + the honorific prefix phra",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + พระเจ้า",
+     "frame": "entity"
     },
     {
      "th": "พระเจ้า",
@@ -701,7 +825,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "the honorific prefix phra + thou",
+     "lit_th": "พระเจ้า + ผู้เป็นใหญ่",
+     "frame": "entity"
     }
    ],
    "extends": 8,
@@ -786,7 +918,13 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "the honorific prefix phra + one",
+     "lit_th": "ตัวเอกในเรื่องละคร + หนึ่ง"
     }
    ],
    "extends": 8,
@@ -798,11 +936,14 @@
    "n": 8,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 8]"
+     "the honorific prefix phra",
+     "sacred",
+     "venerable"
     ],
     "th": "ใช้ประกอบหน้าคำอื่นแสดงความยกย่อง เช่น เทพเจ้าหรือเทวดาผู้เป็นใหญ่ พระเจ้าแผ่นดินหรือของที่เกี่ยวข้องกับพระเจ้าแผ่นดินและเจ้านายชั้นสูง สมณศักดิ์ชั้นราชาคณะ นักบวช และสิ่งศักดิ์สิทธิ์",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -865,7 +1006,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "the honorific prefix phra + at",
+     "lit_th": "อิสริยยศเจ้านาย + แหล่ง",
+     "frame": "entity"
     },
     {
      "th": "พระหัตถเลขา",
@@ -890,7 +1036,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + จดหมาย",
+     "frame": "entity"
     },
     {
      "th": "พระอักษร",
@@ -915,7 +1065,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "the honorific prefix phra + letter",
+     "lit_th": "อิสริยยศเจ้านาย + ตัวหนังสือ",
+     "frame": "entity"
     },
     {
      "th": "พระรูปชี",
@@ -940,7 +1095,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + นักบวชหญิง",
+     "frame": "entity"
     }
    ],
    "extends": 8,
@@ -995,7 +1154,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยา"
+     ],
+     "lit": "the honorific prefix phra + medicine",
+     "lit_th": "บรรดาศักดิ์ข้าราชการสูงกว่าหลวง ต่ + สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ",
+     "frame": "entity"
     }
    ],
    "extends": 9,
@@ -1078,7 +1245,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "heart + the honorific prefix phra",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + โดยปริยายหมายถึงผู้ที่มีเมตตากรุณา",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -1126,6 +1301,7 @@
   "Attested in this corpus: 418 manuscript titles, 2855 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 50; domain seeded by keyword hits ['override'].",
@@ -1153,7 +1329,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "รอง"
+   ],
+   "lit": "the honorific prefix phra + deputy",
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
   },
   {
    "th": "พระสำอาง",
@@ -1177,7 +1360,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เครื่องแป้งเครื่องหอม",
+   "frame": "entity"
   },
   {
    "th": "พระภูษา",
@@ -1201,7 +1388,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เครื่องนุ่งห่ม",
+   "frame": "entity"
   },
   {
    "th": "พระตะพาบ",
@@ -1225,7 +1416,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ชื่อเต่าน้ำจืดกระดองอ่อนหลายชนิดหล",
+   "frame": "entity"
   },
   {
    "th": "พระสมณสาสน์",
@@ -1249,7 +1444,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + จดหมายของสมเด็จพระสังฆราชหรือประมุ",
+   "frame": "entity"
   },
   {
    "th": "พระสุคนธ์",
@@ -1273,7 +1472,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + กลิ่นหอม",
+   "frame": "entity"
   },
   {
    "th": "พระองค์",
@@ -1298,7 +1501,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ส่วนของร่างกาย",
+   "frame": "entity"
   },
   {
    "th": "พระคุณ",
@@ -1323,7 +1530,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "คุณ"
+   ],
+   "lit": "the honorific prefix phra + you",
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค"
   },
   {
    "th": "พระฉวี",
@@ -1347,7 +1560,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ผิวกาย",
+   "frame": "entity"
   },
   {
    "th": "พระเพลิง",
@@ -1367,13 +1584,17 @@
     "พระ",
     "เพลิง"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ไฟ",
+   "frame": "entity"
   },
   {
    "th": "พระนคร",
@@ -1398,7 +1619,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "นคร"
+   ],
+   "lit": "the honorific prefix phra + city",
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เมืองใหญ่",
+   "frame": "entity"
   },
   {
    "th": "พระแผง",
@@ -1423,7 +1652,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เครื่องสานชนิดหนึ่ง เป็นแผ่นอย่างเ",
+   "frame": "entity"
   },
   {
    "th": "พระสังวาล",
@@ -1447,7 +1680,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + สร้อยเครื่องประดับชนิดหนึ่งใช้คล้อ",
+   "frame": "entity"
   },
   {
    "th": "พระสุพรรณศรี",
@@ -1471,7 +1708,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + กระโถนเล็ก",
+   "frame": "entity"
   },
   {
    "th": "พระเขี้ยวแก้ว",
@@ -1496,7 +1737,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เขี้ยวของพระพุทธเจ้า",
+   "frame": "entity"
   },
   {
    "th": "พระแท่น",
@@ -1516,13 +1761,17 @@
     "พระ",
     "แท่น"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ที่นั่งที่นอน มีลักษณะเหมือนมีฐานท",
+   "frame": "entity"
   },
   {
    "th": "พระเมรุมาศ",
@@ -1547,7 +1796,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เมรุทอง",
+   "frame": "entity"
   },
   {
    "th": "พระทรงธรรม",
@@ -1572,7 +1825,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ฟังธรรม"
   },
   {
    "th": "พระมังสา",
@@ -1596,7 +1852,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เนื้อของคนและสัตว์",
+   "frame": "entity"
   },
   {
    "th": "พระพิมพ์",
@@ -1621,7 +1881,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "พิมพ์"
+   ],
+   "lit": "the honorific prefix phra + print",
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + รูป",
+   "frame": "entity"
   },
   {
    "th": "พระพุทธ",
@@ -1641,13 +1909,21 @@
     "พระ",
     "พุทธ"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "พุทธ"
+   ],
+   "lit": "the honorific prefix phra + the awakened one",
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ผู้ตรัสรู้",
+   "frame": "entity"
   }
  ],
  "etymology": {

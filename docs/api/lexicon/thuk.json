@@ -1,7 +1,7 @@
 {
  "id": "w:thuk",
  "th": "ทุกข์",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "thuk",
  "paiboon": "túk",
  "ipa": "/tʰuk̚˦˥/",
@@ -12,11 +12,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "suffering",
+     "hardship",
+     "dukkha"
     ],
     "th": "ความยากลำบาก, ความไม่สบายกายไม่สบายใจ, ความทนได้ยาก, ความทนอยู่ในสภาพเดิมไม่ได้",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -51,7 +54,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The suffering names the state of the one who has it.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -63,6 +70,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 0 manuscript titles, 5 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -92,7 +100,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ออก"
+   ],
+   "lit": "tear + suffering",
+   "lit_th": "คำนำหน้าบรรดาศักดิ์ + ความยากลำบาก",
+   "frame": "entity"
   },
   {
    "th": "ปรับทุกข์",
@@ -117,7 +133,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "key + suffering",
+   "lit_th": "บอก + ความยากลำบาก"
   },
   {
    "th": "การปลดทุกข์",
@@ -137,13 +157,17 @@
     "การปลด",
     "ทุกข์"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ปลด + ความยากลำบาก",
+   "frame": "entity"
   },
   {
    "th": "ปลดทุกข์",
@@ -168,7 +192,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "quit + suffering",
+   "lit_th": "เอาออก + ความยากลำบาก"
   },
   {
    "th": "ร้องทุกข์",
@@ -193,7 +221,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ร้อง"
+   ],
+   "lit": "sing + suffering",
+   "lit_th": "เปล่งเสียงดัง + ความยากลำบาก"
   },
   {
    "th": "สุขทุกข์",
@@ -218,7 +253,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "สุข"
+   ],
+   "lit": "happiness + suffering",
+   "lit_th": "ความสบายกายสบายใจ + ความยากลำบาก",
+   "flips_with": "ทุกข์สุข",
+   "frame": "entity"
   },
   {
    "th": "การออกทุกข์",
@@ -238,13 +282,17 @@
     "การออก",
     "ทุกข์"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ออก + ความยากลำบาก",
+   "frame": "entity"
   },
   {
    "th": "ทุกข์ร้อน",
@@ -269,7 +317,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "ร้อน"
+   ],
+   "lit": "suffering + hot",
+   "lit_th": "ความยากลำบาก + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
   },
   {
    "th": "ทุกข์สุข",
@@ -294,7 +350,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "สุข"
+   ],
+   "lit": "suffering + happiness",
+   "lit_th": "ความยากลำบาก + ความสบายกายสบายใจ",
+   "flips_with": "สุขทุกข์",
+   "frame": "entity"
   },
   {
    "th": "ไว้ทุกข์",
@@ -319,7 +384,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "เก็บเข้าที่ + ความยากลำบาก"
   },
   {
    "th": "ความทุกข์",
@@ -339,13 +407,18 @@
     "ความ",
     "ทุกข์"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + suffering",
+   "lit_th": "เรื่อง + ความยากลำบาก",
+   "frame": "entity"
   },
   {
    "th": "การร้องทุกข์",
@@ -365,13 +438,17 @@
     "การร้อง",
     "ทุกข์"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ร้อง + ความยากลำบาก",
+   "frame": "entity"
   },
   {
    "th": "แขนทุกข์",
@@ -396,7 +473,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "อวัยวะที่ต่อจากไหล่ทั้ง 2 ข้าง + ความยากลำบาก",
+   "frame": "entity"
   },
   {
    "th": "การไว้ทุกข์",
@@ -416,13 +497,17 @@
     "การไว้",
     "ทุกข์"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ไว้ + ความยากลำบาก",
+   "frame": "entity"
   },
   {
    "th": "การปรับทุกข์",
@@ -442,13 +527,17 @@
     "การปรับ",
     "ทุกข์"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ปรับ + ความยากลำบาก",
+   "frame": "entity"
   }
  ],
  "etymology": {

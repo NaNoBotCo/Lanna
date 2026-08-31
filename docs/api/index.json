@@ -311,6 +311,14 @@
       "count": 6986
     },
     {
+      "path": "/api/phasa/{id}.json",
+      "url": "https://wichaa.net/api/phasa/{id}.json",
+      "description": "Phasa data.",
+      "format": "application/json",
+      "templated": true,
+      "count": 4
+    },
+    {
       "path": "/api/place/{id}.json",
       "url": "https://wichaa.net/api/place/{id}.json",
       "description": "One place in full: all photographs with per-image author and licence, the complete sectioned Wikipedia article in Thai and English, contact and hours where recorded, and a `facets` block.",

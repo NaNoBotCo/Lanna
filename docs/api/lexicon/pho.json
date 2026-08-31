@@ -1,7 +1,7 @@
 {
  "id": "w:pho",
  "th": "โพธิ์",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "pho",
  "paiboon": "poo",
  "ipa": "/pʰoː˧/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "enlightenment",
+     "bodhi"
     ],
     "th": "ความตรัสรู้",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -82,7 +84,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โคก"
+     ],
+     "lit": "mound + enlightenment",
+     "lit_th": "ที่ดินที่นูนสูงขึ้นคล้ายเนิน แต่เต + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
     },
     {
      "th": "โพธิ์ไชย",
@@ -107,7 +117,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + ดีกว่า",
+     "frame": "quality"
     },
     {
      "th": "กกโพธิ์",
@@ -132,7 +146,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กก"
+     ],
+     "lit": "the -k final spelling class + enlightenment",
+     "lit_th": "เรียกคำหรือพยางค์ที่มีตัว ก ข ค ฆ + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
     },
     {
      "th": "ห้วยโพธิ์",
@@ -157,7 +179,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ห้วย"
+     ],
+     "lit": "stream pool + enlightenment",
+     "lit_th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขา + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
     },
     {
      "th": "บ่อโพธิ์",
@@ -182,7 +212,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ่อ"
+     ],
+     "lit": "well + enlightenment",
+     "lit_th": "ช่องลึกลงไปในดินหรือในหินใช้เป็นที + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
     },
     {
      "th": "นาโพธิ์",
@@ -207,7 +245,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + enlightenment",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
     },
     {
      "th": "วังโพธิ์",
@@ -232,7 +278,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + enlightenment",
+     "lit_th": "ที่อยู่ของเจ้านาย + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
     },
     {
      "th": "โพธิ์กลาง",
@@ -257,7 +311,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "enlightenment + middle",
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
     },
     {
      "th": "โพธิ์ไทร",
@@ -282,7 +344,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + ชื่อไม้ต้นในสกุล Ficus วงศ์ Morace",
+     "frame": "entity"
     },
     {
      "th": "ท่าโพธิ์",
@@ -307,7 +373,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + enlightenment",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
     },
     {
      "th": "โพธิ์ตาก",
@@ -332,7 +406,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + ผึ่งให้แห้ง"
     },
     {
      "th": "โพธิ์รังนก",
@@ -357,7 +434,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "enlightenment + nest",
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + รังของนกอีแอ่นชนิดหนึ่ง เมื่อแช่น้",
+     "frame": "entity"
     },
     {
      "th": "โพธิ์ชัย",
@@ -382,7 +464,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ชัย"
+     ],
+     "lit": "enlightenment + victory",
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + การชนะ",
+     "frame": "entity"
     },
     {
      "th": "โพธิ์ทอง",
@@ -407,7 +497,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "enlightenment + gold",
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
     },
     {
      "th": "บ้านโพธิ์",
@@ -432,7 +530,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + enlightenment",
+     "lit_th": "ที่อยู่อาศัย + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
     },
     {
      "th": "ถนนโพธิ์",
@@ -457,9 +563,18 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "drive + enlightenment",
+     "lit_th": "ดินที่พูนขึ้นเป็นคันสำหรับเป็นทางส + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The awakening names the tree it happened under.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",

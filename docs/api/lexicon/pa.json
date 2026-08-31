@@ -12,11 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "forest",
-     "wild"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก, ถ้ามีพรรณไม้ชนิดใดชนิดหนึ่งขึ้นอยู่มาก ก็เรียกตามพรรณไม้นั้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -62,7 +61,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไม้"
+     ],
+     "lit": "forest + wood",
+     "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "frame": "entity"
     },
     {
      "th": "ป่าดง",
@@ -88,7 +95,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ดง"
+     ],
+     "lit": "forest + deep forest",
+     "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + ป่าที่มีต้นไม้ใหญ่ขึ้นหนาแน่น",
+     "frame": "entity"
     },
     {
      "th": "ป่าไผ่",
@@ -113,7 +128,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไผ่"
+     ],
+     "lit": "forest + bamboo",
+     "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "ป่าสัก",
@@ -138,7 +161,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สัก"
+     ],
+     "lit": "forest + teak",
+     "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + ชื่อไม้ต้นชนิด Tectona grandis L.f",
+     "frame": "entity"
     }
    ]
   },
@@ -146,11 +177,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "forest",
-     "wild"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ที่ดินรวมตลอดถึง ภูเขา ห้วย หนอง คลอง บึง บาง ลำน้ำ ทะเลสาบ เกาะ และที่ชายทะเล ที่ยังมิได้มีบุคคลได้มาตามกฎหมาย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -176,11 +206,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "forest",
-     "wild"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "เรียกปลากัดหรือปลาเข็มที่เป็นพันธุ์เดิมตามธรรมชาติ ว่า ลูกป่า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -206,11 +235,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "forest",
-     "wild"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "เรียกตำบลที่มีของขายอย่างเดียวกันมาก ๆ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -236,11 +264,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "forest",
-     "wild"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ที่ได้มาจากป่าหรืออยู่ในป่า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -281,7 +308,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "by + forest",
+     "lit_th": "สิ่งต่าง ๆ + ที่ได้มาจากป่าหรืออยู่ในป่า",
+     "frame": "entity"
     },
     {
      "th": "สัตว์ป่า",
@@ -307,7 +342,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "animal + forest",
+     "lit_th": "สิ่งมีชีวิตซึ่งแตกต่างไปจากพรรณไม้ + ที่ได้มาจากป่าหรืออยู่ในป่า",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -319,11 +359,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "forest",
-     "wild"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ที่ห่างไกลความเจริญ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -365,7 +404,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "forest + animal",
+     "lit_th": "ที่ห่างไกลความเจริญ + ป่า",
+     "frame": "entity"
     },
     {
      "th": "บ้านป่า",
@@ -390,7 +434,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + forest",
+     "lit_th": "ที่อยู่อาศัย + ที่ห่างไกลความเจริญ",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -402,11 +454,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "forest",
-     "wild"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ตีดะไป ในคำว่า ตีป่า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -496,7 +547,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม่หย่อน",
+     "frame": "quality"
     },
     {
      "th": "ป่าบอน",
@@ -522,7 +577,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกหลายชนิดในวงศ์ Aracea",
+     "frame": "entity"
     },
     {
      "th": "แมวป่า",
@@ -548,7 +607,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "cat + pa as an element in place names",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Felis + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "การบูรป่า",
@@ -574,7 +638,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นชนิด Cinnamomum camphora + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "หมาป่า",
@@ -601,7 +669,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "canine + pa as an element in place names",
+     "lit_th": "สัตว์เลี้ยงลูกด้วยน้ำนมหลายชนิดหลา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ขนุนป่า",
@@ -627,7 +700,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "jackfruit + pa as an element in place names",
+     "lit_th": "ชื่อไม้ต้นขนาดกลางถึงขนาดใหญ่ชนิด + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ป่าคลอก",
@@ -653,7 +731,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อาการที่ไฟล้อมเผาหนีออกไม่ได้"
     },
     {
      "th": "ป่าปอ",
@@ -679,7 +760,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เส้นใยที่ทำจากเปลือกไม้บางชนิด",
+     "frame": "entity"
     },
     {
      "th": "ป่าบง",
@@ -705,7 +790,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไผ่ชนิด Bambusa natans Wall. e",
+     "frame": "entity"
     },
     {
      "th": "ป่าแดด",
@@ -731,7 +820,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แสงที่พุ่งจากดวงอาทิตย์ตรงมายังโลก",
+     "frame": "entity"
     },
     {
      "th": "นาป่า",
@@ -757,7 +850,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + pa as an element in place names",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ป่าตอง",
@@ -783,7 +884,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ใบไม้ขนาดใหญ่ใช้ห่อของได้ เช่น ใบก",
+     "frame": "entity"
     },
     {
      "th": "ป่าพุทรา",
@@ -809,7 +914,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Ziziphus mauritiana",
+     "frame": "entity"
     },
     {
      "th": "ป่าโมก",
@@ -835,7 +944,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Wrightia religiosa",
+     "frame": "entity"
     },
     {
      "th": "ป่างิ้ว",
@@ -861,7 +974,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Bombax ceib",
+     "frame": "entity"
     },
     {
      "th": "ป่าเมี่ยง",
@@ -887,7 +1004,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อต้นไม้ขนาดเล็กชนิด Camellia si",
+     "frame": "entity"
     },
     {
      "th": "ป่าป้อง",
@@ -913,7 +1034,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บังเพื่อกักหรือกั้นไว้"
     },
     {
      "th": "ป่าโปง",
@@ -939,7 +1063,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เรียกลักษณะแห่งสิ่งของที่ข้างในเป็",
+     "frame": "entity"
     },
     {
      "th": "ป่ามะนาว",
@@ -965,7 +1093,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "pa as an element in place names + key lime",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มชนิด Citrus aurantifoli",
+     "frame": "entity"
     },
     {
      "th": "ป่าตัน",
@@ -991,7 +1124,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม่กลวง",
+     "frame": "quality"
     },
     {
      "th": "ป่าแงะ",
@@ -1017,7 +1154,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + งัดให้เผยอขึ้น"
     },
     {
      "th": "ป่าลาน",
@@ -1043,7 +1183,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลาน"
+     ],
+     "lit": "pa as an element in place names + open ground",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บริเวณที่ว่าง",
+     "frame": "entity"
     },
     {
      "th": "ป่าไร่",
@@ -1069,7 +1217,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "pa as an element in place names + garden",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ปลูกพืชและต้นไม้บนไหล่เขาหรือใน",
+     "frame": "entity"
     },
     {
      "th": "ป่าแฝก",
@@ -1095,7 +1248,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อหญ้าชนิด Vetiveria zizanioides",
+     "frame": "entity"
     },
     {
      "th": "กรวยป่า",
@@ -1121,7 +1278,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "funnel + pa as an element in place names",
+     "lit_th": "รูปตันมีลักษณะฐานกลมและแหลมเรียวไป + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ตะกั่วป่า",
@@ -1147,7 +1309,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "lead + pa as an element in place names",
+     "lit_th": "แร่จำพวกโลหะ มีลักษณะอ่อน ละลายตัว + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ป่าติ้ว",
@@ -1173,7 +1340,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นหลายชนิดในสกุล Cratoxylu",
+     "frame": "entity"
     },
     {
      "th": "ป่าซาง",
@@ -1199,7 +1370,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไผ่หลายชนิดในสกุล Dendrocalamu",
+     "frame": "entity"
     },
     {
      "th": "ป่าตุ้ม",
@@ -1225,7 +1400,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ของที่มีลักษณะกลม ๆ ห้อยลงมา",
+     "frame": "entity"
     },
     {
      "th": "ป่าตาล",
@@ -1251,7 +1430,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อพืชชนิด Borassus flabellifer L",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -1271,7 +1454,8 @@
   "Attested in this corpus: 34 manuscript titles, 250 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
-  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 52; domain seeded by keyword hits ['toponym formative'].",
  "compounds_unassigned": [
@@ -1298,7 +1482,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ไก่"
+   ],
+   "lit": "chicken + forest",
+   "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+   "frame": "entity"
   },
   {
    "th": "ป่าแดง",
@@ -1323,7 +1515,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "แดง"
+   ],
+   "lit": "forest + red",
+   "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "กระต่ายป่า",
@@ -1347,7 +1547,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "rabbit + forest",
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยน้ำนมขนาดเล็ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+   "frame": "entity"
   },
   {
    "th": "สารภีป่า",
@@ -1372,7 +1577,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อไม้ต้น 2 ชนิดในสกุล Mammea วงศ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+   "frame": "entity"
   },
   {
    "th": "ตกั่วป่า",
@@ -1397,7 +1606,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปเลิกใช้ของ ตะกั่ว + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+   "frame": "entity"
   },
   {
    "th": "หัวป่า",
@@ -1422,7 +1635,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "หัว"
+   ],
+   "lit": "head + forest",
+   "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+   "frame": "entity"
   },
   {
    "th": "ป่าช้า",
@@ -1448,7 +1669,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "ช้า"
+   ],
+   "lit": "forest + slow",
+   "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + ค่อย ๆ เคลื่อนไป"
   },
   {
    "th": "แกงป่า",
@@ -1473,7 +1700,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แกง"
+   ],
+   "lit": "curry + forest",
+   "lit_th": "กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+   "frame": "entity"
   },
   {
    "th": "ไฟป่า",
@@ -1499,7 +1734,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ไฟ"
+   ],
+   "lit": "fire + forest",
+   "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+   "frame": "entity"
   },
   {
    "th": "ฮาป่า",
@@ -1524,7 +1767,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "หัวเราะเสียงดังพร้อมกัน เพราะขบขัน + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก"
   },
   {
    "th": "ป่าดงดิบ",
@@ -1549,7 +1795,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + ป่าที่มีต้นไม้หนาแน่นเขียวชอุ่มอยู",
+   "frame": "entity"
   },
   {
    "th": "หมูป่า",
@@ -1574,7 +1824,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "pig + forest",
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมหลายชนิด ใ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+   "frame": "entity"
   },
   {
    "th": "ป่าชัฏ",
@@ -1599,7 +1854,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + ป่ารก",
+   "frame": "quality"
   },
   {
    "th": "น้ำป่า",
@@ -1624,7 +1883,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "water + forest",
+   "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -1642,5 +1909,9 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "forest",
+  "wild"
+ ]
 }

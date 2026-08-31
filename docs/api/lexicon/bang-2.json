@@ -1,7 +1,7 @@
 {
  "id": "w:bang-2",
  "th": "บัง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "bang",
  "paiboon": "bang",
  "ipa": "/baŋ˧/",
@@ -12,11 +12,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "to screen",
+     "to shield",
+     "to hide"
     ],
     "th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ่าน ไม่ให้โดน",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -29,7 +32,11 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: บัง 'to screen, to hide'.",
+    "Declared root: บัง 'to screen, to hide'.",
+    "Declared root: บัง 'to screen, to hide'.",
+    "Declared root: บัง 'to screen, to hide'."
    ]
   },
   {
@@ -51,6 +58,12 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: บัง as address to a Malay or Indian man, from Malay abang 'elder brother'.",
+    "Declared root: บัง as address to a Malay or Indian man, from Malay abang 'elder brother'.",
+    "Declared root: บัง as address to a Malay or Indian man, from Malay abang 'elder brother'.",
+    "Declared root: บัง as address to a Malay or Indian man, from Malay abang 'elder brother'."
    ]
   }
  ],
@@ -63,6 +76,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 11 manuscript titles, 17 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -95,7 +109,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit": "to screen + tight",
+   "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + มีขนาดไม่พอดีกัน ทำให้แน่น ตึง หรื",
+   "frame": "quality"
   },
   {
    "th": "บังเกิด",
@@ -115,12 +134,17 @@
     "บัง",
     "เกิด"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to screen + bear",
+   "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + เป็นขึ้น",
+   "use": "false-split"
   },
   {
    "th": "บังโกลน",
@@ -144,7 +168,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + ห่วงสำหรับสอดเท้าเวลาขึ้นม้าหรือขี"
   },
   {
    "th": "บังเหียน",
@@ -170,7 +197,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + หัน"
   },
   {
    "th": "บังโคลน",
@@ -195,7 +225,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to screen + mud",
+   "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + ดินเหลว"
   },
   {
    "th": "กำบัง",
@@ -215,12 +249,20 @@
     "กำ",
     "บัง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "กำ"
+   ],
+   "lit": "to close the hand + to screen",
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ",
+   "use": "false-split"
   },
   {
    "th": "บังคน",
@@ -240,12 +282,20 @@
     "บัง",
     "คน"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "คน"
+   ],
+   "lit": "to screen + stir",
+   "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
+   "use": "false-split"
   },
   {
    "th": "บดบัง",
@@ -270,7 +320,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "mill + to screen",
+   "lit_th": "กดและถูให้เปลือกแตก ให้แหลก ให้เป็ + กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ"
   },
   {
    "th": "จำบัง",
@@ -295,7 +349,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "remember + to screen",
+   "lit_th": "กำหนดไว้ในใจ + กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ"
   },
   {
    "th": "บังอวด",
@@ -315,12 +373,16 @@
     "บัง",
     "อวด"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + สำแดงให้รู้เห็น",
+   "use": "false-split"
   },
   {
    "th": "การบดบัง",
@@ -340,13 +402,16 @@
     "การบด",
     "บัง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ บด + กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ"
   },
   {
    "th": "การปิดบัง",
@@ -366,13 +431,16 @@
     "การปิด",
     "บัง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ปิด + กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ"
   },
   {
    "th": "เบียดบัง",
@@ -397,7 +465,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "แทรกหรือเสียด + กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ"
   },
   {
    "th": "การกำบัง",
@@ -418,13 +489,16 @@
     "การกำ",
     "บัง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กำ + กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ"
   },
   {
    "th": "ปิดบัง",
@@ -450,7 +524,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "shut + to screen",
+   "lit_th": "กันหรือกั้นไว้ไม่ให้เผยออก + กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ"
   },
   {
    "th": "บังแทรก",
@@ -475,7 +553,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to screen + introduce",
+   "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + เข้าไปอยู่ในระหว่างสิ่งอื่นในลักษณ"
   },
   {
    "th": "บังสาด",
@@ -500,7 +582,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to screen + shower",
+   "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + เสื่อ"
   },
   {
    "th": "บังสูรย์",
@@ -525,7 +611,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + พระอาทิตย์"
   },
   {
    "th": "การบัง",
@@ -545,13 +634,16 @@
     "การ",
     "บัง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ"
   },
   {
    "th": "กาบัง",
@@ -571,13 +663,19 @@
     "กา",
     "บัง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กา"
+   ],
+   "lit": "crow + to screen"
   },
   {
    "th": "การเบียดบัง",
@@ -597,13 +695,16 @@
     "การเบียด",
     "บัง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เบียด + กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ"
   },
   {
    "th": "บังอาจ",
@@ -623,12 +724,16 @@
     "บัง",
     "อาจ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit": "to screen + may",
+   "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + กล้า ในคำว่า อาจหาญ",
+   "use": "false-split"
   },
   {
    "th": "บังคู่",
@@ -653,7 +758,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "คู่"
+   ],
+   "lit": "to screen + even",
+   "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + จำนวนที่หารด้วย 2 ลงตัว"
   }
  ],
  "etymology": {

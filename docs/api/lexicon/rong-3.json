@@ -1,7 +1,7 @@
 {
  "id": "w:rong-3",
  "th": "รอง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "rong",
  "paiboon": "rɔɔng",
  "ipa": "/rɔːŋ˧/",
@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "deputy"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกลงมา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -33,17 +33,22 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: รอง 'to catch what falls'.",
+    "Declared root: รอง 'to catch what falls'.",
+    "Declared root: รอง 'to catch what falls'.",
+    "Declared root: รอง 'to catch what falls'.",
+    "Declared root: รอง 'to catch what falls'."
    ]
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "deputy"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ต้านทานค้ำจุนให้คงอยู่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -59,16 +64,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Holding under to catch becomes holding under to support.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "deputy"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "หนุนให้สูงขึ้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -84,16 +93,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Putting something under to raise a thing.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "deputy"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "รองรับ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -109,16 +122,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Bearing, receiving what comes down.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "deputy"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "เป็นที่ 2 โดยตำแหน่ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -134,16 +151,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "The one underneath: second in rank — รองนายก, รองประธาน.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "deputy"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ถัดลงมาโดยอายุหรือตำแหน่ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -159,16 +180,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 5,
+   "via": "generalisation",
+   "via_note": "And next by age or standing.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "deputy"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ด้อยกว่า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -184,16 +209,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 5,
+   "via": "generalisation",
+   "via_note": "And so, lesser, inferior.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
    "gloss": {
     "en": [
-     "deputy"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "งามสุกใส",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -234,8 +263,19 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit_th": "มีแสงน้อย ๆ อย่างแมงคาเรืองหรือหิ่ + งามสุกใส",
+     "frame": "quality"
     }
+   ],
+   "needs_check": [
+    "Declared root: รอง 'bright, lustrous' — a separate word.",
+    "Declared root: รอง 'bright, lustrous' — a separate word.",
+    "Declared root: รอง 'bright, lustrous' — a separate word.",
+    "Declared root: รอง 'bright, lustrous' — a separate word.",
+    "Declared root: รอง 'bright, lustrous' — a separate word."
    ]
   }
  ],
@@ -250,6 +290,8 @@
   "Attested in this corpus: 5 manuscript titles, 184 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['ตก', 'ขึ้น', 'ลง', 'มา'].",
@@ -277,7 +319,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "พระ"
+   ],
+   "lit": "the honorific prefix phra + deputy",
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
   },
   {
    "th": "รองชนะเลิศ",
@@ -301,7 +350,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล + ผลงานที่ดีที่สุด"
   },
   {
    "th": "การทดรอง",
@@ -321,13 +373,16 @@
     "การทด",
     "รอง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ทด + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
   },
   {
    "th": "การกรอง",
@@ -347,13 +402,16 @@
     "การก",
     "รอง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ผู้กระทำ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
   },
   {
    "th": "การรอง",
@@ -373,13 +431,16 @@
     "การ",
     "รอง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
   },
   {
    "th": "รองเง็ง",
@@ -404,7 +465,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล + งงมาก"
   },
   {
    "th": "สำรอง",
@@ -425,13 +489,20 @@
     "สำ",
     "รอง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "biological"
+   "use": "biological",
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "สำ"
+   ],
+   "lit": "jumbled + deputy",
+   "lit_th": "ซับซ้อนกัน + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
   },
   {
    "th": "รองเท้า",
@@ -457,7 +528,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "deputy + foot",
+   "lit_th": "รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล + ตีน"
   },
   {
    "th": "การต่อรอง",
@@ -477,13 +552,17 @@
     "การต่อ",
     "รอง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "engagement + deputy",
+   "lit_th": "คำอาการนามของ ต่อ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
   },
   {
    "th": "นางรอง",
@@ -503,13 +582,20 @@
     "นาง",
     "รอง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "นาง"
+   ],
+   "lit": "Mrs + deputy",
+   "lit_th": "ผู้หญิง + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
   },
   {
    "th": "ทดรอง",
@@ -534,7 +620,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "กันไว้ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
   },
   {
    "th": "ต่อรอง",
@@ -559,7 +648,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ต่อ"
+   ],
+   "lit": "a + deputy",
+   "lit_th": "ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
   },
   {
    "th": "ชื่อรอง",
@@ -584,7 +680,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ชื่อ"
+   ],
+   "lit": "name + deputy",
+   "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
   },
   {
    "th": "รับรอง",
@@ -612,7 +715,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "รับ"
+   ],
+   "lit": "accept + deputy",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
   },
   {
    "th": "เมียรอง",
@@ -632,13 +742,17 @@
     "เมีย",
     "รอง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "wife + deputy",
+   "lit_th": "ภรรยา + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
   },
   {
    "th": "รองท้อง",
@@ -663,7 +777,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ท้อง"
+   ],
+   "lit": "deputy + carry",
+   "lit_th": "รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น"
   }
  ],
  "etymology": {
@@ -705,5 +826,8 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "deputy"
  ]
 }

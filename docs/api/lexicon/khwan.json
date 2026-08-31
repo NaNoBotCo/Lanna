@@ -71,11 +71,14 @@
    "n": 3,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 3]"
+     "khwan",
+     "the life-essence",
+     "soul-stuff"
     ],
     "th": "สิ่งที่ไม่มีตัวตน เชื่อกันว่ามีอยู่ประจำชีวิตของคนตั้งแต่เกิดมา ถ้าขวัญอยู่กับตัวก็เป็นสิริมงคล เป็นสุขสบายจิตใจมั่นคง ถ้าคนตกใจหรือเสียขวัญ ขวัญก็ออกจากร่างไป ทำให้คนนั้นได้รับผลร้ายต่าง ๆ และอนุโลมใช้ไปถึงสัตว์หรือสิ่งของบางอย่าง เช่น ช้าง ม้า ข้าว เรือน ฯลฯ ว่ามีขวัญเช่นเดียวกับคนเหมือนกัน",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -114,10 +117,28 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "bad + khwan",
+     "lit_th": "เสื่อมลงไป + สิ่งที่ไม่มีตัวตน เชื่อกันว่ามีอยู",
+     "flips_with": "ขวัญเสีย",
+     "frame": "act"
     }
    ],
    "needs_check": [
+    "Declared root: ขวัญ, the life-essence itself — the concept the hair-whorl and the blessing are both named from. See /khwan.",
+    "Declared root: ขวัญ, the life-essence itself — the concept the hair-whorl and the blessing are both named from. See /khwan.",
+    "Declared root: ขวัญ, the life-essence itself — the concept the hair-whorl and the blessing are both named from. See /khwan.",
+    "Declared root: ขวัญ, the life-essence itself — the concept the hair-whorl and the blessing are both named from. See /khwan.",
+    "Declared root: ขวัญ, the life-essence itself — the concept the hair-whorl and the blessing are both named from. See /khwan.",
+    "Declared root: ขวัญ, the life-essence itself — the concept the hair-whorl and the blessing are both named from. See /khwan.",
+    "Declared root: ขวัญ, the life-essence itself — the concept the hair-whorl and the blessing are both named from. See /khwan.",
+    "Declared root: ขวัญ, the life-essence itself — the concept the hair-whorl and the blessing are both named from. See /khwan.",
+    "Declared root: ขวัญ, the life-essence itself — the concept the hair-whorl and the blessing are both named from. See /khwan.",
     "Declared root: ขวัญ, the life-essence itself — the concept the hair-whorl and the blessing are both named from. See /khwan."
    ]
   },
@@ -169,7 +190,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "khwan + heart",
+     "lit_th": "ยอดกำลังใจ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
     },
     {
      "th": "ขวัญเมือง",
@@ -194,7 +223,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "khwan + town",
+     "lit_th": "ยอดกำลังใจ + แดน",
+     "frame": "entity"
     }
    ],
    "extends": 3,
@@ -250,7 +287,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ดี"
+     ],
+     "lit": "khwan + good",
+     "lit_th": "กำลังใจดี + มีลักษณะที่เป็นไปในทางที่ต้องการ น"
     }
    ],
    "extends": 4,
@@ -354,7 +398,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตลาด"
+     ],
+     "lit": "market + khwan as an element in place names",
+     "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เลาขวัญ",
@@ -380,7 +432,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อไม้ล้มลุกชนิด Saccharum sponta + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "สระขวัญ",
@@ -406,7 +462,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สระ"
+     ],
+     "lit": "vowel + khwan as an element in place names",
+     "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "บางขวัญ",
@@ -432,7 +496,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + khwan as an element in place names",
+     "lit_th": "ทางน้ำเล็ก ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เชียงขวัญ",
@@ -458,7 +530,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "คำเรียกเมืองทางภาคพายัพและเหนือขึ้ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -476,6 +552,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 43 manuscript titles, 148 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -505,7 +582,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ยอดที่สูงสุดของสิ่งที่มีฐานใหญ่ปลา + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "frame": "entity"
   },
   {
    "th": "ขวัญตา",
@@ -530,7 +611,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ตา"
+   ],
+   "lit": "khwan + eye",
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + พ่อของแม่",
+   "frame": "entity"
   },
   {
    "th": "ทำลายขวัญ",
@@ -555,7 +644,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "destroy + khwan",
+   "lit_th": "อาการที่ทำให้สิ่งซึ่งเป็นกลุ่มก้อน + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
   },
   {
    "th": "การทำขวัญ",
@@ -575,13 +668,21 @@
     "การทำ",
     "ขวัญ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "การทำ"
+   ],
+   "lit": "doing + khwan",
+   "lit_th": "คำอาการนามของ ทำ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "frame": "entity"
   },
   {
    "th": "การกล่าวขวัญ",
@@ -601,13 +702,17 @@
     "การกล่าว",
     "ขวัญ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กล่าว + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "frame": "entity"
   },
   {
    "th": "บำรุงขวัญ",
@@ -632,7 +737,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ทำให้งอกงาม + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
   },
   {
    "th": "ทำขวัญ",
@@ -657,7 +765,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ทำ"
+   ],
+   "lit": "do + khwan",
+   "lit_th": "กระทำ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
   },
   {
    "th": "ไข่ขวัญ",
@@ -682,7 +797,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ไข่"
+   ],
+   "lit": "egg + khwan",
+   "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "frame": "entity"
   },
   {
    "th": "มิ่งขวัญ",
@@ -707,7 +830,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สิ่งเป็นสิริมงคล + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "frame": "entity"
   },
   {
    "th": "รากขวัญ",
@@ -732,7 +859,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "root + khwan",
+   "lit_th": "ส่วนของต้นไม้ ตามปรกติอยู่ในดิน มี + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "frame": "entity"
   },
   {
    "th": "ข้าวขวัญ",
@@ -757,7 +889,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ข้าว"
+   ],
+   "lit": "rice + khwan",
+   "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "flips_with": "ขวัญข้าว",
+   "frame": "entity"
   },
   {
    "th": "การข่มขวัญ",
@@ -777,13 +918,17 @@
     "การข่ม",
     "ขวัญ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ข่ม + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "frame": "entity"
   },
   {
    "th": "หมอขวัญ",
@@ -808,7 +953,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "หมอ"
+   ],
+   "lit": "one who knows + khwan",
+   "lit_th": "ผู้รู้ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "frame": "entity"
   },
   {
    "th": "ขวัญเกี่ยง",
@@ -833,7 +986,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + อาการที่ต่างฝ่ายต่างไม่ยอมทำเพราะก"
   },
   {
    "th": "ขวัญหนี",
@@ -858,7 +1014,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "khwan + shy",
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ไปเสียให้พ้น"
   },
   {
    "th": "ขวัญแขวน",
@@ -883,7 +1043,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "khwan + depend",
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + เกี่ยวห้อยอยู่"
   },
   {
    "th": "ของขวัญ",
@@ -911,7 +1075,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ของ"
+   ],
+   "lit": "by + khwan",
+   "lit_th": "สิ่งต่าง ๆ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "frame": "entity"
   },
   {
    "th": "ขวัญอ่อน",
@@ -936,7 +1108,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "อ่อน"
+   ],
+   "lit": "khwan + young",
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ไม่กระด้าง"
   },
   {
    "th": "ลูกขวัญ",
@@ -961,7 +1140,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ลูก"
+   ],
+   "lit": "child + khwan",
+   "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "frame": "entity"
   },
   {
    "th": "กล่าวขวัญ",
@@ -986,7 +1173,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "บอก + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
   },
   {
    "th": "ขวัญข้าว",
@@ -1011,7 +1201,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ข้าว"
+   ],
+   "lit": "khwan + rice",
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ",
+   "flips_with": "ข้าวขวัญ",
+   "frame": "entity"
   },
   {
    "th": "การทำลายขวัญ",
@@ -1031,13 +1230,18 @@
     "การทำลาย",
     "ขวัญ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "hurt + khwan",
+   "lit_th": "คำอาการนามของ ทำลาย + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "frame": "entity"
   },
   {
    "th": "เมียขวัญ",
@@ -1062,7 +1266,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "wife + khwan",
+   "lit_th": "ภรรยา + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "frame": "entity"
   },
   {
    "th": "เรียกขวัญ",
@@ -1087,7 +1296,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "call + khwan",
+   "lit_th": "เปล่งเสียงเพื่อให้มาหรือให้ไปเป็นต + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
   },
   {
    "th": "รับขวัญ",
@@ -1112,7 +1325,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "รับ"
+   ],
+   "lit": "accept + khwan",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
   },
   {
    "th": "ข่มขวัญ",
@@ -1137,7 +1357,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "bluff + khwan",
+   "lit_th": "กดไว้ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
   },
   {
    "th": "ขวัญบิน",
@@ -1162,7 +1386,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "khwan + fly",
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ไปในอากาศด้วยกำลังปีกหรือเครื่องยน"
   },
   {
    "th": "ขวัญเสีย",
@@ -1187,7 +1415,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "เสีย"
+   ],
+   "lit": "khwan + bad",
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + เสื่อมลงไป",
+   "flips_with": "เสียขวัญ",
+   "frame": "state"
   },
   {
    "th": "ขวัญหาย",
@@ -1212,7 +1449,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "หาย"
+   ],
+   "lit": "khwan + all",
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + สูญ"
   },
   {
    "th": "ผูกขวัญ",
@@ -1237,7 +1481,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "tie + khwan",
+   "lit_th": "เอาเชือกเป็นต้นสอดคล้องกันให้เกิดเ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
   },
   {
    "th": "คำขวัญ",
@@ -1263,7 +1511,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "คำ"
+   ],
+   "lit": "word + khwan",
+   "lit_th": "เสียงพูด + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "frame": "entity"
   },
   {
    "th": "ขวัญบ่า",
@@ -1288,7 +1544,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "khwan + shoulder",
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ส่วนของร่างกายระหว่างคอกับหัวไหล่",
+   "frame": "entity"
   }
  ],
  "etymology": {

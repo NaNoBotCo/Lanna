@@ -1,7 +1,7 @@
 {
  "id": "w:sit",
  "th": "สิทธิ์",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "sit",
  "paiboon": "sìt",
  "ipa": "/sit̚˨˩/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "right",
+     "rightful power"
     ],
     "th": "อำนาจอันชอบธรรม",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -34,34 +36,7 @@
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
    ],
-   "compounds": [
-    {
-     "th": "ประสิทธิ์",
-     "rtgs": "pra-sit",
-     "ipa": "/pra˨˩.sit̚˨˩/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "ความสำเร็จ",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "ประ",
-      "สิทธิ์"
-     ],
-     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.23, next 0.13",
-     "conf": "probable",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ]
-    }
-   ]
+   "compounds": []
   },
   {
    "n": 2,
@@ -85,7 +60,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Rightful power narrowed to the right the law recognises.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -97,6 +76,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 0 manuscript titles, 117 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -126,7 +106,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "อำนาจ + อำนาจอันชอบธรรม",
+   "frame": "entity"
   },
   {
    "th": "นักสิทธิ์",
@@ -151,7 +135,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ใช้ประกอบหน้าคำอื่นหมายความว่า ผู้ + อำนาจอันชอบธรรม",
+   "frame": "entity"
   },
   {
    "th": "สละสิทธิ์",
@@ -177,7 +165,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "abdicate + right",
+   "lit_th": "ขนเม่น + อำนาจอันชอบธรรม",
+   "frame": "entity"
   },
   {
    "th": "อภิสิทธิ์",
@@ -202,7 +195,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ยิ่ง + อำนาจอันชอบธรรม",
+   "frame": "quality"
   },
   {
    "th": "ศักดิ์สิทธิ์",
@@ -228,7 +225,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "อำนาจ + อำนาจอันชอบธรรม",
+   "frame": "entity"
   },
   {
    "th": "เอกสิทธิ์",
@@ -255,7 +256,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "เอก"
+   ],
+   "lit": "one + right",
+   "lit_th": "หนึ่ง + อำนาจอันชอบธรรม"
   },
   {
    "th": "อาชญาสิทธิ์",
@@ -280,7 +287,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "อำนาจ + อำนาจอันชอบธรรม",
+   "frame": "entity"
   },
   {
    "th": "การประสิทธิ์",
@@ -300,13 +311,17 @@
     "การประ",
     "สิทธิ์"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ประ + อำนาจอันชอบธรรม",
+   "frame": "entity"
   },
   {
    "th": "กายสิทธิ์",
@@ -332,7 +347,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กาย"
+   ],
+   "lit": "body + right",
+   "lit_th": "ตัว + อำนาจอันชอบธรรม",
+   "frame": "entity"
   },
   {
    "th": "การทับสิทธิ์",
@@ -352,13 +375,17 @@
     "การทับ",
     "สิทธิ์"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ทับ + อำนาจอันชอบธรรม",
+   "frame": "entity"
   },
   {
    "th": "ทับสิทธิ์",
@@ -378,13 +405,21 @@
     "ทับ",
     "สิทธิ์"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ทับ"
+   ],
+   "lit": "hut + right",
+   "lit_th": "กระท่อมหรือสิ่งปลูกสร้างที่ทำอยู่ช + อำนาจอันชอบธรรม",
+   "frame": "entity"
   },
   {
    "th": "กรรมสิทธิ์",
@@ -409,7 +444,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กรรม"
+   ],
+   "lit": "karma + right",
+   "lit_th": "การ + อำนาจอันชอบธรรม",
+   "frame": "entity"
   },
   {
    "th": "การสละสิทธิ์",
@@ -429,13 +472,46 @@
     "การสละ",
     "สิทธิ์"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สละ + อำนาจอันชอบธรรม",
+   "frame": "entity"
+  },
+  {
+   "th": "ประสิทธิ์",
+   "rtgs": "pra-sit",
+   "ipa": "/pra˨˩.sit̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความสำเร็จ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ประ",
+    "สิทธิ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.23, next 0.13 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + อำนาจอันชอบธรรม",
+   "use": "false-split"
   }
  ],
  "etymology": {

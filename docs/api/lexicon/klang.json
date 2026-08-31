@@ -1,7 +1,7 @@
 {
  "id": "w:klang",
  "th": "กลาง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "klang",
  "paiboon": "glaang",
  "ipa": "/klaːŋ˧/",
@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "middle"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -57,7 +57,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เป็น"
+     ],
+     "lit": "are + middle",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง"
     }
    ]
   },
@@ -65,10 +72,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "middle"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ที่รวม, ที่รวมกิจการงานที่มีสาขาย่อยออกไป",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -81,16 +88,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The middle a set of branches runs back to: the centre, the head office.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "middle"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ในที่หรือเวลาระหว่าง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -129,7 +140,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ในที่หรือเวลาระหว่าง + ที่โล่งแห่งหนึ่ง ๆ",
+     "frame": "entity"
     },
     {
      "th": "กลางคัน",
@@ -155,9 +170,17 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ในที่หรือเวลาระหว่าง + สิ่งที่มีลักษณะยาวทำด้วยไม้เป็นต้น",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "In the midst of, whether of place or of time.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -227,7 +250,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "คำเรียกเมืองทางภาคพายัพและเหนือขึ้ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "บ้านกลาง",
@@ -253,7 +280,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + klang as an element in place names",
+     "lit_th": "ที่อยู่อาศัย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "โพธิ์กลาง",
@@ -279,7 +314,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "enlightenment + klang as an element in place names",
+     "lit_th": "ความตรัสรู้ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เหล่ากลาง",
@@ -305,7 +348,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "group + klang as an element in place names",
+     "lit_th": "พวก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ช้างกลาง",
@@ -331,7 +379,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "elephant + klang as an element in place names",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "นากลาง",
@@ -357,7 +413,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + klang as an element in place names",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ไกรกลาง",
@@ -383,7 +447,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่ในสกุล Ficus วงศ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "กลางดง",
@@ -409,7 +477,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ดง"
+     ],
+     "lit": "klang as an element in place names + deep forest",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ป่าที่มีต้นไม้ใหญ่ขึ้นหนาแน่น",
+     "frame": "entity"
     },
     {
      "th": "เกาะกลาง",
@@ -435,7 +511,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เกาะ"
+     ],
+     "lit": "island + klang as an element in place names",
+     "lit_th": "ส่วนของแผ่นดินที่มีน้ำล้อมรอบ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "โคกกลาง",
@@ -461,7 +545,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โคก"
+     ],
+     "lit": "mound + klang as an element in place names",
+     "lit_th": "ที่ดินที่นูนสูงขึ้นคล้ายเนิน แต่เต + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "กลางหมื่น",
@@ -487,7 +579,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit": "klang as an element in place names + ten thousand",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + จำนวนนับเท่ากับ 10 พัน"
     },
     {
      "th": "สันกลาง",
@@ -513,7 +608,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สัน"
+     ],
+     "lit": "ridge + klang as an element in place names",
+     "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -533,6 +636,8 @@
   "Attested in this corpus: 2 manuscript titles, 122 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 42; domain seeded by keyword hits —.",
@@ -560,7 +665,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "middle + month",
+   "frame": "entity"
   },
   {
    "th": "ปานกลาง",
@@ -585,7 +694,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "mark + middle",
+   "lit_th": "รอยสีแดงหรือสีดำเป็นต้นที่เกิดเป็น + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "กลางคืน",
@@ -611,7 +725,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "middle + back",
+   "lit_th": "ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง + ระยะเวลาตั้งแต่ย่ำค่ำถึงย่ำรุ่ง",
+   "frame": "entity"
   },
   {
    "th": "กลางหาว",
@@ -636,7 +755,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "middle + yawn",
+   "lit_th": "ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง + ที่แจ้ง",
+   "frame": "entity"
   },
   {
    "th": "ศูนย์กลาง",
@@ -661,7 +785,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit": "zero + middle",
+   "lit_th": "ว่างเปล่า + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "quality"
   },
   {
    "th": "สมัยกลาง",
@@ -686,7 +815,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "period + middle",
+   "lit_th": "เวลา + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "ช้อนกลาง",
@@ -711,7 +845,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "spoon + middle",
+   "lit_th": "เครื่องใช้สำหรับตักของกิน มีด้ามจั + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "คนกลาง",
@@ -737,7 +876,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "คน"
+   ],
+   "lit": "stir + middle",
+   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "flips_with": "กลางคน",
+   "frame": "entity"
   },
   {
    "th": "เดินสายกลาง",
@@ -762,7 +910,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ติดสายไฟฟ้าหรือสายโทรเลขโทรศัพท์เป + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง"
   },
   {
    "th": "กลางแจ้ง",
@@ -787,7 +938,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "middle + inform",
+   "lit_th": "ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง + แสดงให้รู้"
   },
   {
    "th": "อเมริกากลาง",
@@ -813,7 +968,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit_th": "ประเทศ ใน อเมริกาเหนือ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง"
   },
   {
    "th": "กลางคน",
@@ -838,7 +996,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "คน"
+   ],
+   "lit": "middle + stir",
+   "lit_th": "ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
+   "flips_with": "คนกลาง",
+   "frame": "entity"
   },
   {
    "th": "ยุคกลาง",
@@ -858,13 +1025,18 @@
     "ยุค",
     "กลาง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "generation + middle",
+   "lit_th": "แอก + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "กลางวัน",
@@ -891,7 +1063,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "วัน"
+   ],
+   "lit": "middle + day",
+   "lit_th": "ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง + ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง",
+   "frame": "entity"
   },
   {
    "th": "ภาษากลาง",
@@ -916,7 +1096,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ภาษา"
+   ],
+   "lit": "language + middle",
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "จีนกลาง",
@@ -941,7 +1129,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PROP+N",
+   "head": 1
   },
   {
    "th": "ศาลากลาง",
@@ -966,7 +1156,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "อาคารทรงไทย ปล่อยโถง ไม่กั้นฝา ใช้ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "ตัวกลาง",
@@ -991,7 +1185,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "form + middle",
+   "lit_th": "รูป + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "อักษรกลาง",
@@ -1016,7 +1218,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "letter + middle",
+   "lit_th": "ตัวหนังสือ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "กึ่งกลาง",
@@ -1041,7 +1248,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit": "half + middle",
+   "lit_th": "ครึ่งหนึ่ง + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "quality"
   },
   {
    "th": "นิ้วกลาง",
@@ -1066,7 +1278,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "finger + middle",
+   "lit_th": "ส่วนสุดของมือหรือเท้า แยกออกเป็น 5 + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "กลางค่ำ",
@@ -1091,7 +1308,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "middle + late",
+   "lit_th": "ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง + เรียกวันตามจันทรคติ",
+   "frame": "entity"
   },
   {
    "th": "กองกลาง",
@@ -1117,7 +1339,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "กอง"
+   ],
+   "lit": "desk + middle",
+   "lit_th": "ทำให้รวมสุมกันไว้ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง"
   },
   {
    "th": "ของกลาง",
@@ -1142,7 +1371,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ของ"
+   ],
+   "lit": "by + middle",
+   "lit_th": "สิ่งต่าง ๆ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "กลางทะเล",
@@ -1167,7 +1404,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ทะเล"
+   ],
+   "lit": "middle + sea",
+   "lit_th": "ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "entity"
   },
   {
    "th": "ตะวันออกกลาง",
@@ -1192,7 +1437,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ทิศที่ดวงอาทิตย์โผล่พ้นขอบฟ้า + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "entity"
   },
   {
    "th": "ใจกลาง",
@@ -1220,7 +1469,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "heart + middle",
+   "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -1238,5 +1495,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "middle"
+ ]
 }

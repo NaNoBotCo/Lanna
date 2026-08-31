@@ -1,7 +1,7 @@
 {
  "id": "w:he",
  "th": "เห",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "he",
  "paiboon": "hěe",
  "ipa": "/heː˩˩˦/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "to swerve",
+     "to turn aside"
     ],
     "th": "เบนไป",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -51,7 +53,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Swerving loosened to going astray.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -72,7 +78,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "And to leaning off true.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -84,6 +94,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 48 manuscript titles, 1906 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -113,7 +124,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เบนไป + น้องชายหรือน้องสาวของแม่"
   },
   {
    "th": "เหวง",
@@ -138,7 +152,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to swerve + zone",
+   "lit_th": "เบนไป + รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม"
   },
   {
    "th": "หันเห",
@@ -165,7 +183,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "ผันร่างไปทางใดทางหนึ่ง + เบนไป"
   },
   {
    "th": "เหยิง",
@@ -190,7 +211,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to swerve + shoot",
+   "lit_th": "เบนไป + ทำให้อาวุธเช่นลูกศรหรือลูกปืนแล่นอ"
   },
   {
    "th": "เหลิง",
@@ -215,7 +240,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to swerve + monkey",
+   "lit_th": "เบนไป + ชื่อสัตว์เลี้ยงลูกด้วยนมหลายชนิดใน"
   },
   {
    "th": "เหลือ",
@@ -241,7 +270,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เบนไป + พูดกันทั่วไป แต่ยังไม่มีอะไรยืนยัน"
   },
   {
    "th": "การเห",
@@ -261,13 +293,16 @@
     "การ",
     "เห"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + เบนไป"
   },
   {
    "th": "การหันเห",
@@ -287,13 +322,16 @@
     "การหัน",
     "เห"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หัน + เบนไป"
   },
   {
    "th": "เหล้ม",
@@ -318,7 +356,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to swerve + fall",
+   "lit_th": "เบนไป + กิริยาที่ตั้งอยู่แล้วเอนลงหรือทอดล"
   },
   {
    "th": "เหน่า",
@@ -343,7 +385,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit": "to swerve + -able"
   },
   {
    "th": "เหลา",
@@ -368,7 +412,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to swerve + ass",
+   "lit_th": "เบนไป + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus"
   },
   {
    "th": "เหมา",
@@ -393,7 +441,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "มา"
+   ],
+   "lit": "to swerve + come",
+   "lit_th": "เบนไป + เคลื่อนออกจากที่เข้าหาตัวผู้พูด"
   },
   {
    "th": "เหรอ",
@@ -418,7 +473,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to swerve + wait",
+   "lit_th": "เบนไป + หลักปักกันกระแสน้ำ"
   },
   {
    "th": "การหักเห",
@@ -438,13 +497,16 @@
     "การหัก",
     "เห"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หัก + เบนไป"
   },
   {
    "th": "เหล่า",
@@ -470,7 +532,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to swerve + hunt",
+   "lit_th": "เบนไป + เที่ยวติดตามหา"
   },
   {
    "th": "เหม่ง",
@@ -495,7 +561,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เบนไป + ชื่อหนึ่งของปลาทะเลในกลุ่มปลาหางแข"
   },
   {
    "th": "เหงา",
@@ -520,7 +589,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เบนไป + ชื่อไม้ล้มลุกชนิด Sesamum oriental"
   },
   {
    "th": "เหล้น",
@@ -545,7 +617,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เบนไป + พ้นหรือเลยระดับที่เปี่ยมอยู่แล้วจน"
   },
   {
    "th": "เหลน",
@@ -571,7 +646,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เบนไป + อังไฟเพื่อให้ร้อนแต่ผิว ๆ หรือให้อ"
   },
   {
    "th": "เหล้า",
@@ -597,7 +675,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit_th": "เบนไป + หย่อนแรงหรือกำลัง",
+   "frame": "quality"
   },
   {
    "th": "หักเห",
@@ -622,7 +704,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "tear + to swerve",
+   "lit_th": "พับงอ + เบนไป"
   }
  ],
  "etymology": {

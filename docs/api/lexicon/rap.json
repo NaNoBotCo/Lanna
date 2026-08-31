@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "accept",
-     "answer",
-     "admit",
-     "bear"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส่งให้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -43,13 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "accept",
-     "answer",
-     "admit",
-     "bear"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ถือเอาสิ่งของที่ผู้อื่นส่งมาให้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -75,13 +69,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "accept",
-     "answer",
-     "admit",
-     "bear"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ไปพบ ณ ที่ที่กำหนดเพื่ออำนวยความสะดวกหรือพาไปสู่ที่พัก, ต้อนรับ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -99,32 +90,6 @@
     "WIKT"
    ],
    "compounds": [
-    {
-     "th": "ตำรับ",
-     "rtgs": "tam-rap",
-     "ipa": "/tam˧.rap̚˨˩/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "ตำราที่กำหนดไว้เป็นเฉพาะแต่ละเรื่องละราย",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "ตำ",
-      "รับ"
-     ],
-     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.11, next 0.02",
-     "conf": "probable",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ]
-    },
     {
      "th": "ต้อนรับ",
      "rtgs": "ton-rap",
@@ -149,7 +114,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "สกัดกั้นให้ไปตามที่ต้องการ + ไปพบ ณ ที่ที่กำหนดเพื่ออำนวยความสะ"
     }
    ],
    "extends": 1,
@@ -161,13 +129,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "accept",
-     "answer",
-     "admit",
-     "bear"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "โดยปริยายใช้แก่นามธรรมก็ได้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -193,13 +158,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "accept",
-     "answer",
-     "admit",
-     "bear"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ให้คำตอบที่ไม่ปฏิเสธ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -242,7 +204,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "accept + word",
+     "lit_th": "ให้คำตอบที่ไม่ปฏิเสธ + เสียงพูด"
     }
    ],
    "extends": 1,
@@ -254,13 +223,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "accept",
-     "answer",
-     "admit",
-     "bear"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ยอมสารภาพ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -301,7 +267,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ผิด"
+     ],
+     "lit": "accept + false",
+     "lit_th": "ยอมสารภาพ + ไม่ตรงกับความจริงหรือที่กำหนดนิยมไ",
+     "frame": "quality"
     }
    ],
    "extends": 5,
@@ -313,13 +287,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "accept",
-     "answer",
-     "admit",
-     "bear"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ตกลงตาม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -345,13 +316,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "accept",
-     "answer",
-     "admit",
-     "bear"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "คล้องจอง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -377,13 +345,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "accept",
-     "answer",
-     "admit",
-     "bear"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "เหมาะเจาะ, เหมาะสม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -409,13 +374,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "accept",
-     "answer",
-     "admit",
-     "bear"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "ขานตอบ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -441,13 +403,10 @@
    "n": 11,
    "gloss": {
     "en": [
-     "accept",
-     "answer",
-     "admit",
-     "bear"
+     "[RID sense 11 — no English yet]"
     ],
     "th": "ต้าน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -473,13 +432,10 @@
    "n": 12,
    "gloss": {
     "en": [
-     "accept",
-     "answer",
-     "admit",
-     "bear"
+     "[RID sense 12 — no English yet]"
     ],
     "th": "ต่อเสียง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -513,6 +469,8 @@
   "Attested in this corpus: 5 manuscript titles, 1018 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 25; domain seeded by keyword hits ['ตก', 'ลง', 'ออก', 'ไป'].",
@@ -541,7 +499,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "มือ"
+   ],
+   "lit": "accept + hand",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา"
   },
   {
    "th": "รับรู้",
@@ -569,7 +534,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "รู้"
+   ],
+   "lit": "accept + know",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + แจ้ง"
   },
   {
    "th": "รับไหว้",
@@ -594,7 +566,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ทำความเคารพโดยยกมือขึ้นประนม"
   },
   {
    "th": "รับสั่ง",
@@ -619,7 +594,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "accept + order",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + บอกไว้เพื่อให้ทำหรือให้ปฏิบัติเป็น"
   },
   {
    "th": "รับหน้า",
@@ -644,7 +623,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "accept + before",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
   },
   {
    "th": "รายรับ",
@@ -670,7 +656,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "record + accept",
+   "lit_th": "เรื่อง ส่วน บุคคล หรือสิ่งซึ่งแยกก + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส"
   },
   {
    "th": "รับประทาน",
@@ -697,7 +687,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "accept + add",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ให้"
   },
   {
    "th": "รับใช้",
@@ -722,7 +716,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "accept + consume",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + บังคับให้ทำ"
   },
   {
    "th": "รับปาก",
@@ -747,7 +745,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ปาก"
+   ],
+   "lit": "accept + mouth",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
   },
   {
    "th": "รับจ้าง",
@@ -772,7 +777,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "accept + hire"
   },
   {
    "th": "รับฟัง",
@@ -798,7 +806,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "accept + hear",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ตั้งใจสดับ"
   },
   {
    "th": "การต้อนรับ",
@@ -818,13 +830,16 @@
     "การต้อน",
     "รับ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ต้อน + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส"
   },
   {
    "th": "แบกรับ",
@@ -849,7 +864,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "bear + accept",
+   "lit_th": "ยกของที่มีน้ำหนักขึ้นวางบนบ่า + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส"
   },
   {
    "th": "รับประกัน",
@@ -876,7 +895,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + รับรองว่าจะรับผิดในความเสียหายที่เ"
   },
   {
    "th": "รับจ๊อบ",
@@ -901,7 +923,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + งานเป็นชิ้น ๆ ที่ทำแค่ชั่วคราว"
   },
   {
    "th": "ขอรับ",
@@ -926,7 +951,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ขอ"
+   ],
+   "lit": "ask + accept",
+   "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส"
   },
   {
    "th": "สำรับ",
@@ -951,7 +983,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "สำ"
+   ],
+   "lit": "jumbled + accept",
+   "lit_th": "ซับซ้อนกัน + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส"
   },
   {
    "th": "รับน้อง",
@@ -976,7 +1015,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ผู้ร่วมบิดาหรือมารดาเดียวกันและเกิ"
   },
   {
    "th": "รับขวัญ",
@@ -1001,7 +1043,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ขวัญ"
+   ],
+   "lit": "accept + khwan",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
   },
   {
    "th": "รับราชการ",
@@ -1026,7 +1075,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + การงานของรัฐบาลหรือของพระเจ้าแผ่นด"
   },
   {
    "th": "รับรอง",
@@ -1054,7 +1106,45 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "รอง"
+   ],
+   "lit": "accept + deputy",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "ตำรับ",
+   "rtgs": "tam-rap",
+   "ipa": "/tam˧.rap̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตำราที่กำหนดไว้เป็นเฉพาะแต่ละเรื่องละราย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตำ",
+    "รับ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.11, next 0.02 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "pound + accept",
+   "lit_th": "ทิ่ม + ไปพบ ณ ที่ที่กำหนดเพื่ออำนวยความสะ",
+   "use": "false-split"
   }
  ],
  "etymology": {
@@ -1072,5 +1162,11 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "accept",
+  "answer",
+  "admit",
+  "bear"
+ ]
 }

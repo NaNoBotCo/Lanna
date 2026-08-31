@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "เสื่อมลงไป, ทำให้เลวลงไป",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -63,7 +60,10 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เสื่อมลงไป + ระยะที่ตาจะมองเห็นได้"
     },
     {
      "th": "เสียหาย",
@@ -89,7 +89,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "หาย"
+     ],
+     "lit": "bad + all",
+     "lit_th": "เสื่อมลงไป + สูญ"
     }
    ]
   },
@@ -97,13 +104,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "สูญไป, หมดไป, สิ้นไป",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -146,7 +150,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "all + bad",
+     "lit_th": "ทำให้หายสิ้นไป + สูญไป"
     }
    ],
    "extends": 1,
@@ -158,13 +166,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ชำรุด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -190,13 +195,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ใช้ไม่ได้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -222,13 +224,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ยับเยิน, ย่อยยับ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -254,13 +253,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "บูด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -286,13 +282,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "เน่า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -318,13 +311,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "ไม่ดี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -350,13 +340,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "จ่ายเงิน, ชำระเงิน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -382,13 +369,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "หมดทรัพย์สินไปเพราะการพนัน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -414,13 +398,10 @@
    "n": 11,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 11 — no English yet]"
     ],
     "th": "ตาย (ใช้แก่คนทั่วไป)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -462,7 +443,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ชีวิต"
+     ],
+     "lit": "bad + life",
+     "lit_th": "ตาย + ความเป็นอยู่"
     }
    ],
    "extends": 2,
@@ -474,13 +462,10 @@
    "n": 12,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 12 — no English yet]"
     ],
     "th": "ทิ้ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -506,13 +491,10 @@
    "n": 13,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 13 — no English yet]"
     ],
     "th": "ที่ไม่ดี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -538,13 +520,10 @@
    "n": 14,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 14 — no English yet]"
     ],
     "th": "พิการ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -570,13 +549,10 @@
    "n": 15,
    "gloss": {
     "en": [
-     "bad",
-     "dead",
-     "fail",
-     "waste"
+     "[RID sense 15 — no English yet]"
     ],
     "th": "เน้นความหมายหรือให้เสร็จไป (ประกอบท้ายกริยาหรือวิเศษณ์)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -610,6 +586,8 @@
   "Attested in this corpus: 1 manuscript titles, 28 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 36; domain seeded by keyword hits ['จ่าย', 'ทรัพย์', 'เงิน'].",
@@ -632,13 +610,17 @@
     "ความ",
     "เสีย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "-ness + bad",
+   "lit_th": "เรื่อง + เสื่อมลงไป"
   },
   {
    "th": "เสียสติ",
@@ -663,7 +645,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "bad + reason",
+   "lit_th": "เสื่อมลงไป + ความรู้สึก"
   },
   {
    "th": "เสียหลัก",
@@ -688,7 +674,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "หลัก"
+   ],
+   "lit": "bad + key",
+   "lit_th": "เสื่อมลงไป + เสาที่ปักไว้"
   },
   {
    "th": "เสียดาย",
@@ -714,7 +707,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เสื่อมลงไป + ใช้มีดหรือจอบเป็นต้นถากต้นหญ้าเพื่"
   },
   {
    "th": "เสียหน้า",
@@ -739,7 +735,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "bad + before",
+   "lit_th": "เสื่อมลงไป + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
   },
   {
    "th": "เสียขวัญ",
@@ -764,7 +767,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ขวัญ"
+   ],
+   "lit": "bad + khwan",
+   "lit_th": "เสื่อมลงไป + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+   "flips_with": "ขวัญเสีย"
   },
   {
    "th": "การได้เสีย",
@@ -784,13 +795,16 @@
     "การได้",
     "เสีย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ได้ + เสื่อมลงไป"
   },
   {
    "th": "ของเสีย",
@@ -815,7 +829,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ของ"
+   ],
+   "lit": "by + bad",
+   "lit_th": "สิ่งต่าง ๆ + เสื่อมลงไป"
   },
   {
    "th": "ความเสื่อมเสีย",
@@ -836,13 +857,16 @@
     "ความเสื่อม",
     "เสีย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสื่อม + เสื่อมลงไป"
   },
   {
    "th": "สั่งเสีย",
@@ -867,7 +891,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "order + bad",
+   "lit_th": "บอกไว้เพื่อให้ทำหรือให้ปฏิบัติเป็น + เสื่อมลงไป"
   },
   {
    "th": "การเสื่อมเสีย",
@@ -887,13 +915,17 @@
     "การเสื่อม",
     "เสีย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "fall + bad",
+   "lit_th": "คำอาการนามของ เสื่อม + เสื่อมลงไป"
   },
   {
    "th": "เสียผี",
@@ -918,7 +950,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ผี"
+   ],
+   "lit": "bad + spirit",
+   "lit_th": "เสื่อมลงไป + สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั"
   },
   {
    "th": "เสียท่า",
@@ -943,7 +982,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ท่า"
+   ],
+   "lit": "bad + landing",
+   "lit_th": "เสื่อมลงไป + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
   },
   {
    "th": "การสั่งเสีย",
@@ -963,13 +1009,16 @@
     "การสั่ง",
     "เสีย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สั่ง + เสื่อมลงไป"
   },
   {
    "th": "การสูญเสีย",
@@ -989,13 +1038,16 @@
     "การสูญ",
     "เสีย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สูญ + เสื่อมลงไป"
   },
   {
    "th": "ความสูญเสีย",
@@ -1016,13 +1068,16 @@
     "ความสูญ",
     "เสีย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สูญ + เสื่อมลงไป"
   },
   {
    "th": "ท้องเสีย",
@@ -1047,7 +1102,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ท้อง"
+   ],
+   "lit": "carry + bad",
+   "lit_th": "ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น + เสื่อมลงไป"
   },
   {
    "th": "เสียสละ",
@@ -1073,7 +1135,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "bad + abdicate",
+   "lit_th": "เสื่อมลงไป + ขนเม่น"
   },
   {
    "th": "เสียใจ",
@@ -1100,7 +1166,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "bad + heart",
+   "lit_th": "เสื่อมลงไป + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
   },
   {
    "th": "การท้องเสีย",
@@ -1120,13 +1193,16 @@
     "การท้อง",
     "เสีย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ท้อง + เสื่อมลงไป"
   },
   {
    "th": "เสียเวลา",
@@ -1152,7 +1228,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "bad + time",
+   "lit_th": "เสื่อมลงไป + ชั่วขณะความยาวนานที่มีอยู่หรือเป็น"
   },
   {
    "th": "ได้เสีย",
@@ -1177,7 +1257,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "ได้"
+   ],
+   "lit": "have + bad",
+   "lit_th": "รับมาหรือตกมาเป็นของตัว + เสื่อมลงไป"
   },
   {
    "th": "เสียตัว",
@@ -1202,7 +1289,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "bad + form",
+   "lit_th": "เสื่อมลงไป + รูป"
   },
   {
    "th": "การเสีย",
@@ -1222,13 +1316,16 @@
     "การ",
     "เสีย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + เสื่อมลงไป"
   },
   {
    "th": "ชื่อเสีย",
@@ -1253,7 +1350,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ชื่อ"
+   ],
+   "lit": "name + bad",
+   "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + เสื่อมลงไป"
   },
   {
    "th": "เสื่อมเสีย",
@@ -1278,7 +1382,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "passé + bad",
+   "lit_th": "น้อยลง + เสื่อมลงไป"
   },
   {
    "th": "ขวัญเสีย",
@@ -1303,7 +1411,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ขวัญ"
+   ],
+   "lit": "khwan + bad",
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + เสื่อมลงไป",
+   "flips_with": "เสียขวัญ"
   },
   {
    "th": "เสียน้ำใจ",
@@ -1328,7 +1444,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เสื่อมลงไป + ใจแท้ ๆ"
   },
   {
    "th": "ไอเสีย",
@@ -1353,7 +1472,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "cough + bad",
+   "lit_th": "สิ่งที่มีลักษณะอย่างควัน ลอยออกมาจ + เสื่อมลงไป"
   },
   {
    "th": "เสียสันดาน",
@@ -1378,7 +1501,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "bad + nature",
+   "lit_th": "เสื่อมลงไป + อุปนิสัยที่มีมาแต่กำเนิด"
   },
   {
    "th": "เสียรู้",
@@ -1403,7 +1530,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "รู้"
+   ],
+   "lit": "bad + know",
+   "lit_th": "เสื่อมลงไป + แจ้ง"
   },
   {
    "th": "ปากเสีย",
@@ -1428,7 +1562,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ปาก"
+   ],
+   "lit": "mouth + bad",
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + เสื่อมลงไป"
   }
  ],
  "etymology": {
@@ -1446,5 +1587,11 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "bad",
+  "dead",
+  "fail",
+  "waste"
+ ]
 }

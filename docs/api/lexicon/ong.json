@@ -1,7 +1,7 @@
 {
  "id": "w:ong",
  "th": "อง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "ong",
  "paiboon": "ong",
  "ipa": "/ʔoŋ˧/",
@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "the Vietnamese royal prefix ong"
     ],
     "th": "คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพระวงศ์ของกษัตริย์ญวน",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -57,7 +58,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The Vietnamese royal prefix extended to Annam-sect monks.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -69,6 +74,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 405 manuscript titles, 5013 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -94,13 +100,17 @@
     "การฉล",
     "อง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ฉล + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity"
   },
   {
    "th": "กาบอง",
@@ -121,12 +131,17 @@
     "กาบ",
     "อง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เปลือกหุ้มชั้นนอกของผลไม้ หรือดอกข + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "สนอง",
@@ -148,12 +163,17 @@
     "สน",
     "อง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อไม้ต้นหลายชนิดหลายสกุลในหลายวง + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "หนอง",
@@ -180,7 +200,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ทาง + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity"
   },
   {
    "th": "ฉลอง",
@@ -205,7 +229,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ความฉ้อโกง + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity"
   },
   {
    "th": "สมอง",
@@ -231,7 +259,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit": "suitable + the Vietnamese royal prefix ong",
+   "lit_th": "เหมาะ + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "quality"
   },
   {
    "th": "องอาจ",
@@ -256,7 +289,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit": "the Vietnamese royal prefix ong + may",
+   "lit_th": "คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร + กล้า ในคำว่า อาจหาญ",
+   "flips_with": "อาจอง"
   },
   {
    "th": "ตรอง",
@@ -281,7 +318,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit_th": "อักษรย่อของ ตราด + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร"
   },
   {
    "th": "ขนอง",
@@ -301,12 +341,21 @@
     "ขน",
     "อง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ขน"
+   ],
+   "lit": "coat + the Vietnamese royal prefix ong",
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "การกอง",
@@ -326,13 +375,20 @@
     "การก",
     "อง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กอง"
+   ],
+   "lit_th": "ผู้กระทำ + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity"
   },
   {
    "th": "กรอง",
@@ -353,12 +409,17 @@
     "กร",
     "อง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้ทำ + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "อาจอง",
@@ -383,7 +444,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "อา"
+   ],
+   "lit": "may + the Vietnamese royal prefix ong",
+   "lit_th": "กล้า ในคำว่า อาจหาญ + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "flips_with": "องอาจ"
   },
   {
    "th": "คลอง",
@@ -403,12 +471,17 @@
     "คล",
     "อง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คอ + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ละอง",
@@ -433,7 +506,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ละ"
+   ],
+   "lit": "to leave + the Vietnamese royal prefix ong",
+   "lit_th": "แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร"
   },
   {
    "th": "กลอง",
@@ -459,7 +539,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กล"
+   ],
+   "lit": "trick + the Vietnamese royal prefix ong",
+   "lit_th": "การลวงหรือล่อลวงให้หลง + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity"
   },
   {
    "th": "ขยอง",
@@ -484,7 +572,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ความสิ้นไป + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity"
   },
   {
    "th": "การสนอง",
@@ -504,13 +596,17 @@
     "การสน",
     "อง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สน + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity"
   },
   {
    "th": "ขมอง",
@@ -535,7 +631,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit": "bitter + the Vietnamese royal prefix ong",
+   "lit_th": "รสอย่างหนึ่งอย่างรสสะเดาหรือบอระเพ + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "quality"
   }
  ],
  "etymology": {

@@ -12,11 +12,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "trunk",
+     "plant",
+     "stem"
     ],
     "th": "ลำของต้นไม้, เป็นชื่อรวมทั่วไปของต้นไม้และพืชผักต่าง ๆ",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -59,7 +62,16 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไม้"
+     ],
+     "lit": "trunk + wood",
+     "lit_th": "ลำของต้นไม้ + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "flips_with": "ไม้ต้น",
+     "frame": "entity"
     }
    ]
   },
@@ -113,7 +125,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "arrive + trunk",
+     "lit_th": "ตั้งต้นมี เป็น หรือลงมือกระทำ + เรียกผู้ที่นับกันว่าเป็นผู้เริ่มต้"
     }
    ],
    "extends": 1,
@@ -170,7 +186,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ทาง + เบื้องต้นของสิ่งที่มีลักษณะกลมยาว",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -281,7 +301,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อเพลงไทยจำพวกหนึ่งมีชื่อขึ้นต้น + ซาลาเปา",
+     "frame": "entity"
     }
    ],
    "extends": 4,
@@ -393,7 +417,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "คิด"
+     ],
+     "lit": "trunk + think",
+     "lit_th": "แรกเริ่ม + ทำให้ปรากฏเป็นรูปหรือประกอบให้เป็น"
     }
    ],
    "extends": 8,
@@ -447,7 +478,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "horse + trunk",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus + เนื่องในพระเจ้าแผ่นดิน",
+     "frame": "entity"
     },
     {
      "th": "ช้างต้น",
@@ -471,7 +507,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "elephant + trunk",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + เนื่องในพระเจ้าแผ่นดิน",
+     "frame": "entity"
     }
    ],
    "extends": 5,
@@ -489,6 +533,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 101 manuscript titles, 211 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -520,7 +565,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "แบบ"
+   ],
+   "lit": "trunk + model",
+   "lit_th": "ลำของต้นไม้ + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+   "frame": "entity"
   },
   {
    "th": "เครื่องต้น",
@@ -545,7 +598,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เครื่อง"
+   ],
+   "lit": "device + trunk",
+   "lit_th": "สิ่ง + ลำของต้นไม้",
+   "frame": "entity"
   },
   {
    "th": "เสด็จประพาสต้น",
@@ -569,7 +630,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ไปเที่ยว + ลำของต้นไม้"
   },
   {
    "th": "ต้นขจร",
@@ -593,7 +657,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ลำของต้นไม้ + ฟุ้งไป"
   },
   {
    "th": "ยืนต้น",
@@ -618,7 +685,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "stand + trunk",
+   "lit_th": "ตั้งอยู่ + ลำของต้นไม้"
   },
   {
    "th": "ต้นเรือ",
@@ -643,7 +714,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เรือ"
+   ],
+   "lit": "trunk + boat",
+   "lit_th": "ลำของต้นไม้ + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+   "frame": "entity"
   },
   {
    "th": "เป็นต้น",
@@ -668,7 +747,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "เป็น"
+   ],
+   "lit": "are + trunk",
+   "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ลำของต้นไม้"
   },
   {
    "th": "ต้นอ่อน",
@@ -693,7 +779,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "อ่อน"
+   ],
+   "lit": "trunk + young",
+   "lit_th": "ลำของต้นไม้ + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "การเริ่มต้น",
@@ -714,13 +808,18 @@
     "การเริ่ม",
     "ต้น"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "institute + trunk",
+   "lit_th": "คำอาการนามของ เริ่ม + ลำของต้นไม้",
+   "frame": "entity"
   },
   {
    "th": "ต้นหน",
@@ -745,7 +844,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ลำของต้นไม้ + ทาง",
+   "frame": "entity"
   },
   {
    "th": "ต้นน้ำ",
@@ -770,7 +873,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "trunk + water",
+   "lit_th": "ลำของต้นไม้ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+   "frame": "entity"
   },
   {
    "th": "ไม้ต้น",
@@ -795,7 +906,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ไม้"
+   ],
+   "lit": "wood + trunk",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ลำของต้นไม้",
+   "flips_with": "ต้นไม้",
+   "frame": "entity"
   },
   {
    "th": "ต้นตำรับ",
@@ -820,7 +940,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ลำของต้นไม้ + ตำราที่กำหนดไว้เป็นเฉพาะแต่ละเรื่อ",
+   "frame": "entity"
   },
   {
    "th": "ต้นกล",
@@ -845,7 +969,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "กล"
+   ],
+   "lit": "trunk + trick",
+   "lit_th": "ลำของต้นไม้ + การลวงหรือล่อลวงให้หลง",
+   "frame": "entity"
   },
   {
    "th": "ต้นทาง",
@@ -870,7 +1002,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ทาง"
+   ],
+   "lit": "trunk + way",
+   "lit_th": "ลำของต้นไม้ + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "ต้นตระกูล",
@@ -897,7 +1037,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ลำของต้นไม้ + สกุล",
+   "frame": "entity"
   },
   {
    "th": "พยัญชนะต้น",
@@ -922,7 +1066,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "consonant + trunk",
+   "lit_th": "เสียงพูดที่เปล่งออกมาโดยใช้อวัยวะส + ลำของต้นไม้",
+   "frame": "entity"
   },
   {
    "th": "ต้นทุน",
@@ -948,7 +1097,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "trunk + fund",
+   "lit_th": "ลำของต้นไม้ + ของเดิมหรือเงินเดิมที่มีไว้ ลงไว้",
+   "frame": "entity"
   },
   {
    "th": "ต้นตอ",
@@ -973,7 +1127,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ลำของต้นไม้ + โคนของต้นไม้ที่ลำต้นถูกตัดหรือหักล",
+   "frame": "entity"
   },
   {
    "th": "ต้นฉบับ",
@@ -1000,7 +1158,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "trunk + issue",
+   "lit_th": "ลำของต้นไม้ + หนังสือเรื่องเดียวกันซึ่งมีข้อความ",
+   "frame": "entity"
   },
   {
    "th": "ต้นเหตุ",
@@ -1025,7 +1188,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ลำของต้นไม้ + สิ่งหรือเรื่องที่ทำให้เกิดผล",
+   "frame": "entity"
   },
   {
    "th": "ลำต้น",
@@ -1052,7 +1219,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ตัวของคน สัตว์ หรือสิ่งต่าง ๆ ไม่น + ลำของต้นไม้",
+   "frame": "entity"
   },
   {
    "th": "ตั้งต้น",
@@ -1078,7 +1249,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ตั้ง"
+   ],
+   "lit": "introduce + trunk",
+   "lit_th": "ชูตัว + ลำของต้นไม้"
   }
  ],
  "etymology": {

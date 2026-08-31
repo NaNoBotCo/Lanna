@@ -1,7 +1,7 @@
 {
  "id": "w:rong",
  "th": "โรง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "rong",
  "paiboon": "roong",
  "ipa": "/roːŋ˧/",
@@ -12,11 +12,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "shed",
+     "hall",
+     "roofed building"
     ],
     "th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติพื้นอยู่ติดกับดิน สำหรับเป็นที่อยู่อาศัย ประกอบการ หรือไว้สิ่งของเป็นต้น",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -55,7 +58,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พิมพ์"
+     ],
+     "lit": "shed + print",
+     "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + รูป",
+     "frame": "entity"
     },
     {
      "th": "โรงเจ",
@@ -81,7 +92,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + อาหารที่ไม่ปรุงด้วยเนื้อสัตว์ และผ",
+     "frame": "entity"
     }
    ]
   },
@@ -130,7 +145,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "fold + shed",
+     "lit_th": "ขัด + เรียกสิ่งปลูกสร้างเช่นนั้น"
     },
     {
      "th": "โรงเตี๊ยม",
@@ -156,7 +175,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เรียกสิ่งปลูกสร้างเช่นนั้น + ใช้เฉพาะใน",
+     "frame": "entity"
     },
     {
      "th": "โรงพัก",
@@ -182,7 +205,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "shed + rest",
+     "lit_th": "เรียกสิ่งปลูกสร้างเช่นนั้น + หยุดชั่วคราว"
     },
     {
      "th": "โรงเยี่ยว",
@@ -207,7 +234,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "shed + piss",
+     "lit_th": "เรียกสิ่งปลูกสร้างเช่นนั้น + ของเหลวที่เสียซึ่งไตขับถ่ายออกจากโ",
+     "frame": "entity"
     },
     {
      "th": "โรงธารกำนัล",
@@ -232,9 +264,17 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เรียกสิ่งปลูกสร้างเช่นนั้น + ที่ชุมนุมชน",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "And any structure of that kind takes the name.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -306,7 +346,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "เรียน"
+     ],
+     "lit": "rong as an element in place names + learn",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เข้ารับความรู้จากผู้สอน"
     },
     {
      "th": "โรงช้าง",
@@ -332,7 +379,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "rong as an element in place names + elephant",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "หนองโรง",
@@ -358,7 +413,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + rong as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "บางโรง",
@@ -384,33 +447,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
-    },
-    {
-     "th": "สำโรง",
-     "rtgs": "sam-rong",
-     "ipa": "/sam˩˩˦.roːŋ˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "ชื่อไม้ต้นชนิด Sterculia foetida L. ในวงศ์ Sterculiaceae ดอกมีกลิ่นเหม็น เมล็ดให้น้ำมัน เรียกว่า น้ำมันลูกไม้",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "สำ",
-      "โรง"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
      ],
-     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a biological; filed under the head's name-use sense",
-     "conf": "verified",
-     "src": [
-      "RID",
-      "WIKT"
-     ],
-     "use": "biological"
+     "lit": "thin + rong as an element in place names",
+     "lit_th": "ทางน้ำเล็ก ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -428,6 +473,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 1 manuscript titles, 41 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -457,7 +503,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "shed + beer",
+   "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + น้ำเมาอย่างหนึ่งเป็นชนิดเมรัย",
+   "frame": "entity"
   },
   {
    "th": "โรงเชือด",
@@ -482,7 +533,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + ใช้ของมีคมเช่นมีดโกนตัดให้ลึกเข้าไ"
   },
   {
    "th": "โรงแรม",
@@ -508,7 +562,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + ส่วนของเดือนจันทรคติที่พระจันทร์เร",
+   "frame": "entity"
   },
   {
    "th": "โรงบาล",
@@ -533,7 +591,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "บาล"
+   ],
+   "lit": "shed + to guard",
+   "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + เลี้ยง"
   },
   {
    "th": "โรงพยาบาล",
@@ -559,7 +624,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "shed + nurse",
+   "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + ดูแลคนไข้"
   },
   {
    "th": "โรงงาน",
@@ -585,7 +654,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "งาน"
+   ],
+   "lit": "shed + job",
+   "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + สิ่งหรือกิจกรรมที่ทำ",
+   "frame": "entity"
   },
   {
    "th": "นายโรง",
@@ -610,7 +687,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "นาย"
+   ],
+   "lit": "baboo + shed",
+   "lit_th": "คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15 + สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ",
+   "frame": "entity"
   },
   {
    "th": "โรงตึ๊ง",
@@ -630,13 +715,17 @@
     "โรง",
     "ตึ๊ง"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + ใช้เฉพาะใน",
+   "frame": "entity"
   },
   {
    "th": "โรงจำนำ",
@@ -656,13 +745,51 @@
     "โรง",
     "จำนำ"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "shed + pawn",
+   "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + ชื่อสัญญาซึ่งบุคคลคนหนึ่ง เรียกว่า",
+   "frame": "entity"
+  },
+  {
+   "th": "สำโรง",
+   "rtgs": "sam-rong",
+   "ipa": "/sam˩˩˦.roːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อไม้ต้นชนิด Sterculia foetida L. ในวงศ์ Sterculiaceae ดอกมีกลิ่นเหม็น เมล็ดให้น้ำมัน เรียกว่า น้ำมันลูกไม้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สำ",
+    "โรง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a biological; filed under the head's name-use sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "สำ"
+   ],
+   "lit": "jumbled + rong as an element in place names",
+   "lit_th": "ซับซ้อนกัน + ใช้ประกอบชื่อสถานที่"
   }
  ],
  "etymology": {

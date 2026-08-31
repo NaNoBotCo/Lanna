@@ -12,11 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "home",
-     "house"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ที่อยู่อาศัย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -61,7 +60,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "thou + home",
+     "lit_th": "ผู้เป็นใหญ่ + ที่อยู่อาศัย",
+     "frame": "entity"
     },
     {
      "th": "บ้านเรือน",
@@ -87,7 +94,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือน"
+     ],
+     "lit": "home + house",
+     "lit_th": "ที่อยู่อาศัย + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
     }
    ]
   },
@@ -95,11 +110,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "home",
-     "house"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "สิ่งปลูกสร้างสำหรับเป็นที่อยู่อาศัย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -125,11 +139,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "home",
-     "house"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "บริเวณที่เรือนตั้งอยู่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -155,11 +168,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "home",
-     "house"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "หมู่บ้าน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -202,7 +214,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "group + home",
+     "lit_th": "กลุ่มชนิดเดียวกัน + หมู่บ้าน",
+     "frame": "entity"
     },
     {
      "th": "ผู้ใหญ่บ้าน",
@@ -227,7 +244,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "adult + home",
+     "lit_th": "คนที่มีอายุมาก + หมู่บ้าน",
+     "frame": "entity"
     }
    ],
    "extends": 3,
@@ -239,11 +261,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "home",
-     "house"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ถิ่นที่มีมนุษย์อยู่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -269,11 +290,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "home",
-     "house"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "โรงเรือนหรือสิ่งปลูกสร้างสำหรับใช้เป็นที่อยู่อาศัย ซึ่งมีเจ้าบ้านครอบครองและหมายความรวมถึงแพ หรือเรือซึ่งจอดเป็นประจำและใช้เป็นที่อยู่ประจำ หรือสถานที่ หรือยานพาหนะอื่นซึ่งใช้เป็นที่อยู่อาศัยประจำได้ด้วย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -299,11 +319,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "home",
-     "house"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ที่มีอยู่ตามบ้าน เช่น หนูบ้าน คู่กับ หนูนา หรือที่เลี้ยงไว้ เช่น หมูบ้าน คู่กับ หมูป่า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -393,7 +412,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหม่"
+     ],
+     "lit": "ban as an element in place names + again",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เพิ่งมี",
+     "frame": "quality"
     },
     {
      "th": "บ้านไผ่",
@@ -419,7 +446,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไผ่"
+     ],
+     "lit": "ban as an element in place names + bamboo",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
     },
     {
      "th": "บ้านช้าง",
@@ -445,7 +480,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "ban as an element in place names + elephant",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "บ้านตึก",
@@ -471,7 +514,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ban as an element in place names + building",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อาคารที่ก่อสร้างด้วยอิฐปูนเป็นต้น",
+     "frame": "entity"
     },
     {
      "th": "บ้านซ่อง",
@@ -497,7 +545,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ban as an element in place names + drum",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่มั่วสุมชุมนุมกันลับ ๆ",
+     "frame": "entity"
     },
     {
      "th": "บ้านปทุม",
@@ -523,7 +576,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บัวหลวง",
+     "frame": "entity"
     },
     {
      "th": "บ้านแห",
@@ -549,7 +606,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แห"
+     ],
+     "lit": "ban as an element in place names + net",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น",
+     "frame": "entity"
     },
     {
      "th": "บ้านโป่ง",
@@ -575,7 +640,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "ban as an element in place names + swollen",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส",
+     "frame": "entity"
     },
     {
      "th": "บ้านฉาง",
@@ -601,7 +674,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อาคารเก็บผลิตผลทางการเกษตรอย่างข้า",
+     "frame": "entity"
     },
     {
      "th": "บ้านแปะ",
@@ -627,7 +704,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เอาของแบน ๆ บาง ๆ ทาบเข้าไป"
     },
     {
      "th": "บ้านแซว",
@@ -653,7 +733,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พูดล้อ"
     },
     {
      "th": "บ้านปรางค์",
@@ -679,7 +762,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งก่อสร้างมียอดสูงขึ้นไปมีรูปทรง",
+     "frame": "entity"
     },
     {
      "th": "บ้านเหล่า",
@@ -705,7 +792,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ban as an element in place names + group",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พวก",
+     "frame": "entity"
     },
     {
      "th": "บ้านหมอ",
@@ -731,7 +823,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หมอ"
+     ],
+     "lit": "ban as an element in place names + one who knows",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ผู้รู้",
+     "frame": "entity"
     },
     {
      "th": "บ้านอิฐ",
@@ -757,7 +857,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ban as an element in place names + brick",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ดินเผามีลักษณะเป็นทรงสี่เหลี่ยมผืน",
+     "frame": "entity"
     },
     {
      "th": "บ้านม่วง",
@@ -783,7 +888,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ม่วง"
+     ],
+     "lit": "ban as an element in place names + purple",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สีน้ำเงินปนแดง",
+     "frame": "quality"
     },
     {
      "th": "บ้านเหนือ",
@@ -809,7 +922,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เหนือ"
+     ],
+     "lit": "ban as an element in place names + above",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อทิศตรงข้ามกับทิศใต้",
+     "frame": "entity"
     },
     {
      "th": "บ้านเรือ",
@@ -835,7 +956,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือ"
+     ],
+     "lit": "ban as an element in place names + boat",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+     "frame": "entity"
     },
     {
      "th": "บ้านคลอง",
@@ -861,7 +990,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "ban as an element in place names + canal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข",
+     "frame": "entity"
     },
     {
      "th": "บ้านลาด",
@@ -887,7 +1024,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลาด"
+     ],
+     "lit": "ban as an element in place names + decline",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ปูแผ่ออกไป"
     },
     {
      "th": "สง่าบ้าน",
@@ -913,7 +1057,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "มีลักษณะผึ่งผายเป็นที่น่ายำเกรงหรื + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "บ้านทับ",
@@ -939,7 +1087,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทับ"
+     ],
+     "lit": "ban as an element in place names + hut",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กระท่อมหรือสิ่งปลูกสร้างที่ทำอยู่ช",
+     "frame": "entity"
     },
     {
      "th": "บ้านกล้วย",
@@ -965,7 +1121,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ban as an element in place names + banana",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกหลายชนิดในสกุล Musa ว",
+     "frame": "entity"
     },
     {
      "th": "บ้านเหลื่อม",
@@ -991,7 +1152,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เลยไป"
     },
     {
      "th": "บ้านดง",
@@ -1017,7 +1180,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ดง"
+     ],
+     "lit": "ban as an element in place names + deep forest",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ป่าที่มีต้นไม้ใหญ่ขึ้นหนาแน่น",
+     "frame": "entity"
     },
     {
      "th": "บ้านปง",
@@ -1043,7 +1214,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่ออำเภอหนึ่งในจังหวัดพะเยา"
     },
     {
      "th": "บ้านกลาง",
@@ -1069,7 +1243,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "ban as an element in place names + middle",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
     },
     {
      "th": "บ้านซ่าน",
@@ -1095,7 +1277,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แล่นกระจายไปทั่วตัว"
     },
     {
      "th": "บ้านโคก",
@@ -1121,7 +1306,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โคก"
+     ],
+     "lit": "ban as an element in place names + mound",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ดินที่นูนสูงขึ้นคล้ายเนิน แต่เต",
+     "frame": "entity"
     },
     {
      "th": "บ้านแพง",
@@ -1147,7 +1340,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มีราคาสูง",
+     "frame": "quality"
     },
     {
      "th": "บ้านโฮ่ง",
@@ -1173,7 +1370,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+INTJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เสียงหมาเห่ากระโชก"
     },
     {
      "th": "บ้านสวน",
@@ -1199,7 +1399,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สวน"
+     ],
+     "lit": "ban as an element in place names + garden",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
+     "frame": "entity"
     },
     {
      "th": "บ้านด้าย",
@@ -1225,7 +1433,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ban as an element in place names + thread",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่ทำด้วยใยเป็นต้นว่าใยฝ้าย ปั",
+     "frame": "entity"
     },
     {
      "th": "บ้านพร้าว",
@@ -1251,7 +1464,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มะพร้าว",
+     "frame": "entity"
     },
     {
      "th": "บ้านกระแชง",
@@ -1277,7 +1494,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องบังแดดฝน โดยนำใบเตยหรือใบจา",
+     "frame": "entity"
     },
     {
      "th": "บ้านสร้าง",
@@ -1303,7 +1524,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "สร้าง"
+     ],
+     "lit": "ban as an element in place names + make",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา"
     },
     {
      "th": "บ้านค่าย",
@@ -1329,7 +1557,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ตั้งกองทหาร มีรั้วล้อมรอบ",
+     "frame": "entity"
     },
     {
      "th": "บ้านค้อ",
@@ -1355,7 +1587,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อปาล์มชนิด Livistona speciosa K",
+     "frame": "entity"
     },
     {
      "th": "บ้านปึก",
@@ -1381,7 +1617,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่จับเกาะรวมกันแน่น",
+     "frame": "entity"
     },
     {
      "th": "บ้านตาก",
@@ -1407,7 +1647,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ผึ่งให้แห้ง"
     },
     {
      "th": "บ้านหว้า",
@@ -1433,7 +1676,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ban as an element in place names + jambul",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Syzygium Cu",
+     "frame": "entity"
     },
     {
      "th": "บ้านแก้ง",
@@ -1459,7 +1707,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ขูดให้หมด"
     },
     {
      "th": "บ้านวัง",
@@ -1485,7 +1736,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "ban as an element in place names + palace",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่อยู่ของเจ้านาย",
+     "frame": "entity"
     },
     {
      "th": "บ้านเป็ด",
@@ -1511,7 +1770,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ban as an element in place names + duck",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์ปีกจำพวกนกขนาดเล็กถึงขนาด",
+     "frame": "entity"
     },
     {
      "th": "บ้านพราน",
@@ -1537,7 +1801,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
     },
     {
      "th": "บ้านป่า",
@@ -1563,7 +1830,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "ban as an element in place names + forest",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+     "frame": "entity"
     },
     {
      "th": "บ้านโขด",
@@ -1589,7 +1864,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ดินหรือหินที่สูงขึ้นเป็นโคกเป็นเนิ",
+     "frame": "entity"
     },
     {
      "th": "บ้านแยง",
@@ -1615,7 +1894,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แหย่เข้าไปในช่องหรือในรู"
     },
     {
      "th": "บ้านกาด",
@@ -1641,7 +1923,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
     },
     {
      "th": "บ้านกง",
@@ -1667,7 +1952,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เรียกคำหรือพยางค์ที่มีตัว ง สะกด ว",
+     "frame": "entity"
     },
     {
      "th": "บ้านทุ่ม",
@@ -1693,7 +1982,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เอาของหนัก ๆ ทิ้งลงไป"
     },
     {
      "th": "บ้านแหลม",
@@ -1719,7 +2011,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ลม"
+     ],
+     "lit": "ban as an element in place names + tongue",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มีปลายเสี้ยมคม",
+     "frame": "quality"
     },
     {
      "th": "บ้านหมี่",
@@ -1745,7 +2045,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เรียกแป้งข้าวเจ้าที่โรยเป็นเส้นลงใ",
+     "frame": "entity"
     },
     {
      "th": "บ้านแอ่น",
@@ -1771,7 +2075,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทำให้โค้งหรือนูนจากแนวหรือระดับ"
     },
     {
      "th": "บ้านลาน",
@@ -1797,7 +2104,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลาน"
+     ],
+     "lit": "ban as an element in place names + open ground",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บริเวณที่ว่าง",
+     "frame": "entity"
     },
     {
      "th": "บ้านหัน",
@@ -1823,7 +2138,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ผันร่างไปทางใดทางหนึ่ง"
     },
     {
      "th": "บ้านรี",
@@ -1849,7 +2167,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "รี"
+     ],
+     "lit": "ban as an element in place names + oval",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+     "frame": "quality"
     },
     {
      "th": "บ้านคา",
@@ -1875,7 +2201,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คา"
+     ],
+     "lit": "ban as an element in place names + cangue",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องจำคอนักโทษ ทำด้วยไม้",
+     "frame": "entity"
     },
     {
      "th": "บ้านบึง",
@@ -1901,7 +2235,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บึง"
+     ],
+     "lit": "ban as an element in place names + marsh",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แหล่งน้ำขนาดใหญ่ มีน้ำขังตลอดปี",
+     "frame": "entity"
     },
     {
      "th": "บ้านงิ้ว",
@@ -1927,7 +2269,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Bombax ceib",
+     "frame": "entity"
     },
     {
      "th": "บ้านกร่าง",
@@ -1953,7 +2299,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อาการที่ทำท่าทางหรือพูดจาวางโต",
+     "frame": "quality"
     },
     {
      "th": "บ้านหลวง",
@@ -1979,7 +2329,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "ban as an element in place names + royal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
     },
     {
      "th": "บ้านแก่ง",
@@ -2005,7 +2363,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พืดหินหรือโขดหินที่กีดขวางทางน้ำ ม",
+     "frame": "entity"
     },
     {
      "th": "บ้านยาง",
@@ -2031,7 +2393,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยาง"
+     ],
+     "lit": "ban as an element in place names + rubber",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
     },
     {
      "th": "บ้านแหวน",
@@ -2057,7 +2427,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "วน"
+     ],
+     "lit": "ban as an element in place names + ring",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องประดับสำหรับสวมนิ้วทำด้วยเง",
+     "frame": "entity"
     },
     {
      "th": "บ้านแปรง",
@@ -2083,7 +2461,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ban as an element in place names + brush",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งของอย่างหนึ่งทำด้วยขนสัตว์ ลวด",
+     "frame": "entity"
     },
     {
      "th": "บ้านไร่",
@@ -2109,7 +2492,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ban as an element in place names + garden",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ปลูกพืชและต้นไม้บนไหล่เขาหรือใน",
+     "frame": "entity"
     },
     {
      "th": "บ้านสหกรณ์",
@@ -2135,7 +2523,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + องค์กรทางเศรษฐกิจและสังคมที่สมาชิก",
+     "frame": "entity"
     },
     {
      "th": "บ้านมุง",
@@ -2161,7 +2553,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เอาวัตถุมีกระเบื้องหรือจากเป็นต้น"
     },
     {
      "th": "กรวยบ้าน",
@@ -2187,7 +2582,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "funnel + ban as an element in place names",
+     "lit_th": "รูปตันมีลักษณะฐานกลมและแหลมเรียวไป + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "บ้านเกาะ",
@@ -2213,7 +2613,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เกาะ"
+     ],
+     "lit": "ban as an element in place names + island",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนของแผ่นดินที่มีน้ำล้อมรอบ",
+     "frame": "entity"
     },
     {
      "th": "บ้านตาล",
@@ -2239,7 +2647,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อพืชชนิด Borassus flabellifer L",
+     "frame": "entity"
     },
     {
      "th": "บ้านหลุม",
@@ -2265,7 +2677,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ban as an element in place names + lacuna",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ซึ่งมีลักษณะเป็นบ่อ มักมีขนาดเล",
+     "frame": "entity"
     },
     {
      "th": "บ้านแท่น",
@@ -2291,7 +2708,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่นั่งที่นอน มีลักษณะเหมือนมีฐานท",
+     "frame": "entity"
     },
     {
      "th": "บ้านขาม",
@@ -2317,7 +2738,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คร้าม"
     },
     {
      "th": "บ้านโพธิ์",
@@ -2343,7 +2767,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "ban as an element in place names + enlightenment",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ความตรัสรู้",
+     "frame": "entity"
     },
     {
      "th": "บ้านโนน",
@@ -2369,7 +2801,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โนน"
+     ],
+     "lit": "ban as an element in place names + mound",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เนิน",
+     "frame": "entity"
     },
     {
      "th": "บ้านราษฎร์",
@@ -2395,7 +2835,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พลเมืองของประเทศ",
+     "frame": "entity"
     },
     {
      "th": "บ้านด่าน",
@@ -2421,7 +2865,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่สำหรับกัก ตรวจ คอยระวังเหตุ และ",
+     "frame": "entity"
     },
     {
      "th": "แมวบ้าน",
@@ -2447,7 +2895,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "cat + ban as an element in place names",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Felis + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "บ้านเป้า",
@@ -2473,7 +2926,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ban as an element in place names + target",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่กำหนดไว้เป็นจุดหมาย",
+     "frame": "entity"
     },
     {
      "th": "บ้านใต้",
@@ -2499,7 +2957,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ใต้"
+     ],
+     "lit": "ban as an element in place names + under",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทิศที่อยู่ทางขวามือเมื่อหันหน้าไปท",
+     "frame": "entity"
     },
     {
      "th": "บ้านป้อม",
@@ -2525,7 +2991,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ban as an element in place names + fort",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หอรบ",
+     "frame": "entity"
     },
     {
      "th": "บ้านน้ำพุ",
@@ -2551,7 +3022,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + น้ำใต้ดินที่ผุดพุ่งขึ้นมาเหนือพื้น",
+     "frame": "entity"
     },
     {
      "th": "บ้านกรวด",
@@ -2577,7 +3052,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ก้อนหินเล็ก ๆ เขื่องกว่าเม็ดทราย",
+     "frame": "entity"
     },
     {
      "th": "บ้านจันทร์",
@@ -2603,7 +3082,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "บ้านฝาง",
@@ -2629,7 +3110,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดเล็กชนิด Caesalpinia",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -2649,7 +3134,8 @@
   "Attested in this corpus: 17 manuscript titles, 564 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
-  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 101; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
@@ -2676,7 +3162,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ลูก"
+   ],
+   "lit": "child + home",
+   "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ที่อยู่อาศัย",
+   "frame": "entity"
   },
   {
    "th": "พื้นบ้าน",
@@ -2701,7 +3195,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "floor + home",
+   "lit_th": "ส่วนราบด้านหน้าของสิ่งที่เป็นผืนเป + ที่อยู่อาศัย",
+   "frame": "entity"
   },
   {
    "th": "ไก่บ้าน",
@@ -2726,7 +3225,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ไก่"
+   ],
+   "lit": "chicken + home",
+   "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + ที่อยู่อาศัย",
+   "frame": "entity"
   },
   {
    "th": "บ้านเก่า",
@@ -2751,7 +3258,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "home + old",
+   "lit_th": "ที่อยู่อาศัย + ก่อน",
+   "frame": "quality"
   },
   {
    "th": "บ้านนอก",
@@ -2776,7 +3288,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+PREP",
+   "head": 0,
+   "cross_listed": [
+    "นอก"
+   ],
+   "lit": "home + outside",
+   "lit_th": "ที่อยู่อาศัย + ตรงข้ามกับใน"
   },
   {
    "th": "บ้านนา",
@@ -2801,7 +3320,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "นา"
+   ],
+   "lit": "home + farm",
+   "lit_th": "ที่อยู่อาศัย + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity"
   },
   {
    "th": "ชาวบ้าน",
@@ -2826,7 +3353,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "กลุ่มชนที่มีเชื้อชาติเดียวกัน หรือ + ที่อยู่อาศัย",
+   "frame": "entity"
   },
   {
    "th": "บ้านเมือง",
@@ -2851,7 +3382,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เมือง"
+   ],
+   "lit": "home + town",
+   "lit_th": "ที่อยู่อาศัย + แดน",
+   "frame": "entity"
   },
   {
    "th": "เพื่อนบ้าน",
@@ -2878,7 +3417,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PRON+N",
+   "head": 1,
+   "lit": "friend + home",
+   "lit_th": "คำใช้แทนคำว่า เขา + ที่อยู่อาศัย"
   },
   {
    "th": "การบ้าน",
@@ -2904,7 +3447,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ที่อยู่อาศัย",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -2935,5 +3482,9 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "home",
+  "house"
  ]
 }

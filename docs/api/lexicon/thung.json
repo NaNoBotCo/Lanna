@@ -1,7 +1,7 @@
 {
  "id": "w:thung",
  "th": "ทุ่ง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "thung",
  "paiboon": "tûng",
  "ipa": "/tʰuŋ˥˩/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "open field",
+     "plain"
     ],
     "th": "ที่ราบโล่ง",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -59,7 +61,16 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "open field + farm",
+     "lit_th": "ที่ราบโล่ง + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "flips_with": "นาทุ่ง",
+     "frame": "entity"
     }
    ]
   },
@@ -85,7 +96,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "euphemism",
+   "via_note": "ไปทุ่ง — going to the field, the country way of not saying it.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -155,7 +170,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "thung as an element in place names + huge",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + โต",
+     "frame": "quality"
     },
     {
      "th": "ทุ่งขวาง",
@@ -181,7 +204,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ขวาง"
+     ],
+     "lit": "thung as an element in place names + across",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กีดกั้น"
     },
     {
      "th": "หัวทุ่ง",
@@ -207,7 +237,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + thung as an element in place names",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งชมพู",
@@ -233,7 +271,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม้หว้า",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งหว้า",
@@ -259,7 +301,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "thung as an element in place names + jambul",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Syzygium Cu",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งยาว",
@@ -285,7 +332,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ยาว"
+     ],
+     "lit": "thung as an element in place names + long",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+     "frame": "quality"
     },
     {
      "th": "ทุ่งตะโก",
@@ -311,7 +366,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นหลายชนิดในสกุล Diospyros",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งครุ",
@@ -337,7 +396,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะสานชนิดหนึ่ง รูปกลม ๆ เหมือนก",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งหลวง",
@@ -363,7 +426,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "thung as an element in place names + royal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
     },
     {
      "th": "ทุ่งสง",
@@ -389,7 +460,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หย่งให้กระจายตัวหรือยกขึ้นให้น้ำหร"
     },
     {
      "th": "ทุ่งช้าง",
@@ -415,7 +489,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "thung as an element in place names + elephant",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งขนาน",
@@ -441,7 +523,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หมู่",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งสว่าง",
@@ -467,7 +553,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "thung as an element in place names + light",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ระยะเวลาฟ้าสาง",
+     "frame": "quality"
     },
     {
      "th": "ทุ่งพระยา",
@@ -493,7 +584,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บรรดาศักดิ์ข้าราชการผู้ใหญ่สูงกว่า",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งทอง",
@@ -519,7 +614,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "thung as an element in place names + gold",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งคลอง",
@@ -545,7 +648,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "thung as an element in place names + canal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งฝน",
@@ -571,7 +682,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "thung as an element in place names + rain",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + น้ำที่ตกลงมาจากเมฆเป็นเม็ด ๆ",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งไทรทอง",
@@ -597,7 +713,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภอคลองหาด จังหวั"
     },
     {
      "th": "ทุ่งสมอ",
@@ -623,7 +742,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หิน",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งก่อ",
@@ -649,7 +772,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "thung as an element in place names + build",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทำให้เกิดขึ้น มีขึ้น หรือเป็นรูปขึ"
     },
     {
      "th": "นาทุ่ง",
@@ -675,7 +802,16 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + thung as an element in place names",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ใช้ประกอบชื่อสถานที่",
+     "flips_with": "ทุ่งนา",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งโป่ง",
@@ -701,7 +837,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "thung as an element in place names + swollen",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส",
+     "frame": "entity"
     },
     {
      "th": "ตะกั่วทุ่ง",
@@ -727,7 +871,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "lead + thung as an element in place names",
+     "lit_th": "แร่จำพวกโลหะ มีลักษณะอ่อน ละลายตัว + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "โปงทุ่ง",
@@ -753,7 +902,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เรียกลักษณะแห่งสิ่งของที่ข้างในเป็ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งอรุณ",
@@ -779,7 +932,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เวลาใกล้พระอาทิตย์จะขึ้น มี 2 ระยะ",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งทราย",
@@ -805,7 +962,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทราย"
+     ],
+     "lit": "thung as an element in place names + sand",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -852,7 +1017,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "flood + open field",
+   "lit_th": "ภัยธรรมชาติอย่างหนึ่งเกิดจากฝนตกใน + ที่ราบโล่ง",
+   "frame": "entity"
   },
   {
    "th": "ทุ่งหญ้า",
@@ -880,7 +1050,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "open field + grass",
+   "lit_th": "ที่ราบโล่ง + ชื่อเรียกไม้ล้มลุกหลายชนิดหลายสกุล",
+   "frame": "entity"
   }
  ],
  "etymology": {

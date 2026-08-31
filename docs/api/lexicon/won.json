@@ -1,7 +1,7 @@
 {
  "id": "w:won",
  "th": "วน",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "won",
  "paiboon": "won",
  "ipa": "/won˧/",
@@ -13,11 +13,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "to circle",
+     "to go round"
     ],
     "th": "เวียนไปโดยรอบ",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -33,7 +35,10 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: วน 'to circle'.",
+    "Declared root: วน 'to circle'.",
+    "Declared root: วน 'to circle'."
    ]
   },
   {
@@ -58,7 +63,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Circling in toward a centre or out from one: spiralling.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -82,6 +91,11 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: วน 'forest' < Pali vana — unrelated.",
+    "Declared root: วน 'forest' < Pali vana — unrelated.",
+    "Declared root: วน 'forest' < Pali vana — unrelated."
    ]
   },
   {
@@ -152,7 +166,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + won as an element in place names",
+     "lit_th": "ที่อยู่ของเจ้านาย + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "ขนวน",
@@ -178,7 +199,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ขน"
+     ],
+     "lit": "coat + won as an element in place names",
+     "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "บ้านแหวน",
@@ -204,7 +232,13 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+V",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองอ่างทอง จ + ใช้ประกอบชื่อสถานที่"
     }
    ],
    "extends": 1,
@@ -222,6 +256,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 113 manuscript titles, 744 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -246,12 +281,16 @@
     "สง",
     "วน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "หย่งให้กระจายตัวหรือยกขึ้นให้น้ำหร + เวียนไปโดยรอบ",
+   "use": "false-split"
   },
   {
    "th": "บ่วน",
@@ -276,7 +315,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ไม่ + เวียนไปโดยรอบ"
   },
   {
    "th": "ชนวน",
@@ -296,12 +337,20 @@
     "ชน",
     "วน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "ชน"
+   ],
+   "lit": "hit + to circle",
+   "lit_th": "โดนแรง ๆ + เวียนไปโดยรอบ",
+   "use": "false-split"
   },
   {
    "th": "ตรวน",
@@ -327,7 +376,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PROP+V",
+   "head": 1,
+   "lit_th": "อักษรย่อของ ตราด + เวียนไปโดยรอบ"
   },
   {
    "th": "กระวน",
@@ -352,7 +404,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1
   },
   {
    "th": "ภูวน",
@@ -372,12 +426,20 @@
     "ภู",
     "วน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ภู"
+   ],
+   "lit": "earth + to circle",
+   "lit_th": "ดิน + เวียนไปโดยรอบ",
+   "use": "false-split"
   },
   {
    "th": "ขบวน",
@@ -402,7 +464,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "bite + to circle",
+   "lit_th": "เอาฟันเน้นเพื่อให้แตก + เวียนไปโดยรอบ"
   },
   {
    "th": "วนศาสตร์",
@@ -427,7 +493,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to circle + discipline",
+   "lit_th": "เวียนไปโดยรอบ + ระบบวิชาความรู้"
   },
   {
    "th": "การกวน",
@@ -447,13 +517,16 @@
     "การก",
     "วน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ผู้กระทำ + เวียนไปโดยรอบ"
   },
   {
    "th": "แขวน",
@@ -481,7 +554,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ดวงเดือน + เวียนไปโดยรอบ"
   },
   {
    "th": "การวน",
@@ -501,13 +577,19 @@
     "การ",
     "วน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กา"
+   ],
+   "lit_th": "งาน + เวียนไปโดยรอบ"
   },
   {
    "th": "การสงวน",
@@ -527,13 +609,16 @@
     "การสง",
     "วน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สง + เวียนไปโดยรอบ"
   },
   {
    "th": "หยวน",
@@ -553,12 +638,16 @@
     "หย",
     "วน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ม้า + เวียนไปโดยรอบ",
+   "use": "false-split"
   },
   {
    "th": "วนเวียน",
@@ -583,7 +672,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เวียนไปโดยรอบ + อาการที่ของสิ่งหนึ่งเคลื่อนไหวไปรอ"
   },
   {
    "th": "ขมวน",
@@ -608,7 +700,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit": "bitter + to circle",
+   "lit_th": "รสอย่างหนึ่งอย่างรสสะเดาหรือบอระเพ + เวียนไปโดยรอบ",
+   "frame": "quality"
   },
   {
    "th": "แหวน",
@@ -634,7 +731,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "แห"
+   ],
+   "lit": "net + to circle",
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + เวียนไปโดยรอบ"
   }
  ],
  "etymology": {

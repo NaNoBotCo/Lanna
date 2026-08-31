@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "good",
-     "nice",
-     "fine",
-     "well"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น่าปรารถนา น่าพอใจ ใช้ในความหมายที่ตรงข้ามกับลักษณะบางอย่างแล้วแต่กรณี คือ ตรงข้ามกับชั่ว",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -37,6 +34,15 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ดี 'good'.",
+    "Declared root: ดี 'good'.",
+    "Declared root: ดี 'good'.",
+    "Declared root: ดี 'good'.",
+    "Declared root: ดี 'good'.",
+    "Declared root: ดี 'good'.",
+    "Declared root: ดี 'good'.",
+    "Declared root: ดี 'good'.",
+    "Declared root: ดี 'good'.",
     "Declared root: ดี 'good'.",
     "Declared root: ดี 'good'.",
     "Declared root: ดี 'good'.",
@@ -68,7 +74,9 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "lit_th": "ไฉน + มีลักษณะที่เป็นไปในทางที่ต้องการ น"
     },
     {
      "th": "คนดี",
@@ -94,7 +102,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "คน"
+     ],
+     "lit": "stir + good",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+     "frame": "quality"
     },
     {
      "th": "หวังดี",
@@ -120,7 +136,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit": "hope + good",
+     "lit_th": "คาดว่าจะได้ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+     "frame": "quality"
     }
    ]
   },
@@ -128,13 +149,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "good",
-     "nice",
-     "fine",
-     "well"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ตรงข้ามกับร้าย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -160,13 +178,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "good",
-     "nice",
-     "fine",
-     "well"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "สวย, งาม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -192,13 +207,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "good",
-     "nice",
-     "fine",
-     "well"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "เรียบร้อย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -224,13 +236,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "good",
-     "nice",
-     "fine",
-     "well"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "เพราะ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -256,13 +265,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "good",
-     "nice",
-     "fine",
-     "well"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "จัด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -288,13 +294,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "good",
-     "nice",
-     "fine",
-     "well"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "เก่ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -320,13 +323,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "good",
-     "nice",
-     "fine",
-     "well"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "ชอบ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -352,13 +352,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "good",
-     "nice",
-     "fine",
-     "well"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "อยู่ในสภาพปรกติ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -399,7 +396,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "back + good",
+     "lit_th": "ระยะเวลาตั้งแต่ย่ำค่ำถึงย่ำรุ่ง + อยู่ในสภาพปรกติ",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -411,13 +413,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "good",
-     "nice",
-     "fine",
-     "well"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "อวัยวะภายในของคนและสัตว์ที่บรรจุน้ำข้นสีเขียว มีรสขม ซึ่งออกจากตับ สำหรับช่วยย่อยอาหาร",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -439,6 +438,15 @@
     "Declared root: ดี 'gallbladder, bile' — a separate word.",
     "Declared root: ดี 'gallbladder, bile' — a separate word.",
     "Declared root: ดี 'gallbladder, bile' — a separate word.",
+    "Declared root: ดี 'gallbladder, bile' — a separate word.",
+    "Declared root: ดี 'gallbladder, bile' — a separate word.",
+    "Declared root: ดี 'gallbladder, bile' — a separate word.",
+    "Declared root: ดี 'gallbladder, bile' — a separate word.",
+    "Declared root: ดี 'gallbladder, bile' — a separate word.",
+    "Declared root: ดี 'gallbladder, bile' — a separate word.",
+    "Declared root: ดี 'gallbladder, bile' — a separate word.",
+    "Declared root: ดี 'gallbladder, bile' — a separate word.",
+    "Declared root: ดี 'gallbladder, bile' — a separate word.",
     "Declared root: ดี 'gallbladder, bile' — a separate word."
    ]
   },
@@ -446,13 +454,10 @@
    "n": 11,
    "gloss": {
     "en": [
-     "good",
-     "nice",
-     "fine",
-     "well"
+     "[RID sense 11 — no English yet]"
     ],
     "th": "เรียกน้ำข้นสีเขียว มีรสขม ออกจากตับ สำหรับช่วยย่อยอาหารว่า น้ำดี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -494,7 +499,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + good",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + เรียกน้ำข้นสีเขียว มีรสขม ออกจากตั",
+     "frame": "quality"
     }
    ],
    "extends": 10,
@@ -506,13 +519,10 @@
    "n": 12,
    "gloss": {
     "en": [
-     "good",
-     "nice",
-     "fine",
-     "well"
+     "[RID sense 12 — no English yet]"
     ],
     "th": "ชื่อตัวอักษรในอักษรละติน D/d",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -553,35 +563,27 @@
      "src": [
       "RID",
       "WIKT"
-     ]
-    },
-    {
-     "th": "ดีปลี",
-     "rtgs": "di-pli",
-     "ipa": "/diː˧.pliː˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "ชื่อไม้เถาในสกุล Piper วงศ์ Piperaceae คือ ชนิด P. retrofractum Vahl มีรากตามข้อของลำต้นเพื่อยึดเกาะ ผลอัดแน่นเป็นช่อ ทุกส่วนมีกลิ่น โดยเฉพาะผลกลิ่นหอมฉุน รสเผ็ดร้อน ใช้เป็นเครื่องเทศและทำยาได้",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "ดี",
-      "ปลี"
      ],
-     "note": "head-initial; both parts are dictionary headwords · filed under sense 12: definition form is a biological; filed under the head's name-use sense",
-     "conf": "verified",
-     "src": [
-      "RID",
-      "WIKT"
-     ]
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + good",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ชื่อตัวอักษรในอักษรละติน D/d",
+     "frame": "quality"
     }
    ],
    "needs_check": [
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
     "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
     "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
     "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
@@ -601,6 +603,8 @@
   "Attested in this corpus: 71 manuscript titles, 1439 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 48; domain seeded by keyword hits ['อาหาร', 'รส'].",
@@ -623,13 +627,18 @@
     "ความ",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + good",
+   "lit_th": "เรื่อง + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ซีดี",
@@ -649,12 +658,15 @@
     "ซี",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "คำประกอบท้ายคำอื่นเพื่อเสริมข้อควา + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "use": "false-split"
   },
   {
    "th": "ผู้ดี",
@@ -679,7 +691,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำใช้แทนคำว่า คนหรือสิ่งที่ถือเสมื + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ความหวังดี",
@@ -699,13 +715,18 @@
     "ความหวัง",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "hope + good",
+   "lit_th": "คำอาการนามของ หวัง + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "หัวดี",
@@ -730,7 +751,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "หัว"
+   ],
+   "lit": "head + good",
+   "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "พอดี",
@@ -757,7 +786,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit": "enough + good",
+   "lit_th": "เท่าที่ต้องการ + มีลักษณะที่เป็นไปในทางที่ต้องการ น"
   },
   {
    "th": "ฤๅดี",
@@ -782,7 +814,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "รูปสระในภาษาสันสกฤต ซึ่งเป็นเสียงย + มีลักษณะที่เป็นไปในทางที่ต้องการ น"
   },
   {
    "th": "ดีใจ",
@@ -807,7 +841,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "good + heart",
+   "lit_th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "flips_with": "ใจดี",
+   "frame": "quality"
   },
   {
    "th": "ภักดี",
@@ -827,12 +870,17 @@
     "ภัก",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "รูปเลิกใช้ของ พัก + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "ได้ดี",
@@ -857,7 +905,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ได้"
+   ],
+   "lit": "have + good",
+   "lit_th": "รับมาหรือตกมาเป็นของตัว + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ยินดี",
@@ -882,7 +938,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "รู้เสียงด้วยหู + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "การรู้ดี",
@@ -902,13 +962,17 @@
     "การรู้",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ รู้ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "การหวังดี",
@@ -928,13 +992,17 @@
     "การหวัง",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หวัง + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "อินดี",
@@ -954,12 +1022,17 @@
     "อิน",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ชื่อลูกจันชนิดหนึ่ง ลูกกลมแป้นกลาง + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "ความรู้ดี",
@@ -979,13 +1052,18 @@
     "ความรู้",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "knowledge + good",
+   "lit_th": "สิ่งที่สั่งสมมาจากการศึกษาเล่าเรีย + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ไอดี",
@@ -1005,12 +1083,18 @@
     "ไอ",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "cough + good",
+   "lit_th": "สิ่งที่มีลักษณะอย่างควัน ลอยออกมาจ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "การคืนดี",
@@ -1030,13 +1114,17 @@
     "การคืน",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ คืน + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ดีเด่น",
@@ -1061,7 +1149,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 0,
+   "lit": "good + visible",
+   "lit_th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น + ที่ปรากฏเห็นได้ชัดจะแจ้งเพราะนูนขึ",
+   "frame": "quality"
   },
   {
    "th": "ดีเดือด",
@@ -1086,7 +1179,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "lit": "good + angry",
+   "lit_th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น + อาการที่ของเหลวพลุ่งขึ้นเพราะความร",
+   "frame": "quality"
   },
   {
    "th": "ดีไซน์",
@@ -1106,12 +1204,17 @@
     "ดี",
     "ไซน์"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น + ไซน์ของมุมใดคืออัตราส่วน ความยาวขอ",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "ความพอดี",
@@ -1132,13 +1235,17 @@
     "ความพอ",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ พอ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ดีกรี",
@@ -1158,12 +1265,17 @@
     "ดี",
     "กรี"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น + ช้าง",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "อวดดี",
@@ -1188,7 +1300,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "สำแดงให้รู้เห็น + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ดีซ่าน",
@@ -1213,7 +1329,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "lit_th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น + แล่นกระจายไปทั่วตัว",
+   "frame": "quality"
   },
   {
    "th": "ญาติดี",
@@ -1238,7 +1358,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "family + good",
+   "lit_th": "คนในวงศ์วานที่ยังนับรู้กันได้ทางเช + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "เกินดี",
@@ -1263,7 +1388,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "เกิน"
+   ],
+   "lit": "to exceed + good",
+   "lit_th": "พ้น + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "มันดี",
@@ -1283,12 +1416,21 @@
     "มัน",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "มัน"
+   ],
+   "lit": "it + good",
+   "lit_th": "ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "ดีฉัน",
@@ -1313,7 +1455,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+PRON",
+   "head": 0,
+   "lit": "good + I",
+   "lit_th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น + สรรพนามบุรุษที่ 1 ใช้แทนตัวผู้พูด",
+   "frame": "quality"
   },
   {
    "th": "การอวดดี",
@@ -1333,13 +1480,17 @@
     "การอวด",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ อวด + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ดีเจ",
@@ -1359,12 +1510,17 @@
     "ดี",
     "เจ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น + อาหารที่ไม่ปรุงด้วยเนื้อสัตว์ และผ",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "ลองดี",
@@ -1389,7 +1545,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ของที่ทำรองรับไว้ชั้นใน + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ใจดี",
@@ -1417,7 +1577,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "heart + good",
+   "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "flips_with": "ดีใจ",
+   "frame": "quality"
   },
   {
    "th": "รู้ดี",
@@ -1442,7 +1611,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "รู้"
+   ],
+   "lit": "know + good",
+   "lit_th": "แจ้ง + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "เม็ดดี",
@@ -1466,7 +1643,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "seed + good",
+   "lit_th": "ส่วนภายในของผลไม้ที่เพาะเป็นต้นขึ้ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ความอินดี",
@@ -1486,13 +1668,17 @@
     "ความอิน",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ อิน + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ดีบุก",
@@ -1513,12 +1699,17 @@
     "ดี",
     "บุก"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น + ชื่อไม้ล้มลุกหลายชนิดในสกุล Amorph",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "ขวัญดี",
@@ -1543,7 +1734,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ขวัญ"
+   ],
+   "lit": "khwan + good",
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ถือดี",
@@ -1568,7 +1767,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ถือ"
+   ],
+   "lit": "hold + good",
+   "lit_th": "เอาไว้ในมือ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ของดี",
@@ -1593,7 +1800,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ของ"
+   ],
+   "lit": "by + good",
+   "lit_th": "สิ่งต่าง ๆ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
   },
   {
    "th": "ดีแตก",
@@ -1618,7 +1833,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "cross_listed": [
+    "แตก"
+   ],
+   "lit": "good + fracture",
+   "lit_th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น + แยกออกจากส่วนรวม",
+   "frame": "quality"
   },
   {
    "th": "ดีกว่า",
@@ -1646,7 +1869,41 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 0,
+   "lit_th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น + เกิน",
+   "frame": "quality"
+  },
+  {
+   "th": "ดีปลี",
+   "rtgs": "di-pli",
+   "ipa": "/diː˧.pliː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อไม้เถาในสกุล Piper วงศ์ Piperaceae คือ ชนิด P. retrofractum Vahl มีรากตามข้อของลำต้นเพื่อยึดเกาะ ผลอัดแน่นเป็นช่อ ทุกส่วนมีกลิ่น โดยเฉพาะผลกลิ่นหอมฉุน รสเผ็ดร้อน ใช้เป็นเครื่องเทศและทำยาได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดี",
+    "ปลี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 12: definition form is a biological; filed under the head's name-use sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "ชื่อตัวอักษรในอักษรละติน D/d + ช่อดอกของกล้วยที่ยังมีกาบหุ้มอยู่",
+   "frame": "quality",
+   "use": "false-split"
   }
  ],
  "etymology": {
@@ -1664,5 +1921,11 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "good",
+  "nice",
+  "fine",
+  "well"
+ ]
 }

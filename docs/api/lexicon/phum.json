@@ -1,7 +1,7 @@
 {
  "id": "w:phum",
  "th": "ภูมิ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "phum",
  "paiboon": "puum",
  "ipa": "/pʰuːm˧/",
@@ -13,11 +13,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "land",
+     "ground"
     ],
     "th": "แผ่นดิน, ที่ดิน",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -52,7 +54,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The earth as the goddess of it — ภูเทวี.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -73,7 +79,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Ground becomes level, stratum, storey.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -94,7 +104,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "The ground someone comes from: background, origins.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -141,9 +155,20 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "รู้"
+     ],
+     "lit": "land + know",
+     "lit_th": "ความรู้ + แจ้ง"
     }
-   ]
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "And what that ground has given them: knowledge, attainment.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -164,7 +189,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Standing on a level above: dignified, imposing.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -185,7 +214,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "And in bearing: bold, impressive.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -255,7 +288,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ศรี"
+     ],
+     "lit": "splendour + phum as an element in place names",
+     "lit_th": "มิ่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ไชยภูมิ",
@@ -281,7 +322,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "ดีกว่า + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "วาริชภูมิ",
@@ -307,33 +352,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
-    },
-    {
-     "th": "สุวรรณภูมิ",
-     "rtgs": "su-wan-na-phum",
-     "ipa": "/su˨˩.wan˧.na˦˥.pʰuːm˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "ชื่ออำเภอหนึ่งในจังหวัดร้อยเอ็ด",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "สุวรรณ",
-      "ภูมิ"
-     ],
-     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
-     "conf": "verified",
-     "src": [
-      "RID",
-      "WIKT"
-     ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เกิดแต่น้ำ คือ บัว ปลา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -381,7 +404,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "land + discipline",
+   "lit_th": "แผ่นดิน + ระบบวิชาความรู้",
+   "frame": "entity"
   },
   {
    "th": "ปริภูมิ",
@@ -406,7 +434,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "แย้ม + แผ่นดิน"
   },
   {
    "th": "ภูมิแพ้",
@@ -432,7 +463,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "land + lose",
+   "lit_th": "แผ่นดิน + ชนะ"
   },
   {
    "th": "ภูมิคุ้มกัน",
@@ -457,7 +492,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "land + cover",
+   "lit_th": "แผ่นดิน + คอยป้องกันให้ปลอดภัย"
   },
   {
    "th": "ภูมิปัญญา",
@@ -482,7 +521,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "land + wit",
+   "lit_th": "แผ่นดิน + ความรอบรู้",
+   "frame": "entity"
   },
   {
    "th": "ตติยภูมิ",
@@ -507,7 +551,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ที่สาม + แผ่นดิน"
   },
   {
    "th": "ทุติยภูมิ",
@@ -533,7 +579,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ที่ 2 + แผ่นดิน"
   },
   {
    "th": "อบายภูมิ",
@@ -558,7 +606,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ที่ที่ปราศจากความเจริญ + แผ่นดิน",
+   "frame": "entity"
   },
   {
    "th": "รณภูมิ",
@@ -583,7 +635,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เสียง + แผ่นดิน",
+   "frame": "entity"
   },
   {
    "th": "อุณหภูมิ",
@@ -609,7 +665,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ร้อน + แผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "แผนภูมิ",
@@ -634,7 +694,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "plan + land",
+   "lit_th": "สิ่งที่กำหนดถือเป็นแนวดำเนิน + แผ่นดิน",
+   "frame": "entity"
   },
   {
    "th": "ภูมิธรรม",
@@ -659,7 +724,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ธรรม"
+   ],
+   "lit": "land + dharma",
+   "lit_th": "แผ่นดิน + คุณความดี",
+   "frame": "entity"
   },
   {
    "th": "ปฐมภูมิ",
@@ -684,7 +757,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ประถม + แผ่นดิน",
+   "frame": "quality"
   },
   {
    "th": "เกียรติภูมิ",
@@ -709,7 +786,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "honor + land",
+   "lit_th": "ชื่อเสียง + แผ่นดิน",
+   "frame": "entity"
   },
   {
    "th": "ภูมิลำเนา",
@@ -734,7 +816,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "แผ่นดิน + แนว",
+   "frame": "entity"
   },
   {
    "th": "ภูมิอากาศ",
@@ -759,7 +845,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "อากาศ"
+   ],
+   "lit": "land + air",
+   "lit_th": "แผ่นดิน + แก๊สผสมที่ประกอบด้วยไนโตรเจนและออก",
+   "frame": "entity"
   },
   {
    "th": "ภูมิวิทยา",
@@ -784,7 +878,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "วิทยา"
+   ],
+   "lit": "land + knowledge",
+   "lit_th": "แผ่นดิน + ความรู้",
+   "frame": "entity"
   },
   {
    "th": "ภูมิประเทศ",
@@ -810,7 +912,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "land + country",
+   "lit_th": "แผ่นดิน + บ้านเมือง",
+   "frame": "entity"
   },
   {
    "th": "ภูมิภาค",
@@ -836,7 +943,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "land + sector",
+   "lit_th": "แผ่นดิน + ส่วน",
+   "frame": "entity"
   },
   {
    "th": "ภูมิใจ",
@@ -861,7 +973,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "land + heart",
+   "lit_th": "แผ่นดิน + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
   },
   {
    "th": "ชัยภูมิ",
@@ -886,7 +1006,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ชัย"
+   ],
+   "lit": "victory + land",
+   "lit_th": "การชนะ + แผ่นดิน",
+   "frame": "entity"
   },
   {
    "th": "ภูมิฐาน",
@@ -911,7 +1039,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ฐาน"
+   ],
+   "lit": "land + bottom",
+   "lit_th": "แผ่นดิน + ที่ตั้ง",
+   "frame": "entity"
   },
   {
    "th": "ภูมิรัฐศาสตร์",
@@ -936,7 +1072,41 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "แผ่นดิน + วิชาว่าด้วยการเมืองและการปกครองประ",
+   "frame": "entity"
+  },
+  {
+   "th": "สุวรรณภูมิ",
+   "rtgs": "su-wan-na-phum",
+   "ipa": "/su˨˩.wan˧.na˦˥.pʰuːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดร้อยเอ็ด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สุวรรณ",
+    "ภูมิ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ทอง + ใช้ประกอบชื่อสถานที่",
+   "frame": "entity"
   }
  ],
  "etymology": {

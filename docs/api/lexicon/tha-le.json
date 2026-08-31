@@ -1,7 +1,7 @@
 {
  "id": "w:tha-le",
  "th": "ทะเล",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "tha-le",
  "paiboon": "tá-lee",
  "ipa": "/tʰa˦˥.leː˧/",
@@ -13,10 +13,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "sea"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แต่เล็กกว่ามหาสมุทร",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -64,7 +64,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ + กลิ่นเหม็นชนิดหนึ่ง เช่นกลิ่นเสื้อ",
+     "frame": "entity"
     }
    ]
   },
@@ -72,10 +76,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "sea"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "รูปตัดทอนของ อาหารทะเล",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -116,18 +120,27 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "aid + sea",
+     "lit_th": "ของกิน + รูปตัดทอนของ อาหารทะเล",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "อาหารทะเล clipped to ทะเล — the sea stands for what is eaten from it.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "sea"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "อวัยวะเพศหญิง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -143,16 +156,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "euphemism",
+   "via_note": "A veiled term for the female genitals.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "sea"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ที่อยู่หรือเกิดในทะเล",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -193,7 +210,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อสัตว์ไม่มีกระดูกสันหลังหลายชนิ + ที่อยู่หรือเกิดในทะเล",
+     "frame": "entity"
     },
     {
      "th": "ผีทะเล",
@@ -219,9 +240,21 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ผี"
+     ],
+     "lit": "spirit + sea",
+     "lit_th": "สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั + ที่อยู่หรือเกิดในทะเล",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Living in or coming from the sea.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -278,7 +311,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "blossom + tha-le as an element in place names",
+     "lit_th": "ส่วนหนึ่งของพรรณไม้ที่ผลิออกจากต้น + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "หนองทะเล",
@@ -304,7 +342,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + tha-le as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "สิงโตทะเล",
@@ -331,7 +377,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "lion + tha-le as an element in place names",
+     "lit_th": "ชื่อสัตว์ในจินตนาการของจีน ถือว่าม + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ดาวทะเล",
@@ -357,7 +408,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดาว"
+     ],
+     "lit": "star + tha-le as an element in place names",
+     "lit_th": "สิ่งที่เห็นเป็นดวงมีแสงระยิบระยับใ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "หัวทะเล",
@@ -383,7 +442,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + tha-le as an element in place names",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เชิงทะเล",
@@ -409,7 +476,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เชิง"
+     ],
+     "lit": "foot + tha-le as an element in place names",
+     "lit_th": "ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -429,6 +504,8 @@
   "Attested in this corpus: 0 manuscript titles, 53 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['เค็ม', 'อาหาร'].",
@@ -456,7 +533,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ออก"
+   ],
+   "lit": "tear + sea",
+   "lit_th": "คำนำหน้าบรรดาศักดิ์ + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "entity"
   },
   {
    "th": "ทะเลทราย",
@@ -482,7 +567,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ทราย"
+   ],
+   "lit": "sea + sand",
+   "lit_th": "ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+   "frame": "entity"
   },
   {
    "th": "น้ำทะเล",
@@ -507,7 +600,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "water + sea",
+   "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "entity"
   },
   {
    "th": "ชายทะเล",
@@ -534,7 +635,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ชาย"
+   ],
+   "lit": "male + sea",
+   "lit_th": "คนที่ไม่มีมดลูก + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "entity"
   },
   {
    "th": "เหรียญทะเล",
@@ -558,7 +667,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "coin + sea",
+   "lit_th": "โลหะที่มีลักษณะกลมแบนหรือรูปเหลี่ย + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "entity"
   },
   {
    "th": "ดากทะเล",
@@ -578,13 +692,17 @@
     "ดาก",
     "ทะเล"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ปลายลำไส้ใหญ่ที่ทวารหนัก + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "entity"
   },
   {
    "th": "การออกทะเล",
@@ -604,13 +722,17 @@
     "การออก",
     "ทะเล"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ออก + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "entity"
   },
   {
    "th": "ชะวากทะเล",
@@ -635,7 +757,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ช่องที่เวิ้งว้างเข้าไป + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "entity"
   },
   {
    "th": "อกทะเล",
@@ -660,7 +786,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "อก"
+   ],
+   "lit": "chest + sea",
+   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "entity"
   },
   {
    "th": "สะดือทะเล",
@@ -685,7 +819,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ส่วนของร่างกายอยู่ตรงกลางพื้นท้องเ + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "entity"
   },
   {
    "th": "ก๋วยเตี๋ยวราดหน้าทะเล",
@@ -709,7 +847,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ก๋วยเตี๋ยวที่ผัดเส้นกับซีอิ๊วดำเล็ + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "entity"
   },
   {
    "th": "โพ้นทะเล",
@@ -734,7 +876,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "โน้น + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "quality"
   },
   {
    "th": "กลางทะเล",
@@ -759,7 +905,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กลาง"
+   ],
+   "lit": "middle + sea",
+   "lit_th": "ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -768,5 +922,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "sea"
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "w:choeng",
  "th": "เชิง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "choeng",
  "paiboon": "chəəng",
  "ipa": "/t͡ɕʰɤːŋ˧/",
@@ -12,11 +12,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "foot",
+     "base",
+     "footing"
     ],
     "th": "ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบางอย่าง",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -51,7 +54,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The foot of a thing: its projecting edge.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -72,7 +79,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "The patterned border along the lower edge of cloth.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -93,7 +104,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A footing taken in dealing with someone: a wile, a device.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -140,7 +155,13 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "foot + layer",
+     "lit_th": "ท่าที + ที่สำหรับวางของอย่างหนึ่ง มีพื้นซ้",
+     "flips_with": "ชั้นเชิง",
+     "frame": "entity"
     },
     {
      "th": "ลองเชิง",
@@ -165,7 +186,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ของที่ทำรองรับไว้ชั้นใน + ท่าที",
+     "frame": "entity"
     },
     {
      "th": "ชั้นเชิง",
@@ -191,9 +216,19 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "layer + foot",
+     "lit_th": "ที่สำหรับวางของอย่างหนึ่ง มีพื้นซ้ + ท่าที",
+     "flips_with": "เชิงชั้น",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 4,
+   "via": "generalisation",
+   "via_note": "And so, manner, bearing.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -214,7 +249,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 5,
+   "via": "generalisation",
+   "via_note": "And an aspect, a side of a matter.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -284,7 +323,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เปลือกหุ้มชั้นนอกของผลไม้ หรือดอกข + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "เชิงทะเล",
@@ -310,7 +353,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทะเล"
+     ],
+     "lit": "choeng as an element in place names + sea",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+     "frame": "entity"
     },
     {
      "th": "เชิงดอย",
@@ -336,7 +387,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภูเขา",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -354,6 +409,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 1 manuscript titles, 28 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -382,7 +438,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แก้"
+   ],
+   "lit": "cowrie shell used to burnish cloth + foot",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง",
+   "frame": "entity"
   },
   {
    "th": "เชิงสัญลักษณ์",
@@ -408,7 +472,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "foot + sign",
+   "lit_th": "ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง + สิ่งที่กำหนดนิยมกันขึ้นเพื่อให้ใช้",
+   "frame": "entity"
   },
   {
    "th": "เชิงหนา",
@@ -433,7 +502,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "foot + thick",
+   "lit_th": "ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง + ส่วนสูงมากจากผิวพื้น",
+   "frame": "entity"
   },
   {
    "th": "สิ้นเชิง",
@@ -458,7 +532,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "สิ้น"
+   ],
+   "lit": "to be exhausted + foot",
+   "lit_th": "หมด + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง"
   },
   {
    "th": "ขวางเชิง",
@@ -483,7 +564,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ขวาง"
+   ],
+   "lit": "across + foot",
+   "lit_th": "กีดกั้น + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง"
   },
   {
    "th": "การสิ้นเชิง",
@@ -503,13 +591,17 @@
     "การสิ้น",
     "เชิง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สิ้น + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง",
+   "frame": "entity"
   },
   {
    "th": "เชิงกราน",
@@ -534,7 +626,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง + ไฟ",
+   "frame": "entity"
   },
   {
    "th": "การลองเชิง",
@@ -554,13 +650,17 @@
     "การลอง",
     "เชิง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ลอง + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง",
+   "frame": "entity"
   },
   {
    "th": "กรวยเชิง",
@@ -585,7 +685,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "funnel + foot",
+   "lit_th": "รูปตันมีลักษณะฐานกลมและแหลมเรียวไป + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง",
+   "frame": "entity"
   },
   {
    "th": "การขวางเชิง",
@@ -605,13 +710,17 @@
     "การขวาง",
     "เชิง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ขวาง + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง",
+   "frame": "entity"
   }
  ],
  "etymology": {

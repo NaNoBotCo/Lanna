@@ -1,7 +1,7 @@
 {
  "id": "w:siang",
  "th": "เสียง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "siang",
  "paiboon": "sǐiang",
  "ipa": "/sia̯ŋ˩˩˦/",
@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "voice",
-     "bright",
-     "sound",
-     "audio"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "สิ่งที่รับรู้ได้ด้วยหู",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -43,13 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "voice",
-     "bright",
-     "sound",
-     "audio"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ความเห็น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -65,19 +59,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A voice raised stands for the opinion in it.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "voice",
-     "bright",
-     "sound",
-     "audio"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ความนิยม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -93,19 +88,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And many voices stand for popularity.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "voice",
-     "bright",
-     "sound",
-     "audio"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "คะแนนเสียง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -147,7 +143,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขาย"
+     ],
+     "lit": "sell + voice",
+     "lit_th": "เอาของแลกเงินตรา + คะแนนเสียง"
     },
     {
      "th": "เสียงตรี",
@@ -173,7 +176,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตรี"
+     ],
+     "lit": "voice + fish",
+     "lit_th": "คะแนนเสียง + ปลา",
+     "frame": "entity"
     },
     {
      "th": "ส่งเสียง",
@@ -199,7 +210,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ส่ง"
+     ],
+     "lit": "send + voice",
+     "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท + คะแนนเสียง"
     },
     {
      "th": "คะแนนเสียง",
@@ -225,7 +243,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "mark + voice",
+     "lit_th": "เครื่องหมายในการนับ + คะแนนเสียง",
+     "frame": "entity"
     },
     {
      "th": "เสียงเอก",
@@ -251,7 +274,13 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "voice + one",
+     "lit_th": "คะแนนเสียง + หนึ่ง"
     },
     {
      "th": "กระบอกเสียง",
@@ -278,7 +307,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ไม้ไผ่ที่ตัดเป็นท่อน + คะแนนเสียง",
+     "frame": "entity"
     },
     {
      "th": "ซื้อเสียง",
@@ -304,7 +337,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "consume + voice",
+     "lit_th": "เอาเงินตราแลกกับสิ่งของ + คะแนนเสียง"
     },
     {
      "th": "กระจายเสียง",
@@ -330,7 +367,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "spread + voice",
+     "lit_th": "ทำให้แพร่หรือแตกแยกออกจากกันไปในที + คะแนนเสียง"
     },
     {
      "th": "ออกเสียง",
@@ -358,9 +399,21 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ออก"
+     ],
+     "lit": "tear + voice",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + คะแนนเสียง",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "One voice counted: a vote.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -374,6 +427,8 @@
   "Attested in this corpus: 0 manuscript titles, 16 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 38; domain seeded by keyword hits ['override'].",
@@ -396,13 +451,18 @@
     "การขาย",
     "เสียง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "sale + voice",
+   "lit_th": "คำอาการนามของ ขาย + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "ขยายเสียง",
@@ -427,7 +487,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "amplify + voice",
+   "lit_th": "อธิบาย + สิ่งที่รับรู้ได้ด้วยหู"
   },
   {
    "th": "น้ำเสียง",
@@ -453,7 +517,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "water + voice",
+   "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "การหาเสียง",
@@ -474,13 +546,17 @@
     "การหา",
     "เสียง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หา + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "การซื้อเสียง",
@@ -500,13 +576,18 @@
     "การซื้อ",
     "เสียง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "purchase + voice",
+   "lit_th": "คำอาการนามของ ซื้อ + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "ชื่อเสียง",
@@ -534,7 +615,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ชื่อ"
+   ],
+   "lit": "name + voice",
+   "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "กล่องเสียง",
@@ -559,7 +648,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "box + voice",
+   "lit_th": "ภาชนะใส่ของรูปกลมหรือเหลี่ยม อาจมี + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "เสียงสามัญ",
@@ -584,7 +678,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "voice + usual",
+   "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + ปรกติ",
+   "frame": "quality"
   },
   {
    "th": "ทำนองเสียง",
@@ -609,7 +708,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "tune + voice",
+   "lit_th": "ทาง + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "แผ่นเสียง",
@@ -637,7 +741,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สิ่งที่มีลักษณะแบน ๆ อย่างกระดาษหร + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "การกระจายเสียง",
@@ -657,13 +765,17 @@
     "การกระจาย",
     "เสียง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กระจาย + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "หางเสียง",
@@ -688,7 +800,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "tail + voice",
+   "lit_th": "ส่วนที่ยื่นออกจากส่วนท้ายแห่งลำตัว + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "หาเสียง",
@@ -713,7 +830,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "หา"
+   ],
+   "lit": "find + voice",
+   "lit_th": "มุ่งพบ + สิ่งที่รับรู้ได้ด้วยหู"
   },
   {
    "th": "เสียงโท",
@@ -738,7 +862,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "โท"
+   ],
+   "lit": "voice + two",
+   "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + สอง"
   },
   {
    "th": "การส่งเสียง",
@@ -758,13 +888,18 @@
     "การส่ง",
     "เสียง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "delivery + voice",
+   "lit_th": "คำอาการนามของ ส่ง + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "กระแสเสียง",
@@ -789,7 +924,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "stream + voice",
+   "lit_th": "น้ำหรือลมที่ไหลหรือพัดเรื่อยไปไม่ข + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "เสียงหลบ",
@@ -814,7 +954,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + หลีก"
   },
   {
    "th": "จานเสียง",
@@ -834,13 +977,18 @@
     "จาน",
     "เสียง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "plate + voice",
+   "lit_th": "ภาชนะรูปแบน ๆ สำหรับใส่สิ่งของต่าง + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "เสียงแตก",
@@ -864,7 +1012,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "แตก"
+   ],
+   "lit": "voice + fracture",
+   "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + แยกออกจากส่วนรวม"
   },
   {
    "th": "เสียงสอง",
@@ -889,7 +1044,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit": "voice + two",
+   "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + จำนวนหนึ่งบวกหนึ่ง"
   },
   {
    "th": "เสียงสะท้อน",
@@ -914,7 +1072,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "voice + echo",
+   "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + วกกลับ"
   },
   {
    "th": "หน่วยเสียง",
@@ -940,7 +1102,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ตัวเลขหลังสุดของเลขจำนวนเต็มที่เรี + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "การออกเสียง",
@@ -960,13 +1126,17 @@
     "การออก",
     "เสียง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ออก + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "ดูดเสียง",
@@ -991,7 +1161,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "absorb + voice",
+   "lit_th": "สูบด้วยปาก + สิ่งที่รับรู้ได้ด้วยหู"
   },
   {
    "th": "การขึ้นเสียง",
@@ -1011,13 +1185,17 @@
     "การขึ้น",
     "เสียง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ขึ้น + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "การขยายเสียง",
@@ -1037,13 +1215,18 @@
     "การขยาย",
     "เสียง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "increase + voice",
+   "lit_th": "คำอาการนามของ ขยาย + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "เสียงจัตวา",
@@ -1068,7 +1251,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + สี่"
   },
   {
    "th": "หนังสือเสียง",
@@ -1093,7 +1278,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "book + voice",
+   "lit_th": "เครื่องหมายใช้ขีดเขียนแทนเสียงหรือ + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
   },
   {
    "th": "ขึ้นเสียง",
@@ -1118,7 +1308,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ขึ้น"
+   ],
+   "lit": "rise + voice",
+   "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + สิ่งที่รับรู้ได้ด้วยหู"
   }
  ],
  "etymology": {
@@ -1136,5 +1333,11 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "voice",
+  "bright",
+  "sound",
+  "audio"
+ ]
 }

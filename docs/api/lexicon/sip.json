@@ -1,7 +1,7 @@
 {
  "id": "w:sip",
  "th": "สิบ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "sip",
  "paiboon": "sìp",
  "ipa": "/sip̚˨˩/",
@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "ten"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "จำนวนเก้าบวกหนึ่ง, จำนวนจุดที่มีในนี้ (••••• •••••)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -61,7 +61,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "lit": "six + ten",
+     "lit_th": "จำนวนห้าบวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+     "flips_with": "สิบหก"
     },
     {
      "th": "เก้าสิบ",
@@ -88,7 +92,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "lit": "nine + ten",
+     "lit_th": "จำนวนแปดบวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+     "flips_with": "สิบเก้า"
     },
     {
      "th": "สิบเจ็ด",
@@ -115,7 +123,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "lit": "ten + seven",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนหกบวกหนึ่ง",
+     "flips_with": "เจ็ดสิบ"
     },
     {
      "th": "สิบสอง",
@@ -142,7 +154,10 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "lit": "ten + two",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนหนึ่งบวกหนึ่ง"
     },
     {
      "th": "สิบห้า",
@@ -169,7 +184,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "lit": "ten + five",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนสี่บวกหนึ่ง",
+     "flips_with": "ห้าสิบ"
     },
     {
      "th": "สิบสี่",
@@ -196,7 +215,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "lit": "ten + four",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนสามบวกหนึ่ง",
+     "flips_with": "สี่สิบ"
     },
     {
      "th": "ยี่สิบ",
@@ -223,7 +246,9 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 1,
+     "lit_th": "สอง ในคำว่า ยี่สิบ + จำนวนเก้าบวกหนึ่ง"
     },
     {
      "th": "สิบสาม",
@@ -251,7 +276,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "cross_listed": [
+      "สาม"
+     ],
+     "lit": "ten + three",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนสองบวกหนึ่ง",
+     "flips_with": "สามสิบ"
     },
     {
      "th": "สิบแปด",
@@ -278,7 +310,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "lit": "ten + eight",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนเจ็ดบวกหนึ่ง",
+     "flips_with": "แปดสิบ"
     },
     {
      "th": "สิบเก้า",
@@ -305,7 +341,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "lit": "ten + nine",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนแปดบวกหนึ่ง",
+     "flips_with": "เก้าสิบ"
     },
     {
      "th": "สิบเอ็ด",
@@ -332,7 +372,9 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + หนึ่ง"
     },
     {
      "th": "สิบหก",
@@ -359,7 +401,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "lit": "ten + six",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนห้าบวกหนึ่ง",
+     "flips_with": "หกสิบ"
     }
    ]
   },
@@ -367,10 +413,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "ten"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "เรียกเดือนที่ 10 ทางจันทรคติ ว่า เดือน 10 ตกในราวเดือนกันยายน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -386,16 +432,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The tenth lunar month, named from the number.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "ten"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ยศทหารบกหรือตำรวจชั้นประทวน ต่ำกว่าจ่า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -437,7 +487,13 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "ten + one",
+     "lit_th": "ยศทหารบกหรือตำรวจชั้นประทวน ต่ำกว่ + หนึ่ง"
     },
     {
      "th": "สิบโท",
@@ -463,7 +519,13 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "cross_listed": [
+      "โท"
+     ],
+     "lit": "ten + two",
+     "lit_th": "ยศทหารบกหรือตำรวจชั้นประทวน ต่ำกว่ + สอง"
     },
     {
      "th": "สิบตรี",
@@ -488,9 +550,19 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "cross_listed": [
+      "ตรี"
+     ],
+     "lit": "ten + fish",
+     "lit_th": "ยศทหารบกหรือตำรวจชั้นประทวน ต่ำกว่ + ปลา"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "And the sergeant, once the commander of ten.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -502,7 +574,8 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 95 manuscript titles, 21 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 21; domain seeded by keyword hits ['ทหาร', 'ยศ'].",
  "compounds_unassigned": [
@@ -530,7 +603,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit": "seven + ten",
+   "lit_th": "จำนวนหกบวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+   "flips_with": "สิบเจ็ด"
   },
   {
    "th": "สี่สิบ",
@@ -556,7 +633,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit": "four + ten",
+   "lit_th": "จำนวนสามบวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+   "flips_with": "สิบสี่"
   },
   {
    "th": "สิบเหลี่ยม",
@@ -582,7 +663,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "lit_th": "จำนวนเก้าบวกหนึ่ง + ด้านที่เป็นสัน"
   },
   {
    "th": "แปดสิบ",
@@ -608,7 +691,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit": "eight + ten",
+   "lit_th": "จำนวนเจ็ดบวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+   "flips_with": "สิบแปด"
   },
   {
    "th": "สามสิบ",
@@ -634,7 +721,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "cross_listed": [
+    "สาม"
+   ],
+   "lit": "three + ten",
+   "lit_th": "จำนวนสองบวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+   "flips_with": "สิบสาม"
   },
   {
    "th": "ห้าสิบ",
@@ -660,7 +754,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit": "five + ten",
+   "lit_th": "จำนวนสี่บวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+   "flips_with": "สิบห้า"
   }
  ],
  "etymology": {
@@ -678,5 +776,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "ten"
+ ]
 }

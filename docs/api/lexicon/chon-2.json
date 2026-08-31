@@ -1,7 +1,7 @@
 {
  "id": "w:chon-2",
  "th": "จร",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "chon",
  "paiboon": "jɔɔn",
  "ipa": "/t͡ɕɔːn˧/",
@@ -34,7 +34,11 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
-   ]
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "What wanders is not fixed: occasional, not regular.",
+   "via_conf": "probable"
   },
   {
    "n": 2,
@@ -58,17 +62,24 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Wandering in where it does not belong: intruding.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 3]"
+     "to go",
+     "to wander",
+     "to travel"
     ],
     "th": "ไป, เที่ยวไป, ใช้เป็นบทท้ายสมาสก็มี ที่ใช้ควบกับคำไทยก็มี",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -82,6 +93,10 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: จร < Pali carati 'to go, to wander' — the origin.",
+    "Declared root: จร < Pali carati 'to go, to wander' — the origin."
    ]
   },
   {
@@ -106,7 +121,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Going in the moral sense: to conduct oneself.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -130,6 +149,10 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: จร as จอน, the ear ornament — unrelated.",
+    "Declared root: จร as จอน, the ear ornament — unrelated."
    ]
   }
  ],
@@ -142,6 +165,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 25 manuscript titles, 296 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -166,12 +190,17 @@
     "เข",
     "จร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 1,
+   "lit_th": "เหล่น้อย + ไม่ใช่ประจำ",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "อัตตาจร",
@@ -196,7 +225,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "I + to go",
+   "lit_th": "ตน + ไม่ใช่ประจำ",
+   "frame": "quality"
   },
   {
    "th": "นีรจร",
@@ -221,7 +255,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "น้ำ + ไม่ใช่ประจำ",
+   "frame": "quality"
   },
   {
    "th": "โคจร",
@@ -247,7 +285,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "โค"
+   ],
+   "lit": "cow + to go",
+   "lit_th": "วัว + ไม่ใช่ประจำ",
+   "frame": "quality"
   },
   {
    "th": "สมจร",
@@ -272,7 +318,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 1,
+   "lit": "suitable + to go",
+   "lit_th": "เหมาะ + ไม่ใช่ประจำ",
+   "frame": "quality"
   },
   {
    "th": "ชีพจร",
@@ -297,7 +348,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ชีพ"
+   ],
+   "lit": "life + to go",
+   "lit_th": "ชีวิต + ไม่ใช่ประจำ",
+   "frame": "quality"
   },
   {
    "th": "กำจร",
@@ -322,7 +381,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "กำ"
+   ],
+   "lit": "to close the hand + to go",
+   "lit_th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ + ไม่ใช่ประจำ",
+   "frame": "quality"
   },
   {
    "th": "วาริจร",
@@ -342,12 +409,17 @@
     "วาริ",
     "จร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "น้ำ + ไม่ใช่ประจำ",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "กระจร",
@@ -372,7 +444,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "frame": "quality"
   },
   {
    "th": "จรมูก",
@@ -392,12 +467,17 @@
     "จร",
     "มูก"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 0,
+   "lit_th": "ไม่ใช่ประจำ + ใบ้",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "ชลจร",
@@ -417,12 +497,17 @@
     "ชล",
     "จร"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "น้ำ + ไม่ใช่ประจำ",
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "จรจรัล",
@@ -447,7 +532,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "lit_th": "ไม่ใช่ประจำ + เดิน",
+   "frame": "quality"
   },
   {
    "th": "อากาศจร",
@@ -472,7 +561,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "อากาศ"
+   ],
+   "lit": "air + to go",
+   "lit_th": "แก๊สผสมที่ประกอบด้วยไนโตรเจนและออก + ไม่ใช่ประจำ",
+   "frame": "quality"
   },
   {
    "th": "จรกลู่",
@@ -497,7 +594,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "lit_th": "ไม่ใช่ประจำ + เกลื่อน",
+   "frame": "quality"
   },
   {
    "th": "จรเข้",
@@ -522,7 +623,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "ไม่ใช่ประจำ + จระเข้",
+   "frame": "quality"
   },
   {
    "th": "จรจัด",
@@ -547,7 +652,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 0,
+   "cross_listed": [
+    "จัด"
+   ],
+   "lit": "to go + arrange",
+   "lit_th": "ไม่ใช่ประจำ + ยิ่ง"
   },
   {
    "th": "การจร",
@@ -567,13 +678,17 @@
     "การ",
     "จร"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "งาน + ไม่ใช่ประจำ",
+   "frame": "quality"
   },
   {
    "th": "วงจร",
@@ -598,7 +713,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "zone + to go",
+   "lit_th": "รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม + ไม่ใช่ประจำ",
+   "frame": "quality"
   },
   {
    "th": "จรรม",
@@ -618,12 +738,21 @@
     "จร",
     "รม"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "cross_listed": [
+    "รม"
+   ],
+   "lit": "to go + to smoke",
+   "lit_th": "ไม่ใช่ประจำ + อบด้วยควันหรือไอไฟ",
+   "frame": "quality",
+   "use": "false-split"
   }
  ],
  "etymology": {

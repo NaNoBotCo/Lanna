@@ -1,7 +1,7 @@
 {
  "id": "w:kut",
  "th": "กุด",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "kut",
  "paiboon": "gùt",
  "ipa": "/kut̚˨˩/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "to cut short",
+     "to lop"
     ],
     "th": "ตัด",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -29,7 +31,10 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: กุด 'to cut short'.",
+    "Declared root: กุด 'to cut short'.",
+    "Declared root: กุด 'to cut short'."
    ]
   },
   {
@@ -51,7 +56,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Cut short, and so, stumpy.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -72,6 +81,11 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: กุด, the oxbow lake — the Isan water word.",
+    "Declared root: กุด, the oxbow lake — the Isan water word.",
+    "Declared root: กุด, the oxbow lake — the Isan water word."
    ]
   },
   {
@@ -142,7 +156,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "biological"
+     "use": "biological",
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เผา"
     },
     {
      "th": "กุดชุม",
@@ -168,7 +185,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "ชุม"
+     ],
+     "lit": "kut as an element in place names + abound",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มารวมกัน"
     },
     {
      "th": "กุดธาตุ",
@@ -194,7 +218,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "kut as an element in place names + element",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่ถือว่าเป็นส่วนสำคัญที่คุมกั"
     },
     {
      "th": "กุดพิมาน",
@@ -220,7 +248,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + รูปแบบอื่นของ วิมาน"
     },
     {
      "th": "กุดรัง",
@@ -246,7 +277,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "รัง"
+     ],
+     "lit": "kut as an element in place names + nest",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam"
     },
     {
      "th": "กุดเค้า",
@@ -272,7 +310,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่เป็นเครื่องกำหนดหมายบอกให้ร"
     },
     {
      "th": "กุดขอนแก่น",
@@ -298,7 +339,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+PROP",
+     "head": 0
     },
     {
      "th": "กุดบาก",
@@ -324,7 +367,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ใช้สิ่งมีคมเช่นมีดหรือขวานเป็นต้นฟ"
     },
     {
      "th": "กุดจอก",
@@ -350,7 +396,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะเล็ก ๆ รูปอย่างขัน ถ้าใช้สำหร"
     },
     {
      "th": "กุดจิก",
@@ -376,7 +425,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กิริยาที่เอาจะงอยปากสับอย่างอาการข"
     },
     {
      "th": "กุดหว้า",
@@ -402,7 +454,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "kut as an element in place names + jambul",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Syzygium Cu"
     },
     {
      "th": "กุดโบสถ์",
@@ -428,7 +484,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "kut as an element in place names + temple",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สถานที่สำหรับพระสงฆ์ใช้ประชุมทำสัง"
     },
     {
      "th": "กุดโดน",
@@ -454,7 +514,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กระทบกระทั่ง"
     },
     {
      "th": "กุดจับ",
@@ -480,7 +543,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "จับ"
+     ],
+     "lit": "kut as an element in place names + grab",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ"
     },
     {
      "th": "กุดกว้าง",
@@ -506,7 +576,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "kut as an element in place names + wide",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ด้านสั้นที่คู่กับด้านยาว"
     },
     {
      "th": "กุดน้อย",
@@ -532,7 +606,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "น้อย"
+     ],
+     "lit": "kut as an element in place names + little",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม่มาก",
+     "frame": "quality"
     }
    ],
    "extends": 1,

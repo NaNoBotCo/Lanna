@@ -1,7 +1,7 @@
 {
  "id": "w:sin",
  "th": "สิ้น",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "sin",
  "paiboon": "sîn",
  "ipa": "/sin˥˩/",
@@ -12,11 +12,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "to be exhausted",
+     "to end",
+     "to run out"
     ],
     "th": "หมด, จบ",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -56,7 +59,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "สุด"
+     ],
+     "lit": "far + to be exhausted",
+     "lit_th": "สิ้น + หมด",
+     "flips_with": "สิ้นสุด"
     }
    ]
   },
@@ -105,7 +116,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "บุญ"
+     ],
+     "lit": "to be exhausted + merit",
+     "lit_th": "ตาย + ความสุข"
     },
     {
      "th": "สิ้นลม",
@@ -131,9 +149,20 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ลม"
+     ],
+     "lit": "to be exhausted + wind",
+     "lit_th": "ตาย + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "euphemism",
+   "via_note": "Coming to an end, said of a person: to die.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -145,6 +174,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 0 manuscript titles, 4 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -174,7 +204,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ชีวิต"
+   ],
+   "lit": "to be exhausted + life",
+   "lit_th": "หมด + ความเป็นอยู่"
   },
   {
    "th": "สิ้นสติ",
@@ -199,7 +236,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to be exhausted + reason",
+   "lit_th": "หมด + ความรู้สึก"
   },
   {
    "th": "สิ้นคิด",
@@ -224,7 +265,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "คิด"
+   ],
+   "lit": "to be exhausted + think",
+   "lit_th": "หมด + ทำให้ปรากฏเป็นรูปหรือประกอบให้เป็น"
   },
   {
    "th": "สิ้นเชิง",
@@ -249,7 +297,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "เชิง"
+   ],
+   "lit": "to be exhausted + foot",
+   "lit_th": "หมด + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง"
   },
   {
    "th": "สิ้นใจ",
@@ -274,7 +329,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "to be exhausted + heart",
+   "lit_th": "หมด + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
   },
   {
    "th": "การสิ้น",
@@ -294,13 +356,16 @@
     "การ",
     "สิ้น"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + หมด"
   },
   {
    "th": "สิ้นเวร",
@@ -325,7 +390,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "หมด + ความพยาบาท"
   },
   {
    "th": "สิ้นหวัง",
@@ -350,7 +418,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to be exhausted + hope",
+   "lit_th": "หมด + คาดว่าจะได้"
   },
   {
    "th": "สิ้นซาก",
@@ -375,7 +447,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to be exhausted + end",
+   "lit_th": "หมด + ร่างของคนหรือสัตว์ที่ตายจนโทรมเหลื"
   },
   {
    "th": "สิ้นชีพิตักษัย",
@@ -400,7 +476,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "หมด + ตาย"
   },
   {
    "th": "สิ้นสุด",
@@ -426,7 +505,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "สุด"
+   ],
+   "lit": "to be exhausted + far",
+   "lit_th": "หมด + สิ้น",
+   "flips_with": "สุดสิ้น"
   },
   {
    "th": "สิ้นกรรม",
@@ -451,7 +538,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "กรรม"
+   ],
+   "lit": "to be exhausted + karma",
+   "lit_th": "หมด + การ"
   },
   {
    "th": "สิ้นสูญ",
@@ -476,7 +570,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to be exhausted + all",
+   "lit_th": "หมด + ทำให้หายสิ้นไป",
+   "flips_with": "สูญสิ้น"
   },
   {
    "th": "การสูญสิ้น",
@@ -496,13 +595,16 @@
     "การสูญ",
     "สิ้น"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สูญ + หมด"
   },
   {
    "th": "สิ้นชื่อ",
@@ -527,7 +629,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ชื่อ"
+   ],
+   "lit": "to be exhausted + name",
+   "lit_th": "หมด + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส"
   },
   {
    "th": "สิ้นชีพ",
@@ -552,7 +661,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ชีพ"
+   ],
+   "lit": "to be exhausted + life",
+   "lit_th": "หมด + ชีวิต"
   },
   {
    "th": "สูญสิ้น",
@@ -577,7 +693,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "all + to be exhausted",
+   "lit_th": "ทำให้หายสิ้นไป + หมด",
+   "flips_with": "สิ้นสูญ"
   },
   {
    "th": "การเสร็จสิ้น",
@@ -597,13 +718,16 @@
     "การเสร็จ",
     "สิ้น"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสร็จ + หมด"
   },
   {
    "th": "สิ้นอายุขัย",
@@ -628,7 +752,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "หมด + การสิ้นอายุ"
   },
   {
    "th": "เสร็จสิ้น",
@@ -655,7 +782,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "complete + to be exhausted",
+   "lit_th": "จบ + หมด"
   },
   {
    "th": "ความสูญสิ้น",
@@ -675,13 +806,16 @@
     "ความสูญ",
     "สิ้น"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สูญ + หมด"
   },
   {
    "th": "ทั้งสิ้น",
@@ -708,7 +842,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "ทั่ว + หมด",
+   "frame": "quality"
   },
   {
    "th": "สิ้นท่า",
@@ -733,7 +871,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ท่า"
+   ],
+   "lit": "to be exhausted + landing",
+   "lit_th": "หมด + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
   }
  ],
  "etymology": {

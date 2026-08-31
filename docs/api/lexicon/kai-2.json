@@ -1,7 +1,7 @@
 {
  "id": "w:kai-2",
  "th": "กาย",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "kai",
  "paiboon": "gaai",
  "ipa": "/kaːj˧/",
@@ -13,11 +13,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "body"
     ],
     "th": "ตัว",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -59,7 +60,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปทรง + ตัว",
+     "frame": "entity"
     }
    ]
   },
@@ -82,7 +87,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Pali kāya is both the body and the group — a company as one body.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -94,6 +103,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 138 manuscript titles, 49 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -123,7 +133,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ อสูร + ตัว",
+   "frame": "entity"
   },
   {
    "th": "ประกาย",
@@ -148,7 +162,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + ตัว"
   },
   {
    "th": "กายทุจริต",
@@ -168,12 +184,17 @@
     "กาย",
     "ทุจริต"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ตัว + ความประพฤติชั่ว",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "กายศิลป์",
@@ -198,7 +219,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ตัว + ฝีมือ",
+   "frame": "entity"
   },
   {
    "th": "กายบริหาร",
@@ -223,7 +248,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "body + manage",
+   "lit_th": "ตัว + ปกครอง"
   },
   {
    "th": "กายสิทธิ์",
@@ -249,7 +278,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "สิทธิ์"
+   ],
+   "lit": "body + right",
+   "lit_th": "ตัว + อำนาจอันชอบธรรม",
+   "frame": "entity"
   },
   {
    "th": "กายกรรม",
@@ -274,7 +311,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "กรรม"
+   ],
+   "lit": "body + karma",
+   "lit_th": "ตัว + การ",
+   "frame": "entity"
   },
   {
    "th": "กายภาพ",
@@ -300,7 +345,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "body + image",
+   "lit_th": "ตัว + ความมี",
+   "frame": "entity"
   },
   {
    "th": "จักกาย",
@@ -320,12 +370,16 @@
     "จัก",
     "กาย"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ทำให้เป็นแฉก ๆ หรือหยัก ๆ คล้ายฟัน + ตัว",
+   "use": "false-split"
   },
   {
    "th": "แก่นกาย",
@@ -350,7 +404,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "essence + body",
+   "lit_th": "เนื้อไม้แข็งและมีสีเข้ม อยู่ถัดกระ + ตัว",
+   "frame": "entity"
   },
   {
    "th": "ฝากกาย",
@@ -374,7 +433,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "มอบให้ไว้เป็นต้นว่าเพื่อให้ช่วยดูแ + ตัว"
   },
   {
    "th": "ธรรมกาย",
@@ -394,12 +456,21 @@
     "ธรรม",
     "กาย"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ธรรม"
+   ],
+   "lit": "dharma + body",
+   "lit_th": "คุณความดี + ตัว",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "การออกกำลังกาย",
@@ -421,13 +492,18 @@
     "การออกกำลัง",
     "กาย"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "exercise + body",
+   "lit_th": "คำอาการนามของ ออกกำลัง + ตัว",
+   "frame": "entity"
   },
   {
    "th": "ภาษากาย",
@@ -452,7 +528,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ภาษา"
+   ],
+   "lit": "language + body",
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + ตัว",
+   "frame": "entity"
   },
   {
    "th": "ออกกำลังกาย",
@@ -477,7 +561,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "exercise + body",
+   "lit_th": "ใช้กำลัง + ตัว"
   },
   {
    "th": "เปลือยกาย",
@@ -503,7 +591,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit": "naked + body",
+   "lit_th": "ไม่มีอะไรปกปิดร่างกาย + ตัว"
   }
  ],
  "etymology": {

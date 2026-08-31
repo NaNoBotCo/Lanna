@@ -1,7 +1,7 @@
 {
  "id": "w:non",
  "th": "โนน",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "non",
  "paiboon": "noon",
  "ipa": "/noːn˧/",
@@ -12,11 +12,13 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "mound",
+     "rise"
     ],
     "th": "เนิน, ที่สูง",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -32,7 +34,11 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: โนน, the mound.",
+    "Declared root: โนน, the mound.",
+    "Declared root: โนน, the mound.",
+    "Declared root: โนน, the mound."
    ]
   },
   {
@@ -57,6 +63,12 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: โนน as นอน in the Siamese inscription — an old spelling, not a sense.",
+    "Declared root: โนน as นอน in the Siamese inscription — an old spelling, not a sense.",
+    "Declared root: โนน as นอน in the Siamese inscription — an old spelling, not a sense.",
+    "Declared root: โนน as นอน in the Siamese inscription — an old spelling, not a sense."
    ]
   },
   {
@@ -114,7 +126,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "non as an element in place names + times",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เพิ่มจำนวนเท่าตัวตามหน่วยที่ต้องกา"
     },
     {
      "th": "โนนท่อน",
@@ -140,7 +156,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนที่ตัดหรือทอนออกเป็นตอน ๆ",
+     "frame": "entity"
     },
     {
      "th": "โนนสุวรรณ",
@@ -166,7 +186,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทอง",
+     "frame": "entity"
     },
     {
      "th": "โนนทอง",
@@ -192,7 +216,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "non as an element in place names + gold",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
     },
     {
      "th": "โนนศิลา",
@@ -218,7 +250,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หิน",
+     "frame": "entity"
     },
     {
      "th": "โนนนารายณ์",
@@ -244,7 +280,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "โนนทองหลาง",
@@ -270,7 +308,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นหลายชนิดในสกุล Erythrina",
+     "frame": "entity"
     },
     {
      "th": "โนนฆ้อง",
@@ -296,7 +338,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "non as an element in place names + gong",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องตีให้เกิดเสียงอย่างหนึ่ง ทำ",
+     "frame": "entity"
     },
     {
      "th": "โนนแดง",
@@ -322,7 +369,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "non as an element in place names + red",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
     },
     {
      "th": "โนนตูม",
@@ -348,7 +403,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มะตูม",
+     "frame": "entity"
     },
     {
      "th": "โนนจาน",
@@ -374,7 +433,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "non as an element in place names + plate",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะรูปแบน ๆ สำหรับใส่สิ่งของต่าง",
+     "frame": "entity"
     },
     {
      "th": "โนนบุรี",
@@ -400,7 +464,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บุรี"
+     ],
+     "lit": "non as an element in place names + town",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เมือง",
+     "frame": "entity"
     },
     {
      "th": "โนนแหลมทอง",
@@ -426,7 +498,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภอหนองบุญมาก จัง"
     },
     {
      "th": "โนนรัง",
@@ -452,7 +527,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "รัง"
+     ],
+     "lit": "non as an element in place names + nest",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam",
+     "frame": "entity"
     },
     {
      "th": "โนนพลวง",
@@ -478,7 +561,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ธาตุลำดับที่ 51 สัญลักษณ์ Sb เป็นโ",
+     "frame": "entity"
     },
     {
      "th": "โนนสะอาด",
@@ -504,7 +591,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "non as an element in place names + clean",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม่สกปรก",
+     "frame": "quality"
     },
     {
      "th": "โนนข่า",
@@ -530,7 +622,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "non as an element in place names + galangal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกชนิด Alpinia galanga",
+     "frame": "entity"
     },
     {
      "th": "โนนธาตุ",
@@ -556,7 +653,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "non as an element in place names + element",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่ถือว่าเป็นส่วนสำคัญที่คุมกั",
+     "frame": "entity"
     },
     {
      "th": "โนนเมือง",
@@ -582,7 +684,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "non as an element in place names + town",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แดน",
+     "frame": "entity"
     },
     {
      "th": "โนนนาจาน",
@@ -608,7 +718,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภอสีชมพู จังหวัด"
     },
     {
      "th": "โนนหัน",
@@ -634,7 +747,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ผันร่างไปทางใดทางหนึ่ง"
     },
     {
      "th": "โนนน้ำเกลี้ยง",
@@ -660,7 +776,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่ออำเภอหนึ่งในจังหวัดศรีสะเกษ"
     },
     {
      "th": "โนนไทย",
@@ -686,7 +805,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "cross_listed": [
+      "ไทย"
+     ],
+     "lit": "non as an element in place names + Thai",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ประเทศ ใน เอเชียตะวันออกเฉียงใต้"
     },
     {
      "th": "โนนสูง",
@@ -712,7 +838,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "สูง"
+     ],
+     "lit": "non as an element in place names + tall",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
     },
     {
      "th": "โนนทัน",
@@ -738,7 +872,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เป็นไปตามเวลาที่กำหนด"
     },
     {
      "th": "โนนสมบูรณ์",
@@ -764,7 +900,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "non as an element in place names + absolute",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บริบูรณ์"
     },
     {
      "th": "โนนอุดม",
@@ -790,7 +930,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "non as an element in place names + rich",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สูงสุด",
+     "frame": "quality"
     },
     {
      "th": "โนนสำราญ",
@@ -816,7 +961,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "non as an element in place names + enjoy",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สุขสบาย"
     },
     {
      "th": "บ้านโนน",
@@ -842,7 +991,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + non as an element in place names",
+     "lit_th": "ที่อยู่อาศัย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "โนนยอ",
@@ -868,7 +1025,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Morinda citrifolia",
+     "frame": "entity"
     },
     {
      "th": "โนนค่า",
@@ -894,7 +1055,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ค่า"
+     ],
+     "lit": "non as an element in place names + value",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ",
+     "frame": "entity"
     },
     {
      "th": "โนนดินแดง",
@@ -920,7 +1089,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อเขตหนึ่งในกรุงเทพมหานคร"
     }
    ],
    "extends": 1,

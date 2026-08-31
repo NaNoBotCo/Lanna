@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ไม่กระด้าง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -37,10 +37,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "นิ่ม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -82,7 +82,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "lit": "young + throw",
+     "lit_th": "นิ่ม + ซัดให้สิ่งใดสิ่งหนึ่งพ้นไปจากตัวโด",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -94,10 +99,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ไม่จัด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -120,10 +125,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ไม่แข็ง, ยอมง่าย ๆ, รู้สึกสงสาร",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -146,10 +151,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ไม่แก่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -172,10 +177,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "หย่อน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -198,10 +203,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "น้อย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -224,10 +229,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "ไม่แรง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -250,10 +255,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "อายุยังน้อย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -291,7 +296,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ไก่"
+     ],
+     "lit": "chicken + young",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + อายุยังน้อย",
+     "frame": "quality"
     },
     {
      "th": "อ่อนวัย",
@@ -317,7 +330,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit_th": "อายุยังน้อย + เขตอายุ",
+     "frame": "quality"
     }
    ],
    "extends": 5,
@@ -329,10 +346,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "ยังเล็กอยู่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -370,7 +387,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "child + young",
+     "lit_th": "คนที่มีอายุยังน้อย + ยังเล็กอยู่",
+     "frame": "quality"
     }
    ],
    "extends": 9,
@@ -382,10 +404,10 @@
    "n": 11,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 11 — no English yet]"
     ],
     "th": "ละมุนละม่อม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -424,7 +446,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "lit_th": "ละมุนละม่อม + งอนงาม",
+     "frame": "quality"
     }
    ],
    "extends": 4,
@@ -436,10 +462,10 @@
    "n": 12,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 12 — no English yet]"
     ],
     "th": "ดัดง่าย, เปลี่ยนแปลงง่าย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -478,7 +504,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "lit_th": "ดัดง่าย + สั่น",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -490,10 +520,10 @@
    "n": 13,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 13 — no English yet]"
     ],
     "th": "ไร้ประสบการณ์, ไม่มีฝีมือ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -516,10 +546,10 @@
    "n": 14,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 14 — no English yet]"
     ],
     "th": "ไม่เก่ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -542,10 +572,10 @@
    "n": 15,
    "gloss": {
     "en": [
-     "young"
+     "[RID sense 15 — no English yet]"
     ],
     "th": "มีค่าต่ำ เมื่อเทียบกับสกุลเงินอื่น (ใช้แสดงค่าเงิน)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -576,6 +606,8 @@
   "Attested in this corpus: 10 manuscript titles, 22 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 27; domain seeded by keyword hits —.",
@@ -603,7 +635,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ลูก"
+   ],
+   "lit": "child + young",
+   "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "กระดูกอ่อน",
@@ -629,7 +669,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "bone + young",
+   "lit_th": "โครงร่างกายที่มีลักษณะแข็ง + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "ต้นอ่อน",
@@ -654,7 +699,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ต้น"
+   ],
+   "lit": "trunk + young",
+   "lit_th": "ลำของต้นไม้ + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "อ่อนข้อ",
@@ -679,7 +732,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "ไม่กระด้าง + ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร",
+   "frame": "quality"
   },
   {
    "th": "การอ่อน",
@@ -699,13 +756,17 @@
     "การ",
     "อ่อน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "งาน + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "เข่าอ่อน",
@@ -730,7 +791,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "knee + young",
+   "lit_th": "ส่วนที่ต่อระหว่างขาส่วนบนกับขาส่วน + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "ตัวอ่อน",
@@ -755,7 +821,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "form + young",
+   "lit_th": "รูป + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "หินอ่อน",
@@ -781,7 +855,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "หิน"
+   ],
+   "lit": "rock + young",
+   "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "อ่อนหัด",
@@ -806,7 +888,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "frame": "quality"
   },
   {
    "th": "จุดอ่อน",
@@ -831,7 +916,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "จุด"
+   ],
+   "lit": "mark + young",
+   "lit_th": "ทำให้ไฟติด + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "ความอ่อน",
@@ -851,13 +944,18 @@
     "ความ",
     "อ่อน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + young",
+   "lit_th": "เรื่อง + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "อ่อนแอ",
@@ -885,7 +983,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 0,
+   "lit_th": "ไม่กระด้าง + เล็ก",
+   "frame": "quality"
   },
   {
    "th": "น้ำอ่อน",
@@ -910,7 +1012,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "water + young",
+   "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "ตับอ่อน",
@@ -936,7 +1046,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "liver + young",
+   "lit_th": "อวัยวะประเภทต่อมของระบบทางเดินอาหา + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "ขวัญอ่อน",
@@ -961,7 +1076,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ขวัญ"
+   ],
+   "lit": "khwan + young",
+   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "โอนอ่อน",
@@ -986,7 +1109,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit": "abalienate + young",
+   "lit_th": "น้อมลง + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "การโอนอ่อน",
@@ -1006,13 +1134,18 @@
     "การโอน",
     "อ่อน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "transfer + young",
+   "lit_th": "คำอาการนามของ โอน + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "อ่อนน้อม",
@@ -1037,7 +1170,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "lit_th": "ไม่กระด้าง + โน้ม",
+   "frame": "quality"
   },
   {
    "th": "ปัญญาอ่อน",
@@ -1062,7 +1199,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "wit + young",
+   "lit_th": "ความรอบรู้ + ไม่กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "อ่อนเพลีย",
@@ -1087,7 +1229,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "lit_th": "ไม่กระด้าง + อ่อนแรง",
+   "frame": "quality"
   },
   {
    "th": "อ่อนหวาน",
@@ -1112,7 +1258,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "หวาน"
+   ],
+   "lit": "young + sweet",
+   "lit_th": "ไม่กระด้าง + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
   }
  ],
  "etymology": {
@@ -1130,5 +1284,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "young"
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "w:ngam",
  "th": "งาม",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "ngam",
  "paiboon": "ngaam",
  "ipa": "/ŋaːm˧/",
@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "aesthetic",
-     "beautiful",
-     "gorgeous",
-     "fine"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพึงใจ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -40,13 +37,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "aesthetic",
-     "beautiful",
-     "gorgeous",
-     "fine"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "มีลักษณะสมบูรณ์ดี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -59,19 +53,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Beautiful widened to well-formed, complete.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "aesthetic",
-     "beautiful",
-     "gorgeous",
-     "fine"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ดี, มาก, มีลักษณะที่เป็นไปตามต้องการ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -84,7 +79,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "And to good, ample, as one would want it.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -154,7 +153,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "swollen + ngam as an element in place names",
+     "lit_th": "ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ท่างาม",
@@ -180,7 +187,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + ngam as an element in place names",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "สันทรายงาม",
@@ -206,7 +221,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ไทรงาม",
@@ -232,7 +251,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นในสกุล Ficus วงศ์ Morace + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "โพนงาม",
@@ -258,7 +281,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอคำม่วง จังหวัด + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "สักงาม",
@@ -284,7 +311,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "สัก"
+     ],
+     "lit": "teak + ngam as an element in place names",
+     "lit_th": "ชื่อไม้ต้นชนิด Tectona grandis L.f + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "นางาม",
@@ -310,7 +345,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + ngam as an element in place names",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ดอยงาม",
@@ -336,7 +379,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ภูเขา + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "งิ้วงาม",
@@ -362,7 +409,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Bombax ceib + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ผางาม",
@@ -388,7 +439,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "หินที่เขา + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "เสริมงาม",
@@ -414,7 +469,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit": "introduce + ngam as an element in place names",
+     "lit_th": "เพิ่ม + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "โคกงาม",
@@ -440,7 +500,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "โคก"
+     ],
+     "lit": "mound + ngam as an element in place names",
+     "lit_th": "ที่ดินที่นูนสูงขึ้นคล้ายเนิน แต่เต + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -460,6 +528,8 @@
   "Attested in this corpus: 2 manuscript titles, 192 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits —.",
@@ -487,7 +557,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "cross_listed": [
+    "ไส้"
+   ],
+   "lit": "aesthetic + intestine",
+   "lit_th": "ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ + ส่วนของทางเดินอาหารต่อจากกระเพาะอา",
+   "frame": "quality"
   },
   {
    "th": "งามงอน",
@@ -512,7 +590,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ + ส่วนปลายแห่งของบางอย่างที่เป็นรูปย",
+   "frame": "quality"
   },
   {
    "th": "งามหน้า",
@@ -537,7 +619,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "aesthetic + before",
+   "lit_th": "ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "quality"
   },
   {
    "th": "งอกงาม",
@@ -563,7 +653,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "การเจริญจากเมล็ดออกมาเป็นต้นอ่อน + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+   "frame": "quality"
   },
   {
    "th": "งดงาม",
@@ -589,7 +683,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "หยุดหรือเว้น คือ ไม่กระทำหรือไม่ดำ + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+   "frame": "quality"
   },
   {
    "th": "การงอกงาม",
@@ -609,13 +707,17 @@
     "การงอก",
     "งาม"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ งอก + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+   "frame": "quality"
   },
   {
    "th": "ความงาม",
@@ -636,13 +738,18 @@
     "ความ",
     "งาม"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + aesthetic",
+   "lit_th": "เรื่อง + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+   "frame": "quality"
   },
   {
    "th": "ความสวยงาม",
@@ -663,13 +770,18 @@
     "ความสวย",
     "งาม"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "beauty + aesthetic",
+   "lit_th": "คำอาการนามของ สวย + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+   "frame": "quality"
   },
   {
    "th": "งามแงะ",
@@ -694,7 +806,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "lit_th": "ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ + งัดให้เผยอขึ้น",
+   "frame": "quality"
   },
   {
    "th": "นางงาม",
@@ -719,7 +835,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "นาง"
+   ],
+   "lit": "Mrs + aesthetic",
+   "lit_th": "ผู้หญิง + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+   "frame": "quality"
   },
   {
    "th": "เกินงาม",
@@ -744,7 +868,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "เกิน"
+   ],
+   "lit": "to exceed + aesthetic",
+   "lit_th": "พ้น + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+   "frame": "quality"
   }
  ],
  "etymology": {
@@ -762,5 +894,11 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "aesthetic",
+  "beautiful",
+  "gorgeous",
+  "fine"
+ ]
 }

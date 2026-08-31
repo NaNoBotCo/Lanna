@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "desk",
-     "hill",
-     "pile",
-     "stow"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ทำให้รวมสุมกันไว้, สุมกันไว้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -37,6 +34,15 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: กอง 'to heap up'.",
+    "Declared root: กอง 'to heap up'.",
+    "Declared root: กอง 'to heap up'.",
+    "Declared root: กอง 'to heap up'.",
+    "Declared root: กอง 'to heap up'.",
+    "Declared root: กอง 'to heap up'.",
+    "Declared root: กอง 'to heap up'.",
+    "Declared root: กอง 'to heap up'.",
+    "Declared root: กอง 'to heap up'.",
     "Declared root: กอง 'to heap up'."
    ]
   },
@@ -44,13 +50,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "desk",
-     "hill",
-     "pile",
-     "stow"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "สิ่งต่าง ๆ ที่รวมสุมกันไว้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -76,13 +79,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "desk",
-     "hill",
-     "pile",
-     "stow"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ใช้กับสิ่งที่รวมสุมกันไว้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -108,13 +108,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "desk",
-     "hill",
-     "pile",
-     "stow"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "กำลังพลของทหาร ตำรวจ เป็นต้น จำนวน 4 หมวด เรียกว่า กองร้อย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -155,7 +152,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "lit": "desk + hundred",
+     "lit_th": "กำลังพลของทหาร ตำรวจ เป็นต้น จำนวน + จำนวน 100 คือ 10 สิบหนรวมกัน"
     }
    ],
    "extends": 2,
@@ -167,13 +167,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "desk",
-     "hill",
-     "pile",
-     "stow"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "เรียกหัวหน้าทหารหรือตำรวจที่มียศร้อยเอก เรือเอก เรืออากาศเอก หรือร้อยตำรวจเอก ว่า ผู้บังคับกองร้อย หรือทั่ว ๆ ไป เรียกว่า ผู้กอง เฉพาะกองร้อยตำรวจเอกนิยมเรียกว่า สารวัตร หรือ ผู้บังคับกอง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -214,7 +211,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "คำใช้แทนคำว่า คนหรือสิ่งที่ถือเสมื + เรียกหัวหน้าทหารหรือตำรวจที่มียศร้"
     }
    ],
    "extends": 4,
@@ -226,13 +226,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "desk",
-     "hill",
-     "pile",
-     "stow"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ส่วนราชการที่รองจากกรม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -258,13 +255,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "desk",
-     "hill",
-     "pile",
-     "stow"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ใช้กับกำลังพลของทหาร ตำรวจ (ส่วนใหญ่จะใช้เจาะจงว่าเป็น กองร้อย กองพัน เป็นต้น)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -304,7 +298,13 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "cross_listed": [
+      "พัน"
+     ],
+     "lit": "desk + k",
+     "lit_th": "ใช้กับกำลังพลของทหาร ตำรวจ + เรียกจำนวน 10 ร้อย"
     }
    ],
    "extends": 4,
@@ -316,13 +316,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "desk",
-     "hill",
-     "pile",
-     "stow"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "ใช้กับส่วนราชการรองจากกรม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -348,13 +345,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "desk",
-     "hill",
-     "pile",
-     "stow"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "ต้นรกฟ้า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -372,6 +366,15 @@
     "WIKT"
    ],
    "needs_check": [
+    "Declared root: ต้นรกฟ้า called กอง — a tree name, unrelated.",
+    "Declared root: ต้นรกฟ้า called กอง — a tree name, unrelated.",
+    "Declared root: ต้นรกฟ้า called กอง — a tree name, unrelated.",
+    "Declared root: ต้นรกฟ้า called กอง — a tree name, unrelated.",
+    "Declared root: ต้นรกฟ้า called กอง — a tree name, unrelated.",
+    "Declared root: ต้นรกฟ้า called กอง — a tree name, unrelated.",
+    "Declared root: ต้นรกฟ้า called กอง — a tree name, unrelated.",
+    "Declared root: ต้นรกฟ้า called กอง — a tree name, unrelated.",
+    "Declared root: ต้นรกฟ้า called กอง — a tree name, unrelated.",
     "Declared root: ต้นรกฟ้า called กอง — a tree name, unrelated."
    ]
   },
@@ -379,13 +382,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "desk",
-     "hill",
-     "pile",
-     "stow"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "มาก (ใช้กับคำว่า เป็น กลายเป็น เป็นกอง)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -419,6 +419,8 @@
   "Attested in this corpus: 12 manuscript titles, 43 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 25; domain seeded by keyword hits ['ทหาร', 'ยศ', 'ราช'].",
@@ -445,7 +447,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ทำให้รวมสุมกันไว้ + ไฟ"
   },
   {
    "th": "กระกอง",
@@ -470,7 +475,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 1
   },
   {
    "th": "กองทัพเรือ",
@@ -496,7 +503,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "เรือ"
+   ],
+   "lit_th": "ทำให้รวมสุมกันไว้ + กองทหารที่ป้องกันประเทศภาคน่านน้ำ"
   },
   {
    "th": "กองหลัง",
@@ -522,7 +535,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "หลัง"
+   ],
+   "lit": "desk + back",
+   "lit_th": "ทำให้รวมสุมกันไว้ + ซีกของกายที่ตรงข้ามกับหน้าอก"
   },
   {
    "th": "กองมรดก",
@@ -547,7 +567,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "desk + heirloom",
+   "lit_th": "ทำให้รวมสุมกันไว้ + สิ่งที่ตกทอดมาจากบรรพบุรุษหรือที่ส"
   },
   {
    "th": "กองโจร",
@@ -572,7 +596,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "desk + bandit",
+   "lit_th": "ทำให้รวมสุมกันไว้ + ผู้ร้ายที่ลักขโมยหรือปล้นสะดมทรัพย"
   },
   {
    "th": "กองทัพ",
@@ -600,7 +628,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ทัพ"
+   ],
+   "lit": "desk + army",
+   "lit_th": "ทำให้รวมสุมกันไว้ + กองทหาร"
   },
   {
    "th": "ก่ายกอง",
@@ -625,7 +660,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "พาด + ทำให้รวมสุมกันไว้"
   },
   {
    "th": "กองทัพอากาศ",
@@ -650,7 +688,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "อากาศ"
+   ],
+   "lit_th": "ทำให้รวมสุมกันไว้ + กองทหารที่ป้องกันประเทศภาคน่านฟ้า"
   },
   {
    "th": "กองเกียรติยศ",
@@ -674,7 +718,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "desk + ambitious",
+   "lit_th": "ทำให้รวมสุมกันไว้ + เกียรติโดยฐานะตำแหน่งหน้าที่หรือชา"
   },
   {
    "th": "กองกอย",
@@ -699,7 +747,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ทำให้รวมสุมกันไว้ + คนป่าพวกหนึ่ง ตัวดำ ผมหยิก อยู่ในแ"
   },
   {
    "th": "กองทัพบก",
@@ -725,7 +776,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ทำให้รวมสุมกันไว้ + กองทหารที่ป้องกันประเทศภาคพื้นดิน"
   },
   {
    "th": "กองหนุน",
@@ -751,7 +805,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "desk + bear",
+   "lit_th": "ทำให้รวมสุมกันไว้ + รองให้สูงขึ้น"
   },
   {
    "th": "การกอง",
@@ -771,13 +829,19 @@
     "การ",
     "กอง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "อง"
+   ],
+   "lit_th": "งาน + ทำให้รวมสุมกันไว้"
   },
   {
    "th": "กองเกิน",
@@ -801,7 +865,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "เกิน"
+   ],
+   "lit": "desk + to exceed",
+   "lit_th": "ทำให้รวมสุมกันไว้ + พ้น",
+   "frame": "quality"
   },
   {
    "th": "กองสอดแนม",
@@ -825,7 +897,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "ทำให้รวมสุมกันไว้ + ลอบเข้าไปสืบความ"
   },
   {
    "th": "กองแขก",
@@ -845,13 +920,17 @@
     "กอง",
     "แขก"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "desk + guest",
+   "lit_th": "ทำให้รวมสุมกันไว้ + ผู้มาหา"
   },
   {
    "th": "กองหน้า",
@@ -876,7 +955,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "desk + before",
+   "lit_th": "ทำให้รวมสุมกันไว้ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
   },
   {
    "th": "กองทุน",
@@ -904,7 +990,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "desk + fund",
+   "lit_th": "ทำให้รวมสุมกันไว้ + ของเดิมหรือเงินเดิมที่มีไว้ ลงไว้"
   },
   {
    "th": "กองฟอน",
@@ -929,7 +1019,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "ทำให้รวมสุมกันไว้ + บ่อน"
   },
   {
    "th": "กองกลาง",
@@ -955,7 +1048,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "กลาง"
+   ],
+   "lit": "desk + middle",
+   "lit_th": "ทำให้รวมสุมกันไว้ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง"
   },
   {
    "th": "กองพล",
@@ -979,7 +1079,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "พล"
+   ],
+   "lit": "desk + strength",
+   "lit_th": "ทำให้รวมสุมกันไว้ + กำลัง"
   }
  ],
  "etymology": {
@@ -997,5 +1104,11 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "desk",
+  "hill",
+  "pile",
+  "stow"
+ ]
 }

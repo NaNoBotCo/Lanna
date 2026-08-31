@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "color"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเพื่อทำให้เปลือกแตกเป็นข้าวกล้อง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -59,7 +59,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "color + corner",
+     "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + จุดที่เส้น 2 เส้นมาบรรจบกัน",
+     "frame": "entity"
     },
     {
      "th": "สีคิ้ว",
@@ -84,7 +89,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "color + eyebrow",
+     "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + ส่วนโค้งขอบตาด้านบน ซึ่งมีขนขึ้นที",
+     "frame": "entity"
     },
     {
      "th": "สีกัน",
@@ -109,7 +119,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+PRON",
+     "head": 0,
+     "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + สรรพนามบุรุษที่ 1 ใช้แทนตัวผู้พูดเ"
     },
     {
      "th": "โคกสี",
@@ -134,7 +147,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โคก"
+     ],
+     "lit": "mound + color",
+     "lit_th": "ที่ดินที่นูนสูงขึ้นคล้ายเนิน แต่เต + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+     "frame": "entity"
     },
     {
      "th": "สีชมพู",
@@ -160,7 +181,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + ไม้หว้า",
+     "frame": "entity"
     },
     {
      "th": "หมูสี",
@@ -185,7 +210,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "pig + color",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมหลายชนิด ใ + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+     "frame": "entity"
     },
     {
      "th": "สีเสียด",
@@ -210,7 +240,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + เบียดกัน",
+     "flips_with": "เสียดสี"
     },
     {
      "th": "สีสุก",
@@ -235,7 +269,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + พ้นจากห่าม"
     }
    ],
    "extends": 3,
@@ -247,10 +284,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "color"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ครู่, รู่",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -276,10 +313,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "color"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ครูด, ถู",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -298,6 +335,15 @@
    ],
    "needs_check": [
     "Declared root: สี 'to rub, to grind' — the verb, with the mill and the fiddling that come off it.",
+    "Declared root: สี 'to rub, to grind' — the verb, with the mill and the fiddling that come off it.",
+    "Declared root: สี 'to rub, to grind' — the verb, with the mill and the fiddling that come off it.",
+    "Declared root: สี 'to rub, to grind' — the verb, with the mill and the fiddling that come off it.",
+    "Declared root: สี 'to rub, to grind' — the verb, with the mill and the fiddling that come off it.",
+    "Declared root: สี 'to rub, to grind' — the verb, with the mill and the fiddling that come off it.",
+    "Declared root: สี 'to rub, to grind' — the verb, with the mill and the fiddling that come off it.",
+    "Declared root: สี 'to rub, to grind' — the verb, with the mill and the fiddling that come off it.",
+    "Declared root: สี 'to rub, to grind' — the verb, with the mill and the fiddling that come off it.",
+    "Declared root: สี 'to rub, to grind' — the verb, with the mill and the fiddling that come off it.",
     "Declared root: สี 'to rub, to grind' — the verb, with the mill and the fiddling that come off it."
    ]
   },
@@ -305,10 +351,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "color"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ชัก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -334,10 +380,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "color"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ทำให้เปลือกออกด้วยเครื่องอย่างสีข้าว",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -363,10 +409,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "color"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ลักษณะของแสงสว่าง ปรากฏแก่ตาให้เห็นเป็นขาว ดำ แดง เขียว เป็นต้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -384,34 +430,6 @@
     "WIKT"
    ],
    "compounds": [
-    {
-     "th": "รังสี",
-     "rtgs": "rang-si",
-     "ipa": "/raŋ˧.siː˩˩˦/",
-     "gloss": {
-      "en": [
-       "ray",
-       "radiation"
-      ],
-      "th": "แสง, แสงสว่าง",
-      "conf": "verified",
-      "src": [
-       "RID",
-       "WIKT"
-      ]
-     },
-     "parts": [
-      "รัง",
-      "สี"
-     ],
-     "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.17, next 0.03",
-     "conf": "probable",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ]
-    },
     {
      "th": "ถอดสี",
      "rtgs": "thot-si",
@@ -436,10 +454,22 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เอาออก + ลักษณะของแสงสว่าง ปรากฏแก่ตาให้เห็"
     }
    ],
    "needs_check": [
+    "Declared root: สี 'colour' — a separate word.",
+    "Declared root: สี 'colour' — a separate word.",
+    "Declared root: สี 'colour' — a separate word.",
+    "Declared root: สี 'colour' — a separate word.",
+    "Declared root: สี 'colour' — a separate word.",
+    "Declared root: สี 'colour' — a separate word.",
+    "Declared root: สี 'colour' — a separate word.",
+    "Declared root: สี 'colour' — a separate word.",
+    "Declared root: สี 'colour' — a separate word.",
     "Declared root: สี 'colour' — a separate word.",
     "Declared root: สี 'colour' — a separate word."
    ]
@@ -448,10 +478,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "color"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "สิ่งที่ทำให้ตาเห็นเป็น ขาว ดำ แดง เขียว เป็นต้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -485,6 +515,8 @@
   "Attested in this corpus: 197 manuscript titles, 1311 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 42; domain seeded by keyword hits ['override'].",
@@ -512,7 +544,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + สร้างให้มีให้เป็นขึ้น"
   },
   {
    "th": "สีข้าง",
@@ -537,7 +572,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "color + board",
+   "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + เบื้อง",
+   "frame": "entity"
   },
   {
    "th": "แม่สี",
@@ -562,7 +602,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แม่"
+   ],
+   "lit": "mother + color",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity"
   },
   {
    "th": "สีสรร",
@@ -587,7 +635,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "color + seed",
+   "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + เลือก"
   },
   {
    "th": "สีน้ำ",
@@ -612,7 +664,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "color + water",
+   "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+   "frame": "entity"
   },
   {
    "th": "เกสี",
@@ -637,7 +697,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "cross_listed": [
+    "เก"
+   ],
+   "lit": "out of line + color",
+   "lit_th": "ไม่ตรงตามแนว + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "quality"
   },
   {
    "th": "บัดสี",
@@ -657,12 +725,17 @@
     "บัด",
     "สี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เวลา + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "สีกา",
@@ -687,7 +760,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "กา"
+   ],
+   "lit": "color + crow",
+   "frame": "entity"
   },
   {
    "th": "การทาสี",
@@ -708,13 +788,17 @@
     "การทา",
     "สี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ทา + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity"
   },
   {
    "th": "ระบายสี",
@@ -739,7 +823,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผ้าที่ห้อยจากขอบ + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity"
   },
   {
    "th": "เก็บสี",
@@ -764,7 +852,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "เก็บ"
+   ],
+   "lit": "keep + color",
+   "lit_th": "เอาไปหรือเอามาจากที่ + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ"
   },
   {
    "th": "การถอดสี",
@@ -784,13 +879,17 @@
     "การถอด",
     "สี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ถอด + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity"
   },
   {
    "th": "สีน้ำมัน",
@@ -815,7 +914,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "มัน"
+   ],
+   "lit": "color + oil",
+   "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + ของเหลวที่มีลักษณะเป็นมันลื่น ไม่ล",
+   "frame": "entity"
   },
   {
    "th": "สีผึ้ง",
@@ -840,7 +947,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "color + bee",
+   "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + ชื่อแมลงหลายชนิดในวงศ์ Apidae มีปี",
+   "frame": "entity"
   },
   {
    "th": "กะลาสี",
@@ -861,12 +973,17 @@
     "กะลา",
     "สี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ส่วนแข็งที่หุ้มเนื้อมะพร้าว ถ้าผ่า + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ทาสี",
@@ -894,7 +1011,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "coat + color",
+   "lit_th": "คำรวมหมายถึงกิริยาอาการที่เอาของเป + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ"
   },
   {
    "th": "ระสี",
@@ -914,12 +1035,16 @@
     "ระ",
     "สี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "กระทบเรียดไป + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "use": "false-split"
   },
   {
    "th": "ราสี",
@@ -939,12 +1064,21 @@
     "รา",
     "สี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "รา"
+   ],
+   "lit": "joist + color",
+   "lit_th": "ไม้ที่กระหนาบอยู่ใต้ท้องพรึงรับพื้ + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "สีหน้า",
@@ -970,7 +1104,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "color + before",
+   "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "สีมา",
@@ -990,12 +1132,20 @@
     "สี",
     "มา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "มา"
+   ],
+   "lit": "color + come",
+   "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + เคลื่อนออกจากที่เข้าหาตัวผู้พูด",
+   "use": "false-split"
   },
   {
    "th": "กระทาสี",
@@ -1020,7 +1170,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อนกขนาดเล็ก + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity"
   },
   {
    "th": "ลงสี",
@@ -1045,7 +1199,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ลง"
+   ],
+   "lit": "drop + color",
+   "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ"
   },
   {
    "th": "กงสี",
@@ -1065,12 +1226,17 @@
     "กง",
     "สี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว ง สะกด ว + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "สีสัน",
@@ -1095,7 +1261,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "สัน"
+   ],
+   "lit": "color + ridge",
+   "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา",
+   "frame": "entity"
   },
   {
    "th": "สีดอ",
@@ -1120,7 +1294,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + อวัยวะเพศชาย",
+   "frame": "entity"
   },
   {
    "th": "การสี",
@@ -1140,13 +1318,17 @@
     "การ",
     "สี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity"
   },
   {
    "th": "สูสี",
@@ -1171,7 +1353,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PRON+N",
+   "head": 1,
+   "lit_th": "พวกคุณ + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ"
   },
   {
    "th": "ป้ายสี",
@@ -1196,7 +1381,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "label + color",
+   "lit_th": "แผ่นหนังสือหรือแผ่นเครื่องหมายที่บ + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity"
   },
   {
    "th": "เสียดสี",
@@ -1222,7 +1412,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "เบียดกัน + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "flips_with": "สีเสียด"
   },
   {
    "th": "การระบายสี",
@@ -1242,13 +1436,17 @@
     "การระบาย",
     "สี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ระบาย + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity"
   },
   {
    "th": "การเสียดสี",
@@ -1269,13 +1467,17 @@
     "การเสียด",
     "สี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสียด + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity"
   },
   {
    "th": "การป้ายสี",
@@ -1295,13 +1497,54 @@
     "การป้าย",
     "สี"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ป้าย + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity"
+  },
+  {
+   "th": "รังสี",
+   "rtgs": "rang-si",
+   "ipa": "/raŋ˧.siː˩˩˦/",
+   "gloss": {
+    "en": [
+     "ray",
+     "radiation"
+    ],
+    "th": "แสง, แสงสว่าง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รัง",
+    "สี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.17, next 0.03 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "รัง"
+   ],
+   "lit": "nest + color",
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + ลักษณะของแสงสว่าง ปรากฏแก่ตาให้เห็",
+   "frame": "entity",
+   "use": "false-split"
   }
  ],
  "etymology": {
@@ -1332,5 +1575,8 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "color"
  ]
 }

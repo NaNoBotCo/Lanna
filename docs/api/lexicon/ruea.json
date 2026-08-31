@@ -1,7 +1,7 @@
 {
  "id": "w:ruea",
  "th": "เรือ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "ruea",
  "paiboon": "rʉʉa",
  "ipa": "/rɯa̯˧/",
@@ -12,11 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "boat",
-     "craft"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำด้วยวิธีขุดไม้ทั้งต้นหรือนำกระดาน สังกะสี เหล็ก เป็นต้น มาประกอบกันเข้า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -41,11 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "boat",
-     "craft"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ตัวหมากรุกที่เดินตาตรงได้ตลอด",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -61,17 +59,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The rook, which runs the board as a boat runs the river.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "boat",
-     "craft"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "เครื่องเล่นอย่างหนึ่ง เอาไม้ไผ่มาเหลาแบน ๆ ดัดให้หัวงอน ใช้พุ่งแข่งกัน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -113,19 +114,26 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เครื่องเล่นอย่างหนึ่ง เอาไม้ไผ่มาเ + เครื่องกลไก",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A boat-shaped bamboo toy for throwing.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "boat",
-     "craft"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ยศทหารเรือหรือทหารอากาศชั้นสัญญาบัตรขั้นต้น ต่ำกว่าชั้นนาวาหรือนาวาอากาศ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -167,7 +175,13 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "cross_listed": [
+      "โท"
+     ],
+     "lit": "boat + two",
+     "lit_th": "ยศทหารเรือหรือทหารอากาศชั้นสัญญาบั + สอง"
     },
     {
      "th": "ทหารเรือ",
@@ -193,7 +207,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "soldier + boat",
+     "lit_th": "ผู้มีหน้าที่ในเรื่องรบ + ยศทหารเรือหรือทหารอากาศชั้นสัญญาบั",
+     "frame": "entity"
     },
     {
      "th": "จอมพลเรือ",
@@ -219,7 +238,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ยศทหารชั้นสัญญาบัตรสูงสุดของกองทัพ + ยศทหารเรือหรือทหารอากาศชั้นสัญญาบั",
+     "frame": "entity"
     },
     {
      "th": "เรือตรี",
@@ -244,7 +267,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตรี"
+     ],
+     "lit": "boat + fish",
+     "lit_th": "ยศทหารเรือหรือทหารอากาศชั้นสัญญาบั + ปลา",
+     "frame": "entity"
     },
     {
      "th": "เรือเอก",
@@ -270,19 +301,28 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "boat + one",
+     "lit_th": "ยศทหารเรือหรือทหารอากาศชั้นสัญญาบั + หนึ่ง"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The junior commissioned naval ranks — เรือเอก, เรือโท, เรือตรี.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "boat",
-     "craft"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "อวัยวะเพศชาย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -298,7 +338,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "euphemism",
+   "via_note": "A veiled term for the penis.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -368,7 +412,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + ruea as an element in place names",
+     "lit_th": "ที่อยู่อาศัย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ภูเรือ",
@@ -394,7 +446,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ภู"
+     ],
+     "lit": "earth + ruea as an element in place names",
+     "lit_th": "ดิน + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "หนองเรือ",
@@ -420,7 +480,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + ruea as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -440,6 +508,8 @@
   "Attested in this corpus: 8 manuscript titles, 553 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 29; domain seeded by keyword hits ['เดิน', 'เข้า', 'ไป', 'มา'].",
@@ -467,7 +537,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "boat + mine",
+   "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + กิริยาที่สับ เจาะ แทง หรือ คุ้ยเอา"
   },
   {
    "th": "เรือโดยสาร",
@@ -492,7 +566,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + อาศัยไปด้วย"
   },
   {
    "th": "กองทัพเรือ",
@@ -518,7 +595,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กอง"
+   ],
+   "lit": "army + boat",
+   "lit_th": "หน่วยทหารที่ประกอบด้วย ทหาร 3 กองพ + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+   "frame": "entity"
   },
   {
    "th": "ต้นเรือ",
@@ -543,7 +628,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ต้น"
+   ],
+   "lit": "trunk + boat",
+   "lit_th": "ลำของต้นไม้ + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+   "frame": "entity"
   },
   {
    "th": "ลูกเรือ",
@@ -569,7 +662,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ลูก"
+   ],
+   "lit": "child + boat",
+   "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+   "frame": "entity"
   },
   {
    "th": "เรือรบ",
@@ -594,7 +695,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + สู้กัน"
   },
   {
    "th": "เรือชำ",
@@ -619,7 +723,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + ชื่อร้านหรือเรือขายของแห้งต่าง ๆ ท",
+   "frame": "entity"
   },
   {
    "th": "เรือเครื่องต้น",
@@ -643,7 +751,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + เครื่องทรงสำหรับพระมหากษัตริย์ในพร",
+   "frame": "entity"
   },
   {
    "th": "เรือบิน",
@@ -668,7 +780,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "boat + fly",
+   "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + ไปในอากาศด้วยกำลังปีกหรือเครื่องยน"
   },
   {
    "th": "เรือต่อ",
@@ -693,7 +809,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ต่อ"
+   ],
+   "lit": "boat + a",
+   "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ",
+   "frame": "entity"
   },
   {
    "th": "นายเรือ",
@@ -718,7 +842,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "นาย"
+   ],
+   "lit": "baboo + boat",
+   "lit_th": "คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15 + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+   "frame": "entity"
   },
   {
    "th": "ท่าเรือ",
@@ -744,7 +876,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ท่า"
+   ],
+   "lit": "landing + boat",
+   "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+   "frame": "entity"
   },
   {
    "th": "จะปิ้งเรือ",
@@ -769,7 +909,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เครื่องปิดของลับของเด็กหญิง ทำด้วย + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+   "frame": "entity"
   },
   {
    "th": "เรือประมง",
@@ -794,7 +938,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + การจับสัตว์น้ำ",
+   "frame": "entity"
   },
   {
    "th": "ทรงเรือ",
@@ -818,7 +966,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ทรง"
+   ],
+   "lit": "form + boat",
+   "lit_th": "รูปร่าง + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+   "frame": "entity"
   },
   {
    "th": "การเดินเรือ",
@@ -840,13 +996,18 @@
     "การเดิน",
     "เรือ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "walking + boat",
+   "lit_th": "คำอาการนามของ เดิน + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+   "frame": "entity"
   },
   {
    "th": "เรือเหาะ",
@@ -871,7 +1032,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + เคลื่อนที่ไปในอากาศด้วยฤทธิ์"
   },
   {
    "th": "เดินเรือ",
@@ -897,7 +1061,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "walk + boat",
+   "lit_th": "ยกเท้าก้าวไป + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ"
   },
   {
    "th": "เรือยาว",
@@ -922,7 +1090,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "ยาว"
+   ],
+   "lit": "boat + long",
+   "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+   "frame": "quality"
   },
   {
    "th": "ทัพเรือ",
@@ -947,7 +1123,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ทัพ"
+   ],
+   "lit": "army + boat",
+   "lit_th": "กองทหาร + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -965,5 +1149,9 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "boat",
+  "craft"
+ ]
 }

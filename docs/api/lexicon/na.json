@@ -12,13 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคาง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -63,7 +60,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + แห้งอย่างไม่มีความชื้นปนอยู่"
     },
     {
      "th": "หน้าท้อง",
@@ -89,7 +89,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ท้อง"
+     ],
+     "lit": "before + carry",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น",
+     "frame": "entity"
     },
     {
      "th": "หน้าผา",
@@ -115,7 +123,547 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + หินที่เขา",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้าหยก",
+     "rtgs": "na-yok",
+     "ipa": "/naː˥˩.jok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หล่อเหลาเกลี้ยงเกลาเหมือนหยก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "หยก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "before + jade",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + หินแก้วมีลักษณะแข็งเป็นสีต่าง ๆ ใช",
+     "frame": "entity"
+    },
+    {
+     "th": "เหม็นหน้า",
+     "rtgs": "men-na",
+     "ipa": "/men˩˩˦.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เบื่อหน้า, ไม่ชอบหน้ากัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เหม็น",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "stinky + before",
+     "lit_th": "ได้รับกลิ่นไม่ดี + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "ก้มหน้า",
+     "rtgs": "kom-na",
+     "ipa": "/kom˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้อมศีรษะลง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้ม",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ทำให้ต่ำลงโดยอาการน้อม + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "ตีหน้า",
+     "rtgs": "ti-na",
+     "ipa": "/tiː˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แกล้งทำสีหน้าให้ผิดจากใจจริง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตี",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตี"
+     ],
+     "lit": "hit + before",
+     "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "เบ้าหน้า",
+     "rtgs": "bao-na",
+     "ipa": "/baw˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใบหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เบ้า",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ดินหรือโลหะปั้นเป็นรูปคล้ายถ้วยสำห + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้าเน่า",
+     "translit_auto": "hnanea",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขี้เหร่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "เน่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "before + bad",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + เสียและมีกลิ่นเหม็น"
+    },
+    {
+     "th": "หน้าตาย",
+     "rtgs": "na-tai",
+     "ipa": "/naː˥˩.taːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หน้าเฉยเหมือนไม่มีความรู้สึก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ตาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ตาย"
+     ],
+     "lit": "before + demise",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + สิ้นใจ"
+    },
+    {
+     "th": "หน้าเป็น",
+     "rtgs": "na-pen",
+     "ipa": "/naː˥˩.pen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ทำหน้ายิ้มหรือหัวเราะอยู่เรื่อย ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "เป็น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "เป็น"
+     ],
+     "lit": "before + are",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + คำกริยาสำหรับแสดงความสัมพันธ์ระหว่"
+    },
+    {
+     "th": "สีหน้า",
+     "rtgs": "si-na",
+     "ipa": "/siː˩˩˦.naː˥˩/",
+     "gloss": {
+      "en": [
+       "face"
+      ],
+      "th": "อารมณ์ที่ปรากฏทางหน้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สี",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สี"
+     ],
+     "lit": "color + before",
+     "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้าชา",
+     "rtgs": "na-cha",
+     "ipa": "/naː˥˩.t͡ɕʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่รู้สึกอับอายขายหน้าระคนโกรธ แต่ก็ตอบโต้ไม่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ชา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ชา"
+     ],
+     "lit": "before + tea",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้ามืด",
+     "rtgs": "na-muet",
+     "ipa": "/naː˥˩.mɯːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่เป็นลมหมดสติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "มืด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "before + dark",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ขาดแสงสว่าง"
+    },
+    {
+     "th": "หน้าตา",
+     "rtgs": "na-ta",
+     "ipa": "/naː˥˩.taː˧/",
+     "gloss": {
+      "en": [
+       "face"
+      ],
+      "th": "เค้าหน้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ตา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "before + eye",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + พ่อของแม่",
+     "frame": "entity"
+    },
+    {
+     "th": "หนังหน้า",
+     "translit_auto": "hnanghna",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โฉมหน้า.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนัง",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "film + before",
+     "lit_th": "ส่วนของร่างกายที่หุ้มเนื้ออยู่ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "วางหน้า",
+     "rtgs": "wang-na",
+     "ipa": "/waːŋ˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตีหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "วาง"
+     ],
+     "lit": "put + before",
+     "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "เบื่อหน้า",
+     "rtgs": "buea-na",
+     "ipa": "/bɯa̯˨˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่ชอบหน้ากัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เบื่อ",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "tire + before",
+     "lit_th": "วางยาพิษเป็นต้นให้เมาหรือให้ตาย + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "หน้าม้า",
+     "rtgs": "na-ma",
+     "ipa": "/naː˥˩.maː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทรงผมที่ผมด้านหน้าปิดหน้าผากคล้ายผมของม้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ม้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "before + horse",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้ากาก",
+     "rtgs": "na-kak",
+     "ipa": "/naː˥˩.kaːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องบังใบหน้าทั้งหมดหรือบางส่วน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "กาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + สิ่งที่เหลือเมื่อคั้นหรือคัดเอาส่ว",
+     "frame": "entity"
     }
    ]
   },
@@ -123,13 +671,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ซีกของกายที่ตรงข้ามกับหลัง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -149,19 +694,85 @@
    "extends": 1,
    "via": "generalisation",
    "via_note": "From the face to the whole front of the body.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หน้าตัก",
+     "rtgs": "na-tak",
+     "ipa": "/naː˥˩.tak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำที่ใช้เรียกขนาดความกว้างของพระพุทธรูปแบบนั่งขัดสมาธิโดยวัดจากสุดเข่าข้างหนึ่งถึงอีกข้างหนึ่ง ใช้วัดด้วยมาตราไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ตัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + หน้าขาตอนเข่าถึงโคนขาในเวลานั่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้าอก",
+     "rtgs": "na-ok",
+     "ipa": "/naː˥˩.ʔok̚˨˩/",
+     "gloss": {
+      "en": [
+       "breast",
+       "chest",
+       "bazookas"
+      ],
+      "th": "ส่วนภายนอกของอก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "อก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "อก"
+     ],
+     "lit": "before + chest",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ด้านของสิ่งใดสิ่งหนึ่งที่อยู่ตรงข้ามกับสายตาของเราหรือด้านที่เผชิญหน้ากับสายตาของเรา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -205,7 +816,384 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "face + before",
+     "lit_th": "ปะทะกัน + ด้านของสิ่งใดสิ่งหนึ่งที่อยู่ตรงข้"
+    },
+    {
+     "th": "หลบหน้า",
+     "rtgs": "lop-na",
+     "ipa": "/lop̚˨˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หลบไปไม่เผชิญหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลบ",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "หลีก + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "ซึ่งหน้า",
+     "rtgs": "sueng-na",
+     "ipa": "/sɯŋ˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ต่อหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ซึ่ง",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PRON+N",
+     "head": 1,
+     "lit_th": "คำใช้แทนนามหรือข้อความที่อยู่ข้างห + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "รับหน้า",
+     "rtgs": "rap-na",
+     "ipa": "/rap̚˦˥.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เผชิญหน้า, รอหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "รับ"
+     ],
+     "lit": "accept + before",
+     "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "ไหมหน้า",
+     "rtgs": "mai-na",
+     "ipa": "/maj˩˩˦.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หมายหน้า, ตราหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไหม",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อผีเสื้อชนิด Bombyx mori ในวงศ์ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "ออกหน้า",
+     "rtgs": "ok-na",
+     "ipa": "/ʔɔːk̚˨˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสดงให้ปรากฏอย่างเปิดเผย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ออก"
+     ],
+     "lit": "tear + before",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "เสมอหน้า",
+     "rtgs": "sa-moe-na",
+     "ipa": "/sa˨˩.mɤː˩˩˦.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทั่วถึงและเท่าเทียมกัน, ทัดเทียม, ไม่โอนเอียงเข้าข้างใดข้างหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสมอ",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "เท่ากัน + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "ต่อหน้า",
+     "rtgs": "to-na",
+     "ipa": "/tɔː˨˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ซึ่งหน้า, เฉพาะหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต่อ",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ต่อ"
+     ],
+     "lit": "a + before",
+     "lit_th": "ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "เข้าหน้า",
+     "rtgs": "khao-na",
+     "ipa": "/kʰaw˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เผชิญหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เข้า"
+     ],
+     "lit": "enter + before",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "หนีหน้า",
+     "translit_auto": "hnihna",
+     "ipa": "[niː˩˥.näː˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หลบไม่ยอมให้พบหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนี",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "shy + before",
+     "lit_th": "ไปเสียให้พ้น + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "สู้หน้า",
+     "rtgs": "su-na",
+     "ipa": "/suː˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เผชิญหน้า, ประจันหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สู้",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "combat + before",
+     "lit_th": "เอาชนะกันด้วยกำลังกาย อาวุธ หรือสต + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "เกินหน้า",
+     "rtgs": "koen-na",
+     "ipa": "/kɤːn˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกินกว่า เด่นกว่า หรือดีกว่าฐานะของตนเองหรือของคนอื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "เกิน"
+     ],
+     "lit": "to exceed + before",
+     "lit_th": "พ้น + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "ปาดหน้า",
+     "rtgs": "pat-na",
+     "ipa": "/paːt̚˨˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แซงตัดหน้า ในคำว่า ขับรถปาดหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาด",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เอาส่วนที่ไม่ต้องการออกโดยวิธีฝานบ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
     }
    ],
    "extends": 2,
@@ -217,13 +1205,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ส่วนบนของบางสิ่ง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -243,19 +1228,80 @@
    "extends": 3,
    "via": "generalisation",
    "via_note": "The facing side loosened to the upper side.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ฉาบหน้า",
+     "rtgs": "chap-na",
+     "ipa": "/t͡ɕʰaːp̚˨˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสแสร้งเพื่อให้เข้าใจว่ามีสถานะดีกว่าที่เป็นจริง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฉาบ",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "coat + before",
+     "lit_th": "เครื่องตีกำกับจังหวะชนิดหนึ่ง ทำด้ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้าหม้อ",
+     "rtgs": "na-mo",
+     "ipa": "/naː˥˩.mɔː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เจ้าชู้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "หม้อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "before + pot",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ภาชนะประเภทหนึ่ง มีรูปทรงต่าง ๆ สำ",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "เครื่องปรุงที่แต่งหรือโรยบนอาหารบางอย่าง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -275,19 +1321,83 @@
    "extends": 4,
    "via": "metonymy",
    "via_note": "What is spread on the top surface of a dish is called its top.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หน้าตั้ง",
+     "rtgs": "na-tang",
+     "ipa": "/naː˥˩.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องจิ้มชนิดหนึ่ง ทำด้วยหมูสับ กุ้งสับ ต้มกับกะทิ ผสมเครื่องมีหัวหอม ถั่วลิสง เป็นต้น ปรุงรสด้วยเกลือ น้ำตาล น้ำมะขามเปียกเล็กน้อย สำหรับกินกับข้าวตังทอดกรอบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ตั้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ตั้ง"
+     ],
+     "lit": "before + introduce",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ชูตัว",
+     "flips_with": "ตั้งหน้า",
+     "frame": "state"
+    },
+    {
+     "th": "หน้ากระฉีก",
+     "rtgs": "na-kra-chik",
+     "ipa": "/naː˥˩.kra˨˩.t͡ɕʰiːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของหวานทำด้วยมะพร้าวทึนทึกขูด กวนกับนํ้าตาลปึกให้เข้ากันจนเหนียว อบด้วยควันเทียนอบให้หอม ใช้เป็นไส้หรือหน้าขนม เช่น ขนมใส่ไส้มีไส้เป็นหน้ากระฉีก ข้าวเหนียวหน้ากระฉีก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "กระฉีก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ขนมหวานทำจากมะพร้าวขูดเคี่ยวน้ำตาล",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ด้านหนึ่ง ๆ ของวัตถุแบน ๆ อย่างกระดาษ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -307,19 +1417,79 @@
    "extends": 3,
    "via": "specialisation",
    "via_note": "One side of a flat thing such as paper.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เปิดหน้า",
+     "rtgs": "poet-na",
+     "ipa": "/pɤːt̚˨˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คน) แสดงตัวหรือหน้าตาต่อสาธารณะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เปิด",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "open + before",
+     "lit_th": "ทำให้สิ่งที่ปิดอยู่เผยออก + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "ย่อหน้า",
+     "rtgs": "yo-na",
+     "ipa": "/jɔː˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "paragraph"
+      ],
+      "th": "เขียนหรือพิมพ์หนังสือขึ้นบรรทัดใหม่และร่นจากแนวซ้ายสุดเข้าไปพอสมควร เพื่อแสดงว่าขึ้นความตอนใหม่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ย่อ",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "abbreviate + before",
+     "lit_th": "ยอบลง + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    }
+   ]
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "ด้านของเครื่องตีที่ขึงด้วยหนัง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -361,7 +1531,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทับ"
+     ],
+     "lit": "before + hut",
+     "lit_th": "ด้านของเครื่องตีที่ขึงด้วยหนัง + กระท่อมหรือสิ่งปลูกสร้างที่ทำอยู่ช",
+     "frame": "entity"
     }
    ],
    "extends": 6,
@@ -373,13 +1551,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "ด้านหนึ่ง ๆ ของลูกเต๋าและน้ำเต้าซึ่งมี 6 ด้าน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -405,13 +1580,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "ส่วนกว้างของแผ่นกระดาน เสาเหลี่ยม หรือผืนผ้า เป็นต้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -453,7 +1625,14 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "before + red",
+     "lit_th": "ส่วนกว้างของแผ่นกระดาน เสาเหลี่ยม + สีอย่างสีเลือดหรือสีชาด"
     },
     {
      "th": "หน้าปัด",
@@ -479,7 +1658,113 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "before + flick",
+     "lit_th": "ส่วนกว้างของแผ่นกระดาน เสาเหลี่ยม + ทำให้หมดไปด้วยการพัดหรือโบกเป็นต้น"
+    },
+    {
+     "th": "กรอบหน้า",
+     "rtgs": "krop-na",
+     "ipa": "/krɔːp̚˨˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องประดับขอบหน้าผากเป็นรูปกระจังเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กรอบ",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "case + before",
+     "lit_th": "สิ่งที่ประกอบตามริมวัตถุมีรูปภาพเป + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้าไม้",
+     "rtgs": "na-mai",
+     "ipa": "/naː˥˩.maːj˦˥/",
+     "gloss": {
+      "en": [
+       "crossbow"
+      ],
+      "th": "เครื่องยิงชนิดหนึ่ง มีคันและราง ยิงด้วยลูกหน้าไม้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ไม้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไม้"
+     ],
+     "lit": "before + wood",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "flips_with": "ไม้หน้า",
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้หน้า",
+     "rtgs": "mai-na",
+     "ipa": "/maːj˦˥.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อสระรูปดังนี้ เ, แ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไม้"
+     ],
+     "lit": "wood + before",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "flips_with": "หน้าไม้",
+     "frame": "entity"
     }
    ],
    "extends": 6,
@@ -491,13 +1776,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "ชายผ้าบางชนิดที่มีลวดลาย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -523,13 +1805,10 @@
    "n": 11,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 11 — no English yet]"
     ],
     "th": "ด้านของผ้าที่มีลวดลายชัดกว่า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -555,13 +1834,10 @@
    "n": 12,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 12 — no English yet]"
     ],
     "th": "คราว",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -581,19 +1857,52 @@
    "extends": 3,
    "via": "metaphor",
    "via_note": "Front in space becomes a turn in sequence — whose หน้า it is.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หน้าที่",
+     "rtgs": "na-thi",
+     "ipa": "/naː˥˩.tʰiː˥˩/",
+     "gloss": {
+      "en": [
+       "job",
+       "duty",
+       "onus"
+      ],
+      "th": "กิจที่จะต้องทำด้วยความรับผิดชอบ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ที่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "before + at",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + แหล่ง",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 13,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 13 — no English yet]"
     ],
     "th": "ฤดู",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -613,19 +1922,49 @@
    "extends": 12,
    "via": "specialisation",
    "via_note": "A turn of the year: the season.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หน้าแล้ง",
+     "rtgs": "na-laeng",
+     "ipa": "/naː˥˩.lɛːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฤดูแล้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "แล้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 13 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "before + arid",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + หน้าน้ำแห้ง",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 14,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 14 — no English yet]"
     ],
     "th": "คน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -645,19 +1984,152 @@
    "extends": 1,
    "via": "metonymy",
    "via_note": "The face stands for the person, as it does in English 'a new face'.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "นายหน้า",
+     "rtgs": "nai-na",
+     "ipa": "/naːj˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "broker"
+      ],
+      "th": "ชื่อสัญญาซึ่งบุคคลหนึ่งตกลงจะให้ค่าบำเหน็จแก่อีกบุคคลหนึ่งเพื่อที่ชี้ช่องให้ได้เข้าทำสัญญาหรือจัดการให้ได้ทำสัญญากัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นาย",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 14 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นาย"
+     ],
+     "lit": "baboo + before",
+     "lit_th": "คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15 + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวหน้า",
+     "rtgs": "hua-na",
+     "ipa": "/hua̯˩˩˦.naː˥˩/",
+     "gloss": {
+      "en": [
+       "boss"
+      ],
+      "th": "ผู้เป็นใหญ่ในหมู่หนึ่ง ๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 14 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + before",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "ฝ่ายหน้า",
+     "rtgs": "fai-na",
+     "ipa": "/faːj˨˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุรุษผู้มีตำแหน่งเฝ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฝ่าย",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 14 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "desk + before",
+     "lit_th": "ข้าง + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "กองหน้า",
+     "rtgs": "kong-na",
+     "ipa": "/kɔːŋ˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตำแหน่งในกีฬาฟุตบอลที่ผู้เล่นมีหน้าที่จู่โจมในการรุกเข้ายิงประตูฝ่ายตรงข้าม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กอง",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 14 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กอง"
+     ],
+     "lit": "desk + before",
+     "lit_th": "ทำให้รวมสุมกันไว้ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    }
+   ]
   },
   {
    "n": 15,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 15 — no English yet]"
     ],
     "th": "เกียรติและศักดิ์ศรี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -677,19 +2149,645 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "Face as standing and dignity — what is lost when one loses face.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หน้าทน",
+     "rtgs": "na-thon",
+     "ipa": "/naː˥˩.tʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีสีหน้าไม่สลดทั้งที่ควรจะอายแต่ก็ไม่อาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ทน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "before + abide",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + อดกลั้นได้"
+    },
+    {
+     "th": "ได้หน้า",
+     "rtgs": "dai-na",
+     "ipa": "/daːj˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ได้ชื่อเสียง, ได้ความดีความชอบ, ได้รับคำชม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ได้",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ได้"
+     ],
+     "lit": "have + before",
+     "lit_th": "รับมาหรือตกมาเป็นของตัว + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "หน้าด้าน",
+     "rtgs": "na-dan",
+     "ipa": "/naː˥˩.daːn˥˩/",
+     "gloss": {
+      "en": [
+       "cheek"
+      ],
+      "th": "มีสีหน้าไม่สลดทั้งที่ควรจะอายแต่ก็ไม่อาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ด้าน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ฝ่าย",
+     "frame": "entity"
+    },
+    {
+     "th": "ฉีกหน้า",
+     "rtgs": "chik-na",
+     "ipa": "/t͡ɕʰiːk̚˨˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้ได้รับความอับอาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฉีก",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "tear + before",
+     "lit_th": "ขาดแยกออกจากกันหรือทำให้ขาดหรือแยก + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "หน้าแหก",
+     "rtgs": "na-haek",
+     "ipa": "/naː˥˩.hɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ต้องได้รับความอับอายขายหน้าอย่างยิ่งเพราะผิดหวังอย่างมากหรือเพราะถูกโต้ถูกย้อนกลับมาอย่างเถียงไม่ขึ้นเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "แหก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + แยกออก"
+    },
+    {
+     "th": "เสียหน้า",
+     "rtgs": "sia-na",
+     "ipa": "/sia̯˩˩˦.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขายหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสีย",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "bad + before",
+     "lit_th": "เสื่อมลงไป + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "เอาหน้า",
+     "rtgs": "ao-na",
+     "ipa": "/ʔaw˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อยากให้คนยกย่องสรรเสริญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เอา",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "get + before",
+     "lit_th": "ยึด + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "งามหน้า",
+     "rtgs": "ngam-na",
+     "ipa": "/ŋaːm˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น่าขายหน้า ใช้เป็นคำประชด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "งาม",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "งาม"
+     ],
+     "lit": "aesthetic + before",
+     "lit_th": "ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "แก้หน้า",
+     "rtgs": "kae-na",
+     "ipa": "/kɛː˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้พ้นอาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แก้"
+     ],
+     "lit": "cowrie shell used to burnish cloth + before",
+     "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำหน้า",
+     "rtgs": "nam-na",
+     "ipa": "/naːm˦˥.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หน้า (ใช้ในความแดกดัน รังเกียจ หรือดูหมิ่น เป็นต้น)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + before",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "รักษาหน้า",
+     "rtgs": "rak-sa-na",
+     "ipa": "/rak̚˦˥.saː˩˩˦.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ระวังไม่ยอมให้ต้องอับอายขายหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รักษา",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "heal + before",
+     "lit_th": "ระวัง + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "แบกหน้า",
+     "translit_auto": "baekhna",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จำใจกลับมาแสดงตัวหรือติดต่ออีกกับผู้ที่ตนเคยทำไม่ดี ไม่ถูกต้อง หรือไม่เหมาะสมมาก่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แบก",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "bear + before",
+     "lit_th": "ยกของที่มีน้ำหนักขึ้นวางบนบ่า + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "เสนอหน้า",
+     "rtgs": "sa-noe-na",
+     "ipa": "/sa˨˩.nɤː˩˩˦.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสดงตัวให้ผู้มีอำนาจเหนือเห็นอยู่เสมอทั้ง ๆ ที่ตนเองมิได้มีหน้าที่เกี่ยวข้อง เพื่อผลประโยชน์ตอบแทน, พยายามแสดงตัวให้ปรากฏต่อสาธารณชนอยู่เสมอ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสนอ",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "project + before",
+     "lit_th": "ยื่นเรื่องราว ความเห็น ญัตติ เป็นต + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "ไว้หน้า",
+     "rtgs": "wai-na",
+     "ipa": "/waj˦˥.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รักษาเกียรติฐานะของผู้อื่นไม่ให้ต้องได้รับความอับอายขายหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไว้",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เก็บเข้าที่ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "ตราหน้า",
+     "rtgs": "tra-na",
+     "ipa": "/traː˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หมายหน้าไว้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตรา",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตรา"
+     ],
+     "lit": "seal + before",
+     "lit_th": "เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "ขายหน้า",
+     "rtgs": "khai-na",
+     "ipa": "/kʰaːj˩˩˦.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อับอาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาย",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขาย"
+     ],
+     "lit": "sell + before",
+     "lit_th": "เอาของแลกเงินตรา + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "หน้าแตก",
+     "rtgs": "na-taek",
+     "ipa": "/naː˥˩.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ต้องได้รับความอับอายขายหน้าอย่างยิ่งเพราะผิดหวังอย่างมากหรือเพราะถูกโต้ถูกย้อนกลับมาอย่างเถียงไม่ขึ้นเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "แตก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "แตก"
+     ],
+     "lit": "before + fracture",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + แยกออกจากส่วนรวม"
+    },
+    {
+     "th": "หมายหน้า",
+     "rtgs": "mai-na",
+     "ipa": "/maːj˩˩˦.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประมาทหน้า, ดูถูก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาย",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "sign + before",
+     "lit_th": "หนังสือราชการที่ใช้เกณฑ์ เกาะกุม ห + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้าหนา",
+     "rtgs": "na-na",
+     "ipa": "/naː˥˩.naː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีสีหน้าไม่สลดทั้งที่ควรจะอายแต่ก็ไม่อาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "หนา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "before + thick",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ส่วนสูงมากจากผิวพื้น",
+     "frame": "entity"
+    },
+    {
+     "th": "ตอกหน้า",
+     "rtgs": "tok-na",
+     "ipa": "/tɔːk̚˨˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ว่าใส่หน้าอย่างไม่ไว้หน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตอก",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "hammer + before",
+     "lit_th": "เอาค้อนหรือสิ่งอื่นตีตะปูหรือหลักเ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    }
+   ]
   },
   {
    "n": 16,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 16 — no English yet]"
     ],
     "th": "บอกจำนวนด้านของแผ่นกระดาษ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -715,13 +2813,10 @@
    "n": 17,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 17 — no English yet]"
     ],
     "th": "ถัดไป",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -741,19 +2836,246 @@
    "extends": 12,
    "via": "specialisation",
    "via_note": "The next one in the sequence.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ล่วงหน้า",
+     "rtgs": "luang-na",
+     "ipa": "/lua̯ŋ˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "before",
+       "ahead"
+      ],
+      "th": "ก่อนกำหนด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ล่วง",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 17 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ผ่านจากจุดหนึ่งไปยังอีกจุดหนึ่ง + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "ตั้งหน้า",
+     "rtgs": "tang-na",
+     "ipa": "/taŋ˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มุ่งหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 17 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตั้ง"
+     ],
+     "lit": "introduce + before",
+     "lit_th": "ชูตัว + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "flips_with": "หน้าตั้ง",
+     "frame": "act"
+    },
+    {
+     "th": "หน้าจั่ว",
+     "rtgs": "na-chua",
+     "ipa": "/naː˥˩.t͡ɕua̯˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องบนแห่งเรือนที่ปิดด้านสกัดหลังคา สำหรับกันลมและแดดฝน มีรูปเป็นสามเหลี่ยม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "จั่ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 17 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + เครื่องบนแห่งเรือนที่ปิดด้านสกัดหล",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้าต่าง",
+     "rtgs": "na-tang",
+     "ipa": "/naː˥˩.taːŋ˨˩/",
+     "gloss": {
+      "en": [
+       "window"
+      ],
+      "th": "ช่องฝาของบ้านเรือนสำหรับแสงสว่างและให้อากาศถ่ายเท มีบานสำหรับเปิดปิด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ต่าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 17 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "before + other",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ภาชนะสำหรับบรรทุกสิ่งของมีคานพาดไว",
+     "frame": "entity"
+    },
+    {
+     "th": "ก้าวหน้า",
+     "rtgs": "kao-na",
+     "ipa": "/kaːw˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "forward",
+       "progress"
+      ],
+      "th": "เปลี่ยนแปลงของเดิมให้ดีขึ้นตามลำดับ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ก้าว",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 17 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ระยะทางชั่วยกเท้าย่างไปครั้งหนึ่ง + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "ไฟหน้า",
+     "rtgs": "fai-na",
+     "ipa": "/faj˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไฟหน้ารถที่ให้แสงสว่างเมื่อขับรถตอนกลางคืนหรือขับในที่มืด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 17 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไฟ"
+     ],
+     "lit": "fire + before",
+     "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้าเงิน",
+     "rtgs": "na-ngoen",
+     "ipa": "/naː˥˩.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เห็นแก่เงิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "เงิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 17 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เงิน"
+     ],
+     "lit": "before + bread",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 18,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 18 — no English yet]"
     ],
     "th": "ตรงข้ามกับ หลัง (ใช้แก่เวลาที่ยังมาไม่ถึง)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -779,13 +3101,10 @@
    "n": 19,
    "gloss": {
     "en": [
-     "before",
-     "face",
-     "map",
-     "page"
+     "[RID sense 19 — no English yet]"
     ],
     "th": "อยู่ตรงข้ามกับข้างหลัง เรียกว่า ข้างหน้า",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -827,7 +3146,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "walk + before",
+     "lit_th": "ยกเท้าก้าวไป + อยู่ตรงข้ามกับข้างหลัง เรียกว่า ข้"
     },
     {
      "th": "จ่าหน้า",
@@ -853,7 +3176,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "หัวหน้า + อยู่ตรงข้ามกับข้างหลัง เรียกว่า ข้",
+     "frame": "entity"
     },
     {
      "th": "เบื้องหน้า",
@@ -880,7 +3207,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ทาง + อยู่ตรงข้ามกับข้างหลัง เรียกว่า ข้",
+     "frame": "entity"
     }
    ],
    "extends": 2,
@@ -900,160 +3231,12 @@
   "Attested in this corpus: 4 manuscript titles, 396 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 114; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
-  {
-   "th": "หน้าทน",
-   "rtgs": "na-thon",
-   "ipa": "/naː˥˩.tʰon˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีสีหน้าไม่สลดทั้งที่ควรจะอายแต่ก็ไม่อาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "ทน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าหยก",
-   "rtgs": "na-yok",
-   "ipa": "/naː˥˩.jok̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หล่อเหลาเกลี้ยงเกลาเหมือนหยก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "หยก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เหม็นหน้า",
-   "rtgs": "men-na",
-   "ipa": "/men˩˩˦.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เบื่อหน้า, ไม่ชอบหน้ากัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เหม็น",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หลบหน้า",
-   "rtgs": "lop-na",
-   "ipa": "/lop̚˨˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หลบไปไม่เผชิญหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หลบ",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ได้หน้า",
-   "rtgs": "dai-na",
-   "ipa": "/daːj˥˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ได้ชื่อเสียง, ได้ความดีความชอบ, ได้รับคำชม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ได้",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ก้มหน้า",
-   "rtgs": "kom-na",
-   "ipa": "/kom˥˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "น้อมศีรษะลง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ก้ม",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
   {
    "th": "การเอาหน้า",
    "rtgs": "kan-ao-na",
@@ -1072,89 +3255,15 @@
     "การเอา",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "หน้าด้าน",
-   "rtgs": "na-dan",
-   "ipa": "/naː˥˩.daːn˥˩/",
-   "gloss": {
-    "en": [
-     "cheek"
-    ],
-    "th": "มีสีหน้าไม่สลดทั้งที่ควรจะอายแต่ก็ไม่อาย",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "ด้าน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ซึ่งหน้า",
-   "rtgs": "sueng-na",
-   "ipa": "/sɯŋ˥˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ต่อหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ซึ่ง",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าแล้ง",
-   "rtgs": "na-laeng",
-   "ipa": "/naː˥˩.lɛːŋ˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ฤดูแล้ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "แล้ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เอา + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
   },
   {
    "th": "การปาดหน้า",
@@ -1174,88 +3283,17 @@
     "การปาด",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "กรอบหน้า",
-   "rtgs": "krop-na",
-   "ipa": "/krɔːp̚˨˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องประดับขอบหน้าผากเป็นรูปกระจังเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กรอบ",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เปิดหน้า",
-   "rtgs": "poet-na",
-   "ipa": "/pɤːt̚˨˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(คน) แสดงตัวหรือหน้าตาต่อสาธารณะ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เปิด",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ฉีกหน้า",
-   "rtgs": "chik-na",
-   "ipa": "/t͡ɕʰiːk̚˨˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำให้ได้รับความอับอาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ฉีก",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ปาด + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การตอกหน้า",
@@ -1275,113 +3313,17 @@
     "การตอก",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "ตีหน้า",
-   "rtgs": "ti-na",
-   "ipa": "/tiː˧.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แกล้งทำสีหน้าให้ผิดจากใจจริง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตี",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าแหก",
-   "rtgs": "na-haek",
-   "ipa": "/naː˥˩.hɛːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการที่ต้องได้รับความอับอายขายหน้าอย่างยิ่งเพราะผิดหวังอย่างมากหรือเพราะถูกโต้ถูกย้อนกลับมาอย่างเถียงไม่ขึ้นเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "แหก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เสียหน้า",
-   "rtgs": "sia-na",
-   "ipa": "/sia̯˩˩˦.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขายหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เสีย",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เบ้าหน้า",
-   "rtgs": "bao-na",
-   "ipa": "/baw˥˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ใบหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เบ้า",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตอก + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การก้าวหน้า",
@@ -1401,38 +3343,17 @@
     "การก้าว",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "รับหน้า",
-   "rtgs": "rap-na",
-   "ipa": "/rap̚˦˥.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เผชิญหน้า, รอหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ก้าว + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "ความเบื่อหน้า",
@@ -1452,93 +3373,16 @@
     "ความเบื่อ",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "ล่วงหน้า",
-   "rtgs": "luang-na",
-   "ipa": "/lua̯ŋ˥˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "before",
-     "ahead"
-    ],
-    "th": "ก่อนกำหนด",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ล่วง",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เอาหน้า",
-   "rtgs": "ao-na",
-   "ipa": "/ʔaw˧.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อยากให้คนยกย่องสรรเสริญ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เอา",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าที่",
-   "rtgs": "na-thi",
-   "ipa": "/naː˥˩.tʰiː˥˩/",
-   "gloss": {
-    "en": [
-     "job",
-     "duty",
-     "onus"
-    ],
-    "th": "กิจที่จะต้องทำด้วยความรับผิดชอบ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "ที่"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
   },
   {
    "th": "การตั้งหน้า",
@@ -1558,89 +3402,17 @@
     "การตั้ง",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "นายหน้า",
-   "rtgs": "nai-na",
-   "ipa": "/naːj˧.naː˥˩/",
-   "gloss": {
-    "en": [
-     "broker"
-    ],
-    "th": "ชื่อสัญญาซึ่งบุคคลหนึ่งตกลงจะให้ค่าบำเหน็จแก่อีกบุคคลหนึ่งเพื่อที่ชี้ช่องให้ได้เข้าทำสัญญาหรือจัดการให้ได้ทำสัญญากัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "นาย",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "งามหน้า",
-   "rtgs": "ngam-na",
-   "ipa": "/ŋaːm˧.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "น่าขายหน้า ใช้เป็นคำประชด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "งาม",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "แก้หน้า",
-   "rtgs": "kae-na",
-   "ipa": "/kɛː˥˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำให้พ้นอาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แก้",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตั้ง + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การเสียหน้า",
@@ -1660,13 +3432,15 @@
     "การเสีย",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสีย + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
   },
   {
    "th": "การย่อหน้า",
@@ -1686,164 +3460,17 @@
     "การย่อ",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "น้ำหน้า",
-   "rtgs": "nam-na",
-   "ipa": "/naːm˦˥.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หน้า (ใช้ในความแดกดัน รังเกียจ หรือดูหมิ่น เป็นต้น)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "น้ำ",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "รักษาหน้า",
-   "rtgs": "rak-sa-na",
-   "ipa": "/rak̚˦˥.saː˩˩˦.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ระวังไม่ยอมให้ต้องอับอายขายหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รักษา",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ไหมหน้า",
-   "rtgs": "mai-na",
-   "ipa": "/maj˩˩˦.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หมายหน้า, ตราหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไหม",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าตั้ง",
-   "rtgs": "na-tang",
-   "ipa": "/naː˥˩.taŋ˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องจิ้มชนิดหนึ่ง ทำด้วยหมูสับ กุ้งสับ ต้มกับกะทิ ผสมเครื่องมีหัวหอม ถั่วลิสง เป็นต้น ปรุงรสด้วยเกลือ น้ำตาล น้ำมะขามเปียกเล็กน้อย สำหรับกินกับข้าวตังทอดกรอบ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "ตั้ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าไม้",
-   "rtgs": "na-mai",
-   "ipa": "/naː˥˩.maːj˦˥/",
-   "gloss": {
-    "en": [
-     "crossbow"
-    ],
-    "th": "เครื่องยิงชนิดหนึ่ง มีคันและราง ยิงด้วยลูกหน้าไม้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "ไม้"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ออกหน้า",
-   "rtgs": "ok-na",
-   "ipa": "/ʔɔːk̚˨˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แสดงให้ปรากฏอย่างเปิดเผย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ย่อ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การหมายหน้า",
@@ -1863,114 +3490,17 @@
     "การหมาย",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "เสมอหน้า",
-   "rtgs": "sa-moe-na",
-   "ipa": "/sa˨˩.mɤː˩˩˦.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทั่วถึงและเท่าเทียมกัน, ทัดเทียม, ไม่โอนเอียงเข้าข้างใดข้างหนึ่ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เสมอ",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หัวหน้า",
-   "rtgs": "hua-na",
-   "ipa": "/hua̯˩˩˦.naː˥˩/",
-   "gloss": {
-    "en": [
-     "boss"
-    ],
-    "th": "ผู้เป็นใหญ่ในหมู่หนึ่ง ๆ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หัว",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าเน่า",
-   "translit_auto": "hnanea",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขี้เหร่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "เน่า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ย่อหน้า",
-   "rtgs": "yo-na",
-   "ipa": "/jɔː˥˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "paragraph"
-    ],
-    "th": "เขียนหรือพิมพ์หนังสือขึ้นบรรทัดใหม่และร่นจากแนวซ้ายสุดเข้าไปพอสมควร เพื่อแสดงว่าขึ้นความตอนใหม่",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ย่อ",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หมาย + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การสู้หน้า",
@@ -1990,13 +3520,17 @@
     "การสู้",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สู้ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การแก้หน้า",
@@ -2016,13 +3550,17 @@
     "การแก้",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แก้ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "หน้าเขา",
@@ -2042,13 +3580,21 @@
     "หน้า",
     "เขา"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เขา"
+   ],
+   "lit": "before + mountain",
+   "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+   "frame": "entity"
   },
   {
    "th": "การไว้หน้า",
@@ -2068,13 +3614,17 @@
     "การไว้",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ไว้ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การออกหน้า",
@@ -2094,13 +3644,17 @@
     "การออก",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ออก + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "ความเสียหน้า",
@@ -2120,62 +3674,15 @@
     "ความเสีย",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "แบกหน้า",
-   "translit_auto": "baekhna",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "จำใจกลับมาแสดงตัวหรือติดต่ออีกกับผู้ที่ตนเคยทำไม่ดี ไม่ถูกต้อง หรือไม่เหมาะสมมาก่อน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แบก",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เสนอหน้า",
-   "rtgs": "sa-noe-na",
-   "ipa": "/sa˨˩.nɤː˩˩˦.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แสดงตัวให้ผู้มีอำนาจเหนือเห็นอยู่เสมอทั้ง ๆ ที่ตนเองมิได้มีหน้าที่เกี่ยวข้อง เพื่อผลประโยชน์ตอบแทน, พยายามแสดงตัวให้ปรากฏต่อสาธารณชนอยู่เสมอ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เสนอ",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสีย + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
   },
   {
    "th": "การตราหน้า",
@@ -2195,63 +3702,17 @@
     "การตรา",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "ฉาบหน้า",
-   "rtgs": "chap-na",
-   "ipa": "/t͡ɕʰaːp̚˨˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เสแสร้งเพื่อให้เข้าใจว่ามีสถานะดีกว่าที่เป็นจริง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ฉาบ",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าตาย",
-   "rtgs": "na-tai",
-   "ipa": "/naː˥˩.taːj˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หน้าเฉยเหมือนไม่มีความรู้สึก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "ตาย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตรา + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การฉีกหน้า",
@@ -2271,13 +3732,17 @@
     "การฉีก",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ฉีก + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การเดินหน้า",
@@ -2297,38 +3762,18 @@
     "การเดิน",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "หน้าเป็น",
-   "rtgs": "na-pen",
-   "ipa": "/naː˥˩.pen˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการที่ทำหน้ายิ้มหรือหัวเราะอยู่เรื่อย ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "เป็น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "walking + before",
+   "lit_th": "คำอาการนามของ เดิน + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การได้หน้า",
@@ -2348,39 +3793,17 @@
     "การได้",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "สีหน้า",
-   "rtgs": "si-na",
-   "ipa": "/siː˩˩˦.naː˥˩/",
-   "gloss": {
-    "en": [
-     "face"
-    ],
-    "th": "อารมณ์ที่ปรากฏทางหน้า",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สี",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ได้ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การก้มหน้า",
@@ -2400,363 +3823,17 @@
     "การก้ม",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "หน้าตัก",
-   "rtgs": "na-tak",
-   "ipa": "/naː˥˩.tak̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำที่ใช้เรียกขนาดความกว้างของพระพุทธรูปแบบนั่งขัดสมาธิโดยวัดจากสุดเข่าข้างหนึ่งถึงอีกข้างหนึ่ง ใช้วัดด้วยมาตราไทย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "ตัก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าชา",
-   "rtgs": "na-cha",
-   "ipa": "/naː˥˩.t͡ɕʰaː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการที่รู้สึกอับอายขายหน้าระคนโกรธ แต่ก็ตอบโต้ไม่ได้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "ชา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ไว้หน้า",
-   "rtgs": "wai-na",
-   "ipa": "/waj˦˥.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รักษาเกียรติฐานะของผู้อื่นไม่ให้ต้องได้รับความอับอายขายหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไว้",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ตราหน้า",
-   "rtgs": "tra-na",
-   "ipa": "/traː˧.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หมายหน้าไว้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตรา",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ขายหน้า",
-   "rtgs": "khai-na",
-   "ipa": "/kʰaːj˩˩˦.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อับอาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขาย",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ต่อหน้า",
-   "rtgs": "to-na",
-   "ipa": "/tɔː˨˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ซึ่งหน้า, เฉพาะหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ต่อ",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้ามืด",
-   "rtgs": "na-muet",
-   "ipa": "/naː˥˩.mɯːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการที่เป็นลมหมดสติ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "มืด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าตา",
-   "rtgs": "na-ta",
-   "ipa": "/naː˥˩.taː˧/",
-   "gloss": {
-    "en": [
-     "face"
-    ],
-    "th": "เค้าหน้า",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "ตา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ตั้งหน้า",
-   "rtgs": "tang-na",
-   "ipa": "/taŋ˥˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มุ่งหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตั้ง",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าแตก",
-   "rtgs": "na-taek",
-   "ipa": "/naː˥˩.tɛːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการที่ต้องได้รับความอับอายขายหน้าอย่างยิ่งเพราะผิดหวังอย่างมากหรือเพราะถูกโต้ถูกย้อนกลับมาอย่างเถียงไม่ขึ้นเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "แตก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หนังหน้า",
-   "translit_auto": "hnanghna",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "โฉมหน้า.",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หนัง",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หมายหน้า",
-   "rtgs": "mai-na",
-   "ipa": "/maːj˩˩˦.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ประมาทหน้า, ดูถูก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หมาย",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าหนา",
-   "rtgs": "na-na",
-   "ipa": "/naː˥˩.naː˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีสีหน้าไม่สลดทั้งที่ควรจะอายแต่ก็ไม่อาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "หนา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เข้าหน้า",
-   "rtgs": "khao-na",
-   "ipa": "/kʰaw˥˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เผชิญหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ก้ม + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "หน้าฝน",
@@ -2776,38 +3853,18 @@
     "หน้า",
     "ฝน"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
-  },
-  {
-   "th": "ฝ่ายหน้า",
-   "rtgs": "fai-na",
-   "ipa": "/faːj˨˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บุรุษผู้มีตำแหน่งเฝ้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ฝ่าย",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "before + rain",
+   "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + น้ำที่ตกลงมาจากเมฆเป็นเม็ด ๆ",
+   "frame": "entity"
   },
   {
    "th": "การหลบหน้า",
@@ -2827,63 +3884,17 @@
     "การหลบ",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "ตอกหน้า",
-   "rtgs": "tok-na",
-   "ipa": "/tɔːk̚˨˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ว่าใส่หน้าอย่างไม่ไว้หน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตอก",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หนีหน้า",
-   "translit_auto": "hnihna",
-   "ipa": "[niː˩˥.näː˥˩]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หลบไม่ยอมให้พบหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หนี",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หลบ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การเสนอหน้า",
@@ -2903,214 +3914,18 @@
     "การเสนอ",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "ไม้หน้า",
-   "rtgs": "mai-na",
-   "ipa": "/maːj˦˥.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อสระรูปดังนี้ เ, แ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าจั่ว",
-   "rtgs": "na-chua",
-   "ipa": "/naː˥˩.t͡ɕua̯˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องบนแห่งเรือนที่ปิดด้านสกัดหลังคา สำหรับกันลมและแดดฝน มีรูปเป็นสามเหลี่ยม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "จั่ว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สู้หน้า",
-   "rtgs": "su-na",
-   "ipa": "/suː˥˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เผชิญหน้า, ประจันหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สู้",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กองหน้า",
-   "rtgs": "kong-na",
-   "ipa": "/kɔːŋ˧.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตำแหน่งในกีฬาฟุตบอลที่ผู้เล่นมีหน้าที่จู่โจมในการรุกเข้ายิงประตูฝ่ายตรงข้าม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กอง",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "วางหน้า",
-   "rtgs": "wang-na",
-   "ipa": "/waːŋ˧.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตีหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "วาง",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าต่าง",
-   "rtgs": "na-tang",
-   "ipa": "/naː˥˩.taːŋ˨˩/",
-   "gloss": {
-    "en": [
-     "window"
-    ],
-    "th": "ช่องฝาของบ้านเรือนสำหรับแสงสว่างและให้อากาศถ่ายเท มีบานสำหรับเปิดปิด",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "ต่าง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เกินหน้า",
-   "rtgs": "koen-na",
-   "ipa": "/kɤːn˧.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เกินกว่า เด่นกว่า หรือดีกว่าฐานะของตนเองหรือของคนอื่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เกิน",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เบื่อหน้า",
-   "rtgs": "buea-na",
-   "ipa": "/bɯa̯˨˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม่ชอบหน้ากัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เบื่อ",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "presentation + before",
+   "lit_th": "คำอาการนามของ เสนอ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การเผชิญหน้า",
@@ -3130,13 +3945,17 @@
     "การเผชิญ",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เผชิญ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การเปิดหน้า",
@@ -3156,63 +3975,17 @@
     "การเปิด",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "หน้ากระฉีก",
-   "rtgs": "na-kra-chik",
-   "ipa": "/naː˥˩.kra˨˩.t͡ɕʰiːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ของหวานทำด้วยมะพร้าวทึนทึกขูด กวนกับนํ้าตาลปึกให้เข้ากันจนเหนียว อบด้วยควันเทียนอบให้หอม ใช้เป็นไส้หรือหน้าขนม เช่น ขนมใส่ไส้มีไส้เป็นหน้ากระฉีก ข้าวเหนียวหน้ากระฉีก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "กระฉีก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ปาดหน้า",
-   "rtgs": "pat-na",
-   "ipa": "/paːt̚˨˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แซงตัดหน้า ในคำว่า ขับรถปาดหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ปาด",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เปิด + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "การขายหน้า",
@@ -3233,38 +4006,18 @@
     "การขาย",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "หน้าหม้อ",
-   "rtgs": "na-mo",
-   "ipa": "/naː˥˩.mɔː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เจ้าชู้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "หม้อ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "sale + before",
+   "lit_th": "คำอาการนามของ ขาย + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "หน้าร้อน",
@@ -3284,68 +4037,20 @@
     "หน้า",
     "ร้อน"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
-  },
-  {
-   "th": "หน้าอก",
-   "rtgs": "na-ok",
-   "ipa": "/naː˥˩.ʔok̚˨˩/",
-   "gloss": {
-    "en": [
-     "breast",
-     "chest",
-     "bazookas"
-    ],
-    "th": "ส่วนภายนอกของอก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "อก"
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "ร้อน"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ก้าวหน้า",
-   "rtgs": "kao-na",
-   "ipa": "/kaːw˥˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "forward",
-     "progress"
-    ],
-    "th": "เปลี่ยนแปลงของเดิมให้ดีขึ้นตามลำดับ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ก้าว",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "lit": "before + hot",
+   "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ"
   },
   {
    "th": "การเบื่อหน้า",
@@ -3365,63 +4070,17 @@
     "การเบื่อ",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "ไฟหน้า",
-   "rtgs": "fai-na",
-   "ipa": "/faj˧.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไฟหน้ารถที่ให้แสงสว่างเมื่อขับรถตอนกลางคืนหรือขับในที่มืด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไฟ",
-    "หน้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าม้า",
-   "rtgs": "na-ma",
-   "ipa": "/naː˥˩.maː˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทรงผมที่ผมด้านหน้าปิดหน้าผากคล้ายผมของม้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "ม้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เบื่อ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   },
   {
    "th": "หน้าหนาว",
@@ -3441,13 +4100,17 @@
     "หน้า",
     "หนาว"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "before + cold",
+   "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + เย็นจัด"
   },
   {
    "th": "หน้าเมือง",
@@ -3467,38 +4130,21 @@
     "หน้า",
     "เมือง"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
-  },
-  {
-   "th": "หน้าเงิน",
-   "rtgs": "na-ngoen",
-   "ipa": "/naː˥˩.ŋɤn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เห็นแก่เงิน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "เงิน"
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เมือง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "lit": "before + town",
+   "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + แดน",
+   "frame": "entity"
   },
   {
    "th": "ความเหม็นหน้า",
@@ -3518,38 +4164,17 @@
     "ความเหม็น",
     "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
-  },
-  {
-   "th": "หน้ากาก",
-   "rtgs": "na-kak",
-   "ipa": "/naː˥˩.kaːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องบังใบหน้าทั้งหมดหรือบางส่วน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "กาก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เหม็น + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -3591,5 +4216,11 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "before",
+  "face",
+  "map",
+  "page"
  ]
 }

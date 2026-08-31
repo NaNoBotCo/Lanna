@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "wood"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก ลำต้น กิ่ง ก้าน และใบ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -40,10 +40,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "wood"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "เรียกเนื้อของต้นไม้ที่ใช้ทำสิ่งของต่าง ๆ มีลักษณะเป็นท่อน แผ่น หรือดุ้น เป็นต้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -86,7 +86,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "พืชที่งอกจากกอหรือเหง้าของต้นใหญ่ + เรียกเนื้อของต้นไม้ที่ใช้ทำสิ่งของ",
+     "frame": "entity"
     },
     {
      "th": "ไม้ซุง",
@@ -112,7 +116,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "wood + log",
+     "lit_th": "เรียกเนื้อของต้นไม้ที่ใช้ทำสิ่งของ + ต้นไม้ขนาดใหญ่ที่ตัดเป็นท่อน ๆ ก่อ",
+     "frame": "entity"
     },
     {
      "th": "ใบไม้",
@@ -139,7 +148,16 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ใบ"
+     ],
+     "lit": "leaf + wood",
+     "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + เรียกเนื้อของต้นไม้ที่ใช้ทำสิ่งของ",
+     "flips_with": "ไม้ใบ",
+     "frame": "entity"
     },
     {
      "th": "ไม้กระดาน",
@@ -165,7 +183,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "wood + board",
+     "lit_th": "เรียกเนื้อของต้นไม้ที่ใช้ทำสิ่งของ + ไม้ซุงที่เลื่อยออกมาเป็นแผ่น ๆ",
+     "frame": "entity"
     },
     {
      "th": "ต้นไม้",
@@ -191,7 +214,16 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ต้น"
+     ],
+     "lit": "trunk + wood",
+     "lit_th": "ลำของต้นไม้ + เรียกเนื้อของต้นไม้ที่ใช้ทำสิ่งของ",
+     "flips_with": "ไม้ต้น",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -203,10 +235,10 @@
    "n": 3,
    "gloss": {
     "en": [
-     "wood"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "คำประกอบหน้าสิ่งของบางอย่างที่มีลักษณะยาวซึ่งทำด้วยไม้หรือเดิมทำด้วยไม้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -249,7 +281,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "wood + sweep",
+     "lit_th": "คำประกอบหน้าสิ่งของบางอย่างที่มีลั + ทำให้เตียนหรือหมดฝุ่นละอองด้วยไม้ก"
     },
     {
      "th": "ไม้เท้า",
@@ -275,7 +311,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "wood + foot",
+     "lit_th": "คำประกอบหน้าสิ่งของบางอย่างที่มีลั + ตีน",
+     "frame": "entity"
     }
    ],
    "extends": 2,
@@ -287,10 +328,10 @@
    "n": 4,
    "gloss": {
     "en": [
-     "wood"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "คำนำหน้าบอกประเภทต้นไม้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -316,10 +357,10 @@
    "n": 5,
    "gloss": {
     "en": [
-     "wood"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ท่ารำและท่าตีกระบี่กระบองท่าหนึ่ง ๆ เรียกว่า ไม้หนึ่ง ๆ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -345,10 +386,10 @@
    "n": 6,
    "gloss": {
     "en": [
-     "wood"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ท่าที",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -374,10 +415,10 @@
    "n": 7,
    "gloss": {
     "en": [
-     "wood"
+     "[RID sense 7 — no English yet]"
     ],
     "th": "เรียกลักษณะของสถาปัตยกรรมและศิลปกรรมไทยที่ย่อตรงมุมของฐาน แท่น เสา หรือเครื่องยอดเป็นมุมเล็ก ๆ มุมละ 3 มุม รวม 4 มุมใหญ่ ได้ 12 มุมเล็กว่า ย่อไม้สิบสอง หรือ ย่อมุมไม้สิบสอง แม้ย่อมากกว่ามุมละ 3 ก็ยังเรียกเช่นเดิม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -403,10 +444,10 @@
    "n": 8,
    "gloss": {
     "en": [
-     "wood"
+     "[RID sense 8 — no English yet]"
     ],
     "th": "ทำด้วยไม้",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -448,7 +489,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "wood + liver",
+     "lit_th": "ทำด้วยไม้ + อวัยวะประเภทต่อมของระบบทางเดินอาหา",
+     "frame": "entity"
     }
    ],
    "extends": 2,
@@ -460,10 +506,10 @@
    "n": 9,
    "gloss": {
     "en": [
-     "wood"
+     "[RID sense 9 — no English yet]"
     ],
     "th": "เรียกของเช่นปลาย่างที่เสียบไม้เรียงเป็นตับ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -489,10 +535,10 @@
    "n": 10,
    "gloss": {
     "en": [
-     "wood"
+     "[RID sense 10 — no English yet]"
     ],
     "th": "เรียกผ้าที่ม้วนโดยมีไม้อยู่ข้างใน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -518,10 +564,10 @@
    "n": 11,
    "gloss": {
     "en": [
-     "wood"
+     "[RID sense 11 — no English yet]"
     ],
     "th": "ชื่อเครื่องหมายกำกับตัวอักษร เพื่อบอกระดับเสียง ชนิดสระ ให้อ่านซ้ำ หรือไม่ให้ออกเสียงอ่าน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -562,7 +608,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + wood",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ชื่อเครื่องหมายกำกับตัวอักษร เพื่อ",
+     "frame": "entity"
     },
     {
      "th": "ไม้แก่น",
@@ -587,7 +641,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "wood + essence",
+     "lit_th": "ชื่อเครื่องหมายกำกับตัวอักษร เพื่อ + เนื้อไม้แข็งและมีสีเข้ม อยู่ถัดกระ",
+     "frame": "entity"
     },
     {
      "th": "ไม้ขาว",
@@ -612,7 +671,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขาว"
+     ],
+     "lit": "wood + white",
+     "lit_th": "ชื่อเครื่องหมายกำกับตัวอักษร เพื่อ + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
     },
     {
      "th": "ไม้ยา",
@@ -637,7 +704,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยา"
+     ],
+     "lit": "wood + medicine",
+     "lit_th": "ชื่อเครื่องหมายกำกับตัวอักษร เพื่อ + สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ",
+     "frame": "entity"
     },
     {
      "th": "กล้วยไม้",
@@ -662,7 +737,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "banana + wood",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดในสกุล Musa ว + ชื่อเครื่องหมายกำกับตัวอักษร เพื่อ",
+     "frame": "entity"
     }
    ],
    "extends": 3,
@@ -682,6 +762,8 @@
   "Attested in this corpus: 29 manuscript titles, 359 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 46; domain seeded by keyword hits ['override'].",
@@ -710,7 +792,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ป่า"
+   ],
+   "lit": "forest + wood",
+   "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+   "frame": "entity"
   },
   {
    "th": "ไม้มลาย",
@@ -735,7 +825,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + แตก"
   },
   {
    "th": "ไม้กางเขน",
@@ -761,7 +854,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "frame": "entity"
   },
   {
    "th": "ไม้บรรทัด",
@@ -787,7 +883,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ข้อความที่เขียนหรือพิมพ์เป็นต้นต่อ",
+   "frame": "entity"
   },
   {
    "th": "ไม้น้ำ",
@@ -807,13 +907,21 @@
     "ไม้",
     "น้ำ"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "wood + water",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+   "frame": "entity"
   },
   {
    "th": "ไม้มืด",
@@ -838,7 +946,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "wood + dark",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ขาดแสงสว่าง",
+   "frame": "quality"
   },
   {
    "th": "ไม้โอ",
@@ -863,7 +976,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "โอ"
+   ],
+   "lit": "wood + pomelo",
+   "frame": "entity"
   },
   {
    "th": "หน้าไม้",
@@ -889,7 +1009,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "before + wood",
+   "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+   "flips_with": "ไม้หน้า",
+   "frame": "entity"
   },
   {
    "th": "ไม้ผล",
@@ -914,7 +1043,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "wood + effect",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ความงอกงาม",
+   "flips_with": "ผลไม้",
+   "frame": "entity"
   },
   {
    "th": "ไม้ขีด",
@@ -940,7 +1075,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "wood + tear",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ใช้ของแหลมหรือมีดเป็นต้นทำให้เป็นเ"
   },
   {
    "th": "ไม้พุ่ม",
@@ -966,7 +1105,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ลักษณะกิ่งก้านของต้นไม้ที่รวมกัน ม",
+   "frame": "entity"
   },
   {
    "th": "ไม้ตาย",
@@ -991,7 +1134,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ตาย"
+   ],
+   "lit": "wood + demise",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + สิ้นใจ"
   },
   {
    "th": "ไม้แข็ง",
@@ -1015,7 +1165,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "แข็ง"
+   ],
+   "lit": "wood + hard",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "ผลไม้",
@@ -1041,7 +1199,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "effect + wood",
+   "lit_th": "ความงอกงาม + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+   "flips_with": "ไม้ผล",
+   "frame": "entity"
   },
   {
    "th": "ไม้ต้น",
@@ -1066,7 +1230,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ต้น"
+   ],
+   "lit": "wood + trunk",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ลำของต้นไม้",
+   "flips_with": "ต้นไม้",
+   "frame": "entity"
   },
   {
    "th": "ไม้ประดับ",
@@ -1091,7 +1264,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "wood + embellish",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ตกแต่งให้งามด้วยสิ่งต่าง ๆ มีสร้อย"
   },
   {
    "th": "ไม้อัด",
@@ -1116,7 +1293,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ดันลมเข้าไป"
   },
   {
    "th": "ไม้เรียว",
@@ -1143,7 +1323,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + สิ่งที่มีลักษณะโคนโตปลายเล็ก",
+   "frame": "entity"
   },
   {
    "th": "ไม้เถา",
@@ -1168,7 +1352,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เครือไม้",
+   "frame": "entity"
   },
   {
    "th": "ไม้แขวน",
@@ -1194,7 +1382,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "wood + depend",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เกี่ยวห้อยอยู่"
   },
   {
    "th": "ไม้ล้มลุก",
@@ -1220,7 +1412,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + พืชที่มีอายุชั่วคราว เช่น พริก มะเ",
+   "frame": "entity"
   },
   {
    "th": "เนื้อไม้",
@@ -1245,7 +1441,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เนื้อ"
+   ],
+   "lit": "flesh + wood",
+   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+   "frame": "entity"
   },
   {
    "th": "ไม้หน้า",
@@ -1270,7 +1474,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "wood + before",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+   "flips_with": "หน้าไม้",
+   "frame": "entity"
   },
   {
    "th": "ไม้ม้วน",
@@ -1295,7 +1508,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "wood + bale",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + หมุนพันเข้าไปให้มีลักษณะกลมอย่างรู"
   },
   {
    "th": "ลูกไม้",
@@ -1322,7 +1539,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ลูก"
+   ],
+   "lit": "child + wood",
+   "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+   "frame": "entity"
   },
   {
    "th": "ไม้มือ",
@@ -1347,7 +1572,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "มือ"
+   ],
+   "lit": "wood + hand",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา",
+   "frame": "entity"
   },
   {
    "th": "ไม้ใบ",
@@ -1372,7 +1605,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ใบ"
+   ],
+   "lit": "wood + leaf",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต",
+   "flips_with": "ใบไม้",
+   "frame": "entity"
   },
   {
    "th": "ไม้มงคล",
@@ -1392,13 +1634,17 @@
     "ไม้",
     "มงคล"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เหตุที่นำมาซึ่งความเจริญ",
+   "frame": "entity"
   },
   {
    "th": "ไม้ผัด",
@@ -1423,7 +1669,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เอาสิ่งที่ใช้เป็นอาหารใส่ลงในกระทะ"
   },
   {
    "th": "ดอกไม้",
@@ -1450,7 +1699,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "flower + wood",
+   "lit_th": "ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+   "flips_with": "ไม้ดอก",
+   "frame": "entity"
   },
   {
    "th": "ไม้ยืนต้น",
@@ -1475,7 +1730,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เรียกต้นไม้ใหญ่ที่มีผลและมีอายุยืน",
+   "frame": "entity"
   },
   {
    "th": "ไม้เลื้อย",
@@ -1500,7 +1759,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "wood + trail",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ทอดวกเวียนไป"
   },
   {
    "th": "ไม้ดอก",
@@ -1526,7 +1789,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "wood + flower",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห",
+   "flips_with": "ดอกไม้",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -1557,5 +1826,8 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "wood"
  ]
 }

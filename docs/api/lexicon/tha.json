@@ -12,11 +12,14 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "landing",
+     "riverside landing",
+     "pier"
     ],
     "th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ, ท่าน้ำ ก็เรียก",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -33,6 +36,15 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ท่า the landing place on a bank.",
+    "Declared root: ท่า the landing place on a bank.",
+    "Declared root: ท่า the landing place on a bank.",
+    "Declared root: ท่า the landing place on a bank.",
+    "Declared root: ท่า the landing place on a bank.",
+    "Declared root: ท่า the landing place on a bank.",
+    "Declared root: ท่า the landing place on a bank.",
+    "Declared root: ท่า the landing place on a bank.",
+    "Declared root: ท่า the landing place on a bank.",
     "Declared root: ท่า the landing place on a bank.",
     "Declared root: ท่า the landing place on a bank.",
     "Declared root: ท่า the landing place on a bank.",
@@ -89,7 +101,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "landing + across",
+     "lit_th": "ที่สำหรับขึ้นลงริมน้ำ + ยกเท้าย่างผ่านเหนือสิ่งใดสิ่งหนึ่ง"
     }
    ],
    "extends": 1,
@@ -144,7 +160,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "landing + cart",
+     "lit_th": "ที่จอดยานพาหนะบางชนิด + ยานชนิดหนึ่ง มีล้อ 2 ล้อ ใช้ควายหร",
+     "frame": "entity"
     },
     {
      "th": "ท่าอากาศยาน",
@@ -170,7 +191,12 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "landing + aircraft",
+     "lit_th": "ที่จอดยานพาหนะบางชนิด + เครื่องนำไปทางอากาศ",
+     "frame": "entity"
     }
    ],
    "extends": 2,
@@ -225,7 +251,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + landing",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + เรียกน้ำในแม่น้ำลำคลองว่า น้ำท่า",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -257,6 +291,15 @@
     "WIKT"
    ],
    "needs_check": [
+    "Declared root: ท่า 'posture, bearing' — a separate word.",
+    "Declared root: ท่า 'posture, bearing' — a separate word.",
+    "Declared root: ท่า 'posture, bearing' — a separate word.",
+    "Declared root: ท่า 'posture, bearing' — a separate word.",
+    "Declared root: ท่า 'posture, bearing' — a separate word.",
+    "Declared root: ท่า 'posture, bearing' — a separate word.",
+    "Declared root: ท่า 'posture, bearing' — a separate word.",
+    "Declared root: ท่า 'posture, bearing' — a separate word.",
+    "Declared root: ท่า 'posture, bearing' — a separate word.",
     "Declared root: ท่า 'posture, bearing' — a separate word.",
     "Declared root: ท่า 'posture, bearing' — a separate word.",
     "Declared root: ท่า 'posture, bearing' — a separate word.",
@@ -341,7 +384,14 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "bad + landing",
+     "lit_th": "เสื่อมลงไป + ชั้นเชิง"
     },
     {
      "th": "พลาดท่า",
@@ -366,7 +416,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ไม่ตรงที่หมาย ในลักษณะเช่น เพลี่ยง + ชั้นเชิง"
     }
    ],
    "extends": 5,
@@ -421,10 +474,23 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "bide + landing",
+     "lit_th": "มุ่งรออยู่ + รอคอย"
     }
    ],
    "needs_check": [
+    "Declared root: ท่า 'to wait' (คอยท่า, รอท่า) — separate again.",
+    "Declared root: ท่า 'to wait' (คอยท่า, รอท่า) — separate again.",
+    "Declared root: ท่า 'to wait' (คอยท่า, รอท่า) — separate again.",
+    "Declared root: ท่า 'to wait' (คอยท่า, รอท่า) — separate again.",
+    "Declared root: ท่า 'to wait' (คอยท่า, รอท่า) — separate again.",
+    "Declared root: ท่า 'to wait' (คอยท่า, รอท่า) — separate again.",
+    "Declared root: ท่า 'to wait' (คอยท่า, รอท่า) — separate again.",
+    "Declared root: ท่า 'to wait' (คอยท่า, รอท่า) — separate again.",
+    "Declared root: ท่า 'to wait' (คอยท่า, รอท่า) — separate again.",
     "Declared root: ท่า 'to wait' (คอยท่า, รอท่า) — separate again.",
     "Declared root: ท่า 'to wait' (คอยท่า, รอท่า) — separate again.",
     "Declared root: ท่า 'to wait' (คอยท่า, รอท่า) — separate again.",
@@ -502,7 +568,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หินที่เขา",
+     "frame": "entity"
     },
     {
      "th": "ท่าฉาง",
@@ -528,7 +598,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อาคารเก็บผลิตผลทางการเกษตรอย่างข้า",
+     "frame": "entity"
     },
     {
      "th": "ท่าจีน",
@@ -554,7 +628,9 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
     },
     {
      "th": "ท่าศาลา",
@@ -580,7 +656,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อาคารทรงไทย ปล่อยโถง ไม่กั้นฝา ใช้",
+     "frame": "entity"
     },
     {
      "th": "ท่านางงาม",
@@ -606,7 +686,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หญิงสาวที่ชนะการประกวดความงาม",
+     "frame": "entity"
     },
     {
      "th": "ท่าเกษม",
@@ -632,33 +716,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
-    },
-    {
-     "th": "ท่าขี้เหล็ก",
-     "rtgs": "tha-khi-lek",
-     "ipa": "/tʰaː˥˩.kʰiː˥˩.lek̚˨˩/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "ชื่อเมืองในประเทศพม่า",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "ท่า",
-      "ขี้เหล็ก"
-     ],
-     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
-     "conf": "verified",
-     "src": [
-      "RID",
-      "WIKT"
-     ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ความสุขสบาย",
+     "frame": "entity"
     },
     {
      "th": "ท่าไม้",
@@ -684,7 +746,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไม้"
+     ],
+     "lit": "tha as an element in place names + wood",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "frame": "entity"
     },
     {
      "th": "ท่าล้อ",
@@ -710,7 +780,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "tha as an element in place names + wheel",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนของรถซึ่งเป็นวงกลมสำหรับหมุนเค",
+     "frame": "entity"
     },
     {
      "th": "ท่ามะเขือ",
@@ -736,7 +811,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มหลายชนิดในสกุล Solanum",
+     "frame": "entity"
     },
     {
      "th": "ท่าทอง",
@@ -762,7 +841,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "tha as an element in place names + gold",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
     },
     {
      "th": "ท่างาม",
@@ -788,7 +875,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "งาม"
+     ],
+     "lit": "tha as an element in place names + aesthetic",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+     "frame": "quality"
     },
     {
      "th": "ท่าแยก",
@@ -814,7 +909,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "tha as an element in place names + separate",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทำให้สิ่งที่รวมกันอยู่หรือประกอบกั"
     },
     {
      "th": "ท่าข้าวเปลือก",
@@ -840,7 +939,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เมล็ดข้าวที่ยังไม่ได้เอาเปลือกออก",
+     "frame": "entity"
     },
     {
      "th": "ท่าชัย",
@@ -866,7 +969,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ชัย"
+     ],
+     "lit": "tha as an element in place names + victory",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + การชนะ",
+     "frame": "entity"
     },
     {
      "th": "ท่าถ่าน",
@@ -892,7 +1003,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม้ที่เผาแล้วจนสุกมีสีดำ โดยมากสำห",
+     "frame": "entity"
     },
     {
      "th": "ท่ากระดาน",
@@ -918,7 +1033,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "tha as an element in place names + board",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม้ซุงที่เลื่อยออกมาเป็นแผ่น ๆ",
+     "frame": "entity"
     },
     {
      "th": "ท่าบ่อ",
@@ -944,7 +1064,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บ่อ"
+     ],
+     "lit": "tha as an element in place names + well",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ช่องลึกลงไปในดินหรือในหินใช้เป็นที",
+     "frame": "entity"
     },
     {
      "th": "ท่าทองหลาง",
@@ -970,7 +1098,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นหลายชนิดในสกุล Erythrina",
+     "frame": "entity"
     },
     {
      "th": "ท่าตอน",
@@ -996,7 +1128,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนหนึ่ง ๆ ที่แบ่งออกจากส่วนใหญ่",
+     "frame": "entity"
     },
     {
      "th": "ท่าแร้ง",
@@ -1022,7 +1158,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
     },
     {
      "th": "ท่ากว้าง",
@@ -1048,7 +1187,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "tha as an element in place names + wide",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ด้านสั้นที่คู่กับด้านยาว",
+     "frame": "entity"
     },
     {
      "th": "ท่าช้าง",
@@ -1074,7 +1218,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "tha as an element in place names + elephant",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "ท่าแซะ",
@@ -1100,7 +1252,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เอาเครื่องมือแบน ๆ เช่นตะหลิวหรือเ"
     },
     {
      "th": "เจ้าท่า",
@@ -1126,7 +1281,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "thou + tha as an element in place names",
+     "lit_th": "ผู้เป็นใหญ่ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ท่าวัด",
@@ -1152,7 +1315,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "วัด"
+     ],
+     "lit": "tha as an element in place names + temple",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+     "frame": "entity"
     },
     {
      "th": "ท่าโพธิ์",
@@ -1178,7 +1349,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "tha as an element in place names + enlightenment",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ความตรัสรู้",
+     "frame": "entity"
     },
     {
      "th": "ท่าหลวง",
@@ -1204,7 +1383,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "tha as an element in place names + royal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
     },
     {
      "th": "ท่าม่วง",
@@ -1230,7 +1417,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ม่วง"
+     ],
+     "lit": "tha as an element in place names + purple",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สีน้ำเงินปนแดง",
+     "frame": "quality"
     },
     {
      "th": "ท่าพุทรา",
@@ -1256,7 +1451,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Ziziphus mauritiana",
+     "frame": "entity"
     },
     {
      "th": "ท่ามะขาม",
@@ -1282,7 +1481,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "tha as an element in place names + tamarind",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Tamarindus",
+     "frame": "entity"
     },
     {
      "th": "ท่าเดื่อ",
@@ -1308,7 +1512,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มะเดื่อ",
+     "frame": "entity"
     },
     {
      "th": "ท่าตะเกียบ",
@@ -1334,7 +1542,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "tha as an element in place names + chopsticks",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องใช้สำหรับคีบอาหารทำด้วยไม้ห",
+     "frame": "entity"
     },
     {
      "th": "ท่าเสา",
@@ -1360,7 +1573,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "tha as an element in place names + pillar",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ท่อนไม้สำหรับใช้เป็นหลักหรือเป็นเค",
+     "frame": "entity"
     },
     {
      "th": "ท่าตูม",
@@ -1386,7 +1604,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มะตูม",
+     "frame": "entity"
     },
     {
      "th": "ท่าขนุน",
@@ -1412,7 +1634,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "tha as an element in place names + jackfruit",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดกลางถึงขนาดใหญ่ชนิด",
+     "frame": "entity"
     },
     {
      "th": "ท่าตาล",
@@ -1438,7 +1665,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อพืชชนิด Borassus flabellifer L",
+     "frame": "entity"
     },
     {
      "th": "ท่าสาย",
@@ -1464,7 +1695,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สาย"
+     ],
+     "lit": "tha as an element in place names + late",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0",
+     "frame": "entity"
     },
     {
      "th": "ท่าอ่าง",
@@ -1490,7 +1729,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะสำหรับใส่น้ำ เป็นต้น มักมีลัก",
+     "frame": "entity"
     },
     {
      "th": "ท่าบุญมี",
@@ -1516,7 +1759,10 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อจริงรวม"
     },
     {
      "th": "ท่าพระ",
@@ -1542,7 +1788,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "tha as an element in place names + the honorific prefix phra",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ",
+     "frame": "entity"
     },
     {
      "th": "ท่าใหม่",
@@ -1568,7 +1822,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหม่"
+     ],
+     "lit": "tha as an element in place names + again",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เพิ่งมี",
+     "frame": "quality"
     },
     {
      "th": "ท่าไข่",
@@ -1594,7 +1856,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไข่"
+     ],
+     "lit": "tha as an element in place names + egg",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ",
+     "frame": "entity"
     },
     {
      "th": "ท่าฉนวน",
@@ -1620,7 +1890,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "tha as an element in place names + insulator",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทางเดินซึ่งมีเครื่องกำบัง 2 ข้าง ส",
+     "frame": "entity"
     },
     {
      "th": "ท่ายาง",
@@ -1646,7 +1921,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยาง"
+     ],
+     "lit": "tha as an element in place names + rubber",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
     },
     {
      "th": "ท่าแพ",
@@ -1672,7 +1955,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "tha as an element in place names + raft",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม้ไผ่หรือซุงเป็นต้นที่ผูกมัดเรียง",
+     "frame": "entity"
     },
     {
      "th": "ท่าชนะ",
@@ -1698,7 +1986,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "tha as an element in place names + have",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทำให้อีกฝ่ายหนึ่งพ่ายแพ้"
     },
     {
      "th": "ท่าเยี่ยม",
@@ -1724,7 +2016,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "tha as an element in place names + dope",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไปถามข่าวทุกข์สุข"
     },
     {
      "th": "ท่าลาด",
@@ -1750,7 +2046,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลาด"
+     ],
+     "lit": "tha as an element in place names + decline",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ปูแผ่ออกไป"
     },
     {
      "th": "ท่าสุด",
@@ -1776,7 +2079,14 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "สุด"
+     ],
+     "lit": "tha as an element in place names + far",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ้น"
     },
     {
      "th": "ฟากท่า",
@@ -1802,7 +2112,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ลำไม้ไผ่เป็นต้นที่ผ่าแล้วสับให้แตก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ท่าตะโก",
@@ -1828,7 +2142,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นหลายชนิดในสกุล Diospyros",
+     "frame": "entity"
     },
     {
      "th": "ท่าพลับ",
@@ -1854,7 +2172,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "tha as an element in place names + persimmon",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Diospyros malabaric",
+     "frame": "entity"
     },
     {
      "th": "ท่าปลา",
@@ -1880,7 +2203,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "tha as an element in place names + fish",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์น้ำเย็นมีกระดูกสันหลัง ร่",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -1898,6 +2226,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 5 manuscript titles, 257 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -1927,7 +2256,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ระทม + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
   },
   {
    "th": "กันท่า",
@@ -1952,7 +2284,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "PRON+N",
+   "head": 1,
+   "lit_th": "สรรพนามบุรุษที่ 1 ใช้แทนตัวผู้พูดเ + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
   },
   {
    "th": "ท่าที",
@@ -1977,7 +2312,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ที"
+   ],
+   "lit": "landing + time",
+   "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ครั้ง",
+   "flips_with": "ทีท่า",
+   "frame": "entity"
   },
   {
    "th": "การเสียท่า",
@@ -1997,13 +2341,15 @@
     "การเสีย",
     "ท่า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสีย + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
   },
   {
    "th": "นายท่า",
@@ -2028,7 +2374,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "นาย"
+   ],
+   "lit": "baboo + landing",
+   "lit_th": "คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15 + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ",
+   "frame": "entity"
   },
   {
    "th": "การสิ้นท่า",
@@ -2048,13 +2402,17 @@
     "การสิ้น",
     "ท่า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สิ้น + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ",
+   "frame": "entity"
   },
   {
    "th": "ตั้งท่า",
@@ -2079,7 +2437,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ตั้ง"
+   ],
+   "lit": "introduce + landing",
+   "lit_th": "ชูตัว + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
   },
   {
    "th": "การทำท่า",
@@ -2099,13 +2464,21 @@
     "การทำ",
     "ท่า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "การทำ"
+   ],
+   "lit": "doing + landing",
+   "lit_th": "คำอาการนามของ ทำ + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ",
+   "frame": "entity"
   },
   {
    "th": "ให้ท่า",
@@ -2130,7 +2503,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "bestow + landing",
+   "lit_th": "มอบ + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
   },
   {
    "th": "การพลาดท่า",
@@ -2150,13 +2527,17 @@
     "การพลาด",
     "ท่า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ พลาด + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ",
+   "frame": "entity"
   },
   {
    "th": "การให้ท่า",
@@ -2176,13 +2557,17 @@
     "การให้",
     "ท่า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ให้ + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ",
+   "frame": "entity"
   },
   {
    "th": "ทำท่า",
@@ -2207,7 +2592,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ทำ"
+   ],
+   "lit": "do + landing",
+   "lit_th": "กระทำ + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
   },
   {
    "th": "ท่าทาง",
@@ -2235,7 +2627,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ทาง"
+   ],
+   "lit": "landing + way",
+   "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ที่สำหรับเดินไปมา",
+   "frame": "entity"
   },
   {
    "th": "ท่าเรือ",
@@ -2261,7 +2661,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เรือ"
+   ],
+   "lit": "landing + boat",
+   "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+   "frame": "entity"
   },
   {
    "th": "เข้าท่า",
@@ -2286,7 +2694,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "เข้า"
+   ],
+   "lit": "enter + landing",
+   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
   },
   {
    "th": "หมดท่า",
@@ -2311,7 +2726,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "all + landing",
+   "lit_th": "สิ้น + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
   },
   {
    "th": "ทีท่า",
@@ -2336,7 +2755,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ที"
+   ],
+   "lit": "time + landing",
+   "lit_th": "ครั้ง + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ",
+   "flips_with": "ท่าที",
+   "frame": "entity"
   },
   {
    "th": "วางท่า",
@@ -2361,7 +2789,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "วาง"
+   ],
+   "lit": "put + landing",
+   "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
   },
   {
    "th": "การวางท่า",
@@ -2381,13 +2816,18 @@
     "การวาง",
     "ท่า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "lie + landing",
+   "lit_th": "คำอาการนามของ วาง + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ",
+   "frame": "entity"
   },
   {
    "th": "สิ้นท่า",
@@ -2412,7 +2852,44 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "สิ้น"
+   ],
+   "lit": "to be exhausted + landing",
+   "lit_th": "หมด + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
+  },
+  {
+   "th": "ท่าขี้เหล็ก",
+   "rtgs": "tha-khi-lek",
+   "ipa": "/tʰaː˥˩.kʰiː˥˩.lek̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อเมืองในประเทศพม่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ท่า",
+    "ขี้เหล็ก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดกลางถึงขนาดใหญ่ชนิด",
+   "frame": "entity"
   }
  ],
  "etymology": {

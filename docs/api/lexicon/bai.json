@@ -1,7 +1,7 @@
 {
  "id": "w:bai",
  "th": "ใบ",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "bai",
  "paiboon": "bai",
  "ipa": "/baj˧/",
@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "leaf"
     ],
     "th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต้น โดยมากมีลักษณะเป็นแผ่นแบน ๆ รูปร่างต่าง ๆ กัน มีก้านใบหรือไม่มีก็ได้ มักมีสีเขียว",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -60,7 +61,16 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไม้"
+     ],
+     "lit": "leaf + wood",
+     "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "flips_with": "ไม้ใบ",
+     "frame": "entity"
     }
    ]
   },
@@ -86,7 +96,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A sail as the leaf a boat carries.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -135,7 +149,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "แผ่นเอกสารหรือหนังสือสำคัญต่าง ๆ + ขับ"
     },
     {
      "th": "ใบบอก",
@@ -161,9 +178,18 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "leaf + tell",
+     "lit_th": "แผ่นเอกสารหรือหนังสือสำคัญต่าง ๆ + ปล้องไม้ไผ่มีข้อขังข้างก้นสำหรับใส",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A document as a leaf of paper — ใบเสร็จ, ใบขับขี่.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -212,9 +238,21 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "gold + leaf",
+     "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + เรียกของที่เป็นแผ่น ๆ",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Anything in sheets.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -238,7 +276,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "And the classifier for fruits, vessels and papers.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -250,6 +292,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 1 manuscript titles, 241 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -279,7 +322,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "บุญ"
+   ],
+   "lit": "leaf + merit",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + ความสุข",
+   "frame": "entity"
   },
   {
    "th": "ใบแดง",
@@ -304,7 +355,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "แดง"
+   ],
+   "lit": "leaf + red",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
   },
   {
    "th": "ใบตาย",
@@ -324,13 +383,20 @@
     "ใบ",
     "ตาย"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ตาย"
+   ],
+   "lit": "leaf + demise",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + สิ้นใจ"
   },
   {
    "th": "ใบเหลือง",
@@ -355,7 +421,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "frame": "quality"
   },
   {
    "th": "ใบดำ",
@@ -380,7 +449,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ดำ"
+   ],
+   "lit": "leaf + black",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + มุดลง ในคำว่า ดำน้ำ"
   },
   {
    "th": "ใบเกิด",
@@ -400,13 +476,17 @@
     "ใบ",
     "เกิด"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "leaf + bear",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + เป็นขึ้น"
   },
   {
    "th": "ระใบ",
@@ -431,7 +511,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "กระทบเรียดไป + ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต"
   },
   {
    "th": "ใบสั่ง",
@@ -456,7 +539,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "leaf + order",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + บอกไว้เพื่อให้ทำหรือให้ปฏิบัติเป็น"
   },
   {
    "th": "ใบตอง",
@@ -481,7 +568,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + ใบไม้ขนาดใหญ่ใช้ห่อของได้ เช่น ใบก",
+   "frame": "entity"
   },
   {
    "th": "ใบพัด",
@@ -506,7 +597,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "leaf + fan",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + เครื่องโบกหรือกระพือลม",
+   "frame": "entity"
   },
   {
    "th": "ใบเลี้ยง",
@@ -531,7 +627,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "เลี้ยง"
+   ],
+   "lit": "leaf + grow",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + ดูแล"
   },
   {
    "th": "ใบอนุญาต",
@@ -559,7 +662,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "leaf + allow",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + ยินยอม"
   },
   {
    "th": "กะตังใบ",
@@ -579,13 +686,17 @@
     "กะตัง",
     "ใบ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "biological"
+   "use": "biological",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สตางค์ + ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต",
+   "frame": "entity"
   },
   {
    "th": "ใบปลิว",
@@ -610,7 +721,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + ลอยตามลม"
   },
   {
    "th": "ใบจักร",
@@ -635,7 +749,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "จักร"
+   ],
+   "lit": "leaf + chakra",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก",
+   "frame": "entity"
   },
   {
    "th": "ตากใบ",
@@ -655,13 +777,16 @@
     "ตาก",
     "ใบ"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ผึ่งให้แห้ง + ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต"
   },
   {
    "th": "ผ้าใบ",
@@ -686,7 +811,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ผ้า"
+   ],
+   "lit": "cloth + leaf",
+   "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต",
+   "frame": "entity"
   },
   {
    "th": "ไม้ใบ",
@@ -711,7 +844,16 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ไม้"
+   ],
+   "lit": "wood + leaf",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต",
+   "flips_with": "ใบไม้",
+   "frame": "entity"
   }
  ],
  "etymology": {

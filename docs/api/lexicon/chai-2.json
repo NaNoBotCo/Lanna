@@ -13,11 +13,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "victory"
     ],
     "th": "การชนะ, ความชนะ",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -57,33 +58,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
-    },
-    {
-     "th": "วิชัย",
-     "rtgs": "wi-chai",
-     "ipa": "/wi˦˥.t͡ɕʰaj˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "ความชนะ, ชัยชนะ",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "วิ",
-      "ชัย"
      ],
-     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.48",
-     "conf": "probable",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ]
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "gong + victory",
+     "lit_th": "เครื่องตีให้เกิดเสียงอย่างหนึ่ง ทำ + การชนะ",
+     "frame": "entity"
     },
     {
      "th": "ชัยภูมิ",
@@ -109,7 +89,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ภูมิ"
+     ],
+     "lit": "victory + land",
+     "lit_th": "การชนะ + แผ่นดิน",
+     "frame": "entity"
     },
     {
      "th": "เกยชัย",
@@ -135,7 +123,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อมาตราหรือแม่ ซึ่งเรียกคำหรือพย + การชนะ",
+     "frame": "entity"
     },
     {
      "th": "ชัยนาท",
@@ -161,7 +153,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "การชนะ + ความบันลือ",
+     "frame": "entity"
     }
    ]
   },
@@ -233,7 +229,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พื้นที่ใต้ระดับผิวดินลงไป",
+     "frame": "entity"
     },
     {
      "th": "วังชัย",
@@ -259,7 +259,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + chai as an element in place names",
+     "lit_th": "ที่อยู่ของเจ้านาย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ท่าชัย",
@@ -285,7 +293,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + chai as an element in place names",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "โชคชัย",
@@ -311,7 +327,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "chance + chai as an element in place names",
+     "lit_th": "สิ่งที่นำผลมาให้โดยไม่ได้คาดหมาย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ชัยบุรี",
@@ -337,7 +358,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บุรี"
+     ],
+     "lit": "chai as an element in place names + town",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เมือง",
+     "frame": "entity"
     },
     {
      "th": "เวียงชัย",
@@ -363,7 +392,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เมืองที่มีกำแพงล้อม + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "วันชัย",
@@ -389,7 +422,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "personal-name"
+     "use": "personal-name",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัน"
+     ],
+     "lit": "day + chai as an element in place names",
+     "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "ชัยนาม",
@@ -415,7 +456,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นาม"
+     ],
+     "lit": "chai as an element in place names + name",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อ",
+     "frame": "entity"
     },
     {
      "th": "โพธิ์ชัย",
@@ -441,7 +490,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "enlightenment + chai as an element in place names",
+     "lit_th": "ความตรัสรู้ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "พลับพลาชัย",
@@ -467,7 +524,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ที่พักชั่วคราว + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
     },
     {
      "th": "สามชัย",
@@ -493,7 +554,13 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "head": 1,
+     "cross_listed": [
+      "สาม"
+     ],
+     "lit": "three + chai as an element in place names",
+     "lit_th": "จำนวนสองบวกหนึ่ง + ใช้ประกอบชื่อสถานที่"
     },
     {
      "th": "เด่นชัย",
@@ -519,7 +586,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "visible + chai as an element in place names",
+     "lit_th": "ที่ปรากฏเห็นได้ชัดจะแจ้งเพราะนูนขึ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ชัยฤทธิ์",
@@ -545,7 +617,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อำนาจศักดิ์สิทธิ์",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -593,7 +669,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เส้น"
+   ],
+   "lit": "mark + victory",
+   "lit_th": "สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่ + การชนะ",
+   "frame": "entity"
   },
   {
    "th": "มหาชัย",
@@ -618,7 +702,40 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "head": 1,
+   "lit_th": "ใหญ่ + การชนะ"
+  },
+  {
+   "th": "วิชัย",
+   "rtgs": "wi-chai",
+   "ipa": "/wi˦˥.t͡ɕʰaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความชนะ, ชัยชนะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วิ",
+    "ชัย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.48 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปตัดทอนของ วินาที + การชนะ",
+   "frame": "entity",
+   "use": "false-split"
   }
  ],
  "etymology": {

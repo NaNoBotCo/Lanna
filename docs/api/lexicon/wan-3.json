@@ -1,7 +1,7 @@
 {
  "id": "w:wan-3",
  "th": "วัน",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "wan",
  "paiboon": "wan",
  "ipa": "/wan˧/",
@@ -12,11 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "day",
-     "date"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่งถึงย่ำรุ่ง หรือตั้งแต่เที่ยงคืนถึงเที่ยงคืน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -34,18 +33,18 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: วัน 'day'."
    ]
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "day",
-     "date"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "ระยะเวลา 12 ชั่วโมง ตั้งแต่ย่ำรุ่งถึงย่ำค่ำ เรียกว่า กลางวัน, มักเรียกสั้น ๆ ว่า วัน, ตรงข้ามกับ คืน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -88,19 +87,30 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "middle + day",
+     "lit_th": "ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง + ระยะเวลา 12 ชั่วโมง ตั้งแต่ย่ำรุ่ง",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The day narrowed to its light half.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "day",
-     "date"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "ช่วงเวลากลางวัน",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -116,17 +126,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And to the daytime itself.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "day",
-     "date"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "เวลาทำการตามที่ได้กำหนดขึ้นโดยกฎหมาย คำสั่งศาล หรือระเบียบข้อบังคับ หรือเวลาทำการตามปรกติของกิจการนั้นแล้วแต่กรณี (ใช้ในทางคดีความ ในทางราชการ หรือทางธุรกิจการค้า และการอุตสาหกรรม)",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -142,17 +155,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "A day as the law or the court defines it.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "day",
-     "date"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "(แมลง~, แมง~) ชื่อแมลงหลายชนิด หลายสกุล หลายวงศ์ ในอันดับ Diptera มีปีก 1 คู่ ลักษณะบางใส มีอวัยวะเป็นติ่งแทนปีกคู่ที่ 2 ช่วยในการทรงตัว ปากเป็นชนิดซับดูด หนวดมี 3 ปล้อง ปล้องปลายใหญ่สุดและมีขน 1 เส้น ที่พบทั่วไป เช่น แมลงวันบ้าน (Musca domestica Linn.) ในวงศ์ Muscidae ลำตัวยาวประมาณ 6 มิลลิเมตร สีน้ำตาลดำ กินอาหารหลากหลาย",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -168,17 +184,19 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: แมลงวัน, the fly."
    ]
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "day",
-     "date"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ป่าไม้, ดง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -195,33 +213,9 @@
     "RID",
     "WIKT"
    ],
-   "compounds": [
-    {
-     "th": "เวฬุวัน",
-     "rtgs": "we-lu-wan",
-     "ipa": "/weː˧.lu˦˥.wan˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "ป่าไผ่",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "เวฬุ",
-      "วัน"
-     ],
-     "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.14, next 0.00",
-     "conf": "probable",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ]
-    }
+   "compounds": [],
+   "needs_check": [
+    "Declared root: วัน 'forest' < Pali vana."
    ]
   }
  ],
@@ -236,6 +230,8 @@
   "Attested in this corpus: 52 manuscript titles, 219 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['ชั่วโมง', 'ปี', 'เวลา', 'วัน'].",
@@ -263,7 +259,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + เต็ม",
+   "frame": "quality"
   },
   {
    "th": "วันที่",
@@ -289,7 +289,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "day + at",
+   "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + แหล่ง",
+   "frame": "entity"
   },
   {
    "th": "เที่ยงวัน",
@@ -315,7 +320,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ตรง + ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง",
+   "frame": "quality"
   },
   {
    "th": "วันประสูติ",
@@ -339,7 +348,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + การเกิด",
+   "frame": "entity"
   },
   {
    "th": "วันนี้",
@@ -365,7 +378,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "day + this",
+   "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + คำใช้ประกอบนามหรือข้อความที่อยู่ใก",
+   "frame": "quality"
   },
   {
    "th": "วันชัย",
@@ -385,13 +403,21 @@
     "วัน",
     "ชัย"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "personal-name"
+   "use": "personal-name",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ชัย"
+   ],
+   "lit": "day + victory",
+   "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + การชนะ",
+   "frame": "entity"
   },
   {
    "th": "วันเกิด",
@@ -417,7 +443,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "day + bear",
+   "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + เป็นขึ้น"
   },
   {
    "th": "วันยาว",
@@ -437,13 +467,21 @@
     "วัน",
     "ยาว"
    ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "ยาว"
+   ],
+   "lit": "day + long",
+   "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+   "frame": "quality"
   },
   {
    "th": "วันเฉลิมพระชนมพรรษา",
@@ -467,7 +505,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + ทำบุญวันเกิด"
   },
   {
    "th": "ตาวัน",
@@ -492,7 +533,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ตา"
+   ],
+   "lit": "eye + day",
+   "lit_th": "พ่อของแม่ + ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง",
+   "frame": "entity"
   },
   {
    "th": "ปทุมวัน",
@@ -512,13 +561,17 @@
     "ปทุม",
     "วัน"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "บัวหลวง + ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง",
+   "frame": "entity"
   },
   {
    "th": "วันแข็ง",
@@ -543,7 +596,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "แข็ง"
+   ],
+   "lit": "day + hard",
+   "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + กระด้าง",
+   "frame": "quality"
   },
   {
    "th": "วันหยุด",
@@ -569,7 +630,42 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "day + brake",
+   "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + ชะงัก"
+  },
+  {
+   "th": "เวฬุวัน",
+   "rtgs": "we-lu-wan",
+   "ipa": "/weː˧.lu˦˥.wan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ป่าไผ่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เวฬุ",
+    "วัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.14, next 0.00 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ไม้ไผ่ + ป่าไม้",
+   "frame": "entity",
+   "use": "false-split"
   }
  ],
  "etymology": {
@@ -611,5 +707,9 @@
     "WIKT"
    ]
   }
+ ],
+ "bridge_en": [
+  "day",
+  "date"
  ]
 }

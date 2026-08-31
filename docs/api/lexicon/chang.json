@@ -1,7 +1,7 @@
 {
  "id": "w:chang",
  "th": "ช้าง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "chang",
  "paiboon": "cháang",
  "ipa": "/t͡ɕʰaːŋ˦˥/",
@@ -12,10 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "elephant"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์บกที่ใหญ่ที่สุด ในวงศ์ Elephantidae ผิวหนังหนา สีดำหรือดำอมเทา รับสัมผัสได้ไว ขนสีดำ จมูกยื่นยาวเรียกว่า งวง ปลายงวงมีจะงอยสำหรับจับสิ่งของ ขมับทั้ง 2 ข้างมีรูเปิดของต่อมน้ำมัน จะมีน้ำมันไหลออกมาเมื่อถึงวัย ขาใหญ่เป็นลำ กินพืช มี 2 ชนิด คือ ช้างเอเชียและช้างแอฟริกา",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -33,7 +33,11 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ช้าง 'elephant'.",
+    "Declared root: ช้าง 'elephant'.",
+    "Declared root: ช้าง 'elephant'.",
+    "Declared root: ช้าง 'elephant'."
    ],
    "compounds": [
     {
@@ -59,7 +63,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + elephant",
+     "lit_th": "ที่อยู่อาศัย + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "ช้างน้ำ",
@@ -85,7 +97,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "elephant + water",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
     },
     {
      "th": "ช้างม่อย",
@@ -110,7 +130,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + เคลิ้มหลับไปชั่วครู่"
     },
     {
      "th": "ทับช้าง",
@@ -135,7 +158,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทับ"
+     ],
+     "lit": "hut + elephant",
+     "lit_th": "กระท่อมหรือสิ่งปลูกสร้างที่ทำอยู่ช + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "กกช้าง",
@@ -160,7 +191,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กก"
+     ],
+     "lit": "the -k final spelling class + elephant",
+     "lit_th": "เรียกคำหรือพยางค์ที่มีตัว ก ข ค ฆ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "ช้างคลาน",
@@ -185,7 +224,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ไปด้วยมือและเข่าอย่างเด็ก"
     },
     {
      "th": "โรงช้าง",
@@ -210,7 +252,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โรง"
+     ],
+     "lit": "shed + elephant",
+     "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "ช้างข้าม",
@@ -235,7 +285,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "elephant + across",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ยกเท้าย่างผ่านเหนือสิ่งใดสิ่งหนึ่ง"
     },
     {
      "th": "ท่าช้าง",
@@ -260,7 +314,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + elephant",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "ช้างกลาง",
@@ -285,7 +347,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "elephant + middle",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
     },
     {
      "th": "ทุ่งช้าง",
@@ -310,7 +380,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "open field + elephant",
+     "lit_th": "ที่ราบโล่ง + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "เท้าช้าง",
@@ -336,7 +414,12 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "foot + elephant",
+     "lit_th": "ตีน + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "ด่านช้าง",
@@ -361,7 +444,11 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ที่สำหรับกัก ตรวจ คอยระวังเหตุ และ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "ดอนช้าง",
@@ -386,7 +473,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดอน"
+     ],
+     "lit": "hill + elephant",
+     "lit_th": "พื้นที่ที่น้ำท่วมไม่ถึง + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "หนองเสือช้าง",
@@ -411,7 +506,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดปทุมธานี + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์"
     },
     {
      "th": "เกาะช้าง",
@@ -436,7 +534,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เกาะ"
+     ],
+     "lit": "island + elephant",
+     "lit_th": "ส่วนของแผ่นดินที่มีน้ำล้อมรอบ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "ช้างทอง",
@@ -461,7 +567,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "elephant + gold",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
     },
     {
      "th": "หนองช้าง",
@@ -486,7 +600,15 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + elephant",
+     "lit_th": "แอ่งน้ำ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
     },
     {
      "th": "แช่ช้าง",
@@ -511,7 +633,10 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ใส่ลงในน้ำหรือของเหลวอย่างอื่น ชั่ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์"
     }
    ]
   },
@@ -519,10 +644,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "elephant"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "เสียใจมาก",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -538,6 +663,12 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ช้าง in the reading 'deeply grieved' — obscure, and unrelated.",
+    "Declared root: ช้าง in the reading 'deeply grieved' — obscure, and unrelated.",
+    "Declared root: ช้าง in the reading 'deeply grieved' — obscure, and unrelated.",
+    "Declared root: ช้าง in the reading 'deeply grieved' — obscure, and unrelated."
    ]
   }
  ],
@@ -552,6 +683,8 @@
   "Attested in this corpus: 35 manuscript titles, 224 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 34; domain seeded by keyword hits ['override'].",
@@ -579,7 +712,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "น้อย"
+   ],
+   "lit": "elephant + little",
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ไม่มาก",
+   "frame": "quality"
   },
   {
    "th": "งานช้าง",
@@ -604,7 +745,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "งาน"
+   ],
+   "lit": "job + elephant",
+   "lit_th": "สิ่งหรือกิจกรรมที่ทำ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
   },
   {
    "th": "กาวช้าง",
@@ -624,13 +773,18 @@
     "กาว",
     "ช้าง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "synonym-pointer"
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "dope + elephant",
+   "lit_th": "ของเหนียวที่เคี่ยวมาจากเอ็น หนัง ก + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
   },
   {
    "th": "ทรงช้าง",
@@ -654,7 +808,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ทรง"
+   ],
+   "lit": "form + elephant",
+   "lit_th": "รูปร่าง + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
   },
   {
    "th": "ขอช้าง",
@@ -679,7 +841,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ขอ"
+   ],
+   "lit": "ask + elephant",
+   "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
   },
   {
    "th": "กรามช้าง",
@@ -704,7 +874,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ฟันที่ใช้บดเคี้ยวอาหาร + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
   },
   {
    "th": "ช้างสาร",
@@ -729,7 +903,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "elephant + matter",
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + แก่น",
+   "frame": "entity"
   },
   {
    "th": "ช้างซ่อม",
@@ -754,7 +933,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "elephant + fix",
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ทำสิ่งที่ชำรุดให้คืนดี"
   },
   {
    "th": "ชนช้าง",
@@ -779,7 +962,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ชน"
+   ],
+   "lit": "hit + elephant",
+   "lit_th": "โดนแรง ๆ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์"
   },
   {
    "th": "การชนช้าง",
@@ -799,13 +989,18 @@
     "การชน",
     "ช้าง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "knock + elephant",
+   "lit_th": "คำอาการนามของ ชน + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
   },
   {
    "th": "ผัดช้าง",
@@ -830,7 +1025,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "เอาสิ่งที่ใช้เป็นอาหารใส่ลงในกระทะ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์"
   },
   {
    "th": "ช้างเผือก",
@@ -855,7 +1053,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ชื่อไม้ล้มลุกมีหัวชนิด Colocasia e",
+   "frame": "entity"
   },
   {
    "th": "ปลงช้าง",
@@ -880,7 +1082,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "เอาลง + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์"
   },
   {
    "th": "การปลงช้าง",
@@ -900,13 +1105,17 @@
     "การปลง",
     "ช้าง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ปลง + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
   },
   {
    "th": "ช้างต้น",
@@ -930,7 +1139,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ต้น"
+   ],
+   "lit": "elephant + trunk",
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ลำของต้นไม้",
+   "frame": "entity"
   }
  ],
  "etymology": {
@@ -948,5 +1165,8 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "elephant"
+ ]
 }

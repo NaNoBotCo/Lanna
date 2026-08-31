@@ -1,7 +1,7 @@
 {
  "id": "w:fa",
  "th": "ฟ้า",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "fa",
  "paiboon": "fáa",
  "ipa": "/faː˦˥/",
@@ -12,11 +12,12 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "sky"
     ],
     "th": "(ท้อง~) ส่วนเบื้องบนที่มองเห็นครอบแผ่นดินอยู่",
-    "conf": "unverified",
+    "conf": "standard",
     "src": [
+     "CUR",
      "RID"
     ]
    },
@@ -57,7 +58,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The sky as the air above.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -107,7 +112,15 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "town + sky",
+     "lit_th": "แดน + สวรรค์",
+     "frame": "entity"
     },
     {
      "th": "นางฟ้า",
@@ -132,9 +145,21 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นาง"
+     ],
+     "lit": "Mrs + sky",
+     "lit_th": "ผู้หญิง + สวรรค์",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The sky as heaven.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -184,7 +209,11 @@
       "CUR",
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ลำไม้ไผ่เป็นต้นที่ผ่าแล้วสับให้แตก + เจ้าฟ้า",
+     "frame": "entity"
     },
     {
      "th": "เจ้าฟ้า",
@@ -209,9 +238,21 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "thou + sky",
+     "lit_th": "ผู้เป็นใหญ่ + เจ้าฟ้า",
+     "frame": "entity"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "เจ้าฟ้า, the highest royal rank — of heaven.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -235,7 +276,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "สีฟ้า, the blue of a sunlit sky.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -247,6 +292,7 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 11 manuscript titles, 66 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
@@ -276,7 +322,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1
   },
   {
    "th": "ฟ้าผ่า",
@@ -301,7 +349,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "sky + split"
   },
   {
    "th": "รถไฟฟ้า",
@@ -326,7 +377,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "รถ"
+   ],
+   "lit": "train + sky",
+   "frame": "entity"
   },
   {
    "th": "ว่ายฟ้า",
@@ -351,7 +409,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1
   },
   {
    "th": "ดาดฟ้า",
@@ -376,7 +436,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1
   },
   {
    "th": "ตากฟ้า",
@@ -396,13 +458,15 @@
     "ตาก",
     "ฟ้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "V+N",
+   "head": 1
   },
   {
    "th": "ฟ้าร้อง",
@@ -429,7 +493,13 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ร้อง"
+   ],
+   "lit": "sky + sing"
   },
   {
    "th": "น่านฟ้า",
@@ -454,7 +524,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
   },
   {
    "th": "ฟ้าแลบ",
@@ -479,7 +552,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0
   },
   {
    "th": "ฟ้าหลัว",
@@ -505,7 +580,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "frame": "entity"
   },
   {
    "th": "ขวานฟ้า",
@@ -530,7 +608,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "axe + sky",
+   "frame": "entity"
   },
   {
    "th": "ทัพฟ้า",
@@ -555,7 +637,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ทัพ"
+   ],
+   "lit": "army + sky",
+   "frame": "entity"
   },
   {
    "th": "ขอบฟ้า",
@@ -581,7 +670,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "board + sky",
+   "frame": "entity"
   },
   {
    "th": "เฟื่องฟ้า",
@@ -601,13 +694,16 @@
     "เฟื่อง",
     "ฟ้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "biological"
+   "use": "biological",
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
   },
   {
    "th": "ดอกฟ้า",
@@ -632,7 +728,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "flower + sky",
+   "frame": "entity"
   },
   {
    "th": "น้ำฟ้า",
@@ -657,7 +757,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "water + sky",
+   "frame": "entity"
   },
   {
    "th": "หลอดไฟฟ้า",
@@ -683,7 +790,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "lamp + sky",
+   "frame": "entity"
   },
   {
    "th": "ไพร่ฟ้า",
@@ -708,7 +819,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
   },
   {
    "th": "ฟ้าแมลบ",
@@ -733,7 +847,9 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+V",
+   "head": 0
   },
   {
    "th": "ไฟฟ้า",
@@ -759,7 +875,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ไฟ"
+   ],
+   "lit": "fire + sky",
+   "frame": "entity"
   },
   {
    "th": "หลักฟ้า",
@@ -779,13 +902,20 @@
     "หลัก",
     "ฟ้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "toponym"
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "หลัก"
+   ],
+   "lit": "key + sky",
+   "frame": "entity"
   },
   {
    "th": "สายฟ้า",
@@ -810,7 +940,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "สาย"
+   ],
+   "lit": "late + sky",
+   "frame": "entity"
   },
   {
    "th": "สายไฟฟ้า",
@@ -835,7 +972,14 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "สาย"
+   ],
+   "lit": "wire + sky",
+   "frame": "entity"
   },
   {
    "th": "ความฟ้า",
@@ -855,13 +999,17 @@
     "ความ",
     "ฟ้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + sky",
+   "frame": "entity"
   },
   {
    "th": "ค้ำฟ้า",
@@ -886,7 +1034,10 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "bear + sky"
   },
   {
    "th": "ไก่ฟ้า",
@@ -907,13 +1058,20 @@
     "ไก่",
     "ฟ้า"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "biological"
+   "use": "biological",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ไก่"
+   ],
+   "lit": "chicken + sky",
+   "frame": "entity"
   }
  ],
  "etymology": {

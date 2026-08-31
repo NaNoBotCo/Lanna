@@ -1,7 +1,7 @@
 {
  "id": "w:sung",
  "th": "สูง",
- "status": "proposed",
+ "status": "mapped",
  "rtgs": "sung",
  "paiboon": "sǔung",
  "ipa": "/suːŋ˩˩˦/",
@@ -12,11 +12,10 @@
    "n": 1,
    "gloss": {
     "en": [
-     "tall",
-     "high"
+     "[RID sense 1 — no English yet]"
     ],
     "th": "มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉากกับพื้น",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -38,11 +37,10 @@
    "n": 2,
    "gloss": {
     "en": [
-     "tall",
-     "high"
+     "[RID sense 2 — no English yet]"
     ],
     "th": "เหนือระดับปรกติ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -55,17 +53,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Above the ordinary level.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "tall",
-     "high"
+     "[RID sense 3 — no English yet]"
     ],
     "th": "แหลม",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -78,17 +79,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Of sound: up the scale, sharp.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "tall",
-     "high"
+     "[RID sense 4 — no English yet]"
     ],
     "th": "ระดับเหนือเสียงกลาง",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -126,19 +130,27 @@
      "src": [
       "RID",
       "WIKT"
-     ]
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "letter + tall",
+     "lit_th": "ตัวหนังสือ + ระดับเหนือเสียงกลาง",
+     "frame": "quality"
     }
-   ]
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Above the middle pitch.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "tall",
-     "high"
+     "[RID sense 5 — no English yet]"
     ],
     "th": "ตรงข้ามกับ ต่ำ",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -151,17 +163,20 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Fixed as the opposite of ต่ำ.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "tall",
-     "high"
+     "[RID sense 6 — no English yet]"
     ],
     "th": "ดี",
-    "conf": "verified",
+    "conf": "unverified",
     "src": [
      "RID",
      "WIKT"
@@ -174,7 +189,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "High in quality: fine, elevated.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -244,7 +263,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "กระท่อมที่ทำไว้เฝ้านาเฝ้าสวน หรือท + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "สูงเม่น",
@@ -270,7 +293,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนมในวงศ์ Hys",
+     "frame": "quality"
     },
     {
      "th": "หนองสูง",
@@ -296,7 +323,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + sung as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "โคกสูง",
@@ -322,7 +357,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "โคก"
+     ],
+     "lit": "mound + sung as an element in place names",
+     "lit_th": "ที่ดินที่นูนสูงขึ้นคล้ายเนิน แต่เต + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "โนนสูง",
@@ -348,7 +391,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "โนน"
+     ],
+     "lit": "mound + sung as an element in place names",
+     "lit_th": "เนิน + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "ยางสูง",
@@ -374,7 +425,15 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ยาง"
+     ],
+     "lit": "rubber + sung as an element in place names",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "มะขามสูง",
@@ -400,7 +459,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "tamarind + sung as an element in place names",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Tamarindus + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "สะพานสูง",
@@ -426,7 +490,11 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "สิ่งปลูกสร้างที่ทำสำหรับข้ามแม่น้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
     },
     {
      "th": "สูงเนิน",
@@ -452,7 +520,12 @@
       "RID",
       "WIKT"
      ],
-     "use": "toponym"
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit": "sung as an element in place names + border",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + โคกขนาดใหญ่ที่ค่อยลาดสูงขึ้นจากระด",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -472,6 +545,8 @@
   "Attested in this corpus: 0 manuscript titles, 389 item titles. Turn the useful ones into ATTESTED_IN edges.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits —.",
@@ -494,13 +569,17 @@
     "การใฝ่",
     "สูง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ใฝ่ + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+   "frame": "quality"
   },
   {
    "th": "สูงส่ง",
@@ -526,7 +605,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+V",
+   "head": 0,
+   "cross_listed": [
+    "ส่ง"
+   ],
+   "lit": "tall + send",
+   "lit_th": "มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท",
+   "frame": "quality"
   },
   {
    "th": "ส่วนสูง",
@@ -551,7 +638,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ส่วน"
+   ],
+   "lit": "zone + tall",
+   "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+   "frame": "quality"
   },
   {
    "th": "ใฝ่สูง",
@@ -576,7 +671,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "มุ่ง + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+   "frame": "quality"
   },
   {
    "th": "ความสูง",
@@ -598,13 +697,18 @@
     "ความ",
     "สูง"
    ],
-   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
-   "use": "nominalisation"
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + tall",
+   "lit_th": "เรื่อง + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+   "frame": "quality"
   },
   {
    "th": "สูงอายุ",
@@ -629,7 +733,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit": "tall + age",
+   "lit_th": "มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก + ช่วงเวลาที่นับจาก เวลาเกิด ถึง เวล",
+   "frame": "quality"
   },
   {
    "th": "หัวสูง",
@@ -654,7 +763,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "หัว"
+   ],
+   "lit": "head + tall",
+   "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+   "frame": "quality"
   },
   {
    "th": "เครื่องสูง",
@@ -678,7 +795,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "เครื่อง"
+   ],
+   "lit": "device + tall",
+   "lit_th": "สิ่ง + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+   "frame": "quality"
   },
   {
    "th": "ของสูง",
@@ -703,7 +828,15 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ของ"
+   ],
+   "lit": "by + tall",
+   "lit_th": "สิ่งต่าง ๆ + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+   "frame": "quality"
   },
   {
    "th": "ที่ราบสูง",
@@ -729,7 +862,12 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "flat + tall",
+   "lit_th": "ภูมิประเทศที่เป็นที่ราบซึ่งอาจจะรา + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+   "frame": "quality"
   }
  ],
  "etymology": {
@@ -747,5 +885,9 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "bridge_en": [
+  "tall",
+  "high"
+ ]
 }
