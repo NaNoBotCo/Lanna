@@ -65,7 +65,103 @@
    "extends": 3,
    "via": "metonymy",
    "via_note": "What the khwan brings — auspiciousness, blessing, good.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "มิ่งขวัญ",
+     "rtgs": "ming-khwan",
+     "ipa": "/miŋ˥˩.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งหรือผู้เป็นที่รักหรือเคารพนับถือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มิ่ง",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สิ่งเป็นสิริมงคล + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    },
+    {
+     "th": "กล่าวขวัญ",
+     "rtgs": "klao khwan",
+     "ipa": "/klaːw˨˩.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พูดถึง, พูดออกชื่อและการกระทำของคนอื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กล่าว",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "บอก + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
+    },
+    {
+     "th": "คำขวัญ",
+     "rtgs": "kham-khwan",
+     "ipa": "/kʰam˧.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "motto"
+      ],
+      "th": "ถ้อยคำที่แต่งขึ้นเพื่อเตือนใจหรือเพื่อให้เป็นสิริมงคล",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "word + khwan",
+     "lit_th": "เสียงพูด + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 3,
@@ -127,6 +223,678 @@
      "lit_th": "เสื่อมลงไป + สิ่งที่ไม่มีตัวตน เชื่อกันว่ามีอยู",
      "flips_with": "ขวัญเสีย",
      "frame": "act"
+    },
+    {
+     "th": "ทำลายขวัญ",
+     "rtgs": "tham-lai-khwan",
+     "ipa": "/tʰam˧.laːj˧.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้เสียขวัญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำลาย",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "destroy + khwan",
+     "lit_th": "อาการที่ทำให้สิ่งซึ่งเป็นกลุ่มก้อน + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
+    },
+    {
+     "th": "บำรุงขวัญ",
+     "translit_auto": "bamrungkhway",
+     "ipa": "[bä̃m˧.rũŋ˧.kʰwä̃n˩˥]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำพิธี เช่น รดน้ำมนตร์ให้ เสกเป่าให้ หรือกล่าวปลุกใจต่าง ๆ เพื่อให้ขวัญดีมีใจกล้าหาญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บำรุง",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ทำให้งอกงาม + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
+    },
+    {
+     "th": "ทำขวัญ",
+     "rtgs": "tham-khwan",
+     "ipa": "/tʰam˧.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำพิธีเชิญขวัญหรือเรียกขวัญมาอยู่กับตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ทำ"
+     ],
+     "lit": "do + khwan",
+     "lit_th": "กระทำ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
+    },
+    {
+     "th": "ไข่ขวัญ",
+     "rtgs": "khai-khwan",
+     "ipa": "/kʰaj˨˩.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ปอกที่เสียบไม้ปักไว้บนยอดบายศรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไข่"
+     ],
+     "lit": "egg + khwan",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    },
+    {
+     "th": "รากขวัญ",
+     "rtgs": "rak-khwan",
+     "ipa": "/raːk̚˥˩.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(พระ~) ไหปลาร้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ราก",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "root + khwan",
+     "lit_th": "ส่วนของต้นไม้ ตามปรกติอยู่ในดิน มี + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวขวัญ",
+     "rtgs": "khao–khwan",
+     "ipa": "/kʰaːw˥˩.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวบายศรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ข้าว"
+     ],
+     "lit": "rice + khwan",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "flips_with": "ขวัญข้าว",
+     "frame": "entity"
+    },
+    {
+     "th": "หมอขวัญ",
+     "translit_auto": "hmokhway",
+     "ipa": "[mɔː˩˥.kʰwä̃n˩˥]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้รู้พิธีทำขวัญ, หมอทำขวัญ ก็เรียก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมอ",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หมอ"
+     ],
+     "lit": "one who knows + khwan",
+     "lit_th": "ผู้รู้ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    },
+    {
+     "th": "ขวัญเกี่ยง",
+     "rtgs": "khwan–kiang",
+     "ipa": "/kʰwan˩˩˦.kia̯ŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขวัญร้าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "เกี่ยง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + อาการที่ต่างฝ่ายต่างไม่ยอมทำเพราะก"
+    },
+    {
+     "th": "ขวัญหนี",
+     "rtgs": "khwan-ni",
+     "ipa": "/kʰwan˩˩˦.niː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตกใจ, ใจหาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "หนี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "khwan + shy",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ไปเสียให้พ้น"
+    },
+    {
+     "th": "ขวัญแขวน",
+     "rtgs": "khwan–khwaen",
+     "ipa": "/kʰwan˩˩˦.kʰwɛːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขวัญไปค้างอยู่ที่อื่น หมายความว่า ตกใจ, มักใช้เข้าคู่กับคำ อกสั่น เป็น อกสั่นขวัญแขวน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "แขวน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "khwan + depend",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + เกี่ยวห้อยอยู่"
+    },
+    {
+     "th": "ของขวัญ",
+     "rtgs": "khong-khwan",
+     "ipa": "/kʰɔːŋ˩˩˦.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "gift",
+       "present",
+       "tribute"
+      ],
+      "th": "สิ่งของที่ให้แก่เจ้าของขวัญเมื่อเสร็จพิธีทำขวัญแล้ว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "by + khwan",
+     "lit_th": "สิ่งต่าง ๆ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    },
+    {
+     "th": "ขวัญอ่อน",
+     "rtgs": "khwan–on",
+     "ipa": "/kʰwan˩˩˦.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกผู้ตกใจง่ายคือเด็กหรือหญิงซึ่งมักจะขวัญหายบ่อย ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "อ่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "อ่อน"
+     ],
+     "lit": "khwan + young",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ไม่กระด้าง"
+    },
+    {
+     "th": "ขวัญข้าว",
+     "rtgs": "khwan–khao",
+     "ipa": "/kʰwan˩˩˦.kʰaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มิ่งขวัญของข้าวซึ่งเจ้าของทำพิธีเชื้อเชิญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "ข้าว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ข้าว"
+     ],
+     "lit": "khwan + rice",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ",
+     "flips_with": "ข้าวขวัญ",
+     "frame": "entity"
+    },
+    {
+     "th": "เรียกขวัญ",
+     "rtgs": "riak–khwan",
+     "ipa": "/ria̯k̚˥˩.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำพิธีเชิญขวัญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรียก",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "call + khwan",
+     "lit_th": "เปล่งเสียงเพื่อให้มาหรือให้ไปเป็นต + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
+    },
+    {
+     "th": "รับขวัญ",
+     "translit_auto": "rabkhway",
+     "ipa": "[räp̚˦˥.kʰwä̃n˩˥]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกขวัญหรือเชิญขวัญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "รับ"
+     ],
+     "lit": "accept + khwan",
+     "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
+    },
+    {
+     "th": "ข่มขวัญ",
+     "rtgs": "khom-khwan",
+     "ipa": "/kʰom˨˩.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้ขวัญเสีย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข่ม",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "bluff + khwan",
+     "lit_th": "กดไว้ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
+    },
+    {
+     "th": "ขวัญบิน",
+     "rtgs": "khwan-bin",
+     "ipa": "/kʰwan˩˩˦.bin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตกใจ, ใจหาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "บิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "khwan + fly",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ไปในอากาศด้วยกำลังปีกหรือเครื่องยน"
+    },
+    {
+     "th": "ขวัญเสีย",
+     "rtgs": "khwan-sia",
+     "ipa": "/kʰwan˩˩˦.sia̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กำลังใจเสีย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "เสีย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "khwan + bad",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + เสื่อมลงไป",
+     "flips_with": "เสียขวัญ",
+     "frame": "state"
+    },
+    {
+     "th": "ขวัญหาย",
+     "rtgs": "khwan-hai",
+     "ipa": "/kʰwan˩˩˦.haːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตกใจ, ใจหาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "หาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "หาย"
+     ],
+     "lit": "khwan + all",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + สูญ"
+    },
+    {
+     "th": "ผูกขวัญ",
+     "translit_auto": "phukkhway",
+     "ipa": "[pʰuːk̚˩.kʰwä̃n˩˥]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาเส้นด้ายผูกข้อมือเด็กแล้วกล่าวเรียกขวัญว่า \"ขวัญเอ๋ย มาอยู่กับเนื้อกับตัว\" แล้วกล่าวให้พรต่อไปตามควร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผูก",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "tie + khwan",
+     "lit_th": "เอาเชือกเป็นต้นสอดคล้องกันให้เกิดเ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
+    },
+    {
+     "th": "ขวัญบ่า",
+     "rtgs": "khwan–ba",
+     "ipa": "/kʰwan˩˩˦.baː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขวัญไหลไปจากตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "บ่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "khwan + shoulder",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ส่วนของร่างกายระหว่างคอกับหัวไหล่",
+     "frame": "entity"
     }
    ],
    "needs_check": [
@@ -231,6 +999,135 @@
      ],
      "lit": "khwan + town",
      "lit_th": "ยอดกำลังใจ + แดน",
+     "frame": "entity"
+    },
+    {
+     "th": "จอมขวัญ",
+     "rtgs": "chom–khwan",
+     "ipa": "/t͡ɕɔːm˧.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่เป็นมิ่งขวัญอย่างยอดเยี่ยม หมายถึง หญิงที่รัก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จอม",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ยอดที่สูงสุดของสิ่งที่มีฐานใหญ่ปลา + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    },
+    {
+     "th": "ขวัญตา",
+     "rtgs": "khwan–ta",
+     "ipa": "/kʰwan˩˩˦.taː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มิ่งขวัญดวงตา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "ตา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "khwan + eye",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + พ่อของแม่",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกขวัญ",
+     "translit_auto": "lukkhway",
+     "ipa": "[luːk̚˥˩.kʰwä̃n˩˥]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกคนที่รักมากที่สุด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + khwan",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    },
+    {
+     "th": "เมียขวัญ",
+     "translit_auto": "meiykhway",
+     "ipa": "[miːä˧.kʰwä̃n˩˥]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำยกย่องเรียกภรรยาอันเป็นที่รัก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เมีย",
+      "ขวัญ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "wife + khwan",
+     "lit_th": "ภรรยา + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
      "frame": "entity"
     }
    ],
@@ -560,97 +1457,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 41; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
   {
-   "th": "จอมขวัญ",
-   "rtgs": "chom–khwan",
-   "ipa": "/t͡ɕɔːm˧.kʰwan˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ที่เป็นมิ่งขวัญอย่างยอดเยี่ยม หมายถึง หญิงที่รัก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "จอม",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "ยอดที่สูงสุดของสิ่งที่มีฐานใหญ่ปลา + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
-   "frame": "entity"
-  },
-  {
-   "th": "ขวัญตา",
-   "rtgs": "khwan–ta",
-   "ipa": "/kʰwan˩˩˦.taː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มิ่งขวัญดวงตา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวัญ",
-    "ตา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ตา"
-   ],
-   "lit": "khwan + eye",
-   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + พ่อของแม่",
-   "frame": "entity"
-  },
-  {
-   "th": "ทำลายขวัญ",
-   "rtgs": "tham-lai-khwan",
-   "ipa": "/tʰam˧.laːj˧.kʰwan˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำให้เสียขวัญ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทำลาย",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "destroy + khwan",
-   "lit_th": "อาการที่ทำให้สิ่งซึ่งเป็นกลุ่มก้อน + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
-  },
-  {
    "th": "การทำขวัญ",
    "rtgs": "kan-tham-khwan",
    "ipa": "/kaːn˧.tʰam˧.kʰwan˩˩˦/",
@@ -715,192 +1521,6 @@
    "frame": "entity"
   },
   {
-   "th": "บำรุงขวัญ",
-   "translit_auto": "bamrungkhway",
-   "ipa": "[bä̃m˧.rũŋ˧.kʰwä̃n˩˥]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำพิธี เช่น รดน้ำมนตร์ให้ เสกเป่าให้ หรือกล่าวปลุกใจต่าง ๆ เพื่อให้ขวัญดีมีใจกล้าหาญ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "บำรุง",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit_th": "ทำให้งอกงาม + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
-  },
-  {
-   "th": "ทำขวัญ",
-   "rtgs": "tham-khwan",
-   "ipa": "/tʰam˧.kʰwan˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำพิธีเชิญขวัญหรือเรียกขวัญมาอยู่กับตัว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "ทำ"
-   ],
-   "lit": "do + khwan",
-   "lit_th": "กระทำ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
-  },
-  {
-   "th": "ไข่ขวัญ",
-   "rtgs": "khai-khwan",
-   "ipa": "/kʰaj˨˩.kʰwan˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไข่ปอกที่เสียบไม้ปักไว้บนยอดบายศรี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไข่",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ไข่"
-   ],
-   "lit": "egg + khwan",
-   "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
-   "frame": "entity"
-  },
-  {
-   "th": "มิ่งขวัญ",
-   "rtgs": "ming-khwan",
-   "ipa": "/miŋ˥˩.kʰwan˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สิ่งหรือผู้เป็นที่รักหรือเคารพนับถือ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "มิ่ง",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "สิ่งเป็นสิริมงคล + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
-   "frame": "entity"
-  },
-  {
-   "th": "รากขวัญ",
-   "rtgs": "rak-khwan",
-   "ipa": "/raːk̚˥˩.kʰwan˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(พระ~) ไหปลาร้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ราก",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "root + khwan",
-   "lit_th": "ส่วนของต้นไม้ ตามปรกติอยู่ในดิน มี + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
-   "frame": "entity"
-  },
-  {
-   "th": "ข้าวขวัญ",
-   "rtgs": "khao–khwan",
-   "ipa": "/kʰaːw˥˩.kʰwan˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ข้าวบายศรี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ข้าว",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ข้าว"
-   ],
-   "lit": "rice + khwan",
-   "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
-   "flips_with": "ขวัญข้าว",
-   "frame": "entity"
-  },
-  {
    "th": "การข่มขวัญ",
    "rtgs": "kan-khom-khwan",
    "ipa": "/kaːn˧.kʰom˨˩.kʰwan˩˩˦/",
@@ -928,288 +1548,6 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "คำอาการนามของ ข่ม + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
-   "frame": "entity"
-  },
-  {
-   "th": "หมอขวัญ",
-   "translit_auto": "hmokhway",
-   "ipa": "[mɔː˩˥.kʰwä̃n˩˥]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้รู้พิธีทำขวัญ, หมอทำขวัญ ก็เรียก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หมอ",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "หมอ"
-   ],
-   "lit": "one who knows + khwan",
-   "lit_th": "ผู้รู้ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
-   "frame": "entity"
-  },
-  {
-   "th": "ขวัญเกี่ยง",
-   "rtgs": "khwan–kiang",
-   "ipa": "/kʰwan˩˩˦.kia̯ŋ˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขวัญร้าย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวัญ",
-    "เกี่ยง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + อาการที่ต่างฝ่ายต่างไม่ยอมทำเพราะก"
-  },
-  {
-   "th": "ขวัญหนี",
-   "rtgs": "khwan-ni",
-   "ipa": "/kʰwan˩˩˦.niː˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตกใจ, ใจหาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวัญ",
-    "หนี"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "khwan + shy",
-   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ไปเสียให้พ้น"
-  },
-  {
-   "th": "ขวัญแขวน",
-   "rtgs": "khwan–khwaen",
-   "ipa": "/kʰwan˩˩˦.kʰwɛːn˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขวัญไปค้างอยู่ที่อื่น หมายความว่า ตกใจ, มักใช้เข้าคู่กับคำ อกสั่น เป็น อกสั่นขวัญแขวน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวัญ",
-    "แขวน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "khwan + depend",
-   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + เกี่ยวห้อยอยู่"
-  },
-  {
-   "th": "ของขวัญ",
-   "rtgs": "khong-khwan",
-   "ipa": "/kʰɔːŋ˩˩˦.kʰwan˩˩˦/",
-   "gloss": {
-    "en": [
-     "gift",
-     "present",
-     "tribute"
-    ],
-    "th": "สิ่งของที่ให้แก่เจ้าของขวัญเมื่อเสร็จพิธีทำขวัญแล้ว",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ของ",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ของ"
-   ],
-   "lit": "by + khwan",
-   "lit_th": "สิ่งต่าง ๆ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
-   "frame": "entity"
-  },
-  {
-   "th": "ขวัญอ่อน",
-   "rtgs": "khwan–on",
-   "ipa": "/kʰwan˩˩˦.ʔɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรียกผู้ตกใจง่ายคือเด็กหรือหญิงซึ่งมักจะขวัญหายบ่อย ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวัญ",
-    "อ่อน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "cross_listed": [
-    "อ่อน"
-   ],
-   "lit": "khwan + young",
-   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ไม่กระด้าง"
-  },
-  {
-   "th": "ลูกขวัญ",
-   "translit_auto": "lukkhway",
-   "ipa": "[luːk̚˥˩.kʰwä̃n˩˥]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลูกคนที่รักมากที่สุด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลูก",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ลูก"
-   ],
-   "lit": "child + khwan",
-   "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
-   "frame": "entity"
-  },
-  {
-   "th": "กล่าวขวัญ",
-   "rtgs": "klao khwan",
-   "ipa": "/klaːw˨˩.kʰwan˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พูดถึง, พูดออกชื่อและการกระทำของคนอื่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กล่าว",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit_th": "บอก + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
-  },
-  {
-   "th": "ขวัญข้าว",
-   "rtgs": "khwan–khao",
-   "ipa": "/kʰwan˩˩˦.kʰaːw˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มิ่งขวัญของข้าวซึ่งเจ้าของทำพิธีเชื้อเชิญ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวัญ",
-    "ข้าว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ข้าว"
-   ],
-   "lit": "khwan + rice",
-   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ",
-   "flips_with": "ข้าวขวัญ",
    "frame": "entity"
   },
   {
@@ -1241,314 +1579,6 @@
    "head": 1,
    "lit": "hurt + khwan",
    "lit_th": "คำอาการนามของ ทำลาย + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
-   "frame": "entity"
-  },
-  {
-   "th": "เมียขวัญ",
-   "translit_auto": "meiykhway",
-   "ipa": "[miːä˧.kʰwä̃n˩˥]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำยกย่องเรียกภรรยาอันเป็นที่รัก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เมีย",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "wife + khwan",
-   "lit_th": "ภรรยา + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
-   "frame": "entity"
-  },
-  {
-   "th": "เรียกขวัญ",
-   "rtgs": "riak–khwan",
-   "ipa": "/ria̯k̚˥˩.kʰwan˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำพิธีเชิญขวัญ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เรียก",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "call + khwan",
-   "lit_th": "เปล่งเสียงเพื่อให้มาหรือให้ไปเป็นต + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
-  },
-  {
-   "th": "รับขวัญ",
-   "translit_auto": "rabkhway",
-   "ipa": "[räp̚˦˥.kʰwä̃n˩˥]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรียกขวัญหรือเชิญขวัญ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "รับ"
-   ],
-   "lit": "accept + khwan",
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
-  },
-  {
-   "th": "ข่มขวัญ",
-   "rtgs": "khom-khwan",
-   "ipa": "/kʰom˨˩.kʰwan˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำให้ขวัญเสีย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ข่ม",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "bluff + khwan",
-   "lit_th": "กดไว้ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
-  },
-  {
-   "th": "ขวัญบิน",
-   "rtgs": "khwan-bin",
-   "ipa": "/kʰwan˩˩˦.bin˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตกใจ, ใจหาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวัญ",
-    "บิน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "khwan + fly",
-   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ไปในอากาศด้วยกำลังปีกหรือเครื่องยน"
-  },
-  {
-   "th": "ขวัญเสีย",
-   "rtgs": "khwan-sia",
-   "ipa": "/kʰwan˩˩˦.sia̯˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กำลังใจเสีย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวัญ",
-    "เสีย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "cross_listed": [
-    "เสีย"
-   ],
-   "lit": "khwan + bad",
-   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + เสื่อมลงไป",
-   "flips_with": "เสียขวัญ",
-   "frame": "state"
-  },
-  {
-   "th": "ขวัญหาย",
-   "rtgs": "khwan-hai",
-   "ipa": "/kʰwan˩˩˦.haːj˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตกใจ, ใจหาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวัญ",
-    "หาย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "cross_listed": [
-    "หาย"
-   ],
-   "lit": "khwan + all",
-   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + สูญ"
-  },
-  {
-   "th": "ผูกขวัญ",
-   "translit_auto": "phukkhway",
-   "ipa": "[pʰuːk̚˩.kʰwä̃n˩˥]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เอาเส้นด้ายผูกข้อมือเด็กแล้วกล่าวเรียกขวัญว่า \"ขวัญเอ๋ย มาอยู่กับเนื้อกับตัว\" แล้วกล่าวให้พรต่อไปตามควร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ผูก",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "tie + khwan",
-   "lit_th": "เอาเชือกเป็นต้นสอดคล้องกันให้เกิดเ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
-  },
-  {
-   "th": "คำขวัญ",
-   "rtgs": "kham-khwan",
-   "ipa": "/kʰam˧.kʰwan˩˩˦/",
-   "gloss": {
-    "en": [
-     "motto"
-    ],
-    "th": "ถ้อยคำที่แต่งขึ้นเพื่อเตือนใจหรือเพื่อให้เป็นสิริมงคล",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ขวัญ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "คำ"
-   ],
-   "lit": "word + khwan",
-   "lit_th": "เสียงพูด + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
-   "frame": "entity"
-  },
-  {
-   "th": "ขวัญบ่า",
-   "rtgs": "khwan–ba",
-   "ipa": "/kʰwan˩˩˦.baː˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขวัญไหลไปจากตัว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวัญ",
-    "บ่า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "khwan + shoulder",
-   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ส่วนของร่างกายระหว่างคอกับหัวไหล่",
    "frame": "entity"
   }
  ],

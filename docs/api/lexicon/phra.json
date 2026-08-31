@@ -37,7 +37,38 @@
    "extends": 8,
    "via": "specialisation",
    "via_note": "The honorific fixed to the one who wears the robe.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "พระสมณสาสน์",
+     "translit_auto": "phrasmnsasn",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จดหมาย (ใช้กับพระสังฆราช)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "สมณสาสน์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + จดหมายของสมเด็จพระสังฆราชหรือประมุ",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 2,
@@ -95,6 +126,70 @@
      "lit": "the honorific prefix phra + image",
      "lit_th": "พระพุทธรูป + สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1",
      "frame": "entity"
+    },
+    {
+     "th": "พระแผง",
+     "rtgs": "phra-phaeng",
+     "ipa": "/pʰra˦˥.pʰɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พระพิมพ์ที่หล่อติดกันเป็นแผง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "แผง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เครื่องสานชนิดหนึ่ง เป็นแผ่นอย่างเ",
+     "frame": "entity"
+    },
+    {
+     "th": "พระพิมพ์",
+     "rtgs": "phra-phim",
+     "ipa": "/pʰra˦˥.pʰim˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พระเครื่องที่สร้างขึ้นตามแบบแม่พิมพ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "พิมพ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พิมพ์"
+     ],
+     "lit": "the honorific prefix phra + print",
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + รูป",
+     "frame": "entity"
     }
    ],
    "extends": 8,
@@ -128,7 +223,39 @@
    "extends": 8,
    "via": "specialisation",
    "via_note": "And to the Buddha himself.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "พระเขี้ยวแก้ว",
+     "translit_auto": "phrakheiywkaeo",
+     "ipa": "[pʰräʔ˦˥.kʰiäw˥˩.kɛːw˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เขี้ยวของพระพุทธเจ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "เขี้ยวแก้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เขี้ยวของพระพุทธเจ้า",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 4,
@@ -925,6 +1052,39 @@
      ],
      "lit": "the honorific prefix phra + one",
      "lit_th": "ตัวเอกในเรื่องละคร + หนึ่ง"
+    },
+    {
+     "th": "พระรอง",
+     "rtgs": "phra-rong",
+     "ipa": "/pʰra˦˥.rɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พระเอกที่มีบทบาทรองลงมาจากพระเอก/นางเอกในนวนิยาย ละคร หรือภาพยนตร์เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "รอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "รอง"
+     ],
+     "lit": "the honorific prefix phra + deputy",
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
     }
    ],
    "extends": 8,
@@ -957,6 +1117,40 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พระคุณ",
+     "rtgs": "phra-khun",
+     "ipa": "/pʰra˦˥.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุญคุณ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "คุณ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "คุณ"
+     ],
+     "lit": "the honorific prefix phra + you",
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค"
+    }
    ]
   },
   {
@@ -1099,6 +1293,361 @@
      "pattern": "N+N",
      "head": 0,
      "lit_th": "อิสริยยศเจ้านาย + นักบวชหญิง",
+     "frame": "entity"
+    },
+    {
+     "th": "พระสำอาง",
+     "translit_auto": "phrasamang",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องสำอาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "สำอาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เครื่องแป้งเครื่องหอม",
+     "frame": "entity"
+    },
+    {
+     "th": "พระภูษา",
+     "translit_auto": "phraphusa",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้านุ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ภูษา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เครื่องนุ่งห่ม",
+     "frame": "entity"
+    },
+    {
+     "th": "พระตะพาบ",
+     "translit_auto": "phrataphab",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนโทน้ำเย็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ตะพาบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ชื่อเต่าน้ำจืดกระดองอ่อนหลายชนิดหล",
+     "frame": "entity"
+    },
+    {
+     "th": "พระสุคนธ์",
+     "translit_auto": "phrasukhnt",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องหอม, น้ำหอม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "สุคนธ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + กลิ่นหอม",
+     "frame": "entity"
+    },
+    {
+     "th": "พระองค์",
+     "rtgs": "phra-ong",
+     "ipa": "/pʰra˦˥.ʔoŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "องค์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ส่วนของร่างกาย",
+     "frame": "entity"
+    },
+    {
+     "th": "พระฉวี",
+     "translit_auto": "phrachwi",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผิวกาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ฉวี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ผิวกาย",
+     "frame": "entity"
+    },
+    {
+     "th": "พระนคร",
+     "rtgs": "phra-na-khon",
+     "ipa": "/pʰra˦˥.na˦˥.kʰɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เมืองหลวง, เมืองใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "นคร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นคร"
+     ],
+     "lit": "the honorific prefix phra + city",
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เมืองใหญ่",
+     "frame": "entity"
+    },
+    {
+     "th": "พระสังวาล",
+     "translit_auto": "phrasangwal",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สร้อยสะพายแล่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "สังวาล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + สร้อยเครื่องประดับชนิดหนึ่งใช้คล้อ",
+     "frame": "entity"
+    },
+    {
+     "th": "พระสุพรรณศรี",
+     "translit_auto": "phrasuphrrnsri",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระโถนเล็ก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "สุพรรณศรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + กระโถนเล็ก",
+     "frame": "entity"
+    },
+    {
+     "th": "พระเมรุมาศ",
+     "rtgs": "phra-me-ru-mat",
+     "ipa": "/pʰra˦˥.meː˧.ru˦˥.maːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เมรุ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "เมรุมาศ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เมรุทอง",
+     "frame": "entity"
+    },
+    {
+     "th": "พระทรงธรรม",
+     "translit_auto": "phrathrngthrrm",
+     "ipa": "[pʰrä˥.sõŋ˧.tʰä̃m˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กษัตริย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ทรงธรรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ฟังธรรม"
+    },
+    {
+     "th": "พระมังสา",
+     "translit_auto": "phramangsa",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เนื้อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "มังสา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เนื้อของคนและสัตว์",
      "frame": "entity"
     }
    ],
@@ -1307,266 +1856,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 50; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
   {
-   "th": "พระรอง",
-   "rtgs": "phra-rong",
-   "ipa": "/pʰra˦˥.rɔːŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พระเอกที่มีบทบาทรองลงมาจากพระเอก/นางเอกในนวนิยาย ละคร หรือภาพยนตร์เป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "รอง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "cross_listed": [
-    "รอง"
-   ],
-   "lit": "the honorific prefix phra + deputy",
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
-  },
-  {
-   "th": "พระสำอาง",
-   "translit_auto": "phrasamang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องสำอาง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "สำอาง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เครื่องแป้งเครื่องหอม",
-   "frame": "entity"
-  },
-  {
-   "th": "พระภูษา",
-   "translit_auto": "phraphusa",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผ้านุ่ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "ภูษา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เครื่องนุ่งห่ม",
-   "frame": "entity"
-  },
-  {
-   "th": "พระตะพาบ",
-   "translit_auto": "phrataphab",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คนโทน้ำเย็น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "ตะพาบ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ชื่อเต่าน้ำจืดกระดองอ่อนหลายชนิดหล",
-   "frame": "entity"
-  },
-  {
-   "th": "พระสมณสาสน์",
-   "translit_auto": "phrasmnsasn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "จดหมาย (ใช้กับพระสังฆราช)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "สมณสาสน์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + จดหมายของสมเด็จพระสังฆราชหรือประมุ",
-   "frame": "entity"
-  },
-  {
-   "th": "พระสุคนธ์",
-   "translit_auto": "phrasukhnt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องหอม, น้ำหอม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "สุคนธ์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + กลิ่นหอม",
-   "frame": "entity"
-  },
-  {
-   "th": "พระองค์",
-   "rtgs": "phra-ong",
-   "ipa": "/pʰra˦˥.ʔoŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตัว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "องค์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ส่วนของร่างกาย",
-   "frame": "entity"
-  },
-  {
-   "th": "พระคุณ",
-   "rtgs": "phra-khun",
-   "ipa": "/pʰra˦˥.kʰun˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บุญคุณ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "คุณ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 0,
-   "cross_listed": [
-    "คุณ"
-   ],
-   "lit": "the honorific prefix phra + you",
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค"
-  },
-  {
-   "th": "พระฉวี",
-   "translit_auto": "phrachwi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผิวกาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "ฉวี"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ผิวกาย",
-   "frame": "entity"
-  },
-  {
    "th": "พระเพลิง",
    "rtgs": "phra-phloeng",
    "ipa": "/pʰra˦˥.pʰlɤːŋ˧/",
@@ -1597,153 +1886,6 @@
    "frame": "entity"
   },
   {
-   "th": "พระนคร",
-   "rtgs": "phra-na-khon",
-   "ipa": "/pʰra˦˥.na˦˥.kʰɔːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เมืองหลวง, เมืองใหญ่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "นคร"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "นคร"
-   ],
-   "lit": "the honorific prefix phra + city",
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เมืองใหญ่",
-   "frame": "entity"
-  },
-  {
-   "th": "พระแผง",
-   "rtgs": "phra-phaeng",
-   "ipa": "/pʰra˦˥.pʰɛːŋ˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พระพิมพ์ที่หล่อติดกันเป็นแผง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "แผง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เครื่องสานชนิดหนึ่ง เป็นแผ่นอย่างเ",
-   "frame": "entity"
-  },
-  {
-   "th": "พระสังวาล",
-   "translit_auto": "phrasangwal",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สร้อยสะพายแล่ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "สังวาล"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + สร้อยเครื่องประดับชนิดหนึ่งใช้คล้อ",
-   "frame": "entity"
-  },
-  {
-   "th": "พระสุพรรณศรี",
-   "translit_auto": "phrasuphrrnsri",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กระโถนเล็ก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "สุพรรณศรี"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + กระโถนเล็ก",
-   "frame": "entity"
-  },
-  {
-   "th": "พระเขี้ยวแก้ว",
-   "translit_auto": "phrakheiywkaeo",
-   "ipa": "[pʰräʔ˦˥.kʰiäw˥˩.kɛːw˥˩]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เขี้ยวของพระพุทธเจ้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "เขี้ยวแก้ว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เขี้ยวของพระพุทธเจ้า",
-   "frame": "entity"
-  },
-  {
    "th": "พระแท่น",
    "rtgs": "phra-thaen",
    "ipa": "/pʰra˦˥.tʰɛn˥˩/",
@@ -1771,124 +1913,6 @@
    "pattern": "N+N",
    "head": 0,
    "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ที่นั่งที่นอน มีลักษณะเหมือนมีฐานท",
-   "frame": "entity"
-  },
-  {
-   "th": "พระเมรุมาศ",
-   "rtgs": "phra-me-ru-mat",
-   "ipa": "/pʰra˦˥.meː˧.ru˦˥.maːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เมรุ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "เมรุมาศ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เมรุทอง",
-   "frame": "entity"
-  },
-  {
-   "th": "พระทรงธรรม",
-   "translit_auto": "phrathrngthrrm",
-   "ipa": "[pʰrä˥.sõŋ˧.tʰä̃m˧]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กษัตริย์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "ทรงธรรม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ฟังธรรม"
-  },
-  {
-   "th": "พระมังสา",
-   "translit_auto": "phramangsa",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เนื้อ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "มังสา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เนื้อของคนและสัตว์",
-   "frame": "entity"
-  },
-  {
-   "th": "พระพิมพ์",
-   "rtgs": "phra-phim",
-   "ipa": "/pʰra˦˥.pʰim˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พระเครื่องที่สร้างขึ้นตามแบบแม่พิมพ์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "พิมพ์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "พิมพ์"
-   ],
-   "lit": "the honorific prefix phra + print",
-   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + รูป",
    "frame": "entity"
   },
   {

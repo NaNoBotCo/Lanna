@@ -34,6 +34,364 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "พ่อเมือง",
+     "rtgs": "pho-mueang",
+     "ipa": "/pʰɔː˥˩.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่ชาวเมืองยกขึ้นเป็นเจ้าเมือง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พ่อ",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "father + town",
+     "lit_th": "ชายผู้ให้กำเนิดหรือเลี้ยงดูลูก + แดน",
+     "frame": "entity"
+    },
+    {
+     "th": "เมืองฟ้า",
+     "rtgs": "mueang-fa",
+     "ipa": "/mɯa̯ŋ˧.faː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สวรรค์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เมือง",
+      "ฟ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "town + sky",
+     "frame": "entity"
+    },
+    {
+     "th": "เลียบเมือง",
+     "translit_auto": "leiybmeueong",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เดินทักษิณรอบเมือง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เลียบ",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ไปตามริม + แดน"
+    },
+    {
+     "th": "กินเมือง",
+     "rtgs": "kin-mueang",
+     "ipa": "/kin˧.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ครองเมือง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กิน"
+     ],
+     "lit": "eat + town",
+     "lit_th": "เคี้ยว + แดน"
+    },
+    {
+     "th": "ไส้เมือง",
+     "rtgs": "sai-mueang",
+     "ipa": "/saj˥˩.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พ่อค้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไส้",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไส้"
+     ],
+     "lit": "intestine + town",
+     "lit_th": "ส่วนของทางเดินอาหารต่อจากกระเพาะอา + แดน",
+     "frame": "entity"
+    },
+    {
+     "th": "นั่งเมือง",
+     "rtgs": "nang-mueang",
+     "ipa": "/naŋ˥˩.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ครองเมือง, กินเมือง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นั่ง",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "sit + town",
+     "lit_th": "อาการที่หย่อนก้นให้ติดกับพื้นหรือท + แดน"
+    },
+    {
+     "th": "หลักเมือง",
+     "rtgs": "lak-mueang",
+     "ipa": "/lak̚˨˩.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(เสา~) เสาหินหรือไม้เป็นต้น ยกตั้งเป็นเครื่องหมายว่าจะตั้งเมืองที่นั้นแน่นอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หลัก"
+     ],
+     "lit": "key + town",
+     "lit_th": "เสาที่ปักไว้ + แดน",
+     "frame": "entity"
+    },
+    {
+     "th": "เจ้าเมือง",
+     "rtgs": "chao-mueang",
+     "ipa": "/t͡ɕaːw˥˩.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เจ้าผู้ครองเมืองหรือนคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เจ้า",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "thou + town",
+     "lit_th": "ผู้เป็นใหญ่ + แดน",
+     "frame": "entity"
+    },
+    {
+     "th": "พื้นเมือง",
+     "rtgs": "phuen-mueang",
+     "ipa": "/pʰɯːn˦˥.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "native"
+      ],
+      "th": "เฉพาะเมือง, เฉพาะท้องที่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พื้น",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "floor + town",
+     "lit_th": "ส่วนราบด้านหน้าของสิ่งที่เป็นผืนเป + แดน",
+     "frame": "entity"
+    },
+    {
+     "th": "ขวัญเมือง",
+     "rtgs": "khwan–mueang",
+     "ipa": "/kʰwan˩˩˦.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยอดกำลังใจของเมือง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "khwan + town",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + แดน",
+     "frame": "entity"
+    },
+    {
+     "th": "อกเมือง",
+     "translit_auto": "kmeueong",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนสำคัญของเมือง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อก",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "อก"
+     ],
+     "lit": "chest + town",
+     "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + แดน",
+     "frame": "entity"
+    }
    ]
   },
   {
@@ -162,6 +520,225 @@
      "lit": "town + perfume",
      "lit_th": "ประเทศ + น้ำที่กลั่นจากเครื่องหอม",
      "frame": "entity"
+    },
+    {
+     "th": "กวนเมือง",
+     "rtgs": "kuan-mueang",
+     "ipa": "/kua̯n˧.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ก่อกวนให้เกิดความวุ่นวายในบ้านเมือง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กวน",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "scramble + town",
+     "lit_th": "รบกวนทำให้เกิดความรำคาญ + แดน"
+    },
+    {
+     "th": "แขกเมือง",
+     "rtgs": "khaek-mueang",
+     "ipa": "/kʰɛːk̚˨˩.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แขกของบ้านเมือง, แขกของรัฐบาล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แขก",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "guest + town",
+     "lit_th": "ผู้มาหา + แดน",
+     "frame": "entity"
+    },
+    {
+     "th": "เมืองนอก",
+     "rtgs": "mueang-nok",
+     "ipa": "/mɯa̯ŋ˧.nɔːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประเทศอื่น ๆ, ต่างประเทศ มักหมายถึงประเทศในทวีปยุโรปและสหรัฐอเมริกา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เมือง",
+      "นอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 0,
+     "cross_listed": [
+      "นอก"
+     ],
+     "lit": "town + outside",
+     "lit_th": "แดน + ตรงข้ามกับใน"
+    },
+    {
+     "th": "ฝุ่นเมือง",
+     "rtgs": "fun-mueang",
+     "ipa": "/fun˨˩.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประชาชน, พลเมือง, ไพร่ฟ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฝุ่น",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "dust + town",
+     "frame": "entity"
+    },
+    {
+     "th": "เมืองขึ้น",
+     "rtgs": "mueang-khuen",
+     "ipa": "/mɯa̯ŋ˧.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รัฐที่อยู่ใต้บังคับบัญชาของรัฐอื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เมือง",
+      "ขึ้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ขึ้น"
+     ],
+     "lit": "town + rise",
+     "lit_th": "แดน + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
+    },
+    {
+     "th": "นักการเมือง",
+     "rtgs": "nak-kan-mueang",
+     "ipa": "/nak̚˦˥.kaːn˧.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "politician"
+      ],
+      "th": "ผู้ฝักใฝ่ในทางการเมือง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นักการ",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "พนักงานชั้นผู้น้อยต่ำกว่าเสมียน ทำ + แดน",
+     "frame": "entity"
+    },
+    {
+     "th": "การเมือง",
+     "rtgs": "kan-mueang",
+     "ipa": "/kaːn˧.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "politics"
+      ],
+      "th": "งานที่เกี่ยวกับรัฐหรือแผ่นดิน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "การ",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "งาน + แดน",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -221,6 +798,40 @@
      "pattern": "N+PROP",
      "head": 0,
      "lit": "town + Chiang Mai"
+    },
+    {
+     "th": "หัวเมือง",
+     "rtgs": "hua-mueang",
+     "ipa": "/hua̯˩˩˦.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เมืองอื่นนอกจากเมืองหลวง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + town",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + แดน",
+     "frame": "entity"
     }
    ],
    "extends": 2,
@@ -316,6 +927,72 @@
      "lit": "form + town",
      "lit_th": "รูป + เขตซึ่งเป็นที่ชุมนุมและเป็นที่ตั้ง",
      "frame": "entity"
+    },
+    {
+     "th": "ชานเมือง",
+     "rtgs": "chan-mueang",
+     "ipa": "/t͡ɕʰaːn˧.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พื้นที่นอกตัวเมืองออกไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชาน",
+      "เมือง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "กากอ้อยหรือกากหมากที่เคี้ยวแล้วเป็ + แดน",
+     "frame": "entity"
+    },
+    {
+     "th": "เมืองหลวง",
+     "rtgs": "mueang-luang",
+     "ipa": "/mɯa̯ŋ˧.lua̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "capital city",
+       "capital"
+      ],
+      "th": "เมืองที่เป็นที่ตั้งรัฐบาล",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เมือง",
+      "หลวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "town + royal",
+     "lit_th": "แดน + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
     }
    ],
    "extends": 4,
@@ -3082,660 +3759,6 @@
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 119; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
-  {
-   "th": "พ่อเมือง",
-   "rtgs": "pho-mueang",
-   "ipa": "/pʰɔː˥˩.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ที่ชาวเมืองยกขึ้นเป็นเจ้าเมือง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พ่อ",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "father + town",
-   "lit_th": "ชายผู้ให้กำเนิดหรือเลี้ยงดูลูก + แดน",
-   "frame": "entity"
-  },
-  {
-   "th": "เมืองฟ้า",
-   "rtgs": "mueang-fa",
-   "ipa": "/mɯa̯ŋ˧.faː˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สวรรค์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เมือง",
-    "ฟ้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ฟ้า"
-   ],
-   "lit": "town + sky",
-   "frame": "entity"
-  },
-  {
-   "th": "เลียบเมือง",
-   "translit_auto": "leiybmeueong",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เดินทักษิณรอบเมือง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เลียบ",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit_th": "ไปตามริม + แดน"
-  },
-  {
-   "th": "กวนเมือง",
-   "rtgs": "kuan-mueang",
-   "ipa": "/kua̯n˧.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ก่อกวนให้เกิดความวุ่นวายในบ้านเมือง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กวน",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "scramble + town",
-   "lit_th": "รบกวนทำให้เกิดความรำคาญ + แดน"
-  },
-  {
-   "th": "แขกเมือง",
-   "rtgs": "khaek-mueang",
-   "ipa": "/kʰɛːk̚˨˩.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แขกของบ้านเมือง, แขกของรัฐบาล",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แขก",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "guest + town",
-   "lit_th": "ผู้มาหา + แดน",
-   "frame": "entity"
-  },
-  {
-   "th": "กินเมือง",
-   "rtgs": "kin-mueang",
-   "ipa": "/kin˧.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ครองเมือง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กิน",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "กิน"
-   ],
-   "lit": "eat + town",
-   "lit_th": "เคี้ยว + แดน"
-  },
-  {
-   "th": "เมืองนอก",
-   "rtgs": "mueang-nok",
-   "ipa": "/mɯa̯ŋ˧.nɔːk̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ประเทศอื่น ๆ, ต่างประเทศ มักหมายถึงประเทศในทวีปยุโรปและสหรัฐอเมริกา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เมือง",
-    "นอก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+PREP",
-   "head": 0,
-   "cross_listed": [
-    "นอก"
-   ],
-   "lit": "town + outside",
-   "lit_th": "แดน + ตรงข้ามกับใน"
-  },
-  {
-   "th": "ไส้เมือง",
-   "rtgs": "sai-mueang",
-   "ipa": "/saj˥˩.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พ่อค้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไส้",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ไส้"
-   ],
-   "lit": "intestine + town",
-   "lit_th": "ส่วนของทางเดินอาหารต่อจากกระเพาะอา + แดน",
-   "frame": "entity"
-  },
-  {
-   "th": "หัวเมือง",
-   "rtgs": "hua-mueang",
-   "ipa": "/hua̯˩˩˦.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เมืองอื่นนอกจากเมืองหลวง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หัว",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "หัว"
-   ],
-   "lit": "head + town",
-   "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + แดน",
-   "frame": "entity"
-  },
-  {
-   "th": "นั่งเมือง",
-   "rtgs": "nang-mueang",
-   "ipa": "/naŋ˥˩.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ครองเมือง, กินเมือง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นั่ง",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "sit + town",
-   "lit_th": "อาการที่หย่อนก้นให้ติดกับพื้นหรือท + แดน"
-  },
-  {
-   "th": "ฝุ่นเมือง",
-   "rtgs": "fun-mueang",
-   "ipa": "/fun˨˩.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ประชาชน, พลเมือง, ไพร่ฟ้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ฝุ่น",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "dust + town",
-   "frame": "entity"
-  },
-  {
-   "th": "เมืองขึ้น",
-   "rtgs": "mueang-khuen",
-   "ipa": "/mɯa̯ŋ˧.kʰɯn˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รัฐที่อยู่ใต้บังคับบัญชาของรัฐอื่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เมือง",
-    "ขึ้น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "cross_listed": [
-    "ขึ้น"
-   ],
-   "lit": "town + rise",
-   "lit_th": "แดน + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
-  },
-  {
-   "th": "ชานเมือง",
-   "rtgs": "chan-mueang",
-   "ipa": "/t͡ɕʰaːn˧.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พื้นที่นอกตัวเมืองออกไป",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชาน",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "กากอ้อยหรือกากหมากที่เคี้ยวแล้วเป็ + แดน",
-   "frame": "entity"
-  },
-  {
-   "th": "หลักเมือง",
-   "rtgs": "lak-mueang",
-   "ipa": "/lak̚˨˩.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(เสา~) เสาหินหรือไม้เป็นต้น ยกตั้งเป็นเครื่องหมายว่าจะตั้งเมืองที่นั้นแน่นอน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หลัก",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "หลัก"
-   ],
-   "lit": "key + town",
-   "lit_th": "เสาที่ปักไว้ + แดน",
-   "frame": "entity"
-  },
-  {
-   "th": "เมืองหลวง",
-   "rtgs": "mueang-luang",
-   "ipa": "/mɯa̯ŋ˧.lua̯ŋ˩˩˦/",
-   "gloss": {
-    "en": [
-     "capital city",
-     "capital"
-    ],
-    "th": "เมืองที่เป็นที่ตั้งรัฐบาล",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เมือง",
-    "หลวง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "cross_listed": [
-    "หลวง"
-   ],
-   "lit": "town + royal",
-   "lit_th": "แดน + ที่เป็นของพระเจ้าแผ่นดิน",
-   "frame": "quality"
-  },
-  {
-   "th": "นักการเมือง",
-   "rtgs": "nak-kan-mueang",
-   "ipa": "/nak̚˦˥.kaːn˧.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "politician"
-    ],
-    "th": "ผู้ฝักใฝ่ในทางการเมือง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "นักการ",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "พนักงานชั้นผู้น้อยต่ำกว่าเสมียน ทำ + แดน",
-   "frame": "entity"
-  },
-  {
-   "th": "เจ้าเมือง",
-   "rtgs": "chao-mueang",
-   "ipa": "/t͡ɕaːw˥˩.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เจ้าผู้ครองเมืองหรือนคร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เจ้า",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "เจ้า"
-   ],
-   "lit": "thou + town",
-   "lit_th": "ผู้เป็นใหญ่ + แดน",
-   "frame": "entity"
-  },
-  {
-   "th": "พื้นเมือง",
-   "rtgs": "phuen-mueang",
-   "ipa": "/pʰɯːn˦˥.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "native"
-    ],
-    "th": "เฉพาะเมือง, เฉพาะท้องที่",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "พื้น",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "floor + town",
-   "lit_th": "ส่วนราบด้านหน้าของสิ่งที่เป็นผืนเป + แดน",
-   "frame": "entity"
-  },
-  {
-   "th": "การเมือง",
-   "rtgs": "kan-mueang",
-   "ipa": "/kaːn˧.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "politics"
-    ],
-    "th": "งานที่เกี่ยวกับรัฐหรือแผ่นดิน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "การ",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "งาน + แดน",
-   "frame": "entity"
-  },
-  {
-   "th": "ขวัญเมือง",
-   "rtgs": "khwan–mueang",
-   "ipa": "/kʰwan˩˩˦.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยอดกำลังใจของเมือง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวัญ",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ขวัญ"
-   ],
-   "lit": "khwan + town",
-   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + แดน",
-   "frame": "entity"
-  },
-  {
-   "th": "อกเมือง",
-   "translit_auto": "kmeueong",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ส่วนสำคัญของเมือง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อก",
-    "เมือง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "อก"
-   ],
-   "lit": "chest + town",
-   "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + แดน",
-   "frame": "entity"
-  },
   {
    "th": "คำเมือง",
    "rtgs": "kham-mueang",

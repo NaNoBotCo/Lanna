@@ -78,6 +78,95 @@
      "head": 0,
      "lit": "enter + toast",
      "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ทำให้สุกด้วยการวางไว้เหนือไฟ มักใช"
+    },
+    {
+     "th": "เข้าครัว",
+     "rtgs": "khao-khrua",
+     "ipa": "/kʰaw˥˩.kʰrua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลงมือทำกับข้าวเองเป็นครั้งเป็นคราว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "ครัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "enter + kitchen",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + โรง เรือน หรือห้องสำหรับทำกับข้าวข"
+    },
+    {
+     "th": "เข้าหม้อ",
+     "rtgs": "khao-mo",
+     "ipa": "/kʰaw˥˩.mɔː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลืมวิชาความรู้ที่ได้เรียนมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "หม้อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "enter + pot",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ภาชนะประเภทหนึ่ง มีรูปทรงต่าง ๆ สำ"
+    },
+    {
+     "th": "เข้าโลง",
+     "rtgs": "khao-long",
+     "ipa": "/kʰaw˥˩.loːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตาย (ใช้กับคนแก่)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "โลง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + หีบสำหรับบรรจุศพ"
     }
    ]
   },
@@ -108,7 +197,132 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "Inward motion arriving: to reach.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เข้าหน้า",
+     "rtgs": "khao-na",
+     "ipa": "/kʰaw˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เผชิญหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "หน้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "enter + before",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "เข้าเฝ้าฯ",
+     "translit_auto": "kheafeaฯ",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำย่อของ เข้าเฝ้าทูลละอองพระบาท",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "เฝ้าฯ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + คำย่อของ เฝ้าทูลละอองพระบาท"
+    },
+    {
+     "th": "เข้าเฝ้า",
+     "rtgs": "khao-fao",
+     "ipa": "/kʰaw˥˩.faw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไปหาเจ้านาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "เฝ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + คอยดูแล"
+    },
+    {
+     "th": "เข้าหู",
+     "rtgs": "khao-hu",
+     "ipa": "/kʰaw˥˩.huː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มาให้ได้ยิน (ใช้สำหรับเรื่องราวหรือข่าวคราว)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "หู"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "หู"
+     ],
+     "lit": "enter + ear",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ส่วนหนึ่งของร่างกายคนและสัตว์ ทำหน"
+    }
+   ]
   },
   {
    "n": 3,
@@ -195,7 +409,71 @@
    "extends": 4,
    "via": "generalisation",
    "via_note": "Bringing together into one.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เข้าคู่",
+     "rtgs": "khao-khu",
+     "ipa": "/kʰaw˥˩.kʰuː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาไพ่ตอง 2 ใบที่เหมือนกันมาเข้าชุดกันเป็น 1 คู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "คู่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "คู่"
+     ],
+     "lit": "enter + even",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + จำนวนที่หารด้วย 2 ลงตัว"
+    },
+    {
+     "th": "เข้าเศียร",
+     "rtgs": "khao-sian",
+     "ipa": "/kʰaw˥˩.sia̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาไพ่ตอง 3 ใบพวกเดียวกันแต่ไม่เหมือนกันมาเข้าชุดกันเป็น 1 เศียร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "เศียร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + หัว"
+    }
+   ]
   },
   {
    "n": 6,
@@ -284,7 +562,229 @@
    "extends": 5,
    "via": "metaphor",
    "via_note": "Things that go together fit, match, suit.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เข้าตา",
+     "rtgs": "khao-ta",
+     "ipa": "/kʰaw˥˩.taː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เห็นว่าดีและพอใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "ตา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "enter + eye",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + พ่อของแม่"
+    },
+    {
+     "th": "เข้าแก๊ป",
+     "rtgs": "khao-kaep",
+     "ipa": "/kʰaw˥˩.kɛːp̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดีเนื่องจากเหมาะกับบุคลิกลักษณะ สภาพ หรือสถานการณ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "แก๊ป"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ชื่อหมวกของทหารตำรวจหรือข้าราชการพ"
+    },
+    {
+     "th": "เข้าทาง",
+     "rtgs": "khao-thang",
+     "ipa": "/kʰaw˥˩.tʰaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตรงตามที่ต้องการ, ตรงตามที่ถนัด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "ทาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ทาง"
+     ],
+     "lit": "enter + way",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ที่สำหรับเดินไปมา"
+    },
+    {
+     "th": "เข้าเค้า",
+     "rtgs": "khao-khao",
+     "ipa": "/kʰaw˥˩.kʰaw˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เหมาะกับรูปร่าง เค้าหน้า หรือกิริยาท่าทาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "เค้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + สิ่งที่เป็นเครื่องกำหนดหมายบอกให้ร"
+    },
+    {
+     "th": "เข้าที",
+     "rtgs": "khao-thi",
+     "ipa": "/kʰaw˥˩.tʰiː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีท่วงทีดี, มีชั้นเชิงดี, มีท่าทีจะสำเร็จ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "ที"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ที"
+     ],
+     "lit": "enter + time",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ครั้ง"
+    },
+    {
+     "th": "เข้าท่า",
+     "rtgs": "khao-tha",
+     "ipa": "/kʰaw˥˩.tʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีท่าทางดี, น่าดูไม่ขัดตา, เหมาะสม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "ท่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "enter + landing",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
+    },
+    {
+     "th": "เข้าเรื่อง",
+     "rtgs": "khao-rueang",
+     "ipa": "/kʰaw˥˩.rɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตรงประเด็นของเรื่อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "เรื่อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "enter + animal",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ภาวะหรือเนื้อหาของสิ่งซึ่งเนื่องกั"
+    }
+   ]
   },
   {
    "n": 8,
@@ -342,7 +842,39 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "A spirit entering a person: possession.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เข้าฝัน",
+     "rtgs": "khao-fan",
+     "ipa": "/kʰaw˥˩.fan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มาบันดาลให้ฝันเห็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "ฝัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "enter + dream",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + การเห็นเป็นเรื่องราวเมื่อหลับ"
+    }
+   ]
   },
   {
    "n": 10,
@@ -371,7 +903,38 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "Entering upon a thing: to begin.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เข้าพรรษา",
+     "rtgs": "khao-phan-sa",
+     "ipa": "/kʰaw˥˩.pʰan˧.saː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกวันที่พระสงฆ์เริ่มเข้าจำพรรษา คือ วันแรม 1 ค่ำ เดือน 8 ว่า วันเข้าพรรษา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "พรรษา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 10 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ช่วงระยะเวลา 3 เดือนในฤดูฝน"
+    }
+   ]
   },
   {
    "n": 11,
@@ -429,7 +992,99 @@
    "extends": 10,
    "via": "generalisation",
    "via_note": "Entering upon a state.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เข้าที่",
+     "rtgs": "khao-thi",
+     "ipa": "/kʰaw˥˩.tʰiː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นั่งภาวนากรรมฐาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "ที่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "enter + at",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + แหล่ง"
+    },
+    {
+     "th": "เข้าฌาน",
+     "rtgs": "khao-chan",
+     "ipa": "/kʰaw˥˩.t͡ɕʰaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำใจให้สงบตามหลักทางศาสนา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "ฌาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ภาวะที่จิตสงบแน่วแน่เนื่องมาจากการ"
+    },
+    {
+     "th": "เข้าเงียบ",
+     "rtgs": "khao-ngiap",
+     "ipa": "/kʰaw˥˩.ŋia̯p̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประพฤติสงบจิตใจอยู่ในที่สงัดตามลัทธิคริสต์ศาสนา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "เงียบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "lit": "enter + quiet",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ไม่มีเสียง",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 13,
@@ -458,7 +1113,73 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "Fixed as the opposite of ออก.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "นำเข้า",
+     "rtgs": "nam-khao",
+     "ipa": "/nam˧.kʰaw˥˩/",
+     "gloss": {
+      "en": [
+       "import"
+      ],
+      "th": "นำ (สินค้า) จากนอกประเทศเข้ามาในประเทศ โดยมากนำมาเพื่อขายต่อ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นำ",
+      "เข้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 13 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "นำ"
+     ],
+     "lit": "lead + enter",
+     "lit_th": "ไปข้างหน้า + อาการที่เคลื่อนไปข้างในหรือทำให้เค"
+    },
+    {
+     "th": "สินค้าเข้า",
+     "rtgs": "sin-kha-khao",
+     "ipa": "/sin˩˩˦.kʰaː˦˥.kʰaw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สินค้าที่นำเข้ามาจากต่างประเทศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สินค้า",
+      "เข้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 13 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "goods + enter",
+     "lit_th": "สิ่งของที่ซื้อขายกัน + อาการที่เคลื่อนไปข้างในหรือทำให้เค"
+    }
+   ]
   },
   {
    "n": 14,
@@ -520,6 +1241,39 @@
      ],
      "lit": "enter + heart",
      "lit_th": "ใช้ประกอบคำอื่นแสดงความหมายเร่งรัด + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    },
+    {
+     "th": "เข้าไส้",
+     "rtgs": "khao-sai",
+     "ipa": "/kʰaw˥˩.saj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มากที่สุด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "ไส้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 14 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ไส้"
+     ],
+     "lit": "enter + intestine",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ส่วนของทางเดินอาหารต่อจากกระเพาะอา"
     }
    ],
    "extends": 1,
@@ -646,394 +1400,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 30; domain seeded by keyword hits ['เคลื่อน', 'ขึ้น', 'ลง', 'ออก'].",
  "compounds_unassigned": [
   {
-   "th": "เข้าที่",
-   "rtgs": "khao-thi",
-   "ipa": "/kʰaw˥˩.tʰiː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "นั่งภาวนากรรมฐาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "ที่"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "enter + at",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + แหล่ง"
-  },
-  {
-   "th": "เข้าพรรษา",
-   "rtgs": "khao-phan-sa",
-   "ipa": "/kʰaw˥˩.pʰan˧.saː˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรียกวันที่พระสงฆ์เริ่มเข้าจำพรรษา คือ วันแรม 1 ค่ำ เดือน 8 ว่า วันเข้าพรรษา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "พรรษา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ช่วงระยะเวลา 3 เดือนในฤดูฝน"
-  },
-  {
-   "th": "เข้าตา",
-   "rtgs": "khao-ta",
-   "ipa": "/kʰaw˥˩.taː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เห็นว่าดีและพอใจ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "ตา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ตา"
-   ],
-   "lit": "enter + eye",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + พ่อของแม่"
-  },
-  {
-   "th": "นำเข้า",
-   "rtgs": "nam-khao",
-   "ipa": "/nam˧.kʰaw˥˩/",
-   "gloss": {
-    "en": [
-     "import"
-    ],
-    "th": "นำ (สินค้า) จากนอกประเทศเข้ามาในประเทศ โดยมากนำมาเพื่อขายต่อ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "นำ",
-    "เข้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 1,
-   "cross_listed": [
-    "นำ"
-   ],
-   "lit": "lead + enter",
-   "lit_th": "ไปข้างหน้า + อาการที่เคลื่อนไปข้างในหรือทำให้เค"
-  },
-  {
-   "th": "เข้าคู่",
-   "rtgs": "khao-khu",
-   "ipa": "/kʰaw˥˩.kʰuː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เอาไพ่ตอง 2 ใบที่เหมือนกันมาเข้าชุดกันเป็น 1 คู่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "คู่"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "คู่"
-   ],
-   "lit": "enter + even",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + จำนวนที่หารด้วย 2 ลงตัว"
-  },
-  {
-   "th": "เข้าแก๊ป",
-   "rtgs": "khao-kaep",
-   "ipa": "/kʰaw˥˩.kɛːp̚˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ดีเนื่องจากเหมาะกับบุคลิกลักษณะ สภาพ หรือสถานการณ์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "แก๊ป"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ชื่อหมวกของทหารตำรวจหรือข้าราชการพ"
-  },
-  {
-   "th": "เข้าทาง",
-   "rtgs": "khao-thang",
-   "ipa": "/kʰaw˥˩.tʰaːŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตรงตามที่ต้องการ, ตรงตามที่ถนัด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "ทาง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ทาง"
-   ],
-   "lit": "enter + way",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ที่สำหรับเดินไปมา"
-  },
-  {
-   "th": "เข้าเศียร",
-   "rtgs": "khao-sian",
-   "ipa": "/kʰaw˥˩.sia̯n˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เอาไพ่ตอง 3 ใบพวกเดียวกันแต่ไม่เหมือนกันมาเข้าชุดกันเป็น 1 เศียร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "เศียร"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + หัว"
-  },
-  {
-   "th": "เข้าเค้า",
-   "rtgs": "khao-khao",
-   "ipa": "/kʰaw˥˩.kʰaw˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เหมาะกับรูปร่าง เค้าหน้า หรือกิริยาท่าทาง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "เค้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + สิ่งที่เป็นเครื่องกำหนดหมายบอกให้ร"
-  },
-  {
-   "th": "เข้าฌาน",
-   "rtgs": "khao-chan",
-   "ipa": "/kʰaw˥˩.t͡ɕʰaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำใจให้สงบตามหลักทางศาสนา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "ฌาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ภาวะที่จิตสงบแน่วแน่เนื่องมาจากการ"
-  },
-  {
-   "th": "สินค้าเข้า",
-   "rtgs": "sin-kha-khao",
-   "ipa": "/sin˩˩˦.kʰaː˦˥.kʰaw˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สินค้าที่นำเข้ามาจากต่างประเทศ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สินค้า",
-    "เข้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "lit": "goods + enter",
-   "lit_th": "สิ่งของที่ซื้อขายกัน + อาการที่เคลื่อนไปข้างในหรือทำให้เค"
-  },
-  {
-   "th": "เข้าครัว",
-   "rtgs": "khao-khrua",
-   "ipa": "/kʰaw˥˩.kʰrua̯˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลงมือทำกับข้าวเองเป็นครั้งเป็นคราว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "ครัว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "enter + kitchen",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + โรง เรือน หรือห้องสำหรับทำกับข้าวข"
-  },
-  {
-   "th": "เข้าที",
-   "rtgs": "khao-thi",
-   "ipa": "/kʰaw˥˩.tʰiː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีท่วงทีดี, มีชั้นเชิงดี, มีท่าทีจะสำเร็จ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "ที"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ที"
-   ],
-   "lit": "enter + time",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ครั้ง"
-  },
-  {
    "th": "การเข้า",
    "rtgs": "kan-khao",
    "ipa": "/kaːn˧.kʰaw˥˩/",
@@ -1062,334 +1428,6 @@
    "pattern": "N+V",
    "head": 1,
    "lit_th": "งาน + อาการที่เคลื่อนไปข้างในหรือทำให้เค"
-  },
-  {
-   "th": "เข้าหม้อ",
-   "rtgs": "khao-mo",
-   "ipa": "/kʰaw˥˩.mɔː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลืมวิชาความรู้ที่ได้เรียนมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "หม้อ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "enter + pot",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ภาชนะประเภทหนึ่ง มีรูปทรงต่าง ๆ สำ"
-  },
-  {
-   "th": "เข้าท่า",
-   "rtgs": "khao-tha",
-   "ipa": "/kʰaw˥˩.tʰaː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีท่าทางดี, น่าดูไม่ขัดตา, เหมาะสม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "ท่า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ท่า"
-   ],
-   "lit": "enter + landing",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
-  },
-  {
-   "th": "เข้าเรื่อง",
-   "rtgs": "khao-rueang",
-   "ipa": "/kʰaw˥˩.rɯa̯ŋ˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตรงประเด็นของเรื่อง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "เรื่อง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "enter + animal",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ภาวะหรือเนื้อหาของสิ่งซึ่งเนื่องกั"
-  },
-  {
-   "th": "เข้าหน้า",
-   "rtgs": "khao-na",
-   "ipa": "/kʰaw˥˩.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เผชิญหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "หน้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "หน้า"
-   ],
-   "lit": "enter + before",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
-  },
-  {
-   "th": "เข้าเฝ้าฯ",
-   "translit_auto": "kheafeaฯ",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำย่อของ เข้าเฝ้าทูลละอองพระบาท",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "เฝ้าฯ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + คำย่อของ เฝ้าทูลละอองพระบาท"
-  },
-  {
-   "th": "เข้าโลง",
-   "rtgs": "khao-long",
-   "ipa": "/kʰaw˥˩.loːŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตาย (ใช้กับคนแก่)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "โลง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + หีบสำหรับบรรจุศพ"
-  },
-  {
-   "th": "เข้าฝัน",
-   "rtgs": "khao-fan",
-   "ipa": "/kʰaw˥˩.fan˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มาบันดาลให้ฝันเห็น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "ฝัน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "enter + dream",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + การเห็นเป็นเรื่องราวเมื่อหลับ"
-  },
-  {
-   "th": "เข้าเฝ้า",
-   "rtgs": "khao-fao",
-   "ipa": "/kʰaw˥˩.faw˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไปหาเจ้านาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "เฝ้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + คอยดูแล"
-  },
-  {
-   "th": "เข้าเงียบ",
-   "rtgs": "khao-ngiap",
-   "ipa": "/kʰaw˥˩.ŋia̯p̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ประพฤติสงบจิตใจอยู่ในที่สงัดตามลัทธิคริสต์ศาสนา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "เงียบ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+ADJ",
-   "head": 0,
-   "lit": "enter + quiet",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ไม่มีเสียง",
-   "frame": "quality"
-  },
-  {
-   "th": "เข้าหู",
-   "rtgs": "khao-hu",
-   "ipa": "/kʰaw˥˩.huː˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มาให้ได้ยิน (ใช้สำหรับเรื่องราวหรือข่าวคราว)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "หู"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "หู"
-   ],
-   "lit": "enter + ear",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ส่วนหนึ่งของร่างกายคนและสัตว์ ทำหน"
-  },
-  {
-   "th": "เข้าไส้",
-   "rtgs": "khao-sai",
-   "ipa": "/kʰaw˥˩.saj˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มากที่สุด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "ไส้"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ไส้"
-   ],
-   "lit": "enter + intestine",
-   "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ส่วนของทางเดินอาหารต่อจากกระเพาะอา"
   },
   {
    "th": "การนำเข้า",

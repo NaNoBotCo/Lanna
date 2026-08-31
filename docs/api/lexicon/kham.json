@@ -206,6 +206,546 @@
      "lit": "word + khwan",
      "lit_th": "เสียงพูดหรือลายลักษณ์อักษรที่เขียน + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
      "frame": "entity"
+    },
+    {
+     "th": "คืนคำ",
+     "rtgs": "khuen-kham",
+     "ipa": "/kʰɯːn˧.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่ทำตามคำพูดที่ได้สัญญาไว้, พูดว่าจะให้แล้วไม่ให้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คืน",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "back + word",
+     "lit_th": "ระยะเวลาตั้งแต่ย่ำค่ำถึงย่ำรุ่ง + เสียงพูด",
+     "frame": "entity"
+    },
+    {
+     "th": "คำถาม",
+     "rtgs": "kham-tham",
+     "ipa": "/kʰam˧.tʰaːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "question",
+       "problem"
+      ],
+      "th": "ข้อความที่ใช้ถาม, ปัญหา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ถาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "word + ask",
+     "lit_th": "เสียงพูด + ตั้งปัญหาหรือประเด็นเพื่อให้ได้คำต"
+    },
+    {
+     "th": "คำแปล",
+     "rtgs": "kham-plae",
+     "ipa": "/kʰam˧.plɛː˧/",
+     "gloss": {
+      "en": [
+       "translation"
+      ],
+      "th": "ความหมายที่ถ่ายมาเป็นอีกภาษาหนึ่ง (ใช้กับคำหรือวลีเดียว)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "แปล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "เสียงพูด + ถ่ายความหมายจากภาษาหนึ่งมาเป็นอีกภ"
+    },
+    {
+     "th": "คำสั่ง",
+     "rtgs": "kham-sang",
+     "ipa": "/kʰam˧.saŋ˨˩/",
+     "gloss": {
+      "en": [
+       "direction",
+       "order",
+       "ordinance"
+      ],
+      "th": "ข้อความที่กำหนดหรือบังคับให้กระทำตาม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "สั่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "word + order",
+     "lit_th": "เสียงพูด + บอกไว้เพื่อให้ทำหรือให้ปฏิบัติเป็น"
+    },
+    {
+     "th": "คำพูด",
+     "rtgs": "kham-phut",
+     "ipa": "/kʰam˧.pʰuːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้อความที่พูด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "พูด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "word + speak",
+     "lit_th": "เสียงพูด + เปล่งเสียงออกเป็นถ้อยคำ"
+    },
+    {
+     "th": "คำสนอง",
+     "rtgs": "kham-sa-nong",
+     "ipa": "/kʰam˧.sa˨˩.nɔːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การแสดงเจตนาของบุคคลฝ่ายหนึ่งตกลงรับคำเสนอของบุคคลอีกฝ่ายหนึ่ง อันเป็นผลให้เกิดมีความผูกพันเป็นสัญญาขึ้นตามกฎหมาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "สนอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "word + meet",
+     "lit_th": "เสียงพูด + ทำตามที่ได้รับคำสั่งหรือคำขอร้อง"
+    },
+    {
+     "th": "คำคม",
+     "rtgs": "kham-khom",
+     "ipa": "/kʰam˧.kʰom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถ้อยคำที่หลักแหลมชวนให้คิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "คม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "คม"
+     ],
+     "lit": "word + sharp",
+     "lit_th": "เสียงพูด + ไหว้"
+    },
+    {
+     "th": "คำเสนอ",
+     "rtgs": "kham-sa-noe",
+     "ipa": "/kʰam˧.sa˨˩.nɤː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การแสดงเจตนาว่าจะกระทำการหรืองดเว้นกระทำการอย่างใดอย่างหนึ่ง ที่บุคคลฝ่ายหนึ่งแจ้งต่อบุคคลอีกฝ่ายหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "เสนอ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "word + project",
+     "lit_th": "เสียงพูด + ยื่นเรื่องราว ความเห็น ญัตติ เป็นต"
+    },
+    {
+     "th": "คำประพันธ์",
+     "rtgs": "kham-pra-phan",
+     "ipa": "/kʰam˧.pra˨˩.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถ้อยคำที่เรียบเรียงขึ้นโดยมีฉันทลักษณ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ประพันธ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "เสียงพูด + แต่ง"
+    },
+    {
+     "th": "กลับคำ",
+     "rtgs": "klap-kham",
+     "ipa": "/klap̚˨˩.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พูดแล้วไม่เป็นตามพูด, ไม่ทำตามที่พูดไว้, พูดแล้วเปลี่ยนคำพูด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กลับ",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กลับ"
+     ],
+     "lit": "back + word",
+     "lit_th": "ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ + เสียงพูด"
+    },
+    {
+     "th": "คำมั่น",
+     "rtgs": "kham-man",
+     "ipa": "/kʰam˧.man˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การแสดงเจตนาฝ่ายเดียวของผู้ให้คำมั่นที่มีผลผูกพันผู้ให้คำมั่นเมื่อมีผู้แสดงเจตนารับรู้ที่สอดคล้องกับคำมั่น อันเป็นความผูกพันก่อนเกิดสัญญาที่มุ่งประสงค์จะทำระหว่างกัน, คำมั่นไม่จำเป็นต้องมีการเสนอให้มีการตกลงทำสัญญาเสมอไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "มั่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "มั่น"
+     ],
+     "lit": "word + firm",
+     "lit_th": "เสียงพูด + แน่",
+     "frame": "quality"
+    },
+    {
+     "th": "ปากคำ",
+     "rtgs": "pak-kham",
+     "ipa": "/paːk̚˨˩.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถ้อยคำที่บุคคล คู่กรณี หรือพยานให้ไว้กับเจ้าพนักงาน ศาล หรือเจ้าหน้าที่อื่นของรัฐ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ปาก"
+     ],
+     "lit": "mouth + word",
+     "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + เสียงพูด",
+     "frame": "entity"
+    },
+    {
+     "th": "คำพิพากษา",
+     "rtgs": "kham-phi-phak-sa",
+     "ipa": "/kʰam˧.pʰi˦˥.pʰaːk̚˥˩.saː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำวินิจฉัยชี้ขาดของศาลในประเด็นแห่งคดีที่ฟ้องต่อศาล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "พิพากษา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "word + decree",
+     "lit_th": "เสียงพูด + ตัดสินคดีโดยศาล"
+    },
+    {
+     "th": "คำนิยม",
+     "rtgs": "kham-ni-yom",
+     "ipa": "/kʰam˧.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้อความที่ผู้มีชื่อเสียงเขียนชื่นชมหนังสือเล่มนั้น อยู่ก่อนส่วนที่เป็นเนื้อเรื่อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "นิยม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นิยม"
+     ],
+     "lit": "word + like",
+     "lit_th": "เสียงพูด + การกำหนด",
+     "frame": "entity"
+    },
+    {
+     "th": "คำตอบ",
+     "rtgs": "kham-top",
+     "ipa": "/kʰam˧.tɔːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "answer",
+       "response"
+      ],
+      "th": "คำอธิบายหรือชี้แจงข้อปัญหา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ตอบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "word + answer",
+     "lit_th": "เสียงพูด + ทำหรือพูดโต้ในทำนองเดียวกับที่มีผู"
+    },
+    {
+     "th": "รับคำ",
+     "rtgs": "rap-kham",
+     "ipa": "/rap̚˦˥.kʰam˧/",
+     "gloss": {
+      "en": [
+       "accept"
+      ],
+      "th": "รับปาก, ให้สัญญา, ตอบตกลง, ไม่ปฏิเสธ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "รับ"
+     ],
+     "lit": "accept + word",
+     "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + เสียงพูด"
+    },
+    {
+     "th": "ถ้อยคำ",
+     "rtgs": "thoi-kham",
+     "ipa": "/tʰɔj˥˩.kʰam˧/",
+     "gloss": {
+      "en": [
+       "phrase"
+      ],
+      "th": "คำที่กล่าว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ถ้อย",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "คำพูด + เสียงพูด",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -271,6 +811,352 @@
      "lit": "word + base",
      "lit_th": "ใช้ประกอบหน้าคำอื่นมีความหมายเช่นน + โคน",
      "frame": "entity"
+    },
+    {
+     "th": "หน่วยคำ",
+     "rtgs": "nuai-kham",
+     "ipa": "/nua̯j˨˩.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หน่วยในวิทยาหน่วยคำที่มีความหมายและไม่สามารถแยกออกให้เป็นส่วนที่เล็กกว่านี้ได้อีก เช่น คำว่า ผู้ใหญ่ มีหน่วยคำ 2 หน่วย คือ ผู้ กับ ใหญ่ และไม่สามารถแยกออกต่อจากนี้ได้อีกเพราะจะเหลือเพียงแต่ส่วนที่ไม่มีความหมายในภาษาไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน่วย",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ตัวเลขหลังสุดของเลขจำนวนเต็มที่เรี + เสียงพูด",
+     "frame": "entity"
+    },
+    {
+     "th": "คำยืม",
+     "rtgs": "kham-yuem",
+     "ipa": "/kʰam˧.jɯːm˧/",
+     "gloss": {
+      "en": [
+       "borrowing",
+       "loanword"
+      ],
+      "th": "คำที่รับมาจากภาษาต่างประเทศตามรูป เสียง หรือความหมาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ยืม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "word + borrow",
+     "lit_th": "เสียงพูด + ขอสิ่งของ เงิน เป็นต้น มาใช้ชั่วระ"
+    },
+    {
+     "th": "คำเป็น",
+     "rtgs": "kham-pen",
+     "ipa": "/kʰam˧.pen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำสระยาวที่ไม่มีตัวสะกด และคำในมาตรา กง กน กม เกย เกอว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "เป็น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "เป็น"
+     ],
+     "lit": "word + are",
+     "lit_th": "เสียงพูด + คำกริยาสำหรับแสดงความสัมพันธ์ระหว่"
+    },
+    {
+     "th": "คำประสม",
+     "rtgs": "kham-pra-som",
+     "ipa": "/kʰam˧.pra˨˩.som˩˩˦/",
+     "gloss": {
+      "en": [
+       "compound"
+      ],
+      "th": "คำที่เกิดจากการนำคำมูลที่เกิดอิสระได้ตั้งแต่ 2 คำขึ้นไปมาประสมกันแล้วกลายเป็นคำใหม่ที่มีความหมายใหม่ขึ้นมาอีกคำหนึ่ง เช่น ลูกเสือ ลูกน้ำ แขกยาม เครื่องใน ไฟฟ้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ประสม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "เสียงพูด + รวมกันเข้า"
+    },
+    {
+     "th": "ลูกคำ",
+     "rtgs": "luk-kham",
+     "ipa": "/luːk̚˥˩.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกคำ 2 คำเมื่อเอามาประสมกันแล้วมีความหมายต่างไปจากคำเดิมว่า ลูกคำของคำตั้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + word",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + เสียงพูด",
+     "frame": "entity"
+    },
+    {
+     "th": "คำตั้ง",
+     "rtgs": "kham-tang",
+     "ipa": "/kʰam˧.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำที่ยกขึ้นตั้งเพื่อนิยามความหมายในการทำพจนานุกรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ตั้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ตั้ง"
+     ],
+     "lit": "word + introduce",
+     "lit_th": "เสียงพูด + ชูตัว"
+    },
+    {
+     "th": "คำผวน",
+     "rtgs": "kham-phuan",
+     "ipa": "/kʰam˧.pʰua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "spoonerism"
+      ],
+      "th": "คำที่พูดทวนกลับ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ผวน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "เสียงพูด + หวน"
+    },
+    {
+     "th": "คำตาย",
+     "rtgs": "kham-tai",
+     "ipa": "/kʰam˧.taːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำสระสั้นที่ไม่มีตัวสะกดพวกหนึ่ง และคำในมาตรา กก กด กบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ตาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ตาย"
+     ],
+     "lit": "word + demise",
+     "lit_th": "เสียงพูด + สิ้นใจ"
+    },
+    {
+     "th": "คำผสม",
+     "rtgs": "kham-pha-som",
+     "ipa": "/kʰam˧.pʰa˨˩.som˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำประสม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ผสม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "word + mix",
+     "lit_th": "เสียงพูด + นำมารวมกัน"
+    },
+    {
+     "th": "คำเติม",
+     "rtgs": "kham-toem",
+     "ipa": "/kʰam˧.tɤːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำที่เติมข้างหน้า ตรงกลาง หรือ ข้างหลัง ของคำตั้งในภาษาคำติดต่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "เติม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "word + introduce",
+     "lit_th": "เสียงพูด + เพิ่มสิ่งที่ยังบกพร่องอยู่"
+    },
+    {
+     "th": "คำสุภาพ",
+     "rtgs": "kham-su-phap",
+     "ipa": "/kʰam˧.su˨˩.pʰaːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำที่ไม่ผันด้วยวรรณยุกต์ทั้ง 4",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "สุภาพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "word + polite",
+     "lit_th": "เสียงพูด + เรียบร้อย",
+     "frame": "quality"
     }
    ],
    "extends": 2,
@@ -453,6 +1339,37 @@
      ],
      "lit": "gold + word",
      "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + ทองคำ",
+     "frame": "entity"
+    },
+    {
+     "th": "หอคำ",
+     "rtgs": "ho-kham",
+     "ipa": "/hɔː˩˩˦.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือนของเจ้าผู้ครองแคว้นไทใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หอ",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "hall + word",
+     "lit_th": "เรือนหรืออาคารซึ่งใช้เฉพาะกิจการอย + เสียงพูด",
      "frame": "entity"
     }
    ],
@@ -987,67 +1904,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 56; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
   {
-   "th": "คืนคำ",
-   "rtgs": "khuen-kham",
-   "ipa": "/kʰɯːn˧.kʰam˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม่ทำตามคำพูดที่ได้สัญญาไว้, พูดว่าจะให้แล้วไม่ให้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คืน",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "back + word",
-   "lit_th": "ระยะเวลาตั้งแต่ย่ำค่ำถึงย่ำรุ่ง + เสียงพูด",
-   "frame": "entity"
-  },
-  {
-   "th": "คำถาม",
-   "rtgs": "kham-tham",
-   "ipa": "/kʰam˧.tʰaːm˩˩˦/",
-   "gloss": {
-    "en": [
-     "question",
-     "problem"
-    ],
-    "th": "ข้อความที่ใช้ถาม, ปัญหา",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ถาม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "word + ask",
-   "lit_th": "เสียงพูด + ตั้งปัญหาหรือประเด็นเพื่อให้ได้คำต"
-  },
-  {
    "th": "การกลับคำ",
    "rtgs": "kan-klap-kham",
    "ipa": "/kaːn˧.klap̚˨˩.kʰam˧/",
@@ -1076,125 +1932,6 @@
    "head": 1,
    "lit_th": "คำอาการนามของ กลับ + เสียงพูด",
    "frame": "entity"
-  },
-  {
-   "th": "คำแปล",
-   "rtgs": "kham-plae",
-   "ipa": "/kʰam˧.plɛː˧/",
-   "gloss": {
-    "en": [
-     "translation"
-    ],
-    "th": "ความหมายที่ถ่ายมาเป็นอีกภาษาหนึ่ง (ใช้กับคำหรือวลีเดียว)",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "แปล"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "เสียงพูด + ถ่ายความหมายจากภาษาหนึ่งมาเป็นอีกภ"
-  },
-  {
-   "th": "หน่วยคำ",
-   "rtgs": "nuai-kham",
-   "ipa": "/nua̯j˨˩.kʰam˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หน่วยในวิทยาหน่วยคำที่มีความหมายและไม่สามารถแยกออกให้เป็นส่วนที่เล็กกว่านี้ได้อีก เช่น คำว่า ผู้ใหญ่ มีหน่วยคำ 2 หน่วย คือ ผู้ กับ ใหญ่ และไม่สามารถแยกออกต่อจากนี้ได้อีกเพราะจะเหลือเพียงแต่ส่วนที่ไม่มีความหมายในภาษาไทย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน่วย",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "ตัวเลขหลังสุดของเลขจำนวนเต็มที่เรี + เสียงพูด",
-   "frame": "entity"
-  },
-  {
-   "th": "คำสั่ง",
-   "rtgs": "kham-sang",
-   "ipa": "/kʰam˧.saŋ˨˩/",
-   "gloss": {
-    "en": [
-     "direction",
-     "order",
-     "ordinance"
-    ],
-    "th": "ข้อความที่กำหนดหรือบังคับให้กระทำตาม",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "สั่ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "word + order",
-   "lit_th": "เสียงพูด + บอกไว้เพื่อให้ทำหรือให้ปฏิบัติเป็น"
-  },
-  {
-   "th": "คำพูด",
-   "rtgs": "kham-phut",
-   "ipa": "/kʰam˧.pʰuːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ข้อความที่พูด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "พูด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "word + speak",
-   "lit_th": "เสียงพูด + เปล่งเสียงออกเป็นถ้อยคำ"
   },
   {
    "th": "คำนับ",
@@ -1227,69 +1964,6 @@
    "lit_th": "เสียงพูด + ตรวจหรือบอกให้รู้จำนวน"
   },
   {
-   "th": "คำยืม",
-   "rtgs": "kham-yuem",
-   "ipa": "/kʰam˧.jɯːm˧/",
-   "gloss": {
-    "en": [
-     "borrowing",
-     "loanword"
-    ],
-    "th": "คำที่รับมาจากภาษาต่างประเทศตามรูป เสียง หรือความหมาย",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ยืม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "word + borrow",
-   "lit_th": "เสียงพูด + ขอสิ่งของ เงิน เป็นต้น มาใช้ชั่วระ"
-  },
-  {
-   "th": "คำเป็น",
-   "rtgs": "kham-pen",
-   "ipa": "/kʰam˧.pen˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำสระยาวที่ไม่มีตัวสะกด และคำในมาตรา กง กน กม เกย เกอว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "เป็น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "cross_listed": [
-    "เป็น"
-   ],
-   "lit": "word + are",
-   "lit_th": "เสียงพูด + คำกริยาสำหรับแสดงความสัมพันธ์ระหว่"
-  },
-  {
    "th": "การคืนคำ",
    "rtgs": "kan-khuen-kham",
    "ipa": "/kaːn˧.kʰɯːn˧.kʰam˧/",
@@ -1320,126 +1994,6 @@
    "frame": "entity"
   },
   {
-   "th": "คำสนอง",
-   "rtgs": "kham-sa-nong",
-   "ipa": "/kʰam˧.sa˨˩.nɔːŋ˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "การแสดงเจตนาของบุคคลฝ่ายหนึ่งตกลงรับคำเสนอของบุคคลอีกฝ่ายหนึ่ง อันเป็นผลให้เกิดมีความผูกพันเป็นสัญญาขึ้นตามกฎหมาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "สนอง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "word + meet",
-   "lit_th": "เสียงพูด + ทำตามที่ได้รับคำสั่งหรือคำขอร้อง"
-  },
-  {
-   "th": "คำประสม",
-   "rtgs": "kham-pra-som",
-   "ipa": "/kʰam˧.pra˨˩.som˩˩˦/",
-   "gloss": {
-    "en": [
-     "compound"
-    ],
-    "th": "คำที่เกิดจากการนำคำมูลที่เกิดอิสระได้ตั้งแต่ 2 คำขึ้นไปมาประสมกันแล้วกลายเป็นคำใหม่ที่มีความหมายใหม่ขึ้นมาอีกคำหนึ่ง เช่น ลูกเสือ ลูกน้ำ แขกยาม เครื่องใน ไฟฟ้า",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ประสม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "เสียงพูด + รวมกันเข้า"
-  },
-  {
-   "th": "หอคำ",
-   "rtgs": "ho-kham",
-   "ipa": "/hɔː˩˩˦.kʰam˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรือนของเจ้าผู้ครองแคว้นไทใหญ่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หอ",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "hall + word",
-   "lit_th": "เรือนหรืออาคารซึ่งใช้เฉพาะกิจการอย + เสียงพูด",
-   "frame": "entity"
-  },
-  {
-   "th": "คำคม",
-   "rtgs": "kham-khom",
-   "ipa": "/kʰam˧.kʰom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ถ้อยคำที่หลักแหลมชวนให้คิด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "คม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "cross_listed": [
-    "คม"
-   ],
-   "lit": "word + sharp",
-   "lit_th": "เสียงพูด + ไหว้"
-  },
-  {
    "th": "คำรบ",
    "rtgs": "kham-rop",
    "ipa": "/kʰam˧.rop̚˦˥/",
@@ -1457,137 +2011,16 @@
     "คำ",
     "รบ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives เทียบเขมร គំរប់ (“ครั้งที่, ลำดับที่”) — a Khmer stem whose คำ- is that language's nominalising infix, not Thai คำ 'word'. The gloss ครั้งที่ has nothing to do with speech. Stated as เทียบ and not ยืมมาจาก, so probable, not verified.",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
    ],
    "pattern": "N+V",
    "head": 0,
-   "lit_th": "เสียงพูด + สู้กัน"
-  },
-  {
-   "th": "คำเสนอ",
-   "rtgs": "kham-sa-noe",
-   "ipa": "/kʰam˧.sa˨˩.nɤː˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "การแสดงเจตนาว่าจะกระทำการหรืองดเว้นกระทำการอย่างใดอย่างหนึ่ง ที่บุคคลฝ่ายหนึ่งแจ้งต่อบุคคลอีกฝ่ายหนึ่ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "เสนอ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "word + project",
-   "lit_th": "เสียงพูด + ยื่นเรื่องราว ความเห็น ญัตติ เป็นต"
-  },
-  {
-   "th": "ลูกคำ",
-   "rtgs": "luk-kham",
-   "ipa": "/luːk̚˥˩.kʰam˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรียกคำ 2 คำเมื่อเอามาประสมกันแล้วมีความหมายต่างไปจากคำเดิมว่า ลูกคำของคำตั้ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลูก",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ลูก"
-   ],
-   "lit": "child + word",
-   "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + เสียงพูด",
-   "frame": "entity"
-  },
-  {
-   "th": "คำประพันธ์",
-   "rtgs": "kham-pra-phan",
-   "ipa": "/kʰam˧.pra˨˩.pʰan˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ถ้อยคำที่เรียบเรียงขึ้นโดยมีฉันทลักษณ์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ประพันธ์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "เสียงพูด + แต่ง"
-  },
-  {
-   "th": "คำตั้ง",
-   "rtgs": "kham-tang",
-   "ipa": "/kʰam˧.taŋ˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำที่ยกขึ้นตั้งเพื่อนิยามความหมายในการทำพจนานุกรม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ตั้ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "cross_listed": [
-    "ตั้ง"
-   ],
-   "lit": "word + introduce",
-   "lit_th": "เสียงพูด + ชูตัว"
+   "lit_th": "เสียงพูด + สู้กัน",
+   "use": "false-split"
   },
   {
    "th": "คำเมือง",
@@ -1624,256 +2057,6 @@
    "use": "false-split"
   },
   {
-   "th": "คำผวน",
-   "rtgs": "kham-phuan",
-   "ipa": "/kʰam˧.pʰua̯n˩˩˦/",
-   "gloss": {
-    "en": [
-     "spoonerism"
-    ],
-    "th": "คำที่พูดทวนกลับ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ผวน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "เสียงพูด + หวน"
-  },
-  {
-   "th": "กลับคำ",
-   "rtgs": "klap-kham",
-   "ipa": "/klap̚˨˩.kʰam˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พูดแล้วไม่เป็นตามพูด, ไม่ทำตามที่พูดไว้, พูดแล้วเปลี่ยนคำพูด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กลับ",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "กลับ"
-   ],
-   "lit": "back + word",
-   "lit_th": "ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ + เสียงพูด"
-  },
-  {
-   "th": "คำมั่น",
-   "rtgs": "kham-man",
-   "ipa": "/kʰam˧.man˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "การแสดงเจตนาฝ่ายเดียวของผู้ให้คำมั่นที่มีผลผูกพันผู้ให้คำมั่นเมื่อมีผู้แสดงเจตนารับรู้ที่สอดคล้องกับคำมั่น อันเป็นความผูกพันก่อนเกิดสัญญาที่มุ่งประสงค์จะทำระหว่างกัน, คำมั่นไม่จำเป็นต้องมีการเสนอให้มีการตกลงทำสัญญาเสมอไป",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "มั่น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "cross_listed": [
-    "มั่น"
-   ],
-   "lit": "word + firm",
-   "lit_th": "เสียงพูด + แน่",
-   "frame": "quality"
-  },
-  {
-   "th": "ปากคำ",
-   "rtgs": "pak-kham",
-   "ipa": "/paːk̚˨˩.kʰam˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ถ้อยคำที่บุคคล คู่กรณี หรือพยานให้ไว้กับเจ้าพนักงาน ศาล หรือเจ้าหน้าที่อื่นของรัฐ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ปาก",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ปาก"
-   ],
-   "lit": "mouth + word",
-   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + เสียงพูด",
-   "frame": "entity"
-  },
-  {
-   "th": "คำพิพากษา",
-   "rtgs": "kham-phi-phak-sa",
-   "ipa": "/kʰam˧.pʰi˦˥.pʰaːk̚˥˩.saː˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำวินิจฉัยชี้ขาดของศาลในประเด็นแห่งคดีที่ฟ้องต่อศาล",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "พิพากษา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "word + decree",
-   "lit_th": "เสียงพูด + ตัดสินคดีโดยศาล"
-  },
-  {
-   "th": "คำตาย",
-   "rtgs": "kham-tai",
-   "ipa": "/kʰam˧.taːj˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำสระสั้นที่ไม่มีตัวสะกดพวกหนึ่ง และคำในมาตรา กก กด กบ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ตาย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "cross_listed": [
-    "ตาย"
-   ],
-   "lit": "word + demise",
-   "lit_th": "เสียงพูด + สิ้นใจ"
-  },
-  {
-   "th": "คำผสม",
-   "rtgs": "kham-pha-som",
-   "ipa": "/kʰam˧.pʰa˨˩.som˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำประสม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ผสม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "word + mix",
-   "lit_th": "เสียงพูด + นำมารวมกัน"
-  },
-  {
-   "th": "คำนิยม",
-   "rtgs": "kham-ni-yom",
-   "ipa": "/kʰam˧.ni˦˥.jom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ข้อความที่ผู้มีชื่อเสียงเขียนชื่นชมหนังสือเล่มนั้น อยู่ก่อนส่วนที่เป็นเนื้อเรื่อง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "นิยม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "นิยม"
-   ],
-   "lit": "word + like",
-   "lit_th": "เสียงพูด + การกำหนด",
-   "frame": "entity"
-  },
-  {
    "th": "ประคำ",
    "rtgs": "pra-kham",
    "ipa": "/pra˨˩.kʰam˧/",
@@ -1899,159 +2082,6 @@
    ],
    "head": 1,
    "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + เสียงพูด"
-  },
-  {
-   "th": "คำตอบ",
-   "rtgs": "kham-top",
-   "ipa": "/kʰam˧.tɔːp̚˨˩/",
-   "gloss": {
-    "en": [
-     "answer",
-     "response"
-    ],
-    "th": "คำอธิบายหรือชี้แจงข้อปัญหา",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ตอบ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "word + answer",
-   "lit_th": "เสียงพูด + ทำหรือพูดโต้ในทำนองเดียวกับที่มีผู"
-  },
-  {
-   "th": "รับคำ",
-   "rtgs": "rap-kham",
-   "ipa": "/rap̚˦˥.kʰam˧/",
-   "gloss": {
-    "en": [
-     "accept"
-    ],
-    "th": "รับปาก, ให้สัญญา, ตอบตกลง, ไม่ปฏิเสธ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "รับ"
-   ],
-   "lit": "accept + word",
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + เสียงพูด"
-  },
-  {
-   "th": "คำเติม",
-   "rtgs": "kham-toem",
-   "ipa": "/kʰam˧.tɤːm˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำที่เติมข้างหน้า ตรงกลาง หรือ ข้างหลัง ของคำตั้งในภาษาคำติดต่อ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "เติม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "word + introduce",
-   "lit_th": "เสียงพูด + เพิ่มสิ่งที่ยังบกพร่องอยู่"
-  },
-  {
-   "th": "ถ้อยคำ",
-   "rtgs": "thoi-kham",
-   "ipa": "/tʰɔj˥˩.kʰam˧/",
-   "gloss": {
-    "en": [
-     "phrase"
-    ],
-    "th": "คำที่กล่าว",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ถ้อย",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "คำพูด + เสียงพูด",
-   "frame": "entity"
-  },
-  {
-   "th": "คำสุภาพ",
-   "rtgs": "kham-su-phap",
-   "ipa": "/kʰam˧.su˨˩.pʰaːp̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำที่ไม่ผันด้วยวรรณยุกต์ทั้ง 4",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "สุภาพ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "lit": "word + polite",
-   "lit_th": "เสียงพูด + เรียบร้อย",
-   "frame": "quality"
   }
  ],
  "etymology": {
