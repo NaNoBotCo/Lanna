@@ -816,6 +816,30 @@
         ]
       }
     },
+    "/api/lexicon/{id}.json": {
+      "get": {
+        "summary": "Lexicon data.",
+        "description": "Lexicon data.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
     "/api/manuscript/{id}.json": {
       "get": {
         "summary": "One manuscript: metadata, images, IIIF links, OCR where present.",

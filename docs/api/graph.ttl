@@ -485,6 +485,31 @@
     lw:related_to <https://wichaa.net/id/genre/astrology> ;
     lw:related_to <https://wichaa.net/id/genre/magic_ritual> .
 
+<https://wichaa.net/id/entity/hom>
+    a lw:Entity ;
+    rdfs:label "Hom (indigo) and the cloth" ;
+    lw:related_to <https://wichaa.net/id/entity/yantra> ;
+    lw:related_to <https://wichaa.net/id/entity/katha> ;
+    lw:related_to <https://wichaa.net/id/entity/su_khwan> ;
+    lw:related_to <https://wichaa.net/id/entity/chang> ;
+    lw:related_to <https://wichaa.net/id/entity/kai> ;
+    lw:related_to <https://wichaa.net/id/entity/mangrai> ;
+    lw:related_to <https://wichaa.net/id/genre/magic_ritual> ;
+    lw:related_to <https://wichaa.net/id/genre/astrology> ;
+    lw:related_to <https://wichaa.net/id/genre/medicine> ;
+    lw:related_to <https://wichaa.net/id/genre/law_customary> ;
+    lw:related_to <https://wichaa.net/id/genre/buddhist_canonical> ;
+    lw:related_to <https://wichaa.net/id/province/Phrae> ;
+    lw:related_to <https://wichaa.net/id/material/palm_leaf> .
+
+<https://wichaa.net/id/province/Phrae>
+    a lw:Province ;
+    rdfs:label "Phrae" .
+
+<https://wichaa.net/id/material/palm_leaf>
+    a lw:Material ;
+    rdfs:label "Palm-leaf · ใบลาน" .
+
 <https://wichaa.net/id/subgenre/buddhist_canonical%3AAbhidhamma>
     a lw:Subgenre ;
     rdfs:label "Buddhist Canonical · พระไตรปิฎก › Abhidhamma" ;

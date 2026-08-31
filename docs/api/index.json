@@ -284,7 +284,7 @@
       "description": "One article: authored prose + live-computed profile + connections.",
       "format": "application/json",
       "templated": true,
-      "count": 196
+      "count": 197
     },
     {
       "path": "/api/graph/{id}.json",
@@ -293,6 +293,14 @@
       "format": "application/json",
       "templated": true,
       "count": 2
+    },
+    {
+      "path": "/api/lexicon/{id}.json",
+      "url": "https://wichaa.net/api/lexicon/{id}.json",
+      "description": "Lexicon data.",
+      "format": "application/json",
+      "templated": true,
+      "count": 303
     },
     {
       "path": "/api/manuscript/{id}.json",

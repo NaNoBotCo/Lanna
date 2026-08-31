@@ -1,0 +1,494 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><meta name='theme-color' content='#1F4E4A'><link rel=icon type='image/svg+xml' href='/favicon.svg'><meta name='description' content='ฝิ่น — the highland agricultural year of northern Thailand, drawn: upland rice, maize and opium poppy in the same twelve months, the Akha, Hmong, Lisu and Lahu festivals cut into the gaps between them, and what changed for the calendar when coffee took the poppy&#x27;s harvest slot after 1969.'><meta property='og:type' content='website'><meta property='og:site_name' content='wichaa'><meta property='og:url' content='https://wichaa.net/poppy/'><meta property='og:title' content='ฝิ่น — the year the poppy made — wichaa'><meta property='og:description' content='ฝิ่น — the highland agricultural year of northern Thailand, drawn: upland rice, maize and opium poppy in the same twelve months, the Akha, Hmong, Lisu and Lahu festivals cut into the gaps between them, and what changed for the calendar when coffee took the poppy&#x27;s harvest slot after 1969.'><meta property='og:image' content='https://wichaa.net/og.jpg'><meta property='og:image:width' content='1200'><meta property='og:image:height' content='630'><meta property='og:image:alt' content='Circular yantra from a Lanna manuscript'><meta name='twitter:card' content='summary_large_image'><meta name='twitter:title' content='ฝิ่น — the year the poppy made — wichaa'><meta name='twitter:description' content='ฝิ่น — the highland agricultural year of northern Thailand, drawn: upland rice, maize and opium poppy in the same twelve months, the Akha, Hmong, Lisu and Lahu festivals cut into the gaps between them, and what changed for the calendar when coffee took the poppy&#x27;s harvest slot after 1969.'><meta name='twitter:image' content='https://wichaa.net/og.jpg'><title>ฝิ่น — the year the poppy made — wichaa</title><style>
+  :root{
+    --ink:#141b1a; --muted:#3a4a47; --line:#c9d6d2;
+    --teal:#1F4E4A; --teal-ink:#ffffff; --bg:#f4f7f6; --card:#ffffff;
+    --focus:#0b5cad; --gold:#8a5a00; --gold-bg:#fbf1dc; --ok:#0f6b3f;
+    --prio:#7a1f1f; --prio-bg:#fbe6e6;
+    --serif:"Sukhumvit Set","Noto Serif Thai",Thonburi,"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box}
+  /* This is the body stack for the whole wiki — every manuscript page, and every
+     threads chip, which strings.py renders Thai FIRST by design. It named no
+     Thai-capable family, so the Thai half of each chip fell to the browser's
+     last-resort face while the English half got the chosen one: the site said
+     Thai leads and then rendered it as an afterthought. Thai families go first
+     (resolution is per-character, so Latin still reaches -apple-system), and
+     Thai takes more leading than 1.55 because its marks stack above and below. */
+  body{margin:0;font:17px/1.55 "Sukhumvit Set","Noto Sans Thai",Thonburi,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  :lang(th),.th{line-height:1.85}
+  a{color:var(--focus)}
+  header{background:linear-gradient(180deg,#245852,#1b4541);color:var(--teal-ink);padding:16px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;box-shadow:0 2px 10px #00000022}
+  header h1{margin:0;font-size:24px;font-family:var(--serif);letter-spacing:.01em}
+  .card>h2:first-child,.card>h2{font-family:var(--serif)}
+  header .sub{color:#dfeae7;margin:0}
+  /* flex-wrap is on the BASE rule, not just the <=760px block: the nav's 11 items
+     are ~1217px wide, so without it every viewport under ~1250px (laptops included,
+     not only phones) got a horizontal scrollbar. Wrapped rows stay right-aligned
+     under the title so the header reads the same as it did on wide screens. */
+  header nav{margin-left:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px}
+  header nav a{color:#fff;text-decoration:none;font-weight:700;border:2px solid #ffffff66;border-radius:8px;padding:8px 14px}
+  header nav a:hover{background:#ffffff22}
+  header nav a.kofi{background:var(--gold-bg,#fbf1dc);color:var(--gold,#8a5a00);border-color:transparent}
+  header nav a.kofi:hover{filter:brightness(0.96)}
+  main{max-width:1080px;margin:0 auto;padding:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:0 0 16px}
+  button{font:inherit;font-weight:700;color:var(--teal-ink);background:var(--teal);border:2px solid var(--teal);border-radius:8px;padding:10px 16px;cursor:pointer;min-height:44px}
+  button.secondary{background:#fff;color:var(--teal)}
+  button:hover{background:#163b38;border-color:#163b38}
+  button.secondary:hover{background:#eef4f2}
+  input[type=text],input[type=search],select,textarea{width:100%;padding:10px 12px;font-size:16px;border:1px solid #6b7f7a;border-radius:8px;color:var(--ink);background:#fff}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+  .pill{display:inline-block;font-size:13px;font-weight:700;padding:2px 10px;border-radius:999px;border:1px solid var(--line);background:#eef2f1;color:var(--muted);margin:2px 4px 2px 0}
+  .pill.script{background:var(--gold-bg);border-color:#e5cf9a;color:var(--gold)}
+  .pill.prio{background:var(--prio-bg);border-color:#e0a3a3;color:var(--prio)}
+  .cite-arch{display:inline-block;font-size:14px;font-weight:600;line-height:1.5;padding:0 9px;margin:0 3px;
+    border:1px solid var(--line);border-radius:999px;background:#eef2f1;color:var(--muted);white-space:nowrap}
+  a.cite-arch{color:#33534d}a.cite-arch:hover{text-decoration:none;border-color:#33534d}
+  .cite-arch.quiet{background:#f2ede1;border-color:#ded5c2}
+  .muted{color:var(--muted)}
+  .thai{font-size:1.15em}
+  .empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px;background:#fff}
+  /* Global overflow safety net: nothing should force the viewport wider than the
+     phone. Images fluid; wide blocks (code, pre) scroll inside their own box. */
+  img{max-width:100%;height:auto}
+  pre,code{overflow-x:auto;max-width:100%}
+  /* Mobile-responsive pass (dr's feedback, 2026-07-12): the header's nav had no
+     wrap and no breakpoint, so its ~9 buttons overflowed and forced a horizontal
+     scroll. Below 760px the nav drops under the title and wraps; padding, type,
+     and card chrome all tighten so a phone reads the archive with no sideways
+     scrolling. Touch targets stay >=40px tall. */
+  @media(max-width:760px){
+    header{padding:12px 16px;gap:6px 12px}
+    header h1{font-size:20px}
+    header .sub{font-size:13.5px;flex-basis:100%;order:3}
+    /* full-width under the title here, so undo the base rule's right-alignment —
+       left-aligned rows sit flush with the h1 instead of going ragged-left. */
+    header nav{margin-left:0;width:100%;flex-wrap:wrap;justify-content:flex-start;gap:6px;order:2}
+    header nav a{padding:8px 11px;font-size:14px;border-width:1px}
+    main{padding:14px;max-width:100%}
+    body{font-size:16px}
+    .card{padding:14px 15px}
+    table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  }
+  @media(max-width:420px){
+    header h1{font-size:18px}
+    header nav a{padding:7px 9px;font-size:13px}
+    main{padding:11px}
+  }
+  /* Back-to-menu: the header nav scrolls away on long pages (it needn't persist,
+     but there must be a way back — dr's feedback). A floating pill appears once
+     you've scrolled and jumps to the top, where the nav lives. */
+  #tomenu{position:fixed;right:16px;bottom:16px;z-index:50;display:none;
+    background:var(--teal);color:#fff;border:none;border-radius:999px;
+    padding:11px 16px;font:700 14px/1 inherit;cursor:pointer;min-height:44px;
+    box-shadow:0 3px 12px #0003;text-decoration:none}
+  #tomenu.show{display:inline-flex;align-items:center;gap:6px}
+  #tomenu:hover{background:#163b38}
+  @media print{#tomenu{display:none!important}}
+  /* Share bar — fixed bottom-left (mirrors the back-to-menu pill on the right), on
+     every page so the whole archive is easy to pass around. */
+  #sharebar{position:fixed;left:14px;bottom:14px;z-index:50;display:flex;align-items:center;
+    gap:5px;background:var(--card,#fff);border:1px solid var(--line);border-radius:999px;
+    padding:5px 8px;box-shadow:0 3px 12px #0000002b}
+  #sharebar .shlabel{font-size:12px;font-weight:800;color:var(--muted);text-transform:uppercase;
+    letter-spacing:.04em;padding:0 3px 0 5px}
+  .shbtn{width:32px;height:32px;min-height:32px;border-radius:50%;border:1px solid var(--line);
+    background:#fff;color:var(--ink);font:700 15px/1 inherit;cursor:pointer;display:inline-flex;
+    align-items:center;justify-content:center;padding:0}
+  .shbtn:hover{background:var(--teal);color:#fff;border-color:var(--teal)}
+  .shtoast{position:fixed;left:50%;bottom:64px;transform:translateX(-50%);z-index:60;
+    background:#1b2a27;color:#fff;padding:8px 16px;border-radius:999px;font-size:14px;
+    box-shadow:0 4px 16px #0004}
+  /* card-level share affordance (per-result) */
+  .cardshare{background:none;border:none;cursor:pointer;color:var(--muted);font-size:15px;
+    padding:2px 6px;border-radius:6px;line-height:1}
+  .cardshare:hover{background:#eef2f1;color:var(--teal)}
+  @media print{#sharebar{display:none!important}}
+  @media(max-width:520px){#sharebar .shlabel{display:none}#sharebar{gap:4px;padding:4px 6px}}
+
+.py{max-width:960px;margin:0 auto;padding:0 18px 60px}
+.py .lead{font-size:19px;line-height:1.7;max-width:46em}
+.py p{max-width:46em}
+.py h2{font-family:var(--serif);font-size:27px;margin:44px 0 6px;
+  border-bottom:2px solid var(--line);padding-bottom:8px}
+.py h3{font-family:var(--serif);font-size:21px;margin:30px 0 4px}
+.py .fig{margin:26px 0 8px;padding:18px 10px 10px;background:var(--card);
+  border:1px solid var(--line);border-radius:14px;
+  box-shadow:0 2px 14px rgba(0,0,0,.05)}
+.py figcaption{font-size:15px;color:var(--muted);max-width:52em;margin:8px auto 2px;
+  padding:0 10px;line-height:1.6}
+svg.wheel,svg.strip{display:block;width:100%;height:auto;margin:0 auto;overflow:visible}
+svg.wheel .spokes line{stroke:var(--line);stroke-width:1}
+svg.wheel .mlab text{font-family:var(--serif);font-size:20px;font-weight:700;
+  fill:var(--ink);text-anchor:middle}
+svg.wheel .hub{fill:var(--card);stroke:var(--line);stroke-width:2}
+svg.wheel .hub-th{text-anchor:middle;font-family:var(--serif);font-size:28px;fill:var(--teal)}
+svg.wheel .hubrule{stroke:var(--line);stroke-width:1.5}
+svg.wheel .hl{fill:none;stroke:var(--prio);stroke-opacity:.9;stroke-width:3;
+  stroke-dasharray:8 6;stroke-linecap:round}
+svg.wheel .hl line{stroke-dasharray:none}
+svg.strip .trough{fill:none;stroke:var(--line);stroke-width:1.5}
+svg.strip .gap{fill:none;stroke:var(--prio);stroke-width:2.5;stroke-dasharray:6 5}
+svg.strip .sm{font-size:15px;fill:var(--muted)}
+svg.strip .rowlab{font-family:var(--serif);font-size:19px;font-weight:700;fill:var(--ink)}
+.py .key{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:center;
+  margin:14px auto 2px;font-size:15px;max-width:52em}
+.py .key span{display:inline-flex;align-items:center;gap:8px}
+.py .key i{width:20px;height:14px;border-radius:4px;display:inline-block}
+.py .vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.py table{border-collapse:collapse;width:100%;margin:18px 0;font-size:15px}
+.py th,.py td{border:1px solid var(--line);padding:8px 10px;text-align:left;
+  vertical-align:top}
+.py th{background:var(--teal);color:var(--teal-ink);font-weight:700}
+.py tbody tr:nth-child(even){background:#00000006}
+.py td.mo{font-weight:700;white-space:nowrap}
+.py .peak{color:var(--prio);font-weight:700}
+.py .note{background:var(--gold-bg);border-left:5px solid var(--gold);
+  padding:14px 18px;border-radius:0 10px 10px 0;margin:22px 0;max-width:52em}
+.py .open{background:var(--prio-bg);border-left:5px solid var(--prio);
+  padding:14px 18px;border-radius:0 10px 10px 0;margin:22px 0;max-width:52em}
+.py .mark{font-style:italic;color:var(--muted);font-weight:700}
+.py .term{font-weight:700}
+.py .term .sc{font-family:var(--serif)}
+.py ul{max-width:46em;line-height:1.65}
+.py li{margin:7px 0}
+.py .twelve{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0;max-width:52em;padding:0;
+  list-style:none}
+.py .twelve li{margin:0;border:1px solid var(--line);background:var(--card);
+  border-radius:999px;padding:5px 14px;font-size:15px}
+.py .twelve li b{color:var(--teal)}
+.py .src{font-size:15px;line-height:1.6}
+.py .src li{margin:10px 0;max-width:52em}
+@media (max-width:700px){
+  svg.wheel .mlab text{font-size:26px}
+  svg.strip .sm{font-size:17px}
+  .py h2{font-size:23px}
+}
+</style><!-- site_meta:begin --><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "wichaa", "description": "A research catalogue of Northern Thai (Lanna) manuscripts and the living wichaa tradition — astrology, ritual, and magic — with a curated knowledge graph and a living-market layer.", "url": "https://wichaa.net/", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@type": "Organization", "name": "NaNoBotCo", "email": "530kings@proton.me"}, "keywords": ["Lanna manuscripts", "Northern Thai", "Tai Tham script", "wichaa", "Thai astrology", "hora", "yantra", "sak yant", "katha", "Buddhist manuscripts", "palm-leaf manuscripts", "Southeast Asian manuscripts", "digital humanities"], "inLanguage": ["th", "en", "pi"], "isAccessibleForFree": true, "size": "6986 manuscripts", "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://wichaa.net/api/manuscripts.json", "name": "All manuscripts (JSON)"}, {"@type": "DataDownload", "encodingFormat": "application/ld+json", "contentUrl": "https://wichaa.net/api/graph.jsonld", "name": "Knowledge graph (JSON-LD)"}, {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://wichaa.net/api/graph.ttl", "name": "Knowledge graph (Turtle)"}]}</script><link rel="alternate" type="application/ld+json" href="https://wichaa.net/api/graph.jsonld" title="Knowledge graph (JSON-LD)"><link rel="alternate" type="text/turtle" href="https://wichaa.net/api/graph.ttl" title="Knowledge graph (Turtle)"><meta name="citation_title" content="ฝิ่น — the year the poppy made"><meta name="citation_author" content="Peacock, Nan"><meta name="citation_publication_date" content="2026/08/31"><meta name="citation_online_date" content="2026/08/31"><meta name="citation_publisher" content="wichaa"><meta name="citation_public_url" content="https://wichaa.net/poppy/"><meta name="citation_language" content="en"><meta name="DC.title" content="ฝิ่น — the year the poppy made"><meta name="DC.creator" content="Peacock, Nan"><meta name="DC.publisher" content="Lanna Manuscript Wiki"><meta name="DC.date" content="2026-08-31"><meta name="DC.identifier" content="https://wichaa.net/poppy/"><meta name="DC.rights" content="CC BY 4.0"><meta property="article:published_time" content="2026-08-31T00:00:00Z"><meta property="article:modified_time" content="2026-08-31T00:00:00Z"><link rel="license" href="https://creativecommons.org/licenses/by/4.0/"><meta name="keywords" content="Lanna manuscripts, Northern Thai, Tai Tham script, wichaa, Thai astrology, hora, yantra, sak yant, katha, Buddhist manuscripts, palm-leaf manuscripts, Southeast Asian manuscripts, digital humanities"><!-- site_meta:end --></head><body><script>window.__LANNA_BASE__="/";</script><script>/* search_match.js — the ONE lexical matcher for wichaa's static export.
+ *
+ * Two callers, one implementation:
+ *   - the static shim (build_static.py injects this file inline into every
+ *     page, just before the shim) answers /api/search fetches from
+ *     api/searchdocs.json with it;
+ *   - golden_queries.mjs (the deploy gate) requires this SAME file in Node and
+ *     refuses to ship a build whose /search example chips return nothing.
+ * The gate only proves something because both run this exact file — a
+ * reimplemented matcher could pass while the shipped one fails.
+ *
+ * Semantics mirror wiki.py (_norm / _expand_token / the FTS re-rank):
+ *   - normalize: lowercase + recompose decomposed sara-am, so Thai typed
+ *     composed matches OCR text that decomposed it;
+ *   - each query token becomes an OR-set of thesaurus equivalents (exact key,
+ *     or substring either way at >= 3 chars);
+ *   - token groups AND together; a title hit scores 12, body hits score
+ *     min(occurrences, 6); the earliest body position feeds the snippet.
+ * Thai needs no word segmentation here: the index fields are pre-_norm()'d at
+ * build time and matching is plain substring, so "ยันต์กันภัย" reaches the
+ * yantra group via the thesaurus substring rule.
+ */
+(function (root) {
+  "use strict";
+
+  var SA_AM = "ำ"; /* ำ */
+  /* nikhahit + (tone?) + sara-aa  ->  (tone) + sara-am   — wiki.py _RE_NKAA */
+  var RE_NKAA = /ํ([่-๋]?)า/g;
+  /* tone + nikhahit + sara-aa     ->  tone + sara-am     — wiki.py _RE_TNKAA */
+  var RE_TNKAA = /([่-๋])ํา/g;
+
+  function norm(s) {
+    s = (s == null ? "" : String(s));
+    s = s.replace(RE_NKAA, function (_, t) { return t + SA_AM; });
+    s = s.replace(RE_TNKAA, function (_, t) { return t + SA_AM; });
+    return s.toLowerCase();
+  }
+
+  /* One query token -> the OR-set of its normalized equivalents. */
+  function expand(tok, thes) {
+    tok = norm(tok);
+    var members = {};
+    members[tok] = 1;
+    if (tok.length < 2) return Object.keys(members);
+    for (var key in thes) {
+      if (tok === key || (tok.length >= 3 && (tok.indexOf(key) >= 0 || key.indexOf(tok) >= 0))) {
+        var grp = thes[key];
+        for (var i = 0; i < grp.length; i++) members[grp[i]] = 1;
+      }
+    }
+    return Object.keys(members);
+  }
+
+  /* Match `q` against docs [{ref,kind,label,ntitle,nbody}] using thesaurus
+   * `thes` {token: [equivalents]}. Returns [{score, doc, pos}] best-first;
+   * pos is the earliest body hit (null if the match was title-only). */
+  function match(docs, thes, q) {
+    q = (q == null ? "" : String(q)).trim();
+    if (!q) return [];
+    var groups = norm(q).split(/\s+/).filter(Boolean)
+      .map(function (t) { return expand(t, thes); })
+      .filter(function (g) { return g.length; });
+    if (!groups.length) return [];
+    var scored = [];
+    for (var i = 0; i < docs.length; i++) {
+      var d = docs[i];
+      /* ntitle/nbody are already _norm()'d at build time; lowercase again is
+       * cheap insurance against a half-normalized index, nothing more. */
+      var title = (d.ntitle || "").toLowerCase(), body = (d.nbody || "").toLowerCase();
+      var ok = true, score = 0, pos = null;
+      for (var j = 0; j < groups.length; j++) {
+        var g = groups[j], ghit = 0;
+        for (var m = 0; m < g.length; m++) {
+          var tk = g[m];
+          if (!tk) continue;
+          if (title.indexOf(tk) >= 0) ghit += 12;
+          var idx = body.indexOf(tk);
+          if (idx >= 0) {
+            ghit += Math.min(body.split(tk).length - 1, 6);
+            if (pos === null || idx < pos) pos = idx;
+          }
+        }
+        if (ghit === 0) { ok = false; break; }
+        score += ghit;
+      }
+      if (ok) scored.push({ score: score, doc: d, pos: pos });
+    }
+    scored.sort(function (a, b) { return b.score - a.score; });
+    return scored;
+  }
+
+  var api = { norm: norm, expand: expand, match: match };
+  if (typeof module !== "undefined" && module.exports) module.exports = api;
+  else root.WICHAA_MATCH = api;
+})(typeof self !== "undefined" ? self : this);
+</script><script>
+(function(){
+  "use strict";
+  // ---- Lanna Wiki static shim: run the dynamic viewer on a static host ----------
+  // BASE lets the same build work at the domain root ('/') or under a project path
+  // ('/Lanna/'). All static targets are resolved through S() so they land correctly.
+  var BASE = (window.__LANNA_BASE__ || '/');
+  if (BASE.charAt(BASE.length-1) !== '/') BASE += '/';
+  function S(p){ return BASE + String(p).replace(/^\//,''); }
+  var PLACE = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="260" height="150">'+
+    '<rect width="100%" height="100%" fill="#eef2f1"/>'+
+    '<text x="50%" y="50%" fill="#3a4a47" font-family="sans-serif" font-size="13" '+
+    'text-anchor="middle" dominant-baseline="middle">raw scan — view at source</text></svg>');
+  function art(s){ return String(s==null?'':s).replace(/[^A-Za-z0-9]+/g,'_'); }
+  function jresp(o){ return new Response(JSON.stringify(o),
+    {status:200, headers:{'Content-Type':'application/json; charset=utf-8'}}); }
+  var NOARG = {
+    '/api/overview':'/api/overview.json','/api/dashboard':'/api/dashboard.json',
+    '/api/places':'/api/places.json','/api/lenses':'/api/lenses.json',
+    '/api/vocab':'/api/vocab.json','/api/market':'/api/market.json',
+    '/api/graph':'/api/graph.json','/api/articles':'/api/articles.json',
+    '/api/status':'/api/status.json','/api/manuscripts':'/api/manuscripts.json',
+    '/api/graph.jsonld':'/api/graph.jsonld','/api/graph.ttl':'/api/graph.ttl',
+    '/api/diagrams':'/api/diagrams.json','/api/findings':'/api/findings.json',
+    '/api/activity':'/api/activity.json',
+    '/api/expedite':'/api/expedite.json','/api/wats':'/api/wats.json',
+    '/api/coverage':'/api/coverage.json','/api/place-types':'/api/place-types.json'
+  };
+  var _fetch = window.fetch ? window.fetch.bind(window) : function(u){return fetch(u);};
+
+  var _docs=null;
+  function loadDocs(){ if(_docs) return Promise.resolve(_docs);
+    return _fetch(S('/api/searchdocs.json')).then(function(r){return r.json();})
+      .then(function(d){_docs=d;return d;}).catch(function(){_docs=[];return [];}); }
+  var _thes=null;
+  function loadThes(){ if(_thes) return Promise.resolve(_thes);
+    return _fetch(S('/api/thesaurus.json')).then(function(r){return r.json();})
+      .then(function(t){_thes=t;return t;}).catch(function(){_thes={};return {};}); }
+  // Matching itself lives in search_match.js (injected right before this shim,
+  // as window.WICHAA_MATCH) so the golden-queries deploy gate can run the SAME
+  // code in Node against the same built index. Two shapes are answered from it:
+  //   staticSearch  -> {manuscripts, articles}  — the browse page's quick search
+  //   staticMeaning -> {results, understood}    — /search, when the semantic
+  //                                               Worker can't be reached
+  function staticSearch(q){
+    q=(q||'').trim(); var out={manuscripts:[],articles:[],query:q};
+    if(!q) return Promise.resolve(jresp(out));
+    return Promise.all([loadDocs(), loadThes()]).then(function(res){
+      var scored=window.WICHAA_MATCH.match(res[0], res[1], q);
+      for(var k=0;k<scored.length;k++){
+        var d2=scored[k].doc, pos2=scored[k].pos==null?0:scored[k].pos;
+        var text=d2.nbody||d2.ntitle||'';
+        var snip=text.substr(Math.max(0,pos2-60),200).replace(/\s+/g,' ').trim();
+        if(d2.kind==='m'){ if(out.manuscripts.length<60)
+          out.manuscripts.push({id:parseInt(d2.ref,10),label:d2.label,snippet:snip}); }
+        else { if(out.articles.length<60)
+          out.articles.push({key:d2.ref,label:d2.label,snippet:snip}); }
+      }
+      return jresp(out);
+    });
+  }
+  function staticMeaning(q, n){
+    q=(q||'').trim(); n=parseInt(n||'24',10)||24;
+    var understood={terms:q?q.split(/\s+/):[], notes:['static'], filters:{}, basis:'words'};
+    if(!q) return Promise.resolve(jresp({query:q, understood:understood, count:0, results:[]}));
+    return Promise.all([loadDocs(), loadThes()]).then(function(res){
+      var scored=window.WICHAA_MATCH.match(res[0], res[1], q).slice(0, n);
+      // Only fields the lexical index really has; no score -> the page renders
+      // no meter rather than an invented number.
+      var results=scored.map(function(s){ var d=s.doc, m=(d.kind==='m');
+        return {id:(m?'ms:':'a:')+d.ref, kind:(m?'manuscript':'article'),
+                mid:(m?parseInt(d.ref,10):null),
+                url:(m?'/m/'+d.ref+'/':'/a?s='+encodeURIComponent(d.ref)),
+                title_th:d.label, title_en:'', translit:'',
+                genre:'', place:'', temple:'', date:''};
+      });
+      return jresp({query:q, understood:understood, count:results.length, results:results});
+    });
+  }
+
+  var _scans=null;
+  function loadScans(){ if(_scans) return Promise.resolve(_scans);
+    return _fetch(S('/api/scans.all.json')).then(function(r){return r.json();})
+      .then(function(d){_scans=d.scans||[];return _scans;}).catch(function(){_scans=[];return [];}); }
+
+  // ---- IIIF on-demand images: /img?sha=&w= -> sized library IIIF URL ------------
+  // We ship no scan bytes; a {sha -> IIIF url} map lets every page image load from
+  // the originating library, resized via the IIIF size parameter. The <img> src
+  // setter is synchronous, so images requested before the map arrives get the
+  // placeholder and are re-resolved once it loads (IIIF_Q flush).
+  var IIIF=null, IIIF_Q=[], IIIF_LOADING=false;
+  function iiifSized(u,w){ w=w||1024;
+    return String(u).replace('/full/full/0/default.jpg','/full/'+w+',/0/default.jpg'); }
+  function flushIIIF(){ var q=IIIF_Q; IIIF_Q=[];
+    for(var i=0;i<q.length;i++){ var it=q[i], u=IIIF[it.sha];
+      if(u){ try{ desc.set.call(it.el, iiifSized(u,it.w)); }catch(e){} } } }
+  // LAZY: the {sha -> IIIF url} map is ~2.6 MB and only pages that actually render
+  // scan images (browse, gallery, manuscript detail) need it. Fetch it on the FIRST
+  // /img?sha= request instead of on every page load, so image-free pages (home,
+  // articles, findings, market, textbooks) pay zero bytes for it.
+  function loadIIIF(){ if(IIIF) return Promise.resolve(IIIF);
+    if(IIIF_LOADING) return Promise.resolve(null); IIIF_LOADING=true;
+    return _fetch(S('/api/img-iiif.json')).then(function(r){return r.json();})
+      .then(function(m){ IIIF=m||{}; flushIIIF(); return IIIF; })
+      .catch(function(){ IIIF={}; flushIIIF(); return IIIF; }); }
+  function scansSlice(sp){
+    var midp=sp.get('mid'); var mid = midp?parseInt(midp,10):null;
+    var offset=parseInt(sp.get('offset')||'0',10)||0;
+    var limit=parseInt(sp.get('limit')||'120',10)||120;
+    var onlyT=(sp.get('only')==='transcribed');
+    return loadScans().then(function(all){
+      var pool=all.filter(function(s){
+        if(mid!==null && s.id!==mid) return false;
+        if(onlyT && !s.transcribed) return false;
+        return true;
+      });
+      return jresp({dbPresent:true, scans:pool.slice(offset,offset+limit),
+                    offset:offset, limit:limit, total:pool.length});
+    });
+  }
+
+  window.fetch = function(input, init){
+    init = init || {};
+    var url;
+    try { url = new URL((typeof input==='string')?input:input.url, location.origin); }
+    catch(e){ return _fetch(input, init); }
+    if(url.origin !== location.origin) return _fetch(input, init);
+    var method = (init.method || (typeof input!=='string' && input.method) || 'GET').toUpperCase();
+    var p = url.pathname, sp = url.searchParams;
+    if(method !== 'GET') return Promise.resolve(jresp({ok:false, readonly:true}));
+    if(p==='/api/search'){
+      // Two consumers, two shapes. /search sends n= and reads the semantic
+      // Worker's {results} shape — that request must REACH the network, where
+      // the wichaa-router Worker answers it (hijacking it here and answering in
+      // the legacy shape is what left /search dead-on-arrival, found
+      // 2026-08-26). The browse page's quick search sends no n= and reads the
+      // legacy {manuscripts, articles} shape, answered locally as always.
+      if(sp.has('n')){
+        return _fetch(input, init).then(function(r){
+          return (r && r.ok) ? r : staticMeaning(sp.get('q'), sp.get('n'));
+        }).catch(function(e){
+          // AbortError means a newer keystroke superseded this query — let it
+          // die silently instead of racing stale fallback results onto the page.
+          if(e && e.name==='AbortError') throw e;
+          return staticMeaning(sp.get('q'), sp.get('n'));
+        });
+      }
+      return staticSearch(sp.get('q'));
+    }
+    if(p==='/api/gallery' && sp.get('source')==='scans') return scansSlice(sp);
+    // analysis widgets: /api/w/<name> -> the dumped snapshot; geo.geojson is a real
+    // file already, everything else gains a .json extension on disk.
+    if(p.indexOf('/api/w/')===0){
+      if(p.slice(-8)==='.geojson') return _fetch(S(p), {});
+      return _fetch(S(p+'.json'), {});
+    }
+    if(NOARG[p]) return _fetch(S(NOARG[p]), {});
+    if(p==='/api/manuscript') return _fetch(S('/api/manuscript/'+encodeURIComponent(sp.get('id'))+'.json'), {});
+    if(p==='/api/article')    return _fetch(S('/api/article/'+art(sp.get('s'))+'.json'), {});
+    if(p==='/api/gallery'){
+      var src=sp.get('source');
+      if(src==='scan-index') return _fetch(S('/api/gallery.scan-index.json'), {});
+      return _fetch(S('/api/gallery.json'), {});
+    }
+    // baked pimg files are EITHER .png (stored plate) or .jpg (on-demand render) —
+    // the shim has no way to know which without a filesystem stat, so try .png
+    // first and fall back to .jpg on a miss.
+    if(p==='/pimg'){
+      var pmid=sp.get('mid'), pn=sp.get('n');
+      return _fetch(S('/pimg/'+pmid+'/'+pn+'.png'), {}).then(function(r){
+        return r.ok ? r : _fetch(S('/pimg/'+pmid+'/'+pn+'.jpg'), {});
+      });
+    }
+    return _fetch(input, init);
+  };
+
+  // internal navigation: app links are baked as root-absolute ('/browse', '/m?id=…').
+  // Under a project subpath they must be re-rooted at BASE. A capture-phase click
+  // handler does this for every link, however it was created.
+  document.addEventListener('click', function(ev){
+    if(ev.defaultPrevented || ev.button!==0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+    var a = ev.target && ev.target.closest ? ev.target.closest('a[href]') : null;
+    if(!a) return;
+    if(a.target==='_blank') return;
+    var href=a.getAttribute('href');
+    if(!href || href.charAt(0)!=='/' || href.charAt(1)==='/') return;  // only root-absolute, not protocol-relative
+    if(BASE!=='/' && href.indexOf(BASE)===0) return;                   // already re-rooted
+    // '/read?id=N' is a query-string route the live wiki serves dynamically; a
+    // static host can't route query strings, so the export ships it as a real
+    // path instead (read/N/index.html) — rewrite the click to match.
+    var rm = href.match(/^\/read\?id=(\d+)/);
+    if(rm){ ev.preventDefault(); location.href = S('read/'+rm[1]+'/'); return; }
+    // widget JSON download links point at '/api/w/<name>' (no extension); on disk
+    // that snapshot is '<name>.json' — map the download to the real file.
+    var wm = href.match(/^\/api\/w\/([a-z]+)$/);
+    if(wm){ ev.preventDefault(); location.href = S('api/w/'+wm[1]+'.json'); return; }
+    ev.preventDefault();
+    location.href = S(href);
+  }, true);
+
+  // rewrite <img> src (Object.assign in el() sets the .src property, so this catches it)
+  try {
+    var proto=HTMLImageElement.prototype;
+    var desc=Object.getOwnPropertyDescriptor(proto,'src');
+    Object.defineProperty(proto,'src',{configurable:true,enumerable:true,
+      get:function(){return desc.get.call(this);},
+      set:function(v){
+        try{
+          var u=new URL(v, location.origin);
+          if(u.origin===location.origin){
+            if(u.pathname==='/pimg'){
+              // same png-vs-jpg ambiguity as the fetch shim above; try .png and
+              // fall back to .jpg on load error (onerror fires at most once).
+              var pmid=u.searchParams.get('mid'), pn=u.searchParams.get('n');
+              var jpgFallback=S('/pimg/'+pmid+'/'+pn+'.jpg');
+              var imgEl=this;
+              imgEl.onerror=function(){ imgEl.onerror=null; imgEl.src=jpgFallback; };
+              v=S('/pimg/'+pmid+'/'+pn+'.png');
+            } else if(u.pathname==='/img'){
+              var sha=u.searchParams.get('sha');
+              var w=parseInt(u.searchParams.get('w')||'0',10)||0;
+              if(sha && IIIF && IIIF[sha]){ v=iiifSized(IIIF[sha], w); }
+              else if(sha && IIIF===null){ IIIF_Q.push({el:this, sha:sha, w:w}); v=PLACE; loadIIIF(); }
+              else { v=PLACE; }
+            }
+          }
+        }catch(e){}
+        desc.set.call(this,v);
+      }});
+  } catch(e){}
+})();
+</script><header><div><h1>ฝิ่น <span style='font-weight:400'>&middot; the year the poppy made</span></h1><p class=sub>Twelve months of highland work, the festivals cut into them, and what changed when coffee took the poppy's slot.</p></div><nav><a href='/'>Overview</a><a href='/browse'>Browse</a><a href='/textbooks'>Textbooks</a><a href='/market'>Living Tradition</a><a href='/wats'>Wats</a><a href='/expedite'>St. Expedite</a><a href='/articles'>Profiles</a><a href='/moon'>Moon</a><a href='/widgets'>Widgets</a><a href='/diagrams'>Diagrams</a><a href='/findings'>Discoveries</a><a href='/activity'>Activity</a><a class=kofi href='/support'>&#9749; Support</a></nav></header><main class=py><p class=lead>A year on a hillside above a thousand metres is not a season and a crop. It is a schedule with almost no slack in it. The same household grew upland rice, maize and opium poppy in the same twelve months, and two of the three wanted the same weeks. The festivals were not laid over that schedule as ornament. They were cut into it &mdash; four days here, twelve days there, in the gaps the crops left &mdash; and while one ran, nobody went to the fields.</p><p class=lead>Everywhere else on this site a year is <em>reckoned</em>: the twelve-year cycle of the <a href='/a/entity_phrommachat/'>phrommachat</a>, the lucky and forbidden days of the <a href='/a/entity_holasat/'>horā almanac</a>, the moon's own <a href='/moon'>complication</a>. This page is the other end of the same subject. Here a year is <em>spent</em>.</p><div class=note><strong>How claims are marked, throughout.</strong> Plain prose comes from a source named at the foot of the page. <span class=mark>Inference &mdash;</span> is my own reasoning across those sources. <span class=mark>Tradition holds &mdash;</span> is general background, hedged on purpose. A month written with a <strong>~</strong> is one I could not verify. Nothing here comes from the palm-leaf catalogue this site is built on, and the last section says why.</div><h2>First, the names</h2><p><span class=term><span class=sc>ชาวเขา</span></span> <em>chao khao</em> /chaaw kʰǎw/ &mdash; <span class=sc>ชาว</span> <em>chao</em> &ldquo;the folk of&rdquo; + <span class=sc>เขา</span> <em>khao</em> &ldquo;hill, mountain&rdquo; &mdash; is a Thai administrative category, not a people. It was the frame the state worked in: the 1971 study quoted throughout this page opens by placing the Akha among &ldquo;the six major tribal groups included within the research program of the Tribal Research Centre located in Chiang Mai&rdquo;. Six groups is an office's number, not a hillside's.</p><p>So the peoples get their own names here: <strong>Hmong</strong> (<span class=sc>ม้ง</span>), <strong>Akha</strong> (<span class=sc>อาข่า</span>), <strong>Lisu</strong> (<span class=sc>ลีซู</span>), <strong>Lahu</strong> (<span class=sc>ลาหู่</span>), <strong>Iu Mien</strong> (<span class=sc>เมี่ยน</span>), <strong>Karen</strong> (<span class=sc>ปกาเกอะญอ</span>), <strong>Lua</strong> (<span class=sc>ลัวะ</span>). Their calendars are not the same calendar, which is the whole reason to name them separately on a page about calendars.</p><p><span class=term><span class=sc>ฝิ่น</span></span> <em>fin</em> /fìn/ is the poppy and its gum both. <span class=mark>Tradition holds &mdash;</span> the word belongs to the Old-World chain that also gave English <em>opium</em>: Greek <span class=sc>ὄπιον</span> <em>ópion</em>, a diminutive of <span class=sc>ὀπός</span> <em>opós</em> &ldquo;plant sap&rdquo;, through Arabic and Persian <span class=sc>أفيون</span> <em>afyūn</em>. Which leg of the trade carried it into Thai, I have not pinned down and do not assert. <span class=term><span class=sc>กาแฟ</span></span> <em>kafae</em> /kaa-fɛɛ/ came the short way, from French <em>café</em>, itself from Arabic <span class=sc>قهوة</span> <em>qahwa</em>.</p><h2>The year, drawn</h2><figure class=fig><svg class=wheel viewBox='0 0 760 760' xmlns='http://www.w3.org/2000/svg' role='img' aria-labelledby='wtitle wdesc'><title id=wtitle>The highland agricultural year</title><desc id=wdesc>A twelve-month wheel, January at the top, running clockwise. Reading outward from the centre: coffee, opium poppy, maize, upland rice, and the ceremony ring. The poppy is sown in September and October, the same weeks the rice is harvested, and lanced in January and February. Coffee is picked from November to February — the same slot the poppy harvest occupied. The two bracketed spans mark those windows. The full month-by-month table follows below.</desc><defs><filter id='rough' x='-8%' y='-8%' width='116%' height='116%'><feTurbulence type='fractalNoise' baseFrequency='0.017' numOctaves='3' seed='7' result='n'/><feDisplacementMap in='SourceGraphic' in2='n' scale='4' xChannelSelector='R' yChannelSelector='G'/></filter></defs><g class=spokes><line x1='380.0' y1='302.0' x2='380.0' y2='76.0'/><line x1='419.0' y1='312.5' x2='532.0' y2='116.7'/><line x1='447.5' y1='341.0' x2='643.3' y2='228.0'/><line x1='458.0' y1='380.0' x2='684.0' y2='380.0'/><line x1='447.5' y1='419.0' x2='643.3' y2='532.0'/><line x1='419.0' y1='447.5' x2='532.0' y2='643.3'/><line x1='380.0' y1='458.0' x2='380.0' y2='684.0'/><line x1='341.0' y1='447.5' x2='228.0' y2='643.3'/><line x1='312.5' y1='419.0' x2='116.7' y2='532.0'/><line x1='302.0' y1='380.0' x2='76.0' y2='380.0'/><line x1='312.5' y1='341.0' x2='116.7' y2='228.0'/><line x1='341.0' y1='312.5' x2='228.0' y2='116.7'/></g><g filter='url(#rough)'><g class='ring ring-ceremony'><circle cx='380.0' cy='380.0' r='281' fill='none' stroke='#1F4E4A' stroke-opacity='.07' stroke-width='38'/><path d='M223.7,636.1 A300,300 0 0 1 123.9,536.3 L156.4,516.5 A262,262 0 0 0 243.5,603.6 Z' fill='#1F4E4A' fill-opacity='1'><title>Aug: Akha Swinging Ceremony · 4 days</title></path><path d='M80.1,372.7 A300,300 0 0 1 116.6,236.4 L150.0,254.6 A262,262 0 0 0 118.1,373.6 Z' fill='#1F4E4A' fill-opacity='.42'><title>Oct: Akha rite to drive out sickness</title></path><path d='M123.9,223.7 A300,300 0 0 1 636.1,223.7 L603.6,243.5 A262,262 0 0 0 156.4,243.5 Z' fill='#1F4E4A' fill-opacity='1'><title>Nov&ndash;Feb: Hmong New Year · noj peb caug, Lisu & Lahu New Year</title></path></g><g class='ring ring-rice'><circle cx='380.0' cy='380.0' r='235' fill='none' stroke='#8a6a12' stroke-opacity='.07' stroke-width='38'/><path d='M603.0,258.4 A254,254 0 0 1 258.4,603.0 L276.6,569.6 A216,216 0 0 0 569.6,276.6 Z' fill='#8a6a12' fill-opacity='.42'><title>Mar&ndash;Jul: cut & dry the swidden, burn, then sow, weeding</title></path><path d='M157.0,501.6 A254,254 0 0 1 157.0,258.4 L190.4,276.6 A216,216 0 0 0 190.4,483.4 Z' fill='#8a6a12' fill-opacity='1'><title>Sep&ndash;Oct: HARVEST</title></path><path d='M163.2,247.7 A254,254 0 0 1 247.7,163.2 L267.5,195.6 A216,216 0 0 0 195.6,267.5 Z' fill='#8a6a12' fill-opacity='.42'><title>Nov: thresh & store</title></path></g><g class='ring ring-maize'><circle cx='380.0' cy='380.0' r='193' fill='none' stroke='#b07a2a' stroke-opacity='.07' stroke-width='30'/><path d='M587.9,385.1 A208,208 0 0 1 202.5,488.4 L228.1,472.7 A178,178 0 0 0 557.9,384.3 Z' fill='#b07a2a' fill-opacity='.42'><title>Apr&ndash;Aug: plant, weeding, cobs in, stalks hoed under</title></path></g><g class='ring ring-poppy'><circle cx='380.0' cy='380.0' r='151' fill='none' stroke='#9c3b4c' stroke-opacity='.07' stroke-width='38'/><path d='M384.2,210.1 A170,170 0 0 1 525.1,291.4 L492.7,311.2 A132,132 0 0 0 383.2,248.0 Z' fill='#9c3b4c' fill-opacity='1'><title>Jan&ndash;Feb: flowering, LANCING</title></path><path d='M291.4,525.1 A170,170 0 0 1 234.9,468.6 L267.3,448.8 A132,132 0 0 0 311.2,492.7 Z' fill='#9c3b4c' fill-opacity='.42'><title>Aug: field prepared</title></path><path d='M230.7,461.4 A170,170 0 0 1 230.7,298.6 L264.1,316.8 A132,132 0 0 0 264.1,443.2 Z' fill='#9c3b4c' fill-opacity='1'><title>Sep&ndash;Oct: SOWING</title></path><path d='M234.9,291.4 A170,170 0 0 1 375.8,210.1 L376.8,248.0 A132,132 0 0 0 267.3,311.2 Z' fill='#9c3b4c' fill-opacity='.42'><title>Nov&ndash;Dec: weeding seedlings, flowering</title></path></g><g class='ring ring-coffee'><circle cx='380.0' cy='380.0' r='105' fill='none' stroke='#4b3826' stroke-opacity='.07' stroke-width='38'/><path d='M488.9,320.6 A124,124 0 1 1 271.1,320.6 L304.5,338.8 A86,86 0 1 0 455.5,338.8 Z' fill='#4b3826' fill-opacity='.42'><title>Mar&ndash;Oct: prune & mulch, cherries filling</title></path><path d='M274.2,315.4 A124,124 0 0 1 485.8,315.4 L453.4,335.2 A86,86 0 0 0 306.6,335.2 Z' fill='#4b3826' fill-opacity='1'><title>Nov&ndash;Feb: PICKING, flowering</title></path></g></g><g class=hl><title>September–October: rice in and poppy down, the same weeks</title><path d='M103.6,533.2 A316,316 0 0 1 103.6,226.8'/><line x1='111.5' y1='528.8' x2='95.7' y2='537.6'/><line x1='111.5' y1='231.2' x2='95.7' y2='222.4'/></g><g class=hl><title>December–February: the harvest slot the poppy held and coffee took</title><path d='M226.8,103.6 A316,316 0 0 1 650.9,217.2'/><line x1='231.2' y1='111.5' x2='222.4' y2='95.7'/><line x1='643.2' y1='221.9' x2='658.6' y2='212.6'/></g><g class=mlab><text x='469.0' y='54.7'>Jan</text><text x='623.2' y='143.8'>Feb</text><text x='712.3' y='298.0'>Mar</text><text x='712.3' y='476.0'>Apr</text><text x='623.2' y='630.2'>May</text><text x='469.0' y='719.3'>Jun</text><text x='291.0' y='719.3'>Jul</text><text x='136.8' y='630.2'>Aug</text><text x='47.7' y='476.0'>Sep</text><text x='47.7' y='298.0'>Oct</text><text x='136.8' y='143.8'>Nov</text><text x='291.0' y='54.7'>Dec</text></g><circle class=hub cx='380.0' cy='380.0' r='74'/><text class='hub-th' x='380.0' y='366.0'>ฝิ่น</text><text class='hub-th' x='380.0' y='406.0'>กาแฟ</text><line class=hubrule x1='346.0' y1='379.0' x2='414.0' y2='379.0'/></svg><div class=key><span><i style='background:#1F4E4A'></i>Ceremonies</span><span><i style='background:#8a6a12'></i>Upland rice</span><span><i style='background:#b07a2a'></i>Maize</span><span><i style='background:#9c3b4c'></i>Opium poppy</span><span><i style='background:#4b3826'></i>Coffee (from 1969)</span><span><i style='background:transparent;border:2px dashed var(--ink)'></i>the two contested windows</span></div><figcaption>Reading outward from the centre: coffee, opium poppy, maize, upland rice, ceremonies. Solid blocks are the all-hands weeks; pale blocks are ordinary work. The two dashed wedges are the argument of this page. <strong>September&ndash;October</strong> is the crunch: the rice has to come in and the poppy has to go down in the same weeks, in different fields. <strong>December&ndash;February</strong> is the slot the poppy harvest held and coffee later took &mdash; hand work, repeated passes, the same cold dry end of the year. The poppy ring is the Hmong-type upland succession; the others farmed years that overlapped it without matching it.</figcaption></figure><figure class=fig><svg class=strip viewBox='0 0 760 262' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Poppy year and coffee year compared, month by month. The poppy needs September and October for sowing and January and February for lancing; coffee needs nothing in September or October and is picked from November to February.'><text class=sm x='122' y='28' text-anchor='middle'>Jan</text><text class=sm x='174' y='28' text-anchor='middle'>Feb</text><text class=sm x='226' y='28' text-anchor='middle'>Mar</text><text class=sm x='278' y='28' text-anchor='middle'>Apr</text><text class=sm x='330' y='28' text-anchor='middle'>May</text><text class=sm x='382' y='28' text-anchor='middle'>Jun</text><text class=sm x='434' y='28' text-anchor='middle'>Jul</text><text class=sm x='486' y='28' text-anchor='middle'>Aug</text><text class=sm x='538' y='28' text-anchor='middle'>Sep</text><text class=sm x='590' y='28' text-anchor='middle'>Oct</text><text class=sm x='642' y='28' text-anchor='middle'>Nov</text><text class=sm x='694' y='28' text-anchor='middle'>Dec</text><text class=rowlab x='88' y='77' text-anchor='end'>Poppy</text><rect x='98' y='42' width='48' height='54' fill='#9c3b4c' fill-opacity='1' rx='4'><title>Jan: flowering, LANCING</title></rect><rect x='150' y='42' width='48' height='54' fill='#9c3b4c' fill-opacity='1' rx='4'><title>Feb: flowering, LANCING</title></rect><rect x='462' y='42' width='48' height='54' fill='#9c3b4c' fill-opacity='.40' rx='4'><title>Aug: field prepared</title></rect><rect x='514' y='42' width='48' height='54' fill='#9c3b4c' fill-opacity='1' rx='4'><title>Sep: SOWING</title></rect><rect x='566' y='42' width='48' height='54' fill='#9c3b4c' fill-opacity='1' rx='4'><title>Oct: SOWING</title></rect><rect x='618' y='42' width='48' height='54' fill='#9c3b4c' fill-opacity='.40' rx='4'><title>Nov: weeding seedlings, flowering</title></rect><rect x='670' y='42' width='48' height='54' fill='#9c3b4c' fill-opacity='.40' rx='4'><title>Dec: weeding seedlings, flowering</title></rect><rect class=trough x='96.0' y='40' width='624' height='58' rx='6'/><text class=rowlab x='88' y='173' text-anchor='end'>Coffee</text><rect x='202' y='138' width='48' height='54' fill='#4b3826' fill-opacity='.40' rx='4'><title>Mar: prune & mulch, cherries filling</title></rect><rect x='254' y='138' width='48' height='54' fill='#4b3826' fill-opacity='.40' rx='4'><title>Apr: prune & mulch, cherries filling</title></rect><rect x='306' y='138' width='48' height='54' fill='#4b3826' fill-opacity='.40' rx='4'><title>May: prune & mulch, cherries filling</title></rect><rect x='358' y='138' width='48' height='54' fill='#4b3826' fill-opacity='.40' rx='4'><title>Jun: prune & mulch, cherries filling</title></rect><rect x='410' y='138' width='48' height='54' fill='#4b3826' fill-opacity='.40' rx='4'><title>Jul: prune & mulch, cherries filling</title></rect><rect x='462' y='138' width='48' height='54' fill='#4b3826' fill-opacity='.40' rx='4'><title>Aug: prune & mulch, cherries filling</title></rect><rect x='514' y='138' width='48' height='54' fill='#4b3826' fill-opacity='.40' rx='4'><title>Sep: prune & mulch, cherries filling</title></rect><rect x='566' y='138' width='48' height='54' fill='#4b3826' fill-opacity='.40' rx='4'><title>Oct: prune & mulch, cherries filling</title></rect><rect x='618' y='138' width='48' height='54' fill='#4b3826' fill-opacity='1' rx='4'><title>Nov: PICKING, flowering</title></rect><rect x='670' y='138' width='48' height='54' fill='#4b3826' fill-opacity='1' rx='4'><title>Dec: PICKING, flowering</title></rect><rect x='98' y='138' width='48' height='54' fill='#4b3826' fill-opacity='1' rx='4'><title>Jan: PICKING, flowering</title></rect><rect x='150' y='138' width='48' height='54' fill='#4b3826' fill-opacity='1' rx='4'><title>Feb: PICKING, flowering</title></rect><rect class=trough x='96.0' y='136' width='624' height='58' rx='6'/><rect class=gap x='508' y='30' width='112' height='174' rx='8'/><text class=sm x='564' y='224' text-anchor='middle'>peak above, nothing below</text></svg><figcaption>The same two crops, straightened out. Coffee asks nothing of September and October &mdash; the months the poppy fought the rice for.</figcaption></figure><table><caption class=vh>The highland year, month by month</caption><thead><tr><th>Month</th><th>Upland rice</th><th>Maize</th><th>Opium poppy</th><th>Coffee</th><th>Ceremony</th></tr></thead><tbody><tr><td class=mo>January</td><td>—</td><td>—</td><td>lancing and collecting</td><td>picking</td><td>Lisu New Year (lunar) · Lahu New Year, twelve days, no fixed date</td></tr><tr><td class=mo>February</td><td>—</td><td>—</td><td>lancing ends; field cleared</td><td>picking ends · flowering</td><td>Lisu & Lahu New Year</td></tr><tr><td class=mo>March</td><td>cut and dry the swidden</td><td>—</td><td>—</td><td>prune, mulch</td><td>—</td></tr><tr><td class=mo>April</td><td>burn, then sow</td><td>plant</td><td>—</td><td>prune · cherries set</td><td>—</td></tr><tr><td class=mo>May</td><td>sow, first weeding</td><td>weeding</td><td>—</td><td>cherries filling</td><td>—</td></tr><tr><td class=mo>June</td><td>weeding</td><td>weeding</td><td>—</td><td>cherries filling</td><td>—</td></tr><tr><td class=mo>July</td><td>weeding</td><td>first cobs</td><td>—</td><td>cherries filling</td><td>—</td></tr><tr><td class=mo>August</td><td>rice maturing</td><td>cobs in; stalks hoed under</td><td>field prepared in the maize plot</td><td>cherries filling</td><td>Akha Swinging Ceremony — four days, nobody works the fields</td></tr><tr><td class=mo>September</td><td><span class=peak>HARVEST</span></td><td>—</td><td><span class=peak>SOWING</span></td><td>cherries filling</td><td>—</td></tr><tr><td class=mo>October</td><td>harvest ends</td><td>—</td><td>sowing must be finished</td><td>cherries ripening</td><td>~Akha rite to drive out sickness</td></tr><tr><td class=mo>November</td><td>thresh and store</td><td>—</td><td>weeding seedlings</td><td><span class=peak>PICKING BEGINS</span></td><td>Hmong New Year — noj peb caug, after the harvest</td></tr><tr><td class=mo>December</td><td>—</td><td>—</td><td>weeding; flowering begins</td><td>picking</td><td>Hmong New Year</td></tr></tbody></table><h2>Why the poppy fitted the hill</h2><p>Not romance, and not appetite. Fit.</p><p><strong>It grew where the state was not, and where little else paid.</strong> Poppy went in above roughly 1,000 m; a British consul watching plantations in 1905&ndash;06 put them at five to six thousand feet. That is the band above the wet-rice valleys, and until roads arrived it was a band with no way to move a bulky crop out.</p><p><strong>It followed the maize out of the same field.</strong> This is the part the wheel shows best. The maize cobs come in through July and August; in August the dry stalks and the weeds are hoed under, and the poppy is sown into that ground in September and October. Maize and poppy are one succession, not two crops. It also lasted: a rice swidden was good for two or three years, a maize field for something like eight.</p><p><strong>It wanted the months nothing else wanted.</strong> Flowering in December, lancing through January and February &mdash; the cold, dry weeks when the rice is already threshed and stored and the next swidden has not been cut.</p><p><strong>It was money that walked.</strong> Light, non-perishable, and bought at the village by a trader who came to you. Nothing else grown up there in 1960 had those three properties at once.</p><p><strong>It was also the medicine chest.</strong> In the highlands opium was used against aches, pain, fever, diarrhoea and coughs &mdash; which is to say against exactly the things that kill people a long walk from a clinic. The manuscript tradition catalogued on this site has its own <a href='/a/genre_medicine/'>medical genre</a>, written down in the valleys; this was the highland equivalent, and it was a crop rather than a text.</p><p><strong>And it cost the household its address.</strong> Geddes argued that the commitment to poppy was the main reason the Blue Hmong of 1960s Thailand moved so often between settlements &mdash; not restlessness, but the search for new poppy ground. <span class=mark>Inference &mdash;</span> the crop that paid best was also the crop that exhausted soil you could not replace, so the calendar was stable and the map was not.</p><h3>The labour, counted</h3><p>Rice and opium have been measured at about the same intensity, roughly 220 person-days per hectare each; maize at about 80. <span class=mark>Inference &mdash;</span> that is the crunch in one line. Two crops of equal appetite, whose peak weeks are eight weeks apart at best and overlapping at worst, grown by the same hands.</p><h2>The lancing</h2><p>The harvest is the reason the whole calendar bends. A poppy capsule is scored shallowly &mdash; a millimetre or two, with a small multi-bladed knife &mdash; and the latex that beads out is left to thicken overnight and scraped off at first light. One capsule is worked several times, a couple of days apart, so a field is not harvested once but walked repeatedly for weeks, at dawn, by everyone who can walk it. Cut too shallow and nothing comes; too deep and the pod is spoiled. That is a skilled job with a short window and no way to hire your way out of it in a village of forty houses.</p><p><span class=mark>Inference &mdash;</span> carry that shape into the coffee section below. Repeated passes, ripeness judged by eye, a window measured in weeks, every hand in the household. The crop changed. The shape of the work did not.</p><h2>The festival months</h2><p>Now the part that makes the wheel a year rather than a chart.</p><h3>August &mdash; the Akha Swinging Ceremony</h3><p>It is always in August, the tenth lunar month of the Akha calendar, and it runs four days. But it does not fall on a date. It falls on the village headman's own auspicious animal-day, and each year the old men meet at his house to work out which day that is. In Saen Chai village in Mae Chan district in 1967 the headman's day was the day of the buffalo, so the four days ran ant, buffalo, tiger, horse &mdash; the ceremony starting one day before his day so that his day is the day the swings go up.</p><p>The ceremony is held for the maturing of the planted rice, and it belongs to a female god: Umsahyeh, whom the Akha regard as their first female ancestor and who is credited with starting it. (The scan of the 1971 article renders her name three ways &mdash; Umsahyeh, Umsahyee, Umsahyeb &mdash; and I am not going to silently pick one.) Because the god is female the ceremony belongs to the women, who wear everything they have made that year. It has since been called the women's new year.</p><p>A girl's passage into womanhood is measured in these ceremonies, one piece of dress at a time: at fifteen her hat is decorated with red and white beads; then the brassiere; then the belt; then, at the fourth ceremony, the high headdress. Four steps, four ceremonies. You cannot grow up faster than the calendar.</p><p>The village's great swing stands all year and nobody may cut or chip its posts: the fine is one pig, paid to the headman. The small swings built for the children come down when the four days end.</p><p>And twice, plainly, in the ethnographer's own words: <strong>no one goes to the fields</strong> during the ceremony. <strong>Nobody works the fields.</strong></p><h3>November&ndash;December &mdash; Hmong New Year</h3><p><span class=term>noj peb caug</span> &mdash; <em>noj</em> &ldquo;eat&rdquo; + <em>peb</em> &ldquo;three&rdquo; + <em>caug</em> &ldquo;ten&rdquo; &mdash; &ldquo;eat thirty&rdquo;, for the thirtieth and last day of the twelfth lunar month, the end of the harvest year. It is held once the crop is in and stored, and it is explicitly the point at which people rest.</p><h3>January&ndash;February &mdash; Lisu and Lahu New Year</h3><p>Lisu New Year (<em>Nyi Ma</em>) follows the lunar calendar, so late January or early February, and opens with a sombre ancestor rite before anything else. Lahu New Year (<em>Kho Jouw We</em>) runs <strong>twelve days</strong> and has no fixed date at all &mdash; it happens when the harvest is finished.</p><div class=note><span class=mark>Inference &mdash;</span> a twelve-day festival with no date on it is the clearest evidence available that these are scheduled <em>into</em> the work rather than against it. You can only afford twelve days at one point in the year, and a calendar that names the point instead of the date will never be wrong about it. Set the four festivals on the wheel and they sit in the thin months: August, when the rice is standing but not ready and the poppy ground is only just being turned; and the run from November to February, on either side of the lancing.</div><h2>How a date gets set: the twelve</h2><p>The Akha count in twelves. A year has twelve months of thirty days; a month has five weeks of five, six or seven days; the days run in a cycle of twelve animals, and the same twelve name the years. Printed exactly as the 1971 article prints them:</p><ul class=twelve><li><b>1</b> &nbsp;the day of the ant</li><li><b>2</b> &nbsp;the day of the buffalo</li><li><b>3</b> &nbsp;the day of the tiger</li><li><b>4</b> &nbsp;the day of the horse</li><li><b>5</b> &nbsp;the day of the rabbit</li><li><b>6</b> &nbsp;the day of the termite</li><li><b>7</b> &nbsp;the day of the mule</li><li><b>8</b> &nbsp;the day of the giraffe</li><li><b>9</b> &nbsp;the day of the monkey</li><li><b>10</b> &nbsp;the day of the chicken</li><li><b>11</b> &nbsp;the day of the dog</li><li><b>12</b> &nbsp;the day of the pig</li></ul><p>Read that list against the twelve this site already knows &mdash; the cycle behind the <a href='/a/entity_phrommachat/'>phrommachat</a>, in which the horse is the seventh year and the <a href='/a/entity_chang/'>elephant</a> the twelfth, and in which the <a href='/a/entity_ma/'>horse</a> carries a whole literature of its own.</p><p><span class=mark>Inference &mdash;</span> this looks like the Sino-Tibetan twelve reworked by people who kept the count and swapped the animals for the ones on their own hillside: an ant where the rat goes, a termite where the dragon or the serpent goes, a mule where the goat goes. The <em>giraffe</em> at position eight is odd enough that I would want it checked against an Akha-language source before anyone builds on it &mdash; it is far more likely to be a 1971 gloss of a local word than a giraffe.</p><p>Two things follow that matter for the wheel. First, an Akha ceremony has a <em>month</em> from the farming year and a <em>day</em> from the animal cycle, and the two are independent registers &mdash; which is why the four days of the Swinging Ceremony can be named &ldquo;ant, buffalo, tiger, horse&rdquo; and still be in August. Second, and this is a finding rather than a flourish: <strong>there is no rat in the list.</strong></p><h2>The rat-catching season</h2><div class=open><strong>This one is open, and it is the best question on the page.</strong> I saw the year drawn by hand, on a wall, at the <strong>House of Opium</strong> in Sop Ruak &mdash; the small museum founded in 1989 by Phatcharee Srimathayakun, near <a href='/a/province_Chiang_Rai/'>Chiang Rai</a>'s river junction &mdash; and that year carried whole festival months and a marked <strong>rat-catching season</strong>. The panel is the source, and it is a good one: a museum in the district drew the year the way the year was lived there. What I have not found is any published hill-tribe calendar that labels the block, or a note of which people's year the panel drew.</div><p>Here is what the literature does support, and it is enough to say the season is a mechanism rather than a quirk. Upland rice in this region suffers rodent outbreaks driven by <strong>bamboo masting</strong>: a bamboo stand flowers gregariously, seeds enormously, the rats eat the seed and multiply, the seed runs out, and the swollen population moves onto the rice. Trap-barrier systems have been studied against exactly that. Separately, and routinely, field rats are taken in Thai fields with bamboo bow-and-deadfall traps, the catching pegged to the harvest, and eaten &mdash; a lean, high-protein meat, and in the north a seasonal one.</p><p><span class=mark>Inference &mdash;</span> put those together and a rat-catching season is not a hunting hobby squeezed between crops. It is crop defence that happens to feed you, at the one moment it works: when the rice is cut, the cover is gone, the stubble is open, and the animals that have been eating the harvest are concentrated, fat and findable. A calendar drawn by farmers would mark that. A calendar drawn by an agronomist would call it pest control and put it in a different chapter.</p><p><strong>To close it:</strong> photograph the panel, front on, with any caption; ask the museum what it was drawn from. A chart of that kind most likely descends from the Tribal Research Centre in Chiang Mai, whose survey work is named in the 1971 article above. Until then this section stays marked as open, and no later pass should quietly promote it.</p><h2>Then coffee</h2><p>The substitution is usually told as a moral story. Told as a calendar it is more interesting, because it turns out that what replaced the poppy replaced its <em>schedule</em> almost exactly, and then broke something else.</p><p>The Royal Project began in 1969. Eradication did not begin until 1985 &mdash; the sequence is the point: the projects had to be earning the growers a living before the poppy was taken away, and removal was mostly negotiated rather than imposed. More than 150 replacement crops were introduced over the years, arabica coffee among them, along with tea, cabbage, apple and cut flowers. At Doi Tung, from the late 1980s, Princess Srinagarindra's project gave residents land-use titles and backed coffee and macadamia. Poppy went from 12,112 hectares in 1961 to 281 in 2015, a 97 per cent fall between 1985 and 2015, and it has not come back. Coffee, for its part, took more than three decades to become worth growing in Chiang Rai.</p><p>Arabica in the north now runs across <a href='/a/province_Chiang_Rai/'>Chiang Rai</a>, <a href='/a/province_Chiang_Mai/'>Chiang Mai</a>, <a href='/a/province_Lampang/'>Lampang</a>, <a href='/a/province_Mae_Hong_Son/'>Mae Hong Son</a> and <a href='/a/province_Tak/'>Tak</a>, between about 800 and 1,600 m. It flowers in February, fills its cherries from April to October, and is picked from November to February.</p><h3>What that did to the year</h3><p><span class=mark>Inference &mdash;</span> four things, and only the first is the one usually told.</p><ul><li><strong>It took the same slot.</strong> Poppy was lanced January and February; coffee is picked November to February. Both are hand work, judged by eye, walked in repeated passes over weeks, at the cold dry end of the year. The peak of the highland year did not move.</li><li><strong>It vacated September and October.</strong> This is the quiet win and nobody puts it on a poster. The crunch &mdash; sow the poppy while the rice must come in &mdash; simply stops existing, because coffee wants nothing at all in those two months.</li><li><strong>It put weight into November and December</strong>, where the poppy asked only for weeding, and where Hmong New Year sits. Whether picking now runs across the festival, or the festival is worked around, or neither &mdash; I do not know, and it is not answerable from a desk. It is answerable in a village in December.</li><li><strong>It changed the tenure, not just the crop.</strong> Poppy was an annual on a shifting field; the field moved, and the household moved with it. Coffee is a perennial that yields nothing for three or four years and then yields for decades. You cannot walk away from it, and you cannot plant it unless you are certain of still being there in year four. That is why the answer at Doi Tung was land-use titles and not merely seedlings &mdash; and it is the deepest change of the two. The calendar survived the substitution. The mobility did not.</li></ul><h2>What is not settled</h2><ul><li><strong>The rat block.</strong> Above. Needs the panel photographed.</li><li><strong>The giraffe</strong> at position eight of the Akha twelve, and the three spellings of Umsahyeh &mdash; both artefacts of a scanned 1971 page, both wanting an Akha-language check.</li><li><strong>One wheel, several years.</strong> The crop rings drawn here are the Hmong-type upland succession. The Akha, Lisu, Lahu, Iu Mien, Karen and Lua farmed years that overlap it without matching it, and drawing one wheel where there were several is a simplification made deliberately and stated here rather than hidden.</li><li><strong>The October Akha rite</strong> against sickness is marked ~ because I have its approximate month from a Thai provincial source and no more.</li><li><strong>Whether coffee picking collides with Hmong New Year</strong> in practice, now, in a particular village.</li><li><strong>None of this is in the catalogue.</strong> The manuscripts this site is built on are Tai Yuan, Tai Lue and Tai Khün monastic material from the valley wats &mdash; law, liturgy, medicine, astrology, chronicle. Highland swidden agriculture is not in them, and the absence is structural, not an accident of collecting: a calendar kept on a hillside above the wat was never going to be in the wat's library. Search <a href='/search'>the corpus</a> for the poppy and you will get nothing, and that nothing is the correct answer.</li></ul><h2>Where this comes from</h2><ul class=src><li><strong>The Akha ceremony, the twelve-day cycle, the Tribal Research Centre, and both statements that nobody works the fields</strong> &mdash; Chob Kacha-ananda, &ldquo;The Akha Swinging Ceremony&rdquo;, <em>Journal of the Siam Society</em> 59.1 (1971), pp. 119&ndash;128, read from the Siam Society's own scan. Fieldwork at Saen Chai village, Mae Chan district, 1967.</li><li><strong>The rat-catching season on a hand-drawn year-wheel</strong> &mdash; my own visit to the House of Opium, Sop Ruak. Marked open above.</li><li><strong>The Hmong crop calendar</strong> (maize in April, cobs June&ndash;July, poppy ground prepared in August, sown September&ndash;October against the rice harvest, weeded November and December) and the maize&ndash;poppy succession, field lifetimes and labour intensities &mdash; summaries of W. R. Geddes, <em>Migrants of the Mountains: The Cultural Ecology of the Blue Miao (Hmong Njua) of Thailand</em> (Oxford, 1976), and of Gary Yia Lee on agriculture and Hmong society. Read at one remove, and worth reading at first hand before the numbers are used for anything.</li><li><strong>Altitude, opium as household medicine, and the 1985 cut-off</strong> &mdash; a 2026 study of rice and food security in the northern Thai highlands, working across Mae Hong Son, Chiang Mai, Chiang Rai, Lampang and Tak with Karen, Lua, Khmu, Hmong, Lahu, Akha, Mien and Lisu communities.</li><li><strong>Lancing method</strong> &mdash; agricultural extension literature on <em>Papaver somniferum</em>, described here historically and in outline only.</li><li><strong>Hmong New Year</strong> &mdash; <em>noj peb caug</em> and its position at the close of the harvest year, from Hmong-language vocabulary sources and community accounts.</li><li><strong>Lisu and Lahu New Year</strong> &mdash; <em>Nyi Ma</em> on the lunar calendar; <em>Kho Jouw We</em>, twelve days, timed to the end of the harvest.</li><li><strong>The substitution figures</strong> &mdash; Thai Ministry of Foreign Affairs, &ldquo;From Poppy to Coffee&rdquo;; the Doi Tung project record; UNODC-derived hectare series for 1961 and 2015.</li><li><strong>The arabica calendar</strong> &mdash; northern Thai producer and trade accounts: flowering February, cherries filling April&ndash;October, picking November&ndash;February at 800&ndash;1,600 m.</li><li><strong>Bamboo masting and rodent outbreaks in upland rice</strong> &mdash; trap-barrier research on rodent damage during masting events; field-rat trapping and consumption from Thai reporting.</li></ul><p class=lead style='margin-top:34px'>I saw this year drawn once, by hand, on a wall in Sop Ruak. This is the same year drawn again, with the parts I could source separated from the parts I could not.</p></main><button id=tomenu aria-label='Back to menu' onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650; Menu</button><script>(function(){var b=document.getElementById('tomenu');if(!b)return;var f=function(){b.classList.toggle('show',(window.scrollY||0)>320);};addEventListener('scroll',f,{passive:true});f();})();</script><div id=sharebar aria-label='Share this page'><span class=shlabel>Share</span><button class=shbtn data-sh=native title='Share…' hidden>&#10148;</button><button class=shbtn data-sh=copy title='Copy link'>&#128279;</button><button class=shbtn data-sh=fb title='Share on Facebook'>f</button><button class=shbtn data-sh=line title='Share on LINE'>L</button><button class=shbtn data-sh=tg title='Share on Telegram'>&#9992;</button></div><script>(function(){var bar=document.getElementById('sharebar');if(!bar)return;function toast(m){var t=document.createElement('div');t.className='shtoast';t.textContent=m;document.body.appendChild(t);setTimeout(function(){t.remove();},1800);}function links(u,t){return {fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};}function shareUrl(url,title){var u=encodeURIComponent(url),t=encodeURIComponent((title||'').replace(/\s+[—-]\s+wichaa.*$/i,''));return {u:u,t:t};}window.__share=function(url,title){url=url||location.href;title=title||document.title;if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});return;}if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){toast('Link copied');},function(){});}else toast(url);};var nat=bar.querySelector('[data-sh=native]');if(navigator.share&&nat)nat.hidden=false;bar.addEventListener('click',function(e){var el=e.target.closest('[data-sh]');if(!el)return;var k=el.getAttribute('data-sh');var s=shareUrl(location.href,document.title);if(k==='native'){window.__share();return;}if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){toast('Link copied');},function(){toast(location.href);});}else toast(location.href);return;}var m=links(s.u,s.t);if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script><a id=kofloat href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener aria-label='Support this work on Ko-fi' style="position:fixed;right:16px;bottom:16px;z-index:40;background:#fbf1dc;color:#8a5a00;border:1px solid #e6d3a8;border-radius:999px;padding:11px 16px;font-weight:700;font-size:14.5px;text-decoration:none;box-shadow:0 6px 18px #0002">&#9749; Support</a></body></html>
