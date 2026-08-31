@@ -161,6 +161,221 @@
      "head": 0,
      "lit": "wealth + hire",
      "frame": "entity"
+    },
+    {
+     "th": "ทรัพย์สิน",
+     "rtgs": "sap-sin",
+     "ipa": "/sap̚˦˥.sin˩˩˦/",
+     "gloss": {
+      "en": [
+       "substance",
+       "means",
+       "property"
+      ],
+      "th": "วัตถุที่มีรูปร่าง รวมทั้งวัตถุที่ไม่มีรูปร่างซึ่งอาจมีราคาและอาจถือเอาได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทรัพย์",
+      "สิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เงินตรา + เงิน",
+     "flips_with": "สินทรัพย์",
+     "frame": "entity"
+    },
+    {
+     "th": "สินเชื่อ",
+     "rtgs": "sin-chuea",
+     "ipa": "/sin˩˩˦.t͡ɕʰɯa̯˥˩/",
+     "gloss": {
+      "en": [
+       "credit"
+      ],
+      "th": "เงินที่ให้เป็นหนี้ไว้ด้วยความเชื่อ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิน",
+      "เชื่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "wealth + believe",
+     "lit_th": "เงิน + เห็นตามด้วย"
+    },
+    {
+     "th": "สินค้า",
+     "rtgs": "sin-kha",
+     "ipa": "/sin˩˩˦.kʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "goods"
+      ],
+      "th": "สิ่งของที่ซื้อขายกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิน",
+      "ค้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "เงิน + ซื้อขายสินค้าหรือบริการ"
+    },
+    {
+     "th": "สินสอด",
+     "rtgs": "sin-sot",
+     "ipa": "/sin˩˩˦.sɔːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงินที่ฝ่ายชายให้แก่บิดามารดาหญิงที่จะแต่งงานเป็นค่าน้ำนม ข้าวป้อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิน",
+      "สอด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "เงิน + เสือกหรือใส่เข้าไปในช่องหรือในระหว"
+    },
+    {
+     "th": "สินบน",
+     "rtgs": "sin-bon",
+     "ipa": "/sin˩˩˦.bon˧/",
+     "gloss": {
+      "en": [
+       "meed"
+      ],
+      "th": "ทรัพย์หรือสิ่งของที่จะให้เป็นเครื่องบูชาคุณหรือตอบแทนผู้ที่จะช่วยให้สำเร็จตามประสงค์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิน",
+      "บน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "wealth + above",
+     "lit_th": "เงิน + เบื้องสูง",
+     "frame": "quality"
+    },
+    {
+     "th": "ออมสิน",
+     "rtgs": "om-sin",
+     "ipa": "/ʔɔːm˧.sin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อธนาคารหนึ่งของไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออม",
+      "สิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เก็บหอมรอมริบ + เงิน"
+    },
+    {
+     "th": "สินไหม",
+     "rtgs": "sin-mai",
+     "ipa": "/sin˩˩˦.maj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ค่าเสียหายที่ฝ่ายแพ้คดีต้องจ่ายให้แก่ผู้ชนะคดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิน",
+      "ไหม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เงิน + ชื่อผีเสื้อชนิด Bombyx mori ในวงศ์",
+     "frame": "entity"
     }
    ]
   },
@@ -192,6 +407,42 @@
     "Declared root: สิน 'to cut, to sever' — separate.",
     "Declared root: สิน 'to cut, to sever' — separate.",
     "Declared root: สิน 'to cut, to sever' — separate."
+   ],
+   "compounds": [
+    {
+     "th": "ตัดสิน",
+     "rtgs": "tat-sin",
+     "ipa": "/tat̚˨˩.sin˩˩˦/",
+     "gloss": {
+      "en": [
+       "settle"
+      ],
+      "th": "ลงความเห็นชี้ขาด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัด",
+      "สิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตัด"
+     ],
+     "lit": "cut + wealth",
+     "lit_th": "ทำให้ขาดด้วยของมีคม + เงิน"
+    }
    ]
   }
  ],
@@ -211,39 +462,6 @@
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['ทรัพย์', 'เงิน'].",
  "compounds_unassigned": [
-  {
-   "th": "ตัดสิน",
-   "rtgs": "tat-sin",
-   "ipa": "/tat̚˨˩.sin˩˩˦/",
-   "gloss": {
-    "en": [
-     "settle"
-    ],
-    "th": "ลงความเห็นชี้ขาด",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ตัด",
-    "สิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "ตัด"
-   ],
-   "lit": "cut + wealth",
-   "lit_th": "ทำให้ขาดด้วยของมีคม + เงิน"
-  },
   {
    "th": "หนี้สิน",
    "rtgs": "ni-sin",
@@ -304,69 +522,6 @@
    "head": 1,
    "lit_th": "คำอาการนามของ ตระบัด + เงิน",
    "frame": "entity"
-  },
-  {
-   "th": "ทรัพย์สิน",
-   "rtgs": "sap-sin",
-   "ipa": "/sap̚˦˥.sin˩˩˦/",
-   "gloss": {
-    "en": [
-     "substance",
-     "means",
-     "property"
-    ],
-    "th": "วัตถุที่มีรูปร่าง รวมทั้งวัตถุที่ไม่มีรูปร่างซึ่งอาจมีราคาและอาจถือเอาได้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ทรัพย์",
-    "สิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "เงินตรา + เงิน",
-   "flips_with": "สินทรัพย์",
-   "frame": "entity"
-  },
-  {
-   "th": "สินเชื่อ",
-   "rtgs": "sin-chuea",
-   "ipa": "/sin˩˩˦.t͡ɕʰɯa̯˥˩/",
-   "gloss": {
-    "en": [
-     "credit"
-    ],
-    "th": "เงินที่ให้เป็นหนี้ไว้ด้วยความเชื่อ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สิน",
-    "เชื่อ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "wealth + believe",
-   "lit_th": "เงิน + เห็นตามด้วย"
   },
   {
    "th": "การสิน",
@@ -492,151 +647,6 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "คำอาการนามของ ออม + เงิน",
-   "frame": "entity"
-  },
-  {
-   "th": "สินค้า",
-   "rtgs": "sin-kha",
-   "ipa": "/sin˩˩˦.kʰaː˦˥/",
-   "gloss": {
-    "en": [
-     "goods"
-    ],
-    "th": "สิ่งของที่ซื้อขายกัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สิน",
-    "ค้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "เงิน + ซื้อขายสินค้าหรือบริการ"
-  },
-  {
-   "th": "สินสอด",
-   "rtgs": "sin-sot",
-   "ipa": "/sin˩˩˦.sɔːt̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เงินที่ฝ่ายชายให้แก่บิดามารดาหญิงที่จะแต่งงานเป็นค่าน้ำนม ข้าวป้อน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สิน",
-    "สอด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "เงิน + เสือกหรือใส่เข้าไปในช่องหรือในระหว"
-  },
-  {
-   "th": "สินบน",
-   "rtgs": "sin-bon",
-   "ipa": "/sin˩˩˦.bon˧/",
-   "gloss": {
-    "en": [
-     "meed"
-    ],
-    "th": "ทรัพย์หรือสิ่งของที่จะให้เป็นเครื่องบูชาคุณหรือตอบแทนผู้ที่จะช่วยให้สำเร็จตามประสงค์",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สิน",
-    "บน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "lit": "wealth + above",
-   "lit_th": "เงิน + เบื้องสูง",
-   "frame": "quality"
-  },
-  {
-   "th": "ออมสิน",
-   "rtgs": "om-sin",
-   "ipa": "/ʔɔːm˧.sin˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อธนาคารหนึ่งของไทย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ออม",
-    "สิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit_th": "เก็บหอมรอมริบ + เงิน"
-  },
-  {
-   "th": "สินไหม",
-   "rtgs": "sin-mai",
-   "ipa": "/sin˩˩˦.maj˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ค่าเสียหายที่ฝ่ายแพ้คดีต้องจ่ายให้แก่ผู้ชนะคดี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สิน",
-    "ไหม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "เงิน + ชื่อผีเสื้อชนิด Bombyx mori ในวงศ์",
    "frame": "entity"
   },
   {

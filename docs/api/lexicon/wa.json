@@ -35,6 +35,38 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ว่าความ",
+     "rtgs": "wa-khwam",
+     "ipa": "/waː˥˩.kʰwaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดำเนินคดีหรือต่อสู้คดีในศาลอย่างทนายความ เช่น ทำคำฟ้อง คำให้การ ซักถามพยาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ว่า",
+      "ความ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "to say + -ness",
+     "lit_th": "พูด + เรื่อง"
+    }
    ]
   },
   {
@@ -63,7 +95,39 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "Saying against someone: to reprove.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ว่ายาก",
+     "rtgs": "wa-yak",
+     "ipa": "/waː˥˩.jaːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดื้อดึง, ไม่อยู่ในโอวาท, ไม่เชื่อฟังคำสั่งสอน, ว่ายากสอนยาก ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ว่า",
+      "ยาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "to say + bad",
+     "lit_th": "พูด + ความลำบาก"
+    }
+   ]
   },
   {
    "n": 3,
@@ -212,7 +276,39 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "Saying to someone to do a thing, for pay: to hire.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ว่าที่",
+     "rtgs": "wa-thi",
+     "ipa": "/waː˥˩.tʰiː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รั้งตำแหน่งหรือยศ (ใช้แก่ทหารหรือตำรวจ)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ว่า",
+      "ที่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "to say + at",
+     "lit_th": "พูด + แหล่ง"
+    }
+   ]
   },
   {
    "n": 6,
@@ -240,7 +336,68 @@
    "extends": 1,
    "via": "generalisation",
    "via_note": "Standing in for other verbs of doing.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ว่าการ",
+     "rtgs": "wa-kan",
+     "ipa": "/waː˥˩.kaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดูแลตรวจตราสั่งการงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ว่า",
+      "การ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "พูด + งาน",
+     "flips_with": "การว่า"
+    },
+    {
+     "th": "ว่าราชการ",
+     "rtgs": "wa-rat-cha-kan",
+     "ipa": "/waː˥˩.raːt̚˥˩.t͡ɕʰa˦˥.kaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บริหารงานราชการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ว่า",
+      "ราชการ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "พูด + การงานของรัฐบาลหรือของพระเจ้าแผ่นด"
+    }
+   ]
   },
   {
    "n": 7,
@@ -295,6 +452,287 @@
      "head": 1,
      "lit": "mean + to say",
      "lit_th": "มุ่งจะกล่าวถึง + คำเชื่อมประโยค"
+    },
+    {
+     "th": "หากว่า",
+     "rtgs": "hak-wa",
+     "ipa": "/haːk̚˨˩.waː˥˩/",
+     "gloss": {
+      "en": [
+       "but"
+      ],
+      "th": "ถ้าว่า, แม้ว่า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หาก",
+      "ว่า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "หา"
+     ],
+     "lit_th": "คำกริยาช่วยหมายความว่า พึง + พูด"
+    },
+    {
+     "th": "ว่าด้วย",
+     "rtgs": "wa-duai",
+     "ipa": "/waː˥˩.dua̯j˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกี่ยวกับ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ว่า",
+      "ด้วย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "to say + at",
+     "lit_th": "พูด + คำแสดงกริยารวมหรือเพิ่ม"
+    },
+    {
+     "th": "สักว่า",
+     "rtgs": "sak-wa",
+     "ipa": "/sak̚˨˩.waː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เพียงแต่ว่า...เท่านั้น, สักแต่ว่า ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัก",
+      "ว่า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "สัก"
+     ],
+     "lit": "teak + to say",
+     "lit_th": "ชื่อไม้ต้นชนิด Tectona grandis L.f + พูด"
+    },
+    {
+     "th": "นัยว่า",
+     "rtgs": "nai-wa",
+     "ipa": "/naj˧.waː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีเค้าว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นัย",
+      "ว่า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "key + to say",
+     "lit_th": "ข้อสำคัญ + พูด"
+    },
+    {
+     "th": "ผิว่า",
+     "translit_auto": "phiwa",
+     "ipa": "[pʰi(ʔ)˩.wäː˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถ้าว่า, หากว่า, แม้นว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผิ",
+      "ว่า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "CONJ+V",
+     "head": 1,
+     "lit_th": "ถ้า + พูด"
+    },
+    {
+     "th": "แต่ว่า",
+     "rtgs": "tae-wa",
+     "ipa": "/tɛː˨˩.waː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เชื่อมความให้กลับกัน ให้ยิ่งหย่อนกว่ากัน หรือให้แย้งกัน, แต่ ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แต่",
+      "ว่า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "but + to say",
+     "lit_th": "เฉพาะ + พูด"
+    },
+    {
+     "th": "ชื่อว่า",
+     "rtgs": "chue-wa",
+     "ipa": "/t͡ɕʰɯː˥˩.waː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แม้ว่า, เรียกว่า, นับว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "ว่า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ชื่อ"
+     ],
+     "lit": "name + to say",
+     "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + พูด"
+    },
+    {
+     "th": "แม้ว่า",
+     "translit_auto": "maewa",
+     "ipa": "[mɛː˦˥.wäː˥˩]",
+     "gloss": {
+      "en": [
+       "all",
+       "if",
+       "though"
+      ],
+      "th": "ผิว่า, หากว่า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม้",
+      "ว่า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "CONJ+V",
+     "head": 1,
+     "lit_th": "ถึง + พูด"
+    },
+    {
+     "th": "ถือว่า",
+     "rtgs": "thue-wa",
+     "ipa": "/tʰɯː˩˩˦.waː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จัดว่า, นัยว่า, ยอมรับว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถือ",
+      "ว่า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "ถือ"
+     ],
+     "lit": "hold + to say",
+     "lit_th": "เอาไว้ในมือ + พูด"
     }
    ],
    "extends": 1,
@@ -350,273 +788,6 @@
    "flips_with": "ว่าการ"
   },
   {
-   "th": "หากว่า",
-   "rtgs": "hak-wa",
-   "ipa": "/haːk̚˨˩.waː˥˩/",
-   "gloss": {
-    "en": [
-     "but"
-    ],
-    "th": "ถ้าว่า, แม้ว่า",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หาก",
-    "ว่า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 1,
-   "cross_listed": [
-    "หา"
-   ],
-   "lit_th": "คำกริยาช่วยหมายความว่า พึง + พูด"
-  },
-  {
-   "th": "ว่าด้วย",
-   "rtgs": "wa-duai",
-   "ipa": "/waː˥˩.dua̯j˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เกี่ยวกับ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ว่า",
-    "ด้วย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 0,
-   "lit": "to say + at",
-   "lit_th": "พูด + คำแสดงกริยารวมหรือเพิ่ม"
-  },
-  {
-   "th": "สักว่า",
-   "rtgs": "sak-wa",
-   "ipa": "/sak̚˨˩.waː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เพียงแต่ว่า...เท่านั้น, สักแต่ว่า ก็ว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัก",
-    "ว่า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "cross_listed": [
-    "สัก"
-   ],
-   "lit": "teak + to say",
-   "lit_th": "ชื่อไม้ต้นชนิด Tectona grandis L.f + พูด"
-  },
-  {
-   "th": "ว่าที่",
-   "rtgs": "wa-thi",
-   "ipa": "/waː˥˩.tʰiː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รั้งตำแหน่งหรือยศ (ใช้แก่ทหารหรือตำรวจ)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ว่า",
-    "ที่"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "to say + at",
-   "lit_th": "พูด + แหล่ง"
-  },
-  {
-   "th": "ว่าการ",
-   "rtgs": "wa-kan",
-   "ipa": "/waː˥˩.kaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ดูแลตรวจตราสั่งการงาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ว่า",
-    "การ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "พูด + งาน",
-   "flips_with": "การว่า"
-  },
-  {
-   "th": "นัยว่า",
-   "rtgs": "nai-wa",
-   "ipa": "/naj˧.waː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีเค้าว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นัย",
-    "ว่า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "lit": "key + to say",
-   "lit_th": "ข้อสำคัญ + พูด"
-  },
-  {
-   "th": "ผิว่า",
-   "translit_auto": "phiwa",
-   "ipa": "[pʰi(ʔ)˩.wäː˥˩]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ถ้าว่า, หากว่า, แม้นว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ผิ",
-    "ว่า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "CONJ+V",
-   "head": 1,
-   "lit_th": "ถ้า + พูด"
-  },
-  {
-   "th": "แต่ว่า",
-   "rtgs": "tae-wa",
-   "ipa": "/tɛː˨˩.waː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เชื่อมความให้กลับกัน ให้ยิ่งหย่อนกว่ากัน หรือให้แย้งกัน, แต่ ก็ว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แต่",
-    "ว่า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 1,
-   "lit": "but + to say",
-   "lit_th": "เฉพาะ + พูด"
-  },
-  {
-   "th": "ชื่อว่า",
-   "rtgs": "chue-wa",
-   "ipa": "/t͡ɕʰɯː˥˩.waː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แม้ว่า, เรียกว่า, นับว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชื่อ",
-    "ว่า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "cross_listed": [
-    "ชื่อ"
-   ],
-   "lit": "name + to say",
-   "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + พูด"
-  },
-  {
    "th": "การถือว่า",
    "rtgs": "kan-thue-wa",
    "ipa": "/kaːn˧.tʰɯː˩˩˦.waː˥˩/",
@@ -644,65 +815,6 @@
    "pattern": "N+V",
    "head": 1,
    "lit_th": "คำอาการนามของ ถือ + พูด"
-  },
-  {
-   "th": "ว่าราชการ",
-   "rtgs": "wa-rat-cha-kan",
-   "ipa": "/waː˥˩.raːt̚˥˩.t͡ɕʰa˦˥.kaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บริหารงานราชการ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ว่า",
-    "ราชการ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "พูด + การงานของรัฐบาลหรือของพระเจ้าแผ่นด"
-  },
-  {
-   "th": "แม้ว่า",
-   "translit_auto": "maewa",
-   "ipa": "[mɛː˦˥.wäː˥˩]",
-   "gloss": {
-    "en": [
-     "all",
-     "if",
-     "though"
-    ],
-    "th": "ผิว่า, หากว่า",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แม้",
-    "ว่า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "CONJ+V",
-   "head": 1,
-   "lit_th": "ถึง + พูด"
   },
   {
    "th": "การต่อว่า",
@@ -733,96 +845,6 @@
    "head": 1,
    "lit": "engagement + to say",
    "lit_th": "คำอาการนามของ ต่อ + พูด"
-  },
-  {
-   "th": "ว่ายาก",
-   "rtgs": "wa-yak",
-   "ipa": "/waː˥˩.jaːk̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ดื้อดึง, ไม่อยู่ในโอวาท, ไม่เชื่อฟังคำสั่งสอน, ว่ายากสอนยาก ก็ว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ว่า",
-    "ยาก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "to say + bad",
-   "lit_th": "พูด + ความลำบาก"
-  },
-  {
-   "th": "ถือว่า",
-   "rtgs": "thue-wa",
-   "ipa": "/tʰɯː˩˩˦.waː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "จัดว่า, นัยว่า, ยอมรับว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ถือ",
-    "ว่า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 1,
-   "cross_listed": [
-    "ถือ"
-   ],
-   "lit": "hold + to say",
-   "lit_th": "เอาไว้ในมือ + พูด"
-  },
-  {
-   "th": "ว่าความ",
-   "rtgs": "wa-khwam",
-   "ipa": "/waː˥˩.kʰwaːm˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ดำเนินคดีหรือต่อสู้คดีในศาลอย่างทนายความ เช่น ทำคำฟ้อง คำให้การ ซักถามพยาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ว่า",
-    "ความ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "to say + -ness",
-   "lit_th": "พูด + เรื่อง"
   }
  ],
  "etymology": {

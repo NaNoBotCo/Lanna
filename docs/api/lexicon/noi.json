@@ -34,6 +34,112 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "น้อยใจ",
+     "rtgs": "noi-chai",
+     "ipa": "/nɔːj˦˥.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้สึกเสียใจที่ไม่ได้รับความเป็นธรรมเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้อย",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "little + heart",
+     "lit_th": "ไม่มาก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "flips_with": "ใจน้อย",
+     "frame": "quality"
+    },
+    {
+     "th": "ใจน้อย",
+     "rtgs": "chai-noi",
+     "ipa": "/t͡ɕaj˧.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โกรธง่าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "น้อย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "heart + little",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ไม่มาก",
+     "flips_with": "น้อยใจ",
+     "frame": "quality"
+    },
+    {
+     "th": "เล็กน้อย",
+     "rtgs": "lek-noi",
+     "ipa": "/lek̚˦˥.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "few",
+       "faintly",
+       "minor"
+      ],
+      "th": "นิดหน่อย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เล็ก",
+      "น้อย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 1,
+     "lit": "small + little",
+     "lit_th": "มีขนาดย่อมกว่าเมื่อเทียบกัน + ไม่มาก",
+     "frame": "quality"
+    }
    ]
   },
   {
@@ -63,7 +169,203 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "Not much becomes not big.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ช้างน้อย",
+     "rtgs": "chang-noi",
+     "ipa": "/t͡ɕʰaːŋ˦˥.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดาวฤกษ์ที่ 19 มี 9 ดวง เห็นเป็นรูปสะดือนาค, ดาวแมว ดาวมูล หรือ ดาวมูละ ก็เรียก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้าง",
+      "น้อย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "elephant + little",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ไม่มาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ท้องน้อย",
+     "rtgs": "thong-noi",
+     "ipa": "/tʰɔːŋ˦˥.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "abdomen"
+      ],
+      "th": "ส่วนของท้องระหว่างสะดือกับหัวหน่าว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ท้อง",
+      "น้อย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ท้อง"
+     ],
+     "lit": "carry + little",
+     "lit_th": "ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น + ไม่มาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ผีน้อย",
+     "rtgs": "phi-noi",
+     "ipa": "/pʰiː˩˩˦.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนไทยที่ไปทำงานในต่างประเทศ (โดยเฉพาะเกาหลีใต้) อย่างผิดกฎหมาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผี",
+      "น้อย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ผี"
+     ],
+     "lit": "spirit + little",
+     "lit_th": "สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั + ไม่มาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ไปยาลน้อย",
+     "rtgs": "pai-yan-noi",
+     "ipa": "/paj˧.jaːn˧.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องหมายละคำ รูปดังนี้ ฯ สำหรับละคำที่ประกอบคำหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไปยาล",
+      "น้อย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "เครื่องหมายละคำ รูปดังนี้ ฯ เรียกว + ไม่มาก",
+     "frame": "quality"
+    },
+    {
+     "th": "เปยยาลน้อย",
+     "rtgs": "poei-yan-noi",
+     "ipa": "/pɤːj˧.jaːn˧.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไปยาลน้อย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เปยยาล",
+      "น้อย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ไปยาล + ไม่มาก",
+     "frame": "quality"
+    },
+    {
+     "th": "หนอนน้อย",
+     "rtgs": "non-noi",
+     "ipa": "/nɔːn˩˩˦.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อวัยวะเพศชาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอน",
+      "น้อย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "worm + little",
+     "lit_th": "ชื่อของตัวอ่อนของแมลงหลายชนิดที่ฟั + ไม่มาก",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 3,
@@ -117,6 +419,133 @@
      "pattern": "N+ADJ",
      "head": 1,
      "lit_th": "คำใช้แทนคำว่า คนหรือสิ่งที่ถือเสมื + โดยปริยายหมายถึงลักษณะที่ด้อยความส",
+     "frame": "quality"
+    },
+    {
+     "th": "ตาน้อย",
+     "rtgs": "ta-noi",
+     "ipa": "/taː˧.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้องชายของตาหรือของยาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "น้อย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "eye + little",
+     "lit_th": "พ่อของแม่ + ไม่มาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ปู่น้อย",
+     "rtgs": "pu-noi",
+     "ipa": "/puː˨˩.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้องชายของปู่หรือของย่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปู่",
+      "น้อย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "abuelo + little",
+     "lit_th": "พ่อของพ่อ + ไม่มาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ยายน้อย",
+     "rtgs": "yai-noi",
+     "ipa": "/jaːj˧.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้องสาวของตาหรือของยาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยาย",
+      "น้อย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "gram + little",
+     "lit_th": "แม่ของแม่ + ไม่มาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ย่าน้อย",
+     "rtgs": "ya-noi",
+     "ipa": "/jaː˥˩.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้องสาวของปู่หรือของย่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ย่า",
+      "น้อย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "gram + little",
+     "lit_th": "แม่ของพ่อ + ไม่มาก",
      "frame": "quality"
     }
    ],
@@ -181,6 +610,36 @@
      ],
      "lit": "maid + little",
      "lit_th": "หญิงที่มีอายุพ้นวัยเด็ก นับตามความ + แสดงความรู้สึกว่าน่ารักน่าเอ็นดู",
+     "frame": "quality"
+    },
+    {
+     "th": "แน่งน้อย",
+     "rtgs": "naeng-noi",
+     "ipa": "/nɛŋ˥˩.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีรูปทรงแบบบาง (มักใช้แก่หญิงสาว)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แน่ง",
+      "น้อย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "นาง + ไม่มาก",
      "frame": "quality"
     }
    ],
@@ -820,263 +1279,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 37; domain seeded by keyword hits ['ความรู้สึก', 'รัก'].",
  "compounds_unassigned": [
   {
-   "th": "ตาน้อย",
-   "rtgs": "ta-noi",
-   "ipa": "/taː˧.nɔːj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "น้องชายของตาหรือของยาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตา",
-    "น้อย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ตา"
-   ],
-   "lit": "eye + little",
-   "lit_th": "พ่อของแม่ + ไม่มาก",
-   "frame": "quality"
-  },
-  {
-   "th": "น้อยใจ",
-   "rtgs": "noi-chai",
-   "ipa": "/nɔːj˦˥.t͡ɕaj˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รู้สึกเสียใจที่ไม่ได้รับความเป็นธรรมเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "น้อย",
-    "ใจ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+N",
-   "head": 0,
-   "cross_listed": [
-    "ใจ"
-   ],
-   "lit": "little + heart",
-   "lit_th": "ไม่มาก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
-   "flips_with": "ใจน้อย",
-   "frame": "quality"
-  },
-  {
-   "th": "ช้างน้อย",
-   "rtgs": "chang-noi",
-   "ipa": "/t͡ɕʰaːŋ˦˥.nɔːj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ดาวฤกษ์ที่ 19 มี 9 ดวง เห็นเป็นรูปสะดือนาค, ดาวแมว ดาวมูล หรือ ดาวมูละ ก็เรียก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ช้าง",
-    "น้อย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ช้าง"
-   ],
-   "lit": "elephant + little",
-   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ไม่มาก",
-   "frame": "quality"
-  },
-  {
-   "th": "ท้องน้อย",
-   "rtgs": "thong-noi",
-   "ipa": "/tʰɔːŋ˦˥.nɔːj˦˥/",
-   "gloss": {
-    "en": [
-     "abdomen"
-    ],
-    "th": "ส่วนของท้องระหว่างสะดือกับหัวหน่าว",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ท้อง",
-    "น้อย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ท้อง"
-   ],
-   "lit": "carry + little",
-   "lit_th": "ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น + ไม่มาก",
-   "frame": "quality"
-  },
-  {
-   "th": "ปู่น้อย",
-   "rtgs": "pu-noi",
-   "ipa": "/puː˨˩.nɔːj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "น้องชายของปู่หรือของย่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ปู่",
-    "น้อย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "abuelo + little",
-   "lit_th": "พ่อของพ่อ + ไม่มาก",
-   "frame": "quality"
-  },
-  {
-   "th": "ยายน้อย",
-   "rtgs": "yai-noi",
-   "ipa": "/jaːj˧.nɔːj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "น้องสาวของตาหรือของยาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ยาย",
-    "น้อย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "gram + little",
-   "lit_th": "แม่ของแม่ + ไม่มาก",
-   "frame": "quality"
-  },
-  {
-   "th": "ย่าน้อย",
-   "rtgs": "ya-noi",
-   "ipa": "/jaː˥˩.nɔːj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "น้องสาวของปู่หรือของย่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ย่า",
-    "น้อย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "gram + little",
-   "lit_th": "แม่ของพ่อ + ไม่มาก",
-   "frame": "quality"
-  },
-  {
-   "th": "ผีน้อย",
-   "rtgs": "phi-noi",
-   "ipa": "/pʰiː˩˩˦.nɔːj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คนไทยที่ไปทำงานในต่างประเทศ (โดยเฉพาะเกาหลีใต้) อย่างผิดกฎหมาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ผี",
-    "น้อย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ผี"
-   ],
-   "lit": "spirit + little",
-   "lit_th": "สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั + ไม่มาก",
-   "frame": "quality"
-  },
-  {
    "th": "ความเล็กน้อย",
    "rtgs": "khwam-lek-noi",
    "ipa": "/kʰwaːm˧.lek̚˦˥.nɔːj˦˥/",
@@ -1138,131 +1340,6 @@
    "frame": "quality"
   },
   {
-   "th": "ไปยาลน้อย",
-   "rtgs": "pai-yan-noi",
-   "ipa": "/paj˧.jaːn˧.nɔːj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องหมายละคำ รูปดังนี้ ฯ สำหรับละคำที่ประกอบคำหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไปยาล",
-    "น้อย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit_th": "เครื่องหมายละคำ รูปดังนี้ ฯ เรียกว + ไม่มาก",
-   "frame": "quality"
-  },
-  {
-   "th": "ใจน้อย",
-   "rtgs": "chai-noi",
-   "ipa": "/t͡ɕaj˧.nɔːj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "โกรธง่าย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ใจ",
-    "น้อย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ใจ"
-   ],
-   "lit": "heart + little",
-   "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ไม่มาก",
-   "flips_with": "น้อยใจ",
-   "frame": "quality"
-  },
-  {
-   "th": "เล็กน้อย",
-   "rtgs": "lek-noi",
-   "ipa": "/lek̚˦˥.nɔːj˦˥/",
-   "gloss": {
-    "en": [
-     "few",
-     "faintly",
-     "minor"
-    ],
-    "th": "นิดหน่อย",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เล็ก",
-    "น้อย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+ADJ",
-   "head": 1,
-   "lit": "small + little",
-   "lit_th": "มีขนาดย่อมกว่าเมื่อเทียบกัน + ไม่มาก",
-   "frame": "quality"
-  },
-  {
-   "th": "เปยยาลน้อย",
-   "rtgs": "poei-yan-noi",
-   "ipa": "/pɤːj˧.jaːn˧.nɔːj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไปยาลน้อย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เปยยาล",
-    "น้อย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit_th": "ไปยาล + ไม่มาก",
-   "frame": "quality"
-  },
-  {
    "th": "ภรรยาน้อย",
    "rtgs": "phan-ya-noi",
    "ipa": "/pʰan˧.jaː˧.nɔːj˦˥/",
@@ -1294,35 +1371,6 @@
    "frame": "quality"
   },
   {
-   "th": "แน่งน้อย",
-   "rtgs": "naeng-noi",
-   "ipa": "/nɛŋ˥˩.nɔːj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีรูปทรงแบบบาง (มักใช้แก่หญิงสาว)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แน่ง",
-    "น้อย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit_th": "นาง + ไม่มาก",
-   "frame": "quality"
-  },
-  {
    "th": "ภริยาน้อย",
    "rtgs": "pha-ri-ya-noi",
    "ipa": "/pʰa˦˥.ri˦˥.jaː˧.nɔːj˦˥/",
@@ -1350,36 +1398,6 @@
    "pattern": "N+ADJ",
    "head": 1,
    "lit_th": "ภรรยา + ไม่มาก",
-   "frame": "quality"
-  },
-  {
-   "th": "หนอนน้อย",
-   "rtgs": "non-noi",
-   "ipa": "/nɔːn˩˩˦.nɔːj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อวัยวะเพศชาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หนอน",
-    "น้อย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "worm + little",
-   "lit_th": "ชื่อของตัวอ่อนของแมลงหลายชนิดที่ฟั + ไม่มาก",
    "frame": "quality"
   }
  ],

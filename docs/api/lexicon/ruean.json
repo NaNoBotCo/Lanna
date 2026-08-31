@@ -67,6 +67,364 @@
      "lit": "house + hall",
      "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + เรือนหรืออาคารซึ่งใช้เฉพาะกิจการอย",
      "frame": "entity"
+    },
+    {
+     "th": "เรือนหลวง",
+     "rtgs": "ruean-luang",
+     "ipa": "/rɯa̯n˧.lua̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาคารในเขตพระราชฐาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือน",
+      "หลวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "house + royal",
+     "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
+    },
+    {
+     "th": "เรือนแพ",
+     "rtgs": "ruean-phae",
+     "ipa": "/rɯa̯n˧.pʰɛː˧/",
+     "gloss": {
+      "en": [
+       "houseboat"
+      ],
+      "th": "เรือนที่ตั้งอยู่บนแพในน้ำ มีลักษณะต่างกับเรือนไทยทั่วไปตรงมีเสาแต่ไม่ลงดิน ไม่มีระเบียงและชาน หันด้านข้างออกแม่น้ำ หรือเรือนลักษณะเช่นนั้นที่เคยตั้งอยู่บนแพในน้ำแล้วยกขึ้นมาปลูกบนบก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เรือน",
+      "แพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "house + raft",
+     "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ไม้ไผ่หรือซุงเป็นต้นที่ผูกมัดเรียง",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เรือน",
+     "translit_auto": "maereueon",
+     "ipa": "[mɛː˥˩.rɯːä̃n˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงผู้ปกครองบ้านเรือน, แม่เจ้าเรือน หรือ แม่เหย้าแม่เรือน ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เรือน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + house",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
+    },
+    {
+     "th": "ครัวเรือน",
+     "rtgs": "khrua-ruean",
+     "ipa": "/kʰrua̯˧.rɯa̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ครอบครัวที่อยู่ในบ้านเรือนเดียวกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ครัว",
+      "เรือน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "kitchen + house",
+     "lit_th": "โรง เรือน หรือห้องสำหรับทำกับข้าวข + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องเรือน",
+     "rtgs": "khrueang-ruean",
+     "ipa": "/kʰrɯa̯ŋ˥˩.rɯa̯n˧/",
+     "gloss": {
+      "en": [
+       "furniture"
+      ],
+      "th": "เครื่องปรุงเรือนหรือเครื่องไม้ที่จะคุมกันเข้าเป็นเรือน เช่น ขื่อ เสา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "เรือน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "device + house",
+     "lit_th": "สิ่ง + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
+    },
+    {
+     "th": "ผีเรือน",
+     "rtgs": "phi-ruean",
+     "ipa": "/pʰiː˩˩˦.rɯa̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผีที่อยู่ประจำเรือน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผี",
+      "เรือน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ผี"
+     ],
+     "lit": "spirit + house",
+     "lit_th": "สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
+    },
+    {
+     "th": "บ้านเรือน",
+     "rtgs": "ban–ruean",
+     "ipa": "/baːn˥˩.rɯa̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บ้านที่อยู่อาศัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "เรือน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + house",
+     "lit_th": "ที่อยู่อาศัย + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
+    },
+    {
+     "th": "การเรือน",
+     "rtgs": "kan-ruean",
+     "ipa": "/kaːn˧.rɯa̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "งานของแม่บ้าน เช่น หุงต้มอาหาร เย็บปักถักร้อย, การบ้านการเรือน ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "การ",
+      "เรือน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "งาน + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
+    },
+    {
+     "th": "พลเรือน",
+     "rtgs": "phon-la-ruean",
+     "ipa": "/pʰon˧.la˦˥.rɯa̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประชาชน, คนทั่วไปที่ไม่ใช่ทหาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พล",
+      "เรือน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "พล"
+     ],
+     "lit": "strength + house",
+     "lit_th": "กำลัง + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
+    },
+    {
+     "th": "เรือนจำ",
+     "rtgs": "ruean-cham",
+     "ipa": "/rɯa̯n˧.t͡ɕam˧/",
+     "gloss": {
+      "en": [
+       "house of correction"
+      ],
+      "th": "ที่ขังนักโทษและผู้ต้องหา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เรือน",
+      "จำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "house + remember",
+     "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + กำหนดไว้ในใจ"
+    },
+    {
+     "th": "เรือนลูกอ่อน",
+     "translit_auto": "reueonlukon",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มดลูก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือน",
+      "ลูกอ่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ลูกเล็ก ๆ ที่ยังไม่หย่านม",
+     "frame": "entity"
     }
    ]
   },
@@ -124,7 +482,74 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "The setting that houses a gem.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เรือนไฟ",
+     "rtgs": "ruean-fai",
+     "ipa": "/rɯa̯n˧.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระจุกตะเกียงหรือโคม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือน",
+      "ไฟ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไฟ"
+     ],
+     "lit": "house + fire",
+     "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
+    },
+    {
+     "th": "เรือนตะเกียง",
+     "rtgs": "ruean-ta-kiang",
+     "ipa": "/rɯa̯n˧.ta˨˩.kia̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระโจมไฟ, ประภาคาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือน",
+      "ตะเกียง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "house + lamp",
+     "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + เครื่องใช้สำหรับตามไฟ มีไส้ซึ่งหล่",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 4,
@@ -291,416 +716,6 @@
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['จำนวน', 'หนึ่ง'].",
  "compounds_unassigned": [
-  {
-   "th": "เรือนหลวง",
-   "rtgs": "ruean-luang",
-   "ipa": "/rɯa̯n˧.lua̯ŋ˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาคารในเขตพระราชฐาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เรือน",
-    "หลวง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "cross_listed": [
-    "หลวง"
-   ],
-   "lit": "house + royal",
-   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ที่เป็นของพระเจ้าแผ่นดิน",
-   "frame": "quality"
-  },
-  {
-   "th": "เรือนแพ",
-   "rtgs": "ruean-phae",
-   "ipa": "/rɯa̯n˧.pʰɛː˧/",
-   "gloss": {
-    "en": [
-     "houseboat"
-    ],
-    "th": "เรือนที่ตั้งอยู่บนแพในน้ำ มีลักษณะต่างกับเรือนไทยทั่วไปตรงมีเสาแต่ไม่ลงดิน ไม่มีระเบียงและชาน หันด้านข้างออกแม่น้ำ หรือเรือนลักษณะเช่นนั้นที่เคยตั้งอยู่บนแพในน้ำแล้วยกขึ้นมาปลูกบนบก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เรือน",
-    "แพ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "house + raft",
-   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ไม้ไผ่หรือซุงเป็นต้นที่ผูกมัดเรียง",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่เรือน",
-   "translit_auto": "maereueon",
-   "ipa": "[mɛː˥˩.rɯːä̃n˧]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หญิงผู้ปกครองบ้านเรือน, แม่เจ้าเรือน หรือ แม่เหย้าแม่เรือน ก็ว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "เรือน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "แม่"
-   ],
-   "lit": "mother + house",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
-   "frame": "entity"
-  },
-  {
-   "th": "ครัวเรือน",
-   "rtgs": "khrua-ruean",
-   "ipa": "/kʰrua̯˧.rɯa̯n˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ครอบครัวที่อยู่ในบ้านเรือนเดียวกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ครัว",
-    "เรือน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "kitchen + house",
-   "lit_th": "โรง เรือน หรือห้องสำหรับทำกับข้าวข + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
-   "frame": "entity"
-  },
-  {
-   "th": "เครื่องเรือน",
-   "rtgs": "khrueang-ruean",
-   "ipa": "/kʰrɯa̯ŋ˥˩.rɯa̯n˧/",
-   "gloss": {
-    "en": [
-     "furniture"
-    ],
-    "th": "เครื่องปรุงเรือนหรือเครื่องไม้ที่จะคุมกันเข้าเป็นเรือน เช่น ขื่อ เสา",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เครื่อง",
-    "เรือน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "เครื่อง"
-   ],
-   "lit": "device + house",
-   "lit_th": "สิ่ง + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
-   "frame": "entity"
-  },
-  {
-   "th": "ผีเรือน",
-   "rtgs": "phi-ruean",
-   "ipa": "/pʰiː˩˩˦.rɯa̯n˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผีที่อยู่ประจำเรือน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ผี",
-    "เรือน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ผี"
-   ],
-   "lit": "spirit + house",
-   "lit_th": "สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
-   "frame": "entity"
-  },
-  {
-   "th": "เรือนไฟ",
-   "rtgs": "ruean-fai",
-   "ipa": "/rɯa̯n˧.faj˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กระจุกตะเกียงหรือโคม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เรือน",
-    "ไฟ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ไฟ"
-   ],
-   "lit": "house + fire",
-   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
-   "frame": "entity"
-  },
-  {
-   "th": "บ้านเรือน",
-   "rtgs": "ban–ruean",
-   "ipa": "/baːn˥˩.rɯa̯n˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บ้านที่อยู่อาศัย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "บ้าน",
-    "เรือน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "บ้าน"
-   ],
-   "lit": "home + house",
-   "lit_th": "ที่อยู่อาศัย + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
-   "frame": "entity"
-  },
-  {
-   "th": "การเรือน",
-   "rtgs": "kan-ruean",
-   "ipa": "/kaːn˧.rɯa̯n˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "งานของแม่บ้าน เช่น หุงต้มอาหาร เย็บปักถักร้อย, การบ้านการเรือน ก็ว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การ",
-    "เรือน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "งาน + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
-   "frame": "entity"
-  },
-  {
-   "th": "พลเรือน",
-   "rtgs": "phon-la-ruean",
-   "ipa": "/pʰon˧.la˦˥.rɯa̯n˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ประชาชน, คนทั่วไปที่ไม่ใช่ทหาร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พล",
-    "เรือน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "พล"
-   ],
-   "lit": "strength + house",
-   "lit_th": "กำลัง + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
-   "frame": "entity"
-  },
-  {
-   "th": "เรือนตะเกียง",
-   "rtgs": "ruean-ta-kiang",
-   "ipa": "/rɯa̯n˧.ta˨˩.kia̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กระโจมไฟ, ประภาคาร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เรือน",
-    "ตะเกียง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "house + lamp",
-   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + เครื่องใช้สำหรับตามไฟ มีไส้ซึ่งหล่",
-   "frame": "entity"
-  },
-  {
-   "th": "เรือนจำ",
-   "rtgs": "ruean-cham",
-   "ipa": "/rɯa̯n˧.t͡ɕam˧/",
-   "gloss": {
-    "en": [
-     "house of correction"
-    ],
-    "th": "ที่ขังนักโทษและผู้ต้องหา",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เรือน",
-    "จำ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "house + remember",
-   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + กำหนดไว้ในใจ"
-  },
-  {
-   "th": "เรือนลูกอ่อน",
-   "translit_auto": "reueonlukon",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มดลูก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เรือน",
-    "ลูกอ่อน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ลูกเล็ก ๆ ที่ยังไม่หย่านม",
-   "frame": "entity"
-  },
   {
    "th": "เรือนฝากระดาน",
    "rtgs": "ruean-fa-kra-dan",

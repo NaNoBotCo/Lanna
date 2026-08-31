@@ -84,6 +84,105 @@
      "lit_th": "ที่ราบโล่ง + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
      "flips_with": "นาทุ่ง",
      "frame": "entity"
+    },
+    {
+     "th": "บ้านนา",
+     "rtgs": "ban-na",
+     "ipa": "/baːn˥˩.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชนบทซึ่งเต็มไปด้วยทุ่งนา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + farm",
+     "lit_th": "ที่อยู่อาศัย + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "frame": "entity"
+    },
+    {
+     "th": "นาสวน",
+     "rtgs": "na-suan",
+     "ipa": "/naː˧.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นาข้าวที่ปลูกในพื้นที่ซึ่งมีระดับน้ำลึกตั้งแต่ 1 เมตรลงมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "สวน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สวน"
+     ],
+     "lit": "farm + garden",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
+     "frame": "entity"
+    },
+    {
+     "th": "ศักดินา",
+     "rtgs": "sak-di-na",
+     "ipa": "/sak̚˨˩.di˨˩.naː˧/",
+     "gloss": {
+      "en": [
+       "feudalism"
+      ],
+      "th": "อำนาจหรือสิทธิที่พระเจ้าแผ่นดินพระราชทานให้แก่ไพร่ฟ้าข้าแผ่นดินตามศักดิ์ของแต่ละคน เดิมเป็นการถือครองที่ดินคิดเป็นจำนวนไร่ ต่อมาถือเป็นการกำหนดสถานะ สิทธิ หน้าที่ และความรับผิดชอบของคนในสังคม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ศักดิ",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ ศักดิ์ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "frame": "entity"
     }
    ]
   },
@@ -178,7 +277,77 @@
    "extends": 1,
    "via": "metonymy",
    "via_note": "Prefixed to what lives in the paddy — เต่านา, ปูนา.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "กบนา",
+     "rtgs": "kop-na",
+     "ipa": "/kop̚˨˩.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อกบขนาดกลางถึงขนาดใหญ่ชนิด Hoplobatrachus rugulosus (Wiegmann) หรือ Rana rugulosus (Wiegmann) ก็มีใช้กัน ในวงศ์ Ranidae หลังสีน้ำตาลอมเขียวมีจุดสีน้ำตาลเข้มถึงดำกระจายทั่วไป ท้องสีขาวนวล กินแมลง เป็นชนิดที่มีแพร่หลายม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กบ",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กบ"
+     ],
+     "lit": "frog + farm",
+     "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "frame": "entity"
+    },
+    {
+     "th": "ไก่นา",
+     "rtgs": "kai-na",
+     "ipa": "/kaj˨˩.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อที่ชาวบ้านเรียกนกที่อาศัยตามทุ่งนาหลายชนิด เช่น คุ่มสี [Coturnix chinensis (Linn.)] และนกอื่น ๆ หลายชนิดในวงศ์ Rallidae เช่น กวัก [Amaurornis phoenicurus (Pennant)] อีล้ำ [Gallinula choropus (Linn.)] อีลุ้ม [Gallicre",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไก่"
+     ],
+     "lit": "chicken + farm",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 4,
@@ -1706,6 +1875,35 @@
      "lit": "na as an element in place names + lead",
      "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่ทำด้วยด้ายหรือป่านปอเป็นต้น",
      "frame": "entity"
+    },
+    {
+     "th": "ล้านนา",
+     "rtgs": "lan-na",
+     "ipa": "/laːn˦˥.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(อาณาจักร~) อาณาจักรของคนไท มีเชียงใหม่เป็นเมืองหลวง ปกครองโดยราชวงศ์มังราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ล้าน",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "million + farm",
+     "lit_th": "จำนวน 10 แสน + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง"
     }
    ],
    "extends": 1,
@@ -1807,7 +2005,7 @@
     "พจ",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the dictionary says แผลงมาจาก พจน — an altered form of พจน 'speech'. The -นา is the end of that stem.",
    "conf": "verified",
    "src": [
     "RID",
@@ -1815,7 +2013,8 @@
    ],
    "pattern": "PROP+N",
    "head": 1,
-   "lit_th": "อักษรย่อของ พิจิตร + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง"
+   "lit_th": "อักษรย่อของ พิจิตร + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "use": "false-split"
   },
   {
    "th": "นามกร",
@@ -1835,7 +2034,7 @@
     "นา",
     "มกร"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives นาม + กร. The split is นาม ('name') + กร, not นา + มกร.",
    "conf": "verified",
    "src": [
     "RID",
@@ -1847,7 +2046,8 @@
     "นาม"
    ],
    "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + มังกร",
-   "frame": "entity"
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "นายก",
@@ -1900,7 +2100,7 @@
     "มา",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: manna. The dictionary traces it รากแรกสุดมาจากกรีกโบราณ μάννα, จากฮีบรู מן — Greek from Hebrew, with no Thai parts at all.",
    "conf": "verified",
    "src": [
     "RID",
@@ -1912,7 +2112,8 @@
     "มา"
    ],
    "lit": "come + farm",
-   "lit_th": "เคลื่อนออกจากที่เข้าหาตัวผู้พูด + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง"
+   "lit_th": "เคลื่อนออกจากที่เข้าหาตัวผู้พูด + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "use": "false-split"
   },
   {
    "th": "เสนา",
@@ -2029,7 +2230,7 @@
     "นา",
     "วี"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives แผลงมาจาก นาวา and ยืมมาจากอังกฤษ navy. Either way it is a boat word, not a rice field.",
    "conf": "verified",
    "src": [
     "RID",
@@ -2041,40 +2242,8 @@
     "วี"
    ],
    "lit": "farm + to fan",
-   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + พัด"
-  },
-  {
-   "th": "บ้านนา",
-   "rtgs": "ban-na",
-   "ipa": "/baːn˥˩.naː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชนบทซึ่งเต็มไปด้วยทุ่งนา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "บ้าน",
-    "นา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "บ้าน"
-   ],
-   "lit": "home + farm",
-   "lit_th": "ที่อยู่อาศัย + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
-   "frame": "entity"
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + พัด",
+   "use": "false-split"
   },
   {
    "th": "ภาวนา",
@@ -2105,39 +2274,6 @@
    "lit_th": "ความมี + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
    "frame": "entity",
    "use": "false-split"
-  },
-  {
-   "th": "นาสวน",
-   "rtgs": "na-suan",
-   "ipa": "/naː˧.sua̯n˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "นาข้าวที่ปลูกในพื้นที่ซึ่งมีระดับน้ำลึกตั้งแต่ 1 เมตรลงมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "สวน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "สวน"
-   ],
-   "lit": "farm + garden",
-   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
-   "frame": "entity"
   },
   {
    "th": "กานา",
@@ -2191,8 +2327,8 @@
     "นย",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: glossed ดวงตา, an eye. Sanskrit नयन nayana. No etymology stated, so probable.",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
@@ -2200,7 +2336,8 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "เค้าความที่ส่อให้เข้าใจเอาเอง + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
-   "frame": "entity"
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "เวียนนา",
@@ -2220,15 +2357,16 @@
     "เวียน",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: Vienna, a transcribed European city name. No Thai morpheme in it. No etymology stated, so probable.",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
    ],
    "pattern": "V+N",
    "head": 1,
-   "lit_th": "อาการที่ของสิ่งหนึ่งเคลื่อนไหวไปรอ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง"
+   "lit_th": "อาการที่ของสิ่งหนึ่งเคลื่อนไหวไปรอ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "use": "false-split"
   },
   {
    "th": "นานา",
@@ -2310,8 +2448,8 @@
     "นัย",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: glossed ดวงตา, an eye. Sanskrit नयन nayana, the doublet of นยนา. No etymology stated, so probable.",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
@@ -2320,7 +2458,8 @@
    "head": 1,
    "lit": "key + farm",
    "lit_th": "ข้อสำคัญ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
-   "frame": "entity"
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "นาซี",
@@ -2414,34 +2553,6 @@
    "use": "false-split"
   },
   {
-   "th": "ล้านนา",
-   "rtgs": "lan-na",
-   "ipa": "/laːn˦˥.naː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(อาณาจักร~) อาณาจักรของคนไท มีเชียงใหม่เป็นเมืองหลวง ปกครองโดยราชวงศ์มังราย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ล้าน",
-    "นา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 1,
-   "lit": "million + farm",
-   "lit_th": "จำนวน 10 แสน + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง"
-  },
-  {
    "th": "นานาเนก",
    "rtgs": "na-na-nek",
    "ipa": "/naː˧.naː˧.neːk̚˥˩/",
@@ -2459,7 +2570,7 @@
     "นา",
     "นาเนก"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives นานา + อเนก. The first element is Pali นานา 'various', not นา.",
    "conf": "verified",
    "src": [
     "RID",
@@ -2468,40 +2579,8 @@
    "pattern": "N+ADJ",
    "head": 0,
    "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + รูปตัดทอนของ นานาเนก",
-   "frame": "quality"
-  },
-  {
-   "th": "กบนา",
-   "rtgs": "kop-na",
-   "ipa": "/kop̚˨˩.naː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อกบขนาดกลางถึงขนาดใหญ่ชนิด Hoplobatrachus rugulosus (Wiegmann) หรือ Rana rugulosus (Wiegmann) ก็มีใช้กัน ในวงศ์ Ranidae หลังสีน้ำตาลอมเขียวมีจุดสีน้ำตาลเข้มถึงดำกระจายทั่วไป ท้องสีขาวนวล กินแมลง เป็นชนิดที่มีแพร่หลายม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กบ",
-    "นา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "กบ"
-   ],
-   "lit": "frog + farm",
-   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
-   "frame": "entity"
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "เทศนา",
@@ -2532,69 +2611,6 @@
    "lit_th": "ต่างประเทศ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
    "frame": "quality",
    "use": "false-split"
-  },
-  {
-   "th": "ศักดินา",
-   "rtgs": "sak-di-na",
-   "ipa": "/sak̚˨˩.di˨˩.naː˧/",
-   "gloss": {
-    "en": [
-     "feudalism"
-    ],
-    "th": "อำนาจหรือสิทธิที่พระเจ้าแผ่นดินพระราชทานให้แก่ไพร่ฟ้าข้าแผ่นดินตามศักดิ์ของแต่ละคน เดิมเป็นการถือครองที่ดินคิดเป็นจำนวนไร่ ต่อมาถือเป็นการกำหนดสถานะ สิทธิ หน้าที่ และความรับผิดชอบของคนในสังคม",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ศักดิ",
-    "นา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "รูปแบบอื่นของ ศักดิ์ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
-   "frame": "entity"
-  },
-  {
-   "th": "ไก่นา",
-   "rtgs": "kai-na",
-   "ipa": "/kaj˨˩.naː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อที่ชาวบ้านเรียกนกที่อาศัยตามทุ่งนาหลายชนิด เช่น คุ่มสี [Coturnix chinensis (Linn.)] และนกอื่น ๆ หลายชนิดในวงศ์ Rallidae เช่น กวัก [Amaurornis phoenicurus (Pennant)] อีล้ำ [Gallinula choropus (Linn.)] อีลุ้ม [Gallicre",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไก่",
-    "นา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ไก่"
-   ],
-   "lit": "chicken + farm",
-   "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
-   "frame": "entity"
   },
   {
    "th": "นาที",
@@ -2649,7 +2665,7 @@
     "มี",
     "นา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: its own gloss says รูปตัดทอนของ มีนาคม — a clipping of the month มีนาคม, which is มีน + อาคม. The -นา is the middle of อาคม. Same failure as สิงหา on the head หา.",
    "conf": "verified",
    "src": [
     "RID",
@@ -2662,7 +2678,8 @@
    ],
    "lit": "have + farm",
    "lit_th": "รวย + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
-   "frame": "quality"
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "วรรณนา",

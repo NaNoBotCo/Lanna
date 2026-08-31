@@ -31,6 +31,137 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ปืนใหญ่",
+     "rtgs": "puen-yai",
+     "ipa": "/pɯːn˧.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "gun",
+       "cannon"
+      ],
+      "th": "ปืนที่มีปากลำกล้องกว้างตั้งแต่ 20 มิลลิเมตรขึ้นไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ปืน",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "gun + huge",
+     "lit_th": "อาวุธสำหรับยิงให้ลูกออกจากลำกล้องด + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "ยิ่งใหญ่",
+     "rtgs": "ying-yai",
+     "ipa": "/jiŋ˥˩.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "august",
+       "great",
+       "almighty"
+      ],
+      "th": "มีอำนาจมาก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ยิ่ง",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "ถ้าอยู่ข้างหลัง หมายความว่า เป็นยอ + โต"
+    },
+    {
+     "th": "กว้างใหญ่",
+     "rtgs": "kwang-yai",
+     "ipa": "/kwaːŋ˥˩.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "comfortable"
+      ],
+      "th": "กว้างและใหญ่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กว้าง",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "wide + huge",
+     "lit_th": "ด้านสั้นที่คู่กับด้านยาว + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "ใหญ่โต",
+     "rtgs": "yai-to",
+     "ipa": "/jaj˨˩.toː˧/",
+     "gloss": {
+      "en": [
+       "vast",
+       "grand",
+       "royal"
+      ],
+      "th": "ใหญ่มาก, โตมาก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใหญ่",
+      "โต"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit_th": "โต + สิงโต",
+     "frame": "quality"
+    }
    ]
   },
   {
@@ -57,7 +188,40 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "The big one of a set of children: the eldest.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ผู้ใหญ่",
+     "rtgs": "phu-yai",
+     "ipa": "/pʰuː˥˩.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "adult"
+      ],
+      "th": "คนที่มีอายุมาก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ผู้",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "คำใช้แทนคำว่า คนหรือสิ่งที่ถือเสมื + โต",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 3,
@@ -83,7 +247,381 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "Bigger, or more important, set against something else.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ลำไส้ใหญ่",
+     "rtgs": "lam-sai-yai",
+     "ipa": "/lam˧.saj˥˩.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลำไส้ส่วนที่ต่อจากลำไส้เล็กและไปสุดสิ้นที่ทวารหนัก มีหน้าที่ดูดซึมน้ำจากกากอาหารที่ย่อยและดูดซึมจากลำไส้เล็กแล้ว ซึ่งทำให้กากอาหารงวดเป็นอุจจาระ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลำไส้",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "intestine + huge",
+     "lit_th": "ส่วนของระบบทางเดินอาหาร ซึ่งอยู่ระ + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "ครูใหญ่",
+     "rtgs": "khru-yai",
+     "ipa": "/kʰruː˧.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ครูที่เป็นหัวหน้าโรงเรียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ครู",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "teacher + huge",
+     "lit_th": "ผู้สั่งสอนศิษย์ + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "หุ่นใหญ่",
+     "rtgs": "hun-yai",
+     "ipa": "/hun˨˩.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หุ่นชนิดทำจำลองย่อส่วนตัวละครขนาดสูงประมาณ 2 ศอกตัวหนึ่งใช้คนเชิด 3 คน ใช้แสดงละครเล็ก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หุ่น",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "body + huge",
+     "lit_th": "รูป + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "ไทยใหญ่",
+     "rtgs": "thai-yai",
+     "ipa": "/tʰaj˧.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปแบบอื่นของ ไทใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไทย",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ไทย"
+     ],
+     "lit": "Thai + huge",
+     "lit_th": "ประเทศ ใน เอเชียตะวันออกเฉียงใต้ + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "ไปยาลใหญ่",
+     "rtgs": "pai-yan-yai",
+     "ipa": "/paj˧.jaːn˧.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องหมายละคำ รูปดังนี้ ฯลฯ หรือ ฯเปฯ สำหรับละข้อความข้างท้ายหรือในระหว่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไปยาล",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "เครื่องหมายละคำ รูปดังนี้ ฯ เรียกว + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "เปยยาลใหญ่",
+     "rtgs": "poei-yan-yai",
+     "ipa": "/pɤːj˧.jaːn˧.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไปยาลใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เปยยาล",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ไปยาล + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "ไทใหญ่",
+     "rtgs": "thai-yai",
+     "ipa": "/tʰaj˧.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คน~, ชาว~) ชนชาติไทสาขาหนึ่ง อยู่ในรัฐฉาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไท",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ชนเชื้อชาติไท มีหลายสาขาด้วยกัน เช + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "หอมใหญ่",
+     "rtgs": "hom-yai",
+     "ipa": "/hɔːm˩˩˦.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "onion"
+      ],
+      "th": "พืชในสกุล Allium cepa ใช้เป็นผักและเครื่องเทศ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หอม",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อไม้ล้มลุกมีหัวหลายชนิดในสกุล A + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "ขาใหญ่",
+     "rtgs": "kha-yai",
+     "ipa": "/kʰaː˩˩˦.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกค้าประจำที่ซื้อสินค้าครั้งละมาก ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขา",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ขา"
+     ],
+     "lit": "leg + huge",
+     "lit_th": "อวัยวะของมนุษย์หรือสัตว์ที่ยื่นจาก + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "หนังใหญ่",
+     "rtgs": "nang-yai",
+     "ipa": "/naŋ˩˩˦.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การมหรสพอย่างหนึ่ง ใช้หนังสลักเป็นรูปภาพขนาดใหญ่กว่าหนังตะลุงมาก คีบด้วยไม้ตับ ๒ อันสำหรับจับเชิด เชิดได้ทั้งหลังจอและหน้าจอ ใช้ปี่พาทย์และเกราะบรรเลงประกอบ ผู้เชิดกับผู้พากย์เป็นคนละคนกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนัง",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "film + huge",
+     "lit_th": "ส่วนของร่างกายที่หุ้มเนื้ออยู่ + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "ทรงเครื่องใหญ่",
+     "translit_auto": "thrngkherueonghain",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตัดผม (ใช้กับพระราชา)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรงเครื่อง",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit_th": "แต่งตัวมีเครื่องประดับ + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "อาจารย์ใหญ่",
+     "rtgs": "a-chan-yai",
+     "ipa": "/ʔaː˧.t͡ɕaːn˧.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาจารย์ที่เป็นหัวหน้าสถานศึกษา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อาจารย์",
+      "ใหญ่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ผู้สั่งสอนวิชาความรู้ + โต",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 4,
@@ -1004,98 +1542,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 45; domain seeded by keyword hits —.",
  "compounds_unassigned": [
   {
-   "th": "ผู้ใหญ่",
-   "rtgs": "phu-yai",
-   "ipa": "/pʰuː˥˩.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "adult"
-    ],
-    "th": "คนที่มีอายุมาก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ผู้",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit_th": "คำใช้แทนคำว่า คนหรือสิ่งที่ถือเสมื + โต",
-   "frame": "quality"
-  },
-  {
-   "th": "ลำไส้ใหญ่",
-   "rtgs": "lam-sai-yai",
-   "ipa": "/lam˧.saj˥˩.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลำไส้ส่วนที่ต่อจากลำไส้เล็กและไปสุดสิ้นที่ทวารหนัก มีหน้าที่ดูดซึมน้ำจากกากอาหารที่ย่อยและดูดซึมจากลำไส้เล็กแล้ว ซึ่งทำให้กากอาหารงวดเป็นอุจจาระ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลำไส้",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "intestine + huge",
-   "lit_th": "ส่วนของระบบทางเดินอาหาร ซึ่งอยู่ระ + โต",
-   "frame": "quality"
-  },
-  {
-   "th": "ปืนใหญ่",
-   "rtgs": "puen-yai",
-   "ipa": "/pɯːn˧.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "gun",
-     "cannon"
-    ],
-    "th": "ปืนที่มีปากลำกล้องกว้างตั้งแต่ 20 มิลลิเมตรขึ้นไป",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ปืน",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "gun + huge",
-   "lit_th": "อาวุธสำหรับยิงให้ลูกออกจากลำกล้องด + โต",
-   "frame": "quality"
-  },
-  {
    "th": "ความใหญ่",
    "rtgs": "khwam-yai",
    "ipa": "/kʰwaːm˧.jaj˨˩/",
@@ -1127,309 +1573,6 @@
    "frame": "quality"
   },
   {
-   "th": "ยิ่งใหญ่",
-   "rtgs": "ying-yai",
-   "ipa": "/jiŋ˥˩.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "august",
-     "great",
-     "almighty"
-    ],
-    "th": "มีอำนาจมาก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ยิ่ง",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 1,
-   "lit_th": "ถ้าอยู่ข้างหลัง หมายความว่า เป็นยอ + โต"
-  },
-  {
-   "th": "ครูใหญ่",
-   "rtgs": "khru-yai",
-   "ipa": "/kʰruː˧.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ครูที่เป็นหัวหน้าโรงเรียน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ครู",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "teacher + huge",
-   "lit_th": "ผู้สั่งสอนศิษย์ + โต",
-   "frame": "quality"
-  },
-  {
-   "th": "หุ่นใหญ่",
-   "rtgs": "hun-yai",
-   "ipa": "/hun˨˩.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หุ่นชนิดทำจำลองย่อส่วนตัวละครขนาดสูงประมาณ 2 ศอกตัวหนึ่งใช้คนเชิด 3 คน ใช้แสดงละครเล็ก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หุ่น",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "body + huge",
-   "lit_th": "รูป + โต",
-   "frame": "quality"
-  },
-  {
-   "th": "ไทยใหญ่",
-   "rtgs": "thai-yai",
-   "ipa": "/tʰaj˧.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รูปแบบอื่นของ ไทใหญ่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไทย",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "PROP+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ไทย"
-   ],
-   "lit": "Thai + huge",
-   "lit_th": "ประเทศ ใน เอเชียตะวันออกเฉียงใต้ + โต",
-   "frame": "quality"
-  },
-  {
-   "th": "ไปยาลใหญ่",
-   "rtgs": "pai-yan-yai",
-   "ipa": "/paj˧.jaːn˧.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องหมายละคำ รูปดังนี้ ฯลฯ หรือ ฯเปฯ สำหรับละข้อความข้างท้ายหรือในระหว่าง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไปยาล",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit_th": "เครื่องหมายละคำ รูปดังนี้ ฯ เรียกว + โต",
-   "frame": "quality"
-  },
-  {
-   "th": "เปยยาลใหญ่",
-   "rtgs": "poei-yan-yai",
-   "ipa": "/pɤːj˧.jaːn˧.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไปยาลใหญ่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เปยยาล",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit_th": "ไปยาล + โต",
-   "frame": "quality"
-  },
-  {
-   "th": "ไทใหญ่",
-   "rtgs": "thai-yai",
-   "ipa": "/tʰaj˧.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(คน~, ชาว~) ชนชาติไทสาขาหนึ่ง อยู่ในรัฐฉาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไท",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit_th": "ชนเชื้อชาติไท มีหลายสาขาด้วยกัน เช + โต",
-   "frame": "quality"
-  },
-  {
-   "th": "หอมใหญ่",
-   "rtgs": "hom-yai",
-   "ipa": "/hɔːm˩˩˦.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "onion"
-    ],
-    "th": "พืชในสกุล Allium cepa ใช้เป็นผักและเครื่องเทศ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หอม",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit_th": "ชื่อไม้ล้มลุกมีหัวหลายชนิดในสกุล A + โต",
-   "frame": "quality"
-  },
-  {
-   "th": "ขาใหญ่",
-   "rtgs": "kha-yai",
-   "ipa": "/kʰaː˩˩˦.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลูกค้าประจำที่ซื้อสินค้าครั้งละมาก ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขา",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ขา"
-   ],
-   "lit": "leg + huge",
-   "lit_th": "อวัยวะของมนุษย์หรือสัตว์ที่ยื่นจาก + โต",
-   "frame": "quality"
-  },
-  {
-   "th": "หนังใหญ่",
-   "rtgs": "nang-yai",
-   "ipa": "/naŋ˩˩˦.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "การมหรสพอย่างหนึ่ง ใช้หนังสลักเป็นรูปภาพขนาดใหญ่กว่าหนังตะลุงมาก คีบด้วยไม้ตับ ๒ อันสำหรับจับเชิด เชิดได้ทั้งหลังจอและหน้าจอ ใช้ปี่พาทย์และเกราะบรรเลงประกอบ ผู้เชิดกับผู้พากย์เป็นคนละคนกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หนัง",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "film + huge",
-   "lit_th": "ส่วนของร่างกายที่หุ้มเนื้ออยู่ + โต",
-   "frame": "quality"
-  },
-  {
    "th": "ความกว้างใหญ่",
    "rtgs": "khwam-kwang-yai",
    "ipa": "/kʰwaːm˧.kwaːŋ˥˩.jaj˨˩/",
@@ -1458,126 +1601,6 @@
    "head": 1,
    "lit": "width + huge",
    "lit_th": "คำอาการนามของ กว้าง + โต",
-   "frame": "quality"
-  },
-  {
-   "th": "กว้างใหญ่",
-   "rtgs": "kwang-yai",
-   "ipa": "/kwaːŋ˥˩.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "comfortable"
-    ],
-    "th": "กว้างและใหญ่",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กว้าง",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "wide + huge",
-   "lit_th": "ด้านสั้นที่คู่กับด้านยาว + โต",
-   "frame": "quality"
-  },
-  {
-   "th": "ใหญ่โต",
-   "rtgs": "yai-to",
-   "ipa": "/jaj˨˩.toː˧/",
-   "gloss": {
-    "en": [
-     "vast",
-     "grand",
-     "royal"
-    ],
-    "th": "ใหญ่มาก, โตมาก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ใหญ่",
-    "โต"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+N",
-   "head": 0,
-   "lit_th": "โต + สิงโต",
-   "frame": "quality"
-  },
-  {
-   "th": "ทรงเครื่องใหญ่",
-   "translit_auto": "thrngkherueonghain",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตัดผม (ใช้กับพระราชา)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรงเครื่อง",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+ADJ",
-   "head": 1,
-   "lit_th": "แต่งตัวมีเครื่องประดับ + โต",
-   "frame": "quality"
-  },
-  {
-   "th": "อาจารย์ใหญ่",
-   "rtgs": "a-chan-yai",
-   "ipa": "/ʔaː˧.t͡ɕaːn˧.jaj˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาจารย์ที่เป็นหัวหน้าสถานศึกษา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อาจารย์",
-    "ใหญ่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit_th": "ผู้สั่งสอนวิชาความรู้ + โต",
    "frame": "quality"
   }
  ],

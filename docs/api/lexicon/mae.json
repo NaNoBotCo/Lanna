@@ -34,6 +34,199 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "พ่อแม่",
+     "rtgs": "pho-mae",
+     "ipa": "/pʰɔː˥˩.mɛː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พ่อ",
+      "แม่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "father + mother",
+     "lit_th": "ชายผู้ให้กำเนิดหรือเลี้ยงดูลูก + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ยาย",
+     "rtgs": "mae-yai",
+     "ipa": "/mɛː˥˩.jaːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แม่ของเมีย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ยาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mother + gram",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + แม่ของแม่",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เลี้ยง",
+     "rtgs": "mae-liang",
+     "ipa": "/mɛː˥˩.lia̯ŋ˦˥/",
+     "gloss": {
+      "en": [
+       "stepmother"
+      ],
+      "th": "เมียของพ่อ แต่ไม่ใช่แม่ของตัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เลี้ยง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "เลี้ยง"
+     ],
+     "lit": "mother + grow",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ดูแล"
+    },
+    {
+     "th": "เพศแม่",
+     "translit_auto": "phesm",
+     "ipa": "[pʰeːt̚˥˩.mɛː˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้หญิง (ใช้เปรียบว่าเป็นเพศเดียวกับแม่)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เพศ",
+      "แม่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "sex + mother",
+     "lit_th": "รูปที่แสดงให้รู้ว่าหญิงหรือชาย + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ทูนหัว",
+     "rtgs": "mae-thun-hua",
+     "ipa": "/mɛː˥˩.tʰuːn˧.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แม่ที่รับเป็นผู้อุปถัมภ์เด็กตามประเพณีชาวคริสต์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ทูนหัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + คำพูดแสดงความรักใคร่หรือยกย่อง",
+     "frame": "entity"
+    },
+    {
+     "th": "ภาษาแม่",
+     "rtgs": "pha-sa-mae",
+     "ipa": "/pʰaː˧.saː˩˩˦.mɛː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภาษาที่เรียนเป็นภาษาแรก และสามารถใช้ภาษานี้ได้ดีกว่าภาษาอื่น ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภาษา",
+      "แม่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ภาษา"
+     ],
+     "lit": "language + mother",
+     "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
+     "frame": "entity"
+    }
    ]
   },
   {
@@ -176,6 +369,136 @@
      "pattern": "N+V",
      "head": 0,
      "lit_th": "ผู้หญิงที่กระทำกิจการหรืองานอย่างใ + ซื้อขายสินค้าหรือบริการ"
+    },
+    {
+     "th": "แม่เรือน",
+     "translit_auto": "maereueon",
+     "ipa": "[mɛː˥˩.rɯːä̃n˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงผู้ปกครองบ้านเรือน, แม่เจ้าเรือน หรือ แม่เหย้าแม่เรือน ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เรือน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือน"
+     ],
+     "lit": "mother + house",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่นม",
+     "rtgs": "mae-nom",
+     "ipa": "/mɛː˥˩.nom˧/",
+     "gloss": {
+      "en": [
+       "nurse"
+      ],
+      "th": "หญิงที่ให้เด็กอื่นกินนมของตนแทนแม่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "นม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นม"
+     ],
+     "lit": "mother + milk",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่สื่อ",
+     "rtgs": "mae-sue",
+     "ipa": "/mɛː˥˩.sɯː˨˩/",
+     "gloss": {
+      "en": [
+       "matchmaker"
+      ],
+      "th": "หญิงที่ทำหน้าที่ชักนำเพื่อให้ชายหญิงได้แต่งงานกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สื่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ผู้หรือสิ่งที่ติดต่อให้ถึงกันหรือช",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เล้า",
+     "rtgs": "mae-lao",
+     "ipa": "/mɛː˥˩.law˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงที่ทำหน้าที่เป็นนายหน้าติดต่อธุรกิจเกี่ยวกับการซื้อขายทางเพศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เล้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + คอกสำหรับให้สัตว์เช่นเป็ดและหมูอยู",
+     "frame": "entity"
     }
    ],
    "extends": 3,
@@ -270,6 +593,40 @@
      "lit": "mother + army",
      "lit_th": "เรียกคนผู้เป็นหัวหน้าหรือเป็นนายโด + กองทหาร",
      "frame": "entity"
+    },
+    {
+     "th": "แม่งาน",
+     "rtgs": "mae-ngan",
+     "ipa": "/mɛː˥˩.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หัวหน้าผู้รับผิดชอบในงานบางอย่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "งาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "งาน"
+     ],
+     "lit": "mother + job",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
     }
    ],
    "extends": 3,
@@ -333,6 +690,71 @@
      ],
      "lit": "thou + mother",
      "lit_th": "ผู้เป็นใหญ่ + คำยกย่องเทวดาผู้หญิงบางพวก",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ย่า",
+     "rtgs": "mae-ya",
+     "ipa": "/mɛː˥˩.jaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เทพารักษ์หญิง; ผีผู้หญิงที่ได้รับการยกย่อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ย่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mother + gram",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + แม่ของพ่อ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่พระ",
+     "rtgs": "mae-phra",
+     "ipa": "/mɛː˥˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำเรียกพระมารดาของพระเยซู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "พระ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "mother + the honorific prefix phra",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ",
      "frame": "entity"
     }
    ],
@@ -464,6 +886,229 @@
      "lit": "mother + model",
      "lit_th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
      "frame": "entity"
+    },
+    {
+     "th": "แม่สี",
+     "rtgs": "mae-si",
+     "ipa": "/mɛː˥˩.siː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กลุ่มสีซึ่งสามารถผสมออกมาเป็นสีอื่น ๆ ได้ทุกสี มี 5 สี คือ แดง เขียว (คราม) เหลือง ดำ ขาว เรียกว่า เบญจรงค์, แม่สีวัตถุตามสากลคือ แดง น้ำเงิน เหลือง และแม่สีของแสงคือ แดง เขียว น้ำเงิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สี"
+     ],
+     "lit": "mother + color",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่แรง",
+     "rtgs": "mae-raeng",
+     "ipa": "/mɛː˥˩.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องสำหรับดีดงัดหรือยกของหนัก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "แรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แรง"
+     ],
+     "lit": "mother + bright",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + กำลัง",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เหล็ก",
+     "rtgs": "mae-lek",
+     "ipa": "/mɛː˥˩.lek̚˨˩/",
+     "gloss": {
+      "en": [
+       "magnet"
+      ],
+      "th": "แร่หรือโลหะที่มีสมบัติดูดเหล็กได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เหล็ก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mother + iron",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ธาตุลำดับที่ 26 สัญลักษณ์ Fe เป็นโ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่บท",
+     "rtgs": "mae-bot",
+     "ipa": "/mɛː˥˩.bot̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หัวข้อใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "บท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บท"
+     ],
+     "lit": "mother + unit",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ข้อความเรื่องหนึ่ง ๆ หรือตอนหนึ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่กุญแจ",
+     "rtgs": "mae-kun-chae",
+     "ipa": "/mɛː˥˩.kun˧.t͡ɕɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกกุญแจที่ไขตัวกุญแจชนิดเดียวกันได้ทั่วไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "กุญแจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mother + key",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + เครื่องสำหรับใส่ประตูหน้าต่างเป็นต",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เบี้ย",
+     "rtgs": "mae-bia",
+     "ipa": "/mɛː˥˩.bia̯˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พังพานงู (ใช้แก่งูเห่าและงูจงอาง)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เบี้ย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "แม่กระชังหน้าใหญ่",
+     "translit_auto": "maekrachanghnahain",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่ชอบออกหน้าเป็นหัวเรือใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "กระชังหน้าใหญ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + จัดจ้าน",
+     "frame": "quality"
     }
    ],
    "extends": 3,
@@ -2277,631 +2922,6 @@
   "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 80; domain seeded by keyword hits ['override'].",
- "compounds_unassigned": [
-  {
-   "th": "แม่งาน",
-   "rtgs": "mae-ngan",
-   "ipa": "/mɛː˥˩.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หัวหน้าผู้รับผิดชอบในงานบางอย่าง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "งาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "งาน"
-   ],
-   "lit": "mother + job",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่สี",
-   "rtgs": "mae-si",
-   "ipa": "/mɛː˥˩.siː˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กลุ่มสีซึ่งสามารถผสมออกมาเป็นสีอื่น ๆ ได้ทุกสี มี 5 สี คือ แดง เขียว (คราม) เหลือง ดำ ขาว เรียกว่า เบญจรงค์, แม่สีวัตถุตามสากลคือ แดง น้ำเงิน เหลือง และแม่สีของแสงคือ แดง เขียว น้ำเงิน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "สี"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "สี"
-   ],
-   "lit": "mother + color",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่แรง",
-   "rtgs": "mae-raeng",
-   "ipa": "/mɛː˥˩.rɛːŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องสำหรับดีดงัดหรือยกของหนัก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "แรง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "แรง"
-   ],
-   "lit": "mother + bright",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + กำลัง",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่ย่า",
-   "rtgs": "mae-ya",
-   "ipa": "/mɛː˥˩.jaː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เทพารักษ์หญิง; ผีผู้หญิงที่ได้รับการยกย่อง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "ย่า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "mother + gram",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + แม่ของพ่อ",
-   "frame": "entity"
-  },
-  {
-   "th": "พ่อแม่",
-   "rtgs": "pho-mae",
-   "ipa": "/pʰɔː˥˩.mɛː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พ่อ",
-    "แม่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "father + mother",
-   "lit_th": "ชายผู้ให้กำเนิดหรือเลี้ยงดูลูก + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่เรือน",
-   "translit_auto": "maereueon",
-   "ipa": "[mɛː˥˩.rɯːä̃n˧]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หญิงผู้ปกครองบ้านเรือน, แม่เจ้าเรือน หรือ แม่เหย้าแม่เรือน ก็ว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "เรือน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "เรือน"
-   ],
-   "lit": "mother + house",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่พระ",
-   "rtgs": "mae-phra",
-   "ipa": "/mɛː˥˩.pʰraʔ˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำเรียกพระมารดาของพระเยซู",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "พระ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "พระ"
-   ],
-   "lit": "mother + the honorific prefix phra",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่ยาย",
-   "rtgs": "mae-yai",
-   "ipa": "/mɛː˥˩.jaːj˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แม่ของเมีย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "ยาย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "mother + gram",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + แม่ของแม่",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่เหล็ก",
-   "rtgs": "mae-lek",
-   "ipa": "/mɛː˥˩.lek̚˨˩/",
-   "gloss": {
-    "en": [
-     "magnet"
-    ],
-    "th": "แร่หรือโลหะที่มีสมบัติดูดเหล็กได้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "เหล็ก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "mother + iron",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ธาตุลำดับที่ 26 สัญลักษณ์ Fe เป็นโ",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่บท",
-   "rtgs": "mae-bot",
-   "ipa": "/mɛː˥˩.bot̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หัวข้อใหญ่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "บท"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "บท"
-   ],
-   "lit": "mother + unit",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ข้อความเรื่องหนึ่ง ๆ หรือตอนหนึ่ง",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่เลี้ยง",
-   "rtgs": "mae-liang",
-   "ipa": "/mɛː˥˩.lia̯ŋ˦˥/",
-   "gloss": {
-    "en": [
-     "stepmother"
-    ],
-    "th": "เมียของพ่อ แต่ไม่ใช่แม่ของตัว",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "เลี้ยง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "cross_listed": [
-    "เลี้ยง"
-   ],
-   "lit": "mother + grow",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ดูแล"
-  },
-  {
-   "th": "เพศแม่",
-   "translit_auto": "phesm",
-   "ipa": "[pʰeːt̚˥˩.mɛː˥˩]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้หญิง (ใช้เปรียบว่าเป็นเพศเดียวกับแม่)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เพศ",
-    "แม่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "sex + mother",
-   "lit_th": "รูปที่แสดงให้รู้ว่าหญิงหรือชาย + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่ทูนหัว",
-   "rtgs": "mae-thun-hua",
-   "ipa": "/mɛː˥˩.tʰuːn˧.hua̯˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แม่ที่รับเป็นผู้อุปถัมภ์เด็กตามประเพณีชาวคริสต์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "ทูนหัว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + คำพูดแสดงความรักใคร่หรือยกย่อง",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่นม",
-   "rtgs": "mae-nom",
-   "ipa": "/mɛː˥˩.nom˧/",
-   "gloss": {
-    "en": [
-     "nurse"
-    ],
-    "th": "หญิงที่ให้เด็กอื่นกินนมของตนแทนแม่",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "นม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "นม"
-   ],
-   "lit": "mother + milk",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่กุญแจ",
-   "rtgs": "mae-kun-chae",
-   "ipa": "/mɛː˥˩.kun˧.t͡ɕɛː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลูกกุญแจที่ไขตัวกุญแจชนิดเดียวกันได้ทั่วไป",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "กุญแจ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "mother + key",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + เครื่องสำหรับใส่ประตูหน้าต่างเป็นต",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่สื่อ",
-   "rtgs": "mae-sue",
-   "ipa": "/mɛː˥˩.sɯː˨˩/",
-   "gloss": {
-    "en": [
-     "matchmaker"
-    ],
-    "th": "หญิงที่ทำหน้าที่ชักนำเพื่อให้ชายหญิงได้แต่งงานกัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "สื่อ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ผู้หรือสิ่งที่ติดต่อให้ถึงกันหรือช",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่เล้า",
-   "rtgs": "mae-lao",
-   "ipa": "/mɛː˥˩.law˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หญิงที่ทำหน้าที่เป็นนายหน้าติดต่อธุรกิจเกี่ยวกับการซื้อขายทางเพศ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "เล้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + คอกสำหรับให้สัตว์เช่นเป็ดและหมูอยู",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่เบี้ย",
-   "rtgs": "mae-bia",
-   "ipa": "/mɛː˥˩.bia̯˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พังพานงู (ใช้แก่งูเห่าและงูจงอาง)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "เบี้ย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "frame": "entity"
-  },
-  {
-   "th": "ภาษาแม่",
-   "rtgs": "pha-sa-mae",
-   "ipa": "/pʰaː˧.saː˩˩˦.mɛː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ภาษาที่เรียนเป็นภาษาแรก และสามารถใช้ภาษานี้ได้ดีกว่าภาษาอื่น ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ภาษา",
-    "แม่"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ภาษา"
-   ],
-   "lit": "language + mother",
-   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
-   "frame": "entity"
-  },
-  {
-   "th": "แม่กระชังหน้าใหญ่",
-   "translit_auto": "maekrachanghnahain",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ที่ชอบออกหน้าเป็นหัวเรือใหญ่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "กระชังหน้าใหญ่"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + จัดจ้าน",
-   "frame": "quality"
-  }
- ],
  "etymology": {
   "summary": "สืบทอดจากไทดั้งเดิม *meːᴮ; ร่วมเชื้อสายกับอีสาน แม่, ลาว ແມ່ (แม่), คำเมือง ᨾᩯ᩵ (แม่), ไทลื้อ ᦶᦙᧈ (แม่), ไทดำ ꪵꪣ꪿ (แม่), ไทใหญ่ မႄႈ (แม้), ไทใต้คง ᥛᥥ (เม), อาหม 𑜉𑜦𑜧 (เม), แสก เหม้, ปู้อี meeh, จ้วง meh, ภาษาจ้วงใต้ meq",
   "conf": "probable",

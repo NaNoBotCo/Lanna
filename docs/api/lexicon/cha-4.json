@@ -35,6 +35,95 @@
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
     "Declared root: ช้า 'slow'."
+   ],
+   "compounds": [
+    {
+     "th": "ช้านาน",
+     "rtgs": "cha-nan",
+     "ipa": "/t͡ɕʰaː˦˥.naːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ล่วงเลยมานานแล้ว (ใช้แก่เวลา)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้า",
+      "นาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "slow + great",
+     "lit_th": "ค่อย ๆ เคลื่อนไป + ยาว"
+    },
+    {
+     "th": "เชื่องช้า",
+     "rtgs": "chueang-cha",
+     "ipa": "/t͡ɕʰɯa̯ŋ˥˩.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อืดอาด, ยืดยาด, ไม่ว่องไว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เชื่อง",
+      "ช้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "docile + slow",
+     "lit_th": "ไม่เปรียว + ค่อย ๆ เคลื่อนไป"
+    },
+    {
+     "th": "ช้าก่อน",
+     "rtgs": "cha-kon",
+     "ipa": "/t͡ɕʰaː˦˥.kɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หยุดก่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้า",
+      "ก่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "slow + anterior",
+     "lit_th": "ค่อย ๆ เคลื่อนไป + ใช้บอกลำดับเวลา หมายความว่า เดิม"
+    }
    ]
   },
   {
@@ -64,7 +153,72 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "Slow, and so late.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ชักช้า",
+     "rtgs": "chak-cha",
+     "ipa": "/t͡ɕʰak̚˦˥.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โอ้เอ้, ล่าช้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "ช้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "ชัก"
+     ],
+     "lit": "draw + slow",
+     "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + ค่อย ๆ เคลื่อนไป"
+    },
+    {
+     "th": "ล่าช้า",
+     "rtgs": "la-cha",
+     "ipa": "/laː˥˩.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "late",
+       "delay"
+      ],
+      "th": "ช้ามาก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ล่า",
+      "ช้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "hunt + slow",
+     "lit_th": "เที่ยวติดตามหา + ค่อย ๆ เคลื่อนไป"
+    }
+   ]
   },
   {
    "n": 3,
@@ -178,6 +332,39 @@
      "head": 1,
      "lit": "coarse + slow",
      "lit_th": "ไม่ละเอียด + หยาบ"
+    },
+    {
+     "th": "ป่าช้า",
+     "rtgs": "pa-cha",
+     "ipa": "/paː˨˩.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "grave"
+      ],
+      "th": "ป่าหรือที่ซึ่งจัดไว้เป็นที่ฝังหรือเผาศพ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ป่า",
+      "ช้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "forest + slow",
+     "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + ค่อย ๆ เคลื่อนไป"
     }
    ],
    "needs_check": [
@@ -307,105 +494,15 @@
     "ชิง",
     "ช้า"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: a swing. The dictionary gives เป็นไปได้ว่ามาจากจีน 韆鞦, Cantonese cin1 cau1 / Hokkien chhian-chhiu — a Chinese borrowing. Hedged as เป็นไปได้ว่า, so probable.",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
    ],
    "head": 1,
-   "lit_th": "แข่ง + ค่อย ๆ เคลื่อนไป"
-  },
-  {
-   "th": "ชักช้า",
-   "rtgs": "chak-cha",
-   "ipa": "/t͡ɕʰak̚˦˥.t͡ɕʰaː˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "โอ้เอ้, ล่าช้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชัก",
-    "ช้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 1,
-   "cross_listed": [
-    "ชัก"
-   ],
-   "lit": "draw + slow",
-   "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + ค่อย ๆ เคลื่อนไป"
-  },
-  {
-   "th": "ช้านาน",
-   "rtgs": "cha-nan",
-   "ipa": "/t͡ɕʰaː˦˥.naːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ล่วงเลยมานานแล้ว (ใช้แก่เวลา)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ช้า",
-    "นาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 0,
-   "lit": "slow + great",
-   "lit_th": "ค่อย ๆ เคลื่อนไป + ยาว"
-  },
-  {
-   "th": "ป่าช้า",
-   "rtgs": "pa-cha",
-   "ipa": "/paː˨˩.t͡ɕʰaː˦˥/",
-   "gloss": {
-    "en": [
-     "grave"
-    ],
-    "th": "ป่าหรือที่ซึ่งจัดไว้เป็นที่ฝังหรือเผาศพ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ป่า",
-    "ช้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 1,
-   "cross_listed": [
-    "ป่า"
-   ],
-   "lit": "forest + slow",
-   "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + ค่อย ๆ เคลื่อนไป"
+   "lit_th": "แข่ง + ค่อย ๆ เคลื่อนไป",
+   "use": "false-split"
   },
   {
    "th": "ความชั่วช้า",
@@ -483,8 +580,8 @@
     "ชะ",
     "ช้า"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: an exclamation of anger. The gloss lists its variants as ชะ, ชะชะ — it is the interjection ชะ extended, not ช้า 'slow' or 'base'. No etymology stated, so probable.",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
@@ -494,93 +591,8 @@
     "ชะ"
    ],
    "lit": "to rinse + slow",
-   "lit_th": "ล้างหรือทำให้สิ่งที่ติดอยู่หลุดออก + ค่อย ๆ เคลื่อนไป"
-  },
-  {
-   "th": "ล่าช้า",
-   "rtgs": "la-cha",
-   "ipa": "/laː˥˩.t͡ɕʰaː˦˥/",
-   "gloss": {
-    "en": [
-     "late",
-     "delay"
-    ],
-    "th": "ช้ามาก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ล่า",
-    "ช้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 1,
-   "lit": "hunt + slow",
-   "lit_th": "เที่ยวติดตามหา + ค่อย ๆ เคลื่อนไป"
-  },
-  {
-   "th": "เชื่องช้า",
-   "rtgs": "chueang-cha",
-   "ipa": "/t͡ɕʰɯa̯ŋ˥˩.t͡ɕʰaː˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อืดอาด, ยืดยาด, ไม่ว่องไว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เชื่อง",
-    "ช้า"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 1,
-   "lit": "docile + slow",
-   "lit_th": "ไม่เปรียว + ค่อย ๆ เคลื่อนไป"
-  },
-  {
-   "th": "ช้าก่อน",
-   "rtgs": "cha-kon",
-   "ipa": "/t͡ɕʰaː˦˥.kɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หยุดก่อน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ช้า",
-    "ก่อน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 0,
-   "lit": "slow + anterior",
-   "lit_th": "ค่อย ๆ เคลื่อนไป + ใช้บอกลำดับเวลา หมายความว่า เดิม"
+   "lit_th": "ล้างหรือทำให้สิ่งที่ติดอยู่หลุดออก + ค่อย ๆ เคลื่อนไป",
+   "use": "false-split"
   },
   {
    "th": "ความหยาบช้า",

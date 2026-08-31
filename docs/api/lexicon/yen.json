@@ -194,6 +194,136 @@
      "lit": "tea + cold",
      "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
      "frame": "quality"
+    },
+    {
+     "th": "เย็นเยือก",
+     "rtgs": "yen-yueak",
+     "ipa": "/jen˧.jɯa̯k̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่รู้สึกหนาวสะท้านถึงขั้วหัวใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เย็น",
+      "เยือก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "lit_th": "มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ + อาการที่รู้สึกหนาวสะท้านถึงขั้วหัว",
+     "flips_with": "เยือกเย็น",
+     "frame": "quality"
+    },
+    {
+     "th": "ไฟเย็น",
+     "rtgs": "fai-yen",
+     "ipa": "/faj˧.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดอกไม้ไฟชนิดหนึ่ง ลักษณะคล้ายธูป สามารถถือได้ เมื่อจุดไฟจะเป็นประกาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ไฟ"
+     ],
+     "lit": "fire + cold",
+     "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "ตู้เย็น",
+     "rtgs": "tu-yen",
+     "ipa": "/tuː˥˩.jen˧/",
+     "gloss": {
+      "en": [
+       "refrigerator",
+       "fridge"
+      ],
+      "th": "เครื่องใช้ไฟฟ้า มีลักษณะเป็นตู้ ภายในมีอุณหภูมิต่ำ เพื่อให้ความเย็นรักษาอาหารหรือของอย่างอื่นไม่ให้เสื่อมสภาพ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตู้",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "cupboard + cold",
+     "lit_th": "เครื่องเรือนสำหรับเก็บหรือใส่สิ่งข + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "สงครามเย็น",
+     "rtgs": "song-khram-yen",
+     "ipa": "/soŋ˩˩˦.kʰraːm˧.jen˧/",
+     "gloss": {
+      "en": [
+       "Cold War"
+      ],
+      "th": "การต่อสู้ระหว่างประเทศต่อประเทศโดยไม่ใช้อาวุธ แต่ใช้อำนาจอื่นแทน เช่น อำนาจทางการเมือง อำนาจทางเศรษฐกิจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สงคราม",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "war + cold",
+     "lit_th": "การรบใหญ่ที่มีคนจำนวนมากต่อสู้ฆ่าฟ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
     }
    ]
   },
@@ -224,7 +354,76 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "Cool to the touch becomes cool in temper: unagitated.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เยือกเย็น",
+     "rtgs": "yueak-yen",
+     "ipa": "/jɯa̯k̚˥˩.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีจิตใจหนักแน่น ไม่ฉุนเฉียวโกรธง่าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เยือก",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 1,
+     "lit_th": "อาการที่รู้สึกหนาวสะท้านถึงขั้วหัว + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "flips_with": "เย็นเยือก",
+     "frame": "quality"
+    },
+    {
+     "th": "ใจเย็น",
+     "rtgs": "chai-yen",
+     "ipa": "/t͡ɕaj˧.jen˧/",
+     "gloss": {
+      "en": [
+       "even",
+       "gentle"
+      ],
+      "th": "ใจหนักแน่นไม่ฉุนเฉียว, ไม่รีบร้อน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "heart + cold",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 3,
@@ -253,7 +452,40 @@
    "extends": 1,
    "via": "metonymy",
    "via_note": "The cool of the day names the hour of it.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "อาหารเย็น",
+     "rtgs": "a-han-yen",
+     "ipa": "/ʔaː˧.haːn˩˩˦.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาหารที่ทานในช่วงเย็นของวัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อาหาร",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "aid + cold",
+     "lit_th": "ของกิน + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 4,
@@ -483,36 +715,6 @@
    "frame": "quality"
   },
   {
-   "th": "เยือกเย็น",
-   "rtgs": "yueak-yen",
-   "ipa": "/jɯa̯k̚˥˩.jen˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีจิตใจหนักแน่น ไม่ฉุนเฉียวโกรธง่าย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เยือก",
-    "เย็น"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+ADJ",
-   "head": 1,
-   "lit_th": "อาการที่รู้สึกหนาวสะท้านถึงขั้วหัว + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
-   "flips_with": "เย็นเยือก",
-   "frame": "quality"
-  },
-  {
    "th": "ความเย็น",
    "rtgs": "khwam-yen",
    "ipa": "/kʰwaːm˧.jen˧/",
@@ -542,36 +744,6 @@
    "head": 1,
    "lit": "-ness + cold",
    "lit_th": "เรื่อง + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
-   "frame": "quality"
-  },
-  {
-   "th": "เย็นเยือก",
-   "rtgs": "yen-yueak",
-   "ipa": "/jen˧.jɯa̯k̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการที่รู้สึกหนาวสะท้านถึงขั้วหัวใจ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เย็น",
-    "เยือก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+ADJ",
-   "head": 0,
-   "lit_th": "มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ + อาการที่รู้สึกหนาวสะท้านถึงขั้วหัว",
-   "flips_with": "เยือกเย็น",
    "frame": "quality"
   },
   {
@@ -639,39 +811,6 @@
    "frame": "quality"
   },
   {
-   "th": "ไฟเย็น",
-   "rtgs": "fai-yen",
-   "ipa": "/faj˧.jen˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ดอกไม้ไฟชนิดหนึ่ง ลักษณะคล้ายธูป สามารถถือได้ เมื่อจุดไฟจะเป็นประกาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไฟ",
-    "เย็น"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ไฟ"
-   ],
-   "lit": "fire + cold",
-   "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
-   "frame": "quality"
-  },
-  {
    "th": "เดือนเย็น",
    "rtgs": "duean-yen",
    "ipa": "/dɯa̯n˧.jen˧/",
@@ -699,134 +838,6 @@
    "pattern": "N+ADJ",
    "head": 1,
    "lit": "month + cold",
-   "frame": "quality"
-  },
-  {
-   "th": "ตู้เย็น",
-   "rtgs": "tu-yen",
-   "ipa": "/tuː˥˩.jen˧/",
-   "gloss": {
-    "en": [
-     "refrigerator",
-     "fridge"
-    ],
-    "th": "เครื่องใช้ไฟฟ้า มีลักษณะเป็นตู้ ภายในมีอุณหภูมิต่ำ เพื่อให้ความเย็นรักษาอาหารหรือของอย่างอื่นไม่ให้เสื่อมสภาพ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ตู้",
-    "เย็น"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "cupboard + cold",
-   "lit_th": "เครื่องเรือนสำหรับเก็บหรือใส่สิ่งข + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
-   "frame": "quality"
-  },
-  {
-   "th": "สงครามเย็น",
-   "rtgs": "song-khram-yen",
-   "ipa": "/soŋ˩˩˦.kʰraːm˧.jen˧/",
-   "gloss": {
-    "en": [
-     "Cold War"
-    ],
-    "th": "การต่อสู้ระหว่างประเทศต่อประเทศโดยไม่ใช้อาวุธ แต่ใช้อำนาจอื่นแทน เช่น อำนาจทางการเมือง อำนาจทางเศรษฐกิจ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สงคราม",
-    "เย็น"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "war + cold",
-   "lit_th": "การรบใหญ่ที่มีคนจำนวนมากต่อสู้ฆ่าฟ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
-   "frame": "quality"
-  },
-  {
-   "th": "อาหารเย็น",
-   "rtgs": "a-han-yen",
-   "ipa": "/ʔaː˧.haːn˩˩˦.jen˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาหารที่ทานในช่วงเย็นของวัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อาหาร",
-    "เย็น"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "aid + cold",
-   "lit_th": "ของกิน + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
-   "frame": "quality"
-  },
-  {
-   "th": "ใจเย็น",
-   "rtgs": "chai-yen",
-   "ipa": "/t͡ɕaj˧.jen˧/",
-   "gloss": {
-    "en": [
-     "even",
-     "gentle"
-    ],
-    "th": "ใจหนักแน่นไม่ฉุนเฉียว, ไม่รีบร้อน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ใจ",
-    "เย็น"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ใจ"
-   ],
-   "lit": "heart + cold",
-   "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
    "frame": "quality"
   }
  ],

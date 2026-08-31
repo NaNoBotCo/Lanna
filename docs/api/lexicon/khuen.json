@@ -34,6 +34,130 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ขึ้นคาน",
+     "rtgs": "khuen-khan",
+     "ipa": "/kʰɯn˥˩.kʰaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีฝีมือในทางใดทางหนึ่งจนไม่มีคู่แข่งขัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "คาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + เครื่องเรือนที่ยึดเสาและรองตง ทำด้"
+    },
+    {
+     "th": "บรรจุขึ้น",
+     "rtgs": "ban-chu-khuen",
+     "ipa": "/ban˧.t͡ɕu˨˩.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อัปโหลด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บรรจุ",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "carry + rise",
+     "lit_th": "ใส่ลงในขวด หีบ หรือถุง เป็นต้น + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
+    },
+    {
+     "th": "น้ำขึ้น",
+     "rtgs": "nam-khuen",
+     "ipa": "/naːm˦˥.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "flow"
+      ],
+      "th": "น้ำในทะเลและแม่น้ำลำคลองที่มีทางติดต่อโดยตรงกับทะเลหรือได้รับอิทธิพลจากน้ำทะเลเป็นต้นที่มีระดับน้ำสูงขึ้น ในวันหนึ่ง ๆ ตามปรกติน้ำจะขึ้น 2 ครั้ง และน้ำขึ้นครั้งแรกจะมีระดับสูงกว่าขึ้นครั้งที่ 2",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + rise",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
+    },
+    {
+     "th": "ขึ้นเขียง",
+     "rtgs": "khuen-khiang",
+     "ipa": "/kʰɯn˥˩.kʰia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตกอยู่ในภาวะที่แทบไม่มีทางจะต่อสู้หรือเอาชนะหรือหลีกเลี่ยงได้เลย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "เขียง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + ไม้รองรับการสับ หั่น มักเป็นแผ่นกล"
+    }
    ]
   },
   {
@@ -92,7 +216,39 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "A thing rising into existence: to begin.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขึ้นครู",
+     "rtgs": "khuen-khru",
+     "ipa": "/kʰɯn˥˩.kʰruː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำพิธีคำนับครูที่ประสาทวิชาให้เมื่อแรกเรียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "ครู"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "rise + teacher",
+     "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + ผู้สั่งสอนศิษย์"
+    }
+   ]
   },
   {
    "n": 4,
@@ -245,7 +401,42 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "To arise, to come to be.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ของขึ้น",
+     "rtgs": "khong-khuen",
+     "ipa": "/kʰɔːŋ˩˩˦.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการผิดปรกติอย่างใดอย่างหนึ่ง เชื่อว่าเกิดจากอำนาจของขลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "by + rise",
+     "lit_th": "สิ่งต่าง ๆ + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
+    }
+   ]
   },
   {
    "n": 7,
@@ -274,7 +465,43 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "Raising a thing in one's regard: to esteem it.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขึ้นชื่อ",
+     "rtgs": "khuen-chue",
+     "ipa": "/kʰɯn˥˩.t͡ɕʰɯː˥˩/",
+     "gloss": {
+      "en": [
+       "famous"
+      ],
+      "th": "ลือชื่อ, เอ่ยถึงบ่อย ๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "ชื่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ชื่อ"
+     ],
+     "lit": "rise + name",
+     "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส"
+    }
+   ]
   },
   {
    "n": 8,
@@ -303,7 +530,42 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "Coming up under an authority — ขึ้นกับ, to fall under.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เมืองขึ้น",
+     "rtgs": "mueang-khuen",
+     "ipa": "/mɯa̯ŋ˧.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รัฐที่อยู่ใต้บังคับบัญชาของรัฐอื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เมือง",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "town + rise",
+     "lit_th": "แดน + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
+    }
+   ]
   },
   {
    "n": 9,
@@ -390,7 +652,38 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "First appearing over the horizon.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "รุ่งขึ้น",
+     "rtgs": "rung-khuen",
+     "ipa": "/ruŋ˥˩.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วันใหม่, วันพรุ่งนี้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รุ่ง",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "ระยะเวลาตอนเริ่มแรกแห่งวัน + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
+    }
+   ]
   },
   {
    "n": 12,
@@ -419,7 +712,39 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "A shoot rising from the ground.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขมิ้นขึ้น",
+     "rtgs": "kha–min–khuen",
+     "ipa": "/kʰa˨˩.min˥˩.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขมิ้นอ้อย, ชื่อไม้ล้มลุกในสกุล Curcuma วงศ์ Zingiberaceae",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขมิ้น",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "turmeric + rise",
+     "lit_th": "ชื่อไม้ล้มลุกชนิด Curcuma longa ใน + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
+    }
+   ]
   },
   {
    "n": 13,
@@ -622,7 +947,94 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "Putting a thing up into store.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขึ้นยุ้ง",
+     "translit_auto": "khuenyung",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คำสุภาพ) ใส่ยุ้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "ยุ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 19 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + สิ่งปลูกสร้างสำหรับเก็บข้าวเปลือกข"
+    },
+    {
+     "th": "ขึ้นหิ้ง",
+     "rtgs": "khuen-hing",
+     "ipa": "/kʰɯn˥˩.hiŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เก็บไว้โดยไม่ได้ใช้ประโยชน์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "หิ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 19 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + ที่วางของซึ่งแขวนหรือติดไว้ข้างฝา"
+    },
+    {
+     "th": "ขึ้นฉาง",
+     "translit_auto": "khuenchang",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คำสุภาพ) ใส่ฉาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "ฉาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 19 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + อาคารเก็บผลิตผลทางการเกษตรอย่างข้า"
+    }
+   ]
   },
   {
    "n": 20,
@@ -1000,334 +1412,6 @@
    "lit_th": "คำอาการนามของ บรรจุ + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
   },
   {
-   "th": "ขึ้นคาน",
-   "rtgs": "khuen-khan",
-   "ipa": "/kʰɯn˥˩.kʰaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีฝีมือในทางใดทางหนึ่งจนไม่มีคู่แข่งขัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขึ้น",
-    "คาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + เครื่องเรือนที่ยึดเสาและรองตง ทำด้"
-  },
-  {
-   "th": "ขึ้นครู",
-   "rtgs": "khuen-khru",
-   "ipa": "/kʰɯn˥˩.kʰruː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำพิธีคำนับครูที่ประสาทวิชาให้เมื่อแรกเรียน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขึ้น",
-    "ครู"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "rise + teacher",
-   "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + ผู้สั่งสอนศิษย์"
-  },
-  {
-   "th": "รุ่งขึ้น",
-   "rtgs": "rung-khuen",
-   "ipa": "/ruŋ˥˩.kʰɯn˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "วันใหม่, วันพรุ่งนี้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รุ่ง",
-    "ขึ้น"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "lit_th": "ระยะเวลาตอนเริ่มแรกแห่งวัน + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
-  },
-  {
-   "th": "ขมิ้นขึ้น",
-   "rtgs": "kha–min–khuen",
-   "ipa": "/kʰa˨˩.min˥˩.kʰɯn˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขมิ้นอ้อย, ชื่อไม้ล้มลุกในสกุล Curcuma วงศ์ Zingiberaceae",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขมิ้น",
-    "ขึ้น"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "lit": "turmeric + rise",
-   "lit_th": "ชื่อไม้ล้มลุกชนิด Curcuma longa ใน + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
-  },
-  {
-   "th": "ของขึ้น",
-   "rtgs": "khong-khuen",
-   "ipa": "/kʰɔːŋ˩˩˦.kʰɯn˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการผิดปรกติอย่างใดอย่างหนึ่ง เชื่อว่าเกิดจากอำนาจของขลัง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ของ",
-    "ขึ้น"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "cross_listed": [
-    "ของ"
-   ],
-   "lit": "by + rise",
-   "lit_th": "สิ่งต่าง ๆ + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
-  },
-  {
-   "th": "บรรจุขึ้น",
-   "rtgs": "ban-chu-khuen",
-   "ipa": "/ban˧.t͡ɕu˨˩.kʰɯn˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อัปโหลด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "บรรจุ",
-    "ขึ้น"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 1,
-   "lit": "carry + rise",
-   "lit_th": "ใส่ลงในขวด หีบ หรือถุง เป็นต้น + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
-  },
-  {
-   "th": "ขึ้นชื่อ",
-   "rtgs": "khuen-chue",
-   "ipa": "/kʰɯn˥˩.t͡ɕʰɯː˥˩/",
-   "gloss": {
-    "en": [
-     "famous"
-    ],
-    "th": "ลือชื่อ, เอ่ยถึงบ่อย ๆ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ขึ้น",
-    "ชื่อ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ชื่อ"
-   ],
-   "lit": "rise + name",
-   "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส"
-  },
-  {
-   "th": "น้ำขึ้น",
-   "rtgs": "nam-khuen",
-   "ipa": "/naːm˦˥.kʰɯn˥˩/",
-   "gloss": {
-    "en": [
-     "flow"
-    ],
-    "th": "น้ำในทะเลและแม่น้ำลำคลองที่มีทางติดต่อโดยตรงกับทะเลหรือได้รับอิทธิพลจากน้ำทะเลเป็นต้นที่มีระดับน้ำสูงขึ้น ในวันหนึ่ง ๆ ตามปรกติน้ำจะขึ้น 2 ครั้ง และน้ำขึ้นครั้งแรกจะมีระดับสูงกว่าขึ้นครั้งที่ 2",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "น้ำ",
-    "ขึ้น"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "cross_listed": [
-    "น้ำ"
-   ],
-   "lit": "water + rise",
-   "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
-  },
-  {
-   "th": "เมืองขึ้น",
-   "rtgs": "mueang-khuen",
-   "ipa": "/mɯa̯ŋ˧.kʰɯn˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รัฐที่อยู่ใต้บังคับบัญชาของรัฐอื่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เมือง",
-    "ขึ้น"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "cross_listed": [
-    "เมือง"
-   ],
-   "lit": "town + rise",
-   "lit_th": "แดน + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
-  },
-  {
-   "th": "ขึ้นยุ้ง",
-   "translit_auto": "khuenyung",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(คำสุภาพ) ใส่ยุ้ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขึ้น",
-    "ยุ้ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + สิ่งปลูกสร้างสำหรับเก็บข้าวเปลือกข"
-  },
-  {
-   "th": "ขึ้นหิ้ง",
-   "rtgs": "khuen-hing",
-   "ipa": "/kʰɯn˥˩.hiŋ˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เก็บไว้โดยไม่ได้ใช้ประโยชน์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขึ้น",
-    "หิ้ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + ที่วางของซึ่งแขวนหรือติดไว้ข้างฝา"
-  },
-  {
    "th": "การขึ้น",
    "rtgs": "kan-khuen",
    "ipa": "/kaːn˧.kʰɯn˥˩/",
@@ -1355,61 +1439,6 @@
    "pattern": "N+V",
    "head": 1,
    "lit_th": "งาน + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
-  },
-  {
-   "th": "ขึ้นเขียง",
-   "rtgs": "khuen-khiang",
-   "ipa": "/kʰɯn˥˩.kʰia̯ŋ˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตกอยู่ในภาวะที่แทบไม่มีทางจะต่อสู้หรือเอาชนะหรือหลีกเลี่ยงได้เลย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขึ้น",
-    "เขียง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + ไม้รองรับการสับ หั่น มักเป็นแผ่นกล"
-  },
-  {
-   "th": "ขึ้นฉาง",
-   "translit_auto": "khuenchang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(คำสุภาพ) ใส่ฉาง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขึ้น",
-    "ฉาง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + อาคารเก็บผลิตผลทางการเกษตรอย่างข้า"
   }
  ],
  "etymology": {

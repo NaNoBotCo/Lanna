@@ -105,6 +105,296 @@
      ],
      "lit": "are + happiness",
      "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ความสบายกายสบายใจ"
+    },
+    {
+     "th": "สุขศึกษา",
+     "rtgs": "suk-kha-suek-sa",
+     "ipa": "/suk̚˨˩.kʰa˨˩.sɯk̚˨˩.saː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การศึกษาที่ว่าด้วยกระบวนการที่เกี่ยวกับสุขภาพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "ศึกษา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "happiness + learn",
+     "lit_th": "ความสบายกายสบายใจ + การเล่าเรียน การฝึกฝน และการอบรม",
+     "frame": "entity"
+    },
+    {
+     "th": "สุขนิสัย",
+     "rtgs": "suk-kha-ni-sai",
+     "ipa": "/suk̚˨˩.kʰa˨˩.ni˦˥.saj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นิสัยที่ก่อให้เกิดสุขลักษณะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "นิสัย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "happiness + nature",
+     "lit_th": "ความสบายกายสบายใจ + ความประพฤติที่เคยชิน",
+     "frame": "entity"
+    },
+    {
+     "th": "สันติสุข",
+     "rtgs": "san-ti-suk",
+     "ipa": "/san˩˩˦.ti˨˩.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความสุขที่มาจากความสงบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สันติ",
+      "สุข"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความสงบ + ความสบายกายสบายใจ",
+     "frame": "entity"
+    },
+    {
+     "th": "สุขทุกข์",
+     "rtgs": "suk-thuk",
+     "ipa": "/suk̚˨˩.tʰuk̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความเป็นอยู่หรือความเป็นไปของชีวิตในขณะนั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "ทุกข์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทุกข์"
+     ],
+     "lit": "happiness + suffering",
+     "lit_th": "ความสบายกายสบายใจ + ความยากลำบาก",
+     "flips_with": "ทุกข์สุข",
+     "frame": "entity"
+    },
+    {
+     "th": "สุขภาพ",
+     "rtgs": "suk-kha-phap",
+     "ipa": "/suk̚˨˩.kʰa˨˩.pʰaːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "condition"
+      ],
+      "th": "ภาวะที่ปราศจากโรคภัยไข้เจ็บ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "ภาพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "happiness + image",
+     "lit_th": "ความสบายกายสบายใจ + ความมี",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุกข์สุข",
+     "rtgs": "thuk-suk",
+     "ipa": "/tʰuk̚˦˥.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความเป็นอยู่หรือความเป็นไปของชีวิตในขณะนั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุกข์",
+      "สุข"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทุกข์"
+     ],
+     "lit": "suffering + happiness",
+     "lit_th": "ความยากลำบาก + ความสบายกายสบายใจ",
+     "flips_with": "สุขทุกข์",
+     "frame": "entity"
+    },
+    {
+     "th": "สุขนาฏกรรม",
+     "rtgs": "suk-kha-nat-ta-kam",
+     "ipa": "/suk̚˨˩.kʰa˨˩.naːt̚˥˩.ta˨˩.kam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วรรณกรรมโดยเฉพาะประเภทละครที่ลงท้ายด้วยความสุขหรือสมหวัง เช่นเรื่องอิเหนา ศกุนตลา ชิงนาง ปริศนา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "นาฏกรรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "happiness + dance",
+     "lit_th": "ความสบายกายสบายใจ + การละครหรือการฟ้อนรำ",
+     "frame": "entity"
+    },
+    {
+     "th": "สาธารณสุข",
+     "rtgs": "sa-tha-ra-na-suk",
+     "ipa": "/saː˩˩˦.tʰaː˧.ra˦˥.na˦˥.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "public health"
+      ],
+      "th": "กิจการเกี่ยวกับการป้องกัน การบำบัดโรค การรักษา และส่งเสริมสุขภาพของประชาชน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สาธารณ",
+      "สุข"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ สาธารณะ + ความสบายกายสบายใจ",
+     "frame": "quality"
+    },
+    {
+     "th": "สุขภัณฑ์",
+     "rtgs": "suk-kha-phan",
+     "ipa": "/suk̚˨˩.kʰa˨˩.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องอุปกรณ์ที่ใช้สำหรับห้องน้ำ เช่นอ่างล้างหน้า อ่างอาบน้ำ โถส้วม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "ภัณฑ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ภัณฑ์"
+     ],
+     "lit": "happiness + goods",
+     "lit_th": "ความสบายกายสบายใจ + สิ่งของ",
+     "frame": "entity"
     }
    ]
   },
@@ -447,95 +737,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['สุข', 'ใจ'].",
  "compounds_unassigned": [
   {
-   "th": "สุขศึกษา",
-   "rtgs": "suk-kha-suek-sa",
-   "ipa": "/suk̚˨˩.kʰa˨˩.sɯk̚˨˩.saː˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "การศึกษาที่ว่าด้วยกระบวนการที่เกี่ยวกับสุขภาพ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สุข",
-    "ศึกษา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "happiness + learn",
-   "lit_th": "ความสบายกายสบายใจ + การเล่าเรียน การฝึกฝน และการอบรม",
-   "frame": "entity"
-  },
-  {
-   "th": "สุขนิสัย",
-   "rtgs": "suk-kha-ni-sai",
-   "ipa": "/suk̚˨˩.kʰa˨˩.ni˦˥.saj˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "นิสัยที่ก่อให้เกิดสุขลักษณะ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สุข",
-    "นิสัย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "happiness + nature",
-   "lit_th": "ความสบายกายสบายใจ + ความประพฤติที่เคยชิน",
-   "frame": "entity"
-  },
-  {
-   "th": "สันติสุข",
-   "rtgs": "san-ti-suk",
-   "ipa": "/san˩˩˦.ti˨˩.suk̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ความสุขที่มาจากความสงบ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สันติ",
-    "สุข"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "ความสงบ + ความสบายกายสบายใจ",
-   "frame": "entity"
-  },
-  {
    "th": "ความสุข",
    "rtgs": "khwam-suk",
    "ipa": "/kʰwaːm˧.suk̚˨˩/",
@@ -565,198 +766,6 @@
    "head": 1,
    "lit": "-ness + happiness",
    "lit_th": "เรื่อง + ความสบายกายสบายใจ",
-   "frame": "entity"
-  },
-  {
-   "th": "สุขทุกข์",
-   "rtgs": "suk-thuk",
-   "ipa": "/suk̚˨˩.tʰuk̚˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ความเป็นอยู่หรือความเป็นไปของชีวิตในขณะนั้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สุข",
-    "ทุกข์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ทุกข์"
-   ],
-   "lit": "happiness + suffering",
-   "lit_th": "ความสบายกายสบายใจ + ความยากลำบาก",
-   "flips_with": "ทุกข์สุข",
-   "frame": "entity"
-  },
-  {
-   "th": "สุขภาพ",
-   "rtgs": "suk-kha-phap",
-   "ipa": "/suk̚˨˩.kʰa˨˩.pʰaːp̚˥˩/",
-   "gloss": {
-    "en": [
-     "condition"
-    ],
-    "th": "ภาวะที่ปราศจากโรคภัยไข้เจ็บ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สุข",
-    "ภาพ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "happiness + image",
-   "lit_th": "ความสบายกายสบายใจ + ความมี",
-   "frame": "entity"
-  },
-  {
-   "th": "ทุกข์สุข",
-   "rtgs": "thuk-suk",
-   "ipa": "/tʰuk̚˦˥.suk̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ความเป็นอยู่หรือความเป็นไปของชีวิตในขณะนั้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทุกข์",
-    "สุข"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ทุกข์"
-   ],
-   "lit": "suffering + happiness",
-   "lit_th": "ความยากลำบาก + ความสบายกายสบายใจ",
-   "flips_with": "สุขทุกข์",
-   "frame": "entity"
-  },
-  {
-   "th": "สุขนาฏกรรม",
-   "rtgs": "suk-kha-nat-ta-kam",
-   "ipa": "/suk̚˨˩.kʰa˨˩.naːt̚˥˩.ta˨˩.kam˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "วรรณกรรมโดยเฉพาะประเภทละครที่ลงท้ายด้วยความสุขหรือสมหวัง เช่นเรื่องอิเหนา ศกุนตลา ชิงนาง ปริศนา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สุข",
-    "นาฏกรรม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "happiness + dance",
-   "lit_th": "ความสบายกายสบายใจ + การละครหรือการฟ้อนรำ",
-   "frame": "entity"
-  },
-  {
-   "th": "สาธารณสุข",
-   "rtgs": "sa-tha-ra-na-suk",
-   "ipa": "/saː˩˩˦.tʰaː˧.ra˦˥.na˦˥.suk̚˨˩/",
-   "gloss": {
-    "en": [
-     "public health"
-    ],
-    "th": "กิจการเกี่ยวกับการป้องกัน การบำบัดโรค การรักษา และส่งเสริมสุขภาพของประชาชน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สาธารณ",
-    "สุข"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+N",
-   "head": 1,
-   "lit_th": "รูปแบบอื่นของ สาธารณะ + ความสบายกายสบายใจ",
-   "frame": "quality"
-  },
-  {
-   "th": "สุขภัณฑ์",
-   "rtgs": "suk-kha-phan",
-   "ipa": "/suk̚˨˩.kʰa˨˩.pʰan˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องอุปกรณ์ที่ใช้สำหรับห้องน้ำ เช่นอ่างล้างหน้า อ่างอาบน้ำ โถส้วม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สุข",
-    "ภัณฑ์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ภัณฑ์"
-   ],
-   "lit": "happiness + goods",
-   "lit_th": "ความสบายกายสบายใจ + สิ่งของ",
    "frame": "entity"
   }
  ],

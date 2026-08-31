@@ -223,6 +223,38 @@
     "Declared root: ออก 'to go out' — the verb, and the productive one.",
     "Declared root: ออก 'to go out' — the verb, and the productive one.",
     "Declared root: ออก 'to go out' — the verb, and the productive one."
+   ],
+   "compounds": [
+    {
+     "th": "ตะวันออก",
+     "rtgs": "ta-wan-ok",
+     "ipa": "/ta˨˩.wan˧.ʔɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทิศที่ดวงอาทิตย์โผล่พ้นขอบฟ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตะวัน",
+      "ออก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ดวงอาทิตย์ + คำนำหน้าบรรดาศักดิ์",
+     "frame": "entity"
+    }
    ]
   },
   {
@@ -252,7 +284,72 @@
    "extends": 5,
    "via": "specialisation",
    "via_note": "Going out narrowed to leaving a place.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ออกบวช",
+     "rtgs": "ok-buat",
+     "ipa": "/ʔɔːk̚˨˩.bua̯t̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไปถือเพศเป็นพระหรือนักพรตอื่น ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "บวช"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + ถือเพศเป็นภิกษุสามเณรหรือนักพรตอื่"
+    },
+    {
+     "th": "ออกทะเล",
+     "rtgs": "ok-tha-le",
+     "ipa": "/ʔɔːk̚˨˩.tʰa˦˥.leː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ออกไปนอกชายฝั่งทะเลด้วยเรือเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "ทะเล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทะเล"
+     ],
+     "lit": "tear + sea",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 7,
@@ -281,7 +378,114 @@
    "extends": 5,
    "via": "metaphor",
    "via_note": "Bringing a thing out where it can be seen: to make appear.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ออกลาย",
+     "rtgs": "ok-lai",
+     "ipa": "/ʔɔːk̚˨˩.laːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เริ่มแสดงความไม่ดีให้ปรากฏหลังจากที่แสร้งทำดีมาแล้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "ลาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลาย"
+     ],
+     "lit": "tear + design",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+     "frame": "entity"
+    },
+    {
+     "th": "ออกอากาศ",
+     "rtgs": "ok-a-kat",
+     "ipa": "/ʔɔːk̚˨˩.ʔaː˧.kaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "broadcast"
+      ],
+      "th": "กระจายเสียงทางวิทยุ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "อากาศ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "อากาศ"
+     ],
+     "lit": "tear + air",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + แก๊สผสมที่ประกอบด้วยไนโตรเจนและออก",
+     "frame": "entity"
+    },
+    {
+     "th": "ออกเสียง",
+     "rtgs": "ok-siang",
+     "ipa": "/ʔɔːk̚˨˩.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "deliver",
+       "pronounce"
+      ],
+      "th": "เปล่งเสียง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "เสียง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เสียง"
+     ],
+     "lit": "tear + voice",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + สิ่งที่รับรู้ได้ด้วยหู",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 8,
@@ -310,7 +514,80 @@
    "extends": 7,
    "via": "generalisation",
    "via_note": "And from appearing to coming into existence.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ออกแบบ",
+     "rtgs": "ok-baep",
+     "ipa": "/ʔɔːk̚˨˩.bɛːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "invent",
+       "design",
+       "pattern"
+      ],
+      "th": "กำหนดลักษณะและหน้าที่โดยการวาดภาพที่มีรายละเอียดสูง, ประดิษฐ์แบบ, ประดิษฐ์รูปลักษณะ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "แบบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แบบ"
+     ],
+     "lit": "tear + model",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+     "frame": "entity"
+    },
+    {
+     "th": "ออกลูก",
+     "rtgs": "ok-luk",
+     "ipa": "/ʔɔːk̚˨˩.luːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คลอดลูก (ใช้กับสัตว์)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "ลูก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "tear + child",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 9,
@@ -339,7 +616,105 @@
    "extends": 5,
    "via": "metaphor",
    "via_note": "Going out of a condition: to be free of it.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ออกทุกข์",
+     "rtgs": "ok-thuk",
+     "ipa": "/ʔɔːk̚˨˩.tʰuk̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เลิกไว้ทุกข์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "ทุกข์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทุกข์"
+     ],
+     "lit": "tear + suffering",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + ความยากลำบาก",
+     "frame": "entity"
+    },
+    {
+     "th": "ลาออก",
+     "rtgs": "la-ok",
+     "ipa": "/laː˧.ʔɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "quit"
+      ],
+      "th": "ขออนุญาตให้พ้นจากสภาพที่ดำรงอยู่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลา",
+      "ออก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "ass + tear",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus + คำนำหน้าบรรดาศักดิ์",
+     "frame": "entity"
+    },
+    {
+     "th": "ไล่ออก",
+     "rtgs": "lai-ok",
+     "ipa": "/laj˥˩.ʔɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "discharge"
+      ],
+      "th": "คัดชื่อออกจากทะเบียน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไล่",
+      "ออก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ตามไปติด ๆ เพื่อให้ทันหรือเพื่อกระ + คำนำหน้าบรรดาศักดิ์"
+    }
+   ]
   },
   {
    "n": 10,
@@ -368,7 +743,43 @@
    "extends": 5,
    "via": "metaphor",
    "via_note": "A shoot coming out: to sprout, to bud.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ออกดอก",
+     "rtgs": "ok-dok",
+     "ipa": "/ʔɔːk̚˨˩.dɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "flower",
+       "abloom",
+       "bud"
+      ],
+      "th": "เกิดเป็นเม็ดตามผิวหนังเนื่องจากกามโรคเรื้อรัง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "ดอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 10 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "tear + flower",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 11,
@@ -426,7 +837,75 @@
    "extends": 5,
    "via": "metaphor",
    "via_note": "Money going out: to pay.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ออกกำลัง",
+     "rtgs": "ok-kam-lang",
+     "ipa": "/ʔɔːk̚˨˩.kam˧.laŋ˧/",
+     "gloss": {
+      "en": [
+       "exercise"
+      ],
+      "th": "ใช้กำลัง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "กำลัง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "tear + force",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + แรง",
+     "frame": "entity"
+    },
+    {
+     "th": "ออกแรง",
+     "rtgs": "ok-raeng",
+     "ipa": "/ʔɔːk̚˨˩.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใช้กำลัง, ใช้แรงงาน, ใช้ความพยายาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "แรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แรง"
+     ],
+     "lit": "tear + bright",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + กำลัง",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 13,
@@ -455,7 +934,75 @@
    "extends": 7,
    "via": "specialisation",
    "via_note": "Making appear before an audience: to perform.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ออกชื่อ",
+     "rtgs": "ok-chue",
+     "ipa": "/ʔɔːk̚˨˩.t͡ɕʰɯː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บอกชื่อ, ขานชื่อ, แสดงชื่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "ชื่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 13 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ชื่อ"
+     ],
+     "lit": "tear + name",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส",
+     "frame": "entity"
+    },
+    {
+     "th": "แสดงออก",
+     "rtgs": "sa-daeng-ok",
+     "ipa": "/sa˨˩.dɛːŋ˧.ʔɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "use",
+       "representative"
+      ],
+      "th": "แสดงความรู้สึก ความคิดเห็น หรือความสามารถเป็นต้นให้ปรากฏ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แสดง",
+      "ออก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 13 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "act + tear",
+     "lit_th": "ชี้แจง + คำนำหน้าบรรดาศักดิ์"
+    }
+   ]
   },
   {
    "n": 14,
@@ -637,6 +1184,37 @@
      "lit": "way + tear",
      "lit_th": "ที่สำหรับเดินไปมา + ตรงข้ามกับ เข้า",
      "frame": "entity"
+    },
+    {
+     "th": "สินค้าออก",
+     "rtgs": "sin-kha-ok",
+     "ipa": "/sin˩˩˦.kʰaː˦˥.ʔɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สินค้าที่ส่งออกต่างประเทศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สินค้า",
+      "ออก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 17 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "goods + tear",
+     "lit_th": "สิ่งของที่ซื้อขายกัน + คำนำหน้าบรรดาศักดิ์",
+     "frame": "entity"
     }
    ],
    "extends": 5,
@@ -700,7 +1278,38 @@
    "extends": 5,
    "via": "metaphor",
    "via_note": "Going out from one another: to separate.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ออกหาก",
+     "rtgs": "ok-hak",
+     "ipa": "/ʔɔːk̚˨˩.haːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ทำห่างเหินไม่ร่วมมือร่วมใจเหมือนเดิมในคำว่า ตีตัวออกหาก เอาใจออกหาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "หาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 19 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + คำกริยาช่วยหมายความว่า พึง"
+    }
+   ]
   },
   {
    "n": 20,
@@ -839,131 +1448,6 @@
    "frame": "entity"
   },
   {
-   "th": "ออกทุกข์",
-   "rtgs": "ok-thuk",
-   "ipa": "/ʔɔːk̚˨˩.tʰuk̚˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เลิกไว้ทุกข์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "ทุกข์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ทุกข์"
-   ],
-   "lit": "tear + suffering",
-   "lit_th": "คำนำหน้าบรรดาศักดิ์ + ความยากลำบาก",
-   "frame": "entity"
-  },
-  {
-   "th": "ออกลาย",
-   "rtgs": "ok-lai",
-   "ipa": "/ʔɔːk̚˨˩.laːj˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เริ่มแสดงความไม่ดีให้ปรากฏหลังจากที่แสร้งทำดีมาแล้ว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "ลาย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ลาย"
-   ],
-   "lit": "tear + design",
-   "lit_th": "คำนำหน้าบรรดาศักดิ์ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
-   "frame": "entity"
-  },
-  {
-   "th": "ลาออก",
-   "rtgs": "la-ok",
-   "ipa": "/laː˧.ʔɔːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "quit"
-    ],
-    "th": "ขออนุญาตให้พ้นจากสภาพที่ดำรงอยู่",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ลา",
-    "ออก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "ass + tear",
-   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus + คำนำหน้าบรรดาศักดิ์",
-   "frame": "entity"
-  },
-  {
-   "th": "ออกบวช",
-   "rtgs": "ok-buat",
-   "ipa": "/ʔɔːk̚˨˩.bua̯t̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไปถือเพศเป็นพระหรือนักพรตอื่น ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "บวช"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "คำนำหน้าบรรดาศักดิ์ + ถือเพศเป็นภิกษุสามเณรหรือนักพรตอื่"
-  },
-  {
    "th": "การออก",
    "rtgs": "kan-ok",
    "ipa": "/kaːn˧.ʔɔːk̚˨˩/",
@@ -991,360 +1475,6 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "งาน + คำนำหน้าบรรดาศักดิ์",
-   "frame": "entity"
-  },
-  {
-   "th": "ออกทะเล",
-   "rtgs": "ok-tha-le",
-   "ipa": "/ʔɔːk̚˨˩.tʰa˦˥.leː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ออกไปนอกชายฝั่งทะเลด้วยเรือเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "ทะเล"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ทะเล"
-   ],
-   "lit": "tear + sea",
-   "lit_th": "คำนำหน้าบรรดาศักดิ์ + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
-   "frame": "entity"
-  },
-  {
-   "th": "ออกแบบ",
-   "rtgs": "ok-baep",
-   "ipa": "/ʔɔːk̚˨˩.bɛːp̚˨˩/",
-   "gloss": {
-    "en": [
-     "invent",
-     "design",
-     "pattern"
-    ],
-    "th": "กำหนดลักษณะและหน้าที่โดยการวาดภาพที่มีรายละเอียดสูง, ประดิษฐ์แบบ, ประดิษฐ์รูปลักษณะ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "แบบ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "แบบ"
-   ],
-   "lit": "tear + model",
-   "lit_th": "คำนำหน้าบรรดาศักดิ์ + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
-   "frame": "entity"
-  },
-  {
-   "th": "ออกกำลัง",
-   "rtgs": "ok-kam-lang",
-   "ipa": "/ʔɔːk̚˨˩.kam˧.laŋ˧/",
-   "gloss": {
-    "en": [
-     "exercise"
-    ],
-    "th": "ใช้กำลัง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "กำลัง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "tear + force",
-   "lit_th": "คำนำหน้าบรรดาศักดิ์ + แรง",
-   "frame": "entity"
-  },
-  {
-   "th": "สินค้าออก",
-   "rtgs": "sin-kha-ok",
-   "ipa": "/sin˩˩˦.kʰaː˦˥.ʔɔːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สินค้าที่ส่งออกต่างประเทศ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สินค้า",
-    "ออก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "goods + tear",
-   "lit_th": "สิ่งของที่ซื้อขายกัน + คำนำหน้าบรรดาศักดิ์",
-   "frame": "entity"
-  },
-  {
-   "th": "ออกอากาศ",
-   "rtgs": "ok-a-kat",
-   "ipa": "/ʔɔːk̚˨˩.ʔaː˧.kaːt̚˨˩/",
-   "gloss": {
-    "en": [
-     "broadcast"
-    ],
-    "th": "กระจายเสียงทางวิทยุ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "อากาศ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "อากาศ"
-   ],
-   "lit": "tear + air",
-   "lit_th": "คำนำหน้าบรรดาศักดิ์ + แก๊สผสมที่ประกอบด้วยไนโตรเจนและออก",
-   "frame": "entity"
-  },
-  {
-   "th": "ออกดอก",
-   "rtgs": "ok-dok",
-   "ipa": "/ʔɔːk̚˨˩.dɔːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "flower",
-     "abloom",
-     "bud"
-    ],
-    "th": "เกิดเป็นเม็ดตามผิวหนังเนื่องจากกามโรคเรื้อรัง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "ดอก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "tear + flower",
-   "lit_th": "คำนำหน้าบรรดาศักดิ์ + ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห",
-   "frame": "entity"
-  },
-  {
-   "th": "ไล่ออก",
-   "rtgs": "lai-ok",
-   "ipa": "/laj˥˩.ʔɔːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "discharge"
-    ],
-    "th": "คัดชื่อออกจากทะเบียน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ไล่",
-    "ออก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit_th": "ตามไปติด ๆ เพื่อให้ทันหรือเพื่อกระ + คำนำหน้าบรรดาศักดิ์"
-  },
-  {
-   "th": "ออกแรง",
-   "rtgs": "ok-raeng",
-   "ipa": "/ʔɔːk̚˨˩.rɛːŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ใช้กำลัง, ใช้แรงงาน, ใช้ความพยายาม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "แรง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "แรง"
-   ],
-   "lit": "tear + bright",
-   "lit_th": "คำนำหน้าบรรดาศักดิ์ + กำลัง",
-   "frame": "entity"
-  },
-  {
-   "th": "ออกลูก",
-   "rtgs": "ok-luk",
-   "ipa": "/ʔɔːk̚˨˩.luːk̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คลอดลูก (ใช้กับสัตว์)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "ลูก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ลูก"
-   ],
-   "lit": "tear + child",
-   "lit_th": "คำนำหน้าบรรดาศักดิ์ + ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย",
-   "frame": "entity"
-  },
-  {
-   "th": "ออกชื่อ",
-   "rtgs": "ok-chue",
-   "ipa": "/ʔɔːk̚˨˩.t͡ɕʰɯː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บอกชื่อ, ขานชื่อ, แสดงชื่อ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "ชื่อ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ชื่อ"
-   ],
-   "lit": "tear + name",
-   "lit_th": "คำนำหน้าบรรดาศักดิ์ + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส",
-   "frame": "entity"
-  },
-  {
-   "th": "ตะวันออก",
-   "rtgs": "ta-wan-ok",
-   "ipa": "/ta˨˩.wan˧.ʔɔːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทิศที่ดวงอาทิตย์โผล่พ้นขอบฟ้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตะวัน",
-    "ออก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "ดวงอาทิตย์ + คำนำหน้าบรรดาศักดิ์",
    "frame": "entity"
   },
   {
@@ -1433,100 +1563,6 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "คำอาการนามของ ไล่ + คำนำหน้าบรรดาศักดิ์",
-   "frame": "entity"
-  },
-  {
-   "th": "แสดงออก",
-   "rtgs": "sa-daeng-ok",
-   "ipa": "/sa˨˩.dɛːŋ˧.ʔɔːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "use",
-     "representative"
-    ],
-    "th": "แสดงความรู้สึก ความคิดเห็น หรือความสามารถเป็นต้นให้ปรากฏ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แสดง",
-    "ออก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "act + tear",
-   "lit_th": "ชี้แจง + คำนำหน้าบรรดาศักดิ์"
-  },
-  {
-   "th": "ออกหาก",
-   "rtgs": "ok-hak",
-   "ipa": "/ʔɔːk̚˨˩.haːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการที่ทำห่างเหินไม่ร่วมมือร่วมใจเหมือนเดิมในคำว่า ตีตัวออกหาก เอาใจออกหาก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "หาก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "คำนำหน้าบรรดาศักดิ์ + คำกริยาช่วยหมายความว่า พึง"
-  },
-  {
-   "th": "ออกเสียง",
-   "rtgs": "ok-siang",
-   "ipa": "/ʔɔːk̚˨˩.sia̯ŋ˩˩˦/",
-   "gloss": {
-    "en": [
-     "deliver",
-     "pronounce"
-    ],
-    "th": "เปล่งเสียง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "เสียง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "เสียง"
-   ],
-   "lit": "tear + voice",
-   "lit_th": "คำนำหน้าบรรดาศักดิ์ + สิ่งที่รับรู้ได้ด้วยหู",
    "frame": "entity"
   }
  ],

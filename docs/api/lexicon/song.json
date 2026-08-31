@@ -35,6 +35,140 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ยกทรง",
+     "rtgs": "yok-song",
+     "ipa": "/jok̚˦˥.soŋ˧/",
+     "gloss": {
+      "en": [
+       "bra"
+      ],
+      "th": "เสื้อชั้นในหญิงที่ยกเต้านมเพื่อให้ได้รูปทรง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ยก",
+      "ทรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ยก"
+     ],
+     "lit": "to lift + form",
+     "lit_th": "เอาขึ้นให้สูงจากที่เดิมทั้งโดยตรงแ + รูปร่าง"
+    },
+    {
+     "th": "ทรงกลม",
+     "rtgs": "song-klom",
+     "ipa": "/soŋ˧.klom˧/",
+     "gloss": {
+      "en": [
+       "sphere"
+      ],
+      "th": "ลักษณะรูปที่มีสัณฐานกลมเท่ากันไม่ว่ามองจากทางใด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "กลม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "form + round",
+     "lit_th": "รูปร่าง + ชื่อเพลงไทยของเก่าที่ใช้เครื่องปี่",
+     "frame": "entity"
+    },
+    {
+     "th": "รูปทรง",
+     "rtgs": "rup-song",
+     "ipa": "/ruːp̚˥˩.soŋ˧/",
+     "gloss": {
+      "en": [
+       "form",
+       "shape"
+      ],
+      "th": "ทรวดทรง สัณฐาน ประกอบด้วยความกว้าง หนาหรือลึก และสูง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "ทรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "รูป"
+     ],
+     "lit": "image + form",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1 + รูปร่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรงตัก",
+     "rtgs": "song-tak",
+     "ipa": "/soŋ˧.tak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช้อนหรือกระบวยขนาดเล็กสำหรับตักน้ำอบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "ตัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "รูปร่าง + หน้าขาตอนเข่าถึงโคนขาในเวลานั่ง",
+     "frame": "entity"
+    }
    ]
   },
   {
@@ -147,7 +281,107 @@
    "extends": 3,
    "via": "generalisation",
    "via_note": "Holding anything up: to bear, to support.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ร่างทรง",
+     "rtgs": "rang-song",
+     "ipa": "/raːŋ˥˩.soŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนทรง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ร่าง",
+      "ทรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปทรง + รูปร่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "คนทรง",
+     "rtgs": "khon-song",
+     "ipa": "/kʰon˧.soŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนที่ทำพิธีทรงเจ้า, คนที่เป็นร่างให้วิญญาณหรือสิ่งศักดิ์สิทธิ์เข้าสิง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "ทรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คน"
+     ],
+     "lit": "stir + form",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + รูปร่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรงเจ้า",
+     "rtgs": "song-chao",
+     "ipa": "/soŋ˧.t͡ɕaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำพิธีเชิญเจ้าเข้าสิงคนทรงเพื่อถามเหตุร้ายเหตุดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "เจ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "form + thou",
+     "lit_th": "รูปร่าง + ผู้เป็นใหญ่",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 6,
@@ -231,7 +465,241 @@
    "extends": 5,
    "via": "specialisation",
    "via_note": "Bearing in the specific sense the following word gives — to ride, to hold.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ทรงรถ",
+     "translit_auto": "thrngrt",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขี่รถ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "รถ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "รถ"
+     ],
+     "lit": "form + auto",
+     "lit_th": "รูปร่าง + ยานที่มีล้อสำหรับเคลื่อนไป",
+     "frame": "entity"
+    },
+    {
+     "th": "ผ้าทรง",
+     "translit_auto": "phathrng",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสื้อผ้าเครื่องนุ่งห่ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "ทรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ผ้า"
+     ],
+     "lit": "cloth + form",
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + รูปร่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรงช้าง",
+     "translit_auto": "thrngchang",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขี่ช้าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "ช้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "form + elephant",
+     "lit_th": "รูปร่าง + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรงเครื่อง",
+     "rtgs": "song-khrueang",
+     "ipa": "/soŋ˧.kʰrɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แต่งตัวมีเครื่องประดับ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "เครื่อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "form + device",
+     "lit_th": "รูปร่าง + สิ่ง",
+     "flips_with": "เครื่องทรง",
+     "frame": "entity"
+    },
+    {
+     "th": "เสื้อทรง",
+     "translit_auto": "seueothrng",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสื้อ (ใช้กับเจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสื้อ",
+      "ทรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "shirt + form",
+     "lit_th": "เครื่องสวมกายท่อนบนทำด้วยผ้าเป็นต้ + รูปร่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรงเรือ",
+     "translit_auto": "thrngreue",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขี่เรือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "เรือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือ"
+     ],
+     "lit": "form + boat",
+     "lit_th": "รูปร่าง + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องทรง",
+     "rtgs": "khrueang-song",
+     "ipa": "/kʰrɯa̯ŋ˥˩.soŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องแต่งตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ทรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "device + form",
+     "lit_th": "สิ่ง + รูปร่าง",
+     "flips_with": "ทรงเครื่อง",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 9,
@@ -315,7 +783,165 @@
    "extends": 8,
    "via": "metonymy",
    "via_note": "Placed before a common verb to raise it into royal language.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ทรงธรรม",
+     "rtgs": "song-tham",
+     "ipa": "/soŋ˧.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฟังธรรม, ฟังเทศน์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "ธรรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ธรรม"
+     ],
+     "lit": "form + dharma",
+     "lit_th": "รูปร่าง + คุณความดี",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรงงาน",
+     "translit_auto": "thrngngan",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "งาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "งาน"
+     ],
+     "lit": "form + job",
+     "lit_th": "รูปร่าง + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรงศีล",
+     "rtgs": "song-sin",
+     "ipa": "/soŋ˧.siːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รับศีล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "ศีล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "รูปร่าง + ข้อบัญญัติทางพระพุทธศาสนาที่กำหนดก",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรงดนตรี",
+     "translit_auto": "thrngdntri",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เล่นดนตรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "ดนตรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "form + music",
+     "lit_th": "รูปร่าง + เสียงที่ประกอบกันเป็นทำนองเพลง",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรงบาตร",
+     "translit_auto": "thrngbatn",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตักบาตร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "บาตร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "รูปร่าง + ภาชนะชนิดหนึ่งสำหรับภิกษุสามเณรใช้",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 12,
@@ -343,7 +969,97 @@
    "extends": 11,
    "via": "specialisation",
    "via_note": "And before a royal noun to make a royal verb of it.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ทรงพระสำอาง",
+     "translit_auto": "thrngphrasamang",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทาเครื่องหอม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "พระสำอาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "รูปร่าง + เครื่องสำอาง",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรงพระสุคนธ์",
+     "translit_auto": "thrngphrasukhnt",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทาเครื่องหอม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "พระสุคนธ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "รูปร่าง + เครื่องหอม",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรงพระอักษร",
+     "rtgs": "song-phra-ak-son",
+     "ipa": "/soŋ˧.pʰra˦˥.ʔak̚˨˩.sɔːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การเขียนหนังสือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "พระอักษร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "รูปร่าง + จดหมาย",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 13,
@@ -391,346 +1107,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['ศักดิ์', 'กษัตริย์', 'เจ้า', 'ราช'].",
  "compounds_unassigned": [
   {
-   "th": "ทรงรถ",
-   "translit_auto": "thrngrt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขี่รถ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "รถ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "รถ"
-   ],
-   "lit": "form + auto",
-   "lit_th": "รูปร่าง + ยานที่มีล้อสำหรับเคลื่อนไป",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงธรรม",
-   "rtgs": "song-tham",
-   "ipa": "/soŋ˧.tʰam˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ฟังธรรม, ฟังเทศน์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "ธรรม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ธรรม"
-   ],
-   "lit": "form + dharma",
-   "lit_th": "รูปร่าง + คุณความดี",
-   "frame": "entity"
-  },
-  {
-   "th": "ร่างทรง",
-   "rtgs": "rang-song",
-   "ipa": "/raːŋ˥˩.soŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คนทรง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ร่าง",
-    "ทรง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "รูปทรง + รูปร่าง",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงพระสำอาง",
-   "translit_auto": "thrngphrasamang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทาเครื่องหอม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "พระสำอาง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "รูปร่าง + เครื่องสำอาง",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงพระสุคนธ์",
-   "translit_auto": "thrngphrasukhnt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทาเครื่องหอม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "พระสุคนธ์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "รูปร่าง + เครื่องหอม",
-   "frame": "entity"
-  },
-  {
-   "th": "ยกทรง",
-   "rtgs": "yok-song",
-   "ipa": "/jok̚˦˥.soŋ˧/",
-   "gloss": {
-    "en": [
-     "bra"
-    ],
-    "th": "เสื้อชั้นในหญิงที่ยกเต้านมเพื่อให้ได้รูปทรง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ยก",
-    "ทรง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "ยก"
-   ],
-   "lit": "to lift + form",
-   "lit_th": "เอาขึ้นให้สูงจากที่เดิมทั้งโดยตรงแ + รูปร่าง"
-  },
-  {
-   "th": "ทรงกลม",
-   "rtgs": "song-klom",
-   "ipa": "/soŋ˧.klom˧/",
-   "gloss": {
-    "en": [
-     "sphere"
-    ],
-    "th": "ลักษณะรูปที่มีสัณฐานกลมเท่ากันไม่ว่ามองจากทางใด",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "กลม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "form + round",
-   "lit_th": "รูปร่าง + ชื่อเพลงไทยของเก่าที่ใช้เครื่องปี่",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงงาน",
-   "translit_auto": "thrngngan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำงาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "งาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "งาน"
-   ],
-   "lit": "form + job",
-   "lit_th": "รูปร่าง + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "ผ้าทรง",
-   "translit_auto": "phathrng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เสื้อผ้าเครื่องนุ่งห่ม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ผ้า",
-    "ทรง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ผ้า"
-   ],
-   "lit": "cloth + form",
-   "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + รูปร่าง",
-   "frame": "entity"
-  },
-  {
-   "th": "คนทรง",
-   "rtgs": "khon-song",
-   "ipa": "/kʰon˧.soŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คนที่ทำพิธีทรงเจ้า, คนที่เป็นร่างให้วิญญาณหรือสิ่งศักดิ์สิทธิ์เข้าสิง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "ทรง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "คน"
-   ],
-   "lit": "stir + form",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + รูปร่าง",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงพระอักษร",
-   "rtgs": "song-phra-ak-son",
-   "ipa": "/soŋ˧.pʰra˦˥.ʔak̚˨˩.sɔːn˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "การเขียนหนังสือ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "พระอักษร"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "รูปร่าง + จดหมาย",
-   "frame": "entity"
-  },
-  {
    "th": "การทรง",
    "rtgs": "kan-song",
    "ipa": "/kaːn˧.soŋ˧/",
@@ -758,350 +1134,6 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "งาน + รูปร่าง",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงช้าง",
-   "translit_auto": "thrngchang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขี่ช้าง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "ช้าง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ช้าง"
-   ],
-   "lit": "form + elephant",
-   "lit_th": "รูปร่าง + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงเครื่อง",
-   "rtgs": "song-khrueang",
-   "ipa": "/soŋ˧.kʰrɯa̯ŋ˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แต่งตัวมีเครื่องประดับ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "เครื่อง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "เครื่อง"
-   ],
-   "lit": "form + device",
-   "lit_th": "รูปร่าง + สิ่ง",
-   "flips_with": "เครื่องทรง",
-   "frame": "entity"
-  },
-  {
-   "th": "เสื้อทรง",
-   "translit_auto": "seueothrng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เสื้อ (ใช้กับเจ้านาย)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เสื้อ",
-    "ทรง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "shirt + form",
-   "lit_th": "เครื่องสวมกายท่อนบนทำด้วยผ้าเป็นต้ + รูปร่าง",
-   "frame": "entity"
-  },
-  {
-   "th": "รูปทรง",
-   "rtgs": "rup-song",
-   "ipa": "/ruːp̚˥˩.soŋ˧/",
-   "gloss": {
-    "en": [
-     "form",
-     "shape"
-    ],
-    "th": "ทรวดทรง สัณฐาน ประกอบด้วยความกว้าง หนาหรือลึก และสูง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "รูป",
-    "ทรง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "รูป"
-   ],
-   "lit": "image + form",
-   "lit_th": "สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1 + รูปร่าง",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงศีล",
-   "rtgs": "song-sin",
-   "ipa": "/soŋ˧.siːn˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รับศีล",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "ศีล"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "รูปร่าง + ข้อบัญญัติทางพระพุทธศาสนาที่กำหนดก",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงตัก",
-   "rtgs": "song-tak",
-   "ipa": "/soŋ˧.tak̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ช้อนหรือกระบวยขนาดเล็กสำหรับตักน้ำอบ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "ตัก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "รูปร่าง + หน้าขาตอนเข่าถึงโคนขาในเวลานั่ง",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงดนตรี",
-   "translit_auto": "thrngdntri",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เล่นดนตรี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "ดนตรี"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "form + music",
-   "lit_th": "รูปร่าง + เสียงที่ประกอบกันเป็นทำนองเพลง",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงเรือ",
-   "translit_auto": "thrngreue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขี่เรือ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "เรือ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "เรือ"
-   ],
-   "lit": "form + boat",
-   "lit_th": "รูปร่าง + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "เครื่องทรง",
-   "rtgs": "khrueang-song",
-   "ipa": "/kʰrɯa̯ŋ˥˩.soŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องแต่งตัว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เครื่อง",
-    "ทรง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "เครื่อง"
-   ],
-   "lit": "device + form",
-   "lit_th": "สิ่ง + รูปร่าง",
-   "flips_with": "ทรงเครื่อง",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงเจ้า",
-   "rtgs": "song-chao",
-   "ipa": "/soŋ˧.t͡ɕaːw˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำพิธีเชิญเจ้าเข้าสิงคนทรงเพื่อถามเหตุร้ายเหตุดี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "เจ้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "เจ้า"
-   ],
-   "lit": "form + thou",
-   "lit_th": "รูปร่าง + ผู้เป็นใหญ่",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงบาตร",
-   "translit_auto": "thrngbatn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตักบาตร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "บาตร"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "รูปร่าง + ภาชนะชนิดหนึ่งสำหรับภิกษุสามเณรใช้",
    "frame": "entity"
   }
  ],

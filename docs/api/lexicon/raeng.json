@@ -68,6 +68,71 @@
      "lit": "tear + bright",
      "lit_th": "คำนำหน้าบรรดาศักดิ์ + กำลัง",
      "frame": "entity"
+    },
+    {
+     "th": "แม่แรง",
+     "rtgs": "mae-raeng",
+     "ipa": "/mɛː˥˩.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องสำหรับดีดงัดหรือยกของหนัก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + bright",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + กำลัง",
+     "frame": "entity"
+    },
+    {
+     "th": "เรี่ยวแรง",
+     "rtgs": "riao-raeng",
+     "ipa": "/ria̯w˥˩.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "strength"
+      ],
+      "th": "แรง, กำลัง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เรี่ยว",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "แรง + กำลัง",
+     "frame": "entity"
     }
    ]
   },
@@ -127,7 +192,71 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "Force in the physicist's sense.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "แรงจูงใจ",
+     "rtgs": "raeng-chung-chai",
+     "ipa": "/rɛːŋ˧.t͡ɕuːŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "motif"
+      ],
+      "th": "สิ่งจูงใจหรือสิ่งกระตุ้นที่ทำให้บุคคลกระทําสิ่งใดสิ่งหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แรง",
+      "จูงใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "กำลัง + ชักนำหรือเกลี้ยกล่อมเพื่อให้เห็นคล"
+    },
+    {
+     "th": "แรงกระตุ้น",
+     "rtgs": "raeng-kra-tun",
+     "ipa": "/rɛːŋ˧.kra˨˩.tun˥˩/",
+     "gloss": {
+      "en": [
+       "urge",
+       "impulse"
+      ],
+      "th": "ความต้องการสูงหรือความอยากทำอย่างแรงกล้าที่เกิดขึ้นโดยฉับพลันและไม่ได้ผ่านการไตร่ตรอง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แรง",
+      "กระตุ้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "bright + drive",
+     "lit_th": "กำลัง + ใช้มือหรือสิ่งใด ๆ กระแทกเบา ๆ ให้"
+    }
+   ]
   },
   {
    "n": 4,
@@ -222,6 +351,39 @@
      "lit": "bright + job",
      "lit_th": "อัตราการทำงาน กำหนดเป็นกำลังคนต่อช + สิ่งหรือกิจกรรมที่ทำ",
      "frame": "entity"
+    },
+    {
+     "th": "กินแรง",
+     "rtgs": "kin-raeng",
+     "ipa": "/kin˧.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาเปรียบผู้อื่นในการทำงานหรือในการเลี้ยงชีพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กิน"
+     ],
+     "lit": "eat + bright",
+     "lit_th": "เคี้ยว + กำลัง"
     }
    ],
    "extends": 1,
@@ -256,7 +418,71 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "Strong to the senses: pungent, sharp, intense.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "รุนแรง",
+     "rtgs": "run-raeng",
+     "ipa": "/run˧.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "grave",
+       "acrid",
+       "acrimonious"
+      ],
+      "th": "หนักมาก, แรงมาก, เกินปรกติ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รุน",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ดุนสิ่งใดสิ่งหนึ่งให้เคลื่อนที่ไปข + กำลัง"
+    },
+    {
+     "th": "อย่างแรง",
+     "rtgs": "yang-raeng",
+     "ipa": "/jaːŋ˨˩.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มากอย่างยิ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อย่าง",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "วิธี + กำลัง",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 6,
@@ -285,7 +511,46 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "Simply strong, hard.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "แข็งแรง",
+     "rtgs": "khaeng-raeng",
+     "ipa": "/kʰɛŋ˩˩˦.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "strong",
+       "fit",
+       "able"
+      ],
+      "th": "มีกำลังมาก, ล่ำสัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แข็ง",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "แข็ง"
+     ],
+     "lit": "hard + bright",
+     "lit_th": "กระด้าง + กำลัง",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 7,
@@ -528,39 +793,6 @@
    "frame": "entity"
   },
   {
-   "th": "แม่แรง",
-   "rtgs": "mae-raeng",
-   "ipa": "/mɛː˥˩.rɛːŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องสำหรับดีดงัดหรือยกของหนัก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "แรง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "แม่"
-   ],
-   "lit": "mother + bright",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + กำลัง",
-   "frame": "entity"
-  },
-  {
    "th": "ความร้ายแรง",
    "rtgs": "khwam-rai-raeng",
    "ipa": "/kʰwaːm˧.raːj˦˥.rɛːŋ˧/",
@@ -588,101 +820,6 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "คำอาการนามของ ร้าย + กำลัง",
-   "frame": "entity"
-  },
-  {
-   "th": "แข็งแรง",
-   "rtgs": "khaeng-raeng",
-   "ipa": "/kʰɛŋ˩˩˦.rɛːŋ˧/",
-   "gloss": {
-    "en": [
-     "strong",
-     "fit",
-     "able"
-    ],
-    "th": "มีกำลังมาก, ล่ำสัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แข็ง",
-    "แรง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+N",
-   "head": 1,
-   "cross_listed": [
-    "แข็ง"
-   ],
-   "lit": "hard + bright",
-   "lit_th": "กระด้าง + กำลัง",
-   "frame": "quality"
-  },
-  {
-   "th": "แรงจูงใจ",
-   "rtgs": "raeng-chung-chai",
-   "ipa": "/rɛːŋ˧.t͡ɕuːŋ˧.t͡ɕaj˧/",
-   "gloss": {
-    "en": [
-     "motif"
-    ],
-    "th": "สิ่งจูงใจหรือสิ่งกระตุ้นที่ทำให้บุคคลกระทําสิ่งใดสิ่งหนึ่ง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แรง",
-    "จูงใจ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "กำลัง + ชักนำหรือเกลี้ยกล่อมเพื่อให้เห็นคล"
-  },
-  {
-   "th": "เรี่ยวแรง",
-   "rtgs": "riao-raeng",
-   "ipa": "/ria̯w˥˩.rɛːŋ˧/",
-   "gloss": {
-    "en": [
-     "strength"
-    ],
-    "th": "แรง, กำลัง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เรี่ยว",
-    "แรง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "แรง + กำลัง",
    "frame": "entity"
   },
   {
@@ -717,37 +854,6 @@
    "frame": "entity"
   },
   {
-   "th": "รุนแรง",
-   "rtgs": "run-raeng",
-   "ipa": "/run˧.rɛːŋ˧/",
-   "gloss": {
-    "en": [
-     "grave",
-     "acrid",
-     "acrimonious"
-    ],
-    "th": "หนักมาก, แรงมาก, เกินปรกติ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "รุน",
-    "แรง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit_th": "ดุนสิ่งใดสิ่งหนึ่งให้เคลื่อนที่ไปข + กำลัง"
-  },
-  {
    "th": "การกินแรง",
    "rtgs": "kan-kin-raeng",
    "ipa": "/kaːn˧.kin˧.rɛːŋ˧/",
@@ -775,98 +881,6 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "คำอาการนามของ กิน + กำลัง",
-   "frame": "entity"
-  },
-  {
-   "th": "กินแรง",
-   "rtgs": "kin-raeng",
-   "ipa": "/kin˧.rɛːŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เอาเปรียบผู้อื่นในการทำงานหรือในการเลี้ยงชีพ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กิน",
-    "แรง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "กิน"
-   ],
-   "lit": "eat + bright",
-   "lit_th": "เคี้ยว + กำลัง"
-  },
-  {
-   "th": "แรงกระตุ้น",
-   "rtgs": "raeng-kra-tun",
-   "ipa": "/rɛːŋ˧.kra˨˩.tun˥˩/",
-   "gloss": {
-    "en": [
-     "urge",
-     "impulse"
-    ],
-    "th": "ความต้องการสูงหรือความอยากทำอย่างแรงกล้าที่เกิดขึ้นโดยฉับพลันและไม่ได้ผ่านการไตร่ตรอง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แรง",
-    "กระตุ้น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "bright + drive",
-   "lit_th": "กำลัง + ใช้มือหรือสิ่งใด ๆ กระแทกเบา ๆ ให้"
-  },
-  {
-   "th": "อย่างแรง",
-   "rtgs": "yang-raeng",
-   "ipa": "/jaːŋ˨˩.rɛːŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มากอย่างยิ่ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อย่าง",
-    "แรง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "วิธี + กำลัง",
    "frame": "entity"
   },
   {
