@@ -1,8 +1,10 @@
 {
  "id": "w:kong",
  "th": "กอง",
- "translit_auto": "kong",
- "status": "listed",
+ "status": "mapped",
+ "rtgs": "kong",
+ "paiboon": "gɔɔng",
+ "ipa": "/kɔːŋ˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -34,7 +36,8 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: กอง 'to heap up'."
    ]
   },
   {
@@ -63,7 +66,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The heaping names the heap.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -91,7 +98,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And the heap becomes the classifier for heaps.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -119,7 +130,38 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "กองร้อย",
+     "rtgs": "kong-roi",
+     "ipa": "/kɔːŋ˧.rɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หน่วยทหารซึ่งประกอบด้วยทหาร 4 หมวด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กอง",
+      "ร้อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "A body of troops as a heap of men — four platoons to a กองร้อย.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -147,7 +189,38 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "ผู้กอง",
+     "rtgs": "phu-kong",
+     "ipa": "/pʰuː˥˩.kɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำเรียกหัวหน้าทหารหรือตำรวจที่มียศร้อยเอก เรือเอก เรืออากาศเอก หรือร้อยตำรวจเอก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผู้",
+      "กอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "The officer who commands one.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -175,7 +248,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "And in the civil service, a division below a department.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -203,7 +280,37 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "กองพัน",
+     "translit_auto": "kongphan",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หน่วยทหารซึ่งประกอบด้วยทหาร 4 กองร้อย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กอง",
+      "พัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "The classifier for such military units.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -231,7 +338,74 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "And for such civil divisions.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "desk",
+     "hill",
+     "pile",
+     "stow"
+    ],
+    "th": "ต้นรกฟ้า",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, classifier, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำนาม, คำลักษณนาม, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ต้นรกฟ้า called กอง — a tree name, unrelated."
    ]
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "desk",
+     "hill",
+     "pile",
+     "stow"
+    ],
+    "th": "มาก (ใช้กับคำว่า เป็น กลายเป็น เป็นกอง)",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, classifier, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำนาม, คำลักษณนาม, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "เป็นกอง — a heap of it, and so, a great deal.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -243,108 +417,12 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 12 manuscript titles, 43 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'kong', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 25; domain seeded by keyword hits ['ทหาร', 'ยศ', 'ราช'].",
  "compounds_unassigned": [
-  {
-   "th": "กองกลาง",
-   "translit_auto": "kongklang",
-   "gloss": {
-    "en": [
-     "pool"
-    ],
-    "th": "สิ่งที่กันไว้เป็นส่วนรวม หรือเป็นสาธารณะ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กอง",
-    "กลาง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กองสอดแนม",
-   "translit_auto": "kongsodnaem",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้สื่อข่าวคราว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กอง",
-    "สอดแนม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กองทัพบก",
-   "translit_auto": "kongthaphbk",
-   "gloss": {
-    "en": [
-     "defense"
-    ],
-    "th": "กองทหารที่ป้องกันประเทศภาคพื้นดิน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กอง",
-    "ทัพบก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กองร้อย",
-   "translit_auto": "kongroy",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หน่วยทหารซึ่งประกอบด้วยทหาร 4 หมวด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กอง",
-    "ร้อย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
   {
    "th": "กองกูณฑ์",
    "translit_auto": "kongkunt",
@@ -370,8 +448,189 @@
    ]
   },
   {
+   "th": "กระกอง",
+   "rtgs": "kra-kong",
+   "ipa": "/kra˨˩.kɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กอด, เกี่ยวพัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "กอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กองทัพเรือ",
+   "rtgs": "kong-thap-ruea",
+   "ipa": "/kɔːŋ˧.tʰap̚˦˥.rɯa̯˧/",
+   "gloss": {
+    "en": [
+     "navy"
+    ],
+    "th": "กองทหารที่ป้องกันประเทศภาคน่านน้ำ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กอง",
+    "ทัพเรือ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กองหลัง",
+   "rtgs": "kong-lang",
+   "ipa": "/kɔːŋ˧.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "rear"
+    ],
+    "th": "ตำแหน่งในกีฬาฟุตบอลที่ผู้เล่นมีหน้าที่ป้องกันไม่ให้ผู้เล่นฝ่ายตรงข้ามยิงประตูฝ่ายตน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กอง",
+    "หลัง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กองมรดก",
+   "rtgs": "kong-mo-ra-dok",
+   "ipa": "/kɔːŋ˧.mɔː˧.ra˦˥.dok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทรัพย์สินทุกชนิดของผู้ตาย รวมทั้งสิทธิหน้าที่และความรับผิดต่าง ๆ เว้นแต่ตามกฎหมายหรือโดยสภาพแล้วเป็นการเฉพาะตัวของผู้ตายโดยแท้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กอง",
+    "มรดก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กองโจร",
+   "rtgs": "kong-chon",
+   "ipa": "/kɔːŋ˧.t͡ɕoːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หน่วยกำลังที่ทำการรบแบบโจร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กอง",
+    "โจร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กองทัพ",
+   "rtgs": "kong-thap",
+   "ipa": "/kɔːŋ˧.tʰap̚˦˥/",
+   "gloss": {
+    "en": [
+     "army",
+     "force",
+     "troop"
+    ],
+    "th": "หน่วยทหารที่ประกอบด้วย ทหาร 3 กองพล และมีทหารหน่วยอื่น ๆ เช่น หน่วยทหารช่าง หน่วยทหารสื่อสาร หน่วยทหารรถถัง หน่วยทหารปืนใหญ่ เป็นส่วนประกอบ มีแม่ทัพเป็นผู้บังคับบัญชา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กอง",
+    "ทัพ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ก่ายกอง",
+   "rtgs": "kai-kong",
+   "ipa": "/kaːj˨˩.kɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มากมาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ก่าย",
+    "กอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "กองทัพอากาศ",
-   "translit_auto": "kongthaphakas",
+   "rtgs": "kong-thap-a-kat",
+   "ipa": "/kɔːŋ˧.tʰap̚˦˥.ʔaː˧.kaːt̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -418,13 +677,14 @@
    ]
   },
   {
-   "th": "กองหน้า",
-   "translit_auto": "konghna",
+   "th": "กองกอย",
+   "rtgs": "kong-koi",
+   "ipa": "/kɔːŋ˧.kɔːj˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ตำแหน่งในกีฬาฟุตบอลที่ผู้เล่นมีหน้าที่จู่โจมในการรุกเข้ายิงประตูฝ่ายตรงข้าม",
+    "th": "ผีชนิดหนึ่ง เชื่อกันว่ามีตีนเดียว ไม่มีสะบ้าหัวเข่า จึงต้องเดินเขย่งเกงกอย ชอบออกมาดูดเลือดที่หัวแม่เท้าของคนที่นอนหลับพักแรมในป่า",
     "conf": "unverified",
     "src": [
      "RID"
@@ -432,7 +692,7 @@
    },
    "parts": [
     "กอง",
-    "หน้า"
+    "กอย"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -442,15 +702,14 @@
    ]
   },
   {
-   "th": "กองทุน",
-   "translit_auto": "kongthun",
+   "th": "กองทัพบก",
+   "rtgs": "kong-thap-bok",
+   "ipa": "/kɔːŋ˧.tʰap̚˦˥.bok̚˨˩/",
    "gloss": {
     "en": [
-     "pool",
-     "kitty",
-     "fund"
+     "defense"
     ],
-    "th": "เงินหรือทรัพย์สินที่เอามารวมเป็นก้อนเดียวกันเพื่อวัตถุประสงค์อย่างใดอย่างหนึ่ง เช่น ในการสมรส",
+    "th": "กองทหารที่ป้องกันประเทศภาคพื้นดิน",
     "conf": "verified",
     "src": [
      "RID",
@@ -459,57 +718,9 @@
    },
    "parts": [
     "กอง",
-    "ทุน"
+    "ทัพบก"
    ],
    "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กองพล",
-   "translit_auto": "kongphn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หน่วยทหารซึ่งมีทหารราบ 3 กรมเป็นหลัก มีทหารหน่วยอื่น ๆ เป็นส่วนประกอบ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กอง",
-    "พล"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ผู้กอง",
-   "translit_auto": "phukong",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำเรียกหัวหน้าทหารหรือตำรวจที่มียศร้อยเอก เรือเอก เรืออากาศเอก หรือร้อยตำรวจเอก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ผู้",
-    "กอง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -518,7 +729,8 @@
   },
   {
    "th": "กองหนุน",
-   "translit_auto": "konghnun",
+   "rtgs": "kong-nun",
+   "ipa": "/kɔːŋ˧.nun˩˩˦/",
    "gloss": {
     "en": [
      "reserve"
@@ -542,78 +754,30 @@
    ]
   },
   {
-   "th": "กองหลัง",
-   "translit_auto": "konghlang",
-   "gloss": {
-    "en": [
-     "rear"
-    ],
-    "th": "ตำแหน่งในกีฬาฟุตบอลที่ผู้เล่นมีหน้าที่ป้องกันไม่ให้ผู้เล่นฝ่ายตรงข้ามยิงประตูฝ่ายตน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กอง",
-    "หลัง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กองทัพเรือ",
-   "translit_auto": "kongthaphreue",
-   "gloss": {
-    "en": [
-     "navy"
-    ],
-    "th": "กองทหารที่ป้องกันประเทศภาคน่านน้ำ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กอง",
-    "ทัพเรือ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กองกอย",
-   "translit_auto": "kongkoy",
+   "th": "การกอง",
+   "rtgs": "kan-kong",
+   "ipa": "/kaːn˧.kɔːŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ผีชนิดหนึ่ง เชื่อกันว่ามีตีนเดียว ไม่มีสะบ้าหัวเข่า จึงต้องเดินเขย่งเกงกอย ชอบออกมาดูดเลือดที่หัวแม่เท้าของคนที่นอนหลับพักแรมในป่า",
+    "th": "คำอาการนามของ กอง",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "กอง",
-    "กอย"
+    "การ",
+    "กอง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "use": "nominalisation"
   },
   {
    "th": "กองเกิน",
@@ -640,24 +804,21 @@
    ]
   },
   {
-   "th": "กองทัพ",
-   "translit_auto": "kongthaph",
+   "th": "กองสอดแนม",
+   "translit_auto": "kongsodnaem",
    "gloss": {
     "en": [
-     "army",
-     "force",
-     "troop"
+     "[needs a gloss]"
     ],
-    "th": "หน่วยทหารที่ประกอบด้วย ทหาร 3 กองพล และมีทหารหน่วยอื่น ๆ เช่น หน่วยทหารช่าง หน่วยทหารสื่อสาร หน่วยทหารรถถัง หน่วยทหารปืนใหญ่ เป็นส่วนประกอบ มีแม่ทัพเป็นผู้บังคับบัญชา",
-    "conf": "verified",
+    "th": "ผู้สื่อข่าวคราว",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
    "parts": [
     "กอง",
-    "ทัพ"
+    "สอดแนม"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -667,13 +828,14 @@
    ]
   },
   {
-   "th": "กองมรดก",
-   "translit_auto": "kongmrdk",
+   "th": "กองแขก",
+   "rtgs": "kong-khaek",
+   "ipa": "/kɔːŋ˧.kʰɛːk̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ทรัพย์สินทุกชนิดของผู้ตาย รวมทั้งสิทธิหน้าที่และความรับผิดต่าง ๆ เว้นแต่ตามกฎหมายหรือโดยสภาพแล้วเป็นการเฉพาะตัวของผู้ตายโดยแท้",
+    "th": "ชื่อตำบลหนึ่งในอำเภอแม่แจ่ม จังหวัดเชียงใหม่",
     "conf": "unverified",
     "src": [
      "RID"
@@ -681,7 +843,61 @@
    },
    "parts": [
     "กอง",
-    "มรดก"
+    "แขก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym"
+  },
+  {
+   "th": "กองหน้า",
+   "rtgs": "kong-na",
+   "ipa": "/kɔːŋ˧.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตำแหน่งในกีฬาฟุตบอลที่ผู้เล่นมีหน้าที่จู่โจมในการรุกเข้ายิงประตูฝ่ายตรงข้าม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กอง",
+    "หน้า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กองทุน",
+   "rtgs": "kong-thun",
+   "ipa": "/kɔːŋ˧.tʰun˧/",
+   "gloss": {
+    "en": [
+     "pool",
+     "kitty",
+     "fund"
+    ],
+    "th": "เงินหรือทรัพย์สินที่เอามารวมเป็นก้อนเดียวกันเพื่อวัตถุประสงค์อย่างใดอย่างหนึ่ง เช่น ในการสมรส",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กอง",
+    "ทุน"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -692,7 +908,8 @@
   },
   {
    "th": "กองฟอน",
-   "translit_auto": "kongfon",
+   "rtgs": "kong-fon",
+   "ipa": "/kɔːŋ˧.fɔːn˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -715,45 +932,23 @@
    ]
   },
   {
-   "th": "กระกอง",
-   "translit_auto": "krakong",
+   "th": "กองกลาง",
+   "rtgs": "kong-klang",
+   "ipa": "/kɔːŋ˧.klaːŋ˧/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "pool"
     ],
-    "th": "กอด, เกี่ยวพัน",
-    "conf": "unverified",
+    "th": "สิ่งที่กันไว้เป็นส่วนรวม หรือเป็นสาธารณะ",
+    "conf": "verified",
     "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กระ",
-    "กอง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กองพัน",
-   "translit_auto": "kongphan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หน่วยทหารซึ่งประกอบด้วยทหาร 4 กองร้อย",
-    "conf": "unverified",
-    "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
    "parts": [
     "กอง",
-    "พัน"
+    "กลาง"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -763,37 +958,13 @@
    ]
   },
   {
-   "th": "ก่ายกอง",
-   "translit_auto": "kaykong",
+   "th": "กองพล",
+   "translit_auto": "kongphn",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "มากมาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ก่าย",
-    "กอง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กองแขก",
-   "translit_auto": "kongkhaek",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอแม่แจ่ม จังหวัดเชียงใหม่",
+    "th": "หน่วยทหารซึ่งมีทหารราบ 3 กรมเป็นหลัก มีทหารหน่วยอื่น ๆ เป็นส่วนประกอบ",
     "conf": "unverified",
     "src": [
      "RID"
@@ -801,55 +972,7 @@
    },
    "parts": [
     "กอง",
-    "แขก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การกอง",
-   "translit_auto": "karkong",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ กอง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การ",
-    "กอง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กองโจร",
-   "translit_auto": "kongchon",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หน่วยกำลังที่ทำการรบแบบโจร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กอง",
-    "โจร"
+    "พล"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",

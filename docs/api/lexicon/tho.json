@@ -1,8 +1,10 @@
 {
  "id": "w:tho",
  "th": "โท",
- "translit_auto": "tho",
- "status": "listed",
+ "status": "proposed",
+ "rtgs": "tho",
+ "paiboon": "too",
+ "ipa": "/tʰoː˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -28,6 +30,112 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ตีนโท",
+     "rtgs": "tin-tho",
+     "ipa": "/tiːn˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โรคเท้าช้าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตีน",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.32, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "โทรม",
+     "rtgs": "som",
+     "ipa": "/soːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสื่อมสภาพเดิม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โท",
+      "รม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.26, next 0.17",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "โทลา",
+     "rtgs": "tho-la",
+     "ipa": "/tʰoː˧.laː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชิงช้า, เปล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โท",
+      "ลา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.29, next 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "โทมนัส",
+     "rtgs": "thom-ma-nat",
+     "ipa": "/tʰoːm˧.ma˦˥.nat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความเสียใจ, ความเป็นทุกข์ใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โท",
+      "มนัส"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.22, next 0.13",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -49,6 +157,216 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เรือโท",
+     "rtgs": "ruea-tho",
+     "ipa": "/rɯa̯˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพเรือ สูงกว่าเรือตรี ต่ำกว่าเรือเอก, ย่อว่า ร.ท. และลงท้ายด้วย ร.น.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.24, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ร้อยโท",
+     "rtgs": "roi-tho",
+     "ipa": "/rɔːj˦˥.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "lieutenant"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าร้อยตรี ต่ำกว่าร้อยเอก, ย่อว่า ร.ท.",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ร้อย",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พลตำรวจโท",
+     "rtgs": "phon-tam-ruat-tho",
+     "ipa": "/pʰon˧.tam˧.rua̯t̚˨˩.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศตำรวจชั้นสัญญาบัตร สูงกว่าพลตำรวจตรี ต่ำกว่าพลตำรวจเอก, ย่อว่า พล.ต.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พลตำรวจ",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.24, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "จ่าโท",
+     "rtgs": "cha-tho",
+     "ipa": "/t͡ɕaː˨˩.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นประทวนของกองทัพเรือ สูงกว่าจ่าตรี ต่ำกว่าจ่าเอก, ย่อว่า จ.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จ่า",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.30, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พันโท",
+     "rtgs": "phan-tho",
+     "ipa": "/pʰan˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าพันตรี ต่ำกว่าพันเอก, ย่อว่า พ.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พัน",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.24, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "นาวาโท",
+     "rtgs": "na-wa-tho",
+     "ipa": "/naː˧.waː˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพเรือ สูงกว่านาวาตรี ต่ำกว่านาวาเอก, ย่อว่า น.ท. และลงท้ายด้วย ร.น.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาวา",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.24, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "สิบโท",
+     "rtgs": "sip-tho",
+     "ipa": "/sip̚˨˩.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นประทวนของกองทัพบก สูงกว่าสิบตรี ต่ำกว่าสิบเอก, ย่อว่า ส.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.26, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พลโท",
+     "rtgs": "phon-tho",
+     "ipa": "/pʰon˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าพลตรี ต่ำกว่าพลเอก, ย่อว่า พล.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พล",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.24, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -82,181 +400,14 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 6 manuscript titles, 262 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'tho', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 18; domain seeded by keyword hits —.",
  "compounds_unassigned": [
   {
-   "th": "โทรม",
-   "translit_auto": "thorm",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เสื่อมสภาพเดิม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "โท",
-    "รม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ตีนโท",
-   "translit_auto": "tint",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "โรคเท้าช้าง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตีน",
-    "โท"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "โทมนัส",
-   "translit_auto": "thomnas",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ความเสียใจ, ความเป็นทุกข์ใจ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "โท",
-    "มนัส"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พลโท",
-   "translit_auto": "phlt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าพลตรี ต่ำกว่าพลเอก, ย่อว่า พล.ท.",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พล",
-    "โท"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เสียงโท",
-   "translit_auto": "seiyngt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ระดับเสียงสูงแล้วตกลงต่ำในภาษาไทย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เสียง",
-    "โท"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "จ่าโท",
-   "translit_auto": "chatho",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยศทหารชั้นประทวนของกองทัพเรือ สูงกว่าจ่าตรี ต่ำกว่าจ่าเอก, ย่อว่า จ.ท.",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "จ่า",
-    "โท"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สาโท",
-   "translit_auto": "satho",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "น้ำเมาที่ได้จากการหมัก เช่น น้ำขาว อุ กะแช่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สา",
-    "โท"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "คนโท",
-   "translit_auto": "khnt",
+   "rtgs": "khon-tho",
+   "ipa": "/kʰon˧.tʰoː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -279,13 +430,39 @@
    ]
   },
   {
-   "th": "โทลา",
-   "translit_auto": "thola",
+   "th": "เสียงโท",
+   "rtgs": "siang-tho",
+   "ipa": "/sia̯ŋ˩˩˦.tʰoː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชิงช้า, เปล",
+    "th": "ระดับเสียงสูงแล้วตกลงต่ำในภาษาไทย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เสียง",
+    "โท"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "โทโทษ",
+   "rtgs": "tho-thot",
+   "ipa": "/tʰoː˧.tʰoːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำที่ใช้ไม้เอกโดยปรกติ แต่เปลี่ยนใช้ไม้โทเสียงเดียวกันในบทร้อยกรองที่บังคับให้ใช้ไม้โท เช่น ง่าย เป็น หง้าย, พลั่ง เป็น ผลั้ง",
     "conf": "unverified",
     "src": [
      "RID"
@@ -293,7 +470,7 @@
    },
    "parts": [
     "โท",
-    "ลา"
+    "โทษ"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -327,32 +504,9 @@
    ]
   },
   {
-   "th": "สิบโท",
-   "translit_auto": "sibt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยศทหารชั้นประทวนของกองทัพบก สูงกว่าสิบตรี ต่ำกว่าสิบเอก, ย่อว่า ส.ท.",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สิบ",
-    "โท"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "โทศก",
-   "translit_auto": "thosk",
+   "rtgs": "tho-sok",
+   "ipa": "/tʰoː˧.sok̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -375,141 +529,21 @@
    ]
   },
   {
-   "th": "เรือโท",
-   "translit_auto": "reuet",
+   "th": "สาโท",
+   "rtgs": "sa-tho",
+   "ipa": "/saː˩˩˦.tʰoː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ยศทหารชั้นสัญญาบัตรของกองทัพเรือ สูงกว่าเรือตรี ต่ำกว่าเรือเอก, ย่อว่า ร.ท. และลงท้ายด้วย ร.น.",
+    "th": "น้ำเมาที่ได้จากการหมัก เช่น น้ำขาว อุ กะแช่",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "เรือ",
-    "โท"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นาวาโท",
-   "translit_auto": "nawatho",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยศทหารชั้นสัญญาบัตรของกองทัพเรือ สูงกว่านาวาตรี ต่ำกว่านาวาเอก, ย่อว่า น.ท. และลงท้ายด้วย ร.น.",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นาวา",
-    "โท"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พันโท",
-   "translit_auto": "phant",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าพันตรี ต่ำกว่าพันเอก, ย่อว่า พ.ท.",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พัน",
-    "โท"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ร้อยโท",
-   "translit_auto": "royt",
-   "gloss": {
-    "en": [
-     "lieutenant"
-    ],
-    "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าร้อยตรี ต่ำกว่าร้อยเอก, ย่อว่า ร.ท.",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ร้อย",
-    "โท"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "โทโทษ",
-   "translit_auto": "thothot",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำที่ใช้ไม้เอกโดยปรกติ แต่เปลี่ยนใช้ไม้โทเสียงเดียวกันในบทร้อยกรองที่บังคับให้ใช้ไม้โท เช่น ง่าย เป็น หง้าย, พลั่ง เป็น ผลั้ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "โท",
-    "โทษ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พลตำรวจโท",
-   "translit_auto": "phltamrwcht",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยศตำรวจชั้นสัญญาบัตร สูงกว่าพลตำรวจตรี ต่ำกว่าพลตำรวจเอก, ย่อว่า พล.ต.ท.",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พลตำรวจ",
+    "สา",
     "โท"
    ],
    "note": "head-final; both parts are dictionary headwords",

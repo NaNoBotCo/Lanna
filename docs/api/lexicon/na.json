@@ -1,8 +1,10 @@
 {
  "id": "w:na",
- "th": "นา",
- "translit_auto": "na",
- "status": "listed",
+ "th": "หน้า",
+ "status": "mapped",
+ "rtgs": "na",
+ "paiboon": "nâa",
+ "ipa": "/naː˥˩/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -10,20 +12,22 @@
    "n": 1,
    "gloss": {
     "en": [
-     "farm",
-     "paddy field"
+     "before",
+     "face",
+     "map",
+     "page"
     ],
-    "th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง ๆ สำหรับปลูกข้าวเป็นต้น",
+    "th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคาง",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "noun, คำอนุภาค",
-   "pos_th": "คำนาม, คำอนุภาค",
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
    "domains": [
-    "d:toponym"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
@@ -33,137 +37,856 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "หน้าผาก",
+     "rtgs": "na-phak",
+     "ipa": "/naː˥˩.pʰaːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "forehead"
+      ],
+      "th": "ส่วนเบื้องบนของใบหน้าอยู่เหนือคิ้วขึ้นไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ผาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "หน้าท้อง",
+     "rtgs": "na-thong",
+     "ipa": "/naː˥˩.tʰɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนหน้าของท้อง ตั้งแต่ลิ้นปี่จนถึงบริเวณต้นขา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ท้อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.19, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "หน้าผา",
+     "rtgs": "na-pha",
+     "ipa": "/naː˥˩.pʰaː˩˩˦/",
+     "gloss": {
+      "en": [
+       "cliff"
+      ],
+      "th": "ด้านภูเขาที่มีแผ่นหินตั้งชัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ผา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "farm",
-     "paddy field"
+     "before",
+     "face",
+     "map",
+     "page"
     ],
-    "th": "พื้นที่มีลักษณะคล้ายนาสำหรับทำประโยชน์อื่น ๆ เรียกตามสิ่งที่ทำ เช่น นาเกลือ นากุ้ง นาผักกระเฉด",
+    "th": "ซีกของกายที่ตรงข้ามกับหลัง",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "noun, คำอนุภาค",
-   "pos_th": "คำนาม, คำอนุภาค",
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
    "domains": [
-    "d:toponym"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "From the face to the whole front of the body.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "farm",
-     "paddy field"
+     "before",
+     "face",
+     "map",
+     "page"
     ],
-    "th": "ใช้ประกอบกับคำอื่นที่เกิดหรือเกี่ยวข้องกับนา เช่น เต่านา ปูนา",
+    "th": "ด้านของสิ่งใดสิ่งหนึ่งที่อยู่ตรงข้ามกับสายตาของเราหรือด้านที่เผชิญหน้ากับสายตาของเรา",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "noun, คำอนุภาค",
-   "pos_th": "คำนาม, คำอนุภาค",
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
    "domains": [
-    "d:toponym"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "เผชิญหน้า",
+     "rtgs": "pha-choen-na",
+     "ipa": "/pʰa˨˩.t͡ɕʰɤːn˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "face",
+       "front",
+       "confront"
+      ],
+      "th": "เจอกันซึ่งหน้า (ใช้แก่ผู้ที่ไม่ชอบหน้ากัน)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เผชิญ",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "The side of any object that faces us, as a body faces us.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "farm",
-     "paddy field"
+     "before",
+     "face",
+     "map",
+     "page"
     ],
-    "th": "ตำแหน่งเจ้ากระทรวงปกครองครั้งโบราณ มีหน้าที่ดูแลรักษานาหลวงจัดหาและรักษาเสบียงอาหารสำหรับพระนคร ดูแลทุกข์สุขของชาวไร่ชาวนา",
+    "th": "ส่วนบนของบางสิ่ง",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "noun, คำอนุภาค",
-   "pos_th": "คำนาม, คำอนุภาค",
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
    "domains": [
-    "d:toponym"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "The facing side loosened to the upper side.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "farm",
-     "paddy field"
+     "before",
+     "face",
+     "map",
+     "page"
     ],
-    "th": "อวัยวะเพศหญิง",
+    "th": "เครื่องปรุงที่แต่งหรือโรยบนอาหารบางอย่าง",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "noun, คำอนุภาค",
-   "pos_th": "คำนาม, คำอนุภาค",
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
    "domains": [
-    "d:toponym"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "What is spread on the top surface of a dish is called its top.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "farm",
-     "paddy field"
+     "before",
+     "face",
+     "map",
+     "page"
     ],
-    "th": "มักใช้ประกอบท้ายคำบทร้อยกรองให้มีความกระชับหรือสละสลวยขึ้น",
+    "th": "ด้านหนึ่ง ๆ ของวัตถุแบน ๆ อย่างกระดาษ",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "noun, คำอนุภาค",
-   "pos_th": "คำนาม, คำอนุภาค",
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
    "domains": [
-    "d:toponym"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "One side of a flat thing such as paper.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "before",
+     "face",
+     "map",
+     "page"
+    ],
+    "th": "ด้านของเครื่องตีที่ขึงด้วยหนัง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หน้าทับ",
+     "rtgs": "na-thap",
+     "ipa": "/naː˥˩.tʰap̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสียงตีเครื่องดนตรีที่ขึงด้วยหนังจำพวกเลียนเสียงมาจากทับ (โทน) เช่น ตะโพน กลองแขก ใช้บอกสัดส่วนและประโยคของเพลง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ทับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.27, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "The skin stretched over a drum.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "before",
+     "face",
+     "map",
+     "page"
+    ],
+    "th": "ด้านหนึ่ง ๆ ของลูกเต๋าและน้ำเต้าซึ่งมี 6 ด้าน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "One of the six faces of a die.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "before",
+     "face",
+     "map",
+     "page"
+    ],
+    "th": "ส่วนกว้างของแผ่นกระดาน เสาเหลี่ยม หรือผืนผ้า เป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หน้าแดง",
+     "rtgs": "na-daeng",
+     "ipa": "/naː˥˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หน้าเต็มไปด้วยเลือดฝาดเพราะความกระดากอายหรือโกรธเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "แดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.17, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "หน้าปัด",
+     "rtgs": "na-pat",
+     "ipa": "/naː˥˩.pat̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แผ่นที่มีตัวเลขหรือสัญลักษณ์แสดงเวลาหรือปริมาณเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ปัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.14, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 6,
+   "via": "generalisation",
+   "via_note": "The broad dimension of a plank, post or cloth.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "before",
+     "face",
+     "map",
+     "page"
+    ],
+    "th": "ชายผ้าบางชนิดที่มีลวดลาย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "metonymy",
+   "via_note": "The patterned band at the edge of certain cloths.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "before",
+     "face",
+     "map",
+     "page"
+    ],
+    "th": "ด้านของผ้าที่มีลวดลายชัดกว่า",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 10,
+   "via": "metonymy",
+   "via_note": "And then the more clearly patterned side of the cloth itself.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "before",
+     "face",
+     "map",
+     "page"
+    ],
+    "th": "คราว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Front in space becomes a turn in sequence — whose หน้า it is.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 13,
+   "gloss": {
+    "en": [
+     "before",
+     "face",
+     "map",
+     "page"
+    ],
+    "th": "ฤดู",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 12,
+   "via": "specialisation",
+   "via_note": "A turn of the year: the season.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 14,
+   "gloss": {
+    "en": [
+     "before",
+     "face",
+     "map",
+     "page"
+    ],
+    "th": "คน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The face stands for the person, as it does in English 'a new face'.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 15,
+   "gloss": {
+    "en": [
+     "before",
+     "face",
+     "map",
+     "page"
+    ],
+    "th": "เกียรติและศักดิ์ศรี",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Face as standing and dignity — what is lost when one loses face.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 16,
+   "gloss": {
+    "en": [
+     "before",
+     "face",
+     "map",
+     "page"
+    ],
+    "th": "บอกจำนวนด้านของแผ่นกระดาษ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "The side of a sheet becomes the unit pages are counted in.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 17,
+   "gloss": {
+    "en": [
+     "before",
+     "face",
+     "map",
+     "page"
+    ],
+    "th": "ถัดไป",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 12,
+   "via": "specialisation",
+   "via_note": "The next one in the sequence.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 18,
+   "gloss": {
+    "en": [
+     "before",
+     "face",
+     "map",
+     "page"
+    ],
+    "th": "ตรงข้ามกับ หลัง (ใช้แก่เวลาที่ยังมาไม่ถึง)",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 17,
+   "via": "specialisation",
+   "via_note": "And of time specifically: what has not arrived yet.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 19,
+   "gloss": {
+    "en": [
+     "before",
+     "face",
+     "map",
+     "page"
+    ],
+    "th": "อยู่ตรงข้ามกับข้างหลัง เรียกว่า ข้างหน้า",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เดินหน้า",
+     "rtgs": "doen-na",
+     "ipa": "/dɤːn˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เดินไปข้างหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เดิน",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 19: gloss similarity 0.16, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "จ่าหน้า",
+     "rtgs": "cha-na",
+     "ipa": "/t͡ɕaː˨˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เขียนบอกไว้ข้างหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จ่า",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 19: gloss similarity 0.15, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "เบื้องหน้า",
+     "rtgs": "bueang-na",
+     "ipa": "/bɯa̯ŋ˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "front"
+      ],
+      "th": "ข้างหน้า, ต่อไป, อนาคต",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เบื้อง",
+      "หน้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 19: gloss similarity 0.16, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "The position in front, against ข้างหลัง.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -174,27 +897,30 @@
  ],
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
-  "Attested in this corpus: 1130 manuscript titles, 2370 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'na', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Attested in this corpus: 4 manuscript titles, 396 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
- "editorial": "Generated by lexicon_ingest.py. Generativity 78; domain seeded by keyword hits ['toponym formative'].",
+ "editorial": "Generated by lexicon_ingest.py. Generativity 114; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
   {
-   "th": "นาขาม",
-   "translit_auto": "nakham",
+   "th": "หน้าทน",
+   "rtgs": "na-thon",
+   "ipa": "/naː˥˩.tʰon˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอกุฉินารายณ์ จังหวัดกาฬสินธุ์",
+    "th": "มีสีหน้าไม่สลดทั้งที่ควรจะอายแต่ก็ไม่อาย",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "นา",
-    "ขาม"
+    "หน้า",
+    "ทน"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -204,21 +930,47 @@
    ]
   },
   {
-   "th": "คณนา",
-   "translit_auto": "khnna",
+   "th": "หน้าหยก",
+   "rtgs": "na-yok",
+   "ipa": "/naː˥˩.jok̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "นับ",
+    "th": "หล่อเหลาเกลี้ยงเกลาเหมือนหยก",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "คณ",
-    "นา"
+    "หน้า",
+    "หยก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เหม็นหน้า",
+   "rtgs": "men-na",
+   "ipa": "/men˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เบื่อหน้า, ไม่ชอบหน้ากัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เหม็น",
+    "หน้า"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -228,23 +980,24 @@
    ]
   },
   {
-   "th": "นาตาล",
-   "translit_auto": "natal",
+   "th": "หลบหน้า",
+   "rtgs": "lop-na",
+   "ipa": "/lop̚˨˩.naː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดอุบลราชธานี",
+    "th": "หลบไปไม่เผชิญหน้า",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "นา",
-    "ตาล"
+    "หลบ",
+    "หน้า"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -252,23 +1005,24 @@
    ]
   },
   {
-   "th": "นามะตูม",
-   "translit_auto": "namatum",
+   "th": "ได้หน้า",
+   "rtgs": "dai-na",
+   "ipa": "/daːj˥˩.naː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอพนัสนิคม จังหวัดชลบุรี",
+    "th": "ได้ชื่อเสียง, ได้ความดีความชอบ, ได้รับคำชม",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "นา",
-    "มะตูม"
+    "ได้",
+    "หน้า"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -276,23 +1030,24 @@
    ]
   },
   {
-   "th": "นาเพียง",
-   "translit_auto": "napheiyng",
+   "th": "ก้มหน้า",
+   "rtgs": "kom-na",
+   "ipa": "/kom˥˩.naː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอชุมแพ จังหวัดขอนแก่น",
+    "th": "น้อมศีรษะลง",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "นา",
-    "เพียง"
+    "ก้ม",
+    "หน้า"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -300,61 +1055,40 @@
    ]
   },
   {
-   "th": "นาฝาย",
-   "translit_auto": "nafay",
+   "th": "การเอาหน้า",
+   "rtgs": "kan-ao-na",
+   "ipa": "/kaːn˧.ʔaw˧.naː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอภูผาม่าน จังหวัดขอนแก่น",
+    "th": "คำอาการนามของ เอาหน้า",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "นา",
-    "ฝาย"
+    "การเอา",
+    "หน้า"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "th": "นาบัว",
-   "translit_auto": "nabaw",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอนครไทย จังหวัดพิษณุโลก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "บัว"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation"
   },
   {
-   "th": "ศักดินา",
-   "translit_auto": "sakdina",
+   "th": "หน้าด้าน",
+   "rtgs": "na-dan",
+   "ipa": "/naː˥˩.daːn˥˩/",
    "gloss": {
     "en": [
-     "feudalism"
+     "cheek"
     ],
-    "th": "อำนาจหรือสิทธิที่พระเจ้าแผ่นดินพระราชทานให้แก่ไพร่ฟ้าข้าแผ่นดินตามศักดิ์ของแต่ละคน เดิมเป็นการถือครองที่ดินคิดเป็นจำนวนไร่ ต่อมาถือเป็นการกำหนดสถานะ สิทธิ หน้าที่ และความรับผิดชอบของคนในสังคม",
+    "th": "มีสีหน้าไม่สลดทั้งที่ควรจะอายแต่ก็ไม่อาย",
     "conf": "verified",
     "src": [
      "RID",
@@ -362,32 +1096,8 @@
     ]
    },
    "parts": [
-    "ศักดิ",
-    "นา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นามน",
-   "translit_auto": "namn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "มน"
+    "หน้า",
+    "ด้าน"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -397,21 +1107,22 @@
    ]
   },
   {
-   "th": "กบนา",
-   "translit_auto": "kbna",
+   "th": "ซึ่งหน้า",
+   "rtgs": "sueng-na",
+   "ipa": "/sɯŋ˥˩.naː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อกบขนาดกลางถึงขนาดใหญ่ชนิด Hoplobatrachus rugulosus (Wiegmann) หรือ Rana rugulosus (Wiegmann) ก็มีใช้กัน ในวงศ์ Ranidae หลังสีน้ำตาลอมเขียวมีจุดสีน้ำตาลเข้มถึงดำกระจายทั่วไป ท้องสีขาวนวล กินแมลง เป็นชนิดที่มีแพร่หลายม",
+    "th": "ต่อหน้า",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "กบ",
-    "นา"
+    "ซึ่ง",
+    "หน้า"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -421,45 +1132,22 @@
    ]
   },
   {
-   "th": "พจนา",
-   "translit_auto": "phchna",
+   "th": "หน้าแล้ง",
+   "rtgs": "na-laeng",
+   "ipa": "/naː˥˩.lɛːŋ˦˥/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "การเปล่งวาจา, การพูด",
+    "th": "ฤดูแล้ง",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "พจ",
-    "นา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นาเหนือ",
-   "translit_auto": "nahenue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภออ่าวลึก จังหวัดกระบี่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "เหนือ"
+    "หน้า",
+    "แล้ง"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -469,69 +1157,48 @@
    ]
   },
   {
-   "th": "นาคู",
-   "translit_auto": "nakhu",
+   "th": "การปาดหน้า",
+   "rtgs": "kan-pat-na",
+   "ipa": "/kaːn˧.paːt̚˨˩.naː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
+    "th": "คำอาการนามของ ปาดหน้า",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "นา",
-    "คู"
+    "การปาด",
+    "หน้า"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "th": "นาโพธิ์",
-   "translit_auto": "naphothi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดบุรีรัมย์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "โพธิ์"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation"
   },
   {
-   "th": "ทุ่งนา",
-   "translit_auto": "thungna",
+   "th": "กรอบหน้า",
+   "rtgs": "krop-na",
+   "ipa": "/krɔːp̚˨˩.naː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ที่ราบสำหรับปลูกข้าว",
+    "th": "เครื่องประดับขอบหน้าผากเป็นรูปกระจังเป็นต้น",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ทุ่ง",
-    "นา"
+    "กรอบ",
+    "หน้า"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -541,21 +1208,123 @@
    ]
   },
   {
-   "th": "นายูง",
-   "translit_auto": "nayung",
+   "th": "เปิดหน้า",
+   "rtgs": "poet-na",
+   "ipa": "/pɤːt̚˨˩.naː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดอุดรธานี",
+    "th": "(คน) แสดงตัวหรือหน้าตาต่อสาธารณะ",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "นา",
-    "ยูง"
+    "เปิด",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ฉีกหน้า",
+   "rtgs": "chik-na",
+   "ipa": "/t͡ɕʰiːk̚˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทำให้ได้รับความอับอาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ฉีก",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การตอกหน้า",
+   "rtgs": "kan-tok-na",
+   "ipa": "/kaːn˧.tɔːk̚˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตอกหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตอก",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ตีหน้า",
+   "rtgs": "ti-na",
+   "ipa": "/tiː˧.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แกล้งทำสีหน้าให้ผิดจากใจจริง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตี",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าแหก",
+   "rtgs": "na-haek",
+   "ipa": "/naː˥˩.hɛːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการที่ต้องได้รับความอับอายขายหน้าอย่างยิ่งเพราะผิดหวังอย่างมากหรือเพราะถูกโต้ถูกย้อนกลับมาอย่างเถียงไม่ขึ้นเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "แหก"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -565,21 +1334,22 @@
    ]
   },
   {
-   "th": "เทศนา",
-   "translit_auto": "thesna",
+   "th": "เสียหน้า",
+   "rtgs": "sia-na",
+   "ipa": "/sia̯˩˩˦.naː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "การแสดงธรรมสั่งสอนในทางศาสนา",
+    "th": "ขายหน้า",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "เทศ",
-    "นา"
+    "เสีย",
+    "หน้า"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -589,21 +1359,22 @@
    ]
   },
   {
-   "th": "เวทนา",
-   "translit_auto": "wethna",
+   "th": "เบ้าหน้า",
+   "rtgs": "bao-na",
+   "ipa": "/baw˥˩.naː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ความรู้สึก, ความรู้สึกทุกข์สุข, เป็นขันธ์ 1 ในขันธ์ 5 คือ รูป เวทนา สัญญา สังขาร และวิญญาณ",
+    "th": "ใบหน้า",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "เวท",
-    "นา"
+    "เบ้า",
+    "หน้า"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -613,13 +1384,92 @@
    ]
   },
   {
-   "th": "นาที",
-   "translit_auto": "nathi",
+   "th": "การก้าวหน้า",
+   "rtgs": "kan-kao-na",
+   "ipa": "/kaːn˧.kaːw˥˩.naː˥˩/",
    "gloss": {
     "en": [
-     "minute"
+     "[needs a gloss]"
     ],
-    "th": "ชื่อหน่วยเวลา เท่ากับ 1 ใน 60 ของชั่วโมง",
+    "th": "คำอาการนามของ ก้าวหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การก้าว",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "รับหน้า",
+   "rtgs": "rap-na",
+   "ipa": "/rap̚˦˥.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เผชิญหน้า, รอหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รับ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ความเบื่อหน้า",
+   "rtgs": "khwam-buea-na",
+   "ipa": "/kʰwaːm˧.bɯa̯˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เบื่อหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเบื่อ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ล่วงหน้า",
+   "rtgs": "luang-na",
+   "ipa": "/lua̯ŋ˥˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "before",
+     "ahead"
+    ],
+    "th": "ก่อนกำหนด",
     "conf": "verified",
     "src": [
      "RID",
@@ -627,80 +1477,8 @@
     ]
    },
    "parts": [
-    "นา",
-    "ที"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นาหมื่น",
-   "translit_auto": "nahmuen",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดน่าน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "หมื่น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นาชุมแสง",
-   "translit_auto": "nachumsaeng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอภูเวียง จังหวัดขอนแก่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "ชุมแสง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ละหานนา",
-   "translit_auto": "lahanna",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอแวงน้อย จังหวัดขอนแก่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ละหาน",
-    "นา"
+    "ล่วง",
+    "หน้า"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -710,93 +1488,22 @@
    ]
   },
   {
-   "th": "นาทุ่ง",
-   "translit_auto": "nathung",
+   "th": "เอาหน้า",
+   "rtgs": "ao-na",
+   "ipa": "/ʔaw˧.naː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอสวรรคโลก จังหวัดสุโขทัย",
+    "th": "อยากให้คนยกย่องสรรเสริญ",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "นา",
-    "ทุ่ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นายก",
-   "translit_auto": "nayk",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้นำ, ผู้เป็นหัวหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "ยก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นาเกลือ",
-   "translit_auto": "nakelue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พื้นที่ที่มีลักษณะคล้ายนาสำหรับขังน้ำทะเลเพื่อให้เกลือตกตะกอน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "เกลือ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นยนา",
-   "translit_auto": "nyna",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ดวงตา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นย",
-    "นา"
+    "เอา",
+    "หน้า"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -806,277 +1513,16 @@
    ]
   },
   {
-   "th": "นาข่า",
-   "translit_auto": "nakha",
+   "th": "หน้าที่",
+   "rtgs": "na-thi",
+   "ipa": "/naː˥˩.tʰiː˥˩/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "job",
+     "duty",
+     "onus"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอมัญจาคีรี จังหวัดขอนแก่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "ข่า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นัยนา",
-   "translit_auto": "nayna",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ดวงตา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นัย",
-    "นา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นาซี",
-   "translit_auto": "nasi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พรรคกรรมกรชาติสังคมนิยมเยอรมัน อดีตพรรคการเมืองฝ่ายขวาจัดในเยอรมนี นำโดย อดอล์ฟ ฮิตเลอร์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "ซี"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นาแห้ว",
-   "translit_auto": "nahaeo",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดเลย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "แห้ว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ภาวนา",
-   "translit_auto": "phawna",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "การทำให้มีขึ้นให้เป็นขึ้นทางจิตใจ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ภาว",
-    "นา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "มีนา",
-   "translit_auto": "mina",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รูปตัดทอนของ มีนาคม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "มี",
-    "นา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นามกร",
-   "translit_auto": "namkn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อ, นาม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "มกร"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นาทม",
-   "translit_auto": "nathm",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดนครพนม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "ทม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นาหว้า",
-   "translit_auto": "nahwa",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดนครพนม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "หว้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ม่วงนา",
-   "translit_auto": "mwngna",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอดอนจาน จังหวัดกาฬสินธุ์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ม่วง",
-    "นา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นางาม",
-   "translit_auto": "nangam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอมัญจาคีรี จังหวัดขอนแก่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "งาม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กานา",
-   "translit_auto": "kana",
-   "gloss": {
-    "en": [
-     "Ghana"
-    ],
-    "th": "(ประเทศ~) ประเทศในแอฟริกาตะวันตก",
+    "th": "กิจที่จะต้องทำด้วยความรับผิดชอบ",
     "conf": "verified",
     "src": [
      "RID",
@@ -1084,8 +1530,60 @@
     ]
    },
    "parts": [
-    "กา",
-    "นา"
+    "หน้า",
+    "ที่"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การตั้งหน้า",
+   "rtgs": "kan-tang-na",
+   "ipa": "/kaːn˧.taŋ˥˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตั้งหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตั้ง",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "นายหน้า",
+   "rtgs": "nai-na",
+   "ipa": "/naːj˧.naː˥˩/",
+   "gloss": {
+    "en": [
+     "broker"
+    ],
+    "th": "ชื่อสัญญาซึ่งบุคคลหนึ่งตกลงจะให้ค่าบำเหน็จแก่อีกบุคคลหนึ่งเพื่อที่ชี้ช่องให้ได้เข้าทำสัญญาหรือจัดการให้ได้ทำสัญญากัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "นาย",
+    "หน้า"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -1095,21 +1593,22 @@
    ]
   },
   {
-   "th": "โภชนา",
-   "translit_auto": "phochna",
+   "th": "งามหน้า",
+   "rtgs": "ngam-na",
+   "ipa": "/ŋaːm˧.naː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "รูปแบบอื่นของ โภชนะ",
+    "th": "น่าขายหน้า ใช้เป็นคำประชด",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "โภช",
-    "นา"
+    "งาม",
+    "หน้า"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -1119,21 +1618,1931 @@
    ]
   },
   {
-   "th": "นาป่า",
-   "translit_auto": "napa",
+   "th": "แก้หน้า",
+   "rtgs": "kae-na",
+   "ipa": "/kɛː˥˩.naː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองชลบุรี จังหวัดชลบุรี",
+    "th": "ทำให้พ้นอาย",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "นา",
-    "ป่า"
+    "แก้",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การเสียหน้า",
+   "rtgs": "kan-sia-na",
+   "ipa": "/kaːn˧.sia̯˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เสียหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเสีย",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "การย่อหน้า",
+   "rtgs": "kan-yo-na",
+   "ipa": "/kaːn˧.jɔː˥˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ย่อหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การย่อ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "น้ำหน้า",
+   "rtgs": "nam-na",
+   "ipa": "/naːm˦˥.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หน้า (ใช้ในความแดกดัน รังเกียจ หรือดูหมิ่น เป็นต้น)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "น้ำ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "รักษาหน้า",
+   "rtgs": "rak-sa-na",
+   "ipa": "/rak̚˦˥.saː˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ระวังไม่ยอมให้ต้องอับอายขายหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รักษา",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ไหมหน้า",
+   "rtgs": "mai-na",
+   "ipa": "/maj˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หมายหน้า, ตราหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไหม",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าตั้ง",
+   "rtgs": "na-tang",
+   "ipa": "/naː˥˩.taŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เครื่องจิ้มชนิดหนึ่ง ทำด้วยหมูสับ กุ้งสับ ต้มกับกะทิ ผสมเครื่องมีหัวหอม ถั่วลิสง เป็นต้น ปรุงรสด้วยเกลือ น้ำตาล น้ำมะขามเปียกเล็กน้อย สำหรับกินกับข้าวตังทอดกรอบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "ตั้ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าไม้",
+   "rtgs": "na-mai",
+   "ipa": "/naː˥˩.maːj˦˥/",
+   "gloss": {
+    "en": [
+     "crossbow"
+    ],
+    "th": "เครื่องยิงชนิดหนึ่ง มีคันและราง ยิงด้วยลูกหน้าไม้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "ไม้"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ออกหน้า",
+   "rtgs": "ok-na",
+   "ipa": "/ʔɔːk̚˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แสดงให้ปรากฏอย่างเปิดเผย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ออก",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การหมายหน้า",
+   "rtgs": "kan-mai-na",
+   "ipa": "/kaːn˧.maːj˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หมายหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหมาย",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "เสมอหน้า",
+   "rtgs": "sa-moe-na",
+   "ipa": "/sa˨˩.mɤː˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทั่วถึงและเท่าเทียมกัน, ทัดเทียม, ไม่โอนเอียงเข้าข้างใดข้างหนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เสมอ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หัวหน้า",
+   "rtgs": "hua-na",
+   "ipa": "/hua̯˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "boss"
+    ],
+    "th": "ผู้เป็นใหญ่ในหมู่หนึ่ง ๆ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หัว",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าเน่า",
+   "translit_auto": "hnanea",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขี้เหร่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "เน่า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ย่อหน้า",
+   "rtgs": "yo-na",
+   "ipa": "/jɔː˥˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "paragraph"
+    ],
+    "th": "เขียนหรือพิมพ์หนังสือขึ้นบรรทัดใหม่และร่นจากแนวซ้ายสุดเข้าไปพอสมควร เพื่อแสดงว่าขึ้นความตอนใหม่",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ย่อ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การสู้หน้า",
+   "rtgs": "kan-su-na",
+   "ipa": "/kaːn˧.suː˥˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สู้หน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสู้",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "การแก้หน้า",
+   "rtgs": "kan-kae-na",
+   "ipa": "/kaːn˧.kɛː˥˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แก้หน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแก้",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "หน้าเขา",
+   "rtgs": "na-khao",
+   "ipa": "/naː˥˩.kʰaw˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอเขาพนม จังหวัดกระบี่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "เขา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym"
+  },
+  {
+   "th": "การไว้หน้า",
+   "rtgs": "kan-wai-na",
+   "ipa": "/kaːn˧.waj˦˥.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ไว้หน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การไว้",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "การออกหน้า",
+   "rtgs": "kan-ok-na",
+   "ipa": "/kaːn˧.ʔɔːk̚˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ออกหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การออก",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ความเสียหน้า",
+   "rtgs": "khwam-sia-na",
+   "ipa": "/kʰwaːm˧.sia̯˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เสียหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเสีย",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "แบกหน้า",
+   "translit_auto": "baekhna",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จำใจกลับมาแสดงตัวหรือติดต่ออีกกับผู้ที่ตนเคยทำไม่ดี ไม่ถูกต้อง หรือไม่เหมาะสมมาก่อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แบก",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เสนอหน้า",
+   "rtgs": "sa-noe-na",
+   "ipa": "/sa˨˩.nɤː˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แสดงตัวให้ผู้มีอำนาจเหนือเห็นอยู่เสมอทั้ง ๆ ที่ตนเองมิได้มีหน้าที่เกี่ยวข้อง เพื่อผลประโยชน์ตอบแทน, พยายามแสดงตัวให้ปรากฏต่อสาธารณชนอยู่เสมอ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เสนอ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การตราหน้า",
+   "rtgs": "kan-tra-na",
+   "ipa": "/kaːn˧.traː˧.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตราหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตรา",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ฉาบหน้า",
+   "rtgs": "chap-na",
+   "ipa": "/t͡ɕʰaːp̚˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เสแสร้งเพื่อให้เข้าใจว่ามีสถานะดีกว่าที่เป็นจริง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ฉาบ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าตาย",
+   "rtgs": "na-tai",
+   "ipa": "/naː˥˩.taːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หน้าเฉยเหมือนไม่มีความรู้สึก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "ตาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การฉีกหน้า",
+   "rtgs": "kan-chik-na",
+   "ipa": "/kaːn˧.t͡ɕʰiːk̚˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ฉีกหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การฉีก",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "การเดินหน้า",
+   "rtgs": "kan-doen-na",
+   "ipa": "/kaːn˧.dɤːn˧.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เดินหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเดิน",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "หน้าเป็น",
+   "rtgs": "na-pen",
+   "ipa": "/naː˥˩.pen˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการที่ทำหน้ายิ้มหรือหัวเราะอยู่เรื่อย ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "เป็น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การได้หน้า",
+   "rtgs": "kan-dai-na",
+   "ipa": "/kaːn˧.daːj˥˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ได้หน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การได้",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "สีหน้า",
+   "rtgs": "si-na",
+   "ipa": "/siː˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "face"
+    ],
+    "th": "อารมณ์ที่ปรากฏทางหน้า",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สี",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การก้มหน้า",
+   "rtgs": "kan-kom-na",
+   "ipa": "/kaːn˧.kom˥˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ก้มหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การก้ม",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "หน้าตัก",
+   "rtgs": "na-tak",
+   "ipa": "/naː˥˩.tak̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำที่ใช้เรียกขนาดความกว้างของพระพุทธรูปแบบนั่งขัดสมาธิโดยวัดจากสุดเข่าข้างหนึ่งถึงอีกข้างหนึ่ง ใช้วัดด้วยมาตราไทย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "ตัก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าชา",
+   "rtgs": "na-cha",
+   "ipa": "/naː˥˩.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการที่รู้สึกอับอายขายหน้าระคนโกรธ แต่ก็ตอบโต้ไม่ได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "ชา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ไว้หน้า",
+   "rtgs": "wai-na",
+   "ipa": "/waj˦˥.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รักษาเกียรติฐานะของผู้อื่นไม่ให้ต้องได้รับความอับอายขายหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไว้",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตราหน้า",
+   "rtgs": "tra-na",
+   "ipa": "/traː˧.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หมายหน้าไว้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตรา",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ขายหน้า",
+   "rtgs": "khai-na",
+   "ipa": "/kʰaːj˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อับอาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขาย",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ต่อหน้า",
+   "rtgs": "to-na",
+   "ipa": "/tɔː˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ซึ่งหน้า, เฉพาะหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ต่อ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้ามืด",
+   "rtgs": "na-muet",
+   "ipa": "/naː˥˩.mɯːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการที่เป็นลมหมดสติ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "มืด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าตา",
+   "rtgs": "na-ta",
+   "ipa": "/naː˥˩.taː˧/",
+   "gloss": {
+    "en": [
+     "face"
+    ],
+    "th": "เค้าหน้า",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "ตา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตั้งหน้า",
+   "rtgs": "tang-na",
+   "ipa": "/taŋ˥˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มุ่งหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตั้ง",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าแตก",
+   "rtgs": "na-taek",
+   "ipa": "/naː˥˩.tɛːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการที่ต้องได้รับความอับอายขายหน้าอย่างยิ่งเพราะผิดหวังอย่างมากหรือเพราะถูกโต้ถูกย้อนกลับมาอย่างเถียงไม่ขึ้นเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "แตก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หนังหน้า",
+   "translit_auto": "hnanghna",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "โฉมหน้า.",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หนัง",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หมายหน้า",
+   "rtgs": "mai-na",
+   "ipa": "/maːj˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ประมาทหน้า, ดูถูก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หมาย",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าหนา",
+   "rtgs": "na-na",
+   "ipa": "/naː˥˩.naː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มีสีหน้าไม่สลดทั้งที่ควรจะอายแต่ก็ไม่อาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "หนา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เข้าหน้า",
+   "rtgs": "khao-na",
+   "ipa": "/kʰaw˥˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เผชิญหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เข้า",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าฝน",
+   "rtgs": "na-fon",
+   "ipa": "/naː˥˩.fon˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ฤดูฝน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "ฝน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer"
+  },
+  {
+   "th": "ฝ่ายหน้า",
+   "rtgs": "fai-na",
+   "ipa": "/faːj˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "บุรุษผู้มีตำแหน่งเฝ้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ฝ่าย",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การหลบหน้า",
+   "rtgs": "kan-lop-na",
+   "ipa": "/kaːn˧.lop̚˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หลบหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหลบ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ตอกหน้า",
+   "rtgs": "tok-na",
+   "ipa": "/tɔːk̚˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ว่าใส่หน้าอย่างไม่ไว้หน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตอก",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หนีหน้า",
+   "translit_auto": "hnihna",
+   "ipa": "[niː˩˥.näː˥˩]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หลบไม่ยอมให้พบหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หนี",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การเสนอหน้า",
+   "rtgs": "kan-sa-noe-na",
+   "ipa": "/kaːn˧.sa˨˩.nɤː˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เสนอหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเสนอ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ไม้หน้า",
+   "rtgs": "mai-na",
+   "ipa": "/maːj˦˥.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อสระรูปดังนี้ เ, แ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไม้",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าจั่ว",
+   "rtgs": "na-chua",
+   "ipa": "/naː˥˩.t͡ɕua̯˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เครื่องบนแห่งเรือนที่ปิดด้านสกัดหลังคา สำหรับกันลมและแดดฝน มีรูปเป็นสามเหลี่ยม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "จั่ว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "สู้หน้า",
+   "rtgs": "su-na",
+   "ipa": "/suː˥˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เผชิญหน้า, ประจันหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สู้",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กองหน้า",
+   "rtgs": "kong-na",
+   "ipa": "/kɔːŋ˧.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตำแหน่งในกีฬาฟุตบอลที่ผู้เล่นมีหน้าที่จู่โจมในการรุกเข้ายิงประตูฝ่ายตรงข้าม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กอง",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "วางหน้า",
+   "rtgs": "wang-na",
+   "ipa": "/waːŋ˧.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตีหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วาง",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าต่าง",
+   "rtgs": "na-tang",
+   "ipa": "/naː˥˩.taːŋ˨˩/",
+   "gloss": {
+    "en": [
+     "window"
+    ],
+    "th": "ช่องฝาของบ้านเรือนสำหรับแสงสว่างและให้อากาศถ่ายเท มีบานสำหรับเปิดปิด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "ต่าง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เกินหน้า",
+   "rtgs": "koen-na",
+   "ipa": "/kɤːn˧.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เกินกว่า เด่นกว่า หรือดีกว่าฐานะของตนเองหรือของคนอื่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกิน",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เบื่อหน้า",
+   "rtgs": "buea-na",
+   "ipa": "/bɯa̯˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไม่ชอบหน้ากัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เบื่อ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การเผชิญหน้า",
+   "rtgs": "kan-pha-choen-na",
+   "ipa": "/kaːn˧.pʰa˨˩.t͡ɕʰɤːn˧.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เผชิญหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเผชิญ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "การเปิดหน้า",
+   "rtgs": "kan-poet-na",
+   "ipa": "/kaːn˧.pɤːt̚˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เปิดหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเปิด",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "หน้ากระฉีก",
+   "rtgs": "na-kra-chik",
+   "ipa": "/naː˥˩.kra˨˩.t͡ɕʰiːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ของหวานทำด้วยมะพร้าวทึนทึกขูด กวนกับนํ้าตาลปึกให้เข้ากันจนเหนียว อบด้วยควันเทียนอบให้หอม ใช้เป็นไส้หรือหน้าขนม เช่น ขนมใส่ไส้มีไส้เป็นหน้ากระฉีก ข้าวเหนียวหน้ากระฉีก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "กระฉีก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ปาดหน้า",
+   "rtgs": "pat-na",
+   "ipa": "/paːt̚˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แซงตัดหน้า ในคำว่า ขับรถปาดหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ปาด",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การขายหน้า",
+   "rtgs": "kan-khai-na",
+   "ipa": "/kaːn˧.kʰaːj˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "disgrace"
+    ],
+    "th": "คำอาการนามของ ขายหน้า",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การขาย",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "หน้าหม้อ",
+   "rtgs": "na-mo",
+   "ipa": "/naː˥˩.mɔː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เจ้าชู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "หม้อ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าร้อน",
+   "rtgs": "na-ron",
+   "ipa": "/naː˥˩.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ฤดูร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "ร้อน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer"
+  },
+  {
+   "th": "หน้าอก",
+   "rtgs": "na-ok",
+   "ipa": "/naː˥˩.ʔok̚˨˩/",
+   "gloss": {
+    "en": [
+     "breast",
+     "chest",
+     "bazookas"
+    ],
+    "th": "ส่วนภายนอกของอก",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "อก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ก้าวหน้า",
+   "rtgs": "kao-na",
+   "ipa": "/kaːw˥˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "forward",
+     "progress"
+    ],
+    "th": "เปลี่ยนแปลงของเดิมให้ดีขึ้นตามลำดับ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ก้าว",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การเบื่อหน้า",
+   "rtgs": "kan-buea-na",
+   "ipa": "/kaːn˧.bɯa̯˨˩.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เบื่อหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเบื่อ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ไฟหน้า",
+   "rtgs": "fai-na",
+   "ipa": "/faj˧.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไฟหน้ารถที่ให้แสงสว่างเมื่อขับรถตอนกลางคืนหรือขับในที่มืด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไฟ",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าม้า",
+   "rtgs": "na-ma",
+   "ipa": "/naː˥˩.maː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทรงผมที่ผมด้านหน้าปิดหน้าผากคล้ายผมของม้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "ม้า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าหนาว",
+   "rtgs": "na-nao",
+   "ipa": "/naː˥˩.naːw˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ฤดูหนาว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "หนาว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer"
+  },
+  {
+   "th": "หน้าเมือง",
+   "rtgs": "na-mueang",
+   "ipa": "/naː˥˩.mɯa̯ŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองฉะเชิงเทรา จังหวัดฉะเชิงเทรา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "เมือง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym"
+  },
+  {
+   "th": "หน้าเงิน",
+   "rtgs": "na-ngoen",
+   "ipa": "/naː˥˩.ŋɤn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เห็นแก่เงิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "เงิน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ความเหม็นหน้า",
+   "rtgs": "khwam-men-na",
+   "ipa": "/kʰwaːm˧.men˩˩˦.naː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เหม็นหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเหม็น",
+    "หน้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "หน้ากาก",
+   "rtgs": "na-kak",
+   "ipa": "/naː˥˩.kaːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เครื่องบังใบหน้าทั้งหมดหรือบางส่วน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "กาก"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -1144,19 +3553,43 @@
   }
  ],
  "etymology": {
-  "summary": "สืบทอดจากไทดั้งเดิม *naːᴬ; ร่วมเชื้อสายกับคำเมือง ᨶᩣ (นา), ลาว ນາ (นา), ไทลื้อ ᦓᦱ (นา), ไทดำ ꪙꪱ (นา), ไทขาว ꪙꪱ, ตั่ย nà, ไทใหญ่ ၼႃး (น๊า), ไทใต้คง ᥘᥣᥰ (ล๊า) หรือ ᥢᥣᥰ (น๊า), อ่ายตน ꩫ︀ႃ (นา), พ่าเก ꩫ︀ႃ (นา), อาหม 𑜃𑜠 (นะ) หรือ 𑜃𑜡 (นา), จ้วง naz, ปู้อี naz; เทียบเบดั้งเดิม *niaᴬ², ไหลดั้งเดิม *hnaːɦ (“นา; คันนา”) เกี่ยวข้องกับคำว่า นะ",
+  "summary": "สืบทอดจากไทดั้งเดิม *ʰnaːꟲ; ร่วมเชื้อสายกับอีสาน หน้า, คำเมือง ᩉ᩠ᨶ᩶ᩣ (หน้า), ลาว ໜ້າ (หน้า), ไทลื้อ ᦐᦱᧉ (หน้า), ไทดำ ꪘ꫁ꪱ (หน้า), ไทขาว ꪘꪱꫂ, ตั่ย nả, ไทใหญ่ ၼႃႈ (น้า), ไทใต้คง ᥘᥣᥲ (ล้า) หรือ ᥢᥣᥲ (น้า), อาหม 𑜃𑜠 (นะ) หรือ 𑜃𑜡 (นา), จ้วง naj; เทียบเบดั้งเดิม *naːᴮꟲ¹ ซึ่งเป็นรากของเบ na³",
   "conf": "probable",
   "src": [
    "WIKT"
   ]
  },
  "lanna": {
-  "tham": "ᨶᩣ",
-  "th": "นา",
+  "tham": "ᩉ᩠ᨶ᩶ᩣ",
+  "th": "หน้า",
   "note": "Extracted from the Wiktionary etymology line.",
   "conf": "probable",
   "src": [
    "WIKT"
   ]
- }
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:na-2",
+   "label": "นา",
+   "why": "spelling",
+   "distinction": "Both romanise as \"na\". หน้า is nâa, นา is naa — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:na-3",
+   "label": "นะ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"na\". หน้า is nâa, นะ is ná — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
 }

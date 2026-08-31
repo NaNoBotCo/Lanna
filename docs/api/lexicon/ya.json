@@ -1,8 +1,10 @@
 {
  "id": "w:ya",
  "th": "ยา",
- "translit_auto": "ya",
- "status": "listed",
+ "status": "mapped",
+ "rtgs": "ya",
+ "paiboon": "yaa",
+ "ipa": "/jaː˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -34,7 +36,66 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ยา 'medicine'.",
+    "Declared root: ยา 'medicine'.",
+    "Declared root: ยา 'medicine'.",
+    "Declared root: ยา 'medicine'.",
+    "Declared root: ยา 'medicine'.",
+    "Declared root: ยา 'medicine'.",
+    "Declared root: ยา 'medicine'."
+   ],
+   "compounds": [
+    {
+     "th": "ยาดำ",
+     "rtgs": "ya-dam",
+     "ipa": "/jaː˧.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผลิตภัณฑ์ที่เตรียมจากน้ำยางซึ่งได้จากการกรีดโคนใบตามขวางของพืชหลายชนิดในสกุล Aloe วงศ์ Asphodelaceae นำไปเคี่ยวให้งวดแล้วทิ้งไว้ให้แข็งตัวเป็นก้อน มีสีน้ำตาลเข้ม กลิ่นไม่ชวนดม รสขม ใช้เป็นยาได้ ส่วนมากได้จากชนิด A. vera ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยา",
+      "ดำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ยาแดง",
+     "rtgs": "ya-daeng",
+     "ipa": "/jaː˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยาสูบชนิดหนึ่งของจีน เส้นแดง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยา",
+      "แดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -63,7 +124,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "euphemism",
+   "via_note": "Opium spoken of as medicine, which is how it was sold and prescribed.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -91,7 +156,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "From opium to narcotics generally.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -119,7 +188,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A preparation applied to metal to colour it, as a preparation is applied to a body.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -147,7 +220,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The statutory definition — what the ministry's pharmacopoeia recognises.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -175,7 +252,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 5,
+   "via": "specialisation",
+   "via_note": "What is intended for diagnosis, treatment or prevention.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -203,7 +284,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 5,
+   "via": "specialisation",
+   "via_note": "And the chemical and semi-finished pharmaceutical substances.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -231,7 +316,325 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เยียวยา",
+     "rtgs": "yiao-ya",
+     "ipa": "/jia̯w˧.jaː˧/",
+     "gloss": {
+      "en": [
+       "remedy"
+      ],
+      "th": "บำบัดโรค, แก้โรค",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เยียว",
+      "ยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The substance names the act: to medicine someone is to cure them, as in เยียวยา.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "medicine",
+     "essence",
+     "drug",
+     "med"
+    ],
+    "th": "ทำให้หายรั่ว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, คำอนุภาค",
+   "pos_th": "คำนาม, คำกริยา, คำอนุภาค",
+   "domains": [
+    "d:medicine"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "metaphor",
+   "via_note": "Curing a hull as one cures a body — ยาเรือ, to caulk.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "medicine",
+     "essence",
+     "drug",
+     "med"
+    ],
+    "th": "ใช้ประกอบคำ พี่ น้อง ลูก",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, คำอนุภาค",
+   "pos_th": "คำนาม, คำกริยา, คำอนุภาค",
+   "domains": [
+    "d:medicine"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ยา as a prefix to kin terms (พี่ น้อง ลูก) — a different morpheme.",
+    "Declared root: ยา as a prefix to kin terms (พี่ น้อง ลูก) — a different morpheme.",
+    "Declared root: ยา as a prefix to kin terms (พี่ น้อง ลูก) — a different morpheme.",
+    "Declared root: ยา as a prefix to kin terms (พี่ น้อง ลูก) — a different morpheme.",
+    "Declared root: ยา as a prefix to kin terms (พี่ น้อง ลูก) — a different morpheme.",
+    "Declared root: ยา as a prefix to kin terms (พี่ น้อง ลูก) — a different morpheme.",
+    "Declared root: ยา as a prefix to kin terms (พี่ น้อง ลูก) — a different morpheme."
    ]
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "medicine",
+     "essence",
+     "drug",
+     "med"
+    ],
+    "th": "ใช้ในราชาศัพท์หมายความว่า เพศชาย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, คำอนุภาค",
+   "pos_th": "คำนาม, คำกริยา, คำอนุภาค",
+   "domains": [
+    "d:medicine"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: the royal-language male marker, with sense 10.",
+    "Declared root: the royal-language male marker, with sense 10.",
+    "Declared root: the royal-language male marker, with sense 10.",
+    "Declared root: the royal-language male marker, with sense 10.",
+    "Declared root: the royal-language male marker, with sense 10.",
+    "Declared root: the royal-language male marker, with sense 10.",
+    "Declared root: the royal-language male marker, with sense 10."
+   ]
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "ya as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 5 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 109 of the 5333 wats in the northern registry carry it, and 108 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 5 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 5 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "109 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "สรรพยา",
+     "rtgs": "sap-pha-ya",
+     "ipa": "/sap̚˨˩.pʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดชัยนาท",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สรรพ",
+      "ยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ไชยา",
+     "rtgs": "chai-ya",
+     "ipa": "/t͡ɕʰaj˧.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุราษฎร์ธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไช",
+      "ยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "คลองยา",
+     "rtgs": "khlong-ya",
+     "ipa": "/kʰlɔːŋ˧.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออ่าวลึก จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คลอง",
+      "ยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "หายยา",
+     "rtgs": "hai-ya",
+     "ipa": "/haːj˩˩˦.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หาย",
+      "ยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ไม้ยา",
+     "rtgs": "mai-ya",
+     "ipa": "/maːj˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพญาเม็งราย จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -243,10 +646,262 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 303 manuscript titles, 868 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'ya', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 58; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
+  {
+   "th": "ยาไส้",
+   "rtgs": "ya-sai",
+   "ipa": "/jaː˧.saj˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ประทังความหิว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "ไส้"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "วางยา",
+   "rtgs": "wang-ya",
+   "ipa": "/waːŋ˧.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ให้กินยาเพื่อรักษาโรค",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วาง",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การวางยา",
+   "rtgs": "kan-wang-ya",
+   "ipa": "/kaːn˧.waːŋ˧.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ วางยา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การวาง",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ภารยา",
+   "rtgs": "pha-ra-ya",
+   "ipa": "/pʰaː˧.ra˦˥.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภรรยา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภาร",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กระยา",
+   "rtgs": "kra-ya",
+   "ipa": "/kra˨˩.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เครื่อง, สิ่งของ, เครื่องกิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ยาโป๊",
+   "rtgs": "ya-po",
+   "ipa": "/jaː˧.poː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยาชูกำลังให้กระชุ่มกระชวยเหมือนเป็นหนุ่มสาวขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "โป๊"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ยาคะ",
+   "rtgs": "ya-kha",
+   "ipa": "/jaː˧.kʰaʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยัญพิธี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "คะ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "รถยา",
+   "translit_auto": "rthya",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทางเดิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รถ",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "มายา",
+   "rtgs": "ma-ya",
+   "ipa": "/maː˧.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การลวง, การแสร้งทำ, เล่ห์กล, มารยา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มา",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หยูกยา",
+   "rtgs": "yuk-ya",
+   "ipa": "/juːk̚˨˩.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยารักษาโรค",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หยูก",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
   {
    "th": "กล้องยา",
    "translit_auto": "klongya",
@@ -272,8 +927,186 @@
    ]
   },
   {
+   "th": "ป้ายยา",
+   "rtgs": "pai-ya",
+   "ipa": "/paːj˥˩.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชักชวน, ชักจูง (ให้ซื้อสินค้าเป็นต้น)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ป้าย",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ชายา",
+   "rtgs": "cha-ya",
+   "ipa": "/t͡ɕʰaː˧.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภรรยา (ที่ไม่เป็นเจ้า)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ทายา",
+   "translit_auto": "thaya",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "(คำสุภาพ) ใส่ยา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทา",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ยาตร",
+   "rtgs": "yat",
+   "ipa": "/jaːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เดิน, เดินเป็นกระบวน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "ตร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ขมวดยา",
+   "translit_auto": "khmwdya",
+   "ipa": "[kʰä˩.muːät̚˩.jäː˧]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อเรือที่ขุดขึ้นจากซุงทั้งต้น ใหญ่กว่าเรือกราบ รูปร่างค่อนข้างเพรียว หัวและท้ายเรือเสริมไม้ต่อเป็นโขนงอนเชิดขึ้น ด้านข้างหัวเรือเขียนลวดลายด้วยน้ำยาสีต่าง ๆ วางกระทงขวางลำสำหรับคนนั่งพายได้ประมาณ 50 คน เป็นเรือตามเสด็จ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขมวด",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การฉีดยา",
+   "rtgs": "kan-chit-ya",
+   "ipa": "/kaːn˧.t͡ɕʰiːt̚˨˩.jaː˧/",
+   "gloss": {
+    "en": [
+     "jab"
+    ],
+    "th": "คำอาการนามของ ฉีดยา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การฉีด",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "การลงยา",
+   "rtgs": "kan-long-ya",
+   "ipa": "/kaːn˧.loŋ˧.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลงยา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลง",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
    "th": "ยาเบื่อ",
-   "translit_auto": "yabeue",
+   "rtgs": "ya-buea",
+   "ipa": "/jaː˧.bɯa̯˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -296,20 +1129,46 @@
    ]
   },
   {
-   "th": "คลองยา",
-   "translit_auto": "khlongya",
+   "th": "ยาเส้น",
+   "rtgs": "ya-sen",
+   "ipa": "/jaː˧.sen˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภออ่าวลึก จังหวัดกระบี่",
+    "th": "ยาสูบชนิดหนึ่งที่หั่นใบยาเป็นเส้น ๆ หรือเป็นชิ้นเล็ก ๆ สำหรับมวนสูบหรือใส่กล้องสูบ",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "คลอง",
+    "ยา",
+    "เส้น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ลงยา",
+   "rtgs": "long-ya",
+   "ipa": "/loŋ˧.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ใช้น้ำยาเคมีใส่ลงในพื้นที่เป็นร่องระหว่างลวดลายในเครื่องเงิน แล้วใช้ความร้อนอบให้น้ำยาติดและให้พื้นเป็นสีต่าง ๆ, เรียกเต็มว่า ลงถมยาสี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลง",
     "ยา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -320,192 +1179,21 @@
    ]
   },
   {
-   "th": "ยาวี",
-   "translit_auto": "yawi",
+   "th": "กายา",
+   "rtgs": "ka-ya",
+   "ipa": "/kaː˧.jaː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "อักษรอาหรับที่ใช้เขียนภาษามาเลเซีย",
+    "th": "ตัว, ร่างกาย",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ยา",
-    "วี"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยาสูบ",
-   "translit_auto": "yasub",
-   "gloss": {
-    "en": [
-     "tobacco"
-    ],
-    "th": "ยาสำหรับสูบ มีทั้งที่เป็นมวนและที่เป็นเส้นสำหรับสูบกล้อง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ยา",
-    "สูบ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยาไส้",
-   "translit_auto": "yasai",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ประทังความหิว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ยา",
-    "ไส้"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยาจก",
-   "translit_auto": "yachk",
-   "gloss": {
-    "en": [
-     "pauper"
-    ],
-    "th": "ขอทาน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ยา",
-    "จก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เยียวยา",
-   "translit_auto": "yeiywya",
-   "gloss": {
-    "en": [
-     "remedy"
-    ],
-    "th": "บำบัดโรค, แก้โรค",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เยียว",
-    "ยา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การลงยา",
-   "translit_auto": "karlngya",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ลงยา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การลง",
-    "ยา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยาพิษ",
-   "translit_auto": "yaphis",
-   "gloss": {
-    "en": [
-     "poison"
-    ],
-    "th": "สิ่งที่มีพิษมาก กินหรือฉีดเข้าร่างกายเป็นต้นแล้วอาจทำให้ถึงตายได้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ยา",
-    "พิษ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ไม้ยา",
-   "translit_auto": "maiya",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอพญาเม็งราย จังหวัดเชียงราย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
+    "กา",
     "ยา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -540,8 +1228,35 @@
    ]
   },
   {
+   "th": "ยาสูบ",
+   "rtgs": "ya-sup",
+   "ipa": "/jaː˧.suːp̚˨˩/",
+   "gloss": {
+    "en": [
+     "tobacco"
+    ],
+    "th": "ยาสำหรับสูบ มีทั้งที่เป็นมวนและที่เป็นเส้นสำหรับสูบกล้อง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "สูบ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "กะยา",
-   "translit_auto": "kaya",
+   "rtgs": "ka-ya",
+   "ipa": "/ka˨˩.jaː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -564,20 +1279,47 @@
    ]
   },
   {
-   "th": "กายา",
-   "translit_auto": "kaya",
+   "th": "การยา",
+   "rtgs": "kan-ya",
+   "ipa": "/kaːn˧.jaː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ตัว, ร่างกาย",
+    "th": "คำอาการนามของ ยา",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "กา",
+    "การ",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "มารยา",
+   "rtgs": "man-ya",
+   "ipa": "/maːn˧.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การลวง, การแสร้งทำ, เล่ห์กล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มาร",
     "ยา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -588,13 +1330,14 @@
    ]
   },
   {
-   "th": "ยาเส้น",
-   "translit_auto": "yasen",
+   "th": "ยาติ",
+   "rtgs": "yat",
+   "ipa": "/jaːt̚˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ยาสูบชนิดหนึ่งที่หั่นใบยาเป็นเส้น ๆ หรือเป็นชิ้นเล็ก ๆ สำหรับมวนสูบหรือใส่กล้องสูบ",
+    "th": "รูปเลิกใช้ของ ญาติ",
     "conf": "unverified",
     "src": [
      "RID"
@@ -602,7 +1345,7 @@
    },
    "parts": [
     "ยา",
-    "เส้น"
+    "ติ"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -612,20 +1355,46 @@
    ]
   },
   {
-   "th": "วางยา",
-   "translit_auto": "wangya",
+   "th": "ยาวี",
+   "rtgs": "ya-wi",
+   "ipa": "/jaː˧.wiː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ให้กินยาเพื่อรักษาโรค",
+    "th": "อักษรอาหรับที่ใช้เขียนภาษามาเลเซีย",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "วาง",
+    "ยา",
+    "วี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กันยา",
+   "rtgs": "kan-ya",
+   "ipa": "/kan˧.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สาวรุ่น, สาวน้อย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กัน",
     "ยา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -637,7 +1406,8 @@
   },
   {
    "th": "ยาตรา",
-   "translit_auto": "yatra",
+   "rtgs": "yat-tra",
+   "ipa": "/jaːt̚˥˩.traː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -660,80 +1430,9 @@
    ]
   },
   {
-   "th": "ทายา",
-   "translit_auto": "thaya",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(คำสุภาพ) ใส่ยา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทา",
-    "ยา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ภารยา",
-   "translit_auto": "pharya",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ภรรยา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ภาร",
-    "ยา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยาหัด",
-   "translit_auto": "yahad",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชั่ว, ไม่ดี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ยา",
-    "หัด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "ยาสลบ",
-   "translit_auto": "yaslp",
+   "rtgs": "ya-sa-lop",
+   "ipa": "/jaː˧.sa˨˩.lop̚˨˩/",
    "gloss": {
     "en": [
      "anaesthetic"
@@ -757,8 +1456,84 @@
    ]
   },
   {
+   "th": "ยายี",
+   "rtgs": "ya-yi",
+   "ipa": "/jaː˧.jiː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เบียดเบียน, รบกวน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "ยี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ยาบ้า",
+   "rtgs": "ya-ba",
+   "ipa": "/jaː˧.baː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยาเสพติดชนิดเม็ดที่ประกอบไปด้วยเมแทมเฟตามีนและคาเฟอีน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "บ้า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ยาอี",
+   "rtgs": "ya-i",
+   "ipa": "/jaː˧.ʔiː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยาเสพติดชนิดหนึ่งที่ทำให้ผู้เสพรู้สึกเคลิบเคลิ้มหลงใหล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "อี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "ยาขัด",
-   "translit_auto": "yakhad",
+   "rtgs": "ya-khat",
+   "ipa": "/jaː˧.kʰat̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -781,129 +1556,9 @@
    ]
   },
   {
-   "th": "ยาติ",
-   "translit_auto": "yati",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รูปเลิกใช้ของ ญาติ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ยา",
-    "ติ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยาดำ",
-   "translit_auto": "yadam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผลิตภัณฑ์ที่เตรียมจากน้ำยางซึ่งได้จากการกรีดโคนใบตามขวางของพืชหลายชนิดในสกุล Aloe วงศ์ Asphodelaceae นำไปเคี่ยวให้งวดแล้วทิ้งไว้ให้แข็งตัวเป็นก้อน มีสีน้ำตาลเข้ม กลิ่นไม่ชวนดม รสขม ใช้เป็นยาได้ ส่วนมากได้จากชนิด A. vera ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ยา",
-    "ดำ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยาสั่ง",
-   "translit_auto": "yasang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยาพิษจำพวกหนึ่งที่เชื่อกันว่า ถ้าผู้ใดกินเข้าไปแล้วจะต้องตาย เมื่อไปกินอาหารที่กำหนดหรือตามเวลาที่กำหนดไว้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ยา",
-    "สั่ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ไชยา",
-   "translit_auto": "chaiya",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดสุราษฎร์ธานี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไช",
-    "ยา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การฉีดยา",
-   "translit_auto": "karchidya",
-   "gloss": {
-    "en": [
-     "jab"
-    ],
-    "th": "คำอาการนามของ ฉีดยา",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "การฉีด",
-    "ยา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "ยาขยัน",
-   "translit_auto": "yakhyan",
+   "rtgs": "ya-kha-yan",
+   "ipa": "/jaː˧.kʰa˨˩.jan˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -926,13 +1581,14 @@
    ]
   },
   {
-   "th": "ยาตร",
-   "translit_auto": "yatn",
+   "th": "ยาหัด",
+   "rtgs": "ya-hat",
+   "ipa": "/jaː˧.hat̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "เดิน, เดินเป็นกระบวน",
+    "th": "ชั่ว, ไม่ดี",
     "conf": "unverified",
     "src": [
      "RID"
@@ -940,7 +1596,7 @@
    },
    "parts": [
     "ยา",
-    "ตร"
+    "หัด"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -950,45 +1606,23 @@
    ]
   },
   {
-   "th": "หยูกยา",
-   "translit_auto": "hyukya",
+   "th": "ยาม้า",
+   "rtgs": "ya-ma",
+   "ipa": "/jaː˧.maː˦˥/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "dope"
     ],
-    "th": "ยารักษาโรค",
-    "conf": "unverified",
+    "th": "ยาบ้า",
+    "conf": "verified",
     "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หยูก",
-    "ยา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยาโป๊",
-   "translit_auto": "yapo",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยาชูกำลังให้กระชุ่มกระชวยเหมือนเป็นหนุ่มสาวขึ้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
    "parts": [
     "ยา",
-    "โป๊"
+    "ม้า"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -999,7 +1633,8 @@
   },
   {
    "th": "ยางวง",
-   "translit_auto": "yangwng",
+   "rtgs": "yang-wong",
+   "ipa": "/jaːŋ˧.woŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -1014,103 +1649,33 @@
     "ยา",
     "งวง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "use": "synonym-pointer"
   },
   {
-   "th": "ก้นยา",
-   "translit_auto": "knya",
+   "th": "น้ำยา",
+   "rtgs": "nam-ya",
+   "ipa": "/nam˦˥.jaː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ส่วนท้ายของมวนบุหรี่ที่สั้นจนสูบต่อไปไม่ได้",
+    "th": "อาหารคาวอย่างหนึ่ง ลักษณะอย่างแกง ทำด้วยปลาโขลกกับเครื่องปรุง กินกับผักบางอย่าง เช่น ถั่วงอก ใบแมงลัก ใช้คลุกกินกับขนมจีน, คู่กับ น้ำพริก",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ก้น",
+    "น้ำ",
     "ยา"
    ],
    "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กันยา",
-   "translit_auto": "kanya",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สาวรุ่น, สาวน้อย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กัน",
-    "ยา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การยา",
-   "translit_auto": "karya",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ยา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การ",
-    "ยา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยาคะ",
-   "translit_auto": "yakha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยัญพิธี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ยา",
-    "คะ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -1119,7 +1684,8 @@
   },
   {
    "th": "ไสยา",
-   "translit_auto": "saiya",
+   "rtgs": "sai-ya",
+   "ipa": "/saj˩˩˦.jaː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -1142,20 +1708,175 @@
    ]
   },
   {
-   "th": "การวางยา",
-   "translit_auto": "karwangya",
+   "th": "ยาพิษ",
+   "rtgs": "ya-phit",
+   "ipa": "/jaː˧.pʰit̚˦˥/",
+   "gloss": {
+    "en": [
+     "poison"
+    ],
+    "th": "สิ่งที่มีพิษมาก กินหรือฉีดเข้าร่างกายเป็นต้นแล้วอาจทำให้ถึงตายได้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "พิษ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ยาชา",
+   "rtgs": "ya-cha",
+   "ipa": "/jaː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "anaesthetic"
+    ],
+    "th": "ยาที่ทาหรือฉีดให้ประสาทชา มักใช้ในการผ่าตัดหรือถอนฟัน เป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "ชา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ยาสั่ง",
+   "rtgs": "ya-sang",
+   "ipa": "/jaː˧.saŋ˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "คำอาการนามของ วางยา",
+    "th": "ยาพิษจำพวกหนึ่งที่เชื่อกันว่า ถ้าผู้ใดกินเข้าไปแล้วจะต้องตาย เมื่อไปกินอาหารที่กำหนดหรือตามเวลาที่กำหนดไว้",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "การวาง",
+    "ยา",
+    "สั่ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ฉีดยา",
+   "rtgs": "chit-ya",
+   "ipa": "/t͡ɕʰiːt̚˨˩.jaː˧/",
+   "gloss": {
+    "en": [
+     "jab"
+    ],
+    "th": "เอายาฉีดเข้าไปในร่างกายทางใต้ผิวหนัง ทางกล้ามเนื้อ หรือทางเส้นเลือด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ฉีด",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "พระยา",
+   "rtgs": "phra-ya",
+   "ipa": "/pʰra˦˥.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "บรรดาศักดิ์ข้าราชการผู้ใหญ่สูงกว่าพระ ต่ำกว่าเจ้าพระยา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พระ",
+    "ยา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ยาจก",
+   "rtgs": "ya-chok",
+   "ipa": "/jaː˧.t͡ɕok̚˨˩/",
+   "gloss": {
+    "en": [
+     "pauper"
+    ],
+    "th": "ขอทาน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "จก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ก้นยา",
+   "rtgs": "kon-ya",
+   "ipa": "/kon˥˩.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ส่วนท้ายของมวนบุหรี่ที่สั้นจนสูบต่อไปไม่ได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ก้น",
     "ยา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -1167,7 +1888,8 @@
   },
   {
    "th": "เคนยา",
-   "translit_auto": "khenya",
+   "rtgs": "khen-ya",
+   "ipa": "/kʰen˧.jaː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -1180,30 +1902,6 @@
    },
    "parts": [
     "เคน",
-    "ยา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "น้ำยา",
-   "translit_auto": "namya",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาหารคาวอย่างหนึ่ง ลักษณะอย่างแกง ทำด้วยปลาโขลกกับเครื่องปรุง กินกับผักบางอย่าง เช่น ถั่วงอก ใบแมงลัก ใช้คลุกกินกับขนมจีน, คู่กับ น้ำพริก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "น้ำ",
     "ยา"
    ],
    "note": "head-final; both parts are dictionary headwords",

@@ -1,8 +1,10 @@
 {
  "id": "w:saeng",
  "th": "แสง",
- "translit_auto": "saeng",
- "status": "listed",
+ "status": "proposed",
+ "rtgs": "saeng",
+ "paiboon": "sɛ̌ɛng",
+ "ipa": "/sɛːŋ˩˩˦/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -29,6 +31,34 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "แสงสว่าง",
+     "rtgs": "saeng-sa-wang",
+     "ipa": "/sɛːŋ˩˩˦.sa˨˩.waːŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสงที่มีความสว่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แสง",
+      "สว่าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.30, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -73,6 +103,33 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "คลังแสง",
+     "rtgs": "khlang-saeng",
+     "ipa": "/kʰlaŋ˧.sɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คลังอาวุธของทางราชการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คลัง",
+      "แสง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -95,7 +152,215 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เสื้อแสง",
+     "rtgs": "suea-saeng",
+     "ipa": "/sɯa̯˥˩.sɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสื้อและกางเกง, เครื่องนุ่งห่ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสื้อ",
+      "แสง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "saeng as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 4 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 4 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 4 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "15 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "หนองแสง",
+     "rtgs": "nong-saeng",
+     "ipa": "/nɔːŋ˩˩˦.sɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอุดรธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "แสง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "พระแสง",
+     "rtgs": "phra-saeng",
+     "ipa": "/pʰra˦˥.sɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุราษฎร์ธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "แสง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "วังแสง",
+     "rtgs": "wang-saeng",
+     "ipa": "/waŋ˧.sɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอชนบท จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "แสง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ชุมแสง",
+     "rtgs": "chum-saeng",
+     "ipa": "/t͡ɕʰum˧.sɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครสวรรค์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชุม",
+      "แสง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "แสงจันทร์",
+     "rtgs": "saeng-chan",
+     "ipa": "/sɛːŋ˩˩˦.t͡ɕan˧/",
+     "gloss": {
+      "en": [
+       "moon"
+      ],
+      "th": "ชื่อไม้พุ่มชนิด Pisonia grandisR. Br. ในวงศ์ Nyctaginaceae ใบบาง สีเหลืองอมเขียว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แสง",
+      "จันทร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -107,13 +372,16 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 15 manuscript titles, 56 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'saeng', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits —.",
  "compounds_unassigned": [
   {
    "th": "กันแสง",
-   "translit_auto": "kansaeng",
+   "rtgs": "kan-saeng",
+   "ipa": "/kan˧.sɛːŋ˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -136,13 +404,14 @@
    ]
   },
   {
-   "th": "ลำแสง",
-   "translit_auto": "lamsaeng",
+   "th": "ปีแสง",
+   "rtgs": "pi-saeng",
+   "ipa": "/piː˧.sɛːŋ˩˩˦/",
    "gloss": {
     "en": [
-     "stream"
+     "light year"
     ],
-    "th": "แสงที่พุ่งออกไปเป็นลำ",
+    "th": "หน่วยวัดระยะซึ่งใช้ในวิชาดาราศาสตร์ โดยกำหนดว่าระยะ 1 ปีแสง คือ ระยะที่แสงเคลื่อนที่ไปได้ในเวลา 1 ปี ซึ่งเป็นระยะ 5.87848 × 10¹² ไมล์ หรือ 9.4605 × 10¹² กิโลเมตร",
     "conf": "verified",
     "src": [
      "RID",
@@ -150,7 +419,7 @@
     ]
    },
    "parts": [
-    "ลำ",
+    "ปี",
     "แสง"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -161,61 +430,14 @@
    ]
   },
   {
-   "th": "หนองแสง",
-   "translit_auto": "hnongsaeng",
+   "th": "แสงใต้",
+   "rtgs": "saeng-tai",
+   "ipa": "/sɛːŋ˩˩˦.taːj˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดอุดรธานี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หนอง",
-    "แสง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คลังแสง",
-   "translit_auto": "khlangsaeng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คลังอาวุธของทางราชการ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คลัง",
-    "แสง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "แสงสว่าง",
-   "translit_auto": "saengswang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แสงที่มีความสว่าง",
+    "th": "ออโรราที่ขั้วโลกใต้",
     "conf": "unverified",
     "src": [
      "RID"
@@ -223,7 +445,7 @@
    },
    "parts": [
     "แสง",
-    "สว่าง"
+    "ใต้"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -233,32 +455,35 @@
    ]
   },
   {
-   "th": "ชุมแสง",
-   "translit_auto": "chumsaeng",
+   "th": "การหิวแสง",
+   "rtgs": "kan-hio-saeng",
+   "ipa": "/kaːn˧.hiw˩˩˦.sɛːŋ˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดนครสวรรค์",
+    "th": "คำอาการนามของ หิวแสง",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ชุม",
+    "การหิว",
     "แสง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "use": "nominalisation"
   },
   {
    "th": "แสงเหนือ",
-   "translit_auto": "saenghenue",
+   "rtgs": "saeng-nuea",
+   "ipa": "/sɛːŋ˩˩˦.nɯa̯˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -281,20 +506,21 @@
    ]
   },
   {
-   "th": "พระแสง",
-   "translit_auto": "phrasaeng",
+   "th": "หิวแสง",
+   "rtgs": "hio-saeng",
+   "ipa": "/hiw˩˩˦.sɛːŋ˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดสุราษฎร์ธานี",
+    "th": "ต้องการให้เป็นที่สนใจในสังคม เปรียบดั่งต้องการให้แสงสปอตไลต์ฉายใส่ตน",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "พระ",
+    "หิว",
     "แสง"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -305,24 +531,24 @@
    ]
   },
   {
-   "th": "แสงจันทร์",
-   "translit_auto": "saengchanthn",
+   "th": "ยอแสง",
+   "rtgs": "yo-saeng",
+   "ipa": "/jɔː˧.sɛːŋ˩˩˦/",
    "gloss": {
     "en": [
-     "moon"
+     "[needs a gloss]"
     ],
-    "th": "ชื่อไม้พุ่มชนิด Pisonia grandisR. Br. ในวงศ์ Nyctaginaceae ใบบาง สีเหลืองอมเขียว",
-    "conf": "verified",
+    "th": "ปรากฏการณ์ที่ดวงอาทิตย์ลับขอบฟ้า แต่ยังเห็นแสงตะวันจับขอบฟ้าเป็นสีแดงเข้ม, มักใช้ว่า ตะวันยอแสง",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
    "parts": [
-    "แสง",
-    "จันทร์"
+    "ยอ",
+    "แสง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -330,14 +556,14 @@
    ]
   },
   {
-   "th": "โปร่งแสง",
-   "translit_auto": "porngsaeng",
+   "th": "ลำแสง",
+   "rtgs": "lam-saeng",
+   "ipa": "/lam˧.sɛːŋ˩˩˦/",
    "gloss": {
     "en": [
-     "bright",
-     "translucid"
+     "stream"
     ],
-    "th": "ที่มีสมบัติให้แสงผ่านไปได้บ้าง แต่ไม่สามารถมองทะลุไปได้",
+    "th": "แสงที่พุ่งออกไปเป็นลำ",
     "conf": "verified",
     "src": [
      "RID",
@@ -345,7 +571,7 @@
     ]
    },
    "parts": [
-    "โปร่ง",
+    "ลำ",
     "แสง"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -380,80 +606,9 @@
    ]
   },
   {
-   "th": "การหิวแสง",
-   "translit_auto": "karhiwsaeng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ หิวแสง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การหิว",
-    "แสง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "วังแสง",
-   "translit_auto": "wangsaeng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอชนบท จังหวัดขอนแก่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "วัง",
-    "แสง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยอแสง",
-   "translit_auto": "ysaeng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ปรากฏการณ์ที่ดวงอาทิตย์ลับขอบฟ้า แต่ยังเห็นแสงตะวันจับขอบฟ้าเป็นสีแดงเข้ม, มักใช้ว่า ตะวันยอแสง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ยอ",
-    "แสง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "ความโปร่งแสง",
-   "translit_auto": "khwamporngsaeng",
+   "rtgs": "khwam-prong-saeng",
+   "ipa": "/kʰwaːm˧.proːŋ˨˩.sɛːŋ˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -468,88 +623,18 @@
     "ความโปร่ง",
     "แสง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "th": "หิวแสง",
-   "translit_auto": "hiwsaeng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ต้องการให้เป็นที่สนใจในสังคม เปรียบดั่งต้องการให้แสงสปอตไลต์ฉายใส่ตน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หิว",
-    "แสง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "แสงใต้",
-   "translit_auto": "saengt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ออโรราที่ขั้วโลกใต้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แสง",
-    "ใต้"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เสื้อแสง",
-   "translit_auto": "seuesaeng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เสื้อและกางเกง, เครื่องนุ่งห่ม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เสื้อ",
-    "แสง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation"
   },
   {
    "th": "ความหิวแสง",
-   "translit_auto": "khwamhiwsaeng",
+   "rtgs": "khwam-hio-saeng",
+   "ipa": "/kʰwaːm˧.hiw˩˩˦.sɛːŋ˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -564,21 +649,24 @@
     "ความหิว",
     "แสง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "use": "nominalisation"
   },
   {
-   "th": "ปีแสง",
-   "translit_auto": "pisaeng",
+   "th": "โปร่งแสง",
+   "rtgs": "prong-saeng",
+   "ipa": "/proːŋ˨˩.sɛːŋ˩˩˦/",
    "gloss": {
     "en": [
-     "light year"
+     "bright",
+     "translucid"
     ],
-    "th": "หน่วยวัดระยะซึ่งใช้ในวิชาดาราศาสตร์ โดยกำหนดว่าระยะ 1 ปีแสง คือ ระยะที่แสงเคลื่อนที่ไปได้ในเวลา 1 ปี ซึ่งเป็นระยะ 5.87848 × 10¹² ไมล์ หรือ 9.4605 × 10¹² กิโลเมตร",
+    "th": "ที่มีสมบัติให้แสงผ่านไปได้บ้าง แต่ไม่สามารถมองทะลุไปได้",
     "conf": "verified",
     "src": [
      "RID",
@@ -586,7 +674,7 @@
     ]
    },
    "parts": [
-    "ปี",
+    "โปร่ง",
     "แสง"
    ],
    "note": "head-final; both parts are dictionary headwords",

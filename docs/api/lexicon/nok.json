@@ -1,8 +1,10 @@
 {
  "id": "w:nok",
- "th": "นอก",
- "translit_auto": "nok",
- "status": "listed",
+ "th": "นก",
+ "status": "proposed",
+ "rtgs": "nok",
+ "paiboon": "nók",
+ "ipa": "/nok̚˦˥/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -10,18 +12,20 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "bird",
+     "fowl"
     ],
-    "th": "ตรงข้ามกับใน, ไม่ใช่ใน",
-    "conf": "unverified",
+    "th": "ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ่น มี 2 เท้า 2 ปีก ตัวเต็มวัยจะมีขนปลุกคลุมเต็มตัว ออกลูกเป็นไข่ ส่วนมากใช้ชีวิตอยู่บนต้นไม้",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
-   "pos": "preposition, adjective",
-   "pos_th": "คำบุพบท, คำคุณศัพท์",
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
    "domains": [
-    "d:settlement"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
@@ -31,120 +35,183 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "นกออก",
+     "rtgs": "nok-ok",
+     "ipa": "/nok̚˦˥.ʔɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นก",
+      "ออก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "นกเขา",
+     "rtgs": "nok-khao",
+     "ipa": "/nok̚˦˥.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อนกขนาดกลางหลายชนิดหลายสกุล (ดูที่ เขา)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นก",
+      "เขา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ขนุนนก",
+     "translit_auto": "khnunnk",
+     "ipa": "[kʰä˩.nũn˩˥.nok̚˦˥]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Palaquium obovatum ในวงศ์ Sapotaceae มีน้ำยางขาวจับเป็นก้อนแข็งเมื่อผสมกับยางอื่น ๆ ใช้ยาเรือได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขนุน",
+      "นก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 2]"
+     "bird",
+     "fowl"
     ],
-    "th": "พ้นออกไปจากภายในหรือร่วมใน",
-    "conf": "unverified",
+    "th": "เครื่องสับแก๊ปปืนให้ลั่น ซึ่งมีรูปร่างคล้ายนก",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
-   "pos": "preposition, adjective",
-   "pos_th": "คำบุพบท, คำคุณศัพท์",
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
    "domains": [
-    "d:settlement"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ลั่นนก",
+     "rtgs": "lan-nok",
+     "ipa": "/lan˥˩.nok̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เหนี่ยวไกปืนให้นกสับลงที่แก๊ป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลั่น",
+      "นก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.16, next 0.01",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "นกเหล็ก",
+     "rtgs": "nok-lek",
+     "ipa": "/nok̚˦˥.lek̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องบิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นก",
+      "เหล็ก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.14, next 0.01",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 3]"
+     "bird",
+     "fowl"
     ],
-    "th": "ต่างประเทศ",
-    "conf": "unverified",
+    "th": "พลาด, อด, ชวด",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
-   "pos": "preposition, adjective",
-   "pos_th": "คำบุพบท, คำคุณศัพท์",
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
    "domains": [
-    "d:settlement"
-   ],
-   "order_conf": "unverified",
-   "conf": "probable",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "n": 4,
-   "gloss": {
-    "en": [
-     "[needs an English gloss — RID sense 4]"
-    ],
-    "th": "เรียกเขตที่พ้นจากเมืองหลวงออกไปว่า บ้านนอก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "pos": "preposition, adjective",
-   "pos_th": "คำบุพบท, คำคุณศัพท์",
-   "domains": [
-    "d:settlement"
-   ],
-   "order_conf": "unverified",
-   "conf": "probable",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "n": 5,
-   "gloss": {
-    "en": [
-     "[needs an English gloss — RID sense 5]"
-    ],
-    "th": "เรียกประเทศในทวีปยุโรปและอเมริกาว่า เมืองนอก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "pos": "preposition, adjective",
-   "pos_th": "คำบุพบท, คำคุณศัพท์",
-   "domains": [
-    "d:settlement"
-   ],
-   "order_conf": "unverified",
-   "conf": "probable",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "n": 6,
-   "gloss": {
-    "en": [
-     "[needs an English gloss — RID sense 6]"
-    ],
-    "th": "เรียกผลไม้ที่เอามาจากนอกกรุง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "pos": "preposition, adjective",
-   "pos_th": "คำบุพบท, คำคุณศัพท์",
-   "domains": [
-    "d:settlement"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
@@ -162,27 +229,129 @@
  ],
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
-  "Attested in this corpus: 1 manuscript titles, 23 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'nok', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Attested in this corpus: 93 manuscript titles, 409 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
- "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['บ้าน', 'เมือง'].",
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['เลือด', 'กระดูก', 'เท้า', 'หลัง'].",
  "compounds_unassigned": [
   {
-   "th": "นอกชาน",
-   "translit_auto": "nokchan",
+   "th": "หลับนก",
+   "rtgs": "lap-nok",
+   "ipa": "/lap̚˨˩.nok̚˦˥/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "พื้นเรือนที่ยื่นพ้นชายคาระเบียงออกมา",
+    "th": "นั่งหลับ",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "นอก",
-    "ชาน"
+    "หลับ",
+    "นก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นอนนก",
+   "rtgs": "non-nok",
+   "ipa": "/nɔːn˧.nok̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นั่งหลับ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นอน",
+    "นก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กระนก",
+   "rtgs": "kra-nok",
+   "ipa": "/kra˨˩.nok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทองคำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "นก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "แพนก",
+   "rtgs": "pha-naek",
+   "ipa": "/pʰa˦˥.nɛːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แพ",
+    "นก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นกรู้",
+   "translit_auto": "nkru",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ที่มีไหวพริบรู้เท่าทันเหตุการณ์หรือภัยที่จะมาถึงตน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นก",
+    "รู้"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -192,21 +361,22 @@
    ]
   },
   {
-   "th": "ด่านนอก",
-   "translit_auto": "dannok",
+   "th": "โหนก",
+   "rtgs": "nok",
+   "ipa": "/noːk̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอด่านขุนทด จังหวัดนครราชสีมา",
+    "th": "นูนยื่นออกมา",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ด่าน",
-    "นอก"
+    "โห",
+    "นก"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -216,69 +386,22 @@
    ]
   },
   {
-   "th": "กระเบื้องนอก",
-   "translit_auto": "krabeueongnok",
+   "th": "นกต่อ",
+   "rtgs": "nok-to",
+   "ipa": "/nok̚˦˥.tɔː˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองยาง จังหวัดนครราชสีมา",
+    "th": "คนที่ทำหน้าที่ติดต่อหรือชักจูงหลอกล่อคนอื่นให้หลงเชื่อ ใช้ในทางไม่ดี",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "กระเบื้อง",
-    "นอก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นักเรียนนอก",
-   "translit_auto": "nakreiynnok",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ที่ไปศึกษามาจากต่างประเทศ มีประเทศในยุโรปและสหรัฐอเมริกาเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นักเรียน",
-    "นอก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นอกเรื่อง",
-   "translit_auto": "nokreueong",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรื่องที่มิได้เกี่ยวข้องกับเรื่องอื่นด้วย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นอก",
-    "เรื่อง"
+    "นก",
+    "ต่อ"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -288,21 +411,22 @@
    ]
   },
   {
-   "th": "เมืองนอก",
-   "translit_auto": "meueongnok",
+   "th": "เลือดนก",
+   "rtgs": "lueat-nok",
+   "ipa": "/lɯa̯t̚˥˩.nok̚˦˥/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ประเทศอื่น ๆ, ต่างประเทศ มักหมายถึงประเทศในทวีปยุโรปและสหรัฐอเมริกา",
+    "th": "(สี~) สีแดงอย่างสีเลือดของนก",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "เมือง",
-    "นอก"
+    "เลือด",
+    "นก"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -312,99 +436,22 @@
    ]
   },
   {
-   "th": "บ้านนอก",
-   "translit_auto": "bannok",
+   "th": "นกม.",
+   "rtgs": "no-ko-mo",
+   "ipa": "/nɔː˧.kɔː˧.mɔː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "เขตแดนที่พ้นจากเมืองหลวงออกไป, เขตที่อยู่นอกตัวเมือง",
+    "th": "อักษรย่อของ นักการเมือง",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "บ้าน",
-    "นอก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ข้างนอก",
-   "translit_auto": "khangnok",
-   "gloss": {
-    "en": [
-     "outside",
-     "outdoors",
-     "outward"
-    ],
-    "th": "ตรงข้ามกับ ข้างใน, ไม่ใช่ข้างใน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ข้าง",
-    "นอก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คนไข้นอก",
-   "translit_auto": "khnkhainok",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คนไข้ที่มารับการตรวจรักษาที่โรงพยาบาล แต่ไม่ได้นอนพักรักษาตัวในโรงพยาบาล",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คนไข้",
-    "นอก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นอกจาก",
-   "translit_auto": "nokchak",
-   "gloss": {
-    "en": [
-     "besides",
-     "but",
-     "except"
-    ],
-    "th": "เว้นเสียแต่",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "นอก",
-    "จาก"
+    "นก",
+    "ม."
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -414,13 +461,66 @@
    ]
   },
   {
-   "th": "ภายนอก",
-   "translit_auto": "phaynok",
+   "th": "การนก",
+   "rtgs": "kan-nok",
+   "ipa": "/kaːn˧.nok̚˦˥/",
    "gloss": {
     "en": [
-     "outward"
+     "[needs a gloss]"
     ],
-    "th": "ข้างนอก",
+    "th": "คำอาการนามของ นก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "นก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "การลั่นนก",
+   "rtgs": "kan-lan-nok",
+   "ipa": "/kaːn˧.lan˥˩.nok̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลั่นนก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลั่น",
+    "นก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "รังนก",
+   "rtgs": "rang-nok",
+   "ipa": "/raŋ˧.nok̚˦˥/",
+   "gloss": {
+    "en": [
+     "nest"
+    ],
+    "th": "รังของนกอีแอ่นชนิดหนึ่ง เมื่อแช่น้ำมีลักษณะคล้ายวุ้น กินได้",
     "conf": "verified",
     "src": [
      "RID",
@@ -428,105 +528,8 @@
     ]
    },
    "parts": [
-    "ภาย",
-    "นอก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ไกรนอก",
-   "translit_auto": "kairnok",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอกงไกรลาศ จังหวัดสุโขทัย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไกร",
-    "นอก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นอกใจ",
-   "translit_auto": "nokt",
-   "gloss": {
-    "en": [
-     "infidel"
-    ],
-    "th": "ไม่ซื่อตรงต่อสามีหรือภรรยาด้วยการคบชู้สู่สาว",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "นอก",
-    "ใจ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คนนอก",
-   "translit_auto": "khnnok",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บุคคลผู้ไม่มีส่วนร่วมหรือไม่มีส่วนเกี่ยวข้อง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "นอก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ของนอก",
-   "translit_auto": "khongnok",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ของที่มาจากต่างประเทศ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ของ",
-    "นอก"
+    "รัง",
+    "นก"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -537,19 +540,32 @@
   }
  ],
  "etymology": {
-  "summary": "สืบทอดจากไทดั้งเดิม *l̩.noːkᴰ; ร่วมเชื้อสายกับลาว ນອກ (นอก), คำเมือง ᨶᩬᨠ (นอก), เขิน ᨶᩬᨠ (นอก), ไทลื้อ ᦓᦸᧅ (นอ̂ก), ไทดำ ꪙꪮꪀ (นอก), ไทขาว ꪙꪮ, ไทใหญ่ ၼွၵ်ႈ (น้อ̂ก), ไทใต้คง ᥘᥩᥐ (ลอ̂ก), อาหม 𑜃𑜨𑜀𑜫 (นอ̂ก์), ปู้อี roh, จ้วง rog, จ้วงแบบหนง nog, จ้วงแบบจั่วเจียง nog",
+  "summary": "สืบทอดจากไทดั้งเดิม *C̬.nokᴰ; ร่วมเชื้อสายกับอีสาน นก, ลาว ນົກ (น็ก), ญ้อ หนก, คำเมือง ᨶᩫ᩠ᨠ (น็ก), ไทลื้อ ᦷᦓᧅ (โนก), ไทดำ ꪶꪙꪀ (โนก), ไทใหญ่ ၼူၵ်ႉ (นู๎ก), อาหม 𑜃𑜤𑜀𑜫 (นุก์), จ้วง roeg, แสก น็อก; เทียบเบดั้งเดิม *nukᴰ² (“นก”), ออสโตรนีเซียนดั้งเดิม *manuk (“นก; ไก่”), ม้ง-เมี่ยนดั้งเดิม *m-nɔk (“นก”)",
   "conf": "probable",
   "src": [
    "WIKT"
   ]
  },
  "lanna": {
-  "tham": "ᨶᩬᨠ",
-  "th": "นอก",
+  "tham": "ᨶᩫ᩠ᨠ",
+  "th": "น็ก",
   "note": "Extracted from the Wiktionary etymology line.",
   "conf": "probable",
   "src": [
    "WIKT"
   ]
- }
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:nok-2",
+   "label": "นอก",
+   "why": "spelling",
+   "distinction": "Both romanise as \"nok\". นก is nók, นอก is nɔ̂ɔk — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
 }

@@ -1,8 +1,10 @@
 {
  "id": "w:nai",
- "th": "ใน",
- "translit_auto": "nai",
- "status": "listed",
+ "th": "นาย",
+ "status": "proposed",
+ "rtgs": "nai",
+ "paiboon": "naai",
+ "ipa": "/naːj˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -10,17 +12,21 @@
    "n": 1,
    "gloss": {
     "en": [
-     "in"
+     "baboo",
+     "babu"
     ],
-    "th": "ตรงกันข้ามกับ นอก, ไม่ใช่นอก, อยู่ที่มีสิ่งอื่นปิดหรือล้อมรอบอยู่",
+    "th": "คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15 ปีบริบูรณ์ขึ้นไป",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "preposition",
-   "pos_th": "คำบุพบท",
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:power"
+   ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
@@ -29,23 +35,370 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "นายแพทย์",
+     "translit_auto": "nayphaethi",
+     "ipa": "[näːj˧.pʰɛːt̚˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำนำหน้าชื่อบุคคลชายที่เป็นแพทย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาย",
+      "แพทย์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.29, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "in"
+     "baboo",
+     "babu"
     ],
-    "th": "แห่ง, ของ",
+    "th": "ผู้เป็นใหญ่, ผู้เป็นหัวหน้า, ผู้จ้าง",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "preposition",
-   "pos_th": "คำบุพบท",
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "นายจ้าง",
+     "rtgs": "nai-chang",
+     "ipa": "/naːj˧.t͡ɕaːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "employer"
+      ],
+      "th": "ผู้จ้างทำการงาน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นาย",
+      "จ้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.17, next 0.08",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "baboo",
+     "babu"
+    ],
+    "th": "ผู้เป็นใหญ่เป็นหัวหน้าในกิจการนั้น ๆ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "นายตรวจ",
+     "rtgs": "nai-truat",
+     "ipa": "/naːj˧.trua̯t̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำแหน่งในราชการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาย",
+      "ตรวจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "นายเรือ",
+     "rtgs": "nai-ruea",
+     "ipa": "/naːj˧.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้เป็นหัวหน้าในการเดินเรือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาย",
+      "เรือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.41, next 0.32",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "นายทะเบียน",
+     "rtgs": "nai-tha-bian",
+     "ipa": "/naːj˧.tʰa˦˥.bia̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พนักงานซึ่งมีหน้าที่จัดทำและรักษาทะเบียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาย",
+      "ทะเบียน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "baboo",
+     "babu"
+    ],
+    "th": "ผู้ควบคุม",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "baboo",
+     "babu"
+    ],
+    "th": "ผู้ชำนาญในกิจการนั้น ๆ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "baboo",
+     "babu"
+    ],
+    "th": "ใช้นำหน้ายศทหารตำรวจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "baboo",
+     "babu"
+    ],
+    "th": "คำนำหน้าตำแหน่ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "baboo",
+     "babu"
+    ],
+    "th": "เมื่อใช้เป็นคำนำราชทินนามเป็นบรรดาศักดิ์ของข้าราชการในราชสำนักในสมัยก่อนเลิกบรรดาศักดิ์",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "baboo",
+     "babu"
+    ],
+    "th": "ใช้เรียกผู้ชาย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "baboo",
+     "babu"
+    ],
+    "th": "สรรพนามบุรุษที่ 2 ใช้แทนผู้ที่เราพูดด้วย ใช้สำหรับเพื่อนผู้ชายในลักษณะที่เป็นกันเอง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:power"
+   ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
@@ -62,246 +415,30 @@
  ],
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
-  "Attested in this corpus: 13 manuscript titles, 393 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'nai', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Attested in this corpus: 12 manuscript titles, 23 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
- "editorial": "Generated by lexicon_ingest.py. Generativity 21; domain seeded by keyword hits —.",
+ "editorial": "Generated by lexicon_ingest.py. Generativity 25; domain seeded by keyword hits ['ศักดิ์', 'ทหาร', 'ยศ', 'ราช'].",
  "compounds_unassigned": [
   {
-   "th": "เครื่องใน",
-   "translit_auto": "kherueongn",
-   "gloss": {
-    "en": [
-     "inside"
-    ],
-    "th": "อวัยวะภายในของสัตว์บางชนิด เช่น ตับ ไต ไส้ ของวัวและควาย",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เครื่อง",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เขื่องใน",
-   "translit_auto": "kheueongn",
+   "th": "นายประเพณี",
+   "rtgs": "nai-pra-phe-ni",
+   "ipa": "/naːj˧.pra˨˩.pʰeː˧.niː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดอุบลราชธานี",
+    "th": "หัวหน้ารักษาประโยชน์ของวัดและบำรุงวัดได้บังคับว่ากล่าวทั่วไป (ทำนองมรรคนายก)",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "เขื่อง",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คนใน",
-   "translit_auto": "khnn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บุคคลที่เป็นพวกเดียวกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คนไข้ใน",
-   "translit_auto": "khnkhain",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คนไข้ที่พักรักษาตัวอยู่ในโรงพยาบาล",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คนไข้",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หลับใน",
-   "translit_auto": "hlabn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หลับในใจ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หลับ",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นางใน",
-   "translit_auto": "nangn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "นางพนักงานฝ่ายใน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นาง",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กางเกงใน",
-   "translit_auto": "kangkengn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กางเกงสำหรับสวมไว้ชั้นใน ไม่มีขา หรือขาสั้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กางเกง",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เขี้ยวแก้วใน",
-   "translit_auto": "kheiywkaewn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เขี้ยวของงูพิษที่อยู่บริเวณท้ายขากรรไกรบน มีขนาดใหญ่และยาว เช่น งูปล้องทอง งูเขียวหัวจิ้งจก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เขี้ยวแก้ว",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "วงใน",
-   "translit_auto": "wngn",
-   "gloss": {
-    "en": [
-     "inside"
-    ],
-    "th": "บุคคลหรือกลุ่มคนที่เกี่ยวข้องกับกิจการหรือเรื่องใดเรื่องหนึ่งโดยตรง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "วง",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ในเมือง",
-   "translit_auto": "naimeueong",
-   "gloss": {
-    "en": [
-     "city"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกำแพงเพชร จังหวัดกำแพงเพชร",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ใน",
-    "เมือง"
+    "นาย",
+    "ประเพณี"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -311,68 +448,20 @@
    ]
   },
   {
-   "th": "ฝ่ายใน",
-   "translit_auto": "fayn",
+   "th": "นายหลวง",
+   "translit_auto": "nayhlwng",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "สตรีผู้มีตำแหน่งเฝ้า",
+    "th": "พระเจ้าแผ่นดิน",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ฝ่าย",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ไกรใน",
-   "translit_auto": "kairn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอกงไกรลาศ จังหวัดสุโขทัย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไกร",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ในหลวง",
-   "translit_auto": "naihlwng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พระมหากษัตริย์ (ใช้เฉพาะประเทศไทย)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ใน",
+    "นาย",
     "หลวง"
    ],
    "note": "head-initial; both parts are dictionary headwords",
@@ -383,23 +472,24 @@
    ]
   },
   {
-   "th": "แตกใน",
-   "translit_auto": "taekn",
+   "th": "นายท่า",
+   "rtgs": "nai-tha",
+   "ipa": "/naːj˧.tʰaː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "หลั่งน้ำอสุจิในช่องคลอดหรือทวารหนัก",
+    "th": "ผู้มีหน้าที่ควบคุมดูแลกิจการที่ท่าเรือท่ารถ เช่นในการปล่อยเรือปล่อยรถตามกำหนดเวลา เป็นต้น",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "แตก",
-    "ใน"
+    "นาย",
+    "ท่า"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -407,87 +497,14 @@
    ]
   },
   {
-   "th": "เม็ดใน",
-   "translit_auto": "medn",
+   "th": "นายหน้า",
+   "rtgs": "nai-na",
+   "ipa": "/naːj˧.naː˥˩/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "broker"
     ],
-    "th": "เม็ดละมุด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เม็ด",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คะใน",
-   "translit_auto": "khanai",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ข้างใน, ในกลอนเขียนเป็น คใน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คะ",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เหล็กใน",
-   "translit_auto": "helkn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เดือยแหลมที่มีในก้นหรือปลายหางสัตว์บางชนิด มีผึ้ง แมงป่อง เป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เหล็ก",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ภายใน",
-   "translit_auto": "phayn",
-   "gloss": {
-    "en": [
-     "in",
-     "inside",
-     "within"
-    ],
-    "th": "ข้างใน",
+    "th": "ชื่อสัญญาซึ่งบุคคลหนึ่งตกลงจะให้ค่าบำเหน็จแก่อีกบุคคลหนึ่งเพื่อที่ชี้ช่องให้ได้เข้าทำสัญญาหรือจัดการให้ได้ทำสัญญากัน",
     "conf": "verified",
     "src": [
      "RID",
@@ -495,10 +512,10 @@
     ]
    },
    "parts": [
-    "ภาย",
-    "ใน"
+    "นาย",
+    "หน้า"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -506,73 +523,403 @@
    ]
   },
   {
-   "th": "ข้างใน",
-   "translit_auto": "khangn",
-   "gloss": {
-    "en": [
-     "in",
-     "inside",
-     "inner"
-    ],
-    "th": "ตรงข้ามกับ ข้างนอก, ไม่ใช่ข้างนอก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ข้าง",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หมาใน",
-   "translit_auto": "hmanai",
-   "gloss": {
-    "en": [
-     "dhole"
-    ],
-    "th": "ชื่อสัตว์เลี้ยงลูกด้วยน้ำนมชนิด Cuon alpinus ในอันดับสัตว์กินเนื้อ วงศ์สุนัข (Canidae) ออกลูกเป็นตัว",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หมา",
-    "ใน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ด่านใน",
-   "translit_auto": "dann",
+   "th": "นายเงิน",
+   "rtgs": "nai-ngoen",
+   "ipa": "/naːj˧.ŋɤn˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอด่านขุนทด จังหวัดนครราชสีมา",
+    "th": "ผู้เป็นเจ้าของเงินไปช่วยไถ่ทาสเอามาใช้",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ด่าน",
-    "ใน"
+    "นาย",
+    "เงิน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นายอากร",
+   "translit_auto": "nayakn",
+   "ipa": "[näːj˧.ʔäː˧.kɔ̃ːn˧]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้รับผูกขาดภาษีอากร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาย",
+    "อากร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เจ้านาย",
+   "rtgs": "chao-nai",
+   "ipa": "/t͡ɕaw˥˩.naːj˧/",
+   "gloss": {
+    "en": [
+     "boss",
+     "master"
+    ],
+    "th": "เจ้า",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เจ้า",
+    "นาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นายอำเภอ",
+   "rtgs": "nai-am-phoe",
+   "ipa": "/naːj˧.ʔam˧.pʰɤː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตำแหน่งเจ้าพนักงานผู้ปกครองท้องที่ ซึ่งเป็นหัวหน้าปกครองบังคับบัญชาข้าราชการในอำเภอ และรับผิดชอบในการบริหารราชการของอำเภอ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาย",
+    "อำเภอ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นายธง",
+   "rtgs": "nai-thong",
+   "ipa": "/naːj˧.tʰoŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นายทหารเรือคนสนิทของผู้บัญชาการทหารเรือหรือแม่ทัพเรือ เป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาย",
+    "ธง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นายประกัน",
+   "rtgs": "nai-pra-kan",
+   "ipa": "/naːj˧.pra˨˩.kan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้รับประกันหรือค้ำประกัน, ผู้รับผิดชอบชดใช้ค่าเสียหายแทน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาย",
+    "ประกัน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นายเวร",
+   "rtgs": "nai-wen",
+   "ipa": "/naːj˧.weːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นายตำรวจชั้นสัญญาบัตร มีหน้าที่เป็นเลขานุการของผู้ที่มีตำแหน่งสูงกว่าตน หรือเป็นหัวหน้าปกครองเจ้าหน้าที่เสมียนพนักงานในบังคับบัญชา เป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาย",
+    "เวร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การทำนาย",
+   "rtgs": "kan-tham-nai",
+   "ipa": "/kaːn˧.tʰam˧.naːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ทำนาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การทำ",
+    "นาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "นายคลังสินค้า",
+   "translit_auto": "naykhlangsinkha",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "บุคคลผู้รับทำการเก็บรักษาสินค้าเพื่อบำเหน็จเป็นทางค้าปรกติของตน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาย",
+    "คลังสินค้า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คุณนาย",
+   "rtgs": "khun-nai",
+   "ipa": "/kʰun˧.naːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำยกย่อง ใช้เรียกภรรยาข้าราชการชั้นสัญญาบัตรที่ยังมิได้เป็นคุณหญิง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คุณ",
+    "นาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นายทุน",
+   "rtgs": "nai-thun",
+   "ipa": "/naːj˧.tʰun˧/",
+   "gloss": {
+    "en": [
+     "entrepreneur"
+    ],
+    "th": "ผู้ที่เป็นเจ้าของทุนที่ใช้ในการผลิตสินค้า, ผู้ลงทุนประกอบกิจการหรือออกทุนให้ผู้อื่นประกอบกิจการ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "นาย",
+    "ทุน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นายท้าย",
+   "rtgs": "nai-thai",
+   "ipa": "/naːj˧.tʰaːj˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ถือท้ายเรือ มีหน้าที่ควบคุมเรือให้แล่นไปตามทิศทาง โดยเฉพาะตามแม่น้ำลำคลอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาย",
+    "ท้าย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นายแบบ",
+   "rtgs": "nai-baep",
+   "ipa": "/naːj˧.bɛːp̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ชายที่แสดงแบบเสื้อหรือเครื่องประดับเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาย",
+    "แบบ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นายโรง",
+   "rtgs": "nai-rong",
+   "ipa": "/naːj˧.roːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พระเอกลิเก, เจ้าของคณะลิเก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาย",
+    "โรง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นายงาน",
+   "rtgs": "nai-ngan",
+   "ipa": "/naːj˧.ŋaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หัวหน้างาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาย",
+    "งาน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ทำนาย",
+   "rtgs": "tham-nai",
+   "ipa": "/tʰam˧.naːj˧/",
+   "gloss": {
+    "en": [
+     "prognosticate",
+     "predict",
+     "cast"
+    ],
+    "th": "บอกเหตุการณ์หรือความเป็นไปที่จะเกิดในเบื้องหน้า, ทาย ก็ว่า",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ทำ",
+    "นาย"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -582,20 +929,17 @@
    ]
   }
  ],
- "etymology": {
-  "summary": "สืบทอดจากไทดั้งเดิม *C̥.daɰᴬ จากจีนยุคกลาง 內 (MC nwojH); ร่วมเชื้อสายกับลาว ໃນ (ใน), คำเมือง ᨶᩱ (ไน), ไทลื้อ ᦺᦓ (ไน), ไทใหญ่ ၼႂ်း (ใน๊), ไทดำ ꪻꪙ (ใน), อาหม 𑜃𑜧 (นว์), จ้วง ndaw, ภาษาจ้วงใต้ naw/ndaw ยืมมาจากเขมร នៃ (ไน, “แห่ง, ของ”)",
-  "conf": "probable",
-  "src": [
-   "WIKT"
-  ]
- },
- "lanna": {
-  "tham": "ᨶᩱ",
-  "th": "ไน",
-  "note": "Extracted from the Wiktionary etymology line.",
-  "conf": "probable",
-  "src": [
-   "WIKT"
-  ]
- }
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:nai-2",
+   "label": "ใน",
+   "why": "spelling",
+   "distinction": "Both romanise as \"nai\". นาย is naai, ใน is nai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
 }

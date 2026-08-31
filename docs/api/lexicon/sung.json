@@ -1,8 +1,10 @@
 {
  "id": "w:sung",
  "th": "สูง",
- "translit_auto": "sung",
- "status": "listed",
+ "status": "proposed",
+ "rtgs": "sung",
+ "paiboon": "sǔung",
+ "ipa": "/suːŋ˩˩˦/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -99,6 +101,33 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "อักษรสูง",
+     "rtgs": "ak-son-sung",
+     "ipa": "/ʔak̚˨˩.sɔːn˩˩˦.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พยัญชนะที่คำเป็นมีพื้นเสียงเป็นเสียงจัตวา ผันได้ 3 เสียง มี 2 รูป คือ ผันด้วยวรรณยุกต์ ◌่ เป็นเสียงเอก ผันด้วยวรรณยุกต์ ◌้ เป็นเสียงโทเช่น ขา ข่า ข้า คำตายพื้นเสียงเป็นเสียงเอก ผันด้วยวรรณยุกต์ ◌้ เป็นเสียงโทเช่น ขะ ข้ะ ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อักษร",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -146,6 +175,290 @@
     "RID",
     "WIKT"
    ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "sung as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 9 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 9 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 9 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "6 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "ห้างสูง",
+     "rtgs": "hang-sung",
+     "ipa": "/haːŋ˥˩.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอหนองใหญ่ จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ห้าง",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "สูงเม่น",
+     "rtgs": "sung-men",
+     "ipa": "/suːŋ˩˩˦.men˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดแพร่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สูง",
+      "เม่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "หนองสูง",
+     "rtgs": "nong-sung",
+     "ipa": "/nɔːŋ˩˩˦.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดมุกดาหาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "โคกสูง",
+     "rtgs": "khok-sung",
+     "ipa": "/kʰoːk̚˥˩.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "โนนสูง",
+     "rtgs": "non-sung",
+     "ipa": "/noːn˧.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โนน",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ยางสูง",
+     "rtgs": "yang-sung",
+     "ipa": "/jaːŋ˧.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอขาณุวรลักษบุรี จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยาง",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "มะขามสูง",
+     "rtgs": "ma-kham-sung",
+     "ipa": "/ma˦˥.kʰaːm˩˩˦.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มะขาม",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "สะพานสูง",
+     "rtgs": "sa-phan-sung",
+     "ipa": "/sa˨˩.pʰaːn˧.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สะพาน",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "สูงเนิน",
+     "rtgs": "sung-noen",
+     "ipa": "/suːŋ˩˩˦.nɤːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สูง",
+      "เนิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -157,13 +470,16 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 0 manuscript titles, 389 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'sung', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits —.",
  "compounds_unassigned": [
   {
    "th": "การใฝ่สูง",
-   "translit_auto": "karfaisung",
+   "rtgs": "kan-fai-sung",
+   "ipa": "/kaːn˧.faj˨˩.suːŋ˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -178,45 +494,23 @@
     "การใฝ่",
     "สูง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "th": "โคกสูง",
-   "translit_auto": "khoksung",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดสระแก้ว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "โคก",
-    "สูง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation"
   },
   {
-   "th": "ที่ราบสูง",
-   "translit_auto": "thirabsung",
+   "th": "สูงส่ง",
+   "rtgs": "sung-song",
+   "ipa": "/suːŋ˩˩˦.soŋ˨˩/",
    "gloss": {
     "en": [
-     "plateau"
+     "supernal"
     ],
-    "th": "ที่ราบซึ่งสูงกว่าระดับผิวโลกโดยรอบตั้งแต่ 300 เมตรขึ้นไป",
+    "th": "ที่ยกย่องกันว่าดีเด่น",
     "conf": "verified",
     "src": [
      "RID",
@@ -224,7 +518,32 @@
     ]
    },
    "parts": [
-    "ที่ราบ",
+    "สูง",
+    "ส่ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ส่วนสูง",
+   "rtgs": "suan-sung",
+   "ipa": "/sua̯n˨˩.suːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความสูง (มักใช้แก่บุคคล)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ส่วน",
     "สูง"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -235,8 +554,62 @@
    ]
   },
   {
+   "th": "ใฝ่สูง",
+   "rtgs": "fai-sung",
+   "ipa": "/faj˨˩.suːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทะเยอทะยานเกินตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ใฝ่",
+    "สูง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ความสูง",
+   "rtgs": "khwam-sung",
+   "ipa": "/kʰwaːm˧.suːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "height",
+     "altitude"
+    ],
+    "th": "คำอาการนามของ สูง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "สูง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
    "th": "สูงอายุ",
-   "translit_auto": "sungayu",
+   "rtgs": "sung-a-yu",
+   "ipa": "/suːŋ˩˩˦.ʔaː˧.juʔ˦˥/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -259,116 +632,21 @@
    ]
   },
   {
-   "th": "มะขามสูง",
-   "translit_auto": "makhamsung",
+   "th": "หัวสูง",
+   "rtgs": "hua-sung",
+   "ipa": "/hua̯˩˩˦.suːŋ˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
+    "th": "มีรสนิยมสูงจนเกินตัว",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "มะขาม",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สูงเม่น",
-   "translit_auto": "sungmen",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดแพร่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สูง",
-    "เม่น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สะพานสูง",
-   "translit_auto": "saphansung",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สะพาน",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ห้างสูง",
-   "translit_auto": "hangsung",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอหนองใหญ่ จังหวัดชลบุรี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ห้าง",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "โนนสูง",
-   "translit_auto": "nonsung",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "โนน",
+    "หัว",
     "สูง"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -403,227 +681,9 @@
    ]
   },
   {
-   "th": "ส่วนสูง",
-   "translit_auto": "swnsung",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ความสูง (มักใช้แก่บุคคล)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ส่วน",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ใฝ่สูง",
-   "translit_auto": "faisung",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทะเยอทะยานเกินตัว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ใฝ่",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความสูง",
-   "translit_auto": "khwamsung",
-   "gloss": {
-    "en": [
-     "height",
-     "altitude"
-    ],
-    "th": "คำอาการนามของ สูง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ความ",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สูงส่ง",
-   "translit_auto": "sungsng",
-   "gloss": {
-    "en": [
-     "supernal"
-    ],
-    "th": "ที่ยกย่องกันว่าดีเด่น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สูง",
-    "ส่ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยางสูง",
-   "translit_auto": "yangsung",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอขาณุวรลักษบุรี จังหวัดกำแพงเพชร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ยาง",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หัวสูง",
-   "translit_auto": "hawsung",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีรสนิยมสูงจนเกินตัว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หัว",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "อักษรสูง",
-   "translit_auto": "aksrsung",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พยัญชนะที่คำเป็นมีพื้นเสียงเป็นเสียงจัตวา ผันได้ 3 เสียง มี 2 รูป คือ ผันด้วยวรรณยุกต์ ◌่ เป็นเสียงเอก ผันด้วยวรรณยุกต์ ◌้ เป็นเสียงโทเช่น ขา ข่า ข้า คำตายพื้นเสียงเป็นเสียงเอก ผันด้วยวรรณยุกต์ ◌้ เป็นเสียงโทเช่น ขะ ข้ะ ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อักษร",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สูงเนิน",
-   "translit_auto": "sungnein",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สูง",
-    "เนิน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หนองสูง",
-   "translit_auto": "hnongsung",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดมุกดาหาร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หนอง",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "ของสูง",
-   "translit_auto": "khongsung",
+   "rtgs": "khong-sung",
+   "ipa": "/kʰɔːŋ˩˩˦.suːŋ˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -636,6 +696,32 @@
    },
    "parts": [
     "ของ",
+    "สูง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ที่ราบสูง",
+   "translit_auto": "thirabsung",
+   "ipa": "[tʰiː˥˩.räːp̚˥˩.sũːŋ˩˥]",
+   "gloss": {
+    "en": [
+     "plateau"
+    ],
+    "th": "ที่ราบซึ่งสูงกว่าระดับผิวโลกโดยรอบตั้งแต่ 300 เมตรขึ้นไป",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ที่ราบ",
     "สูง"
    ],
    "note": "head-final; both parts are dictionary headwords",

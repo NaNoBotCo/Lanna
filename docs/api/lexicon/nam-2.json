@@ -1,8 +1,11 @@
 {
  "id": "w:nam-2",
  "th": "นาม",
- "translit_auto": "nam-2",
- "status": "listed",
+ "status": "proposed",
+ "rtgs": "nam",
+ "paiboon": "naam",
+ "ipa": "/naːm˧/",
+ "syllable_respelling": "นาม-มะ-",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -31,6 +34,163 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "นามกร",
+     "rtgs": "nam-ma-kon",
+     "ipa": "/naːm˧.ma˦˥.kɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อ, นาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาม",
+      "กร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.38, next 0.18",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "นามสงเคราะห์",
+     "rtgs": "nam-ma-song-khro",
+     "ipa": "/naːm˧.ma˦˥.soŋ˩˩˦.kʰrɔʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อภิธาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาม",
+      "สงเคราะห์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.30, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ข่มนาม",
+     "translit_auto": "khmnam",
+     "ipa": "[kʰõm˩.nä̃ːm˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำพิธีข่มชื่อศัตรูก่อนยกทัพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข่ม",
+      "นาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.27, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "คชนาม",
+     "rtgs": "khot-cha-nam",
+     "ipa": "/kʰot̚˦˥.t͡ɕʰa˦˥.naːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นามราหู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คช",
+      "นาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.30, next 0.18",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ชัยนาม",
+     "rtgs": "chai-nam",
+     "ipa": "/t͡ɕʰaj˧.naːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวังทอง จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัย",
+      "นาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ลงนาม",
+     "rtgs": "long-nam",
+     "ipa": "/loŋ˧.naːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เขียนชื่อ, ลงลายมือชื่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "นาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.36, next 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -55,6 +215,60 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "อาการนาม",
+     "rtgs": "a-ka-ra-nam",
+     "ipa": "/ʔaː˧.kaː˧.ra˦˥.naːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำนามที่บอกกิริยาอาการหรือความปรากฏเป็นต่าง ๆ ของคน สัตว์ และสิ่งของ ซึ่งมาจากคำกริยาหรือคำวิเศษณ์ที่มักมีคำ การ หรือ ความ นำหน้า เช่น การยืน การเดิน การอยู่ ความรัก ความดี ความสวย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อาการ",
+      "นาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.20, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "สามานยนาม",
+     "rtgs": "sa-man-ya-nam",
+     "ipa": "/saː˩˩˦.maːn˧.ja˦˥.naːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำนามที่เป็นชื่อทั่วไปของคน สัตว์ และสิ่งของ เช่น เด็ก นก หนังสือ ลม ใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สามานย",
+      "นาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.29, next 0.17",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -79,6 +293,35 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "นามธรรม",
+     "rtgs": "nam-ma-tham",
+     "ipa": "/naːm˧.ma˦˥.tʰam˧/",
+     "gloss": {
+      "en": [
+       "abstract"
+      ],
+      "th": "สิ่งที่ไม่มีรูป คือ รู้ไม่ได้ทางตา หู จมูก ลิ้น กาย รู้ได้เฉพาะทางใจเท่านั้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นาม",
+      "ธรรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.18, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   }
  ],
@@ -91,25 +334,28 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 118 manuscript titles, 17 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'nam-2', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['จิต', 'ใจ'].",
  "compounds_unassigned": [
   {
-   "th": "ลงนาม",
-   "translit_auto": "lngnam",
+   "th": "ลักษณะนาม",
+   "rtgs": "lak-sa-na-nam",
+   "ipa": "/lak̚˦˥.sa˨˩.na˨˩.naːm˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "เขียนชื่อ, ลงลายมือชื่อ",
+    "th": "รูปสะกดผิดของ ลักษณนาม",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ลง",
+    "ลักษณะ",
     "นาม"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -120,32 +366,35 @@
    ]
   },
   {
-   "th": "นามสงเคราะห์",
-   "translit_auto": "namsngkheraah",
+   "th": "การลงนาม",
+   "rtgs": "kan-long-nam",
+   "ipa": "/kaːn˧.loŋ˧.naːm˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "อภิธาน",
+    "th": "คำอาการนามของ ลงนาม",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "นาม",
-    "สงเคราะห์"
+    "การลง",
+    "นาม"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "use": "nominalisation"
   },
   {
    "th": "นามสมญา",
-   "translit_auto": "namsmya",
+   "rtgs": "nam-som-ya",
+   "ipa": "/naːm˧.som˩˩˦.jaː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -160,31 +409,33 @@
     "นาม",
     "สมญา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "use": "synonym-pointer"
   },
   {
-   "th": "นามบัตร",
-   "translit_auto": "nambatn",
+   "th": "ลักษณนาม",
+   "rtgs": "lak-sa-na-nam",
+   "ipa": "/lak̚˦˥.sa˨˩.na˨˩.naːm˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "แผ่นกระดาษค่อนข้างแข็งและเล็กเป็นต้นที่พิมพ์บอกชื่อตัว นามสกุล หรือที่อยู่ที่ทำงานไว้เพื่อแนะนำตัวเป็นต้น",
+    "th": "คำนามที่แสดงลักษณะของสิ่งต่าง ๆ เช่น คน 3 คน แมว 2 ตัว ขลุ่ย 3 เลา ลูกคนโต หมวกใบใหญ่",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "นาม",
-    "บัตร"
+    "ลักษณ",
+    "นาม"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -193,7 +444,8 @@
   },
   {
    "th": "สรรพนาม",
-   "translit_auto": "srrphnam",
+   "rtgs": "sap-pha-nam",
+   "ipa": "/sap̚˨˩.pʰa˦˥.naːm˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -216,8 +468,35 @@
    ]
   },
   {
+   "th": "นามแฝง",
+   "rtgs": "nam-faeng",
+   "ipa": "/naːm˧.fɛːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "pseudonym"
+    ],
+    "th": "ชื่อที่ตั้งขึ้นเพื่อพรางหรือแทนชื่อจริง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "นาม",
+    "แฝง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "นามปากกา",
-   "translit_auto": "nampakka",
+   "rtgs": "nam-pak-ka",
+   "ipa": "/naːm˧.paːk̚˨˩.kaː˧/",
    "gloss": {
     "en": [
      "pseudonym"
@@ -241,32 +520,9 @@
    ]
   },
   {
-   "th": "นามกร",
-   "translit_auto": "namkn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อ, นาม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นาม",
-    "กร"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "นามสกุล",
-   "translit_auto": "namskul",
+   "rtgs": "nam-sa-kun",
+   "ipa": "/naːm˧.sa˨˩.kun˧/",
    "gloss": {
     "en": [
      "April",
@@ -292,143 +548,22 @@
    ]
   },
   {
-   "th": "อาการนาม",
-   "translit_auto": "akarnam",
+   "th": "นามบัตร",
+   "rtgs": "nam-bat",
+   "ipa": "/naːm˧.bat̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "คำนามที่บอกกิริยาอาการหรือความปรากฏเป็นต่าง ๆ ของคน สัตว์ และสิ่งของ ซึ่งมาจากคำกริยาหรือคำวิเศษณ์ที่มักมีคำ การ หรือ ความ นำหน้า เช่น การยืน การเดิน การอยู่ ความรัก ความดี ความสวย",
+    "th": "แผ่นกระดาษค่อนข้างแข็งและเล็กเป็นต้นที่พิมพ์บอกชื่อตัว นามสกุล หรือที่อยู่ที่ทำงานไว้เพื่อแนะนำตัวเป็นต้น",
     "conf": "unverified",
     "src": [
      "RID"
-    ]
-   },
-   "parts": [
-    "อาการ",
-    "นาม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ลักษณะนาม",
-   "translit_auto": "laksnanam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รูปสะกดผิดของ ลักษณนาม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลักษณะ",
-    "นาม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นามธรรม",
-   "translit_auto": "namthrrm",
-   "gloss": {
-    "en": [
-     "abstract"
-    ],
-    "th": "สิ่งที่ไม่มีรูป คือ รู้ไม่ได้ทางตา หู จมูก ลิ้น กาย รู้ได้เฉพาะทางใจเท่านั้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
     ]
    },
    "parts": [
     "นาม",
-    "ธรรม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การลงนาม",
-   "translit_auto": "karlngnam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ลงนาม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การลง",
-    "นาม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ลักษณนาม",
-   "translit_auto": "laksnnam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำนามที่แสดงลักษณะของสิ่งต่าง ๆ เช่น คน 3 คน แมว 2 ตัว ขลุ่ย 3 เลา ลูกคนโต หมวกใบใหญ่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลักษณ",
-    "นาม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นามแฝง",
-   "translit_auto": "namfaeng",
-   "gloss": {
-    "en": [
-     "pseudonym"
-    ],
-    "th": "ชื่อที่ตั้งขึ้นเพื่อพรางหรือแทนชื่อจริง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "นาม",
-    "แฝง"
+    "บัตร"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -439,7 +574,8 @@
   },
   {
    "th": "ประนาม",
-   "translit_auto": "pranam",
+   "rtgs": "pra-nam",
+   "ipa": "/pra˨˩.naːm˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -462,56 +598,9 @@
    ]
   },
   {
-   "th": "คชนาม",
-   "translit_auto": "khchnam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "นามราหู",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คช",
-    "นาม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ข่มนาม",
-   "translit_auto": "khmnam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำพิธีข่มชื่อศัตรูก่อนยกทัพ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ข่ม",
-    "นาม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "สมญานาม",
-   "translit_auto": "smyanam",
+   "rtgs": "som-ya-nam",
+   "ipa": "/som˩˩˦.jaː˧.naːm˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -526,60 +615,13 @@
     "สมญา",
     "นาม"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "th": "ชัยนาม",
-   "translit_auto": "chaynam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอวังทอง จังหวัดพิษณุโลก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชัย",
-    "นาม"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สามานยนาม",
-   "translit_auto": "samanynam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำนามที่เป็นชื่อทั่วไปของคน สัตว์ และสิ่งของ เช่น เด็ก นก หนังสือ ลม ใจ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สามานย",
-    "นาม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "synonym-pointer"
   }
  ],
  "etymology": {
@@ -588,5 +630,29 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:nam",
+   "label": "น้ำ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"nam\". นาม is naam, น้ำ is náam — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:nam-3",
+   "label": "นำ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"nam\". นาม is naam, นำ is nam — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
 }

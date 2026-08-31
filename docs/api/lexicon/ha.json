@@ -1,8 +1,10 @@
 {
  "id": "w:ha",
  "th": "หา",
- "translit_auto": "ha",
- "status": "listed",
+ "status": "proposed",
+ "rtgs": "ha",
+ "paiboon": "hǎa",
+ "ipa": "/haː˩˩˦/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -85,6 +87,114 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ต้องหา",
+     "rtgs": "tong-ha",
+     "ipa": "/tɔŋ˥˩.haː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถูกกล่าวหาในคดีอาญา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้อง",
+      "หา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.13, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "กล่าวหา",
+     "rtgs": "klao-ha",
+     "ipa": "/klaːw˨˩.haː˩˩˦/",
+     "gloss": {
+      "en": [
+       "tax"
+      ],
+      "th": "ฟ้อง, กล่าวโทษ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กล่าว",
+      "หา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.65, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "หาความ",
+     "rtgs": "ha-khwam",
+     "ipa": "/haː˩˩˦.kʰwaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กล่าวโทษ, ใส่ความ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หา",
+      "ความ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.29, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ข้อหา",
+     "rtgs": "kho-ha",
+     "ipa": "/kʰɔː˥˩.haː˩˩˦/",
+     "gloss": {
+      "en": [
+       "allegation"
+      ],
+      "th": "คำกล่าวโทษ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ข้อ",
+      "หา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.33, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -137,6 +247,88 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แสวงหา",
+     "rtgs": "sa-waeng-ha",
+     "ipa": "/sa˨˩.wɛːŋ˩˩˦.haː˩˩˦/",
+     "gloss": {
+      "en": [
+       "seek"
+      ],
+      "th": "เที่ยวหา, ค้นหา, เสาะหา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แสวง",
+      "หา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "หาเสียง",
+     "rtgs": "ha-siang",
+     "ipa": "/haː˩˩˦.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสวงหาการสนับสนุน เพื่อให้ได้รับเลือกตั้งเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หา",
+      "เสียง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.14, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ค้นหา",
+     "rtgs": "khon-ha",
+     "ipa": "/kʰon˦˥.haː˩˩˦/",
+     "gloss": {
+      "en": [
+       "search",
+       "discover",
+       "hunt"
+      ],
+      "th": "หา, ตรวจหา, เสาะหา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ค้น",
+      "หา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -227,206 +419,16 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 1135 manuscript titles, 1925 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'ha', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 27; domain seeded by keyword hits ['ตอบ', 'เสียง', 'คำ'].",
  "compounds_unassigned": [
   {
-   "th": "หาความ",
-   "translit_auto": "hakhwam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กล่าวโทษ, ใส่ความ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หา",
-    "ความ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หาฤๅ",
-   "translit_auto": "haฤa",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รูปเลิกใช้ของ หารือ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หา",
-    "ฤๅ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "แสวงหา",
-   "translit_auto": "saewngha",
-   "gloss": {
-    "en": [
-     "seek"
-    ],
-    "th": "เที่ยวหา, ค้นหา, เสาะหา",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แสวง",
-    "หา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หาสก",
-   "translit_auto": "hask",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ให้ความสนุก, คนมีอารมณ์ขัน, คนตลก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หา",
-    "สก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คูหา",
-   "translit_auto": "khuha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ถ้ำ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คู",
-    "หา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สรรหา",
-   "translit_auto": "srrha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เลือกมา, คัดมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สรร",
-    "หา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การคบหา",
-   "translit_auto": "karkhbha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ คบหา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การคบ",
-    "หา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หาเสียง",
-   "translit_auto": "haseiyng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แสวงหาการสนับสนุน เพื่อให้ได้รับเลือกตั้งเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หา",
-    "เสียง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "เนื้อหา",
-   "translit_auto": "neueoha",
+   "rtgs": "nuea-ha",
+   "ipa": "/nɯa̯˦˥.haː˩˩˦/",
    "gloss": {
     "en": [
      "meat"
@@ -450,37 +452,14 @@
    ]
   },
   {
-   "th": "จัดหา",
-   "translit_auto": "chadha",
+   "th": "หากว่า",
+   "rtgs": "hak-wa",
+   "ipa": "/haːk̚˨˩.waː˥˩/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "but"
     ],
-    "th": "ไปเลือกเฟ้นหามา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "จัด",
-    "หา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กล่าวหา",
-   "translit_auto": "klawha",
-   "gloss": {
-    "en": [
-     "tax"
-    ],
-    "th": "ฟ้อง, กล่าวโทษ",
+    "th": "ถ้าว่า, แม้ว่า",
     "conf": "verified",
     "src": [
      "RID",
@@ -488,56 +467,8 @@
     ]
    },
    "parts": [
-    "กล่าว",
-    "หา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ต้องหา",
-   "translit_auto": "tongha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ถูกกล่าวหาในคดีอาญา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ต้อง",
-    "หา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หากิน",
-   "translit_auto": "hakin",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำงานเลี้ยงชีวิต, หาเลี้ยงชีพ, มักใช้เข้าคู่กับคำ ทำมา เป็น ทำมาหากิน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
     "หา",
-    "กิน"
+    "กว่า"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -547,83 +478,35 @@
    ]
   },
   {
-   "th": "ค้นหา",
-   "translit_auto": "khnha",
-   "gloss": {
-    "en": [
-     "search",
-     "discover",
-     "hunt"
-    ],
-    "th": "หา, ตรวจหา, เสาะหา",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ค้น",
-    "หา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การจัดหา",
-   "translit_auto": "karchadha",
+   "th": "การกล่าวหา",
+   "rtgs": "kan-klao-ha",
+   "ipa": "/kaːn˧.klaːw˨˩.haː˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "คำอาการนามของ จัดหา",
+    "th": "คำอาการนามของ กล่าวหา",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "การจัด",
+    "การกล่าว",
     "หา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "th": "หาเรื่อง",
-   "translit_auto": "hareueong",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำให้เกิดเหตุ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หา",
-    "เรื่อง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation"
   },
   {
    "th": "คบหา",
-   "translit_auto": "khbha",
+   "rtgs": "khop-ha",
+   "ipa": "/kʰop̚˦˥.haː˩˩˦/",
    "gloss": {
     "en": [
      "associate"
@@ -647,23 +530,152 @@
    ]
   },
   {
-   "th": "สิงหา",
-   "translit_auto": "singha",
+   "th": "การคบหา",
+   "rtgs": "kan-khop-ha",
+   "ipa": "/kaːn˧.kʰop̚˦˥.haː˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "รูปตัดทอนของ สิงหาคม",
+    "th": "คำอาการนามของ คบหา",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "สิง",
+    "การคบ",
+    "หา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "การจัดหา",
+   "rtgs": "kan-chat-ha",
+   "ipa": "/kaːn˧.t͡ɕat̚˨˩.haː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ จัดหา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การจัด",
+    "หา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "หาสก",
+   "rtgs": "ha-sok",
+   "ipa": "/haː˩˩˦.sok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ให้ความสนุก, คนมีอารมณ์ขัน, คนตลก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หา",
+    "สก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การแสวงหา",
+   "rtgs": "kan-sa-waeng-ha",
+   "ipa": "/kaːn˧.sa˨˩.wɛːŋ˩˩˦.haː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แสวงหา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแสวง",
+    "หา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "คูหา",
+   "rtgs": "khu-ha",
+   "ipa": "/kʰuː˧.haː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถ้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คู",
     "หา"
    ],
    "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หาเรื่อง",
+   "rtgs": "ha-rueang",
+   "ipa": "/haː˩˩˦.rɯa̯ŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทำให้เกิดเหตุ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หา",
+    "เรื่อง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -696,7 +708,8 @@
   },
   {
    "th": "พาหา",
-   "translit_auto": "phaha",
+   "rtgs": "pha-ha",
+   "ipa": "/pʰaː˧.haː˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -719,81 +732,9 @@
    ]
   },
   {
-   "th": "การแสวงหา",
-   "translit_auto": "karsaewngha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ แสวงหา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การแสวง",
-    "หา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ข้อหา",
-   "translit_auto": "khoha",
-   "gloss": {
-    "en": [
-     "allegation"
-    ],
-    "th": "คำกล่าวโทษ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ข้อ",
-    "หา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การกล่าวหา",
-   "translit_auto": "karklawha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ กล่าวหา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การกล่าว",
-    "หา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "การค้นหา",
-   "translit_auto": "karkhnha",
+   "rtgs": "kan-khon-ha",
+   "ipa": "/kaːn˧.kʰon˦˥.haː˩˩˦/",
    "gloss": {
     "en": [
      "hunt"
@@ -809,40 +750,18 @@
     "การค้น",
     "หา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "th": "หาไม่",
-   "translit_auto": "hamai",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม่, ไม่มี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หา",
-    "ไม่"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation"
   },
   {
    "th": "การหา",
-   "translit_auto": "karha",
+   "rtgs": "kan-ha",
+   "ipa": "/kaːn˧.haː˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -857,6 +776,57 @@
     "การ",
     "หา"
    ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "หาฤๅ",
+   "rtgs": "ha-rue",
+   "ipa": "/haː˩˩˦.rɯː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปเลิกใช้ของ หารือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หา",
+    "ฤๅ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "สรรหา",
+   "rtgs": "san-ha",
+   "ipa": "/san˩˩˦.haː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เลือกมา, คัดมา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สรร",
+    "หา"
+   ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
@@ -865,22 +835,97 @@
    ]
   },
   {
-   "th": "หากว่า",
-   "translit_auto": "hakwa",
+   "th": "หากิน",
+   "rtgs": "ha-kin",
+   "ipa": "/haː˩˩˦.kin˧/",
    "gloss": {
     "en": [
-     "but"
+     "[needs a gloss]"
     ],
-    "th": "ถ้าว่า, แม้ว่า",
-    "conf": "verified",
+    "th": "ทำงานเลี้ยงชีวิต, หาเลี้ยงชีพ, มักใช้เข้าคู่กับคำ ทำมา เป็น ทำมาหากิน",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
    "parts": [
     "หา",
-    "กว่า"
+    "กิน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "จัดหา",
+   "rtgs": "chat-ha",
+   "ipa": "/t͡ɕat̚˨˩.haː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไปเลือกเฟ้นหามา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จัด",
+    "หา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "สิงหา",
+   "rtgs": "sing-ha",
+   "ipa": "/siŋ˩˩˦.haː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปตัดทอนของ สิงหาคม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สิง",
+    "หา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หาไม่",
+   "rtgs": "ha-mai",
+   "ipa": "/haː˩˩˦.maj˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไม่, ไม่มี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หา",
+    "ไม่"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",

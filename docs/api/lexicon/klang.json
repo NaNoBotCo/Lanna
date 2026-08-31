@@ -1,8 +1,10 @@
 {
  "id": "w:klang",
  "th": "กลาง",
- "translit_auto": "klang",
- "status": "listed",
+ "status": "proposed",
+ "rtgs": "klang",
+ "paiboon": "glaang",
+ "ipa": "/klaːŋ˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -29,6 +31,34 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "เป็นกลาง",
+     "rtgs": "pen-klang",
+     "ipa": "/pen˧.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่เข้าข้างฝ่ายใดฝ่ายหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "กลาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.20, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -73,7 +103,423 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "กลางแปลง",
+     "rtgs": "klang-plaeng",
+     "ipa": "/klaːŋ˧.plɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่แสดงหรือเล่นเป็นต้นในที่แจ้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กลาง",
+      "แปลง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.19, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "กลางคัน",
+     "rtgs": "klang-khan",
+     "ipa": "/klaːŋ˧.kʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ในระหว่างเหตุการณ์, ในระหว่างที่ยังไม่เสร็จ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กลาง",
+      "คัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.16, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "klang as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 12 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 63 of the 5333 wats in the northern registry carry it, and 36 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 12 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 12 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "63 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "เชียงกลาง",
+     "rtgs": "chiang-klang",
+     "ipa": "/t͡ɕʰia̯ŋ˧.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดน่าน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เชียง",
+      "กลาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "บ้านกลาง",
+     "rtgs": "ban-klang",
+     "ipa": "/baːn˥˩.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออ่าวลึก จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "กลาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "โพธิ์กลาง",
+     "rtgs": "pho-klang",
+     "ipa": "/pʰoː˧.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โพธิ์",
+      "กลาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "เหล่ากลาง",
+     "rtgs": "lao-klang",
+     "ipa": "/law˨˩.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอฆ้องชัย จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เหล่า",
+      "กลาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ช้างกลาง",
+     "rtgs": "chang-klang",
+     "ipa": "/t͡ɕʰaːŋ˦˥.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้าง",
+      "กลาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "นากลาง",
+     "rtgs": "na-klang",
+     "ipa": "/naː˧.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดหนองบัวลำภู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "กลาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ไกรกลาง",
+     "rtgs": "krai-klang",
+     "ipa": "/kraj˧.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอกงไกรลาศ จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไกร",
+      "กลาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "กลางดง",
+     "rtgs": "klang-dong",
+     "ipa": "/klaːŋ˧.doŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปากช่อง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กลาง",
+      "ดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "เกาะกลาง",
+     "rtgs": "ko-klang",
+     "ipa": "/kɔʔ˨˩.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเกาะลันตา จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "กลาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "โคกกลาง",
+     "rtgs": "khok-klang",
+     "ipa": "/kʰoːk̚˥˩.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอประทาย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "กลาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "กลางหมื่น",
+     "rtgs": "klang-muen",
+     "ipa": "/klaːŋ˧.mɯːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาฬสินธุ์ จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กลาง",
+      "หมื่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "สันกลาง",
+     "rtgs": "san-klang",
+     "ipa": "/san˩˩˦.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพาน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "กลาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -85,330 +531,16 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 2 manuscript titles, 122 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'klang', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 42; domain seeded by keyword hits —.",
  "compounds_unassigned": [
   {
-   "th": "กองกลาง",
-   "translit_auto": "kongklang",
-   "gloss": {
-    "en": [
-     "pool"
-    ],
-    "th": "สิ่งที่กันไว้เป็นส่วนรวม หรือเป็นสาธารณะ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กอง",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ใจกลาง",
-   "translit_auto": "chaiklang",
-   "gloss": {
-    "en": [
-     "centre",
-     "center",
-     "nucleus"
-    ],
-    "th": "ศูนย์กลาง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ใจ",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "อักษรกลาง",
-   "translit_auto": "aksrklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พยัญชนะที่คำเป็นมีพื้นเสียงเป็นเสียงสามัญ ผันได้ครบ 4 รูป 5 เสียง มีรูปวรรณยุกต์กับเสียงวรรณยุกต์ตรงกัน เช่น กา ก่า ก้า ก๊า ก๋า คำตายมีพื้นเสียงเป็นเสียงเอก ผันได้ 4 เสียง มี 3 รูป คือ พื้นเสียงเป็นเสียงเอก ผันด้วยวรรณยุ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อักษร",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ของกลาง",
-   "translit_auto": "khongklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ของที่ใช้ร่วมกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ของ",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ช้อนกลาง",
-   "translit_auto": "chonklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ช้อนที่วางอยู่ในจานกับข้าว สำหรับตักกับข้าวมาใส่จานของตน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ช้อน",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เกาะกลาง",
-   "translit_auto": "keaaklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเกาะลันตา จังหวัดกระบี่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เกาะ",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เชียงกลาง",
-   "translit_auto": "cheiyngklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดน่าน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เชียง",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กลางทะเล",
-   "translit_auto": "klangthale",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม่เข้าท่า, ไม่มีจุดหมาย, ไม่เป็นไปตามประสงค์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กลาง",
-    "ทะเล"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "บ้านกลาง",
-   "translit_auto": "banklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภออ่าวลึก จังหวัดกระบี่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "บ้าน",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คนกลาง",
-   "translit_auto": "khnklang",
-   "gloss": {
-    "en": [
-     "comprador"
-    ],
-    "th": "ผู้ถือเป็นกลางไม่เข้าข้างฝ่ายโน้นฝ่ายนี้ในเหตุการณ์ที่เกิดขึ้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คน",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กลางหาว",
-   "translit_auto": "klanghaw",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กลางแจ้ง, นอกชายคา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กลาง",
-    "หาว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ศูนย์กลาง",
-   "translit_auto": "sunyklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(จุด~) จุดที่อยู่ตรงใจกลางของวงกลมหรือวงรี ซึ่งเป็นจุดกึ่งกลางของคอร์ดทุกเส้นที่ผ่านจุดนั้น, จุดรวม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ศูนย์",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ตะวันออกกลาง",
-   "translit_auto": "tawanookklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(ภูมิภาค~) กลุ่มประเทศในภูมิภาคตะวันตกเฉียงใต้ของทวีปเอเชีย ซึ่งอยู่ทางทิศตะวันตกของประเทศอินเดียและปากีสถาน และภาคตะวันออกเฉียงเหนือของทวีปแอฟริกา, เดิมหมายรวมถึงประเทศอัฟกานิสถาน ปากีสถาน อินเดีย และพม่าด้วย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตะวันออก",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "กลางเดือน",
-   "translit_auto": "klangdeueon",
+   "rtgs": "klang-duean",
+   "ipa": "/klaːŋ˧.dɯa̯n˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -431,333 +563,21 @@
    ]
   },
   {
-   "th": "กลางค่ำ",
-   "translit_auto": "klangkham",
+   "th": "ปานกลาง",
+   "rtgs": "pan-klang",
+   "ipa": "/paːn˧.klaːŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "เวลากลางคืน, ใช้เข้าคู่กับคำ กลางคืน เป็น กลางค่ำกลางคืน",
+    "th": "ขนาดกลาง, ไม่มากไม่น้อย, พอสมควร, อยู่ระหว่างที่สุด 2 ฝ่าย เช่น ระหว่างสูงกับต่ำ ใหญ่กับเล็ก มากกับน้อย ฉลาดกับโง่",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "กลาง",
-    "ค่ำ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "อเมริกากลาง",
-   "translit_auto": "merikaklang",
-   "gloss": {
-    "en": [
-     "Central America"
-    ],
-    "th": "ภูมิภาคเชิงทวีป ใน อเมริกาเหนือ, ประกอบด้วยประเทศต่าง ๆ ที่ตั้งอยู่ระหว่างเม็กซิโกและอเมริกาใต้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "อเมริกา",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยุคกลาง",
-   "translit_auto": "yukhklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำพ้องความของ สมัยกลาง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ยุค",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กึ่งกลาง",
-   "translit_auto": "kuengklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ใจกลาง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กึ่ง",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "โพธิ์กลาง",
-   "translit_auto": "phothiklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "โพธิ์",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สันกลาง",
-   "translit_auto": "sanklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอพาน จังหวัดเชียงราย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กลางคัน",
-   "translit_auto": "klangkhan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ในระหว่างเหตุการณ์, ในระหว่างที่ยังไม่เสร็จ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กลาง",
-    "คัน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สมัยกลาง",
-   "translit_auto": "smayklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ช่วงเวลาของประวัติศาสตร์ยุโรปส่วนใหญ่ ในคริสต์ศตวรรษที่ 5-15 คือตั้งแต่การล่มสลายของจักรวรรดิโรมันตะวันตก (เรียกว่าสมัยโบราณ) จนถึงสมัยใหม่ช่วงต้น หรือสมัยฟื้นฟูศิลปวิทยา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สมัย",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ช้างกลาง",
-   "translit_auto": "changklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ช้าง",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กลางดง",
-   "translit_auto": "klangdng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอปากช่อง จังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กลาง",
-    "ดง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นิ้วกลาง",
-   "translit_auto": "niwklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "นิ้วที่ 3 นับแต่หัวแม่มือ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นิ้ว",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "จีนกลาง",
-   "translit_auto": "chinklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ภาษาจีนที่เป็นภาษามาตรฐานและภาษาราชการของประเทศจีน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "จีน",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กลางแปลง",
-   "translit_auto": "klangpaelng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ที่แสดงหรือเล่นเป็นต้นในที่แจ้ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กลาง",
-    "แปลง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ภาษากลาง",
-   "translit_auto": "phasaklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ภาษาสามัญที่ใช้สื่อสารระหว่างผู้คนที่มีภูมิหลังต่างกัน (เช่น ต่างเผ่า ต่างชาติพันธุ์ ต่างประเทศ) มักจะเป็นรูปแบบพื้นฐานของคำพูดที่มีไวยากรณ์อย่างง่าย โดยเฉพาะอย่างยิ่ง ภาษาที่ไม่ใช่ภาษาแรกของผู้พูด, ภาษากลางอาจใช้เฉพาะใน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ภาษา",
+    "ปาน",
     "กลาง"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -769,7 +589,8 @@
   },
   {
    "th": "กลางคืน",
-   "translit_auto": "klangkhuen",
+   "rtgs": "klang-khuen",
+   "ipa": "/klaːŋ˧.kʰɯːn˧/",
    "gloss": {
     "en": [
      "night"
@@ -793,37 +614,14 @@
    ]
   },
   {
-   "th": "โคกกลาง",
-   "translit_auto": "khokklang",
+   "th": "กลางหาว",
+   "rtgs": "klang-hao",
+   "ipa": "/klaːŋ˧.haːw˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอประทาย จังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "โคก",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กลางแจ้ง",
-   "translit_auto": "klangchaeng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "นอกร่มไม้ชายคา",
+    "th": "กลางแจ้ง, นอกชายคา",
     "conf": "unverified",
     "src": [
      "RID"
@@ -831,7 +629,7 @@
    },
    "parts": [
     "กลาง",
-    "แจ้ง"
+    "หาว"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -841,20 +639,21 @@
    ]
   },
   {
-   "th": "ตัวกลาง",
-   "translit_auto": "tawklang",
+   "th": "ศูนย์กลาง",
+   "rtgs": "sun-klang",
+   "ipa": "/suːn˩˩˦.klaːŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "สิ่งที่แสงหรือเสียงหรือคลื่นแม่เหล็กไฟฟ้าต้องเคลื่อนที่ผ่าน",
+    "th": "(จุด~) จุดที่อยู่ตรงใจกลางของวงกลมหรือวงรี ซึ่งเป็นจุดกึ่งกลางของคอร์ดทุกเส้นที่ผ่านจุดนั้น, จุดรวม",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ตัว",
+    "ศูนย์",
     "กลาง"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -865,20 +664,72 @@
    ]
   },
   {
-   "th": "เหล่ากลาง",
-   "translit_auto": "helaklang",
+   "th": "สมัยกลาง",
+   "rtgs": "sa-mai-klang",
+   "ipa": "/sa˨˩.maj˩˩˦.klaːŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอฆ้องชัย จังหวัดกาฬสินธุ์",
+    "th": "ช่วงเวลาของประวัติศาสตร์ยุโรปส่วนใหญ่ ในคริสต์ศตวรรษที่ 5-15 คือตั้งแต่การล่มสลายของจักรวรรดิโรมันตะวันตก (เรียกว่าสมัยโบราณ) จนถึงสมัยใหม่ช่วงต้น หรือสมัยฟื้นฟูศิลปวิทยา",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "เหล่า",
+    "สมัย",
+    "กลาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ช้อนกลาง",
+   "rtgs": "chon-klang",
+   "ipa": "/t͡ɕʰɔːn˦˥.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ช้อนที่วางอยู่ในจานกับข้าว สำหรับตักกับข้าวมาใส่จานของตน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ช้อน",
+    "กลาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนกลาง",
+   "rtgs": "khon-klang",
+   "ipa": "/kʰon˧.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "comprador"
+    ],
+    "th": "ผู้ถือเป็นกลางไม่เข้าข้างฝ่ายโน้นฝ่ายนี้ในเหตุการณ์ที่เกิดขึ้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "คน",
     "กลาง"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -914,23 +765,24 @@
    ]
   },
   {
-   "th": "ไกรกลาง",
-   "translit_auto": "kairklang",
+   "th": "กลางแจ้ง",
+   "rtgs": "klang-chaeng",
+   "ipa": "/klaːŋ˧.t͡ɕɛːŋ˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอกงไกรลาศ จังหวัดสุโขทัย",
+    "th": "นอกร่มไม้ชายคา",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ไกร",
-    "กลาง"
+    "กลาง",
+    "แจ้ง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -938,44 +790,22 @@
    ]
   },
   {
-   "th": "นากลาง",
-   "translit_auto": "naklang",
+   "th": "อเมริกากลาง",
+   "rtgs": "a-me-ri-ka-klang",
+   "ipa": "/ʔa˨˩.meː˧.ri˦˥.kaː˧.klaːŋ˧/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "Central America"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดหนองบัวลำภู",
-    "conf": "unverified",
+    "th": "ภูมิภาคเชิงทวีป ใน อเมริกาเหนือ, ประกอบด้วยประเทศต่าง ๆ ที่ตั้งอยู่ระหว่างเม็กซิโกและอเมริกาใต้",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
    "parts": [
-    "นา",
-    "กลาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เป็นกลาง",
-   "translit_auto": "penklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม่เข้าข้างฝ่ายใดฝ่ายหนึ่ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เป็น",
+    "อเมริกา",
     "กลาง"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -987,7 +817,8 @@
   },
   {
    "th": "กลางคน",
-   "translit_auto": "klangkhn",
+   "rtgs": "klang-khon",
+   "ipa": "/klaːŋ˧.kʰon˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -1010,21 +841,50 @@
    ]
   },
   {
-   "th": "กลางหมื่น",
-   "translit_auto": "klanghmuen",
+   "th": "ยุคกลาง",
+   "rtgs": "yuk-klang",
+   "ipa": "/juk̚˦˥.klaːŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาฬสินธุ์ จังหวัดกาฬสินธุ์",
+    "th": "คำพ้องความของ สมัยกลาง",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
+    "ยุค",
+    "กลาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer"
+  },
+  {
+   "th": "กลางวัน",
+   "rtgs": "klang-wan",
+   "ipa": "/klaːŋ˧.wan˧/",
+   "gloss": {
+    "en": [
+     "midday",
+     "daylight"
+    ],
+    "th": "ระยะเวลาตั้งแต่ย่ำรุ่งถึงย่ำค่ำ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
     "กลาง",
-    "หมื่น"
+    "วัน"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -1034,20 +894,325 @@
    ]
   },
   {
-   "th": "ปานกลาง",
-   "translit_auto": "panklang",
+   "th": "ภาษากลาง",
+   "rtgs": "pha-sa-klang",
+   "ipa": "/pʰaː˧.saː˩˩˦.klaːŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ขนาดกลาง, ไม่มากไม่น้อย, พอสมควร, อยู่ระหว่างที่สุด 2 ฝ่าย เช่น ระหว่างสูงกับต่ำ ใหญ่กับเล็ก มากกับน้อย ฉลาดกับโง่",
+    "th": "ภาษาสามัญที่ใช้สื่อสารระหว่างผู้คนที่มีภูมิหลังต่างกัน (เช่น ต่างเผ่า ต่างชาติพันธุ์ ต่างประเทศ) มักจะเป็นรูปแบบพื้นฐานของคำพูดที่มีไวยากรณ์อย่างง่าย โดยเฉพาะอย่างยิ่ง ภาษาที่ไม่ใช่ภาษาแรกของผู้พูด, ภาษากลางอาจใช้เฉพาะใน",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ปาน",
+    "ภาษา",
+    "กลาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "จีนกลาง",
+   "rtgs": "chin-klang",
+   "ipa": "/t͡ɕiːn˧.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภาษาจีนที่เป็นภาษามาตรฐานและภาษาราชการของประเทศจีน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จีน",
+    "กลาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ศาลากลาง",
+   "rtgs": "sa-la-klang",
+   "ipa": "/saː˩˩˦.laː˧.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาคารที่ใช้เป็นที่ทำการของจังหวัด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ศาลา",
+    "กลาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตัวกลาง",
+   "rtgs": "tua-klang",
+   "ipa": "/tua̯˧.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สิ่งที่แสงหรือเสียงหรือคลื่นแม่เหล็กไฟฟ้าต้องเคลื่อนที่ผ่าน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตัว",
+    "กลาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "อักษรกลาง",
+   "rtgs": "ak-son-klang",
+   "ipa": "/ʔak̚˨˩.sɔːn˩˩˦.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พยัญชนะที่คำเป็นมีพื้นเสียงเป็นเสียงสามัญ ผันได้ครบ 4 รูป 5 เสียง มีรูปวรรณยุกต์กับเสียงวรรณยุกต์ตรงกัน เช่น กา ก่า ก้า ก๊า ก๋า คำตายมีพื้นเสียงเป็นเสียงเอก ผันได้ 4 เสียง มี 3 รูป คือ พื้นเสียงเป็นเสียงเอก ผันด้วยวรรณยุ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อักษร",
+    "กลาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กึ่งกลาง",
+   "rtgs": "kueng-klang",
+   "ipa": "/kɯŋ˨˩.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ใจกลาง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กึ่ง",
+    "กลาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นิ้วกลาง",
+   "rtgs": "nio-klang",
+   "ipa": "/niw˦˥.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นิ้วที่ 3 นับแต่หัวแม่มือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นิ้ว",
+    "กลาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กลางค่ำ",
+   "rtgs": "klang-kham",
+   "ipa": "/klaːŋ˧.kʰam˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เวลากลางคืน, ใช้เข้าคู่กับคำ กลางคืน เป็น กลางค่ำกลางคืน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กลาง",
+    "ค่ำ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กองกลาง",
+   "rtgs": "kong-klang",
+   "ipa": "/kɔːŋ˧.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "pool"
+    ],
+    "th": "สิ่งที่กันไว้เป็นส่วนรวม หรือเป็นสาธารณะ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กอง",
+    "กลาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ของกลาง",
+   "rtgs": "khong-klang",
+   "ipa": "/kʰɔːŋ˩˩˦.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ของที่ใช้ร่วมกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ของ",
+    "กลาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กลางทะเล",
+   "rtgs": "klang-tha-le",
+   "ipa": "/klaːŋ˧.tʰa˦˥.leː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไม่เข้าท่า, ไม่มีจุดหมาย, ไม่เป็นไปตามประสงค์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กลาง",
+    "ทะเล"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตะวันออกกลาง",
+   "rtgs": "ta-wan-ok-klang",
+   "ipa": "/ta˨˩.wan˧.ʔɔːk̚˨˩.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "(ภูมิภาค~) กลุ่มประเทศในภูมิภาคตะวันตกเฉียงใต้ของทวีปเอเชีย ซึ่งอยู่ทางทิศตะวันตกของประเทศอินเดียและปากีสถาน และภาคตะวันออกเฉียงเหนือของทวีปแอฟริกา, เดิมหมายรวมถึงประเทศอัฟกานิสถาน ปากีสถาน อินเดีย และพม่าด้วย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตะวันออก",
+    "กลาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ใจกลาง",
+   "rtgs": "chai-klang",
+   "ipa": "/t͡ɕaj˧.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "centre",
+     "center",
+     "nucleus"
+    ],
+    "th": "ศูนย์กลาง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ใจ",
     "กลาง"
    ],
    "note": "head-final; both parts are dictionary headwords",

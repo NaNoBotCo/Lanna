@@ -1,8 +1,10 @@
 {
  "id": "w:ta",
  "th": "ตา",
- "translit_auto": "ta",
- "status": "listed",
+ "status": "mapped",
+ "rtgs": "ta",
+ "paiboon": "dtaa",
+ "ipa": "/taː˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -33,7 +35,92 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ตา 'maternal grandfather' — the kinship word.",
+    "Declared root: ตา 'maternal grandfather' — the kinship word.",
+    "Declared root: ตา 'maternal grandfather' — the kinship word.",
+    "Declared root: ตา 'maternal grandfather' — the kinship word.",
+    "Declared root: ตา 'maternal grandfather' — the kinship word."
+   ],
+   "compounds": [
+    {
+     "th": "ตาน้อย",
+     "rtgs": "ta-noi",
+     "ipa": "/taː˧.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้องชายของตาหรือของยาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "น้อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.17, next 0.08",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ตาทวด",
+     "rtgs": "ta-thuat",
+     "ipa": "/taː˧.tʰua̯t̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พ่อของตาหรือของยาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "ทวด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.24, next 0.10",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ตาเทียด",
+     "rtgs": "ta-thiat",
+     "ipa": "/taː˧.tʰia̯t̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พ่อของตาทวดหรือของยายทวด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "เทียด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.22, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -61,7 +148,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Widened from the grandfather to any man of his generation.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -88,7 +179,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "And to any older man addressed familiarly, or without much respect.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -115,6 +210,41 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตากล้อง",
+     "rtgs": "ta-klong",
+     "ipa": "/taː˧.klɔŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช่างภาพ, ผู้ทำหน้าที่ถ่ายภาพหรือวิดีโอ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "กล้อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.15, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "needs_check": [
+    "Declared root: ตา 'eye' — unrelated, and the productive one.",
+    "Declared root: ตา 'eye' — unrelated, and the productive one.",
+    "Declared root: ตา 'eye' — unrelated, and the productive one.",
+    "Declared root: ตา 'eye' — unrelated, and the productive one.",
+    "Declared root: ตา 'eye' — unrelated, and the productive one."
    ]
   },
   {
@@ -142,7 +272,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "The node where a branch breaks from a trunk is the tree's eye.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -169,7 +303,65 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "ตาราง",
+     "rtgs": "ta-rang",
+     "ipa": "/taː˧.raːŋ˧/",
+     "gloss": {
+      "en": [
+       "chart"
+      ],
+      "th": "ช่องสี่เหลี่ยมที่เกิดจากเส้นขนานในแนวยืนกับแนวนอนตัดกัน, ตาตาราง ก็ว่า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "ราง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.24, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ตาตาราง",
+     "rtgs": "ta-ta-rang",
+     "ipa": "/taː˧.taː˧.raːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช่องสี่เหลี่ยมที่เกิดจากเส้นขนานในแนวยืนกับแนวนอนตัดกัน, ตาราง ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "ตาราง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "The aperture in netting or weaving — as English calls a small hole an eyelet.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -196,7 +388,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "A cell in a grid becomes a turn in a sequence: whose ตา it is.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -223,7 +419,192 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "ตาหมากรุก",
+     "rtgs": "ta-mak-ruk",
+     "ipa": "/taː˧.maːk̚˨˩.ruk̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกผ้าที่มีลายเป็นตารางสี่เหลี่ยมจัตุรัสแบบกระดานหมากรุกมีสีสลับกัน ว่า ผ้าตาหมากรุก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "หมากรุก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "แววตา",
+     "rtgs": "waeo-ta",
+     "ipa": "/wɛːw˧.taː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งเป็นเยื่อบาง มีลักษณะใสเป็นแสงวาวดั่งแก้ว หุ้มด้านนอกของดวงตา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แวว",
+      "ตา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8: gloss similarity 0.13, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "The pattern made of such cells takes their name.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "ta as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 3 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 56 of the 5333 wats in the northern registry carry it, and 59 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 3 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 3 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "56 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "ตาจั่น",
+     "rtgs": "ta-chan",
+     "ipa": "/taː˧.t͡ɕan˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "จั่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ตาคลี",
+     "rtgs": "ta-khli",
+     "ipa": "/taː˧.kʰliː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครสวรรค์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "คลี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ตาพระยา",
+     "rtgs": "ta-phra-ya",
+     "ipa": "/taː˧.pʰra˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "พระยา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -235,178 +616,12 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 115 manuscript titles, 2019 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'ta', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 72; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
-  {
-   "th": "ตาพระยา",
-   "translit_auto": "taphraya",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดสระแก้ว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตา",
-    "พระยา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ตาคลี",
-   "translit_auto": "takhli",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดนครสวรรค์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตา",
-    "คลี"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ตาลุก",
-   "translit_auto": "taluk",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลืมตาโพลงด้วยความสนใจ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตา",
-    "ลุก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ตาจั่น",
-   "translit_auto": "tachan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอคง จังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตา",
-    "จั่น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พ่อตา",
-   "translit_auto": "phota",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พ่อของเมีย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พ่อ",
-    "ตา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ตาขาว",
-   "translit_auto": "takhaw",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ส่วนของดวงตาที่มีสีขาว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตา",
-    "ขาว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ขี้ตา",
-   "translit_auto": "khita",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สิ่งปฏิกูลที่ขับออกมาทางตา, เศษแข็งที่ติดอยู่บริเวณตา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "ตา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
   {
    "th": "กินน้ำตา",
    "translit_auto": "kinnamta",
@@ -432,20 +647,22 @@
    ]
   },
   {
-   "th": "การตบตา",
-   "translit_auto": "kartbta",
+   "th": "แว่นตา",
+   "rtgs": "waen-ta",
+   "ipa": "/wɛn˥˩.taː˧/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "glass"
     ],
-    "th": "คำอาการนามของ ตบตา",
-    "conf": "unverified",
+    "th": "สิ่งที่ทำด้วยแก้วหรือวัสดุใส เป็นเครื่องสวมตาเพื่อช่วยให้แลเห็นชัดขึ้นเป็นต้น, แว่น ก็เรียก",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
    "parts": [
-    "การตบ",
+    "แว่น",
     "ตา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -456,20 +673,46 @@
    ]
   },
   {
-   "th": "จับตา",
-   "translit_auto": "chabta",
+   "th": "ตากุ้ง",
+   "rtgs": "ta-kung",
+   "ipa": "/taː˧.kuŋ˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ถูกตา, เหมาะตา, เป็นที่พอตา",
+    "th": "สีม่วงอมเทา, สีเหมือนตาของกุ้ง",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "จับ",
+    "ตา",
+    "กุ้ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กวาดตา",
+   "rtgs": "kwat-ta",
+   "ipa": "/kwaːt̚˨˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ส่ายตาดูทั่วไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กวาด",
     "ตา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -480,20 +723,21 @@
    ]
   },
   {
-   "th": "ขวัญตา",
-   "translit_auto": "khwayta",
+   "th": "ชาตา",
+   "rtgs": "cha-ta",
+   "ipa": "/t͡ɕʰaː˧.taː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "มิ่งขวัญดวงตา",
+    "th": "รูปแบบอื่นของ ชะตา",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ขวัญ",
+    "ชา",
     "ตา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -504,20 +748,21 @@
    ]
   },
   {
-   "th": "นัยน์ตา",
-   "translit_auto": "naynta",
+   "th": "เข้าตา",
+   "rtgs": "khao-ta",
+   "ipa": "/kʰaw˥˩.taː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ดวงตา",
+    "th": "เห็นว่าดีและพอใจ",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "นัยน์",
+    "เข้า",
     "ตา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -529,7 +774,8 @@
   },
   {
    "th": "น้ำตา",
-   "translit_auto": "namta",
+   "rtgs": "nam-ta",
+   "ipa": "/nam˦˥.taː˧/",
    "gloss": {
     "en": [
      "tear"
@@ -553,212 +799,21 @@
    ]
   },
   {
-   "th": "แยงตา",
-   "translit_auto": "yaengta",
+   "th": "ขวัญตา",
+   "rtgs": "khwan–ta",
+   "ipa": "/kʰwan˩˩˦.taː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "อาการที่แสงส่องสวนตรงมายังนัยน์ตา",
+    "th": "มิ่งขวัญดวงตา",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "แยง",
-    "ตา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชาตา",
-   "translit_auto": "chata",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รูปแบบอื่นของ ชะตา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชา",
-    "ตา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ตาดำ",
-   "translit_auto": "tadam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ส่วนของดวงตาที่ไม่ใช่ตาขาว มีสีดำหรือสีเข้ม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตา",
-    "ดำ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชะตา",
-   "translit_auto": "chata",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลักษณะหรืออัธยาศัยบางอย่างที่ทำให้รู้สึกชอบหรือไม่ชอบตั้งแต่แรกพบกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชะ",
-    "ตา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เข้าตา",
-   "translit_auto": "kheata",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เห็นว่าดีและพอใจ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข้า",
-    "ตา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เมตตา",
-   "translit_auto": "metta",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(ความ~) ความรักและเอ็นดู",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เมต",
-    "ตา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หนังตา",
-   "translit_auto": "hnangta",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ส่วนบนและส่วนล่างของผิวหนังที่ปิดตาเมื่อหลับตาอยู่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หนัง",
-    "ตา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สายตา",
-   "translit_auto": "sayta",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ระยะที่ตาจะมองเห็นได้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สาย",
-    "ตา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "แววตา",
-   "translit_auto": "waewta",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สิ่งเป็นเยื่อบาง มีลักษณะใสเป็นแสงวาวดั่งแก้ว หุ้มด้านนอกของดวงตา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แวว",
+    "ขวัญ",
     "ตา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -770,7 +825,8 @@
   },
   {
    "th": "หลบตา",
-   "translit_auto": "hlbta",
+   "rtgs": "lop-ta",
+   "ipa": "/lop̚˨˩.taː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -793,13 +849,14 @@
    ]
   },
   {
-   "th": "ตาไก่",
-   "translit_auto": "takai",
+   "th": "ตาโต",
+   "rtgs": "ta-to",
+   "ipa": "/taː˧.toː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ฟองมัน",
+    "th": "อาการที่ตาเบิกกว้างเพราะอยากได้เมื่อเห็นเงินเป็นต้น, แสดงอาการอยากได้เมื่อเห็นเงินเป็นต้น",
     "conf": "unverified",
     "src": [
      "RID"
@@ -807,7 +864,57 @@
    },
    "parts": [
     "ตา",
-    "ไก่"
+    "โต"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ชะตา",
+   "rtgs": "cha-ta",
+   "ipa": "/t͡ɕʰa˦˥.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลักษณะหรืออัธยาศัยบางอย่างที่ทำให้รู้สึกชอบหรือไม่ชอบตั้งแต่แรกพบกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชะ",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตาน้ำ",
+   "rtgs": "ta-nam",
+   "ipa": "/taː˧.naːm˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทางน้ำใต้ดินที่มีน้ำไหลไม่ขาดสาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตา",
+    "น้ำ"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -818,7 +925,8 @@
   },
   {
    "th": "ตาปู",
-   "translit_auto": "tapu",
+   "rtgs": "ta-pu",
+   "ipa": "/taː˧.puː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -841,13 +949,39 @@
    ]
   },
   {
-   "th": "ตาทวด",
-   "translit_auto": "tathwt",
+   "th": "แยงตา",
+   "rtgs": "yaeng-ta",
+   "ipa": "/jɛːŋ˧.taː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "พ่อของตาหรือของยาย",
+    "th": "อาการที่แสงส่องสวนตรงมายังนัยน์ตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แยง",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตาเหลว",
+   "rtgs": "ta-leo",
+   "ipa": "/taː˧.leːw˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปแบบอื่นของ เฉลว",
     "conf": "unverified",
     "src": [
      "RID"
@@ -855,7 +989,7 @@
    },
    "parts": [
     "ตา",
-    "ทวด"
+    "เหลว"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -865,20 +999,21 @@
    ]
   },
   {
-   "th": "แก้วตา",
-   "translit_auto": "kaewta",
+   "th": "จับตา",
+   "rtgs": "chap-ta",
+   "ipa": "/t͡ɕap̚˨˩.taː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ส่วนสำคัญของตาที่ทำให้มองเห็น, ส่วนใสของดวงตา มีรูปกลมนูนทั้ง 2 ข้าง ลักษณะใส แต่พื้นหลังนูนออกมากกว่าพื้นหน้า ตั้งอยู่ภายในดวงตา ข้างหลังกระจกตา",
+    "th": "ถูกตา, เหมาะตา, เป็นที่พอตา",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "แก้ว",
+    "จับ",
     "ตา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -889,37 +1024,14 @@
    ]
   },
   {
-   "th": "กระจกตา",
-   "translit_auto": "krachkta",
+   "th": "ตาขอ",
+   "rtgs": "ta-kho",
+   "ipa": "/taː˧.kʰɔː˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ส่วนใสของตา อยู่ด้านหน้าของดวงตา มีหน้าที่หักเหแสงร่วมกับเลนส์ตาและช่วยในการโฟกัสภาพ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กระจก",
-    "ตา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ตาลาย",
-   "translit_auto": "talay",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการที่มองเห็นอะไรไม่ชัดพร่าลายไปหมด",
+    "th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ยว แขวน หรือสับ",
     "conf": "unverified",
     "src": [
      "RID"
@@ -927,7 +1039,7 @@
    },
    "parts": [
     "ตา",
-    "ลาย"
+    "ขอ"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -937,20 +1049,22 @@
    ]
   },
   {
-   "th": "จกตา",
-   "translit_auto": "chkta",
+   "th": "เปลือกตา",
+   "rtgs": "plueak-ta",
+   "ipa": "/plɯa̯k̚˨˩.taː˧/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "lid"
     ],
-    "th": "หลอกลวง, หลอกตา, เสแสร้ง, โกหก",
-    "conf": "unverified",
+    "th": "หนังเป็นชั้น ๆ ที่หุ้มนัยน์ตา",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
    "parts": [
-    "จก",
+    "เปลือก",
     "ตา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -959,6 +1073,285 @@
     "RID",
     "WIKT"
    ]
+  },
+  {
+   "th": "กลีบตา",
+   "rtgs": "klip-ta",
+   "ipa": "/kliːp̚˨˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หนังเป็นชั้น ๆ ที่หุ้มนัยน์ตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กลีบ",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ขี้ตา",
+   "rtgs": "khi-ta",
+   "ipa": "/kʰiː˥˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สิ่งปฏิกูลที่ขับออกมาทางตา, เศษแข็งที่ติดอยู่บริเวณตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตาข่าย",
+   "rtgs": "ta-khai",
+   "ipa": "/taː˧.kʰaːj˨˩/",
+   "gloss": {
+    "en": [
+     "net",
+     "network"
+    ],
+    "th": "เครื่องดักสัตว์ ถักเป็นตาร่างแห ใช้จับนกหรือกระต่ายเป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ตา",
+    "ข่าย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การตบตา",
+   "rtgs": "kan-top-ta",
+   "ipa": "/kaːn˧.top̚˨˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตบตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตบ",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ตาพอง",
+   "rtgs": "ta-phong",
+   "ipa": "/taː˧.pʰɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตาที่มีลักษณะโป่งโตขึ้นมา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตา",
+    "พอง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ลับตา",
+   "rtgs": "lap-ta",
+   "ipa": "/lap̚˦˥.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มิดชิดหรือห่างไกลจนพ้นสายตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลับ",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ขรัวตา",
+   "rtgs": "khrua-ta",
+   "ipa": "/kʰrua̯˩˩˦.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สามัญชนที่เป็นตาของพระองค์เจ้าที่เป็นพระราชโอรสพระราชธิดา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขรัว",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตาหวาน",
+   "rtgs": "ta-wan",
+   "ipa": "/taː˧.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นัยน์ตาฉ่ำเยิ้มชวนมอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตา",
+    "หวาน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตบตา",
+   "rtgs": "top-ta",
+   "ipa": "/top̚˨˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หลอกหรือลวงให้เข้าใจผิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตบ",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เมตตา",
+   "rtgs": "met-ta",
+   "ipa": "/meːt̚˥˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "(ความ~) ความรักและเอ็นดู",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เมต",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การหลบตา",
+   "rtgs": "kan-lop-ta",
+   "ipa": "/kaːn˧.lop̚˨˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หลบตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหลบ",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
   },
   {
    "th": "ตาเจ้าชู้",
@@ -985,20 +1378,249 @@
    ]
   },
   {
-   "th": "ขัดตา",
-   "translit_auto": "khadta",
+   "th": "ถูกตา",
+   "rtgs": "thuk-ta",
+   "ipa": "/tʰuːk̚˨˩.taː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ดูไม่ถูกตา, ดูไม่เหมาะตา",
+    "th": "งาม, น่าดู, ต้องตา",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ขัด",
+    "ถูก",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ขนตา",
+   "rtgs": "khon-ta",
+   "ipa": "/kʰon˩˩˦.taː˧/",
+   "gloss": {
+    "en": [
+     "eyelash"
+    ],
+    "th": "ขนที่ขึ้นรอบนัยน์ตา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตาลาย",
+   "rtgs": "ta-lai",
+   "ipa": "/taː˧.laːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการที่มองเห็นอะไรไม่ชัดพร่าลายไปหมด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตา",
+    "ลาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นัยน์ตา",
+   "rtgs": "nai-ta",
+   "ipa": "/naj˧.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดวงตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นัยน์",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตาดำ",
+   "rtgs": "ta-dam",
+   "ipa": "/taː˧.dam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ส่วนของดวงตาที่ไม่ใช่ตาขาว มีสีดำหรือสีเข้ม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตา",
+    "ดำ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตาชั่ง",
+   "rtgs": "ta-chang",
+   "ipa": "/taː˧.t͡ɕʰaŋ˥˩/",
+   "gloss": {
+    "en": [
+     "scale",
+     "scales"
+    ],
+    "th": "เครื่องชั่งสำหรับชั่งสิ่งของต่าง ๆ มีหลายชนิด เช่น ตราชู ชั่งจีน ชั่งสปริง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ตา",
+    "ชั่ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "จกตา",
+   "rtgs": "chok-ta",
+   "ipa": "/t͡ɕok̚˨˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หลอกลวง, หลอกตา, เสแสร้ง, โกหก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จก",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "มาตา",
+   "rtgs": "ma-ta",
+   "ipa": "/maː˧.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แม่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มา",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตาไก่",
+   "rtgs": "ta-kai",
+   "ipa": "/taː˧.kaj˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ฟองมัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตา",
+    "ไก่"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "พ่อตา",
+   "rtgs": "pho-ta",
+   "ipa": "/pʰɔː˥˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พ่อของเมีย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พ่อ",
     "ตา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -1010,7 +1632,8 @@
   },
   {
    "th": "ตาน้ำข้าว",
-   "translit_auto": "tanamkhaw",
+   "rtgs": "ta-nam-khao",
+   "ipa": "/taː˧.nam˦˥.kʰaːw˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -1033,20 +1656,22 @@
    ]
   },
   {
-   "th": "ตบตา",
-   "translit_auto": "tbta",
+   "th": "หน้าตา",
+   "rtgs": "na-ta",
+   "ipa": "/naː˥˩.taː˧/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "face"
     ],
-    "th": "หลอกหรือลวงให้เข้าใจผิด",
-    "conf": "unverified",
+    "th": "เค้าหน้า",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
    "parts": [
-    "ตบ",
+    "หน้า",
     "ตา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -1057,13 +1682,14 @@
    ]
   },
   {
-   "th": "ตากุ้ง",
-   "translit_auto": "takung",
+   "th": "ตาบอด",
+   "rtgs": "ta-bot",
+   "ipa": "/taː˧.bɔːt̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "สีม่วงอมเทา, สีเหมือนตาของกุ้ง",
+    "th": "ตามืด, ตามองไม่เห็น",
     "conf": "unverified",
     "src": [
      "RID"
@@ -1071,7 +1697,7 @@
    },
    "parts": [
     "ตา",
-    "กุ้ง"
+    "บอด"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -1081,13 +1707,64 @@
    ]
   },
   {
-   "th": "ตาน้อย",
-   "translit_auto": "tanoy",
+   "th": "กระจกตา",
+   "rtgs": "kra-chok-ta",
+   "ipa": "/kra˨˩.t͡ɕok̚˨˩.taː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "น้องชายของตาหรือของยาย",
+    "th": "ส่วนใสของตา อยู่ด้านหน้าของดวงตา มีหน้าที่หักเหแสงร่วมกับเลนส์ตาและช่วยในการโฟกัสภาพ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระจก",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "สายตา",
+   "rtgs": "sai-ta",
+   "ipa": "/saːj˩˩˦.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ระยะที่ตาจะมองเห็นได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาย",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตาสับปะรด",
+   "rtgs": "ta-sap-pa-rot",
+   "ipa": "/taː˧.sap̚˨˩.pa˨˩.rot̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตาของพรรคพวกที่คอยสอดส่องดูแลเหตุการณ์อยู่รอบข้าง",
     "conf": "unverified",
     "src": [
      "RID"
@@ -1095,9 +1772,212 @@
    },
    "parts": [
     "ตา",
-    "น้อย"
+    "สับปะรด"
    ],
    "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตาวัน",
+   "rtgs": "ta-wan",
+   "ipa": "/taː˧.wan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดวงอาทิตย์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตา",
+    "วัน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตาขาว",
+   "rtgs": "ta-khao",
+   "ipa": "/taː˧.kʰaːw˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ส่วนของดวงตาที่มีสีขาว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตา",
+    "ขาว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "อัตตา",
+   "rtgs": "at-ta",
+   "ipa": "/ʔat̚˨˩.taː˧/",
+   "gloss": {
+    "en": [
+     "I",
+     "self"
+    ],
+    "th": "ตน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "อัต",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตาทิพย์",
+   "rtgs": "ta-thip",
+   "ipa": "/taː˧.tʰip̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตาที่สามารถดูอะไรเห็นได้หมด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตา",
+    "ทิพย์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การจับตา",
+   "rtgs": "kan-chap-ta",
+   "ipa": "/kaːn˧.t͡ɕap̚˨˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ จับตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การจับ",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "หลานตา",
+   "rtgs": "lan+ta",
+   "ipa": "/laːn˩˩˦+taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลูกของลูกสาว(ลูกหญิง)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หลาน",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หนังตา",
+   "rtgs": "nang-ta",
+   "ipa": "/naŋ˩˩˦.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ส่วนบนและส่วนล่างของผิวหนังที่ปิดตาเมื่อหลับตาอยู่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หนัง",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "แก้วตา",
+   "rtgs": "kaeo-ta",
+   "ipa": "/kɛːw˥˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ส่วนสำคัญของตาที่ทำให้มองเห็น, ส่วนใสของดวงตา มีรูปกลมนูนทั้ง 2 ข้าง ลักษณะใส แต่พื้นหลังนูนออกมากกว่าพื้นหน้า ตั้งอยู่ภายในดวงตา ข้างหลังกระจกตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก้ว",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -1106,7 +1986,8 @@
   },
   {
    "th": "ดวงตา",
-   "translit_auto": "dwngta",
+   "rtgs": "duang-ta",
+   "ipa": "/dua̯ŋ˧.taː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -1129,44 +2010,22 @@
    ]
   },
   {
-   "th": "ตาตาราง",
-   "translit_auto": "tatarang",
+   "th": "ลวงตา",
+   "rtgs": "luang-ta",
+   "ipa": "/lua̯ŋ˧.taː˧/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "fatuous"
     ],
-    "th": "ช่องสี่เหลี่ยมที่เกิดจากเส้นขนานในแนวยืนกับแนวนอนตัดกัน, ตาราง ก็ว่า",
-    "conf": "unverified",
+    "th": "ทำให้เห็นผิดไปจากความเป็นจริง",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
    "parts": [
-    "ตา",
-    "ตาราง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ลับตา",
-   "translit_auto": "labta",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มิดชิดหรือห่างไกลจนพ้นสายตา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลับ",
+    "ลวง",
     "ตา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -1177,13 +2036,39 @@
    ]
   },
   {
-   "th": "ตาหมากรุก",
-   "translit_auto": "tahmakruk",
+   "th": "ขัดตา",
+   "rtgs": "khat-ta",
+   "ipa": "/kʰat̚˨˩.taː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "เรียกผ้าที่มีลายเป็นตารางสี่เหลี่ยมจัตุรัสแบบกระดานหมากรุกมีสีสลับกัน ว่า ผ้าตาหมากรุก",
+    "th": "ดูไม่ถูกตา, ดูไม่เหมาะตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขัด",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตาลุก",
+   "rtgs": "ta-luk",
+   "ipa": "/taː˧.luk̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลืมตาโพลงด้วยความสนใจ",
     "conf": "unverified",
     "src": [
      "RID"
@@ -1191,7 +2076,7 @@
    },
    "parts": [
     "ตา",
-    "หมากรุก"
+    "ลุก"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -1199,6 +2084,83 @@
     "RID",
     "WIKT"
    ]
+  },
+  {
+   "th": "ต้องตา",
+   "rtgs": "tong-ta",
+   "ipa": "/tɔŋ˥˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถูกตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ต้อง",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หมอตา",
+   "rtgs": "mo-ta",
+   "ipa": "/mɔː˩˩˦.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ จักษุแพทย์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หมอ",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer"
+  },
+  {
+   "th": "การแยงตา",
+   "rtgs": "kan-yaeng-ta",
+   "ipa": "/kaːn˧.jɛːŋ˧.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แยงตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแยง",
+    "ตา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
   }
  ],
  "etymology": {

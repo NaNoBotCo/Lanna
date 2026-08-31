@@ -1,8 +1,10 @@
 {
  "id": "w:khwang",
  "th": "ขวาง",
- "translit_auto": "khwang",
- "status": "listed",
+ "status": "proposed",
+ "rtgs": "khwang",
+ "paiboon": "kwǎang",
+ "ipa": "/kʰwaːŋ˩˩˦/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -29,6 +31,35 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "กีดขวาง",
+     "rtgs": "kit-khwang",
+     "ipa": "/kiːt̚˨˩.kʰwaːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "block"
+      ],
+      "th": "ขวางกั้นไว้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กีด",
+      "ขวาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.14, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -52,6 +83,212 @@
     "RID",
     "WIKT"
    ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "khwang as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 6 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 6 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 6 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "6 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "คูขวาง",
+     "rtgs": "khu-khwang",
+     "ipa": "/kʰuː˧.kʰwaːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอลาดหลุมแก้ว จังหวัดปทุมธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู",
+      "ขวาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ทางขวาง",
+     "rtgs": "thang-khwang",
+     "ipa": "/tʰaːŋ˧.kʰwaːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแวงน้อย จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทาง",
+      "ขวาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ทุ่งขวาง",
+     "rtgs": "thung-khwang",
+     "ipa": "/tʰuŋ˥˩.kʰwaːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพนัสนิคม จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ขวาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ลาดขวาง",
+     "rtgs": "lat-khwang",
+     "ipa": "/laːt̚˥˩.kʰwaːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านโพธิ์ จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลาด",
+      "ขวาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "เกาะขวาง",
+     "rtgs": "ko-khwang",
+     "ipa": "/kɔʔ˨˩.kʰwaːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "ขวาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ห้วยขวาง",
+     "rtgs": "huai-khwang",
+     "ipa": "/hua̯j˥˩.kʰwaːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ห้วย",
+      "ขวาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -63,234 +300,16 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 4 manuscript titles, 5 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'khwang', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits —.",
  "compounds_unassigned": [
   {
-   "th": "เกาะขวาง",
-   "translit_auto": "keaakhwang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี จังหวัดจันทบุรี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เกาะ",
-    "ขวาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ทางขวาง",
-   "translit_auto": "thangkhwang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอแวงน้อย จังหวัดขอนแก่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทาง",
-    "ขวาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กว้างขวาง",
-   "translit_auto": "kwangkhwang",
-   "gloss": {
-    "en": [
-     "comfortable",
-     "abroad",
-     "broad"
-    ],
-    "th": "ใหญ่โต",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กว้าง",
-    "ขวาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การขัดขวาง",
-   "translit_auto": "karkhadkhwang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ขัดขวาง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การขัด",
-    "ขวาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คูขวาง",
-   "translit_auto": "khukhwang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอลาดหลุมแก้ว จังหวัดปทุมธานี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คู",
-    "ขวาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความกว้างขวาง",
-   "translit_auto": "khwamkwangkhwang",
-   "gloss": {
-    "en": [
-     "amplitude"
-    ],
-    "th": "คำอาการนามของ กว้างขวาง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ความกว้าง",
-    "ขวาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กีดขวาง",
-   "translit_auto": "kidkhwang",
-   "gloss": {
-    "en": [
-     "block"
-    ],
-    "th": "ขวางกั้นไว้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กีด",
-    "ขวาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การขวาง",
-   "translit_auto": "karkhwang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ขวาง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การ",
-    "ขวาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ขวางเชิง",
-   "translit_auto": "khwangcheing",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขัดขวางไว้เพื่อไม่ให้ทำได้สะดวก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวาง",
-    "เชิง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "ขัดขวาง",
-   "translit_auto": "khadkhwang",
+   "rtgs": "khat-khwang",
+   "ipa": "/kʰat̚˨˩.kʰwaːŋ˩˩˦/",
    "gloss": {
     "en": [
      "deter",
@@ -316,23 +335,24 @@
    ]
   },
   {
-   "th": "ทุ่งขวาง",
-   "translit_auto": "thungkhwang",
+   "th": "ขวางเชิง",
+   "rtgs": "khwang-choeng",
+   "ipa": "/kʰwaːŋ˩˩˦.t͡ɕʰɤːŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอพนัสนิคม จังหวัดชลบุรี",
+    "th": "ขัดขวางไว้เพื่อไม่ให้ทำได้สะดวก",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ทุ่ง",
-    "ขวาง"
+    "ขวาง",
+    "เชิง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -340,32 +360,88 @@
    ]
   },
   {
-   "th": "ห้วยขวาง",
-   "translit_auto": "hwykhwang",
+   "th": "การขัดขวาง",
+   "rtgs": "kan-khat-khwang",
+   "ipa": "/kaːn˧.kʰat̚˨˩.kʰwaːŋ˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+    "th": "คำอาการนามของ ขัดขวาง",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ห้วย",
+    "การขัด",
     "ขวาง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "แนวขวาง",
+   "rtgs": "naeo-khwang",
+   "ipa": "/nɛːw˧.kʰwaːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ แนวนอน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แนว",
+    "ขวาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer"
+  },
+  {
+   "th": "ความกว้างขวาง",
+   "rtgs": "khwam-kwang-khwang",
+   "ipa": "/kʰwaːm˧.kwaːŋ˥˩.kʰwaːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "amplitude"
+    ],
+    "th": "คำอาการนามของ กว้างขวาง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความกว้าง",
+    "ขวาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
   },
   {
    "th": "ขวางโลก",
-   "translit_auto": "khwanglok",
+   "rtgs": "khwang-lok",
+   "ipa": "/kʰwaːŋ˩˩˦.loːk̚˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -388,20 +464,24 @@
    ]
   },
   {
-   "th": "แนวขวาง",
-   "translit_auto": "naewkhwang",
+   "th": "กว้างขวาง",
+   "rtgs": "kwang-khwang",
+   "ipa": "/kwaːŋ˥˩.kʰwaːŋ˩˩˦/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "comfortable",
+     "abroad",
+     "broad"
     ],
-    "th": "คำพ้องความของ แนวนอน",
-    "conf": "unverified",
+    "th": "ใหญ่โต",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
    "parts": [
-    "แนว",
+    "กว้าง",
     "ขวาง"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -412,28 +492,30 @@
    ]
   },
   {
-   "th": "ลาดขวาง",
-   "translit_auto": "ladkhwang",
+   "th": "การขวาง",
+   "rtgs": "kan-khwang",
+   "ipa": "/kaːn˧.kʰwaːŋ˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอบ้านโพธิ์ จังหวัดฉะเชิงเทรา",
+    "th": "คำอาการนามของ ขวาง",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ลาด",
+    "การ",
     "ขวาง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "use": "nominalisation"
   }
  ],
  "etymology": {

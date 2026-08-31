@@ -1,8 +1,10 @@
 {
  "id": "w:tai",
- "th": "ใต้",
- "translit_auto": "tai",
- "status": "listed",
+ "th": "ตาย",
+ "status": "proposed",
+ "rtgs": "tai",
+ "paiboon": "dtaai",
+ "ipa": "/taːj˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -10,19 +12,22 @@
    "n": 1,
    "gloss": {
     "en": [
-     "under"
+     "demise",
+     "die",
+     "decease",
+     "fall"
     ],
-    "th": "ทิศที่อยู่ทางขวามือเมื่อหันหน้าไปทางทิศตะวันออก",
+    "th": "สิ้นใจ, สิ้นชีวิต, ไม่เป็นอยู่ต่อไป, สิ้นสภาพของการมีชีวิต",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "noun, adjective, preposition",
-   "pos_th": "คำนาม, คำคุณศัพท์, คำบุพบท",
+   "pos": "verb, คำกริยาวิเศษณ์, interjection",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำอุทาน",
    "domains": [
-    "d:body"
+    "d:motion"
    ],
    "order_conf": "unverified",
    "conf": "probable",
@@ -38,19 +43,22 @@
    "n": 2,
    "gloss": {
     "en": [
-     "under"
+     "demise",
+     "die",
+     "decease",
+     "fall"
     ],
-    "th": "ที่อยู่ในที่หรือฐานะต่ำกว่าสิ่งอื่นเมื่อมีการเปรียบเทียบกัน",
+    "th": "เคลื่อนไหวไม่ได้",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "noun, adjective, preposition",
-   "pos_th": "คำนาม, คำคุณศัพท์, คำบุพบท",
+   "pos": "verb, คำกริยาวิเศษณ์, interjection",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำอุทาน",
    "domains": [
-    "d:body"
+    "d:motion"
    ],
    "order_conf": "unverified",
    "conf": "probable",
@@ -63,19 +71,22 @@
    "n": 3,
    "gloss": {
     "en": [
-     "under"
+     "demise",
+     "die",
+     "decease",
+     "fall"
     ],
-    "th": "ไม่อยู่เหนือ",
+    "th": "ไม่เดินเพราะเครื่องเสียหรือหยุดเป็นต้น",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "noun, adjective, preposition",
-   "pos_th": "คำนาม, คำคุณศัพท์, คำบุพบท",
+   "pos": "verb, คำกริยาวิเศษณ์, interjection",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำอุทาน",
    "domains": [
-    "d:body"
+    "d:motion"
    ],
    "order_conf": "unverified",
    "conf": "probable",
@@ -88,44 +99,78 @@
    "n": 4,
    "gloss": {
     "en": [
-     "under"
+     "demise",
+     "die",
+     "decease",
+     "fall"
     ],
-    "th": "ต่ำกว่าพื้นผิวระดับหรือเกณฑ์",
+    "th": "ยืนแต้มอยู่อย่างเดียว",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "noun, adjective, preposition",
-   "pos_th": "คำนาม, คำคุณศัพท์, คำบุพบท",
+   "pos": "verb, คำกริยาวิเศษณ์, interjection",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำอุทาน",
    "domains": [
-    "d:body"
+    "d:motion"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตายตัว",
+     "rtgs": "tai-tua",
+     "ipa": "/taːj˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คงที่อยู่อย่างนั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตาย",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.21, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "under"
+     "demise",
+     "die",
+     "decease",
+     "fall"
     ],
-    "th": "ที่ตั้งอยู่ มาจาก หรือไปทางทิศใต้",
+    "th": "ลักษณะที่ประตูในการเล่นการพนันบางประเภท เช่น โป ถั่ว ไม่ออกเลย หรือนาน ๆ จึงจะออกสักครั้งหนึ่ง",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "noun, adjective, preposition",
-   "pos_th": "คำนาม, คำคุณศัพท์, คำบุพบท",
+   "pos": "verb, คำกริยาวิเศษณ์, interjection",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำอุทาน",
    "domains": [
-    "d:body"
+    "d:motion"
    ],
    "order_conf": "unverified",
    "conf": "probable",
@@ -138,25 +183,112 @@
    "n": 6,
    "gloss": {
     "en": [
-     "under"
+     "demise",
+     "die",
+     "decease",
+     "fall"
     ],
-    "th": "ข้างล่าง",
+    "th": "ผิดตามที่กติกากำหนดไว้ในการเล่นกีฬาหรือการละเล่นบางชนิด",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "noun, adjective, preposition",
-   "pos_th": "คำนาม, คำคุณศัพท์, คำบุพบท",
+   "pos": "verb, คำกริยาวิเศษณ์, interjection",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำอุทาน",
    "domains": [
-    "d:body"
+    "d:motion"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "demise",
+     "die",
+     "decease",
+     "fall"
+    ],
+    "th": "คำประกอบท้ายประโยคหรือหน้าประโยค หมายความว่า แย่, เต็มที, ยิ่งนัก",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, interjection",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำอุทาน",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "demise",
+     "die",
+     "decease",
+     "fall"
+    ],
+    "th": "คำเปล่งเสียงแสดงความตกใจหรือประหลาดใจเป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, interjection",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำอุทาน",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พ่องตาย",
+     "rtgs": "phong-tai",
+     "ipa": "/pʰɔŋ˥˩.taːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใช้แสดงความโกรธ ไม่พอใจ หรือไม่เห็นชอบด้วย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พ่อง",
+      "ตาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8: gloss similarity 0.18, next 0.08",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   }
  ],
@@ -168,27 +300,110 @@
  ],
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
-  "Attested in this corpus: 1 manuscript titles, 45 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'tai', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Attested in this corpus: 23 manuscript titles, 29 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
- "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['ผิว', 'มือ', 'อก'].",
+ "editorial": "Generated by lexicon_ingest.py. Generativity 22; domain seeded by keyword hits ['เดิน', 'เคลื่อน', 'ตก', 'ออก'].",
  "compounds_unassigned": [
   {
-   "th": "ใต้ดิน",
-   "translit_auto": "taidin",
+   "th": "ใบตาย",
+   "rtgs": "bai-tai",
+   "ipa": "/baj˧.taːj˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ที่อยู่ต่ำกว่าระดับพื้นดิน",
+    "th": "คำพ้องความของ มรณบัตร",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ใต้",
-    "ดิน"
+    "ใบ",
+    "ตาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer"
+  },
+  {
+   "th": "เงื่อนตาย",
+   "rtgs": "nguean-tai",
+   "ipa": "/ŋɯa̯n˥˩.taːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เงื่อนที่ผูกแล้วแก้ยาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เงื่อน",
+    "ตาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ความตาย",
+   "rtgs": "khwam-tai",
+   "ipa": "/kʰwaːm˧.taːj˧/",
+   "gloss": {
+    "en": [
+     "death",
+     "end",
+     "ending"
+    ],
+    "th": "คำอาการนามของ ตาย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "ตาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ตายด้าน",
+   "rtgs": "tai-dan",
+   "ipa": "/taːj˧.daːn˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หมดความรู้สึกทางสัมผัส, ไม่มีความรู้สึกเหมือนอย่างที่เคยมี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตาย",
+    "ด้าน"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -198,21 +413,22 @@
    ]
   },
   {
-   "th": "ครบุรีใต้",
-   "translit_auto": "khrburitai",
+   "th": "ไพ่ตาย",
+   "rtgs": "phai-tai",
+   "ipa": "/pʰaj˥˩.taːj˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอครบุรี จังหวัดนครราชสีมา",
+    "th": "ไพ่ในมือที่รอเข้าตองเข้าเศียรอยู่แต่ไม่มีใครทิ้งให้หรือเขาทิ้งให้คนอื่นซึ่งตนไม่มีสิทธิ์เก็บมาใช้ได้ เช่น ไพ่ตายคามือ",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ครบุรี",
-    "ใต้"
+    "ไพ่",
+    "ตาย"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -222,239 +438,22 @@
    ]
   },
   {
-   "th": "สำราญใต้",
-   "translit_auto": "samrayt",
+   "th": "ตายรัง",
+   "rtgs": "tai-rang",
+   "ipa": "/taːj˧.raŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอสามชัย จังหวัดกาฬสินธุ์",
+    "th": "ในที่สุดก็ต้องหวนกลับมาอยู่กับครอบครัวตามเดิม",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "สำราญ",
-    "ใต้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สะเมิงใต้",
-   "translit_auto": "sameingt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอสะเมิง จังหวัดเชียงใหม่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สะเมิง",
-    "ใต้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "มหาสมุทรใต้",
-   "translit_auto": "mhasmuthrt",
-   "gloss": {
-    "en": [
-     "Southern Ocean"
-    ],
-    "th": "มหาสมุทรที่ล้อมรอบทวีปแอนตาร์กติกา และอยู่ใต้มหาสมุทรแอตแลนติก, มหาสมุทรแปซิฟิก และมหาสมุทรอินเดีย",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "มหาสมุทร",
-    "ใต้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "อ่าวลึกใต้",
-   "translit_auto": "awluekt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภออ่าวลึก จังหวัดกระบี่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อ่าวลึก",
-    "ใต้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ทรายกองดินใต้",
-   "translit_auto": "thraykongdint",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อแขวงหนึ่งในเขตคลองสามวา กรุงเทพมหานคร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรายกองดิน",
-    "ใต้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คลองท่อมใต้",
-   "translit_auto": "khlongthomt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอคลองท่อม จังหวัดกระบี่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คลองท่อม",
-    "ใต้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ขั้วโลกใต้",
-   "translit_auto": "khawlokt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บริเวณปลายสุดของแกนโลกใต้ ที่มีละติจูด 90 องศาใต้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขั้วโลก",
-    "ใต้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ริมใต้",
-   "translit_auto": "rimt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอแม่ริม จังหวัดเชียงใหม่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ริม",
-    "ใต้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เกาหลีใต้",
-   "translit_auto": "keahlitai",
-   "gloss": {
-    "en": [
-     "South Korea"
-    ],
-    "th": "ประเทศในเอเชีย",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เกาหลี",
-    "ใต้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ใต้ถุน",
-   "translit_auto": "taithun",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ที่ใต้พื้นเรือนซึ่งยกพื้นสูง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ใต้",
-    "ถุน"
+    "ตาย",
+    "รัง"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -464,21 +463,22 @@
    ]
   },
   {
-   "th": "บ้านใต้",
-   "translit_auto": "bant",
+   "th": "จะตาย",
+   "rtgs": "cha-tai",
+   "ipa": "/t͡ɕa˨˩.taːj˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาญจนบุรี จังหวัดกาญจนบุรี",
+    "th": "มาก",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "บ้าน",
-    "ใต้"
+    "จะ",
+    "ตาย"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -488,21 +488,22 @@
    ]
   },
   {
-   "th": "แสงใต้",
-   "translit_auto": "saengt",
+   "th": "ไม้ตาย",
+   "rtgs": "mai-tai",
+   "ipa": "/maːj˦˥.taːj˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ออโรราที่ขั้วโลกใต้",
+    "th": "ท่าสำคัญในการต่อสู้กระบี่กระบองหรือมวยซึ่งทำให้ฝ่ายปรปักษ์ไม่สามารถจะสู้ได้อีก, ตรงข้ามกับ ไม้เป็น",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "แสง",
-    "ใต้"
+    "ไม้",
+    "ตาย"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -512,21 +513,22 @@
    ]
   },
   {
-   "th": "เสม็ดใต้",
-   "translit_auto": "semdt",
+   "th": "ยืนต้นตาย",
+   "rtgs": "yuen-ton-tai",
+   "ipa": "/jɯːn˧.ton˥˩.taːj˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอบางคล้า จังหวัดฉะเชิงเทรา",
+    "th": "อาการที่ต้นไม้บางชนิดเช่นต้นตาล ต้นลาน ตายแล้วแต่ยังไม่ล้ม",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "เสม็ด",
-    "ใต้"
+    "ยืนต้น",
+    "ตาย"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -536,21 +538,22 @@
    ]
   },
   {
-   "th": "แอฟริกาใต้",
-   "translit_auto": "aefrikatai",
+   "th": "เพื่อนตาย",
+   "rtgs": "phuean-tai",
+   "ipa": "/pʰɯa̯n˥˩.taːj˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ประเทศในแอฟริกาใต้",
+    "th": "เพื่อนร่วมสุขร่วมทุกข์หรือยอมตายแทนกันได้",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "แอฟริกา",
-    "ใต้"
+    "เพื่อน",
+    "ตาย"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -560,61 +563,14 @@
    ]
   },
   {
-   "th": "จันจว้าใต้",
-   "translit_auto": "chanchwatai",
+   "th": "เส้นตาย",
+   "rtgs": "sen-tai",
+   "ipa": "/sen˥˩.taːj˧/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "deadline"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอแม่จัน จังหวัดเชียงราย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "จันจว้า",
-    "ใต้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เวียงใต้",
-   "translit_auto": "weiyngt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอปาย จังหวัดแม่ฮ่องสอน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เวียง",
-    "ใต้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เอเชียใต้",
-   "translit_auto": "echeiyt",
-   "gloss": {
-    "en": [
-     "South Asia"
-    ],
-    "th": "กลุ่มประเทศที่ตั้งอยู่บนอนุทวีปอินเดีย (โดยหลักคือ อินเดีย ปากีสถาน บังกลาเทศ เนปาล และภูฏาน) และในมหาสมุทรอินเดีย (โดยหลักคือ ศรีลังกา และมัลดีฟส์)",
+    "th": "วันเวลาที่กำหนดเป็นขั้นเด็ดขาด",
     "conf": "verified",
     "src": [
      "RID",
@@ -622,8 +578,234 @@
     ]
    },
    "parts": [
-    "เอเชีย",
-    "ใต้"
+    "เส้น",
+    "ตาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ปิดตาย",
+   "rtgs": "pit-tai",
+   "ipa": "/pit̚˨˩.taːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ปิดตลอดไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ปิด",
+    "ตาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าตาย",
+   "rtgs": "na-tai",
+   "ipa": "/naː˥˩.taːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หน้าเฉยเหมือนไม่มีความรู้สึก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "ตาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "จับตาย",
+   "rtgs": "chap-tai",
+   "ipa": "/t͡ɕap̚˨˩.taːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จับตัวมาให้ได้แม้ว่าจะต้องฆ่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จับ",
+    "ตาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ของตาย",
+   "rtgs": "khong-tai",
+   "ipa": "/kʰɔːŋ˩˩˦.taːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สิ่งที่ได้แน่นอน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ของ",
+    "ตาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "สู้ตาย",
+   "rtgs": "su-tai",
+   "ipa": "/suː˥˩.taːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สู้อย่างเอาชีวิตเป็นเดิมพัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สู้",
+    "ตาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การตาย",
+   "rtgs": "kan-tai",
+   "ipa": "/kaːn˧.taːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ตาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ตายใจ",
+   "rtgs": "tai-chai",
+   "ipa": "/taːj˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หลงเชื่ออย่างไม่สงสัย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตาย",
+    "ใจ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำตาย",
+   "rtgs": "kham-tai",
+   "ipa": "/kʰam˧.taːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำสระสั้นที่ไม่มีตัวสะกดพวกหนึ่ง และคำในมาตรา กก กด กบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "ตาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เกี่ยงตาย",
+   "rtgs": "kiang–tai",
+   "ipa": "/kia̯ŋ˨˩.taːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เลี่ยงไปทางตาย, ยอมตาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกี่ยง",
+    "ตาย"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -634,10 +816,32 @@
   }
  ],
  "etymology": {
-  "summary": "สืบทอดจากไทดั้งเดิม *taɰꟲ; เทียบจีนยุคกลาง 底 (MC tejX); ร่วมเชื้อสายกับลาว ໃຕ້ (ใต้), ไทลื้อ ᦺᦎᧉ (ไต้), ไทใหญ่ တႂ်ႈ (ใต้), ไทใต้คง ᥖᥬᥲ (ใต้), อาหม 𑜄𑜧 (ตว์) หรือ 𑜄𑜨𑜧 (ตอ̂ว์), จ้วง dawj, จ้วงแบบจั่วเจียง dawj; เทียบเบดั้งเดิม *ɗaːwᴬ²",
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *taːjᴬ², จากไทดั้งเดิม *p.taːjᴬ; ร่วมเชื้อสายกับคำเมือง ᨲᩣ᩠ᨿ (ตาย), อีสาน ตาย, ลาว ຕາຍ (ตาย), ไทลื้อ ᦎᦻ (ตาย), ไทดำ ꪔꪱꪥ (ตาย), ไทขาว ꪔꪱꪥ, ไทแดง ꪔꪱꪥ, ไทใหญ่ တၢႆ (ตาย), ไทใต้คง ᥖᥣᥭ (ตาย), คำตี้ တ︀ၢဲႈ, พ่าเก တ︀ႝ (ตย์), อาหม 𑜄𑜩 (ตย์), จ้วง dai, จ้วงแบบจั่วเจียง tai หรือ hai; เทียบเบดั้งเดิม *ɗaːjᴬ¹, ออสโตรนีเซียนดั้งเดิม *(m-)aCay (“ตาย”)",
   "conf": "probable",
   "src": [
    "WIKT"
   ]
- }
+ },
+ "lanna": {
+  "tham": "ᨲᩣ᩠ᨿ",
+  "th": "ตาย",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:tai-2",
+   "label": "ใต้",
+   "why": "spelling",
+   "distinction": "Both romanise as \"tai\". ตาย is dtaai, ใต้ is dtâai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
 }

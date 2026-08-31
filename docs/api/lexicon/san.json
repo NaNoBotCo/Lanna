@@ -1,8 +1,10 @@
 {
  "id": "w:san",
  "th": "สัน",
- "translit_auto": "san",
- "status": "listed",
+ "status": "proposed",
+ "rtgs": "san",
+ "paiboon": "sǎn",
+ "ipa": "/san˩˩˦/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -31,6 +33,34 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "สันเขา",
+     "rtgs": "san-khao",
+     "ipa": "/san˩˩˦.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนสูงของภูเขาที่ยาวเป็นทิวพืดไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "เขา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.27, next 0.18",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -55,7 +85,293 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สันดาบ",
+     "rtgs": "san-dap",
+     "ipa": "/san˩˩˦.daːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ด้านหลังของดาบซึ่งไม่คม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "ดาบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.24, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "san as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 8 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 331 of the 5333 wats in the northern registry carry it, and 181 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 8 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 8 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "331 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "สันทราย",
+     "rtgs": "san-sai",
+     "ipa": "/san˩˩˦.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "ทราย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "สันมะค่า",
+     "rtgs": "san-ma-kha",
+     "ipa": "/san˩˩˦.ma˦˥.kʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอป่าแดด จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "มะค่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "สันมหาพน",
+     "rtgs": "san-ma-ha-phon",
+     "ipa": "/san˩˩˦.ma˦˥.haː˩˩˦.pʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่แตง จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "มหาพน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "สันกำแพง",
+     "rtgs": "san-kam-phaeng",
+     "ipa": "/san˩˩˦.kam˧.pʰɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "กำแพง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "สันผีเสื้อ",
+     "rtgs": "san-phi-suea",
+     "ipa": "/san˩˩˦.pʰiː˩˩˦.sɯa̯˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "ผีเสื้อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "สันป่าตอง",
+     "rtgs": "san-pa-tong",
+     "ipa": "/san˩˩˦.paː˨˩.tɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "ป่าตอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "สันกลาง",
+     "rtgs": "san-klang",
+     "ipa": "/san˩˩˦.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพาน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "กลาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "สันโป่ง",
+     "rtgs": "san-pong",
+     "ipa": "/san˩˩˦.poːŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่ริม จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "โป่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -67,157 +383,16 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 126 manuscript titles, 24 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'san', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['toponym formative'].",
  "compounds_unassigned": [
   {
-   "th": "สันโป่ง",
-   "translit_auto": "sanpong",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอแม่ริม จังหวัดเชียงใหม่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "โป่ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สันมะค่า",
-   "translit_auto": "sanmakha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอป่าแดด จังหวัดเชียงราย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "มะค่า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สันขวาน",
-   "translit_auto": "sankhwan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ด้านสันของขวาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "ขวาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สันกลาง",
-   "translit_auto": "sanklang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอพาน จังหวัดเชียงราย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "กลาง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สันเขา",
-   "translit_auto": "sankhea",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ส่วนสูงของภูเขาที่ยาวเป็นทิวพืดไป",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "เขา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กระสัน",
-   "translit_auto": "krasan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คะนึง, คิดผูกพันอยู่, มีใจจดจ่ออยู่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กระ",
-    "สัน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "สันดาน",
-   "translit_auto": "sandan",
+   "rtgs": "san-dan",
+   "ipa": "/san˩˩˦.daːn˧/",
    "gloss": {
     "en": [
      "nature"
@@ -241,47 +416,24 @@
    ]
   },
   {
-   "th": "สันป่าตอง",
-   "translit_auto": "sanpatong",
+   "th": "กระสัน",
+   "rtgs": "kra-san",
+   "ipa": "/kra˨˩.san˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่",
+    "th": "คะนึง, คิดผูกพันอยู่, มีใจจดจ่ออยู่",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "สัน",
-    "ป่าตอง"
+    "กระ",
+    "สัน"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สันผีเสื้อ",
-   "translit_auto": "sanphiseue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "ผีเสื้อ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -290,7 +442,8 @@
   },
   {
    "th": "ล่ำสัน",
-   "translit_auto": "lamsan",
+   "rtgs": "lam-san",
+   "ipa": "/lam˥˩.san˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -313,32 +466,9 @@
    ]
   },
   {
-   "th": "สันเดก",
-   "translit_auto": "sandek",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สันติกะ, สำนัก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "เดก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "สันดาล",
-   "translit_auto": "sandal",
+   "rtgs": "san-dan",
+   "ipa": "/san˩˩˦.daːn˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -361,13 +491,14 @@
    ]
   },
   {
-   "th": "สันติ",
-   "translit_auto": "santi",
+   "th": "สันขวาน",
+   "rtgs": "san-khwan",
+   "ipa": "/san˩˩˦.kʰwaːn˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ความสงบ",
+    "th": "ด้านสันของขวาน",
     "conf": "unverified",
     "src": [
      "RID"
@@ -375,55 +506,7 @@
    },
    "parts": [
     "สัน",
-    "ติ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สันดอน",
-   "translit_auto": "sandon",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ดินหรือกรวดทรายเป็นต้นซึ่งน้ำพัดเอามารวมกัน ปรากฏนูนยาวอยู่ใต้น้ำ ทำให้สูงเป็นสันขึ้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "ดอน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สันทราย",
-   "translit_auto": "santhray",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "ทราย"
+    "ขวาน"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -434,7 +517,8 @@
   },
   {
    "th": "สันลึก",
-   "translit_auto": "sanluek",
+   "rtgs": "san-luek",
+   "ipa": "/san˩˩˦.lɯk̚˦˥/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -457,80 +541,9 @@
    ]
   },
   {
-   "th": "สันทัด",
-   "translit_auto": "santhad",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ถนัด, จัดเจน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "ทัด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สีสัน",
-   "translit_auto": "sisan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สีต่าง ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สี",
-    "สัน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความล่ำสัน",
-   "translit_auto": "khwamlamsan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ล่ำสัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ความล่ำ",
-    "สัน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "สันหลัง",
-   "translit_auto": "sanhlang",
+   "rtgs": "san-lang",
+   "ipa": "/san˩˩˦.laŋ˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -553,13 +566,40 @@
    ]
   },
   {
-   "th": "สันกำแพง",
-   "translit_auto": "sankamphaeng",
+   "th": "ความล่ำสัน",
+   "rtgs": "khwam-lam-san",
+   "ipa": "/kʰwaːm˧.lam˥˩.san˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่",
+    "th": "คำอาการนามของ ล่ำสัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความล่ำ",
+    "สัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "สันเดก",
+   "rtgs": "san-dek",
+   "ipa": "/san˩˩˦.deːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สันติกะ, สำนัก",
     "conf": "unverified",
     "src": [
      "RID"
@@ -567,7 +607,7 @@
    },
    "parts": [
     "สัน",
-    "กำแพง"
+    "เดก"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -577,13 +617,14 @@
    ]
   },
   {
-   "th": "สันมหาพน",
-   "translit_auto": "sanmhaphn",
+   "th": "สันดอน",
+   "rtgs": "san-don",
+   "ipa": "/san˩˩˦.dɔːn˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอแม่แตง จังหวัดเชียงใหม่",
+    "th": "ดินหรือกรวดทรายเป็นต้นซึ่งน้ำพัดเอามารวมกัน ปรากฏนูนยาวอยู่ใต้น้ำ ทำให้สูงเป็นสันขึ้น",
     "conf": "unverified",
     "src": [
      "RID"
@@ -591,7 +632,7 @@
    },
    "parts": [
     "สัน",
-    "มหาพน"
+    "ดอน"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -601,13 +642,39 @@
    ]
   },
   {
-   "th": "สันดาบ",
-   "translit_auto": "sandab",
+   "th": "สีสัน",
+   "rtgs": "si-san",
+   "ipa": "/siː˩˩˦.san˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ด้านหลังของดาบซึ่งไม่คม",
+    "th": "สีต่าง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สี",
+    "สัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "สันติ",
+   "rtgs": "san-ti",
+   "ipa": "/san˩˩˦.tiʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความสงบ",
     "conf": "unverified",
     "src": [
      "RID"
@@ -615,7 +682,32 @@
    },
    "parts": [
     "สัน",
-    "ดาบ"
+    "ติ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "สันทัด",
+   "rtgs": "san-that",
+   "ipa": "/san˩˩˦.tʰat̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถนัด, จัดเจน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สัน",
+    "ทัด"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",

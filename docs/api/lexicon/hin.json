@@ -1,8 +1,11 @@
 {
  "id": "w:hin",
  "th": "หิน",
- "translit_auto": "hin",
- "status": "listed",
+ "status": "proposed",
+ "rtgs": "hin",
+ "paiboon": "hǐn",
+ "ipa": "/hin˩˩˦/",
+ "syllable_respelling": "หิน-นะ-",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -32,6 +35,61 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ถ่านหิน",
+     "rtgs": "than-hin",
+     "ipa": "/tʰaːn˨˩.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "coal"
+      ],
+      "th": "ถ่านธรรมชาติมีลักษณะแข็งอย่างหิน เกิดจากการแปรสภาพของพืชและต้นไม้ที่ทับถมกันมาเป็นเวลานานมาก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ถ่าน",
+      "หิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.13, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "หินดาน",
+     "rtgs": "hin-dan",
+     "ipa": "/hin˩˩˦.daːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หินแข็งหรือหินผุที่รองรับดิน ทราย กรวด มีแร่เช่นดีบุก ทองคำ รวมอยู่ด้วย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หิน",
+      "ดาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.17, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -107,6 +165,34 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ใจหิน",
+     "rtgs": "chai-hin",
+     "ipa": "/t͡ɕaj˧.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีใจโหดเหี้ยม, มีใจที่แข็งมากไม่ยอมโอนอ่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "หิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.30, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -158,6 +244,369 @@
     "RID",
     "WIKT"
    ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "hin as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 11 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 11 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 11 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "33 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "จระเข้หิน",
+     "rtgs": "cho-ra-khe-hin",
+     "ipa": "/t͡ɕɔː˧.ra˦˥.kʰeː˥˩.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอครบุรี จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จระเข้",
+      "หิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "หินตั้ง",
+     "rtgs": "hin-tang",
+     "ipa": "/hin˩˩˦.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านไผ่ จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หิน",
+      "ตั้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "หินลาด",
+     "rtgs": "hin-lat",
+     "ipa": "/hin˩˩˦.laːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวัดโบสถ์ จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หิน",
+      "ลาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "หัวหิน",
+     "rtgs": "hua-hin",
+     "ipa": "/hua̯˩˩˦.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดประจวบคีรีขันธ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "หิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "คลองหิน",
+     "rtgs": "khlong-hin",
+     "ipa": "/kʰlɔːŋ˧.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออ่าวลึก จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คลอง",
+      "หิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "เสาหิน",
+     "rtgs": "sao-hin",
+     "ipa": "/saw˩˩˦.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "column"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่สะเรียง จังหวัดแม่ฮ่องสอน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เสา",
+      "หิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "หินดาด",
+     "rtgs": "hin-dat",
+     "ipa": "/hin˩˩˦.daːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอทองผาภูมิ จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หิน",
+      "ดาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "หนองหิน",
+     "rtgs": "nong-hin",
+     "ipa": "/nɔːŋ˩˩˦.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเลย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "หิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ขมหิน",
+     "rtgs": "khom–hin",
+     "ipa": "/kʰom˩˩˦.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้ล้มลุกชนิด Boerhavia diffusa ในวงศ์ Nyctaginaceae ใช้ทำยาได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขม",
+      "หิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological"
+    },
+    {
+     "th": "วังหิน",
+     "rtgs": "wang-hin",
+     "ipa": "/waŋ˧.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดศรีสะเกษ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "หิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "นาวังหิน",
+     "rtgs": "na-wang-hin",
+     "ipa": "/naː˧.waŋ˧.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพนัสนิคม จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาวัง",
+      "หิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "หินโคน",
+     "rtgs": "hin-khon",
+     "ipa": "/hin˩˩˦.kʰoːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอจักราช จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หิน",
+      "โคน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -169,13 +618,193 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 13 manuscript titles, 121 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'hin', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 29; domain seeded by keyword hits ['น้อย', 'มาก'].",
  "compounds_unassigned": [
   {
+   "th": "หินกากเพชร",
+   "rtgs": "hin–kak–phet",
+   "ipa": "/hin˩˩˦.kaːk̚˨˩.pʰet̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เครื่องลับมีดเป็นต้นชนิดหนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หิน",
+    "กากเพชร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หินหนืด",
+   "rtgs": "hin-nuet",
+   "ipa": "/hin˩˩˦.nɯːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หินที่อยู่ในสภาพของหนืด อยู่ลึกลงไปภายใต้เปลือกโลก เมื่อเปลือกโลกเกิดรอยร้าวจะอูดตัวแทรกซอนขึ้นมาสู่ผิวโลก และจะแข็งตัวเป็นหินอัคนีพวกต่าง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หิน",
+    "หนืด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หินงอก",
+   "rtgs": "hin-ngok",
+   "ipa": "/hin˩˩˦.ŋɔːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คราบหินปูนที่ทับถมงอกจากพื้นถ้ำขึ้นไปหาเพดานถ้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หิน",
+    "งอก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หินอ่อน",
+   "rtgs": "hin-on",
+   "ipa": "/hin˩˩˦.ʔɔːn˨˩/",
+   "gloss": {
+    "en": [
+     "marble"
+    ],
+    "th": "หินปูนชนิดที่ขัดแล้วผิวจะเป็นมัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หิน",
+    "อ่อน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ขวานหิน",
+   "rtgs": "khwan–hin",
+   "ipa": "/kʰwaːn˩˩˦.hin˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขวานที่ทำด้วยหินในยุคหิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขวาน",
+    "หิน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หินปูน",
+   "rtgs": "hin-pun",
+   "ipa": "/hin˩˩˦.puːn˧/",
+   "gloss": {
+    "en": [
+     "limestone"
+    ],
+    "th": "หินที่มีเนื้อสารเป็นแคลเซียมคาร์บอเนตเกือบทั้งสิ้น สารประกอบหินดังกล่าวเกิดจากการตกตะกอนเนื่องจากปฏิกิริยาเคมีก็มี และที่เกิดจากการตกจมรวมตัวเป็นพืดใหญ่ของสัตว์ประเภทมีเปลือกหุ้มตัวเป็นแคลเซียมคาร์บอเนตก็มี",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หิน",
+    "ปูน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ยุคหิน",
+   "rtgs": "yuk–hin",
+   "ipa": "/juk̚˦˥.hin˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยุคก่อนประวัติศาสตร์อย่างกว้างที่มนุษย์เริ่มใช้หินทำเครื่องมือเครื่องใช้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยุค",
+    "หิน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "แก้วหิน",
-   "translit_auto": "kaewhin",
+   "rtgs": "kaeo-hin",
+   "ipa": "/kɛːw˥˩.hin˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -188,6 +817,31 @@
    },
    "parts": [
     "แก้ว",
+    "หิน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เกลือหิน",
+   "rtgs": "kluea-hin",
+   "ipa": "/klɯa̯˧.hin˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เกลือสินเธาว์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกลือ",
     "หิน"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -222,299 +876,9 @@
    ]
   },
   {
-   "th": "หินงอก",
-   "translit_auto": "hinngok",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คราบหินปูนที่ทับถมงอกจากพื้นถ้ำขึ้นไปหาเพดานถ้ำ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หิน",
-    "งอก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยุคหิน",
-   "translit_auto": "yukhhin",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยุคก่อนประวัติศาสตร์อย่างกว้างที่มนุษย์เริ่มใช้หินทำเครื่องมือเครื่องใช้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ยุค",
-    "หิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "วังหิน",
-   "translit_auto": "wanghin",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดศรีสะเกษ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "วัง",
-    "หิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หินปูน",
-   "translit_auto": "hinpun",
-   "gloss": {
-    "en": [
-     "limestone"
-    ],
-    "th": "หินที่มีเนื้อสารเป็นแคลเซียมคาร์บอเนตเกือบทั้งสิ้น สารประกอบหินดังกล่าวเกิดจากการตกตะกอนเนื่องจากปฏิกิริยาเคมีก็มี และที่เกิดจากการตกจมรวมตัวเป็นพืดใหญ่ของสัตว์ประเภทมีเปลือกหุ้มตัวเป็นแคลเซียมคาร์บอเนตก็มี",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หิน",
-    "ปูน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หินลาด",
-   "translit_auto": "hinlad",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอวัดโบสถ์ จังหวัดพิษณุโลก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หิน",
-    "ลาด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หินดาน",
-   "translit_auto": "hindan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หินแข็งหรือหินผุที่รองรับดิน ทราย กรวด มีแร่เช่นดีบุก ทองคำ รวมอยู่ด้วย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หิน",
-    "ดาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ถ่านหิน",
-   "translit_auto": "thanhin",
-   "gloss": {
-    "en": [
-     "coal"
-    ],
-    "th": "ถ่านธรรมชาติมีลักษณะแข็งอย่างหิน เกิดจากการแปรสภาพของพืชและต้นไม้ที่ทับถมกันมาเป็นเวลานานมาก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ถ่าน",
-    "หิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หินกากเพชร",
-   "translit_auto": "hinkakphechn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องลับมีดเป็นต้นชนิดหนึ่ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หิน",
-    "กากเพชร"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เสาหิน",
-   "translit_auto": "seahin",
-   "gloss": {
-    "en": [
-     "column"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอแม่สะเรียง จังหวัดแม่ฮ่องสอน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เสา",
-    "หิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หนองหิน",
-   "translit_auto": "hnonghin",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดเลย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หนอง",
-    "หิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นาวังหิน",
-   "translit_auto": "nawanghin",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอพนัสนิคม จังหวัดชลบุรี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นาวัง",
-    "หิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คลองหิน",
-   "translit_auto": "khlonghin",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภออ่าวลึก จังหวัดกระบี่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คลอง",
-    "หิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "ใยหิน",
-   "translit_auto": "yaihin",
+   "rtgs": "yai-hin",
+   "ipa": "/jaj˧.hin˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -537,104 +901,9 @@
    ]
   },
   {
-   "th": "หินดาด",
-   "translit_auto": "hindad",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอทองผาภูมิ จังหวัดกาญจนบุรี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หิน",
-    "ดาด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความหิน",
-   "translit_auto": "khwamhin",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ หิน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ความ",
-    "หิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ขมหิน",
-   "translit_auto": "khmhin",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อไม้ล้มลุกชนิด Boerhavia diffusa ในวงศ์ Nyctaginaceae ใช้ทำยาได้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขม",
-    "หิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หินตั้ง",
-   "translit_auto": "hintang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอบ้านไผ่ จังหวัดขอนแก่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หิน",
-    "ตั้ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "พกหิน",
-   "translit_auto": "phkhin",
+   "rtgs": "phok-hin",
+   "ipa": "/pʰok̚˦˥.hin˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -657,56 +926,9 @@
    ]
   },
   {
-   "th": "หินโคน",
-   "translit_auto": "hinkhon",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอจักราช จังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หิน",
-    "โคน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หินหนืด",
-   "translit_auto": "hinhnued",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หินที่อยู่ในสภาพของหนืด อยู่ลึกลงไปภายใต้เปลือกโลก เมื่อเปลือกโลกเกิดรอยร้าวจะอูดตัวแทรกซอนขึ้นมาสู่ผิวโลก และจะแข็งตัวเป็นหินอัคนีพวกต่าง ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หิน",
-    "หนืด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "หินย้อย",
-   "translit_auto": "hinyoy",
+   "rtgs": "hin-yoi",
+   "ipa": "/hin˩˩˦.jɔːj˦˥/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -729,149 +951,30 @@
    ]
   },
   {
-   "th": "ขวานหิน",
-   "translit_auto": "khwanhin",
+   "th": "ความหิน",
+   "rtgs": "khwam-hin",
+   "ipa": "/kʰwaːm˧.hin˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ขวานที่ทำด้วยหินในยุคหิน",
+    "th": "คำอาการนามของ หิน",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ขวาน",
+    "ความ",
     "หิน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "th": "เกลือหิน",
-   "translit_auto": "kelueohin",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เกลือสินเธาว์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เกลือ",
-    "หิน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หัวหิน",
-   "translit_auto": "hawhin",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดประจวบคีรีขันธ์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หัว",
-    "หิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "จระเข้หิน",
-   "translit_auto": "chrakhehin",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอครบุรี จังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "จระเข้",
-    "หิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ใจหิน",
-   "translit_auto": "chaihin",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีใจโหดเหี้ยม, มีใจที่แข็งมากไม่ยอมโอนอ่อน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ใจ",
-    "หิน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หินอ่อน",
-   "translit_auto": "hinon",
-   "gloss": {
-    "en": [
-     "marble"
-    ],
-    "th": "หินปูนชนิดที่ขัดแล้วผิวจะเป็นมัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หิน",
-    "อ่อน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation"
   }
  ],
  "etymology": {

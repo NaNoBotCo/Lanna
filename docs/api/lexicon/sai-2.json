@@ -1,8 +1,10 @@
 {
  "id": "w:sai-2",
- "th": "ใส",
- "translit_auto": "sai-2",
- "status": "listed",
+ "th": "ทราย",
+ "status": "proposed",
+ "rtgs": "sai",
+ "paiboon": "saai",
+ "ipa": "/saːj˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -10,21 +12,19 @@
    "n": 1,
    "gloss": {
     "en": [
-     "bright",
-     "clear",
-     "clarity"
+     "sand"
     ],
-    "th": "แจ่มกระจ่าง",
+    "th": "วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณะซุยร่วนไม่เกาะกัน มีหลายชนิด",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "adjective",
-   "pos_th": "คำคุณศัพท์",
+   "pos": "noun",
+   "pos_th": "คำนาม",
    "domains": [
-    "d:colour"
+    "d:material"
    ],
    "order_conf": "unverified",
    "conf": "probable",
@@ -40,27 +40,508 @@
    "n": 2,
    "gloss": {
     "en": [
-     "bright",
-     "clear",
-     "clarity"
+     "sand"
     ],
-    "th": "ไม่ขุ่น, ไม่มัว",
+    "th": "ใช้เรียกสิ่งอื่นที่มีลักษณะอย่างทราย",
     "conf": "verified",
     "src": [
      "RID",
      "WIKT"
     ]
    },
-   "pos": "adjective",
-   "pos_th": "คำคุณศัพท์",
+   "pos": "noun",
+   "pos_th": "คำนาม",
    "domains": [
-    "d:colour"
+    "d:material"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "น้ำตาลทราย",
+     "rtgs": "nam-tan-sai",
+     "ipa": "/nam˦˥.taːn˧.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำตาลผลึกขาวที่ทำเป็นเม็ดละเอียดเหมือนทราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำตาล",
+      "ทราย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "กระดาษทราย",
+     "rtgs": "kra-dat-sai",
+     "ipa": "/kra˨˩.daːt̚˨˩.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระดาษที่มีด้านหนึ่งเป็นเม็ด ๆ อย่างทราย ใช้ขัดสิ่งของ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระดาษ",
+      "ทราย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.27, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "sand"
+    ],
+    "th": "ชื่อหอยกาบคู่หลายชนิด มีรูปเปลือกแตกต่างกันไป ที่เป็นหอยน้ำจืด เช่น ชนิด Corbicula javanica (Mousson) ในวงศ์ Corbiculidae ที่เป็นหอยทะเล เช่น ชนิด Asaphis violascens (Forsskål) ในวงศ์ Psammobiidae",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:material"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ทรายมูล",
+     "rtgs": "sai-mun",
+     "ipa": "/saːj˧.muːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดยโสธร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทราย",
+      "มูล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ห้วยทราย",
+     "rtgs": "huai-sai",
+     "ipa": "/hua̯j˥˩.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่ริม จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ห้วย",
+      "ทราย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "สันทราย",
+     "rtgs": "san-sai",
+     "ipa": "/san˩˩˦.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "ทราย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ละหานทราย",
+     "rtgs": "la-han-sai",
+     "ipa": "/la˦˥.haːn˩˩˦.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดบุรีรัมย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ละหาน",
+      "ทราย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "แมวทราย",
+     "rtgs": "maeo-sai",
+     "ipa": "/mɛːw˧.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อสัตว์เลี้ยงลูกด้วยน้ำนมชนิด Felis margarita ในวงศ์ Felidae ขนาดเท่าแมวบ้าน แต่หน้าแป้นกว่า ขนสีน้ำตาลอ่อนเหมือนทราย มีลายริ้วอ่อน ๆ อาศัยอยู่ในทะเลทรายแถบตะวันออกกลางและแอฟริกา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แมว",
+      "ทราย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "บางทราย",
+     "rtgs": "bang-sai",
+     "ipa": "/baːŋ˧.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองชลบุรี จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ทราย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ดอนทราย",
+     "rtgs": "don-sai",
+     "ipa": "/dɔːn˧.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านโพธิ์ จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ทราย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ทรายขาว",
+     "rtgs": "sai-khao",
+     "ipa": "/saːj˧.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองท่อม จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทราย",
+      "ขาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "หันทราย",
+     "rtgs": "han-sai",
+     "ipa": "/han˩˩˦.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออรัญประเทศ จังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัน",
+      "ทราย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "โพนทราย",
+     "rtgs": "phon-sai",
+     "ipa": "/pʰoːn˧.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดร้อยเอ็ด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โพน",
+      "ทราย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ทรายทอง",
+     "rtgs": "sai-thong",
+     "ipa": "/saːj˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอห้วยเม็ก จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทราย",
+      "ทอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ทุ่งทราย",
+     "rtgs": "thung-sai",
+     "ipa": "/tʰuŋ˥˩.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอทรายทองวัฒนา จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ทราย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "sand"
+    ],
+    "th": "ปลารากกล้วย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:material"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "sand"
+    ],
+    "th": "เนื้อทราย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:material"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เนื้อทราย",
+     "rtgs": "nuea-sai",
+     "ipa": "/nɯa̯˦˥.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อกวางชนิด Cervus porcinus Zimmermann ในวงศ์ Cervidae เป็นกวางขนาดกลาง ขนลำตัวสีน้ำตาลเข้มแต่ตอนล่างสีจางกว่า ตามลำตัวมีจุดขาวจาง ๆ กระจายอยู่ทั่วไป โดยเฉพาะลูกที่เกิดใหม่จุดขาวนี้จะเห็นชัดเจนเช่นเดียวกับลูกกวางดาว ตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เนื้อ",
+      "ทราย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "กวางทราย",
+     "rtgs": "kwang-sai",
+     "ipa": "/kwaːŋ˧.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เนื้อทราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กวาง",
+      "ทราย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.48, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   }
  ],
@@ -72,29 +553,30 @@
  ],
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
-  "Attested in this corpus: 3 manuscript titles, 288 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'sai-2', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Attested in this corpus: 8 manuscript titles, 20 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
- "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['มัว'].",
+ "editorial": "Generated by lexicon_ingest.py. Generativity 25; domain seeded by keyword hits ['ทราย', 'หิน', 'วัตถุ', 'เนื้อ'].",
  "compounds_unassigned": [
   {
-   "th": "น้ำแข็งใส",
-   "translit_auto": "namkhaengt",
+   "th": "ทรายแป้ง",
+   "rtgs": "sai-paeng",
+   "ipa": "/saːj˧.pɛːŋ˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "รูปสะกดผิดของ น้ำแข็งไส",
+    "th": "ทรายที่มีขนาดละเอียดยิบ",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "น้ำแข็ง",
-    "ใส"
+    "ทราย",
+    "แป้ง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -102,23 +584,24 @@
    ]
   },
   {
-   "th": "ความสุกใส",
-   "translit_auto": "khwamsukt",
+   "th": "ทรายแมว",
+   "rtgs": "sai-maeo",
+   "ipa": "/saːj˧.mɛːw˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "คำอาการนามของ สุกใส",
+    "th": "วัสดุคล้ายทรายสำหรับให้แมวขับถ่าย",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ความสุก",
-    "ใส"
+    "ทราย",
+    "แมว"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -126,110 +609,14 @@
    ]
   },
   {
-   "th": "ความสดใส",
-   "translit_auto": "khwamsdt",
+   "th": "ทะเลทราย",
+   "rtgs": "tha-le-sai",
+   "ipa": "/tʰa˦˥.leː˧.saːj˧/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "desert"
     ],
-    "th": "คำอาการนามของ สดใส",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ความสด",
-    "ใส"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เนยใส",
-   "translit_auto": "neyt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "น้ำมันที่เคี่ยวมาจากเนย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เนย",
-    "ใส"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความเลื่อมใส",
-   "translit_auto": "khwamleueomt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ เลื่อมใส",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ความเลื่อม",
-    "ใส"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ผ่องใส",
-   "translit_auto": "phongt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สุกใส, บริสุทธิ์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ผ่อง",
-    "ใส"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สดใส",
-   "translit_auto": "sdt",
-   "gloss": {
-    "en": [
-     "rich",
-     "bright"
-    ],
-    "th": "ผ่องใส, ไม่ขุ่นมัว",
+    "th": "อาณาบริเวณที่กว้างใหญ่เต็มไปด้วยทราย มีอากาศหนาวจัดในเวลากลางคืนและร้อนจัดในเวลากลางวัน ยากแก่การดำรงชีวิต มีพืชขึ้นอยู่น้อยมาก",
     "conf": "verified",
     "src": [
      "RID",
@@ -237,8 +624,8 @@
     ]
    },
    "parts": [
-    "สด",
-    "ใส"
+    "ทะเล",
+    "ทราย"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -248,13 +635,138 @@
    ]
   },
   {
-   "th": "โปร่งใส",
-   "translit_auto": "porngt",
+   "th": "ทรายถม",
+   "rtgs": "sai-thom",
+   "ipa": "/saːj˧.tʰom˩˩˦/",
    "gloss": {
     "en": [
-     "transparent"
+     "[needs a gloss]"
     ],
-    "th": "มีสมบัติที่แสงผ่านได้และมองเห็นได้ตลอด",
+    "th": "ทรายปนดิน ใช้สำหรับถม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทราย",
+    "ถม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "แกนทราย",
+   "rtgs": "kaen-sai",
+   "ipa": "/kɛːn˧.saːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แกนที่ใช้ในการหล่อพระพุทธรูปหรืองานประติมากรรมไทยด้วยวิธีสูญขี้ผึ้ง ทำด้วยทรายผสมดินเหนียว หมักให้ชุ่มและเหยียบให้เข้ากันจนเหนียว จึงปั้นขึ้นเป็นรูปเลา ๆ เรียกว่า โกลน แล้วผึ่งให้แห้ง จากนั้นเอาขี้ผึ้งพอกและปั้นส่วนผิวจน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แกน",
+    "ทราย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ทรายแก้ว",
+   "translit_auto": "thraykaeo",
+   "ipa": "[säːj˧.kɛːw˥˩]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แร่ควอตซ์ที่มีขนาดเล็กเท่าเม็ดทราย มีลักษณะเป็นสีขาวใสใช้ในอุตสาหกรรมทำแก้ว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทราย",
+    "แก้ว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กระสอบทราย",
+   "rtgs": "kra-sop-sai",
+   "ipa": "/kra˨˩.sɔːp̚˨˩.saːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถุงผ้าใบหรือหนัง ลักษณะคล้ายหมอนข้างขนาดใหญ่ เดิมบรรจุทราย ปัจจุบันบรรจุขี้เลื่อย เศษผ้า หรือฟองน้ำ อัดแน่น เป็นอุปกรณ์อย่างหนึ่งในการฝึกซ้อมของนักมวยเพื่อฝึกการชก เตะ ขึ้นเข่า เป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระสอบ",
+    "ทราย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ขนมทราย",
+   "translit_auto": "khnmthray",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขนมขี้หนู",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขนม",
+    "ทราย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นาฬิกาทราย",
+   "rtgs": "na-li-ka-sai",
+   "ipa": "/naː˧.li˦˥.kaː˧.saːj˧/",
+   "gloss": {
+    "en": [
+     "hourglass"
+    ],
+    "th": "อุปกรณ์ที่ใช้สำหรับวัดเวลา ประกอบด้วย กระเปาะแก้ว 2 กระเปาะที่มีรูเล็ก ๆ ทะลุถึงกัน ข้างในบรรจุทรายที่จะไหลจากกระเปาะหนึ่งไปยังอีกกระเปาะหนึ่งได้หมดพอดีในเวลาที่กำหนดไว้",
     "conf": "verified",
     "src": [
      "RID",
@@ -262,179 +774,8 @@
     ]
    },
    "parts": [
-    "โปร่ง",
-    "ใส"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความใส",
-   "translit_auto": "khwamt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ใส",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ความ",
-    "ใส"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความโปร่งใส",
-   "translit_auto": "khwamporngt",
-   "gloss": {
-    "en": [
-     "transparency"
-    ],
-    "th": "คำอาการนามของ โปร่งใส",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ความโปร่ง",
-    "ใส"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "แจ่มใส",
-   "translit_auto": "chaemt",
-   "gloss": {
-    "en": [
-     "bright",
-     "clarity"
-    ],
-    "th": "ปลอดโปร่งไม่ขุ่นมัว, โปร่ง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แจ่ม",
-    "ใส"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เลื่อมใส",
-   "translit_auto": "leueomt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีความเชื่อถือ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เลื่อม",
-    "ใส"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความแจ่มใส",
-   "translit_auto": "khwamchaemt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ แจ่มใส",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ความแจ่ม",
-    "ใส"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สุกใส",
-   "translit_auto": "sukt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แวววาว, แจ่มใส",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สุก",
-    "ใส"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความผ่องใส",
-   "translit_auto": "khwamphongt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ผ่องใส",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ความผ่อง",
-    "ใส"
+    "นาฬิกา",
+    "ทราย"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -445,19 +786,54 @@
   }
  ],
  "etymology": {
-  "summary": "สืบทอดจากไทดั้งเดิม *saɰᴬ; ร่วมเชื้อสายกับคำเมือง ᩈᩲ (ใส), ᩈᩱ (ไส), อีสาน ใส, ลาว ໃສ (ใส), ไทลื้อ ᦺᦉ (ไส), ไทดำ ꪻꪎ (ใส), ไทใหญ่ သႂ် (ใส), ไทใต้คง ᥔᥬᥴ (ใส๋), อาหม 𑜏𑜧 (สว์) หรือ 𑜏𑜧𑜤 (สาว์), จ้วง saw",
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *zaːjᴬ⁴, จากไทดั้งเดิม *zwɯəjᴬ, จากจีนเก่า 沙 (OC *sraːl, *sraːls); ร่วมเชื้อสายกับลาว ຊາຍ (ซาย), อีสาน ซาย, ญ้อ ซาย, คำเมือง ᨪᩣ᩠ᨿ (ซาย), เขิน ᨪᩣ᩠ᨿ (ซาย), ไทลื้อ ᦌᦻ (ซาย), ไทดำ ꪏꪱꪥ (ซาย), ไทใหญ่ သၢႆး (ส๊าย), ไทใต้คง ᥔᥣᥭᥰ (ส๊าย), อาหม 𑜏𑜩 (สย์) หรือ 𑜏𑜩𑜤 (สาย์), จ้วง saiz, จ้วงแบบหนง saiz; เทียบซีโน-ทิเบตันดั้งเดิม *(s/z)a-j (“ดิน, ทราย”)\nคำนี้เคยเขียนว่า \"ซาย\" ในเอกสารโบราณต่าง ๆ มาจนถึงก่อนคริสต์ศตวรรษที่ 18 แล้วเปลี่ยนมาสะกดเป็น \"ทราย\" ในช่วงคริสต์ศตวรรษที่ 18-19 สาเหตุเป็นไปได้ว่าเป็นความเข้าใจผิดอย่างแพร่หลายว่า คำนี้มีต้นกำเนิดมาจากภาษาเขมร ซึ่ง ទ្រ (ทฺร) ในภาษาเขมรยืมมาแล้วออกเสียงเป็น \"ซ\" ในภาษาไทยมีอยู่หลายคำ ในขณะที่ภาษาเขมร ទ្រាយ (ทฺราย) หมายถึงกวางชนิดหนึ่ง ร่วมเชื้อสายกับลาว ຊາຍ (ซาย), เขมร ទ្រាយ (ทฺราย, “กวางใหญ่ชนิดหนึ่ง”)",
   "conf": "probable",
   "src": [
    "WIKT"
   ]
  },
  "lanna": {
-  "tham": "ᩈᩲ",
-  "th": "ใส",
+  "tham": "ᨪᩣ᩠ᨿ",
+  "th": "ซาย",
   "note": "Extracted from the Wiktionary etymology line.",
   "conf": "probable",
   "src": [
    "WIKT"
   ]
- }
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:sai",
+   "label": "สาย",
+   "why": "spelling",
+   "distinction": "Both romanise as \"sai\". ทราย is saai, สาย is sǎai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:sai-3",
+   "label": "ไส้",
+   "why": "spelling",
+   "distinction": "Both romanise as \"sai\". ทราย is saai, ไส้ is sâi — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:sai-4",
+   "label": "ใส",
+   "why": "spelling",
+   "distinction": "Both romanise as \"sai\". ทราย is saai, ใส is sǎi — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
 }

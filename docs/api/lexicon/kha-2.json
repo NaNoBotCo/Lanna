@@ -1,8 +1,10 @@
 {
  "id": "w:kha-2",
  "th": "คา",
- "translit_auto": "kha-2",
- "status": "listed",
+ "status": "proposed",
+ "rtgs": "kha",
+ "paiboon": "kaa",
+ "ipa": "/kʰaː˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -79,6 +81,34 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ค้างคา",
+     "rtgs": "khang-kha",
+     "ipa": "/kʰaːŋ˦˥.kʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยังไม่หมด, ยังไม่จบสิ้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ค้าง",
+      "คา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.28, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -103,7 +133,189 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หลังคา",
+     "rtgs": "lang-kha",
+     "ipa": "/laŋ˩˩˦.kʰaː˧/",
+     "gloss": {
+      "en": [
+       "roof"
+      ],
+      "th": "ส่วนเบื้องบนของเรือนเป็นต้น สำหรับบังแดดและฝน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หลัง",
+      "คา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "kha as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 4 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 4 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 4 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "43 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "หันคา",
+     "rtgs": "han-kha",
+     "ipa": "/han˩˩˦.kʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดชัยนาท",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัน",
+      "คา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "บางคา",
+     "rtgs": "bang-kha",
+     "ipa": "/baːŋ˧.kʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอราชสาส์น จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "คา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "เกาะคา",
+     "rtgs": "ko-kha",
+     "ipa": "/kɔʔ˨˩.kʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดลำปาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "คา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "บ้านคา",
+     "rtgs": "ban-kha",
+     "ipa": "/baːn˥˩.kʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดราชบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "คา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -115,13 +327,117 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 220 manuscript titles, 930 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'kha-2', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 18; domain seeded by keyword hits ['หญ้า', 'ใบ', 'ไม้'].",
  "compounds_unassigned": [
   {
+   "th": "การคา",
+   "rtgs": "kan-kha",
+   "ipa": "/kaːn˧.kʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ คา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "คา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "คาใจ",
+   "rtgs": "kha-chai",
+   "ipa": "/kʰaː˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยังข้องใจหรือยังติดใจอยู่และยังไม่ได้แก้ไขหรือทำความเข้าใจว่าจะเป็นอย่างไร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คา",
+    "ใจ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คาคบ",
+   "rtgs": "kha-khop",
+   "ipa": "/kʰaː˧.kʰop̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ง่ามต้นไม้ที่กิ่งใหญ่กับลำต้นแยกกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คา",
+    "คบ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คายก",
+   "rtgs": "kha-yok",
+   "ipa": "/kʰaː˧.jok̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ร้องเพลง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คา",
+    "ยก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "คาน้า",
-   "translit_auto": "khana",
+   "rtgs": "kha-na",
+   "ipa": "/kʰaː˧.naː˦˥/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -144,33 +460,9 @@
    ]
   },
   {
-   "th": "คาถา",
-   "translit_auto": "khatha",
-   "gloss": {
-    "en": [
-     "abracadabra"
-    ],
-    "th": "คำประพันธ์ประเภทร้อยกรองในภาษาบาลี",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คา",
-    "ถา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "การค้างคา",
-   "translit_auto": "karkhangkha",
+   "rtgs": "kan-khang-kha",
+   "ipa": "/kaːn˧.kʰaːŋ˦˥.kʰaː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -185,16 +477,18 @@
     "การค้าง",
     "คา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "use": "nominalisation"
   },
   {
    "th": "ราคา",
-   "translit_auto": "rakha",
+   "rtgs": "ra-kha",
+   "ipa": "/raː˧.kʰaː˧/",
    "gloss": {
     "en": [
      "price",
@@ -220,200 +514,9 @@
    ]
   },
   {
-   "th": "คาวี",
-   "translit_auto": "khawi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "วัว, วัวตัวเมีย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คา",
-    "วี"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "บ้านคา",
-   "translit_auto": "bankha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดราชบุรี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "บ้าน",
-    "คา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คารม",
-   "translit_auto": "kharm",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ถ้อยคำที่คมคาย, ฝีปาก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คา",
-    "รม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ค้างคา",
-   "translit_auto": "khangkha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยังไม่หมด, ยังไม่จบสิ้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ค้าง",
-    "คา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คาคบ",
-   "translit_auto": "khakhp",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ง่ามต้นไม้ที่กิ่งใหญ่กับลำต้นแยกกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คา",
-    "คบ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "บางคา",
-   "translit_auto": "bangkha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอราชสาส์น จังหวัดฉะเชิงเทรา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "บาง",
-    "คา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชายคา",
-   "translit_auto": "chaykha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ส่วนที่สุดของหลังคาหรือปลายกันสาดที่ยื่นพ้นตัวเรือนออกมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชาย",
-    "คา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คาใจ",
-   "translit_auto": "khachai",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยังข้องใจหรือยังติดใจอยู่และยังไม่ได้แก้ไขหรือทำความเข้าใจว่าจะเป็นอย่างไร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คา",
-    "ใจ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "คงคา",
-   "translit_auto": "khngkha",
+   "rtgs": "khong-kha",
+   "ipa": "/kʰoŋ˧.kʰaː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -436,69 +539,23 @@
    ]
   },
   {
-   "th": "เกาะคา",
-   "translit_auto": "keaakha",
+   "th": "คาถา",
+   "rtgs": "kha-tha",
+   "ipa": "/kʰaː˧.tʰaː˩˩˦/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "abracadabra"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดลำปาง",
-    "conf": "unverified",
+    "th": "คำประพันธ์ประเภทร้อยกรองในภาษาบาลี",
+    "conf": "verified",
     "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เกาะ",
-    "คา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การคา",
-   "translit_auto": "karkha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ คา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การ",
-    "คา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คายก",
-   "translit_auto": "khayk",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ร้องเพลง",
-    "conf": "unverified",
-    "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
    "parts": [
     "คา",
-    "ยก"
+    "ถา"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -508,20 +565,46 @@
    ]
   },
   {
-   "th": "หันคา",
-   "translit_auto": "hankha",
+   "th": "คารม",
+   "rtgs": "kha-rom",
+   "ipa": "/kʰaː˧.rom˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดชัยนาท",
+    "th": "ถ้อยคำที่คมคาย, ฝีปาก",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "หัน",
+    "คา",
+    "รม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ชายคา",
+   "rtgs": "chai-kha",
+   "ipa": "/t͡ɕʰaːj˧.kʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ส่วนที่สุดของหลังคาหรือปลายกันสาดที่ยื่นพ้นตัวเรือนออกมา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชาย",
     "คา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -532,24 +615,24 @@
    ]
   },
   {
-   "th": "หลังคา",
-   "translit_auto": "hlangkha",
+   "th": "คาวี",
+   "rtgs": "kha-wi",
+   "ipa": "/kʰaː˧.wiː˧/",
    "gloss": {
     "en": [
-     "roof"
+     "[needs a gloss]"
     ],
-    "th": "ส่วนเบื้องบนของเรือนเป็นต้น สำหรับบังแดดและฝน",
-    "conf": "verified",
+    "th": "วัว, วัวตัวเมีย",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
    "parts": [
-    "หลัง",
-    "คา"
+    "คา",
+    "วี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -572,5 +655,29 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kha",
+   "label": "ค่า",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kha\". คา is kaa, ค่า is kâa — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kha-3",
+   "label": "ขา",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kha\". คา is kaa, ขา is kǎa — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
 }

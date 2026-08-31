@@ -1,8 +1,10 @@
 {
  "id": "w:kham",
  "th": "คำ",
- "translit_auto": "kham",
- "status": "listed",
+ "status": "mapped",
+ "rtgs": "kham",
+ "paiboon": "kam",
+ "ipa": "/kʰam˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -31,7 +33,40 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: คำ 'speech, utterance'.",
+    "Declared root: คำ 'speech, utterance'.",
+    "Declared root: คำ 'speech, utterance'.",
+    "Declared root: คำ 'speech, utterance'."
+   ],
+   "compounds": [
+    {
+     "th": "คำราม",
+     "rtgs": "kham-ram",
+     "ipa": "/kʰam˧.raːm˧/",
+     "gloss": {
+      "en": [
+       "bark"
+      ],
+      "th": "ทำเสียงขู่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ราม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.27, next 0.18",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -57,7 +92,94 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "คำนำ",
+     "rtgs": "kham-nam",
+     "ipa": "/kʰam˧.nam˧/",
+     "gloss": {
+      "en": [
+       "introduction"
+      ],
+      "th": "คำอธิบายหรือชี้แจงเหตุที่เขียนหรือพิมพ์หนังสือเรื่องนั้นขึ้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "นำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.21, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "การผันคำ",
+     "rtgs": "kan-phan-kham",
+     "ipa": "/kaːn˧.pʰan˩˩˦.kʰam˧/",
+     "gloss": {
+      "en": [
+       "inflection"
+      ],
+      "th": "การเปลี่ยนรูปของคำ (โดยปกติส่วนท้ายของคำ) เพื่อแสดงหน้าที่หรือคุณลักษณะทางไวยากรณ์ เช่น กาล มาลา บุรุษ วจนะ (พจน์) การก และเพศ (ลิงค์)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "การผัน",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.15, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "คำขวัญ",
+     "rtgs": "kham-khwan",
+     "ipa": "/kʰam˧.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "motto"
+      ],
+      "th": "ถ้อยคำที่แต่งขึ้นเพื่อเตือนใจหรือเพื่อให้เป็นสิริมงคล",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ขวัญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.14, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Speech narrowed to the word as a unit of it.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -82,7 +204,39 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "คำมูล",
+     "rtgs": "kham-mun",
+     "ipa": "/kʰam˧.muːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำคำเดียวที่ไม่ได้ประสมกับคำอื่น เช่น ยาม แขก นาฬิกา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "มูล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.17, next 0.01",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "Prefixed to form the names of such units.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -107,7 +261,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The classifier for utterances.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -132,7 +290,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A mouthful counted as the mouth's other output.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -157,7 +319,39 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "คำอ่าน",
+     "rtgs": "kham-an",
+     "ipa": "/kʰam˧.ʔaːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การออกเสียงของคำหนึ่ง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "อ่าน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.26, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Two lines of verse counted as one คำ.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -182,7 +376,454 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ทองคำ",
+     "rtgs": "thong-kham",
+     "ipa": "/tʰɔːŋ˧.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ธาตุลำดับที่ 79 สัญลักษณ์ Au เป็นโลหะ ลักษณะเป็นของแข็งสีเหลือง ทองคำ เป็นโลหะชนิดหนึ่ง มีราคาแพง ทอง เฉย ๆ ก็เรียก, บางถิ่นของไทยเรียกว่า \"คำ\"",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทอง",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "needs_check": [
+    "Declared root: คำ 'gold' — the Northern word, as in คำเมือง's own ทองคำ.",
+    "Declared root: คำ 'gold' — the Northern word, as in คำเมือง's own ทองคำ.",
+    "Declared root: คำ 'gold' — the Northern word, as in คำเมือง's own ทองคำ.",
+    "Declared root: คำ 'gold' — the Northern word, as in คำเมือง's own ทองคำ."
    ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "kham as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 14 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 102 of the 5333 wats in the northern registry carry it, and 79 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 14 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 14 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "102 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "คำแคน",
+     "rtgs": "kham-khaen",
+     "ipa": "/kʰam˧.kʰɛːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอมัญจาคีรี จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "แคน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ปะคำ",
+     "rtgs": "pa-kham",
+     "ipa": "/pa˨˩.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดบุรีรัมย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปะ",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ม่วงคำ",
+     "rtgs": "muang-kham",
+     "ipa": "/mua̯ŋ˥˩.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพาน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ม่วง",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "คำม่วง",
+     "rtgs": "kham-muang",
+     "ipa": "/kʰam˧.mua̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ม่วง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "คำบง",
+     "rtgs": "huai-phueng",
+     "ipa": "/hua̯j˥˩.pʰɯŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอห้วยผึ้ง จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "บง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "เชียงคำ",
+     "rtgs": "chiang-kham",
+     "ipa": "/t͡ɕʰia̯ŋ˧.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพะเยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เชียง",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ร่องคำ",
+     "rtgs": "rong-kham",
+     "ipa": "/rɔŋ˥˩.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ร่อง",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "คูคำ",
+     "rtgs": "khu-kham",
+     "ipa": "/kʰuː˧.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอซำสูง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "นาคำ",
+     "rtgs": "na-kham",
+     "ipa": "/naː˧.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออุบลรัตน์ จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "แม่คำ",
+     "rtgs": "mae-kham",
+     "ipa": "/mɛː˥˩.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่จัน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "จองคำ",
+     "rtgs": "chong-kham",
+     "ipa": "/t͡ɕɔːŋ˧.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองแม่ฮ่องสอน จังหวัดแม่ฮ่องสอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จอง",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "คำใหญ่",
+     "rtgs": "kham-yai",
+     "ipa": "/kʰam˧.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอห้วยเม็ก จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ใหญ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "คำหยาด",
+     "rtgs": "kham-yat",
+     "ipa": "/kʰam˧.jaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโพธิ์ทอง จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "หยาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ยางคำ",
+     "rtgs": "yang-kham",
+     "ipa": "/jaːŋ˧.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอหนองเรือ จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยาง",
+      "คำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -194,28 +835,31 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 177 manuscript titles, 215 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'kham', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 56; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
   {
-   "th": "คำผสม",
-   "translit_auto": "khamphsm",
+   "th": "คืนคำ",
+   "rtgs": "khuen-kham",
+   "ipa": "/kʰɯːn˧.kʰam˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "คำประสม",
+    "th": "ไม่ทำตามคำพูดที่ได้สัญญาไว้, พูดว่าจะให้แล้วไม่ให้",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "คำ",
-    "ผสม"
+    "คืน",
+    "คำ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -223,13 +867,15 @@
    ]
   },
   {
-   "th": "คำราม",
-   "translit_auto": "khamram",
+   "th": "คำถาม",
+   "rtgs": "kham-tham",
+   "ipa": "/kʰam˧.tʰaːm˩˩˦/",
    "gloss": {
     "en": [
-     "bark"
+     "question",
+     "problem"
     ],
-    "th": "ทำเสียงขู่",
+    "th": "ข้อความที่ใช้ถาม, ปัญหา",
     "conf": "verified",
     "src": [
      "RID",
@@ -238,465 +884,7 @@
    },
    "parts": [
     "คำ",
-    "ราม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำนำ",
-   "translit_auto": "khamnam",
-   "gloss": {
-    "en": [
-     "introduction"
-    ],
-    "th": "คำอธิบายหรือชี้แจงเหตุที่เขียนหรือพิมพ์หนังสือเรื่องนั้นขึ้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "นำ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การคืนคำ",
-   "translit_auto": "karkhuenkham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ คืนคำ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การคืน",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หอคำ",
-   "translit_auto": "hokham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรือนของเจ้าผู้ครองแคว้นไทใหญ่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หอ",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "จองคำ",
-   "translit_auto": "chongkham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองแม่ฮ่องสอน จังหวัดแม่ฮ่องสอน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "จอง",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ประคำ",
-   "translit_auto": "prakham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลูกกลม ๆ ที่ร้อยเป็นพวงสำหรับเป็นเครื่องหมายการนับในเวลาบริกรรมภาวนาหรือสำหรับใช้เป็นเครื่องราง, เรียกเครื่องประดับที่ทำด้วยทองคำเป็นต้นมีลักษณะคล้ายคลึงเช่นนั้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ประ",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ลูกคำ",
-   "translit_auto": "lukkham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรียกคำ 2 คำเมื่อเอามาประสมกันแล้วมีความหมายต่างไปจากคำเดิมว่า ลูกคำของคำตั้ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลูก",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำแคน",
-   "translit_auto": "khamkhaen",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอมัญจาคีรี จังหวัดขอนแก่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "แคน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ปากคำ",
-   "translit_auto": "pakkham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ถ้อยคำที่บุคคล คู่กรณี หรือพยานให้ไว้กับเจ้าพนักงาน ศาล หรือเจ้าหน้าที่อื่นของรัฐ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ปาก",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำพิพากษา",
-   "translit_auto": "khamphiphaksa",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำวินิจฉัยชี้ขาดของศาลในประเด็นแห่งคดีที่ฟ้องต่อศาล",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "พิพากษา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "แม่คำ",
-   "translit_auto": "maekham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอแม่จัน จังหวัดเชียงราย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำตาย",
-   "translit_auto": "khamtay",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำสระสั้นที่ไม่มีตัวสะกดพวกหนึ่ง และคำในมาตรา กก กด กบ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ตาย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำสนอง",
-   "translit_auto": "khamsnong",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "การแสดงเจตนาของบุคคลฝ่ายหนึ่งตกลงรับคำเสนอของบุคคลอีกฝ่ายหนึ่ง อันเป็นผลให้เกิดมีความผูกพันเป็นสัญญาขึ้นตามกฎหมาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "สนอง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำเป็น",
-   "translit_auto": "khampen",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำสระยาวที่ไม่มีตัวสะกด และคำในมาตรา กง กน กม เกย เกอว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "เป็น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำตั้ง",
-   "translit_auto": "khamtang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำที่ยกขึ้นตั้งเพื่อนิยามความหมายในการทำพจนานุกรม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ตั้ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การผันคำ",
-   "translit_auto": "karphankham",
-   "gloss": {
-    "en": [
-     "inflection"
-    ],
-    "th": "การเปลี่ยนรูปของคำ (โดยปกติส่วนท้ายของคำ) เพื่อแสดงหน้าที่หรือคุณลักษณะทางไวยากรณ์ เช่น กาล มาลา บุรุษ วจนะ (พจน์) การก และเพศ (ลิงค์)",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "การผัน",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เชียงคำ",
-   "translit_auto": "cheiyngkham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดพะเยา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เชียง",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ม่วงคำ",
-   "translit_auto": "mwngkham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอพาน จังหวัดเชียงราย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ม่วง",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ร่องคำ",
-   "translit_auto": "rongkham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ร่อง",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำพูด",
-   "translit_auto": "khamphud",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ข้อความที่พูด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "พูด"
+    "ถาม"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -707,7 +895,8 @@
   },
   {
    "th": "การกลับคำ",
-   "translit_auto": "karklabkham",
+   "rtgs": "kan-klap-kham",
+   "ipa": "/kaːn˧.klap̚˨˩.kʰam˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -722,29 +911,32 @@
     "การกลับ",
     "คำ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "use": "nominalisation"
   },
   {
-   "th": "คำมั่น",
-   "translit_auto": "khamman",
+   "th": "คำแปล",
+   "rtgs": "kham-plae",
+   "ipa": "/kʰam˧.plɛː˧/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "translation"
     ],
-    "th": "การแสดงเจตนาฝ่ายเดียวของผู้ให้คำมั่นที่มีผลผูกพันผู้ให้คำมั่นเมื่อมีผู้แสดงเจตนารับรู้ที่สอดคล้องกับคำมั่น อันเป็นความผูกพันก่อนเกิดสัญญาที่มุ่งประสงค์จะทำระหว่างกัน, คำมั่นไม่จำเป็นต้องมีการเสนอให้มีการตกลงทำสัญญาเสมอไป",
-    "conf": "unverified",
+    "th": "ความหมายที่ถ่ายมาเป็นอีกภาษาหนึ่ง (ใช้กับคำหรือวลีเดียว)",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
    "parts": [
     "คำ",
-    "มั่น"
+    "แปล"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -754,8 +946,34 @@
    ]
   },
   {
+   "th": "หน่วยคำ",
+   "rtgs": "nuai-kham",
+   "ipa": "/nua̯j˨˩.kʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หน่วยในวิทยาหน่วยคำที่มีความหมายและไม่สามารถแยกออกให้เป็นส่วนที่เล็กกว่านี้ได้อีก เช่น คำว่า ผู้ใหญ่ มีหน่วยคำ 2 หน่วย คือ ผู้ กับ ใหญ่ และไม่สามารถแยกออกต่อจากนี้ได้อีกเพราะจะเหลือเพียงแต่ส่วนที่ไม่มีความหมายในภาษาไทย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน่วย",
+    "คำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "คำสั่ง",
-   "translit_auto": "khamsang",
+   "rtgs": "kham-sang",
+   "ipa": "/kʰam˧.saŋ˨˩/",
    "gloss": {
     "en": [
      "direction",
@@ -781,39 +999,14 @@
    ]
   },
   {
-   "th": "คำถาม",
-   "translit_auto": "khamtham",
-   "gloss": {
-    "en": [
-     "question",
-     "problem"
-    ],
-    "th": "ข้อความที่ใช้ถาม, ปัญหา",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ถาม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำม่วง",
-   "translit_auto": "khammwng",
+   "th": "คำพูด",
+   "rtgs": "kham-phut",
+   "ipa": "/kʰam˧.pʰuːt̚˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
+    "th": "ข้อความที่พูด",
     "conf": "unverified",
     "src": [
      "RID"
@@ -821,81 +1014,9 @@
    },
    "parts": [
     "คำ",
-    "ม่วง"
+    "พูด"
    ],
    "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำบง",
-   "translit_auto": "khambng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอห้วยผึ้ง จังหวัดกาฬสินธุ์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "บง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำเติม",
-   "translit_auto": "khamteim",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำที่เติมข้างหน้า ตรงกลาง หรือ ข้างหลัง ของคำตั้งในภาษาคำติดต่อ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "เติม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ทองคำ",
-   "translit_auto": "thongkham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ธาตุลำดับที่ 79 สัญลักษณ์ Au เป็นโลหะ ลักษณะเป็นของแข็งสีเหลือง ทองคำ เป็นโลหะชนิดหนึ่ง มีราคาแพง ทอง เฉย ๆ ก็เรียก, บางถิ่นของไทยเรียกว่า \"คำ\"",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทอง",
-    "คำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -904,7 +1025,8 @@
   },
   {
    "th": "คำนับ",
-   "translit_auto": "khamnab",
+   "rtgs": "kham-nap",
+   "ipa": "/kʰam˧.nap̚˦˥/",
    "gloss": {
     "en": [
      "bow"
@@ -928,8 +1050,564 @@
    ]
   },
   {
+   "th": "คำยืม",
+   "rtgs": "kham-yuem",
+   "ipa": "/kʰam˧.jɯːm˧/",
+   "gloss": {
+    "en": [
+     "borrowing",
+     "loanword"
+    ],
+    "th": "คำที่รับมาจากภาษาต่างประเทศตามรูป เสียง หรือความหมาย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "ยืม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำเป็น",
+   "rtgs": "kham-pen",
+   "ipa": "/kʰam˧.pen˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำสระยาวที่ไม่มีตัวสะกด และคำในมาตรา กง กน กม เกย เกอว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "เป็น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การคืนคำ",
+   "rtgs": "kan-khuen-kham",
+   "ipa": "/kaːn˧.kʰɯːn˧.kʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ คืนคำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การคืน",
+    "คำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "คำสนอง",
+   "rtgs": "kham-sa-nong",
+   "ipa": "/kʰam˧.sa˨˩.nɔːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การแสดงเจตนาของบุคคลฝ่ายหนึ่งตกลงรับคำเสนอของบุคคลอีกฝ่ายหนึ่ง อันเป็นผลให้เกิดมีความผูกพันเป็นสัญญาขึ้นตามกฎหมาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "สนอง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำประสม",
+   "rtgs": "kham-pra-som",
+   "ipa": "/kʰam˧.pra˨˩.som˩˩˦/",
+   "gloss": {
+    "en": [
+     "compound"
+    ],
+    "th": "คำที่เกิดจากการนำคำมูลที่เกิดอิสระได้ตั้งแต่ 2 คำขึ้นไปมาประสมกันแล้วกลายเป็นคำใหม่ที่มีความหมายใหม่ขึ้นมาอีกคำหนึ่ง เช่น ลูกเสือ ลูกน้ำ แขกยาม เครื่องใน ไฟฟ้า",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "ประสม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หอคำ",
+   "rtgs": "ho-kham",
+   "ipa": "/hɔː˩˩˦.kʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรือนของเจ้าผู้ครองแคว้นไทใหญ่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หอ",
+    "คำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำคม",
+   "rtgs": "kham-khom",
+   "ipa": "/kʰam˧.kʰom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถ้อยคำที่หลักแหลมชวนให้คิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "คม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำรบ",
+   "rtgs": "kham-rop",
+   "ipa": "/kʰam˧.rop̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ครั้งที่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "รบ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำเสนอ",
+   "rtgs": "kham-sa-noe",
+   "ipa": "/kʰam˧.sa˨˩.nɤː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การแสดงเจตนาว่าจะกระทำการหรืองดเว้นกระทำการอย่างใดอย่างหนึ่ง ที่บุคคลฝ่ายหนึ่งแจ้งต่อบุคคลอีกฝ่ายหนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "เสนอ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ลูกคำ",
+   "rtgs": "luk-kham",
+   "ipa": "/luːk̚˥˩.kʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรียกคำ 2 คำเมื่อเอามาประสมกันแล้วมีความหมายต่างไปจากคำเดิมว่า ลูกคำของคำตั้ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลูก",
+    "คำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำประพันธ์",
+   "rtgs": "kham-pra-phan",
+   "ipa": "/kʰam˧.pra˨˩.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถ้อยคำที่เรียบเรียงขึ้นโดยมีฉันทลักษณ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "ประพันธ์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำตั้ง",
+   "rtgs": "kham-tang",
+   "ipa": "/kʰam˧.taŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำที่ยกขึ้นตั้งเพื่อนิยามความหมายในการทำพจนานุกรม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "ตั้ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำเมือง",
+   "rtgs": "kham-mueang",
+   "ipa": "/kʰam˧.mɯa̯ŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภาษาไทยถิ่นเหนือ, ภาษาที่ใช้ทางภาคเหนือตอนบนของประเทศไทย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "เมือง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำผวน",
+   "rtgs": "kham-phuan",
+   "ipa": "/kʰam˧.pʰua̯n˩˩˦/",
+   "gloss": {
+    "en": [
+     "spoonerism"
+    ],
+    "th": "คำที่พูดทวนกลับ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "ผวน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กลับคำ",
+   "rtgs": "klap-kham",
+   "ipa": "/klap̚˨˩.kʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พูดแล้วไม่เป็นตามพูด, ไม่ทำตามที่พูดไว้, พูดแล้วเปลี่ยนคำพูด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กลับ",
+    "คำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำมั่น",
+   "rtgs": "kham-man",
+   "ipa": "/kʰam˧.man˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การแสดงเจตนาฝ่ายเดียวของผู้ให้คำมั่นที่มีผลผูกพันผู้ให้คำมั่นเมื่อมีผู้แสดงเจตนารับรู้ที่สอดคล้องกับคำมั่น อันเป็นความผูกพันก่อนเกิดสัญญาที่มุ่งประสงค์จะทำระหว่างกัน, คำมั่นไม่จำเป็นต้องมีการเสนอให้มีการตกลงทำสัญญาเสมอไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "มั่น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ปากคำ",
+   "rtgs": "pak-kham",
+   "ipa": "/paːk̚˨˩.kʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถ้อยคำที่บุคคล คู่กรณี หรือพยานให้ไว้กับเจ้าพนักงาน ศาล หรือเจ้าหน้าที่อื่นของรัฐ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ปาก",
+    "คำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำพิพากษา",
+   "rtgs": "kham-phi-phak-sa",
+   "ipa": "/kʰam˧.pʰi˦˥.pʰaːk̚˥˩.saː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำวินิจฉัยชี้ขาดของศาลในประเด็นแห่งคดีที่ฟ้องต่อศาล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "พิพากษา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำตาย",
+   "rtgs": "kham-tai",
+   "ipa": "/kʰam˧.taːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำสระสั้นที่ไม่มีตัวสะกดพวกหนึ่ง และคำในมาตรา กก กด กบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "ตาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำผสม",
+   "rtgs": "kham-pha-som",
+   "ipa": "/kʰam˧.pʰa˨˩.som˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำประสม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "ผสม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คำนิยม",
+   "rtgs": "kham-ni-yom",
+   "ipa": "/kʰam˧.ni˦˥.jom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ข้อความที่ผู้มีชื่อเสียงเขียนชื่นชมหนังสือเล่มนั้น อยู่ก่อนส่วนที่เป็นเนื้อเรื่อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "นิยม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ประคำ",
+   "rtgs": "pra-kham",
+   "ipa": "/pra˨˩.kʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลูกกลม ๆ ที่ร้อยเป็นพวงสำหรับเป็นเครื่องหมายการนับในเวลาบริกรรมภาวนาหรือสำหรับใช้เป็นเครื่องราง, เรียกเครื่องประดับที่ทำด้วยทองคำเป็นต้นมีลักษณะคล้ายคลึงเช่นนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ประ",
+    "คำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "คำตอบ",
-   "translit_auto": "khamtob",
+   "rtgs": "kham-top",
+   "ipa": "/kʰam˧.tɔːp̚˨˩/",
    "gloss": {
     "en": [
      "answer",
@@ -954,13 +1632,14 @@
    ]
   },
   {
-   "th": "คำแปล",
-   "translit_auto": "khampaen",
+   "th": "รับคำ",
+   "rtgs": "rap-kham",
+   "ipa": "/rap̚˦˥.kʰam˧/",
    "gloss": {
     "en": [
-     "translation"
+     "accept"
     ],
-    "th": "ความหมายที่ถ่ายมาเป็นอีกภาษาหนึ่ง (ใช้กับคำหรือวลีเดียว)",
+    "th": "รับปาก, ให้สัญญา, ตอบตกลง, ไม่ปฏิเสธ",
     "conf": "verified",
     "src": [
      "RID",
@@ -968,104 +1647,7 @@
     ]
    },
    "parts": [
-    "คำ",
-    "แปล"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำเสนอ",
-   "translit_auto": "khamsen",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "การแสดงเจตนาว่าจะกระทำการหรืองดเว้นกระทำการอย่างใดอย่างหนึ่ง ที่บุคคลฝ่ายหนึ่งแจ้งต่อบุคคลอีกฝ่ายหนึ่ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "เสนอ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำนิยม",
-   "translit_auto": "khamniym",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ข้อความที่ผู้มีชื่อเสียงเขียนชื่นชมหนังสือเล่มนั้น อยู่ก่อนส่วนที่เป็นเนื้อเรื่อง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "นิยม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำประสม",
-   "translit_auto": "khamprasm",
-   "gloss": {
-    "en": [
-     "compound"
-    ],
-    "th": "คำที่เกิดจากการนำคำมูลที่เกิดอิสระได้ตั้งแต่ 2 คำขึ้นไปมาประสมกันแล้วกลายเป็นคำใหม่ที่มีความหมายใหม่ขึ้นมาอีกคำหนึ่ง เช่น ลูกเสือ ลูกน้ำ แขกยาม เครื่องใน ไฟฟ้า",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "ประสม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คูคำ",
-   "translit_auto": "khukham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอซำสูง จังหวัดขอนแก่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คู",
+    "รับ",
     "คำ"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -1076,13 +1658,39 @@
    ]
   },
   {
-   "th": "คำขวัญ",
-   "translit_auto": "khamkhway",
+   "th": "คำเติม",
+   "rtgs": "kham-toem",
+   "ipa": "/kʰam˧.tɤːm˧/",
    "gloss": {
     "en": [
-     "motto"
+     "[needs a gloss]"
     ],
-    "th": "ถ้อยคำที่แต่งขึ้นเพื่อเตือนใจหรือเพื่อให้เป็นสิริมงคล",
+    "th": "คำที่เติมข้างหน้า ตรงกลาง หรือ ข้างหลัง ของคำตั้งในภาษาคำติดต่อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "เติม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ถ้อยคำ",
+   "rtgs": "thoi-kham",
+   "ipa": "/tʰɔj˥˩.kʰam˧/",
+   "gloss": {
+    "en": [
+     "phrase"
+    ],
+    "th": "คำที่กล่าว",
     "conf": "verified",
     "src": [
      "RID",
@@ -1090,55 +1698,7 @@
     ]
    },
    "parts": [
-    "คำ",
-    "ขวัญ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คำรบ",
-   "translit_auto": "khamrp",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ครั้งที่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "รบ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นาคำ",
-   "translit_auto": "nakham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภออุบลรัตน์ จังหวัดขอนแก่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
+    "ถ้อย",
     "คำ"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -1149,13 +1709,14 @@
    ]
   },
   {
-   "th": "คำประพันธ์",
-   "translit_auto": "khampraphant",
+   "th": "คำสุภาพ",
+   "rtgs": "kham-su-phap",
+   "ipa": "/kʰam˧.su˨˩.pʰaːp̚˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ถ้อยคำที่เรียบเรียงขึ้นโดยมีฉันทลักษณ์",
+    "th": "คำที่ไม่ผันด้วยวรรณยุกต์ทั้ง 4",
     "conf": "unverified",
     "src": [
      "RID"
@@ -1163,7 +1724,7 @@
    },
    "parts": [
     "คำ",
-    "ประพันธ์"
+    "สุภาพ"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",

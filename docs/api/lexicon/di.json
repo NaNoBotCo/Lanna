@@ -1,8 +1,10 @@
 {
  "id": "w:di",
  "th": "ดี",
- "translit_auto": "di",
- "status": "listed",
+ "status": "mapped",
+ "rtgs": "di",
+ "paiboon": "dii",
+ "ipa": "/diː˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -34,7 +36,92 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ดี 'good'.",
+    "Declared root: ดี 'good'.",
+    "Declared root: ดี 'good'.",
+    "Declared root: ดี 'good'.",
+    "Declared root: ดี 'good'."
+   ],
+   "compounds": [
+    {
+     "th": "ไยดี",
+     "rtgs": "yai-di",
+     "ipa": "/jaj˧.diː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พอใจ, ยินดี, เอื้อ, มักใช้ในความปฏิเสธ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไย",
+      "ดี"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "คนดี",
+     "rtgs": "khon-di",
+     "ipa": "/kʰon˧.diː˧/",
+     "gloss": {
+      "en": [
+       "brick"
+      ],
+      "th": "คนที่มีคุณความดี, คนที่มีคุณธรรม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คน",
+      "ดี"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "หวังดี",
+     "rtgs": "wang-di",
+     "ipa": "/waŋ˩˩˦.diː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีความปรารถนาที่ดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หวัง",
+      "ดี"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.10, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -63,7 +150,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Good set specifically against bad.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -91,7 +182,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Good to look at: beautiful.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -119,7 +214,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Good in arrangement: orderly.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -147,7 +246,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Good to hear: melodious.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -175,7 +278,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Good loosened into intensity — thoroughly, strongly.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -203,7 +310,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Good at a thing: skilled.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -231,6 +342,251 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "What is good to one is what one likes.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "good",
+     "nice",
+     "fine",
+     "well"
+    ],
+    "th": "อยู่ในสภาพปรกติ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, noun",
+   "pos_th": "คำคุณศัพท์, คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "คืนดี",
+     "rtgs": "khuen-di",
+     "ipa": "/kʰɯːn˧.diː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โกรธกันแล้วกลับดีกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คืน",
+      "ดี"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "In good condition: normal, well.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "good",
+     "nice",
+     "fine",
+     "well"
+    ],
+    "th": "อวัยวะภายในของคนและสัตว์ที่บรรจุน้ำข้นสีเขียว มีรสขม ซึ่งออกจากตับ สำหรับช่วยย่อยอาหาร",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, noun",
+   "pos_th": "คำคุณศัพท์, คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ดี 'gallbladder, bile' — a separate word.",
+    "Declared root: ดี 'gallbladder, bile' — a separate word.",
+    "Declared root: ดี 'gallbladder, bile' — a separate word.",
+    "Declared root: ดี 'gallbladder, bile' — a separate word.",
+    "Declared root: ดี 'gallbladder, bile' — a separate word."
+   ]
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "good",
+     "nice",
+     "fine",
+     "well"
+    ],
+    "th": "เรียกน้ำข้นสีเขียว มีรสขม ออกจากตับ สำหรับช่วยย่อยอาหารว่า น้ำดี",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, noun",
+   "pos_th": "คำคุณศัพท์, คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "น้ำดี",
+     "rtgs": "nam-di",
+     "ipa": "/naːm˦˥.diː˧/",
+     "gloss": {
+      "en": [
+       "gall"
+      ],
+      "th": "น้ำสะอาดที่ใช้ในการซักล้าง, น้ำอ่อน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ดี"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 11: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 10,
+   "via": "metonymy",
+   "via_note": "The organ names the bitter green fluid it holds — น้ำดี.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "good",
+     "nice",
+     "fine",
+     "well"
+    ],
+    "th": "ชื่อตัวอักษรในอักษรละติน D/d",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, noun",
+   "pos_th": "คำคุณศัพท์, คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "นาดี",
+     "rtgs": "na-di",
+     "ipa": "/naː˧.diː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดปราจีนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ดี"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ดีปลี",
+     "rtgs": "di-pli",
+     "ipa": "/diː˧.pliː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้เถาในสกุล Piper วงศ์ Piperaceae คือ ชนิด P. retrofractum Vahl มีรากตามข้อของลำต้นเพื่อยึดเกาะ ผลอัดแน่นเป็นช่อ ทุกส่วนมีกลิ่น โดยเฉพาะผลกลิ่นหอมฉุน รสเผ็ดร้อน ใช้เป็นเครื่องเทศและทำยาได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดี",
+      "ปลี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "needs_check": [
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either.",
+    "Declared root: the Latin letter D, filed here by the RID and not a sense of either."
    ]
   }
  ],
@@ -243,25 +599,54 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 71 manuscript titles, 1439 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'di', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 48; domain seeded by keyword hits ['อาหาร', 'รส'].",
  "compounds_unassigned": [
   {
-   "th": "มันดี",
-   "translit_auto": "mandi",
+   "th": "ความดี",
+   "rtgs": "khwam-di",
+   "ipa": "/kʰwaːm˧.diː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ที่อาบน้ำ",
+    "th": "คำอาการนามของ ดี",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "มัน",
+    "ความ",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ซีดี",
+   "rtgs": "si-di",
+   "ipa": "/siː˧.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สื่อบันทึกข้อมูลชนิดหนึ่ง ลักษณะเป็นแผ่นพลาสติกกลม ด้านหนึ่งทึบด้านหนึ่งใส",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ซี",
     "ดี"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -272,44 +657,21 @@
    ]
   },
   {
-   "th": "ดีไซน์",
-   "translit_auto": "disain",
+   "th": "ผู้ดี",
+   "rtgs": "phu-di",
+   "ipa": "/pʰuː˥˩.diː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "การออกแบบ, รูปลักษณะ",
+    "th": "คนที่เกิดในตระกูลดี",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ดี",
-    "ไซน์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การอวดดี",
-   "translit_auto": "karowddi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ อวดดี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การอวด",
+    "ผู้",
     "ดี"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -320,8 +682,9 @@
    ]
   },
   {
-   "th": "การหวังดี",
-   "translit_auto": "karhwangdi",
+   "th": "ความหวังดี",
+   "rtgs": "khwam-wang-di",
+   "ipa": "/kʰwaːm˧.waŋ˩˩˦.diː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -333,7 +696,33 @@
     ]
    },
    "parts": [
-    "การหวัง",
+    "ความหวัง",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "หัวดี",
+   "rtgs": "hua-di",
+   "ipa": "/hua̯˩˩˦.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เฉลียวฉลาดรอบคอบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หัว",
     "ดี"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -344,8 +733,86 @@
    ]
   },
   {
+   "th": "พอดี",
+   "rtgs": "pho-di",
+   "ipa": "/pʰɔː˧.diː˧/",
+   "gloss": {
+    "en": [
+     "just",
+     "fit"
+    ],
+    "th": "กำลังดี, พอเหมาะพอเจาะ, พอดิบพอดี ก็ว่า",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "พอ",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ฤๅดี",
+   "rtgs": "rue-di",
+   "ipa": "/rɯː˧.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความยินดี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ฤๅ",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ดีใจ",
+   "rtgs": "di-chai",
+   "ipa": "/diː˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยินดี, ชอบใจ, พอใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดี",
+    "ใจ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "ภักดี",
-   "translit_auto": "phakdi",
+   "rtgs": "phak-di",
+   "ipa": "/pʰak̚˦˥.diː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -368,8 +835,187 @@
    ]
   },
   {
+   "th": "ได้ดี",
+   "rtgs": "dai-di",
+   "ipa": "/daːj˥˩.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เจริญก้าวหน้า (ใช้แก่บุคคล), ประสบความสำเร็จ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ได้",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ยินดี",
+   "rtgs": "yin-di",
+   "ipa": "/jin˧.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชอบใจ, ดีใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยิน",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การรู้ดี",
+   "rtgs": "kan-ru-di",
+   "ipa": "/kaːn˧.ruː˦˥.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ รู้ดี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การรู้",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "การหวังดี",
+   "rtgs": "kan-wang-di",
+   "ipa": "/kaːn˧.waŋ˩˩˦.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หวังดี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหวัง",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "อินดี",
+   "rtgs": "in-di",
+   "ipa": "/ʔin˧.diː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เป็นอิสระ, มีความเป็นตัวของตัวเอง, มีลักษณะเฉพาะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อิน",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ความรู้ดี",
+   "rtgs": "khwam-ru-di",
+   "ipa": "/kʰwaːm˧.ruː˦˥.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ รู้ดี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความรู้",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ไอดี",
+   "rtgs": "ai-di",
+   "ipa": "/ʔaj˧.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อที่ตั้งขึ้นเพื่อระบุตัวตนของผู้ใช้ระบบคอมพิวเตอร์ ซึ่งของแต่ละคนจะไม่ซ้ำกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไอ",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "การคืนดี",
-   "translit_auto": "karkhuendi",
+   "rtgs": "kan-khuen-di",
+   "ipa": "/kaːn˧.kʰɯːn˧.diː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -382,6 +1028,413 @@
    },
    "parts": [
     "การคืน",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ดีเด่น",
+   "rtgs": "di-den",
+   "ipa": "/diː˧.den˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดีมาก, ยอดเยี่ยม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดี",
+    "เด่น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ดีเดือด",
+   "rtgs": "di-dueat",
+   "ipa": "/diː˧.dɯa̯t̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มีอาการคลุ้มคลั่งมุทะลุดุดันเป็นคราว ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดี",
+    "เดือด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ดีไซน์",
+   "rtgs": "di-sai",
+   "ipa": "/diː˧.saːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การออกแบบ, รูปลักษณะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดี",
+    "ไซน์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ความพอดี",
+   "rtgs": "khwam-pho-di",
+   "ipa": "/kʰwaːm˧.pʰɔː˧.diː˧/",
+   "gloss": {
+    "en": [
+     "fit"
+    ],
+    "th": "คำอาการนามของ พอดี",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความพอ",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ดีกรี",
+   "rtgs": "di-kri",
+   "ipa": "/diː˧.kriː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วุฒิการศึกษาระดับอุดมศึกษา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดี",
+    "กรี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "อวดดี",
+   "rtgs": "uat-di",
+   "ipa": "/ʔua̯t̚˨˩.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทะนงใจว่าตนดี, ถือดี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อวด",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ดีซ่าน",
+   "rtgs": "di-san",
+   "ipa": "/diː˧.saːn˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อโรคซึ่งเกิดกับผู้ป่วยที่มีสารสีชนิดหนึ่งในน้ำดี ซึ่งเรียกว่า บิลิรูบิน ปรากฏในเลือดสูงกว่าระดับปรกติในคนธรรมดา ทำให้ผู้ป่วยมีอาการตัวเหลือง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดี",
+    "ซ่าน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ญาติดี",
+   "rtgs": "yat-di",
+   "ipa": "/jaːt̚˥˩.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดีกัน, ร่วมกัน, เป็นพวกเดียวกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ญาติ",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เกินดี",
+   "rtgs": "koen-di",
+   "ipa": "/kɤːn˧.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เลยไปจนหมดดี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกิน",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "มันดี",
+   "rtgs": "man-di",
+   "ipa": "/man˧.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ที่อาบน้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มัน",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ดีฉัน",
+   "rtgs": "di-chan",
+   "ipa": "/diː˧.t͡ɕʰan˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำใช้แทนตัวผู้พูด เพศหญิง, เป็นสรรพนามบุรุษที่ 1",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดี",
+    "ฉัน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การอวดดี",
+   "rtgs": "kan-uat-di",
+   "ipa": "/kaːn˧.ʔua̯t̚˨˩.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ อวดดี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การอวด",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ดีเจ",
+   "rtgs": "di-che",
+   "ipa": "/diː˧.t͡ɕeː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้มีอาชีพเลือกเพลงและเปิดเพลงให้ผู้อื่นฟัง มักทำงานในสถานบันเทิงหรือสถานีวิทยุเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดี",
+    "เจ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ลองดี",
+   "rtgs": "long-di",
+   "ipa": "/lɔːŋ˧.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หาทางพิสูจน์ว่าจะดีจริงหรือไม่ (โดยมากเป็นไปในเชิงดูหมิ่นหรือท้าทาย)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลอง",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ใจดี",
+   "rtgs": "chai-di",
+   "ipa": "/t͡ɕaj˧.diː˧/",
+   "gloss": {
+    "en": [
+     "kind",
+     "nice",
+     "gentle"
+    ],
+    "th": "มีใจเมตตากรุณา, ไม่โกรธง่าย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ใจ",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "รู้ดี",
+   "rtgs": "ru-di",
+   "ipa": "/ruː˦˥.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รู้เป็นอย่างดี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รู้",
     "ดี"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -416,638 +1469,9 @@
    ]
   },
   {
-   "th": "ความดี",
-   "translit_auto": "khwamdi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ดี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ความ",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คนดี",
-   "translit_auto": "khndi",
-   "gloss": {
-    "en": [
-     "brick"
-    ],
-    "th": "คนที่มีคุณความดี, คนที่มีคุณธรรม",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คน",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "อินดี",
-   "translit_auto": "indi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เป็นอิสระ, มีความเป็นตัวของตัวเอง, มีลักษณะเฉพาะ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อิน",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ดีฉัน",
-   "translit_auto": "dichan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำใช้แทนตัวผู้พูด เพศหญิง, เป็นสรรพนามบุรุษที่ 1",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ดี",
-    "ฉัน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ใจดี",
-   "translit_auto": "chaidi",
-   "gloss": {
-    "en": [
-     "kind",
-     "nice",
-     "gentle"
-    ],
-    "th": "มีใจเมตตากรุณา, ไม่โกรธง่าย",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ใจ",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ได้ดี",
-   "translit_auto": "daidi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เจริญก้าวหน้า (ใช้แก่บุคคล), ประสบความสำเร็จ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ได้",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "อวดดี",
-   "translit_auto": "wddi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทะนงใจว่าตนดี, ถือดี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อวด",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ฤๅดี",
-   "translit_auto": "ฤadi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ความยินดี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ฤๅ",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ซีดี",
-   "translit_auto": "sidi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สื่อบันทึกข้อมูลชนิดหนึ่ง ลักษณะเป็นแผ่นพลาสติกกลม ด้านหนึ่งทึบด้านหนึ่งใส",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ซี",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การรู้ดี",
-   "translit_auto": "karrudi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ รู้ดี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การรู้",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ไอดี",
-   "translit_auto": "aidi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อที่ตั้งขึ้นเพื่อระบุตัวตนของผู้ใช้ระบบคอมพิวเตอร์ ซึ่งของแต่ละคนจะไม่ซ้ำกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไอ",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คืนดี",
-   "translit_auto": "khuendi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "โกรธกันแล้วกลับดีกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คืน",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "น้ำดี",
-   "translit_auto": "namdi",
-   "gloss": {
-    "en": [
-     "gall"
-    ],
-    "th": "น้ำสะอาดที่ใช้ในการซักล้าง, น้ำอ่อน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "น้ำ",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ลองดี",
-   "translit_auto": "longdi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หาทางพิสูจน์ว่าจะดีจริงหรือไม่ (โดยมากเป็นไปในเชิงดูหมิ่นหรือท้าทาย)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลอง",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความพอดี",
-   "translit_auto": "khwamphodi",
-   "gloss": {
-    "en": [
-     "fit"
-    ],
-    "th": "คำอาการนามของ พอดี",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ความพอ",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เกินดี",
-   "translit_auto": "keindi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เลยไปจนหมดดี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เกิน",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ดีใจ",
-   "translit_auto": "dichai",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยินดี, ชอบใจ, พอใจ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ดี",
-    "ใจ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ญาติดี",
-   "translit_auto": "yatidi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ดีกัน, ร่วมกัน, เป็นพวกเดียวกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ญาติ",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ของดี",
-   "translit_auto": "khongdi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ของขลัง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ของ",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ดีเจ",
-   "translit_auto": "diche",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้มีอาชีพเลือกเพลงและเปิดเพลงให้ผู้อื่นฟัง มักทำงานในสถานบันเทิงหรือสถานีวิทยุเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ดี",
-    "เจ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยินดี",
-   "translit_auto": "yindi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชอบใจ, ดีใจ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ยิน",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความหวังดี",
-   "translit_auto": "khwamhwangdi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ หวังดี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ความหวัง",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ไยดี",
-   "translit_auto": "yaidi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พอใจ, ยินดี, เอื้อ, มักใช้ในความปฏิเสธ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไย",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นาดี",
-   "translit_auto": "nadi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดปราจีนบุรี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ดีกรี",
-   "translit_auto": "dikri",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "วุฒิการศึกษาระดับอุดมศึกษา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ดี",
-    "กรี"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หัวดี",
-   "translit_auto": "hawdi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เฉลียวฉลาดรอบคอบ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หัว",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "ความอินดี",
-   "translit_auto": "khwamindi",
+   "rtgs": "khwam-in-di",
+   "ipa": "/kʰwaːm˧.ʔin˧.diː˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -1062,16 +1486,18 @@
     "ความอิน",
     "ดี"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "use": "nominalisation"
   },
   {
    "th": "ดีบุก",
-   "translit_auto": "dibuk",
+   "rtgs": "di-buk",
+   "ipa": "/diː˧.buk̚˨˩/",
    "gloss": {
     "en": [
      "tin"
@@ -1095,23 +1521,24 @@
    ]
   },
   {
-   "th": "ดีปลี",
-   "translit_auto": "dipli",
+   "th": "ขวัญดี",
+   "rtgs": "khwan–di",
+   "ipa": "/kʰwan˩˩˦.diː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อไม้เถาในสกุล Piper วงศ์ Piperaceae คือ ชนิด P. retrofractum Vahl มีรากตามข้อของลำต้นเพื่อยึดเกาะ ผลอัดแน่นเป็นช่อ ทุกส่วนมีกลิ่น โดยเฉพาะผลกลิ่นหอมฉุน รสเผ็ดร้อน ใช้เป็นเครื่องเทศและทำยาได้",
+    "th": "กำลังใจดี",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ดี",
-    "ปลี"
+    "ขวัญ",
+    "ดี"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -1119,23 +1546,49 @@
    ]
   },
   {
-   "th": "ดีซ่าน",
-   "translit_auto": "disan",
+   "th": "ถือดี",
+   "rtgs": "thue-di",
+   "ipa": "/tʰɯː˩˩˦.diː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อโรคซึ่งเกิดกับผู้ป่วยที่มีสารสีชนิดหนึ่งในน้ำดี ซึ่งเรียกว่า บิลิรูบิน ปรากฏในเลือดสูงกว่าระดับปรกติในคนธรรมดา ทำให้ผู้ป่วยมีอาการตัวเหลือง",
+    "th": "ทะนงตัว, อวดดี, สำคัญว่ามีดีในตน",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ดี",
-    "ซ่าน"
+    "ถือ",
+    "ดี"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ของดี",
+   "rtgs": "khong-di",
+   "ipa": "/kʰɔːŋ˩˩˦.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ของขลัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ของ",
+    "ดี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -1144,7 +1597,8 @@
   },
   {
    "th": "ดีแตก",
-   "translit_auto": "ditaek",
+   "rtgs": "di-taek",
+   "ipa": "/diː˧.tɛːk̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -1167,47 +1621,27 @@
    ]
   },
   {
-   "th": "รู้ดี",
-   "translit_auto": "rudi",
+   "th": "ดีกว่า",
+   "rtgs": "di-kwa",
+   "ipa": "/diː˧.kwaː˨˩/",
    "gloss": {
     "en": [
-     "[needs a gloss]"
+     "best",
+     "better",
+     "paragon"
     ],
-    "th": "รู้เป็นอย่างดี",
-    "conf": "unverified",
+    "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
    "parts": [
-    "รู้",
-    "ดี"
+    "ดี",
+    "กว่า"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความรู้ดี",
-   "translit_auto": "khwamrudi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ รู้ดี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ความรู้",
-    "ดี"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",

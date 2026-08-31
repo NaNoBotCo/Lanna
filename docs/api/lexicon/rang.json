@@ -1,8 +1,10 @@
 {
  "id": "w:rang",
  "th": "รัง",
- "translit_auto": "rang",
- "status": "listed",
+ "status": "proposed",
+ "rtgs": "rang",
+ "paiboon": "rang",
+ "ipa": "/raŋ˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -32,6 +34,83 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "กุดรัง",
+     "rtgs": "kut-rang",
+     "ipa": "/kut̚˨˩.raŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดมหาสารคาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "รัง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "โนนรัง",
+     "rtgs": "non-rang",
+     "ipa": "/noːn˧.raŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอชุมพวง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โนน",
+      "รัง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "หลุมรัง",
+     "rtgs": "lum-rang",
+     "ipa": "/lum˩˩˦.raŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ่อพลอย จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลุม",
+      "รัง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -57,6 +136,34 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "รังไข่",
+     "rtgs": "rang-khai",
+     "ipa": "/raŋ˧.kʰaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อวัยวะภายในร่างกายของผู้หญิงและสัตว์ตัวเมีย เป็นที่เกิดไข่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "ไข่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.14, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -82,6 +189,87 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "รังผึ้ง",
+     "rtgs": "rang-phueng",
+     "ipa": "/raŋ˧.pʰɯŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รังที่ผึ้งทำสำหรับอยู่อาศัยและทำน้ำผึ้ง, รังที่คนทำให้ผึ้งอาศัยทำรวงข้างใน, เรียกสิ่งที่มีลักษณะคล้ายคลึงเช่นนั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "ผึ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.45, next 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "รังแค",
+     "rtgs": "rang-khae",
+     "ipa": "/raŋ˧.kʰɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขุยหนังหัว มีลักษณะเป็นผง ๆ สีขาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "แค"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.14, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "รังนก",
+     "rtgs": "rang-nok",
+     "ipa": "/raŋ˧.nok̚˦˥/",
+     "gloss": {
+      "en": [
+       "nest"
+      ],
+      "th": "รังของนกอีแอ่นชนิดหนึ่ง เมื่อแช่น้ำมีลักษณะคล้ายวุ้น กินได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "นก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.26, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -107,6 +295,61 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "รังสฤษฏ์",
+     "rtgs": "rang-sa-rit",
+     "ipa": "/raŋ˧.sa˨˩.rit̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สร้าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "สฤษฏ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.28, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "รังสรรค์",
+     "rtgs": "rang-san",
+     "ipa": "/raŋ˧.san˩˩˦/",
+     "gloss": {
+      "en": [
+       "create"
+      ],
+      "th": "สร้าง, แต่งตั้ง, ประดิษฐ์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "สรรค์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.40, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   }
  ],
@@ -119,399 +362,14 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 11 manuscript titles, 64 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'rang', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['แมลง', 'สัตว์', 'นก'].",
  "compounds_unassigned": [
   {
-   "th": "รังนก",
-   "translit_auto": "rangnk",
-   "gloss": {
-    "en": [
-     "nest"
-    ],
-    "th": "รังของนกอีแอ่นชนิดหนึ่ง เมื่อแช่น้ำมีลักษณะคล้ายวุ้น กินได้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "รัง",
-    "นก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "รังแค",
-   "translit_auto": "rangk",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขุยหนังหัว มีลักษณะเป็นผง ๆ สีขาว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รัง",
-    "แค"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กุดรัง",
-   "translit_auto": "kudrang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดมหาสารคาม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กุด",
-    "รัง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "รังแก",
-   "translit_auto": "rangk",
-   "gloss": {
-    "en": [
-     "bully"
-    ],
-    "th": "แกล้งทำความเดือดร้อนให้ผู้อื่น (มักใช้แก่ผู้มีอำนาจมากกว่า)",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "รัง",
-    "แก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "รังสิ",
-   "translit_auto": "rangsi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แสง, แสงสว่าง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รัง",
-    "สิ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "รังเกลียด",
-   "translit_auto": "rangkeliyt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รูปสะกดผิดของ รังเกียจ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รัง",
-    "เกลียด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "รังดุม",
-   "translit_auto": "rangdum",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ช่องที่เจาะสำหรับขัดลูกดุม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รัง",
-    "ดุม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ตายรัง",
-   "translit_auto": "tayrang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ในที่สุดก็ต้องหวนกลับมาอยู่กับครอบครัวตามเดิม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตาย",
-    "รัง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กาหลงรัง",
-   "translit_auto": "kahlngrang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ที่ไปหลงติดอยู่ ณ บ้านใดบ้านหนึ่งแล้วไม่ยอมกลับบ้านของตน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กาหลง",
-    "รัง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เรื้อรัง",
-   "translit_auto": "reueorang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยืดเยื้อ, นานหาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เรื้อ",
-    "รัง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "โนนรัง",
-   "translit_auto": "nonrang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอชุมพวง จังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "โนน",
-    "รัง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "รังผึ้ง",
-   "translit_auto": "rangphueng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รังที่ผึ้งทำสำหรับอยู่อาศัยและทำน้ำผึ้ง, รังที่คนทำให้ผึ้งอาศัยทำรวงข้างใน, เรียกสิ่งที่มีลักษณะคล้ายคลึงเช่นนั้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รัง",
-    "ผึ้ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หลุมรัง",
-   "translit_auto": "hlumrang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอบ่อพลอย จังหวัดกาญจนบุรี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หลุม",
-    "รัง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "รังสฤษฏ์",
-   "translit_auto": "rangsฤst",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สร้าง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รัง",
-    "สฤษฏ์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "รังควาน",
-   "translit_auto": "rangkhwan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รบกวนทำให้รำคาญหรือเดือดร้อน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รัง",
-    "ควาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "รังไข่",
-   "translit_auto": "rangk",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อวัยวะภายในร่างกายของผู้หญิงและสัตว์ตัวเมีย เป็นที่เกิดไข่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รัง",
-    "ไข่"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "กะรัง",
-   "translit_auto": "karang",
+   "rtgs": "ka-rang",
+   "ipa": "/ka˨˩.raŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -534,22 +392,22 @@
    ]
   },
   {
-   "th": "รังสรรค์",
-   "translit_auto": "rangsrrk",
+   "th": "รังเกลียด",
+   "rtgs": "rang-kliat",
+   "ipa": "/raŋ˧.klia̯t̚˨˩/",
    "gloss": {
     "en": [
-     "create"
+     "[needs a gloss]"
     ],
-    "th": "สร้าง, แต่งตั้ง, ประดิษฐ์",
-    "conf": "verified",
+    "th": "รูปสะกดผิดของ รังเกียจ",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
    "parts": [
     "รัง",
-    "สรรค์"
+    "เกลียด"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -559,8 +417,111 @@
    ]
   },
   {
+   "th": "รังเกียจ",
+   "rtgs": "rang-kiat",
+   "ipa": "/raŋ˧.kia̯t̚˨˩/",
+   "gloss": {
+    "en": [
+     "abominate",
+     "abomine"
+    ],
+    "th": "เกลียดเพราะรู้สึกขยะแขยงหรือไม่ชอบใจเป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รัง",
+    "เกียจ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "รังควาน",
+   "rtgs": "rang-khwan",
+   "ipa": "/raŋ˧.kʰwaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รบกวนทำให้รำคาญหรือเดือดร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รัง",
+    "ควาน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "รังสิ",
+   "rtgs": "rang-si",
+   "ipa": "/raŋ˧.siʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แสง, แสงสว่าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รัง",
+    "สิ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตายรัง",
+   "rtgs": "tai-rang",
+   "ipa": "/taːj˧.raŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ในที่สุดก็ต้องหวนกลับมาอยู่กับครอบครัวตามเดิม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตาย",
+    "รัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "รังสี",
-   "translit_auto": "rangsi",
+   "rtgs": "rang-si",
+   "ipa": "/raŋ˧.siː˩˩˦/",
    "gloss": {
     "en": [
      "ray",
@@ -585,14 +546,89 @@
    ]
   },
   {
-   "th": "รังเกียจ",
-   "translit_auto": "rangkeiyt",
+   "th": "เรื้อรัง",
+   "rtgs": "ruea-rang",
+   "ipa": "/rɯa̯˦˥.raŋ˧/",
    "gloss": {
     "en": [
-     "abominate",
-     "abomine"
+     "[needs a gloss]"
     ],
-    "th": "เกลียดเพราะรู้สึกขยะแขยงหรือไม่ชอบใจเป็นต้น",
+    "th": "ยืดเยื้อ, นานหาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เรื้อ",
+    "รัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "รังดุม",
+   "rtgs": "rang-dum",
+   "ipa": "/raŋ˧.dum˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ช่องที่เจาะสำหรับขัดลูกดุม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รัง",
+    "ดุม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กาหลงรัง",
+   "rtgs": "ka–long–rang",
+   "ipa": "/kaː˧.loŋ˩˩˦.raŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ที่ไปหลงติดอยู่ ณ บ้านใดบ้านหนึ่งแล้วไม่ยอมกลับบ้านของตน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กาหลง",
+    "รัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "รังแก",
+   "rtgs": "rang-kae",
+   "ipa": "/raŋ˧.kɛː˧/",
+   "gloss": {
+    "en": [
+     "bully"
+    ],
+    "th": "แกล้งทำความเดือดร้อนให้ผู้อื่น (มักใช้แก่ผู้มีอำนาจมากกว่า)",
     "conf": "verified",
     "src": [
      "RID",
@@ -601,7 +637,7 @@
    },
    "parts": [
     "รัง",
-    "เกียจ"
+    "แก"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",

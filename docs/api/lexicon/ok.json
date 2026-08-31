@@ -1,8 +1,10 @@
 {
  "id": "w:ok",
- "th": "ออก",
- "translit_auto": "ok",
- "status": "listed",
+ "th": "อก",
+ "status": "proposed",
+ "rtgs": "ok",
+ "paiboon": "òk",
+ "ipa": "/ʔok̚˨˩/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -10,21 +12,18 @@
    "n": 1,
    "gloss": {
     "en": [
-     "tear",
-     "out",
-     "issue"
+     "[needs an English gloss — RID sense 1]"
     ],
-    "th": "คำนำหน้าบรรดาศักดิ์",
-    "conf": "verified",
+    "th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างคอกับท้อง",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
-   "pos": "noun, verb, adjective, คำกริยาวิเศษณ์",
-   "pos_th": "คำนาม, คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "pos": "noun",
+   "pos_th": "คำนาม",
    "domains": [
-    "d:motion"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
@@ -40,48 +39,69 @@
    "n": 2,
    "gloss": {
     "en": [
-     "tear",
-     "out",
-     "issue"
+     "[needs an English gloss — RID sense 2]"
     ],
-    "th": "เรียกพ่อแม่ผู้ให้กำเนิดว่า พ่อออก แม่ออก",
-    "conf": "verified",
+    "th": "ใจ",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
-   "pos": "noun, verb, adjective, คำกริยาวิเศษณ์",
-   "pos_th": "คำนาม, คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "pos": "noun",
+   "pos_th": "คำนาม",
    "domains": [
-    "d:motion"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "อกกรม",
+     "rtgs": "ok-krom",
+     "ipa": "/ʔok̚˨˩.krom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีความระทมใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อก",
+      "กรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
    "n": 3,
    "gloss": {
     "en": [
-     "tear",
-     "out",
-     "issue"
+     "[needs an English gloss — RID sense 3]"
     ],
-    "th": "เรียกเมืองที่สวามิภักดิ์ว่า เมืองออก",
-    "conf": "verified",
+    "th": "พวก, หมู่",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
-   "pos": "noun, verb, adjective, คำกริยาวิเศษณ์",
-   "pos_th": "คำนาม, คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "pos": "noun",
+   "pos_th": "คำนาม",
    "domains": [
-    "d:motion"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
@@ -94,21 +114,18 @@
    "n": 4,
    "gloss": {
     "en": [
-     "tear",
-     "out",
-     "issue"
+     "[needs an English gloss — RID sense 4]"
     ],
-    "th": "ชื่อเหยี่ยวขนาดใหญ่ชนิด Haliaeetus leucogaster ในวงศ์Accipitridae หัวและด้านล่างของลำตัวสีขาว ปีกสีเทา กินปลาและงูทะเล",
-    "conf": "verified",
+    "th": "หก, 6",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
-   "pos": "noun, verb, adjective, คำกริยาวิเศษณ์",
-   "pos_th": "คำนาม, คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "pos": "noun",
+   "pos_th": "คำนาม",
    "domains": [
-    "d:motion"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
@@ -121,108 +138,50 @@
    "n": 5,
    "gloss": {
     "en": [
-     "tear",
-     "out",
-     "issue"
+     "[needs an English gloss — RID sense 5]"
     ],
-    "th": "อาการที่เคลื่อนไปข้างนอกหรือพ้นจากที่ปิดบัง",
-    "conf": "verified",
+    "th": "เรียกลูกสาวคนที่ 6 ว่า ลูกอก, คู่กับ ลูกชายคนที่ 6 ว่า ลูกลก",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
-   "pos": "noun, verb, adjective, คำกริยาวิเศษณ์",
-   "pos_th": "คำนาม, คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "pos": "noun",
+   "pos_th": "คำนาม",
    "domains": [
-    "d:motion"
+    "d:body"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "n": 6,
-   "gloss": {
-    "en": [
-     "tear",
-     "out",
-     "issue"
-    ],
-    "th": "เคลื่อนจากที่",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "pos": "noun, verb, adjective, คำกริยาวิเศษณ์",
-   "pos_th": "คำนาม, คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
-   "domains": [
-    "d:motion"
    ],
-   "order_conf": "unverified",
-   "conf": "probable",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "n": 7,
-   "gloss": {
-    "en": [
-     "tear",
-     "out",
-     "issue"
-    ],
-    "th": "ทำให้ปรากฏ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "pos": "noun, verb, adjective, คำกริยาวิเศษณ์",
-   "pos_th": "คำนาม, คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
-   "domains": [
-    "d:motion"
-   ],
-   "order_conf": "unverified",
-   "conf": "probable",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "n": 8,
-   "gloss": {
-    "en": [
-     "tear",
-     "out",
-     "issue"
-    ],
-    "th": "ทำให้เกิดขึ้นมีขึ้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "pos": "noun, verb, adjective, คำกริยาวิเศษณ์",
-   "pos_th": "คำนาม, คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
-   "domains": [
-    "d:motion"
-   ],
-   "order_conf": "unverified",
-   "conf": "probable",
-   "src": [
-    "RID",
-    "WIKT"
+   "compounds": [
+    {
+     "th": "ลูกอก",
+     "translit_auto": "lukok",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกหญิงคนที่ 6",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "อก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   }
  ],
@@ -234,27 +193,55 @@
  ],
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
-  "Attested in this corpus: 14 manuscript titles, 102 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'ok', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Attested in this corpus: 133 manuscript titles, 1324 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
- "editorial": "Generated by lexicon_ingest.py. Generativity 26; domain seeded by keyword hits ['เคลื่อน', 'ตก', 'เข้า', 'ขึ้น'].",
+ "editorial": "Generated by lexicon_ingest.py. Generativity 31; domain seeded by keyword hits ['ร่างกาย', 'ท้อง', 'คอ', 'อก'].",
  "compounds_unassigned": [
   {
-   "th": "ออกลาย",
-   "translit_auto": "oklay",
+   "th": "หนอก",
+   "rtgs": "nok",
+   "ipa": "/nɔːk̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "เริ่มแสดงความไม่ดีให้ปรากฏหลังจากที่แสร้งทำดีมาแล้ว",
+    "th": "ก้อนเนื้อที่ต้นคอของสัตว์บางชนิดเช่นวัว",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ออก",
-    "ลาย"
+    "หน",
+    "อก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "อกตั้ง",
+   "rtgs": "ok-tang",
+   "ipa": "/ʔok̚˨˩.taŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เต็มที่, เต็มแรง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อก",
+    "ตั้ง"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -264,21 +251,21 @@
    ]
   },
   {
-   "th": "ออกชื่อ",
-   "translit_auto": "okchue",
+   "th": "อกเลา",
+   "translit_auto": "klea",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "บอกชื่อ, ขานชื่อ, แสดงชื่อ",
+    "th": "ไม้ที่เป็นสันทาบอยู่ที่บานประตูหรือหน้าต่างแบบโบราณ เพื่อบังช่องที่บานประตูหรือหน้าต่างทั้ง 2 บานประกับกัน",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ออก",
-    "ชื่อ"
+    "อก",
+    "เลา"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -288,15 +275,314 @@
    ]
   },
   {
-   "th": "ออกดอก",
-   "translit_auto": "okdok",
+   "th": "ขยอก",
+   "rtgs": "kha-yok",
+   "ipa": "/kʰa˨˩.jɔːk̚˨˩/",
    "gloss": {
     "en": [
-     "flower",
-     "abloom",
-     "bud"
+     "[needs a gloss]"
     ],
-    "th": "เกิดเป็นเม็ดตามผิวหนังเนื่องจากกามโรคเรื้อรัง",
+    "th": "ชื่อหนอนผีเสื้อชนิด Nymphula depunctalis ในวงศ์ Pyralidae ทำลายข้าวโดยกัดใบข้าวให้ขาดออกมาม้วนเป็นปลอกหุ้มตัว ยาว 3–5 เซนติเมตร ลอยไปตามน้ำได้ ตัวหนอนสีเขียวซีด ผิวค่อนข้างใส หัวสีน้ำตาล ข้างตัวมีเหงือกเป็นครีบข้างละ 6 แ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขย",
+    "อก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หงอก",
+   "rtgs": "ngok",
+   "ipa": "/ŋɔːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขาว (ใช้แก่ผมหรือหนวดเคราเป็นต้นที่เปลี่ยนจากสีเดิมเป็นสีขาว)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หง",
+    "อก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เกาะอก",
+   "rtgs": "ko-ok",
+   "ipa": "/kɔʔ˨˩.ʔok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เสื้อสตรีไม่มีแขน ขอบบนรัดอยู่ระดับเหนืออก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกาะ",
+    "อก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คลอก",
+   "rtgs": "khlok",
+   "ipa": "/kʰlɔːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการที่ไฟล้อมเผาหนีออกไม่ได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คล",
+    "อก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "โล่งอก",
+   "rtgs": "long-ok",
+   "ipa": "/loːŋ˥˩.ʔok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รู้สึกปลอดโปร่งใจเพราะปลดเปลื้องภาระหนักได้แล้ว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โล่ง",
+    "อก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "อกเต่า",
+   "rtgs": "ok-tao",
+   "ipa": "/ʔok̚˨˩.taw˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สิ่งที่มีลักษณะแบนแฟบอย่างอกของเต่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อก",
+    "เต่า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เลื่อยอก",
+   "translit_auto": "leueoyok",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เลื่อยที่มีไม้ยันกลาง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เลื่อย",
+    "อก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กลอก",
+   "rtgs": "klok",
+   "ipa": "/klɔːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เคลื่อนหรือขยับเขยื้อนกลับไปกลับมาภายในเขตของสิ่งนั้น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กล",
+    "อก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "แสอก",
+   "rtgs": "sa-aek",
+   "ipa": "/sa˨˩.ʔɛːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เวลาพรุ่งนี้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แส",
+    "อก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "อกแตก",
+   "translit_auto": "ktaek",
+   "ipa": "[ʔok̚˩.tɛːk̚˨˩]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลักษณะของเมืองหรือวัดเป็นต้นซึ่งมีลำน้ำหรือทางผ่ากลางเรียกว่า เมืองอกแตก วัดอกแตก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อก",
+    "แตก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หยอก",
+   "rtgs": "yok",
+   "ipa": "/jɔːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เล่นหรือล้อไม่จริงจัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หย",
+    "อก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กระโจมอก",
+   "rtgs": "kra-chom-ok",
+   "ipa": "/kra˨˩.t͡ɕoːm˧.ʔok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นุ่งผ้าสูงปิดอก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระโจม",
+    "อก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กรอก",
+   "rtgs": "krok",
+   "ipa": "/krɔːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "fill",
+     "fill up"
+    ],
+    "th": "เทลงในช่องแคบ",
     "conf": "verified",
     "src": [
      "RID",
@@ -304,32 +590,8 @@
     ]
    },
    "parts": [
-    "ออก",
-    "ดอก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "นกออก",
-   "translit_auto": "nkook",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นก",
-    "ออก"
+    "กร",
+    "อก"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -339,13 +601,64 @@
    ]
   },
   {
-   "th": "ทางออก",
-   "translit_auto": "thangook",
+   "th": "อกหัก",
+   "rtgs": "ok-hak",
+   "ipa": "/ʔok̚˨˩.hak̚˨˩/",
    "gloss": {
     "en": [
-     "exit"
+     "[needs a gloss]"
     ],
-    "th": "ช่องหรือทางสำหรับออก",
+    "th": "พลาดหวัง (มักใช้ในด้านความรัก)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อก",
+    "หัก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "อกโรย",
+   "rtgs": "ok-roi",
+   "ipa": "/ʔok̚˨˩.roːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการของคนที่มีลักษณะผอมจนเห็นกระดูกอก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อก",
+    "โรย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ตรอก",
+   "rtgs": "trok",
+   "ipa": "/trɔːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "alley"
+    ],
+    "th": "ทางแคบมีบ้านเรือนอยู่ 2 ข้าง",
     "conf": "verified",
     "src": [
      "RID",
@@ -353,8 +666,8 @@
     ]
    },
    "parts": [
-    "ทาง",
-    "ออก"
+    "ตร",
+    "อก"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -364,72 +677,21 @@
    ]
   },
   {
-   "th": "การออก",
-   "translit_auto": "karook",
+   "th": "อกว่าว",
+   "translit_auto": "kwaw",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "คำอาการนามของ ออก",
+    "th": "ไม้ที่เป็นแกนกลางของตัวว่าว",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "การ",
-    "ออก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การไล่ออก",
-   "translit_auto": "karlaiook",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ไล่ออก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การไล่",
-    "ออก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ออกแบบ",
-   "translit_auto": "okbaep",
-   "gloss": {
-    "en": [
-     "invent",
-     "design",
-     "pattern"
-    ],
-    "th": "กำหนดลักษณะและหน้าที่โดยการวาดภาพที่มีรายละเอียดสูง, ประดิษฐ์แบบ, ประดิษฐ์รูปลักษณะ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "แบบ"
+    "อก",
+    "ว่าว"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -439,142 +701,21 @@
    ]
   },
   {
-   "th": "ออกออ",
-   "translit_auto": "oko",
+   "th": "อกทะเล",
+   "translit_auto": "kthale",
+   "ipa": "[ʔok̚˩.tʰä˥.leː˧ ~ ʔok̚˩.tʰä˧.leː˧]",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "สมอง",
+    "th": "ชื่อเพลงไทย อัตรา 2 ชั้น และอัตรา 3 ชั้น หน้าทับสองไม้",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ออก",
-    "ออ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การแสดงออก",
-   "translit_auto": "karsaedngook",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ แสดงออก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การแสดง",
-    "ออก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ออกทุกข์",
-   "translit_auto": "okthukk",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เลิกไว้ทุกข์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "ทุกข์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "แสดงออก",
-   "translit_auto": "saedngook",
-   "gloss": {
-    "en": [
-     "use",
-     "representative"
-    ],
-    "th": "แสดงความรู้สึก ความคิดเห็น หรือความสามารถเป็นต้นให้ปรากฏ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แสดง",
-    "ออก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การลาออก",
-   "translit_auto": "karlaook",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ลาออก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การลา",
-    "ออก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ออกทะเล",
-   "translit_auto": "okthale",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ออกไปนอกชายฝั่งทะเลด้วยเรือเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ออก",
+    "อก",
     "ทะเล"
    ],
    "note": "head-initial; both parts are dictionary headwords",
@@ -585,21 +726,22 @@
    ]
   },
   {
-   "th": "ออกแรง",
-   "translit_auto": "okraeng",
+   "th": "อกคราก",
+   "rtgs": "ok-khrak",
+   "ipa": "/ʔok̚˨˩.kʰraːk̚˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ใช้กำลัง, ใช้แรงงาน, ใช้ความพยายาม",
+    "th": "คำที่กล่าวเปล่งออกมาหมายความว่า หนักเหลือเกิน, เดือดร้อนเหลือเกิน",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ออก",
-    "แรง"
+    "อก",
+    "คราก"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -609,21 +751,74 @@
    ]
   },
   {
-   "th": "สินค้าออก",
-   "translit_auto": "sinkhaook",
+   "th": "อกเลื่อย",
+   "translit_auto": "kleueoy",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "สินค้าที่ส่งออกต่างประเทศ",
+    "th": "ไม้อันกลางที่ยันเลื่อยให้ตึง",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "สินค้า",
-    "ออก"
+    "อก",
+    "เลื่อย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "อกไก่",
+   "rtgs": "ok-kai",
+   "ipa": "/ʔok̚˨˩.kaj˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อกของไก่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อก",
+    "ไก่"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หน้าอก",
+   "rtgs": "na-ok",
+   "ipa": "/naː˥˩.ʔok̚˨˩/",
+   "gloss": {
+    "en": [
+     "breast",
+     "chest",
+     "bazookas"
+    ],
+    "th": "ส่วนภายนอกของอก",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "อก"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -633,70 +828,22 @@
    ]
   },
   {
-   "th": "ออกอากาศ",
-   "translit_auto": "okakas",
-   "gloss": {
-    "en": [
-     "broadcast"
-    ],
-    "th": "กระจายเสียงทางวิทยุ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "อากาศ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ออกหน้า",
-   "translit_auto": "okhna",
+   "th": "หัวอก",
+   "rtgs": "hua-ok",
+   "ipa": "/hua̯˩˩˦.ʔok̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "แสดงให้ปรากฏอย่างเปิดเผย",
+    "th": "ส่วนเบื้องบนของอกในระดับหัวใจ",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ออก",
-    "หน้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ตะวันออก",
-   "translit_auto": "tawanook",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทิศที่ดวงอาทิตย์โผล่พ้นขอบฟ้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตะวัน",
-    "ออก"
+    "หัว",
+    "อก"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -706,71 +853,21 @@
    ]
   },
   {
-   "th": "ไล่ออก",
-   "translit_auto": "laiook",
-   "gloss": {
-    "en": [
-     "discharge"
-    ],
-    "th": "คัดชื่อออกจากทะเบียน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ไล่",
-    "ออก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ออกกำลัง",
-   "translit_auto": "okkamlang",
-   "gloss": {
-    "en": [
-     "exercise"
-    ],
-    "th": "ใช้กำลัง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "กำลัง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ออกลูก",
-   "translit_auto": "okluk",
+   "th": "อกเมือง",
+   "translit_auto": "kmeueong",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "คลอดลูก (ใช้กับสัตว์)",
+    "th": "ส่วนสำคัญของเมือง",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ออก",
-    "ลูก"
+    "อก",
+    "เมือง"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -780,21 +877,22 @@
    ]
   },
   {
-   "th": "ออกหาก",
-   "translit_auto": "okhak",
+   "th": "อกรวบ",
+   "rtgs": "ok-ruap",
+   "ipa": "/ʔok̚˨˩.rua̯p̚˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "อาการที่ทำห่างเหินไม่ร่วมมือร่วมใจเหมือนเดิมในคำว่า ตีตัวออกหาก เอาใจออกหาก",
+    "th": "อกไม่ผาย",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ออก",
-    "หาก"
+    "อก",
+    "รวบ"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -804,95 +902,59 @@
    ]
   },
   {
-   "th": "ออกบวช",
-   "translit_auto": "okbwt",
+   "th": "การกอก",
+   "rtgs": "kan-kok",
+   "ipa": "/kaːn˧.kɔːk̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ไปถือเพศเป็นพระหรือนักพรตอื่น ๆ",
+    "th": "คำอาการนามของ กอก",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ออก",
-    "บวช"
+    "การก",
+    "อก"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "th": "ลาออก",
-   "translit_auto": "laook",
-   "gloss": {
-    "en": [
-     "quit"
-    ],
-    "th": "ขออนุญาตให้พ้นจากสภาพที่ดำรงอยู่",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ลา",
-    "ออก"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ออกเสียง",
-   "translit_auto": "okseiyng",
-   "gloss": {
-    "en": [
-     "deliver",
-     "pronounce"
-    ],
-    "th": "เปล่งเสียง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ออก",
-    "เสียง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation"
   }
  ],
  "etymology": {
-  "summary": "สืบทอดจากไทดั้งเดิม *ʔoːkᴰ; ร่วมเชื้อสายกับลาว ອອກ (ออก), คำเมือง ᩋᩬᨠ (ออก), ไทลื้อ ᦀᦸᧅᧈ (อ่อ̂ก), ไทดำ ꪮꪮꪀ (ออก), ไทขาว ꪮꪮꪀ, ไทใหญ่ ဢွၵ်ႇ (อ่อ̂ก), พ่าเก ဢ︀ွက︀် (ออ̂ก์), อาหม 𑜒𑜨𑜀𑜫 (ออ̂ก์), จ้วง ok",
+  "summary": "สืบทอดจากไทดั้งเดิม *ʔɤkᴰ, จากจีนเก่า 臆 (OC *qɯɡ); ร่วมเชื้อสายกับคำเมือง ᩋᩫ᩠ᨠ (อ็ก), อีสาน เอิก, ลาว ອົກ (อ็ก), ເອິກ (เอิก), ไทใหญ่ ဢူၵ်း (อู๊ก) หรือ ဢိုၵ်း (อึ๊ก), อาหม 𑜒𑜤𑜀𑜫 (อุก์, “เต้านม”), จ้วง aek; เทียบเบดั้งเดิม *ʔukᴰ¹",
   "conf": "probable",
   "src": [
    "WIKT"
   ]
  },
  "lanna": {
-  "tham": "ᩋᩬᨠ",
-  "th": "ออก",
+  "tham": "ᩋᩫ᩠ᨠ",
+  "th": "อ็ก",
   "note": "Extracted from the Wiktionary etymology line.",
   "conf": "probable",
   "src": [
    "WIKT"
   ]
- }
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:ok-2",
+   "label": "ออก",
+   "why": "spelling",
+   "distinction": "Both romanise as \"ok\". อก is òk, ออก is ɔ̀ɔk — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
 }

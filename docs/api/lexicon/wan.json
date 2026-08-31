@@ -1,8 +1,11 @@
 {
  "id": "w:wan",
- "th": "วัน",
- "translit_auto": "wan",
- "status": "listed",
+ "th": "วาร",
+ "status": "proposed",
+ "rtgs": "wan",
+ "paiboon": "waan",
+ "ipa": "/waːn˧/",
+ "syllable_respelling": "วา-ระ-",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -10,21 +13,16 @@
    "n": 1,
    "gloss": {
     "en": [
-     "day",
-     "date"
+     "[needs an English gloss — RID sense 1]"
     ],
-    "th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่งถึงย่ำรุ่ง หรือตั้งแต่เที่ยงคืนถึงเที่ยงคืน",
-    "conf": "verified",
+    "th": "วันหนึ่ง ๆ ในสัปดาห์",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
    "pos": "noun",
    "pos_th": "คำนาม",
-   "domains": [
-    "d:time"
-   ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
@@ -33,136 +31,107 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ชนมวาร",
+     "rtgs": "chon-ma-wan",
+     "ipa": "/t͡ɕʰon˧.ma˦˥.waːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วันในสัปดาห์ที่เกิด, ใช้ว่า พระชนมวาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชนม",
+      "วาร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.34, next 0.18",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "อาทิตยวาร",
+     "rtgs": "a-thit-ta-ya-wan",
+     "ipa": "/ʔaː˧.tʰit̚˦˥.ta˨˩.ja˦˥.waːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วันอาทิตย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อาทิตย",
+      "วาร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "day",
-     "date"
+     "[needs an English gloss — RID sense 2]"
     ],
-    "th": "ระยะเวลา 12 ชั่วโมง ตั้งแต่ย่ำรุ่งถึงย่ำค่ำ เรียกว่า กลางวัน, มักเรียกสั้น ๆ ว่า วัน, ตรงข้ามกับ คืน",
-    "conf": "verified",
+    "th": "ครั้ง, คราว",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
    "pos": "noun",
    "pos_th": "คำนาม",
-   "domains": [
-    "d:time"
-   ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "n": 3,
-   "gloss": {
-    "en": [
-     "day",
-     "date"
-    ],
-    "th": "ช่วงเวลากลางวัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "pos": "noun",
-   "pos_th": "คำนาม",
-   "domains": [
-    "d:time"
    ],
-   "order_conf": "unverified",
-   "conf": "probable",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "n": 4,
-   "gloss": {
-    "en": [
-     "day",
-     "date"
-    ],
-    "th": "เวลาทำการตามที่ได้กำหนดขึ้นโดยกฎหมาย คำสั่งศาล หรือระเบียบข้อบังคับ หรือเวลาทำการตามปรกติของกิจการนั้นแล้วแต่กรณี (ใช้ในทางคดีความ ในทางราชการ หรือทางธุรกิจการค้า และการอุตสาหกรรม)",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "pos": "noun",
-   "pos_th": "คำนาม",
-   "domains": [
-    "d:time"
-   ],
-   "order_conf": "unverified",
-   "conf": "probable",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "n": 5,
-   "gloss": {
-    "en": [
-     "day",
-     "date"
-    ],
-    "th": "(แมลง~, แมง~) ชื่อแมลงหลายชนิด หลายสกุล หลายวงศ์ ในอันดับ Diptera มีปีก 1 คู่ ลักษณะบางใส มีอวัยวะเป็นติ่งแทนปีกคู่ที่ 2 ช่วยในการทรงตัว ปากเป็นชนิดซับดูด หนวดมี 3 ปล้อง ปล้องปลายใหญ่สุดและมีขน 1 เส้น ที่พบทั่วไป เช่น แมลงวันบ้าน (Musca domestica Linn.) ในวงศ์ Muscidae ลำตัวยาวประมาณ 6 มิลลิเมตร สีน้ำตาลดำ กินอาหารหลากหลาย",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "pos": "noun",
-   "pos_th": "คำนาม",
-   "domains": [
-    "d:time"
-   ],
-   "order_conf": "unverified",
-   "conf": "probable",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "n": 6,
-   "gloss": {
-    "en": [
-     "day",
-     "date"
-    ],
-    "th": "ป่าไม้, ดง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "pos": "noun",
-   "pos_th": "คำนาม",
-   "domains": [
-    "d:time"
-   ],
-   "order_conf": "unverified",
-   "conf": "probable",
-   "src": [
-    "RID",
-    "WIKT"
+   "compounds": [
+    {
+     "th": "วารสาร",
+     "rtgs": "wa-ra-san",
+     "ipa": "/waː˧.ra˦˥.saːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข่าวหรือหนังสือเกี่ยวกับประเด็นใดประเด็นหนึ่งที่ออกเป็นคราว ๆ ตามเวลาที่กำหนด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาร",
+      "สาร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   }
  ],
@@ -174,28 +143,28 @@
  ],
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
-  "Attested in this corpus: 52 manuscript titles, 219 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'wan', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Attested in this corpus: 37 manuscript titles, 57 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
- "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['ชั่วโมง', 'ปี', 'เวลา', 'วัน'].",
+ "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits —.",
  "compounds_unassigned": [
   {
-   "th": "เที่ยงวัน",
-   "translit_auto": "theiyngwan",
+   "th": "พุธวาร",
+   "rtgs": "phut-tha-wan",
+   "ipa": "/pʰut̚˦˥.tʰa˦˥.waːn˧/",
    "gloss": {
     "en": [
-     "midday"
+     "[needs a gloss]"
     ],
-    "th": "เวลากึ่งกลางของกลางวันที่พระอาทิตย์อยู่ตรงศีรษะ ตรงกับ 12 นาฬิกา, เที่ยง ก็ว่า",
-    "conf": "verified",
+    "th": "วันพุธ",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
    "parts": [
-    "เที่ยง",
-    "วัน"
+    "พุธ",
+    "วาร"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -205,117 +174,22 @@
    ]
   },
   {
-   "th": "วันประสูติ",
-   "translit_auto": "wanprasuti",
+   "th": "มงคลวาร",
+   "rtgs": "mong-khon-la-wan",
+   "ipa": "/moŋ˧.kʰon˧.la˦˥.waːn˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "วันเกิด (ใช้กับเจ้านาย)",
+    "th": "วันดี",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "วัน",
-    "ประสูติ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "วันชัย",
-   "translit_auto": "wanchay",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อจริงชาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "วัน",
-    "ชัย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "วันแข็ง",
-   "translit_auto": "wankhaeng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "วันซึ่งถือว่าดาวมีพลังแรง ได้แก่ วันอาทิตย์ วันอังคาร วันเสาร์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "วัน",
-    "แข็ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "วันเฉลิมพระชนมพรรษา",
-   "translit_auto": "wanchelimphrachnmphrrsa",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "วันคล้ายวันเกิด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "วัน",
-    "เฉลิมพระชนมพรรษา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เวฬุวัน",
-   "translit_auto": "weluwan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ป่าไผ่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เวฬุ",
-    "วัน"
+    "มงคล",
+    "วาร"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -325,119 +199,22 @@
    ]
   },
   {
-   "th": "วันเกิด",
-   "translit_auto": "wankeid",
-   "gloss": {
-    "en": [
-     "birthday"
-    ],
-    "th": "วันแรกที่มีสภาพของการมีชีวิต",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "วัน",
-    "เกิด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "วันยาว",
-   "translit_auto": "wanyaw",
+   "th": "ครุวาร",
+   "rtgs": "kha-ru-wan",
+   "ipa": "/kʰa˦˥.ru˦˥.waːn˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอขลุง จังหวัดจันทบุรี",
+    "th": "วันครู",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "วัน",
-    "ยาว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "วันเพ็ญ",
-   "translit_auto": "wanphen",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "วันกลางเดือนนับตามจันทรคติ คือวันที่พระจันทร์ขึ้นเต็มดวง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "วัน",
-    "เพ็ญ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "วันที่",
-   "translit_auto": "wanthi",
-   "gloss": {
-    "en": [
-     "date"
-    ],
-    "th": "ลำดับวันในเดือนหนึ่ง ๆ ทางสุริยคติ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "วัน",
-    "ที่"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ตาวัน",
-   "translit_auto": "tawan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ดวงอาทิตย์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตา",
-    "วัน"
+    "ครุ",
+    "วาร"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -447,71 +224,22 @@
    ]
   },
   {
-   "th": "วันหยุด",
-   "translit_auto": "wanhyud",
-   "gloss": {
-    "en": [
-     "holiday"
-    ],
-    "th": "วันที่ไม่ต้องทำงานหรือเรียนหนังสือ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "วัน",
-    "หยุด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "วันนี้",
-   "translit_auto": "wanni",
-   "gloss": {
-    "en": [
-     "today"
-    ],
-    "th": "วันที่เป็นปัจจุบัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "วัน",
-    "นี้"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ปทุมวัน",
-   "translit_auto": "pthumwan",
+   "th": "ปัญญาสมวาร",
+   "rtgs": "pan-ya-sa-ma-wan",
+   "ipa": "/pan˧.jaː˧.sa˨˩.ma˦˥.waːn˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+    "th": "วันที่ครบ 50",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ปทุม",
-    "วัน"
+    "ปัญญาสม",
+    "วาร"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -521,25 +249,399 @@
    ]
   },
   {
-   "th": "กลางวัน",
-   "translit_auto": "klangwan",
+   "th": "รวิวาร",
+   "rtgs": "ra-wi-wan",
+   "ipa": "/ra˦˥.wi˦˥.waːn˧/",
    "gloss": {
     "en": [
-     "midday",
-     "daylight"
+     "[needs a gloss]"
     ],
-    "th": "ระยะเวลาตั้งแต่ย่ำรุ่งถึงย่ำค่ำ",
-    "conf": "verified",
+    "th": "วันอาทิตย์",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
    "parts": [
-    "กลาง",
-    "วัน"
+    "รวิ",
+    "วาร"
    ],
    "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "สัตมวาร",
+   "rtgs": "sat-ta-ma-wan",
+   "ipa": "/sat̚˨˩.ta˨˩.ma˦˥.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วันที่ครบ 7",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สัตม",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "วงวาร",
+   "rtgs": "wong-wan",
+   "ipa": "/woŋ˧.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สงสาร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วง",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ปาวาร",
+   "rtgs": "pa-wan",
+   "ipa": "/paː˧.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผ้าห่มใหญ่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ปา",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "โสมวาร",
+   "rtgs": "som-ma-wan",
+   "ipa": "/soːm˩˩˦.ma˦˥.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วันจันทร์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โสม",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ปัณรสมวาร",
+   "rtgs": "pan-na-ra-sa-ma-wan",
+   "ipa": "/pan˧.na˦˥.ra˦˥.sa˨˩.ma˦˥.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วันที่ครบ 15",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ปัณรสม",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "จันทรวาร",
+   "rtgs": "chan-thra-wan",
+   "ipa": "/t͡ɕan˧.tʰra˦˥.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วันจันทร์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จันทร",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "จันทวาร",
+   "rtgs": "chan-tha-wan",
+   "ipa": "/t͡ɕan˧.tʰa˦˥.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วันจันทร์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จันท",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คุรุวาร",
+   "rtgs": "khu-ru-wan",
+   "ipa": "/kʰu˦˥.ru˦˥.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วันครู",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คุรุ",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ภุมวาร",
+   "rtgs": "phum-ma-wan",
+   "ipa": "/pʰum˧.ma˦˥.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วันอังคาร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภุม",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ชีววาร",
+   "rtgs": "chi-wa-wan",
+   "ipa": "/t͡ɕʰiː˧.wa˦˥.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วันพฤหัสบดี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชีว",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ศุกรวาร",
+   "rtgs": "suk-kra-wan",
+   "ipa": "/suk̚˨˩.kra˨˩.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วันศุกร์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ศุกร",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ศนิวาร",
+   "rtgs": "sa-ni-wan",
+   "ipa": "/sa˨˩.ni˦˥.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วันเสาร์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ศนิ",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "มาวาร",
+   "rtgs": "ma-wan",
+   "ipa": "/maː˧.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กุหลาบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มา",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "อธิกวาร",
+   "rtgs": "a-thi-ka-wan",
+   "ipa": "/ʔa˨˩.tʰi˦˥.ka˨˩.waːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วันที่เพิ่มขึ้นในปีจันทรคติ คือ ในปีนั้นเดือน 7 เป็นเดือนเต็ม มี 30 วัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อธิก",
+    "วาร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "วารวาริ",
+   "rtgs": "wa-ra-wa-ri",
+   "ipa": "/waː˧.ra˦˥.waː˧.riʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดอกชบา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วาร",
+    "วาริ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -548,19 +650,34 @@
   }
  ],
  "etymology": {
-  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *ŋwanᴬ², จากไทดั้งเดิม *ŋwanᴬ; ร่วมเชื้อสายกับคำเมือง ᩅᩢ᩠ᨶ (วัน), ลาว ວັນ (วัน), ไทลื้อ ᦞᧃ (วัน), ไทใหญ่ ဝၼ်း (วั๊น), คำตี้ ဝ︀ꩫ︀်း, ไทใต้คง ᥝᥢᥰ (วั๊น), ไทดำ ꪫꪽ (วัน), อาหม 𑜈𑜃𑜫 (บน์), 𑜚𑜃𑜫 (วน์), จ้วง ngoenz, ปู้อี nguanz, จ้วงแบบจั่วเจียง vaenz; เทียบสุ่ย vanl, เบดั้งเดิม *vɨnᴬ², ไหลดั้งเดิม *hŋwən (“วัน; กลางวัน; เที่ยงวัน; ดวงอาทิตย์”) ยืมมาจากบาลี วน (“ป่าไม้”)",
+  "summary": "ยืมมาจากสันสกฤต वार (วาร, “วัน”) หรือบาลี วาร (“วัน”) ยืมมาจากสันสกฤต वार (วาร, “ครั้ง”) หรือบาลี วาร (“ครั้ง”)",
   "conf": "probable",
   "src": [
    "WIKT"
   ]
  },
- "lanna": {
-  "tham": "ᩅᩢ᩠ᨶ",
-  "th": "วัน",
-  "note": "Extracted from the Wiktionary etymology line.",
-  "conf": "probable",
-  "src": [
-   "WIKT"
-  ]
- }
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:wan-2",
+   "label": "หวาน",
+   "why": "spelling",
+   "distinction": "Both romanise as \"wan\". วาร is waan, หวาน is wǎan — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:wan-3",
+   "label": "วัน",
+   "why": "spelling",
+   "distinction": "Both romanise as \"wan\". วาร is waan, วัน is wan — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
 }

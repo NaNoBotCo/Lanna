@@ -1,8 +1,10 @@
 {
  "id": "w:cha",
  "th": "ชา",
- "translit_auto": "cha",
- "status": "listed",
+ "status": "mapped",
+ "rtgs": "cha",
+ "paiboon": "chaa",
+ "ipa": "/t͡ɕʰaː˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -32,7 +34,10 @@
     "WIKT"
    ],
    "needs_check": [
-    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ชา 'tea' — the Chinese loan.",
+    "Declared root: ชา 'tea' — the Chinese loan.",
+    "Declared root: ชา 'tea' — the Chinese loan."
    ]
   },
   {
@@ -59,7 +64,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The plant names the dried leaf taken from it.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -85,7 +94,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And the leaf names the drink made of it.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -111,6 +124,11 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name.",
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name.",
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name."
    ]
   },
   {
@@ -137,6 +155,11 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ชา 'liquor' — separate.",
+    "Declared root: ชา 'liquor' — separate.",
+    "Declared root: ชา 'liquor' — separate."
    ]
   },
   {
@@ -163,6 +186,39 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หน้าชา",
+     "rtgs": "na-cha",
+     "ipa": "/naː˥˩.t͡ɕʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่รู้สึกอับอายขายหน้าระคนโกรธ แต่ก็ตอบโต้ไม่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ชา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.16, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "needs_check": [
+    "Declared root: ชา 'numb' — separate.",
+    "Declared root: ชา 'numb' — separate.",
+    "Declared root: ชา 'numb' — separate."
    ]
   },
   {
@@ -189,7 +245,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "ปลาชา, a fish gone numb and near death.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -215,7 +275,133 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate.",
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate.",
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate."
    ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "tea",
+     "asleep"
+    ],
+    "th": "เป็น, ให้เป็น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established.",
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established.",
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established."
+   ]
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "tea",
+     "asleep"
+    ],
+    "th": "สบาย, ดี",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "generalisation",
+   "via_note": "Archaic, and the relation is not established — recorded, not argued.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "tea",
+     "asleep"
+    ],
+    "th": "หมายไว้, กำหนดไว้, ใช้ประกอบกับคำ กฎ เป็น กำหนดกฎชา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "generalisation",
+   "via_note": "Archaic, and the relation is not established — recorded, not argued.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "tea",
+     "asleep"
+    ],
+    "th": "สังกัด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "generalisation",
+   "via_note": "Archaic, and the relation is not established — recorded, not argued.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -227,254 +413,16 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 386 manuscript titles, 1726 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'cha', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 31; domain seeded by keyword hits ['ดอก', 'ใบ', 'ไม้', 'นา'].",
  "compounds_unassigned": [
   {
-   "th": "สุชา",
-   "translit_auto": "sucha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้มีกำเนิดดี, ลูกผู้มีสกุลดี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สุ",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชาชัก",
-   "translit_auto": "chachak",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชาใส่นมแบบหนึ่ง หาได้ทั่วไปในมาเลเซีย สิงคโปร์ และไทย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชา",
-    "ชัก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชาไทย",
-   "translit_auto": "chathaii",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชาเย็น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชา",
-    "ไทย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ค่าน้ำชา",
-   "translit_auto": "khanamcha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เงินที่จ่ายให้เจ้าหน้าที่เพื่อให้ได้รับความสะดวกในการติดต่องาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ค่าน้ำ",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชาเย็น",
-   "translit_auto": "chayen",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชาที่ชงใส่น้ำตาล นม และน้ำแข็ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชา",
-    "เย็น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชาตา",
-   "translit_auto": "chata",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รูปแบบอื่นของ ชะตา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชา",
-    "ตา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ประชา",
-   "translit_auto": "pracha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หมู่คน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ประ",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชาดก",
-   "translit_auto": "chadk",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรื่องพระพุทธเจ้าที่มีมาในพระชาติก่อน ๆ ตามที่กล่าวไว้ในคัมภีร์ชื่อนี้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชา",
-    "ดก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เดชา",
-   "translit_auto": "decha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อำนาจ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เด",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การชา",
-   "translit_auto": "karcha",
-   "gloss": {
-    "en": [
-     "anaesthesia"
-    ],
-    "th": "คำอาการนามของ ชา",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "การ",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความชินชา",
-   "translit_auto": "khwamchincha",
+   "th": "การชินชา",
+   "rtgs": "kan-chin-cha",
+   "ipa": "/kaːn˧.t͡ɕʰin˧.t͡ɕʰaː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -486,309 +434,21 @@
     ]
    },
    "parts": [
-    "ความชิน",
+    "การชิน",
     "ชา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "th": "หน้าชา",
-   "translit_auto": "hnacha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการที่รู้สึกอับอายขายหน้าระคนโกรธ แต่ก็ตอบโต้ไม่ได้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "ชา"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ความชา",
-   "translit_auto": "khwamcha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ชา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ความ",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เกชา",
-   "translit_auto": "kecha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้หญิงญี่ปุ่นที่มีศิลปะและวิชาชีพในการปรนนิบัติผู้ชาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เก",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ราชา",
-   "translit_auto": "racha",
-   "gloss": {
-    "en": [
-     "king"
-    ],
-    "th": "(พระ~) พระเจ้าแผ่นดิน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "รา",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชาไข่มุก",
-   "translit_auto": "chakhaimuk",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชานมใส่แป้งต้มลูกกลมเรียกว่าไข่มุก มีต้นกำเนิดจากไต้หวัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชา",
-    "ไข่มุก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชินชา",
-   "translit_auto": "chincha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เคยบ่อย ๆ จนเลิกเอาใจใส่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชิน",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ยาชา",
-   "translit_auto": "yacha",
-   "gloss": {
-    "en": [
-     "anaesthetic"
-    ],
-    "th": "ยาที่ทาหรือฉีดให้ประสาทชา มักใช้ในการผ่าตัดหรือถอนฟัน เป็นต้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ยา",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กันชา",
-   "translit_auto": "kancha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รูปสะกดเลิกใช้ของ กัญชา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กัน",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "อาชา",
-   "translit_auto": "acha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ม้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อา",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชามาดา",
-   "translit_auto": "chamada",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลูกเขย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชา",
-    "มาดา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชายา",
-   "translit_auto": "chaya",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ภรรยา (ที่ไม่เป็นเจ้า)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชา",
-    "ยา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "โอชา",
-   "translit_auto": "ocha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีรสดี, อร่อย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "โอ",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation"
   },
   {
    "th": "ช้อนชา",
-   "translit_auto": "choncha",
+   "rtgs": "chon-cha",
+   "ipa": "/t͡ɕʰɔːn˦˥.t͡ɕʰaː˧/",
    "gloss": {
     "en": [
      "teaspoon"
@@ -812,8 +472,387 @@
    ]
   },
   {
+   "th": "เดชา",
+   "rtgs": "de-cha",
+   "ipa": "/deː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อำนาจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เด",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ชาตา",
+   "rtgs": "cha-ta",
+   "ipa": "/t͡ɕʰaː˧.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปแบบอื่นของ ชะตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "ตา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ราชา",
+   "rtgs": "ra-cha",
+   "ipa": "/raː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "king"
+    ],
+    "th": "(พระ~) พระเจ้าแผ่นดิน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รา",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ชาระ",
+   "rtgs": "cha-ra",
+   "ipa": "/t͡ɕʰaː˧.raʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชายชู้, ชายที่รัก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "ระ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ชาชัก",
+   "rtgs": "cha-chak",
+   "ipa": "/t͡ɕʰaː˧.t͡ɕʰak̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชาใส่นมแบบหนึ่ง หาได้ทั่วไปในมาเลเซีย สิงคโปร์ และไทย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "ชัก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ชาติ",
+   "rtgs": "chat",
+   "ipa": "/t͡ɕʰaːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การเกิด, กำเนิด, มักใช้ว่า ชาติเกิด หรือ ชาติกำเนิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "ติ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "อาชา",
+   "rtgs": "a-cha",
+   "ipa": "/ʔaː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ม้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "สุชา",
+   "rtgs": "su-cha",
+   "ipa": "/su˨˩.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้มีกำเนิดดี, ลูกผู้มีสกุลดี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สุ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ชายา",
+   "rtgs": "cha-ya",
+   "ipa": "/t͡ɕʰaː˧.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภรรยา (ที่ไม่เป็นเจ้า)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "ยา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ค่าน้ำชา",
+   "rtgs": "kha-nam-cha",
+   "ipa": "/kʰaː˥˩.nam˦˥.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เงินที่จ่ายให้เจ้าหน้าที่เพื่อให้ได้รับความสะดวกในการติดต่องาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ค่าน้ำ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ความชา",
+   "rtgs": "khwam-cha",
+   "ipa": "/kʰwaːm˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "เกชา",
+   "rtgs": "ke-cha",
+   "ipa": "/keː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้หญิงญี่ปุ่นที่มีศิลปะและวิชาชีพในการปรนนิบัติผู้ชาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เก",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ความชินชา",
+   "rtgs": "khwam-chin-cha",
+   "ipa": "/kʰwaːm˧.t͡ɕʰin˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชินชา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความชิน",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ประชา",
+   "rtgs": "pra-cha",
+   "ipa": "/pra˨˩.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หมู่คน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ประ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "โอชา",
+   "rtgs": "o-cha",
+   "ipa": "/ʔoː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มีรสดี, อร่อย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โอ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "วิชา",
-   "translit_auto": "wicha",
+   "rtgs": "wi-cha",
+   "ipa": "/wi˦˥.t͡ɕʰaː˧/",
    "gloss": {
     "en": [
      "course",
@@ -838,20 +877,46 @@
    ]
   },
   {
-   "th": "ฦๅชา",
-   "translit_auto": "ฦacha",
+   "th": "ชินชา",
+   "rtgs": "chin-cha",
+   "ipa": "/t͡ɕʰin˧.t͡ɕʰaː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "รูปเลิกใช้ของ ลือชา",
+    "th": "เคยบ่อย ๆ จนเลิกเอาใจใส่",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ฦๅ",
+    "ชิน",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กันชา",
+   "rtgs": "kan-cha",
+   "ipa": "/kan˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดเลิกใช้ของ กัญชา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กัน",
     "ชา"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -863,7 +928,8 @@
   },
   {
    "th": "บรรพชา",
-   "translit_auto": "brrphcha",
+   "rtgs": "ban-pha-cha",
+   "ipa": "/ban˧.pʰa˦˥.t͡ɕʰaː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -886,13 +952,14 @@
    ]
   },
   {
-   "th": "ชาระ",
-   "translit_auto": "chara",
+   "th": "ชาดก",
+   "rtgs": "cha-dok",
+   "ipa": "/t͡ɕʰaː˧.dok̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชายชู้, ชายที่รัก",
+    "th": "เรื่องพระพุทธเจ้าที่มีมาในพระชาติก่อน ๆ ตามที่กล่าวไว้ในคัมภีร์ชื่อนี้",
     "conf": "unverified",
     "src": [
      "RID"
@@ -900,7 +967,7 @@
    },
    "parts": [
     "ชา",
-    "ระ"
+    "ดก"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -910,8 +977,162 @@
    ]
   },
   {
+   "th": "ชามาดา",
+   "rtgs": "cha-ma-da",
+   "ipa": "/t͡ɕʰaː˧.maː˧.daː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลูกเขย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "มาดา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ชาเย็น",
+   "rtgs": "cha-yen",
+   "ipa": "/t͡ɕʰaː˧.jen˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชาที่ชงใส่น้ำตาล นม และน้ำแข็ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "เย็น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ชาไข่มุก",
+   "rtgs": "cha-khai-muk",
+   "ipa": "/t͡ɕʰaː˧.kʰaj˨˩.muk̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชานมใส่แป้งต้มลูกกลมเรียกว่าไข่มุก มีต้นกำเนิดจากไต้หวัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "ไข่มุก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ฦๅชา",
+   "rtgs": "lue-cha",
+   "ipa": "/lɯː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปเลิกใช้ของ ลือชา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ฦๅ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การชา",
+   "rtgs": "kan-cha",
+   "ipa": "/kaːn˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "anaesthesia"
+    ],
+    "th": "คำอาการนามของ ชา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ยาชา",
+   "rtgs": "ya-cha",
+   "ipa": "/jaː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "anaesthetic"
+    ],
+    "th": "ยาที่ทาหรือฉีดให้ประสาทชา มักใช้ในการผ่าตัดหรือถอนฟัน เป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "สุธารสชา",
-   "translit_auto": "sutharscha",
+   "rtgs": "su-tha-rot-cha",
+   "ipa": "/su˨˩.tʰaː˧.rot̚˦˥.t͡ɕʰaː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -934,37 +1155,14 @@
    ]
   },
   {
-   "th": "การชินชา",
-   "translit_auto": "karchincha",
+   "th": "ชาไทย",
+   "rtgs": "cha-thai",
+   "ipa": "/t͡ɕʰaː˧.tʰaj˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "คำอาการนามของ ชินชา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การชิน",
-    "ชา"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชาติ",
-   "translit_auto": "chati",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "การเกิด, กำเนิด, มักใช้ว่า ชาติเกิด หรือ ชาติกำเนิด",
+    "th": "ชาเย็น",
     "conf": "unverified",
     "src": [
      "RID"
@@ -972,7 +1170,7 @@
    },
    "parts": [
     "ชา",
-    "ติ"
+    "ไทย"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -988,5 +1186,40 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:cha-2",
+   "label": "ชะ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"cha\". ชา is chaa, ชะ is chá — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:cha-3",
+   "label": "จะ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"cha\". ชา is chaa, จะ is jà — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:cha-4",
+   "label": "ช้า",
+   "why": "spelling",
+   "distinction": "Both romanise as \"cha\". ชา is chaa, ช้า is cháa — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
 }

@@ -1,0 +1,987 @@
+{
+ "id": "w:khon",
+ "th": "คน",
+ "status": "proposed",
+ "rtgs": "khon",
+ "paiboon": "kon",
+ "ipa": "/kʰon˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "stir",
+     "person",
+     "mill"
+    ],
+    "th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด Homo sapiens",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "คนเรา",
+     "rtgs": "khon-rao",
+     "ipa": "/kʰon˧.raw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มนุษย์, คนทั่ว ๆ ไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "เรา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "stir",
+     "person",
+     "mill"
+    ],
+    "th": "คำใช้ประกอบคำนามหรือคำกริยาแสดงว่าเป็นผู้ที่เกี่ยวข้องกับสิ่ง อาการ สภาพ หรือมีลักษณะหรือเป็นอย่างนั้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "คนพิการ",
+     "rtgs": "khon-phi-kan",
+     "ipa": "/kʰon˧.pʰi˦˥.kaːn˧/",
+     "gloss": {
+      "en": [
+       "disabled"
+      ],
+      "th": "คนที่มีความผิดปรกติหรือบกพร่องทางร่างกาย ทางสติปัญญาหรือทางจิตใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คน",
+      "พิการ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "คนนอก",
+     "rtgs": "khon-nok",
+     "ipa": "/kʰon˧.nɔːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุคคลผู้ไม่มีส่วนร่วมหรือไม่มีส่วนเกี่ยวข้อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "นอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.15, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "stir",
+     "person",
+     "mill"
+    ],
+    "th": "กิริยาที่เอามือหรือสิ่งอื่นกวนเพื่อทำสิ่งที่นอนก้นหรือที่เกาะกันอยู่เป็นกลุ่มเป็นก้อนให้กระจายขยายตัว หรือกวนสิ่งต่าง ๆ ให้เข้ากัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ระคน",
+     "rtgs": "ra-khon",
+     "ipa": "/ra˦˥.kʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปนหรือผสมให้เข้ากันคละกันเป็นกลุ่มเป็นพวก เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ระ",
+      "คน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.24, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 16 manuscript titles, 231 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 33; domain seeded by keyword hits ['ยาย', 'ลูก', 'ย่า'].",
+ "compounds_unassigned": [
+  {
+   "th": "คนรับใช้",
+   "rtgs": "khon-rap-chai",
+   "ipa": "/kʰon˧.rap̚˦˥.t͡ɕʰaj˦˥/",
+   "gloss": {
+    "en": [
+     "attendant",
+     "servant",
+     "abid"
+    ],
+    "th": "คำพ้องความของ คนใช้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "คน",
+    "รับใช้"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer"
+  },
+  {
+   "th": "คนเจ็บ",
+   "rtgs": "khon-chep",
+   "ipa": "/kʰon˧.t͡ɕep̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ป่วย, ผู้บาดเจ็บ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "เจ็บ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนสุก",
+   "rtgs": "khon-suk",
+   "ipa": "/kʰon˧.suk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชายที่บวชเป็นพระภิกษุและสึกแล้ว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "สุก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนละ",
+   "rtgs": "khon-la",
+   "ipa": "/kʰon˧.laʔ˦˥/",
+   "gloss": {
+    "en": [
+     "each"
+    ],
+    "th": "คนหนึ่ง ๆ, แต่ละคน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "คน",
+    "ละ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ผู้คน",
+   "rtgs": "phu-khon",
+   "ipa": "/pʰuː˥˩.kʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คนทั่วไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ผู้",
+    "คน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนสนิท",
+   "rtgs": "khon-sa-nit",
+   "ipa": "/kʰon˧.sa˨˩.nit̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คนที่รักใคร่คุ้นเคยกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "สนิท"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หมีคน",
+   "rtgs": "mi-khon",
+   "ipa": "/miː˩˩˦.kʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อสัตว์เลี้ยงลูกด้วยน้ำนมชนิด Ursus malayanus ในวงศ์ Ursidae (หมี) เป็นสัตว์กินเนื้อ ออกลูกเป็นตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หมี",
+    "คน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "biological"
+  },
+  {
+   "th": "คนดี",
+   "rtgs": "khon-di",
+   "ipa": "/kʰon˧.diː˧/",
+   "gloss": {
+    "en": [
+     "brick"
+    ],
+    "th": "คนที่มีคุณความดี, คนที่มีคุณธรรม",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "คน",
+    "ดี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนกลาง",
+   "rtgs": "khon-klang",
+   "ipa": "/kʰon˧.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "comprador"
+    ],
+    "th": "ผู้ถือเป็นกลางไม่เข้าข้างฝ่ายโน้นฝ่ายนี้ในเหตุการณ์ที่เกิดขึ้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "คน",
+    "กลาง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนสึก",
+   "translit_auto": "khnsuek",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทหาร (คนศึก)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "สึก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนใช้",
+   "rtgs": "khon-chai",
+   "ipa": "/kʰon˧.t͡ɕʰaj˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คนที่มีหน้าที่คอยรับใช้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "ใช้"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กลางคน",
+   "rtgs": "klang-khon",
+   "ipa": "/klaːŋ˧.kʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มีอายุพ้นวัยหนุ่มสาว แต่ยังไม่แก่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กลาง",
+    "คน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนโท",
+   "rtgs": "khon-tho",
+   "ipa": "/kʰon˧.tʰoː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กุณโฑ, หม้อนํ้ารูปต่าง ๆ คอยาว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "โท"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนทรง",
+   "rtgs": "khon-song",
+   "ipa": "/kʰon˧.soŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คนที่ทำพิธีทรงเจ้า, คนที่เป็นร่างให้วิญญาณหรือสิ่งศักดิ์สิทธิ์เข้าสิง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "ทรง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "บังคน",
+   "rtgs": "bang-khon",
+   "ipa": "/baŋ˧.kʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "(พระ~) อุจจาระหรือปัสสาวะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บัง",
+    "คน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนป่วย",
+   "rtgs": "khon-puai",
+   "ipa": "/kʰon˧.pua̯j˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ป่วย, ผู้บาดเจ็บ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "ป่วย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนไข้",
+   "rtgs": "khon-khai",
+   "ipa": "/kʰon˧.kʰaj˥˩/",
+   "gloss": {
+    "en": [
+     "patient"
+    ],
+    "th": "ผู้ป่วย, ผู้บาดเจ็บ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "คน",
+    "ไข้"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนที",
+   "rtgs": "khon-thi",
+   "ipa": "/kʰon˧.tʰiː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กุณฑี, หม้อนํ้า, หม้อนํ้ามีหู, เต้านํ้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "ที"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การคน",
+   "rtgs": "kan-khon",
+   "ipa": "/kaːn˧.kʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ คน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "คน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ไข่คน",
+   "rtgs": "khai-khon",
+   "ipa": "/kʰaj˨˩.kʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไข่ที่ทำให้สุกโดยการคนเร็ว ๆ ในภาชนะที่ตั้งบนไฟ อาจใส่ผักหรือเนื้อเพิ่มเล็กน้อย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไข่",
+    "คน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนดิบ",
+   "rtgs": "khon-dip",
+   "ipa": "/kʰon˧.dip̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชายที่ยังไม่ได้บวชเป็นพระภิกษุ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "ดิบ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เดนคน",
+   "rtgs": "den-khon",
+   "ipa": "/deːn˧.kʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คนที่เลวทรามจนไม่น่าจะถือว่าเป็นคน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เดน",
+    "คน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนโกหก",
+   "rtgs": "khon-ko-hok",
+   "ipa": "/kʰon˧.koː˧.hok̚˨˩/",
+   "gloss": {
+    "en": [
+     "liar"
+    ],
+    "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "คน",
+    "โกหก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การระคน",
+   "rtgs": "kan-ra-khon",
+   "ipa": "/kaːn˧.ra˦˥.kʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ระคน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การระ",
+    "คน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "คนงาน",
+   "rtgs": "khon-ngan",
+   "ipa": "/kʰon˧.ŋaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ใช้แรงในการทำงานเพื่อรับค่าตอบแทน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "งาน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนอื่น",
+   "rtgs": "khon-uen",
+   "ipa": "/kʰon˧.ʔɯːn˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำใช้เรียกแทนคนที่นอกเหนือจากผู้พูดหรือผู้ที่กล่าวถึง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "อื่น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนอื่น ๆ",
+   "rtgs": "khon-uen-uen",
+   "ipa": "/kʰon˧.ʔɯːn˨˩.ʔɯːn˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำใช้เรียกแทนคนที่นอกเหนือจากผู้พูดหรือผู้ที่กล่าวถึง, มักหมายถึงหลายคน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "อื่น ๆ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เกินคน",
+   "rtgs": "koen-khon",
+   "ipa": "/kɤːn˧.kʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยิ่งกว่าคนสามัญ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกิน",
+    "คน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คนใน",
+   "rtgs": "khon-nai",
+   "ipa": "/kʰon˧.naj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "บุคคลที่เป็นพวกเดียวกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "ใน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ɢwɯnᴬ; ร่วมเชื้อสายกับปักษ์ใต้ ข่น, อีสาน คน, ลาว ຄົນ (ค็น), คำเมือง ᨤᩫ᩠ᨶ (ฅ็น), เขิน ᨤᩫ᩠ᨶ (ฅ็น), ไทลื้อ ᦅᦳᧃ (คุน), ไทดำ ꪶꪁꪙ (โกฺน), ไทขาว ꪁꪴꪙ, ไทใหญ่ ၵူၼ်း (กู๊น), ไทใต้คง ᥐᥨᥢᥰ (โก๊น), อาหม 𑜀𑜤𑜃𑜫 (กุน์), ปู้อี wenz, จ้วง vunz, จ้วงแบบจั่วเจียง koenz ร่วมเชื้อสายกับลาว ຄົນ (ค็น), คำเมือง ᨣᩫ᩠ᨶ (ค็น), ไทลื้อ ᦆᦳᧃᧉ (ฅุ้น), ไทดำ ꪶꪁꪙ (โกฺน), ไทใหญ่ ၶူၼ်ႉ (ขู๎น), อาหม 𑜁𑜤𑜃𑜫 (ขุน์); เทียบไหลดั้งเดิม *ɦunɦ, จ้วงแบบจั่วเจียง goenz (กน) (Longzhou)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨤᩫ᩠ᨶ",
+  "th": "ฅ็น",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khon-2",
+   "label": "ขน",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khon\". คน is kon, ขน is kǒn — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

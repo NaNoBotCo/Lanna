@@ -1,8 +1,11 @@
 {
  "id": "w:kam",
- "th": "กำ",
- "translit_auto": "kam",
- "status": "listed",
+ "th": "กรรม",
+ "status": "mapped",
+ "rtgs": "kam",
+ "paiboon": "gam",
+ "ipa": "/kam˧/",
+ "syllable_respelling": "กำ-มะ-",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -10,18 +13,19 @@
    "n": 1,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 1]"
+     "karma"
     ],
-    "th": "งอนิ้วมือทั้ง 4 ให้จดอุ้งมือ",
-    "conf": "unverified",
+    "th": "การ, การกระทำ, การงาน, กิจ",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
-   "pos": "verb, noun, classifier",
-   "pos_th": "คำกริยา, คำนาม, คำลักษณนาม",
+   "pos": "noun, interjection",
+   "pos_th": "คำนาม, คำอุทาน",
    "domains": [
-    "d:number"
+    "d:religion"
    ],
    "order_conf": "unverified",
    "conf": "probable",
@@ -31,24 +35,83 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "พลีกรรม",
+     "rtgs": "pha-li-kam",
+     "ipa": "/pʰa˦˥.liː˧.kam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การบูชา, พิธีบูชา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พลี",
+      "กรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "อาชญากรรม",
+     "rtgs": "at-ya-kam",
+     "ipa": "/ʔaːt̚˨˩.jaː˧.kam˧/",
+     "gloss": {
+      "en": [
+       "crime"
+      ],
+      "th": "การกระทำความผิดทางอาญา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อาชญา",
+      "กรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.25, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Action of any moral colour is the wider reading; Pali kamma < √kṛ, simply to do.",
+   "via_conf": "probable"
   },
   {
    "n": 2,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 2]"
+     "karma"
     ],
-    "th": "เอานิ้วมือทั้ง 5 โอบรอบสิ่งใดสิ่งหนึ่ง, อาการที่งอนิ้วมือทั้ง 5 รวบสิ่งใดสิ่งหนึ่งไว้",
-    "conf": "unverified",
+    "th": "เป็นการดีก็ได้ ชั่วก็ได้",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
-   "pos": "verb, noun, classifier",
-   "pos_th": "คำกริยา, คำนาม, คำลักษณนาม",
+   "pos": "noun, interjection",
+   "pos_th": "คำนาม, คำอุทาน",
    "domains": [
-    "d:number"
+    "d:religion"
    ],
    "order_conf": "unverified",
    "conf": "probable",
@@ -61,145 +124,232 @@
    "n": 3,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 3]"
+     "karma"
     ],
-    "th": "มือที่กำเข้า",
-    "conf": "unverified",
+    "th": "การกระทำที่ส่งผลร้ายมายังปัจจุบัน หรือซึ่งจะส่งผลร้ายต่อไปในอนาคต",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
-   "pos": "verb, noun, classifier",
-   "pos_th": "คำกริยา, คำนาม, คำลักษณนาม",
+   "pos": "noun, interjection",
+   "pos_th": "คำนาม, คำอุทาน",
    "domains": [
-    "d:number"
+    "d:religion"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "กรรมเวร",
+     "rtgs": "kam-wen",
+     "ipa": "/kam˧.weːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การกระทำที่สนองผลร้ายซึ่งทำไว้แต่ปางก่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กรรม",
+      "เวร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.29, next 0.17",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Action narrowed to the kind that bears bad fruit.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 4]"
+     "karma"
     ],
-    "th": "ปริมาณของเต็มมือที่กำเข้า, กำมือ ก็ว่า",
-    "conf": "unverified",
+    "th": "บาป, เคราะห์",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
-   "pos": "verb, noun, classifier",
-   "pos_th": "คำกริยา, คำนาม, คำลักษณนาม",
+   "pos": "noun, interjection",
+   "pos_th": "คำนาม, คำอุทาน",
    "domains": [
-    "d:number"
+    "d:religion"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "The bad fruit stands for the deed: sin, and then misfortune.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 5]"
+     "karma"
     ],
-    "th": "มาตราวัดรอบของกลม เมื่อวัดได้เท่าไร แล้วทบกึ่งได้ยาวราว 10 เซนติเมตร เช่น ของกลมวัดรอบได้ยาว 20 เซนติเมตร ของกลมนั้นเรียกว่ามีขนาด 1 กำ, มี 3 ชนิด คือ 1. กำสลึง (ยาว 4 นิ้ว 1 กระเบียด หรือ 10.75 เซนติเมตร) 2. กำเฟื้อง (ยาว 4 นิ้วครึ่งกระเบียด หรือ 10.5 เซนติเมตร) 3. กำสองไพ (ยาว 4 นิ้ว 2 หุน หรือ 10.25 เซนติเมตร)",
-    "conf": "unverified",
+    "th": "ความตาย",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
-   "pos": "verb, noun, classifier",
-   "pos_th": "คำกริยา, คำนาม, คำลักษณนาม",
+   "pos": "noun, interjection",
+   "pos_th": "คำนาม, คำอุทาน",
    "domains": [
-    "d:number"
+    "d:religion"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "มรณกรรม",
+     "rtgs": "mo-ra-na-kam",
+     "ipa": "/mɔː˧.ra˦˥.na˦˥.kam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความตาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มรณ",
+      "กรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.38, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 4,
+   "via": "euphemism",
+   "via_note": "The heaviest misfortune, named indirectly: death.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 6]"
+     "karma"
     ],
-    "th": "เรียกผักหรือหญ้าที่มัดไว้",
-    "conf": "unverified",
+    "th": "ผู้ถูกกระทำ",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
-   "pos": "verb, noun, classifier",
-   "pos_th": "คำกริยา, คำนาม, คำลักษณนาม",
+   "pos": "noun, interjection",
+   "pos_th": "คำนาม, คำอุทาน",
    "domains": [
-    "d:number"
+    "d:religion"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "กรรมการก",
+     "rtgs": "kam-ma-ka-rok",
+     "ipa": "/kam˧.ma˦˥.kaː˧.rok̚˦˥/",
+     "gloss": {
+      "en": [
+       "accusative",
+       "accusative case"
+      ],
+      "th": "ผู้ถูกกระทำ โดยง่ายคือ ส่วนที่ทำหน้าที่เป็นกรรมตรงในประโยค",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กรรม",
+      "การก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.20, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "Grammatical: the one acted upon, the object.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
    "gloss": {
     "en": [
-     "[needs an English gloss — RID sense 7]"
+     "karma"
     ],
-    "th": "ซี่ล้อรถหรือเกวียน",
-    "conf": "unverified",
+    "th": "คำพูดแสดงความผิดหวัง ความคับข้องใจ หรือความสงสาร",
+    "conf": "verified",
     "src": [
-     "RID"
+     "RID",
+     "WIKT"
     ]
    },
-   "pos": "verb, noun, classifier",
-   "pos_th": "คำกริยา, คำนาม, คำลักษณนาม",
+   "pos": "noun, interjection",
+   "pos_th": "คำนาม, คำอุทาน",
    "domains": [
-    "d:number"
+    "d:religion"
    ],
    "order_conf": "unverified",
    "conf": "probable",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "n": 8,
-   "gloss": {
-    "en": [
-     "[needs an English gloss — RID sense 8]"
-    ],
-    "th": "กรรม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "pos": "verb, noun, classifier",
-   "pos_th": "คำกริยา, คำนาม, คำลักษณนาม",
-   "domains": [
-    "d:number"
    ],
-   "order_conf": "unverified",
-   "conf": "probable",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "กรรม! as an exclamation — the misfortune said aloud.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -210,489 +360,28 @@
  ],
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
-  "Attested in this corpus: 9 manuscript titles, 218 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'kam', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Attested in this corpus: 15 manuscript titles, 69 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
- "editorial": "Generated by lexicon_ingest.py. Generativity 30; domain seeded by keyword hits ['ครึ่ง', 'สอง', 'เท่า', 'วัด'].",
+ "editorial": "Generated by lexicon_ingest.py. Generativity 53; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
   {
-   "th": "กำปั้น",
-   "translit_auto": "kampan",
+   "th": "ผลิตกรรม",
+   "rtgs": "pha-lit-ta-kam",
+   "ipa": "/pʰa˨˩.lit̚˨˩.ta˨˩.kam˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "มือที่กำเข้าให้แน่นเพื่อจะทุบเป็นต้น",
+    "th": "การทำให้เป็นผล",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "กำ",
-    "ปั้น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำดัด",
-   "translit_auto": "kamdad",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กำลังรุ่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "ดัด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำเกียง",
-   "translit_auto": "kamkeiyng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม่ลงรูป, ไม่ลงรอย, ไม่ลงที่, รวมกันไม่เข้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "เกียง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำแพง",
-   "translit_auto": "kamphaeng",
-   "gloss": {
-    "en": [
-     "wall"
-    ],
-    "th": "เครื่องกั้น เครื่องล้อม ที่ก่อด้วยอิฐ ดิน หรือหิน เป็นต้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "แพง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำบิด",
-   "translit_auto": "kambid",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "บิด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำจัด",
-   "translit_auto": "kamchad",
-   "gloss": {
-    "en": [
-     "free"
-    ],
-    "th": "ขับไล่, ปราบ, ทำให้สิ้นไป",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "จัด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำบัง",
-   "translit_auto": "kambang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บัง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "บัง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำลัง",
-   "translit_auto": "kamlang",
-   "gloss": {
-    "en": [
-     "force"
-    ],
-    "th": "แรง, สิ่งที่ทำให้เกิดอำนาจความเข้มแข็ง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "ลัง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำพง",
-   "translit_auto": "kamphng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ท่าน้ำ, ตำบล",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "พง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำปั่น",
-   "translit_auto": "kampan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรือเดินทะเลขนาดใหญ่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "ปั่น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำโชก",
-   "translit_auto": "kamchok",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รูปเลิกใช้ของ กรรโชก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "โชก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำปัง",
-   "translit_auto": "kampang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอโนนไทย จังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "ปัง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำราบ",
-   "translit_auto": "kamrab",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำให้เข็ดหลาบ กลัว สิ้นพยศ สิ้นฤทธิ์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "ราบ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำสรวล",
-   "translit_auto": "kamsrwn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "โศกเศร้า, คร่ำครวญ, ร้องไห้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "สรวล"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำด้น",
-   "translit_auto": "kamdn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ท้ายทอย, ส่วนที่คอกับศีรษะต่อกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "ด้น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำกับ",
-   "translit_auto": "kamkab",
-   "gloss": {
-    "en": [
-     "control"
-    ],
-    "th": "ดูแล, ควบคุม",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "กับ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำไร",
-   "translit_auto": "kamrai",
-   "gloss": {
-    "en": [
-     "profit"
-    ],
-    "th": "ผลที่ได้เกินต้นทุน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "ไร"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำยาน",
-   "translit_auto": "kamyan",
-   "gloss": {
-    "en": [
-     "frankincense"
-    ],
-    "th": "วัตถุหอมชนิดหนึ่ง เกิดจากยางใสกลิ่นหอมที่ออกจากเปลือกของต้นกำยาน (2) บางชนิด เกิดขึ้นได้เนื่องจากเปลือกถูกกรีดหรือมีราลง ก็จะขับยางใสกลิ่นหอมออกมา เมื่อแห้งจะแข็งติดอยู่กับลำต้นแกะออกมาได้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "ยาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำพร้า",
-   "translit_auto": "kamphra",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรียกหนังที่เป็นผิวชั้นนอกของคนและสัตว์ว่า หนังกำพร้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "พร้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การกำ",
-   "translit_auto": "karkam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ กำ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การ",
-    "กำ"
+    "ผลิต",
+    "กรรม"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -702,21 +391,22 @@
    ]
   },
   {
-   "th": "กำมือ",
-   "translit_auto": "kammue",
+   "th": "กรรมออนไลน์",
+   "rtgs": "kam-on-lai",
+   "ipa": "/kam˧.ʔɔːn˧.laːj˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "มือที่กำเข้า",
+    "th": "การทำชั่วที่ส่งผลต่อผู้กระทำอย่างรวดเร็ว",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "กำ",
-    "มือ"
+    "กรรม",
+    "ออนไลน์"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -726,143 +416,22 @@
    ]
   },
   {
-   "th": "กำเดา",
-   "translit_auto": "kamdea",
+   "th": "สูติกรรม",
+   "rtgs": "su-ti-kam",
+   "ipa": "/suː˩˩˦.ti˨˩.kam˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "เลือดที่ออกทางจมูก เรียกว่า เลือดกำเดา",
+    "th": "การทำคลอด",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "กำ",
-    "เดา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำกวม",
-   "translit_auto": "kamkwm",
-   "gloss": {
-    "en": [
-     "cloudy",
-     "ambiguous"
-    ],
-    "th": "คลุมเครือ, เคลือบคลุม, มีความหมายได้หลายอย่าง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "กวม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำกัด",
-   "translit_auto": "kamkad",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "จำกัดให้แคบเข้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "กัด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำหมัด",
-   "translit_auto": "kamhmad",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มือที่กำไว้แน่นเพื่อชกต่อย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "หมัด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กำจร",
-   "translit_auto": "kamchn",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ฟุ้งไป",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "จร"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ระกำ",
-   "translit_auto": "rakam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อปาล์มชนิด Salacca wallichiana C. Martius ในวงศ์ Palmae ขึ้นเป็นกอ ก้านใบมีหนามแข็ง เนื้อฟ่าม ผลออกเป็นกระปุก กินได้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ระ",
-    "กำ"
+    "สูติ",
+    "กรรม"
    ],
    "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
@@ -872,21 +441,72 @@
    ]
   },
   {
-   "th": "กำยำ",
-   "translit_auto": "kamyam",
+   "th": "ศัลยกรรม",
+   "rtgs": "san-la-ya-kam",
+   "ipa": "/san˩˩˦.la˦˥.ja˦˥.kam˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "แข็งแรงใหญ่โต",
+    "th": "การรักษาโรคโดยวิธีผ่าตัด",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "กำ",
-    "ยำ"
+    "ศัลย",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ผาติกรรม",
+   "rtgs": "pha-ti-kam",
+   "ipa": "/pʰaː˩˩˦.ti˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การทำให้เจริญ (=รื้อของไม่ดีออกแล้วทำใหม่ให้ดีกว่าของเก่า)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ผาติ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กรรมพันธุ์",
+   "rtgs": "kam-ma-phan",
+   "ipa": "/kam˧.ma˦˥.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลักษณะ นิสัย ตลอดจนโรคหรือความวิกลวิการบางอย่างที่ลูกหลานสืบมาจากบรรพบุรุษ ปู่ย่าตายาย หรือพ่อแม่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรรม",
+    "พันธุ์"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -896,21 +516,148 @@
    ]
   },
   {
-   "th": "กำพืด",
-   "translit_auto": "kamphued",
+   "th": "จิตรกรรม",
+   "rtgs": "chit-tra-kam",
+   "ipa": "/t͡ɕit̚˨˩.tra˨˩.kam˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "เทือกเถา, เผ่าพันธุ์",
+    "th": "ศิลปะประเภทหนึ่งในทัศนศิลป์เกี่ยวกับการเขียนภาพวาดภาพ",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "กำ",
-    "พืด"
+    "จิตร",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กัลยาณกรรม",
+   "rtgs": "kan-la-ya-na-kam",
+   "ipa": "/kan˧.la˦˥.jaː˧.na˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การกระทำที่ดีงาม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กัลยาณ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หัตถกรรม",
+   "rtgs": "hat-tha-kam",
+   "ipa": "/hat̚˨˩.tʰa˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "งานช่างที่ทำด้วยมือ โดยถือประโยชน์ใช้สอยเป็นหลัก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หัตถ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กิจกรรม",
+   "rtgs": "kit-cha-kam",
+   "ipa": "/kit̚˨˩.t͡ɕa˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "activity"
+    ],
+    "th": "การที่ผู้เรียนปฏิบัติการอย่างใดอย่างหนึ่งเพื่อการเรียนรู้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กิจ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นิติกรรม",
+   "rtgs": "ni-ti-kam",
+   "ipa": "/ni˦˥.ti˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การใด ๆ อันทำลงโดยชอบด้วยกฎหมายและด้วยใจสมัคร มุ่งโดยตรงต่อการผูกนิติสัมพันธ์ขึ้นระหว่างบุคคล เพื่อจะก่อ เปลี่ยนแปลง โอน สงวน หรือระงับซึ่งสิทธิ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นิติ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กรรมวาจก",
+   "rtgs": "kam-ma-wa-chok",
+   "ipa": "/kam˧.ma˦˥.waː˧.t͡ɕok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ระเบียบของกริยาที่บอกว่าประธานเป็นกรรมการกหรือผู้ถูกทำ, กริยาของประโยคที่แสดงว่าประธานทำหน้าที่เป็นกรรมการก คือ ผู้ถูกทำ, กริยาของประโยคกรรมต้องใช้สกรรมกริยา คือ กริยาที่ต้องมีกรรมรับ, บางทีก็มีกริยานุเคราะห์ “ถูก” นำ แล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรรม",
+    "วาจก"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -920,23 +667,910 @@
    ]
   },
   {
-   "th": "กำแหง",
-   "translit_auto": "kamhaeng",
+   "th": "โจรกรรม",
+   "rtgs": "cho-ra-kam",
+   "ipa": "/t͡ɕoː˧.ra˦˥.kam˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "แข็งแรง, กล้าแข็ง, เข้มแข็ง",
+    "th": "การลัก, การขโมย, การปล้น",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "กำ",
-    "แหง"
+    "โจร",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ศิลปกรรม",
+   "rtgs": "sin-la-pa-kam",
+   "ipa": "/sin˩˩˦.la˦˥.pa˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "art"
+    ],
+    "th": "สิ่งที่เป็นศิลปะ, สิ่งที่สร้างสรรค์ขึ้นเป็นศิลปะ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ศิลป",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นาฏกรรม",
+   "rtgs": "nat-ta-kam",
+   "ipa": "/naːt̚˥˩.ta˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "dance"
+    ],
+    "th": "การละครหรือการฟ้อนรำ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "นาฏ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "วิศวกรรม",
+   "rtgs": "wit-sa-wa-kam",
+   "ipa": "/wit̚˦˥.sa˨˩.wa˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การนำความรู้ทางคณิตศาสตร์และวิทยาศาสตร์ธรรมชาติมาประยุกต์ใช้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วิศว",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "วีรกรรม",
+   "rtgs": "wi-ra-kam",
+   "ipa": "/wiː˧.ra˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การกระทำที่ได้รับยกย่องว่าเป็นความกล้าหาญ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วีร",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "พันธุกรรม",
+   "rtgs": "phan-thu-kam",
+   "ipa": "/pʰan˧.tʰu˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลักษณะ นิสัย ตลอดจนโรคหรือความวิกลวิการบางอย่างที่ลูกหลานสืบมาจากบรรพบุรุษ ปู่ย่าตายาย หรือพ่อแม่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พันธุ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นิรโทษกรรม",
+   "rtgs": "ni-ra-thot-sa-kam",
+   "ipa": "/ni˦˥.ra˦˥.tʰoːt̚˥˩.sa˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "amnesty"
+    ],
+    "th": "ในทางแพ่ง หมายถึง การกระทำที่ก่อให้เกิดความเสียหายแก่ผู้อื่น แต่กฎหมายยกเว้นให้ ไม่ต้องชดใช้ค่าสินไหมทดแทน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "นิรโทษ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กรรมวิธี",
+   "rtgs": "kam-ma-wi-thi",
+   "ipa": "/kam˧.ma˦˥.wi˦˥.tʰiː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลักษณะอาการหรือวิธีการที่ผันแปรหรือเปลี่ยนแปลงไปตามธรรมชาติหรือที่มนุษย์ทำขึ้น อันดำเนินติดต่อกันเรื่อยไปเป็นลำดับ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรรม",
+    "วิธี"
    ],
    "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กรรมวาจา",
+   "rtgs": "kam-ma-wa-cha",
+   "ipa": "/kam˧.ma˦˥.waː˧.t͡ɕaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำประกาศกิจการท่ามกลางสงฆ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรรม",
+    "วาจา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "สังฆกรรม",
+   "rtgs": "sang-kha-kam",
+   "ipa": "/saŋ˩˩˦.kʰa˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กิจที่พระสงฆ์ตั้งแต่ 4 รูปขึ้นไปรวมกันทำภายในสีมา เช่น การทำอุโบสถ การสวดพระปาติโมกข์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สังฆ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "คชกรรม",
+   "translit_auto": "khchkrrm",
+   "ipa": "[kʰót̚ tɕʰá kam]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กิจการในทางปฏิบัติอันเกี่ยวกับช้าง เช่น การขี่ การฟันขอ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คช",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หมดกรรม",
+   "rtgs": "mot-kam",
+   "ipa": "/mot̚˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สิ้นสุดในการที่ต้องรับทุกข์อีกต่อไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หมด",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กรรมการ",
+   "rtgs": "kam-ma-kan",
+   "ipa": "/kam˧.ma˦˥.kaːn˧/",
+   "gloss": {
+    "en": [
+     "zebra",
+     "judge"
+    ],
+    "th": "บุคคลซึ่งได้รับเลือกหรือได้รับแต่งตั้งเพื่อกระทำกิจการบางอย่างเป็นคณะ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กรรม",
+    "การ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "สิ้นกรรม",
+   "rtgs": "sin-kam",
+   "ipa": "/sin˥˩.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สิ้นสุดในการที่ต้องรับทุกข์อีกต่อไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สิ้น",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กายกรรม",
+   "rtgs": "kai-ya-kam",
+   "ipa": "/kaːj˧.ja˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การทำทางกาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กาย",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ฆาตกรรม",
+   "rtgs": "khat-ta-kam",
+   "ipa": "/kʰaːt̚˥˩.ta˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "kill",
+     "massacre"
+    ],
+    "th": "การฆ่าคน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ฆาต",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กรรมศาลา",
+   "rtgs": "kam-ma-sa-la",
+   "ipa": "/kam˧.ma˦˥.saː˩˩˦.laː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "โรงงาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรรม",
+    "ศาลา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เดชะกรรม",
+   "rtgs": "de-cha-kam",
+   "ipa": "/deː˧.t͡ɕʰa˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "บังเอิญ (ใช้ในทางไม่ดี)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เดชะ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "นวกรรม",
+   "rtgs": "na-wa-kam",
+   "ipa": "/na˦˥.wa˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การก่อสร้าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นว",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ทันตกรรม",
+   "rtgs": "than-ta-kam",
+   "ipa": "/tʰan˧.ta˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การรักษาโรคทางฟัน เหงือก ขากรรไกร และโรคภายในช่องปาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทันต",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กรรมบถ",
+   "rtgs": "kam-ma-bot",
+   "ipa": "/kam˧.ma˦˥.bot̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทางแห่งกรรม มี ๒ อย่างตามลักษณะ คือ กุศลกรรมบถและอกุศลกรรมบถ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรรม",
+    "บถ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เกษตรกรรม",
+   "rtgs": "ka-set-tra-kam",
+   "ipa": "/ka˨˩.seːt̚˨˩.tra˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "farming"
+    ],
+    "th": "การใช้ที่ดินเพาะปลูกพืชต่าง ๆ รวมทั้งการเลี้ยงสัตว์ การประมง และการป่าไม้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เกษตร",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กรรมสิทธิ์",
+   "rtgs": "kam-ma-sit",
+   "ipa": "/kam˧.ma˦˥.sit̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความเป็นเจ้าของทรัพย์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรรม",
+    "สิทธิ์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ธุรกรรม",
+   "rtgs": "thu-ra-kam",
+   "ipa": "/tʰu˦˥.ra˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กิจกรรมที่เกี่ยวกับการทำนิติกรรม สัญญาหรือการดำเนินการใด ๆ กับผู้อื่น ทางการเงิน ทางธุรกิจ หรือการดำเนินการเกี่ยวกับทรัพย์สิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ธุร",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "มหกรรม",
+   "rtgs": "ma-ha-kam",
+   "ipa": "/ma˦˥.ha˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การฉลอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มห",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "จารกรรม",
+   "rtgs": "cha-ra-kam",
+   "ipa": "/t͡ɕaː˧.ra˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การสอดแนมเพื่อสืบความลับของข้าศึก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จาร",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เภสัชกรรม",
+   "rtgs": "phe-sat-cha-kam",
+   "ipa": "/pʰeː˧.sat̚˨˩.t͡ɕʰa˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วิทยาศาสตร์แขนงที่ว่าด้วยการเตรียมเครื่องยา ตัวยาจากธรรมชาติหรือการสังเคราะห์ให้เป็นยาสำเร็จรูป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เภสัช",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กรรมกร",
+   "rtgs": "kam-ma-kon",
+   "ipa": "/kam˧.ma˦˥.kɔːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คนงาน, ลูกจ้างที่ใช้แรงงาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรรม",
+    "กร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ทัณฑกรรม",
+   "rtgs": "than-da-kam",
+   "ipa": "/tʰan˧.da˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การลงโทษ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทัณฑ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เวชกรรม",
+   "rtgs": "wet-cha-kam",
+   "ipa": "/weːt̚˥˩.t͡ɕʰa˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การรักษาโรค",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เวช",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "วาทกรรม",
+   "rtgs": "wa-tha-kam",
+   "ipa": "/waː˧.tʰa˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "discourse"
+    ],
+    "th": "การสื่อสารหรืออภิปรายทางลายลักษณ์อักษรหรือวาจา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "วาท",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "วีระกรรม",
+   "rtgs": "wi-ra-kam",
+   "ipa": "/wiː˧.ra˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ วีรกรรม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วีระ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ประดิษฐกรรม",
+   "rtgs": "pra-dit-tha-kam",
+   "ipa": "/pra˨˩.dit̚˨˩.tʰa˨˩.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การทำสิ่งของขึ้นจากวัตถุดิบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ประดิษฐ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "กรรมฐาน",
+   "rtgs": "kam-ma-than",
+   "ipa": "/kam˧.ma˦˥.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ที่ตั้งแห่งการงาน หมายเอาอุบายทางใจ มี 2 ประการ คือ สมถกรรมฐาน เป็นอุบายสงบใจ และวิปัสสนากรรมฐาน เป็นอุบายเรืองปัญญา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรรม",
+    "ฐาน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "วรรณกรรม",
+   "rtgs": "wan-na-kam",
+   "ipa": "/wan˧.na˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "งานหนังสือ, งานประพันธ์, บทประพันธ์ทุกชนิด ทั้งที่เป็นร้อยแก้วและร้อยกรอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วรรณ",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "พิธีกรรม",
+   "rtgs": "phi-thi-kam",
+   "ipa": "/pʰi˦˥.tʰiː˧.kam˧/",
+   "gloss": {
+    "en": [
+     "celebrity",
+     "ritual"
+    ],
+    "th": "การบูชา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "พิธี",
+    "กรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -945,19 +1579,34 @@
   }
  ],
  "etymology": {
-  "summary": "สืบทอดจากไทดั้งเดิม *kamᴬ; ร่วมเชื้อสายกับคำเมือง ᨠᩣᩴ (กาํ), เขิน ᨠᩣᩴ (กาํ), ลาว ກຳ (กำ), ไทลื้อ ᦂᧄ (กัม), ไทใหญ่ ၵမ် (กัม), ไทใต้คง ᥐᥛ (กัม), พ่าเก က︀ံ (กํ), อาหม 𑜀𑜪 (กํ), จ้วง gaem, จ้วงแบบหนง gaem, แสก กั๋ม, ตั่ย căm",
+  "summary": "ยืมมาจากสันสกฤต कर्म (กรฺม, “การกระทำ”) หรือ कर्मन् (กรฺมนฺ, “การกระทำ; สิ่งที่ถูกกระทำ”); เทียบบาลี กมฺม (“การกระทำ”)",
   "conf": "probable",
   "src": [
    "WIKT"
   ]
  },
- "lanna": {
-  "tham": "ᨠᩣᩴ",
-  "th": "กาํ",
-  "note": "Extracted from the Wiktionary etymology line.",
-  "conf": "probable",
-  "src": [
-   "WIKT"
-  ]
- }
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kam-2",
+   "label": "กำ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kam\". กรรม is gam, กำ is gam — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kam-3",
+   "label": "กาม",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kam\". กรรม is gam, กาม is gaam — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
 }

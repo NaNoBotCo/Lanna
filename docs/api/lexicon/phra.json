@@ -1,8 +1,10 @@
 {
  "id": "w:phra",
  "th": "พระ",
- "translit_auto": "phra",
- "status": "listed",
+ "status": "mapped",
+ "rtgs": "phra",
+ "paiboon": "prá",
+ "ipa": "/pʰraʔ˦˥/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -31,7 +33,11 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
-   ]
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "The honorific fixed to the one who wears the robe.",
+   "via_conf": "probable"
   },
   {
    "n": 2,
@@ -55,7 +61,38 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "พระรูป",
+     "translit_auto": "phrarup",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "รูป"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.41, next 0.27",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "And to the image of the Buddha.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -79,7 +116,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "And to the Buddha himself.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -103,7 +144,488 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "พระโขนง",
+     "rtgs": "phra-kha-nong",
+     "ipa": "/pʰra˦˥.kʰa˨˩.noːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "โขนง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "โกรกพระ",
+     "rtgs": "krok-phra",
+     "ipa": "/kroːk̚˨˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครสวรรค์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โกรก",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พระบุ",
+     "rtgs": "phra-bu",
+     "ipa": "/pʰra˦˥.buʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพระยืน จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "บุ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ทางพระ",
+     "rtgs": "thang-phra",
+     "ipa": "/tʰaːŋ˧.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโพธิ์ทอง จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทาง",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ขนงพระ",
+     "rtgs": "kha-nong-phra",
+     "ipa": "/kʰa˨˩.noŋ˩˩˦.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปากช่อง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขนง",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "สระพระ",
+     "rtgs": "sa-phra",
+     "ipa": "/sa˨˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพระทองคำ จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "บึงพระ",
+     "rtgs": "bueng-phra",
+     "ipa": "/bɯŋ˧.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บึง",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พระแสง",
+     "rtgs": "phra-saeng",
+     "ipa": "/pʰra˦˥.sɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุราษฎร์ธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "แสง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พระสิงห์",
+     "rtgs": "phra-sing",
+     "ipa": "/pʰra˦˥.siŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "สิงห์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "จอมพระ",
+     "rtgs": "chom-phra",
+     "ipa": "/t͡ɕɔːm˧.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุรินทร์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จอม",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พระพรหม",
+     "rtgs": "phra-phrom",
+     "ipa": "/pʰra˦˥.pʰrom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "พรหม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ท่าพระ",
+     "rtgs": "tha-phra",
+     "ipa": "/tʰaː˥˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองขอนแก่น จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท่า",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พระลับ",
+     "rtgs": "phra-lap",
+     "ipa": "/pʰra˦˥.lap̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองขอนแก่น จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ลับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "บางพระ",
+     "rtgs": "bang-phra",
+     "ipa": "/baːŋ˧.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองฉะเชิงเทรา จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พระทองคำ",
+     "rtgs": "phra-thong-kham",
+     "ipa": "/pʰra˦˥.tʰɔːŋ˧.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ทองคำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พบพระ",
+     "rtgs": "phop-phra",
+     "ipa": "/pʰop̚˦˥.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดตาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พบ",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พระยืน",
+     "rtgs": "phra-yuen",
+     "ipa": "/pʰra˦˥.jɯːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ยืน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "หนองพระ",
+     "rtgs": "nong-phra",
+     "ipa": "/nɔːŋ˩˩˦.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวังทอง จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ปากพระ",
+     "rtgs": "pak-phra",
+     "ipa": "/paːk̚˨˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองสุโขทัย จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "The Buddha's day — the observance days named from him.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -127,7 +649,65 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "แม่พระ",
+     "rtgs": "mae-phra",
+     "ipa": "/mɛː˥˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำเรียกพระมารดาของพระเยซู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พระเจ้า",
+     "rtgs": "phra-chao",
+     "ipa": "/pʰra˦˥.t͡ɕaːw˥˩/",
+     "gloss": {
+      "en": [
+       "God",
+       "Allah"
+      ],
+      "th": "พระพุทธเจ้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "เจ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "Taken up by Thai Christians for God and for Jesus.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -151,7 +731,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Widened from the Buddhist monk to ascetics and religious generally.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -175,7 +759,40 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "พระเอก",
+     "rtgs": "phra-ek",
+     "ipa": "/pʰra˦˥.ʔeːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "lead"
+      ],
+      "th": "ตัวเอกฝ่ายชายในนวนิยาย ละคร หรือภาพยนตร์เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "เอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.13, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 8,
+   "via": "metaphor",
+   "via_note": "The noble male lead in a play, cast in the honorific.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -200,6 +817,302 @@
     "RID",
     "WIKT"
    ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 9]"
+    ],
+    "th": "อิสริยยศเจ้านาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พระที่",
+     "translit_auto": "phrathi",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่นอน (ใช้กับเจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ที่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.40, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พระหัตถเลขา",
+     "translit_auto": "phrahatthlekha",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลายมือ (ใช้กับเจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "หัตถเลขา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.40, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พระอักษร",
+     "translit_auto": "phraaksn",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จดหมาย (ใช้กับเจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "อักษร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.40, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "พระรูปชี",
+     "translit_auto": "phrarupchi",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชี (ใช้กับเจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "รูปชี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.42, next 0.23",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "The honorific as a rank of royalty.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 10]"
+    ],
+    "th": "บรรดาศักดิ์ข้าราชการสูงกว่าหลวง ต่ำกว่าพระยา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พระยา",
+     "rtgs": "phra-ya",
+     "ipa": "/pʰra˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บรรดาศักดิ์ข้าราชการผู้ใหญ่สูงกว่าพระ ต่ำกว่าเจ้าพระยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ยา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 10: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 9,
+   "via": "specialisation",
+   "via_note": "And as an official grade above หลวง and below พระยา.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 11]"
+    ],
+    "th": "ใช้ประกอบหน้าชื่อบรรดาศักดิ์พระสนม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "specialisation",
+   "via_note": "And before the titles of royal consorts.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 12]"
+    ],
+    "th": "โดยปริยายหมายถึงผู้ที่มีเมตตากรุณาทรงคุณงามความดีเหมือนพระ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ใจพระ",
+     "rtgs": "chai-phra",
+     "ipa": "/t͡ɕaj˧.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีใจบุญ, มีใจเมตตา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 12: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Figuratively, someone as kind and good as a monk.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 13,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 13]"
+    ],
+    "th": "คำใช้แทนผู้ที่เราพูดถึง ใช้กับผู้เป็นใหญ่, เป็นสรรพนามบุรุษที่ 3",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "metonymy",
+   "via_note": "The honorific standing alone as a third-person pronoun for the eminent.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -211,18 +1124,21 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 418 manuscript titles, 2855 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'phra', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 50; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
   {
-   "th": "พระสุคนธ์",
-   "translit_auto": "phrasukhnt",
+   "th": "พระรอง",
+   "rtgs": "phra-rong",
+   "ipa": "/pʰra˦˥.rɔːŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "เครื่องหอม, น้ำหอม",
+    "th": "พระเอกที่มีบทบาทรองลงมาจากพระเอก/นางเอกในนวนิยาย ละคร หรือภาพยนตร์เป็นต้น",
     "conf": "unverified",
     "src": [
      "RID"
@@ -230,7 +1146,7 @@
    },
    "parts": [
     "พระ",
-    "สุคนธ์"
+    "รอง"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -240,13 +1156,13 @@
    ]
   },
   {
-   "th": "พระฉวี",
-   "translit_auto": "phrachwi",
+   "th": "พระสำอาง",
+   "translit_auto": "phrasamang",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ผิวกาย",
+    "th": "เครื่องสำอาง",
     "conf": "unverified",
     "src": [
      "RID"
@@ -254,7 +1170,7 @@
    },
    "parts": [
     "พระ",
-    "ฉวี"
+    "สำอาง"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -264,37 +1180,13 @@
    ]
   },
   {
-   "th": "ท่าพระ",
-   "translit_auto": "thaphra",
+   "th": "พระภูษา",
+   "translit_auto": "phraphusa",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองขอนแก่น จังหวัดขอนแก่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ท่า",
-    "พระ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พระเพลิง",
-   "translit_auto": "phrapheling",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำพ้องความของ เพลิง",
+    "th": "ผ้านุ่ง",
     "conf": "unverified",
     "src": [
      "RID"
@@ -302,7 +1194,7 @@
    },
    "parts": [
     "พระ",
-    "เพลิง"
+    "ภูษา"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -312,37 +1204,13 @@
    ]
   },
   {
-   "th": "บึงพระ",
-   "translit_auto": "buengphra",
+   "th": "พระตะพาบ",
+   "translit_auto": "phrataphab",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "บึง",
-    "พระ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พระหัตถเลขา",
-   "translit_auto": "phrahatthlekha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลายมือ (ใช้กับเจ้านาย)",
+    "th": "คนโทน้ำเย็น",
     "conf": "unverified",
     "src": [
      "RID"
@@ -350,296 +1218,7 @@
    },
    "parts": [
     "พระ",
-    "หัตถเลขา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ทางพระ",
-   "translit_auto": "thangphra",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอโพธิ์ทอง จังหวัดอ่างทอง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทาง",
-    "พระ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พระเอก",
-   "translit_auto": "phraoke",
-   "gloss": {
-    "en": [
-     "lead"
-    ],
-    "th": "ตัวเอกฝ่ายชายในนวนิยาย ละคร หรือภาพยนตร์เป็นต้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "เอก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "จอมพระ",
-   "translit_auto": "chomphra",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดสุรินทร์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "จอม",
-    "พระ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พระที่",
-   "translit_auto": "phrathi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ที่นอน (ใช้กับเจ้านาย)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "ที่"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พระโขนง",
-   "translit_auto": "phrakhonng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "โขนง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "บางพระ",
-   "translit_auto": "bangphra",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองฉะเชิงเทรา จังหวัดฉะเชิงเทรา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "บาง",
-    "พระ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พระมังสา",
-   "translit_auto": "phramangsa",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เนื้อ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "มังสา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พบพระ",
-   "translit_auto": "phbphra",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดตาก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พบ",
-    "พระ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "แม่พระ",
-   "translit_auto": "maephra",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำเรียกพระมารดาของพระเยซู",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "พระ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "สระพระ",
-   "translit_auto": "sraphra",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอพระทองคำ จังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สระ",
-    "พระ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ขนงพระ",
-   "translit_auto": "khnngphra",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอปากช่อง จังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขนง",
-    "พระ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พระแผง",
-   "translit_auto": "phraphaeng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พระพิมพ์ที่หล่อติดกันเป็นแผง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "แผง"
+    "ตะพาบ"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -673,13 +1252,13 @@
    ]
   },
   {
-   "th": "พระลับ",
-   "translit_auto": "phralab",
+   "th": "พระสุคนธ์",
+   "translit_auto": "phrasukhnt",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองขอนแก่น จังหวัดขอนแก่น",
+    "th": "เครื่องหอม, น้ำหอม",
     "conf": "unverified",
     "src": [
      "RID"
@@ -687,7 +1266,7 @@
    },
    "parts": [
     "พระ",
-    "ลับ"
+    "สุคนธ์"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -697,13 +1276,14 @@
    ]
   },
   {
-   "th": "พระยืน",
-   "translit_auto": "phrayuen",
+   "th": "พระองค์",
+   "rtgs": "phra-ong",
+   "ipa": "/pʰra˦˥.ʔoŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดขอนแก่น",
+    "th": "ตัว",
     "conf": "unverified",
     "src": [
      "RID"
@@ -711,127 +1291,7 @@
    },
    "parts": [
     "พระ",
-    "ยืน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ปากพระ",
-   "translit_auto": "pakphra",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองสุโขทัย จังหวัดสุโขทัย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ปาก",
-    "พระ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พระเขี้ยวแก้ว",
-   "translit_auto": "phrakheiywkaeo",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เขี้ยวของพระพุทธเจ้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "เขี้ยวแก้ว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พระทองคำ",
-   "translit_auto": "phrathongkham",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "ทองคำ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พระบุ",
-   "translit_auto": "phrabu",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอพระยืน จังหวัดขอนแก่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "บุ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พระรูปชี",
-   "translit_auto": "phrarupchi",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชี (ใช้กับเจ้านาย)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "รูปชี"
+    "องค์"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -842,7 +1302,8 @@
   },
   {
    "th": "พระคุณ",
-   "translit_auto": "phrakhun",
+   "rtgs": "phra-khun",
+   "ipa": "/pʰra˦˥.kʰun˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -865,13 +1326,13 @@
    ]
   },
   {
-   "th": "พระรอง",
-   "translit_auto": "phrarong",
+   "th": "พระฉวี",
+   "translit_auto": "phrachwi",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "พระเอกที่มีบทบาทรองลงมาจากพระเอก/นางเอกในนวนิยาย ละคร หรือภาพยนตร์เป็นต้น",
+    "th": "ผิวกาย",
     "conf": "unverified",
     "src": [
      "RID"
@@ -879,7 +1340,7 @@
    },
    "parts": [
     "พระ",
-    "รอง"
+    "ฉวี"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -889,37 +1350,14 @@
    ]
   },
   {
-   "th": "โกรกพระ",
-   "translit_auto": "korkphra",
+   "th": "พระเพลิง",
+   "rtgs": "phra-phloeng",
+   "ipa": "/pʰra˦˥.pʰlɤːŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดนครสวรรค์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "โกรก",
-    "พระ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พระทรงธรรม",
-   "translit_auto": "phrathrngthrrm",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กษัตริย์",
+    "th": "คำพ้องความของ เพลิง",
     "conf": "unverified",
     "src": [
      "RID"
@@ -927,23 +1365,25 @@
    },
    "parts": [
     "พระ",
-    "ทรงธรรม"
+    "เพลิง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "use": "synonym-pointer"
   },
   {
-   "th": "พระพิมพ์",
-   "translit_auto": "phraphimp",
+   "th": "พระนคร",
+   "rtgs": "phra-na-khon",
+   "ipa": "/pʰra˦˥.na˦˥.kʰɔːn˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "พระเครื่องที่สร้างขึ้นตามแบบแม่พิมพ์",
+    "th": "เมืองหลวง, เมืองใหญ่",
     "conf": "unverified",
     "src": [
      "RID"
@@ -951,7 +1391,7 @@
    },
    "parts": [
     "พระ",
-    "พิมพ์"
+    "นคร"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -961,13 +1401,14 @@
    ]
   },
   {
-   "th": "พระแสง",
-   "translit_auto": "phrasaeng",
+   "th": "พระแผง",
+   "rtgs": "phra-phaeng",
+   "ipa": "/pʰra˦˥.pʰɛːŋ˩˩˦/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดสุราษฎร์ธานี",
+    "th": "พระพิมพ์ที่หล่อติดกันเป็นแผง",
     "conf": "unverified",
     "src": [
      "RID"
@@ -975,7 +1416,7 @@
    },
    "parts": [
     "พระ",
-    "แสง"
+    "แผง"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -985,13 +1426,13 @@
    ]
   },
   {
-   "th": "พระแท่น",
-   "translit_auto": "phrathaen",
+   "th": "พระสังวาล",
+   "translit_auto": "phrasangwal",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "คำพ้องความของ แท่น",
+    "th": "สร้อยสะพายแล่ง",
     "conf": "unverified",
     "src": [
      "RID"
@@ -999,7 +1440,7 @@
    },
    "parts": [
     "พระ",
-    "แท่น"
+    "สังวาล"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -1033,8 +1474,60 @@
    ]
   },
   {
+   "th": "พระเขี้ยวแก้ว",
+   "translit_auto": "phrakheiywkaeo",
+   "ipa": "[pʰräʔ˦˥.kʰiäw˥˩.kɛːw˥˩]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เขี้ยวของพระพุทธเจ้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พระ",
+    "เขี้ยวแก้ว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "พระแท่น",
+   "rtgs": "phra-thaen",
+   "ipa": "/pʰra˦˥.tʰɛn˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ แท่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พระ",
+    "แท่น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer"
+  },
+  {
    "th": "พระเมรุมาศ",
-   "translit_auto": "phramerumas",
+   "rtgs": "phra-me-ru-mat",
+   "ipa": "/pʰra˦˥.meː˧.ru˦˥.maːt̚˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -1057,23 +1550,22 @@
    ]
   },
   {
-   "th": "พระเจ้า",
-   "translit_auto": "phrachea",
+   "th": "พระทรงธรรม",
+   "translit_auto": "phrathrngthrrm",
+   "ipa": "[pʰrä˥.sõŋ˧.tʰä̃m˧]",
    "gloss": {
     "en": [
-     "God",
-     "Allah"
+     "[needs a gloss]"
     ],
-    "th": "พระพุทธเจ้า",
-    "conf": "verified",
+    "th": "กษัตริย์",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
    "parts": [
     "พระ",
-    "เจ้า"
+    "ทรงธรรม"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -1083,13 +1575,13 @@
    ]
   },
   {
-   "th": "พระยา",
-   "translit_auto": "phraya",
+   "th": "พระมังสา",
+   "translit_auto": "phramangsa",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "บรรดาศักดิ์ข้าราชการผู้ใหญ่สูงกว่าพระ ต่ำกว่าเจ้าพระยา",
+    "th": "เนื้อ",
     "conf": "unverified",
     "src": [
      "RID"
@@ -1097,7 +1589,7 @@
    },
    "parts": [
     "พระ",
-    "ยา"
+    "มังสา"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -1107,13 +1599,14 @@
    ]
   },
   {
-   "th": "พระพรหม",
-   "translit_auto": "phraphrhm",
+   "th": "พระพิมพ์",
+   "rtgs": "phra-phim",
+   "ipa": "/pʰra˦˥.pʰim˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
+    "th": "พระเครื่องที่สร้างขึ้นตามแบบแม่พิมพ์",
     "conf": "unverified",
     "src": [
      "RID"
@@ -1121,7 +1614,7 @@
    },
    "parts": [
     "พระ",
-    "พรหม"
+    "พิมพ์"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -1131,13 +1624,14 @@
    ]
   },
   {
-   "th": "พระนคร",
-   "translit_auto": "phrankhn",
+   "th": "พระพุทธ",
+   "rtgs": "phra-phut",
+   "ipa": "/pʰra˦˥.pʰut̚˦˥/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "เมืองหลวง, เมืองใหญ่",
+    "th": "คำพ้องความของ พุทธ",
     "conf": "unverified",
     "src": [
      "RID"
@@ -1145,38 +1639,15 @@
    },
    "parts": [
     "พระ",
-    "นคร"
+    "พุทธ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "th": "พระสังวาล",
-   "translit_auto": "phrasangwal",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สร้อยสะพายแล่ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พระ",
-    "สังวาล"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "synonym-pointer"
   }
  ],
  "etymology": {

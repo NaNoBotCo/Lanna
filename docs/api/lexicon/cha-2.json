@@ -1,8 +1,10 @@
 {
  "id": "w:cha-2",
  "th": "ชะ",
- "translit_auto": "cha-2",
- "status": "listed",
+ "status": "proposed",
+ "rtgs": "cha",
+ "paiboon": "chá",
+ "ipa": "/t͡ɕʰaʔ˦˥/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -79,7 +81,279 @@
    "src": [
     "RID",
     "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ชิชะ",
+     "rtgs": "chi-cha",
+     "ipa": "/t͡ɕʰi˦˥.t͡ɕʰaʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำที่เปล่งออกมาเมื่อรู้สึกโกรธหรือไม่ชอบใจเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชิ",
+      "ชะ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.56, next 0.28",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ชะช้า",
+     "rtgs": "cha-cha",
+     "ipa": "/t͡ɕʰa˦˥.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำที่เปล่งออกมาเมื่อเวลาโกรธหรือไม่ชอบใจเป็นต้น, ชะ ชะชะ หรือ ชัดช้า ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชะ",
+      "ช้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "cha as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 4 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 4 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 4 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "compounds": [
+    {
+     "th": "ชะมด",
+     "rtgs": "cha-mot",
+     "ipa": "/t͡ɕʰa˦˥.mot̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อสัตว์เลี้ยงลูกด้วยนมในวงศ์ Viverridae หน้าแหลม รูปร่างเพรียว สีเทาหรือน้ำตาล มีลายจุดสีดำตามยาวทั่วตัว หางและขนหางยาว มีลายเป็นปล้อง มีต่อมกลิ่นใกล้อวัยวะเพศ มักหากินในเวลากลางคืน ในประเทศไทยมีหลายชนิด เช่น ชะมดเช็ด ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชะ",
+      "มด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological"
+    },
+    {
+     "th": "ชะไว",
+     "rtgs": "cha-wai",
+     "ipa": "/t͡ɕʰa˦˥.waj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอไชโย จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชะ",
+      "ไว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ชะแล",
+     "rtgs": "cha-lae",
+     "ipa": "/t͡ɕʰa˦˥.lɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอทองผาภูมิ จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชะ",
+      "แล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ชะอำ",
+     "rtgs": "cha-am",
+     "ipa": "/t͡ɕʰa˦˥.ʔam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเพชรบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชะ",
+      "อำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ชะอวด",
+     "rtgs": "cha-uat",
+     "ipa": "/t͡ɕʰa˦˥.ʔua̯t̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชะ",
+      "อวด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym"
+    },
+    {
+     "th": "ชะโด",
+     "rtgs": "cha-do",
+     "ipa": "/t͡ɕʰa˦˥.doː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อปลาน้ำจืดชนิด Channa micropeltes (Cuvier) ในวงศ์ Channidae รูปร่างคล้ายปลาช่อน ซึ่งอยู่ในสกุลเดียวกันแต่เกล็ดเล็กและมีจำนวนมากกว่า เฉพาะบนเส้นข้างตัวมี 82-95 เกล็ด เมื่อยังเล็กข้างลำตัวมีแถบสีดำเรียงคู่กันจากตาถึงครี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชะ",
+      "โด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological"
+    },
+    {
+     "th": "ชะเอม",
+     "rtgs": "cha-em",
+     "ipa": "/t͡ɕʰa˦˥.ʔeːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้เถาชนิด Myriopteron extensum (Wight) K. Schum. ในวงศ์ Asclepiadaceae เถามีรสหวาน ใช้ทำยา ผลมีครีบโดยรอบ กินได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชะ",
+      "เอม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -91,181 +365,16 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 8 manuscript titles, 81 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'cha-2', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['ฝน', 'น้ำ'].",
  "compounds_unassigned": [
   {
-   "th": "ชะอำ",
-   "translit_auto": "chaam",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดเพชรบุรี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชะ",
-    "อำ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชะเอม",
-   "translit_auto": "chaome",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อไม้เถาชนิด Myriopteron extensum (Wight) K. Schum. ในวงศ์ Asclepiadaceae เถามีรสหวาน ใช้ทำยา ผลมีครีบโดยรอบ กินได้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชะ",
-    "เอม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชิชะ",
-   "translit_auto": "chicha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำที่เปล่งออกมาเมื่อรู้สึกโกรธหรือไม่ชอบใจเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชิ",
-    "ชะ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชะไว",
-   "translit_auto": "chawai",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอไชโย จังหวัดอ่างทอง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชะ",
-    "ไว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชะอวด",
-   "translit_auto": "chaowt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชะ",
-    "อวด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชะตา",
-   "translit_auto": "chata",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลักษณะหรืออัธยาศัยบางอย่างที่ทำให้รู้สึกชอบหรือไม่ชอบตั้งแต่แรกพบกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชะ",
-    "ตา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชะโด",
-   "translit_auto": "chado",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อปลาน้ำจืดชนิด Channa micropeltes (Cuvier) ในวงศ์ Channidae รูปร่างคล้ายปลาช่อน ซึ่งอยู่ในสกุลเดียวกันแต่เกล็ดเล็กและมีจำนวนมากกว่า เฉพาะบนเส้นข้างตัวมี 82-95 เกล็ด เมื่อยังเล็กข้างลำตัวมีแถบสีดำเรียงคู่กันจากตาถึงครี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชะ",
-    "โด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "ชะนิด",
-   "translit_auto": "chanid",
+   "rtgs": "cha-nit",
+   "ipa": "/t͡ɕʰa˦˥.nit̚˦˥/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -288,8 +397,134 @@
    ]
   },
   {
+   "th": "ชะตา",
+   "rtgs": "cha-ta",
+   "ipa": "/t͡ɕʰa˦˥.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลักษณะหรืออัธยาศัยบางอย่างที่ทำให้รู้สึกชอบหรือไม่ชอบตั้งแต่แรกพบกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชะ",
+    "ตา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ชะงัด",
+   "rtgs": "cha-ngat",
+   "ipa": "/t͡ɕʰa˦˥.ŋat̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แม่นยำ, ขลัง, แน่, ได้จริง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชะ",
+    "งัด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ชะลอม",
+   "rtgs": "cha-lom",
+   "ipa": "/t͡ɕʰa˦˥.lɔːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เครื่องสานชนิดหนึ่ง รูปทรงกระบอก สานด้วยตอกเป็นต้น ตาห่าง ๆ สำหรับใส่สิ่งของ, อีสานเรียก กระลอม ก็มี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชะ",
+    "ลอม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "โอชะ",
+   "rtgs": "o-cha",
+   "ipa": "/ʔoː˧.t͡ɕʰaʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มีรสดี, อร่อย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โอ",
+    "ชะ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เดชะ",
+   "rtgs": "de-cha",
+   "ipa": "/deː˧.t͡ɕʰaʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อำนาจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เด",
+    "ชะ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "ชะมัด",
-   "translit_auto": "chamad",
+   "rtgs": "cha-mat",
+   "ipa": "/t͡ɕʰa˦˥.mat̚˦˥/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -313,7 +548,8 @@
   },
   {
    "th": "ชะรอย",
-   "translit_auto": "charoy",
+   "rtgs": "cha-roi",
+   "ipa": "/t͡ɕʰa˦˥.rɔːj˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -336,104 +572,9 @@
    ]
   },
   {
-   "th": "ชะแล",
-   "translit_auto": "chalae",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอทองผาภูมิ จังหวัดกาญจนบุรี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชะ",
-    "แล"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เดชะ",
-   "translit_auto": "decha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อำนาจ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เด",
-    "ชะ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชะงัด",
-   "translit_auto": "changad",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แม่นยำ, ขลัง, แน่, ได้จริง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชะ",
-    "งัด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชะช้า",
-   "translit_auto": "chacha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำที่เปล่งออกมาเมื่อเวลาโกรธหรือไม่ชอบใจเป็นต้น, ชะ ชะชะ หรือ ชัดช้า ก็ว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชะ",
-    "ช้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "การชะ",
-   "translit_auto": "karcha",
+   "rtgs": "kan-cha",
+   "ipa": "/kaːn˧.t͡ɕʰaʔ˦˥/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -448,64 +589,18 @@
     "การ",
     "ชะ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
-  },
-  {
-   "th": "ชะมด",
-   "translit_auto": "chamt",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อสัตว์เลี้ยงลูกด้วยนมในวงศ์ Viverridae หน้าแหลม รูปร่างเพรียว สีเทาหรือน้ำตาล มีลายจุดสีดำตามยาวทั่วตัว หางและขนหางยาว มีลายเป็นปล้อง มีต่อมกลิ่นใกล้อวัยวะเพศ มักหากินในเวลากลางคืน ในประเทศไทยมีหลายชนิด เช่น ชะมดเช็ด ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชะ",
-    "มด"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ชะลอม",
-   "translit_auto": "chalom",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เครื่องสานชนิดหนึ่ง รูปทรงกระบอก สานด้วยตอกเป็นต้น ตาห่าง ๆ สำหรับใส่สิ่งของ, อีสานเรียก กระลอม ก็มี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชะ",
-    "ลอม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
+   "use": "nominalisation"
   },
   {
    "th": "ชะวา",
-   "translit_auto": "chawa",
+   "rtgs": "cha-wa",
+   "ipa": "/t͡ɕʰa˦˥.waː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -526,30 +621,6 @@
     "RID",
     "WIKT"
    ]
-  },
-  {
-   "th": "โอชะ",
-   "translit_auto": "ocha",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีรสดี, อร่อย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "โอ",
-    "ชะ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
   }
  ],
  "etymology": {
@@ -558,5 +629,40 @@
   "src": [
    "WIKT"
   ]
- }
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:cha",
+   "label": "ชา",
+   "why": "spelling",
+   "distinction": "Both romanise as \"cha\". ชะ is chá, ชา is chaa — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:cha-3",
+   "label": "จะ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"cha\". ชะ is chá, จะ is jà — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:cha-4",
+   "label": "ช้า",
+   "why": "spelling",
+   "distinction": "Both romanise as \"cha\". ชะ is chá, ช้า is cháa — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
 }

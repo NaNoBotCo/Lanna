@@ -1,8 +1,10 @@
 {
  "id": "w:thang",
  "th": "ทาง",
- "translit_auto": "thang",
- "status": "listed",
+ "status": "mapped",
+ "rtgs": "thang",
+ "paiboon": "taang",
+ "ipa": "/tʰaːŋ˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -35,6 +37,88 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ทางเท้า",
+     "rtgs": "thang-thao",
+     "ipa": "/tʰaːŋ˧.tʰaːw˦˥/",
+     "gloss": {
+      "en": [
+       "sidewalk"
+      ],
+      "th": "ทางข้างถนน ที่มักยกสูงขึ้นเหนือถนน สำหรับให้คนเดิน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทาง",
+      "เท้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ทางสาธารณะ",
+     "rtgs": "thang-sa-tha-ra-na",
+     "ipa": "/tʰaːŋ˧.saː˩˩˦.tʰaː˧.ra˦˥.naʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทางบกหรือทางน้ำสำหรับประชาชนใช้ในการจราจร และหมายความรวมถึงทางรถไฟและทางรถรางที่มีรถเดินสำหรับประชาชนโดยสารด้วย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทาง",
+      "สาธารณะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.16, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "ทางม้าลาย",
+     "rtgs": "thang-ma-lai",
+     "ipa": "/tʰaːŋ˧.maː˦˥.laːj˧/",
+     "gloss": {
+      "en": [
+       "zebra",
+       "zebra crossing"
+      ],
+      "th": "พื้นที่ที่ทำไว้สำหรับให้คนเดินเท้าข้ามถนน โดยทาสีขาวดำเป็นแถบสลับกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทาง",
+      "ม้าลาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.20, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -63,7 +147,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The way through becomes the channel, the opening.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -91,7 +179,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "And an opening becomes an opportunity.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -119,7 +211,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The path loosened to any line or direction.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -147,7 +243,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The way to get somewhere becomes the way to do something: a method.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -175,7 +275,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "A direction stands for the quarter that lies along it.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -203,7 +307,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "Lines running apart become sides, parties.",
+   "via_conf": "probable"
   },
   {
    "n": 8,
@@ -231,7 +339,131 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "แนวทาง",
+     "rtgs": "naeo-thang",
+     "ipa": "/nɛːw˧.tʰaːŋ˧/",
+     "gloss": {
+      "en": [
+       "course",
+       "method",
+       "line"
+      ],
+      "th": "ทางปฏิบัติที่วางไว้เป็นแนว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แนว",
+      "ทาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 5,
+   "via": "specialisation",
+   "via_note": "A master's particular way of playing a piece — ทาง of each teacher.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "way",
+     "by",
+     "trail",
+     "trace"
+    ],
+    "th": "เรียกใบของต้นไม้บางชนิดเช่น หมาก มะพร้าว กล้วย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ทางมะพร้าว",
+     "translit_auto": "thangmaphraw",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(งู~) ชื่องูขนาดกลางชนิด Elaphe radiata (Schlegel) ในวงศ์ Colubridae หัวสีน้ำตาลอมแดงด้านข้างมีลายสีดำจากตามาถึงปาก จากหัวถึงครึ่งลำตัวมีลายตามยาวหรือเป็นดวงสีดำสลับขาว เป็นรัศมีคล้ายแสงอาทิตย์ ส่วนที่เหลือถึงหางสีแดงอมน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทาง",
+      "มะพร้าว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "The long ribbed frond of palm, coconut, banana.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "way",
+     "by",
+     "trail",
+     "trace"
+    ],
+    "th": "ลักษณนามเรียกใบหมาก ใบมะพร้าว ใบกล้วย เป็นต้น ว่า ทาง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "metonymy",
+   "via_note": "And the classifier for counting them.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -243,479 +475,12 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 3 manuscript titles, 162 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'thang', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 35; domain seeded by keyword hits ['ต้นไม้', 'ใบ', 'ดิน', 'ไม้'].",
  "compounds_unassigned": [
-  {
-   "th": "ทางขวาง",
-   "translit_auto": "thangkhwang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอแวงน้อย จังหวัดขอนแก่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทาง",
-    "ขวาง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เดินทาง",
-   "translit_auto": "deinthang",
-   "gloss": {
-    "en": [
-     "carry",
-     "travel",
-     "journey"
-    ],
-    "th": "ไปสู่จุดที่หมายอีกแห่งหนึ่งที่ไกลออกไป",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เดิน",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ถีบทาง",
-   "translit_auto": "thibthang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เดิน, ย่างเท้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ถีบ",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ทางสาธารณะ",
-   "translit_auto": "thangsatharna",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทางบกหรือทางน้ำสำหรับประชาชนใช้ในการจราจร และหมายความรวมถึงทางรถไฟและทางรถรางที่มีรถเดินสำหรับประชาชนโดยสารด้วย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทาง",
-    "สาธารณะ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การนำทาง",
-   "translit_auto": "karnamthang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ นำทาง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การนำ",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ทางช้างเผือก",
-   "translit_auto": "thangchangpheueok",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แสงกลุ่มดาวซึ่งแผ่เห็นสว่างเป็นพืดในท้องฟ้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทาง",
-    "ช้างเผือก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ลู่ทาง",
-   "translit_auto": "luthang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ช่องทาง, ลาดเลา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลู่",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ทางพระ",
-   "translit_auto": "thangphra",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อตำบลหนึ่งในอำเภอโพธิ์ทอง จังหวัดอ่างทอง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทาง",
-    "พระ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ทางด่วน",
-   "translit_auto": "thangdwn",
-   "gloss": {
-    "en": [
-     "expressway"
-    ],
-    "th": "ทางหรือถนนซึ่งสร้างขึ้นเพื่อให้เดินทางได้รวดเร็วและปลอดภัย มีการควบคุมและกำหนดจุดให้ยานพาหนะเข้าออกเฉพาะที่ และไม่มีทางอื่นตัดผ่านในระดับเดียวกัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ทาง",
-    "ด่วน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ทางออก",
-   "translit_auto": "thangook",
-   "gloss": {
-    "en": [
-     "exit"
-    ],
-    "th": "ช่องหรือทางสำหรับออก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ทาง",
-    "ออก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ช่องทาง",
-   "translit_auto": "chongthang",
-   "gloss": {
-    "en": [
-     "channel"
-    ],
-    "th": "ทางที่กำหนดเป็นช่องเฉพาะให้ไปหรือมา",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ช่อง",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การให้ทาง",
-   "translit_auto": "karhaithang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ให้ทาง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การให้",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ทางมะพร้าว",
-   "translit_auto": "thangmaphraw",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(งู~) ชื่องูขนาดกลางชนิด Elaphe radiata (Schlegel) ในวงศ์ Colubridae หัวสีน้ำตาลอมแดงด้านข้างมีลายสีดำจากตามาถึงปาก จากหัวถึงครึ่งลำตัวมีลายตามยาวหรือเป็นดวงสีดำสลับขาว เป็นรัศมีคล้ายแสงอาทิตย์ ส่วนที่เหลือถึงหางสีแดงอมน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทาง",
-    "มะพร้าว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กรุยทาง",
-   "translit_auto": "kruythang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขจัดอุปสรรคไว้ก่อนเพื่อที่จะเข้าไปดำเนินการได้สะดวก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กรุย",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ทางเท้า",
-   "translit_auto": "thangthea",
-   "gloss": {
-    "en": [
-     "sidewalk"
-    ],
-    "th": "ทางข้างถนน ที่มักยกสูงขึ้นเหนือถนน สำหรับให้คนเดิน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ทาง",
-    "เท้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การเดินทาง",
-   "translit_auto": "kardeinthang",
-   "gloss": {
-    "en": [
-     "run",
-     "journey",
-     "trip"
-    ],
-    "th": "คำอาการนามของ เดินทาง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "การเดิน",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "แนวทาง",
-   "translit_auto": "naewthang",
-   "gloss": {
-    "en": [
-     "course",
-     "method",
-     "line"
-    ],
-    "th": "ทางปฏิบัติที่วางไว้เป็นแนว",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แนว",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ทางลัด",
-   "translit_auto": "thanglad",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทางที่ไปถึงเร็วกว่าปกติ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทาง",
-    "ลัด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "พันทาง",
-   "translit_auto": "phanthang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรียกไก่ที่พ่อเป็นอู แม่เป็นแจ้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พัน",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
   {
    "th": "ทางเดิน",
    "translit_auto": "thangdein",
@@ -741,47 +506,50 @@
    ]
   },
   {
-   "th": "ให้ทาง",
-   "translit_auto": "haithang",
+   "th": "การนำทาง",
+   "rtgs": "kan-nam-thang",
+   "ipa": "/kaːn˧.nam˧.tʰaːŋ˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "หยุดให้รถในทางหลักไปก่อน",
+    "th": "คำอาการนามของ นำทาง",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "ให้",
+    "การนำ",
     "ทาง"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "use": "nominalisation"
   },
   {
-   "th": "เข้าทาง",
-   "translit_auto": "kheathang",
+   "th": "ทางการ",
+   "rtgs": "thang-kan",
+   "ipa": "/tʰaːŋ˧.kaːn˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ตรงตามที่ต้องการ, ตรงตามที่ถนัด",
+    "th": "ระเบียบปฏิบัติที่วางไว้เป็นแนวทาง",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "เข้า",
-    "ทาง"
+    "ทาง",
+    "การ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -791,6 +559,7 @@
   {
    "th": "ทางเก็บ",
    "translit_auto": "thangkep",
+   "ipa": "[taːŋ kèp̚]",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -813,14 +582,245 @@
    ]
   },
   {
-   "th": "ทางม้าลาย",
-   "translit_auto": "thangmalay",
+   "th": "ทางขวาง",
+   "rtgs": "thang-khwang",
+   "ipa": "/tʰaːŋ˧.kʰwaːŋ˩˩˦/",
    "gloss": {
     "en": [
-     "zebra",
-     "zebra crossing"
+     "[needs a gloss]"
     ],
-    "th": "พื้นที่ที่ทำไว้สำหรับให้คนเดินเท้าข้ามถนน โดยทาสีขาวดำเป็นแถบสลับกัน",
+    "th": "ชื่อตำบลหนึ่งในอำเภอแวงน้อย จังหวัดขอนแก่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทาง",
+    "ขวาง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym"
+  },
+  {
+   "th": "ทางพระ",
+   "rtgs": "thang-phra",
+   "ipa": "/tʰaːŋ˧.pʰraʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอโพธิ์ทอง จังหวัดอ่างทอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทาง",
+    "พระ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym"
+  },
+  {
+   "th": "เข้าทาง",
+   "rtgs": "khao-thang",
+   "ipa": "/kʰaw˥˩.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตรงตามที่ต้องการ, ตรงตามที่ถนัด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เข้า",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ถีบทาง",
+   "rtgs": "thip-thang",
+   "ipa": "/tʰiːp̚˨˩.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เดิน, ย่างเท้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถีบ",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "พันทาง",
+   "rtgs": "phan-thang",
+   "ipa": "/pʰan˧.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรียกไก่ที่พ่อเป็นอู แม่เป็นแจ้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พัน",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ลู่ทาง",
+   "rtgs": "lu-thang",
+   "ipa": "/luː˥˩.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ช่องทาง, ลาดเลา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลู่",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ช่องทาง",
+   "rtgs": "chong-thang",
+   "ipa": "/t͡ɕʰɔŋ˥˩.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "channel"
+    ],
+    "th": "ทางที่กำหนดเป็นช่องเฉพาะให้ไปหรือมา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ช่อง",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ให้ทาง",
+   "rtgs": "hai-thang",
+   "ipa": "/haj˥˩.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หยุดให้รถในทางหลักไปก่อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ให้",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เดินทาง",
+   "rtgs": "doen-thang",
+   "ipa": "/dɤːn˧.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "carry",
+     "travel",
+     "journey"
+    ],
+    "th": "ไปสู่จุดที่หมายอีกแห่งหนึ่งที่ไกลออกไป",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เดิน",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ทางออก",
+   "rtgs": "thang-ok",
+   "ipa": "/tʰaːŋ˧.ʔɔːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "exit"
+    ],
+    "th": "ช่องหรือทางสำหรับออก",
     "conf": "verified",
     "src": [
      "RID",
@@ -829,7 +829,7 @@
    },
    "parts": [
     "ทาง",
-    "ม้าลาย"
+    "ออก"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -839,13 +839,14 @@
    ]
   },
   {
-   "th": "ทางหลวง",
-   "translit_auto": "thanghlwng",
+   "th": "ทิศทาง",
+   "rtgs": "thit-thang",
+   "ipa": "/tʰit̚˦˥.tʰaːŋ˧/",
    "gloss": {
     "en": [
-     "highway"
+     "direction"
     ],
-    "th": "ทางหรือถนนซึ่งจัดไว้เพื่อประโยชน์ในการจราจรสาธารณะทางบก ซึ่งสร้างและดูแลรักษาโดยรัฐ",
+    "th": "แนว, ทางที่มุ่งไป",
     "conf": "verified",
     "src": [
      "RID",
@@ -853,10 +854,89 @@
     ]
    },
    "parts": [
-    "ทาง",
-    "หลวง"
+    "ทิศ",
+    "ทาง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ท่าทาง",
+   "rtgs": "tha-thang",
+   "ipa": "/tʰaː˥˩.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "mark",
+     "action",
+     "carriage"
+    ],
+    "th": "กิริยาอาการที่ปรากฏให้เห็น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ท่า",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การให้ทาง",
+   "rtgs": "kan-hai-thang",
+   "ipa": "/kaːn˧.haj˥˩.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ให้ทาง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การให้",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ต้นทาง",
+   "rtgs": "ton-thang",
+   "ipa": "/ton˥˩.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ปากทางเข้าออกอย่างทางเข้าบ่อนการพนันเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ต้น",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -865,7 +945,8 @@
   },
   {
    "th": "นำทาง",
-   "translit_auto": "namthang",
+   "rtgs": "nam-thang",
+   "ipa": "/nam˧.tʰaːŋ˧/",
    "gloss": {
     "en": [
      "lead",
@@ -891,8 +972,192 @@
    ]
   },
   {
+   "th": "ทางหลวง",
+   "rtgs": "thang-luang",
+   "ipa": "/tʰaːŋ˧.lua̯ŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "highway"
+    ],
+    "th": "ทางหรือถนนซึ่งจัดไว้เพื่อประโยชน์ในการจราจรสาธารณะทางบก ซึ่งสร้างและดูแลรักษาโดยรัฐ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ทาง",
+    "หลวง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ทางด่วน",
+   "rtgs": "thang-duan",
+   "ipa": "/tʰaːŋ˧.dua̯n˨˩/",
+   "gloss": {
+    "en": [
+     "expressway"
+    ],
+    "th": "ทางหรือถนนซึ่งสร้างขึ้นเพื่อให้เดินทางได้รวดเร็วและปลอดภัย มีการควบคุมและกำหนดจุดให้ยานพาหนะเข้าออกเฉพาะที่ และไม่มีทางอื่นตัดผ่านในระดับเดียวกัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ทาง",
+    "ด่วน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การเดินทาง",
+   "rtgs": "kan-doen-thang",
+   "ipa": "/kaːn˧.dɤːn˧.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "run",
+     "journey",
+     "trip"
+    ],
+    "th": "คำอาการนามของ เดินทาง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การเดิน",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "กรุยทาง",
+   "rtgs": "krui-thang",
+   "ipa": "/kruj˧.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขจัดอุปสรรคไว้ก่อนเพื่อที่จะเข้าไปดำเนินการได้สะดวก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรุย",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ทางลัด",
+   "rtgs": "thang-lat",
+   "ipa": "/tʰaːŋ˧.lat̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทางที่ไปถึงเร็วกว่าปกติ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทาง",
+    "ลัด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ระยะทาง",
+   "rtgs": "ra-ya-thang",
+   "ipa": "/ra˦˥.ja˦˥.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "length"
+    ],
+    "th": "ความไกลระหว่างสองจุด, ระยะที่เดินทางได้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ระยะ",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หนทาง",
+   "rtgs": "hon-thang",
+   "ipa": "/hon˩˩˦.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "path"
+    ],
+    "th": "ทาง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หน",
+    "ทาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "th": "ทางตัน",
-   "translit_auto": "thangtan",
+   "rtgs": "thang-tan",
+   "ipa": "/tʰaːŋ˧.tan˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -915,13 +1180,15 @@
    ]
   },
   {
-   "th": "ทิศทาง",
-   "translit_auto": "thisthang",
+   "th": "เส้นทาง",
+   "rtgs": "sen-thang",
+   "ipa": "/sen˥˩.tʰaːŋ˧/",
    "gloss": {
     "en": [
-     "direction"
+     "run",
+     "course"
     ],
-    "th": "แนว, ทางที่มุ่งไป",
+    "th": "ทาง, แนวทาง",
     "conf": "verified",
     "src": [
      "RID",
@@ -929,7 +1196,7 @@
     ]
    },
    "parts": [
-    "ทิศ",
+    "เส้น",
     "ทาง"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -941,7 +1208,8 @@
   },
   {
    "th": "ทางเลือก",
-   "translit_auto": "thangleueok",
+   "rtgs": "thang-lueak",
+   "ipa": "/tʰaːŋ˧.lɯa̯k̚˥˩/",
    "gloss": {
     "en": [
      "alternative",
@@ -967,87 +1235,14 @@
    ]
   },
   {
-   "th": "หนทาง",
-   "translit_auto": "hnthang",
-   "gloss": {
-    "en": [
-     "path"
-    ],
-    "th": "ทาง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หน",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ต้นทาง",
-   "translit_auto": "tnthang",
+   "th": "ทางช้างเผือก",
+   "rtgs": "thang-chang-phueak",
+   "ipa": "/tʰaːŋ˧.t͡ɕʰaːŋ˦˥.pʰɯa̯k̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ปากทางเข้าออกอย่างทางเข้าบ่อนการพนันเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ต้น",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ระยะทาง",
-   "translit_auto": "rayathang",
-   "gloss": {
-    "en": [
-     "length"
-    ],
-    "th": "ความไกลระหว่างสองจุด, ระยะที่เดินทางได้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ระยะ",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ทางการ",
-   "translit_auto": "thangkar",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ระเบียบปฏิบัติที่วางไว้เป็นแนวทาง",
+    "th": "แสงกลุ่มดาวซึ่งแผ่เห็นสว่างเป็นพืดในท้องฟ้า",
     "conf": "unverified",
     "src": [
      "RID"
@@ -1055,62 +1250,9 @@
    },
    "parts": [
     "ทาง",
-    "การ"
+    "ช้างเผือก"
    ],
    "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เส้นทาง",
-   "translit_auto": "senthang",
-   "gloss": {
-    "en": [
-     "run",
-     "course"
-    ],
-    "th": "ทาง, แนวทาง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เส้น",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ท่าทาง",
-   "translit_auto": "thathang",
-   "gloss": {
-    "en": [
-     "mark",
-     "action",
-     "carriage"
-    ],
-    "th": "กิริยาอาการที่ปรากฏให้เห็น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ท่า",
-    "ทาง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",

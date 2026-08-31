@@ -1,8 +1,10 @@
 {
  "id": "w:mue",
  "th": "มือ",
- "translit_auto": "mue",
- "status": "listed",
+ "status": "mapped",
+ "rtgs": "mue",
+ "paiboon": "mʉʉ",
+ "ipa": "/mɯː˧/",
  "stratum": "unknown",
  "freq": "core",
  "senses": [
@@ -32,6 +34,34 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ลายมือ",
+     "rtgs": "lai-mue",
+     "ipa": "/laːj˧.mɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รอยเส้นที่ฝ่ามือและนิ้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลาย",
+      "มือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.19, next 0.10",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
    ]
   },
   {
@@ -57,7 +87,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A tool shaped like a hand and used for one.",
+   "via_conf": "probable"
   },
   {
    "n": 3,
@@ -82,7 +116,39 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "เจ้ามือ",
+     "rtgs": "chao-mue",
+     "ipa": "/t͡ɕaw˥˩.mɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ตั้งต้นในวงการพนันเช่นวงไพ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เจ้า",
+      "มือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.15, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A player at cards or in a share club — counted by hands.",
+   "via_conf": "probable"
   },
   {
    "n": 4,
@@ -107,7 +173,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The tendril a climbing plant holds on with.",
+   "via_conf": "probable"
   },
   {
    "n": 5,
@@ -132,7 +202,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Five fruits to a มือ — what a hand takes at once.",
+   "via_conf": "probable"
   },
   {
    "n": 6,
@@ -157,7 +231,66 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "compounds": [
+    {
+     "th": "มือปราบ",
+     "rtgs": "mue-prap",
+     "ipa": "/mɯː˧.praːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่มีความสามารถในการปราบปรามผู้ร้าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มือ",
+      "ปราบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.17, next 0.08",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    },
+    {
+     "th": "มือใหม่",
+     "rtgs": "mue-mai",
+     "ipa": "/mɯː˧.maj˨˩/",
+     "gloss": {
+      "en": [
+       "rookie"
+      ],
+      "th": "ยังไม่มีความชำนาญ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "มือ",
+      "ใหม่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.16, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ]
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Before an instrument's name: the one whose hands are good at it.",
+   "via_conf": "probable"
   },
   {
    "n": 7,
@@ -182,7 +315,11 @@
    "src": [
     "RID",
     "WIKT"
-   ]
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "ส้มมือ, the Buddha's-hand citron, fingered like a hand.",
+   "via_conf": "probable"
   }
  ],
  "conf": "probable",
@@ -194,87 +331,16 @@
  "needs_check": [
   "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
   "Attested in this corpus: 168 manuscript titles, 536 item titles. Turn the useful ones into ATTESTED_IN edges.",
-  "No RTGS source exists in these dumps. The URL uses translit_auto 'mue', which is a character walk, not RTGS. Write the real romanisation into `rtgs`."
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 39; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
   {
-   "th": "การร่วมมือ",
-   "translit_auto": "karrwmmue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ร่วมมือ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การร่วม",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "มือสอง",
-   "translit_auto": "mueosong",
-   "gloss": {
-    "en": [
-     "secondhand"
-    ],
-    "th": "เพชฌฆาตที่ลงดาบประหารชีวิตนักโทษเป็นคนที่ 2",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "มือ",
-    "สอง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ระเบิดมือ",
-   "translit_auto": "rabeidmue",
-   "gloss": {
-    "en": [
-     "pineapple"
-    ],
-    "th": "ลูกระเบิดขนาดเล็กที่บรรจุดินระเบิดอย่างแรง ใช้ขว้างให้เกิดการระเบิด",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ระเบิด",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "ฟายมือ",
-   "translit_auto": "faymue",
+   "rtgs": "fai-mue",
+   "ipa": "/faːj˧.mɯː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -297,21 +363,21 @@
    ]
   },
   {
-   "th": "ลงมือ",
-   "translit_auto": "lngmue",
+   "th": "กำมือ",
+   "rtgs": "kam-mue",
+   "ipa": "/kam˧.mɯː˧/",
    "gloss": {
     "en": [
-     "begin"
+     "[needs a gloss]"
     ],
-    "th": "เริ่มทำ, ตั้งต้นทำ",
-    "conf": "verified",
+    "th": "มือที่กำเข้า",
+    "conf": "unverified",
     "src": [
-     "RID",
-     "WIKT"
+     "RID"
     ]
    },
    "parts": [
-    "ลง",
+    "กำ",
     "มือ"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -322,92 +388,21 @@
    ]
   },
   {
-   "th": "เต็มมือ",
-   "translit_auto": "temmue",
+   "th": "เงื้อมมือ",
+   "rtgs": "ngueam-mue",
+   "ipa": "/ŋɯa̯m˦˥.mɯː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "มากจนเกือบล้นมือ, บางทีก็ใช้ว่า เต็มไม้เต็มมือ",
+    "th": "อำนาจที่ครอบงำจะไม่ให้หลุดพ้นไปได้",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "เต็ม",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ไม้มือ",
-   "translit_auto": "maimue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มือที่เคลื่อนไหว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ภาษามือ",
-   "translit_auto": "phasamue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "การใช้กิริยาของมือแสดงความหมายต่าง ๆ ตามกำหนดของการศึกษาของผู้บกพร่องทางการได้ยิน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ภาษา",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "คู่มือ",
-   "translit_auto": "khumue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ใช้ประโยชน์ได้เหมาะใจ, สำหรับประจำตัว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คู่",
+    "เงื้อม",
     "มือ"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -419,7 +414,8 @@
   },
   {
    "th": "รับมือ",
-   "translit_auto": "rabmue",
+   "rtgs": "rap-mue",
+   "ipa": "/rap̚˦˥.mɯː˧/",
    "gloss": {
     "en": [
      "meet"
@@ -443,8 +439,136 @@
    ]
   },
   {
+   "th": "คู่มือ",
+   "rtgs": "khu-mue",
+   "ipa": "/kʰuː˥˩.mɯː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ใช้ประโยชน์ได้เหมาะใจ, สำหรับประจำตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คู่",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ร่วมมือ",
+   "rtgs": "ruam-mue",
+   "ipa": "/rua̯m˥˩.mɯː˧/",
+   "gloss": {
+    "en": [
+     "cooperate"
+    ],
+    "th": "พร้อมใจช่วยกัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ร่วม",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ขี้มือ",
+   "rtgs": "khi-mue",
+   "ipa": "/kʰiː˥˩.mɯː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เหงื่อไคลหรือสิ่งสกปรกที่ติดอยู่ตามมือทั้งที่มองเห็นและมองไม่เห็น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "น้ำมือ",
+   "rtgs": "nam-mue",
+   "ipa": "/nam˦˥.mɯː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มือของตัวแท้ ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "น้ำ",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การลงมือ",
+   "rtgs": "kan-long-mue",
+   "ipa": "/kaːn˧.loŋ˧.mɯː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลงมือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลง",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
    "th": "มือปืน",
-   "translit_auto": "mueopuen",
+   "rtgs": "mue-puen",
+   "ipa": "/mɯː˧.pɯːn˧/",
    "gloss": {
     "en": [
      "gunman"
@@ -468,13 +592,14 @@
    ]
   },
   {
-   "th": "มือมืด",
-   "translit_auto": "mueomued",
+   "th": "มือสะอาด",
+   "rtgs": "mue-sa-at",
+   "ipa": "/mɯː˧.sa˨˩.ʔaːt̚˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ผู้ที่ลอบทำความผิดอย่างใดอย่างหนึ่ง ซึ่งเหลือรู้เหลือเห็นว่าเป็นใคร",
+    "th": "มีความประพฤติดี, มีความซื่อสัตย์สุจริตไม่คดโกงหรือฉ้อราษฎร์บังหลวง",
     "conf": "unverified",
     "src": [
      "RID"
@@ -482,57 +607,9 @@
    },
    "parts": [
     "มือ",
-    "มืด"
+    "สะอาด"
    ],
    "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "มือเปล่า",
-   "translit_auto": "muepela",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มือที่ไม่ได้ถืออาวุธ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "มือ",
-    "เปล่า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การลงมือ",
-   "translit_auto": "karlngmue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ ลงมือ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การลง",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -541,7 +618,8 @@
   },
   {
    "th": "แก้มือ",
-   "translit_auto": "kaemue",
+   "rtgs": "kae-mue",
+   "ipa": "/kɛː˥˩.mɯː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -564,8 +642,60 @@
    ]
   },
   {
+   "th": "ภาษามือ",
+   "rtgs": "pha-sa-mue",
+   "ipa": "/pʰaː˧.saː˩˩˦.mɯː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การใช้กิริยาของมือแสดงความหมายต่าง ๆ ตามกำหนดของการศึกษาของผู้บกพร่องทางการได้ยิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภาษา",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การแก้มือ",
+   "rtgs": "kan-kae-mue",
+   "ipa": "/kaːn˧.kɛː˥˩.mɯː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แก้มือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแก้",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
    "th": "ถุงมือ",
-   "translit_auto": "thungmue",
+   "rtgs": "thung-mue",
+   "ipa": "/tʰuŋ˩˩˦.mɯː˧/",
    "gloss": {
     "en": [
      "glove"
@@ -589,204 +719,9 @@
    ]
   },
   {
-   "th": "ฝีมือ",
-   "translit_auto": "fimue",
-   "gloss": {
-    "en": [
-     "form",
-     "craft"
-    ],
-    "th": "ความเชี่ยวชาญในการใช้มืออย่างมีศิลปะ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ฝี",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "หลุดมือ",
-   "translit_auto": "hludmue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หลุดไปจากมือ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หลุด",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เครื่องมือ",
-   "translit_auto": "kherueongmue",
-   "gloss": {
-    "en": [
-     "measure",
-     "tool"
-    ],
-    "th": "สิ่งของสำหรับใช้ในการประดิษฐ์ สร้าง หรือทำ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เครื่อง",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "มือปราบ",
-   "translit_auto": "mueoprab",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ที่มีความสามารถในการปราบปรามผู้ร้าย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "มือ",
-    "ปราบ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ลายมือ",
-   "translit_auto": "laymue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รอยเส้นที่ฝ่ามือและนิ้ว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลาย",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "กระพุ่มมือ",
-   "translit_auto": "kraphummue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พนมมือ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กระพุ่ม",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ขี้มือ",
-   "translit_auto": "khimue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เหงื่อไคลหรือสิ่งสกปรกที่ติดอยู่ตามมือทั้งที่มองเห็นและมองไม่เห็น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "การหลุดมือ",
-   "translit_auto": "karhludmue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำอาการนามของ หลุดมือ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การหลุด",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "กุญแจมือ",
-   "translit_auto": "kuychaemue",
+   "rtgs": "kun-chae-mue",
+   "ipa": "/kun˧.t͡ɕɛː˧.mɯː˧/",
    "gloss": {
     "en": [
      "braces"
@@ -810,37 +745,14 @@
    ]
   },
   {
-   "th": "การแก้มือ",
-   "translit_auto": "karkaemue",
+   "th": "มือเปล่า",
+   "rtgs": "mue-plao",
+   "ipa": "/mɯː˧.plaːw˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "คำอาการนามของ แก้มือ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "การแก้",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "มือฝรั่ง",
-   "translit_auto": "mueofrang",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เท้า",
+    "th": "มือที่ไม่ได้ถืออาวุธ",
     "conf": "unverified",
     "src": [
      "RID"
@@ -848,7 +760,7 @@
    },
    "parts": [
     "มือ",
-    "ฝรั่ง"
+    "เปล่า"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -858,13 +770,14 @@
    ]
   },
   {
-   "th": "ข้อมือ",
-   "translit_auto": "khomue",
+   "th": "มือสอง",
+   "rtgs": "mue-song",
+   "ipa": "/mɯː˧.sɔːŋ˩˩˦/",
    "gloss": {
     "en": [
-     "wrist"
+     "secondhand"
     ],
-    "th": "ข้อต่อระหว่างมือและแขน",
+    "th": "เพชฌฆาตที่ลงดาบประหารชีวิตนักโทษเป็นคนที่ 2",
     "conf": "verified",
     "src": [
      "RID",
@@ -872,32 +785,8 @@
     ]
    },
    "parts": [
-    "ข้อ",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "มือถือ",
-   "translit_auto": "mueothue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "โทรศัพท์มือถือ, โทรศัพท์เคลื่อนที่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
     "มือ",
-    "ถือ"
+    "สอง"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -907,20 +796,21 @@
    ]
   },
   {
-   "th": "เจ้ามือ",
-   "translit_auto": "cheamue",
+   "th": "กระพุ่มมือ",
+   "rtgs": "kra-phum-mue",
+   "ipa": "/kra˨˩.pʰum˥˩.mɯː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "ผู้ตั้งต้นในวงการพนันเช่นวงไพ่",
+    "th": "พนมมือ",
     "conf": "unverified",
     "src": [
      "RID"
     ]
    },
    "parts": [
-    "เจ้า",
+    "กระพุ่ม",
     "มือ"
    ],
    "note": "head-final; both parts are dictionary headwords",
@@ -955,86 +845,14 @@
    ]
   },
   {
-   "th": "กำมือ",
-   "translit_auto": "kammue",
+   "th": "มือฝรั่ง",
+   "rtgs": "mue-fa-rang",
+   "ipa": "/mɯː˧.fa˨˩.raŋ˨˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
     ],
-    "th": "มือที่กำเข้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กำ",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "เงื้อมมือ",
-   "translit_auto": "ngeueommue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อำนาจที่ครอบงำจะไม่ให้หลุดพ้นไปได้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เงื้อม",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "ร่วมมือ",
-   "translit_auto": "rwmmue",
-   "gloss": {
-    "en": [
-     "cooperate"
-    ],
-    "th": "พร้อมใจช่วยกัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ร่วม",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "th": "มือสะอาด",
-   "translit_auto": "mueosaad",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีความประพฤติดี, มีความซื่อสัตย์สุจริตไม่คดโกงหรือฉ้อราษฎร์บังหลวง",
+    "th": "เท้า",
     "conf": "unverified",
     "src": [
      "RID"
@@ -1042,7 +860,7 @@
    },
    "parts": [
     "มือ",
-    "สะอาด"
+    "ฝรั่ง"
    ],
    "note": "head-initial; both parts are dictionary headwords",
    "conf": "verified",
@@ -1052,13 +870,14 @@
    ]
   },
   {
-   "th": "มือใหม่",
-   "translit_auto": "muehaim",
+   "th": "ลงมือ",
+   "rtgs": "long-mue",
+   "ipa": "/loŋ˧.mɯː˧/",
    "gloss": {
     "en": [
-     "rookie"
+     "begin"
     ],
-    "th": "ยังไม่มีความชำนาญ",
+    "th": "เริ่มทำ, ตั้งต้นทำ",
     "conf": "verified",
     "src": [
      "RID",
@@ -1066,10 +885,214 @@
     ]
    },
    "parts": [
+    "ลง",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ข้อมือ",
+   "rtgs": "kho-mue",
+   "ipa": "/kʰɔː˥˩.mɯː˧/",
+   "gloss": {
+    "en": [
+     "wrist"
+    ],
+    "th": "ข้อต่อระหว่างมือและแขน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ข้อ",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การหลุดมือ",
+   "rtgs": "kan-lut-mue",
+   "ipa": "/kaːn˧.lut̚˨˩.mɯː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หลุดมือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหลุด",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "มือมืด",
+   "rtgs": "mue-muet",
+   "ipa": "/mɯː˧.mɯːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ที่ลอบทำความผิดอย่างใดอย่างหนึ่ง ซึ่งเหลือรู้เหลือเห็นว่าเป็นใคร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
     "มือ",
-    "ใหม่"
+    "มืด"
    ],
    "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "การร่วมมือ",
+   "rtgs": "kan-ruam-mue",
+   "ipa": "/kaːn˧.rua̯m˥˩.mɯː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ร่วมมือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การร่วม",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation"
+  },
+  {
+   "th": "ไม้มือ",
+   "rtgs": "mai-mue",
+   "ipa": "/maj˦˥.mɯː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มือที่เคลื่อนไหว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไม้",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "มือถือ",
+   "rtgs": "mue-thue",
+   "ipa": "/mɯː˧.tʰɯː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "โทรศัพท์มือถือ, โทรศัพท์เคลื่อนที่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มือ",
+    "ถือ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "หลุดมือ",
+   "rtgs": "lut-mue",
+   "ipa": "/lut̚˨˩.mɯː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หลุดไปจากมือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หลุด",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ระเบิดมือ",
+   "rtgs": "ra-boet-mue",
+   "ipa": "/ra˦˥.bɤːt̚˨˩.mɯː˧/",
+   "gloss": {
+    "en": [
+     "pineapple"
+    ],
+    "th": "ลูกระเบิดขนาดเล็กที่บรรจุดินระเบิดอย่างแรง ใช้ขว้างให้เกิดการระเบิด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ระเบิด",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
    "conf": "verified",
    "src": [
     "RID",
@@ -1078,7 +1101,8 @@
   },
   {
    "th": "มือมีด",
-   "translit_auto": "mueomid",
+   "rtgs": "mue-mit",
+   "ipa": "/mɯː˧.miːt̚˥˩/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -1101,32 +1125,9 @@
    ]
   },
   {
-   "th": "น้ำมือ",
-   "translit_auto": "nammue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มือของตัวแท้ ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "น้ำ",
-    "มือ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
    "th": "ลูกมือ",
-   "translit_auto": "lukmue",
+   "rtgs": "luk-mue",
+   "ipa": "/luːk̚˥˩.mɯː˧/",
    "gloss": {
     "en": [
      "[needs a gloss]"
@@ -1139,6 +1140,85 @@
    },
    "parts": [
     "ลูก",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เต็มมือ",
+   "rtgs": "tem-mue",
+   "ipa": "/tem˧.mɯː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มากจนเกือบล้นมือ, บางทีก็ใช้ว่า เต็มไม้เต็มมือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เต็ม",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "เครื่องมือ",
+   "rtgs": "khrueang-mue",
+   "ipa": "/kʰrɯa̯ŋ˥˩.mɯː˧/",
+   "gloss": {
+    "en": [
+     "measure",
+     "tool"
+    ],
+    "th": "สิ่งของสำหรับใช้ในการประดิษฐ์ สร้าง หรือทำ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เครื่อง",
+    "มือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "th": "ฝีมือ",
+   "rtgs": "fi-mue",
+   "ipa": "/fiː˩˩˦.mɯː˧/",
+   "gloss": {
+    "en": [
+     "form",
+     "craft"
+    ],
+    "th": "ความเชี่ยวชาญในการใช้มืออย่างมีศิลปะ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ฝี",
     "มือ"
    ],
    "note": "head-final; both parts are dictionary headwords",
