@@ -34,6 +34,168 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "หายใจ",
+     "rtgs": "hai-chai",
+     "ipa": "/haːj˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "breathe"
+      ],
+      "th": "กิริยาที่ทำให้อากาศเข้าสู่และออกจากปอด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หาย",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "all + heart",
+     "lit_th": "สูญ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "flips_with": "ใจหาย"
+    },
+    {
+     "th": "ฉิบหาย",
+     "rtgs": "chip-hai",
+     "ipa": "/t͡ɕʰip̚˨˩.haːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สูญหมด, เสียหมด, หมดเร็ว, ป่นปี้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฉิบ",
+      "หาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "ลักษณะที่จากไปหรือหายไปเร็วเกินคาด + สูญ"
+    },
+    {
+     "th": "ใจหาย",
+     "rtgs": "chai-hai",
+     "ipa": "/t͡ɕaj˧.haːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ตกใจเสียวใจขึ้นทันที",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "หาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "heart + all",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + สูญ",
+     "flips_with": "หายใจ"
+    },
+    {
+     "th": "สูญหาย",
+     "rtgs": "sun-hai",
+     "ipa": "/suːn˩˩˦.haːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หายไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สูญ",
+      "หาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "all + all",
+     "lit_th": "ทำให้หายสิ้นไป + สูญ"
+    },
+    {
+     "th": "ขวัญหาย",
+     "rtgs": "khwan-hai",
+     "ipa": "/kʰwan˩˩˦.haːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตกใจ, ใจหาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "หาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "khwan + all",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + สูญ"
+    }
    ]
   },
   {
@@ -121,6 +283,39 @@
      ],
      "lit": "all + form",
      "lit_th": "ไม่ปรากฏ + รูป"
+    },
+    {
+     "th": "หายหัว",
+     "rtgs": "hai–hua",
+     "ipa": "/haːj˩˩˦.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หายไปนาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หาย",
+      "หัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "all + head",
+     "lit_th": "สูญ + ส่วนบนสุดของร่างกายของคนหรือสัตว์"
     }
    ],
    "extends": 1,
@@ -155,7 +350,42 @@
    "extends": 1,
    "via": "generalisation",
    "via_note": "And what is used up, gone.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เสียหาย",
+     "rtgs": "sia-hai",
+     "ipa": "/sia̯˩˩˦.haːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสื่อมเสีย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสีย",
+      "หาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "bad + all",
+     "lit_th": "เสื่อมลงไป + สูญ"
+    }
+   ]
   },
   {
    "n": 5,
@@ -204,40 +434,6 @@
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['ป่วย', 'เจ็บ'].",
  "compounds_unassigned": [
-  {
-   "th": "หายใจ",
-   "rtgs": "hai-chai",
-   "ipa": "/haːj˩˩˦.t͡ɕaj˧/",
-   "gloss": {
-    "en": [
-     "breathe"
-    ],
-    "th": "กิริยาที่ทำให้อากาศเข้าสู่และออกจากปอด",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หาย",
-    "ใจ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ใจ"
-   ],
-   "lit": "all + heart",
-   "lit_th": "สูญ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
-   "flips_with": "ใจหาย"
-  },
   {
    "th": "กระดองหาย",
    "rtgs": "kra-dong-hai",
@@ -360,33 +556,6 @@
    "lit_th": "คำอาการนามของ เสีย + สูญ"
   },
   {
-   "th": "ฉิบหาย",
-   "rtgs": "chip-hai",
-   "ipa": "/t͡ɕʰip̚˨˩.haːj˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สูญหมด, เสียหมด, หมดเร็ว, ป่นปี้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ฉิบ",
-    "หาย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 1,
-   "lit_th": "ลักษณะที่จากไปหรือหายไปเร็วเกินคาด + สูญ"
-  },
-  {
    "th": "การสูญหาย",
    "rtgs": "kan-sun-hai",
    "ipa": "/kaːn˧.suːn˩˩˦.haːj˩˩˦/",
@@ -472,38 +641,6 @@
    "lit_th": "คำอาการนามของ เสีย + สูญ"
   },
   {
-   "th": "หายหัว",
-   "rtgs": "hai–hua",
-   "ipa": "/haːj˩˩˦.hua̯˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หายไปนาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หาย",
-    "หัว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "หัว"
-   ],
-   "lit": "all + head",
-   "lit_th": "สูญ + ส่วนบนสุดของร่างกายของคนหรือสัตว์"
-  },
-  {
    "th": "การหาย",
    "rtgs": "kan-hai",
    "ipa": "/kaːn˧.haːj˩˩˦/",
@@ -531,39 +668,6 @@
    "pattern": "N+V",
    "head": 1,
    "lit_th": "งาน + สูญ"
-  },
-  {
-   "th": "ใจหาย",
-   "rtgs": "chai-hai",
-   "ipa": "/t͡ɕaj˧.haːj˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการที่ตกใจเสียวใจขึ้นทันที",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ใจ",
-    "หาย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "cross_listed": [
-    "ใจ"
-   ],
-   "lit": "heart + all",
-   "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + สูญ",
-   "flips_with": "หายใจ"
   },
   {
    "th": "หายนะ",
@@ -597,99 +701,6 @@
    "lit": "all + the sentence particle na",
    "lit_th": "สูญ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง",
    "use": "false-split"
-  },
-  {
-   "th": "สูญหาย",
-   "rtgs": "sun-hai",
-   "ipa": "/suːn˩˩˦.haːj˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หายไป",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สูญ",
-    "หาย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 1,
-   "lit": "all + all",
-   "lit_th": "ทำให้หายสิ้นไป + สูญ"
-  },
-  {
-   "th": "ขวัญหาย",
-   "rtgs": "khwan-hai",
-   "ipa": "/kʰwan˩˩˦.haːj˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตกใจ, ใจหาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวัญ",
-    "หาย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "cross_listed": [
-    "ขวัญ"
-   ],
-   "lit": "khwan + all",
-   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + สูญ"
-  },
-  {
-   "th": "เสียหาย",
-   "rtgs": "sia-hai",
-   "ipa": "/sia̯˩˩˦.haːj˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เสื่อมเสีย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เสีย",
-    "หาย"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 1,
-   "cross_listed": [
-    "เสีย"
-   ],
-   "lit": "bad + all",
-   "lit_th": "เสื่อมลงไป + สูญ"
   }
  ],
  "etymology": {

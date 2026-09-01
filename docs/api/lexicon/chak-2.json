@@ -65,6 +65,35 @@
      "head": 0,
      "lit": "draw + kite",
      "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + เครื่องเล่นอย่างหนึ่ง มีไม้ไผ่เป็น"
+    },
+    {
+     "th": "ชักใย",
+     "rtgs": "chak-yai",
+     "ipa": "/t͡ɕʰak̚˦˥.jaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บงการอยู่เบื้องหลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "ใย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + สิ่งที่เป็นเส้นเล็ก ๆ บาง ๆ"
     }
    ]
   },
@@ -95,7 +124,130 @@
    "extends": 1,
    "via": "generalisation",
    "via_note": "From hauling a line to pulling anything.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ชาชัก",
+     "rtgs": "cha-chak",
+     "ipa": "/t͡ɕʰaː˧.t͡ɕʰak̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชาใส่นมแบบหนึ่ง หาได้ทั่วไปในมาเลเซีย สิงคโปร์ และไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชา",
+      "ชัก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ชา"
+     ],
+     "lit": "tea + draw",
+     "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่"
+    },
+    {
+     "th": "สะพานชัก",
+     "rtgs": "sa-phan-chak",
+     "ipa": "/sa˨˩.pʰaːn˧.t͡ɕʰak̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สะพานที่สร้างให้ยกเก็บได้เมื่อไม่ต้องการใช้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สะพาน",
+      "ชัก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "สิ่งปลูกสร้างที่ทำสำหรับข้ามแม่น้ำ + ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่"
+    },
+    {
+     "th": "คันชัก",
+     "rtgs": "khan-chak",
+     "ipa": "/kʰan˧.t͡ɕʰak̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนประกอบของคันไถสำหรับเทียมวัวหรือควาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คัน",
+      "ชัก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "สิ่งที่มีลักษณะยาวทำด้วยไม้เป็นต้น + ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่"
+    },
+    {
+     "th": "ชักดาบ",
+     "rtgs": "chak-dap",
+     "ipa": "/t͡ɕʰak̚˦˥.daːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่ยอมจ่ายเงิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "ดาบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "draw + knife",
+     "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + อาวุธชนิดหนึ่ง มีขนาดยาวและมีคมที่"
+    }
+   ]
   },
   {
    "n": 3,
@@ -124,7 +276,38 @@
    "extends": 2,
    "via": "specialisation",
    "via_note": "Pulling a thing toward oneself.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ชักเก๊ะ",
+     "rtgs": "chak-ke",
+     "ipa": "/t͡ɕʰak̚˦˥.keʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลักเล็กขโมยน้อย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "เก๊ะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + ลิ้นชัก"
+    }
+   ]
   },
   {
    "n": 4,
@@ -153,7 +336,40 @@
    "extends": 2,
    "via": "specialisation",
    "via_note": "Pulling out and pushing back.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ลิ้นชัก",
+     "rtgs": "lin-chak",
+     "ipa": "/lin˦˥.t͡ɕʰak̚˦˥/",
+     "gloss": {
+      "en": [
+       "drawer"
+      ],
+      "th": "ส่วนหนึ่งของตู้และโต๊ะ สำหรับเก็บของ ชักออกและผลักเข้าไปได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลิ้น",
+      "ชัก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "tongue + draw",
+     "lit_th": "อวัยวะที่อยู่ในปาก มีหน้าที่ + ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่"
+    }
+   ]
   },
   {
    "n": 5,
@@ -182,7 +398,103 @@
    "extends": 2,
    "via": "metaphor",
    "via_note": "Pulling someone along: to lead.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ชักชวน",
+     "rtgs": "chak-chuan",
+     "ipa": "/t͡ɕʰak̚˦˥.t͡ɕʰua̯n˧/",
+     "gloss": {
+      "en": [
+       "persuade"
+      ],
+      "th": "ชวนให้ทำด้วยกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "ชวน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "draw + invite",
+     "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + จูงใจ"
+    },
+    {
+     "th": "ชักจูง",
+     "rtgs": "chak-chung",
+     "ipa": "/t͡ɕʰak̚˦˥.t͡ɕuːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จูงใจเพื่อให้เห็นคล้อยตาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "จูง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "draw + hand",
+     "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + พาไปด้วยอาการคล้ายดึงหรือฉุด"
+    },
+    {
+     "th": "ชักนำ",
+     "rtgs": "chak-nam",
+     "ipa": "/t͡ɕʰak̚˦˥.nam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกลี้ยกล่อมหรือโน้มนำให้เห็นคล้อยตาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "นำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "นำ"
+     ],
+     "lit": "draw + lead",
+     "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + ไปข้างหน้า"
+    }
+   ]
   },
   {
    "n": 6,
@@ -417,7 +729,41 @@
    "extends": 2,
    "via": "metaphor",
    "via_note": "Being pulled toward a state: rather, nearly, beginning to.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ชักช้า",
+     "rtgs": "chak-cha",
+     "ipa": "/t͡ɕʰak̚˦˥.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โอ้เอ้, ล่าช้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "ช้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "ช้า"
+     ],
+     "lit": "draw + slow",
+     "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + ค่อย ๆ เคลื่อนไป"
+    }
+   ]
   }
  ],
  "conf": "probable",
@@ -437,97 +783,6 @@
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 14; domain seeded by keyword hits ['เคลื่อน', 'เข้า', 'ขึ้น', 'ออก'].",
  "compounds_unassigned": [
-  {
-   "th": "ชักชวน",
-   "rtgs": "chak-chuan",
-   "ipa": "/t͡ɕʰak̚˦˥.t͡ɕʰua̯n˧/",
-   "gloss": {
-    "en": [
-     "persuade"
-    ],
-    "th": "ชวนให้ทำด้วยกัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ชัก",
-    "ชวน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit": "draw + invite",
-   "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + จูงใจ"
-  },
-  {
-   "th": "ชักช้า",
-   "rtgs": "chak-cha",
-   "ipa": "/t͡ɕʰak̚˦˥.t͡ɕʰaː˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "โอ้เอ้, ล่าช้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชัก",
-    "ช้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 0,
-   "cross_listed": [
-    "ช้า"
-   ],
-   "lit": "draw + slow",
-   "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + ค่อย ๆ เคลื่อนไป"
-  },
-  {
-   "th": "ลิ้นชัก",
-   "rtgs": "lin-chak",
-   "ipa": "/lin˦˥.t͡ɕʰak̚˦˥/",
-   "gloss": {
-    "en": [
-     "drawer"
-    ],
-    "th": "ส่วนหนึ่งของตู้และโต๊ะ สำหรับเก็บของ ชักออกและผลักเข้าไปได้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ลิ้น",
-    "ชัก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "lit": "tongue + draw",
-   "lit_th": "อวัยวะที่อยู่ในปาก มีหน้าที่ + ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่"
-  },
   {
    "th": "การชัก",
    "rtgs": "kan-chak",
@@ -556,240 +811,6 @@
    "pattern": "N+V",
    "head": 1,
    "lit_th": "งาน + ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่"
-  },
-  {
-   "th": "ชาชัก",
-   "rtgs": "cha-chak",
-   "ipa": "/t͡ɕʰaː˧.t͡ɕʰak̚˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชาใส่นมแบบหนึ่ง หาได้ทั่วไปในมาเลเซีย สิงคโปร์ และไทย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชา",
-    "ชัก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "cross_listed": [
-    "ชา"
-   ],
-   "lit": "tea + draw",
-   "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่"
-  },
-  {
-   "th": "ชักจูง",
-   "rtgs": "chak-chung",
-   "ipa": "/t͡ɕʰak̚˦˥.t͡ɕuːŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "จูงใจเพื่อให้เห็นคล้อยตาม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชัก",
-    "จูง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit": "draw + hand",
-   "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + พาไปด้วยอาการคล้ายดึงหรือฉุด"
-  },
-  {
-   "th": "สะพานชัก",
-   "rtgs": "sa-phan-chak",
-   "ipa": "/sa˨˩.pʰaːn˧.t͡ɕʰak̚˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สะพานที่สร้างให้ยกเก็บได้เมื่อไม่ต้องการใช้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สะพาน",
-    "ชัก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "lit_th": "สิ่งปลูกสร้างที่ทำสำหรับข้ามแม่น้ำ + ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่"
-  },
-  {
-   "th": "ชักเก๊ะ",
-   "rtgs": "chak-ke",
-   "ipa": "/t͡ɕʰak̚˦˥.keʔ˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลักเล็กขโมยน้อย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชัก",
-    "เก๊ะ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + ลิ้นชัก"
-  },
-  {
-   "th": "ชักนำ",
-   "rtgs": "chak-nam",
-   "ipa": "/t͡ɕʰak̚˦˥.nam˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เกลี้ยกล่อมหรือโน้มนำให้เห็นคล้อยตาม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชัก",
-    "นำ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "cross_listed": [
-    "นำ"
-   ],
-   "lit": "draw + lead",
-   "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + ไปข้างหน้า"
-  },
-  {
-   "th": "คันชัก",
-   "rtgs": "khan-chak",
-   "ipa": "/kʰan˧.t͡ɕʰak̚˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ส่วนประกอบของคันไถสำหรับเทียมวัวหรือควาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คัน",
-    "ชัก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "lit_th": "สิ่งที่มีลักษณะยาวทำด้วยไม้เป็นต้น + ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่"
-  },
-  {
-   "th": "ชักดาบ",
-   "rtgs": "chak-dap",
-   "ipa": "/t͡ɕʰak̚˦˥.daːp̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม่ยอมจ่ายเงิน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชัก",
-    "ดาบ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "draw + knife",
-   "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + อาวุธชนิดหนึ่ง มีขนาดยาวและมีคมที่"
-  },
-  {
-   "th": "ชักใย",
-   "rtgs": "chak-yai",
-   "ipa": "/t͡ɕʰak̚˦˥.jaj˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บงการอยู่เบื้องหลัง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชัก",
-    "ใย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + สิ่งที่เป็นเส้นเล็ก ๆ บาง ๆ"
   }
  ],
  "etymology": {

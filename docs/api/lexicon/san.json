@@ -70,6 +70,104 @@
      "lit": "ridge + mountain",
      "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
      "frame": "entity"
+    },
+    {
+     "th": "ล่ำสัน",
+     "rtgs": "lam-san",
+     "ipa": "/lam˥˩.san˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีรูปร่างล่ำและแข็งแรง (มักใช้แก่ผู้ชาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ล่ำ",
+      "สัน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "มีเนื้อแน่นแข็ง + สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา",
+     "frame": "quality"
+    },
+    {
+     "th": "สันหลัง",
+     "rtgs": "san-lang",
+     "ipa": "/san˩˩˦.laŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนของร่างกายด้านหลัง ซึ่งมีกระดูกเป็นแนวนูนลงมาตลอดหลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "หลัง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หลัง"
+     ],
+     "lit": "ridge + back",
+     "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + ซีกของกายที่ตรงข้ามกับหน้าอก",
+     "frame": "entity"
+    },
+    {
+     "th": "สันดอน",
+     "rtgs": "san-don",
+     "ipa": "/san˩˩˦.dɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดินหรือกรวดทรายเป็นต้นซึ่งน้ำพัดเอามารวมกัน ปรากฏนูนยาวอยู่ใต้น้ำ ทำให้สูงเป็นสันขึ้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "ดอน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ดอน"
+     ],
+     "lit": "ridge + hill",
+     "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + พื้นที่ที่น้ำท่วมไม่ถึง",
+     "frame": "entity"
     }
    ]
   },
@@ -126,6 +224,37 @@
      "head": 0,
      "lit": "ridge + knife",
      "lit_th": "ส่วนหนาของมีดหรือขวานซึ่งอยู่ตรงข้ + อาวุธชนิดหนึ่ง มีขนาดยาวและมีคมที่",
+     "frame": "entity"
+    },
+    {
+     "th": "สันขวาน",
+     "rtgs": "san-khwan",
+     "ipa": "/san˩˩˦.kʰwaːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ด้านสันของขวาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "ขวาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ridge + axe",
+     "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + เครื่องมือสำหรับตัด ฟัน ผ่า ถากไม้",
      "frame": "entity"
     }
    ],
@@ -513,35 +642,6 @@
    "frame": "entity"
   },
   {
-   "th": "ล่ำสัน",
-   "rtgs": "lam-san",
-   "ipa": "/lam˥˩.san˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีรูปร่างล่ำและแข็งแรง (มักใช้แก่ผู้ชาย)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ล่ำ",
-    "สัน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+N",
-   "head": 1,
-   "lit_th": "มีเนื้อแน่นแข็ง + สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา",
-   "frame": "quality"
-  },
-  {
    "th": "สันดาล",
    "rtgs": "san-dan",
    "ipa": "/san˩˩˦.daːn˧/",
@@ -559,7 +659,7 @@
     "สัน",
     "ดาล"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: a misspelling of สันดาน, which the dictionary gives as ยืมมาจากสันสกฤต संतान (สํตาน, 'สืบต่อ') — Sanskrit santāna, a whole borrowing.",
    "conf": "verified",
    "src": [
     "RID",
@@ -568,37 +668,8 @@
    "pattern": "N+N",
    "head": 0,
    "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + กลอนประตูที่ทำด้วยไม้สำหรับขัดบานป",
-   "frame": "entity"
-  },
-  {
-   "th": "สันขวาน",
-   "rtgs": "san-khwan",
-   "ipa": "/san˩˩˦.kʰwaːn˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ด้านสันของขวาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "ขวาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "ridge + axe",
-   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + เครื่องมือสำหรับตัด ฟัน ผ่า ถากไม้",
-   "frame": "entity"
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "สันลึก",
@@ -630,39 +701,6 @@
    "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + ต่ำลงไปจากขอบมากกว่าปรกติ",
    "frame": "quality",
    "use": "false-split"
-  },
-  {
-   "th": "สันหลัง",
-   "rtgs": "san-lang",
-   "ipa": "/san˩˩˦.laŋ˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ส่วนของร่างกายด้านหลัง ซึ่งมีกระดูกเป็นแนวนูนลงมาตลอดหลัง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "หลัง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "หลัง"
-   ],
-   "lit": "ridge + back",
-   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + ซีกของกายที่ตรงข้ามกับหน้าอก",
-   "frame": "entity"
   },
   {
    "th": "ความล่ำสัน",
@@ -712,7 +750,7 @@
     "สัน",
     "เดก"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary says แผลงมาจากบาลี สนฺติก — Pali santika, 'vicinity'. No ridge in it.",
    "conf": "verified",
    "src": [
     "RID",
@@ -720,40 +758,8 @@
    ],
    "pattern": "N+V",
    "head": 0,
-   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + กระเดก"
-  },
-  {
-   "th": "สันดอน",
-   "rtgs": "san-don",
-   "ipa": "/san˩˩˦.dɔːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ดินหรือกรวดทรายเป็นต้นซึ่งน้ำพัดเอามารวมกัน ปรากฏนูนยาวอยู่ใต้น้ำ ทำให้สูงเป็นสันขึ้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัน",
-    "ดอน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ดอน"
-   ],
-   "lit": "ridge + hill",
-   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + พื้นที่ที่น้ำท่วมไม่ถึง",
-   "frame": "entity"
+   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + กระเดก",
+   "use": "false-split"
   },
   {
    "th": "สีสัน",
@@ -773,7 +779,7 @@
     "สี",
     "สัน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the dictionary spells it out — สี + (สัน เป็นคำสร้อย), เดิมใช้เข้าคู่กับ วรรณะ เป็น สีสันวรรณะ. The สัน is a คำสร้อย, a meaningless rhyming filler syllable, not a morpheme. Nothing to file because there is nothing there.",
    "conf": "verified",
    "src": [
     "RID",
@@ -786,7 +792,8 @@
    ],
    "lit": "color + ridge",
    "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา",
-   "frame": "entity"
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "สันติ",

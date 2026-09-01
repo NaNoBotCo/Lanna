@@ -1139,7 +1139,7 @@
     "คช",
     "ราช"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: glossed คุดทะราด, yaws. The dictionary says แผลงมาจาก คุดทะราด โดยเลียนคำยืมภาษาบาลี คช (“ช้าง”) — the disease name คุดทะราด respelled to LOOK like the Pali loan คช + ราช. It is a disguise, not a compound: there is no king in it and no elephant either.",
    "conf": "verified",
    "src": [
     "RID",
@@ -1148,7 +1148,8 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "ช้าง + พระเจ้าแผ่นดิน",
-   "frame": "entity"
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "โคราช",

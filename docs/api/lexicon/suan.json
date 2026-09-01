@@ -77,6 +77,102 @@
      "lit": "garden + kitchen",
      "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + โรง เรือน หรือห้องสำหรับทำกับข้าวข",
      "frame": "entity"
+    },
+    {
+     "th": "สวนสาธารณะ",
+     "rtgs": "suan-sa-tha-ra-na",
+     "ipa": "/sua̯n˩˩˦.saː˩˩˦.tʰaː˧.ra˦˥.naʔ˦˥/",
+     "gloss": {
+      "en": [
+       "park"
+      ],
+      "th": "สวนที่จัดไว้เพื่อประโยชน์สาธารณะ สำหรับพักผ่อนหย่อนใจ ออกกำลังกาย หรือจัดกิจกรรมกลางแจ้ง เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "สาธารณะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "garden + public",
+     "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + เพื่อประชาชนทั่วไป",
+     "frame": "quality"
+    },
+    {
+     "th": "สวนหย่อม",
+     "rtgs": "suan-yom",
+     "ipa": "/sua̯n˩˩˦.jɔm˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สวนไม้ประดับขนาดเล็ก จัดในเนื้อที่จำกัด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "หย่อม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + หมู่เล็ก ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "นาสวน",
+     "rtgs": "na-suan",
+     "ipa": "/naː˧.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นาข้าวที่ปลูกในพื้นที่ซึ่งมีระดับน้ำลึกตั้งแต่ 1 เมตรลงมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "สวน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + garden",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
+     "frame": "entity"
     }
    ]
   },
@@ -135,6 +231,36 @@
      "lit": "garden + animal",
      "lit_th": "สถานที่ซึ่งมีลักษณะเช่นนั้นในบางกร + สิ่งมีชีวิตซึ่งแตกต่างไปจากพรรณไม้",
      "frame": "entity"
+    },
+    {
+     "th": "สวนสนุก",
+     "rtgs": "suan-sa-nuk",
+     "ipa": "/sua̯n˩˩˦.sa˨˩.nuk̚˨˩/",
+     "gloss": {
+      "en": [
+       "amusement park"
+      ],
+      "th": "สถานที่ที่รวบรวมบรรดาสิ่งที่ทำให้เกิดความสนุกสนานเพลิดเพลินไว้บริการประชาชน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "สนุก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "garden + enjoy",
+     "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + ทำให้รู้สึกเพลิดเพลิน"
     }
    ],
    "extends": 1,
@@ -177,6 +303,39 @@
     "Declared root: สวน 'to move against, to go the opposite way'.",
     "Declared root: สวน 'to move against, to go the opposite way'.",
     "Declared root: สวน 'to move against, to go the opposite way'."
+   ],
+   "compounds": [
+    {
+     "th": "สวนสนาม",
+     "rtgs": "suan-sa-nam",
+     "ipa": "/sua̯n˩˩˦.sa˨˩.naːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พิธีชุมนุมพลกองทหารที่ลานกว้างเพื่อแสดงความสง่าผ่าเผย ความพร้อมเพรียง และอานุภาพของเครื่องอาวุธยุทโธปกรณ์ ให้เป็นเกียรติแก่ผู้เป็นประธานในพิธีซึ่งจะได้ตรวจดูแถวทหารที่ตั้งอยู่ คือ ตรวจพลและดูการเดินแถวของทหารเหล่านั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "สนาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "garden + field",
+     "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + ลาน",
+     "frame": "entity"
+    }
    ]
   },
   {
@@ -385,6 +544,99 @@
     "Declared root: สวน 'to ask'.",
     "Declared root: สวน 'to ask'.",
     "Declared root: สวน 'to ask'."
+   ],
+   "compounds": [
+    {
+     "th": "สืบสวน",
+     "rtgs": "suep-suan",
+     "ipa": "/sɯːp̚˨˩.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "investigate"
+      ],
+      "th": "แสวงหาข้อเท็จจริงและหลักฐานซึ่งพนักงานฝ่ายปกครองหรือตำรวจได้ปฏิบัติไปตามอำนาจและหน้าที่ เพื่อรักษาความสงบเรียบร้อยของประชาชน และเพื่อที่จะทราบรายละเอียดแห่งความผิด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สืบ",
+      "สวน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ต่อเนื่องเป็นลำดับ + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก"
+    },
+    {
+     "th": "ไต่สวน",
+     "rtgs": "tai-suan",
+     "ipa": "/taj˨˩.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "examine"
+      ],
+      "th": "สอบสวนข้อเท็จจริงเพื่อวินิจฉัยว่าถูกต้องหรือไม่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไต่",
+      "สวน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "climb + garden",
+     "lit_th": "อาการที่เคลื่อนไปหรือคืบคลานไปของส + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก"
+    },
+    {
+     "th": "สอบสวน",
+     "rtgs": "sop-suan",
+     "ipa": "/sɔːp̚˨˩.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "investigate"
+      ],
+      "th": "รวบรวมพยานหลักฐานและดำเนินการอย่างอื่นซึ่งพนักงานสอบสวนได้ทำไปเกี่ยวกับความผิดที่กล่าวหา เพื่อที่จะทราบข้อเท็จจริงหรือพิสูจน์ความผิด และเพื่อจะเอาตัวผู้กระทำผิดมาฟ้องลงโทษ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สอบ",
+      "สวน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ตรวจ ทดลอง เปรียบเทียบ หรือไล่เลีย + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก"
+    }
    ]
   },
   {
@@ -422,6 +674,40 @@
     "Declared root: สวน 'hearing' — probably Pali savana; its relation to sense 8 is not established here.",
     "Declared root: สวน 'hearing' — probably Pali savana; its relation to sense 8 is not established here.",
     "Declared root: สวน 'hearing' — probably Pali savana; its relation to sense 8 is not established here."
+   ],
+   "compounds": [
+    {
+     "th": "สวนศาสตร์",
+     "rtgs": "sa-wa-na-sat",
+     "ipa": "/sa˨˩.wa˦˥.na˦˥.saːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "acoustics"
+      ],
+      "th": "วิชาว่าด้วยเสียง, ฟิสิกส์แขนงหนึ่งที่ศึกษาเกี่ยวกับคุณสมบัติของเสียง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "ศาสตร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "garden + discipline",
+     "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + ระบบวิชาความรู้",
+     "frame": "entity"
+    }
    ]
   },
   {
@@ -781,66 +1067,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 26; domain seeded by keyword hits ['สวน', 'ต้นไม้', 'ดอก', 'ใบ'].",
  "compounds_unassigned": [
   {
-   "th": "สวนสาธารณะ",
-   "rtgs": "suan-sa-tha-ra-na",
-   "ipa": "/sua̯n˩˩˦.saː˩˩˦.tʰaː˧.ra˦˥.naʔ˦˥/",
-   "gloss": {
-    "en": [
-     "park"
-    ],
-    "th": "สวนที่จัดไว้เพื่อประโยชน์สาธารณะ สำหรับพักผ่อนหย่อนใจ ออกกำลังกาย หรือจัดกิจกรรมกลางแจ้ง เป็นต้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สวน",
-    "สาธารณะ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "lit": "garden + public",
-   "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + เพื่อประชาชนทั่วไป",
-   "frame": "quality"
-  },
-  {
-   "th": "สืบสวน",
-   "rtgs": "suep-suan",
-   "ipa": "/sɯːp̚˨˩.sua̯n˩˩˦/",
-   "gloss": {
-    "en": [
-     "investigate"
-    ],
-    "th": "แสวงหาข้อเท็จจริงและหลักฐานซึ่งพนักงานฝ่ายปกครองหรือตำรวจได้ปฏิบัติไปตามอำนาจและหน้าที่ เพื่อรักษาความสงบเรียบร้อยของประชาชน และเพื่อที่จะทราบรายละเอียดแห่งความผิด",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สืบ",
-    "สวน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit_th": "ต่อเนื่องเป็นลำดับ + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก"
-  },
-  {
    "th": "การสอบสวน",
    "rtgs": "kan-sop-suan",
    "ipa": "/kaːn˧.sɔːp̚˨˩.sua̯n˩˩˦/",
@@ -871,188 +1097,6 @@
    "lit": "examination + garden",
    "lit_th": "คำอาการนามของ สอบ + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
    "frame": "entity"
-  },
-  {
-   "th": "ไต่สวน",
-   "rtgs": "tai-suan",
-   "ipa": "/taj˨˩.sua̯n˩˩˦/",
-   "gloss": {
-    "en": [
-     "examine"
-    ],
-    "th": "สอบสวนข้อเท็จจริงเพื่อวินิจฉัยว่าถูกต้องหรือไม่",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ไต่",
-    "สวน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "climb + garden",
-   "lit_th": "อาการที่เคลื่อนไปหรือคืบคลานไปของส + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก"
-  },
-  {
-   "th": "สวนหย่อม",
-   "rtgs": "suan-yom",
-   "ipa": "/sua̯n˩˩˦.jɔm˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สวนไม้ประดับขนาดเล็ก จัดในเนื้อที่จำกัด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สวน",
-    "หย่อม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + หมู่เล็ก ๆ",
-   "frame": "entity"
-  },
-  {
-   "th": "สวนสนาม",
-   "rtgs": "suan-sa-nam",
-   "ipa": "/sua̯n˩˩˦.sa˨˩.naːm˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พิธีชุมนุมพลกองทหารที่ลานกว้างเพื่อแสดงความสง่าผ่าเผย ความพร้อมเพรียง และอานุภาพของเครื่องอาวุธยุทโธปกรณ์ ให้เป็นเกียรติแก่ผู้เป็นประธานในพิธีซึ่งจะได้ตรวจดูแถวทหารที่ตั้งอยู่ คือ ตรวจพลและดูการเดินแถวของทหารเหล่านั้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สวน",
-    "สนาม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "garden + field",
-   "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + ลาน",
-   "frame": "entity"
-  },
-  {
-   "th": "สวนศาสตร์",
-   "rtgs": "sa-wa-na-sat",
-   "ipa": "/sa˨˩.wa˦˥.na˦˥.saːt̚˨˩/",
-   "gloss": {
-    "en": [
-     "acoustics"
-    ],
-    "th": "วิชาว่าด้วยเสียง, ฟิสิกส์แขนงหนึ่งที่ศึกษาเกี่ยวกับคุณสมบัติของเสียง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สวน",
-    "ศาสตร์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "garden + discipline",
-   "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + ระบบวิชาความรู้",
-   "frame": "entity"
-  },
-  {
-   "th": "นาสวน",
-   "rtgs": "na-suan",
-   "ipa": "/naː˧.sua̯n˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "นาข้าวที่ปลูกในพื้นที่ซึ่งมีระดับน้ำลึกตั้งแต่ 1 เมตรลงมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นา",
-    "สวน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "นา"
-   ],
-   "lit": "farm + garden",
-   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
-   "frame": "entity"
-  },
-  {
-   "th": "สวนสนุก",
-   "rtgs": "suan-sa-nuk",
-   "ipa": "/sua̯n˩˩˦.sa˨˩.nuk̚˨˩/",
-   "gloss": {
-    "en": [
-     "amusement park"
-    ],
-    "th": "สถานที่ที่รวบรวมบรรดาสิ่งที่ทำให้เกิดความสนุกสนานเพลิดเพลินไว้บริการประชาชน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สวน",
-    "สนุก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 0,
-   "lit": "garden + enjoy",
-   "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + ทำให้รู้สึกเพลิดเพลิน"
   },
   {
    "th": "การสืบสวน",
@@ -1102,44 +1146,16 @@
     "กระ",
     "สวน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: glossed แบบ, a pattern. The dictionary gives อาจร่วมเชื้อสายกับลาว ກະສວນ (กะสวน, “ส่วน”) — it belongs with ส่วน, not สวน. Hedged as อาจ, so probable.",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
    ],
    "pattern": "N+N",
    "head": 1,
-   "frame": "entity"
-  },
-  {
-   "th": "สอบสวน",
-   "rtgs": "sop-suan",
-   "ipa": "/sɔːp̚˨˩.sua̯n˩˩˦/",
-   "gloss": {
-    "en": [
-     "investigate"
-    ],
-    "th": "รวบรวมพยานหลักฐานและดำเนินการอย่างอื่นซึ่งพนักงานสอบสวนได้ทำไปเกี่ยวกับความผิดที่กล่าวหา เพื่อที่จะทราบข้อเท็จจริงหรือพิสูจน์ความผิด และเพื่อจะเอาตัวผู้กระทำผิดมาฟ้องลงโทษ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สอบ",
-    "สวน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit_th": "ตรวจ ทดลอง เปรียบเทียบ หรือไล่เลีย + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก"
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "การไต่สวน",

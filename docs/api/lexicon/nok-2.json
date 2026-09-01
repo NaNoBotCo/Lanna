@@ -68,6 +68,95 @@
      "head": 1,
      "lit": "board + outside",
      "lit_th": "เบื้อง + ตรงข้ามกับใน"
+    },
+    {
+     "th": "คนไข้นอก",
+     "rtgs": "khon–khai–nok",
+     "ipa": "/kʰon˧.kʰaj˥˩.nɔːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนไข้ที่มารับการตรวจรักษาที่โรงพยาบาล แต่ไม่ได้นอนพักรักษาตัวในโรงพยาบาล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คนไข้",
+      "นอก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit": "patient + outside",
+     "lit_th": "ผู้ป่วย + ตรงข้ามกับใน"
+    },
+    {
+     "th": "ภายนอก",
+     "rtgs": "phai-nok",
+     "ipa": "/pʰaːj˧.nɔːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "outward"
+      ],
+      "th": "ข้างนอก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ภาย",
+      "นอก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit_th": "บริเวณ + ตรงข้ามกับใน"
+    },
+    {
+     "th": "นอกชาน",
+     "rtgs": "nok-chan",
+     "ipa": "/nɔːk̚˥˩.t͡ɕʰaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พื้นเรือนที่ยื่นพ้นชายคาระเบียงออกมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นอก",
+      "ชาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PREP+N",
+     "head": 0,
+     "lit_th": "ตรงข้ามกับใน + กากอ้อยหรือกากหมากที่เคี้ยวแล้วเป็"
     }
    ]
   },
@@ -97,7 +186,139 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "Outside narrowed to beyond, past the bounds of.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "นอกเรื่อง",
+     "rtgs": "nok-rueang",
+     "ipa": "/nɔːk̚˥˩.rɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรื่องที่มิได้เกี่ยวข้องกับเรื่องอื่นด้วย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นอก",
+      "เรื่อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PREP+N",
+     "head": 0,
+     "lit": "outside + animal",
+     "lit_th": "ตรงข้ามกับใน + ภาวะหรือเนื้อหาของสิ่งซึ่งเนื่องกั"
+    },
+    {
+     "th": "นอกใจ",
+     "rtgs": "nok-chai",
+     "ipa": "/nɔːk̚˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "infidel"
+      ],
+      "th": "ไม่ซื่อตรงต่อสามีหรือภรรยาด้วยการคบชู้สู่สาว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นอก",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PREP+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "outside + heart",
+     "lit_th": "ตรงข้ามกับใน + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    },
+    {
+     "th": "นอกจาก",
+     "rtgs": "nok-chak",
+     "ipa": "/nɔːk̚˥˩.t͡ɕaːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "besides",
+       "but",
+       "except"
+      ],
+      "th": "เว้นเสียแต่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นอก",
+      "จาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PREP+N",
+     "head": 0,
+     "lit": "outside + leave",
+     "lit_th": "ตรงข้ามกับใน + ชื่อปาล์มชนิด Nypa fruticans Wurmb"
+    },
+    {
+     "th": "คนนอก",
+     "rtgs": "khon-nok",
+     "ipa": "/kʰon˧.nɔːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุคคลผู้ไม่มีส่วนร่วมหรือไม่มีส่วนเกี่ยวข้อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "นอก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "cross_listed": [
+      "คน"
+     ],
+     "lit": "stir + outside",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ตรงข้ามกับใน"
+    }
+   ]
   },
   {
    "n": 3,
@@ -154,6 +375,36 @@
      ],
      "lit": "by + outside",
      "lit_th": "สิ่งต่าง ๆ + ต่างประเทศ"
+    },
+    {
+     "th": "นักเรียนนอก",
+     "translit_auto": "nakreiynnok",
+     "ipa": "[näk̚˥.ri(ː)ä̃n˧.nɔːk̚˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่ไปศึกษามาจากต่างประเทศ มีประเทศในยุโรปและสหรัฐอเมริกาเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นักเรียน",
+      "นอก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit": "student + outside",
+     "lit_th": "ผู้ศึกษาเล่าเรียน + ตรงข้ามกับใน"
     }
    ],
    "extends": 1,
@@ -465,249 +716,6 @@
   "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['บ้าน', 'เมือง'].",
- "compounds_unassigned": [
-  {
-   "th": "คนไข้นอก",
-   "rtgs": "khon–khai–nok",
-   "ipa": "/kʰon˧.kʰaj˥˩.nɔːk̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คนไข้ที่มารับการตรวจรักษาที่โรงพยาบาล แต่ไม่ได้นอนพักรักษาตัวในโรงพยาบาล",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คนไข้",
-    "นอก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+PREP",
-   "head": 1,
-   "lit": "patient + outside",
-   "lit_th": "ผู้ป่วย + ตรงข้ามกับใน"
-  },
-  {
-   "th": "นอกเรื่อง",
-   "rtgs": "nok-rueang",
-   "ipa": "/nɔːk̚˥˩.rɯa̯ŋ˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรื่องที่มิได้เกี่ยวข้องกับเรื่องอื่นด้วย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นอก",
-    "เรื่อง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "PREP+N",
-   "head": 0,
-   "lit": "outside + animal",
-   "lit_th": "ตรงข้ามกับใน + ภาวะหรือเนื้อหาของสิ่งซึ่งเนื่องกั"
-  },
-  {
-   "th": "นักเรียนนอก",
-   "translit_auto": "nakreiynnok",
-   "ipa": "[näk̚˥.ri(ː)ä̃n˧.nɔːk̚˥˩]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ที่ไปศึกษามาจากต่างประเทศ มีประเทศในยุโรปและสหรัฐอเมริกาเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นักเรียน",
-    "นอก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+PREP",
-   "head": 1,
-   "lit": "student + outside",
-   "lit_th": "ผู้ศึกษาเล่าเรียน + ตรงข้ามกับใน"
-  },
-  {
-   "th": "นอกใจ",
-   "rtgs": "nok-chai",
-   "ipa": "/nɔːk̚˥˩.t͡ɕaj˧/",
-   "gloss": {
-    "en": [
-     "infidel"
-    ],
-    "th": "ไม่ซื่อตรงต่อสามีหรือภรรยาด้วยการคบชู้สู่สาว",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "นอก",
-    "ใจ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "PREP+N",
-   "head": 0,
-   "cross_listed": [
-    "ใจ"
-   ],
-   "lit": "outside + heart",
-   "lit_th": "ตรงข้ามกับใน + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
-  },
-  {
-   "th": "ภายนอก",
-   "rtgs": "phai-nok",
-   "ipa": "/pʰaːj˧.nɔːk̚˥˩/",
-   "gloss": {
-    "en": [
-     "outward"
-    ],
-    "th": "ข้างนอก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ภาย",
-    "นอก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+PREP",
-   "head": 1,
-   "lit_th": "บริเวณ + ตรงข้ามกับใน"
-  },
-  {
-   "th": "นอกชาน",
-   "rtgs": "nok-chan",
-   "ipa": "/nɔːk̚˥˩.t͡ɕʰaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พื้นเรือนที่ยื่นพ้นชายคาระเบียงออกมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นอก",
-    "ชาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "PREP+N",
-   "head": 0,
-   "lit_th": "ตรงข้ามกับใน + กากอ้อยหรือกากหมากที่เคี้ยวแล้วเป็"
-  },
-  {
-   "th": "นอกจาก",
-   "rtgs": "nok-chak",
-   "ipa": "/nɔːk̚˥˩.t͡ɕaːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "besides",
-     "but",
-     "except"
-    ],
-    "th": "เว้นเสียแต่",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "นอก",
-    "จาก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "PREP+N",
-   "head": 0,
-   "lit": "outside + leave",
-   "lit_th": "ตรงข้ามกับใน + ชื่อปาล์มชนิด Nypa fruticans Wurmb"
-  },
-  {
-   "th": "คนนอก",
-   "rtgs": "khon-nok",
-   "ipa": "/kʰon˧.nɔːk̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บุคคลผู้ไม่มีส่วนร่วมหรือไม่มีส่วนเกี่ยวข้อง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "นอก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+PREP",
-   "head": 1,
-   "cross_listed": [
-    "คน"
-   ],
-   "lit": "stir + outside",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ตรงข้ามกับใน"
-  }
- ],
  "etymology": {
   "summary": "สืบทอดจากไทดั้งเดิม *l̩.noːkᴰ; ร่วมเชื้อสายกับลาว ນອກ (นอก), คำเมือง ᨶᩬᨠ (นอก), เขิน ᨶᩬᨠ (นอก), ไทลื้อ ᦓᦸᧅ (นอ̂ก), ไทดำ ꪙꪮꪀ (นอก), ไทขาว ꪙꪮ, ไทใหญ่ ၼွၵ်ႈ (น้อ̂ก), ไทใต้คง ᥘᥩᥐ (ลอ̂ก), อาหม 𑜃𑜨𑜀𑜫 (นอ̂ก์), ปู้อี roh, จ้วง rog, จ้วงแบบหนง nog, จ้วงแบบจั่วเจียง nog",
   "conf": "probable",

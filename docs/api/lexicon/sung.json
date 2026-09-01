@@ -31,6 +31,74 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ส่วนสูง",
+     "rtgs": "suan-sung",
+     "ipa": "/sua̯n˨˩.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความสูง (มักใช้แก่บุคคล)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ส่วน"
+     ],
+     "lit": "zone + tall",
+     "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ที่ราบสูง",
+     "translit_auto": "thirabsung",
+     "ipa": "[tʰiː˥˩.räːp̚˥˩.sũːŋ˩˥]",
+     "gloss": {
+      "en": [
+       "plateau"
+      ],
+      "th": "ที่ราบซึ่งสูงกว่าระดับผิวโลกโดยรอบตั้งแต่ 300 เมตรขึ้นไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ที่ราบ",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "flat + tall",
+     "lit_th": "ภูมิประเทศที่เป็นที่ราบซึ่งอาจจะรา + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
+    }
    ]
   },
   {
@@ -57,7 +125,104 @@
    "extends": 1,
    "via": "generalisation",
    "via_note": "Above the ordinary level.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ใฝ่สูง",
+     "rtgs": "fai-sung",
+     "ipa": "/faj˨˩.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทะเยอทะยานเกินตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใฝ่",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit_th": "มุ่ง + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
+    },
+    {
+     "th": "สูงอายุ",
+     "rtgs": "sung-a-yu",
+     "ipa": "/suːŋ˩˩˦.ʔaː˧.juʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีอายุมาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สูง",
+      "อายุ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit": "tall + age",
+     "lit_th": "มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก + ช่วงเวลาที่นับจาก เวลาเกิด ถึง เวล",
+     "frame": "quality"
+    },
+    {
+     "th": "หัวสูง",
+     "rtgs": "hua-sung",
+     "ipa": "/hua̯˩˩˦.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีรสนิยมสูงจนเกินตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + tall",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 3,
@@ -193,7 +358,111 @@
    "extends": 2,
    "via": "metaphor",
    "via_note": "High in quality: fine, elevated.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "สูงส่ง",
+     "rtgs": "sung-song",
+     "ipa": "/suːŋ˩˩˦.soŋ˨˩/",
+     "gloss": {
+      "en": [
+       "supernal"
+      ],
+      "th": "ที่ยกย่องกันว่าดีเด่น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สูง",
+      "ส่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "cross_listed": [
+      "ส่ง"
+     ],
+     "lit": "tall + send",
+     "lit_th": "มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท",
+     "frame": "quality"
+    },
+    {
+     "th": "เครื่องสูง",
+     "translit_auto": "kherueongsung",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของประดับเกียรติ, เครื่องประดับเกียรติยศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "device + tall",
+     "lit_th": "สิ่ง + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ของสูง",
+     "rtgs": "khong-sung",
+     "ipa": "/kʰɔːŋ˩˩˦.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งศักดิ์สิทธิ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "by + tall",
+     "lit_th": "สิ่งต่าง ๆ + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 7,
@@ -582,102 +851,6 @@
    "frame": "quality"
   },
   {
-   "th": "สูงส่ง",
-   "rtgs": "sung-song",
-   "ipa": "/suːŋ˩˩˦.soŋ˨˩/",
-   "gloss": {
-    "en": [
-     "supernal"
-    ],
-    "th": "ที่ยกย่องกันว่าดีเด่น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สูง",
-    "ส่ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+V",
-   "head": 0,
-   "cross_listed": [
-    "ส่ง"
-   ],
-   "lit": "tall + send",
-   "lit_th": "มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท",
-   "frame": "quality"
-  },
-  {
-   "th": "ส่วนสูง",
-   "rtgs": "suan-sung",
-   "ipa": "/sua̯n˨˩.suːŋ˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ความสูง (มักใช้แก่บุคคล)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ส่วน",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ส่วน"
-   ],
-   "lit": "zone + tall",
-   "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
-   "frame": "quality"
-  },
-  {
-   "th": "ใฝ่สูง",
-   "rtgs": "fai-sung",
-   "ipa": "/faj˨˩.suːŋ˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทะเยอทะยานเกินตัว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ใฝ่",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+ADJ",
-   "head": 1,
-   "lit_th": "มุ่ง + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
-   "frame": "quality"
-  },
-  {
    "th": "ความสูง",
    "rtgs": "khwam-sung",
    "ipa": "/kʰwaːm˧.suːŋ˩˩˦/",
@@ -708,165 +881,6 @@
    "head": 1,
    "lit": "-ness + tall",
    "lit_th": "เรื่อง + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
-   "frame": "quality"
-  },
-  {
-   "th": "สูงอายุ",
-   "rtgs": "sung-a-yu",
-   "ipa": "/suːŋ˩˩˦.ʔaː˧.juʔ˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีอายุมาก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สูง",
-    "อายุ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+N",
-   "head": 0,
-   "lit": "tall + age",
-   "lit_th": "มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก + ช่วงเวลาที่นับจาก เวลาเกิด ถึง เวล",
-   "frame": "quality"
-  },
-  {
-   "th": "หัวสูง",
-   "rtgs": "hua-sung",
-   "ipa": "/hua̯˩˩˦.suːŋ˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีรสนิยมสูงจนเกินตัว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หัว",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "หัว"
-   ],
-   "lit": "head + tall",
-   "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
-   "frame": "quality"
-  },
-  {
-   "th": "เครื่องสูง",
-   "translit_auto": "kherueongsung",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ของประดับเกียรติ, เครื่องประดับเกียรติยศ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เครื่อง",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "เครื่อง"
-   ],
-   "lit": "device + tall",
-   "lit_th": "สิ่ง + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
-   "frame": "quality"
-  },
-  {
-   "th": "ของสูง",
-   "rtgs": "khong-sung",
-   "ipa": "/kʰɔːŋ˩˩˦.suːŋ˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สิ่งศักดิ์สิทธิ์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ของ",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ของ"
-   ],
-   "lit": "by + tall",
-   "lit_th": "สิ่งต่าง ๆ + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
-   "frame": "quality"
-  },
-  {
-   "th": "ที่ราบสูง",
-   "translit_auto": "thirabsung",
-   "ipa": "[tʰiː˥˩.räːp̚˥˩.sũːŋ˩˥]",
-   "gloss": {
-    "en": [
-     "plateau"
-    ],
-    "th": "ที่ราบซึ่งสูงกว่าระดับผิวโลกโดยรอบตั้งแต่ 300 เมตรขึ้นไป",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ที่ราบ",
-    "สูง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "flat + tall",
-   "lit_th": "ภูมิประเทศที่เป็นที่ราบซึ่งอาจจะรา + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
    "frame": "quality"
   }
  ],

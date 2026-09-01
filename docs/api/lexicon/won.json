@@ -39,6 +39,65 @@
     "Declared root: วน 'to circle'.",
     "Declared root: วน 'to circle'.",
     "Declared root: วน 'to circle'."
+   ],
+   "compounds": [
+    {
+     "th": "กระวน",
+     "rtgs": "kra-won",
+     "ipa": "/kra˨˩.won˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วนเวียน วุ่น หวน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระ",
+      "วน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1
+    },
+    {
+     "th": "วนเวียน",
+     "rtgs": "won-wian",
+     "ipa": "/won˧.wia̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วนไปวนมา, กลับไปกลับมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วน",
+      "เวียน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "เวียนไปโดยรอบ + อาการที่ของสิ่งหนึ่งเคลื่อนไหวไปรอ"
+    }
    ]
   },
   {
@@ -96,6 +155,38 @@
     "Declared root: วน 'forest' < Pali vana — unrelated.",
     "Declared root: วน 'forest' < Pali vana — unrelated.",
     "Declared root: วน 'forest' < Pali vana — unrelated."
+   ],
+   "compounds": [
+    {
+     "th": "วนศาสตร์",
+     "rtgs": "wa-na-sat",
+     "ipa": "/wa˦˥.na˦˥.saːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิชาว่าด้วยการทำนุบำรุงรักษา และปลูกป่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วน",
+      "ศาสตร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "to circle + discipline",
+     "lit_th": "เวียนไปโดยรอบ + ระบบวิชาความรู้"
+    }
    ]
   },
   {
@@ -310,14 +401,15 @@
     "บ่",
     "วน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: a retired spelling of บ้วน, to rinse the mouth, which the dictionary gives as ร่วมเชื้อสายกับจ้วง mbwnj — one morpheme, not บ่ + วน.",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
    ],
    "head": 1,
-   "lit_th": "ไม่ + เวียนไปโดยรอบ"
+   "lit_th": "ไม่ + เวียนไปโดยรอบ",
+   "use": "false-split"
   },
   {
    "th": "ชนวน",
@@ -371,42 +463,16 @@
     "ตร",
     "วน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: leg irons. One syllable with a ตร- cluster; the ตร- left over is not a word, and shackles do not circle.",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
    ],
    "pattern": "PROP+V",
    "head": 1,
-   "lit_th": "อักษรย่อของ ตราด + เวียนไปโดยรอบ"
-  },
-  {
-   "th": "กระวน",
-   "rtgs": "kra-won",
-   "ipa": "/kra˨˩.won˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "วนเวียน วุ่น หวน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กระ",
-    "วน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1
+   "lit_th": "อักษรย่อของ ตราด + เวียนไปโดยรอบ",
+   "use": "false-split"
   },
   {
    "th": "ภูวน",
@@ -459,8 +525,8 @@
     "ขบ",
     "วน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: a procession. Its whole gloss is กระบวน — it is that word's doublet, not ขบ ('to bite') + วน. No etymology stated for either, so probable.",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
@@ -468,36 +534,8 @@
    "pattern": "V+V",
    "head": 1,
    "lit": "bite + to circle",
-   "lit_th": "เอาฟันเน้นเพื่อให้แตก + เวียนไปโดยรอบ"
-  },
-  {
-   "th": "วนศาสตร์",
-   "rtgs": "wa-na-sat",
-   "ipa": "/wa˦˥.na˦˥.saːt̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "วิชาว่าด้วยการทำนุบำรุงรักษา และปลูกป่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "วน",
-    "ศาสตร์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "to circle + discipline",
-   "lit_th": "เวียนไปโดยรอบ + ระบบวิชาความรู้"
+   "lit_th": "เอาฟันเน้นเพื่อให้แตก + เวียนไปโดยรอบ",
+   "use": "false-split"
   },
   {
    "th": "การกวน",
@@ -549,7 +587,7 @@
     "แข",
     "วน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: to hang. สืบทอดจากไทดั้งเดิม *qweːnᴬ — one inherited Proto-Tai morpheme with a ขว- cluster.",
    "conf": "verified",
    "src": [
     "RID",
@@ -557,7 +595,8 @@
    ],
    "pattern": "N+V",
    "head": 1,
-   "lit_th": "ดวงเดือน + เวียนไปโดยรอบ"
+   "lit_th": "ดวงเดือน + เวียนไปโดยรอบ",
+   "use": "false-split"
   },
   {
    "th": "การวน",
@@ -650,34 +689,6 @@
    "use": "false-split"
   },
   {
-   "th": "วนเวียน",
-   "rtgs": "won-wian",
-   "ipa": "/won˧.wia̯n˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "วนไปวนมา, กลับไปกลับมา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "วน",
-    "เวียน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit_th": "เวียนไปโดยรอบ + อาการที่ของสิ่งหนึ่งเคลื่อนไหวไปรอ"
-  },
-  {
    "th": "ขมวน",
    "rtgs": "kha–muan",
    "ipa": "/kʰa˨˩.mua̯n˩˩˦/",
@@ -695,8 +706,8 @@
     "ขม",
     "วน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: a grain weevil larva. Nothing in the gloss circles, and the word is one syllable. No etymology stated, so probable.",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
@@ -705,7 +716,8 @@
    "head": 1,
    "lit": "bitter + to circle",
    "lit_th": "รสอย่างหนึ่งอย่างรสสะเดาหรือบอระเพ + เวียนไปโดยรอบ",
-   "frame": "quality"
+   "frame": "quality",
+   "use": "false-split"
   },
   {
    "th": "แหวน",
@@ -726,7 +738,7 @@
     "แห",
     "วน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: a ring. สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *ʰwɛːnᴬ¹ ('แหวน; กำไล') — one inherited morpheme.",
    "conf": "verified",
    "src": [
     "RID",
@@ -738,7 +750,8 @@
     "แห"
    ],
    "lit": "net + to circle",
-   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + เวียนไปโดยรอบ"
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + เวียนไปโดยรอบ",
+   "use": "false-split"
   }
  ],
  "etymology": {

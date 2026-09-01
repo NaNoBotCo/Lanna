@@ -70,7 +70,78 @@
    "extends": 1,
    "via": "generalisation",
    "via_note": "The base widened to the root, the stock.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "มูลฐาน",
+     "rtgs": "mun-la-than",
+     "ipa": "/muːn˧.la˦˥.tʰaːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "basic"
+      ],
+      "th": "พื้นฐาน, รากฐาน, เค้ามูล",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "มูล",
+      "ฐาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฐาน"
+     ],
+     "lit": "base + bottom",
+     "lit_th": "โคน + ที่ตั้ง",
+     "frame": "entity"
+    },
+    {
+     "th": "คำมูล",
+     "rtgs": "kham-mun",
+     "ipa": "/kʰam˧.muːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำคำเดียวที่ไม่ได้ประสมกับคำอื่น เช่น ยาม แขก นาฬิกา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "มูล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "word + base",
+     "lit_th": "เสียงพูด + โคน",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 3,
@@ -98,7 +169,41 @@
    "extends": 2,
    "via": "metaphor",
    "via_note": "The root of a matter: its trace, its origin.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ข้อมูล",
+     "rtgs": "kho-mun",
+     "ipa": "/kʰɔː˥˩.muːn˧/",
+     "gloss": {
+      "en": [
+       "dope",
+       "input"
+      ],
+      "th": "ข้อเท็จจริง หรือสิ่งที่ถือหรือยอมรับว่าเป็นข้อเท็จจริง สำหรับใช้เป็นหลักอนุมานหาความจริงหรือการคำนวณ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ข้อ",
+      "มูล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร + โคน",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 4,
@@ -154,7 +259,38 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "The base taken as the whole of it: the total, the sum.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "พร้อมมูล",
+     "rtgs": "phrom-mun",
+     "ipa": "/pʰrɔːm˦˥.muːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บริบูรณ์, มีครบทุกอย่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พร้อม",
+      "มูล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "fit + base",
+     "lit_th": "คำแสดงกิริยาร่วมกัน + โคน"
+    }
+   ]
   },
   {
    "n": 6,
@@ -208,6 +344,68 @@
      "pattern": "V+N",
      "head": 1,
      "lit_th": "เอาออกจากที่หนึ่งไปใส่อีกที่หนึ่ง + อุจจาระสัตว์"
+    },
+    {
+     "th": "มูลโค",
+     "translit_auto": "mulk",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คำสุภาพ) ขี้วัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มูล",
+      "โค"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โค"
+     ],
+     "lit": "base + cow",
+     "lit_th": "โคน + วัว",
+     "frame": "entity"
+    },
+    {
+     "th": "มูลกระบือ",
+     "translit_auto": "mulkrabue",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คำสุภาพ) ขี้ควาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มูล",
+      "กระบือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "โคน + ควาย",
+     "frame": "entity"
     }
    ],
    "needs_check": [
@@ -276,6 +474,39 @@
      ],
      "lit": "base + value",
      "lit_th": "ขี้หรือเศษของสิ่งต่าง ๆ + มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ",
+     "frame": "entity"
+    },
+    {
+     "th": "มูลดิน",
+     "translit_auto": "muldin",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กองดิน, ขี้ดิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มูล",
+      "ดิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ดิน"
+     ],
+     "lit": "base + soil",
+     "lit_th": "โคน + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
      "frame": "entity"
     }
    ],
@@ -461,38 +692,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 16; domain seeded by keyword hits ['แมว', 'ช้าง', 'สัตว์'].",
  "compounds_unassigned": [
   {
-   "th": "มูลโค",
-   "translit_auto": "mulk",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(คำสุภาพ) ขี้วัว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "มูล",
-    "โค"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "โค"
-   ],
-   "lit": "base + cow",
-   "lit_th": "โคน + วัว",
-   "frame": "entity"
-  },
-  {
    "th": "ประมูล",
    "rtgs": "pra-mun",
    "ipa": "/pra˨˩.muːn˧/",
@@ -510,139 +709,15 @@
     "ประ",
     "มูล"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: to bid at auction. The dictionary says มาจากภาษาเขมร ប្រមូល (ปฺรมูล, 'รวบรวม, ตะล่อมเข้าด้วยกัน') — Khmer pramūl, to gather. Nothing to do with มูล.",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
    "head": 1,
-   "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + โคน"
-  },
-  {
-   "th": "มูลฐาน",
-   "rtgs": "mun-la-than",
-   "ipa": "/muːn˧.la˦˥.tʰaːn˩˩˦/",
-   "gloss": {
-    "en": [
-     "basic"
-    ],
-    "th": "พื้นฐาน, รากฐาน, เค้ามูล",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "มูล",
-    "ฐาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ฐาน"
-   ],
-   "lit": "base + bottom",
-   "lit_th": "โคน + ที่ตั้ง",
-   "frame": "entity"
-  },
-  {
-   "th": "มูลกระบือ",
-   "translit_auto": "mulkrabue",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(คำสุภาพ) ขี้ควาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "มูล",
-    "กระบือ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "โคน + ควาย",
-   "frame": "entity"
-  },
-  {
-   "th": "มูลดิน",
-   "translit_auto": "muldin",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กองดิน, ขี้ดิน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "มูล",
-    "ดิน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ดิน"
-   ],
-   "lit": "base + soil",
-   "lit_th": "โคน + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
-   "frame": "entity"
-  },
-  {
-   "th": "ข้อมูล",
-   "rtgs": "kho-mun",
-   "ipa": "/kʰɔː˥˩.muːn˧/",
-   "gloss": {
-    "en": [
-     "dope",
-     "input"
-    ],
-    "th": "ข้อเท็จจริง หรือสิ่งที่ถือหรือยอมรับว่าเป็นข้อเท็จจริง สำหรับใช้เป็นหลักอนุมานหาความจริงหรือการคำนวณ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ข้อ",
-    "มูล"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร + โคน",
-   "frame": "entity"
+   "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + โคน",
+   "use": "false-split"
   },
   {
    "th": "การถ่ายมูล",
@@ -672,39 +747,6 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "คำอาการนามของ ถ่าย + โคน",
-   "frame": "entity"
-  },
-  {
-   "th": "คำมูล",
-   "rtgs": "kham-mun",
-   "ipa": "/kʰam˧.muːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำคำเดียวที่ไม่ได้ประสมกับคำอื่น เช่น ยาม แขก นาฬิกา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คำ",
-    "มูล"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "คำ"
-   ],
-   "lit": "word + base",
-   "lit_th": "เสียงพูด + โคน",
    "frame": "entity"
   },
   {
@@ -768,34 +810,6 @@
    "head": 1,
    "lit_th": "คำอาการนามของ ประ + โคน",
    "frame": "entity"
-  },
-  {
-   "th": "พร้อมมูล",
-   "rtgs": "phrom-mun",
-   "ipa": "/pʰrɔːm˦˥.muːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บริบูรณ์, มีครบทุกอย่าง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พร้อม",
-    "มูล"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 1,
-   "lit": "fit + base",
-   "lit_th": "คำแสดงกิริยาร่วมกัน + โคน"
   }
  ],
  "etymology": {

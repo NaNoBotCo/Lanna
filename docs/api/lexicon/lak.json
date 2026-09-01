@@ -34,6 +34,105 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "หลักลอย",
+     "rtgs": "lak-loi",
+     "ipa": "/lak̚˨˩.lɔːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่มีหลักแหล่ง, ไม่อยู่เป็นที่, เชื่อถือไม่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "ลอย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลอย"
+     ],
+     "lit": "key + float",
+     "lit_th": "เสาที่ปักไว้ + ทรงตัวอยู่ในอากาศ"
+    },
+    {
+     "th": "หลักแหล่ง",
+     "rtgs": "lak-laeng",
+     "ipa": "/lak̚˨˩.lɛŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ซึ่งอยู่ประจำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "แหล่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เสาที่ปักไว้ + ถิ่น",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักเมือง",
+     "rtgs": "lak-mueang",
+     "ipa": "/lak̚˨˩.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(เสา~) เสาหินหรือไม้เป็นต้น ยกตั้งเป็นเครื่องหมายว่าจะตั้งเมืองที่นั้นแน่นอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "เมือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "key + town",
+     "lit_th": "เสาที่ปักไว้ + แดน",
+     "frame": "entity"
+    }
    ]
   },
   {
@@ -150,7 +249,266 @@
    "extends": 3,
    "via": "metaphor",
    "via_note": "What one holds to in thought: a principle.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เสียหลัก",
+     "rtgs": "sia-lak",
+     "ipa": "/sia̯˩˩˦.lak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผิดไปจากหลักการ หลักเกณฑ์ หรือความถูกต้องเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสีย",
+      "หลัก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "bad + key",
+     "lit_th": "เสื่อมลงไป + เสาที่ปักไว้"
+    },
+    {
+     "th": "หลักทรัพย์",
+     "rtgs": "lak-sap",
+     "ipa": "/lak̚˨˩.sap̚˦˥/",
+     "gloss": {
+      "en": [
+       "security"
+      ],
+      "th": "ตราสารหรือหลักฐานแสดงสิทธิในทรัพย์สิน เช่น ตั๋วเงินคลัง พันธบัตร ตั๋วเงิน หุ้น หุ้นกู้ หน่วยลงทุน ใบสำคัญแสดงสิทธิที่จะซื้อหุ้น หุ้นกู้ หรือซื้อหน่วยลงทุน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "ทรัพย์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เสาที่ปักไว้ + เงินตรา",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักการ",
+     "rtgs": "lak-kan",
+     "ipa": "/lak̚˨˩.kaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สาระสำคัญที่ยึดถือเป็นแนวปฏิบัติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "การ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เสาที่ปักไว้ + งาน",
+     "frame": "entity"
+    },
+    {
+     "th": "ประโยคหลัก",
+     "rtgs": "pra-yok-lak",
+     "ipa": "/pra˨˩.joːk̚˨˩.lak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อประโยคในตำราไวยากรณ์ได้แก่ ประโยคที่มีประโยคอื่นเป็นส่วนขยาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ประโยค",
+      "หลัก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "sentence + key",
+     "lit_th": "คำพูดหรือข้อความที่ได้ความบริบูรณ์ + เสาที่ปักไว้",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักฐาน",
+     "rtgs": "lak-than",
+     "ipa": "/lak̚˨˩.tʰaːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "evidence",
+       "exhibit",
+       "proof"
+      ],
+      "th": "พื้นเพมั่นคง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "ฐาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฐาน"
+     ],
+     "lit": "key + bottom",
+     "lit_th": "เสาที่ปักไว้ + ที่ตั้ง",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักสูตร",
+     "rtgs": "lak-sut",
+     "ipa": "/lak̚˨˩.suːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "course"
+      ],
+      "th": "ประมวลวิชาและกิจกรรมต่าง ๆ ที่กำหนดไว้ในการศึกษาเพื่อวัตถุประสงค์อย่างใดอย่างหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "สูตร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "key + formula",
+     "lit_th": "เสาที่ปักไว้ + กฎสำหรับจดจำ",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักเกณฑ์",
+     "rtgs": "lak-ken",
+     "ipa": "/lak̚˨˩.keːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หลักที่กำหนดไว้เพื่อใช้วินิจฉัยและปฏิบัติตาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "เกณฑ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "key + mark",
+     "lit_th": "เสาที่ปักไว้ + หลักที่กำหนดไว้",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักแหลม",
+     "rtgs": "lak-laem",
+     "ipa": "/lak̚˨˩.lɛːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "clever"
+      ],
+      "th": "คมคาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "แหลม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "key + tongue",
+     "lit_th": "เสาที่ปักไว้ + มีปลายเสี้ยมคม",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 6,
@@ -179,7 +537,70 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "A place in a numeral, each digit standing at its post.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หลักสี่",
+     "rtgs": "lak-si",
+     "ipa": "/lak̚˨˩.siː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อายุระหว่าง 40-49 ปี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "สี่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "key + four",
+     "lit_th": "เสาที่ปักไว้ + จำนวนสามบวกหนึ่ง"
+    },
+    {
+     "th": "หลักสาม",
+     "rtgs": "lak-sam",
+     "ipa": "/lak̚˨˩.saːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อายุระหว่าง 30-39 ปี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "สาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "สาม"
+     ],
+     "lit": "key + three",
+     "lit_th": "เสาที่ปักไว้ + จำนวนสองบวกหนึ่ง"
+    }
+   ]
   },
   {
    "n": 7,
@@ -462,408 +883,6 @@
    "use": "nominalisation",
    "head": 1,
    "lit_th": "คำอาการนามของ เสีย + เสาที่ปักไว้"
-  },
-  {
-   "th": "เสียหลัก",
-   "rtgs": "sia-lak",
-   "ipa": "/sia̯˩˩˦.lak̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผิดไปจากหลักการ หลักเกณฑ์ หรือความถูกต้องเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เสีย",
-    "หลัก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "เสีย"
-   ],
-   "lit": "bad + key",
-   "lit_th": "เสื่อมลงไป + เสาที่ปักไว้"
-  },
-  {
-   "th": "หลักลอย",
-   "rtgs": "lak-loi",
-   "ipa": "/lak̚˨˩.lɔːj˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม่มีหลักแหล่ง, ไม่อยู่เป็นที่, เชื่อถือไม่ได้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หลัก",
-    "ลอย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "cross_listed": [
-    "ลอย"
-   ],
-   "lit": "key + float",
-   "lit_th": "เสาที่ปักไว้ + ทรงตัวอยู่ในอากาศ"
-  },
-  {
-   "th": "หลักสี่",
-   "rtgs": "lak-si",
-   "ipa": "/lak̚˨˩.siː˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อายุระหว่าง 40-49 ปี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หลัก",
-    "สี่"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 0,
-   "lit": "key + four",
-   "lit_th": "เสาที่ปักไว้ + จำนวนสามบวกหนึ่ง"
-  },
-  {
-   "th": "หลักแหล่ง",
-   "rtgs": "lak-laeng",
-   "ipa": "/lak̚˨˩.lɛŋ˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ที่ซึ่งอยู่ประจำ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หลัก",
-    "แหล่ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "เสาที่ปักไว้ + ถิ่น",
-   "frame": "entity"
-  },
-  {
-   "th": "หลักทรัพย์",
-   "rtgs": "lak-sap",
-   "ipa": "/lak̚˨˩.sap̚˦˥/",
-   "gloss": {
-    "en": [
-     "security"
-    ],
-    "th": "ตราสารหรือหลักฐานแสดงสิทธิในทรัพย์สิน เช่น ตั๋วเงินคลัง พันธบัตร ตั๋วเงิน หุ้น หุ้นกู้ หน่วยลงทุน ใบสำคัญแสดงสิทธิที่จะซื้อหุ้น หุ้นกู้ หรือซื้อหน่วยลงทุน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หลัก",
-    "ทรัพย์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "เสาที่ปักไว้ + เงินตรา",
-   "frame": "entity"
-  },
-  {
-   "th": "หลักการ",
-   "rtgs": "lak-kan",
-   "ipa": "/lak̚˨˩.kaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สาระสำคัญที่ยึดถือเป็นแนวปฏิบัติ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หลัก",
-    "การ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "เสาที่ปักไว้ + งาน",
-   "frame": "entity"
-  },
-  {
-   "th": "ประโยคหลัก",
-   "rtgs": "pra-yok-lak",
-   "ipa": "/pra˨˩.joːk̚˨˩.lak̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อประโยคในตำราไวยากรณ์ได้แก่ ประโยคที่มีประโยคอื่นเป็นส่วนขยาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ประโยค",
-    "หลัก"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "sentence + key",
-   "lit_th": "คำพูดหรือข้อความที่ได้ความบริบูรณ์ + เสาที่ปักไว้",
-   "frame": "entity"
-  },
-  {
-   "th": "หลักฐาน",
-   "rtgs": "lak-than",
-   "ipa": "/lak̚˨˩.tʰaːn˩˩˦/",
-   "gloss": {
-    "en": [
-     "evidence",
-     "exhibit",
-     "proof"
-    ],
-    "th": "พื้นเพมั่นคง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หลัก",
-    "ฐาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ฐาน"
-   ],
-   "lit": "key + bottom",
-   "lit_th": "เสาที่ปักไว้ + ที่ตั้ง",
-   "frame": "entity"
-  },
-  {
-   "th": "หลักสาม",
-   "rtgs": "lak-sam",
-   "ipa": "/lak̚˨˩.saːm˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อายุระหว่าง 30-39 ปี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หลัก",
-    "สาม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 0,
-   "cross_listed": [
-    "สาม"
-   ],
-   "lit": "key + three",
-   "lit_th": "เสาที่ปักไว้ + จำนวนสองบวกหนึ่ง"
-  },
-  {
-   "th": "หลักเมือง",
-   "rtgs": "lak-mueang",
-   "ipa": "/lak̚˨˩.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "(เสา~) เสาหินหรือไม้เป็นต้น ยกตั้งเป็นเครื่องหมายว่าจะตั้งเมืองที่นั้นแน่นอน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หลัก",
-    "เมือง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "เมือง"
-   ],
-   "lit": "key + town",
-   "lit_th": "เสาที่ปักไว้ + แดน",
-   "frame": "entity"
-  },
-  {
-   "th": "หลักสูตร",
-   "rtgs": "lak-sut",
-   "ipa": "/lak̚˨˩.suːt̚˨˩/",
-   "gloss": {
-    "en": [
-     "course"
-    ],
-    "th": "ประมวลวิชาและกิจกรรมต่าง ๆ ที่กำหนดไว้ในการศึกษาเพื่อวัตถุประสงค์อย่างใดอย่างหนึ่ง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หลัก",
-    "สูตร"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "key + formula",
-   "lit_th": "เสาที่ปักไว้ + กฎสำหรับจดจำ",
-   "frame": "entity"
-  },
-  {
-   "th": "หลักเกณฑ์",
-   "rtgs": "lak-ken",
-   "ipa": "/lak̚˨˩.keːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หลักที่กำหนดไว้เพื่อใช้วินิจฉัยและปฏิบัติตาม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หลัก",
-    "เกณฑ์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "key + mark",
-   "lit_th": "เสาที่ปักไว้ + หลักที่กำหนดไว้",
-   "frame": "entity"
-  },
-  {
-   "th": "หลักแหลม",
-   "rtgs": "lak-laem",
-   "ipa": "/lak̚˨˩.lɛːm˩˩˦/",
-   "gloss": {
-    "en": [
-     "clever"
-    ],
-    "th": "คมคาย",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หลัก",
-    "แหลม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "lit": "key + tongue",
-   "lit_th": "เสาที่ปักไว้ + มีปลายเสี้ยมคม",
-   "frame": "quality"
   }
  ],
  "etymology": {

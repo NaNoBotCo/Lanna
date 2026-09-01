@@ -103,6 +103,100 @@
      "lit": "home + house",
      "lit_th": "ที่อยู่อาศัย + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
      "frame": "entity"
+    },
+    {
+     "th": "บ้านเก่า",
+     "rtgs": "ban-kao",
+     "ipa": "/baːn˥˩.kaw˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บ้านเดิมที่เคยอาศัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "เก่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "home + old",
+     "lit_th": "ที่อยู่อาศัย + ก่อน",
+     "frame": "quality"
+    },
+    {
+     "th": "เพื่อนบ้าน",
+     "rtgs": "phuean-ban",
+     "ipa": "/pʰɯa̯n˥˩.baːn˥˩/",
+     "gloss": {
+      "en": [
+       "neighbour",
+       "neighbor"
+      ],
+      "th": "ผู้มีบ้านเรือนอยู่ใกล้เคียงกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เพื่อน",
+      "บ้าน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PRON+N",
+     "head": 1,
+     "lit": "friend + home",
+     "lit_th": "คำใช้แทนคำว่า เขา + ที่อยู่อาศัย"
+    },
+    {
+     "th": "การบ้าน",
+     "rtgs": "kan-ban",
+     "ipa": "/kaːn˧.baːn˥˩/",
+     "gloss": {
+      "en": [
+       "homework"
+      ],
+      "th": "งานที่ครูกำหนดให้นักเรียนไปทำที่บ้าน (เฉพาะโรงเรียน)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "การ",
+      "บ้าน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "งาน + ที่อยู่อาศัย",
+     "frame": "entity"
     }
    ]
   },
@@ -250,6 +344,70 @@
      "lit": "adult + home",
      "lit_th": "คนที่มีอายุมาก + หมู่บ้าน",
      "frame": "entity"
+    },
+    {
+     "th": "ลูกบ้าน",
+     "rtgs": "luk-ban",
+     "ipa": "/luːk̚˥˩.baːn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชาวบ้านที่อยู่ในปกครองของนายบ้าน ซึ่งในปัจจุบันได้แก่ กำนันและผู้ใหญ่บ้านหรือนายอำเภอแล้วแต่กรณี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "บ้าน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + home",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ที่อยู่อาศัย",
+     "frame": "entity"
+    },
+    {
+     "th": "ชาวบ้าน",
+     "rtgs": "chao-ban",
+     "ipa": "/t͡ɕʰaːw˧.baːn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่อยู่ในพื้นถิ่นหนึ่ง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชาว",
+      "บ้าน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "กลุ่มชนที่มีเชื้อชาติเดียวกัน หรือ + ที่อยู่อาศัย",
+     "frame": "entity"
     }
    ],
    "extends": 3,
@@ -284,7 +442,141 @@
    "extends": 4,
    "via": "generalisation",
    "via_note": "And villages together make settled, inhabited land.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "พื้นบ้าน",
+     "rtgs": "phuen-ban",
+     "ipa": "/pʰɯːn˦˥.baːn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เฉพาะถิ่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พื้น",
+      "บ้าน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "floor + home",
+     "lit_th": "ส่วนราบด้านหน้าของสิ่งที่เป็นผืนเป + ที่อยู่อาศัย",
+     "frame": "entity"
+    },
+    {
+     "th": "บ้านนอก",
+     "rtgs": "ban-nok",
+     "ipa": "/baːn˥˩.nɔːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เขตแดนที่พ้นจากเมืองหลวงออกไป, เขตที่อยู่นอกตัวเมือง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "นอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 0,
+     "cross_listed": [
+      "นอก"
+     ],
+     "lit": "home + outside",
+     "lit_th": "ที่อยู่อาศัย + ตรงข้ามกับใน"
+    },
+    {
+     "th": "บ้านนา",
+     "rtgs": "ban-na",
+     "ipa": "/baːn˥˩.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชนบทซึ่งเต็มไปด้วยทุ่งนา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "นา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "home + farm",
+     "lit_th": "ที่อยู่อาศัย + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "frame": "entity"
+    },
+    {
+     "th": "บ้านเมือง",
+     "rtgs": "ban-mueang",
+     "ipa": "/baːn˥˩.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประเทศชาติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "เมือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "home + town",
+     "lit_th": "ที่อยู่อาศัย + แดน",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 6,
@@ -342,7 +634,43 @@
    "extends": 1,
    "via": "metonymy",
    "via_note": "Belonging to the house, so domestic against wild — หนูบ้าน against หนูนา, หมูบ้าน against หมูป่า.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ไก่บ้าน",
+     "rtgs": "kai-ban",
+     "ipa": "/kaj˨˩.baːn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไก่ชนิด Gallus gallus ในวงศ์ Phasianidae เป็นไก่ที่มีสายพันธุ์มาจากไก่ป่า แตกต่างจากไก่ป่าที่ขนลำตัวมีสีต่าง ๆ กัน เช่น สีดำ ขาว น้ำตาลอมแดง มีแข้งสีแตกต่างกัน เช่น สีเหลือง ขาว โดยที่ไก่ป่ามีสีเทาเข้ม การคัดและผสมพั",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "บ้าน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไก่"
+     ],
+     "lit": "chicken + home",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + ที่อยู่อาศัย",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 8,
@@ -3138,322 +3466,6 @@
   "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own."
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 101; domain seeded by keyword hits ['override'].",
- "compounds_unassigned": [
-  {
-   "th": "ลูกบ้าน",
-   "rtgs": "luk-ban",
-   "ipa": "/luːk̚˥˩.baːn˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชาวบ้านที่อยู่ในปกครองของนายบ้าน ซึ่งในปัจจุบันได้แก่ กำนันและผู้ใหญ่บ้านหรือนายอำเภอแล้วแต่กรณี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลูก",
-    "บ้าน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ลูก"
-   ],
-   "lit": "child + home",
-   "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ที่อยู่อาศัย",
-   "frame": "entity"
-  },
-  {
-   "th": "พื้นบ้าน",
-   "rtgs": "phuen-ban",
-   "ipa": "/pʰɯːn˦˥.baːn˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เฉพาะถิ่น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พื้น",
-    "บ้าน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "floor + home",
-   "lit_th": "ส่วนราบด้านหน้าของสิ่งที่เป็นผืนเป + ที่อยู่อาศัย",
-   "frame": "entity"
-  },
-  {
-   "th": "ไก่บ้าน",
-   "rtgs": "kai-ban",
-   "ipa": "/kaj˨˩.baːn˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อไก่ชนิด Gallus gallus ในวงศ์ Phasianidae เป็นไก่ที่มีสายพันธุ์มาจากไก่ป่า แตกต่างจากไก่ป่าที่ขนลำตัวมีสีต่าง ๆ กัน เช่น สีดำ ขาว น้ำตาลอมแดง มีแข้งสีแตกต่างกัน เช่น สีเหลือง ขาว โดยที่ไก่ป่ามีสีเทาเข้ม การคัดและผสมพั",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไก่",
-    "บ้าน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ไก่"
-   ],
-   "lit": "chicken + home",
-   "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + ที่อยู่อาศัย",
-   "frame": "entity"
-  },
-  {
-   "th": "บ้านเก่า",
-   "rtgs": "ban-kao",
-   "ipa": "/baːn˥˩.kaw˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บ้านเดิมที่เคยอาศัย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "บ้าน",
-    "เก่า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "lit": "home + old",
-   "lit_th": "ที่อยู่อาศัย + ก่อน",
-   "frame": "quality"
-  },
-  {
-   "th": "บ้านนอก",
-   "rtgs": "ban-nok",
-   "ipa": "/baːn˥˩.nɔːk̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เขตแดนที่พ้นจากเมืองหลวงออกไป, เขตที่อยู่นอกตัวเมือง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "บ้าน",
-    "นอก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+PREP",
-   "head": 0,
-   "cross_listed": [
-    "นอก"
-   ],
-   "lit": "home + outside",
-   "lit_th": "ที่อยู่อาศัย + ตรงข้ามกับใน"
-  },
-  {
-   "th": "บ้านนา",
-   "rtgs": "ban-na",
-   "ipa": "/baːn˥˩.naː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชนบทซึ่งเต็มไปด้วยทุ่งนา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "บ้าน",
-    "นา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "นา"
-   ],
-   "lit": "home + farm",
-   "lit_th": "ที่อยู่อาศัย + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
-   "frame": "entity"
-  },
-  {
-   "th": "ชาวบ้าน",
-   "rtgs": "chao-ban",
-   "ipa": "/t͡ɕʰaːw˧.baːn˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ที่อยู่ในพื้นถิ่นหนึ่ง ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชาว",
-    "บ้าน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "กลุ่มชนที่มีเชื้อชาติเดียวกัน หรือ + ที่อยู่อาศัย",
-   "frame": "entity"
-  },
-  {
-   "th": "บ้านเมือง",
-   "rtgs": "ban-mueang",
-   "ipa": "/baːn˥˩.mɯa̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ประเทศชาติ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "บ้าน",
-    "เมือง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "เมือง"
-   ],
-   "lit": "home + town",
-   "lit_th": "ที่อยู่อาศัย + แดน",
-   "frame": "entity"
-  },
-  {
-   "th": "เพื่อนบ้าน",
-   "rtgs": "phuean-ban",
-   "ipa": "/pʰɯa̯n˥˩.baːn˥˩/",
-   "gloss": {
-    "en": [
-     "neighbour",
-     "neighbor"
-    ],
-    "th": "ผู้มีบ้านเรือนอยู่ใกล้เคียงกัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เพื่อน",
-    "บ้าน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "PRON+N",
-   "head": 1,
-   "lit": "friend + home",
-   "lit_th": "คำใช้แทนคำว่า เขา + ที่อยู่อาศัย"
-  },
-  {
-   "th": "การบ้าน",
-   "rtgs": "kan-ban",
-   "ipa": "/kaːn˧.baːn˥˩/",
-   "gloss": {
-    "en": [
-     "homework"
-    ],
-    "th": "งานที่ครูกำหนดให้นักเรียนไปทำที่บ้าน (เฉพาะโรงเรียน)",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "การ",
-    "บ้าน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "งาน + ที่อยู่อาศัย",
-   "frame": "entity"
-  }
- ],
  "etymology": {
   "summary": "สืบทอดจากไทดั้งเดิม *ɓaːnꟲ (“หมู่บ้าน”); ร่วมเชื้อสายกับอีสาน บ้าน, ลาว ບ້ານ (บ้าน), คำเมือง ᨷ᩶ᩤ᩠ᨶ (บ้าน), ไทลื้อ ᦢᦱᧃᧉ (บ้าน), ไทดำ ꪚ꫁ꪱꪙ (บ้าน), ไทใหญ่ မၢၼ်ႈ (ม้าน) หรือ ဝၢၼ်ႈ (ว้าน), ไทใต้คง ᥛᥣᥢᥲ (ม้าน), อาหม 𑜈𑜃𑜫 (บน์) หรือ 𑜉𑜃𑜫 (มน์), จ้วง mbanj",
   "conf": "probable",

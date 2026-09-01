@@ -33,6 +33,38 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "เชิงกราน",
+     "rtgs": "choeng-kran",
+     "ipa": "/t͡ɕʰɤːŋ˧.kraːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เตาไฟปั้นด้วยดิน ยกย้ายได้ มีชานสำหรับวางฟืน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เชิง",
+      "กราน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง + ไฟ",
+     "frame": "entity"
+    }
    ]
   },
   {
@@ -83,7 +115,40 @@
    "extends": 2,
    "via": "specialisation",
    "via_note": "The patterned border along the lower edge of cloth.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "กรวยเชิง",
+     "rtgs": "kruai-choeng",
+     "ipa": "/krua̯j˧.t͡ɕʰɤːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลายที่ทำเป็นรูปกรวย ใช้เป็นลายชายผ้าหรือปลายเสา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กรวย",
+      "เชิง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "funnel + foot",
+     "lit_th": "รูปตันมีลักษณะฐานกลมและแหลมเรียวไป + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 4,
@@ -223,6 +288,136 @@
      "lit_th": "ที่สำหรับวางของอย่างหนึ่ง มีพื้นซ้ + ท่าที",
      "flips_with": "เชิงชั้น",
      "frame": "entity"
+    },
+    {
+     "th": "แก้เชิง",
+     "translit_auto": "kaecheing",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใช้เล่ห์เหลี่ยม ชั้นเชิง หรือ อุบาย หักล้างเล่ห์เหลี่ยม ชั้นเชิง หรืออุบายของอีกฝ่ายหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "เชิง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แก้"
+     ],
+     "lit": "cowrie shell used to burnish cloth + foot",
+     "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง",
+     "frame": "entity"
+    },
+    {
+     "th": "เชิงหนา",
+     "rtgs": "choeng-na",
+     "ipa": "/t͡ɕʰɤːŋ˧.naː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีชั้นเชิงมาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เชิง",
+      "หนา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "foot + thick",
+     "lit_th": "ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง + ส่วนสูงมากจากผิวพื้น",
+     "frame": "entity"
+    },
+    {
+     "th": "สิ้นเชิง",
+     "rtgs": "sin-choeng",
+     "ipa": "/sin˥˩.t͡ɕʰɤːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ้นท่า, หมดท่า, หมดชั้นเชิง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิ้น",
+      "เชิง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "สิ้น"
+     ],
+     "lit": "to be exhausted + foot",
+     "lit_th": "หมด + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง"
+    },
+    {
+     "th": "ขวางเชิง",
+     "rtgs": "khwang-choeng",
+     "ipa": "/kʰwaːŋ˩˩˦.t͡ɕʰɤːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขัดขวางไว้เพื่อไม่ให้ทำได้สะดวก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวาง",
+      "เชิง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขวาง"
+     ],
+     "lit": "across + foot",
+     "lit_th": "กีดกั้น + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง"
     }
    ],
    "extends": 4,
@@ -253,7 +448,41 @@
    "extends": 5,
    "via": "generalisation",
    "via_note": "And an aspect, a side of a matter.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เชิงสัญลักษณ์",
+     "rtgs": "choeng-san-ya-lak",
+     "ipa": "/t͡ɕʰɤːŋ˧.san˩˩˦.ja˦˥.lak̚˦˥/",
+     "gloss": {
+      "en": [
+       "symbolically"
+      ],
+      "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เชิง",
+      "สัญลักษณ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "foot + sign",
+     "lit_th": "ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง + สิ่งที่กำหนดนิยมกันขึ้นเพื่อให้ใช้",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 7,
@@ -417,163 +646,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 16; domain seeded by keyword hits —.",
  "compounds_unassigned": [
   {
-   "th": "แก้เชิง",
-   "translit_auto": "kaecheing",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ใช้เล่ห์เหลี่ยม ชั้นเชิง หรือ อุบาย หักล้างเล่ห์เหลี่ยม ชั้นเชิง หรืออุบายของอีกฝ่ายหนึ่ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แก้",
-    "เชิง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "แก้"
-   ],
-   "lit": "cowrie shell used to burnish cloth + foot",
-   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง",
-   "frame": "entity"
-  },
-  {
-   "th": "เชิงสัญลักษณ์",
-   "rtgs": "choeng-san-ya-lak",
-   "ipa": "/t͡ɕʰɤːŋ˧.san˩˩˦.ja˦˥.lak̚˦˥/",
-   "gloss": {
-    "en": [
-     "symbolically"
-    ],
-    "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "เชิง",
-    "สัญลักษณ์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "foot + sign",
-   "lit_th": "ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง + สิ่งที่กำหนดนิยมกันขึ้นเพื่อให้ใช้",
-   "frame": "entity"
-  },
-  {
-   "th": "เชิงหนา",
-   "rtgs": "choeng-na",
-   "ipa": "/t͡ɕʰɤːŋ˧.naː˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีชั้นเชิงมาก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เชิง",
-    "หนา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "foot + thick",
-   "lit_th": "ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง + ส่วนสูงมากจากผิวพื้น",
-   "frame": "entity"
-  },
-  {
-   "th": "สิ้นเชิง",
-   "rtgs": "sin-choeng",
-   "ipa": "/sin˥˩.t͡ɕʰɤːŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สิ้นท่า, หมดท่า, หมดชั้นเชิง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สิ้น",
-    "เชิง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "สิ้น"
-   ],
-   "lit": "to be exhausted + foot",
-   "lit_th": "หมด + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง"
-  },
-  {
-   "th": "ขวางเชิง",
-   "rtgs": "khwang-choeng",
-   "ipa": "/kʰwaːŋ˩˩˦.t͡ɕʰɤːŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขัดขวางไว้เพื่อไม่ให้ทำได้สะดวก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวาง",
-    "เชิง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "ขวาง"
-   ],
-   "lit": "across + foot",
-   "lit_th": "กีดกั้น + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง"
-  },
-  {
    "th": "การสิ้นเชิง",
    "rtgs": "kan-sin-choeng",
    "ipa": "/kaːn˧.sin˥˩.t͡ɕʰɤːŋ˧/",
@@ -604,35 +676,6 @@
    "frame": "entity"
   },
   {
-   "th": "เชิงกราน",
-   "rtgs": "choeng-kran",
-   "ipa": "/t͡ɕʰɤːŋ˧.kraːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เตาไฟปั้นด้วยดิน ยกย้ายได้ มีชานสำหรับวางฟืน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เชิง",
-    "กราน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง + ไฟ",
-   "frame": "entity"
-  },
-  {
    "th": "การลองเชิง",
    "rtgs": "kan-long-choeng",
    "ipa": "/kaːn˧.lɔːŋ˧.t͡ɕʰɤːŋ˧/",
@@ -660,36 +703,6 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "คำอาการนามของ ลอง + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง",
-   "frame": "entity"
-  },
-  {
-   "th": "กรวยเชิง",
-   "rtgs": "kruai-choeng",
-   "ipa": "/krua̯j˧.t͡ɕʰɤːŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลายที่ทำเป็นรูปกรวย ใช้เป็นลายชายผ้าหรือปลายเสา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กรวย",
-    "เชิง"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "funnel + foot",
-   "lit_th": "รูปตันมีลักษณะฐานกลมและแหลมเรียวไป + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง",
    "frame": "entity"
   },
   {
