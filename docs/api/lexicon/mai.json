@@ -34,6 +34,146 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ป่าไม้",
+     "rtgs": "pa-mai",
+     "ipa": "/paː˨˩.maːj˦˥/",
+     "gloss": {
+      "en": [
+       "forest"
+      ],
+      "th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ป่า",
+      "ไม้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "forest + wood",
+     "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "frame": "entity"
+    },
+    {
+     "th": "ผลไม้",
+     "rtgs": "phon-la-mai",
+     "ipa": "/pʰon˩˩˦.la˦˥.maːj˦˥/",
+     "gloss": {
+      "en": [
+       "fruit"
+      ],
+      "th": "ลูกไม้, ผลของพืช",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ผล",
+      "ไม้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "effect + wood",
+     "lit_th": "ความงอกงาม + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "flips_with": "ไม้ผล",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกไม้",
+     "rtgs": "luk-mai",
+     "ipa": "/luːk̚˥˩.maːj˦˥/",
+     "gloss": {
+      "en": [
+       "fruit",
+       "lace"
+      ],
+      "th": "ผลไม้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ไม้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + wood",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอกไม้",
+     "rtgs": "dok-mai",
+     "ipa": "/dɔːk̚˨˩.maːj˦˥/",
+     "gloss": {
+      "en": [
+       "blossom",
+       "flower"
+      ],
+      "th": "ส่วนหนึ่งของพรรณไม้ที่ผลิออกจากต้นหรือกิ่ง มีหน้าที่ทำให้เกิดผลและเมล็ดเพื่อสืบพันธุ์ มีเกสรและเรณูเป็นเครื่องสืบพันธุ์, เรียกย่อว่า ดอก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ดอก",
+      "ไม้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "flower + wood",
+     "lit_th": "ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "flips_with": "ไม้ดอก",
+     "frame": "entity"
+    }
    ]
   },
   {
@@ -224,6 +364,69 @@
      "lit_th": "ลำของต้นไม้ + เรียกเนื้อของต้นไม้ที่ใช้ทำสิ่งของ",
      "flips_with": "ไม้ต้น",
      "frame": "entity"
+    },
+    {
+     "th": "ไม้อัด",
+     "rtgs": "mai-at",
+     "ipa": "/maj˦˥.ʔat̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้ที่ทำขึ้นโดยเอาไม้แผ่นบาง ๆ หลายแผ่นมาผนึกเข้าด้วยกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "อัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ดันลมเข้าไป"
+    },
+    {
+     "th": "เนื้อไม้",
+     "rtgs": "nuea-mai",
+     "ipa": "/nɯa̯˦˥.maːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนของต้นไม้ที่เป็นแก่นและกระพี้ อยู่ถัดเปลือกเข้าไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เนื้อ",
+      "ไม้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เนื้อ"
+     ],
+     "lit": "flesh + wood",
+     "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -317,6 +520,225 @@
      "lit": "wood + foot",
      "lit_th": "คำประกอบหน้าสิ่งของบางอย่างที่มีลั + ตีน",
      "frame": "entity"
+    },
+    {
+     "th": "ไม้กางเขน",
+     "rtgs": "mai-kang-khen",
+     "ipa": "/maːj˦˥.kaːŋ˧.kʰeːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "cross"
+      ],
+      "th": "สิ่งที่เป็นรูปเหมือนคนยืนกางแขน ทำด้วยไม้ โลหะ หรือวัตถุอื่น เป็นเครื่องหมายของศาสนาคริสต์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "กางเขน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้บรรทัด",
+     "rtgs": "mai-ban-that",
+     "ipa": "/maj˦˥.ban˧.tʰat̚˦˥/",
+     "gloss": {
+      "en": [
+       "ruler"
+      ],
+      "th": "อุปกรณ์การเขียนชนิดหนึ่งทำด้วยไม้เป็นต้น สำหรับทาบเป็นแนวเพื่อขีดเส้นให้ตรง, เรียกสั้น ๆ ว่า บรรทัด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "บรรทัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ข้อความที่เขียนหรือพิมพ์เป็นต้นต่อ",
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้ขีด",
+     "rtgs": "mai-khit",
+     "ipa": "/maj˦˥.kʰiːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "match"
+      ],
+      "th": "ไม้ขีดไฟ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ขีด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "wood + tear",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ใช้ของแหลมหรือมีดเป็นต้นทำให้เป็นเ"
+    },
+    {
+     "th": "ไม้แข็ง",
+     "translit_auto": "maikhaeng",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้ตีระนาดมี 2 ส่วน ส่วนที่ใช้มือถือทำด้วยไม้ไผ่เหลากลม ตอนปลายที่ใช้ตีพอกด้วยผ้าชุบยางรักเมื่อตีจะมีเสียงกังวาน ใช้เฉพาะระนาดเอก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "แข็ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แข็ง"
+     ],
+     "lit": "wood + hard",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + กระด้าง",
+     "frame": "quality"
+    },
+    {
+     "th": "ไม้เรียว",
+     "rtgs": "mai-riao",
+     "ipa": "/maj˦˥.ria̯w˧/",
+     "gloss": {
+      "en": [
+       "switch",
+       "rod"
+      ],
+      "th": "ไม้ปลายเรียวเล็กคล้ายไม้แส้สำหรับตีเด็ก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "เรียว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + สิ่งที่มีลักษณะโคนโตปลายเล็ก",
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้แขวน",
+     "rtgs": "mai-khwaen",
+     "ipa": "/maj˦˥.kʰwɛːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "coat hanger"
+      ],
+      "th": "อุปกรณ์ที่ใช้สำหรับแขวนเสื้อผ้าเพื่อตากผ้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "แขวน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "wood + depend",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เกี่ยวห้อยอยู่"
+    },
+    {
+     "th": "ไม้ล้มลุก",
+     "rtgs": "mai-lom-luk",
+     "ipa": "/maːj˦˥.lom˦˥.luk̚˦˥/",
+     "gloss": {
+      "en": [
+       "annual"
+      ],
+      "th": "ไม้ 2 ขาสำหรับกว้านของหนักขึ้นไปไว้บนที่สูง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ล้มลุก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + พืชที่มีอายุชั่วคราว เช่น พริก มะเ",
+     "frame": "entity"
     }
    ],
    "extends": 2,
@@ -351,7 +773,295 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "Prefixed to classify a kind of tree.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ไม้ผล",
+     "translit_auto": "maiphn",
+     "ipa": "[mäːj˦˥.pʰõn˩˥]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้ที่ปลูกไว้เก็บผล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ผล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "wood + effect",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ความงอกงาม",
+     "flips_with": "ผลไม้",
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้พุ่ม",
+     "rtgs": "mai-phum",
+     "ipa": "/maːj˦˥.pʰum˥˩/",
+     "gloss": {
+      "en": [
+       "shrub"
+      ],
+      "th": "ต้นไม้ที่มีกิ่งก้านรวมกันเป็นรูปคล้ายกระพุ่มมือ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "พุ่ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ลักษณะกิ่งก้านของต้นไม้ที่รวมกัน ม",
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้ต้น",
+     "rtgs": "mai-ton",
+     "ipa": "/maːj˦˥.ton˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้ยืนต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ต้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ต้น"
+     ],
+     "lit": "wood + trunk",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ลำของต้นไม้",
+     "flips_with": "ต้นไม้",
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้ประดับ",
+     "translit_auto": "maipradab",
+     "ipa": "[mäːj˦˥.prä˩.däp̚˩ ~ mäːj˦˥.prä˧.däp̚˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้ที่ปลูกไว้สำหรับประดับบ้านเรือนหรือสถานที่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ประดับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "wood + embellish",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ตกแต่งให้งามด้วยสิ่งต่าง ๆ มีสร้อย"
+    },
+    {
+     "th": "ไม้เถา",
+     "rtgs": "mai-thao",
+     "ipa": "/maːj˦˥.tʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พืชที่ทอดตัวไปตามพื้นดินหรือยึดเกี่ยวสิ่งต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "เถา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เครือไม้",
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้ใบ",
+     "rtgs": "mai-bai",
+     "ipa": "/maːj˦˥.baj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้ที่ปลูกไว้ดูใบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ใบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ใบ"
+     ],
+     "lit": "wood + leaf",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต",
+     "flips_with": "ใบไม้",
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้ยืนต้น",
+     "rtgs": "mai-yuen-ton",
+     "ipa": "/maːj˦˥.jɯːn˧.ton˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ต้นไม้ใหญ่ที่มีผลและมีอายุยืนนาน ดำรงอยู่ได้ภายใน 3 ปี หรือ 3 ฤดู หรือมากกว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ยืนต้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เรียกต้นไม้ใหญ่ที่มีผลและมีอายุยืน",
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้เลื้อย",
+     "rtgs": "mai-lueai",
+     "ipa": "/maːj˦˥.lɯa̯j˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พืชที่ทอดตัวไปตามพื้นดินหรือยึดเกี่ยวสิ่งต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "เลื้อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "wood + trail",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ทอดวกเวียนไป"
+    },
+    {
+     "th": "ไม้ดอก",
+     "translit_auto": "maidok",
+     "ipa": "[mäːj˦˥.dɔːk̚˨˩]",
+     "gloss": {
+      "en": [
+       "flower"
+      ],
+      "th": "ไม้ที่ปลูกไว้ดูดอก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ดอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "wood + flower",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห",
+     "flips_with": "ดอกไม้",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 5,
@@ -380,7 +1090,76 @@
    "extends": 3,
    "via": "metaphor",
    "via_note": "A move of the staff in dance or krabi-krabong — one ไม้, one figure.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ไม้ตาย",
+     "rtgs": "mai-tai",
+     "ipa": "/maːj˦˥.taːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ท่าสำคัญในการต่อสู้กระบี่กระบองหรือมวยซึ่งทำให้ฝ่ายปรปักษ์ไม่สามารถจะสู้ได้อีก, ตรงข้ามกับ ไม้เป็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ตาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ตาย"
+     ],
+     "lit": "wood + demise",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + สิ้นใจ"
+    },
+    {
+     "th": "ไม้มือ",
+     "rtgs": "mai-mue",
+     "ipa": "/maj˦˥.mɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มือที่เคลื่อนไหว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "มือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "wood + hand",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 6,
@@ -409,7 +1188,40 @@
    "extends": 5,
    "via": "metaphor",
    "via_note": "And so a manner, a way of carrying oneself.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ไม้มืด",
+     "rtgs": "mai-muet",
+     "ipa": "/maːj˦˥.mɯːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การลอบทำร้าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "มืด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "wood + dark",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ขาดแสงสว่าง",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 7,
@@ -494,6 +1306,42 @@
      "head": 0,
      "lit": "wood + liver",
      "lit_th": "ทำด้วยไม้ + อวัยวะประเภทต่อมของระบบทางเดินอาหา",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้าไม้",
+     "rtgs": "na-mai",
+     "ipa": "/naː˥˩.maːj˦˥/",
+     "gloss": {
+      "en": [
+       "crossbow"
+      ],
+      "th": "เครื่องยิงชนิดหนึ่ง มีคันและราง ยิงด้วยลูกหน้าไม้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ไม้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "before + wood",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "flips_with": "ไม้หน้า",
      "frame": "entity"
     }
    ],
@@ -743,6 +1591,162 @@
      "lit": "banana + wood",
      "lit_th": "ชื่อไม้ล้มลุกหลายชนิดในสกุล Musa ว + ชื่อเครื่องหมายกำกับตัวอักษร เพื่อ",
      "frame": "entity"
+    },
+    {
+     "th": "ไม้มลาย",
+     "rtgs": "mai-ma-lai",
+     "ipa": "/maːj˦˥.ma˦˥.laːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อสระรูปดังนี้ ไ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "มลาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + แตก"
+    },
+    {
+     "th": "ไม้โอ",
+     "rtgs": "mai-o",
+     "ipa": "/maːj˦˥.ʔoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อสระรูปดังนี้ โ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "โอ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โอ"
+     ],
+     "lit": "wood + pomelo",
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้หน้า",
+     "rtgs": "mai-na",
+     "ipa": "/maːj˦˥.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อสระรูปดังนี้ เ, แ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "หน้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "wood + before",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "flips_with": "หน้าไม้",
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้ม้วน",
+     "rtgs": "mai-muan",
+     "ipa": "/maːj˦˥.mua̯n˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อสระรูปดังนี้ ใ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ม้วน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "wood + bale",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + หมุนพันเข้าไปให้มีลักษณะกลมอย่างรู"
+    },
+    {
+     "th": "ไม้ผัด",
+     "rtgs": "mai-phat",
+     "ipa": "/maːj˦˥.pʰat̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้หันอากาศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ผัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เอาสิ่งที่ใช้เป็นอาหารใส่ลงในกระทะ"
     }
    ],
    "extends": 3,
@@ -768,127 +1772,6 @@
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 46; domain seeded by keyword hits ['override'].",
  "compounds_unassigned": [
-  {
-   "th": "ป่าไม้",
-   "rtgs": "pa-mai",
-   "ipa": "/paː˨˩.maːj˦˥/",
-   "gloss": {
-    "en": [
-     "forest"
-    ],
-    "th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ป่า",
-    "ไม้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ป่า"
-   ],
-   "lit": "forest + wood",
-   "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้มลาย",
-   "rtgs": "mai-ma-lai",
-   "ipa": "/maːj˦˥.ma˦˥.laːj˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อสระรูปดังนี้ ไ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "มลาย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + แตก"
-  },
-  {
-   "th": "ไม้กางเขน",
-   "rtgs": "mai-kang-khen",
-   "ipa": "/maːj˦˥.kaːŋ˧.kʰeːn˩˩˦/",
-   "gloss": {
-    "en": [
-     "cross"
-    ],
-    "th": "สิ่งที่เป็นรูปเหมือนคนยืนกางแขน ทำด้วยไม้ โลหะ หรือวัตถุอื่น เป็นเครื่องหมายของศาสนาคริสต์",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "กางเขน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้บรรทัด",
-   "rtgs": "mai-ban-that",
-   "ipa": "/maj˦˥.ban˧.tʰat̚˦˥/",
-   "gloss": {
-    "en": [
-     "ruler"
-    ],
-    "th": "อุปกรณ์การเขียนชนิดหนึ่งทำด้วยไม้เป็นต้น สำหรับทาบเป็นแนวเพื่อขีดเส้นให้ตรง, เรียกสั้น ๆ ว่า บรรทัด",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "บรรทัด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ข้อความที่เขียนหรือพิมพ์เป็นต้นต่อ",
-   "frame": "entity"
-  },
   {
    "th": "ไม้น้ำ",
    "rtgs": "mai-nam",
@@ -924,699 +1807,6 @@
    "frame": "entity"
   },
   {
-   "th": "ไม้มืด",
-   "rtgs": "mai-muet",
-   "ipa": "/maːj˦˥.mɯːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "การลอบทำร้าย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "มืด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "lit": "wood + dark",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ขาดแสงสว่าง",
-   "frame": "quality"
-  },
-  {
-   "th": "ไม้โอ",
-   "rtgs": "mai-o",
-   "ipa": "/maːj˦˥.ʔoː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อสระรูปดังนี้ โ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "โอ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "โอ"
-   ],
-   "lit": "wood + pomelo",
-   "frame": "entity"
-  },
-  {
-   "th": "หน้าไม้",
-   "rtgs": "na-mai",
-   "ipa": "/naː˥˩.maːj˦˥/",
-   "gloss": {
-    "en": [
-     "crossbow"
-    ],
-    "th": "เครื่องยิงชนิดหนึ่ง มีคันและราง ยิงด้วยลูกหน้าไม้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หน้า",
-    "ไม้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "หน้า"
-   ],
-   "lit": "before + wood",
-   "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
-   "flips_with": "ไม้หน้า",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้ผล",
-   "translit_auto": "maiphn",
-   "ipa": "[mäːj˦˥.pʰõn˩˥]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม้ที่ปลูกไว้เก็บผล",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "ผล"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "wood + effect",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ความงอกงาม",
-   "flips_with": "ผลไม้",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้ขีด",
-   "rtgs": "mai-khit",
-   "ipa": "/maj˦˥.kʰiːt̚˨˩/",
-   "gloss": {
-    "en": [
-     "match"
-    ],
-    "th": "ไม้ขีดไฟ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "ขีด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "wood + tear",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ใช้ของแหลมหรือมีดเป็นต้นทำให้เป็นเ"
-  },
-  {
-   "th": "ไม้พุ่ม",
-   "rtgs": "mai-phum",
-   "ipa": "/maːj˦˥.pʰum˥˩/",
-   "gloss": {
-    "en": [
-     "shrub"
-    ],
-    "th": "ต้นไม้ที่มีกิ่งก้านรวมกันเป็นรูปคล้ายกระพุ่มมือ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "พุ่ม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ลักษณะกิ่งก้านของต้นไม้ที่รวมกัน ม",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้ตาย",
-   "rtgs": "mai-tai",
-   "ipa": "/maːj˦˥.taːj˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ท่าสำคัญในการต่อสู้กระบี่กระบองหรือมวยซึ่งทำให้ฝ่ายปรปักษ์ไม่สามารถจะสู้ได้อีก, ตรงข้ามกับ ไม้เป็น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "ตาย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "cross_listed": [
-    "ตาย"
-   ],
-   "lit": "wood + demise",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + สิ้นใจ"
-  },
-  {
-   "th": "ไม้แข็ง",
-   "translit_auto": "maikhaeng",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม้ตีระนาดมี 2 ส่วน ส่วนที่ใช้มือถือทำด้วยไม้ไผ่เหลากลม ตอนปลายที่ใช้ตีพอกด้วยผ้าชุบยางรักเมื่อตีจะมีเสียงกังวาน ใช้เฉพาะระนาดเอก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "แข็ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "cross_listed": [
-    "แข็ง"
-   ],
-   "lit": "wood + hard",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + กระด้าง",
-   "frame": "quality"
-  },
-  {
-   "th": "ผลไม้",
-   "rtgs": "phon-la-mai",
-   "ipa": "/pʰon˩˩˦.la˦˥.maːj˦˥/",
-   "gloss": {
-    "en": [
-     "fruit"
-    ],
-    "th": "ลูกไม้, ผลของพืช",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ผล",
-    "ไม้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "effect + wood",
-   "lit_th": "ความงอกงาม + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
-   "flips_with": "ไม้ผล",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้ต้น",
-   "rtgs": "mai-ton",
-   "ipa": "/maːj˦˥.ton˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม้ยืนต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "ต้น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ต้น"
-   ],
-   "lit": "wood + trunk",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ลำของต้นไม้",
-   "flips_with": "ต้นไม้",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้ประดับ",
-   "translit_auto": "maipradab",
-   "ipa": "[mäːj˦˥.prä˩.däp̚˩ ~ mäːj˦˥.prä˧.däp̚˩]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม้ที่ปลูกไว้สำหรับประดับบ้านเรือนหรือสถานที่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "ประดับ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "wood + embellish",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ตกแต่งให้งามด้วยสิ่งต่าง ๆ มีสร้อย"
-  },
-  {
-   "th": "ไม้อัด",
-   "rtgs": "mai-at",
-   "ipa": "/maj˦˥.ʔat̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม้ที่ทำขึ้นโดยเอาไม้แผ่นบาง ๆ หลายแผ่นมาผนึกเข้าด้วยกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "อัด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ดันลมเข้าไป"
-  },
-  {
-   "th": "ไม้เรียว",
-   "rtgs": "mai-riao",
-   "ipa": "/maj˦˥.ria̯w˧/",
-   "gloss": {
-    "en": [
-     "switch",
-     "rod"
-    ],
-    "th": "ไม้ปลายเรียวเล็กคล้ายไม้แส้สำหรับตีเด็ก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "เรียว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + สิ่งที่มีลักษณะโคนโตปลายเล็ก",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้เถา",
-   "rtgs": "mai-thao",
-   "ipa": "/maːj˦˥.tʰaw˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พืชที่ทอดตัวไปตามพื้นดินหรือยึดเกี่ยวสิ่งต่าง ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "เถา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เครือไม้",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้แขวน",
-   "rtgs": "mai-khwaen",
-   "ipa": "/maj˦˥.kʰwɛːn˩˩˦/",
-   "gloss": {
-    "en": [
-     "coat hanger"
-    ],
-    "th": "อุปกรณ์ที่ใช้สำหรับแขวนเสื้อผ้าเพื่อตากผ้า",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "แขวน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "wood + depend",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เกี่ยวห้อยอยู่"
-  },
-  {
-   "th": "ไม้ล้มลุก",
-   "rtgs": "mai-lom-luk",
-   "ipa": "/maːj˦˥.lom˦˥.luk̚˦˥/",
-   "gloss": {
-    "en": [
-     "annual"
-    ],
-    "th": "ไม้ 2 ขาสำหรับกว้านของหนักขึ้นไปไว้บนที่สูง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "ล้มลุก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + พืชที่มีอายุชั่วคราว เช่น พริก มะเ",
-   "frame": "entity"
-  },
-  {
-   "th": "เนื้อไม้",
-   "rtgs": "nuea-mai",
-   "ipa": "/nɯa̯˦˥.maːj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ส่วนของต้นไม้ที่เป็นแก่นและกระพี้ อยู่ถัดเปลือกเข้าไป",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เนื้อ",
-    "ไม้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "เนื้อ"
-   ],
-   "lit": "flesh + wood",
-   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้หน้า",
-   "rtgs": "mai-na",
-   "ipa": "/maːj˦˥.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อสระรูปดังนี้ เ, แ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "หน้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "หน้า"
-   ],
-   "lit": "wood + before",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
-   "flips_with": "หน้าไม้",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้ม้วน",
-   "rtgs": "mai-muan",
-   "ipa": "/maːj˦˥.mua̯n˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อสระรูปดังนี้ ใ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "ม้วน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "wood + bale",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + หมุนพันเข้าไปให้มีลักษณะกลมอย่างรู"
-  },
-  {
-   "th": "ลูกไม้",
-   "rtgs": "luk-mai",
-   "ipa": "/luːk̚˥˩.maːj˦˥/",
-   "gloss": {
-    "en": [
-     "fruit",
-     "lace"
-    ],
-    "th": "ผลไม้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ลูก",
-    "ไม้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ลูก"
-   ],
-   "lit": "child + wood",
-   "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้มือ",
-   "rtgs": "mai-mue",
-   "ipa": "/maj˦˥.mɯː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มือที่เคลื่อนไหว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "มือ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "มือ"
-   ],
-   "lit": "wood + hand",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้ใบ",
-   "rtgs": "mai-bai",
-   "ipa": "/maːj˦˥.baj˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม้ที่ปลูกไว้ดูใบ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "ใบ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ใบ"
-   ],
-   "lit": "wood + leaf",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต",
-   "flips_with": "ใบไม้",
-   "frame": "entity"
-  },
-  {
    "th": "ไม้มงคล",
    "rtgs": "mai-mong-khon",
    "ipa": "/maːj˦˥.moŋ˧.kʰon˧/",
@@ -1644,157 +1834,6 @@
    "pattern": "N+N",
    "head": 0,
    "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เหตุที่นำมาซึ่งความเจริญ",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้ผัด",
-   "rtgs": "mai-phat",
-   "ipa": "/maːj˦˥.pʰat̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไม้หันอากาศ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "ผัด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เอาสิ่งที่ใช้เป็นอาหารใส่ลงในกระทะ"
-  },
-  {
-   "th": "ดอกไม้",
-   "rtgs": "dok-mai",
-   "ipa": "/dɔːk̚˨˩.maːj˦˥/",
-   "gloss": {
-    "en": [
-     "blossom",
-     "flower"
-    ],
-    "th": "ส่วนหนึ่งของพรรณไม้ที่ผลิออกจากต้นหรือกิ่ง มีหน้าที่ทำให้เกิดผลและเมล็ดเพื่อสืบพันธุ์ มีเกสรและเรณูเป็นเครื่องสืบพันธุ์, เรียกย่อว่า ดอก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ดอก",
-    "ไม้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "flower + wood",
-   "lit_th": "ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
-   "flips_with": "ไม้ดอก",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้ยืนต้น",
-   "rtgs": "mai-yuen-ton",
-   "ipa": "/maːj˦˥.jɯːn˧.ton˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ต้นไม้ใหญ่ที่มีผลและมีอายุยืนนาน ดำรงอยู่ได้ภายใน 3 ปี หรือ 3 ฤดู หรือมากกว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "ยืนต้น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + เรียกต้นไม้ใหญ่ที่มีผลและมีอายุยืน",
-   "frame": "entity"
-  },
-  {
-   "th": "ไม้เลื้อย",
-   "rtgs": "mai-lueai",
-   "ipa": "/maːj˦˥.lɯa̯j˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พืชที่ทอดตัวไปตามพื้นดินหรือยึดเกี่ยวสิ่งต่าง ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "เลื้อย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "wood + trail",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ทอดวกเวียนไป"
-  },
-  {
-   "th": "ไม้ดอก",
-   "translit_auto": "maidok",
-   "ipa": "[mäːj˦˥.dɔːk̚˨˩]",
-   "gloss": {
-    "en": [
-     "flower"
-    ],
-    "th": "ไม้ที่ปลูกไว้ดูดอก",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ไม้",
-    "ดอก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "wood + flower",
-   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห",
-   "flips_with": "ดอกไม้",
    "frame": "entity"
   }
  ],

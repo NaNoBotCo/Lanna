@@ -34,6 +34,756 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "แม่งาน",
+     "rtgs": "mae-ngan",
+     "ipa": "/mɛː˥˩.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หัวหน้าผู้รับผิดชอบในงานบางอย่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + job",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "รายงาน",
+     "rtgs": "rai-ngan",
+     "ipa": "/raːj˧.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "report",
+       "account"
+      ],
+      "th": "เรื่องราวที่ไปศึกษาค้นคว้าแล้วนำมาเสนอที่ประชุม ครูอาจารย์หรือผู้บังคับบัญชา เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ราย",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "record + job",
+     "lit_th": "เรื่อง ส่วน บุคคล หรือสิ่งซึ่งแยกก + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวงาน",
+     "rtgs": "hua-ngan",
+     "ipa": "/hua̯˩˩˦.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เวลาตั้งต้นทำงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + job",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ว่างงาน",
+     "rtgs": "wang-ngan",
+     "ipa": "/waːŋ˥˩.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "idle"
+      ],
+      "th": "ตกงาน, ไม่มีงานทำ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ว่าง",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "empty + job",
+     "lit_th": "เปล่า + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "quality"
+    },
+    {
+     "th": "แผนงาน",
+     "rtgs": "phaen-ngan",
+     "ipa": "/pʰɛːn˩˩˦.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "plan",
+       "program",
+       "programme"
+      ],
+      "th": "แผนที่วางไว้เป็นแนวในการดำเนินการ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แผน",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "plan + job",
+     "lit_th": "สิ่งที่กำหนดถือเป็นแนวดำเนิน + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ติดงาน",
+     "rtgs": "tit-ngan",
+     "ipa": "/tit̚˨˩.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีงานค้างต้องทำ และปลีกตัวไม่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ติด",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ติด"
+     ],
+     "lit": "fit + job",
+     "lit_th": "อาการที่ข้องอยู่ + สิ่งหรือกิจกรรมที่ทำ"
+    },
+    {
+     "th": "งานศิลป์",
+     "rtgs": "ngan-sin",
+     "ipa": "/ŋaːn˧.sin˩˩˦/",
+     "gloss": {
+      "en": [
+       "art"
+      ],
+      "th": "ผลงานด้านศิลปะ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "งาน",
+      "ศิลป์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งหรือกิจกรรมที่ทำ + ฝีมือ",
+     "frame": "entity"
+    },
+    {
+     "th": "ฝึกงาน",
+     "rtgs": "fuek-ngan",
+     "ipa": "/fɯk̚˨˩.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สอนให้ทำงานจนทำเป็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฝึก",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "institute + job",
+     "lit_th": "ทำ + สิ่งหรือกิจกรรมที่ทำ"
+    },
+    {
+     "th": "งานช้าง",
+     "rtgs": "ngan-chang",
+     "ipa": "/ŋaːn˧.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "งานใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "งาน",
+      "ช้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "job + elephant",
+     "lit_th": "สิ่งหรือกิจกรรมที่ทำ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "ทำงาน",
+     "rtgs": "tham-ngan",
+     "ipa": "/tʰam˧.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "run",
+       "work",
+       "function"
+      ],
+      "th": "ปฏิบัติกิจการ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ทำ"
+     ],
+     "lit": "do + job",
+     "lit_th": "กระทำ + สิ่งหรือกิจกรรมที่ทำ"
+    },
+    {
+     "th": "ทรงงาน",
+     "translit_auto": "thrngngan",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทรง"
+     ],
+     "lit": "form + job",
+     "lit_th": "รูปร่าง + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ทีมงาน",
+     "rtgs": "thim-ngan",
+     "ipa": "/tʰiːm˧.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คณะผู้ดำเนินงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทีม",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "team + job",
+     "lit_th": "ชุด + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ตกงาน",
+     "rtgs": "tok-ngan",
+     "ipa": "/tok̚˨˩.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ว่างงาน, ไม่มีงานทำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตก"
+     ],
+     "lit": "decrease + job",
+     "lit_th": "พลัดลง + สิ่งหรือกิจกรรมที่ทำ"
+    },
+    {
+     "th": "โรงงาน",
+     "rtgs": "rong-ngan",
+     "ipa": "/roːŋ˧.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "factory"
+      ],
+      "th": "อาคารหรือแหล่งสำหรับผลิตสินค้า โดยอาจใช้เครื่องจักร",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โรง"
+     ],
+     "lit": "shed + job",
+     "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "สำนักงาน",
+     "rtgs": "sam-nak-ngan",
+     "ipa": "/sam˩˩˦.nak̚˦˥.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "bureau",
+       "office"
+      ],
+      "th": "สถานที่ทำการของรัฐวิสาหกิจ หรือบริษัทห้างร้านเป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สำนัก",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "school + job",
+     "lit_th": "ที่อยู่อาศัย + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "เล่นงาน",
+     "rtgs": "len-ngan",
+     "ipa": "/len˥˩.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระทำเอา (มักใช้ในทางไม่ดี เช่น ถูกดุด่า ว่ากล่าว ทำร้าย เป็นต้น)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เล่น",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "play + job",
+     "lit_th": "ทำเพื่อสนุกหรือผ่อนอารมณ์ + สิ่งหรือกิจกรรมที่ทำ"
+    },
+    {
+     "th": "งานอดิเรก",
+     "rtgs": "ngan-a-di-rek",
+     "ipa": "/ŋaːn˧.ʔa˨˩.di˨˩.reːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "hobby"
+      ],
+      "th": "งานที่ทำเพื่อความเพลิดเพลิน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "งาน",
+      "อดิเรก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "สิ่งหรือกิจกรรมที่ทำ + พิเศษ",
+     "frame": "quality"
+    },
+    {
+     "th": "ดำเนินงาน",
+     "translit_auto": "damneinngan",
+     "ipa": "[dä̃m˧.nɤn˧.ŋäːn˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระทำงาน, ปฏิบัติงาน, จัดการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดำเนิน",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "lead + job",
+     "lit_th": "เดิน + สิ่งหรือกิจกรรมที่ทำ"
+    },
+    {
+     "th": "คนงาน",
+     "rtgs": "khon-ngan",
+     "ipa": "/kʰon˧.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ใช้แรงในการทำงานเพื่อรับค่าตอบแทน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คน"
+     ],
+     "lit": "stir + job",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "แรงงาน",
+     "rtgs": "raeng-ngan",
+     "ipa": "/rɛːŋ˧.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "labour"
+      ],
+      "th": "คนงาน, ผู้ใช้แรงในการทำงาน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แรง",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แรง"
+     ],
+     "lit": "bright + job",
+     "lit_th": "กำลัง + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ข่ายงาน",
+     "translit_auto": "khayngan",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วงงานที่อยู่ในความควบคุมดูแลและประสานกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข่าย",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เครื่องดักสัตว์ชนิดหนึ่ง ถักเป็นตา + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ประสานงาน",
+     "rtgs": "pra-san-ngan",
+     "ipa": "/pra˨˩.saːn˩˩˦.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สร้างความสัมพันธ์ระหว่างส่วนประกอบต่าง ๆ (ของการงานหรือองค์การที่มีความซับซ้อน) เพื่อให้มีประสิทธิภาพหรือความบรรสาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ประสาน",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ทำให้เข้ากันสนิท + สิ่งหรือกิจกรรมที่ทำ"
+    },
+    {
+     "th": "นายงาน",
+     "rtgs": "nai-ngan",
+     "ipa": "/naːj˧.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หัวหน้างาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาย",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นาย"
+     ],
+     "lit": "baboo + job",
+     "lit_th": "คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15 + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    }
    ]
   },
   {
@@ -63,7 +813,105 @@
    "extends": 1,
    "via": "metonymy",
    "via_note": "The work of preparing stands for the gathering itself: the festival.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "งานศพ",
+     "rtgs": "ngan-sop",
+     "ipa": "/ŋaːn˧.sop̚˨˩/",
+     "gloss": {
+      "en": [
+       "funeral",
+       "burial",
+       "obsequies"
+      ],
+      "th": "พิธีที่จัดขึ้นเพื่อรำลึกถึงผู้ที่เพิ่งเสียชีวิตหรือส่งวิญญาณก่อนปลงศพ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "งาน",
+      "ศพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "job + body",
+     "lit_th": "สิ่งหรือกิจกรรมที่ทำ + ซากผี",
+     "frame": "entity"
+    },
+    {
+     "th": "งานขาวดำ",
+     "rtgs": "ngan-khao-dam",
+     "ipa": "/ŋaːn˧.kʰaːw˩˩˦.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "งานศพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "งาน",
+      "ขาวดำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "สิ่งหรือกิจกรรมที่ทำ + ที่ไม่มีสีอื่นนอกจากสีขาว สีดำ และ",
+     "frame": "quality"
+    },
+    {
+     "th": "แต่งงาน",
+     "rtgs": "taeng-ngan",
+     "ipa": "/tɛŋ˨˩.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "marry",
+       "mate"
+      ],
+      "th": "ทำพิธีเพื่อให้ชายหญิงอยู่กินเป็นผัวเมียกันตามประเพณี",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แต่ง",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "dress + job",
+     "lit_th": "จัดให้งาม + สิ่งหรือกิจกรรมที่ทำ"
+    }
+   ]
   },
   {
    "n": 3,
@@ -121,7 +969,41 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "Work in the physicist's sense: force times distance.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "พลังงาน",
+     "rtgs": "pha-lang-ngan",
+     "ipa": "/pʰa˦˥.laŋ˧.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "energy"
+      ],
+      "th": "ความสามารถซึ่งมีอยู่ในตัวของสิ่งที่อาจให้แรงงานได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พลัง",
+      "งาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "power + job",
+     "lit_th": "กำลัง + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    }
+   ]
   }
  ],
  "conf": "probable",
@@ -141,135 +1023,6 @@
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 35; domain seeded by keyword hits ['วัตถุ', 'เนื้อ', 'ของ'].",
  "compounds_unassigned": [
-  {
-   "th": "แม่งาน",
-   "rtgs": "mae-ngan",
-   "ipa": "/mɛː˥˩.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หัวหน้าผู้รับผิดชอบในงานบางอย่าง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แม่",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "แม่"
-   ],
-   "lit": "mother + job",
-   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "พลังงาน",
-   "rtgs": "pha-lang-ngan",
-   "ipa": "/pʰa˦˥.laŋ˧.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "energy"
-    ],
-    "th": "ความสามารถซึ่งมีอยู่ในตัวของสิ่งที่อาจให้แรงงานได้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "พลัง",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "power + job",
-   "lit_th": "กำลัง + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "รายงาน",
-   "rtgs": "rai-ngan",
-   "ipa": "/raːj˧.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "report",
-     "account"
-    ],
-    "th": "เรื่องราวที่ไปศึกษาค้นคว้าแล้วนำมาเสนอที่ประชุม ครูอาจารย์หรือผู้บังคับบัญชา เป็นต้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ราย",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "record + job",
-   "lit_th": "เรื่อง ส่วน บุคคล หรือสิ่งซึ่งแยกก + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "หัวงาน",
-   "rtgs": "hua-ngan",
-   "ipa": "/hua̯˩˩˦.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เวลาตั้งต้นทำงาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หัว",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "หัว"
-   ],
-   "lit": "head + job",
-   "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
   {
    "th": "การทำงาน",
    "rtgs": "kan-tham-ngan",
@@ -339,291 +1092,6 @@
    "frame": "entity"
   },
   {
-   "th": "ว่างงาน",
-   "rtgs": "wang-ngan",
-   "ipa": "/waːŋ˥˩.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "idle"
-    ],
-    "th": "ตกงาน, ไม่มีงานทำ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ว่าง",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+N",
-   "head": 1,
-   "lit": "empty + job",
-   "lit_th": "เปล่า + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "quality"
-  },
-  {
-   "th": "แผนงาน",
-   "rtgs": "phaen-ngan",
-   "ipa": "/pʰɛːn˩˩˦.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "plan",
-     "program",
-     "programme"
-    ],
-    "th": "แผนที่วางไว้เป็นแนวในการดำเนินการ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แผน",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "plan + job",
-   "lit_th": "สิ่งที่กำหนดถือเป็นแนวดำเนิน + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "ติดงาน",
-   "rtgs": "tit-ngan",
-   "ipa": "/tit̚˨˩.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีงานค้างต้องทำ และปลีกตัวไม่ได้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ติด",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "ติด"
-   ],
-   "lit": "fit + job",
-   "lit_th": "อาการที่ข้องอยู่ + สิ่งหรือกิจกรรมที่ทำ"
-  },
-  {
-   "th": "งานศพ",
-   "rtgs": "ngan-sop",
-   "ipa": "/ŋaːn˧.sop̚˨˩/",
-   "gloss": {
-    "en": [
-     "funeral",
-     "burial",
-     "obsequies"
-    ],
-    "th": "พิธีที่จัดขึ้นเพื่อรำลึกถึงผู้ที่เพิ่งเสียชีวิตหรือส่งวิญญาณก่อนปลงศพ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "งาน",
-    "ศพ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "job + body",
-   "lit_th": "สิ่งหรือกิจกรรมที่ทำ + ซากผี",
-   "frame": "entity"
-  },
-  {
-   "th": "งานศิลป์",
-   "rtgs": "ngan-sin",
-   "ipa": "/ŋaːn˧.sin˩˩˦/",
-   "gloss": {
-    "en": [
-     "art"
-    ],
-    "th": "ผลงานด้านศิลปะ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "งาน",
-    "ศิลป์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "สิ่งหรือกิจกรรมที่ทำ + ฝีมือ",
-   "frame": "entity"
-  },
-  {
-   "th": "ฝึกงาน",
-   "rtgs": "fuek-ngan",
-   "ipa": "/fɯk̚˨˩.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สอนให้ทำงานจนทำเป็น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ฝึก",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "institute + job",
-   "lit_th": "ทำ + สิ่งหรือกิจกรรมที่ทำ"
-  },
-  {
-   "th": "งานช้าง",
-   "rtgs": "ngan-chang",
-   "ipa": "/ŋaːn˧.t͡ɕʰaːŋ˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "งานใหญ่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "งาน",
-    "ช้าง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ช้าง"
-   ],
-   "lit": "job + elephant",
-   "lit_th": "สิ่งหรือกิจกรรมที่ทำ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
-   "frame": "entity"
-  },
-  {
-   "th": "งานขาวดำ",
-   "rtgs": "ngan-khao-dam",
-   "ipa": "/ŋaːn˧.kʰaːw˩˩˦.dam˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "งานศพ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "งาน",
-    "ขาวดำ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "lit_th": "สิ่งหรือกิจกรรมที่ทำ + ที่ไม่มีสีอื่นนอกจากสีขาว สีดำ และ",
-   "frame": "quality"
-  },
-  {
-   "th": "ทำงาน",
-   "rtgs": "tham-ngan",
-   "ipa": "/tʰam˧.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "run",
-     "work",
-     "function"
-    ],
-    "th": "ปฏิบัติกิจการ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "ทำ"
-   ],
-   "lit": "do + job",
-   "lit_th": "กระทำ + สิ่งหรือกิจกรรมที่ทำ"
-  },
-  {
    "th": "การดำเนินงาน",
    "rtgs": "kan-dam-noen-ngan",
    "ipa": "/kaːn˧.dam˧.nɤːn˧.ŋaːn˧/",
@@ -651,38 +1119,6 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "คำอาการนามของ ดำเนิน + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "ทรงงาน",
-   "translit_auto": "thrngngan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำงาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทรง",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ทรง"
-   ],
-   "lit": "form + job",
-   "lit_th": "รูปร่าง + สิ่งหรือกิจกรรมที่ทำ",
    "frame": "entity"
   },
   {
@@ -733,8 +1169,8 @@
     "พนัก",
     "งาน"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: พนักงาน is Khmer ភ្នាក់ងារ \"agent, officer\" borrowed whole — พนัก is separately recorded as an Old Khmer loan, and the dictionary gives Old Khmer ងារ only as a COGNATE of งาน, not as its source",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
@@ -742,166 +1178,11 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "เครื่องสำหรับพักสำหรับพิง + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "ทีมงาน",
-   "rtgs": "thim-ngan",
-   "ipa": "/tʰiːm˧.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คณะผู้ดำเนินงาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทีม",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "team + job",
-   "lit_th": "ชุด + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "ตกงาน",
-   "rtgs": "tok-ngan",
-   "ipa": "/tok̚˨˩.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ว่างงาน, ไม่มีงานทำ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตก",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "ตก"
-   ],
-   "lit": "decrease + job",
-   "lit_th": "พลัดลง + สิ่งหรือกิจกรรมที่ทำ"
-  },
-  {
-   "th": "โรงงาน",
-   "rtgs": "rong-ngan",
-   "ipa": "/roːŋ˧.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "factory"
-    ],
-    "th": "อาคารหรือแหล่งสำหรับผลิตสินค้า โดยอาจใช้เครื่องจักร",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "โรง",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "โรง"
-   ],
-   "lit": "shed + job",
-   "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "แต่งงาน",
-   "rtgs": "taeng-ngan",
-   "ipa": "/tɛŋ˨˩.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "marry",
-     "mate"
-    ],
-    "th": "ทำพิธีเพื่อให้ชายหญิงอยู่กินเป็นผัวเมียกันตามประเพณี",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แต่ง",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "dress + job",
-   "lit_th": "จัดให้งาม + สิ่งหรือกิจกรรมที่ทำ"
-  },
-  {
-   "th": "สำนักงาน",
-   "rtgs": "sam-nak-ngan",
-   "ipa": "/sam˩˩˦.nak̚˦˥.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "bureau",
-     "office"
-    ],
-    "th": "สถานที่ทำการของรัฐวิสาหกิจ หรือบริษัทห้างร้านเป็นต้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "สำนัก",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "school + job",
-   "lit_th": "ที่อยู่อาศัย + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
+   "frame": "entity",
+   "use": "false-split",
+   "needs_check": [
+    "The dictionary gives พนักงาน no etymology, and the second syllable is cognate with งาน rather than accidentally similar, so this is the softest false-split tag in the corpus. What decides it is the gloss: หน้าที่, a duty or office, which the Khmer word means and which พนัก \"back-rest\" + งาน \"work\" does not."
+   ]
   },
   {
    "th": "การว่างงาน",
@@ -934,65 +1215,6 @@
    "frame": "entity"
   },
   {
-   "th": "เล่นงาน",
-   "rtgs": "len-ngan",
-   "ipa": "/len˥˩.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กระทำเอา (มักใช้ในทางไม่ดี เช่น ถูกดุด่า ว่ากล่าว ทำร้าย เป็นต้น)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เล่น",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "play + job",
-   "lit_th": "ทำเพื่อสนุกหรือผ่อนอารมณ์ + สิ่งหรือกิจกรรมที่ทำ"
-  },
-  {
-   "th": "งานอดิเรก",
-   "rtgs": "ngan-a-di-rek",
-   "ipa": "/ŋaːn˧.ʔa˨˩.di˨˩.reːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "hobby"
-    ],
-    "th": "งานที่ทำเพื่อความเพลิดเพลิน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "งาน",
-    "อดิเรก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "lit_th": "สิ่งหรือกิจกรรมที่ทำ + พิเศษ",
-   "frame": "quality"
-  },
-  {
    "th": "การประสานงาน",
    "rtgs": "kan-pra-san-ngan",
    "ipa": "/kaːn˧.pra˨˩.saːn˩˩˦.ŋaːn˧/",
@@ -1023,158 +1245,6 @@
    "frame": "entity"
   },
   {
-   "th": "ดำเนินงาน",
-   "translit_auto": "damneinngan",
-   "ipa": "[dä̃m˧.nɤn˧.ŋäːn˧]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กระทำงาน, ปฏิบัติงาน, จัดการ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ดำเนิน",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "lead + job",
-   "lit_th": "เดิน + สิ่งหรือกิจกรรมที่ทำ"
-  },
-  {
-   "th": "คนงาน",
-   "rtgs": "khon-ngan",
-   "ipa": "/kʰon˧.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ใช้แรงในการทำงานเพื่อรับค่าตอบแทน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "คน"
-   ],
-   "lit": "stir + job",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "แรงงาน",
-   "rtgs": "raeng-ngan",
-   "ipa": "/rɛːŋ˧.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "labour"
-    ],
-    "th": "คนงาน, ผู้ใช้แรงในการทำงาน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "แรง",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "แรง"
-   ],
-   "lit": "bright + job",
-   "lit_th": "กำลัง + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "ข่ายงาน",
-   "translit_auto": "khayngan",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "วงงานที่อยู่ในความควบคุมดูแลและประสานกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ข่าย",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "เครื่องดักสัตว์ชนิดหนึ่ง ถักเป็นตา + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "ประสานงาน",
-   "rtgs": "pra-san-ngan",
-   "ipa": "/pra˨˩.saːn˩˩˦.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สร้างความสัมพันธ์ระหว่างส่วนประกอบต่าง ๆ (ของการงานหรือองค์การที่มีความซับซ้อน) เพื่อให้มีประสิทธิภาพหรือความบรรสาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ประสาน",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit_th": "ทำให้เข้ากันสนิท + สิ่งหรือกิจกรรมที่ทำ"
-  },
-  {
    "th": "การแต่งงาน",
    "rtgs": "kan-taeng-ngan",
    "ipa": "/kaːn˧.tɛŋ˨˩.ŋaːn˧/",
@@ -1202,39 +1272,6 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "คำอาการนามของ แต่ง + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "นายงาน",
-   "rtgs": "nai-ngan",
-   "ipa": "/naːj˧.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หัวหน้างาน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "นาย",
-    "งาน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "นาย"
-   ],
-   "lit": "baboo + job",
-   "lit_th": "คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15 + สิ่งหรือกิจกรรมที่ทำ",
    "frame": "entity"
   }
  ],

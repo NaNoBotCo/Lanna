@@ -64,7 +64,98 @@
    "extends": 1,
    "via": "metonymy",
    "via_note": "The act names what it passes.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "โยนขี้",
+     "rtgs": "yon-khi",
+     "ipa": "/joːn˧.kʰiː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตำหนิ, กล่าวหา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โยน",
+      "ขี้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "throw + crap",
+     "lit_th": "ซัดให้สิ่งใดสิ่งหนึ่งพ้นไปจากตัวโด + กิริยาที่ถ่ายกากอาหารออกทางทวารหนั"
+    },
+    {
+     "th": "ขี้เทา",
+     "rtgs": "khi-thao",
+     "ipa": "/kʰiː˥˩.tʰaw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขี้ที่ค้างอยู่ในลำไส้เด็กที่คลอดใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เทา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + ไป"
+    },
+    {
+     "th": "ขี้หมา",
+     "rtgs": "khi-ma",
+     "ipa": "/kʰiː˥˩.maː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อุจจาระของสุนัข",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "หมา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "crap + canine",
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + สัตว์เลี้ยงลูกด้วยน้ำนมหลายชนิดหลา"
+    }
+   ]
   },
   {
    "n": 3,
@@ -122,6 +213,164 @@
      ],
      "lit": "crap + eye",
      "lit_th": "สิ่งที่ร่างกายขับถ่ายออกมาเกรอะกรั + พ่อของแม่"
+    },
+    {
+     "th": "ขี้มือ",
+     "rtgs": "khi-mue",
+     "ipa": "/kʰiː˥˩.mɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เหงื่อไคลหรือสิ่งสกปรกที่ติดอยู่ตามมือทั้งที่มองเห็นและมองไม่เห็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "มือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "crap + hand",
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา"
+    },
+    {
+     "th": "ขี้ตีน",
+     "rtgs": "khi-tin",
+     "ipa": "/kʰiː˥˩.tiːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฝุ่นละอองที่ติดมากับเท้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ตีน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตีน"
+     ],
+     "lit": "crap + foot",
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + อวัยวะส่วนล่างสุดของคนหรือสัตว์ นั"
+    },
+    {
+     "th": "ขี้เกลือ",
+     "rtgs": "khi-kluea",
+     "ipa": "/kʰiː˥˩.klɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คราบเหงื่อที่แห้งกรังจนขึ้นขาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เกลือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "เกลือ"
+     ],
+     "lit": "crap + light",
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็"
+    },
+    {
+     "th": "ขี้เรื้อน",
+     "rtgs": "khi-ruean",
+     "ipa": "/kʰiː˥˩.rɯa̯n˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โรคผิวหนังของสุนัข เกิดจากไรสุนัขชอนไช ทำให้ผิวหนังพุพองและขนร่วง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เรื้อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + โรคติดต่อเรื้อรัง เกิดจากเชื้อแบคท"
+    },
+    {
+     "th": "ขี้เล็บ",
+     "rtgs": "khi-lep",
+     "ipa": "/kʰiː˥˩.lep̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งปฏิกูลที่อยู่ในซอกเล็บหรืออยู่ตามเล็บ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เล็บ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "crap + nail",
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + สิ่งซึ่งมีลักษณะแข็งอย่างเขาสัตว์อ"
     }
    ],
    "extends": 2,
@@ -156,7 +405,155 @@
    "extends": 3,
    "via": "metaphor",
    "via_note": "And so anything unwanted.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขี้เค้า",
+     "rtgs": "khi-khao",
+     "ipa": "/kʰiː˥˩.kʰaw˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขี้ข้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เค้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + สิ่งที่เป็นเครื่องกำหนดหมายบอกให้ร"
+    },
+    {
+     "th": "ขี้ข้า",
+     "rtgs": "khi-kha",
+     "ipa": "/kʰiː˥˩.kʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนรับใช้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ข้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+PRON",
+     "head": 0,
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + เป็นสรรพนามบุรุษที่ 1 ใช้แทนตัวผู้"
+    },
+    {
+     "th": "ขี้ตะไคร่",
+     "rtgs": "khi-ta-khrai",
+     "ipa": "/kʰiː˥˩.ta˨˩.kʰraj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พืชสีเขียวที่เกิดติดอยู่ตามต้นไม้ ตามพื้นดิน หรือกำแพงที่ชุ่มชื้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ตะไคร่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + พืชสีเขียวที่เกิดติดอยู่ตามต้นไม้"
+    },
+    {
+     "th": "ขี้แดด",
+     "rtgs": "khi-daet",
+     "ipa": "/kʰiː˥˩.dɛːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตะไคร่ที่จับบนผิวโคลนสีเขียว ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "แดด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + แสงที่พุ่งจากดวงอาทิตย์ตรงมายังโลก"
+    },
+    {
+     "th": "ขี้ริ้ว",
+     "rtgs": "khi-rio",
+     "ipa": "/kʰiː˥˩.riw˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกผ้าเก่าที่ใช้เช็ดถูเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ริ้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "crap + stripe",
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + เส้นลายหรือสิ่งอื่นที่มีลักษณะเป็น"
+    }
+   ]
   },
   {
    "n": 5,
@@ -244,6 +641,155 @@
      "head": 0,
      "lit": "crap + saw",
      "lit_th": "เศษหรือกากที่ออกมาจากสิ่งนั้น ๆ + เครื่องมือสำหรับตัด มีหลายชนิด ใบเ"
+    },
+    {
+     "th": "ขี้เถ้า",
+     "rtgs": "khi-thao",
+     "ipa": "/kʰiː˥˩.tʰaw˥˩/",
+     "gloss": {
+      "en": [
+       "cinder"
+      ],
+      "th": "เถ้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เถ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + สิ่งที่เป็นผงละเอียดของสิ่งที่เหลื"
+    },
+    {
+     "th": "ขี้เหล็ก",
+     "rtgs": "khi-lek",
+     "ipa": "/kʰiː˥˩.lek̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้ต้นขนาดกลางถึงขนาดใหญ่ชนิด Senna siamea (Lam.) Irwin et Barneby ในวงศ์ Leguminosae มักขึ้นตามริมนํ้าหรือป่าชื้น ดอกสีเหลืองดกเป็นช่อใหญ่ เนื้อไม้สีนํ้าตาลแก่หรือบางทีเกือบดำ มีลายเป็นเส้นสีแก่หรือสีอ่อนกว่าพื้น แข",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เหล็ก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "crap + iron",
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + ธาตุลำดับที่ 26 สัญลักษณ์ Fe เป็นโ"
+    },
+    {
+     "th": "ขี้ผึ้ง",
+     "rtgs": "khi-phueng",
+     "ipa": "/kʰiː˥˩.pʰɯŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รังผึ้งที่เอามาหุงใช้ในการต่าง ๆ เช่น ทำเทียน ทำสีผึ้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ผึ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "crap + bee",
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + ชื่อแมลงหลายชนิดในวงศ์ Apidae มีปี"
+    },
+    {
+     "th": "ขี้เท่า",
+     "rtgs": "khi-thao",
+     "ipa": "/kʰiː˥˩.tʰaw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปสะกดเลิกใช้ของ ขี้เถ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เท่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + เสมอกัน"
+    },
+    {
+     "th": "ขี้ผง",
+     "rtgs": "khi-phong",
+     "ipa": "/kʰiː˥˩.pʰoŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เศษสิ่งของเล็ก ๆ หรือละเอียดที่เหลือหรือร่วงจากวัสดุต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ผง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "crap + powder",
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + สิ่งละเอียด"
     }
    ],
    "extends": 4,
@@ -269,64 +815,6 @@
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 32; domain seeded by keyword hits ['ลง', 'ออก', 'มา'].",
  "compounds_unassigned": [
-  {
-   "th": "โยนขี้",
-   "rtgs": "yon-khi",
-   "ipa": "/joːn˧.kʰiː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตำหนิ, กล่าวหา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "โยน",
-    "ขี้"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 1,
-   "lit": "throw + crap",
-   "lit_th": "ซัดให้สิ่งใดสิ่งหนึ่งพ้นไปจากตัวโด + กิริยาที่ถ่ายกากอาหารออกทางทวารหนั"
-  },
-  {
-   "th": "ขี้เถ้า",
-   "rtgs": "khi-thao",
-   "ipa": "/kʰiː˥˩.tʰaw˥˩/",
-   "gloss": {
-    "en": [
-     "cinder"
-    ],
-    "th": "เถ้า",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "เถ้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + สิ่งที่เป็นผงละเอียดของสิ่งที่เหลื"
-  },
   {
    "th": "ขี้ขลาด",
    "rtgs": "khi-khlat",
@@ -355,69 +843,10 @@
    "pattern": "V+ADJ",
    "head": 0,
    "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + มักกลัว",
-   "frame": "quality"
-  },
-  {
-   "th": "ขี้เหล็ก",
-   "rtgs": "khi-lek",
-   "ipa": "/kʰiː˥˩.lek̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อไม้ต้นขนาดกลางถึงขนาดใหญ่ชนิด Senna siamea (Lam.) Irwin et Barneby ในวงศ์ Leguminosae มักขึ้นตามริมนํ้าหรือป่าชื้น ดอกสีเหลืองดกเป็นช่อใหญ่ เนื้อไม้สีนํ้าตาลแก่หรือบางทีเกือบดำ มีลายเป็นเส้นสีแก่หรือสีอ่อนกว่าพื้น แข",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "เหล็ก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "use": "biological",
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "crap + iron",
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + ธาตุลำดับที่ 26 สัญลักษณ์ Fe เป็นโ"
-  },
-  {
-   "th": "ขี้มือ",
-   "rtgs": "khi-mue",
-   "ipa": "/kʰiː˥˩.mɯː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เหงื่อไคลหรือสิ่งสกปรกที่ติดอยู่ตามมือทั้งที่มองเห็นและมองไม่เห็น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "มือ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "มือ"
-   ],
-   "lit": "crap + hand",
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา"
+   "frame": "quality",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
   },
   {
    "th": "ขี้เซา",
@@ -445,7 +874,10 @@
    ],
    "pattern": "V+V",
    "head": 0,
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + หยุดชะงัก"
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + หยุดชะงัก",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
   },
   {
    "th": "ขี้เกียจ",
@@ -474,63 +906,10 @@
    ],
    "pattern": "V+V",
    "head": 0,
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + คด"
-  },
-  {
-   "th": "ขี้เค้า",
-   "rtgs": "khi-khao",
-   "ipa": "/kʰiː˥˩.kʰaw˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขี้ข้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "เค้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + สิ่งที่เป็นเครื่องกำหนดหมายบอกให้ร"
-  },
-  {
-   "th": "ขี้ข้า",
-   "rtgs": "khi-kha",
-   "ipa": "/kʰiː˥˩.kʰaː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คนรับใช้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "ข้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+PRON",
-   "head": 0,
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + เป็นสรรพนามบุรุษที่ 1 ใช้แทนตัวผู้"
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + คด",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
   },
   {
    "th": "ขี้เหนียว",
@@ -563,156 +942,10 @@
    "head": 0,
    "lit": "crap + sticky",
    "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + ดึงขาดยาก",
-   "frame": "quality"
-  },
-  {
-   "th": "ขี้ตีน",
-   "rtgs": "khi-tin",
-   "ipa": "/kʰiː˥˩.tiːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ฝุ่นละอองที่ติดมากับเท้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "ตีน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ตีน"
-   ],
-   "lit": "crap + foot",
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + อวัยวะส่วนล่างสุดของคนหรือสัตว์ นั"
-  },
-  {
-   "th": "ขี้ผึ้ง",
-   "rtgs": "khi-phueng",
-   "ipa": "/kʰiː˥˩.pʰɯŋ˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รังผึ้งที่เอามาหุงใช้ในการต่าง ๆ เช่น ทำเทียน ทำสีผึ้ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "ผึ้ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "crap + bee",
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + ชื่อแมลงหลายชนิดในวงศ์ Apidae มีปี"
-  },
-  {
-   "th": "ขี้เกลือ",
-   "rtgs": "khi-kluea",
-   "ipa": "/kʰiː˥˩.klɯa̯˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คราบเหงื่อที่แห้งกรังจนขึ้นขาว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "เกลือ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "เกลือ"
-   ],
-   "lit": "crap + light",
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็"
-  },
-  {
-   "th": "ขี้ตะไคร่",
-   "rtgs": "khi-ta-khrai",
-   "ipa": "/kʰiː˥˩.ta˨˩.kʰraj˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พืชสีเขียวที่เกิดติดอยู่ตามต้นไม้ ตามพื้นดิน หรือกำแพงที่ชุ่มชื้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "ตะไคร่"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + พืชสีเขียวที่เกิดติดอยู่ตามต้นไม้"
-  },
-  {
-   "th": "ขี้แดด",
-   "rtgs": "khi-daet",
-   "ipa": "/kʰiː˥˩.dɛːt̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตะไคร่ที่จับบนผิวโคลนสีเขียว ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "แดด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + แสงที่พุ่งจากดวงอาทิตย์ตรงมายังโลก"
+   "frame": "quality",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
   },
   {
    "th": "ขี้ลืม",
@@ -742,7 +975,10 @@
    "pattern": "V+V",
    "head": 0,
    "lit": "crap + forget",
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + หายไปจากความจำ"
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + หายไปจากความจำ",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
   },
   {
    "th": "ขี้โม้",
@@ -770,7 +1006,10 @@
    ],
    "pattern": "V+V",
    "head": 0,
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + โว"
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + โว",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
   },
   {
    "th": "ขี้เมา",
@@ -799,36 +1038,10 @@
    "pattern": "V+V",
    "head": 0,
    "lit": "crap + drunk",
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + อาการที่มึนจนลืมตัวขาดสติเพราะฤทธิ"
-  },
-  {
-   "th": "ขี้ริ้ว",
-   "rtgs": "khi-rio",
-   "ipa": "/kʰiː˥˩.riw˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรียกผ้าเก่าที่ใช้เช็ดถูเป็นต้น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "ริ้ว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "crap + stripe",
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + เส้นลายหรือสิ่งอื่นที่มีลักษณะเป็น"
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + อาการที่มึนจนลืมตัวขาดสติเพราะฤทธิ",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
   },
   {
    "th": "ขี้ตู่",
@@ -856,91 +1069,10 @@
    ],
    "pattern": "V+V",
    "head": 0,
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + กล่าวอ้างหรือทึกทักเอาของผู้อื่นว่"
-  },
-  {
-   "th": "ขี้เท่า",
-   "rtgs": "khi-thao",
-   "ipa": "/kʰiː˥˩.tʰaw˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รูปสะกดเลิกใช้ของ ขี้เถ้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "เท่า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "head": 0,
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + เสมอกัน"
-  },
-  {
-   "th": "ขี้ผง",
-   "rtgs": "khi-phong",
-   "ipa": "/kʰiː˥˩.pʰoŋ˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เศษสิ่งของเล็ก ๆ หรือละเอียดที่เหลือหรือร่วงจากวัสดุต่าง ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "ผง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "crap + powder",
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + สิ่งละเอียด"
-  },
-  {
-   "th": "ขี้เทา",
-   "rtgs": "khi-thao",
-   "ipa": "/kʰiː˥˩.tʰaw˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขี้ที่ค้างอยู่ในลำไส้เด็กที่คลอดใหม่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "เทา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + ไป"
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + กล่าวอ้างหรือทึกทักเอาของผู้อื่นว่",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
   },
   {
    "th": "ขี้เสียด",
@@ -972,34 +1104,6 @@
    "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + เบียดกัน"
   },
   {
-   "th": "ขี้เรื้อน",
-   "rtgs": "khi-ruean",
-   "ipa": "/kʰiː˥˩.rɯa̯n˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "โรคผิวหนังของสุนัข เกิดจากไรสุนัขชอนไช ทำให้ผิวหนังพุพองและขนร่วง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "เรื้อน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + โรคติดต่อเรื้อรัง เกิดจากเชื้อแบคท"
-  },
-  {
    "th": "ขี้เล่น",
    "rtgs": "khi-len",
    "ipa": "/kʰiː˥˩.len˥˩/",
@@ -1026,36 +1130,10 @@
    "pattern": "V+V",
    "head": 0,
    "lit": "crap + play",
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + ทำเพื่อสนุกหรือผ่อนอารมณ์"
-  },
-  {
-   "th": "ขี้เล็บ",
-   "rtgs": "khi-lep",
-   "ipa": "/kʰiː˥˩.lep̚˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สิ่งปฏิกูลที่อยู่ในซอกเล็บหรืออยู่ตามเล็บ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "เล็บ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "crap + nail",
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + สิ่งซึ่งมีลักษณะแข็งอย่างเขาสัตว์อ"
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + ทำเพื่อสนุกหรือผ่อนอารมณ์",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
   },
   {
    "th": "การขี้",
@@ -1085,35 +1163,6 @@
    "pattern": "N+V",
    "head": 1,
    "lit_th": "งาน + กิริยาที่ถ่ายกากอาหารออกทางทวารหนั"
-  },
-  {
-   "th": "ขี้หมา",
-   "rtgs": "khi-ma",
-   "ipa": "/kʰiː˥˩.maː˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อุจจาระของสุนัข",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขี้",
-    "หมา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "crap + canine",
-   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + สัตว์เลี้ยงลูกด้วยน้ำนมหลายชนิดหลา"
   }
  ],
  "etymology": {
