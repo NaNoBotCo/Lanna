@@ -1,0 +1,409 @@
+{
+ "schema": 1,
+ "id": "takrut",
+ "level": "kind",
+ "parent": null,
+ "names": {
+  "th": "ตะกรุด",
+  "roman": "takrut",
+  "en": "Takrut (inscribed scroll-tube)",
+  "aliases": {
+   "th": [
+    "ตะกรุดโทน",
+    "ตะกรุดคู่",
+    "ตะกรุดสามกษัตริย์",
+    "ตะกรุดโสฬส",
+    "ตะกรุดหนังเสือ"
+   ],
+   "roman": [
+    "takrud",
+    "tagrud",
+    "takrut thon",
+    "takrut sam kasat"
+   ],
+   "en": [
+    "yantra scroll",
+    "rolled yantra amulet"
+   ]
+  }
+ },
+ "region": [
+  "th-central",
+  "th"
+ ],
+ "axes": {
+  "class": "yantra_wattu",
+  "functions": [
+   "khong_kraphan",
+   "khlaeo_khlat",
+   "kha_khai",
+   "metta_maha_niyom",
+   "maha_saneh",
+   "kan_phi"
+  ],
+  "materials": [
+   "nuea_loha",
+   "thongkham",
+   "ngoen",
+   "naak",
+   "takua",
+   "thongdaeng"
+  ],
+  "figures": [
+   "tube"
+  ]
+ },
+ "form": {
+  "type": "tube",
+  "shape_th": "แผ่นโลหะบาง (หรือกระดาษ ใบลาน หนังสัตว์) ลงยันต์แล้วม้วนเป็นหลอดกลวง ร้อยเชือกได้ มักถักเชือกลงรักปิดทองหุ้ม",
+  "shape_en": "A thin sheet — metal in most cases; paper, palm leaf or animal skin in the treatise — inscribed with a yantra and rolled into a hollow tube with a channel for a cord. Often plaited over with cord, lacquered and gilded so the inscription is hidden.",
+  "size_mm": null,
+  "wearable_th": "คาดเอวหรือห้อยคอ ดอกเดี่ยว (โทน) คู่ สาม เก้า หรือสิบหกดอกเรียงขวาง บางแบบอมไว้ใต้ลิ้น",
+  "wearable_en": "Worn at the waist or neck on a cord — single (thon), paired, three, nine or sixteen tubes strung crosswise. Small salika tubes are held under the tongue.",
+  "obverse_th": "ยันต์ลงด้านหน้าแผ่นก่อนม้วน — ตาราง ๓×๓ ๔×๔ องค์พระ รูปปลา รูปนก",
+  "obverse_en": "The yantra on the sheet before rolling: magic squares (3x3, 4x4, 9x9), a Buddha figure, fish or bird figures, per recipe",
+  "reverse_th": "ตำราหลายบทให้ลงยันต์อีกแบบด้านหลังแผ่น",
+  "reverse_en": "Several treatise recipes prescribe a second yantra on the back of the sheet",
+  "notes_en": "Size is not a type-level fact: the treatise specifies weights of gold (2 phai) or a one-finger bamboo, not lengths. Retail pieces run from a fingernail to a hand span."
+ },
+ "iconography": [
+  {
+   "th": "ยันต์ตารางเลข",
+   "en": "numbered magic-square yantra (3x3, 4x4 'chakkraphat', 9 squares for the nine-tube set)"
+  },
+  {
+   "th": "ยันต์องค์พระ",
+   "en": "a seated Buddha-figure yantra inscribed head, body, feet, unalom, moon, sun in turn"
+  },
+  {
+   "th": "ยันต์รูปปลาสามตัว",
+   "en": "three carp figures, one per tube, for the trade set"
+  },
+  {
+   "th": "ราชสีห์ลงด้านหลังตะกรุดหนังเสือ",
+   "en": "a rachasi lion on the back of the tiger-skin takrut"
+  }
+ ],
+ "origin": {
+  "wat_slug": null,
+  "wat_th": "",
+  "wat_en": "",
+  "maker_th": "ตำราสร้างเครื่องรางของขลัง (ไม่ระบุผู้แต่ง) มีบทที่ระบุว่าเป็นของสมเด็จพระวันรัต (แดง) และหลวงปู่บุญ วัดกลางบางแก้ว",
+  "maker_en": "Anonymous amulet-making treatise, manuscript 6983; two tiger-skin recipes are ascribed to Somdet Phra Wannarat (Daeng) and to Luang Pu Bun of Wat Klang Bang Kaeo",
+  "era_th": "ตำราไม่ระบุปี ขุนช้างขุนแผนกล่าวถึงตะกรุดบ่อยที่สุดในบรรดาเครื่องราง",
+  "era_en": "Undated treatise. English Wikipedia calls the takrut the most-mentioned amulet in Khun Chang Khun Phaen and puts its Buddhist form at roughly the 13th century, uncited",
+  "place_th": "ทั่วประเทศ อักขระขอมภาคกลาง อักษรธรรมทางเหนือ",
+  "place_en": "Country-wide; Khom script in the centre, Tham script in the north",
+  "first_attested": ""
+ },
+ "diagnostics": [
+  {
+   "th": "เป็นหลอดม้วนกลวง ร้อยเชือกได้ ไม่ใช่แผ่นแบน — ถ้าแบนคือผ้ายันต์หรือแผ่นยันต์",
+   "en": "A rolled hollow tube with a cord channel. A flat inscribed sheet is a pha yan or a yantra plate, not a takrut",
+   "source": "s:th-wiki-takrut",
+   "tier": "cited"
+  },
+  {
+   "th": "เนื้อโลหะที่ตำราใช้: ทอง เงิน นาก ตะกั่ว ทองแดง และกระดาษหรือหนังเสือ",
+   "en": "The treatise inscribes on gold, silver, nak, lead, copper, paper or tiger skin; Thai Wikipedia adds snake and leopard skin, buffalo horn and bamboo",
+   "source": "s:ms6983",
+   "tier": "catalogue"
+  },
+  {
+   "th": "มักถักเชือกลงรักปิดทองหุ้มจนมองไม่เห็นยันต์ — เห็นยันต์ได้เฉพาะปลายหลอด",
+   "en": "Plaited, lacquered and gilded over per the tiger-skin recipe; the inscription is usually invisible and only the tube ends show",
+   "source": "s:ms6983",
+   "tier": "catalogue"
+  },
+  {
+   "th": "ชุดตามจำนวนดอก: โทน คู่ สาม เก้า สิบหก — จำนวนบอกตำรับ",
+   "en": "Count the tubes: single, pair, three, nine or sixteen each answer to a named recipe; the nine-tube set assigns one purpose per tube",
+   "source": "s:ms6983",
+   "tier": "catalogue"
+  },
+  {
+   "th": "ตะกรุดหนังหน้าผากเสือหรือหนังผีตายโหงเป็นข้อยกเว้นของหมวด — รูปเดียวกัน แต่การสร้างต่างกัน",
+   "en": "Skin-rolled takrut are the class's stated exception: same form, different making. Ask what the sheet is",
+   "source": "s:vault-classes",
+   "tier": "catalogue"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "pha-yan",
+   "tell_th": "ตะกรุดม้วนเป็นหลอด ผ้ายันต์เป็นผืนแบน ทั้งคู่หมวดเดียวกัน ไม่มีผู้อยู่",
+   "tell_en": "Same class, different form: a takrut is a rolled tube, a pha yan a flat cloth. Neither is fed."
+  },
+  {
+   "id": "salika",
+   "tell_th": "ตะกรุดสาลิกาเป็นตะกรุดดอกเล็กอมใต้ลิ้น สาลิการูปนกเป็นรูปสัตว์",
+   "tell_en": "A salika takrut is a small tube held under the tongue; a salika figure is a bird. The yantra names the bird; the form decides which record."
+  },
+  {
+   "id": "bia-kae",
+   "tell_th": "เบี้ยแก้เป็นเปลือกหอยบรรจุปรอทหุ้มตะกั่ว ไม่ใช่แผ่นม้วน",
+   "tell_en": "A bia kae is a cowrie packed with mercury and wrapped in lead — a shell, not a rolled sheet, though both get the plaited-cord finish."
+  }
+ ],
+ "market": {
+  "search": [
+   "ตะกรุด"
+  ],
+  "excludes": [],
+  "tier": "both"
+ },
+ "media": {
+  "commons_categories": [
+   "Category:Yantra in Thailand"
+  ],
+  "commons_files": [
+   "File:Yan Takrut (ยันต์ตะกรุด) - Thai 19th century yantra and amulet manuscript.png"
+  ],
+  "wanted_en": "Only a manuscript page of a takrut yantra is free on Commons as of 2026-09-02; no photograph of a rolled tube. Needed: a single tube end-on showing the roll, a plaited-and-gilded piece, and a nine-tube waist set."
+ },
+ "images": [
+  {
+   "file": "takrut/takrut-yan-takrut-thai-19th-century-yantra-and-3759b4.png",
+   "source": "commons",
+   "title": "File:Yan Takrut (ยันต์ตะกรุด) - Thai 19th century yantra and amulet manuscript.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Yan_Takrut_%28%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B9%8C%E0%B8%95%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%94%29_-_Thai_19th_century_yantra_and_amulet_manuscript.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/w/index.php?curid=136301565",
+   "license": "Public domain",
+   "license_url": "",
+   "author": "19th century artist",
+   "credit": "Part of the digitalized manuscript in the Manuscripts of Western Thailand Database - Princess Maha Chakri Sirindhorn Anthropology Centre [2]",
+   "view": "other",
+   "alt_th": "ตะกรุด",
+   "alt_en": "Takrut (inscribed scroll-tube) — Part of a Thai folding book (identifier NPT-004-011) at Wat Lam Phaya Folk Floating Market Museum, Nakhon Pathom. Accord",
+   "sha256": "b672b558fc5e300c0fc1ccecd175cbf46684d70e9cfb738f1c69bdc7c41717a6",
+   "width": 901,
+   "height": 508,
+   "primary": true
+  }
+ ],
+ "text": {
+  "what_th": "แผ่นโลหะ ใบลาน หรือหนัง ลงยันต์แล้วม้วนแน่น ร้อยเชือกคาดเอวหรือห้อยคอ อานุภาพอยู่ที่อักขระและพิธีที่ปิดผนึก ไม่มีผู้ใดสถิต ตำราในคลังนี้เต็มไปด้วยสิ่งที่เขียนไว้ข้างใน",
+  "what_en": "A sheet of metal — or palm-leaf, or skin — inscribed with a yantra and rolled tight, worn on a cord at the waist or neck. Power lives in the inscription and the rite that closed it. The treatises this site keeps are full of what gets written inside.",
+  "story_th": "ตำราให้ตะกรุดหลายตำรับ ตะกรุด ๓ ดอกค้าขายลงยันต์ปลาสามตัวบนแผ่นทอง เงิน นาก ตะกรุดจักรพรรดิลงตาราง ๔×๔ บนเงินและทอง ตะกรุดโทนฝนแสนห่าลงในโบสถ์ใต้เพดานผ้าขาวยันต์แปดทิศ เสกเหล็กจารด้วย มะอะอุ ก่อน ทำสายด้วยด้ายพรหมจารีย้อมใบไม้ ๗ ชนิดอย่างละ ๗ ใบ ตะกรุด ๙ ดอกกำหนดหน้าที่ดอกละอย่าง ตั้งแต่กันผีถึงกันศาสตราวุธ ตะกรุดหนังเสือขูดขนออก ลงยันต์ ม้วน ถักเชือก ลงรักปิดทอง เสกไตรสรณาคมน์ ๑๐๘ คาบ",
+  "story_en": "The treatise gives a dozen recipes. The three-tube trade set inscribes three fish yantras on gold, silver and nak; the chakkraphat set puts a 4x4 magic square on silver and gold. The single 'hundred-thousand-rains' takrut is inscribed inside the ordination hall under a white canopy bearing the eight-direction yantra, the stylus first blessed with ma-a-u, and its cord is spun from virgin thread and dyed with seven leaves of each of seven plants. The nine-tube set assigns each tube a job, from warding ghosts to turning weapons. The tiger-skin takrut scrapes the hide bare, inscribes it, rolls and plaits it, lacquers and gilds it, and consecrates it with the Three Refuges 108 times.",
+  "keeping_th": "ไม่มีผู้อยู่ ไม่ต้องเลี้ยง ยกเว้นตะกรุดหนังผีตายโหง ซึ่งการสร้างทำให้เป็นของมีผู้อยู่",
+  "keeping_en": "Nobody home, nothing owed. Safe to adopt with unknown history — with the class's one flagged exception: a takrut rolled from the skin of a violent-death corpse is a spirit-bearing object in this form, and the making, not the tube, decides."
+ },
+ "sources": [
+  "s:holding-key",
+  "s:vault-classes",
+  "s:vault-functions",
+  "s:vault-materials",
+  "s:ms6983",
+  "s:en-wiki-takrut",
+  "s:th-wiki-takrut",
+  "s:amulet-reference",
+  "s:tradition"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "catalogue",
+   "source": "s:ms6983",
+   "note": "bilingual.md lines 4278–5140 (printed pp. 123–144): ๓ ดอก, จักรพรรดิ, สาลิกาลิ้นทอง, โทน ×9, ๔ ดอก, ๙ ดอก, ไม้รวก, หนังเสือ ×4"
+  },
+  "fields": {
+   "axes": {
+    "tier": "catalogue",
+    "source": "s:vault-classes"
+   },
+   "axes.functions": {
+    "tier": "catalogue",
+    "source": "s:ms6983",
+    "note": "nine-tube list at L5027"
+   },
+   "text.what_en": {
+    "tier": "catalogue",
+    "source": "s:holding-key"
+   },
+   "text.keeping_en": {
+    "tier": "catalogue",
+    "source": "s:vault-classes"
+   },
+   "names.aliases": {
+    "tier": "cited",
+    "source": "s:th-wiki-takrut"
+   },
+   "origin.era_en": {
+    "tier": "cited",
+    "source": "s:en-wiki-takrut",
+    "note": "the 13th-century claim is uncited on-wiki"
+   },
+   "form.wearable_en": {
+    "tier": "cited",
+    "source": "s:th-wiki-takrut"
+   },
+   "form.notes_en": {
+    "tier": "inference"
+   },
+   "market": {
+    "tier": "catalogue",
+    "source": "s:holding-key"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-02",
+ "class_facts": {
+  "key": "yantra_wattu",
+  "term": "วัตถุมงคล (ยันต์)",
+  "roman": "wattu mongkhon",
+  "en_gloss": "blessed/inscribed object",
+  "resident": "none",
+  "upkeep": "none",
+  "provenance_sensitivity": "low",
+  "definition": "Takrut, yantra cloth, blessed medallions — power in the inscription and the rite. Impersonal.",
+  "confidence": "high"
+ },
+ "function_terms": [
+  {
+   "key": "khong_kraphan",
+   "term": "คงกระพัน",
+   "roman": "khong kraphan",
+   "en": "invulnerability to blades",
+   "definition": "The body cannot be cut or pierced. Classically paired with ชาตรี in the martial compound คงกระพันชาตรี. Says nothing about firearms — that is มหาอุด."
+  },
+  {
+   "key": "khlaeo_khlat",
+   "term": "แคล้วคลาด",
+   "roman": "khlaeo khlat",
+   "en": "evasion, narrow escape",
+   "definition": "Harm passes by — the accident happens to the next vehicle, the bullet goes wide, you left the building early. Distinct in kind from คงกระพัน: nothing strikes you at all, so nothing needs to be resisted."
+  },
+  {
+   "key": "kha_khai",
+   "term": "ค้าขาย",
+   "roman": "kha khai",
+   "en": "trade, selling",
+   "definition": "Specifically commercial: custom comes to the shop, goods move. Distinguished from โชคลาภ because the gain is worked for rather than fallen into."
+  },
+  {
+   "key": "metta_maha_niyom",
+   "term": "เมตตามหานิยม",
+   "roman": "metta maha niyom",
+   "en": "loving-kindness and wide popularity",
+   "definition": "Broad social favour — people are well-disposed, superiors are lenient, customers return. Built on เมตตา, the Buddhist virtue, and respectable to carry and to sell."
+  },
+  {
+   "key": "maha_saneh",
+   "term": "มหาเสน่ห์",
+   "roman": "maha saneh",
+   "en": "powerful attraction, allure",
+   "definition": "Personal and frequently erotic attraction, directed at a particular person rather than at a room. Overlaps the love-wax (สีผึ้ง) and น้ำมันพราย material tradition."
+  },
+  {
+   "key": "kan_phi",
+   "term": "กันผี",
+   "roman": "kan phi",
+   "en": "warding spirits",
+   "definition": "Against ผี specifically — the dead, the hungry, the malicious — not against human violence. A different threat model from คงกระพัน entirely."
+  }
+ ],
+ "material_terms": [
+  {
+   "key": "nuea_loha",
+   "term": "เนื้อโลหะ",
+   "roman": "nuea loha",
+   "en": "metal (unspecified)",
+   "definition": "Metal, unspecified. Common in listings precisely because it commits to nothing. Recorded as its own term rather than resolved, because the vagueness is itself the datum — a seller who can name the alloy usually does."
+  },
+  {
+   "key": "thongkham",
+   "term": "เนื้อทองคำ",
+   "roman": "nuea thongkham",
+   "en": "gold",
+   "definition": "Gold. Thin in this corpus — 93 of 13,020 listings, and most of those name it for a frame or a plating rather than for the body of the piece. Gold issues are not rare in the tradition; they do not circulate on an open retail platform. That thinness measures what this corpus can and cannot see, and is among the clearest arguments for seeding the register from competition and association records rather than from listings. **Correction of record:** an earlier draft put this at 1 occurrence, having searched only the compound เนื้อทองคำ. The bare term is the one the market uses."
+  },
+  {
+   "key": "ngoen",
+   "term": "เนื้อเงิน",
+   "roman": "nuea ngoen",
+   "en": "silver",
+   "definition": "Silver. Usually the middle tier of a struck issue — a รุ่น commonly runs ทองแดง, เงิน, ทองคำ from the same die, in descending quantity and ascending regard."
+  },
+  {
+   "key": "naak",
+   "term": "เนื้อนาค",
+   "roman": "nuea naak",
+   "en": "copper-gold alloy (rose gold)",
+   "definition": "A copper-and-gold alloy of reddish cast, ranked in the treatises alongside gold and silver as one of the sheets a yantra may be inscribed on — the corpus phrase is แผ่นทอง แผ่นเงิน แผ่นนาค. Added to this axis *because of* that passage, not from the market: the compound forms return zero listings, so this is a material the treatises name and the retail corpus does not carry. **Carried only in unambiguous compounds.** Bare นาค returns 553 pages and 132 listings, but nearly all of those are the naga serpent — a being, not an alloy — which belongs to the class and motif axes. Scanning the bare term here would import a bestiary into a materials list."
+  },
+  {
+   "key": "takua",
+   "term": "ตะกั่ว",
+   "roman": "takua",
+   "en": "lead",
+   "definition": "Lead, used both as an alloy component in ชิน and on its own — most visibly as the sheet rolled into ตะกรุด. Soft enough to take an inscription with a stylus, which is the whole reason it is used for rolled amulets."
+  },
+  {
+   "key": "thongdaeng",
+   "term": "ทองแดง",
+   "roman": "thongdaeng",
+   "en": "copper",
+   "definition": "Copper. Common as the base metal of struck เหรียญ (medal-form amulets), where the issue is often distinguished by which metals the same die was struck in."
+  }
+ ],
+ "region_terms": [
+  {
+   "key": "th-central",
+   "th": "ภาคกลาง",
+   "en": "Central Thailand (Bangkok, Ayutthaya basin)"
+  },
+  {
+   "key": "th",
+   "th": "ทั่วประเทศไทย",
+   "en": "Thailand, not regionally specific"
+  }
+ ],
+ "market_stats": {
+  "listings": 729,
+  "priced": 729,
+  "median_thb": 159.0,
+  "typical_thb": [
+   59.0,
+   449.0
+  ],
+  "source": "s:catalog-db",
+  "tier": "catalogue",
+  "note": "title matches only; delete-then-test excludes applied"
+ },
+ "primary_image": {
+  "file": "takrut/takrut-yan-takrut-thai-19th-century-yantra-and-3759b4.png",
+  "source": "commons",
+  "title": "File:Yan Takrut (ยันต์ตะกรุด) - Thai 19th century yantra and amulet manuscript.png",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Yan_Takrut_%28%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B9%8C%E0%B8%95%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%94%29_-_Thai_19th_century_yantra_and_amulet_manuscript.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/w/index.php?curid=136301565",
+  "license": "Public domain",
+  "license_url": "",
+  "author": "19th century artist",
+  "credit": "Part of the digitalized manuscript in the Manuscripts of Western Thailand Database - Princess Maha Chakri Sirindhorn Anthropology Centre [2]",
+  "view": "other",
+  "alt_th": "ตะกรุด",
+  "alt_en": "Takrut (inscribed scroll-tube) — Part of a Thai folding book (identifier NPT-004-011) at Wat Lam Phaya Folk Floating Market Museum, Nakhon Pathom. Accord",
+  "sha256": "b672b558fc5e300c0fc1ccecd175cbf46684d70e9cfb738f1c69bdc7c41717a6",
+  "width": 901,
+  "height": 508,
+  "primary": true
+ },
+ "tier_labels": {
+  "en": {
+   "catalogue": "Catalogue — checkable against the corpus (catalog.db, a transcribed treatise)",
+   "cited": "Cited — a named external source, linked",
+   "tradition": "Tradition — general knowledge of the wider tradition, hedged",
+   "inference": "Inference — this project's own reasoning from the above",
+   "field": "Field — someone stood there"
+  },
+  "th": {
+   "catalogue": "จากคลัง",
+   "cited": "อ้างอิงแหล่ง",
+   "tradition": "ตามประเพณี",
+   "inference": "อนุมาน",
+   "field": "พบเห็นเอง"
+  }
+ }
+}

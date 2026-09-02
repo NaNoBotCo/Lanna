@@ -1,0 +1,284 @@
+{
+ "schema": 1,
+ "id": "phra-phong-bai-lan",
+ "level": "kind",
+ "parent": null,
+ "names": {
+  "th": "พระผงใบลาน",
+  "roman": "phra phong bai lan",
+  "en": "Palm-leaf-ash tablet",
+  "aliases": {
+   "th": [
+    "ผงใบลาน",
+    "เนื้อผงใบลาน",
+    "ใบลานเผา"
+   ],
+   "roman": [
+    "phong bai lan",
+    "pong bai lan",
+    "nuea phong bai lan"
+   ],
+   "en": [
+    "burnt-manuscript-ash amulet",
+    "scripture-ash amulet"
+   ]
+  }
+ },
+ "region": [
+  "th"
+ ],
+ "axes": {
+  "class": "phra_khrueang",
+  "functions": [
+   "metta_maha_niyom",
+   "khong_kraphan",
+   "khlaeo_khlat"
+  ],
+  "materials": [
+   "phong_bai_lan",
+   "nuea_phong"
+  ],
+  "figures": [
+   "buddha"
+  ]
+ },
+ "form": {
+  "type": "tablet",
+  "shape_th": "พระพิมพ์เนื้อผงสีดำถึงเทา พิมพ์ทรงตามวัดที่สร้าง ตำรายังให้ปั้นเป็นลูกประคำ",
+  "shape_en": "A pressed tablet with a black-to-grey body, in whatever mould the issuing temple uses; the treatise also rolls the same paste into prayer-beads",
+  "size_mm": null,
+  "wearable_th": "ห้อยคอในตลับ",
+  "wearable_en": "Worn cased at the neck",
+  "obverse_th": "องค์พระตามพิมพ์ของวัด",
+  "obverse_en": "A Buddha in the issuing temple's mould",
+  "reverse_th": "เรียบ หรือประทับยันต์",
+  "reverse_en": "Plain or yantra-stamped",
+  "notes_en": "The material is the identity, not the mould: any Buddha tablet whose body is burnt palm-leaf ash belongs here."
+ },
+ "iconography": [
+  {
+   "th": "องค์พระ",
+   "en": "a Buddha image; the material, not the icon, defines the kind"
+  }
+ ],
+ "origin": {
+  "wat_slug": null,
+  "wat_th": "",
+  "wat_en": "",
+  "maker_th": "ตำราสร้างเครื่องรางของขลัง (ไม่ระบุผู้แต่ง) ให้สูตรใบลานเผาผสมขี้รัก",
+  "maker_en": "Anonymous amulet-making treatise, manuscript 6983, gives the palm-leaf-ash-and-lac formula; tablets are issued by many temples",
+  "era_th": "ตำราไม่ระบุปี",
+  "era_en": "Undated treatise; the tablet form is a temple issue of many eras",
+  "place_th": "",
+  "place_en": "",
+  "first_attested": ""
+ },
+ "diagnostics": [
+  {
+   "th": "เนื้อดำถึงเทาเข้ม ไม่ใช่ขาวอย่างผงพุทธคุณ",
+   "en": "Black to dark-grey body, never the white-to-cream of phong phutthakhun",
+   "source": "s:vault-materials",
+   "tier": "catalogue"
+  },
+  {
+   "th": "ตำราให้เผาใบลานที่ลงคาถาเป็นสมุก ผสมขี้รัก — เนื้อจึงมันด้านและเหนียว",
+   "en": "The treatise burns inscribed palm leaves to a black ash and binds it with lac scrapings, so the body reads matte-dark with a slight resinous sheen",
+   "source": "s:ms6983",
+   "tier": "catalogue"
+  },
+  {
+   "th": "อายุอ่านจากคราบผิว ไม่ใช่สนิม",
+   "en": "Age reads as a surface crust, never rust: the powder family's dating signal",
+   "source": "s:vault-materials",
+   "tier": "catalogue"
+  },
+  {
+   "th": "ส่องเห็นเกล็ดใบลานไหม้เล็กๆ ในเนื้อ",
+   "en": "Under a loupe the trade expects fine charred leaf flecks in the paste",
+   "source": "s:tradition",
+   "tier": "tradition"
+  },
+  {
+   "th": "ถ้ารายการอ้างว่าใบลานมาจากคัมภีร์หรือวัดใด นั่นเป็นคำอ้างประวัติแยกต่างหาก",
+   "en": "A listing that names which manuscript or temple the leaves came from is making a separate provenance claim, worth recording on its own",
+   "source": "s:vault-materials",
+   "tier": "catalogue"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "phra-somdet",
+   "tell_th": "พระสมเด็จเนื้อขาว · ผงใบลานเนื้อดำเทา",
+   "tell_en": "A somdet body is white to cream; a palm-leaf-ash body is black-grey. Same class, same keeping, different material"
+  },
+  {
+   "id": "phra-pidta",
+   "tell_th": "พระปิดตามักเนื้อผงคลุกรักสีดำเช่นกัน แต่รูปพระปิดหน้าปิดตา",
+   "tell_en": "A pidta is often a dark lacquer-mixed powder too, but the figure covers its eyes; a bai lan tablet shows an ordinary Buddha and the dark comes from ash, not lacquer alone"
+  },
+  {
+   "id": "khun-phaen",
+   "tell_th": "ขุนแผนบางองค์เนื้อดำจากมวลสารพราย ไม่ใช่ใบลาน ถามว่าอะไรทำให้ดำ",
+   "tell_en": "Some khun phaen are dark from prai material rather than ash; the colour is shared, the provenance question is not — ask what made it black"
+  }
+ ],
+ "market": {
+  "search": [
+   "ผงใบลาน"
+  ],
+  "excludes": [],
+  "tier": "both"
+ },
+ "media": {
+  "commons_categories": [],
+  "commons_files": [],
+  "wanted_en": "No free photograph found on Wikimedia Commons as of 2026-09-02 (searches for 'bai lan' and 'palm leaf ash' amulet return nothing). Needed: a dark tablet obverse and a loupe detail of the ash body beside a white phong tablet at matched scale."
+ },
+ "images": [],
+ "text": {
+  "what_th": "พระพิมพ์อัดจากเถ้าใบลานเผา — ใบลานชุดเดียวกับที่คลังนี้จัดหมวดเป็นคัมภีร์ ในช่วงชีวิตถัดไป ตำราให้สูตรตรง: ลงคาถาใบลาน ๕ ใบ เผาเป็นสมุก ผสมขี้รัก ปั้น",
+  "what_en": "Pressed from the ash of burnt palm-leaf manuscripts — the same leaves this archive catalogues, at a later moment of their life. A treatise here gives the recipe outright: inscribe five leaves with katha, burn, mix with lacquer, roll.",
+  "story_th": "ตำรา ๖๙๘๓ (หน้า ๙๗) ให้สูตรเพื่อเมตตามหานิยมต่อขุนนางท้าวพระยาและสมณะพราหมณ์: ลงใบลาน ๕ ใบ ใบละคาถา เผาเป็นสมุก ผสมขี้รัก ปั้นเป็นลูกประคำ ๕ ลูก ลงนะโมพุทธายะลูกละอักขระ เสก ๑๐๘ คาบ ผูกเอวเมื่อไปหาขุนนาง สูตรนี้เป็นประคำ ไม่ใช่พระพิมพ์ แต่เนื้อคือเนื้อเดียวกัน คำศัพท์วัสดุของคลังเรียกผงใบลานว่าตะเข็บระหว่างสองคลัง — คัมภีร์ที่ถูกเผาแล้วกลับมาเป็นวัตถุบูชา",
+  "story_en": "Manuscript 6983 (p. 97) gives the material its recipe, for favour before nobles, commanders, monks and brahmins: inscribe five palm leaves, one stanza per leaf, burn them to a black ash, mix with lac scrapings and roll into five prayer-beads; inscribe one syllable of Namo Phutthaya on each and empower it 108 times; tie the beads at the waist when going before a lord. That is a bead recipe, not a tablet, but the paste is the same paste. The vault's material axis calls phong bai lan the seam between the two corpora made literal — scripture consumed and re-embodied as an object of veneration. The tablet form is a temple issue; which temples, and when, this record cannot name.",
+  "keeping_th": "ไม่มีผู้อยู่ ไม่ต้องเลี้ยง บูชาได้โดยไม่ต้องรู้ประวัติ คำถามคือของแท้และราคา",
+  "keeping_en": "Nobody home, nothing owed. Safe to adopt with unknown history; the provenance question is authenticity, and, if a listing names the manuscript, whether that claim holds."
+ },
+ "sources": [
+  "s:holding-key",
+  "s:vault-classes",
+  "s:vault-materials",
+  "s:ms6983",
+  "s:tradition"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition",
+   "source": "s:tradition"
+  },
+  "fields": {
+   "axes": {
+    "tier": "catalogue",
+    "source": "s:vault-classes"
+   },
+   "axes.materials": {
+    "tier": "catalogue",
+    "source": "s:vault-materials"
+   },
+   "axes.functions": {
+    "tier": "catalogue",
+    "source": "s:ms6983",
+    "note": "popularity before nobles, invulnerability, protection on journeys — the bead recipe's own claims"
+   },
+   "text.what_en": {
+    "tier": "catalogue",
+    "source": "s:holding-key"
+   },
+   "text.story_en": {
+    "tier": "catalogue",
+    "source": "s:ms6983",
+    "note": "bilingual.md lines 3615–3640 (printed p. 97, ประคำ ๕ ลูก แบบที่ ๒)"
+   },
+   "text.keeping_en": {
+    "tier": "catalogue",
+    "source": "s:vault-classes"
+   },
+   "form.shape_en": {
+    "tier": "inference",
+    "note": "mould varies by issuing temple; the colour is the vault's material description"
+   },
+   "market": {
+    "tier": "catalogue",
+    "source": "s:holding-key"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-02",
+ "class_facts": {
+  "key": "phra_khrueang",
+  "term": "พระเครื่อง",
+  "roman": "phra khrueang",
+  "en_gloss": "Buddhist amulet",
+  "resident": "none",
+  "upkeep": "none",
+  "provenance_sensitivity": "low",
+  "definition": "A votive Buddha image or famous-monk amulet. Power = the barami of the maker plus the consecration (ปลุกเสก). No occupant. Its provenance question is purely one of authenticity and market value, never of spiritual safety.",
+  "confidence": "high"
+ },
+ "function_terms": [
+  {
+   "key": "metta_maha_niyom",
+   "term": "เมตตามหานิยม",
+   "roman": "metta maha niyom",
+   "en": "loving-kindness and wide popularity",
+   "definition": "Broad social favour — people are well-disposed, superiors are lenient, customers return. Built on เมตตา, the Buddhist virtue, and respectable to carry and to sell."
+  },
+  {
+   "key": "khong_kraphan",
+   "term": "คงกระพัน",
+   "roman": "khong kraphan",
+   "en": "invulnerability to blades",
+   "definition": "The body cannot be cut or pierced. Classically paired with ชาตรี in the martial compound คงกระพันชาตรี. Says nothing about firearms — that is มหาอุด."
+  },
+  {
+   "key": "khlaeo_khlat",
+   "term": "แคล้วคลาด",
+   "roman": "khlaeo khlat",
+   "en": "evasion, narrow escape",
+   "definition": "Harm passes by — the accident happens to the next vehicle, the bullet goes wide, you left the building early. Distinct in kind from คงกระพัน: nothing strikes you at all, so nothing needs to be resisted."
+  }
+ ],
+ "material_terms": [
+  {
+   "key": "phong_bai_lan",
+   "term": "ผงใบลาน",
+   "roman": "phong bai lan",
+   "en": "burnt palm-leaf manuscript ash",
+   "definition": "Paste incorporating the ash of burnt palm-leaf manuscripts — scripture that has been consumed and re-embodied as an object of veneration. This is the seam between the two corpora made literal: the same ใบลาน this archive catalogues as text appears in the market as material. Where a listing names a specific manuscript or temple source, that is a provenance claim worth recording separately."
+  },
+  {
+   "key": "nuea_phong",
+   "term": "เนื้อผง",
+   "roman": "nuea phong",
+   "en": "sacred-powder paste",
+   "definition": "Consecrated powder bound with a binder (traditionally banana sap, lime, oil) and pressed. The material of the พระสมเด็จ and of most temple issues since. Because the recipe is reproducible and the mould is copyable, this is the most heavily reproduced material in the trade — which is precisely why the reference literature on it is the deepest."
+  }
+ ],
+ "region_terms": [
+  {
+   "key": "th",
+   "th": "ทั่วประเทศไทย",
+   "en": "Thailand, not regionally specific"
+  }
+ ],
+ "market_stats": {
+  "listings": 20,
+  "priced": 20,
+  "median_thb": 299.0,
+  "typical_thb": [
+   86.04,
+   599.0
+  ],
+  "source": "s:catalog-db",
+  "tier": "catalogue",
+  "note": "title matches only; delete-then-test excludes applied"
+ },
+ "primary_image": null,
+ "tier_labels": {
+  "en": {
+   "catalogue": "Catalogue — checkable against the corpus (catalog.db, a transcribed treatise)",
+   "cited": "Cited — a named external source, linked",
+   "tradition": "Tradition — general knowledge of the wider tradition, hedged",
+   "inference": "Inference — this project's own reasoning from the above",
+   "field": "Field — someone stood there"
+  },
+  "th": {
+   "catalogue": "จากคลัง",
+   "cited": "อ้างอิงแหล่ง",
+   "tradition": "ตามประเพณี",
+   "inference": "อนุมาน",
+   "field": "พบเห็นเอง"
+  }
+ }
+}

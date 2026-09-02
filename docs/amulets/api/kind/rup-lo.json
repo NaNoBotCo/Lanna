@@ -1,0 +1,311 @@
+{
+ "schema": 1,
+ "id": "rup-lo",
+ "level": "kind",
+ "parent": null,
+ "names": {
+  "th": "รูปหล่อ",
+  "roman": "rup lo",
+  "en": "cast monk figure",
+  "aliases": {
+   "th": [
+    "รูปหล่อโบราณ",
+    "รูปหล่อลอยองค์",
+    "รูปเหมือนหล่อ",
+    "รูปหล่อปั๊ม"
+   ],
+   "roman": [
+    "roop lor",
+    "rup lor",
+    "roop lor boran"
+   ],
+   "en": [
+    "cast monk statuette",
+    "loi ong figure"
+   ]
+  }
+ },
+ "region": [
+  "th"
+ ],
+ "axes": {
+  "class": "phra_khrueang",
+  "functions": [
+   "metta_maha_niyom",
+   "khum_khrong",
+   "khlaeo_khlat"
+  ],
+  "materials": [
+   "nuea_loha",
+   "thonglueang",
+   "samrit",
+   "nawaloha",
+   "ngoen"
+  ],
+  "figures": [
+   "monk"
+  ]
+ },
+ "form": {
+  "type": "figure",
+  "shape_th": "รูปพระสงฆ์นั่งสมาธิลอยองค์ หล่อโลหะ ฐานมักมีชื่อหรือโค้ด ขนาดห้อยคอถึงตั้งโต๊ะ",
+  "shape_en": "A free-standing cast monk seated in meditation; the base often carries a name or a stamped code. Pendant size up to altar size",
+  "size_mm": [
+   15,
+   25,
+   10
+  ],
+  "wearable_th": "ห้อยคอในตลับ หรือตั้งบูชา",
+  "wearable_en": "Worn in a case, or set on the altar in the larger sizes",
+  "obverse_th": "หน้าพระสงฆ์ ศีรษะโล้น ห่มจีวร",
+  "obverse_en": "The monk's face, shaven head, robes",
+  "reverse_th": "หลังจีวร ใต้ฐานมีรอยตัดชนวนหรืออุดกริ่ง บางรุ่นตอกโค้ด",
+  "reverse_en": "Robe folds; the underside shows the cut sprue or a plugged cavity, and on modern runs a stamped code",
+  "notes_en": "Size given is a pendant piece. รูปหล่อโบราณ (old cast) and รูปหล่อปั๊ม (die-struck three-dimensional) are trade distinctions in the making method."
+ },
+ "iconography": [
+  {
+   "th": "พระสงฆ์นั่งสมาธิ",
+   "en": "a monk seated in meditation"
+  },
+  {
+   "th": "ศีรษะโล้น ไม่มีอุษณีษะ",
+   "en": "shaven head, no ushnisha — a monk, not a Buddha"
+  },
+  {
+   "th": "ชื่อหรืออักขระที่ฐาน",
+   "en": "a name or letters on the base"
+  }
+ ],
+ "origin": {
+  "wat_slug": null,
+  "wat_th": "",
+  "wat_en": "",
+  "maker_th": "วัดและสำนักทั่วประเทศ",
+  "maker_en": "Temples nationwide; the trade's reference lineage for the old cast form is Luang Pho Ngoen of Wat Bang Khlan",
+  "era_th": "รัตนโกสินทร์ถึงปัจจุบัน",
+  "era_en": "Rattanakosin to the present",
+  "place_th": "ทั่วประเทศ",
+  "place_en": "Nationwide",
+  "first_attested": ""
+ },
+ "diagnostics": [
+  {
+   "th": "ลอยองค์สามมิติ ไม่ใช่เหรียญแบน",
+   "en": "Fully three-dimensional; a flat portrait is a medallion",
+   "source": "s:holding-key",
+   "tier": "catalogue"
+  },
+  {
+   "th": "หัวโล้น จีวร ไม่มีอุษณีษะ ไม่มีฐานบัว — พระสงฆ์ ไม่ใช่พระพุทธรูป",
+   "en": "Bald, robed, no ushnisha and usually no lotus base: a monk, not a Buddha",
+   "source": "s:vault-classes",
+   "tier": "catalogue"
+  },
+  {
+   "th": "ใต้ฐานมีรอยตัดชนวน รอยตะไบ หรือรูอุด",
+   "en": "Underside shows a cut sprue, file marks, or a plugged pour hole; casting leaves these, striking does not",
+   "source": "s:tradition",
+   "tier": "tradition"
+  },
+  {
+   "th": "รุ่นใหม่มักตอกโค้ดและหมายเลข",
+   "en": "Modern temple runs usually stamp a code and serial number; a type mark, not a proof",
+   "source": "s:tradition",
+   "tier": "tradition"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "rian-kechi",
+   "tell_th": "รูปหล่อลอยองค์ · เหรียญแบนมีหู",
+   "tell_en": "A rup lo is in the round; a rian kechi is a flat struck disc with a loop"
+  },
+  {
+   "id": "phra-kring",
+   "tell_th": "พระกริ่งเป็นพระพุทธรูปมีเม็ดกริ่ง · รูปหล่อเป็นพระสงฆ์",
+   "tell_en": "A kring is a Buddha with a lotus base and a pellet; a rup lo is a monk, and a pellet in one is the exception the trade names separately"
+  },
+  {
+   "id": "luang-pu-thuat",
+   "tell_th": "รูปหล่อหลวงปู่ทวดคือรูปหล่อของท่านองค์เดียว มีรูปแบบเฉพาะ",
+   "tell_en": "A cast Luang Pu Thuat is a rup lo of one monk with its own canonical forms; the kind here is the general form"
+  },
+  {
+   "id": "rup-lersi",
+   "tell_th": "ฤๅษีมีหนวดเครา หนังเสือ · รูปหล่อเป็นพระสงฆ์โล้น",
+   "tell_en": "A lersi wears a beard and tiger skin; a rup lo is a shaven monk in robes"
+  }
+ ],
+ "market": {
+  "search": [
+   "รูปหล่อ"
+  ],
+  "excludes": [],
+  "tier": "both"
+ },
+ "media": {
+  "commons_categories": [],
+  "commons_files": [],
+  "wanted_en": "No free pendant-size cast monk found on Wikimedia Commons as of 2026-09-02; every รูปหล่อ hit is a temple-size statue. Needed: a pendant piece front, side and underside showing the sprue cut or code"
+ },
+ "images": [],
+ "text": {
+  "what_th": "รูปพระสงฆ์นั่งสมาธิหล่อโลหะลอยองค์ คือญาติสามมิติของเหรียญ มีตั้งแต่ขนาดห้อยคอถึงตั้งบูชา พลังอยู่ที่บารมีของท่านและการปลุกเสก ไม่มีผู้อยู่",
+  "what_en": "A small cast statue of a monk seated in meditation — the medallion's three-dimensional cousin, from pendant size up to the altar.",
+  "story_th": "วงการแยกรูปหล่อโบราณที่หล่อแบบเทดินไทย จากรูปหล่อปั๊มยุคหลัง สายที่ยกเป็นแบบอย่างคือหลวงพ่อเงิน วัดบางคลาน ทุกวันนี้แทบทุกวัดออกรูปหล่อของเกจิของตน พร้อมโค้ดและหมายเลข",
+  "story_en": "The trade separates the old lost-wax or sand-cast pieces (รูปหล่อโบราณ) from later die-struck three-dimensional ones (รูปหล่อปั๊ม), and holds Luang Pho Ngoen of Wat Bang Khlan as the reference lineage for the old form. Today most temples issue a cast figure of their own master with a code and serial, sold in the same batches as the medallion.",
+  "keeping_th": "ไม่มีผู้อยู่ ไม่ต้องเลี้ยง",
+  "keeping_en": "Nobody home, nothing owed; a phra khrueang."
+ },
+ "sources": [
+  "s:holding-key",
+  "s:vault-classes",
+  "s:vault-materials",
+  "s:amulet-reference",
+  "s:tradition"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition",
+   "source": "s:tradition"
+  },
+  "fields": {
+   "axes": {
+    "tier": "catalogue",
+    "source": "s:vault-classes"
+   },
+   "text.what_en": {
+    "tier": "catalogue",
+    "source": "s:holding-key"
+   },
+   "text.keeping_en": {
+    "tier": "catalogue",
+    "source": "s:vault-classes"
+   },
+   "market": {
+    "tier": "catalogue",
+    "source": "s:holding-key"
+   },
+   "form.size_mm": {
+    "tier": "inference",
+    "note": "pendant piece; altar sizes far larger"
+   },
+   "origin.maker_en": {
+    "tier": "tradition",
+    "source": "s:amulet-reference",
+    "note": "Luang Pho Ngoen / Wat Bang Khlan named on card F·18 as a lineage; the rest is trade lore"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-02",
+ "class_facts": {
+  "key": "phra_khrueang",
+  "term": "พระเครื่อง",
+  "roman": "phra khrueang",
+  "en_gloss": "Buddhist amulet",
+  "resident": "none",
+  "upkeep": "none",
+  "provenance_sensitivity": "low",
+  "definition": "A votive Buddha image or famous-monk amulet. Power = the barami of the maker plus the consecration (ปลุกเสก). No occupant. Its provenance question is purely one of authenticity and market value, never of spiritual safety.",
+  "confidence": "high"
+ },
+ "function_terms": [
+  {
+   "key": "metta_maha_niyom",
+   "term": "เมตตามหานิยม",
+   "roman": "metta maha niyom",
+   "en": "loving-kindness and wide popularity",
+   "definition": "Broad social favour — people are well-disposed, superiors are lenient, customers return. Built on เมตตา, the Buddhist virtue, and respectable to carry and to sell."
+  },
+  {
+   "key": "khum_khrong",
+   "term": "คุ้มครอง",
+   "roman": "khum khrong",
+   "en": "general protection, watching over",
+   "definition": "Unspecified guardianship. **A holding pen, not a category** — when a source says only คุ้มครอง it usually has not said which of the specific functions above it means. Treat its presence as a gap to close, not an answer."
+  },
+  {
+   "key": "khlaeo_khlat",
+   "term": "แคล้วคลาด",
+   "roman": "khlaeo khlat",
+   "en": "evasion, narrow escape",
+   "definition": "Harm passes by — the accident happens to the next vehicle, the bullet goes wide, you left the building early. Distinct in kind from คงกระพัน: nothing strikes you at all, so nothing needs to be resisted."
+  }
+ ],
+ "material_terms": [
+  {
+   "key": "nuea_loha",
+   "term": "เนื้อโลหะ",
+   "roman": "nuea loha",
+   "en": "metal (unspecified)",
+   "definition": "Metal, unspecified. Common in listings precisely because it commits to nothing. Recorded as its own term rather than resolved, because the vagueness is itself the datum — a seller who can name the alloy usually does."
+  },
+  {
+   "key": "thonglueang",
+   "term": "ทองเหลือง",
+   "roman": "thonglueang",
+   "en": "brass",
+   "definition": "Brass. The most-named metal in the corpus by a wide margin — the everyday material of altar goods, pendant frames and mass issues. High occurrence here reflects volume at the low end of the market, not regard."
+  },
+  {
+   "key": "samrit",
+   "term": "สัมฤทธิ์",
+   "roman": "samrit",
+   "en": "bronze",
+   "definition": "Bronze. The body of most พระบูชา (altar images) as distinct from the small worn amulet. Spelled both สัมฤทธิ์ and สำริด in the market."
+  },
+  {
+   "key": "nawaloha",
+   "term": "นวโลหะ",
+   "roman": "nawaloha",
+   "en": "nine-metal alloy",
+   "definition": "An alloy of nine metals cast to a prescribed recipe, each metal contributed for its own quality. Highly regarded, and the claim cannot be read off the finished object — which makes the record of the casting (which foundry, which ceremony, which year) the actual asset. A register entry is worth more here than a photograph."
+  },
+  {
+   "key": "ngoen",
+   "term": "เนื้อเงิน",
+   "roman": "nuea ngoen",
+   "en": "silver",
+   "definition": "Silver. Usually the middle tier of a struck issue — a รุ่น commonly runs ทองแดง, เงิน, ทองคำ from the same die, in descending quantity and ascending regard."
+  }
+ ],
+ "region_terms": [
+  {
+   "key": "th",
+   "th": "ทั่วประเทศไทย",
+   "en": "Thailand, not regionally specific"
+  }
+ ],
+ "market_stats": {
+  "listings": 88,
+  "priced": 88,
+  "median_thb": 98.5,
+  "typical_thb": [
+   49.0,
+   500.0
+  ],
+  "source": "s:catalog-db",
+  "tier": "catalogue",
+  "note": "title matches only; delete-then-test excludes applied"
+ },
+ "primary_image": null,
+ "tier_labels": {
+  "en": {
+   "catalogue": "Catalogue — checkable against the corpus (catalog.db, a transcribed treatise)",
+   "cited": "Cited — a named external source, linked",
+   "tradition": "Tradition — general knowledge of the wider tradition, hedged",
+   "inference": "Inference — this project's own reasoning from the above",
+   "field": "Field — someone stood there"
+  },
+  "th": {
+   "catalogue": "จากคลัง",
+   "cited": "อ้างอิงแหล่ง",
+   "tradition": "ตามประเพณี",
+   "inference": "อนุมาน",
+   "field": "พบเห็นเอง"
+  }
+ }
+}

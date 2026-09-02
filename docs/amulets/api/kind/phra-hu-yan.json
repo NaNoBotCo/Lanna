@@ -1,0 +1,287 @@
+{
+ "schema": 1,
+ "id": "phra-hu-yan",
+ "level": "kind",
+ "parent": null,
+ "names": {
+  "th": "พระหูยาน",
+  "roman": "phra hu yan",
+  "en": "Phra Hu Yan (Lopburi long-eared tablet)",
+  "aliases": {
+   "th": [
+    "หูยาน",
+    "พระหูยานลพบุรี"
+   ],
+   "roman": [
+    "phra huyan",
+    "phra hoo yarn",
+    "hu yan lopburi"
+   ],
+   "en": [
+    "long-eared Buddha tablet"
+   ]
+  }
+ },
+ "region": [
+  "th-central"
+ ],
+ "axes": {
+  "class": "phra_khrueang",
+  "functions": [
+   "khong_kraphan",
+   "metta_maha_niyom"
+  ],
+  "materials": [
+   "nuea_chin",
+   "sanim_daeng",
+   "nuea_din"
+  ],
+  "figures": [
+   "buddha"
+  ]
+ },
+ "form": {
+  "type": "tablet",
+  "shape_th": "แผ่นทรงสูง ปลายบนแหลม เนื้อชินเป็นหลัก",
+  "shape_en": "A tall tablet with a pointed top, most often in chin alloy",
+  "size_mm": [
+   22,
+   40,
+   4
+  ],
+  "wearable_th": "ห้อยคอในตลับ",
+  "wearable_en": "Worn at the neck in a case",
+  "obverse_th": "องค์พระนั่งสมาธิราบ พระกรรณยาวจรดพระอังสา เม็ดพระศกเป็นแถว",
+  "obverse_en": "A Buddha seated flat in meditation, ears reaching the shoulders, hair in rows of curls",
+  "reverse_th": "หลังร่อง หรือเรียบ",
+  "reverse_en": "Grooved (หลังร่อง) or plain",
+  "notes_en": "Thai Wikipedia describes clay examples; the trade's principal body is chin ngoen. Both materials recorded; the alloy carried at tradition tier."
+ },
+ "iconography": [
+  {
+   "th": "พระกรรณยาวจรดบ่า — ที่มาของชื่อ",
+   "en": "ears down to the shoulders, which gives the name"
+  },
+  {
+   "th": "นั่งสมาธิราบ",
+   "en": "seated in flat meditation posture"
+  },
+  {
+   "th": "เม็ดพระศกเป็นแถว เกตุมาลาชั้นเดียว (บางองค์สองชั้น)",
+   "en": "hair in linear rows; single-tier ushnisha, two-tier on some"
+  },
+  {
+   "th": "ศิลปะลพบุรี (ขอม) สายมหายาน/มนตรยาน",
+   "en": "Lopburi (Khmer) style, from the Mahayana / Mantrayana current per Thai Wikipedia"
+  }
+ ],
+ "origin": {
+  "wat_slug": null,
+  "wat_th": "วัดพระศรีรัตนมหาธาตุ ลพบุรี (ปฐมกรุ)",
+  "wat_en": "Wat Phra Si Rattana Mahathat, Lopburi, the primary cache; also found at sites in Phetchaburi, Sukhothai, Chainat, Ayutthaya, Sing Buri and Uttaradit",
+  "maker_th": "",
+  "maker_en": "",
+  "era_th": "ปลายสมัยลพบุรี กรุแตกครั้งแรกราว พ.ศ. ๒๔๕๐ (กรุเก่า) ครั้งที่สองราว พ.ศ. ๒๕๐๘ (กรุใหม่)",
+  "era_en": "Late Lopburi period per Thai Wikipedia; the cache first opened about B.E. 2450 (the 'old cache') and again about B.E. 2508 (the 'new cache')",
+  "place_th": "ลพบุรี",
+  "place_en": "Lopburi",
+  "first_attested": "กรุแตก ~พ.ศ. 2450 (th.wikipedia)"
+ },
+ "diagnostics": [
+  {
+   "th": "พระกรรณยาวจรดพระอังสา",
+   "en": "Ears reaching the shoulders: the defining mark",
+   "source": "s:th-wiki-hu-yan",
+   "tier": "cited"
+  },
+  {
+   "th": "เม็ดพระศกเรียงเป็นแถว เกตุมาลาชั้นเดียว",
+   "en": "Hair curls in straight rows with a single-tier ushnisha",
+   "source": "s:th-wiki-hu-yan",
+   "tier": "cited"
+  },
+  {
+   "th": "หลังร่อง",
+   "en": "A grooved reverse on many pieces",
+   "source": "s:th-wiki-hu-yan",
+   "tier": "cited"
+  },
+  {
+   "th": "กรุเก่ากับกรุใหม่แยกกันด้วยผิวและคราบ",
+   "en": "Old-cache and new-cache pieces are separated by surface and crust, per the trade",
+   "source": "s:th-wiki-hu-yan",
+   "tier": "cited"
+  },
+  {
+   "th": "เนื้อชินอ่านอายุจากสนิม — ชินเงิน ชินตะกั่ว สนิมแดง",
+   "en": "Chin bodies date by patina, sorted as silvery, lead-heavy or red-rust; the patina is a surface state, not a verdict",
+   "source": "s:vault-materials",
+   "tier": "catalogue"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "phra-kru",
+   "tell_th": "หูยานคือพระกรุที่มีชื่อ กรุวัดพระศรีรัตนมหาธาตุ ลพบุรี",
+   "tell_en": "Hu Yan is one named cache-find; phra kru is the category. The long ears and the Lopburi style name this one."
+  },
+  {
+   "id": "phra-nang-phaya",
+   "tell_th": "นางพญาดินเผาสามเหลี่ยม อยุธยา · หูยานทรงสูง เนื้อชิน ลพบุรี",
+   "tell_en": "Nang Phaya is a fired-clay triangle of the Ayutthaya period; Hu Yan is a tall tablet, usually chin alloy, in Lopburi style. Same class, different material axis."
+  },
+  {
+   "id": "rup-lo",
+   "tell_th": "รูปหล่อเป็นรูปลอยตัวหล่อโลหะ · หูยานเป็นแผ่นพิมพ์",
+   "tell_en": "A rup lo is a cast figure in the round; Hu Yan is a pressed or cast tablet with a back."
+  }
+ ],
+ "market": {
+  "search": [
+   "หูยาน"
+  ],
+  "excludes": [],
+  "tier": "both"
+ },
+ "media": {
+  "commons_categories": [],
+  "commons_files": [],
+  "wanted_en": "No free photograph found on Wikimedia Commons as of 2026-09-02 (searches for พระหูยาน, Phra Hu Yan, Lopburi votive tablet returned nothing usable). Needed: obverse showing the ears reaching the shoulders, the grooved reverse, and an edge view of a chin piece."
+ },
+ "images": [],
+ "text": {
+  "what_th": "พระพิมพ์ศิลปะลพบุรีจากกรุวัดพระศรีรัตนมหาธาตุ ลพบุรี องค์พระนั่งสมาธิราบ พระกรรณยาวจรดบ่า จึงได้ชื่อ เนื้อชินเป็นหลัก เชื่อกันเรื่องคงกระพัน ไม่มีผู้ใดสถิตอยู่",
+  "what_en": "A Lopburi-style tablet from the cache at Wat Phra Si Rattana Mahathat, Lopburi: a Buddha seated flat in meditation whose ears run down to the shoulders, which is the name. Mostly chin alloy. Held for invulnerability. Nobody is home.",
+  "story_th": "วิกิพีเดียไทยว่าเป็นพระสายมหายาน/มนตรยาน ปลายสมัยลพบุรี กรุแตกครั้งแรกราว พ.ศ. ๒๔๕๐ และอีกครั้งราว พ.ศ. ๒๕๐๘ วงการจึงแยกเป็นกรุเก่ากับกรุใหม่ พบกระจายหลายจังหวัด แต่กรุลพบุรีเป็นปฐมกรุ",
+  "story_en": "Thai Wikipedia places it in the Mahayana and Mantrayana current of the late Lopburi period, with the primary cache at Wat Phra Si Rattana Mahathat. The cache opened first around B.E. 2450 and again around B.E. 2508, so the trade speaks of an old cache and a new one, and examples surfaced in several other provinces. The attributed powers are invulnerability and loving-kindness.",
+  "keeping_th": "ไม่มีผู้อยู่ ไม่ต้องเลี้ยง บูชาได้โดยไม่ต้องรู้ประวัติ",
+  "keeping_en": "Nobody home, nothing owed. Safe to adopt with unknown history; its provenance question is age and authenticity, never spiritual safety."
+ },
+ "sources": [
+  "s:vault-classes",
+  "s:vault-materials",
+  "s:vault-functions",
+  "s:th-wiki-phra-khrueang",
+  "s:en-wiki-thai-amulet",
+  "s:tradition",
+  "s:th-wiki-hu-yan"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:th-wiki-hu-yan"
+  },
+  "fields": {
+   "axes": {
+    "tier": "catalogue",
+    "source": "s:vault-classes"
+   },
+   "axes.materials": {
+    "tier": "tradition",
+    "source": "s:tradition",
+    "note": "chin ngoen as the principal body is the trade's account; the article mentions clay"
+   },
+   "form.size_mm": {
+    "tier": "inference",
+    "note": "typical range, not measured"
+   },
+   "text.keeping_en": {
+    "tier": "catalogue",
+    "source": "s:vault-classes"
+   },
+   "market": {
+    "tier": "inference",
+    "note": "search term chosen by this record"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-02",
+ "class_facts": {
+  "key": "phra_khrueang",
+  "term": "พระเครื่อง",
+  "roman": "phra khrueang",
+  "en_gloss": "Buddhist amulet",
+  "resident": "none",
+  "upkeep": "none",
+  "provenance_sensitivity": "low",
+  "definition": "A votive Buddha image or famous-monk amulet. Power = the barami of the maker plus the consecration (ปลุกเสก). No occupant. Its provenance question is purely one of authenticity and market value, never of spiritual safety.",
+  "confidence": "high"
+ },
+ "function_terms": [
+  {
+   "key": "khong_kraphan",
+   "term": "คงกระพัน",
+   "roman": "khong kraphan",
+   "en": "invulnerability to blades",
+   "definition": "The body cannot be cut or pierced. Classically paired with ชาตรี in the martial compound คงกระพันชาตรี. Says nothing about firearms — that is มหาอุด."
+  },
+  {
+   "key": "metta_maha_niyom",
+   "term": "เมตตามหานิยม",
+   "roman": "metta maha niyom",
+   "en": "loving-kindness and wide popularity",
+   "definition": "Broad social favour — people are well-disposed, superiors are lenient, customers return. Built on เมตตา, the Buddhist virtue, and respectable to carry and to sell."
+  }
+ ],
+ "material_terms": [
+  {
+   "key": "nuea_chin",
+   "term": "เนื้อชิน",
+   "roman": "nuea chin",
+   "en": "tin-lead alloy",
+   "definition": "A tin-lead alloy cast or pressed into votive tablets, characteristic of pieces recovered from กรุ (stupa deposits). Conventionally divided by patina into ชินเงิน (silvery), ชินตะกั่ว (lead-heavy) and ชินสนิมแดง (red-rust)."
+  },
+  {
+   "key": "sanim_daeng",
+   "term": "สนิมแดง",
+   "roman": "sanim daeng",
+   "en": "red rust patina",
+   "definition": "The red lead-oxide crust that forms on ชิน over long burial. Named as a material in the market but functioning as an age claim — which is why it is both prized and reproduced. Recorded here as a surface state, not as a verdict on age."
+  },
+  {
+   "key": "nuea_din",
+   "term": "เนื้อดิน",
+   "roman": "nuea din",
+   "en": "clay body",
+   "definition": "Clay pressed in a mould and fired. The body of พระรอด, พระนางพญา and พระผงสุพรรณ — the last of which is named ผง but is fired earth, a naming trap worth knowing. Fire colour ranges widely within a single kiln load, so colour alone settles nothing."
+  }
+ ],
+ "region_terms": [
+  {
+   "key": "th-central",
+   "th": "ภาคกลาง",
+   "en": "Central Thailand (Bangkok, Ayutthaya basin)"
+  }
+ ],
+ "market_stats": {
+  "listings": 2,
+  "priced": 2,
+  "median_thb": 339.0,
+  "typical_thb": [
+   219.0,
+   459.0
+  ],
+  "source": "s:catalog-db",
+  "tier": "catalogue",
+  "note": "title matches only; delete-then-test excludes applied"
+ },
+ "primary_image": null,
+ "tier_labels": {
+  "en": {
+   "catalogue": "Catalogue — checkable against the corpus (catalog.db, a transcribed treatise)",
+   "cited": "Cited — a named external source, linked",
+   "tradition": "Tradition — general knowledge of the wider tradition, hedged",
+   "inference": "Inference — this project's own reasoning from the above",
+   "field": "Field — someone stood there"
+  },
+  "th": {
+   "catalogue": "จากคลัง",
+   "cited": "อ้างอิงแหล่ง",
+   "tradition": "ตามประเพณี",
+   "inference": "อนุมาน",
+   "field": "พบเห็นเอง"
+  }
+ }
+}

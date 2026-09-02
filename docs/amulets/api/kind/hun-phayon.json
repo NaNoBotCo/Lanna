@@ -1,0 +1,270 @@
+{
+ "schema": 1,
+ "id": "hun-phayon",
+ "level": "kind",
+ "parent": null,
+ "names": {
+  "th": "หุ่นพยนต์",
+  "roman": "hun phayon",
+  "en": "Hun Payon (animated effigy)",
+  "aliases": {
+   "th": [
+    "พยนต์",
+    "หุ่นพยนต์เฝ้าทรัพย์",
+    "หุ่นฟาง"
+   ],
+   "roman": [
+    "hun payon",
+    "hoon payon",
+    "hun payont",
+    "hun phayont"
+   ],
+   "en": [
+    "servant effigy",
+    "straw golem",
+    "guardian effigy"
+   ]
+  }
+ },
+ "region": [
+  "th-central",
+  "th"
+ ],
+ "axes": {
+  "class": "hun_phayon",
+  "functions": [
+   "khum_khrong",
+   "kan_phi"
+  ],
+  "materials": [
+   "nuea_din"
+  ],
+  "figures": [
+   "human"
+  ]
+ },
+ "form": {
+  "type": "figure",
+  "shape_th": "รูปคนถือกระบอง ปั้นจากดินป่าช้า หรือหุ่นผูกจากซังข้าว ๓๒ เส้น ถือหอก",
+  "shape_en": "A man-shaped figure: moulded from cremation-ground earth holding a club (method 1), or bound from 32 rice-straw stalks with a spear (method 2). Modern retail pieces are small cloth or straw figures, sometimes wrapped in a yantra cloth and cased.",
+  "size_mm": null,
+  "wearable_th": "ไม่ได้ห้อยคอ ตั้งไว้ในโรงศาลเล็กๆ",
+  "wearable_en": "Not worn in the treatise form; it is housed in a small shrine. Cased pocket versions exist in the modern market.",
+  "obverse_th": "รูปคนทั้งตัว มักมีผ้ายันต์พันหรือหุ้ม",
+  "obverse_en": "A whole figure, often wrapped or clothed in cloth inscribed with yantra",
+  "reverse_th": "",
+  "reverse_en": "",
+  "notes_en": "The treatise seals a yantra wrapped around one fueang of quicksilver, plus a bone of a person who died an untimely death, inside the belly."
+ },
+ "iconography": [
+  {
+   "th": "รูปคนถือกระบองหรือหอก",
+   "en": "a man holding a club or spear"
+  },
+  {
+   "th": "ยันต์สี่เหลี่ยมครอบข้าวหลามตัด (ตารางเลข ๑–๘)",
+   "en": "square yantra enclosing a diamond magic square numbered 1–8"
+  },
+  {
+   "th": "ผ้าห่อจากผ้าห่มศพ",
+   "en": "clothing cut from cloth that dressed a corpse (method 2)"
+  }
+ ],
+ "origin": {
+  "wat_slug": null,
+  "wat_th": "",
+  "wat_en": "",
+  "maker_th": "ตำราสร้างเครื่องรางของขลัง (ไม่ระบุผู้แต่ง)",
+  "maker_en": "Anonymous amulet-making treatise, manuscript 6983",
+  "era_th": "ตำราไม่ระบุปี",
+  "era_en": "Undated treatise; the practice is older than any surviving print of it",
+  "place_th": "ประเพณีภาคกลาง",
+  "place_en": "Central Thai tradition",
+  "first_attested": ""
+ },
+ "diagnostics": [
+  {
+   "th": "เป็นรูปคน ไม่ใช่องค์พระ ไม่ใช่เหรียญ",
+   "en": "It is a person-shaped figure, never a Buddha image or a medallion",
+   "source": "s:vault-classes",
+   "tier": "catalogue"
+  },
+  {
+   "th": "วัสดุคือดิน ฟาง ผ้า หรือโลหะหล่อ ไม่ใช่ผงอัดพิมพ์",
+   "en": "Body is earth, straw, cloth or cast metal, not pressed powder",
+   "source": "s:ms6983",
+   "tier": "catalogue"
+  },
+  {
+   "th": "มักมีผ้ายันต์พันหรือรูที่ท้องสำหรับบรรจุ",
+   "en": "Look for a yantra wrapping and a sealed cavity in the belly where the charge sits",
+   "source": "s:ms6983",
+   "tier": "catalogue"
+  },
+  {
+   "th": "ตำราให้ทำโรงศาลเล็กๆ และเซ่นเหล้าข้าวทุกวัน — ของที่ต้องเลี้ยงคือหุ่นพยนต์ ไม่ใช่พระเครื่อง",
+   "en": "The treatise houses it in a small shrine and feeds it liquor and rice daily. A kept-and-fed object is a hun payon or a kuman, never a phra khrueang",
+   "source": "s:ms6983",
+   "tier": "catalogue"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "phra-somdet",
+   "tell_th": "หุ่นพยนต์คือหุ่นที่ถูกปลุกให้ทำงาน ต้องเซ่น · พระสมเด็จคือองค์พระอัดผง ไม่มีผู้อยู่",
+   "tell_en": "A hun payon is a figure compelled to serve and fed; a somdej is a pressed Buddha tablet with nobody home. Ask what the object is shaped like and whether its keeper feeds it — both answers separate them."
+  },
+  {
+   "id": "kuman-thong",
+   "tell_th": "กุมารทองเป็นรูปเด็กที่มีวิญญาณเด็กเลี้ยงไว้อย่างลูก · หุ่นพยนต์เป็นรูปผู้ใหญ่ถืออาวุธ เป็นการปลุกให้ขยับ ไม่ใช่ผีที่มีชื่อ",
+   "tell_en": "A kuman thong is a child figure housing a raised child-spirit, kept as family; a hun payon is an armed adult figure whose occupant is an animation, not a named ghost. Class and upkeep differ."
+  },
+  {
+   "id": "nang-kwak",
+   "tell_th": "นางกวักเป็นรูปหญิงกวักมือ เป็นเทพที่บูชา · หุ่นพยนต์เฝ้าทรัพย์และขู่โจร",
+   "tell_en": "Nang Kwak is a beckoning woman venerated for trade; a hun payon guards property and frightens thieves"
+  }
+ ],
+ "market": {
+  "search": [
+   "หุ่นพยนต์",
+   "พยนต์"
+  ],
+  "excludes": [],
+  "tier": "retail"
+ },
+ "media": {
+  "commons_categories": [],
+  "commons_files": [],
+  "wanted_en": "No free photograph found on Wikimedia Commons as of 2026-09-02. Needed: a straw or cloth figure whole, and a detail of the yantra wrapping. Nan's own photograph, or a line drawing from the treatise's description, fills this."
+ },
+ "images": [],
+ "text": {
+  "what_th": "หุ่นรูปคน — ดิน ฟาง ผ้า หรือโลหะ — ที่ถูกปลุกด้วยยันต์และคาถาให้ทำหน้าที่เป็นผู้รับใช้หรือผู้เฝ้า ผู้อยู่ในหุ่นคือสิ่งที่ถูกบังคับให้ขยับ ไม่ใช่ผีที่มีชื่อหรือเทพที่บูชา จึงเป็นหมวดของตัวเอง",
+  "what_en": "An effigy — figure, cloth, or metal — animated by yantra and spell to act as a servant or guardian. The occupant is a compelled animation rather than a named ghost or venerated deva, which is what makes it its own class.",
+  "story_th": "ตำราให้สองวิธี วิธีแรกปั้นดินป่าช้าสามแห่งเป็นรูปคนถือกระบอง ลงยันต์ห่อปรอทหนักหนึ่งเฟื้องยัดลงท้อง ใส่กระดูกผีตายโหง แล้วอธิษฐานให้เฝ้าคนร้าย “ให้ทำแต่เพียงลำบาก อย่าให้ถึงตาย” วิธีที่สองผูกหุ่นจากซังข้าว ๓๒ เส้น ใช้ไม้ทิ่มผีเป็นตอกและเป็นหอก ภาวนาอาการ ๓๒ จนเสร็จ แล้วปลุกด้วยคาถา “ปลุก ปลุก ปลุก”",
+  "story_en": "The treatise gives two recipes. In the first, earth from three cremation grounds is moulded into a man holding a club; a yantra wrapped round a fueang of quicksilver goes into the belly with the bone of someone who died an untimely death, and the maker resolves aloud that it should watch for thieves and cause them only hardship, never death. In the second, thirty-two stalks of rice straw are bound with splints of corpse-prodding wood, dressed in cloth that dressed a corpse, given a spear, and the maker meditates through the thirty-two parts of the body while binding, then wakes it with a katha whose Thai words are simply 'wake, wake, wake'. It goes into a small shrine, gets liquor and rice every day, and is told its instructions. Thieves, the text says, see it as a living person.",
+  "keeping_th": "ถวายความเคารพ เซ่นเหล้าข้าวตามตำรา และสั่งความให้รู้หน้าที่",
+  "keeping_en": "Kept with respect: offerings and regard, and told its job. Worth asking who kept it before you."
+ },
+ "sources": [
+  "s:vault-classes",
+  "s:ms6983",
+  "s:holding-key",
+  "s:amulet-reference"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "catalogue",
+   "source": "s:ms6983",
+   "note": "bilingual.md lines 3034–3092 (printed pp. 77–78)"
+  },
+  "fields": {
+   "axes": {
+    "tier": "catalogue",
+    "source": "s:vault-classes"
+   },
+   "text.what_en": {
+    "tier": "catalogue",
+    "source": "s:vault-classes"
+   },
+   "form.shape_en": {
+    "tier": "catalogue",
+    "source": "s:ms6983",
+    "note": "modern retail forms: tradition"
+   },
+   "form.wearable_en": {
+    "tier": "tradition",
+    "source": "s:tradition"
+   },
+   "names.aliases": {
+    "tier": "inference",
+    "note": "romanisation variants seen in listings and on the wichaa /hun page"
+   },
+   "market": {
+    "tier": "catalogue",
+    "source": "s:holding-key"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-02",
+ "class_facts": {
+  "key": "hun_phayon",
+  "term": "หุ่นพยนต์",
+  "roman": "hun phayon",
+  "en_gloss": "animated effigy / servant-golem",
+  "resident": "animated",
+  "upkeep": "veneration",
+  "provenance_sensitivity": "medium",
+  "definition": "An effigy — figure, cloth, or metal — ANIMATED by yantra and spell to act as a servant or guardian. The occupant is a compelled animation rather than a named ghost or venerated deva, which is what makes it its own class. Ms 6983 gives the recipe outright: ตำราสร้างหุ่นพยนต์ แบบที่ ๑ / ๒, beside the ritual knife (มีดหมอ) used to make it. The courtroom Hanuman — held in the mouth, given commands — is one of these.",
+  "confidence": "high"
+ },
+ "function_terms": [
+  {
+   "key": "khum_khrong",
+   "term": "คุ้มครอง",
+   "roman": "khum khrong",
+   "en": "general protection, watching over",
+   "definition": "Unspecified guardianship. **A holding pen, not a category** — when a source says only คุ้มครอง it usually has not said which of the specific functions above it means. Treat its presence as a gap to close, not an answer."
+  },
+  {
+   "key": "kan_phi",
+   "term": "กันผี",
+   "roman": "kan phi",
+   "en": "warding spirits",
+   "definition": "Against ผี specifically — the dead, the hungry, the malicious — not against human violence. A different threat model from คงกระพัน entirely."
+  }
+ ],
+ "material_terms": [
+  {
+   "key": "nuea_din",
+   "term": "เนื้อดิน",
+   "roman": "nuea din",
+   "en": "clay body",
+   "definition": "Clay pressed in a mould and fired. The body of พระรอด, พระนางพญา and พระผงสุพรรณ — the last of which is named ผง but is fired earth, a naming trap worth knowing. Fire colour ranges widely within a single kiln load, so colour alone settles nothing."
+  }
+ ],
+ "region_terms": [
+  {
+   "key": "th-central",
+   "th": "ภาคกลาง",
+   "en": "Central Thailand (Bangkok, Ayutthaya basin)"
+  },
+  {
+   "key": "th",
+   "th": "ทั่วประเทศไทย",
+   "en": "Thailand, not regionally specific"
+  }
+ ],
+ "market_stats": {
+  "listings": 349,
+  "priced": 349,
+  "median_thb": 299.0,
+  "typical_thb": [
+   89.0,
+   650.0
+  ],
+  "source": "s:catalog-db",
+  "tier": "catalogue",
+  "note": "title matches only; delete-then-test excludes applied"
+ },
+ "primary_image": null,
+ "tier_labels": {
+  "en": {
+   "catalogue": "Catalogue — checkable against the corpus (catalog.db, a transcribed treatise)",
+   "cited": "Cited — a named external source, linked",
+   "tradition": "Tradition — general knowledge of the wider tradition, hedged",
+   "inference": "Inference — this project's own reasoning from the above",
+   "field": "Field — someone stood there"
+  },
+  "th": {
+   "catalogue": "จากคลัง",
+   "cited": "อ้างอิงแหล่ง",
+   "tradition": "ตามประเพณี",
+   "inference": "อนุมาน",
+   "field": "พบเห็นเอง"
+  }
+ }
+}

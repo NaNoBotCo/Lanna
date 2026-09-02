@@ -1,0 +1,37 @@
+{
+ "name": "Amulet Essentials · สารบบเครื่องราง",
+ "short_name": "Amulets",
+ "start_url": "./identify/index.html?source=pwa",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#fbf8f2",
+ "theme_color": "#1f6f6b",
+ "lang": "th",
+ "description": "Photograph an amulet; see which kind it resembles, with its record in Thai and English.",
+ "icons": [
+  {
+   "src": "icon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml",
+   "purpose": "any"
+  }
+ ],
+ "share_target": {
+  "action": "./identify/share",
+  "method": "POST",
+  "enctype": "multipart/form-data",
+  "params": {
+   "title": "title",
+   "text": "text",
+   "url": "url",
+   "files": [
+    {
+     "name": "photo",
+     "accept": [
+      "image/*"
+     ]
+    }
+   ]
+  }
+ }
+}

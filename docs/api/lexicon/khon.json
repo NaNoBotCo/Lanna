@@ -68,6 +68,201 @@
      "pattern": "N+PRON",
      "head": 0,
      "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + สรรพนามบุรุษที่ 1 เป็นคำแทนตัวผู้พ"
+    },
+    {
+     "th": "คนละ",
+     "rtgs": "khon-la",
+     "ipa": "/kʰon˧.laʔ˦˥/",
+     "gloss": {
+      "en": [
+       "each"
+      ],
+      "th": "คนหนึ่ง ๆ, แต่ละคน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คน",
+      "ละ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ละ"
+     ],
+     "lit": "stir + to leave",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง"
+    },
+    {
+     "th": "ผู้คน",
+     "rtgs": "phu-khon",
+     "ipa": "/pʰuː˥˩.kʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนทั่วไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผู้",
+      "คน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "คำใช้แทนคำว่า คนหรือสิ่งที่ถือเสมื + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
+     "frame": "entity"
+    },
+    {
+     "th": "หมีคน",
+     "rtgs": "mi-khon",
+     "ipa": "/miː˩˩˦.kʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อสัตว์เลี้ยงลูกด้วยน้ำนมชนิด Ursus malayanus ในวงศ์ Ursidae (หมี) เป็นสัตว์กินเนื้อ ออกลูกเป็นตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมี",
+      "คน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "bear + stir",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมในวงศ์ Urs + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
+     "frame": "entity"
+    },
+    {
+     "th": "กลางคน",
+     "rtgs": "klang-khon",
+     "ipa": "/klaːŋ˧.kʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีอายุพ้นวัยหนุ่มสาว แต่ยังไม่แก่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กลาง",
+      "คน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "middle + stir",
+     "lit_th": "ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
+     "flips_with": "คนกลาง",
+     "frame": "entity"
+    },
+    {
+     "th": "เดนคน",
+     "rtgs": "den-khon",
+     "ipa": "/deːn˧.kʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนที่เลวทรามจนไม่น่าจะถือว่าเป็นคน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เดน",
+      "คน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ของเหลือที่ไม่ต้องการแล้ว + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
+     "frame": "entity"
+    },
+    {
+     "th": "เกินคน",
+     "rtgs": "koen-khon",
+     "ipa": "/kɤːn˧.kʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยิ่งกว่าคนสามัญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "คน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "เกิน"
+     ],
+     "lit": "to exceed + stir",
+     "lit_th": "พ้น + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
+     "frame": "quality"
     }
    ]
   },
@@ -159,6 +354,510 @@
      ],
      "lit": "stir + outside",
      "lit_th": "คำใช้ประกอบคำนามหรือคำกริยาแสดงว่า + ตรงข้ามกับใน"
+    },
+    {
+     "th": "คนเจ็บ",
+     "rtgs": "khon-chep",
+     "ipa": "/kʰon˧.t͡ɕep̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ป่วย, ผู้บาดเจ็บ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "เจ็บ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "stir + hurt",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ป่วยไข้"
+    },
+    {
+     "th": "คนสุก",
+     "rtgs": "khon-suk",
+     "ipa": "/kʰon˧.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชายที่บวชเป็นพระภิกษุและสึกแล้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "สุก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + พ้นจากห่าม"
+    },
+    {
+     "th": "คนสนิท",
+     "rtgs": "khon-sa-nit",
+     "ipa": "/kʰon˧.sa˨˩.nit̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนที่รักใคร่คุ้นเคยกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "สนิท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + อย่างใกล้ชิด",
+     "frame": "quality"
+    },
+    {
+     "th": "คนดี",
+     "rtgs": "khon-di",
+     "ipa": "/kʰon˧.diː˧/",
+     "gloss": {
+      "en": [
+       "brick"
+      ],
+      "th": "คนที่มีคุณความดี, คนที่มีคุณธรรม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คน",
+      "ดี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ดี"
+     ],
+     "lit": "stir + good",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+     "frame": "quality"
+    },
+    {
+     "th": "คนกลาง",
+     "rtgs": "khon-klang",
+     "ipa": "/kʰon˧.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "comprador"
+      ],
+      "th": "ผู้ถือเป็นกลางไม่เข้าข้างฝ่ายโน้นฝ่ายนี้ในเหตุการณ์ที่เกิดขึ้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คน",
+      "กลาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "stir + middle",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "flips_with": "กลางคน",
+     "frame": "entity"
+    },
+    {
+     "th": "คนสึก",
+     "translit_auto": "khnsuek",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทหาร (คนศึก)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "สึก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + กร่อนไป"
+    },
+    {
+     "th": "คนใช้",
+     "rtgs": "khon-chai",
+     "ipa": "/kʰon˧.t͡ɕʰaj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนที่มีหน้าที่คอยรับใช้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "ใช้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "stir + consume",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + บังคับให้ทำ"
+    },
+    {
+     "th": "คนทรง",
+     "rtgs": "khon-song",
+     "ipa": "/kʰon˧.soŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนที่ทำพิธีทรงเจ้า, คนที่เป็นร่างให้วิญญาณหรือสิ่งศักดิ์สิทธิ์เข้าสิง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "ทรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทรง"
+     ],
+     "lit": "stir + form",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + รูปร่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "คนป่วย",
+     "rtgs": "khon-puai",
+     "ipa": "/kʰon˧.pua̯j˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ป่วย, ผู้บาดเจ็บ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "ป่วย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "stir + sick",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + รู้สึกไม่สบายเพราะโรคหรือความไข้หร"
+    },
+    {
+     "th": "คนไข้",
+     "rtgs": "khon-khai",
+     "ipa": "/kʰon˧.kʰaj˥˩/",
+     "gloss": {
+      "en": [
+       "patient"
+      ],
+      "th": "ผู้ป่วย, ผู้บาดเจ็บ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คน",
+      "ไข้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ความเจ็บป่วย",
+     "frame": "entity"
+    },
+    {
+     "th": "คนดิบ",
+     "rtgs": "khon-dip",
+     "ipa": "/kʰon˧.dip̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชายที่ยังไม่ได้บวชเป็นพระภิกษุ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "ดิบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "stir + animal",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ยังไม่สุก",
+     "frame": "quality"
+    },
+    {
+     "th": "คนโกหก",
+     "rtgs": "khon-ko-hok",
+     "ipa": "/kʰon˧.koː˧.hok̚˨˩/",
+     "gloss": {
+      "en": [
+       "liar"
+      ],
+      "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คน",
+      "โกหก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "stir + mendacious",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + จงใจกล่าวคำที่ไม่จริง"
+    },
+    {
+     "th": "คนงาน",
+     "rtgs": "khon-ngan",
+     "ipa": "/kʰon˧.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ใช้แรงในการทำงานเพื่อรับค่าตอบแทน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "งาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "งาน"
+     ],
+     "lit": "stir + job",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "คนอื่น",
+     "rtgs": "khon-uen",
+     "ipa": "/kʰon˧.ʔɯːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำใช้เรียกแทนคนที่นอกเหนือจากผู้พูดหรือผู้ที่กล่าวถึง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "อื่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "stir + other",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + นอกออกไป",
+     "frame": "quality"
+    },
+    {
+     "th": "คนอื่น ๆ",
+     "rtgs": "khon-uen-uen",
+     "ipa": "/kʰon˧.ʔɯːn˨˩.ʔɯːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำใช้เรียกแทนคนที่นอกเหนือจากผู้พูดหรือผู้ที่กล่าวถึง, มักหมายถึงหลายคน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "อื่น ๆ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "stir + else",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + นอกออกไป",
+     "frame": "quality"
+    },
+    {
+     "th": "คนใน",
+     "rtgs": "khon-nai",
+     "ipa": "/kʰon˧.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุคคลที่เป็นพวกเดียวกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "ใน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 0,
+     "cross_listed": [
+      "ใน"
+     ],
+     "lit": "stir + in",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ตรงกันข้ามกับ นอก"
     }
    ],
    "extends": 1,
@@ -219,6 +918,40 @@
      "pattern": "V+N",
      "head": 1,
      "lit_th": "กระทบเรียดไป + กิริยาที่เอามือหรือสิ่งอื่นกวนเพื่"
+    },
+    {
+     "th": "ไข่คน",
+     "rtgs": "khai-khon",
+     "ipa": "/kʰaj˨˩.kʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ที่ทำให้สุกโดยการคนเร็ว ๆ ในภาชนะที่ตั้งบนไฟ อาจใส่ผักหรือเนื้อเพิ่มเล็กน้อย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "คน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไข่"
+     ],
+     "lit": "egg + stir",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
+     "frame": "entity"
     }
    ],
    "needs_check": [
@@ -279,344 +1012,6 @@
    "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + รับว่าจะใช้เงินให้"
   },
   {
-   "th": "คนเจ็บ",
-   "rtgs": "khon-chep",
-   "ipa": "/kʰon˧.t͡ɕep̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ป่วย, ผู้บาดเจ็บ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "เจ็บ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "stir + hurt",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ป่วยไข้"
-  },
-  {
-   "th": "คนสุก",
-   "rtgs": "khon-suk",
-   "ipa": "/kʰon˧.suk̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชายที่บวชเป็นพระภิกษุและสึกแล้ว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "สุก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + พ้นจากห่าม"
-  },
-  {
-   "th": "คนละ",
-   "rtgs": "khon-la",
-   "ipa": "/kʰon˧.laʔ˦˥/",
-   "gloss": {
-    "en": [
-     "each"
-    ],
-    "th": "คนหนึ่ง ๆ, แต่ละคน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คน",
-    "ละ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "cross_listed": [
-    "ละ"
-   ],
-   "lit": "stir + to leave",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง"
-  },
-  {
-   "th": "ผู้คน",
-   "rtgs": "phu-khon",
-   "ipa": "/pʰuː˥˩.kʰon˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คนทั่วไป",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ผู้",
-    "คน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "คำใช้แทนคำว่า คนหรือสิ่งที่ถือเสมื + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
-   "frame": "entity"
-  },
-  {
-   "th": "คนสนิท",
-   "rtgs": "khon-sa-nit",
-   "ipa": "/kʰon˧.sa˨˩.nit̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คนที่รักใคร่คุ้นเคยกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "สนิท"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + อย่างใกล้ชิด",
-   "frame": "quality"
-  },
-  {
-   "th": "หมีคน",
-   "rtgs": "mi-khon",
-   "ipa": "/miː˩˩˦.kʰon˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชื่อสัตว์เลี้ยงลูกด้วยน้ำนมชนิด Ursus malayanus ในวงศ์ Ursidae (หมี) เป็นสัตว์กินเนื้อ ออกลูกเป็นตัว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หมี",
-    "คน"
-   ],
-   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "use": "biological",
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "bear + stir",
-   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมในวงศ์ Urs + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
-   "frame": "entity"
-  },
-  {
-   "th": "คนดี",
-   "rtgs": "khon-di",
-   "ipa": "/kʰon˧.diː˧/",
-   "gloss": {
-    "en": [
-     "brick"
-    ],
-    "th": "คนที่มีคุณความดี, คนที่มีคุณธรรม",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คน",
-    "ดี"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "cross_listed": [
-    "ดี"
-   ],
-   "lit": "stir + good",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
-   "frame": "quality"
-  },
-  {
-   "th": "คนกลาง",
-   "rtgs": "khon-klang",
-   "ipa": "/kʰon˧.klaːŋ˧/",
-   "gloss": {
-    "en": [
-     "comprador"
-    ],
-    "th": "ผู้ถือเป็นกลางไม่เข้าข้างฝ่ายโน้นฝ่ายนี้ในเหตุการณ์ที่เกิดขึ้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คน",
-    "กลาง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "กลาง"
-   ],
-   "lit": "stir + middle",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
-   "flips_with": "กลางคน",
-   "frame": "entity"
-  },
-  {
-   "th": "คนสึก",
-   "translit_auto": "khnsuek",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทหาร (คนศึก)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "สึก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + กร่อนไป"
-  },
-  {
-   "th": "คนใช้",
-   "rtgs": "khon-chai",
-   "ipa": "/kʰon˧.t͡ɕʰaj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คนที่มีหน้าที่คอยรับใช้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "ใช้"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "stir + consume",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + บังคับให้ทำ"
-  },
-  {
-   "th": "กลางคน",
-   "rtgs": "klang-khon",
-   "ipa": "/klaːŋ˧.kʰon˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีอายุพ้นวัยหนุ่มสาว แต่ยังไม่แก่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กลาง",
-    "คน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "กลาง"
-   ],
-   "lit": "middle + stir",
-   "lit_th": "ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
-   "flips_with": "คนกลาง",
-   "frame": "entity"
-  },
-  {
    "th": "คนโท",
    "rtgs": "khon-tho",
    "ipa": "/kʰon˧.tʰoː˧/",
@@ -647,39 +1042,6 @@
    "lit": "stir + two",
    "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + สอง",
    "use": "false-split"
-  },
-  {
-   "th": "คนทรง",
-   "rtgs": "khon-song",
-   "ipa": "/kʰon˧.soŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คนที่ทำพิธีทรงเจ้า, คนที่เป็นร่างให้วิญญาณหรือสิ่งศักดิ์สิทธิ์เข้าสิง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "ทรง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "ทรง"
-   ],
-   "lit": "stir + form",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + รูปร่าง",
-   "frame": "entity"
   },
   {
    "th": "บังคน",
@@ -713,65 +1075,6 @@
    "lit": "to screen + stir",
    "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
    "use": "false-split"
-  },
-  {
-   "th": "คนป่วย",
-   "rtgs": "khon-puai",
-   "ipa": "/kʰon˧.pua̯j˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ป่วย, ผู้บาดเจ็บ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "ป่วย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "stir + sick",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + รู้สึกไม่สบายเพราะโรคหรือความไข้หร"
-  },
-  {
-   "th": "คนไข้",
-   "rtgs": "khon-khai",
-   "ipa": "/kʰon˧.kʰaj˥˩/",
-   "gloss": {
-    "en": [
-     "patient"
-    ],
-    "th": "ผู้ป่วย, ผู้บาดเจ็บ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คน",
-    "ไข้"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ความเจ็บป่วย",
-   "frame": "entity"
   },
   {
    "th": "คนที",
@@ -838,128 +1141,6 @@
    "frame": "entity"
   },
   {
-   "th": "ไข่คน",
-   "rtgs": "khai-khon",
-   "ipa": "/kʰaj˨˩.kʰon˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไข่ที่ทำให้สุกโดยการคนเร็ว ๆ ในภาชนะที่ตั้งบนไฟ อาจใส่ผักหรือเนื้อเพิ่มเล็กน้อย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไข่",
-    "คน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ไข่"
-   ],
-   "lit": "egg + stir",
-   "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
-   "frame": "entity"
-  },
-  {
-   "th": "คนดิบ",
-   "rtgs": "khon-dip",
-   "ipa": "/kʰon˧.dip̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ชายที่ยังไม่ได้บวชเป็นพระภิกษุ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "ดิบ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "lit": "stir + animal",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ยังไม่สุก",
-   "frame": "quality"
-  },
-  {
-   "th": "เดนคน",
-   "rtgs": "den-khon",
-   "ipa": "/deːn˧.kʰon˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คนที่เลวทรามจนไม่น่าจะถือว่าเป็นคน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เดน",
-    "คน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "ของเหลือที่ไม่ต้องการแล้ว + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
-   "frame": "entity"
-  },
-  {
-   "th": "คนโกหก",
-   "rtgs": "khon-ko-hok",
-   "ipa": "/kʰon˧.koː˧.hok̚˨˩/",
-   "gloss": {
-    "en": [
-     "liar"
-    ],
-    "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "คน",
-    "โกหก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit": "stir + mendacious",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + จงใจกล่าวคำที่ไม่จริง"
-  },
-  {
    "th": "การระคน",
    "rtgs": "kan-ra-khon",
    "ipa": "/kaːn˧.ra˦˥.kʰon˧/",
@@ -992,164 +1173,6 @@
    "lit": "nominalisation of ระ + stir",
    "lit_th": "คำอาการนามของ ระ + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
    "frame": "entity"
-  },
-  {
-   "th": "คนงาน",
-   "rtgs": "khon-ngan",
-   "ipa": "/kʰon˧.ŋaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผู้ใช้แรงในการทำงานเพื่อรับค่าตอบแทน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "งาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "งาน"
-   ],
-   "lit": "stir + job",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + สิ่งหรือกิจกรรมที่ทำ",
-   "frame": "entity"
-  },
-  {
-   "th": "คนอื่น",
-   "rtgs": "khon-uen",
-   "ipa": "/kʰon˧.ʔɯːn˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำใช้เรียกแทนคนที่นอกเหนือจากผู้พูดหรือผู้ที่กล่าวถึง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "อื่น"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "lit": "stir + other",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + นอกออกไป",
-   "frame": "quality"
-  },
-  {
-   "th": "คนอื่น ๆ",
-   "rtgs": "khon-uen-uen",
-   "ipa": "/kʰon˧.ʔɯːn˨˩.ʔɯːn˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำใช้เรียกแทนคนที่นอกเหนือจากผู้พูดหรือผู้ที่กล่าวถึง, มักหมายถึงหลายคน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "อื่น ๆ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 0,
-   "lit": "stir + else",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + นอกออกไป",
-   "frame": "quality"
-  },
-  {
-   "th": "เกินคน",
-   "rtgs": "koen-khon",
-   "ipa": "/kɤːn˧.kʰon˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยิ่งกว่าคนสามัญ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เกิน",
-    "คน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+N",
-   "head": 1,
-   "cross_listed": [
-    "เกิน"
-   ],
-   "lit": "to exceed + stir",
-   "lit_th": "พ้น + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
-   "frame": "quality"
-  },
-  {
-   "th": "คนใน",
-   "rtgs": "khon-nai",
-   "ipa": "/kʰon˧.naj˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "บุคคลที่เป็นพวกเดียวกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "คน",
-    "ใน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+PREP",
-   "head": 0,
-   "cross_listed": [
-    "ใน"
-   ],
-   "lit": "stir + in",
-   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ตรงกันข้ามกับ นอก"
   }
  ],
  "etymology": {
