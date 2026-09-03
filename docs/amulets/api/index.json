@@ -1,6 +1,6 @@
 {
  "built": "2026-09-03",
- "count": 88,
+ "count": 82,
  "kinds": [
   {
    "id": "ai-khai",
@@ -711,51 +711,6 @@
    "updated": "2026-09-02"
   },
   {
-   "id": "jenglot",
-   "level": "kind",
-   "parent": null,
-   "names": {
-    "th": "เจงล็อต",
-    "roman": "jenglot",
-    "en": "Jenglot (the small mummy-like figure sold as a spirit vessel)",
-    "aliases": {
-     "th": [
-      "เจงโลต",
-      "ตุ๊กตามัมมี่ชวา"
-     ],
-     "roman": [
-      "jengglot",
-      "bethara karang"
-     ],
-     "en": [
-      "Javanese mummy doll",
-      "jenglot doll"
-     ]
-    },
-    "other_scripts": {
-     "id": "jenglot",
-     "ms": "جڠلوت · jenglot",
-     "jv": "jenglot"
-    }
-   },
-   "class": null,
-   "class_term": "ยังไม่ชี้ขาด",
-   "resident": null,
-   "upkeep": null,
-   "region": [
-    "id",
-    "my"
-   ],
-   "form": "figure",
-   "image": null,
-   "listings": null,
-   "what_en": "A palm-high dried dwarf figure with long hair and fangs, sold on the Javanese-Malay market as a spirit vessel to be fed blood or oil. The examinations on record found composites of animal parts and human hair, no skeleton. The vault has no Malay category for a prai-like vessel; class is left null and the seller's claim is recorded as a claim.",
-   "what_th": "รูปคนแคระผิวดำแห้ง สูงราวฝ่ามือ ผมยาว เขี้ยวยื่น ที่ตลาดชวา-มลายูขายเป็น “ภาชนะวิญญาณ” และให้เลี้ยงด้วยเลือดหรือน้ำมัน ผลตรวจที่มีชี้ว่าเป็นของประกอบจากชิ้นส่วนสัตว์และผมคน vault ไม่มีหมวดสำหรับของมลายูชนิดนี้ จึงปล่อยหมวดว่าง",
-   "confidence": "medium",
-   "needs_verification": true,
-   "updated": "2026-09-02"
-  },
-  {
    "id": "jimat",
    "level": "kind",
    "parent": null,
@@ -896,48 +851,6 @@
    "what_th": "มีดสั้นสองคมของโลกมลายู-ชวา โคนไม่สมมาตร ใบตรงหรือคดเลขคี่ ลายพามอร์จากเหล็กซ้อนชั้น ถือเป็นปูซากา (มรดกศักดิ์สิทธิ์) ที่มีทัวะห์หรือ “ผู้อยู่” ในเล่ม ล้างน้ำมันปีละครั้ง ห้ามชักเล่น ห้ามชี้",
    "confidence": "high",
    "needs_verification": false,
-   "updated": "2026-09-02"
-  },
-  {
-   "id": "khiao-suea",
-   "level": "kind",
-   "parent": null,
-   "names": {
-    "th": "เขี้ยวเสือ",
-    "roman": "khiao suea",
-    "en": "Tiger fang (carved tiger charm)",
-    "aliases": {
-     "th": [
-      "เสือ",
-      "เขี้ยวเสือแกะ",
-      "เสือเขี้ยว"
-     ],
-     "roman": [
-      "khiao sua",
-      "kiew sua",
-      "suea"
-     ],
-     "en": [
-      "carved tiger",
-      "tiger tooth amulet"
-     ]
-    }
-   },
-   "class": "khong_thammachat",
-   "class_term": "เครื่องรางธรรมชาติ",
-   "resident": "none",
-   "upkeep": "none",
-   "region": [
-    "th-central",
-    "th"
-   ],
-   "form": "natural",
-   "image": null,
-   "listings": 173,
-   "what_en": "A fang — tiger classically — carved or capped in metal, its power in the animal's own authority. Natural talisman: nothing conferred, nothing to feed. Modern pieces are mostly carved substitutes, which the honest seller says.",
-   "what_th": "เขี้ยว — ตามตำราคือเขี้ยวเสือ — แกะเป็นรูปเสือหรือเลี่ยมทั้งอัน ฤทธิ์อยู่ที่อำนาจของสัตว์เอง ของธรรมชาติ ไม่มีผู้อยู่ ไม่ต้องเลี้ยง ของใหม่ในตลาดส่วนใหญ่เป็นของแกะเลียน",
-   "confidence": "medium",
-   "needs_verification": true,
    "updated": "2026-09-02"
   },
   {
@@ -1132,8 +1045,7 @@
     "aliases": {
      "th": [
       "พระขุนแผน",
-      "ขุนแผนพลายกุมาร",
-      "ขุนแผนพรายกุมาร"
+      "ขุนแผนพลายกุมาร"
      ],
      "roman": [
       "khun paen",
@@ -1155,8 +1067,8 @@
    "form": "tablet",
    "image": "khun-phaen/khun-phaen-khun-paen-wat-bang-krang-dd5c5d.png",
    "listings": 314,
-   "what_en": "A pressed tablet in the classic arch — named for the epic's charm-master, and the one amulet whose material story matters as much as its form. Some are pure powder; some are worked with necromantic material, and the difference does not show on the surface.",
-   "what_th": "พระพิมพ์ในซุ้มเรือนแก้ว ตั้งชื่อตามขุนแผนผู้เชี่ยวชาญวิชาในเสภา — พระเครื่ององค์เดียวที่เรื่องมวลสารสำคัญเท่ากับพิมพ์ทรง บางองค์เป็นผงล้วน บางองค์ผสมมวลสารพราย และผิวไม่บอก",
+   "what_en": "A pressed tablet in the classic arch — named for the epic's charm-master, and the one amulet whose material story matters as much as its form. Some are pure powder; some are worked with other material, and the difference does not show on the surface.",
+   "what_th": "พระพิมพ์ในซุ้มเรือนแก้ว ตั้งชื่อตามขุนแผนผู้เชี่ยวชาญวิชาในเสภา — พระเครื่ององค์เดียวที่เรื่องมวลสารสำคัญเท่ากับพิมพ์ทรง บางองค์เป็นผงล้วน บางองค์ผสมมวลสารอื่น และผิวไม่บอก",
    "confidence": "medium",
    "needs_verification": true,
    "updated": "2026-09-02"
@@ -1480,47 +1392,6 @@
    "updated": "2026-09-02"
   },
   {
-   "id": "luk-krok",
-   "level": "kind",
-   "parent": null,
-   "names": {
-    "th": "ลูกกรอก",
-    "roman": "luk krok",
-    "en": "Luk Krok (preserved-foetus spirit)",
-    "aliases": {
-     "th": [
-      "กุมาร",
-      "ลูกกรอกแห้ง"
-     ],
-     "roman": [
-      "look krok",
-      "luk krog",
-      "look grok"
-     ],
-     "en": [
-      "dried foetus-spirit",
-      "foetus effigy"
-     ]
-    }
-   },
-   "class": "prai",
-   "class_term": "พราย",
-   "resident": "ghost",
-   "upkeep": "feeding_and_closing",
-   "region": [
-    "th-central",
-    "th"
-   ],
-   "form": "figure",
-   "image": null,
-   "listings": 8,
-   "what_en": "A small preserved or effigy foetus-form, kept in oil or cloth — kuman-adjacent in the raising, prai-adjacent in the origin. Of all the kinds on this page, the one whose history most deserves asking in full.",
-   "what_th": "รูปทารกขนาดเล็ก แห้งหรือจำลอง เก็บในน้ำมันหรือห่อผ้า — เลี้ยงอย่างกุมาร แต่ต้นกำเนิดจากการตายก่อนวัยอย่างพราย ในบรรดาของทั้งหมด นี่คือชนิดที่ควรถามประวัติให้ครบที่สุด",
-   "confidence": "medium",
-   "needs_verification": true,
-   "updated": "2026-09-02"
-  },
-  {
    "id": "luk-om",
    "level": "kind",
    "parent": null,
@@ -1533,8 +1404,7 @@
       "ลูกอมผง",
       "ลูกอมเนื้อผง",
       "ลูกอมดำ",
-      "ลูกอมหมากทุย",
-      "ลูกอมพรายกุมาร"
+      "ลูกอมหมากทุย"
      ],
      "roman": [
       "look om",
@@ -1693,48 +1563,6 @@
    "updated": "2026-09-02"
   },
   {
-   "id": "nam-man-phrai",
-   "level": "kind",
-   "parent": null,
-   "names": {
-    "th": "น้ำมันพราย",
-    "roman": "nam man phrai",
-    "en": "Nam Man Phrai (prai oil)",
-    "aliases": {
-     "th": [
-      "น้ำมันเสน่ห์",
-      "น้ำมันพรายกุมาร"
-     ],
-     "roman": [
-      "nam man prai",
-      "namman prai",
-      "nam man phrai kuman"
-     ],
-     "en": [
-      "ghost oil",
-      "corpse oil",
-      "love-charm oil"
-     ]
-    }
-   },
-   "class": "prai",
-   "class_term": "พราย",
-   "resident": "ghost",
-   "upkeep": "feeding_and_closing",
-   "region": [
-    "th-central",
-    "th"
-   ],
-   "form": "oil",
-   "image": null,
-   "listings": 43,
-   "what_en": "An oil rendered by rite from a ghost of violent or untimely death, sold in vials and worked mostly for compulsion in love and trade. The tier the tradition itself cautions hardest about: fed, and closed properly when set down.",
-   "what_th": "น้ำมันที่หุงโดยพิธีจากผีตายโหงหรือตายก่อนวัย ขายเป็นขวด ใช้บังคับใจในเรื่องรักและค้าขายเป็นหลัก เป็นชั้นที่ประเพณีเองเตือนหนักที่สุด: ต้องเลี้ยง และต้องปิดให้ถูกเมื่อเลิกใช้",
-   "confidence": "medium",
-   "needs_verification": true,
-   "updated": "2026-09-02"
-  },
-  {
    "id": "nang-kwak",
    "level": "kind",
    "parent": null,
@@ -1773,47 +1601,6 @@
    "what_th": "นางกวัก หญิงนั่งยกมือกวักเรียกลูกค้า — ทั้งรูปตั้งหิ้งและจี้ เป็นเทพที่บูชาด้วยความเคารพและเครื่องสักการะเล็กน้อย ตลาดทุกแห่งในประเทศทำมาค้าขายใต้มือของนาง",
    "confidence": "high",
    "needs_verification": false,
-   "updated": "2026-09-02"
-  },
-  {
-   "id": "nang-phrai",
-   "level": "kind",
-   "parent": null,
-   "names": {
-    "th": "นางพราย",
-    "roman": "nang phrai",
-    "en": "Nang Phrai (lady-ghost vessel)",
-    "aliases": {
-     "th": [
-      "แม่นางพราย",
-      "โหงพราย",
-      "พราย"
-     ],
-     "roman": [
-      "nang prai",
-      "mae nang phrai",
-      "hong prai"
-     ],
-     "en": [
-      "prai lady",
-      "ghost-woman figure"
-     ]
-    }
-   },
-   "class": "prai",
-   "class_term": "พราย",
-   "resident": "ghost",
-   "upkeep": "feeding_and_closing",
-   "region": [
-    "th"
-   ],
-   "form": "figure",
-   "image": null,
-   "listings": 5,
-   "what_en": "A female ghost of untimely death housed in a figure or locket — the classic แม่นางพราย of the caution-tales. Keeping is a knower's work in the vocabulary's plain words: feeding, and correct closing.",
-   "what_th": "ผีหญิงตายก่อนวัยที่ถูกสถิตไว้ในรูปหรือล็อกเก็ต — แม่นางพรายในเรื่องเตือนใจทั้งหลาย การเลี้ยงเป็นงานของผู้รู้ ตามคำศัพท์หมวด: ต้องเลี้ยง และต้องปิดให้ถูก",
-   "confidence": "low",
-   "needs_verification": true,
    "updated": "2026-09-02"
   },
   {
@@ -3197,52 +2984,6 @@
    "updated": "2026-09-02"
   },
   {
-   "id": "rup-suea",
-   "level": "kind",
-   "parent": null,
-   "names": {
-    "th": "รูปเสือ",
-    "roman": "rup suea",
-    "en": "Carved tiger figure",
-    "aliases": {
-     "th": [
-      "เสือแกะ",
-      "เขี้ยวเสือแกะ",
-      "เสือหลวงพ่อปาน",
-      "เสือผก",
-      "เสือนั่งแท่น",
-      "เสือเผ่น"
-     ],
-     "roman": [
-      "suea kae",
-      "seua",
-      "tiger amulet"
-     ],
-     "en": [
-      "tiger carving",
-      "tiger-fang carving",
-      "Luang Pho Pan tiger"
-     ]
-    }
-   },
-   "class": "yantra_wattu",
-   "class_term": "วัตถุมงคล (ยันต์)",
-   "resident": "none",
-   "upkeep": "none",
-   "region": [
-    "th-central",
-    "th"
-   ],
-   "form": "figure",
-   "image": null,
-   "listings": 9,
-   "what_en": "A small tiger carved from a fang, wood, bone or metal, inscribed with syllables and woken by chant; the treatise has it held in the mouth for authority before the powerful. Nobody home. The Wat Bang Hia line of Luang Pho Pan is the famous one.",
-   "what_th": "รูปเสือตัวเล็กแกะจากเขี้ยว ไม้ งา หรือหล่อโลหะ ลงอักขระตามตัวแล้วปลุกเสก ตำราให้อมไป มีอำนาจตบะเมื่อเข้าหาผู้ใหญ่ ไม่มีผู้อยู่ ไม่ต้องเลี้ยง ของสายหลวงพ่อปานวัดบางเหี้ยเป็นที่รู้จักที่สุด",
-   "confidence": "high",
-   "needs_verification": false,
-   "updated": "2026-09-02"
-  },
-  {
    "id": "sai-sin",
    "level": "kind",
    "parent": null,
@@ -3522,8 +3263,7 @@
       "ตะกรุดโทน",
       "ตะกรุดคู่",
       "ตะกรุดสามกษัตริย์",
-      "ตะกรุดโสฬส",
-      "ตะกรุดหนังเสือ"
+      "ตะกรุดโสฬส"
      ],
      "roman": [
       "takrud",

@@ -728,9 +728,7 @@
   "Only silver-as-body (เนื้อเงิน, n=37) shows a real lift: median ฿259, p75 ฿700 — bullion showing through at the bottom of the market.",
   "Trade vocabulary lifts asking price ~1.5x: รุ่นแรก ฿198, แท้ ฿197, ปี 25xx ฿199, กล่องเดิม ฿230, หายาก ฿289. Certificate words appear in 3 of 15,295 listings — the retail tier does not certify.",
   "Named monk (หลวงพ่อ/ปู่/ตา, n=3,323) median ฿159 and named temple ฿159: the name is claimed on a quarter of listings but is worth ~฿30 here.",
-  "Jatukham median ฿250 (1.9x) — the 2007 bubble's residue still prices above the floor at retail.",
-  "By class (median of kind medians): เครื่องรางธรรมชาติ ฿184, หุ่นพยนต์ ฿189, พราย ฿200, วัตถุมงคล ฿169, กุมารทอง ฿159, เทพ ฿129, พระเครื่อง ฿121. Spirit-bearing and natural objects out-price Buddha amulets at retail — the reverse of the sian tier, where พระเครื่อง holds every record.",
-  "Highest kind medians: ลูกสะกด ฿440 (n=4), มีดหมอ ฿357, เขี้ยวเสือ ฿300, ลูกอม ฿300, ฉันหมาก ฿299, หุ่นพยนต์ ฿299, นางกวัก ฿272, จตุคาม ฿250, น้ำมันพราย ฿249. Lowest: ไอ้ไข่ ฿79, พญานาค ฿82, เหรียญพระเกจิ ฿89, ท้าวเวสสุวรรณ ฿94, หลวงปู่ทวด ฿99 — the most-copied names are the cheapest."
+  "Jatukham median ฿250 (1.9x) — the 2007 bubble's residue still prices above the floor at retail."
  ],
  "chart_ready": {
   "factor_weights": [
@@ -1402,14 +1400,6 @@
   ],
   "corpus_by_class": [
    {
-    "key": "prai",
-    "label_th": "พราย",
-    "kinds": 3,
-    "median_of_kind_medians": 200.0,
-    "min": 164.0,
-    "max": 249.0
-   },
-   {
     "key": "hun_phayon",
     "label_th": "หุ่นพยนต์",
     "kinds": 2,
@@ -1501,17 +1491,6 @@
     "p75": 459.0
    },
    {
-    "id": "khiao-suea",
-    "label_th": "เขี้ยวเสือ",
-    "label_en": "Tiger fang (carved tiger charm)",
-    "cls": "khong_thammachat",
-    "resident": "none",
-    "n": 173,
-    "median": 300.0,
-    "p25": 69.0,
-    "p75": 3800.0
-   },
-   {
     "id": "luk-om",
     "label_th": "ลูกอม",
     "label_en": "Luk om (mouth-held charm ball)",
@@ -1554,17 +1533,6 @@
     "median": 299.0,
     "p25": 86.04,
     "p75": 599.0
-   },
-   {
-    "id": "rup-suea",
-    "label_th": "รูปเสือ",
-    "label_en": "Carved tiger figure",
-    "cls": "yantra_wattu",
-    "resident": "none",
-    "n": 9,
-    "median": 299.0,
-    "p25": 84.0,
-    "p75": 1111.0
    },
    {
     "id": "waen-phirot",
@@ -1620,17 +1588,6 @@
     "median": 250.0,
     "p25": 100.0,
     "p75": 599.0
-   },
-   {
-    "id": "nam-man-phrai",
-    "label_th": "น้ำมันพราย",
-    "label_en": "Nam Man Phrai (prai oil)",
-    "cls": "prai",
-    "resident": "ghost",
-    "n": 43,
-    "median": 249.0,
-    "p25": 153.17,
-    "p75": 1069.0
    }
   ],
   "corpus_by_kind_bottom": [

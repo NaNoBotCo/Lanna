@@ -49,7 +49,7 @@
   "size_mm": null,
   "wearable_th": "ไม่ได้ห้อย พกตลับ ทาปาก แก้ม กระหม่อม เพดาน หรือติดชายผ้า",
   "wearable_en": "Not worn; carried in a tin and touched to the lips, cheeks, crown, palate or the hem of a cloth",
-  "notes_en": "Class is null on purpose: the vault leaves สีผึ้ง unplaced because the making decides it. Formula 8 cooks in a charnel ground on three skulls; formula 10 cooks three firings in an ordination hall — same tin, different class. materials is empty because the vocabulary has no wax key."
+  "notes_en": "Class is null on purpose: the vault leaves สีผึ้ง unplaced because the making decides it. Formula 8 cooks by a route whose ingredients are not reproduced here; formula 10 cooks three firings in an ordination hall — same tin, different class. materials is empty because the vocabulary has no wax key."
  },
  "iconography": [
   {
@@ -107,8 +107,8 @@
    "tier": "catalogue"
   },
   {
-   "th": "หมวดขึ้นกับการทำ: แบบที่ ๘ หุงในป่าช้าบนหัวผีพราย ผีตายโหง ผีตกน้ำ · แบบที่ ๑๐ หุงในอุโบสถ",
-   "en": "Class follows the making: formula 8 cooks in a charnel ground on the skulls of a phrai, a violent death and a drowning; formula 10 cooks in the ubosot. The pot does not say which; the maker's lineage does",
+   "th": "หมวดขึ้นกับการทำ: แบบที่ ๘ หุงด้วยวิธีที่ตำราให้ไว้ ไม่นำส่วนผสมมาลงที่นี่ · แบบที่ ๑๐ หุงในอุโบสถ",
+   "en": "Class follows the making: formula 8 cooks by a route the treatise gives and this catalogue does not reproduce; formula 10 cooks in the ubosot. The pot does not say which; the maker's lineage does",
    "source": "s:ms6983",
    "tier": "catalogue"
   },
@@ -121,19 +121,9 @@
  ],
  "confusable_with": [
   {
-   "id": "nam-man-phrai",
-   "tell_th": "น้ำมันพรายเป็นน้ำมันจากศพ หมวดพราย ต้องเลี้ยงและปิด · สีผึ้งเป็นขี้ผึ้งหุง หมวดไม่ระบุ",
-   "tell_en": "Prai oil is rendered from a corpse and sits in the prai class — fed and closed; charm wax is cooked beeswax whose class the vocabulary refuses to fix. Formula 8's skull hearth is where the two touch."
-  },
-  {
    "id": "waan",
    "tell_th": "ว่านเป็นพืช · สีผึ้งเป็นของหุงที่อาจใส่ว่าน",
    "tell_en": "Waan is a plant; wax is a cooked salve that may contain waan. One is alive, one is finished."
-  },
-  {
-   "id": "khiao-suea",
-   "tell_th": "ตำราให้เอาเสือแกะใส่ตลับขี้ผึ้ง — ตลับเดียวกัน ของคนละชนิด",
-   "tell_en": "The treatise drops the carved tiger into a wax box as a 'royal love-charm': same tin, two kinds. The fang is natural class; the wax is whatever its cooking made it."
   }
  ],
  "market": {
@@ -152,10 +142,10 @@
  "text": {
   "what_th": "ขี้ผึ้งหุงในตลับเล็ก แตะปากหรือหน้าผากก่อนพูด ขาย หรือจีบ ตำรามี ๑๔ ตำรับเสน่ห์ ของในตลับเป็นอะไรขึ้นกับมือใครหุง",
   "what_en": "A wax or balm in a small tin, touched to lips or brow before speaking, selling, courting. The corpus's formulary holds attraction-wax recipes; what a given pot is depends on whose hands made it.",
-  "story_th": "ตำราหุงสีผึ้งมี ๑๔ แบบ แบบที่ ๑ ปั้นขี้ผึ้งเป็นแม่พระธรณีเหยียบราหู ลงเลขตามตัว เซ่นหัวผีด้วยเหล้าขาว ๓ วัน ไข่วันละฟอง แล้วหุงกับไคลประตูเมือง ไคลเสาตะลุงช้าง ชะมด พิมเสน ลง งะญะพะมะ ที่ก้นหม้อ แบบที่ ๓ ปั้นรูปชายหญิงติดไม้แทงผี ซัดข้าวสารเสกให้จูบกอดกัน ใส่ดีเต่า หุงในเปลือกไข่ แบบที่ ๘ หุงในป่าช้าบนหัวผีพราย ผีตายโหง ผีตกน้ำ แบบที่ ๑๐ หุงสามไฟในอุโบสถ ไฟธาตุ ไฟเพลิง ไฟพระอาทิตย์ แบบที่ ๑๔ ให้เด็กพรหมจารีชื่อรักชื่อดีไปซื้อขี้ผึ้ง ปั้นก้อนเส้าเป็นนนทรี หนุมาน พญาราพ ใช้ทาปาก แก้ม กระหม่อม หรือติดชายผ้า",
-  "story_en": "Fourteen recipes. Formula 1 moulds the wax into Mae Thorani treading Rahu, numbers her limbs, feeds a corpse-head white liquor for three days and an egg a day, then cooks her with moss from the town gate and the elephant post, civet and borneol, with งะญะพะมะ written on the pot. Formula 3 moulds a man and a woman on ghost-piercing sticks, throws consecrated rice until they kiss, adds turtle gall and cooks in an eggshell. Formula 8 cooks in a charnel ground on three skulls; formula 10 takes the wax through three firings in the ordination hall — element, flame and sun — and grades it by how many it survived. Formula 14 sends chaste children named Rak and Di to buy the wax and shapes the hearthstones as Nonthuk, Hanuman and Ravana. It is touched to the lips, cheeks, crown or a hem; Thai Wikipedia's article on ไสยศาสตร์ gives 'consecrate wax and anoint the lips for attraction' as its stock example of a charm.",
-  "keeping_th": "หมวดไม่ระบุ — บางตลับเป็นยาหอมเฉยๆ บางตลับหุงบนหัวผี ผู้เก็บต้องรู้ที่มา ถ้าไม่มีใครบอกได้ ให้ถือเสมือนมีผู้อยู่",
-  "keeping_en": "Unplaced by the class vocabulary, and that refusal is the keeping note: a herbal wax owes nothing, a charnel-cooked one is prai-adjacent and wants the prai record's care. Ask whose hands made it; if nobody can say, treat the tin as if someone were home."
+  "story_th": "ตำราหุงสีผึ้งมี ๑๔ แบบ แบบที่ ๑ ปั้นขี้ผึ้งเป็นแม่พระธรณีเหยียบราหู ลงเลขตามตัว เซ่น ๓ วัน ไข่วันละฟอง แล้วหุงกับไคลประตูเมือง ไคลเสาตะลุงช้าง ชะมด พิมเสน ลง งะญะพะมะ ที่ก้นหม้อ แบบที่ ๓ ปั้นรูปชายหญิงติดไม้แทงผี ซัดข้าวสารเสกให้จูบกอดกัน ใส่ดีเต่า หุงในเปลือกไข่ แบบที่ ๘ ตำราให้สูตรทำ ไม่นำส่วนผสมมาลงที่นี่ แบบที่ ๑๐ หุงสามไฟในอุโบสถ ไฟธาตุ ไฟเพลิง ไฟพระอาทิตย์ แบบที่ ๑๔ ให้เด็กพรหมจารีชื่อรักชื่อดีไปซื้อขี้ผึ้ง ปั้นก้อนเส้าเป็นนนทรี หนุมาน พญาราพ ใช้ทาปาก แก้ม กระหม่อม หรือติดชายผ้า",
+  "story_en": "Fourteen recipes. Formula 1 moulds the wax into Mae Thorani treading Rahu, numbers her limbs, makes offerings for three days with an egg a day, then cooks her with moss from the town gate and the elephant post, civet and borneol, with งะญะพะมะ written on the pot. Formula 3 moulds a man and a woman on ghost-piercing sticks, throws consecrated rice until they kiss, adds turtle gall and cooks in an eggshell. For formula 8 the treatise gives a making-recipe; its ingredients are not reproduced here; formula 10 takes the wax through three firings in the ordination hall — element, flame and sun — and grades it by how many it survived. Formula 14 sends chaste children named Rak and Di to buy the wax and shapes the hearthstones as Nonthuk, Hanuman and Ravana. It is touched to the lips, cheeks, crown or a hem; Thai Wikipedia's article on ไสยศาสตร์ gives 'consecrate wax and anoint the lips for attraction' as its stock example of a charm.",
+  "keeping_th": "หมวดไม่ระบุ — บางตลับเป็นยาหอมเฉยๆ บางตลับหุงด้วยวิธีอีกแบบ ผู้เก็บต้องรู้ที่มา ถ้าไม่มีใครบอกได้ ให้ถือเสมือนมีผู้อยู่",
+  "keeping_en": "Unplaced by the class vocabulary, and that refusal is the keeping note: a herbal wax owes nothing, one cooked by the other route wants a spirit-object's care. Ask whose hands made it; if nobody can say, treat the tin as if someone were home."
  },
  "sources": [
   "s:holding-key",

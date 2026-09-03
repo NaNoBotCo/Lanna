@@ -140,31 +140,6 @@
    "level": "kind"
   },
   {
-   "n": 173,
-   "min": 33.0,
-   "p25": 189.0,
-   "median": 300.0,
-   "p75": 800.0,
-   "p90": 3760.0,
-   "p99": 10239.72,
-   "max": 75000.0,
-   "mean": 1407.73,
-   "id": "khiao-suea",
-   "label_th": "เขี้ยวเสือ",
-   "label_en": "Tiger fang (carved tiger charm)",
-   "cls": "khong_thammachat",
-   "cls_th": "เครื่องรางธรรมชาติ",
-   "resident": "none",
-   "upkeep": "none",
-   "form": "natural",
-   "region": [
-    "th-central",
-    "th"
-   ],
-   "images": 0,
-   "level": "kind"
-  },
-  {
    "n": 104,
    "min": 25.0,
    "p25": 126.75,
@@ -256,31 +231,6 @@
    "upkeep": "none",
    "form": "tablet",
    "region": [
-    "th"
-   ],
-   "images": 0,
-   "level": "kind"
-  },
-  {
-   "n": 9,
-   "min": 84.0,
-   "p25": 189.0,
-   "median": 299.0,
-   "p75": 299.0,
-   "p90": 621.4,
-   "p99": 1062.04,
-   "max": 1111.0,
-   "mean": 352.05,
-   "id": "rup-suea",
-   "label_th": "รูปเสือ",
-   "label_en": "Carved tiger figure",
-   "cls": "yantra_wattu",
-   "cls_th": "วัตถุมงคล (ยันต์)",
-   "resident": "none",
-   "upkeep": "none",
-   "form": "figure",
-   "region": [
-    "th-central",
     "th"
    ],
    "images": 0,
@@ -408,31 +358,6 @@
    "level": "kind"
   },
   {
-   "n": 43,
-   "min": 38.96,
-   "p25": 193.5,
-   "median": 249.0,
-   "p75": 499.0,
-   "p90": 985.0,
-   "p99": 1186.58,
-   "max": 1250.0,
-   "mean": 386.25,
-   "id": "nam-man-phrai",
-   "label_th": "น้ำมันพราย",
-   "label_en": "Nam Man Phrai (prai oil)",
-   "cls": "prai",
-   "cls_th": "พราย",
-   "resident": "ghost",
-   "upkeep": "feeding_and_closing",
-   "form": "oil",
-   "region": [
-    "th-central",
-    "th"
-   ],
-   "images": 0,
-   "level": "kind"
-  },
-  {
    "n": 4,
    "min": 19.0,
    "p25": 131.5,
@@ -479,30 +404,6 @@
     "shan"
    ],
    "images": 22,
-   "level": "kind"
-  },
-  {
-   "n": 5,
-   "min": 149.0,
-   "p25": 199.0,
-   "median": 200.0,
-   "p75": 250.0,
-   "p90": 1900.0,
-   "p99": 2890.0,
-   "max": 3000.0,
-   "mean": 759.6,
-   "id": "nang-phrai",
-   "label_th": "นางพราย",
-   "label_en": "Nang Phrai (lady-ghost vessel)",
-   "cls": "prai",
-   "cls_th": "พราย",
-   "resident": "ghost",
-   "upkeep": "feeding_and_closing",
-   "form": "figure",
-   "region": [
-    "th"
-   ],
-   "images": 0,
    "level": "kind"
   },
   {
@@ -625,31 +526,6 @@
     "th-central"
    ],
    "images": 2,
-   "level": "kind"
-  },
-  {
-   "n": 8,
-   "min": 49.0,
-   "p25": 84.0,
-   "median": 163.5,
-   "p75": 261.5,
-   "p90": 269.0,
-   "p99": 269.0,
-   "max": 269.0,
-   "mean": 166.38,
-   "id": "luk-krok",
-   "label_th": "ลูกกรอก",
-   "label_en": "Luk Krok (preserved-foetus spirit)",
-   "cls": "prai",
-   "cls_th": "พราย",
-   "resident": "ghost",
-   "upkeep": "feeding_and_closing",
-   "form": "figure",
-   "region": [
-    "th-central",
-    "th"
-   ],
-   "images": 0,
    "level": "kind"
   },
   {
@@ -1713,19 +1589,6 @@
  ],
  "classes": [
   {
-   "key": "prai",
-   "label_th": "พราย",
-   "label_en": "necromantic ghost-object",
-   "kinds": 3,
-   "listings": 56,
-   "median_pooled": 249.0,
-   "median_of_kind_medians": 200.0,
-   "min_kind_median": 163.5,
-   "max_kind_median": 249.0,
-   "resident": "ghost",
-   "upkeep": "feeding_and_closing"
-  },
-  {
    "key": "hun_phayon",
    "label_th": "หุ่นพยนต์",
    "label_en": "animated effigy / servant-golem",
@@ -1742,12 +1605,12 @@
    "key": "khong_thammachat",
    "label_th": "เครื่องรางธรรมชาติ",
    "label_en": "natural talisman",
-   "kinds": 6,
-   "listings": 825,
-   "median_pooled": 189.0,
-   "median_of_kind_medians": 184.0,
+   "kinds": 5,
+   "listings": 652,
+   "median_pooled": 159.0,
+   "median_of_kind_medians": 169.0,
    "min_kind_median": 90.0,
-   "max_kind_median": 300.0,
+   "max_kind_median": 279.0,
    "resident": "none",
    "upkeep": "none"
   },
@@ -1755,10 +1618,10 @@
    "key": "yantra_wattu",
    "label_th": "วัตถุมงคล (ยันต์)",
    "label_en": "blessed/inscribed object",
-   "kinds": 17,
-   "listings": 2466,
+   "kinds": 16,
+   "listings": 2457,
    "median_pooled": 149.0,
-   "median_of_kind_medians": 169.0,
+   "median_of_kind_medians": 164.0,
    "min_kind_median": 55.5,
    "max_kind_median": 439.5,
    "resident": "none",
@@ -2030,10 +1893,10 @@
    "key": "nuea_loha",
    "label_th": "เนื้อโลหะ",
    "label_en": "metal (unspecified)",
-   "kinds": 28,
-   "listings": 5491,
+   "kinds": 27,
+   "listings": 5486,
    "median_pooled": 135.0,
-   "median_of_kind_medians": 105.95,
+   "median_of_kind_medians": 104.0,
    "min_kind_median": 78.6,
    "max_kind_median": 357.37,
    "dating_signal": "patina",
@@ -2079,19 +1942,6 @@
    "counterfeit_pressure": "low"
   },
   {
-   "key": "nga",
-   "label_th": "งาช้าง",
-   "label_en": "elephant ivory",
-   "kinds": 1,
-   "listings": 275,
-   "median_pooled": 99.0,
-   "median_of_kind_medians": 99.0,
-   "min_kind_median": 99.0,
-   "max_kind_median": 99.0,
-   "dating_signal": "wear",
-   "counterfeit_pressure": "medium"
-  },
-  {
    "key": "thonglueang",
    "label_th": "ทองเหลือง",
    "label_en": "brass",
@@ -2110,10 +1960,10 @@
    "key": "sakot",
    "label_th": "สะกด",
    "label_en": "subduing, binding, putting to sleep",
-   "kinds": 4,
-   "listings": 242,
+   "kinds": 3,
+   "listings": 233,
    "median_pooled": 299.0,
-   "median_of_kind_medians": 328.19,
+   "median_of_kind_medians": 357.37,
    "min_kind_median": 129.0,
    "max_kind_median": 439.5
   },
@@ -2132,43 +1982,21 @@
    "key": "kambang",
    "label_th": "กำบัง",
    "label_en": "concealment, going unseen",
-   "kinds": 4,
-   "listings": 539,
-   "median_pooled": 299.0,
-   "median_of_kind_medians": 299.5,
+   "kinds": 2,
+   "listings": 357,
+   "median_pooled": 259.0,
+   "median_of_kind_medians": 232.64,
    "min_kind_median": 107.91,
    "max_kind_median": 357.37
-  },
-  {
-   "key": "thoi_khwam",
-   "label_th": "ถ้อยความ",
-   "label_en": "legal dispute — made to retreat",
-   "kinds": 2,
-   "listings": 208,
-   "median_pooled": 250.0,
-   "median_of_kind_medians": 214.5,
-   "min_kind_median": 129.0,
-   "max_kind_median": 300.0
-  },
-  {
-   "key": "maha_laluai",
-   "label_th": "มหาละลวย",
-   "label_en": "infatuation, bewitchment",
-   "kinds": 2,
-   "listings": 281,
-   "median_pooled": 169.0,
-   "median_of_kind_medians": 199.0,
-   "min_kind_median": 149.0,
-   "max_kind_median": 249.0
   },
   {
    "key": "khong_kraphan",
    "label_th": "คงกระพัน",
    "label_en": "invulnerability to blades",
-   "kinds": 19,
-   "listings": 2316,
-   "median_pooled": 140.0,
-   "median_of_kind_medians": 169.0,
+   "kinds": 18,
+   "listings": 2143,
+   "median_pooled": 129.0,
+   "median_of_kind_medians": 164.0,
    "min_kind_median": 90.0,
    "max_kind_median": 439.5
   },
@@ -2176,34 +2004,34 @@
    "key": "maha_saneh",
    "label_th": "มหาเสน่ห์",
    "label_en": "powerful attraction, allure",
-   "kinds": 13,
-   "listings": 3152,
-   "median_pooled": 179.0,
-   "median_of_kind_medians": 168.5,
+   "kinds": 9,
+   "listings": 2922,
+   "median_pooled": 159.0,
+   "median_of_kind_medians": 159.0,
    "min_kind_median": 99.0,
-   "max_kind_median": 300.0
+   "max_kind_median": 272.0
+  },
+  {
+   "key": "maha_laluai",
+   "label_th": "มหาละลวย",
+   "label_en": "infatuation, bewitchment",
+   "kinds": 1,
+   "listings": 238,
+   "median_pooled": 149.0,
+   "median_of_kind_medians": 149.0,
+   "min_kind_median": 149.0,
+   "max_kind_median": 149.0
   },
   {
    "key": "metta_maha_niyom",
    "label_th": "เมตตามหานิยม",
    "label_en": "loving-kindness and wide popularity",
-   "kinds": 31,
-   "listings": 4222,
+   "kinds": 30,
+   "listings": 4213,
    "median_pooled": 149.0,
-   "median_of_kind_medians": 149.0,
+   "median_of_kind_medians": 143.28,
    "min_kind_median": 81.6,
    "max_kind_median": 339.0
-  },
-  {
-   "key": "kha_khai",
-   "label_th": "ค้าขาย",
-   "label_en": "trade, selling",
-   "kinds": 16,
-   "listings": 3483,
-   "median_pooled": 150.0,
-   "median_of_kind_medians": 145.5,
-   "min_kind_median": 89.0,
-   "max_kind_median": 272.0
   },
   {
    "key": "chok_lap",
@@ -2217,12 +2045,23 @@
    "max_kind_median": 279.0
   },
   {
+   "key": "kha_khai",
+   "label_th": "ค้าขาย",
+   "label_en": "trade, selling",
+   "kinds": 15,
+   "listings": 3475,
+   "median_pooled": 150.0,
+   "median_of_kind_medians": 132.0,
+   "min_kind_median": 89.0,
+   "max_kind_median": 272.0
+  },
+  {
    "key": "khlaeo_khlat",
    "label_th": "แคล้วคลาด",
    "label_en": "evasion, narrow escape",
-   "kinds": 30,
-   "listings": 3650,
-   "median_pooled": 129.0,
+   "kinds": 29,
+   "listings": 3477,
+   "median_pooled": 128.93,
    "median_of_kind_medians": 129.0,
    "min_kind_median": 56.63,
    "max_kind_median": 439.5
@@ -2239,15 +2078,15 @@
    "max_kind_median": 129.0
   },
   {
-   "key": "khum_khrong",
-   "label_th": "คุ้มครอง",
-   "label_en": "general protection, watching over",
-   "kinds": 38,
-   "listings": 5651,
+   "key": "thoi_khwam",
+   "label_th": "ถ้อยความ",
+   "label_en": "legal dispute — made to retreat",
+   "kinds": 1,
+   "listings": 35,
    "median_pooled": 129.0,
-   "median_of_kind_medians": 120.2,
-   "min_kind_median": 55.5,
-   "max_kind_median": 299.0
+   "median_of_kind_medians": 129.0,
+   "min_kind_median": 129.0,
+   "max_kind_median": 129.0
   },
   {
    "key": "maha_ut",
@@ -2259,6 +2098,17 @@
    "median_of_kind_medians": 119.0,
    "min_kind_median": 90.0,
    "max_kind_median": 259.0
+  },
+  {
+   "key": "khum_khrong",
+   "label_th": "คุ้มครอง",
+   "label_en": "general protection, watching over",
+   "kinds": 36,
+   "listings": 5638,
+   "median_pooled": 129.0,
+   "median_of_kind_medians": 109.5,
+   "min_kind_median": 55.5,
+   "max_kind_median": 299.0
   },
   {
    "key": "kan_phi",

@@ -10,8 +10,7 @@
   "aliases": {
    "th": [
     "พระขุนแผน",
-    "ขุนแผนพลายกุมาร",
-    "ขุนแผนพรายกุมาร"
+    "ขุนแผนพลายกุมาร"
    ],
    "roman": [
     "khun paen",
@@ -50,9 +49,9 @@
   "wearable_en": "Worn cased at the neck",
   "obverse_th": "องค์พระนั่งสมาธิหรือมารวิชัยในซุ้มเรือนแก้ว บางพิมพ์มีรูปกุมารประกอบ",
   "obverse_en": "A Buddha in meditation or maravijaya inside the arch; some moulds add a kuman figure",
-  "reverse_th": "เรียบ หรือฝังตะกรุด หรือมีรอยจาร บางองค์บรรจุผงพรายกุมาร",
-  "reverse_en": "Plain, or with an embedded takrut or hand-incised yantra; some carry a plug of phrai kuman powder",
-  "notes_en": "The vault measured the seam: of 389 listings naming กุมาร, 106 are ขุนแผน. Buddha-amulet form, prai-kuman material in many makings; upkeep is an amulet's, the provenance question a spirit-object's. The hybrid is measured, not forced."
+  "reverse_th": "เรียบ หรือฝังตะกรุด หรือมีรอยจาร",
+  "reverse_en": "Plain, or with an embedded takrut or hand-incised yantra",
+  "notes_en": "The vault measured the seam: of 389 listings naming กุมาร, 106 are ขุนแผน. Buddha-amulet form; upkeep is an amulet's, the provenance question depends on the making. The hybrid is measured, not forced."
  },
  "iconography": [
   {
@@ -90,8 +89,8 @@
    "tier": "cited"
   },
   {
-   "th": "เนื้อผงหรือเนื้อดิน; ถ้าผสมพรายกุมารมักเห็นเป็นจุดผงสีต่างในเนื้อ หรือมีก้อนบรรจุด้านหลัง",
-   "en": "Powder or fired-clay body; where phrai kuman is worked in, the trade looks for a distinct-coloured powder plug at the back or flecks in the body — but the difference does not reliably show on the surface",
+   "th": "เนื้อผงหรือเนื้อดิน; มวลสารที่ผสมมักไม่แสดงบนผิว บางองค์มีก้อนบรรจุด้านหลัง",
+   "en": "Powder or fired-clay body; the trade looks for a distinct-coloured plug at the back or flecks in the body, but what went in does not reliably show on the surface",
    "source": "s:holding-key",
    "tier": "catalogue"
   },
@@ -102,8 +101,8 @@
    "tier": "tradition"
   },
   {
-   "th": "ชื่อรุ่นบอกมวลสาร: 'พลายกุมาร' หรือ 'พรายกุมาร' ในชื่อคือคำประกาศว่ามีมวลสารพราย",
-   "en": "The line name declares the material: 'phlai kuman' or 'phrai kuman' in the title is the seller's own statement that prai material went in. Read the name before the surface",
+   "th": "ชื่อรุ่นบอกมวลสาร: คำในชื่อรุ่นคือคำประกาศของผู้ขายว่าใส่อะไรลงไป อ่านชื่อก่อนดูผิว",
+   "en": "The line name declares the material: the words in the title are the seller's own statement of what went in. Read the name before the surface",
    "source": "s:vault-classes",
    "tier": "catalogue"
   }
@@ -111,13 +110,13 @@
  "confusable_with": [
   {
    "id": "phra-somdet",
-   "tell_th": "พระสมเด็จสี่เหลี่ยม ซุ้มครอบแก้ว เนื้อขาว · ขุนแผนห้าเหลี่ยม ซุ้มเรือนแก้ว มักผสมมวลสารพราย",
-   "tell_en": "A somdet is a straight-edged rectangle with a bell-glass arch and a white body; a khun phaen is five-sided with a ruean kaeo arch and often carries prai material. Same class by form, different provenance question."
+   "tell_th": "พระสมเด็จสี่เหลี่ยม ซุ้มครอบแก้ว เนื้อขาว · ขุนแผนห้าเหลี่ยม ซุ้มเรือนแก้ว",
+   "tell_en": "A somdet is a straight-edged rectangle with a bell-glass arch and a white body; a khun phaen is five-sided with a ruean kaeo arch. Same class by form, different provenance question."
   },
   {
    "id": "kuman-thong",
-   "tell_th": "กุมารทองเป็นรูปเด็กที่ต้องเลี้ยง · ขุนแผนเป็นพระพิมพ์ที่บูชาอย่างพระเครื่อง แม้เนื้อจะมีพรายกุมาร",
-   "tell_en": "A kuman thong is a child figure you feed; a khun phaen is a Buddha tablet kept like any amulet even when its body carries phrai kuman powder. The scanner tags both 'kuman' because the word is present; the class is not the same."
+   "tell_th": "กุมารทองเป็นรูปเด็กที่ต้องเลี้ยง · ขุนแผนเป็นพระพิมพ์ที่บูชาอย่างพระเครื่อง",
+   "tell_en": "A kuman thong is a child figure you feed; a khun phaen is a Buddha tablet kept like any amulet. The scanner tags both 'kuman' because the word is present; the class is not the same."
   },
   {
    "id": "phra-phong-suphan",
@@ -126,8 +125,8 @@
   },
   {
    "id": "phra-kru",
-   "tell_th": "พระกรุขุนแผนเป็นของกรุเก่าเนื้อดิน · ขุนแผนวัดสร้างใหม่เนื้อผงมักมีมวลสารพราย",
-   "tell_en": "A cache-find khun phaen is old fired clay with nobody home; a modern temple khun phaen is powder and may carry prai material — the name is shared, the material story is not"
+   "tell_th": "พระกรุขุนแผนเป็นของกรุเก่าเนื้อดิน · ขุนแผนวัดสร้างใหม่เนื้อผง มวลสารต่างกัน",
+   "tell_en": "A cache-find khun phaen is old fired clay with nobody home; a modern temple khun phaen is powder with its own material story — the name is shared, the material story is not"
   }
  ],
  "market": {
@@ -183,12 +182,12 @@
   }
  ],
  "text": {
-  "what_th": "พระพิมพ์ในซุ้มเรือนแก้ว ตั้งชื่อตามขุนแผนผู้เชี่ยวชาญวิชาในเสภา — พระเครื่ององค์เดียวที่เรื่องมวลสารสำคัญเท่ากับพิมพ์ทรง บางองค์เป็นผงล้วน บางองค์ผสมมวลสารพราย และผิวไม่บอก",
-  "what_en": "A pressed tablet in the classic arch — named for the epic's charm-master, and the one amulet whose material story matters as much as its form. Some are pure powder; some are worked with necromantic material, and the difference does not show on the surface.",
-  "story_th": "ขุนแผนในเสภาเป็นผู้เชี่ยวชาญยันต์ คาถา และเลี้ยงกุมารทองจากลูกในครรภ์นางบัวคลี่ พระพิมพ์ที่ใช้ชื่อเขาจึงถูกสร้างเป็นพระเครื่องเสน่ห์ และหลายสายผสมผงพรายกุมารลงในเนื้อ คลังนับได้: ในรายการที่กล่าวถึงกุมาร ๓๘๙ รายการ เป็นขุนแผน ๑๐๖ รายการ — พิมพ์ทรงพระเครื่อง มวลสารพราย ตะเข็บนี้วัดมา ไม่ได้บังคับ",
-  "story_en": "Khun Phaen in the epic is the master of yantra and katha who raises a kuman thong from his own stillborn son; the tablet that borrows his name is made as a charm of attraction, and many lines work phrai kuman powder into the body. The vault counted the seam rather than deciding it: of 389 listings naming กุมาร, 106 are ขุนแผน — Buddha-amulet form carrying prai material. The reference cards name Luang Pho Kuai's Khun Phaen Phlai Kuman as the trade's benchmark line. The hybrid is measured, not forced; a future class that splits form from material would resolve it, and this record does not pre-empt that.",
+  "what_th": "พระพิมพ์ในซุ้มเรือนแก้ว ตั้งชื่อตามขุนแผนผู้เชี่ยวชาญวิชาในเสภา — พระเครื่ององค์เดียวที่เรื่องมวลสารสำคัญเท่ากับพิมพ์ทรง บางองค์เป็นผงล้วน บางองค์ผสมมวลสารอื่น และผิวไม่บอก",
+  "what_en": "A pressed tablet in the classic arch — named for the epic's charm-master, and the one amulet whose material story matters as much as its form. Some are pure powder; some are worked with other material, and the difference does not show on the surface.",
+  "story_th": "ขุนแผนในเสภาเป็นผู้เชี่ยวชาญยันต์ คาถา และเลี้ยงกุมารทองจากลูกในครรภ์นางบัวคลี่ พระพิมพ์ที่ใช้ชื่อเขาจึงถูกสร้างเป็นพระเครื่องเสน่ห์ บางสายระบุว่าเนื้อมีมวลสาร 'พรายกุมาร' — นี่คือตะเข็บระหว่างหมวด คลังนับได้: ในรายการที่กล่าวถึงกุมาร ๓๘๙ รายการ เป็นขุนแผน ๑๐๖ รายการ ตะเข็บนี้วัดมา ไม่ได้บังคับ",
+  "story_en": "Khun Phaen in the epic is the master of yantra and katha who raises a kuman thong from his own stillborn son; the tablet that borrows his name is made as a charm of attraction, and some lines state that 'prai kuman' material went into the body — that single fact is the seam between classes. The vault counted the seam rather than deciding it: of 389 listings naming กุมาร, 106 are ขุนแผน. The reference cards name Luang Pho Kuai's Khun Phaen Phlai Kuman as the trade's benchmark line. The hybrid is measured, not forced; a future class that splits form from material would resolve it, and this record does not pre-empt that.",
   "keeping_th": "บูชาอย่างพระเครื่อง ไม่ต้องเลี้ยง — แต่ถามว่าอะไรอยู่ในเนื้อ เพราะความไวต่อประวัติอยู่ระดับกลางถึงสูงตามมวลสาร",
-  "keeping_en": "Kept as an amulet: nobody to feed. But ask what went into the batch — the vault rates its provenance sensitivity medium to high because of the prai material, even though its upkeep is an amulet's."
+  "keeping_en": "Kept as an amulet: nobody to feed. But ask what went into the batch — the vault rates its provenance sensitivity medium to high because of the material, even though its upkeep is an amulet's."
  },
  "sources": [
   "s:holding-key",
