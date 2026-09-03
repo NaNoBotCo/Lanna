@@ -140,10 +140,31 @@
  },
  "media": {
   "commons_categories": [],
-  "commons_files": [],
+  "commons_files": [
+   "File:MitmorKnife.jpg"
+  ],
   "wanted_en": "No free photograph on Wikimedia Commons as of 2026-09-02 (searches on มีดหมอ, mit mo, ritual knife thai returned nothing). Needed: blade side-on showing the glyph row, the tang figures, and the handle plug."
  },
- "images": [],
+ "images": [
+  {
+   "file": "mit-mo/mit-mo-mitmorknife-1a2187.jpg",
+   "source": "commons",
+   "title": "File:MitmorKnife.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/MitmorKnife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/w/index.php?curid=173338719",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Gavin Symahanou",
+   "credit": "This work was uploaded by Gavin Symahanou of esoterictheravada.com.",
+   "view": "other",
+   "alt_th": "มีดหมอ",
+   "alt_en": "Mit mo (ritual knife) — Mitmor spirit knife used in Boran Kammatthana, an esoteric Theravadan tradition practiced in the Tai-Khmer cultural sphe",
+   "sha256": "be7f4a2af3f04275cf05d6a8a621648890dd8b56f7a80284b6a723b157fef794",
+   "width": 3859,
+   "height": 925,
+   "primary": true
+  }
+ ],
  "text": {
   "what_th": "มีดที่ตีและลงอักขระเป็นเครื่องมือของหมอผี ใช้ตัดสิ่งที่ผูกมัด ไม่ใช่ตัดให้เลือดออก ตำรา ๖๙๘๓ ในคลังนี้บันทึกตำรับเหล็กสิบชนิดจากวัดประดู่ทรงธรรม",
   "what_en": "A knife forged and inscribed as an instrument of the doctor-of-spirits — for cutting what binds, not what bleeds. Manuscript 6983 in this corpus records a ten-iron forge recipe from Wat Pradu Song Tham.",
@@ -281,7 +302,24 @@
   "tier": "catalogue",
   "note": "title matches only; delete-then-test excludes applied"
  },
- "primary_image": null,
+ "primary_image": {
+  "file": "mit-mo/mit-mo-mitmorknife-1a2187.jpg",
+  "source": "commons",
+  "title": "File:MitmorKnife.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/MitmorKnife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/w/index.php?curid=173338719",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "author": "Gavin Symahanou",
+  "credit": "This work was uploaded by Gavin Symahanou of esoterictheravada.com.",
+  "view": "other",
+  "alt_th": "มีดหมอ",
+  "alt_en": "Mit mo (ritual knife) — Mitmor spirit knife used in Boran Kammatthana, an esoteric Theravadan tradition practiced in the Tai-Khmer cultural sphe",
+  "sha256": "be7f4a2af3f04275cf05d6a8a621648890dd8b56f7a80284b6a723b157fef794",
+  "width": 3859,
+  "height": 925,
+  "primary": true
+ },
  "tier_labels": {
   "en": {
    "catalogue": "Catalogue — checkable against the corpus (catalog.db, a transcribed treatise)",

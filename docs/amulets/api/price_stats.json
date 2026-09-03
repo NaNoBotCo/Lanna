@@ -1,5 +1,5 @@
 {
- "built": "2026-09-02",
+ "built": "2026-09-03",
  "source": "manuscript-crawler catalog.db · items where method='commerce' · Lazada Thailand listing titles",
  "caveat": "Every figure is a match on a listing TITLE: it reports what sellers ask for objects they describe with that word, never what a piece is worth. This is the retail tier — the dealer, sian and investment tiers do not list here and are invisible in these numbers.",
  "overall": {
@@ -11,7 +11,7 @@
   "p90": 500.0,
   "p99": 3900.0,
   "max": 1500059.0,
-  "mean": 637.9,
+  "mean": 637.91,
   "currency": "THB",
   "histogram_by_decade": [
    {
@@ -112,7 +112,7 @@
     "th-central",
     "th"
    ],
-   "images": 0,
+   "images": 1,
    "level": "kind"
   },
   {
@@ -234,7 +234,7 @@
     "th-central",
     "th"
    ],
-   "images": 0,
+   "images": 2,
    "level": "kind"
   },
   {
@@ -661,7 +661,7 @@
    "p90": 482.3,
    "p99": 2837.73,
    "max": 359999.0,
-   "mean": 1180.95,
+   "mean": 1180.96,
    "id": "kuman-thong",
    "label_th": "กุมารทอง",
    "label_en": "Kuman Thong (raised child-spirit)",
@@ -674,7 +674,7 @@
     "th-central",
     "th"
    ],
-   "images": 4,
+   "images": 5,
    "level": "kind"
   },
   {
@@ -686,7 +686,7 @@
    "p90": 449.0,
    "p99": 1408.0,
    "max": 9000.0,
-   "mean": 238.58,
+   "mean": 238.68,
    "id": "takrut",
    "label_th": "ตะกรุด",
    "label_en": "Takrut (inscribed scroll-tube)",
@@ -699,7 +699,7 @@
     "th-central",
     "th"
    ],
-   "images": 1,
+   "images": 11,
    "level": "kind"
   },
   {
@@ -771,7 +771,7 @@
    "region": [
     "th-central"
    ],
-   "images": 23,
+   "images": 32,
    "level": "kind"
   },
   {
@@ -808,7 +808,7 @@
    "p90": 399.2,
    "p99": 1449.84,
    "max": 3990.0,
-   "mean": 229.19,
+   "mean": 229.2,
    "id": "waan",
    "label_th": "ว่าน",
    "label_en": "Waan (sacred tuber)",
@@ -821,7 +821,7 @@
     "th",
     "th-north"
    ],
-   "images": 0,
+   "images": 1,
    "level": "kind"
   },
   {
@@ -966,7 +966,7 @@
    "region": [
     "th-north"
    ],
-   "images": 6,
+   "images": 9,
    "level": "kind"
   },
   {
@@ -1210,7 +1210,7 @@
     "th-central",
     "th"
    ],
-   "images": 8,
+   "images": 12,
    "level": "kind"
   },
   {
@@ -1234,7 +1234,7 @@
    "region": [
     "th-north"
    ],
-   "images": 2,
+   "images": 3,
    "level": "kind"
   },
   {
@@ -1355,7 +1355,7 @@
    "region": [
     "th"
    ],
-   "images": 5,
+   "images": 6,
    "level": "kind"
   },
   {
@@ -1555,7 +1555,7 @@
    "region": [
     "th"
    ],
-   "images": 8,
+   "images": 10,
    "level": "kind"
   },
   {
@@ -1580,7 +1580,7 @@
     "th",
     "th-isan"
    ],
-   "images": 24,
+   "images": 26,
    "level": "kind"
   },
   {
@@ -1630,7 +1630,7 @@
     "th-south",
     "th"
    ],
-   "images": 5,
+   "images": 6,
    "level": "kind"
   },
   {
@@ -1707,7 +1707,7 @@
     "vn",
     "diaspora"
    ],
-   "images": 6,
+   "images": 8,
    "level": "kind"
   }
  ],
@@ -2019,7 +2019,7 @@
    "label_en": "silver",
    "kinds": 6,
    "listings": 1341,
-   "median_pooled": 120.8,
+   "median_pooled": 121.52,
    "median_of_kind_medians": 114.0,
    "min_kind_median": 89.0,
    "max_kind_median": 244.5,
@@ -2167,7 +2167,7 @@
    "label_en": "invulnerability to blades",
    "kinds": 19,
    "listings": 2316,
-   "median_pooled": 139.5,
+   "median_pooled": 140.0,
    "median_of_kind_medians": 169.0,
    "min_kind_median": 90.0,
    "max_kind_median": 439.5
@@ -2266,7 +2266,7 @@
    "label_en": "warding spirits",
    "kinds": 13,
    "listings": 2919,
-   "median_pooled": 138.99,
+   "median_pooled": 139.0,
    "median_of_kind_medians": 100.0,
    "min_kind_median": 64.0,
    "max_kind_median": 357.37
@@ -2352,7 +2352,7 @@
    "p90": 700.0,
    "p99": 5650.0,
    "max": 300000.0,
-   "mean": 709.2,
+   "mean": 709.21,
    "label_th": "หลวงพ่อ",
    "label_en": "Luang Pho (abbot)",
    "ratio_to_all": 1.47
@@ -2408,7 +2408,7 @@
    "p90": 400.0,
    "p99": 1570.66,
    "max": 9800.0,
-   "mean": 241.02,
+   "mean": 241.1,
    "label_th": "กรุ",
    "label_en": "cache find",
    "ratio_to_all": 1.16

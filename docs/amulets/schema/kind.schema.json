@@ -136,7 +136,7 @@
         "additionalProperties": false,
         "properties": {
           "file": {"type": "string", "description": "path relative to data/images/"},
-          "source": {"type": "string", "enum": ["commons", "own", "contributed", "museum", "diagram"]},
+          "source": {"type": "string", "enum": ["commons", "own", "contributed", "museum", "flickr", "diagram"]},
           "title": {"type": "string"},
           "url": {"type": "string"},
           "page_url": {"type": "string"},
