@@ -67,6 +67,100 @@
      ],
      "lit": "are + wind",
      "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
+    },
+    {
+     "th": "ประตูลม",
+     "rtgs": "pra-tu-lom",
+     "ipa": "/pra˨˩.tuː˧.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกช่องว่างที่อยู่ระหว่างนิ้วมือนิ้วเท้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ประตู",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "door + wind",
+     "lit_th": "ช่องทางเข้าออกของบ้านเรือนเป็นต้น + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "ลมพิษ",
+     "rtgs": "lom-phit",
+     "ipa": "/lom˧.pʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผื่นคันเป็นพิษเห่อขึ้นตามผิวหนัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "พิษ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พิษ"
+     ],
+     "lit": "wind + harm",
+     "lit_th": "ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง + สิ่งที่ร้ายเป็นอันตรายแก่ร่างกายหร",
+     "frame": "entity"
+    },
+    {
+     "th": "ผายลม",
+     "rtgs": "phai-lom",
+     "ipa": "/pʰaːj˩˩˦.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผาย",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "แผ่กว้างออก + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
     }
    ],
    "extends": 3,
@@ -128,6 +222,100 @@
      "head": 0,
      "lit": "wind + breathe",
      "lit_th": "ลมหายใจ + กิริยาที่ทำให้อากาศเข้าสู่และออกจา"
+    },
+    {
+     "th": "หลอดลม",
+     "rtgs": "lot-lom",
+     "ipa": "/lɔːt̚˨˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทางเดินอากาศหายใจส่วนล่าง อยู่ระหว่างท่อลมส่วนอกกับถุงลมปอด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลอด",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "straw + wind",
+     "lit_th": "ของกลมยาวขนาดเล็กที่มีรูตลอด + ลมหายใจ",
+     "frame": "entity"
+    },
+    {
+     "th": "หมดลม",
+     "rtgs": "mot-lom",
+     "ipa": "/mot̚˨˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขาดใจ, ตาย, สิ้นใจ สิ้นลม หรือ หมดอายุ ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมด",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "all + wind",
+     "lit_th": "สิ้น + ลมหายใจ"
+    },
+    {
+     "th": "สิ้นลม",
+     "rtgs": "sin-lom",
+     "ipa": "/sin˥˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขาดใจ, ตาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิ้น",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "สิ้น"
+     ],
+     "lit": "to be exhausted + wind",
+     "lit_th": "หมด + ลมหายใจ"
     }
    ],
    "extends": 3,
@@ -193,6 +381,406 @@
      "lit": "hole + wind",
      "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + อากาศที่เคลื่อนที่",
      "frame": "entity"
+    },
+    {
+     "th": "ลมบ้าหมู",
+     "rtgs": "lom-ba-mu",
+     "ipa": "/lom˧.baː˥˩.muː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลมหมุนที่เกิดในบริเวณแคบ ๆ มีความรุนแรงไม่มากนัก มักหอบเอาของเป็นวงขึ้นไปในอากาศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "บ้าหมู"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อากาศที่เคลื่อนที่ + คำพ้องความของ ลมบ้าหมู",
+     "frame": "entity"
+    },
+    {
+     "th": "ห้องลม",
+     "rtgs": "hong-lom",
+     "ipa": "/hɔŋ˥˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช่องบรรจุอากาศหรือแก๊สอื่น ซึ่งทำหน้าที่เหมือนสปริง เพื่อรักษาระดับการไหลของของเหลวในเครื่องสูบหรือระบบไฮดรอลิก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ห้อง",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "room + wind",
+     "lit_th": "ส่วนของเรือนหรือตึกเป็นต้นที่มีฝาก + อากาศที่เคลื่อนที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ติดลม",
+     "rtgs": "tit-lom",
+     "ipa": "/tit̚˨˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ว่าวขึ้นไปสูงได้ลมพยุงให้ทรงตัวอยู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ติด",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ติด"
+     ],
+     "lit": "fit + wind",
+     "lit_th": "อาการที่ข้องอยู่ + อากาศที่เคลื่อนที่"
+    },
+    {
+     "th": "ลมตะวันตก",
+     "rtgs": "lom-ta-wan-tok",
+     "ipa": "/lom˧.ta˨˩.wan˧.tok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลมที่พัดมาจากทิศตะวันตกไปทางทิศตะวันออกในกลางฤดูฝน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "ตะวันตก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อากาศที่เคลื่อนที่ + ทิศที่ดวงอาทิตย์ลับขอบฟ้า",
+     "frame": "entity"
+    },
+    {
+     "th": "ลมตะวันออก",
+     "rtgs": "lom-ta-wan-ok",
+     "ipa": "/lom˧.ta˨˩.wan˧.ʔɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลมที่พัดมาจากทิศตะวันออกไปทางทิศตะวันตกในปลายฤดูฝน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "ตะวันออก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อากาศที่เคลื่อนที่ + ทิศที่ดวงอาทิตย์โผล่พ้นขอบฟ้า",
+     "frame": "entity"
+    },
+    {
+     "th": "ไข่ลม",
+     "rtgs": "khai-lom",
+     "ipa": "/kʰaj˨˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ของสัตว์ปีกที่เชื้อตัวผู้ไม่ได้ผสมกับไข่ของตัวเมีย ไม่สามารถฟักให้เป็นตัวได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไข่"
+     ],
+     "lit": "egg + wind",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + อากาศที่เคลื่อนที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ลมค้า",
+     "rtgs": "lom-kha",
+     "ipa": "/lom˧.kʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลมซึ่งพัดออกจากบริเวณความกดอากาศสูงกึ่งโซนร้อนไปยังบริเวณความกดอากาศต่ำที่เส้นศูนย์สูตร ในซีกโลกเหนือจะพัดมาจากทิศตะวันออกเฉียงเหนือ ส่วนในซีกโลกใต้จะพัดมาจากทิศตะวันออกเฉียงใต้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "ค้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "อากาศที่เคลื่อนที่ + ซื้อขายสินค้าหรือบริการ"
+    },
+    {
+     "th": "อัดลม",
+     "rtgs": "at-lom",
+     "ipa": "/ʔat̚˨˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อัดแก๊สเข้าไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อัด",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ดันลมเข้าไป + อากาศที่เคลื่อนที่"
+    },
+    {
+     "th": "พกลม",
+     "rtgs": "phok-lom",
+     "ipa": "/pʰok̚˦˥.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เหลวไหล, พูดจาไม่จริง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พก",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ริมผ้านุ่งที่ดึงรวบขึ้นมาไขว้ไว้ที + อากาศที่เคลื่อนที่",
+     "frame": "entity"
+    },
+    {
+     "th": "กินลม",
+     "rtgs": "kin-lom",
+     "ipa": "/kin˧.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ต้านลม, รับลม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กิน"
+     ],
+     "lit": "eat + wind",
+     "lit_th": "เคี้ยว + อากาศที่เคลื่อนที่"
+    },
+    {
+     "th": "ชกลม",
+     "rtgs": "chok-lom",
+     "ipa": "/t͡ɕʰok̚˦˥.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กำหมัดแล้วพุ่งออกไป เป็นการออกกำลังกายอย่างหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชก",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "punch + wind",
+     "lit_th": "กำหมัดแล้วพุ่งตรงไปยังที่หมาย + อากาศที่เคลื่อนที่"
+    },
+    {
+     "th": "พัดลม",
+     "rtgs": "phat-lom",
+     "ipa": "/pʰat̚˦˥.lom˧/",
+     "gloss": {
+      "en": [
+       "fan"
+      ],
+      "th": "เครื่องพัดให้เย็นด้วยแรงไฟฟ้าเป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พัด",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "fan + wind",
+     "lit_th": "เครื่องโบกหรือกระพือลม + อากาศที่เคลื่อนที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ลมลวง",
+     "rtgs": "lom-luang",
+     "ipa": "/lom˧.lua̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำพูดโกหกหลอกลวง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "ลวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "อากาศที่เคลื่อนที่ + ทำให้หลงผิด"
     }
    ],
    "needs_check": [
@@ -256,6 +844,36 @@
       "บ้าน"
      ],
      "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองอ่างทอง จ + ชื่อโรคชนิดหนึ่ง มีอาการหลายอย่าง"
+    },
+    {
+     "th": "ลมแดด",
+     "rtgs": "lom-daet",
+     "ipa": "/lom˧.dɛːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่เป็นลมเพราะโดนแดดจัด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "แดด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อโรคชนิดหนึ่ง มีอาการหลายอย่าง + แสงที่พุ่งจากดวงอาทิตย์ตรงมายังโลก",
+     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -281,95 +899,6 @@
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 28; domain seeded by keyword hits ['คลื่น', 'อากาศ', 'ลม', 'น้ำ'].",
  "compounds_unassigned": [
-  {
-   "th": "ประตูลม",
-   "rtgs": "pra-tu-lom",
-   "ipa": "/pra˨˩.tuː˧.lom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรียกช่องว่างที่อยู่ระหว่างนิ้วมือนิ้วเท้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ประตู",
-    "ลม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "door + wind",
-   "lit_th": "ช่องทางเข้าออกของบ้านเรือนเป็นต้น + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
-   "frame": "entity"
-  },
-  {
-   "th": "ลมบ้าหมู",
-   "rtgs": "lom-ba-mu",
-   "ipa": "/lom˧.baː˥˩.muː˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลมหมุนที่เกิดในบริเวณแคบ ๆ มีความรุนแรงไม่มากนัก มักหอบเอาของเป็นวงขึ้นไปในอากาศ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลม",
-    "บ้าหมู"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง + คำพ้องความของ ลมบ้าหมู",
-   "frame": "entity"
-  },
-  {
-   "th": "ห้องลม",
-   "rtgs": "hong-lom",
-   "ipa": "/hɔŋ˥˩.lom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ช่องบรรจุอากาศหรือแก๊สอื่น ซึ่งทำหน้าที่เหมือนสปริง เพื่อรักษาระดับการไหลของของเหลวในเครื่องสูบหรือระบบไฮดรอลิก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ห้อง",
-    "ลม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "room + wind",
-   "lit_th": "ส่วนของเรือนหรือตึกเป็นต้นที่มีฝาก + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
-   "frame": "entity"
-  },
   {
    "th": "เคลม",
    "rtgs": "khlem",
@@ -401,244 +930,6 @@
    "use": "false-split"
   },
   {
-   "th": "ติดลม",
-   "rtgs": "tit-lom",
-   "ipa": "/tit̚˨˩.lom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการที่ว่าวขึ้นไปสูงได้ลมพยุงให้ทรงตัวอยู่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ติด",
-    "ลม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "ติด"
-   ],
-   "lit": "fit + wind",
-   "lit_th": "อาการที่ข้องอยู่ + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
-  },
-  {
-   "th": "ลมตะวันตก",
-   "rtgs": "lom-ta-wan-tok",
-   "ipa": "/lom˧.ta˨˩.wan˧.tok̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลมที่พัดมาจากทิศตะวันตกไปทางทิศตะวันออกในกลางฤดูฝน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลม",
-    "ตะวันตก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง + ทิศที่ดวงอาทิตย์ลับขอบฟ้า",
-   "frame": "entity"
-  },
-  {
-   "th": "ลมตะวันออก",
-   "rtgs": "lom-ta-wan-ok",
-   "ipa": "/lom˧.ta˨˩.wan˧.ʔɔːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลมที่พัดมาจากทิศตะวันออกไปทางทิศตะวันตกในปลายฤดูฝน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลม",
-    "ตะวันออก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง + ทิศที่ดวงอาทิตย์โผล่พ้นขอบฟ้า",
-   "frame": "entity"
-  },
-  {
-   "th": "ไข่ลม",
-   "rtgs": "khai-lom",
-   "ipa": "/kʰaj˨˩.lom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไข่ของสัตว์ปีกที่เชื้อตัวผู้ไม่ได้ผสมกับไข่ของตัวเมีย ไม่สามารถฟักให้เป็นตัวได้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ไข่",
-    "ลม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ไข่"
-   ],
-   "lit": "egg + wind",
-   "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
-   "frame": "entity"
-  },
-  {
-   "th": "ลมค้า",
-   "rtgs": "lom-kha",
-   "ipa": "/lom˧.kʰaː˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลมซึ่งพัดออกจากบริเวณความกดอากาศสูงกึ่งโซนร้อนไปยังบริเวณความกดอากาศต่ำที่เส้นศูนย์สูตร ในซีกโลกเหนือจะพัดมาจากทิศตะวันออกเฉียงเหนือ ส่วนในซีกโลกใต้จะพัดมาจากทิศตะวันออกเฉียงใต้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลม",
-    "ค้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง + ซื้อขายสินค้าหรือบริการ"
-  },
-  {
-   "th": "หลอดลม",
-   "rtgs": "lot-lom",
-   "ipa": "/lɔːt̚˨˩.lom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทางเดินอากาศหายใจส่วนล่าง อยู่ระหว่างท่อลมส่วนอกกับถุงลมปอด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หลอด",
-    "ลม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "straw + wind",
-   "lit_th": "ของกลมยาวขนาดเล็กที่มีรูตลอด + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
-   "frame": "entity"
-  },
-  {
-   "th": "อัดลม",
-   "rtgs": "at-lom",
-   "ipa": "/ʔat̚˨˩.lom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อัดแก๊สเข้าไป",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อัด",
-    "ลม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit_th": "ดันลมเข้าไป + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
-  },
-  {
-   "th": "พกลม",
-   "rtgs": "phok-lom",
-   "ipa": "/pʰok̚˦˥.lom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เหลวไหล, พูดจาไม่จริง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "พก",
-    "ลม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "ริมผ้านุ่งที่ดึงรวบขึ้นมาไขว้ไว้ที + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
-   "frame": "entity"
-  },
-  {
    "th": "แหลม",
    "rtgs": "laem",
    "ipa": "/lɛːm˩˩˦/",
@@ -658,7 +949,7 @@
     "แห",
     "ลม"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: แหลม is a single inherited morpheme — สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *ʰlɛːmᴬ¹, จากไทดั้งเดิม *ʰleːmᴬ, cognate with Lao ແຫຼມ and คำเมือง ᩉᩖᩯᨾ. The recorded split แห + ลม is an accident of Thai spelling; there is no wind in it.",
    "conf": "verified",
    "src": [
     "RID",
@@ -671,249 +962,8 @@
    ],
    "lit": "net + wind",
    "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
-   "frame": "entity"
-  },
-  {
-   "th": "กินลม",
-   "rtgs": "kin-lom",
-   "ipa": "/kin˧.lom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ต้านลม, รับลม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "กิน",
-    "ลม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "กิน"
-   ],
-   "lit": "eat + wind",
-   "lit_th": "เคี้ยว + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
-  },
-  {
-   "th": "ชกลม",
-   "rtgs": "chok-lom",
-   "ipa": "/t͡ɕʰok̚˦˥.lom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กำหมัดแล้วพุ่งออกไป เป็นการออกกำลังกายอย่างหนึ่ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชก",
-    "ลม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "punch + wind",
-   "lit_th": "กำหมัดแล้วพุ่งตรงไปยังที่หมาย + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
-  },
-  {
-   "th": "พัดลม",
-   "rtgs": "phat-lom",
-   "ipa": "/pʰat̚˦˥.lom˧/",
-   "gloss": {
-    "en": [
-     "fan"
-    ],
-    "th": "เครื่องพัดให้เย็นด้วยแรงไฟฟ้าเป็นต้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "พัด",
-    "ลม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "fan + wind",
-   "lit_th": "เครื่องโบกหรือกระพือลม + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
-   "frame": "entity"
-  },
-  {
-   "th": "หมดลม",
-   "rtgs": "mot-lom",
-   "ipa": "/mot̚˨˩.lom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขาดใจ, ตาย, สิ้นใจ สิ้นลม หรือ หมดอายุ ก็ว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หมด",
-    "ลม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit": "all + wind",
-   "lit_th": "สิ้น + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
-  },
-  {
-   "th": "ลมลวง",
-   "rtgs": "lom-luang",
-   "ipa": "/lom˧.lua̯ŋ˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำพูดโกหกหลอกลวง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลม",
-    "ลวง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 0,
-   "lit_th": "ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง + ทำให้หลงผิด"
-  },
-  {
-   "th": "สิ้นลม",
-   "rtgs": "sin-lom",
-   "ipa": "/sin˥˩.lom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขาดใจ, ตาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สิ้น",
-    "ลม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "สิ้น"
-   ],
-   "lit": "to be exhausted + wind",
-   "lit_th": "หมด + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
-  },
-  {
-   "th": "ลมพิษ",
-   "rtgs": "lom-phit",
-   "ipa": "/lom˧.pʰit̚˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ผื่นคันเป็นพิษเห่อขึ้นตามผิวหนัง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลม",
-    "พิษ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "พิษ"
-   ],
-   "lit": "wind + harm",
-   "lit_th": "ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง + สิ่งที่ร้ายเป็นอันตรายแก่ร่างกายหร",
-   "frame": "entity"
-  },
-  {
-   "th": "ผายลม",
-   "rtgs": "phai-lom",
-   "ipa": "/pʰaːj˩˩˦.lom˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ตด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ผาย",
-    "ลม"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "lit_th": "แผ่กว้างออก + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ลมสินค้า",
@@ -944,35 +994,6 @@
    "head": 0,
    "lit": "wind + goods",
    "lit_th": "ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง + สิ่งของที่ซื้อขายกัน",
-   "frame": "entity"
-  },
-  {
-   "th": "ลมแดด",
-   "rtgs": "lom-daet",
-   "ipa": "/lom˧.dɛːt̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการที่เป็นลมเพราะโดนแดดจัด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลม",
-    "แดด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง + แสงที่พุ่งจากดวงอาทิตย์ตรงมายังโลก",
    "frame": "entity"
   },
   {

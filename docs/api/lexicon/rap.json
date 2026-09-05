@@ -34,6 +34,40 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "รับประทาน",
+     "rtgs": "rap-pra-than",
+     "ipa": "/rap̚˦˥.pra˨˩.tʰaːn˧/",
+     "gloss": {
+      "en": [
+       "eat",
+       "have"
+      ],
+      "th": "กิน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "ประทาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "accept + add",
+     "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ให้"
+    }
    ]
   },
   {
@@ -63,7 +97,40 @@
    "extends": 1,
    "via": "generalisation",
    "via_note": "Taking what is handed becomes taking what is sent.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "รายรับ",
+     "translit_auto": "rayrab",
+     "ipa": "[räːj˧.räp̚˥]",
+     "gloss": {
+      "en": [
+       "exits"
+      ],
+      "th": "รายการรับ, คู่กับ รายจ่าย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ราย",
+      "รับ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "record + accept",
+     "lit_th": "เรื่อง ส่วน บุคคล หรือสิ่งซึ่งแยกก + ถือเอาสิ่งของที่ผู้อื่นส่งมาให้"
+    }
+   ]
   },
   {
    "n": 3,
@@ -118,6 +185,68 @@
      "pattern": "V+V",
      "head": 1,
      "lit_th": "สกัดกั้นให้ไปตามที่ต้องการ + ไปพบ ณ ที่ที่กำหนดเพื่ออำนวยความสะ"
+    },
+    {
+     "th": "รับน้อง",
+     "rtgs": "rap-nong",
+     "ipa": "/rap̚˦˥.nɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ต้อนรับรุ่นน้องที่เข้ามาใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "น้อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ไปพบ ณ ที่ที่กำหนดเพื่ออำนวยความสะ + ผู้ร่วมบิดาหรือมารดาเดียวกันและเกิ"
+    },
+    {
+     "th": "รับขวัญ",
+     "translit_auto": "rabkhway",
+     "ipa": "[räp̚˦˥.kʰwä̃n˩˥]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกขวัญหรือเชิญขวัญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "ขวัญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "accept + khwan",
+     "lit_th": "ไปพบ ณ ที่ที่กำหนดเพื่ออำนวยความสะ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
     }
    ],
    "extends": 1,
@@ -152,7 +281,129 @@
    "extends": 2,
    "via": "generalisation",
    "via_note": "And the same with things that cannot be handed at all.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "รับไหว้",
+     "rtgs": "rap-wai",
+     "ipa": "/rap̚˦˥.waːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไหว้ตอบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "ไหว้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "โดยปริยายใช้แก่นามธรรมก็ได้ + ทำความเคารพโดยยกมือขึ้นประนม"
+    },
+    {
+     "th": "รับสั่ง",
+     "rtgs": "rap-sang",
+     "ipa": "/rap̚˦˥.saŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำพูด (ใช้กับเจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "สั่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "accept + order",
+     "lit_th": "โดยปริยายใช้แก่นามธรรมก็ได้ + บอกไว้เพื่อให้ทำหรือให้ปฏิบัติเป็น"
+    },
+    {
+     "th": "รับฟัง",
+     "rtgs": "rap-fang",
+     "ipa": "/rap̚˦˥.faŋ˧/",
+     "gloss": {
+      "en": [
+       "listen"
+      ],
+      "th": "รับไว้พิจารณา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "ฟัง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "accept + hear",
+     "lit_th": "โดยปริยายใช้แก่นามธรรมก็ได้ + ตั้งใจสดับ"
+    },
+    {
+     "th": "แบกรับ",
+     "rtgs": "baek",
+     "ipa": "/bɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รับภาระหนัก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แบก",
+      "รับ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "bear + accept",
+     "lit_th": "ยกของที่มีน้ำหนักขึ้นวางบนบ่า + โดยปริยายใช้แก่นามธรรมก็ได้"
+    }
+   ]
   },
   {
    "n": 5,
@@ -212,6 +463,172 @@
      ],
      "lit": "accept + word",
      "lit_th": "ให้คำตอบที่ไม่ปฏิเสธ + เสียงพูด"
+    },
+    {
+     "th": "รับรู้",
+     "rtgs": "rap-ru",
+     "ipa": "/rap̚˦˥.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "perceive",
+       "learn",
+       "alive to"
+      ],
+      "th": "ยืนยันว่ารู้, รับว่ารู้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "รู้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "รู้"
+     ],
+     "lit": "accept + know",
+     "lit_th": "ให้คำตอบที่ไม่ปฏิเสธ + แจ้ง"
+    },
+    {
+     "th": "รับใช้",
+     "rtgs": "rap-chai",
+     "ipa": "/rap̚˦˥.t͡ɕʰaj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รับว่าจะใช้เงินให้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "ใช้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "accept + consume",
+     "lit_th": "ให้คำตอบที่ไม่ปฏิเสธ + บังคับให้ทำ"
+    },
+    {
+     "th": "รับปาก",
+     "rtgs": "rap-pak",
+     "ipa": "/rap̚˦˥.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รับคำ, บางทีก็ใช้เข้าคู่กับคำ รับคำ เป็น รับปากรับคำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "ปาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ปาก"
+     ],
+     "lit": "accept + mouth",
+     "lit_th": "ให้คำตอบที่ไม่ปฏิเสธ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
+    },
+    {
+     "th": "รับประกัน",
+     "rtgs": "rap-pra-kan",
+     "ipa": "/rap̚˦˥.pra˨˩.kan˧/",
+     "gloss": {
+      "en": [
+       "guarantee",
+       "secure"
+      ],
+      "th": "ยืนยัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "ประกัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ให้คำตอบที่ไม่ปฏิเสธ + รับรองว่าจะรับผิดในความเสียหายที่เ"
+    },
+    {
+     "th": "รับรอง",
+     "rtgs": "rap-rong",
+     "ipa": "/rap̚˦˥.rɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "able",
+       "vouch",
+       "affirm"
+      ],
+      "th": "รับประกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "รอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "รอง"
+     ],
+     "lit": "accept + deputy",
+     "lit_th": "ให้คำตอบที่ไม่ปฏิเสธ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
     }
    ],
    "extends": 1,
@@ -310,7 +727,96 @@
    "extends": 5,
    "via": "specialisation",
    "via_note": "Accepting terms: to agree.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "รับจ้าง",
+     "rtgs": "rap-chang",
+     "ipa": "/rap̚˦˥.t͡ɕaːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รับทำงานเพื่อค่าจ้าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "จ้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "accept + hire"
+    },
+    {
+     "th": "รับจ๊อบ",
+     "rtgs": "rap-chop",
+     "ipa": "/rap̚˦˥.t͡ɕɔp̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รับจ้างทำงานเป็นชิ้น ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "จ๊อบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ตกลงตาม + งานเป็นชิ้น ๆ ที่ทำแค่ชั่วคราว"
+    },
+    {
+     "th": "รับราชการ",
+     "rtgs": "rap-rat-cha-kan",
+     "ipa": "/rap̚˦˥.raːt̚˥˩.t͡ɕʰa˦˥.kaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เข้าทำงานของรัฐบาลหรือของพระเจ้าแผ่นดิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "ราชการ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ตกลงตาม + การงานของรัฐบาลหรือของพระเจ้าแผ่นด"
+    }
+   ]
   },
   {
    "n": 8,
@@ -397,7 +903,42 @@
    "extends": 5,
    "via": "specialisation",
    "via_note": "Answering when called.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขอรับ",
+     "rtgs": "kho-rap",
+     "ipa": "/kʰɔː˩˩˦.rap̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำรับของสุภาพชนสำหรับต่อท้ายประโยค",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "รับ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 10 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ขอ"
+     ],
+     "lit": "ask + accept",
+     "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + ขานตอบ"
+    }
+   ]
   },
   {
    "n": 11,
@@ -426,7 +967,76 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "Taking a blow: to withstand.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "รับมือ",
+     "rtgs": "rap-mue",
+     "ipa": "/rap̚˦˥.mɯː˧/",
+     "gloss": {
+      "en": [
+       "meet"
+      ],
+      "th": "ต่อต้าน, กำราบ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "มือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "accept + hand",
+     "lit_th": "ต้าน + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา"
+    },
+    {
+     "th": "รับหน้า",
+     "rtgs": "rap-na",
+     "ipa": "/rap̚˦˥.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เผชิญหน้า, รอหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "หน้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "accept + before",
+     "lit_th": "ต้าน + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    }
+   ]
   },
   {
    "n": 12,
@@ -476,343 +1086,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 25; domain seeded by keyword hits ['ตก', 'ลง', 'ออก', 'ไป'].",
  "compounds_unassigned": [
   {
-   "th": "รับมือ",
-   "rtgs": "rap-mue",
-   "ipa": "/rap̚˦˥.mɯː˧/",
-   "gloss": {
-    "en": [
-     "meet"
-    ],
-    "th": "ต่อต้าน, กำราบ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "มือ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "มือ"
-   ],
-   "lit": "accept + hand",
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา"
-  },
-  {
-   "th": "รับรู้",
-   "rtgs": "rap-ru",
-   "ipa": "/rap̚˦˥.ruː˦˥/",
-   "gloss": {
-    "en": [
-     "perceive",
-     "learn",
-     "alive to"
-    ],
-    "th": "ยืนยันว่ารู้, รับว่ารู้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "รู้"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "cross_listed": [
-    "รู้"
-   ],
-   "lit": "accept + know",
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + แจ้ง"
-  },
-  {
-   "th": "รับไหว้",
-   "rtgs": "rap-wai",
-   "ipa": "/rap̚˦˥.waːj˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไหว้ตอบ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "ไหว้"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ทำความเคารพโดยยกมือขึ้นประนม"
-  },
-  {
-   "th": "รับสั่ง",
-   "rtgs": "rap-sang",
-   "ipa": "/rap̚˦˥.saŋ˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำพูด (ใช้กับเจ้านาย)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "สั่ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit": "accept + order",
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + บอกไว้เพื่อให้ทำหรือให้ปฏิบัติเป็น"
-  },
-  {
-   "th": "รับหน้า",
-   "rtgs": "rap-na",
-   "ipa": "/rap̚˦˥.naː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เผชิญหน้า, รอหน้า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "หน้า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "หน้า"
-   ],
-   "lit": "accept + before",
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
-  },
-  {
-   "th": "รายรับ",
-   "translit_auto": "rayrab",
-   "ipa": "[räːj˧.räp̚˥]",
-   "gloss": {
-    "en": [
-     "exits"
-    ],
-    "th": "รายการรับ, คู่กับ รายจ่าย",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ราย",
-    "รับ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "lit": "record + accept",
-   "lit_th": "เรื่อง ส่วน บุคคล หรือสิ่งซึ่งแยกก + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส"
-  },
-  {
-   "th": "รับประทาน",
-   "rtgs": "rap-pra-than",
-   "ipa": "/rap̚˦˥.pra˨˩.tʰaːn˧/",
-   "gloss": {
-    "en": [
-     "eat",
-     "have"
-    ],
-    "th": "กิน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "ประทาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit": "accept + add",
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ให้"
-  },
-  {
-   "th": "รับใช้",
-   "rtgs": "rap-chai",
-   "ipa": "/rap̚˦˥.t͡ɕʰaj˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รับว่าจะใช้เงินให้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "ใช้"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit": "accept + consume",
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + บังคับให้ทำ"
-  },
-  {
-   "th": "รับปาก",
-   "rtgs": "rap-pak",
-   "ipa": "/rap̚˦˥.paːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รับคำ, บางทีก็ใช้เข้าคู่กับคำ รับคำ เป็น รับปากรับคำ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "ปาก"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ปาก"
-   ],
-   "lit": "accept + mouth",
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
-  },
-  {
-   "th": "รับจ้าง",
-   "rtgs": "rap-chang",
-   "ipa": "/rap̚˦˥.t͡ɕaːŋ˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รับทำงานเพื่อค่าจ้าง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "จ้าง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "accept + hire"
-  },
-  {
-   "th": "รับฟัง",
-   "rtgs": "rap-fang",
-   "ipa": "/rap̚˦˥.faŋ˧/",
-   "gloss": {
-    "en": [
-     "listen"
-    ],
-    "th": "รับไว้พิจารณา",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "ฟัง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit": "accept + hear",
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ตั้งใจสดับ"
-  },
-  {
    "th": "การต้อนรับ",
    "rtgs": "kan-ton-rap",
    "ipa": "/kaːn˧.tɔːn˥˩.rap̚˦˥/",
@@ -842,125 +1115,6 @@
    "lit_th": "คำอาการนามของ ต้อน + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส"
   },
   {
-   "th": "แบกรับ",
-   "rtgs": "baek",
-   "ipa": "/bɛːk̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รับภาระหนัก",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "แบก",
-    "รับ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 1,
-   "lit": "bear + accept",
-   "lit_th": "ยกของที่มีน้ำหนักขึ้นวางบนบ่า + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส"
-  },
-  {
-   "th": "รับประกัน",
-   "rtgs": "rap-pra-kan",
-   "ipa": "/rap̚˦˥.pra˨˩.kan˧/",
-   "gloss": {
-    "en": [
-     "guarantee",
-     "secure"
-    ],
-    "th": "ยืนยัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "ประกัน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + รับรองว่าจะรับผิดในความเสียหายที่เ"
-  },
-  {
-   "th": "รับจ๊อบ",
-   "rtgs": "rap-chop",
-   "ipa": "/rap̚˦˥.t͡ɕɔp̚˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รับจ้างทำงานเป็นชิ้น ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "จ๊อบ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + งานเป็นชิ้น ๆ ที่ทำแค่ชั่วคราว"
-  },
-  {
-   "th": "ขอรับ",
-   "rtgs": "kho-rap",
-   "ipa": "/kʰɔː˩˩˦.rap̚˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "คำรับของสุภาพชนสำหรับต่อท้ายประโยค",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขอ",
-    "รับ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+V",
-   "head": 1,
-   "cross_listed": [
-    "ขอ"
-   ],
-   "lit": "ask + accept",
-   "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส"
-  },
-  {
    "th": "สำรับ",
    "rtgs": "sam-rap",
    "ipa": "/sam˩˩˦.rap̚˦˥/",
@@ -978,8 +1132,8 @@
     "สำ",
     "รับ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: สำรับ is the Khmer-pattern สำ- infixed stem, the same shape as สำแดง (already tagged on แดง, where the dictionary gives แผลงมาจาก แสดง; จากเขมร สํแฎง). The สำ- is Khmer's nominalising infix, not a Thai word, and a tray of dishes is not an act of receiving. The dictionary states no etymology for this word on this disk, so probable rather than verified.",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
@@ -990,130 +1144,8 @@
     "สำ"
    ],
    "lit": "jumbled + accept",
-   "lit_th": "ซับซ้อนกัน + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส"
-  },
-  {
-   "th": "รับน้อง",
-   "rtgs": "rap-nong",
-   "ipa": "/rap̚˦˥.nɔːŋ˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ต้อนรับรุ่นน้องที่เข้ามาใหม่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "น้อง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ผู้ร่วมบิดาหรือมารดาเดียวกันและเกิ"
-  },
-  {
-   "th": "รับขวัญ",
-   "translit_auto": "rabkhway",
-   "ipa": "[räp̚˦˥.kʰwä̃n˩˥]",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรียกขวัญหรือเชิญขวัญ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "ขวัญ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ขวัญ"
-   ],
-   "lit": "accept + khwan",
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
-  },
-  {
-   "th": "รับราชการ",
-   "rtgs": "rap-rat-cha-kan",
-   "ipa": "/rap̚˦˥.raːt̚˥˩.t͡ɕʰa˦˥.kaːn˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เข้าทำงานของรัฐบาลหรือของพระเจ้าแผ่นดิน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "ราชการ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + การงานของรัฐบาลหรือของพระเจ้าแผ่นด"
-  },
-  {
-   "th": "รับรอง",
-   "rtgs": "rap-rong",
-   "ipa": "/rap̚˦˥.rɔːŋ˧/",
-   "gloss": {
-    "en": [
-     "able",
-     "vouch",
-     "affirm"
-    ],
-    "th": "รับประกัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "รับ",
-    "รอง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "cross_listed": [
-    "รอง"
-   ],
-   "lit": "accept + deputy",
-   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+   "lit_th": "ซับซ้อนกัน + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส",
+   "use": "false-split"
   },
   {
    "th": "ตำรับ",
@@ -1143,7 +1175,7 @@
    "pattern": "V+V",
    "head": 1,
    "lit": "pound + accept",
-   "lit_th": "ทิ่ม + ไปพบ ณ ที่ที่กำหนดเพื่ออำนวยความสะ",
+   "lit_th": "ทิ่ม + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส",
    "use": "false-split"
   }
  ],

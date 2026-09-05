@@ -64,6 +64,136 @@
      ],
      "pattern": "N+V",
      "head": 1
+    },
+    {
+     "th": "รันทำ",
+     "rtgs": "ran-tham",
+     "ipa": "/ran˧.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยํ่ายี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รัน",
+      "ทำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "ตี + กระทำ"
+    },
+    {
+     "th": "ทำร้าย",
+     "rtgs": "tham-rai",
+     "ipa": "/tʰam˧.raːj˦˥/",
+     "gloss": {
+      "en": [
+       "attack",
+       "assault",
+       "harm"
+      ],
+      "th": "ทำให้บาดเจ็บหรือเสียหาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "ร้าย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ร้าย"
+     ],
+     "lit": "do + bad",
+     "lit_th": "กระทำ + ดุ",
+     "frame": "quality"
+    },
+    {
+     "th": "ทำพิษ",
+     "rtgs": "tham-phit",
+     "ipa": "/tʰam˧.pʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกิดพิษ, เป็นพิษ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "พิษ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "พิษ"
+     ],
+     "lit": "do + harm",
+     "lit_th": "กระทำ + สิ่งที่ร้ายเป็นอันตรายแก่ร่างกายหร"
+    },
+    {
+     "th": "ทำให้",
+     "rtgs": "tham-hai",
+     "ipa": "/tʰam˧.haj˥˩/",
+     "gloss": {
+      "en": [
+       "make"
+      ],
+      "th": "เป็นเหตุให้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "ให้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "do + bestow",
+     "lit_th": "กระทำ + มอบ"
     }
    ]
   },
@@ -123,7 +253,39 @@
    "extends": 1,
    "via": "specialisation",
    "via_note": "Doing as occupation: to work at.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ทำครัว",
+     "rtgs": "tham-khrua",
+     "ipa": "/tʰam˧.kʰrua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หุงหาอาหาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "ครัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "do + kitchen",
+     "lit_th": "ประกอบการงาน + โรง เรือน หรือห้องสำหรับทำกับข้าวข"
+    }
+   ]
   },
   {
    "n": 4,
@@ -185,6 +347,126 @@
      ],
      "lit": "do + job",
      "lit_th": "ดำเนินการ + สิ่งหรือกิจกรรมที่ทำ"
+    },
+    {
+     "th": "ทำการบ้าน",
+     "rtgs": "tham-kan-ban",
+     "ipa": "/tʰam˧.kaːn˧.baːn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำงานหรือแบบฝึกหัดตามที่ครูอาจารย์สั่งให้ทำนอกเวลาเรียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "การบ้าน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "do + homework",
+     "lit_th": "ดำเนินการ + งานที่ครูกำหนดให้นักเรียนไปทำที่บ้"
+    },
+    {
+     "th": "ทำแท้ง",
+     "rtgs": "tham-thaeng",
+     "ipa": "/tʰam˧.tʰɛːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รีดลูก, มีเจตนาทำให้ทารกออกจากครรภ์มารดาก่อนกำหนดและตาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "แท้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ดำเนินการ + สิ้นสุดการตั้งครรภ์ก่อนกำหนดคลอด โ"
+    },
+    {
+     "th": "ทำความสะอาด",
+     "rtgs": "tham-khwam-sa-at",
+     "ipa": "/tʰam˧.kʰwaːm˧.sa˨˩.ʔaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "clean",
+       "tidy"
+      ],
+      "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "ความสะอาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ดำเนินการ + คำอาการนามของ สะอาด"
+    },
+    {
+     "th": "ทำคลอด",
+     "rtgs": "tham-khlot",
+     "ipa": "/tʰam˧.kʰlɔːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช่วยให้ทารกคลอดจากครรภ์มารดา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "คลอด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "do + deliver",
+     "lit_th": "ดำเนินการ + ออกลูก"
     }
    ],
    "extends": 3,
@@ -277,7 +559,75 @@
    "extends": 6,
    "via": "specialisation",
    "via_note": "And the rule being a rite: to perform it.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ทำขวัญ",
+     "rtgs": "tham-khwan",
+     "ipa": "/tʰam˧.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำพิธีเชิญขวัญหรือเรียกขวัญมาอยู่กับตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "ขวัญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "do + khwan",
+     "lit_th": "ประกอบพิธีกรรมเกี่ยวกับการนั้น ๆ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
+    },
+    {
+     "th": "ทำบุญ",
+     "rtgs": "tham-bun",
+     "ipa": "/tʰam˧.bun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประกอบกรรมดี มีการเลี้ยงพระ ตักบาตร ถวายจตุปัจจัยแก่พระสงฆ์เป็นต้น, ทำบุญทำกุศล ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "บุญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "บุญ"
+     ],
+     "lit": "do + merit",
+     "lit_th": "ประกอบพิธีกรรมเกี่ยวกับการนั้น ๆ + ความสุข"
+    }
+   ]
   },
   {
    "n": 8,
@@ -336,6 +686,134 @@
      ],
      "lit": "do + are",
      "lit_th": "แสดง + คำกริยาสำหรับแสดงความสัมพันธ์ระหว่"
+    },
+    {
+     "th": "ทำที",
+     "rtgs": "tham-thi",
+     "ipa": "/tʰam˧.tʰiː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสดงกิริยาหรืออาการให้ผู้อื่นสำคัญผิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "ที"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ที"
+     ],
+     "lit": "do + time",
+     "lit_th": "แสดง + ครั้ง"
+    },
+    {
+     "th": "ทำเนียน",
+     "rtgs": "tham-nian",
+     "ipa": "/tʰam˧.nia̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำตัวเสมือนเป็นสมาชิกของกลุ่มอื่นได้อย่างกลมกลืนและแนบเนียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "เนียน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "แสดง + กาบหมากที่เจียนให้มนขนาดเล็กกว่าฝ่"
+    },
+    {
+     "th": "ทำท่า",
+     "rtgs": "tham-tha",
+     "ipa": "/tʰam˧.tʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสดงกิริยาหรืออาการอย่างใดอย่างหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "ท่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "do + landing",
+     "lit_th": "แสดง + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
+    },
+    {
+     "th": "ทำตัว",
+     "rtgs": "tham-tua",
+     "ipa": "/tʰam˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วางตัว, ประพฤติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "do + form",
+     "lit_th": "แสดง + รูป"
     }
    ],
    "extends": 1,
@@ -391,34 +869,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['สร้าง', 'ทำ'].",
  "compounds_unassigned": [
   {
-   "th": "รันทำ",
-   "rtgs": "ran-tham",
-   "ipa": "/ran˧.tʰam˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยํ่ายี",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รัน",
-    "ทำ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 1,
-   "lit_th": "ตี + กระทำ"
-  },
-  {
    "th": "ทำนอง",
    "rtgs": "tham-nong",
    "ipa": "/tʰam˧.nɔːŋ˧/",
@@ -437,15 +887,16 @@
     "ทำ",
     "นอง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives เทียบเขมร ទំនង (ทํนง, 'วิธี, ทาง, แบบ'), which is itself an infixed form, and Lao ທຳນອງ. It only compares rather than derives, so probable — but the recorded split would read ทำ 'to do' + นอง 'to flood', which is not a reading anyone would defend, and the Khmer word matches this one in both form and sense.",
+   "conf": "probable",
    "src": [
     "RID",
     "WIKT"
    ],
    "pattern": "V+V",
    "head": 0,
-   "lit_th": "กระทำ + ค้าง เจิ่ง หรือขังอยู่บนพื้น ใช้แก"
+   "lit_th": "กระทำ + ค้าง เจิ่ง หรือขังอยู่บนพื้น ใช้แก",
+   "use": "false-split"
   },
   {
    "th": "ทำนบ",
@@ -465,7 +916,7 @@
     "ทำ",
     "นบ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives แผลงมาจาก ทบ, จากเขมร ទំនប់ (ทํนบ̍), itself แผลงมาจาก ទប់ (ทบ̍) 'to dam'. The ทำ- is Khmer's nominalising infix on ทบ, not the verb ทำ.",
    "conf": "verified",
    "src": [
     "RID",
@@ -473,97 +924,8 @@
    ],
    "pattern": "V+V",
    "head": 0,
-   "lit_th": "กระทำ + ไหว้"
-  },
-  {
-   "th": "ทำครัว",
-   "rtgs": "tham-khrua",
-   "ipa": "/tʰam˧.kʰrua̯˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "หุงหาอาหาร",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "ครัว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "do + kitchen",
-   "lit_th": "กระทำ + โรง เรือน หรือห้องสำหรับทำกับข้าวข"
-  },
-  {
-   "th": "ทำการบ้าน",
-   "rtgs": "tham-kan-ban",
-   "ipa": "/tʰam˧.kaːn˧.baːn˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำงานหรือแบบฝึกหัดตามที่ครูอาจารย์สั่งให้ทำนอกเวลาเรียน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "การบ้าน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit": "do + homework",
-   "lit_th": "กระทำ + งานที่ครูกำหนดให้นักเรียนไปทำที่บ้"
-  },
-  {
-   "th": "ทำขวัญ",
-   "rtgs": "tham-khwan",
-   "ipa": "/tʰam˧.kʰwan˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำพิธีเชิญขวัญหรือเรียกขวัญมาอยู่กับตัว",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "ขวัญ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ขวัญ"
-   ],
-   "lit": "do + khwan",
-   "lit_th": "กระทำ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย"
+   "lit_th": "กระทำ + ไหว้",
+   "use": "false-split"
   },
   {
    "th": "การทำ",
@@ -597,317 +959,6 @@
    "lit_th": "งาน + กระทำ"
   },
   {
-   "th": "ทำแท้ง",
-   "rtgs": "tham-thaeng",
-   "ipa": "/tʰam˧.tʰɛːŋ˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รีดลูก, มีเจตนาทำให้ทารกออกจากครรภ์มารดาก่อนกำหนดและตาย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "แท้ง"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit_th": "กระทำ + สิ้นสุดการตั้งครรภ์ก่อนกำหนดคลอด โ"
-  },
-  {
-   "th": "ทำที",
-   "rtgs": "tham-thi",
-   "ipa": "/tʰam˧.tʰiː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แสดงกิริยาหรืออาการให้ผู้อื่นสำคัญผิด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "ที"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ที"
-   ],
-   "lit": "do + time",
-   "lit_th": "กระทำ + ครั้ง"
-  },
-  {
-   "th": "ทำร้าย",
-   "rtgs": "tham-rai",
-   "ipa": "/tʰam˧.raːj˦˥/",
-   "gloss": {
-    "en": [
-     "attack",
-     "assault",
-     "harm"
-    ],
-    "th": "ทำให้บาดเจ็บหรือเสียหาย",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "ร้าย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+ADJ",
-   "head": 0,
-   "cross_listed": [
-    "ร้าย"
-   ],
-   "lit": "do + bad",
-   "lit_th": "กระทำ + ดุ",
-   "frame": "quality"
-  },
-  {
-   "th": "ทำเนียน",
-   "rtgs": "tham-nian",
-   "ipa": "/tʰam˧.nia̯n˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำตัวเสมือนเป็นสมาชิกของกลุ่มอื่นได้อย่างกลมกลืนและแนบเนียน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "เนียน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "กระทำ + กาบหมากที่เจียนให้มนขนาดเล็กกว่าฝ่"
-  },
-  {
-   "th": "ทำท่า",
-   "rtgs": "tham-tha",
-   "ipa": "/tʰam˧.tʰaː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แสดงกิริยาหรืออาการอย่างใดอย่างหนึ่ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "ท่า"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ท่า"
-   ],
-   "lit": "do + landing",
-   "lit_th": "กระทำ + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
-  },
-  {
-   "th": "ทำบุญ",
-   "rtgs": "tham-bun",
-   "ipa": "/tʰam˧.bun˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ประกอบกรรมดี มีการเลี้ยงพระ ตักบาตร ถวายจตุปัจจัยแก่พระสงฆ์เป็นต้น, ทำบุญทำกุศล ก็ว่า",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "บุญ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "บุญ"
-   ],
-   "lit": "do + merit",
-   "lit_th": "กระทำ + ความสุข"
-  },
-  {
-   "th": "ทำพิษ",
-   "rtgs": "tham-phit",
-   "ipa": "/tʰam˧.pʰit̚˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เกิดพิษ, เป็นพิษ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "พิษ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "พิษ"
-   ],
-   "lit": "do + harm",
-   "lit_th": "กระทำ + สิ่งที่ร้ายเป็นอันตรายแก่ร่างกายหร"
-  },
-  {
-   "th": "ทำตัว",
-   "rtgs": "tham-tua",
-   "ipa": "/tʰam˧.tua̯˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "วางตัว, ประพฤติ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "ตัว"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "cross_listed": [
-    "ตัว"
-   ],
-   "lit": "do + form",
-   "lit_th": "กระทำ + รูป"
-  },
-  {
-   "th": "ทำความสะอาด",
-   "rtgs": "tham-khwam-sa-at",
-   "ipa": "/tʰam˧.kʰwaːm˧.sa˨˩.ʔaːt̚˨˩/",
-   "gloss": {
-    "en": [
-     "clean",
-     "tidy"
-    ],
-    "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "ความสะอาด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 0,
-   "lit_th": "กระทำ + คำอาการนามของ สะอาด"
-  },
-  {
-   "th": "ทำคลอด",
-   "rtgs": "tham-khlot",
-   "ipa": "/tʰam˧.kʰlɔːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ช่วยให้ทารกคลอดจากครรภ์มารดา",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "คลอด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit": "do + deliver",
-   "lit_th": "กระทำ + ออกลูก"
-  },
-  {
    "th": "ทำลาย",
    "rtgs": "tham-lai",
    "ipa": "/tʰam˧.laːj˧/",
@@ -928,7 +979,7 @@
     "ทำ",
     "ลาย"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives แผลงมาจาก ทลาย, from Old Angkorian Khmer ទ្លាយ៑, cognate with Khmer ទម្លាយ. The ทำ- is the infix and -ลาย the stem, not ลาย 'pattern'.",
    "conf": "verified",
    "src": [
     "RID",
@@ -940,37 +991,8 @@
     "ลาย"
    ],
    "lit": "do + design",
-   "lit_th": "กระทำ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก"
-  },
-  {
-   "th": "ทำให้",
-   "rtgs": "tham-hai",
-   "ipa": "/tʰam˧.haj˥˩/",
-   "gloss": {
-    "en": [
-     "make"
-    ],
-    "th": "เป็นเหตุให้",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ทำ",
-    "ให้"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 0,
-   "lit": "do + bestow",
-   "lit_th": "กระทำ + มอบ"
+   "lit_th": "กระทำ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+   "use": "false-split"
   },
   {
    "th": "ทำนาย",
@@ -993,7 +1015,7 @@
     "ทำ",
     "นาย"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives แผลงมาจาก ทาย, cognate with Khmer ទំនាយ (ทํนาย), itself แผลงมาจาก ទាយ (ทาย) 'to predict'. Same infix, same shape as ทำนบ.",
    "conf": "verified",
    "src": [
     "RID",
@@ -1005,7 +1027,8 @@
     "นาย"
    ],
    "lit": "do + baboo",
-   "lit_th": "กระทำ + คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15"
+   "lit_th": "กระทำ + คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15",
+   "use": "false-split"
   }
  ],
  "etymology": {

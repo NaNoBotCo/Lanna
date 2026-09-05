@@ -35,6 +35,74 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ชาติรส",
+     "rtgs": "cha-ti-rot",
+     "ipa": "/t͡ɕʰaː˧.ti˨˩.rot̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รสโดยกำเนิด เช่น รสหวานของน้ำผึ้ง รสเค็มของเกลือ รสขมของบอระเพ็ด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชาติ",
+      "รส"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "การเกิด + สิ่งที่รู้ได้ด้วยลิ้น เช่น เปรี้ยว",
+     "flips_with": "รสชาติ",
+     "frame": "entity"
+    },
+    {
+     "th": "ธรรมชาติ",
+     "rtgs": "tham-ma-chat",
+     "ipa": "/tʰam˧.ma˦˥.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "nature"
+      ],
+      "th": "สิ่งที่เกิดมีและเป็นอยู่ตามธรรมดาของสิ่งนั้น ๆ, ปรากฏการณ์ของโลกที่โดยรวมเป็นรูปธรรม ประกอบด้วยพืช สัตว์ ภูมิภาพ และลักษณะและสิ่งที่เกิดขึ้นอื่นของโลก ซึ่งต่างกับมนุษย์หรือสิ่งที่มนุษย์สร้างขึ้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ธรรม",
+      "ชาติ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ธรรม"
+     ],
+     "lit": "dharma + birth",
+     "lit_th": "คุณความดี + การเกิด",
+     "frame": "entity"
+    }
    ]
   },
   {
@@ -91,7 +159,74 @@
    "extends": 1,
    "via": "metonymy",
    "via_note": "Birth stands for what one is born into: stock, lineage.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ชาติมาลา",
+     "rtgs": "cha-ti-ma-la",
+     "ipa": "/t͡ɕʰaː˧.ti˨˩.maː˧.laː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แผนภูมิเครือญาติ, แผนลำดับเครือญาติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชาติ",
+      "มาลา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "birth + mood",
+     "lit_th": "เหล่ากอ + ดอกไม้",
+     "frame": "entity"
+    },
+    {
+     "th": "ชาติพันธุ์",
+     "rtgs": "chat-ti-phan",
+     "ipa": "/t͡ɕʰaːt̚˥˩.ti˨˩.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กลุ่มที่มีพันธะเกี่ยวข้องกัน และที่แสดงเอกลักษณ์ออกมา โดยการผูกพันลักษณาการของเชื้อชาติและสัญชาติเข้าด้วยกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชาติ",
+      "พันธุ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พันธุ์"
+     ],
+     "lit": "birth + seed",
+     "lit_th": "เหล่ากอ + พวกพ้อง",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 4,
@@ -119,7 +254,166 @@
    "extends": 3,
    "via": "metaphor",
    "via_note": "The lineage widened into the country.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เพลงชาติ",
+     "rtgs": "phleng-chat",
+     "ipa": "/pʰleːŋ˧.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เพลงประจำประเทศหรือท้องถิ่นนั้น ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เพลง",
+      "ชาติ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "song + birth",
+     "lit_th": "สำเนียงขับร้อง + ประเทศ",
+     "frame": "entity"
+    },
+    {
+     "th": "ขายชาติ",
+     "rtgs": "khai-chat",
+     "ipa": "/kʰaːj˩˩˦.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขยายความลับประเทศชาติของตนแก่ศัตรูหรือเอาใจออกหากไปเข้ากับศัตรู เพราะเห็นแก่สินจ้างหรือสิ่งตอบแทน เพื่อทำลายล้างประเทศชาติของตน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาย",
+      "ชาติ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขาย"
+     ],
+     "lit": "sell + birth",
+     "lit_th": "เอาของแลกเงินตรา + ประเทศ"
+    },
+    {
+     "th": "ประเทศชาติ",
+     "rtgs": "pra-thet-chat",
+     "ipa": "/pra˨˩.tʰeːt̚˥˩.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "nation"
+      ],
+      "th": "บ้านเกิดเมืองนอน, ประเทศ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ประเทศ",
+      "ชาติ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "country + birth",
+     "lit_th": "บ้านเมือง + ประเทศ",
+     "frame": "entity"
+    },
+    {
+     "th": "ธงชาติ",
+     "translit_auto": "thngchati",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ธงที่มีความหมายถึงประเทศและชาติใดชาติหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ธง",
+      "ชาติ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "flag + birth",
+     "lit_th": "ผืนผ้ารูปสี่เหลี่ยมหรือสามเหลี่ยม + ประเทศ",
+     "frame": "entity"
+    },
+    {
+     "th": "ต่างชาติ",
+     "rtgs": "tang-chat",
+     "ipa": "/taːŋ˨˩.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ไม่ได้อยู่หรือมาจากประเทศของตน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต่าง",
+      "ชาติ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "other + birth",
+     "lit_th": "ภาชนะสำหรับบรรทุกสิ่งของมีคานพาดไว + ประเทศ",
+     "frame": "entity"
+    }
+   ]
   },
   {
    "n": 5,
@@ -204,6 +498,74 @@
      "lit": "seed + birth",
      "lit_th": "สิ่งที่เป็นต้นเหตุทำให้เกิดสิ่งอื่ + กลุ่มชนที่มีความรู้สึกในเรื่องเชื้",
      "frame": "entity"
+    },
+    {
+     "th": "ชาตินิยม",
+     "rtgs": "chat-ni-yom",
+     "ipa": "/t͡ɕʰaːt̚˥˩.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "nationalism"
+      ],
+      "th": "ลัทธิที่ถือชาติเป็นใหญ่, ความรักชาติ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชาติ",
+      "นิยม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นิยม"
+     ],
+     "lit": "birth + like",
+     "lit_th": "กลุ่มชนที่มีความรู้สึกในเรื่องเชื้ + การกำหนด",
+     "frame": "entity"
+    },
+    {
+     "th": "สร้างชาติ",
+     "rtgs": "sang-chat",
+     "ipa": "/saːŋ˥˩.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้ชาติมีความเป็นปึกแผ่นมั่นคง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สร้าง",
+      "ชาติ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "สร้าง"
+     ],
+     "lit": "make + birth",
+     "lit_th": "ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา + กลุ่มชนที่มีความรู้สึกในเรื่องเชื้"
     }
    ],
    "extends": 5,
@@ -354,6 +716,156 @@
      "head": 1,
      "lit_th": "สัตว์ที่รู้จักใช้เหตุผล + คำสกรรถ",
      "frame": "entity"
+    },
+    {
+     "th": "ทีฆชาติ",
+     "rtgs": "thi-kha-chat",
+     "ipa": "/tʰiː˧.kʰa˦˥.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "งู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทีฆ",
+      "ชาติ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "ยาว + คำสกรรถ",
+     "frame": "quality"
+    },
+    {
+     "th": "เทียรฆชาติ",
+     "rtgs": "thian-kha-chat",
+     "ipa": "/tʰia̯n˧.kʰa˦˥.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "งู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เทียรฆ",
+      "ชาติ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "ยาว + คำสกรรถ",
+     "frame": "quality"
+    },
+    {
+     "th": "ชลชาติ",
+     "rtgs": "chon-la-chat",
+     "ipa": "/t͡ɕʰon˧.la˦˥.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชล",
+      "ชาติ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "น้ำ + คำสกรรถ",
+     "frame": "entity"
+    },
+    {
+     "th": "รุกขชาติ",
+     "rtgs": "ruk-kha-chat",
+     "ipa": "/ruk̚˦˥.kʰa˨˩.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ต้นไม้, หมู่ไม้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รุกข",
+      "ชาติ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ต้นไม้ + คำสกรรถ",
+     "frame": "entity"
+    },
+    {
+     "th": "สัตวชาติ",
+     "rtgs": "sat-ta-wa-chat",
+     "ipa": "/sat̚˨˩.ta˨˩.wa˦˥.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สัตว์, หมู่สัตว์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัตว",
+      "ชาติ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ สัตว์ + คำสกรรถ",
+     "frame": "entity"
     }
    ],
    "extends": 7,
@@ -378,35 +890,6 @@
  ],
  "editorial": "Generated by lexicon_ingest.py. Generativity 27; domain seeded by keyword hits ['หลัง', 'ขน', 'มือ', 'ตา'].",
  "compounds_unassigned": [
-  {
-   "th": "ทีฆชาติ",
-   "rtgs": "thi-kha-chat",
-   "ipa": "/tʰiː˧.kʰa˦˥.t͡ɕʰaːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "งู",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ทีฆ",
-    "ชาติ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+N",
-   "head": 1,
-   "lit_th": "ยาว + การเกิด",
-   "frame": "quality"
-  },
   {
    "th": "สุชาติ",
    "rtgs": "su-chat",
@@ -440,64 +923,6 @@
    "lit_th": "ซักสบงจีวรวิธีหนึ่งโดยใช้น้ำร้อนหร + การเกิด"
   },
   {
-   "th": "เทียรฆชาติ",
-   "rtgs": "thian-kha-chat",
-   "ipa": "/tʰia̯n˧.kʰa˦˥.t͡ɕʰaːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "งู",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เทียรฆ",
-    "ชาติ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+N",
-   "head": 1,
-   "lit_th": "ยาว + การเกิด",
-   "frame": "quality"
-  },
-  {
-   "th": "ชลชาติ",
-   "rtgs": "chon-la-chat",
-   "ipa": "/t͡ɕʰon˧.la˦˥.t͡ɕʰaːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "น้ำ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชล",
-    "ชาติ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "น้ำ + การเกิด",
-   "frame": "entity"
-  },
-  {
    "th": "องคชาติ",
    "rtgs": "ong-kha-chat",
    "ipa": "/ʔoŋ˧.kʰa˦˥.t͡ɕʰaːt̚˥˩/",
@@ -515,7 +940,7 @@
     "องค",
     "ชาติ"
    ],
-   "note": "head-final; both parts are dictionary headwords",
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: its entire gloss is รูปสะกดผิดของ องคชาต — a pointer to องคชาต, which ends in ชาต and not ชาติ. The head is not in the word at all; the ิ is the error.",
    "conf": "verified",
    "src": [
     "RID",
@@ -524,7 +949,8 @@
    "pattern": "N+N",
    "head": 1,
    "lit_th": "รูปสะกดแบบอื่นของ องค์ + การเกิด",
-   "frame": "entity"
+   "frame": "entity",
+   "use": "false-split"
   },
   {
    "th": "ธัญชาติ",
@@ -557,36 +983,6 @@
    "use": "false-split"
   },
   {
-   "th": "เพลงชาติ",
-   "rtgs": "phleng-chat",
-   "ipa": "/pʰleːŋ˧.t͡ɕʰaːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เพลงประจำประเทศหรือท้องถิ่นนั้น ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เพลง",
-    "ชาติ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "song + birth",
-   "lit_th": "สำเนียงขับร้อง + การเกิด",
-   "frame": "entity"
-  },
-  {
    "th": "ชาติตระการ",
    "rtgs": "chat-tra-kan",
    "ipa": "/t͡ɕʰaːt̚˥˩.tra˨˩.kaːn˧/",
@@ -615,99 +1011,6 @@
    "head": 0,
    "lit_th": "การเกิด + งาม",
    "frame": "quality"
-  },
-  {
-   "th": "ชาติมาลา",
-   "rtgs": "cha-ti-ma-la",
-   "ipa": "/t͡ɕʰaː˧.ti˨˩.maː˧.laː˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แผนภูมิเครือญาติ, แผนลำดับเครือญาติ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชาติ",
-    "มาลา"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit": "birth + mood",
-   "lit_th": "การเกิด + ดอกไม้",
-   "frame": "entity"
-  },
-  {
-   "th": "ขายชาติ",
-   "rtgs": "khai-chat",
-   "ipa": "/kʰaːj˩˩˦.t͡ɕʰaːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ขยายความลับประเทศชาติของตนแก่ศัตรูหรือเอาใจออกหากไปเข้ากับศัตรู เพราะเห็นแก่สินจ้างหรือสิ่งตอบแทน เพื่อทำลายล้างประเทศชาติของตน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขาย",
-    "ชาติ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "ขาย"
-   ],
-   "lit": "sell + birth",
-   "lit_th": "เอาของแลกเงินตรา + การเกิด"
-  },
-  {
-   "th": "ประเทศชาติ",
-   "rtgs": "pra-thet-chat",
-   "ipa": "/pra˨˩.tʰeːt̚˥˩.t͡ɕʰaːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "nation"
-    ],
-    "th": "บ้านเกิดเมืองนอน, ประเทศ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ประเทศ",
-    "ชาติ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "country + birth",
-   "lit_th": "บ้านเมือง + การเกิด",
-   "frame": "entity"
   },
   {
    "th": "การสร้างชาติ",
@@ -741,35 +1044,6 @@
    "frame": "entity"
   },
   {
-   "th": "รุกขชาติ",
-   "rtgs": "ruk-kha-chat",
-   "ipa": "/ruk̚˦˥.kʰa˨˩.t͡ɕʰaːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ต้นไม้, หมู่ไม้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "รุกข",
-    "ชาติ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "ต้นไม้ + การเกิด",
-   "frame": "entity"
-  },
-  {
    "th": "การขายชาติ",
    "rtgs": "kan-khai-chat",
    "ipa": "/kaːn˧.kʰaːj˩˩˦.t͡ɕʰaːt̚˥˩/",
@@ -798,257 +1072,6 @@
    "head": 1,
    "lit": "sale + birth",
    "lit_th": "คำอาการนามของ ขาย + การเกิด",
-   "frame": "entity"
-  },
-  {
-   "th": "ชาตินิยม",
-   "rtgs": "chat-ni-yom",
-   "ipa": "/t͡ɕʰaːt̚˥˩.ni˦˥.jom˧/",
-   "gloss": {
-    "en": [
-     "nationalism"
-    ],
-    "th": "ลัทธิที่ถือชาติเป็นใหญ่, ความรักชาติ",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ชาติ",
-    "นิยม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "นิยม"
-   ],
-   "lit": "birth + like",
-   "lit_th": "การเกิด + การกำหนด",
-   "frame": "entity"
-  },
-  {
-   "th": "ธงชาติ",
-   "translit_auto": "thngchati",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ธงที่มีความหมายถึงประเทศและชาติใดชาติหนึ่ง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ธง",
-    "ชาติ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "flag + birth",
-   "lit_th": "ผืนผ้ารูปสี่เหลี่ยมหรือสามเหลี่ยม + การเกิด",
-   "frame": "entity"
-  },
-  {
-   "th": "ชาติรส",
-   "rtgs": "cha-ti-rot",
-   "ipa": "/t͡ɕʰaː˧.ti˨˩.rot̚˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "รสโดยกำเนิด เช่น รสหวานของน้ำผึ้ง รสเค็มของเกลือ รสขมของบอระเพ็ด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชาติ",
-    "รส"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "lit_th": "การเกิด + สิ่งที่รู้ได้ด้วยลิ้น เช่น เปรี้ยว",
-   "flips_with": "รสชาติ",
-   "frame": "entity"
-  },
-  {
-   "th": "สร้างชาติ",
-   "rtgs": "sang-chat",
-   "ipa": "/saːŋ˥˩.t͡ɕʰaːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ทำให้ชาติมีความเป็นปึกแผ่นมั่นคง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สร้าง",
-    "ชาติ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+N",
-   "head": 1,
-   "cross_listed": [
-    "สร้าง"
-   ],
-   "lit": "make + birth",
-   "lit_th": "ทำให้สิ่งที่ไม่มีอยู่ เกิดมีขึ้นมา + การเกิด"
-  },
-  {
-   "th": "ชาติพันธุ์",
-   "rtgs": "chat-ti-phan",
-   "ipa": "/t͡ɕʰaːt̚˥˩.ti˨˩.pʰan˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "กลุ่มที่มีพันธะเกี่ยวข้องกัน และที่แสดงเอกลักษณ์ออกมา โดยการผูกพันลักษณาการของเชื้อชาติและสัญชาติเข้าด้วยกัน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ชาติ",
-    "พันธุ์"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 0,
-   "cross_listed": [
-    "พันธุ์"
-   ],
-   "lit": "birth + seed",
-   "lit_th": "การเกิด + พวกพ้อง",
-   "frame": "entity"
-  },
-  {
-   "th": "ต่างชาติ",
-   "rtgs": "tang-chat",
-   "ipa": "/taːŋ˨˩.t͡ɕʰaːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ที่ไม่ได้อยู่หรือมาจากประเทศของตน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ต่าง",
-    "ชาติ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit": "other + birth",
-   "lit_th": "ภาชนะสำหรับบรรทุกสิ่งของมีคานพาดไว + การเกิด",
-   "frame": "entity"
-  },
-  {
-   "th": "สัตวชาติ",
-   "rtgs": "sat-ta-wa-chat",
-   "ipa": "/sat̚˨˩.ta˨˩.wa˦˥.t͡ɕʰaːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สัตว์, หมู่สัตว์",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "สัตว",
-    "ชาติ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "lit_th": "รูปแบบอื่นของ สัตว์ + การเกิด",
-   "frame": "entity"
-  },
-  {
-   "th": "ธรรมชาติ",
-   "rtgs": "tham-ma-chat",
-   "ipa": "/tʰam˧.ma˦˥.t͡ɕʰaːt̚˥˩/",
-   "gloss": {
-    "en": [
-     "nature"
-    ],
-    "th": "สิ่งที่เกิดมีและเป็นอยู่ตามธรรมดาของสิ่งนั้น ๆ, ปรากฏการณ์ของโลกที่โดยรวมเป็นรูปธรรม ประกอบด้วยพืช สัตว์ ภูมิภาพ และลักษณะและสิ่งที่เกิดขึ้นอื่นของโลก ซึ่งต่างกับมนุษย์หรือสิ่งที่มนุษย์สร้างขึ้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ธรรม",
-    "ชาติ"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+N",
-   "head": 1,
-   "cross_listed": [
-    "ธรรม"
-   ],
-   "lit": "dharma + birth",
-   "lit_th": "คุณความดี + การเกิด",
    "frame": "entity"
   },
   {
