@@ -19417,14 +19417,6 @@
    "h": "/kham/weng/"
   },
   {
-   "id": "w:han-he",
-   "c": "word",
-   "l": "หันเห",
-   "rtgs": "han-he",
-   "unassigned": true,
-   "h": "/kham/han-he/"
-  },
-  {
    "id": "w:yoeng",
    "c": "word",
    "l": "เหยิง",
@@ -19627,20 +19619,30 @@
    "pending": true
   },
   {
-   "id": "w:hak-he",
-   "c": "word",
-   "l": "หักเห",
-   "rtgs": "hak-he",
-   "unassigned": true,
-   "h": "/kham/hak-he/"
-  },
-  {
    "id": "w:he#1",
    "c": "sense",
    "l": "to swerve; to turn aside",
    "word": "w:he",
    "n": 1,
    "conf": "probable"
+  },
+  {
+   "id": "w:han-he",
+   "c": "word",
+   "l": "หันเห",
+   "rtgs": "han-he",
+   "lit": null,
+   "frame": null,
+   "h": "/kham/han-he/"
+  },
+  {
+   "id": "w:hak-he",
+   "c": "word",
+   "l": "หักเห",
+   "rtgs": "hak-he",
+   "lit": "tear + to swerve",
+   "frame": null,
+   "h": "/kham/hak-he/"
   },
   {
    "id": "w:he#2",
@@ -39082,28 +39084,6 @@
    "h": "/kham/kon-2/"
   },
   {
-   "id": "w:kon-la-ak-son",
-   "c": "word",
-   "l": "กลอักษร",
-   "rtgs": "kon-la-ak-son",
-   "unassigned": true,
-   "h": "/kham/kon-la-ak-son/"
-  },
-  {
-   "id": "w:kon-cho-chon",
-   "c": "word",
-   "l": "กลฉ้อฉล",
-   "rtgs": "kon-cho-chon",
-   "unassigned": true,
-   "h": "/kham/kon-cho-chon/"
-  },
-  {
-   "id": "w:?ฉ้อฉล",
-   "c": "word",
-   "l": "ฉ้อฉล",
-   "pending": true
-  },
-  {
    "id": "w:sa-kon",
    "c": "word",
    "l": "สากล",
@@ -39142,80 +39122,12 @@
    "h": "/kham/klok/"
   },
   {
-   "id": "w:kon-la-sat",
-   "c": "word",
-   "l": "กลศาสตร์",
-   "rtgs": "kon-la-sat",
-   "unassigned": true,
-   "h": "/kham/kon-la-sat/"
-  },
-  {
-   "id": "w:?ศาสตร์",
-   "c": "word",
-   "l": "ศาสตร์",
-   "pending": true
-  },
-  {
-   "id": "w:puen-kon",
-   "c": "word",
-   "l": "ปืนกล",
-   "rtgs": "puen-kon",
-   "unassigned": true,
-   "h": "/kham/puen-kon/"
-  },
-  {
-   "id": "w:kon-la-yut",
-   "c": "word",
-   "l": "กลยุทธ์",
-   "rtgs": "kon-la-yut",
-   "unassigned": true,
-   "h": "/kham/kon-la-yut/"
-  },
-  {
-   "id": "w:?ยุทธ์",
-   "c": "word",
-   "l": "ยุทธ์",
-   "pending": true
-  },
-  {
-   "id": "w:ton-kon",
-   "c": "word",
-   "l": "ต้นกล",
-   "rtgs": "ton-kon",
-   "unassigned": true,
-   "h": "/kham/ton-kon/"
-  },
-  {
-   "id": "w:kon-la-met",
-   "c": "word",
-   "l": "กลเม็ด",
-   "rtgs": "kon-la-met",
-   "unassigned": true,
-   "h": "/kham/kon-la-met/"
-  },
-  {
-   "id": "w:long-kon",
-   "c": "word",
-   "l": "หลงกล",
-   "rtgs": "long-kon",
-   "unassigned": true,
-   "h": "/kham/long-kon/"
-  },
-  {
    "id": "w:wi-kon",
    "c": "word",
    "l": "วิกล",
    "rtgs": "wi-kon",
    "unassigned": true,
    "h": "/kham/wi-kon/"
-  },
-  {
-   "id": "w:sa-mong-kon",
-   "c": "word",
-   "l": "สมองกล",
-   "rtgs": "sa-mong-kon",
-   "unassigned": true,
-   "h": "/kham/sa-mong-kon/"
   },
   {
    "id": "w:kluang",
@@ -39226,28 +39138,12 @@
    "h": "/kham/kluang/"
   },
   {
-   "id": "w:kon-la-wi-thi",
+   "id": "w:klong",
    "c": "word",
-   "l": "กลวิธี",
-   "rtgs": "kon-la-wi-thi",
+   "l": "กลอง",
+   "rtgs": "klong",
    "unassigned": true,
-   "h": "/kham/kon-la-wi-thi/"
-  },
-  {
-   "id": "w:chop-kon",
-   "c": "word",
-   "l": "ชอบกล",
-   "rtgs": "chop-kon",
-   "unassigned": true,
-   "h": "/kham/chop-kon/"
-  },
-  {
-   "id": "w:keiychkn",
-   "c": "word",
-   "l": "เกียจกล",
-   "rtgs": "keiychkn",
-   "unassigned": true,
-   "h": "/kham/keiychkn/"
+   "h": "/kham/klong/"
   },
   {
    "id": "w:kon-2#1",
@@ -39271,6 +39167,90 @@
    "c": "word",
    "l": "เล่ห์",
    "pending": true
+  },
+  {
+   "id": "w:kon-la-ak-son",
+   "c": "word",
+   "l": "กลอักษร",
+   "rtgs": "kon-la-ak-son",
+   "lit": "trick + letter",
+   "frame": "entity",
+   "h": "/kham/kon-la-ak-son/"
+  },
+  {
+   "id": "w:kon-cho-chon",
+   "c": "word",
+   "l": "กลฉ้อฉล",
+   "rtgs": "kon-cho-chon",
+   "lit": "trick + cheat",
+   "frame": "entity",
+   "h": "/kham/kon-cho-chon/"
+  },
+  {
+   "id": "w:?ฉ้อฉล",
+   "c": "word",
+   "l": "ฉ้อฉล",
+   "pending": true
+  },
+  {
+   "id": "w:kon-la-yut",
+   "c": "word",
+   "l": "กลยุทธ์",
+   "rtgs": "kon-la-yut",
+   "lit": null,
+   "frame": "entity",
+   "h": "/kham/kon-la-yut/"
+  },
+  {
+   "id": "w:?ยุทธ์",
+   "c": "word",
+   "l": "ยุทธ์",
+   "pending": true
+  },
+  {
+   "id": "w:kon-la-met",
+   "c": "word",
+   "l": "กลเม็ด",
+   "rtgs": "kon-la-met",
+   "lit": "trick + seed",
+   "frame": "entity",
+   "h": "/kham/kon-la-met/"
+  },
+  {
+   "id": "w:long-kon",
+   "c": "word",
+   "l": "หลงกล",
+   "rtgs": "long-kon",
+   "lit": null,
+   "frame": null,
+   "h": "/kham/long-kon/"
+  },
+  {
+   "id": "w:kon-la-wi-thi",
+   "c": "word",
+   "l": "กลวิธี",
+   "rtgs": "kon-la-wi-thi",
+   "lit": "trick + mean",
+   "frame": "entity",
+   "h": "/kham/kon-la-wi-thi/"
+  },
+  {
+   "id": "w:chop-kon",
+   "c": "word",
+   "l": "ชอบกล",
+   "rtgs": "chop-kon",
+   "lit": "like + trick",
+   "frame": null,
+   "h": "/kham/chop-kon/"
+  },
+  {
+   "id": "w:keiychkn",
+   "c": "word",
+   "l": "เกียจกล",
+   "rtgs": null,
+   "lit": null,
+   "frame": null,
+   "h": "/kham/keiychkn/"
   },
   {
    "id": "w:kon-2#2",
@@ -39298,15 +39278,6 @@
    "conf": "probable"
   },
   {
-   "id": "w:klong",
-   "c": "word",
-   "l": "กลอง",
-   "rtgs": "klong",
-   "lit": "trick + the Vietnamese royal prefix ong",
-   "frame": "entity",
-   "h": "/kham/klong/"
-  },
-  {
    "id": "w:kon-kai",
    "c": "word",
    "l": "กลไก",
@@ -39320,6 +39291,48 @@
    "c": "word",
    "l": "ไก",
    "pending": true
+  },
+  {
+   "id": "w:kon-la-sat",
+   "c": "word",
+   "l": "กลศาสตร์",
+   "rtgs": "kon-la-sat",
+   "lit": "trick + discipline",
+   "frame": "entity",
+   "h": "/kham/kon-la-sat/"
+  },
+  {
+   "id": "w:?ศาสตร์",
+   "c": "word",
+   "l": "ศาสตร์",
+   "pending": true
+  },
+  {
+   "id": "w:puen-kon",
+   "c": "word",
+   "l": "ปืนกล",
+   "rtgs": "puen-kon",
+   "lit": "gun + trick",
+   "frame": "entity",
+   "h": "/kham/puen-kon/"
+  },
+  {
+   "id": "w:ton-kon",
+   "c": "word",
+   "l": "ต้นกล",
+   "rtgs": "ton-kon",
+   "lit": "trunk + trick",
+   "frame": "entity",
+   "h": "/kham/ton-kon/"
+  },
+  {
+   "id": "w:sa-mong-kon",
+   "c": "word",
+   "l": "สมองกล",
+   "rtgs": "sa-mong-kon",
+   "lit": "brain + trick",
+   "frame": "entity",
+   "h": "/kham/sa-mong-kon/"
   },
   {
    "id": "w:kon-2#4",
@@ -125766,18 +125779,6 @@
   },
   {
    "rel": "COMPOUND_OF",
-   "from": "w:han-he",
-   "to": "w:?หัน",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:han-he",
-   "to": "w:he",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
    "from": "w:yoeng",
    "to": "w:he",
    "kind": "structural"
@@ -125981,6 +125982,49 @@
    "kind": "structural"
   },
   {
+   "rel": "HAS_SENSE",
+   "from": "w:he",
+   "to": "w:he#1",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:he#1",
+   "to": "w:han-he",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:han-he",
+   "to": "w:?หัน",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:han-he",
+   "to": "w:he",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:he#1",
+   "to": "w:hak-he",
+   "kind": "asserted",
+   "note": "tear + to swerve",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "rel": "COMPOUND_OF",
    "from": "w:hak-he",
    "to": "w:?หัก",
@@ -125990,12 +126034,6 @@
    "rel": "COMPOUND_OF",
    "from": "w:hak-he",
    "to": "w:he",
-   "kind": "structural"
-  },
-  {
-   "rel": "HAS_SENSE",
-   "from": "w:he",
-   "to": "w:he#1",
    "kind": "structural"
   },
   {
@@ -165398,30 +165436,6 @@
   },
   {
    "rel": "COMPOUND_OF",
-   "from": "w:kon-la-ak-son",
-   "to": "w:kon-2",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kon-la-ak-son",
-   "to": "w:?อักษร",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kon-cho-chon",
-   "to": "w:kon-2",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kon-cho-chon",
-   "to": "w:?ฉ้อฉล",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
    "from": "w:sa-kon",
    "to": "w:?สา",
    "kind": "structural"
@@ -165442,18 +165456,6 @@
    "rel": "COMPOUND_OF",
    "from": "w:klon",
    "to": "w:?อน",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kon-la-bot",
-   "to": "w:kon-2",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kon-la-bot",
-   "to": "w:bot",
    "kind": "structural"
   },
   {
@@ -165482,78 +165484,6 @@
   },
   {
    "rel": "COMPOUND_OF",
-   "from": "w:kon-la-sat",
-   "to": "w:kon-2",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kon-la-sat",
-   "to": "w:?ศาสตร์",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:puen-kon",
-   "to": "w:?ปืน",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:puen-kon",
-   "to": "w:kon-2",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kon-la-yut",
-   "to": "w:kon-2",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kon-la-yut",
-   "to": "w:?ยุทธ์",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:ton-kon",
-   "to": "w:ton",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:ton-kon",
-   "to": "w:kon-2",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kon-la-met",
-   "to": "w:kon-2",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kon-la-met",
-   "to": "w:?เม็ด",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:long-kon",
-   "to": "w:?หลง",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:long-kon",
-   "to": "w:kon-2",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
    "from": "w:wi-kon",
    "to": "w:?วิ",
    "kind": "structural"
@@ -165561,18 +165491,6 @@
   {
    "rel": "COMPOUND_OF",
    "from": "w:wi-kon",
-   "to": "w:kon-2",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sa-mong-kon",
-   "to": "w:sa-mong",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sa-mong-kon",
    "to": "w:kon-2",
    "kind": "structural"
   },
@@ -165590,38 +165508,14 @@
   },
   {
    "rel": "COMPOUND_OF",
-   "from": "w:kon-la-wi-thi",
+   "from": "w:klong",
    "to": "w:kon-2",
    "kind": "structural"
   },
   {
    "rel": "COMPOUND_OF",
-   "from": "w:kon-la-wi-thi",
-   "to": "w:?วิธี",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:chop-kon",
-   "to": "w:?ชอบ",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:chop-kon",
-   "to": "w:kon-2",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:keiychkn",
-   "to": "w:?เกียจ",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:keiychkn",
-   "to": "w:kon-2",
+   "from": "w:klong",
+   "to": "w:ong",
    "kind": "structural"
   },
   {
@@ -165657,6 +165551,228 @@
   {
    "rel": "COMPOUND_OF",
    "from": "w:le-kon",
+   "to": "w:kon-2",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:kon-2#1",
+   "to": "w:kon-la-ak-son",
+   "kind": "asserted",
+   "note": "trick + letter",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-la-ak-son",
+   "to": "w:kon-2",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-la-ak-son",
+   "to": "w:?อักษร",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:kon-2#1",
+   "to": "w:kon-cho-chon",
+   "kind": "asserted",
+   "note": "trick + cheat",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-cho-chon",
+   "to": "w:kon-2",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-cho-chon",
+   "to": "w:?ฉ้อฉล",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:kon-2#1",
+   "to": "w:kon-la-bot",
+   "kind": "asserted",
+   "note": "trick + unit",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-la-bot",
+   "to": "w:kon-2",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-la-bot",
+   "to": "w:bot",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:kon-2#1",
+   "to": "w:kon-la-yut",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-la-yut",
+   "to": "w:kon-2",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-la-yut",
+   "to": "w:?ยุทธ์",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:kon-2#1",
+   "to": "w:kon-la-met",
+   "kind": "asserted",
+   "note": "trick + seed",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-la-met",
+   "to": "w:kon-2",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-la-met",
+   "to": "w:?เม็ด",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:kon-2#1",
+   "to": "w:long-kon",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:long-kon",
+   "to": "w:?หลง",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:long-kon",
+   "to": "w:kon-2",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:kon-2#1",
+   "to": "w:kon-la-wi-thi",
+   "kind": "asserted",
+   "note": "trick + mean",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-la-wi-thi",
+   "to": "w:kon-2",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-la-wi-thi",
+   "to": "w:?วิธี",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:kon-2#1",
+   "to": "w:chop-kon",
+   "kind": "asserted",
+   "note": "like + trick",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:chop-kon",
+   "to": "w:?ชอบ",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:chop-kon",
+   "to": "w:kon-2",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:kon-2#1",
+   "to": "w:keiychkn",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:keiychkn",
+   "to": "w:?เกียจ",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:keiychkn",
    "to": "w:kon-2",
    "kind": "structural"
   },
@@ -165754,31 +165870,6 @@
   {
    "rel": "HEADS",
    "from": "w:kon-2#3",
-   "to": "w:klong",
-   "kind": "asserted",
-   "note": "trick + the Vietnamese royal prefix ong",
-   "conf": "probable",
-   "src": [
-    "CUR",
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:klong",
-   "to": "w:kon-2",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:klong",
-   "to": "w:ong",
-   "kind": "structural"
-  },
-  {
-   "rel": "HEADS",
-   "from": "w:kon-2#3",
    "to": "w:kon-kai",
    "kind": "asserted",
    "conf": "verified",
@@ -165797,6 +165888,106 @@
    "rel": "COMPOUND_OF",
    "from": "w:kon-kai",
    "to": "w:?ไก",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:kon-2#3",
+   "to": "w:kon-la-sat",
+   "kind": "asserted",
+   "note": "trick + discipline",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-la-sat",
+   "to": "w:kon-2",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kon-la-sat",
+   "to": "w:?ศาสตร์",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:kon-2#3",
+   "to": "w:puen-kon",
+   "kind": "asserted",
+   "note": "gun + trick",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:puen-kon",
+   "to": "w:?ปืน",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:puen-kon",
+   "to": "w:kon-2",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:kon-2#3",
+   "to": "w:ton-kon",
+   "kind": "asserted",
+   "note": "trunk + trick",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:ton-kon",
+   "to": "w:ton",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:ton-kon",
+   "to": "w:kon-2",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:kon-2#3",
+   "to": "w:sa-mong-kon",
+   "kind": "asserted",
+   "note": "brain + trick",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sa-mong-kon",
+   "to": "w:sa-mong",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sa-mong-kon",
+   "to": "w:kon-2",
    "kind": "structural"
   },
   {

@@ -32,6 +32,69 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "หันเห",
+     "rtgs": "han-he",
+     "ipa": "/han˩˩˦.heː˩˩˦/",
+     "gloss": {
+      "en": [
+       "veer",
+       "bend"
+      ],
+      "th": "เบนจากเดิม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หัน",
+      "เห"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "ผันร่างไปทางใดทางหนึ่ง + เบนไป"
+    },
+    {
+     "th": "หักเห",
+     "rtgs": "hak-he",
+     "ipa": "/hak̚˨˩.heː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เปลี่ยนทางไป, เปลี่ยนแนวไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัก",
+      "เห"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "tear + to swerve",
+     "lit_th": "พับงอ + เบนไป"
+    }
    ]
   },
   {
@@ -119,7 +182,7 @@
     "เห",
     "น้า"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · RID/Wiktionary give it as คำโทโทษของ เน่า — a tone-respelling of เน่า, one morpheme",
    "conf": "verified",
    "src": [
     "RID",
@@ -127,7 +190,8 @@
    ],
    "pattern": "V+N",
    "head": 0,
-   "lit_th": "เบนไป + น้องชายหรือน้องสาวของแม่"
+   "lit_th": "เบนไป + น้องชายหรือน้องสาวของแม่",
+   "use": "false-split"
   },
   {
    "th": "เหวง",
@@ -147,8 +211,8 @@
     "เห",
     "วง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · no etymology on record, but the IPA is one syllable /weːŋ˩˩˦/ with rising tone on a sonorant",
+   "conf": "standard",
    "src": [
     "RID",
     "WIKT"
@@ -156,37 +220,8 @@
    "pattern": "V+N",
    "head": 0,
    "lit": "to swerve + zone",
-   "lit_th": "เบนไป + รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม"
-  },
-  {
-   "th": "หันเห",
-   "rtgs": "han-he",
-   "ipa": "/han˩˩˦.heː˩˩˦/",
-   "gloss": {
-    "en": [
-     "veer",
-     "bend"
-    ],
-    "th": "เบนจากเดิม",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หัน",
-    "เห"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 1,
-   "lit_th": "ผันร่างไปทางใดทางหนึ่ง + เบนไป"
+   "lit_th": "เบนไป + รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม",
+   "use": "false-split"
   },
   {
    "th": "เหยิง",
@@ -206,8 +241,8 @@
     "เห",
     "ยิง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · the etymology says ไม่ทราบรากศัพท์ (root unknown); the IPA is one syllable /jɤːŋ˩˩˦/",
+   "conf": "standard",
    "src": [
     "RID",
     "WIKT"
@@ -215,7 +250,8 @@
    "pattern": "V+V",
    "head": 0,
    "lit": "to swerve + shoot",
-   "lit_th": "เบนไป + ทำให้อาวุธเช่นลูกศรหรือลูกปืนแล่นอ"
+   "lit_th": "เบนไป + ทำให้อาวุธเช่นลูกศรหรือลูกปืนแล่นอ",
+   "use": "false-split"
   },
   {
    "th": "เหลิง",
@@ -235,8 +271,8 @@
     "เห",
     "ลิง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · no etymology on record; the IPA is one syllable /lɤːŋ˩˩˦/",
+   "conf": "standard",
    "src": [
     "RID",
     "WIKT"
@@ -244,7 +280,8 @@
    "pattern": "V+N",
    "head": 0,
    "lit": "to swerve + monkey",
-   "lit_th": "เบนไป + ชื่อสัตว์เลี้ยงลูกด้วยนมหลายชนิดใน"
+   "lit_th": "เบนไป + ชื่อสัตว์เลี้ยงลูกด้วยนมหลายชนิดใน",
+   "use": "false-split"
   },
   {
    "th": "เหลือ",
@@ -265,7 +302,7 @@
     "เห",
     "ลือ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · inherited from Proto-Tai *ʰlɯəᴬ — a single etymon, the ʰl- is the onset ห นำ spells",
    "conf": "verified",
    "src": [
     "RID",
@@ -273,7 +310,8 @@
    ],
    "pattern": "V+V",
    "head": 0,
-   "lit_th": "เบนไป + พูดกันทั่วไป แต่ยังไม่มีอะไรยืนยัน"
+   "lit_th": "เบนไป + พูดกันทั่วไป แต่ยังไม่มีอะไรยืนยัน",
+   "use": "false-split"
   },
   {
    "th": "การเห",
@@ -351,7 +389,7 @@
     "เห",
     "ล้ม"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · RID glosses it รูปเลิกใช้ของ เล่ม — an obsolete spelling of เล่ม, one morpheme",
    "conf": "verified",
    "src": [
     "RID",
@@ -360,7 +398,8 @@
    "pattern": "V+V",
    "head": 0,
    "lit": "to swerve + fall",
-   "lit_th": "เบนไป + กิริยาที่ตั้งอยู่แล้วเอนลงหรือทอดล"
+   "lit_th": "เบนไป + กิริยาที่ตั้งอยู่แล้วเอนลงหรือทอดล",
+   "use": "false-split"
   },
   {
    "th": "เหน่า",
@@ -380,14 +419,15 @@
     "เห",
     "น่า"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · inherited from Proto-Tai *ʰnawᴮ¹ — a single etymon",
    "conf": "verified",
    "src": [
     "RID",
     "WIKT"
    ],
    "head": 0,
-   "lit": "to swerve + -able"
+   "lit": "to swerve + -able",
+   "use": "false-split"
   },
   {
    "th": "เหลา",
@@ -407,7 +447,7 @@
     "เห",
     "ลา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · inherited from Proto-Southwestern-Tai *ʰlawᴬ¹ — a single etymon",
    "conf": "verified",
    "src": [
     "RID",
@@ -416,7 +456,8 @@
    "pattern": "V+N",
    "head": 0,
    "lit": "to swerve + ass",
-   "lit_th": "เบนไป + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus"
+   "lit_th": "เบนไป + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus",
+   "use": "false-split"
   },
   {
    "th": "เหมา",
@@ -436,8 +477,8 @@
     "เห",
     "มา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · only Tai cognates on record, every one of them the same single ห-นำ syllable",
+   "conf": "standard",
    "src": [
     "RID",
     "WIKT"
@@ -448,7 +489,8 @@
     "มา"
    ],
    "lit": "to swerve + come",
-   "lit_th": "เบนไป + เคลื่อนออกจากที่เข้าหาตัวผู้พูด"
+   "lit_th": "เบนไป + เคลื่อนออกจากที่เข้าหาตัวผู้พูด",
+   "use": "false-split"
   },
   {
    "th": "เหรอ",
@@ -468,7 +510,7 @@
     "เห",
     "รอ"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · the etymology derives it from หรือ < ฤๅ, a particle, not a compound",
    "conf": "verified",
    "src": [
     "RID",
@@ -477,7 +519,8 @@
    "pattern": "V+N",
    "head": 0,
    "lit": "to swerve + wait",
-   "lit_th": "เบนไป + หลักปักกันกระแสน้ำ"
+   "lit_th": "เบนไป + หลักปักกันกระแสน้ำ",
+   "use": "false-split"
   },
   {
    "th": "การหักเห",
@@ -527,8 +570,8 @@
     "เห",
     "ล่า"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · only a Lao cognate on record, itself the same single ห-นำ syllable",
+   "conf": "standard",
    "src": [
     "RID",
     "WIKT"
@@ -536,7 +579,8 @@
    "pattern": "V+V",
    "head": 0,
    "lit": "to swerve + hunt",
-   "lit_th": "เบนไป + เที่ยวติดตามหา"
+   "lit_th": "เบนไป + เที่ยวติดตามหา",
+   "use": "false-split"
   },
   {
    "th": "เหม่ง",
@@ -556,7 +600,7 @@
     "เห",
     "ม่ง"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · borrowed from Cantonese 明 (ming4)",
    "conf": "verified",
    "src": [
     "RID",
@@ -564,7 +608,8 @@
    ],
    "pattern": "V+N",
    "head": 0,
-   "lit_th": "เบนไป + ชื่อหนึ่งของปลาทะเลในกลุ่มปลาหางแข"
+   "lit_th": "เบนไป + ชื่อหนึ่งของปลาทะเลในกลุ่มปลาหางแข",
+   "use": "false-split"
   },
   {
    "th": "เหงา",
@@ -584,15 +629,16 @@
     "เห",
     "งา"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · only Tai cognates on record, every one of them the same single ห-นำ syllable",
+   "conf": "standard",
    "src": [
     "RID",
     "WIKT"
    ],
    "pattern": "V+N",
    "head": 0,
-   "lit_th": "เบนไป + ชื่อไม้ล้มลุกชนิด Sesamum oriental"
+   "lit_th": "เบนไป + ชื่อไม้ล้มลุกชนิด Sesamum oriental",
+   "use": "false-split"
   },
   {
    "th": "เหล้น",
@@ -612,7 +658,7 @@
     "เห",
     "ล้น"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · RID glosses it รูปแบบอื่นของ เล่น — a variant spelling of เล่น, one morpheme",
    "conf": "verified",
    "src": [
     "RID",
@@ -620,7 +666,8 @@
    ],
    "pattern": "V+V",
    "head": 0,
-   "lit_th": "เบนไป + พ้นหรือเลยระดับที่เปี่ยมอยู่แล้วจน"
+   "lit_th": "เบนไป + พ้นหรือเลยระดับที่เปี่ยมอยู่แล้วจน",
+   "use": "false-split"
   },
   {
    "th": "เหลน",
@@ -641,7 +688,7 @@
     "เห",
     "ลน"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · inherited from Proto-Tai *ʰlenꟲ — a single etymon",
    "conf": "verified",
    "src": [
     "RID",
@@ -649,7 +696,8 @@
    ],
    "pattern": "V+V",
    "head": 0,
-   "lit_th": "เบนไป + อังไฟเพื่อให้ร้อนแต่ผิว ๆ หรือให้อ"
+   "lit_th": "เบนไป + อังไฟเพื่อให้ร้อนแต่ผิว ๆ หรือให้อ",
+   "use": "false-split"
   },
   {
    "th": "เหล้า",
@@ -670,7 +718,7 @@
     "เห",
     "ล้า"
    ],
-   "note": "head-initial; both parts are dictionary headwords",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ห is ห นำ, the silent high-class tone marker written before a sonorant, not the word เห — the corpus IPA carries no /heː/ and only one syllable · inherited from Proto-Tai *ʰlawꟲ — a single etymon",
    "conf": "verified",
    "src": [
     "RID",
@@ -679,36 +727,8 @@
    "pattern": "V+ADJ",
    "head": 0,
    "lit_th": "เบนไป + หย่อนแรงหรือกำลัง",
-   "frame": "quality"
-  },
-  {
-   "th": "หักเห",
-   "rtgs": "hak-he",
-   "ipa": "/hak̚˨˩.heː˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เปลี่ยนทางไป, เปลี่ยนแนวไป",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "หัก",
-    "เห"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+V",
-   "head": 1,
-   "lit": "tear + to swerve",
-   "lit_th": "พับงอ + เบนไป"
+   "frame": "quality",
+   "use": "false-split"
   }
  ],
  "etymology": {
