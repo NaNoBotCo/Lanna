@@ -375,8 +375,7 @@ ol.steps li::before{content:counter(s);position:absolute;left:-17px;top:0;
     var items=t.map(function(e){return '<li><a href="'+e.h+'">'+
       String(e.t).replace(/[<>&"]/g,function(c){return {'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c];})+'</a></li>';}).join('');
     p.innerHTML='<h3>'+L.your_trail[0]+' · '+L.your_trail[1]+'</h3>'+
-      '<p class=priv>Kept in this browser only. No cookie, no account, nothing sent — '+
-      'unless you offer it below.</p><ol>'+items+'</ol>'+
+      '<p class=priv>Kept in this browser only until you offer it below.</p><ol>'+items+'</ol>'+
       '<button id=rib_offer>Offer this walk as a trail</button>'+
       '<button id=rib_clear>Forget these</button>'+
       '<div class=say id=rib_say></div>';
