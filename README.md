@@ -17,7 +17,7 @@ generated from a local catalogue by a separate build pipeline — edit the gener
 Metadata, compilation, and digitised contributed texts: **CC-BY 4.0** — attribute
 "Lanna Manuscript Wiki". High-resolution source images remain with their holding libraries.
 
-## Support — free forever, funded by merit (*tam boon*)
+## Support — funded by merit (*tam boon*)
 The archive is free, with no ads and no paywall. The transcription and translation is done
 by machines, and that machine-time costs a little — about **$0.06 per page**, a few dollars
 for a whole manual. If it's useful to you and you're moved to, you can make merit: it buys
