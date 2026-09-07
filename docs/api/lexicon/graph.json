@@ -59379,30 +59379,6 @@
    "h": "/kham/on/"
   },
   {
-   "id": "w:kra-duk-on",
-   "c": "word",
-   "l": "กระดูกอ่อน",
-   "rtgs": "kra-duk-on",
-   "unassigned": true,
-   "h": "/kham/kra-duk-on/"
-  },
-  {
-   "id": "w:ton-on",
-   "c": "word",
-   "l": "ต้นอ่อน",
-   "rtgs": "ton-on",
-   "unassigned": true,
-   "h": "/kham/ton-on/"
-  },
-  {
-   "id": "w:on-kho",
-   "c": "word",
-   "l": "อ่อนข้อ",
-   "rtgs": "on-kho",
-   "unassigned": true,
-   "h": "/kham/on-kho/"
-  },
-  {
    "id": "w:kan-on",
    "c": "word",
    "l": "การอ่อน",
@@ -59411,78 +59387,12 @@
    "h": "/kham/kan-on/"
   },
   {
-   "id": "w:khao-on",
-   "c": "word",
-   "l": "เข่าอ่อน",
-   "rtgs": "khao-on",
-   "unassigned": true,
-   "h": "/kham/khao-on/"
-  },
-  {
-   "id": "w:tua-on",
-   "c": "word",
-   "l": "ตัวอ่อน",
-   "rtgs": "tua-on",
-   "unassigned": true,
-   "h": "/kham/tua-on/"
-  },
-  {
-   "id": "w:on-hat",
-   "c": "word",
-   "l": "อ่อนหัด",
-   "rtgs": "on-hat",
-   "unassigned": true,
-   "h": "/kham/on-hat/"
-  },
-  {
-   "id": "w:?หัด",
-   "c": "word",
-   "l": "หัด",
-   "pending": true
-  },
-  {
    "id": "w:khwam-on",
    "c": "word",
    "l": "ความอ่อน",
    "rtgs": "khwam-on",
    "unassigned": true,
    "h": "/kham/khwam-on/"
-  },
-  {
-   "id": "w:on-ae",
-   "c": "word",
-   "l": "อ่อนแอ",
-   "rtgs": "on-ae",
-   "unassigned": true,
-   "h": "/kham/on-ae/"
-  },
-  {
-   "id": "w:?แอ",
-   "c": "word",
-   "l": "แอ",
-   "pending": true
-  },
-  {
-   "id": "w:tap-on",
-   "c": "word",
-   "l": "ตับอ่อน",
-   "rtgs": "tap-on",
-   "unassigned": true,
-   "h": "/kham/tap-on/"
-  },
-  {
-   "id": "w:on-on",
-   "c": "word",
-   "l": "โอนอ่อน",
-   "rtgs": "on-on",
-   "unassigned": true,
-   "h": "/kham/on-on/"
-  },
-  {
-   "id": "w:?โอน",
-   "c": "word",
-   "l": "โอน",
-   "pending": true
   },
   {
    "id": "w:kan-on-on",
@@ -59497,50 +59407,6 @@
    "c": "word",
    "l": "การโอน",
    "pending": true
-  },
-  {
-   "id": "w:on-nom",
-   "c": "word",
-   "l": "อ่อนน้อม",
-   "rtgs": "on-nom",
-   "unassigned": true,
-   "h": "/kham/on-nom/"
-  },
-  {
-   "id": "w:?น้อม",
-   "c": "word",
-   "l": "น้อม",
-   "pending": true
-  },
-  {
-   "id": "w:pan-ya-on",
-   "c": "word",
-   "l": "ปัญญาอ่อน",
-   "rtgs": "pan-ya-on",
-   "unassigned": true,
-   "h": "/kham/pan-ya-on/"
-  },
-  {
-   "id": "w:on-phlia",
-   "c": "word",
-   "l": "อ่อนเพลีย",
-   "rtgs": "on-phlia",
-   "unassigned": true,
-   "h": "/kham/on-phlia/"
-  },
-  {
-   "id": "w:?เพลีย",
-   "c": "word",
-   "l": "เพลีย",
-   "pending": true
-  },
-  {
-   "id": "w:on-wan",
-   "c": "word",
-   "l": "อ่อนหวาน",
-   "rtgs": "on-wan",
-   "unassigned": true,
-   "h": "/kham/on-wan/"
   },
   {
    "id": "w:on#1",
@@ -59568,6 +59434,24 @@
    "h": "/kham/on-yon/"
   },
   {
+   "id": "w:kra-duk-on",
+   "c": "word",
+   "l": "กระดูกอ่อน",
+   "rtgs": "kra-duk-on",
+   "lit": "bone + young",
+   "frame": "quality",
+   "h": "/kham/kra-duk-on/"
+  },
+  {
+   "id": "w:tap-on",
+   "c": "word",
+   "l": "ตับอ่อน",
+   "rtgs": "tap-on",
+   "lit": "liver + young",
+   "frame": "quality",
+   "h": "/kham/tap-on/"
+  },
+  {
    "id": "w:on#3",
    "c": "sense",
    "l": "[RID sense 3 — no English yet]",
@@ -59584,12 +59468,60 @@
    "conf": "probable"
   },
   {
+   "id": "w:on-kho",
+   "c": "word",
+   "l": "อ่อนข้อ",
+   "rtgs": "on-kho",
+   "lit": null,
+   "frame": "quality",
+   "h": "/kham/on-kho/"
+  },
+  {
+   "id": "w:on-on",
+   "c": "word",
+   "l": "โอนอ่อน",
+   "rtgs": "on-on",
+   "lit": "abalienate + young",
+   "frame": "quality",
+   "h": "/kham/on-on/"
+  },
+  {
+   "id": "w:?โอน",
+   "c": "word",
+   "l": "โอน",
+   "pending": true
+  },
+  {
+   "id": "w:on-nom",
+   "c": "word",
+   "l": "อ่อนน้อม",
+   "rtgs": "on-nom",
+   "lit": null,
+   "frame": "quality",
+   "h": "/kham/on-nom/"
+  },
+  {
+   "id": "w:?น้อม",
+   "c": "word",
+   "l": "น้อม",
+   "pending": true
+  },
+  {
    "id": "w:on#5",
    "c": "sense",
    "l": "[RID sense 5 — no English yet]",
    "word": "w:on",
    "n": 5,
    "conf": "probable"
+  },
+  {
+   "id": "w:ton-on",
+   "c": "word",
+   "l": "ต้นอ่อน",
+   "rtgs": "ton-on",
+   "lit": "trunk + young",
+   "frame": "quality",
+   "h": "/kham/ton-on/"
   },
   {
    "id": "w:on#6",
@@ -59614,6 +59546,45 @@
    "word": "w:on",
    "n": 8,
    "conf": "probable"
+  },
+  {
+   "id": "w:khao-on",
+   "c": "word",
+   "l": "เข่าอ่อน",
+   "rtgs": "khao-on",
+   "lit": "knee + young",
+   "frame": "quality",
+   "h": "/kham/khao-on/"
+  },
+  {
+   "id": "w:on-ae",
+   "c": "word",
+   "l": "อ่อนแอ",
+   "rtgs": "on-ae",
+   "lit": null,
+   "frame": "quality",
+   "h": "/kham/on-ae/"
+  },
+  {
+   "id": "w:?แอ",
+   "c": "word",
+   "l": "แอ",
+   "pending": true
+  },
+  {
+   "id": "w:on-phlia",
+   "c": "word",
+   "l": "อ่อนเพลีย",
+   "rtgs": "on-phlia",
+   "lit": null,
+   "frame": "quality",
+   "h": "/kham/on-phlia/"
+  },
+  {
+   "id": "w:?เพลีย",
+   "c": "word",
+   "l": "เพลีย",
+   "pending": true
   },
   {
    "id": "w:on#9",
@@ -59656,6 +59627,15 @@
    "h": "/kham/dek-on/"
   },
   {
+   "id": "w:tua-on",
+   "c": "word",
+   "l": "ตัวอ่อน",
+   "rtgs": "tua-on",
+   "lit": "form + young",
+   "frame": "quality",
+   "h": "/kham/tua-on/"
+  },
+  {
    "id": "w:on#11",
    "c": "sense",
    "l": "[RID sense 11 — no English yet]",
@@ -59677,6 +59657,15 @@
    "c": "word",
    "l": "ช้อย",
    "pending": true
+  },
+  {
+   "id": "w:on-wan",
+   "c": "word",
+   "l": "อ่อนหวาน",
+   "rtgs": "on-wan",
+   "lit": "young + sweet",
+   "frame": "quality",
+   "h": "/kham/on-wan/"
   },
   {
    "id": "w:on#12",
@@ -59710,12 +59699,36 @@
    "conf": "probable"
   },
   {
+   "id": "w:on-hat",
+   "c": "word",
+   "l": "อ่อนหัด",
+   "rtgs": "on-hat",
+   "lit": null,
+   "frame": "quality",
+   "h": "/kham/on-hat/"
+  },
+  {
+   "id": "w:?หัด",
+   "c": "word",
+   "l": "หัด",
+   "pending": true
+  },
+  {
    "id": "w:on#14",
    "c": "sense",
    "l": "[RID sense 14 — no English yet]",
    "word": "w:on",
    "n": 14,
    "conf": "probable"
+  },
+  {
+   "id": "w:pan-ya-on",
+   "c": "word",
+   "l": "ปัญญาอ่อน",
+   "rtgs": "pan-ya-on",
+   "lit": "wit + young",
+   "frame": "quality",
+   "h": "/kham/pan-ya-on/"
   },
   {
    "id": "w:on#15",
@@ -72554,27 +72567,29 @@
    "h": "/kham/sen-kaeng-ron/"
   },
   {
+   "id": "w:sen#1",
+   "c": "sense",
+   "l": "[RID sense 1 — no English yet]",
+   "word": "w:sen",
+   "n": 1,
+   "conf": "probable"
+  },
+  {
    "id": "w:senphrachea",
    "c": "word",
    "l": "เส้นพระเจ้า",
-   "rtgs": "senphrachea",
-   "unassigned": true,
+   "rtgs": null,
+   "lit": "mark + God",
+   "frame": "entity",
    "h": "/kham/senphrachea/"
-  },
-  {
-   "id": "w:sen-waeng",
-   "c": "word",
-   "l": "เส้นแวง",
-   "rtgs": "sen-waeng",
-   "unassigned": true,
-   "h": "/kham/sen-waeng/"
   },
   {
    "id": "w:wun-sen",
    "c": "word",
    "l": "วุ้นเส้น",
    "rtgs": "wun-sen",
-   "unassigned": true,
+   "lit": null,
+   "frame": "entity",
    "h": "/kham/wun-sen/"
   },
   {
@@ -72588,53 +72603,26 @@
    "c": "word",
    "l": "ยาเส้น",
    "rtgs": "ya-sen",
-   "unassigned": true,
+   "lit": "medicine + mark",
+   "frame": "entity",
    "h": "/kham/ya-sen/"
-  },
-  {
-   "id": "w:sen-tai",
-   "c": "word",
-   "l": "เส้นตาย",
-   "rtgs": "sen-tai",
-   "unassigned": true,
-   "h": "/kham/sen-tai/"
-  },
-  {
-   "id": "w:sen-rung",
-   "c": "word",
-   "l": "เส้นรุ้ง",
-   "rtgs": "sen-rung",
-   "unassigned": true,
-   "h": "/kham/sen-rung/"
   },
   {
    "id": "w:sen-yai",
    "c": "word",
    "l": "เส้นใย",
    "rtgs": "sen-yai",
-   "unassigned": true,
+   "lit": null,
+   "frame": "entity",
    "h": "/kham/sen-yai/"
-  },
-  {
-   "id": "w:sen-tuen",
-   "c": "word",
-   "l": "เส้นตื้น",
-   "rtgs": "sen-tuen",
-   "unassigned": true,
-   "h": "/kham/sen-tuen/"
-  },
-  {
-   "id": "w:?ตื้น",
-   "c": "word",
-   "l": "ตื้น",
-   "pending": true
   },
   {
    "id": "w:sen-mi",
    "c": "word",
    "l": "เส้นหมี่",
    "rtgs": "sen-mi",
-   "unassigned": true,
+   "lit": null,
+   "frame": "entity",
    "h": "/kham/sen-mi/"
   },
   {
@@ -72642,7 +72630,8 @@
    "c": "word",
    "l": "เส้นเล็ก",
    "rtgs": "sen-lek",
-   "unassigned": true,
+   "lit": "mark + small",
+   "frame": "quality",
    "h": "/kham/sen-lek/"
   },
   {
@@ -72650,7 +72639,8 @@
    "c": "word",
    "l": "เส้นจันท์",
    "rtgs": "sen-chan",
-   "unassigned": true,
+   "lit": null,
+   "frame": "entity",
    "h": "/kham/sen-chan/"
   },
   {
@@ -72658,38 +72648,6 @@
    "c": "word",
    "l": "จันท์",
    "pending": true
-  },
-  {
-   "id": "w:sen-khong",
-   "c": "word",
-   "l": "เส้นโค้ง",
-   "rtgs": "sen-khong",
-   "unassigned": true,
-   "h": "/kham/sen-khong/"
-  },
-  {
-   "id": "w:sen-thang",
-   "c": "word",
-   "l": "เส้นทาง",
-   "rtgs": "sen-thang",
-   "unassigned": true,
-   "h": "/kham/sen-thang/"
-  },
-  {
-   "id": "w:sen-trong",
-   "c": "word",
-   "l": "เส้นตรง",
-   "rtgs": "sen-trong",
-   "unassigned": true,
-   "h": "/kham/sen-trong/"
-  },
-  {
-   "id": "w:sen#1",
-   "c": "sense",
-   "l": "[RID sense 1 — no English yet]",
-   "word": "w:sen",
-   "n": 1,
-   "conf": "probable"
   },
   {
    "id": "w:sen#2",
@@ -72700,12 +72658,36 @@
    "conf": "probable"
   },
   {
+   "id": "w:sen-tuen",
+   "c": "word",
+   "l": "เส้นตื้น",
+   "rtgs": "sen-tuen",
+   "lit": "mark + shallow",
+   "frame": "quality",
+   "h": "/kham/sen-tuen/"
+  },
+  {
+   "id": "w:?ตื้น",
+   "c": "word",
+   "l": "ตื้น",
+   "pending": true
+  },
+  {
    "id": "w:sen#3",
    "c": "sense",
    "l": "[RID sense 3 — no English yet]",
    "word": "w:sen",
    "n": 3,
    "conf": "probable"
+  },
+  {
+   "id": "w:sen-tai",
+   "c": "word",
+   "l": "เส้นตาย",
+   "rtgs": "sen-tai",
+   "lit": "mark + demise",
+   "frame": null,
+   "h": "/kham/sen-tai/"
   },
   {
    "id": "w:sen#4",
@@ -72716,6 +72698,50 @@
    "conf": "probable"
   },
   {
+   "id": "w:sen#5",
+   "c": "sense",
+   "l": "[RID sense 5 — no English yet]",
+   "word": "w:sen",
+   "n": 5,
+   "conf": "probable"
+  },
+  {
+   "id": "w:sen-waeng",
+   "c": "word",
+   "l": "เส้นแวง",
+   "rtgs": "sen-waeng",
+   "lit": null,
+   "frame": "quality",
+   "h": "/kham/sen-waeng/"
+  },
+  {
+   "id": "w:sen-rung",
+   "c": "word",
+   "l": "เส้นรุ้ง",
+   "rtgs": "sen-rung",
+   "lit": "mark + iris",
+   "frame": "entity",
+   "h": "/kham/sen-rung/"
+  },
+  {
+   "id": "w:sen-khong",
+   "c": "word",
+   "l": "เส้นโค้ง",
+   "rtgs": "sen-khong",
+   "lit": "mark + bend",
+   "frame": null,
+   "h": "/kham/sen-khong/"
+  },
+  {
+   "id": "w:sen-trong",
+   "c": "word",
+   "l": "เส้นตรง",
+   "rtgs": "sen-trong",
+   "lit": "mark + straight",
+   "frame": "quality",
+   "h": "/kham/sen-trong/"
+  },
+  {
    "id": "w:sen-kha-nan",
    "c": "word",
    "l": "เส้นขนาน",
@@ -72723,14 +72749,6 @@
    "lit": null,
    "frame": "entity",
    "h": "/kham/sen-kha-nan/"
-  },
-  {
-   "id": "w:sen#5",
-   "c": "sense",
-   "l": "[RID sense 5 — no English yet]",
-   "word": "w:sen",
-   "n": 5,
-   "conf": "probable"
   },
   {
    "id": "w:sen#6",
@@ -72747,6 +72765,15 @@
    "word": "w:sen",
    "n": 7,
    "conf": "probable"
+  },
+  {
+   "id": "w:sen-thang",
+   "c": "word",
+   "l": "เส้นทาง",
+   "rtgs": "sen-thang",
+   "lit": "mark + way",
+   "frame": "entity",
+   "h": "/kham/sen-thang/"
   },
   {
    "id": "w:si-2",
@@ -212191,54 +212218,6 @@
   },
   {
    "rel": "COMPOUND_OF",
-   "from": "w:luk-on",
-   "to": "w:luk",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:luk-on",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kra-duk-on",
-   "to": "w:?กระดูก",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kra-duk-on",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:ton-on",
-   "to": "w:ton",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:ton-on",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:on-kho",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:on-kho",
-   "to": "w:?ข้อ",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
    "from": "w:kan-on",
    "to": "w:?การ",
    "kind": "structural"
@@ -212246,66 +212225,6 @@
   {
    "rel": "COMPOUND_OF",
    "from": "w:kan-on",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khao-on",
-   "to": "w:?เข่า",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khao-on",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:tua-on",
-   "to": "w:tua",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:tua-on",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:hin-on",
-   "to": "w:hin",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:hin-on",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:on-hat",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:on-hat",
-   "to": "w:?หัด",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:chut-on",
-   "to": "w:chut",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:chut-on",
    "to": "w:on",
    "kind": "structural"
   },
@@ -212323,66 +212242,6 @@
   },
   {
    "rel": "COMPOUND_OF",
-   "from": "w:on-ae",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:on-ae",
-   "to": "w:?แอ",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:nam-on",
-   "to": "w:nam",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:nam-on",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:tap-on",
-   "to": "w:?ตับ",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:tap-on",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khwan-on",
-   "to": "w:khwan",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khwan-on",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:on-on",
-   "to": "w:?โอน",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:on-on",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
    "from": "w:kan-on-on",
    "to": "w:?การโอน",
    "kind": "structural"
@@ -212394,57 +212253,59 @@
    "kind": "structural"
   },
   {
-   "rel": "COMPOUND_OF",
-   "from": "w:on-nom",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:on-nom",
-   "to": "w:?น้อม",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:pan-ya-on",
-   "to": "w:?ปัญญา",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:pan-ya-on",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:on-phlia",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:on-phlia",
-   "to": "w:?เพลีย",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:on-wan",
-   "to": "w:on",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:on-wan",
-   "to": "w:wan-2",
-   "kind": "structural"
-  },
-  {
    "rel": "HAS_SENSE",
    "from": "w:on",
    "to": "w:on#1",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:on#1",
+   "to": "w:hin-on",
+   "kind": "asserted",
+   "note": "rock + young",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:hin-on",
+   "to": "w:hin",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:hin-on",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:on#1",
+   "to": "w:nam-on",
+   "kind": "asserted",
+   "note": "water + young",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:nam-on",
+   "to": "w:nam",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:nam-on",
+   "to": "w:on",
    "kind": "structural"
   },
   {
@@ -212488,6 +212349,56 @@
    "kind": "structural"
   },
   {
+   "rel": "HEADS",
+   "from": "w:on#2",
+   "to": "w:kra-duk-on",
+   "kind": "asserted",
+   "note": "bone + young",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kra-duk-on",
+   "to": "w:?กระดูก",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kra-duk-on",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:on#2",
+   "to": "w:tap-on",
+   "kind": "asserted",
+   "note": "liver + young",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:tap-on",
+   "to": "w:?ตับ",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:tap-on",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
    "rel": "HAS_SENSE",
    "from": "w:on",
    "to": "w:on#3",
@@ -212518,6 +212429,79 @@
    "conf": "probable"
   },
   {
+   "rel": "HEADS",
+   "from": "w:on#4",
+   "to": "w:on-kho",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-kho",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-kho",
+   "to": "w:?ข้อ",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:on#4",
+   "to": "w:on-on",
+   "kind": "asserted",
+   "note": "abalienate + young",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-on",
+   "to": "w:?โอน",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-on",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:on#4",
+   "to": "w:on-nom",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-nom",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-nom",
+   "to": "w:?น้อม",
+   "kind": "structural"
+  },
+  {
    "rel": "HAS_SENSE",
    "from": "w:on",
    "to": "w:on#5",
@@ -212531,6 +212515,31 @@
    "via": "metaphor",
    "note": "Not hardened by time: not old.",
    "conf": "probable"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:on#5",
+   "to": "w:ton-on",
+   "kind": "asserted",
+   "note": "trunk + young",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:ton-on",
+   "to": "w:ton",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:ton-on",
+   "to": "w:on",
+   "kind": "structural"
   },
   {
    "rel": "HAS_SENSE",
@@ -212576,6 +212585,104 @@
    "via": "specialisation",
    "note": "Not strong.",
    "conf": "probable"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:on#8",
+   "to": "w:khao-on",
+   "kind": "asserted",
+   "note": "knee + young",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khao-on",
+   "to": "w:?เข่า",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khao-on",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:on#8",
+   "to": "w:chut-on",
+   "kind": "asserted",
+   "note": "mark + young",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:chut-on",
+   "to": "w:chut",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:chut-on",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:on#8",
+   "to": "w:on-ae",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-ae",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-ae",
+   "to": "w:?แอ",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:on#8",
+   "to": "w:on-phlia",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-phlia",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-phlia",
+   "to": "w:?เพลีย",
+   "kind": "structural"
   },
   {
    "rel": "HAS_SENSE",
@@ -212680,6 +212787,56 @@
    "kind": "structural"
   },
   {
+   "rel": "HEADS",
+   "from": "w:on#10",
+   "to": "w:luk-on",
+   "kind": "asserted",
+   "note": "child + young",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:luk-on",
+   "to": "w:luk",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:luk-on",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:on#10",
+   "to": "w:tua-on",
+   "kind": "asserted",
+   "note": "form + young",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:tua-on",
+   "to": "w:tua",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:tua-on",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
    "rel": "HAS_SENSE",
    "from": "w:on",
    "to": "w:on#11",
@@ -212716,6 +212873,31 @@
    "rel": "COMPOUND_OF",
    "from": "w:on-choi",
    "to": "w:?ช้อย",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:on#11",
+   "to": "w:on-wan",
+   "kind": "asserted",
+   "note": "young + sweet",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-wan",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-wan",
+   "to": "w:wan-2",
    "kind": "structural"
   },
   {
@@ -212758,6 +212940,31 @@
    "kind": "structural"
   },
   {
+   "rel": "HEADS",
+   "from": "w:on#12",
+   "to": "w:khwan-on",
+   "kind": "asserted",
+   "note": "khwan + young",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khwan-on",
+   "to": "w:khwan",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khwan-on",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
    "rel": "HAS_SENSE",
    "from": "w:on",
    "to": "w:on#13",
@@ -212773,6 +212980,30 @@
    "conf": "probable"
   },
   {
+   "rel": "HEADS",
+   "from": "w:on#13",
+   "to": "w:on-hat",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-hat",
+   "to": "w:on",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:on-hat",
+   "to": "w:?หัด",
+   "kind": "structural"
+  },
+  {
    "rel": "HAS_SENSE",
    "from": "w:on",
    "to": "w:on#14",
@@ -212786,6 +213017,31 @@
    "via": "generalisation",
    "note": "And so, not good at a thing.",
    "conf": "probable"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:on#14",
+   "to": "w:pan-ya-on",
+   "kind": "asserted",
+   "note": "wit + young",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:pan-ya-on",
+   "to": "w:?ปัญญา",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:pan-ya-on",
+   "to": "w:on",
+   "kind": "structural"
   },
   {
    "rel": "HAS_SENSE",
@@ -242436,6 +242692,31 @@
    "kind": "structural"
   },
   {
+   "rel": "HAS_SENSE",
+   "from": "w:sen",
+   "to": "w:sen#1",
+   "kind": "structural"
+  },
+  {
+   "rel": "IN_DOMAIN",
+   "from": "w:sen#1",
+   "to": "d:number",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:sen#1",
+   "to": "w:senphrachea",
+   "kind": "asserted",
+   "note": "mark + God",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "rel": "COMPOUND_OF",
    "from": "w:senphrachea",
    "to": "w:sen",
@@ -242448,40 +242729,17 @@
    "kind": "structural"
   },
   {
-   "rel": "COMPOUND_OF",
-   "from": "w:laysen",
-   "to": "w:lai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:laysen",
-   "to": "w:sen",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-waeng",
-   "to": "w:sen",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-waeng",
-   "to": "w:?แวง",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-sai",
-   "to": "w:sen",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-sai",
-   "to": "w:sai",
-   "kind": "structural"
+   "rel": "HEADS",
+   "from": "w:sen#1",
+   "to": "w:kin-sen",
+   "kind": "asserted",
+   "note": "eat + mark",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
   },
   {
    "rel": "COMPOUND_OF",
@@ -242496,6 +242754,18 @@
    "kind": "structural"
   },
   {
+   "rel": "HEADS",
+   "from": "w:sen#1",
+   "to": "w:wun-sen",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "rel": "COMPOUND_OF",
    "from": "w:wun-sen",
    "to": "w:?วุ้น",
@@ -242506,6 +242776,19 @@
    "from": "w:wun-sen",
    "to": "w:sen",
    "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:sen#1",
+   "to": "w:ya-sen",
+   "kind": "asserted",
+   "note": "medicine + mark",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
   },
   {
    "rel": "COMPOUND_OF",
@@ -242520,28 +242803,16 @@
    "kind": "structural"
   },
   {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-tai",
-   "to": "w:sen",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-tai",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-rung",
-   "to": "w:sen",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-rung",
-   "to": "w:?รุ้ง",
-   "kind": "structural"
+   "rel": "HEADS",
+   "from": "w:sen#1",
+   "to": "w:sen-yai",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
   },
   {
    "rel": "COMPOUND_OF",
@@ -242556,16 +242827,16 @@
    "kind": "structural"
   },
   {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-tuen",
-   "to": "w:sen",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-tuen",
-   "to": "w:?ตื้น",
-   "kind": "structural"
+   "rel": "HEADS",
+   "from": "w:sen#1",
+   "to": "w:sen-mi",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
   },
   {
    "rel": "COMPOUND_OF",
@@ -242580,6 +242851,19 @@
    "kind": "structural"
   },
   {
+   "rel": "HEADS",
+   "from": "w:sen#1",
+   "to": "w:sen-lek",
+   "kind": "asserted",
+   "note": "mark + small",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "rel": "COMPOUND_OF",
    "from": "w:sen-lek",
    "to": "w:sen",
@@ -242592,6 +242876,18 @@
    "kind": "structural"
   },
   {
+   "rel": "HEADS",
+   "from": "w:sen#1",
+   "to": "w:sen-chan",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "rel": "COMPOUND_OF",
    "from": "w:sen-chan",
    "to": "w:sen",
@@ -242601,66 +242897,6 @@
    "rel": "COMPOUND_OF",
    "from": "w:sen-chan",
    "to": "w:?จันท์",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-khong",
-   "to": "w:sen",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-khong",
-   "to": "w:?โค้ง",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-chai",
-   "to": "w:sen",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-chai",
-   "to": "w:chai-2",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-thang",
-   "to": "w:sen",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-thang",
-   "to": "w:thang",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-trong",
-   "to": "w:sen",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-trong",
-   "to": "w:?ตรง",
-   "kind": "structural"
-  },
-  {
-   "rel": "HAS_SENSE",
-   "from": "w:sen",
-   "to": "w:sen#1",
-   "kind": "structural"
-  },
-  {
-   "rel": "IN_DOMAIN",
-   "from": "w:sen#1",
-   "to": "d:number",
    "kind": "structural"
   },
   {
@@ -242685,6 +242921,31 @@
    "conf": "probable"
   },
   {
+   "rel": "HEADS",
+   "from": "w:sen#2",
+   "to": "w:sen-tuen",
+   "kind": "asserted",
+   "note": "mark + shallow",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-tuen",
+   "to": "w:sen",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-tuen",
+   "to": "w:?ตื้น",
+   "kind": "structural"
+  },
+  {
    "rel": "HAS_SENSE",
    "from": "w:sen",
    "to": "w:sen#3",
@@ -242704,6 +242965,81 @@
    "via": "specialisation",
    "note": "A line marked along a surface.",
    "conf": "probable"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:sen#3",
+   "to": "w:laysen",
+   "kind": "asserted",
+   "note": "design + mark",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:laysen",
+   "to": "w:lai",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:laysen",
+   "to": "w:sen",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:sen#3",
+   "to": "w:sen-tai",
+   "kind": "asserted",
+   "note": "mark + demise",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-tai",
+   "to": "w:sen",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-tai",
+   "to": "w:tai",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:sen#3",
+   "to": "w:sen-chai",
+   "kind": "asserted",
+   "note": "mark + victory",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-chai",
+   "to": "w:sen",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-chai",
+   "to": "w:chai-2",
+   "kind": "structural"
   },
   {
    "rel": "HAS_SENSE",
@@ -242727,30 +243063,6 @@
    "conf": "probable"
   },
   {
-   "rel": "HEADS",
-   "from": "w:sen#4",
-   "to": "w:sen-kha-nan",
-   "kind": "asserted",
-   "conf": "probable",
-   "src": [
-    "CUR",
-    "RID",
-    "WIKT"
-   ]
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-kha-nan",
-   "to": "w:sen",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-kha-nan",
-   "to": "w:?ขนาน",
-   "kind": "structural"
-  },
-  {
    "rel": "HAS_SENSE",
    "from": "w:sen",
    "to": "w:sen#5",
@@ -242770,6 +243082,129 @@
    "via": "specialisation",
    "note": "The geometer's line, length without breadth.",
    "conf": "probable"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:sen#5",
+   "to": "w:sen-waeng",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-waeng",
+   "to": "w:sen",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-waeng",
+   "to": "w:?แวง",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:sen#5",
+   "to": "w:sen-rung",
+   "kind": "asserted",
+   "note": "mark + iris",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-rung",
+   "to": "w:sen",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-rung",
+   "to": "w:?รุ้ง",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:sen#5",
+   "to": "w:sen-khong",
+   "kind": "asserted",
+   "note": "mark + bend",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-khong",
+   "to": "w:sen",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-khong",
+   "to": "w:?โค้ง",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:sen#5",
+   "to": "w:sen-trong",
+   "kind": "asserted",
+   "note": "mark + straight",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-trong",
+   "to": "w:sen",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-trong",
+   "to": "w:?ตรง",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:sen#5",
+   "to": "w:sen-kha-nan",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-kha-nan",
+   "to": "w:sen",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-kha-nan",
+   "to": "w:?ขนาน",
+   "kind": "structural"
   },
   {
    "rel": "HAS_SENSE",
@@ -242793,6 +243228,31 @@
    "conf": "probable"
   },
   {
+   "rel": "HEADS",
+   "from": "w:sen#6",
+   "to": "w:sen-sai",
+   "kind": "asserted",
+   "note": "mark + late",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-sai",
+   "to": "w:sen",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-sai",
+   "to": "w:sai",
+   "kind": "structural"
+  },
+  {
    "rel": "HAS_SENSE",
    "from": "w:sen",
    "to": "w:sen#7",
@@ -242812,6 +243272,31 @@
    "via": "metonymy",
    "note": "The classifier for line-like things.",
    "conf": "probable"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:sen#7",
+   "to": "w:sen-thang",
+   "kind": "asserted",
+   "note": "mark + way",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-thang",
+   "to": "w:sen",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-thang",
+   "to": "w:thang",
+   "kind": "structural"
   },
   {
    "rel": "CONFUSABLE_WITH",

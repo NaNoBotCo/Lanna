@@ -31,6 +31,77 @@
    ],
    "needs_check": [
     "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "หินอ่อน",
+     "rtgs": "hin-on",
+     "ipa": "/hin˩˩˦.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "marble"
+      ],
+      "th": "หินปูนชนิดที่ขัดแล้วผิวจะเป็นมัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หิน",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หิน"
+     ],
+     "lit": "rock + young",
+     "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + ไม่กระด้าง",
+     "frame": "quality"
+    },
+    {
+     "th": "น้ำอ่อน",
+     "rtgs": "nam-on",
+     "ipa": "/naːm˦˥.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่ละลายสบู่ได้ดี ให้ฟองได้ง่าย และไม่เกิดไคลสบู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + young",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ไม่กระด้าง",
+     "frame": "quality"
+    }
    ]
   },
   {
@@ -87,6 +158,70 @@
      "head": 0,
      "lit": "young + throw",
      "lit_th": "นิ่ม + ซัดให้สิ่งใดสิ่งหนึ่งพ้นไปจากตัวโด",
+     "frame": "quality"
+    },
+    {
+     "th": "กระดูกอ่อน",
+     "rtgs": "kra-duk-on",
+     "ipa": "/kra˨˩.duːk̚˨˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "cartilage"
+      ],
+      "th": "เนื้อเยื่อยึดต่อตามโครงกระดูก โดยเฉพาะบริเวณที่กระดูกเสียดสีกัน ประกอบด้วยเมทริกซ์ ลักษณะคล้ายวุ้น พบได้ที่ใบหู ฝากล่องเสียง (ลิ้นปิดกล่องเสียง) และกล่องเสียง เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กระดูก",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "bone + young",
+     "lit_th": "โครงร่างกายที่มีลักษณะแข็ง + นิ่ม",
+     "frame": "quality"
+    },
+    {
+     "th": "ตับอ่อน",
+     "rtgs": "tap-on",
+     "ipa": "/tap̚˨˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "pancreas"
+      ],
+      "th": "อวัยวะประเภทต่อมของระบบทางเดินอาหารของสิ่งมีชีวิต มีหน้าที่สร้างและขับน้ำย่อยอาหารและสร้างฮอร์โมนอินซูลินและกลูคากอน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตับ",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "liver + young",
+     "lit_th": "อวัยวะประเภทต่อมของระบบทางเดินอาหา + นิ่ม",
      "frame": "quality"
     }
    ],
@@ -145,7 +280,100 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "Not hard in character: yielding, easily moved to pity.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "อ่อนข้อ",
+     "rtgs": "on-kho",
+     "ipa": "/ʔɔːn˨˩.kʰɔː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยอมผ่อนปรนให้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "ข้อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit_th": "ไม่แข็ง + ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร",
+     "frame": "quality"
+    },
+    {
+     "th": "โอนอ่อน",
+     "rtgs": "on-on",
+     "ipa": "/ʔoːn˧.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยอมตาม, คล้อยตาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โอน",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit": "abalienate + young",
+     "lit_th": "น้อมลง + ไม่แข็ง",
+     "frame": "quality"
+    },
+    {
+     "th": "อ่อนน้อม",
+     "rtgs": "on-nom",
+     "ipa": "/ʔɔːn˨˩.nɔːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสดงกิริยาวาจาอย่างมีคารวะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "น้อม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "lit_th": "ไม่แข็ง + โน้ม",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 5,
@@ -171,7 +399,43 @@
    "extends": 1,
    "via": "metaphor",
    "via_note": "Not hardened by time: not old.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ต้นอ่อน",
+     "rtgs": "ton-on",
+     "ipa": "/ton˥˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พืชในระยะงอกออกจากเมล็ด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ต้น"
+     ],
+     "lit": "trunk + young",
+     "lit_th": "ลำของต้นไม้ + ไม่แก่",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 6,
@@ -249,7 +513,137 @@
    "extends": 3,
    "via": "specialisation",
    "via_note": "Not strong.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เข่าอ่อน",
+     "rtgs": "khao-on",
+     "ipa": "/kʰaw˨˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่เข่าหมดกำลังทรุดลง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข่า",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "knee + young",
+     "lit_th": "ส่วนที่ต่อระหว่างขาส่วนบนกับขาส่วน + ไม่แรง",
+     "frame": "quality"
+    },
+    {
+     "th": "จุดอ่อน",
+     "rtgs": "chut-on",
+     "ipa": "/t͡ɕut̚˨˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จุดอ่อนแอ, จุดที่ฝ่ายตรงข้ามจะเอาชนะได้โดยง่าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จุด",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "จุด"
+     ],
+     "lit": "mark + young",
+     "lit_th": "ทำให้ไฟติด + ไม่แรง",
+     "frame": "quality"
+    },
+    {
+     "th": "อ่อนแอ",
+     "rtgs": "on-ae",
+     "ipa": "/ʔɔːn˨˩.ʔɛː˧/",
+     "gloss": {
+      "en": [
+       "weak",
+       "drop",
+       "depressed"
+      ],
+      "th": "มีกำลังน้อย, ไม่แข็งแรง, ไม่เข้มแข็ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "แอ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "lit_th": "ไม่แรง + เล็ก",
+     "frame": "quality"
+    },
+    {
+     "th": "อ่อนเพลีย",
+     "rtgs": "on-phlia",
+     "ipa": "/ʔɔːn˨˩.pʰlia̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีแรงลดน้อยถอยลง, ถอยกำลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "เพลีย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "lit_th": "ไม่แรง + อ่อนแรง",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 9,
@@ -393,6 +787,74 @@
      "lit": "child + young",
      "lit_th": "คนที่มีอายุยังน้อย + ยังเล็กอยู่",
      "frame": "quality"
+    },
+    {
+     "th": "ลูกอ่อน",
+     "rtgs": "luk-on",
+     "ipa": "/luːk̚˥˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกเล็ก ๆ ที่ยังไม่หย่านม, เรียกพ่อหรือแม่ที่มีลูกเล็ก ๆ ยังไม่หย่านม ว่า พ่อลูกอ่อน แม่ลูกอ่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 10 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + young",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ยังเล็กอยู่",
+     "frame": "quality"
+    },
+    {
+     "th": "ตัวอ่อน",
+     "rtgs": "tua-on",
+     "ipa": "/tua̯˧.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สัตว์ในระยะนับต่อจากไซโกตไปจนคลอด หรือออกจากไข่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 10 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "form + young",
+     "lit_th": "รูป + ยังเล็กอยู่",
+     "frame": "quality"
     }
    ],
    "extends": 9,
@@ -450,6 +912,40 @@
      "pattern": "ADJ+ADJ",
      "head": 0,
      "lit_th": "ละมุนละม่อม + งอนงาม",
+     "frame": "quality"
+    },
+    {
+     "th": "อ่อนหวาน",
+     "rtgs": "on-wan",
+     "ipa": "/ʔɔːn˨˩.waːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไพเราะ, น่าฟัง (ใช้กับคำพูดหรือเสียงเป็นต้น)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "หวาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หวาน"
+     ],
+     "lit": "young + sweet",
+     "lit_th": "ละมุนละม่อม + มีรสอย่างรสน้ำตาล",
      "frame": "quality"
     }
    ],
@@ -509,6 +1005,40 @@
      "head": 0,
      "lit_th": "ดัดง่าย + สั่น",
      "frame": "quality"
+    },
+    {
+     "th": "ขวัญอ่อน",
+     "rtgs": "khwan–on",
+     "ipa": "/kʰwan˩˩˦.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกผู้ตกใจง่ายคือเด็กหรือหญิงซึ่งมักจะขวัญหายบ่อย ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "khwan + young",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ดัดง่าย",
+     "frame": "quality"
     }
    ],
    "extends": 1,
@@ -540,7 +1070,38 @@
    "extends": 5,
    "via": "metaphor",
    "via_note": "Green: without experience or skill.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "อ่อนหัด",
+     "rtgs": "on-hat",
+     "ipa": "/ʔɔːn˨˩.hat̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ฝึกฝนมาน้อย, ไม่ชำนาญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "หัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 13 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 14,
@@ -566,7 +1127,40 @@
    "extends": 13,
    "via": "generalisation",
    "via_note": "And so, not good at a thing.",
-   "via_conf": "probable"
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ปัญญาอ่อน",
+     "rtgs": "pan-ya-on",
+     "ipa": "/pan˧.jaː˧.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภาวะที่มีระดับสติปัญญาด้อยหรือต่ำกว่าปรกติ มักมีสาเหตุเกิดขึ้นในระหว่างพัฒนาการ ทำให้เด็กมีความสามารถจำกัดในด้านการเรียนรู้และมีพฤติกรรมปรับตัวไม่อยู่ในระดับที่ควรเป็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปัญญา",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 14 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "wit + young",
+     "lit_th": "ความรอบรู้ + ไม่เก่ง",
+     "frame": "quality"
+    }
+   ]
   },
   {
    "n": 15,
@@ -613,132 +1207,6 @@
  "editorial": "Generated by lexicon_ingest.py. Generativity 27; domain seeded by keyword hits —.",
  "compounds_unassigned": [
   {
-   "th": "ลูกอ่อน",
-   "rtgs": "luk-on",
-   "ipa": "/luːk̚˥˩.ʔɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ลูกเล็ก ๆ ที่ยังไม่หย่านม, เรียกพ่อหรือแม่ที่มีลูกเล็ก ๆ ยังไม่หย่านม ว่า พ่อลูกอ่อน แม่ลูกอ่อน",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ลูก",
-    "อ่อน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ลูก"
-   ],
-   "lit": "child + young",
-   "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ไม่กระด้าง",
-   "frame": "quality"
-  },
-  {
-   "th": "กระดูกอ่อน",
-   "rtgs": "kra-duk-on",
-   "ipa": "/kra˨˩.duːk̚˨˩.ʔɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "cartilage"
-    ],
-    "th": "เนื้อเยื่อยึดต่อตามโครงกระดูก โดยเฉพาะบริเวณที่กระดูกเสียดสีกัน ประกอบด้วยเมทริกซ์ ลักษณะคล้ายวุ้น พบได้ที่ใบหู ฝากล่องเสียง (ลิ้นปิดกล่องเสียง) และกล่องเสียง เป็นต้น",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "กระดูก",
-    "อ่อน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "bone + young",
-   "lit_th": "โครงร่างกายที่มีลักษณะแข็ง + ไม่กระด้าง",
-   "frame": "quality"
-  },
-  {
-   "th": "ต้นอ่อน",
-   "rtgs": "ton-on",
-   "ipa": "/ton˥˩.ʔɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "พืชในระยะงอกออกจากเมล็ด",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ต้น",
-    "อ่อน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ต้น"
-   ],
-   "lit": "trunk + young",
-   "lit_th": "ลำของต้นไม้ + ไม่กระด้าง",
-   "frame": "quality"
-  },
-  {
-   "th": "อ่อนข้อ",
-   "rtgs": "on-kho",
-   "ipa": "/ʔɔːn˨˩.kʰɔː˥˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยอมผ่อนปรนให้",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อ่อน",
-    "ข้อ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+N",
-   "head": 0,
-   "lit_th": "ไม่กระด้าง + ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร",
-   "frame": "quality"
-  },
-  {
    "th": "การอ่อน",
    "rtgs": "kan-on",
    "ipa": "/kaːn˧.ʔɔːn˨˩/",
@@ -766,164 +1234,6 @@
    "pattern": "N+ADJ",
    "head": 1,
    "lit_th": "งาน + ไม่กระด้าง",
-   "frame": "quality"
-  },
-  {
-   "th": "เข่าอ่อน",
-   "rtgs": "khao-on",
-   "ipa": "/kʰaw˨˩.ʔɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "อาการที่เข่าหมดกำลังทรุดลง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "เข่า",
-    "อ่อน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "knee + young",
-   "lit_th": "ส่วนที่ต่อระหว่างขาส่วนบนกับขาส่วน + ไม่กระด้าง",
-   "frame": "quality"
-  },
-  {
-   "th": "ตัวอ่อน",
-   "rtgs": "tua-on",
-   "ipa": "/tua̯˧.ʔɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "สัตว์ในระยะนับต่อจากไซโกตไปจนคลอด หรือออกจากไข่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ตัว",
-    "อ่อน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ตัว"
-   ],
-   "lit": "form + young",
-   "lit_th": "รูป + ไม่กระด้าง",
-   "frame": "quality"
-  },
-  {
-   "th": "หินอ่อน",
-   "rtgs": "hin-on",
-   "ipa": "/hin˩˩˦.ʔɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "marble"
-    ],
-    "th": "หินปูนชนิดที่ขัดแล้วผิวจะเป็นมัน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "หิน",
-    "อ่อน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "หิน"
-   ],
-   "lit": "rock + young",
-   "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + ไม่กระด้าง",
-   "frame": "quality"
-  },
-  {
-   "th": "อ่อนหัด",
-   "rtgs": "on-hat",
-   "ipa": "/ʔɔːn˨˩.hat̚˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ที่ฝึกฝนมาน้อย, ไม่ชำนาญ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อ่อน",
-    "หัด"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+N",
-   "head": 0,
-   "frame": "quality"
-  },
-  {
-   "th": "จุดอ่อน",
-   "rtgs": "chut-on",
-   "ipa": "/t͡ɕut̚˨˩.ʔɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "จุดอ่อนแอ, จุดที่ฝ่ายตรงข้ามจะเอาชนะได้โดยง่าย",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "จุด",
-    "อ่อน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "จุด"
-   ],
-   "lit": "mark + young",
-   "lit_th": "ทำให้ไฟติด + ไม่กระด้าง",
    "frame": "quality"
   },
   {
@@ -958,165 +1268,6 @@
    "frame": "quality"
   },
   {
-   "th": "อ่อนแอ",
-   "rtgs": "on-ae",
-   "ipa": "/ʔɔːn˨˩.ʔɛː˧/",
-   "gloss": {
-    "en": [
-     "weak",
-     "drop",
-     "depressed"
-    ],
-    "th": "มีกำลังน้อย, ไม่แข็งแรง, ไม่เข้มแข็ง",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "อ่อน",
-    "แอ"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+ADJ",
-   "head": 0,
-   "lit_th": "ไม่กระด้าง + เล็ก",
-   "frame": "quality"
-  },
-  {
-   "th": "น้ำอ่อน",
-   "rtgs": "nam-on",
-   "ipa": "/naːm˦˥.ʔɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "น้ำที่ละลายสบู่ได้ดี ให้ฟองได้ง่าย และไม่เกิดไคลสบู่",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "น้ำ",
-    "อ่อน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "น้ำ"
-   ],
-   "lit": "water + young",
-   "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ไม่กระด้าง",
-   "frame": "quality"
-  },
-  {
-   "th": "ตับอ่อน",
-   "rtgs": "tap-on",
-   "ipa": "/tap̚˨˩.ʔɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "pancreas"
-    ],
-    "th": "อวัยวะประเภทต่อมของระบบทางเดินอาหารของสิ่งมีชีวิต มีหน้าที่สร้างและขับน้ำย่อยอาหารและสร้างฮอร์โมนอินซูลินและกลูคากอน",
-    "conf": "verified",
-    "src": [
-     "RID",
-     "WIKT"
-    ]
-   },
-   "parts": [
-    "ตับ",
-    "อ่อน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "liver + young",
-   "lit_th": "อวัยวะประเภทต่อมของระบบทางเดินอาหา + ไม่กระด้าง",
-   "frame": "quality"
-  },
-  {
-   "th": "ขวัญอ่อน",
-   "rtgs": "khwan–on",
-   "ipa": "/kʰwan˩˩˦.ʔɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "เรียกผู้ตกใจง่ายคือเด็กหรือหญิงซึ่งมักจะขวัญหายบ่อย ๆ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ขวัญ",
-    "อ่อน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "cross_listed": [
-    "ขวัญ"
-   ],
-   "lit": "khwan + young",
-   "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ไม่กระด้าง",
-   "frame": "quality"
-  },
-  {
-   "th": "โอนอ่อน",
-   "rtgs": "on-on",
-   "ipa": "/ʔoːn˧.ʔɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ยอมตาม, คล้อยตาม",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "โอน",
-    "อ่อน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "V+ADJ",
-   "head": 1,
-   "lit": "abalienate + young",
-   "lit_th": "น้อมลง + ไม่กระด้าง",
-   "frame": "quality"
-  },
-  {
    "th": "การโอนอ่อน",
    "rtgs": "kan-on-on",
    "ipa": "/kaːn˧.ʔoːn˧.ʔɔːn˨˩/",
@@ -1145,127 +1296,6 @@
    "head": 1,
    "lit": "transfer + young",
    "lit_th": "คำอาการนามของ โอน + ไม่กระด้าง",
-   "frame": "quality"
-  },
-  {
-   "th": "อ่อนน้อม",
-   "rtgs": "on-nom",
-   "ipa": "/ʔɔːn˨˩.nɔːm˦˥/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "แสดงกิริยาวาจาอย่างมีคารวะ",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อ่อน",
-    "น้อม"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+V",
-   "head": 0,
-   "lit_th": "ไม่กระด้าง + โน้ม",
-   "frame": "quality"
-  },
-  {
-   "th": "ปัญญาอ่อน",
-   "rtgs": "pan-ya-on",
-   "ipa": "/pan˧.jaː˧.ʔɔːn˨˩/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ภาวะที่มีระดับสติปัญญาด้อยหรือต่ำกว่าปรกติ มักมีสาเหตุเกิดขึ้นในระหว่างพัฒนาการ ทำให้เด็กมีความสามารถจำกัดในด้านการเรียนรู้และมีพฤติกรรมปรับตัวไม่อยู่ในระดับที่ควรเป็น",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "ปัญญา",
-    "อ่อน"
-   ],
-   "note": "head-final; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "N+ADJ",
-   "head": 1,
-   "lit": "wit + young",
-   "lit_th": "ความรอบรู้ + ไม่กระด้าง",
-   "frame": "quality"
-  },
-  {
-   "th": "อ่อนเพลีย",
-   "rtgs": "on-phlia",
-   "ipa": "/ʔɔːn˨˩.pʰlia̯˧/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "มีแรงลดน้อยถอยลง, ถอยกำลัง",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อ่อน",
-    "เพลีย"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+V",
-   "head": 0,
-   "lit_th": "ไม่กระด้าง + อ่อนแรง",
-   "frame": "quality"
-  },
-  {
-   "th": "อ่อนหวาน",
-   "rtgs": "on-wan",
-   "ipa": "/ʔɔːn˨˩.waːn˩˩˦/",
-   "gloss": {
-    "en": [
-     "[needs a gloss]"
-    ],
-    "th": "ไพเราะ, น่าฟัง (ใช้กับคำพูดหรือเสียงเป็นต้น)",
-    "conf": "unverified",
-    "src": [
-     "RID"
-    ]
-   },
-   "parts": [
-    "อ่อน",
-    "หวาน"
-   ],
-   "note": "head-initial; both parts are dictionary headwords",
-   "conf": "verified",
-   "src": [
-    "RID",
-    "WIKT"
-   ],
-   "pattern": "ADJ+ADJ",
-   "head": 0,
-   "cross_listed": [
-    "หวาน"
-   ],
-   "lit": "young + sweet",
-   "lit_th": "ไม่กระด้าง + มีรสอย่างรสน้ำตาล",
    "frame": "quality"
   }
  ],
