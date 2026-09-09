@@ -1,4 +1,4 @@
-var CACHE='amulet-identify-202609100424';
+var CACHE='amulet-identify-202609100523';
 var ASSETS=['./identify/index.html','./identify/bank.json','./vendor/searchcore.js','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',function(e){e.waitUntil(caches.open(CACHE).then(function(c){return c.addAll(ASSETS).catch(function(){})}).then(function(){return self.skipWaiting()}))});
 self.addEventListener('activate',function(e){e.waitUntil(caches.keys().then(function(ks){return Promise.all(ks.filter(function(k){return k.indexOf('amulet-identify-')===0&&k!==CACHE}).map(function(k){return caches.delete(k)}))}).then(function(){return self.clients.claim()}))});
