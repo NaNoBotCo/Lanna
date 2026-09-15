@@ -31741,106 +31741,12 @@
    "h": "/kham/khit/"
   },
   {
-   "id": "w:luk-khit",
-   "c": "word",
-   "l": "ลูกคิด",
-   "rtgs": "luk-khit",
-   "unassigned": true,
-   "h": "/kham/luk-khit/"
-  },
-  {
-   "id": "w:khbkhid",
-   "c": "word",
-   "l": "ขบคิด",
-   "rtgs": "khbkhid",
-   "unassigned": true,
-   "h": "/kham/khbkhid/"
-  },
-  {
    "id": "w:kan-khit",
    "c": "word",
    "l": "การคิด",
    "rtgs": "kan-khit",
    "unassigned": true,
    "h": "/kham/kan-khit/"
-  },
-  {
-   "id": "w:sin-khit",
-   "c": "word",
-   "l": "สิ้นคิด",
-   "rtgs": "sin-khit",
-   "unassigned": true,
-   "h": "/kham/sin-khit/"
-  },
-  {
-   "id": "w:khit-ban-chi",
-   "c": "word",
-   "l": "คิดบัญชี",
-   "rtgs": "khit–ban–chi",
-   "unassigned": true,
-   "h": "/kham/khit-ban-chi/"
-  },
-  {
-   "id": "w:khit-thueng",
-   "c": "word",
-   "l": "คิดถึง",
-   "rtgs": "khit-thueng",
-   "unassigned": true,
-   "h": "/kham/khit-thueng/"
-  },
-  {
-   "id": "w:naeo-khit",
-   "c": "word",
-   "l": "แนวคิด",
-   "rtgs": "naeo-khit",
-   "unassigned": true,
-   "h": "/kham/naeo-khit/"
-  },
-  {
-   "id": "w:khit-hen",
-   "c": "word",
-   "l": "คิดเห็น",
-   "rtgs": "khit-hen",
-   "unassigned": true,
-   "h": "/kham/khit-hen/"
-  },
-  {
-   "id": "w:khit-khot",
-   "c": "word",
-   "l": "คิดคด",
-   "rtgs": "khit-khot",
-   "unassigned": true,
-   "h": "/kham/khit-khot/"
-  },
-  {
-   "id": "w:?คด",
-   "c": "word",
-   "l": "คด",
-   "pending": true
-  },
-  {
-   "id": "w:khop-khit",
-   "c": "word",
-   "l": "คบคิด",
-   "rtgs": "khop-khit",
-   "unassigned": true,
-   "h": "/kham/khop-khit/"
-  },
-  {
-   "id": "w:khit-khon",
-   "c": "word",
-   "l": "คิดค้น",
-   "rtgs": "khit-khon",
-   "unassigned": true,
-   "h": "/kham/khit-khon/"
-  },
-  {
-   "id": "w:rukhid",
-   "c": "word",
-   "l": "รู้คิด",
-   "rtgs": "rukhid",
-   "unassigned": true,
-   "h": "/kham/rukhid/"
   },
   {
    "id": "w:kan-khop-khit",
@@ -31851,66 +31757,48 @@
    "h": "/kham/kan-khop-khit/"
   },
   {
-   "id": "w:khit-san",
-   "c": "word",
-   "l": "คิดสั้น",
-   "rtgs": "khit-san",
-   "unassigned": true,
-   "h": "/kham/khit-san/"
-  },
-  {
-   "id": "w:?สั้น",
-   "c": "word",
-   "l": "สั้น",
-   "pending": true
-  },
-  {
-   "id": "w:ton-khit",
-   "c": "word",
-   "l": "ต้นคิด",
-   "rtgs": "ton-khit",
-   "unassigned": true,
-   "h": "/kham/ton-khit/"
-  },
-  {
-   "id": "w:kho-khit",
-   "c": "word",
-   "l": "ข้อคิด",
-   "rtgs": "kho-khit",
-   "unassigned": true,
-   "h": "/kham/kho-khit/"
-  },
-  {
-   "id": "w:som-khit",
-   "c": "word",
-   "l": "สมคิด",
-   "rtgs": "som-khit",
-   "unassigned": true,
-   "h": "/kham/som-khit/"
-  },
-  {
-   "id": "w:khwam-khit",
-   "c": "word",
-   "l": "ความคิด",
-   "rtgs": "khwam-khit",
-   "unassigned": true,
-   "h": "/kham/khwam-khit/"
-  },
-  {
-   "id": "w:chuk-khit",
-   "c": "word",
-   "l": "ฉุกคิด",
-   "rtgs": "chuk-khit",
-   "unassigned": true,
-   "h": "/kham/chuk-khit/"
-  },
-  {
    "id": "w:khit#1",
    "c": "sense",
    "l": "[RID sense 1 — no English yet]",
    "word": "w:khit",
    "n": 1,
    "conf": "probable"
+  },
+  {
+   "id": "w:naeo-khit",
+   "c": "word",
+   "l": "แนวคิด",
+   "rtgs": "naeo-khit",
+   "lit": "row + think",
+   "frame": null,
+   "h": "/kham/naeo-khit/"
+  },
+  {
+   "id": "w:khit-khon",
+   "c": "word",
+   "l": "คิดค้น",
+   "rtgs": "khit-khon",
+   "lit": "think + look",
+   "frame": null,
+   "h": "/kham/khit-khon/"
+  },
+  {
+   "id": "w:ton-khit",
+   "c": "word",
+   "l": "ต้นคิด",
+   "rtgs": "ton-khit",
+   "lit": "trunk + think",
+   "frame": null,
+   "h": "/kham/ton-khit/"
+  },
+  {
+   "id": "w:khwam-khit",
+   "c": "word",
+   "l": "ความคิด",
+   "rtgs": "khwam-khit",
+   "lit": "-ness + think",
+   "frame": null,
+   "h": "/kham/khwam-khit/"
   },
   {
    "id": "w:khit#2",
@@ -31945,6 +31833,51 @@
    "pending": true
   },
   {
+   "id": "w:khbkhid",
+   "c": "word",
+   "l": "ขบคิด",
+   "rtgs": null,
+   "lit": "bite + think",
+   "frame": null,
+   "h": "/kham/khbkhid/"
+  },
+  {
+   "id": "w:sin-khit",
+   "c": "word",
+   "l": "สิ้นคิด",
+   "rtgs": "sin-khit",
+   "lit": "to be exhausted + think",
+   "frame": null,
+   "h": "/kham/sin-khit/"
+  },
+  {
+   "id": "w:khit-hen",
+   "c": "word",
+   "l": "คิดเห็น",
+   "rtgs": "khit-hen",
+   "lit": "think + see",
+   "frame": null,
+   "h": "/kham/khit-hen/"
+  },
+  {
+   "id": "w:rukhid",
+   "c": "word",
+   "l": "รู้คิด",
+   "rtgs": null,
+   "lit": "know + think",
+   "frame": null,
+   "h": "/kham/rukhid/"
+  },
+  {
+   "id": "w:kho-khit",
+   "c": "word",
+   "l": "ข้อคิด",
+   "rtgs": "kho-khit",
+   "lit": null,
+   "frame": null,
+   "h": "/kham/kho-khit/"
+  },
+  {
    "id": "w:khit#3",
    "c": "sense",
    "l": "[RID sense 3 — no English yet]",
@@ -31961,6 +31894,24 @@
    "conf": "probable"
   },
   {
+   "id": "w:luk-khit",
+   "c": "word",
+   "l": "ลูกคิด",
+   "rtgs": "luk-khit",
+   "lit": "child + think",
+   "frame": null,
+   "h": "/kham/luk-khit/"
+  },
+  {
+   "id": "w:khit-ban-chi",
+   "c": "word",
+   "l": "คิดบัญชี",
+   "rtgs": "khit–ban–chi",
+   "lit": "think + list",
+   "frame": null,
+   "h": "/kham/khit-ban-chi/"
+  },
+  {
    "id": "w:khit#5",
    "c": "sense",
    "l": "[RID sense 5 — no English yet]",
@@ -31969,12 +31920,78 @@
    "conf": "probable"
   },
   {
+   "id": "w:khit-khot",
+   "c": "word",
+   "l": "คิดคด",
+   "rtgs": "khit-khot",
+   "lit": null,
+   "frame": "quality",
+   "h": "/kham/khit-khot/"
+  },
+  {
+   "id": "w:?คด",
+   "c": "word",
+   "l": "คด",
+   "pending": true
+  },
+  {
+   "id": "w:khop-khit",
+   "c": "word",
+   "l": "คบคิด",
+   "rtgs": "khop-khit",
+   "lit": null,
+   "frame": null,
+   "h": "/kham/khop-khit/"
+  },
+  {
+   "id": "w:khit-san",
+   "c": "word",
+   "l": "คิดสั้น",
+   "rtgs": "khit-san",
+   "lit": "think + short",
+   "frame": "quality",
+   "h": "/kham/khit-san/"
+  },
+  {
+   "id": "w:?สั้น",
+   "c": "word",
+   "l": "สั้น",
+   "pending": true
+  },
+  {
    "id": "w:khit#6",
    "c": "sense",
    "l": "[RID sense 6 — no English yet]",
    "word": "w:khit",
    "n": 6,
    "conf": "probable"
+  },
+  {
+   "id": "w:khit-thueng",
+   "c": "word",
+   "l": "คิดถึง",
+   "rtgs": "khit-thueng",
+   "lit": "think + arrive",
+   "frame": null,
+   "h": "/kham/khit-thueng/"
+  },
+  {
+   "id": "w:som-khit",
+   "c": "word",
+   "l": "สมคิด",
+   "rtgs": "som-khit",
+   "lit": "suitable + think",
+   "frame": "quality",
+   "h": "/kham/som-khit/"
+  },
+  {
+   "id": "w:chuk-khit",
+   "c": "word",
+   "l": "ฉุกคิด",
+   "rtgs": "chuk-khit",
+   "lit": null,
+   "frame": null,
+   "h": "/kham/chuk-khit/"
   },
   {
    "id": "w:khlong",
@@ -149174,30 +149191,6 @@
   },
   {
    "rel": "COMPOUND_OF",
-   "from": "w:luk-khit",
-   "to": "w:luk",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:luk-khit",
-   "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khbkhid",
-   "to": "w:?ขบ",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khbkhid",
-   "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
    "from": "w:kan-khit",
    "to": "w:?การ",
    "kind": "structural"
@@ -149205,114 +149198,6 @@
   {
    "rel": "COMPOUND_OF",
    "from": "w:kan-khit",
-   "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sin-khit",
-   "to": "w:sin",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sin-khit",
-   "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khit-ban-chi",
-   "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khit-ban-chi",
-   "to": "w:?บัญชี",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khit-thueng",
-   "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khit-thueng",
-   "to": "w:thueng",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:naeo-khit",
-   "to": "w:naeo",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:naeo-khit",
-   "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khit-hen",
-   "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khit-hen",
-   "to": "w:?เห็น",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khit-khot",
-   "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khit-khot",
-   "to": "w:?คด",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khop-khit",
-   "to": "w:?คบ",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khop-khit",
-   "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khit-khon",
-   "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khit-khon",
-   "to": "w:?ค้น",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:rukhid",
-   "to": "w:ru",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:rukhid",
    "to": "w:khit",
    "kind": "structural"
   },
@@ -149329,16 +149214,79 @@
    "kind": "structural"
   },
   {
+   "rel": "HAS_SENSE",
+   "from": "w:khit",
+   "to": "w:khit#1",
+   "kind": "structural"
+  },
+  {
+   "rel": "IN_DOMAIN",
+   "from": "w:khit#1",
+   "to": "d:heart",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:khit#1",
+   "to": "w:naeo-khit",
+   "kind": "asserted",
+   "note": "row + think",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "rel": "COMPOUND_OF",
-   "from": "w:khit-san",
+   "from": "w:naeo-khit",
+   "to": "w:naeo",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:naeo-khit",
+   "to": "w:khit",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:khit#1",
+   "to": "w:khit-khon",
+   "kind": "asserted",
+   "note": "think + look",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khit-khon",
    "to": "w:khit",
    "kind": "structural"
   },
   {
    "rel": "COMPOUND_OF",
-   "from": "w:khit-san",
-   "to": "w:?สั้น",
+   "from": "w:khit-khon",
+   "to": "w:?ค้น",
    "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:khit#1",
+   "to": "w:ton-khit",
+   "kind": "asserted",
+   "note": "trunk + think",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
   },
   {
    "rel": "COMPOUND_OF",
@@ -149353,28 +149301,17 @@
    "kind": "structural"
   },
   {
-   "rel": "COMPOUND_OF",
-   "from": "w:kho-khit",
-   "to": "w:?ข้อ",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kho-khit",
-   "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:som-khit",
-   "to": "w:?สม",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:som-khit",
-   "to": "w:khit",
-   "kind": "structural"
+   "rel": "HEADS",
+   "from": "w:khit#1",
+   "to": "w:khwam-khit",
+   "kind": "asserted",
+   "note": "-ness + think",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
   },
   {
    "rel": "COMPOUND_OF",
@@ -149386,30 +149323,6 @@
    "rel": "COMPOUND_OF",
    "from": "w:khwam-khit",
    "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:chuk-khit",
-   "to": "w:?ฉุก",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:chuk-khit",
-   "to": "w:khit",
-   "kind": "structural"
-  },
-  {
-   "rel": "HAS_SENSE",
-   "from": "w:khit",
-   "to": "w:khit#1",
-   "kind": "structural"
-  },
-  {
-   "rel": "IN_DOMAIN",
-   "from": "w:khit#1",
-   "to": "d:heart",
    "kind": "structural"
   },
   {
@@ -149483,6 +149396,130 @@
    "kind": "structural"
   },
   {
+   "rel": "HEADS",
+   "from": "w:khit#2",
+   "to": "w:khbkhid",
+   "kind": "asserted",
+   "note": "bite + think",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khbkhid",
+   "to": "w:?ขบ",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khbkhid",
+   "to": "w:khit",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:khit#2",
+   "to": "w:sin-khit",
+   "kind": "asserted",
+   "note": "to be exhausted + think",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sin-khit",
+   "to": "w:sin",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sin-khit",
+   "to": "w:khit",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:khit#2",
+   "to": "w:khit-hen",
+   "kind": "asserted",
+   "note": "think + see",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khit-hen",
+   "to": "w:khit",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khit-hen",
+   "to": "w:?เห็น",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:khit#2",
+   "to": "w:rukhid",
+   "kind": "asserted",
+   "note": "know + think",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:rukhid",
+   "to": "w:ru",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:rukhid",
+   "to": "w:khit",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:khit#2",
+   "to": "w:kho-khit",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kho-khit",
+   "to": "w:?ข้อ",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kho-khit",
+   "to": "w:khit",
+   "kind": "structural"
+  },
+  {
    "rel": "HAS_SENSE",
    "from": "w:khit",
    "to": "w:khit#3",
@@ -149525,6 +149562,56 @@
    "conf": "probable"
   },
   {
+   "rel": "HEADS",
+   "from": "w:khit#4",
+   "to": "w:luk-khit",
+   "kind": "asserted",
+   "note": "child + think",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:luk-khit",
+   "to": "w:luk",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:luk-khit",
+   "to": "w:khit",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:khit#4",
+   "to": "w:khit-ban-chi",
+   "kind": "asserted",
+   "note": "think + list",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khit-ban-chi",
+   "to": "w:khit",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khit-ban-chi",
+   "to": "w:?บัญชี",
+   "kind": "structural"
+  },
+  {
    "rel": "HAS_SENSE",
    "from": "w:khit",
    "to": "w:khit#5",
@@ -149546,6 +149633,79 @@
    "conf": "probable"
   },
   {
+   "rel": "HEADS",
+   "from": "w:khit#5",
+   "to": "w:khit-khot",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khit-khot",
+   "to": "w:khit",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khit-khot",
+   "to": "w:?คด",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:khit#5",
+   "to": "w:khop-khit",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khop-khit",
+   "to": "w:?คบ",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khop-khit",
+   "to": "w:khit",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:khit#5",
+   "to": "w:khit-san",
+   "kind": "asserted",
+   "note": "think + short",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khit-san",
+   "to": "w:khit",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khit-san",
+   "to": "w:?สั้น",
+   "kind": "structural"
+  },
+  {
    "rel": "HAS_SENSE",
    "from": "w:khit",
    "to": "w:khit#6",
@@ -149565,6 +149725,80 @@
    "via": "generalisation",
    "note": "And simply, to have in mind.",
    "conf": "probable"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:khit#6",
+   "to": "w:khit-thueng",
+   "kind": "asserted",
+   "note": "think + arrive",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khit-thueng",
+   "to": "w:khit",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khit-thueng",
+   "to": "w:thueng",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:khit#6",
+   "to": "w:som-khit",
+   "kind": "asserted",
+   "note": "suitable + think",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:som-khit",
+   "to": "w:?สม",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:som-khit",
+   "to": "w:khit",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:khit#6",
+   "to": "w:chuk-khit",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:chuk-khit",
+   "to": "w:?ฉุก",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:chuk-khit",
+   "to": "w:khit",
+   "kind": "structural"
   },
   {
    "rel": "COMPOUND_OF",
