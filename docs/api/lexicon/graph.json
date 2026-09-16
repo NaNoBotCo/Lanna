@@ -78291,74 +78291,12 @@
    "h": "/kham/tai/"
   },
   {
-   "id": "w:nguean-tai",
-   "c": "word",
-   "l": "เงื่อนตาย",
-   "rtgs": "nguean-tai",
-   "unassigned": true,
-   "h": "/kham/nguean-tai/"
-  },
-  {
    "id": "w:khwam-tai",
    "c": "word",
    "l": "ความตาย",
    "rtgs": "khwam-tai",
    "unassigned": true,
    "h": "/kham/khwam-tai/"
-  },
-  {
-   "id": "w:tai-dan",
-   "c": "word",
-   "l": "ตายด้าน",
-   "rtgs": "tai-dan",
-   "unassigned": true,
-   "h": "/kham/tai-dan/"
-  },
-  {
-   "id": "w:phai-tai",
-   "c": "word",
-   "l": "ไพ่ตาย",
-   "rtgs": "phai-tai",
-   "unassigned": true,
-   "h": "/kham/phai-tai/"
-  },
-  {
-   "id": "w:?ไพ่",
-   "c": "word",
-   "l": "ไพ่",
-   "pending": true
-  },
-  {
-   "id": "w:yuen-ton-tai",
-   "c": "word",
-   "l": "ยืนต้นตาย",
-   "rtgs": "yuen-ton-tai",
-   "unassigned": true,
-   "h": "/kham/yuen-ton-tai/"
-  },
-  {
-   "id": "w:phuean-tai",
-   "c": "word",
-   "l": "เพื่อนตาย",
-   "rtgs": "phuean-tai",
-   "unassigned": true,
-   "h": "/kham/phuean-tai/"
-  },
-  {
-   "id": "w:pit-tai",
-   "c": "word",
-   "l": "ปิดตาย",
-   "rtgs": "pit-tai",
-   "unassigned": true,
-   "h": "/kham/pit-tai/"
-  },
-  {
-   "id": "w:su-tai",
-   "c": "word",
-   "l": "สู้ตาย",
-   "rtgs": "su-tai",
-   "unassigned": true,
-   "h": "/kham/su-tai/"
   },
   {
    "id": "w:kan-tai",
@@ -78369,14 +78307,6 @@
    "h": "/kham/kan-tai/"
   },
   {
-   "id": "w:kiang-tai",
-   "c": "word",
-   "l": "เกี่ยงตาย",
-   "rtgs": "kiang–tai",
-   "unassigned": true,
-   "h": "/kham/kiang-tai/"
-  },
-  {
    "id": "w:tai#1",
    "c": "sense",
    "l": "[RID sense 1 — no English yet]",
@@ -78385,12 +78315,66 @@
    "conf": "probable"
   },
   {
+   "id": "w:yuen-ton-tai",
+   "c": "word",
+   "l": "ยืนต้นตาย",
+   "rtgs": "yuen-ton-tai",
+   "lit": null,
+   "frame": null,
+   "h": "/kham/yuen-ton-tai/"
+  },
+  {
+   "id": "w:phuean-tai",
+   "c": "word",
+   "l": "เพื่อนตาย",
+   "rtgs": "phuean-tai",
+   "lit": "friend + demise",
+   "frame": null,
+   "h": "/kham/phuean-tai/"
+  },
+  {
+   "id": "w:su-tai",
+   "c": "word",
+   "l": "สู้ตาย",
+   "rtgs": "su-tai",
+   "lit": "combat + demise",
+   "frame": null,
+   "h": "/kham/su-tai/"
+  },
+  {
+   "id": "w:kiang-tai",
+   "c": "word",
+   "l": "เกี่ยงตาย",
+   "rtgs": "kiang–tai",
+   "lit": null,
+   "frame": null,
+   "h": "/kham/kiang-tai/"
+  },
+  {
    "id": "w:tai#2",
    "c": "sense",
    "l": "[RID sense 2 — no English yet]",
    "word": "w:tai",
    "n": 2,
    "conf": "probable"
+  },
+  {
+   "id": "w:nguean-tai",
+   "c": "word",
+   "l": "เงื่อนตาย",
+   "rtgs": "nguean-tai",
+   "lit": "knot + demise",
+   "frame": null,
+   "h": "/kham/nguean-tai/"
+  },
+  {
+   "id": "w:tai-dan",
+   "c": "word",
+   "l": "ตายด้าน",
+   "rtgs": "tai-dan",
+   "lit": null,
+   "frame": null,
+   "h": "/kham/tai-dan/"
   },
   {
    "id": "w:tai#3",
@@ -78416,6 +78400,30 @@
    "lit": "demise + form",
    "frame": null,
    "h": "/kham/tai-tua/"
+  },
+  {
+   "id": "w:phai-tai",
+   "c": "word",
+   "l": "ไพ่ตาย",
+   "rtgs": "phai-tai",
+   "lit": null,
+   "frame": null,
+   "h": "/kham/phai-tai/"
+  },
+  {
+   "id": "w:?ไพ่",
+   "c": "word",
+   "l": "ไพ่",
+   "pending": true
+  },
+  {
+   "id": "w:pit-tai",
+   "c": "word",
+   "l": "ปิดตาย",
+   "rtgs": "pit-tai",
+   "lit": "shut + demise",
+   "frame": null,
+   "h": "/kham/pit-tai/"
   },
   {
    "id": "w:tai#5",
@@ -257913,18 +257921,6 @@
   },
   {
    "rel": "COMPOUND_OF",
-   "from": "w:nguean-tai",
-   "to": "w:?เงื่อน",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:nguean-tai",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
    "from": "w:khwam-tai",
    "to": "w:?ความ",
    "kind": "structural"
@@ -257932,162 +257928,6 @@
   {
    "rel": "COMPOUND_OF",
    "from": "w:khwam-tai",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:tai-dan",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:tai-dan",
-   "to": "w:?ด้าน",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:phai-tai",
-   "to": "w:?ไพ่",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:phai-tai",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:tai-rang",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:tai-rang",
-   "to": "w:rang",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:cha-tai",
-   "to": "w:cha-3",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:cha-tai",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:mai-tai",
-   "to": "w:mai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:mai-tai",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:yuen-ton-tai",
-   "to": "w:yuen-ton",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:yuen-ton-tai",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:phuean-tai",
-   "to": "w:?เพื่อน",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:phuean-tai",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-tai",
-   "to": "w:sen",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:sen-tai",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:pit-tai",
-   "to": "w:?ปิด",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:pit-tai",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:na-tai",
-   "to": "w:na",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:na-tai",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:chap-tai",
-   "to": "w:chap",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:chap-tai",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khong-tai",
-   "to": "w:khong",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:khong-tai",
-   "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:su-tai",
-   "to": "w:?สู้",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:su-tai",
    "to": "w:tai",
    "kind": "structural"
   },
@@ -258104,28 +257944,177 @@
    "kind": "structural"
   },
   {
+   "rel": "HAS_SENSE",
+   "from": "w:tai",
+   "to": "w:tai#1",
+   "kind": "structural"
+  },
+  {
+   "rel": "IN_DOMAIN",
+   "from": "w:tai#1",
+   "to": "d:motion",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#1",
+   "to": "w:tai-rang",
+   "kind": "asserted",
+   "note": "demise + nest",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
    "rel": "COMPOUND_OF",
-   "from": "w:tai-chai",
+   "from": "w:tai-rang",
    "to": "w:tai",
    "kind": "structural"
   },
   {
    "rel": "COMPOUND_OF",
-   "from": "w:tai-chai",
-   "to": "w:chai",
+   "from": "w:tai-rang",
+   "to": "w:rang",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#1",
+   "to": "w:mai-tai",
+   "kind": "asserted",
+   "note": "wood + demise",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:mai-tai",
+   "to": "w:mai",
    "kind": "structural"
   },
   {
    "rel": "COMPOUND_OF",
-   "from": "w:kham-tai",
-   "to": "w:kham",
-   "kind": "structural"
-  },
-  {
-   "rel": "COMPOUND_OF",
-   "from": "w:kham-tai",
+   "from": "w:mai-tai",
    "to": "w:tai",
    "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#1",
+   "to": "w:yuen-ton-tai",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:yuen-ton-tai",
+   "to": "w:yuen-ton",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:yuen-ton-tai",
+   "to": "w:tai",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#1",
+   "to": "w:phuean-tai",
+   "kind": "asserted",
+   "note": "friend + demise",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:phuean-tai",
+   "to": "w:?เพื่อน",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:phuean-tai",
+   "to": "w:tai",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#1",
+   "to": "w:chap-tai",
+   "kind": "asserted",
+   "note": "grab + demise",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:chap-tai",
+   "to": "w:chap",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:chap-tai",
+   "to": "w:tai",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#1",
+   "to": "w:su-tai",
+   "kind": "asserted",
+   "note": "combat + demise",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:su-tai",
+   "to": "w:?สู้",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:su-tai",
+   "to": "w:tai",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#1",
+   "to": "w:kiang-tai",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
   },
   {
    "rel": "COMPOUND_OF",
@@ -258137,18 +258126,6 @@
    "rel": "COMPOUND_OF",
    "from": "w:kiang-tai",
    "to": "w:tai",
-   "kind": "structural"
-  },
-  {
-   "rel": "HAS_SENSE",
-   "from": "w:tai",
-   "to": "w:tai#1",
-   "kind": "structural"
-  },
-  {
-   "rel": "IN_DOMAIN",
-   "from": "w:tai#1",
-   "to": "d:motion",
    "kind": "structural"
   },
   {
@@ -258171,6 +258148,130 @@
    "via": "metaphor",
    "note": "Dead in the sense of not moving.",
    "conf": "probable"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#2",
+   "to": "w:nguean-tai",
+   "kind": "asserted",
+   "note": "knot + demise",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:nguean-tai",
+   "to": "w:?เงื่อน",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:nguean-tai",
+   "to": "w:tai",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#2",
+   "to": "w:tai-dan",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:tai-dan",
+   "to": "w:tai",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:tai-dan",
+   "to": "w:?ด้าน",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#2",
+   "to": "w:na-tai",
+   "kind": "asserted",
+   "note": "before + demise",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:na-tai",
+   "to": "w:na",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:na-tai",
+   "to": "w:tai",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#2",
+   "to": "w:tai-chai",
+   "kind": "asserted",
+   "note": "demise + heart",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:tai-chai",
+   "to": "w:tai",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:tai-chai",
+   "to": "w:chai",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#2",
+   "to": "w:kham-tai",
+   "kind": "asserted",
+   "note": "word + demise",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kham-tai",
+   "to": "w:kham",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:kham-tai",
+   "to": "w:tai",
+   "kind": "structural"
   },
   {
    "rel": "HAS_SENSE",
@@ -258240,6 +258341,105 @@
    "kind": "structural"
   },
   {
+   "rel": "HEADS",
+   "from": "w:tai#4",
+   "to": "w:phai-tai",
+   "kind": "asserted",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:phai-tai",
+   "to": "w:?ไพ่",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:phai-tai",
+   "to": "w:tai",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#4",
+   "to": "w:sen-tai",
+   "kind": "asserted",
+   "note": "mark + demise",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-tai",
+   "to": "w:sen",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:sen-tai",
+   "to": "w:tai",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#4",
+   "to": "w:pit-tai",
+   "kind": "asserted",
+   "note": "shut + demise",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:pit-tai",
+   "to": "w:?ปิด",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:pit-tai",
+   "to": "w:tai",
+   "kind": "structural"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#4",
+   "to": "w:khong-tai",
+   "kind": "asserted",
+   "note": "by + demise",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khong-tai",
+   "to": "w:khong",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:khong-tai",
+   "to": "w:tai",
+   "kind": "structural"
+  },
+  {
    "rel": "HAS_SENSE",
    "from": "w:tai",
    "to": "w:tai#5",
@@ -258301,6 +258501,31 @@
    "via": "generalisation",
    "note": "Bleached to an intensifier — awfully, terribly.",
    "conf": "probable"
+  },
+  {
+   "rel": "HEADS",
+   "from": "w:tai#7",
+   "to": "w:cha-tai",
+   "kind": "asserted",
+   "note": "will + demise",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:cha-tai",
+   "to": "w:cha-3",
+   "kind": "structural"
+  },
+  {
+   "rel": "COMPOUND_OF",
+   "from": "w:cha-tai",
+   "to": "w:tai",
+   "kind": "structural"
   },
   {
    "rel": "HAS_SENSE",
