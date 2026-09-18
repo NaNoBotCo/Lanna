@@ -28,3 +28,7 @@ the bots time to read one more text so everyone can have it.
 - Specific manuscripts can be commissioned; the result still enters the free archive.
 
 Contact: 530kings@proton.me
+
+---
+
+Contact: Nan · nan@motdang.net · Sponsor: [Ko-fi](https://ko-fi.com/defiantchiangmai) · [Patreon](https://www.patreon.com/nanobotco)
