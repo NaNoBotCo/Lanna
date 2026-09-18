@@ -275,36 +275,6 @@
    "via_conf": "probable",
    "compounds": [
     {
-     "th": "ราชวงค์",
-     "rtgs": "rat-cha-wong",
-     "ipa": "/raːt̚˥˩.t͡ɕʰa˦˥.woŋ˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "รูปสะกดผิดของ ราชวงศ์",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "ราช",
-      "วงค์"
-     ],
-     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
-     "conf": "standard",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ],
-     "pattern": "N+N",
-     "head": 0,
-     "lit_th": "ที่เกี่ยวกับพระเจ้าแผ่นดิน + รูปสะกดผิดของ วงศ์",
-     "frame": "entity"
-    },
-    {
      "th": "ราชสมบัติ",
      "rtgs": "rat-cha-som-bat",
      "ipa": "/raːt̚˥˩.t͡ɕʰa˦˥.som˩˩˦.bat̚˨˩/",
@@ -672,36 +642,6 @@
      "head": 0,
      "lit": "king + school",
      "lit_th": "ที่เกี่ยวกับพระเจ้าแผ่นดิน + ที่อยู่อาศัย",
-     "frame": "entity"
-    },
-    {
-     "th": "ราชกาล",
-     "rtgs": "rat-cha-kan",
-     "ipa": "/raːt̚˥˩.t͡ɕʰa˦˥.kaːn˧/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "รูปสะกดผิดของ รัชกาล",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "ราช",
-      "กาล"
-     ],
-     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
-     "conf": "standard",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ],
-     "pattern": "N+N",
-     "head": 0,
-     "lit_th": "ที่เกี่ยวกับพระเจ้าแผ่นดิน + เวลา",
      "frame": "entity"
     },
     {
@@ -1365,6 +1305,70 @@
    "lit_th": "รูปแบบอื่นของ สงฆ์ + พระเจ้าแผ่นดิน",
    "frame": "entity",
    "use": "false-split"
+  },
+  {
+   "th": "ราชวงค์",
+   "rtgs": "rat-cha-wong",
+   "ipa": "/raːt̚˥˩.t͡ɕʰa˦˥.woŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ ราชวงศ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ราช",
+    "วงค์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + รูปสะกดผิดของ วงศ์",
+   "frame": "entity",
+   "use": "spelling-variant",
+   "unfiled_from_sense": 4
+  },
+  {
+   "th": "ราชกาล",
+   "rtgs": "rat-cha-kan",
+   "ipa": "/raːt̚˥˩.t͡ɕʰa˦˥.kaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ รัชกาล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ราช",
+    "กาล"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พระเจ้าแผ่นดิน + เวลา",
+   "frame": "entity",
+   "use": "spelling-variant",
+   "unfiled_from_sense": 4
   }
  ],
  "etymology": {

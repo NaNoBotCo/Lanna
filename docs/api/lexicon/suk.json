@@ -451,36 +451,6 @@
      "head": 1,
      "lit_th": "ความสงบ + สบายกายสบายใจ",
      "frame": "entity"
-    },
-    {
-     "th": "ผาสุข",
-     "rtgs": "pha-suk",
-     "ipa": "/pʰaː˩˩˦.suk̚˨˩/",
-     "gloss": {
-      "en": [
-       "[needs a gloss]"
-      ],
-      "th": "รูปสะกดผิดของ ผาสุก",
-      "conf": "unverified",
-      "src": [
-       "RID"
-      ]
-     },
-     "parts": [
-      "ผา",
-      "สุข"
-     ],
-     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.21, next 0.12",
-     "conf": "probable",
-     "src": [
-      "CUR",
-      "RID",
-      "WIKT"
-     ],
-     "pattern": "N+N",
-     "head": 1,
-     "lit_th": "หินที่เขา + สบายกายสบายใจ",
-     "frame": "entity"
     }
    ],
    "extends": 1,
@@ -767,6 +737,38 @@
    "lit": "-ness + happiness",
    "lit_th": "เรื่อง + ความสบายกายสบายใจ",
    "frame": "entity"
+  },
+  {
+   "th": "ผาสุข",
+   "rtgs": "pha-suk",
+   "ipa": "/pʰaː˩˩˦.suk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ ผาสุก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ผา",
+    "สุข"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.21, next 0.12",
+   "conf": "probable",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "หินที่เขา + ความสบายกายสบายใจ",
+   "frame": "entity",
+   "use": "spelling-variant",
+   "unfiled_from_sense": 2
   }
  ],
  "etymology": {

@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Photograph it — Amulet Essentials</title>
-<meta name="description" content="Photograph an amulet, or choose many from your gallery, and see which kinds each resembles — on your own device, nothing uploaded. Names the kind, never the authenticity.">
+<meta name="description" content="Photograph an amulet, or choose many from your gallery, and see which kinds each resembles, on your own device.">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
 <meta name="color-scheme" content="light dark">
-<meta property="og:title" content="Photograph it — Amulet Essentials"><meta property="og:description" content="Photograph an amulet, or choose many from your gallery, and see which kinds each resembles — on your own device, nothing uploaded. Names the kind, never the authenticity."><meta property="og:type" content="website">
+<meta property="og:title" content="Photograph it — Amulet Essentials"><meta property="og:description" content="Photograph an amulet, or choose many from your gallery, and see which kinds each resembles, on your own device."><meta property="og:type" content="website">
 <link rel="canonical" href="https://wichaa.net/amulets/identify/">
 <link rel="alternate" hreflang="th" href="https://wichaa.net/amulets/identify/"><link rel="alternate" hreflang="en" href="https://wichaa.net/amulets/identify/"><link rel="alternate" hreflang="x-default" href="https://wichaa.net/amulets/identify/">
 <link rel="manifest" href="../manifest.webmanifest">
@@ -69,14 +69,14 @@ footer{max-width:64rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.8
 <p id="status" class="tierline" aria-live="polite">…</p>
 <progress id="bar" max="100" hidden></progress>
 <p class="mute" lang="th">เลือกได้หลายรูป · เทียบในเครื่องคุณเอง รูปไม่ถูกส่งไปไหน · ตอบเป็น<em>ชนิด</em> ไม่ใช่แท้หรือไม่แท้</p>
-<p class="mute" lang="en">Many at once · compared on your own device, nothing uploaded · answers with the <em>kind</em>, never whether a piece is genuine.</p>
+<p class="mute" lang="en">Many at once, compared on your own device · answers with the <em>kind</em>.</p>
 <section id="haul" hidden>
   <h2 id="haulhead"></h2>
   <ul id="haullist" class="dirlist"></ul>
   <p><button id="copy" type="button" class="ghost">📋 คัดลอกสรุป · copy summary</button> <button id="share" type="button" class="ghost">↗ แชร์ · share</button> <button id="clear" type="button" class="ghost">🗑 ล้างทั้งหมด · clear all</button></p>
 </section>
 <div id="shots" class="shots"></div>
-<p class="legend">Photos and results stay in this browser only (IndexedDB), until you clear them. The recogniser (CLIP ViT-B/32, about 22 MB) downloads once and is cached; after that this page works offline. Install the site (Add to Home Screen) and it appears in your phone's Share sheet. Resemblance is to the catalogue's reference pictures — the kind, never the authenticity.</p>
+<p class="legend">Photos and results stay in this browser only (IndexedDB), until you clear them. The recogniser (CLIP ViT-B/32, about 22 MB) downloads once and is cached; after that this page works offline. Install the site (Add to Home Screen) and it appears in your phone's Share sheet. Resemblance is to the catalogue's reference pictures.</p>
 <script>window.IDENT={"imgBase": "https://wichaa.net/img", "siteUrl": "https://wichaa.net/amulets"};(function(){var u=new URL(location.href);var k=u.searchParams.get("kind");if(k)window.IDENT.kind=k;})();</script>
 <script>/* identify.js — "I photographed it", running entirely on the reader's device.
  *
